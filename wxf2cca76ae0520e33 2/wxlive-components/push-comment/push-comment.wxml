@@ -1,0 +1,20 @@
+<view class="{{'push-comment-transition '+(isShow?'push-comment__show':'push-comment__hide')}} {{screenType==='horizontal'?'push-comment__horizontal':''}} {{isIos?'push-comment__ios':'push-comment__android'}}">
+    <view bindtap="onClose" bindtouchstart="onClose" class="push-comment__mask"></view>
+    <view class="push-comment__box {{isPC?'push-comment__box__without__emoji':''}}">
+        <view class="push-comment">
+            <view class="push-comment__inner">
+                <view class="{{'push-comment__input-faker '+(curWriteCommentContent?'':'push-comment__input-faker__placeholder')}}">
+                    <view class="push-comment__input-faker__inner">{{curWriteCommentContent||placeholder}}</view>
+                </view>
+                <input autoHeight adjustPosition="{{screenType==='horizontal'?1:0}}" autoFocus="{{inputType==='normal'}}" bindblur="onBlur" bindconfirm="onConfirmInput" bindfocus="onFocus" bindinput="onInput" bindkeyboardheightchange="onKeyboardHeightChange" class="push-comment__input" confirmHold="{{true}}" confirmType="send" cursor="{{cursorIndex}}" cursorSpacing="22" focus="{{inputType==='normal'}}" holdKeyboard="true" keyboardAppearance="dark" maxlength="{{maxlength}}" placeholder="{{placeholder}}" placeholderStyle="color: rgba(255, 255, 255, 0.5)" showConfirmBar="{{false}}" value="{{curWriteCommentContent}}"></input>
+            </view>
+        </view>
+        <view class="push-comment__operation">
+            <view bindtap="switInputType" class="push-comment__send__btn {{'push-comment__operation-item '+(inputType!=='normal'?'push-comment__to__keyboard':'push-comment__to__emoji')}}" wx:if="{{screenType!=='horizontal'&&!isPC}}"></view>
+            <view bindtap="onConfirmInput" class="{{'push-comment__send__btn '+(isSendDisabled?'push-comment__send__btn__disabled':'')}}">发送</view>
+        </view>
+    </view>
+    <view class="push-comment-emoji-content">
+        <mp-emoji binddelemoji="deleteEmoji" bindinsertemoji="insertEmoji" bindsend="onConfirmInput" class="component__emoji" height="{{keyboardHeight}}" isSendDisabled="{{isSendDisabled}}" isShow="{{showEmojiInput}}" showHistory="{{showEmojiHistory}}" source="{{emojiSource}}"></mp-emoji>
+    </view>
+</view>

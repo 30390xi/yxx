@@ -1,0 +1,40 @@
+<view class="page-box data-v-38225f58">
+    <view bindtap="__e" class="row-box bet data-v-38225f58" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}">
+        <view class="label data-v-38225f58">证件类型</view>
+        <view class="select data-v-38225f58">{{''+$root.f0+''}}<u-icon bind:__l="__l" class="data-v-38225f58" color="#333333" name="arrow-right" size="20" style="margin-left:10rpx;" vueId="516a0804-1"></u-icon>
+        </view>
+    </view>
+    <ocr-index bind:__l="__l" class="data-v-38225f58" vueId="516a0804-2" vueSlots="{{['content']}}" wx:if="{{realCardType==0}}">
+        <view class="row-box data-v-38225f58" slot="content">
+            <view class="label data-v-38225f58">姓名</view>
+            <view class="value data-v-38225f58">
+                <u-input bind:__l="__l" bind:input="__e" border="{{border}}" class="data-v-38225f58" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','name','$event',[] ] ] ] ] ]}}" placeholder="请填写" type="text" value="{{name}}" vueId="{{'516a0804-3'+','+'516a0804-2'}}"></u-input>
+            </view>
+        </view>
+    </ocr-index>
+    <view class="row-box data-v-38225f58" wx:else>
+        <view class="label data-v-38225f58">姓名</view>
+        <view class="value data-v-38225f58">
+            <u-input bind:__l="__l" bind:input="__e" border="{{border}}" class="data-v-38225f58" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','name','$event',[] ] ] ] ] ]}}" placeholder="{{realCardType==1?'请按Surname/Given name格式填写':'请填写'}}" type="text" value="{{name}}" vueId="516a0804-4"></u-input>
+        </view>
+    </view>
+    <view class="row-box data-v-38225f58">
+        <view class="label data-v-38225f58">证件号码</view>
+        <view class="{{['value','data-v-38225f58',realCardType==0?'w390':'']}}">
+            <u-input bind:__l="__l" bind:input="__e" border="{{border}}" class="data-v-38225f58" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','idCarNo','$event',[] ] ] ] ] ]}}" placeholder="请填写" type="text" value="{{idCarNo}}" vueId="516a0804-5"></u-input>
+        </view>
+    </view>
+    <view class="row-box data-v-38225f58">
+        <view class="label data-v-38225f58">手机号</view>
+        <view class="value data-v-38225f58">
+            <u-input bind:__l="__l" bind:input="__e" border="{{border}}" class="data-v-38225f58" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','phone','$event',[] ] ] ] ] ]}}" placeholder="请填写" type="text" value="{{phone}}" vueId="516a0804-6"></u-input>
+        </view>
+    </view>
+    <view bindtap="__e" class="auth data-v-38225f58" data-event-opts="{{[ [ 'tap',[ [ 'setCheck',['$event'] ] ] ] ]}}">
+        <image class="checkedNo data-v-38225f58" mode="widthFix" src="https://eshopfile.zhiyousx.com/2026020617533436720.png" wx:if="{{!checked}}"></image>
+        <image class="checkedNo data-v-38225f58" mode="widthFix" src="https://eshopfile.zhiyousx.com/2026020617533186277.png" wx:else></image>
+        <view class="text data-v-38225f58" style="margin-left:5rpx;">我已阅读并同意授权以上信息用于产品预订及相关信息通知</view>
+    </view>
+    <view bindtap="__e" class="footer-box data-v-38225f58" data-event-opts="{{[ [ 'tap',[ [ 'editPassenger',['$event'] ] ] ] ]}}">确认</view>
+    <card-type bind:__l="__l" bind:chooseCardType="__e" bind:closePop="__e" class="data-v-38225f58" data-event-opts="{{[ [ '^chooseCardType',[ ['chooseCardType'] ] ],[ '^closePop',[ ['e1'] ] ] ]}}" realCardType="{{realCardType}}" realCardTypeCodes="{{realCardTypeCodes}}" showCardPop="{{showCardPop}}" vueId="516a0804-7"></card-type>
+</view>

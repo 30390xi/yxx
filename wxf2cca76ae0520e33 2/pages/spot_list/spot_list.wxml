@@ -1,0 +1,29 @@
+<view class="u-wrap data-v-1bc4667e">
+    <uni-navbar bind:__l="__l" class="data-v-1bc4667e" type="fixed" vueId="565360c8-1"></uni-navbar>
+    <view class="u-menu-wrap data-v-1bc4667e" wx:if="{{$root.g0>0}}">
+        <scroll-view class="u-tab-view menu-scroll-view data-v-1bc4667e" scrollWithAnimation="{{true}}" scrollY="{{true}}">
+            <view catchtap="__e" class="{{['u-tab-item','data-v-1bc4667e',current==index?'u-tab-item-active':'']}}" data-current="{{index}}" data-event-opts="{{[ [ 'tap',[ [ 'swichMenu',[index] ] ] ] ]}}" wx:for="{{tabbar}}" wx:key="index">
+                <text class="u-line-1 data-v-1bc4667e">{{item.cityName}}</text>
+            </view>
+        </scroll-view>
+        <scroll-view bindscrolltolower="__e" class="right-box data-v-1bc4667e" data-event-opts="{{[ [ 'scrolltolower',[ [ 'scrollToBottom',['$event'] ] ] ] ]}}" scrollY="{{true}}">
+            <view bindtap="__e" class="city-box data-v-1bc4667e" data-event-opts="{{[ [ 'tap',[ [ 'jumpCity',['$0'],['tabbar.'+current+''] ] ] ] ]}}">
+                <image class="city-img data-v-1bc4667e" mode="aspectFill" src="{{tabbar[current].cityPic}}"></image>
+                <view class="cityInfo data-v-1bc4667e">
+                    <view class="cityName data-v-1bc4667e">{{''+tabbar[current].cityName+''}}</view>
+                    <view class="cityTag data-v-1bc4667e">{{''+tabbar[current].cityTag+''}}</view>
+                </view>
+            </view>
+            <view bindtap="__e" class="item-box data-v-1bc4667e" data-event-opts="{{[ [ 'tap',[ [ 'jumpSpotDetail',['$0'],[ [ ['arrSpot','',index] ] ] ] ] ] ]}}" wx:for="{{arrSpot}}" wx:key="index">
+                <view class="img-box data-v-1bc4667e">
+                    <image class="data-v-1bc4667e" mode="aspectFill" src="{{item.pictureResources[0].resourcesUrl}}"></image>
+                </view>
+                <view class="name data-v-1bc4667e">
+                    <view class="ntext singleLineText data-v-1bc4667e">{{item.scenicName}}</view>
+                    <text class="data-v-1bc4667e" wx:if="{{item.isBookable}}">订</text>
+                </view>
+            </view>
+        </scroll-view>
+    </view>
+    <tab-bar bind:__l="__l" class="data-v-1bc4667e" vueId="565360c8-2"></tab-bar>
+</view>

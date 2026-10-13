@@ -1,0 +1,81 @@
+<view class="data-v-d5e135d6">
+    <uni-navbar bgColor="#FFFFFF" bind:__l="__l" class="data-v-d5e135d6" shadow="{{false}}" type="fixed" vueId="2ccb47f6-1" vueSlots="{{['default']}}">
+        <view bindtap="__e" class="searchBox data-v-d5e135d6" data-event-opts="{{[ [ 'tap',[ [ 'goSearch',['$event'] ] ] ] ]}}">
+            <icon class="data-v-d5e135d6" color="#c5c5c5" size="16" type="search"></icon>
+            <input bindblur="__e" bindinput="__e" class="searchInput data-v-d5e135d6" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '','searchText','$event',['trim'] ] ] ] ],[ 'blur',[ ['$forceUpdate'] ] ] ]}}" disabled="{{true}}" placeholder="搜索商品" placeholderStyle="color:#999999;font-weight:400" type="text" value="{{searchText}}"></input>
+        </view>
+    </uni-navbar>
+    <view class="nav data-v-d5e135d6">
+        <view class="sortNav data-v-d5e135d6">
+            <view bindtap="__e" class="{{['navItem','data-v-d5e135d6',index===sortIdx?'navItemActive':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'sortTab',[index] ] ] ] ]}}" wx:for="{{$root.l0}}" wx:key="index">{{''+item.$orig+''}}<view class="{{['sanjiaoxing1','data-v-d5e135d6',item.g1?'sanjiaoxing1y':'']}}" wx:if="{{index===$root.g0-1}}"></view>
+                <view class="{{['sanjiaoxing2','data-v-d5e135d6',item.g3?'sanjiaoxing2y':'']}}" wx:if="{{index===$root.g2-1}}"></view>
+            </view>
+        </view>
+        <view class="navIcon data-v-d5e135d6">
+            <image bindtap="__e" class="data-v-d5e135d6" data-event-opts="{{[ [ 'tap',[ [ 'listType',[0] ] ] ] ]}}" src="../../static/images/Switch_i@2x.png" wx:if="{{listTypeIcon==0}}"></image>
+            <image bindtap="__e" class="data-v-d5e135d6" data-event-opts="{{[ [ 'tap',[ [ 'listType',[1] ] ] ] ]}}" src="../../static/images/Switch_i2@2x.png" wx:else></image>
+        </view>
+    </view>
+    <view class="goodsBox data-v-d5e135d6" wx:if="{{listTypeIcon===0}}">
+        <view bindtap="__e" class="goodsItem data-v-d5e135d6" data-event-opts="{{[ [ 'tap',[ [ 'goGoodsDetails',['$0'],[ [ ['goodsList','',index,'itemId'] ] ] ] ] ] ]}}" wx:for="{{$root.l1}}" wx:key="index">
+            <u-lazy-load bind:__l="__l" borderRadius="8" class="data-v-d5e135d6" height="306" image="{{item.$orig.defaultPicUrl}}" imgMode="aspectFill" isEffect="{{false}}" vueId="{{'2ccb47f6-2-'+index}}"></u-lazy-load>
+            <view class="goodsInfo data-v-d5e135d6">
+                <view class="itemTitle multilineText2 data-v-d5e135d6">{{item.$orig.itemTitle}}</view>
+                <view class="itemSubTitle singleLineText data-v-d5e135d6" wx:if="{{item.$orig.itemSubTitle}}">{{item.$orig.itemSubTitle}}</view>
+                <view class="yh-box data-v-d5e135d6">
+                    <block wx:if="{{index<2}}" wx:for="{{item.$orig.huoDongArr}}" wx:for-item="huoDongObj">
+                        <image class="miao-sha data-v-d5e135d6" src="https://eshopfile.zhiyousx.com/2021091318044528261.png" wx:if="{{huoDongObj.type=='秒杀'}}"></image>
+                        <text class="itemRuter data-v-d5e135d6" wx:if="{{huoDongObj.type=='优惠券'}}">
+                            <block wx:if="{{item.$orig.couponFullAmount==0}}">{{'领券减'+item.$orig.couponAmount}}</block>
+                            <block wx:else>{{'满'+item.$orig.couponFullAmount+'减'+item.$orig.couponAmount}}</block>
+                        </text>
+                        <text class="itemRuter data-v-d5e135d6" wx:if="{{huoDongObj.type=='返现'}}">{{'返￥'+item.$orig.cashBackAmount}}</text>
+                        <text class="itemRuter data-v-d5e135d6" wx:if="{{huoDongObj.type=='分享赚'}}">{{'分享赚￥'+item.$orig.maxReward}}</text>
+                    </block>
+                </view>
+                <view class="numBox data-v-d5e135d6">
+                    <text class="num-pic data-v-d5e135d6" wx:if="{{item.$orig.productType===0}}">{{'￥'+item.$orig.minPrice+(item.$orig.priceType===1?'起':'')}}</text>
+                    <text class="num-pic data-v-d5e135d6" wx:if="{{item.$orig.productType===1}}">{{'￥'+item.$orig.marketPrice+'起'}}</text>
+                </view>
+                <view class="numBox data-v-d5e135d6">
+                    <text class="num-ys data-v-d5e135d6">{{item.f0+'人付款'}}</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="goodsBoxs data-v-d5e135d6" wx:else>
+        <view bindtap="__e" class="goodsItem data-v-d5e135d6" data-event-opts="{{[ [ 'tap',[ [ 'goGoodsDetails',['$0'],[ [ ['goodsList','',index,'itemId'] ] ] ] ] ] ]}}" wx:for="{{$root.l2}}" wx:key="index">
+            <view class="itemImg data-v-d5e135d6">
+                <u-lazy-load bind:__l="__l" borderRadius="8" class="data-v-d5e135d6" height="192" image="{{item.$orig.defaultPicUrl}}" imgMode="scaleToFill" isEffect="{{false}}" vueId="{{'2ccb47f6-3-'+index}}"></u-lazy-load>
+            </view>
+            <view class="itemLeft data-v-d5e135d6">
+                <view class="itemTitle multilineText2 data-v-d5e135d6">{{item.$orig.itemTitle}}</view>
+                <view class="itemSubTitle singleLineText data-v-d5e135d6" wx:if="{{item.$orig.itemSubTitle}}">{{item.$orig.itemSubTitle}}</view>
+                <view class="yh-box data-v-d5e135d6">
+                    <block wx:if="{{index<2}}" wx:for="{{item.$orig.huoDongArr}}" wx:for-item="huoDongObj">
+                        <image class="miao-sha data-v-d5e135d6" src="https://eshopfile.zhiyousx.com/2021091318044528261.png" wx:if="{{huoDongObj.type=='秒杀'}}"></image>
+                        <text class="itemRuter data-v-d5e135d6" wx:if="{{huoDongObj.type=='优惠券'}}">
+                            <block wx:if="{{item.$orig.couponFullAmount==0}}">{{'领券减'+item.$orig.couponAmount}}</block>
+                            <block wx:else>{{'满'+item.$orig.couponFullAmount+'减'+item.$orig.couponAmount}}</block>
+                        </text>
+                        <text class="itemRuter data-v-d5e135d6" wx:if="{{huoDongObj.type=='返现'}}">{{'返￥'+item.$orig.cashBackAmount}}</text>
+                        <text class="itemRuter data-v-d5e135d6" wx:if="{{huoDongObj.type=='分享赚'}}">{{'分享赚￥'+item.$orig.maxReward}}</text>
+                    </block>
+                </view>
+                <view class="numBox data-v-d5e135d6">
+                    <view class="numBox-l data-v-d5e135d6">
+                        <text class="num-pic data-v-d5e135d6" wx:if="{{item.$orig.productType===0}}">{{'￥'+item.$orig.minPrice+(item.$orig.priceType===1?'起':'')}}</text>
+                        <text class="num-pic data-v-d5e135d6" wx:if="{{item.$orig.productType===1}}">{{'￥'+item.$orig.marketPrice+'起'}}</text>
+                    </view>
+                    <text class="num-ys data-v-d5e135d6">{{item.f1+'人付款'}}</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="empty data-v-d5e135d6" wx:if="{{$root.g4}}">
+        <empty-state bind:__l="__l" class="data-v-d5e135d6" imgUrl="/static/captured/51d17a011d27445c.png" text="暂无数据" vueId="2ccb47f6-4"></empty-state>
+    </view>
+    <view class="loadMore data-v-d5e135d6">
+        <u-loadmore bgColor="#f7f7f7" bind:__l="__l" class="data-v-d5e135d6" color="#ccc" data-custom-hidden="{{!$root.g5}}" iconColor="#ccc" loadText="{{$root.a0}}" status="{{loadMore}}" vueId="2ccb47f6-5"></u-loadmore>
+    </view>
+</view>

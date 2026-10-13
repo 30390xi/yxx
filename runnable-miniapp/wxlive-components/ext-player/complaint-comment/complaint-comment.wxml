@@ -1,0 +1,31 @@
+<view class="report-comments" wx:if="{{pageStatus==='write'}}">
+    <mp-navigation-bar back="{{true}}" color="#ffffff" extClass="mode__navigation-bar"></mp-navigation-bar>
+    <view class="report-comments__head">
+        <view class="report-comments__head__title">被投诉的评论</view>
+        <view class="report-comments__head__main">
+            <image class="report-comments__head__main__head" mode="aspectFill" src="{{reportCommentAvatar}}"></image>
+            <view class="report-comments__head__main__body">
+                <view class="report-comments__nickname">{{reportCommentNickname}}</view>
+                <view class="report-comments__content">{{reportCommentContent}}</view>
+            </view>
+        </view>
+    </view>
+    <view class="report-comments__body">
+        <mp-cells title="选择投诉原因">
+            <mp-checkbox-group bindchange="onSelect" multi="{{false}}" prop="radio">
+                <mp-checkbox checked="{{item.checked}}" label="{{item.type}}" value="{{item.value}}" wx:for="{{reportItems}}" wx:key="unique"></mp-checkbox>
+            </mp-checkbox-group>
+        </mp-cells>
+    </view>
+    <view class="report-comments__foot">
+        <view bindtap="onSubmit" class="weui-btn weui-btn_primary {{disabledSubmitBtn?'weui-btn_disabled':''}}">提交投诉</view>
+    </view>
+</view>
+<view class="report-status" wx:if="{{pageStatus==='done'}}">
+    <mp-navigation-bar back="{{true}}" color="#ffffff" extClass="mode__navigation-bar"></mp-navigation-bar><mp-msg title="已成功提交投诉" type="success">
+        <view slot="desc">核实投诉内容后我们将及时反馈结果</view>
+        <view slot="handle">
+            <view bindtap="onClose" class="weui-btn weui-btn_default">我知道了</view>
+        </view>
+    </mp-msg>
+</view>

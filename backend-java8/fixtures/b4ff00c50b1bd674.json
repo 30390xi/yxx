@@ -1,0 +1,18 @@
+{
+  "code": 1,
+  "data": {
+    "paramKey": "GRAY_THEME_FLAG",
+    "paramName": "黑白滤镜配置",
+    "paramValue": "0",
+    "memo": "1 开启\n0 关闭",
+    "isConfigurable": 1,
+    "operatorType": 1,
+    "operatorId": "1",
+    "createTime": null,
+    "updateTime": "2022-12-07 19:09:25",
+    "isDeleted": 0,
+    "serviceType": 0
+  },
+  "msg": "成功",
+  "success": true
+}

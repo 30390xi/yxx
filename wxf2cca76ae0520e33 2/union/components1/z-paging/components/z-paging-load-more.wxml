@@ -1,0 +1,10 @@
+<view bindtap="__e" class="{{['zp-l-container','data-v-2c9186f8',c.unit==='rpx'?'zp-l-container-rpx':'',c.unit==='px'?'zp-l-container-px':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'doClick',['$event'] ] ] ] ]}}" style="{{$root.s0}}">
+    <block wx:if="{{!c.hideContent}}">
+        <text class="{{['data-v-2c9186f8',c.unit==='rpx'?'zp-l-line-rpx':'',c.unit==='px'?'zp-l-line-px':'']}}" style="{{$root.s1}}" wx:if="{{c.showNoMoreLine&&finalStatus===M.NoMore}}"></text>
+        <image class="{{['data-v-2c9186f8',true?'zp-l-line-loading-custom-image':'',c.loadingAnimated?'zp-l-line-loading-custom-image-animated':'',c.unit==='rpx'?'zp-l-line-loading-custom-image-rpx':'',c.unit==='px'?'zp-l-line-loading-custom-image-px':'']}}" src="{{c.loadingIconCustomImage}}" style="{{$root.s2}}" wx:if="{{finalStatus===M.Loading&&!!c.loadingIconCustomImage}}"></image>
+        <image class="{{['data-v-2c9186f8',true?'zp-line-loading-image':'',c.unit==='rpx'?'zp-line-loading-image-rpx':'',c.unit==='px'?'zp-line-loading-image-px':'']}}" src="{{zTheme.flower[ts]}}" style="{{$root.s3}}" wx:if="{{$root.g0}}"></image>
+        <text class="{{['zp-l-circle-loading-view','data-v-2c9186f8',c.unit==='rpx'?'zp-l-circle-loading-view-rpx':'',c.unit==='px'?'zp-l-circle-loading-view-px':'']}}" style="{{$root.s4}}" wx:if="{{$root.g1}}"></text>
+        <text class="{{['data-v-2c9186f8',c.unit==='rpx'?'zp-l-text-rpx':'',c.unit==='px'?'zp-l-text-px':'']}}" style="{{$root.s5}}" wx:if="{{!c.isChat||!c.chatDefaultAsLoading&&finalStatus===M.Default||finalStatus===M.Fail}}">{{ownLoadingMoreText}}</text>
+        <text class="{{['data-v-2c9186f8',c.unit==='rpx'?'zp-l-line-rpx':'',c.unit==='px'?'zp-l-line-px':'']}}" style="{{$root.s6}}" wx:if="{{c.showNoMoreLine&&finalStatus===M.NoMore}}"></text>
+    </block>
+</view>

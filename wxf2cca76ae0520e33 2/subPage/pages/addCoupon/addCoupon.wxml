@@ -1,0 +1,54 @@
+<view class="page-box data-v-2d77f3ed">
+    <input bindblur="__e" bindinput="__e" class="card-input data-v-2d77f3ed" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '','password','$event',['trim'] ] ] ] ],[ 'blur',[ ['$forceUpdate'] ] ] ]}}" placeholder="请输入兑换码，区分大小写" value="{{password}}"></input>
+    <view class="tip data-v-2d77f3ed" wx:if="{{showTips}}">兑换码有误，如有疑问请联系客服4000292296</view>
+    <view bindtap="__e" class="bind-but data-v-2d77f3ed" data-event-opts="{{[ [ 'tap',[ [ 'getUserCouponByPassword',['$event'] ] ] ] ]}}">绑定</view>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-2d77f3ed" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','show','$event',[] ] ] ] ] ]}}" mode="center" value="{{show}}" vueId="6b2d7d10-1" vueSlots="{{['default']}}">
+        <view class="card-box data-v-2d77f3ed">
+            <view class="t1 data-v-2d77f3ed">{{''+$root.f0+''}}</view>
+            <view class="t2 data-v-2d77f3ed" wx:if="{{cardInfo.useState==0}}">确认兑换后该券不得转赠，只可在当前账号使用</view>
+            <view class="card-box-popup data-v-2d77f3ed" wx:if="{{cardInfo.useState==0}}">
+                <view class="card-item-popup data-v-2d77f3ed" style="{{'height:'+(cardInfo.useTimeSlot==2?'255rpx':'200rpx')+';'}}">
+                    <image mode class="card-image data-v-2d77f3ed" src="https://eshopfile.zhiyousx.com/2023111315420708034.png" style="{{'height:'+(cardInfo.useTimeSlot==2?'280rpx':'200rpx')+';'}}" wx:if="{{cardInfo.useState==0}}"></image>
+                    <image mode class="card-image data-v-2d77f3ed" src="https://eshopfile.zhiyousx.com/2023111315433122810.png" style="{{'height:'+(cardInfo.useTimeSlot==2?'280rpx':'200rpx')+';'}}" wx:else></image>
+                    <view class="coupon-l data-v-2d77f3ed" style="{{'top:'+(cardInfo.useTimeSlot==2?'40rpx':'17rpx')+';'}}">
+                        <view class="{{['amount','data-v-2d77f3ed',cardInfo.useState!=0?'unable':'']}}">
+                            <view class="{{['amountNum','data-v-2d77f3ed',cardInfo.useState!=0?'unable':'']}}" wx:if="{{cardInfo.type==2||cardInfo.type==1}}">￥<text class="{{['data-v-2d77f3ed',cardInfo.useState!=0?'unable':'']}}" style="font-size:42rpx;color:#FF5411;">{{cardInfo.quota}}</text>
+                            </view>
+                            <view class="{{['amountNum','data-v-2d77f3ed',cardInfo.useState!=0?'unable':'']}}" wx:if="{{cardInfo.type==3}}">
+                                <text class="{{['data-v-2d77f3ed',cardInfo.useState!=0?'unable':'']}}" style="font-size:42rpx;color:#FF5411;">0</text>元购</view>
+                        </view>
+                        <view class="{{['amount-info','data-v-2d77f3ed',cardInfo.useState!=0?'unable':'']}}" wx:if="{{cardInfo.type==2&&cardInfo.threshold==0}}">无门槛</view>
+                        <view class="{{['amount-info','data-v-2d77f3ed',cardInfo.useState!=0?'unable':'']}}" wx:if="{{cardInfo.type==1&&cardInfo.threshold>0}}">{{'满'+cardInfo.threshold+'元可用'}}</view>
+                        <view class="{{['amount-info','data-v-2d77f3ed',cardInfo.useState!=0?'unable':'']}}" wx:if="{{cardInfo.type==3}}">{{'可抵扣'+cardInfo.deduction+'张'}}</view>
+                    </view>
+                    <view class="coupon-r data-v-2d77f3ed" style="{{'top:'+(cardInfo.useTimeSlot==2?'15rpx':'33rpx')+';'}}">
+                        <view class="{{['name','singleLineText','data-v-2d77f3ed',cardInfo.useState!=0?'unable':'']}}">{{''+cardInfo.name+''}}</view>
+                        <view class="{{['time','data-v-2d77f3ed',cardInfo.useState!=0?'unable':'']}}">{{''+$root.f1+''}}</view>
+                        <view class="{{['time','data-v-2d77f3ed',cardInfo.useState!=0?'unable':'']}}" style="{{'margin-top:'+'0rpx'+';'}}" wx:if="{{cardInfo.useTimeSlot==2}}">{{''+'可购买【'+cardInfo.useTimeStart+'-'+cardInfo.useTimeEnd+'】的'+(cardInfo.itemType===1?'门票':'线路产品')+''}}</view>
+                    </view>
+                    <view class="line data-v-2d77f3ed"></view>
+                    <view bindtap="__e" class="coupon-tips data-v-2d77f3ed" data-event-opts="{{[ [ 'tap',[ ['showCoupontips'] ] ] ]}}" wx:if="{{cardInfo.useExplain}}">
+                        <view class="{{['tips','data-v-2d77f3ed',cardInfo.useState!=0?'unable':'']}}" style="{{'width:'+tipWidth+'rpx'+';'}}">{{''+cardInfo.useExplain+''}}<view class="data-v-2d77f3ed" id="tips-in">{{''+cardInfo.useExplain+''}}</view>
+                        </view>
+                        <image mode class="tips-icon data-v-2d77f3ed" src="../../static/images/info.png" wx:if="{{showTipsImage}}"></image>
+                    </view>
+                </view>
+            </view>
+            <view class="data-v-2d77f3ed" style="height:120rpx;" wx:else></view>
+            <view class="but-popup data-v-2d77f3ed" wx:if="{{cardInfo.useState==0}}">
+                <view bindtap="__e" class="but data-v-2d77f3ed" data-event-opts="{{[ [ 'tap',[ [ 'closePop',['$event'] ] ] ] ]}}">再想想</view>
+                <view bindtap="__e" class="but but1 data-v-2d77f3ed" data-event-opts="{{[ [ 'tap',[ [ 'activationUserCoupon',['$event'] ] ] ] ]}}">确定</view>
+            </view>
+            <view bindtap="__e" class="butNot data-v-2d77f3ed" data-event-opts="{{[ [ 'tap',[ [ 'closePop',['$event'] ] ] ] ]}}" wx:if="{{cardInfo.useState!=0}}">确定</view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-2d77f3ed" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showOther','$event',[] ] ] ] ] ]}}" mode="center" value="{{showOther}}" vueId="6b2d7d10-2" vueSlots="{{['default']}}">
+        <view class="popup-other data-v-2d77f3ed">
+            <view class="title data-v-2d77f3ed">该优惠券已被兑换</view>
+            <view bindtap="__e" class="but-other data-v-2d77f3ed" data-event-opts="{{[ [ 'tap',[ [ 'closeOther',['$event'] ] ] ] ]}}">确定</view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-2d77f3ed" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showTip','$event',[] ] ] ] ] ]}}" mode="center" value="{{showTip}}" vueId="6b2d7d10-3" vueSlots="{{['default']}}">
+        <view class="popup-tips data-v-2d77f3ed">{{''+cardInfo.useExplain+''}}</view>
+    </u-popup>
+</view>

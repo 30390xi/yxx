@@ -1,0 +1,70 @@
+<view class="person-operation person-operation__{{screenType}} {{isBgMeeting?'person-operation__allenLive':''}} {{showPushComment?'person-operation__hidden':''}} {{!showCommentIcon?'person-operation__no-comment':''}} {{showRecord?'person-operation__video-dot':''}} {{showBacktoLiveIcon||showRecordListIcon?'person-operation__explain':''}}">
+    <view class="person-operation__inner">
+        <view class="person-operation__left" wx:if="{{showCommentIcon}}">
+            <button bindgetuserinfo="onGetUserInfo" class="person-operation__item person-operation__btn person-operation__comment" data-after="clickComment" wx:if="{{!isAuthored&&isWxaMode}}">
+                <view class="person-operation__item__inner mode-filter-black has-events">跟主播说点什么</view>
+            </button>
+            <button bindtap="clickComment" class="person-operation__item person-operation__btn person-operation__comment" wx:else>
+                <view class="person-operation__item__inner mode-filter-black has-events">跟主播说点什么</view>
+            </button>
+        </view>
+        <view class="person-operation__right">
+            <view class="person-operation__right__main">
+                <view catchtap="backtoLive" class="video-control__button video-control__button__backto-live" wx:if="{{showBacktoLiveIcon}}">
+                    <view class="video-control__button__backto-live__inner mode-filter-black has-events">
+                        <text class="video-control__button__text">直播现场</text>
+                    </view>
+                </view>
+                <view catchtap="clickShowVideoDotList" class="video-control__button video-control__button__backto-live video-control__button__back" wx:if="{{showRecordListIcon}}">
+                    <view class="video-control__button__backto-live__inner mode-filter-black has-events">
+                        <text class="video-control__button__text">商品讲解</text>
+                    </view>
+                </view>
+                <view class="person-operation__right__main__body">
+                    <view bindtap="clickStore" class="person-operation__item person-operation__btn person-operation__store" hidden="{{!showStoreIcon}}" id="storeBtn">
+                        <view class="person-operation__before-arrow {{couponPush?'person-operation__before-arrow__coupon':''}}" wx:if="{{(goodsPush||couponPush)&&!showRecord}}"></view>
+                        <view class="person-operation__store-btn has-events"></view>
+                        <canvas class="person-operation__store-btn__animation" id="person-operation__player__store-canvas" style="{{isIpad&&isBgMeeting?'width: 80px; height: 80px;':'width: 50px; height: 50px;'}}" type="2d" wx:if="{{!isPC}}"></canvas>
+                    </view>
+                    <view bindtap="clickSetting" class="person-operation__item person-operation__btn person-operation__setting" wx:if="{{showSettingIcon}}">
+                        <view class="person-operation__item__inner mode-filter-black has-events">
+                            <view class="person-operation__setting-btn icon__setting"></view>
+                        </view>
+                    </view>
+                    <view bindtap="clickOperationMore" class="person-operation__item person-operation__btn person-operation__more {{isClearScreen||showVideoDotList?'no-events':'has-events'}}" wx:if="{{showMoreIcon}}">
+                        <view class="person-operation__item__inner mode-filter-black">
+                            <view class="person-operation__forbid-btn icon__more"></view>
+                        </view>
+                    </view>
+                    <button bindtap="onClickShareAppMessageForFakeNative" class="person-operation__item person-operation__btn  person-operation__share {{isClearScreen||showVideoDotList?'no-events':'has-events'}}" id="shareBtn" wx:if="{{!hideShare&&!isHideLiveRoom&&isShareAppMessageForFakeNative}}">
+                        <view class="person-operation__item__inner mode-filter-black" size="mini">
+                            <view class="person-operation__share-btn__icon"></view>
+                        </view>
+                    </button>
+                    <button bindtap="openSharePanel" class="person-operation__item person-operation__btn  person-operation__share {{isClearScreen||showVideoDotList?'no-events':'has-events'}}" id="shareBtn" openType="{{!isClearScreen&&!showVideoDotList&&!isShowSharePanel?'share':''}}" wx:if="{{!hideShare&&!isHideLiveRoom&&!isShareAppMessageForFakeNative}}">
+                        <view class="person-operation__item__inner mode-filter-black" size="mini">
+                            <view class="person-operation__share-btn__icon"></view>
+                        </view>
+                    </button>
+                </view>
+            </view>
+            <view class="person-operation__item person-operation__like {{isClearScreen||showVideoDotList?'no-events':'has-events'}}" hidden="{{!showLikeIcon}}">
+                <canvas class="person-operation__like__animation" id="person-operation__player__like__sync-canvas" style="width: 110px; height: 355px; opacity: 0.4; bottom: {{showPushComment?'-999px':'0px'}}" type="2d" wx:if="{{!isPC}}"></canvas>
+                <canvas class="person-operation__like__animation" id="person-operation__player__like-canvas" style="width: 121px; height: 390px; opacity: 1;" type="2d" wx:if="{{!isPC}}"></canvas>
+                <view class="person-operation__item__info">
+                    <view class="person-operation__item__info__inner">{{likeTotalWording}}</view>
+                </view>
+                <button bindtap="onGetUserInfo" class="person-operation__btn person-operation__like-btn {{isClearScreen||showVideoDotList?'no-events':'has-events'}}" data-after="clickLike" id="likeBtn" wx:if="{{!isAuthored&&isWxaMode}}">
+                    <view class="person-operation__item__inner mode-filter-black">
+                        <view class="person-operation__like-btn__icon"></view>
+                    </view>
+                </button>
+                <button bindtap="clickLike" class="person-operation__btn person-operation__like-btn {{zoomclass?'person-operation__like-btn-active':''}} {{isClearScreen||showVideoDotList?'no-events':'has-events'}}" id="likeBtn" wx:else>
+                    <view class="person-operation__item__inner mode-filter-black">
+                        <view class="person-operation__like-btn__icon"></view>
+                    </view>
+                </button>
+            </view>
+        </view>
+    </view>
+</view>

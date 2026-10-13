@@ -1,0 +1,230 @@
+<view class="goodsBox u-skeleton data-v-286ae0e6" wx:if="{{commodityInfo}}">
+    <uni-navbar bind:__l="__l" class="data-v-286ae0e6 vue-ref" data-ref="navBar" scrollTop="{{scrollTop}}" type="transparentFixed" vueId="5c501ca8-1" vueSlots="{{['default']}}">
+        <view class="navBar data-v-286ae0e6">
+            <text bindtap="__e" class="{{['data-v-286ae0e6',navIdx===0?'activeNav':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'nabBtn',[0] ] ] ] ]}}">商品</text>
+            <text bindtap="__e" class="{{['data-v-286ae0e6',navIdx===1?'activeNav':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'nabBtn',[1] ] ] ] ]}}">详情</text>
+        </view>
+    </uni-navbar>
+    <view class="data-v-286ae0e6" wx:if="{{commodityInfo.isDeleted==0}}">
+        <view class="u-skeleton-rect data-v-286ae0e6">
+            <u-swiper bind:__l="__l" bind:click="__e" borderRadius="0" class="data-v-286ae0e6" data-event-opts="{{[ [ '^click',[ ['swiperBtn'] ] ] ]}}" height="740" indicatorActiveColor="#FF3709" indicatorColor="rgba(0,0,0,0.5)" indicatorPos="bottomRight" interval="5000" list="{{commodityInfo.itemPicUrls}}" vueId="5c501ca8-2"></u-swiper>
+        </view>
+        <view class="ms-box data-v-286ae0e6" wx:if="{{ticketDetailObj.seckillActivity==0}}">
+            <image class="ms-img data-v-286ae0e6" src="https://eshopfile.zhiyousx.com/2021080909304743729.png"></image>
+            <view class="left data-v-286ae0e6">
+                <view class="data-v-286ae0e6">{{'￥'+ticketDetailObj.seckillPrice}}</view>
+                <view class="data-v-286ae0e6">{{'￥'+ticketDetailObj.retailPrice}}</view>
+            </view>
+            <view class="right data-v-286ae0e6" wx:if="{{daoJiShiObj.second}}">
+                <view class="t data-v-286ae0e6">距离结束仅剩</view>
+                <view class="b data-v-286ae0e6">{{daoJiShiObj.hour+' : '+daoJiShiObj.minute+' : '+daoJiShiObj.second}}</view>
+            </view>
+        </view>
+        <view class="goodsPrice u-skeleton-rect data-v-286ae0e6" wx:else>
+            <view class="priceNum u-skeleton-rect data-v-286ae0e6" wx:if="{{commodityInfo.productType===0}}">
+                <text class="data-v-286ae0e6">{{'￥'+($root.g0>0?combinations[selectedIndex].price:'')+(commodityInfo.priceType===1?'起':'')}}</text>
+                <text class="data-v-286ae0e6">{{'￥'+commodityInfo.marketPrice}}</text>
+            </view>
+            <image bindtap="__e" class="data-v-286ae0e6" data-event-opts="{{[ [ 'tap',[ [ 'favBtn',['$event'] ] ] ] ]}}" src="{{commodityInfo.favorite===1?'https://eshopfile.zhiyousx.com/170065302018477577.png':'/static/images/collectno.png'}}" style="width:41rpx;height:39rpx;" wx:if="{{iconShow}}"></image>
+        </view>
+        <view class="fxBtn data-v-286ae0e6">
+            <view class="commission u-skeleton-rect data-v-286ae0e6" wx:if="{{userInfo&&userInfo.isFenxiao&&commodityInfo.maxReward>0}}">
+                <text class="fxText data-v-286ae0e6">分享赚</text>
+                <text class="fxPic data-v-286ae0e6">{{'￥'+commodityInfo.maxReward}}</text>
+            </view>
+        </view>
+        <view class="goodsInfo data-v-286ae0e6">
+            <view class="goodsName u-skeleton-rect data-v-286ae0e6">{{commodityInfo.itemTitle}}</view>
+            <view class="numBox u-skeleton-rect data-v-286ae0e6">
+                <text class="subTit data-v-286ae0e6" wx:if="{{commodityInfo.itemSubTitle}}">{{commodityInfo.itemSubTitle}}</text>
+                <text class="ys data-v-286ae0e6">{{'已售：'+$root.f0}}</text>
+            </view>
+            <image bindtap="__e" class="fav-img data-v-286ae0e6" data-event-opts="{{[ [ 'tap',[ [ 'favBtn',['$event'] ] ] ] ]}}" src="{{commodityInfo.favorite===1?'https://eshopfile.zhiyousx.com/170065302018477577.png':'/static/images/collectno.png'}}" style="width:41rpx;height:39rpx;" wx:if="{{ticketDetailObj.seckillActivity==0&&iconShow}}"></image>
+        </view>
+        <view class="intro-box data-v-286ae0e6" wx:if="{{$root.g1>0}}">
+            <view bindtap="__e" class="title-box data-v-286ae0e6" data-event-opts="{{[ [ 'tap',[ [ 'showYh',['$event'] ] ] ] ]}}" style="margin-bottom:0;">
+                <view class="left data-v-286ae0e6">
+                    <view class="name data-v-286ae0e6">优惠</view>
+                </view>
+                <view class="middle data-v-286ae0e6">
+                    <view class="item data-v-286ae0e6" wx:if="{{index<3}}" wx:for="{{couponArr}}">
+                        <block wx:if="{{item.couponFullAmount==0}}">{{item.couponAmount+'元无门槛券'}}</block>
+                        <block wx:else>{{'满'+item.couponFullAmount+'减'+item.couponAmount+'券'}}</block>
+                    </view>
+                </view>
+                <image class="right data-v-286ae0e6" src="../../static/images/jt.png"></image>
+            </view>
+        </view>
+        <view class="delivery data-v-286ae0e6">
+            <view class="selectItem u-skeleton-rect data-v-286ae0e6" wx:if="{{commodityInfo.isFictitious!=1}}">
+                <text class="data-v-286ae0e6">送至</text>
+                <view bindtap="__e" class="itemText data-v-286ae0e6" data-event-opts="{{[ [ 'tap',[ [ 'openPopup',[0] ] ] ] ]}}">
+                    <view class="itemAddres singleLineText data-v-286ae0e6">{{''+($root.g2>0?addressList[addresIdx].addrRegion1Name+addressList[addresIdx].addrRegion2Name+addressList[addresIdx].addrRegion3Name+addressList[addresIdx].addrStreet:'请选择')+''}}</view>
+                    <uni-icons bind:__l="__l" class="data-v-286ae0e6" color="#878787" size="14" type="arrowright" vueId="5c501ca8-3"></uni-icons>
+                </view>
+            </view>
+            <view class="selectItem u-skeleton-rect data-v-286ae0e6" wx:if="{{commodityInfo.productType==0&&commodityInfo.freightType!=2}}">
+                <text class="data-v-286ae0e6">运费</text>
+                <view class="itemText data-v-286ae0e6">
+                    <view class="itemAddres singleLineText data-v-286ae0e6">{{commodityInfo.freight>0?commodityInfo.freight:'免运费'}}</view>
+                </view>
+            </view>
+            <view class="selectItem u-skeleton-rect data-v-286ae0e6" wx:if="{{commodityInfo.originPlace}}">
+                <text class="data-v-286ae0e6" style="font-size:26rpx;">提示</text>
+                <view bindtap="__e" class="itemText data-v-286ae0e6" data-event-opts="{{[ [ 'tap',[ [ 'openPopup',[1] ] ] ] ]}}">
+                    <view class="itemAddres singleLineText data-v-286ae0e6" style="color:#9D9D9D;">{{commodityInfo.originPlace}}</view>
+                </view>
+            </view>
+        </view>
+        <block wx:if="{{$root.g3>0}}">
+            <view class="titleName data-v-286ae0e6" id="cpcs">产品参数</view>
+            <view class="parameter u-skeleton-rect data-v-286ae0e6">
+                <view class="parameItem data-v-286ae0e6" wx:for="{{notSalesList}}" wx:key="index">
+                    <text class="data-v-286ae0e6">{{item.propVal}}</text>
+                    <text class="data-v-286ae0e6">{{item.optionText}}</text>
+                </view>
+            </view>
+        </block>
+        <block wx:if="{{$root.g4>0}}">
+            <view class="titleName data-v-286ae0e6" id="sppl">商品评论</view>
+            <view class="comments u-skeleton-rect data-v-286ae0e6">
+                <view bindtap="__e" class="commentItem data-v-286ae0e6" data-event-opts="{{[ [ 'tap',[ [ 'goComments',['$event'] ] ] ] ]}}" wx:for="{{$root.l0}}" wx:key="index">
+                    <view class="itemTop data-v-286ae0e6">
+                        <view class="topLeft data-v-286ae0e6">
+                            <image class="data-v-286ae0e6" src="{{item.$orig.memberImage?item.$orig.memberImage:'/static/images/tt@2x.png'}}"></image>
+                            <text class="data-v-286ae0e6">{{item.$orig.commentPoints?item.$orig.commentPoints:'*匿名'}}</text>
+                        </view>
+                    </view>
+                    <text class="data-v-286ae0e6">{{item.$orig.createTime}}</text>
+                    <view class="itemText multilineText2 data-v-286ae0e6">{{item.$orig.commentContent}}</view>
+                    <view class="itemImg data-v-286ae0e6" wx:if="{{item.g5>0}}">
+                        <view class="imgItem data-v-286ae0e6" wx:for="{{item.$orig.picUrl}}" wx:for-index="idx" wx:for-item="pic" wx:key="idx">
+                            <u-lazy-load bind:__l="__l" catch:tap="__e" class="data-v-286ae0e6" data-event-opts="{{[ [ '^tap',[ [ 'commentsBtn',['$0',idx],[ [ ['commentsList','',index,'picUrl'] ] ] ] ] ] ]}}" height="220" image="{{pic}}" imgMode="scaleToFill" vueId="{{'5c501ca8-4-'+index+'-'+idx}}"></u-lazy-load>
+                        </view>
+                    </view>
+                </view>
+                <view bindtap="__e" class="commentsMore data-v-286ae0e6" data-event-opts="{{[ [ 'tap',[ [ 'goComments',['$event'] ] ] ] ]}}">更多评论></view>
+            </view>
+        </block>
+        <view class="titleName data-v-286ae0e6" id="spxq">产品详情</view>
+        <view class="richText data-v-286ae0e6">
+            <u-parse bind:__l="__l" class="data-v-286ae0e6 vue-ref" data-ref="article" html="{{commodityInfo.mdescription}}" lazyLoad="{{true}}" tagStyle="{{parseStyle}}" vueId="5c501ca8-5"></u-parse>
+        </view>
+        <view class="kefuData u-skeleton-rect data-v-286ae0e6" wx:if="{{parametersText}}">
+            <view bindtap="__e" class="itemText data-v-286ae0e6" data-event-opts="{{[ [ 'tap',[ [ 'openPopup',[2] ] ] ] ]}}">
+                <view class="itemAddres data-v-286ae0e6">{{''+(parametersText.paramValue?'客服电话：':'')+''}}<text class="data-v-286ae0e6">{{parametersText.paramValue?parametersText.paramValue:' '}}</text>
+                </view>
+                <view class="itemAddres data-v-286ae0e6">{{''+(parametersText.memo?'客服邮箱：':'')+''}}<text class="data-v-286ae0e6">{{parametersText.memo?parametersText.memo:''}}</text>
+                </view>
+            </view>
+        </view>
+        <block wx:if="{{commodityInfo}}">
+            <view class="goods-carts u-skeleton-rect data-v-286ae0e6" wx:if="{{commodityInfo.productType===0}}">
+                <uni-goods-nav bind:__l="__l" bind:buttonClick="__e" bind:click="__e" buttonGroup="{{buttonGrouplink}}" class="data-v-286ae0e6" data-event-opts="{{[ [ '^click',[ ['buttonClick'] ] ],[ '^buttonClick',[ ['goLink'] ] ] ]}}" fill="{{true}}" options="{{optionsNavlink}}" vueId="5c501ca8-6" wx:if="{{commodityInfo.isFictitious===1}}"></uni-goods-nav>
+                <block wx:else>
+                    <uni-goods-nav bind:__l="__l" bind:click="__e" buttonGroup="{{buttonGroupXJ}}" class="data-v-286ae0e6" data-event-opts="{{[ [ '^click',[ ['buttonClick'] ] ] ]}}" fill="{{true}}" options="{{optionsNav}}" vueId="5c501ca8-7" wx:if="{{commodityInfo.listStatus==2||commodityInfo.listStatus==0}}"></uni-goods-nav>
+                    <block wx:else>
+                        <uni-goods-nav bind:__l="__l" bind:click="__e" buttonGroup="{{buttonGroupNoStock}}" class="data-v-286ae0e6" data-event-opts="{{[ [ '^click',[ ['buttonClick'] ] ] ]}}" fill="{{true}}" options="{{optionsNav}}" vueId="5c501ca8-8" wx:if="{{commodityInfo.itemStock<1}}"></uni-goods-nav>
+                        <uni-goods-nav bind:__l="__l" bind:buttonClick="__e" bind:click="__e" buttonGroup="{{buttonGroup}}" class="data-v-286ae0e6" data-event-opts="{{[ [ '^click',[ ['buttonClick'] ] ],[ '^buttonClick',[ ['handleConfirm'] ] ] ]}}" fill="{{true}}" options="{{optionsNav}}" vueId="5c501ca8-9" wx:else></uni-goods-nav>
+                    </block>
+                </block>
+            </view>
+        </block>
+        <uni-popup bind:__l="__l" class="data-v-286ae0e6 vue-ref" data-ref="popup" type="bottom" vueId="5c501ca8-10" vueSlots="{{['default']}}">
+            <view class="popup data-v-286ae0e6">
+                <view class="popTitle data-v-286ae0e6">
+                    <text class="titleText data-v-286ae0e6">{{popupTitle}}</text>
+                    <uni-icons bind:__l="__l" bind:click="__e" class="data-v-286ae0e6" color="#c1c1c1" data-event-opts="{{[ [ '^click',[ ['closePopup'] ] ] ]}}" size="20" type="clear" vueId="{{'5c501ca8-11'+','+'5c501ca8-10'}}"></uni-icons>
+                </view>
+                <view class="popMain data-v-286ae0e6" scrollY="{{true}}">
+                    <block wx:if="{{popupType===0}}">
+                        <block wx:if="{{$root.g6>0}}">
+                            <scroll-view class="data-v-286ae0e6" scrollY="{{true}}" style="max-height:800rpx;">
+                                <radio-group bindchange="__e" class="data-v-286ae0e6" data-event-opts="{{[ [ 'change',[ [ 'radioChange',['$event'] ] ] ] ]}}">
+                                    <view class="data-v-286ae0e6" wx:for="{{addressList}}" wx:key="addrId">
+                                        <label class="radioItem data-v-286ae0e6">
+                                            <radio checked="{{index===addresIdx}}" class="radioIcon data-v-286ae0e6" color="#ff4643" value="{{item.addrId}}"></radio>
+                                            <text class="data-v-286ae0e6">{{item.addrRegion1Name+item.addrRegion2Name+item.addrRegion3Name+item.addrStreet}}</text>
+                                        </label>
+                                    </view>
+                                </radio-group>
+                            </scroll-view>
+                            <button bindtap="__e" class="popupBtn data-v-286ae0e6" data-event-opts="{{[ [ 'tap',[ [ 'goAddress',['$event'] ] ] ] ]}}">选择其它收货地址</button>
+                        </block>
+                        <block wx:else>
+                            <u-empty bind:__l="__l" class="data-v-286ae0e6" mode="address" text="收货地址为空" vueId="{{'5c501ca8-12'+','+'5c501ca8-10'}}"></u-empty>
+                            <button bindtap="__e" class="popupBtn data-v-286ae0e6" data-event-opts="{{[ [ 'tap',[ [ 'goAddress',['$event'] ] ] ] ]}}">
+                                <uni-icons bind:__l="__l" class="data-v-286ae0e6" color="#ff4643" size="16" type="plusempty" vueId="{{'5c501ca8-13'+','+'5c501ca8-10'}}"></uni-icons>添加收货地址</button>
+                        </block>
+                    </block>
+                    <block wx:else>
+                        <block wx:if="{{popupType===1}}">
+                            <text class="data-v-286ae0e6" style="color:#858585;">{{commodityInfo.originPlace?commodityInfo.originPlace:'无'}}</text>
+                            <button bindtap="__e" class="popupBtn data-v-286ae0e6" data-event-opts="{{[ [ 'tap',[ [ 'closePopup',['$event'] ] ] ] ]}}">确定</button>
+                        </block>
+                        <block wx:else>
+                            <view bindtap="__e" class="data-v-286ae0e6" data-event-opts="{{[ [ 'tap',[ [ 'makePhoneCall',['$event'] ] ] ] ]}}" style="color:#858585;">{{''+(parametersText.paramValue?'客服电话 '+parametersText.paramValue:' ')+''}}</view>
+                            <view class="data-v-286ae0e6" style="color:#858585;">{{''+(parametersText.memo?parametersText.memo:'')+''}}</view>
+                            <button bindtap="__e" class="popupBtn data-v-286ae0e6" data-event-opts="{{[ [ 'tap',[ [ 'closePopup',['$event'] ] ] ] ]}}">确定</button>
+                        </block>
+                    </block>
+                </view>
+            </view>
+        </uni-popup>
+        <echone-sku bind:__l="__l" bind:close="__e" bind:confirm="__e" bind:skubtn="__e" bind:skuidx="__e" class="data-v-286ae0e6 vue-ref" combinations="{{combinations}}" combinationsProps="{{combinationsProps}}" data-event-opts="{{[ [ '^skuidx',[ ['getSkuIndex'] ] ],[ '^close',[ ['handleClose'] ] ],[ '^skubtn',[ ['addShop'] ] ],[ '^confirm',[ ['handleConfirm'] ] ] ]}}" data-ref="echoneSku" defaultPicUrl="{{commodityInfo.defaultPicUrl}}" defaultSelectIndex="{{selectedIndex}}" show="{{skuShow}}" specifications="{{specifications}}" specificationsProps="{{specificationsProps}}" themeColor="#ff4643" vueId="5c501ca8-14"></echone-sku>
+        <aui-actionmenu bind:__l="__l" bind:callback="__e" class="data-v-286ae0e6 vue-ref" data-event-opts="{{[ [ '^callback',[ ['actionmenuCallback'] ] ] ]}}" data-ref="actionmenu" items="{{auiActionmenu.items}}" theme="{{auiActionmenu.theme}}" vueId="5c501ca8-15"></aui-actionmenu>
+        <hch-poster bind:__l="__l" bind:cancel="__e" bind:updateCanvasFlag="__e" bind:updatePosterObj="__e" canvasFlag="{{canvasFlag}}" class="data-v-286ae0e6 vue-ref" data-event-opts="{{[ [ '^updateCanvasFlag',[ [ '__set_sync',['$0','canvasFlag','$event'],[''] ] ] ],[ '^updateCanvasFlag',[ [ '__set_sync',['$0','canvasFlag','$event'],[''] ] ] ],[ '^cancel',[ ['canvasCancel'] ] ],[ '^updatePosterObj',[ [ '__set_sync',['$0','posterData','$event'],[''] ] ] ],[ '^updatePosterObj',[ [ '__set_sync',['$0','posterData','$event'],[''] ] ] ] ]}}" data-ref="hchPoster" posterObj="{{posterData}}" vueId="5c501ca8-16"></hch-poster>
+        <view class="data-v-286ae0e6" wx:if="{{canvasFlag}}">
+            <canvas canvasId="myCanvas" class="canvas data-v-286ae0e6"></canvas>
+        </view>
+        <view class="yh-mask data-v-286ae0e6" wx:if="{{showYhMask}}">
+            <view bindtap="__e" class="bg data-v-286ae0e6" data-event-opts="{{[ [ 'tap',[ [ 'showYh',['$event'] ] ] ] ]}}"></view>
+            <view class="content data-v-286ae0e6">
+                <view bindtap="__e" class="close data-v-286ae0e6" data-event-opts="{{[ [ 'tap',[ [ 'showYh',['$event'] ] ] ] ]}}">X</view>
+                <view class="item-list data-v-286ae0e6">
+                    <view class="{{['item','data-v-286ae0e6',item.$orig.couponStates==2?'yqg':'',item.$orig.couponStates==3?'ylq':'']}}" wx:for="{{$root.l1}}">
+                        <view class="top data-v-286ae0e6">
+                            <view class="left data-v-286ae0e6">
+                                <view class="p1 data-v-286ae0e6">
+                                    <text class="data-v-286ae0e6">￥</text>
+                                    <text class="data-v-286ae0e6">{{item.$orig.quota}}</text>
+                                </view>
+                                <view class="p2 data-v-286ae0e6">
+                                    <block wx:if="{{item.$orig.threshold>0}}">{{'满'+item.$orig.threshold+'可用'}}</block>
+                                    <block wx:else>无门槛</block>
+                                </view>
+                            </view>
+                            <view class="middle data-v-286ae0e6">
+                                <view class="p1 data-v-286ae0e6">{{item.$orig.name}}</view>
+                                <view class="p2 data-v-286ae0e6">
+                                    <block wx:if="{{item.$orig.useTimeSlot>0}}">
+                                        <block wx:if="{{item.$orig.couponStates==3}}">{{item.f1+'前有效'}}</block>
+                                        <block wx:else>{{'领券后'+item.$orig.useTimeSlot+'小时内有效'}}</block>
+                                    </block>
+                                    <block wx:else>{{item.f2+'-'+item.f3}}</block>
+                                </view>
+                            </view>
+                            <view bindtap="__e" class="right data-v-286ae0e6" data-event-opts="{{[ [ 'tap',[ [ 'receiveCoupon',['$0','$1'],[ [ ['couponDetailArr','',index,'couponId'] ],[ ['couponDetailArr','',index,'couponStates'] ] ] ] ] ] ]}}">
+                                <block wx:if="{{item.$orig.couponStates==1}}">领取</block>
+                                <block wx:if="{{item.$orig.couponStates==2}}">已抢光</block>
+                                <block wx:if="{{item.$orig.couponStates==3}}">已领取</block>
+                            </view>
+                            <image mode bindtap="__e" class="{{['jt','data-v-286ae0e6',index==tapIndex?'extend':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'showMore',[index] ] ] ] ]}}" src="{{'../../static/images/'+(item.$orig.couponStates==1?'xiala.png':'xiala2.png')}}"></image>
+                        </view>
+                        <view class="{{['bottom','data-v-286ae0e6',index==tapIndex?'extend':'']}}">{{''+item.$orig.useExplain+''}}</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <u-skeleton animation="{{true}}" bind:__l="__l" class="data-v-286ae0e6" loading="{{loadingStatus}}" vueId="5c501ca8-17"></u-skeleton>
+    </view>
+    <empty-state bind:__l="__l" class="data-v-286ae0e6" imgUrl="https://eshopfile.zhiyousx.com/noGoods@2x.png" text="暂无商品信息" vueId="5c501ca8-18" wx:else></empty-state>
+    <l-painter bind:__l="__l" bind:success="__e" class="data-v-286ae0e6" css="width: 452rpx; height:363rpx;position:fixed;bottom:0;left:0;" customStyle="position: fixed; left: 200%" data-event-opts="{{[ [ '^success',[ ['e0'] ] ] ]}}" isCanvasToTempFilePath="{{true}}" vueId="5c501ca8-19" vueSlots="{{['default']}}" wx:if="{{showPainter}}">
+        <l-painter-image bind:__l="__l" class="data-v-286ae0e6" css="object-fit: cover; object-position: 50% 50%;width:452rpx;height:362rpx;" src="{{commodityInfo.defaultPicUrl}}" vueId="{{'5c501ca8-20'+','+'5c501ca8-19'}}"></l-painter-image>
+        <l-painter-view bind:__l="__l" class="data-v-286ae0e6" css="position:absolute;width:452rpx;height:82rpx;bottom:00rpx;left:0; background:#ffffff;" vueId="{{'5c501ca8-21'+','+'5c501ca8-19'}}" vueSlots="{{['default']}}">
+            <l-painter-text bind:__l="__l" class="data-v-286ae0e6" css="vertical-align: middle;font-size:32rpx;font-weight:600;line-height:82rpx;color:#FF5411;margin-left:20rpx;" text="{{commodityInfo.seckillActivity==0?'￥'+commodityInfo.seckillPrice:'￥'+combinations[selectedIndex].price}}" vueId="{{'5c501ca8-22'+','+'5c501ca8-21'}}"></l-painter-text>
+            <l-painter-text bind:__l="__l" class="data-v-286ae0e6" css="vertical-align: center; font-size: 20rpx;line-height:82rpx;text-decoration:line-through;margin-left:10rpx;color:#D0D0D0;" text="{{'￥'+commodityInfo.marketPrice}}" vueId="{{'5c501ca8-23'+','+'5c501ca8-21'}}"></l-painter-text>
+            <l-painter-text bind:__l="__l" class="data-v-286ae0e6" css="height:60rpx;margin-top:11rpx;background:linear-gradient(56deg, #FC4A9E 0%, #FF5411 100%);width:200rpx;position:absolute;text-align:center;font-size:26rpx;color:#ffffff;border-radius:30rpx;right:11rpx;bottom:11rpx;" text="立即购买" vueId="{{'5c501ca8-24'+','+'5c501ca8-21'}}"></l-painter-text>
+        </l-painter-view>
+    </l-painter>
+</view>

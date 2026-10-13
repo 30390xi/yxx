@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Node
+node_modules/
+dist/
+
+# Build output
+build/
+
+# IDE
+.idea/
+.vscode/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+
+# Logs
+*.log
+
+# Env / secrets
+.env
+.env.*

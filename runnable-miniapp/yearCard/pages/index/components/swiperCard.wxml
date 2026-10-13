@@ -1,0 +1,21 @@
+<view class="container data-v-0ddee56c">
+    <swiper bindchange="__e" class="swiper-card data-v-0ddee56c" current="{{current}}" data-event-opts="{{[ [ 'change',[ [ 'changeIndex',['$event'] ] ] ] ]}}" nextMargin="85rpx" previousMargin="85rpx">
+        <swiper-item class="swiper-item data-v-0ddee56c" wx:for="{{list}}" wx:key="index">
+            <view class="{{['data-v-0ddee56c',current===index?'slide-image active':'slide-image']}}">
+                <view class="box data-v-0ddee56c" style="{{'background-image:'+'url('+item.image+')'+';'+'background-position:'+'center center'+';'+'background-size:'+'cover'+';'}}">
+                    <view class="box-tag data-v-0ddee56c">
+                        <text class="data-v-0ddee56c">{{item.sellPrice}}</text>元/张</view>
+                    <view class="data-v-0ddee56c">
+                        <view class="title data-v-0ddee56c">{{item.title}}</view>
+                        <view class="desc data-v-0ddee56c">{{item.subTitle}}</view>
+                    </view>
+                    <view class="data-v-0ddee56c">
+                        <view class="desc-tag data-v-0ddee56c">最多可省</view>
+                        <view bindtap="__e" class="desc data-v-0ddee56c" data-event-opts="{{[ [ 'tap',[ [ 'emitCalculator',['$0'],[ [ ['list','',index] ] ] ] ] ] ]}}">{{item.cost+'元'}}<image class="data-v-0ddee56c" src="https://eshopfile.zhiyousx.com/2023103010294092995.png"></image>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </swiper-item>
+    </swiper>
+</view>

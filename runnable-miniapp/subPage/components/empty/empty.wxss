@@ -1,0 +1,1 @@
+.empty{align-items:center;display:-webkit-flex;display:flex;flex-direction:column;justify-content:center;margin:30%0}.empty image{display:block;width:318rpx}.empty text{color:#999;font-size:28rpx;margin-top:46rpx}

@@ -1,0 +1,8 @@
+<view class="u-tabs data-v-f87c8c7e" id="{{id}}" style="{{'background:'+bgColor+';'}}">
+    <scroll-view class="u-scroll-view data-v-f87c8c7e" scrollLeft="{{scrollLeft}}" scrollWithAnimation="{{true}}" scrollX="{{true}}">
+        <view class="{{['u-scroll-box','data-v-f87c8c7e',!isScroll?'u-tabs-scorll-flex':'']}}">
+            <view bindtap="__e" class="u-tab-item data-v-f87c8c7e" data-event-opts="{{[ [ 'tap',[ [ 'clickTab',[index] ] ] ] ]}}" id="{{'u-tab-item-'+index}}" style="{{item.s0}}" wx:for="{{$root.l0}}" wx:key="index">{{''+( item.$orig[name]||item.$orig['name'] )+''}}</view>
+            <view class="u-tab-bar data-v-f87c8c7e" style="{{$root.s1}}" wx:if="{{showBar}}"></view>
+        </view>
+    </scroll-view>
+</view>

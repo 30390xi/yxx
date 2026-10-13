@@ -1,0 +1,25 @@
+<view class="page-box page-box-image2 data-v-10bfc8f3">
+    <view class="loading-mask data-v-10bfc8f3" wx:if="{{loading||!flowId}}">
+        <view class="loading-spinner data-v-10bfc8f3"></view>
+        <view class="loading-text data-v-10bfc8f3">加载中...</view>
+    </view>
+    <uni-navbar bind:__l="__l" class="data-v-10bfc8f3" type="transparentFixed" vueId="52b92e68-1"></uni-navbar>
+    <image mode class="video_box1 data-v-10bfc8f3" src="https://eshopfile.zhiyousx.com/175021251389353595.jpg" wx:if="{{showImage}}"></image>
+    <video class="video_box video_box4 data-v-10bfc8f3" controls="{{false}}" id="myVideo3" loop="{{true}}" muted="{{true}}" src="https://eshopfile.zhiyousx.com/2024121814473092347.mp4" style="{{'opacity:'+opacity+';'+'z-index:'+(typeVideo==3?'10':'1')+';'}}"></video>
+    <video autoplay="{{true}}" bindloadedmetadata="__e" class="video_box video_box5 data-v-10bfc8f3" controls="{{false}}" data-event-opts="{{[ [ 'loadedmetadata',[ [ 'loadedmetadata',['$event'] ] ] ] ]}}" id="myVideo4" loop="{{true}}" muted="{{true}}" src="https://eshopfile.zhiyousx.com/2024122710555208245.mp4" style="{{'opacity:'+opacity+';'+'z-index:'+(typeVideo==4?'10':'1')+';'}}"></video>
+    <z-paging bind:__l="__l" bind:input="__e" bottomBgColor="#ffffff" class="page-box-image22 data-v-10bfc8f3 vue-ref" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','dataList','$event',[] ] ] ] ] ]}}" data-ref="paging" safeAreaInsetBottom="{{isIos}}" style="position:fixed;z-index:11;" toBottomLoadingMoreEnabled="{{true}}" useChatRecordMode="{{true}}" value="{{dataList}}" vueId="52b92e68-2" vueSlots="{{['default','top','bottom']}}">
+        <view class="data-v-10bfc8f3" slot="top" style="height:300rpx;width:100%;"></view>
+        <chat-input-bar bg="{{true}}" bind:__l="__l" bind:clearData="__e" bind:clearDataStop="__e" bind:resetTravel="__e" bind:send="__e" bind:setShowHide="__e" bind:setcolse="__e" bind:stopSpeak="__e" class="data-v-10bfc8f3 vue-ref" data-event-opts="{{[ [ '^stopSpeak',[ ['stopSpeak'] ] ],[ '^resetTravel',[ ['resetTravel'] ] ],[ '^setShowHide',[ ['setShowHide'] ] ],[ '^clearData',[ ['clearData'] ] ],[ '^clearDataStop',[ ['clearDataStop'] ] ],[ '^setcolse',[ ['setcolse'] ] ],[ '^send',[ ['doSend'] ] ] ]}}" data-ref="inputBar" delayBtn="{{delayBtn}}" detail="{{spotDetail}}" isHistory="{{isHistory}}" isIos="{{isIos}}" isStrategy="{{isStrategy}}" pushingProgress="{{pushingProgress}}" pushingProgressShow="{{pushingProgressShow}}" showHide="{{showHide}}" slot="bottom" vueId="{{'52b92e68-3'+','+'52b92e68-2'}}" wx:if="{{!isHistory}}"></chat-input-bar>
+        <view class="data-v-10bfc8f3" style="width:100%;height:60rpx;"></view>
+        <view class="data-v-10bfc8f3" style="position:relative;" wx:for="{{dataList}}" wx:key="index">
+            <view class="data-v-10bfc8f3" style="transform:scaleY(-1);">
+                <chat-item bind:__l="__l" bind:clickShare="__e" bind:exclusive="__e" bind:resetTravel="__e" bind:stopSpeak="__e" class="data-v-10bfc8f3" data-event-opts="{{[ [ '^resetTravel',[ ['resetTravel'] ] ],[ '^exclusive',[ ['exclusive'] ] ],[ '^stopSpeak',[ ['stopSpeak'] ] ],[ '^clickShare',[ ['clickShare'] ] ] ]}}" dataList="{{dataList}}" item="{{item}}" newVal="{{newVal}}" pushingProgress="{{pushingProgress}}" sessionId="{{flowId}}" vueId="{{'52b92e68-4-'+index+','+'52b92e68-2'}}"></chat-item>
+            </view>
+        </view>
+        <view class="data-v-10bfc8f3" style="position:relative;" wx:for="{{historyList}}" wx:key="index">
+            <view class="data-v-10bfc8f3" style="transform:scaleY(-1);">
+                <chat-item-card bind:__l="__l" bind:clickShare="__e" bind:deleteCard="__e" bind:exclusive="__e" bind:stopSpeak="__e" class="data-v-10bfc8f3" data-event-opts="{{[ [ '^exclusive',[ ['exclusive'] ] ],[ '^deleteCard',[ ['deleteCard'] ] ],[ '^stopSpeak',[ ['stopSpeak'] ] ],[ '^clickShare',[ ['clickShare'] ] ] ]}}" isHistory="{{isHistory}}" item="{{item}}" newVal="{{newVal}}" pushingProgress="{{pushingProgress}}" vueId="{{'52b92e68-5-'+index+','+'52b92e68-2'}}"></chat-item-card>
+            </view>
+        </view>
+    </z-paging>
+</view>

@@ -1,0 +1,11 @@
+<view class="activity-card">
+    <view class="activity-card__inner">
+        <view class="{{systemTrig.type==='store'?'activity-card__item activity-card__item__store':'activity-card__item'}} {{fadeIn?' fadeInOut':''}}" wx:if="{{systemTrig.nickname||systemTrig.content}}">
+            <view class="activity-card__item__inner">
+                <view class="activity-card__item__icon activity-card__item__icon__store" wx:if="{{systemTrig.type==='store'}}"></view>
+                <text class="activity-card__item__info">
+                    <text class="activity-card__item__info__nickname">{{systemTrig.nickname}}</text>{{systemTrig.content}}</text>
+            </view>
+        </view>
+    </view>
+</view>

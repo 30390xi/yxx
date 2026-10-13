@@ -1,0 +1,81 @@
+<view class="chat-item">
+    <view class="{{[true?'chat-container':'',item.type==1?'chat-location-me':'']}}">
+        <view class="chat-content-container">
+            <view class="chat-text-container-super" style="{{'justify-content:'+(item.type==1?'flex-end':'flex-start')+';'}}">
+                <view class="{{[true?'chat-text-container':'',item.type==1?'chat-text-container-me':'',item.type!=1?'chat-text-container-no':'']}}">
+                    <view class="bubble">
+                        <view class="{{[true?'chat-text':'']}}">
+                            <view class="text-warp" space="nbsp" userSelect="true" wx:if="{{item.content&&item.isText}}">{{''+item.content+''}}</view>
+                            <view space="nbsp" userSelect="true" wx:if="{{item.content&&!item.isText}}">
+                                <zero-markdown-view bind:__l="__l" markdown="{{item.content}}" vueId="8c1c50c4-1"></zero-markdown-view>
+                            </view>
+                            <view class="loading-box" wx:if="{{!item.content&&!item.strategy&&!item.conclusion}}">正在思考中<view class="loading">
+                                    <view class="pot"></view>
+                                    <view class="pot"></view>
+                                    <view class="pot"></view>
+                                </view>
+                            </view>
+                            <view bindtap="__e" class="travelBtn" data-event-opts="{{[ [ 'tap',[ [ 'resetTravel',['$event'] ] ] ] ]}}" wx:if="{{item.redirectContent}}">
+                                <image class="ai" src="https://eshopfile.zhiyousx.com/175153136103574217.png"></image>旅行搭子<image class="icon" src="https://eshopfile.zhiyousx.com/175153148262435174.png"></image>
+                            </view>
+                            <view bindtap="__e" class="travelBtn" data-event-opts="{{[ [ 'tap',[ [ 'changePlan',['$event'] ] ] ] ]}}" wx:if="{{item.changeAnswer}}">
+                                <image class="ai" src="https://eshopfile.zhiyousx.com/175153136103574217.png"></image>重新规划<image class="icon" src="https://eshopfile.zhiyousx.com/175153148262435174.png"></image>
+                            </view>
+                            <view class="strategy-title" wx:if="{{item.strategy}}">快来查看详细攻略吧</view>
+                            <view style="width:100%;margin-top:30rpx;" wx:if="{{$root.g0}}">
+                                <scroll-view class="card-item" scrollX="true">
+                                    <view class="card-item-count">
+                                        <view bindtap="__e" class="card-item-box" data-event-opts="{{[ [ 'tap',[ [ 'scenicDetails',['$0'],[ [ ['item.list','id',el.$orig.id] ] ] ] ] ] ]}}" style="{{'margin-right:'+(i<el.g1-1?'20rpx':'0')+';'}}" wx:for="{{$root.l1}}" wx:for-index="i" wx:for-item="el" wx:key="id">
+                                            <view class="card-type">景区</view>
+                                            <image class="card-image" lazyLoad="false" mode="aspectFill" src="{{el.$orig.mainPic}}"></image>
+                                            <view class="card-name">{{''+el.$orig.name+''}}</view>
+                                            <view class="tag-item-box parent" wx:if="{{el.g2}}">
+                                                <view class="tag-item child" wx:if="{{index<3}}" wx:for="{{el.l0}}" wx:for-item="ele" wx:key="index">{{ele+''}}</view>
+                                            </view>
+                                        </view>
+                                    </view>
+                                </scroll-view>
+                            </view>
+                            <view bindtap="__e" class="strategy-content" data-event-opts="{{[ [ 'tap',[ [ 'cardDetails',['$event'] ] ] ] ]}}" wx:if="{{item.strategy}}">
+                                <view class="strategy-content-map">
+                                    <view catchtap="__e" class="clickMask" data-event-opts="{{[ [ 'tap',[ [ 'cardDetails',['$event'] ] ] ] ]}}"></view>
+                                    <map class="vue-ref" data-ref="map" enableBuilding="{{true}}" enablePoi="{{true}}" enableRotate="{{false}}" enableScroll="{{false}}" enableZoom="{{false}}" id="map" latitude="{{map.latitude}}" layerStyle="1" longitude="{{map.longitude}}" markers="{{markers}}" polyline="{{polyline}}" scale="{{map.scale}}" style="width:100%;height:100%;" subkey="{{subkey}}"></map>
+                                    <view class="loading" wx:if="{{mapLoading}}">
+                                        <view class="img_box">
+                                            <image class="loading_img" src="/static/captured/79cac93e03941197.gif"></image>
+                                        </view>
+                                    </view>
+                                </view>
+                                <view class="strategy-content-title">
+                                    <text class="title">{{item.strategyContent.city+item.strategyContent.day+'日游'}}</text>
+                                    <button catchtap="__e" class="shareBtn" data-event-opts="{{[ [ 'tap',[ ['share'] ] ] ]}}" hoverClass="none" hoverStayTime="0" openType="share"></button>
+                                </view>
+                                <view class="strategy-content-tabs">
+                                    <text>{{item.strategyContent.day+'天 | '+$root.g3+'个地点'}}</text>
+                                </view>
+                                <scroll-view class="tagsScroll" scrollX="{{false}}" scrollY="{{false}}" style="{{'height:'+(tagsExpanded?tagsHeight+'px':'54rpx')+';'}}">
+                                    <view class="strategy-content-tags">
+                                        <text class="item" wx:for="{{item.strategyContent.data}}" wx:for-item="it" wx:key="index">{{it+' '}}</text>
+                                    </view>
+                                </scroll-view>
+                                <view catchtap="__e" class="foldBtn" data-event-opts="{{[ [ 'tap',[ [ 'foldTags',['$event'] ] ] ] ]}}" wx:if="{{showExpandBtn}}">{{(tagsExpanded?'收起':'展开更多')+''}}<image class="{{[tagsExpanded?'reverse':'']}}" src="https://eshopfile.zhiyousx.com/175198118438032080.png"></image>
+                                </view>
+                            </view>
+                            <view class="strategy-content-skeleton" wx:if="{{item.cardLoading}}">
+                                <view class="skeleton-img skeleton-animate"></view>
+                                <view class="skeleton-title skeleton-animate"></view>
+                                <view class="skeleton-tabs skeleton-animate"></view>
+                                <view class="skeleton-tags">
+                                    <view class="skeleton-tag skeleton-animate"></view>
+                                    <view class="skeleton-tag skeleton-animate"></view>
+                                    <view class="skeleton-tag skeleton-animate"></view>
+                                    <view class="skeleton-tag skeleton-animate"></view>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

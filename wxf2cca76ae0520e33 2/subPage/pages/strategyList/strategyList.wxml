@@ -1,0 +1,20 @@
+<view class="container">
+    <view class="title">
+        <text>西安</text>
+        <text>攻略</text>
+    </view>
+    <view class="spotList" id="spotList" wx:if="{{list&&list[0]}}">
+        <view bindtap="__e" class="item" data-event-opts="{{[ [ 'tap',[ [ 'todetail',['$0'],[ [ ['list','',__i0__] ] ] ] ] ] ]}}" wx:for="{{$root.l0}}" wx:for-index="__i0__">
+            <image class="recommond" src="https://eshopfile.zhiyousx.com/2021091011022464343.png" wx:if="{{item.$orig.isRecommend==1}}"></image>
+            <image class="img" mode="aspectFill" src="{{item.m0}}"></image>
+            <view class="info">
+                <view class="name singleLineText">{{item.$orig.title}}</view>
+                <view class="desc singleLineText" wx:if="{{item.$orig.subtitle}}">{{item.$orig.subtitle}}</view>
+            </view>
+        </view>
+    </view>
+    <view class="noinfo" wx:else>
+        <image class="noGoods" mode="widthFix" src="https://eshopfile.zhiyousx.com/noGoods@2x.png"></image>
+        <view>没有相关内容</view>
+    </view>
+</view>

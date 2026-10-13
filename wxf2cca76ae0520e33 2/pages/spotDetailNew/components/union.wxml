@@ -1,0 +1,47 @@
+<view class="union-box data-v-6bf58366">
+    <scroll-view class="data-v-6bf58366" scrollY="{{!disScroll}}" style="{{'overflow-y:'+(!disScroll?'auto':'hidden')+';'+'height:'+scrollFixH+'px'+';'}}">
+        <view class="card-box data-v-6bf58366" id="firstUnion">
+            <image class="logo data-v-6bf58366" mode="aspectFill" src="https://eshopfile.zhiyousx.com/2024052716464420613.png"></image>
+            <view class="base-Info data-v-6bf58366">
+                <view class="row1 data-v-6bf58366">
+                    <view class="name data-v-6bf58366">会员权益</view>
+                    <view class="t1 data-v-6bf58366">{{''+unionEquityCard.equityDesc+''}}</view>
+                </view>
+                <view class="row data-v-6bf58366">
+                    <view class="name data-v-6bf58366">使用条件</view>
+                    <view class="t2 data-v-6bf58366">{{''+unionEquityCard.equityNum+''}}</view>
+                </view>
+            </view>
+            <view class="line data-v-6bf58366"></view>
+            <view class="use-info data-v-6bf58366" wx:if="{{unionEquityCard.useDesc}}">
+                <view class="name-box data-v-6bf58366">
+                    <view class="name data-v-6bf58366">使用须知</view>
+                    <view bindtap="__e" class="r allcenter data-v-6bf58366" data-event-opts="{{[ [ 'tap',[ [ 'showPhone',['$event'] ] ] ] ]}}" wx:if="{{$root.g0}}">商家电话<image class="data-v-6bf58366" mode="aspectFill" src="https://eshopfile.zhiyousx.com/2024052716465123863.png" style="margin-left:8rpx;"></image>
+                    </view>
+                </view>
+                <view class="content data-v-6bf58366">
+                    <u-parse bind:__l="__l" class="data-v-6bf58366 vue-ref" data-ref="article" html="{{unionEquityCard.useDesc}}" lazyLoad="{{true}}" tagStyle="{{parseStyle1}}" vueId="1728d8b5-1"></u-parse>
+                </view>
+            </view>
+        </view>
+        <view class="group data-v-6bf58366" wx:if="{{unionEquityCard.fansImage}}">
+            <image class="data-v-6bf58366" mode="widthFix" showMenuByLongpress="{{true}}" src="{{unionEquityCard.fansImage}}"></image>
+        </view>
+        <view class="record data-v-6bf58366" wx:if="{{$root.g1}}">
+            <view class="name data-v-6bf58366">使用记录</view>
+            <view class="row-box data-v-6bf58366">
+                <view class="r-it data-v-6bf58366" wx:if="{{index<defNum}}" wx:for="{{unionEquityCard.useRecordList}}" wx:for-item="it">
+                    <view class="image-box data-v-6bf58366">
+                        <image mode class="data-v-6bf58366" src="https://eshopfile.zhiyousx.com/2024052809185700309.png"></image>
+                        <view class="div data-v-6bf58366" wx:if="{{index>0}}"></view>
+                    </view>
+                    <view class="info data-v-6bf58366">{{'您在'+it.useTime+'来过该店'}}</view>
+                </view>
+            </view>
+            <view bindtap="__e" class="more data-v-6bf58366" data-event-opts="{{[ [ 'tap',[ [ 'shwoMore',['$event'] ] ] ] ]}}" wx:if="{{$root.g2}}">{{''+(defNum>3?'收起':'查看更多')+''}}<image mode class="{{['data-v-6bf58366',defNum>3?'rotate180':'']}}" src="https://eshopfile.zhiyousx.com/2024052809303445304.png"></image>
+            </view>
+        </view>
+        <view class="black data-v-6bf58366"></view>
+    </scroll-view>
+    <view bindtap="__e" class="{{['btn','data-v-6bf58366',!isUnionMember||unionExpired?'dis':'']}}" data-event-opts="{{[ [ 'tap',[ ['toUserCard'] ] ] ]}}" wx:if="{{unionEquityCard}}">{{''+(!isUnionMember||unionExpired?'前往陕西联合会员中心购卡':'打开会员码使用权益')+''}}</view>
+</view>

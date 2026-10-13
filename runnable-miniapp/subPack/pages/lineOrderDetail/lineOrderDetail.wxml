@@ -1,0 +1,208 @@
+<view class="box data-v-300a0028" hidden="{{!detailInfo.orderId}}" style="{{'padding-bottom:'+(120+safeAreaBottom)+'rpx'+';'}}">
+    <view class="title-bj data-v-300a0028">
+        <view class="top data-v-300a0028">
+            <view class="type data-v-300a0028">
+                <view class="p1 _p data-v-300a0028">{{$root.m0}}</view>
+                <view class="p2 _p data-v-300a0028" wx:if="{{detailInfo.orderStatus==2}}">等待供应商确认...</view>
+            </view>
+            <view bindtap="__e" class="price data-v-300a0028" data-event-opts="{{[ [ 'tap',[ ['priceInfo'] ] ] ]}}">
+                <view class="unit _p data-v-300a0028">￥</view>
+                <view class="num _p data-v-300a0028">{{detailInfo.itemAmount}}</view>
+                <view class="info _p data-v-300a0028">明细</view>
+                <uni-icons bind:__l="__l" class="data-v-300a0028" color="rgba(0,0,0,0.5)" size="12" type="arrowright" vueId="7c842fbe-1"></uni-icons>
+            </view>
+        </view>
+        <view class="bottom data-v-300a0028" wx:if="{{detailInfo.orderStatus==8||detailInfo.orderStatus==9||detailInfo.orderStatus==10}}">
+            <view class="text _p data-v-300a0028">{{$root.m1}}</view>
+            <view bindtap="__e" class="info data-v-300a0028" data-event-opts="{{[ [ 'tap',[ [ 'refundDetail',['$0'],['detailInfo.orderId'] ] ] ] ]}}">
+                <view class="info-text _p data-v-300a0028">退款详情</view>
+                <uni-icons bind:__l="__l" class="data-v-300a0028" color="rgba(0,0,0,0.5)" size="12" type="arrowright" vueId="7c842fbe-2"></uni-icons>
+            </view>
+        </view>
+    </view>
+    <view class="{{['orderAdvertisement','data-v-300a0028',detailInfo.orderStatus!=9?'mt':'mt1']}}" wx:if="{{detailInfo.orderStatus==3||detailInfo.orderStatus==5||detailInfo.orderStatus==9||detailInfo.orderStatus==13}}">
+        <image class="community-box data-v-300a0028" mode="widthFix" src="{{detailInfo.communityImage}}" wx:if="{{detailInfo.communityImage}}"></image>
+    </view>
+    <view class="product model data-v-300a0028" style="{{'margin-top:'+(detailInfo.orderStatus==8||detailInfo.orderStatus==9||detailInfo.orderStatus==10?'26rpx':'-80rpx')+';'}}">
+        <view class="product-title model-item data-v-300a0028">
+            <view class="name _p data-v-300a0028">{{detailInfo.orderItem.itemName}}</view>
+            <view class="info-item data-v-300a0028" style="margin-top:30rpx;" wx:if="{{detailInfo.orderItem.lineRelationName}}">
+                <image class="icon data-v-300a0028" src="https://eshopfile.zhiyousx.com/2023091811405282175.png"></image>
+                <view class="text _p data-v-300a0028">{{detailInfo.orderItem.lineRelationName}}</view>
+            </view>
+            <view class="info-item data-v-300a0028">
+                <image class="icon data-v-300a0028" src="https://eshopfile.zhiyousx.com/169743772196248318.png"></image>
+                <view class="text _p data-v-300a0028">{{$root.m2+' '+(detailInfo.fromTime==detailInfo.toTime?detailInfo.fromTime+'当天往返':detailInfo.fromTime+'出发'+detailInfo.toTime+'返回')+''}}</view>
+            </view>
+            <view class="info-item data-v-300a0028">
+                <image class="icon data-v-300a0028" src="https://eshopfile.zhiyousx.com/169743778503888972.png"></image>
+                <view class="text _p data-v-300a0028">{{$root.m3}}</view>
+            </view>
+        </view>
+        <view class="illustrate model-item data-v-300a0028">
+            <view class="name _p data-v-300a0028" style="margin-bottom:10rpx;">使用说明</view>
+            <u-parse bind:__l="__l" class="data-v-300a0028" html="{{detailInfo.useDesc}}" lazyLoad="{{true}}" tagStyle="{{parseStyle}}" vueId="7c842fbe-3"></u-parse>
+        </view>
+        <view class="rule model-item data-v-300a0028" wx:if="{{detailInfo.refundRuleType==2}}">
+            <view class="title data-v-300a0028">
+                <view class="name _p data-v-300a0028">退改规则</view>
+                <view class="lable data-v-300a0028">{{refundRuleType[detailInfo.refundRuleType]}}</view>
+            </view>
+            <view bindtap="__e" class="content data-v-300a0028" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}">
+                <view class="contentInfo data-v-300a0028">
+                    <view class="{{['text','_p','data-v-300a0028',!foldRemark?'singleLineText':'']}}" wx:if="{{detailInfo.refundFeeDesc}}">{{detailInfo.refundFeeDesc}}</view>
+                    <view class="table data-v-300a0028" style="margin-top:20rpx;" wx:if="{{foldRemark}}">
+                        <view class="th data-v-300a0028">
+                            <view class="td data-v-300a0028" style="width:490rpx;">取消时间</view>
+                            <view class="td data-v-300a0028" style="width:184rpx;">损失费用</view>
+                        </view>
+                        <view class="tr data-v-300a0028" wx:for="{{detailInfo.orderRefundFeeSnapList}}" wx:key="index">
+                            <view class="td data-v-300a0028" style="width:490rpx;">{{item.timeDesc}}</view>
+                            <view class="td center data-v-300a0028" style="width:184rpx;">{{item.feeDesc}}</view>
+                        </view>
+                        <view class="tr data-v-300a0028" wx:if="{{detailInfo.refundRuleDesc}}">
+                            <view class="td data-v-300a0028" style="width:100%;">
+                                <u-parse bind:__l="__l" class="data-v-300a0028" html="{{detailInfo.refundRuleDesc}}" lazyLoad="{{true}}" tagStyle="{{parseStyle}}" vueId="7c842fbe-4"></u-parse>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+                <view class="fold-icon data-v-300a0028">
+                    <u-icon bind:__l="__l" class="data-v-300a0028" color="rgba(0,0,0,0.8);" name="{{foldRemark?'arrow-up':'arrow-down'}}" size="18" vueId="7c842fbe-5"></u-icon>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="model tourist data-v-300a0028">
+        <view class="title _p data-v-300a0028">游客信息</view>
+        <view class="tourist-item data-v-300a0028" wx:for="{{detailInfo.visitorInfoVos}}" wx:key="index">
+            <view class="des data-v-300a0028">{{'旅客'+index+1}}</view>
+            <view class="name data-v-300a0028">
+                <view class="text _p data-v-300a0028">{{item.name}}</view>
+                <view class="lable data-v-300a0028">{{peopleTypeList[item.peopleType]}}</view>
+            </view>
+            <view class="num data-v-300a0028">{{item.idCard}}</view>
+            <view class="type data-v-300a0028">证件号</view>
+            <image bindtap="__e" class="icon data-v-300a0028" data-event-opts="{{[ [ 'tap',[ [ 'queryIdCard',[0,'$0'],[ [ ['detailInfo.visitorInfoVos','',index] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/168492134271144514.png" wx:if="{{!item.isCloseId}}"></image>
+            <image bindtap="__e" class="icon data-v-300a0028" data-event-opts="{{[ [ 'tap',[ [ 'queryIdCard',[1,'$0'],[ [ ['detailInfo.visitorInfoVos','',index] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/168492259404793104.png" wx:if="{{item.isCloseId}}"></image>
+        </view>
+    </view>
+    <view class="model predetermine data-v-300a0028">
+        <view class="title _p data-v-300a0028">预订人</view>
+        <view class="predetermine-item data-v-300a0028">
+            <view class="name _p data-v-300a0028">{{detailInfo.contactPerson}}</view>
+            <view class="phone _p data-v-300a0028">{{detailInfo.contactTel}}</view>
+            <image bindtap="__e" class="icon data-v-300a0028" data-event-opts="{{[ [ 'tap',[ [ 'queryPhone',[0,'$0'],['detailInfo'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/168492134271144514.png" wx:if="{{!detailInfo.isClose}}"></image>
+            <image bindtap="__e" class="icon data-v-300a0028" data-event-opts="{{[ [ 'tap',[ [ 'queryPhone',[1,'$0'],['detailInfo'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/168492259404793104.png" wx:if="{{detailInfo.isClose}}"></image>
+        </view>
+    </view>
+    <view class="model order-info data-v-300a0028" wx:if="{{detailInfo.lineOrderOtherInfoDTOList[0]}}">
+        <view class="title _p data-v-300a0028">其它信息</view>
+        <view class="info-item data-v-300a0028" wx:for="{{detailInfo.lineOrderOtherInfoDTOList}}" wx:for-item="it" wx:key="index">
+            <view class="name _p data-v-300a0028">{{it.title}}</view>
+            <view class="content contentp _p data-v-300a0028">{{it.content}}</view>
+        </view>
+    </view>
+    <view class="model order-info data-v-300a0028">
+        <view class="title _p data-v-300a0028">订单信息</view>
+        <view class="info-item data-v-300a0028">
+            <view class="name _p data-v-300a0028">订单编号</view>
+            <view class="content _p data-v-300a0028">{{detailInfo.orderNo}}</view>
+        </view>
+        <view class="info-item data-v-300a0028">
+            <view class="name _p data-v-300a0028">下单时间</view>
+            <view class="content _p data-v-300a0028">{{detailInfo.createTime}}</view>
+        </view>
+        <view class="info-item data-v-300a0028" wx:if="{{detailInfo.payChannel!=null}}">
+            <view class="name _p data-v-300a0028">支付方式</view>
+            <view class="content _p data-v-300a0028">{{$root.m4}}</view>
+        </view>
+        <view class="info-item data-v-300a0028" wx:if="{{detailInfo.payTime!=null}}">
+            <view class="name _p data-v-300a0028">支付时间</view>
+            <view class="content _p data-v-300a0028">{{detailInfo.payTime}}</view>
+        </view>
+        <view class="info-item data-v-300a0028">
+            <view class="name _p data-v-300a0028">供应商</view>
+            <view bindtap="__e" class="content _p data-v-300a0028" data-event-opts="{{[ [ 'tap',[ [ 'goTravelAgency',['$0'],['detailInfo.travelAgencyId'] ] ] ] ]}}">{{''+detailInfo.travelAgencyName+''}}<image class="content-icon data-v-300a0028" src="https://eshopfile.zhiyousx.com/169752565139220610.png"></image>
+            </view>
+        </view>
+    </view>
+    <view class="line_submit data-v-300a0028" style="{{'height:'+(100+safeAreaBottom)+'rpx'+';'+'padding-bottom:'+safeAreaBottom+'rpx'+';'}}" wx:if="{{detailInfo.orderStatus==1||(detailInfo.orderStatus==3||detailInfo.orderStatus==9||detailInfo.orderStatus==13)&&detailInfo.refundRuleType||detailInfo.orderStatus===2}}">
+        <view class="iconBox data-v-300a0028">
+            <button bindtap="__e" class="submit_icon share data-v-300a0028" data-event-opts="{{[ [ 'tap',[ ['getCustomer'] ] ] ]}}" wx:if="{{detailInfo.customService}}">
+                <image class="data-v-300a0028" src="/static/captured/c2626d5726ed2448.png"></image>
+                <view class="text data-v-300a0028">客服</view>
+            </button>
+        </view>
+        <view class="btn-box data-v-300a0028">
+            <view bindtap="__e" class="btn btn1 data-v-300a0028" data-event-opts="{{[ [ 'tap',[ [ 'openPopup',['$0'],['detailInfo.orderId'] ] ] ] ]}}" wx:if="{{detailInfo.orderStatus==1}}">取消订单</view>
+            <view bindtap="__e" class="btn btn1 data-v-300a0028" data-event-opts="{{[ [ 'tap',[ [ 'orderRefund',['$0'],['detailInfo.orderId'] ] ] ] ]}}" wx:if="{{(detailInfo.orderStatus===3||detailInfo.orderStatus==9||detailInfo.orderStatus==13)&&detailInfo.refundRuleType}}">申请退款</view>
+            <view bindtap="__e" class="btn btn1 data-v-300a0028" data-event-opts="{{[ [ 'tap',[ [ 'confirmRefund',['$0'],['detailInfo.orderId'] ] ] ] ]}}" wx:if="{{detailInfo.orderStatus===2}}">申请退款</view>
+            <view bindtap="__e" class="btn btn2 data-v-300a0028" data-event-opts="{{[ [ 'tap',[ [ 'goPay',['$0'],['detailInfo.orderId'] ] ] ] ]}}" wx:if="{{detailInfo.orderStatus===1}}">立即支付</view>
+        </view>
+    </view>
+    <uni-popup bind:__l="__l" class="data-v-300a0028 vue-ref" data-ref="popup" type="bottom" vueId="7c842fbe-6" vueSlots="{{['default']}}">
+        <view class="popup data-v-300a0028">
+            <view class="popTitle data-v-300a0028">
+                <text class="titleText data-v-300a0028">取消订单</text>
+                <uni-icons bind:__l="__l" bind:click="__e" class="data-v-300a0028" color="#c1c1c1" data-event-opts="{{[ [ '^click',[ ['closePopup'] ] ] ]}}" size="20" type="clear" vueId="{{'7c842fbe-7'+','+'7c842fbe-6'}}"></uni-icons>
+            </view>
+            <view class="popMain data-v-300a0028">
+                <radio-group bindchange="__e" class="data-v-300a0028" data-event-opts="{{[ [ 'change',[ [ 'radioChange',['$event'] ] ] ] ]}}">
+                    <view class="data-v-300a0028" wx:for="{{causeList}}" wx:key="value">
+                        <label class="radioItem data-v-300a0028">
+                            <radio checked="{{index===causeIdx}}" class="radioIcon data-v-300a0028" color="#ff4643" value="{{item.value}}"></radio>
+                            <text class="data-v-300a0028">{{item.name}}</text>
+                        </label>
+                    </view>
+                </radio-group>
+            </view>
+            <button bindtap="__e" class="popupBtn data-v-300a0028" data-event-opts="{{[ [ 'tap',[ [ 'cancelOrder',['$0'],['detailInfo.orderId'] ] ] ] ]}}">确定</button>
+        </view>
+    </uni-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-300a0028" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','priceInfoShow','$event',[] ] ] ] ] ]}}" mode="bottom" value="{{priceInfoShow}}" vueId="7c842fbe-8" vueSlots="{{['default']}}">
+        <view class="detailBox data-v-300a0028">
+            <view class="title data-v-300a0028">价格明细</view>
+            <scroll-view class="content-price data-v-300a0028" scrollY="{{true}}">
+                <view class="order data-v-300a0028">
+                    <view class="order-item data-v-300a0028" wx:for="{{detailInfo.peopleNumList}}" wx:for-index="__i0__">
+                        <view class="name data-v-300a0028">{{peopleTypeList[item.peopleType]}}</view>
+                        <view class="num data-v-300a0028">
+                            <view class="price _p data-v-300a0028">{{'￥'+item.unitPrice}}</view>
+                            <view class="number _p data-v-300a0028">{{'x'+item.num}}</view>
+                        </view>
+                    </view>
+                </view>
+                <view class="price-info data-v-300a0028">
+                    <view class="price-item data-v-300a0028">
+                        <view class="l1 data-v-300a0028">订单总额：</view>
+                        <view class="l1 data-v-300a0028">{{'￥'+detailInfo.orderAmount}}</view>
+                    </view>
+                    <view class="price-item data-v-300a0028">
+                        <view class="l1 color data-v-300a0028">优惠券：</view>
+                        <view class="l1 color data-v-300a0028">{{'-￥'+detailInfo.couponAmount}}</view>
+                    </view>
+                    <view class="price-item data-v-300a0028">
+                        <view class="l1 color data-v-300a0028">应付金额：</view>
+                        <view class="l1 color data-v-300a0028">{{'￥'+detailInfo.realPayableAmount}}</view>
+                    </view>
+                    <view class="price-item data-v-300a0028" wx:if="{{detailInfo.orderStatus!=0&&detailInfo.orderStatus!=1&&detailInfo.orderStatus!=12}}">
+                        <view class="l1 color big data-v-300a0028">实付金额：</view>
+                        <view class="l1 color big2 data-v-300a0028">{{'￥'+detailInfo.realPaid}}</view>
+                    </view>
+                </view>
+            </scroll-view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-300a0028" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','customerShow','$event',[] ] ] ] ] ]}}" mode="bottom" value="{{customerShow}}" vueId="7c842fbe-9" vueSlots="{{['default']}}">
+        <view class="detailBox-customer data-v-300a0028">
+            <view class="title data-v-300a0028">客服</view>
+            <scroll-view class="data-v-300a0028" scrollY="true" style="height:500rpx;">
+                <view class="img-style data-v-300a0028">
+                    <image class="data-v-300a0028" mode="widthFix" showMenuByLongpress="{{true}}" src="{{detailInfo.customService}}"></image>
+                </view>
+                <view class="data-v-300a0028" style="height:150rpx;width:100%;"></view>
+            </scroll-view>
+        </view>
+    </u-popup>
+</view>

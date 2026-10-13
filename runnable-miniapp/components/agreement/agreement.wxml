@@ -1,0 +1,15 @@
+<view>
+    <half-screen-dialog bindclose="onTapClose" catchtouchmove="catchTouch" class="agreement-dialog {{platform}}-font" closabled="{{false}}" extClass="agreement-ext-dialog" maskClosable="{{true}}" show="{{show}}" showFooter="{{false}}">
+        <view class="agreement-title" slot="title">
+            <view class="font-500">{{title||'微信学生身份验证功能服务用户协议'}}</view>
+            <view bindtap="onTapIconClose" class="agreement-close"></view>
+        </view>
+        <view class="agreement-content" slot="desc">
+            <scroll-view enhanced scrollY showScrollbar="{{false}}">
+                <view>
+                    <rich-text nodes="{{agreement}}"></rich-text>
+                </view>
+            </scroll-view>
+        </view>
+    </half-screen-dialog>
+</view>

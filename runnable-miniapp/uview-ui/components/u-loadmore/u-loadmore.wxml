@@ -1,0 +1,6 @@
+<view class="u-load-more-wrap data-v-29439676" style="{{'background-color:'+bgColor+';'+'margin-bottom:'+marginBottom+'rpx'+';'+'margin-top:'+marginTop+'rpx'+';'+'height:'+$root.g0+';'}}">
+    <view class="{{['u-load-more-inner','data-v-29439676',status=='loadmore'||status=='nomore'?'u-more':'']}}">
+        <u-loading bind:__l="__l" class="u-loadmore-icon data-v-29439676" color="{{iconColor}}" mode="{{iconType=='circle'?'circle':'flower'}}" show="{{status=='loading'&&icon}}" vueId="61627034-1"></u-loading>
+        <view bindtap="__e" class="{{['data-v-29439676',status=='nomore'&&isDot==true?'u-dot-text':'u-more-text']}}" data-event-opts="{{[ [ 'tap',[ [ 'loadMore',['$event'] ] ] ] ]}}" style="{{$root.s0}}">{{''+showText+''}}</view>
+    </view>
+</view>

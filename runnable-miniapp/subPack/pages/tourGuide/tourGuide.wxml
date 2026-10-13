@@ -1,0 +1,71 @@
+<view class="box data-v-4b81d6b7">
+    <view class="navbar data-v-4b81d6b7" style="{{'height:'+searchHeight+38+'px'+';'+'background:'+'rgba(255,255,255,'+scrollColor/255+')'+';'+'padding-top:'+searchHeight+'px'+';'}}">
+        <view bindtap="__e" class="arrowleftBox data-v-4b81d6b7" data-event-opts="{{[ [ 'tap',[ ['back'] ] ] ]}}">
+            <image class="header_icon data-v-4b81d6b7" mode="aspectFit" src="/static/zhouWei-navBar/icon_home_black.png" wx:if="{{firstPage}}"></image>
+            <image class="header_icon data-v-4b81d6b7" mode="aspectFit" src="/static/zhouWei-navBar/icon_back_black.png" wx:else></image>
+        </view>
+        <view class="navName data-v-4b81d6b7" style="{{'color:'+fontColor+';'}}">{{pageTitle}}</view>
+    </view>
+    <view class="title-bj data-v-4b81d6b7" style="{{'height:'+searchHeight+110+'px'+';'}}"></view>
+    <view class="card data-v-4b81d6b7">
+        <view class="card-title data-v-4b81d6b7">
+            <image class="title-img data-v-4b81d6b7" mode="aspectFill" src="{{detailObj.picUrl}}"></image>
+            <view class="card-name data-v-4b81d6b7">
+                <view class="name multilineText2 _p data-v-4b81d6b7">{{detailObj.nick}}</view>
+                <view bindtap="__e" class="document data-v-4b81d6b7" data-event-opts="{{[ [ 'tap',[ [ 'openDialog',['$event'] ] ] ] ]}}" wx:if="{{detailObj.level}}">
+                    <image class="document-icon data-v-4b81d6b7" mode="aspectFill" src="{{documentList[detailObj.level].icon}}"></image>
+                    <view class="document-text _p data-v-4b81d6b7">{{documentList[detailObj.level].text}}</view>
+                </view>
+            </view>
+        </view>
+        <view class="remark data-v-4b81d6b7">
+            <view class="remark-top data-v-4b81d6b7">
+                <view class="p2 data-v-4b81d6b7">{{$root.m0}}</view>
+            </view>
+            <view class="remark-text multilineText2 data-v-4b81d6b7">{{detailObj.introduction}}</view>
+        </view>
+    </view>
+    <view class="date data-v-4b81d6b7">
+        <view class="date-title data-v-4b81d6b7">
+            <image class="date-icon data-v-4b81d6b7" mode="aspectFill" src="https://eshopfile.zhiyousx.com/169707731351900004.png"></image>
+            <view class="text _p data-v-4b81d6b7">他的团期</view>
+            <image class="date-icon data-v-4b81d6b7" mode="aspectFill" src="https://eshopfile.zhiyousx.com/169707714305384722.png"></image>
+        </view>
+        <view class="date-list data-v-4b81d6b7">
+            <view bindtap="__e" class="{{['goods-item','data-v-4b81d6b7',!item.$orig.stockStatus||item.$orig.sellOut?'disable':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'goGoodInfo',['$0','$1'],[ [ ['productList','',index,'productId'] ],[ ['productList','',index] ] ] ] ] ] ]}}" wx:for="{{$root.l0}}" wx:key="index">
+                <view class="img-box data-v-4b81d6b7">
+                    <image class="goods-img data-v-4b81d6b7" mode="aspectFill" src="{{item.$orig.productPic}}"></image>
+                </view>
+                <view class="goods-info data-v-4b81d6b7">
+                    <view class="name multilineText2 data-v-4b81d6b7">{{item.$orig.productName}}</view>
+                    <scroll-view class="tips data-v-4b81d6b7" scrollX="true" wx:if="{{item.$orig.lineHighlightLabelList}}">
+                        <view class="it data-v-4b81d6b7" wx:for="{{item.$orig.lineHighlightLabelList}}" wx:for-index="num" wx:for-item="li" wx:key="num">{{li}}</view>
+                    </scroll-view>
+                    <view class="{{['ramark','data-v-4b81d6b7',!item.$orig.lineHighlightLabelList?'mp':'']}}">{{''+item.m1+''}}</view>
+                    <view class="price data-v-4b81d6b7" wx:if="{{!item.$orig.stockStatus||item.$orig.sellOut}}">
+                        <view class="item-btn data-v-4b81d6b7">售罄</view>
+                    </view>
+                    <view class="price data-v-4b81d6b7" wx:else>
+                        <label class="icon _span data-v-4b81d6b7">￥</label>{{''+item.$orig.price}}<label class="_span data-v-4b81d6b7" wx:if="{{item.$orig.startPriceFlag}}">起</label>
+                    </view>
+                </view>
+            </view>
+            <view class="empty data-v-4b81d6b7" wx:if="{{$root.g0}}">
+                <empty-state bind:__l="__l" class="data-v-4b81d6b7" imgUrl="https://eshopfile.zhiyousx.com/noOrder@2x.png" text="暂无产品" vueId="556faa0c-1"></empty-state>
+            </view>
+            <view class="loadMore data-v-4b81d6b7" wx:else>
+                <u-loadmore bgColor="#f7f7f7" bind:__l="__l" class="data-v-4b81d6b7" color="#ccc" iconColor="#ccc" status="{{loadMore}}" vueId="556faa0c-2"></u-loadmore>
+            </view>
+        </view>
+    </view>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-4b81d6b7" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','businessShow','$event',[] ] ] ] ] ]}}" mode="bottom" value="{{businessShow}}" vueId="556faa0c-3" vueSlots="{{['default']}}">
+        <view class="detailBox data-v-4b81d6b7">
+            <view class="title data-v-4b81d6b7">导游证件</view>
+            <scroll-view class="content data-v-4b81d6b7" scrollY="{{true}}">
+                <view class="busins-item data-v-4b81d6b7" wx:if="{{detailObj.certificate}}">
+                    <image class="data-v-4b81d6b7" mode="widthFix" src="{{detailObj.certificate}}"></image>
+                </view>
+            </scroll-view>
+        </view>
+    </u-popup>
+</view>

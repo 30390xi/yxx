@@ -1,0 +1,14 @@
+<view class="container data-v-6873b955">
+    <uni-navbar bind:__l="__l" class="data-v-6873b955" title="会员码" titleCenter="{{true}}" transparentFixedFontColor="{{titleColor}}" type="transparentFixed" vueId="55304ba2-1"></uni-navbar>
+    <view class="bodyBox data-v-6873b955">
+        <view class="box data-v-6873b955" wx:if="{{true}}">
+            <verify-code bind:__l="__l" class="data-v-6873b955" info="{{detail}}" vueId="55304ba2-2"></verify-code>
+        </view>
+        <view class="box desc-explain data-v-6873b955">
+            <view class="desc-explain-title data-v-6873b955">使用说明</view>
+            <view class="u-content data-v-6873b955">
+                <u-parse bind:__l="__l" class="data-v-6873b955" html="{{detail.useDesc}}" vueId="55304ba2-3"></u-parse>
+            </view>
+        </view>
+    </view>
+</view>

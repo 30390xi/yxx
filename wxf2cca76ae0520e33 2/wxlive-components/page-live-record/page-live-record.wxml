@@ -1,0 +1,23 @@
+<view bindtap="onClearScreen" bindtouchend="touchEnd" bindtouchmove="touchMove" bindtouchstart="touchStart" class="page-live-replay {{replayPageContainerClass}}" style="pointer-events: {{isClearScreen||showVideoDotList?'auto':'none'}};{{isGovernment&&roomImg?'background: url('+roomImg+')':''}}">
+    <view wx:if="{{isPushStream&&screenType==='vertical'}}">
+        <image style="background:url({{roomImg}}) no-repeat center / cover; width: 100%; height: 100%; position: absolute;"></image>
+        <view class="{{coverFuzzy?'live-bottom-page__cover__image__cover':''}}"></view>
+    </view>
+    <view class="live-page-0 live-bottom-page__playing {{showHorizontalBtn&&screenType!=='horizontal'?isClearScreen?'live-bottom-page__playing__horizontal-button__clean':'live-bottom-page__playing__horizontal-button__show':''}}" style="{{playingLayerStyle}}">
+        <video autoplay="{{true}}" bindended="onVideoEnded" bindenterpictureinpicture="onEnterPictureInPicture" binderror="onVideoError" bindfullscreenchange="onVideoFullScreenChange" bindleavepictureinpicture="onLeavePictureInPicture" bindloadedmetadata="onVideoLoadedMetaData" bindprogress="onVideoProgress" bindseekcomplete="onSeekComplete" bindtimeupdate="onVideoTimeUpdate" bindtouchend="touchEnd" bindtouchstart="touchStart" bindwaiting="onVideoWaiting" catchtap="onClearScreen" catchtouchmove="touchMove" class="component live-replay-video" controls="{{false}}" enableProgressGesture="{{false}}" id="recordId" objectFit="{{isPushStream&&screenType==='horizontal'||isHorizontalPC?'contain':'cover'}}" pictureInPictureMode="{{!_closePictureInPictureMode?!closePictureInPicturePop?pictureInPictureMode:pictureInPicturePushMode:''}}" showCenterPlayBtn="{{false}}" showFullscreenBtn="{{false}}" showPlayBtn="{{false}}" src="{{recordUrl}}" style="margin-bottom: 44px; pointer-events: {{isClearScreen||showVideoDotList?'none':'auto'}};">
+            <cover-view bindtap="onExitVideoFullScreen" class="live-playing__pc__shadow" wx:if="{{isPCFullScreen}}">
+                <view class="live-playing__esc-fullscreen-button">
+                    <view class="esc-fullscreen__icon"></view>退出全屏</view>
+            </cover-view>
+        </video>
+        <view class="live-page__id__watermark {{isAnimation?'live-page__id__watermark__animation':''}}" wx:if="{{!disabled&&rtxName&&(!isPushStream||screenVerticalHeight)}}">{{rtxName}}</view>
+        <view catchtap="onHorizontalBtn" class="live-playing__horizontal-button {{!isClearScreen&&!showLoading&&!showVideoLoading&&!showVideoWaiting&&_showHorizontalButton&&isPushStream&&screenType==='vertical'&&playingLayerStyle?'live-playing__horizontal-button__show':'live-playing__horizontal-button__clean'}}"></view>
+    </view>
+    <view class="live-page-0 live-bottom-page__cover" hidden="{{!showVideoLoading&&(!isPushStream||waterMarkBottom)}}">
+        <view class="live-bottom-page__cover__image" style="background: url({{roomImg}}) no-repeat center; background-size: cover" wx:if="{{roomImg}}"></view>
+        <view class="live-bottom-page__cover__image" wx:else></view>
+    </view>
+    <component-video-control bindhandlevideocontrol="bindHandleVideoControl" buffered="{{buffered}}" catchtap="catchTouch" class="mode_video-control" curLiveStatusCode="{{curLiveStatusCode}}" disabled="{{disabled}}" duration="{{duration}}" durationSec="{{durationSec}}" from="{{from}}" goodsExplainEnd="{{_goodsExplainEnd}}" goodsVideoList="{{goodsVideoList}}" id="video-control" isClearScreen="{{isClearScreen}}" isPlayVideo="{{isPlayVideo}}" playGoodsRecordId="{{playGoodsRecordId}}" process="{{process}}" screenType="{{screenType}}" showBacktoLiveIcon="{{showBacktoLiveIcon}}" showRecord="{{showRecord}}" showRecordListIcon="{{showRecordListIcon}}" showVideoDotList="{{showVideoDotList}}" time="{{time}}" wx:if="{{!showStorePanel}}"></component-video-control>
+</view>
+<view class="live-page-speed" wx:if="{{speedProgress}}">{{speedProgress}}</view>
+<view class="live-page-loading page__icon__loading" wx:if="{{showVideoLoading||showVideoWaiting}}"></view>

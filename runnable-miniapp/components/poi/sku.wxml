@@ -1,0 +1,66 @@
+<view class="data-v-679ecbcb">
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-679ecbcb" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showTicketSku','$event',[] ] ] ] ] ]}}" height="{{skuPopH}}" mode="bottom" value="{{showTicketSku}}" vueId="ef061b8e-1" vueSlots="{{['default']}}">
+        <view class="skuBox data-v-679ecbcb">
+            <scroll-view class="scroll-sku data-v-679ecbcb" scrollY="{{true}}" style="{{'height:'+skuHeight+'rpx'+';'}}">
+                <view class="name data-v-679ecbcb">{{skuData.aggregationItemName}}</view>
+                <view class="skuTips data-v-679ecbcb" wx:if="{{tipsInfo}}">
+                    <view class="info multilineText2 data-v-679ecbcb">{{tipsInfo}}</view>
+                </view>
+                <view class="attr-box data-v-679ecbcb" wx:if="{{skuData&&skuData.dateType==1}}">
+                    <view class="attr-name singleLineText data-v-679ecbcb">{{''+(skuData.dateTitle||'使用日期')+''}}</view>
+                    <view class="calendar-box data-v-679ecbcb">
+                        <scroll-view class="left data-v-679ecbcb" scrollIntoView="{{scrollToDate}}" scrollX="{{true}}">
+                            <view bindtap="__e" class="{{['item','data-v-679ecbcb',selectDate==item.date?'act':'',!item.show?'none':'',item.dis?'dis':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'chooseTime',['$0'],[ [ ['timeData','',index] ] ] ] ] ] ]}}" id="{{'date-'+item.date}}" wx:for="{{timeData}}">
+                                <view class="week data-v-679ecbcb">{{''+item.week+''}}</view>
+                                <view class="day data-v-679ecbcb">{{''+item.dateShort+''}}</view>
+                                <view class="price data-v-679ecbcb">{{''+item.diys+''}}<text class="data-v-679ecbcb" style="color:#777777;font-size:20rpx;" wx:if="{{item.qi}}">起</text>
+                                </view>
+                            </view>
+                        </scroll-view>
+                        <view bindtap="__e" class="right data-v-679ecbcb" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" wx:if="{{$root.g0}}">
+                            <view class="text data-v-679ecbcb">更多 日期</view>
+                            <view class="arrow data-v-679ecbcb"></view>
+                        </view>
+                    </view>
+                </view>
+                <view class="attr-box data-v-679ecbcb" wx:if="{{attrs[0]}}" wx:for="{{$root.l1}}" wx:for-item="attr" wx:key="index">
+                    <view class="attr-head data-v-679ecbcb">
+                        <view class="attr-name singleLineText data-v-679ecbcb">{{''+attr.$orig.attributeKey+''}}<text bindtap="__e" class="attr-name-desc data-v-679ecbcb" data-event-opts="{{[ [ 'tap',[ [ 'getSkuDesc',['$0'],[ [ ['attrs','',index,'attributeDescContent'] ] ] ] ] ] ]}}" wx:if="{{attr.$orig.attributeDesc}}">{{''+attr.$orig.attributeDesc+''}}</text>
+                        </view>
+                        <image bindtap="__e" class="data-v-679ecbcb" data-event-opts="{{[ [ 'tap',[ [ 'getSkuDesc',['$0'],[ [ ['attrs','',index,'attributeDescContent'] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/172480687839557894.png" wx:if="{{attr.$orig.attributeDescContent&&attr.$orig.attributeDesc}}"></image>
+                    </view>
+                    <view class="attr-scoll data-v-679ecbcb">
+                        <view bindtap="__e" class="{{['attr-it','data-v-679ecbcb',opt.m0?'active':'',!opt.m1?'disabled':'',!opt.m2?'none':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'handleClick',['$0','$1'],[ [ ['attrs','',index,'attributeKey'] ],[ ['attrs','',index],['attrValList','',i,'name'] ] ] ] ] ] ]}}" wx:for="{{attr.l0}}" wx:for-index="i" wx:for-item="opt" wx:key="i">{{''+opt.$orig.name}}<text class="data-v-679ecbcb" style="color:#FF5411;margin-left:10rpx;font-size:26rpx;">{{opt.$orig.stockStr}}</text>
+                        </view>
+                    </view>
+                </view>
+                <view class="attr-box data-v-679ecbcb" wx:if="{{skuData.descTitle&&skuData.descContent}}">
+                    <view class="attr-name singleLineText data-v-679ecbcb">{{''+skuData.descTitle+''}}</view>
+                    <image bindtap="__e" class="descImg data-v-679ecbcb" data-event-opts="{{[ [ 'tap',[ [ 'previewImage',['$0'],['skuData.descContent'] ] ] ] ]}}" mode="widthFix" src="{{skuData.descContent}}"></image>
+                </view>
+                <view class="bottom-sku data-v-679ecbcb"></view>
+            </scroll-view>
+            <view catchtap="__e" class="sku-info-box data-v-679ecbcb" data-event-opts="{{[ [ 'tap',[ [ 'showBookTip',['$0'],['skuTicData'] ] ] ] ]}}" wx:if="{{skuTicData&&skuTicData.itemId}}">
+                <view class="sku-info singleLineText data-v-679ecbcb" style="{{'color:'+(skuTicData.scenicType!=1?'#FF7D2A':'#a17111')+';'}}">{{''+(skuTicData.bookingInfoTag.bookingTag||'--')+''}}<block wx:if="{{skuTicData.bookingInfoTag.reserveTimeTag}}">{{'｜'+(skuTicData.bookingInfoTag.reserveTimeTag||'--')}}</block>{{'｜'+(skuTicData.bookingInfoTag.refundTag||'--')+''}}<block wx:if="{{skuTicData.scenicType!=1}}">{{'｜'+(skuTicData.bookingInfoTag.changeTag||'--')}}</block>
+                </view>
+                <view class="sku-tip data-v-679ecbcb">
+                    <view class="l data-v-679ecbcb">{{'预'+(skuTicData.skuItemType==1?'约':'订')+'须知'}}</view>
+                    <uni-icons bind:__l="__l" class="data-v-679ecbcb" color="#555555" size="14" type="arrowright" vueId="{{'ef061b8e-2'+','+'ef061b8e-1'}}"></uni-icons>
+                </view>
+            </view>
+            <view class="bot-box data-v-679ecbcb">
+                <view class="price data-v-679ecbcb">
+                    <block wx:if="{{skuTicData&&skuTicData.itemId}}">{{'￥'+skuTicData.marketPrice+''}}<text class="data-v-679ecbcb" style="color:#777777;font-size:24rpx;" wx:if="{{skuTicData.startPriceFlag==1}}">起</text>
+                    </block>
+                    <block wx:else>￥--</block>
+                </view>
+                <view bindtap="__e" class="{{['btn','data-v-679ecbcb',skuTicData&&skuTicData.itemId?'act':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'buyFn',['$0'],['skuTicData'] ] ] ] ]}}">下一步</view>
+            </view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-679ecbcb" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showAllTime','$event',[] ] ] ] ] ]}}" mode="center" value="{{showAllTime}}" vueId="ef061b8e-3" vueSlots="{{['default']}}">
+        <view class="calendar-box data-v-679ecbcb" wx:if="{{$root.g1>0}}">
+            <yu-calendar bind:__l="__l" bind:getDataInDay="__e" class="data-v-679ecbcb" data-event-opts="{{[ [ '^getDataInDay',[ ['itemClickFn'] ] ] ]}}" defaultDate="{{selectDate}}" isCs="{{detailObj.scenicType}}" notbookinfo="{{skuNotBookableInfo}}" priceList="{{timeData}}" showTime="{{showAllTime}}" vueId="{{'ef061b8e-4'+','+'ef061b8e-3'}}"></yu-calendar>
+        </view>
+    </u-popup>
+</view>

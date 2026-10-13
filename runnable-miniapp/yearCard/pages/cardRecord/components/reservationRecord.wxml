@@ -1,0 +1,39 @@
+<view class="reservation-record data-v-bad982bc">
+    <view class="record-tab data-v-bad982bc">
+        <view bindtap="__e" class="{{['data-v-bad982bc','record-tab-item',index===currentIndex&&'checked']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeTab',[index] ] ] ] ]}}" wx:for="{{tabList}}" wx:key="index">{{''+item.name}}</view>
+    </view>
+    <view class="card-list data-v-bad982bc" wx:if="{{$root.g0}}">
+        <view bindtap="__e" class="card data-v-bad982bc" data-event-opts="{{[ [ 'tap',[ [ 'goGarden',['$0'],[ [ ['filterInfo','',index,'orderSn'] ] ] ] ] ] ]}}" wx:for="{{filterInfo}}" wx:key="index">
+            <view class="card-header data-v-bad982bc">
+                <view class="card-header-title data-v-bad982bc">{{item.scenicName}}</view>
+                <view class="{{['data-v-bad982bc','card-header-tag',item.status===1&&'checked']}}">{{tabList[item.status]?tabList[item.status].name:''}}</view>
+            </view>
+            <view class="card-body data-v-bad982bc">
+                <view class="line data-v-bad982bc" wx:if="{{item.datePeriodBegin||item.departDate}}">
+                    <view class="label data-v-bad982bc">出行日期</view>
+                    <view class="data-v-bad982bc">
+                        <block wx:if="{{item.dateType===2}}">{{''+item.departDate+''}}</block>
+                        <block wx:else>{{''+item.datePeriodBegin+'至'+item.datePeriodEnd+''}}</block>
+                    </view>
+                </view>
+                <view class="line data-v-bad982bc" wx:if="{{item.departStartTime&&item.departEndTime}}">
+                    <view class="label data-v-bad982bc">预约时段</view>
+                    <view class="data-v-bad982bc">{{item.departStartTime+'-'+item.departEndTime}}</view>
+                </view>
+                <view class="line data-v-bad982bc">
+                    <view class="label data-v-bad982bc">出行人</view>
+                    <view class="data-v-bad982bc">{{item.cardholderName}}</view>
+                </view>
+            </view>
+            <view class="card-footer data-v-bad982bc">
+                <view catchtap="__e" class="btn data-v-bad982bc" data-event-opts="{{[ [ 'tap',[ [ 'openModal',['$0'],[ [ ['filterInfo','',index] ] ] ] ] ] ]}}" wx:if="{{item.status===1}}">取消预约</view>
+                <view catchtap="__e" class="btn plain-red data-v-bad982bc" data-event-opts="{{[ [ 'tap',[ [ 'goGarden',['$0'],[ [ ['filterInfo','',index,'orderSn'] ] ] ] ] ] ]}}" wx:if="{{item.status===1}}">验证入园</view>
+            </view>
+        </view>
+    </view>
+    <view class="no-page data-v-bad982bc" wx:else>
+        <image class="data-v-bad982bc" src="https://eshopfile.zhiyousx.com/2023110116325879617.png"></image>
+        <view class="data-v-bad982bc">暂无记录</view>
+    </view>
+    <u-modal bind:__l="__l" bind:confirm="__e" bind:input="__e" class="data-v-bad982bc" content="是否取消预约?" data-event-opts="{{[ [ '^confirm',[ ['cancelReservation'] ] ],[ '^input',[ [ '__set_model',[ '','show','$event',[] ] ] ] ] ]}}" maskCloseAble="{{true}}" showCancelButton="{{true}}" value="{{show}}" vueId="c94eb91a-1"></u-modal>
+</view>

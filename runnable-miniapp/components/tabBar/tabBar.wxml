@@ -1,0 +1,7 @@
+<view class="{{['tab-container','data-v-696021a1',grayFilter==1?'grayFilter':'']}}">
+    <view bindtap="__e" class="tab data-v-696021a1" data-event-opts="{{[ [ 'tap',[ [ 'router',['$0'],[ [ ['list','',index] ] ] ] ] ] ]}}" wx:for="{{list}}" wx:key="index">
+        <image class="icon data-v-696021a1" src="{{currentPath==item.pagePath?item.activePath:item.path}}"></image>
+        <view class="{{['text','singleLineText','data-v-696021a1',currentPath==item.pagePath?'active':'']}}">{{item.text}}</view>
+    </view>
+    <image bindtap="__e" class="tabBut data-v-696021a1" data-event-opts="{{[ [ 'tap',[ [ 'getOpenid',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/index/tabBut1.gif"></image>
+</view>

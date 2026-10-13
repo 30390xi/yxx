@@ -1,0 +1,4 @@
+<view class="page-box data-v-3e42ca8f">
+    <uni-navbar bind:__l="__l" class="data-v-3e42ca8f" type="transparentFixed" vueId="80e2acfa-1"></uni-navbar>
+    <line-card bind:__l="__l" class="data-v-3e42ca8f vue-ref" data-ref="lineCard" lineId="{{sessionId}}" vueId="80e2acfa-2"></line-card>
+</view>

@@ -1,0 +1,15 @@
+<mp-halfScreenDialog bindclose="onAttentionGuideClose" class="mode__follow-teach {{screenType==='horizontal'?'mode__follow-teach__horizontal':''}}" closabled="{{false}}" extClass="follow-teach__halfScreenDialog" maskClosable="{{true}}" screenType="{{screenType}}" show="{{showAttentionGuide}}" title="{{isRecommendShow?'你订阅的直播动态将会出现在这里':'小程序有直播开始时会收到提醒'}}">
+    <view class="half-screen-dialog__follow-teach__sub-title" slot="subTitle">
+        <block wx:if="{{isRecommendShow}}">
+            <view>在“发现>小程序>购物直播”，可以看到直播动态。</view>
+            <view>小程序有直播开始时会收到提醒</view>
+        </block>
+    </view>
+    <view class="half-screen-dialog__follow-teach__content" slot="content">
+        <image class="half-screen-dialog__follow-teach__image" mode="widthFix" src="https://res.wx.qq.com/op_res/zIKDaJlMxMKOCYGSB-0rNue2P61RId1Dxh_wXQ8G7JNozyU0TORUD9vcouH0LYxV" wx:if="{{!isRecommendShow}}"></image>
+        <image class="half-screen-dialog__follow-teach__image" mode="widthFix" src="https://res.wx.qq.com/op_res/E0uBx3RGVxUvXJZFQEeGHKP2kJ3cCuAJKHrRI6zk55vCFQLyifD7Ctzpm-0_YI71" wx:else></image>
+    </view>
+    <view slot="footer">
+        <button bindtap="attentionGuideOk" class="weui-btn weui-btn_default mode__follow-teach__btn" type="default">我知道了</button>
+    </view>
+</mp-halfScreenDialog>

@@ -1,0 +1,25 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "1574974899180212226",
+      "pic": "https://eshopfile.zhiyousx.com/172904996179098581.jpg",
+      "title": "陕西免费景区人气榜",
+      "color": "#4C7BB5"
+    },
+    {
+      "id": "1418473710632857601",
+      "pic": "https://eshopfile.zhiyousx.com/177984581640818670.jpg",
+      "title": "文旅演艺排行榜",
+      "color": "#CE8A2E"
+    },
+    {
+      "id": "1439148110155694082",
+      "pic": "https://eshopfile.zhiyousx.com/172300229807598221.jpg",
+      "title": "西安亲子游景点排行榜",
+      "color": "#486146"
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

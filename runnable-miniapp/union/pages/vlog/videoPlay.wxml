@@ -1,0 +1,5 @@
+<view class="video-box data-v-c0f404c6">
+    <video bindended="__e" binderror="__e" bindloadedmetadata="__e" bindplay="__e" class="data-v-c0f404c6" data-event-opts="{{[ [ 'ended',[ [ 'stopPlay',['$event'] ] ] ],[ 'play',[ [ 'startPlay',['$event'] ] ] ],[ 'error',[ [ 'videoErrorCallback',['$event'] ] ] ],[ 'loadedmetadata',[ [ 'onLoadedmetadata',['$event'] ] ] ] ]}}" enablePlayPageBtn="{{false}}" id="innerVideo" objectFit="contain" poster="{{poster}}" showCenterPlayBtn="{{false}}" showFullscreenBtn="{{false}}" src="{{videoUrl}}" style="{{'object-fit:contain;'+'border-radius:'+(isRadius?'60rpx':'0')+';'}}">
+        <image bindtap="__e" class="data-v-c0f404c6" data-event-opts="{{[ [ 'tap',[ [ 'handlePlay',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/176705974549536802.png" wx:if="{{showPlayBtn}}"></image>
+    </video>
+</view>

@@ -1,0 +1,22 @@
+<view bindtap="__e" class="warter right data-v-33339561" data-event-opts="{{[ [ 'tap',[ [ 'jumpNavigateTo',['$event'] ] ] ] ]}}" data-it="{{item}}" wx:if="{{item.show}}" wx:for="{{rightList}}" wx:key="index">
+    <view class="imageBox data-v-33339561">
+        <image class="vlog data-v-33339561" src="https://eshopfile.zhiyousx.com/2021091814411453211.png" wx:if="{{item.type==9}}"></image>
+        <view class="rankname singleLineText data-v-33339561" wx:if="{{item.type==7||item.type==8}}">{{item.type==7?'官方收录':'游陕西排行榜'}}</view>
+        <view class="rank data-v-33339561" wx:if="{{item.type==7||item.type==8}}">
+            <view class="name singleLineText data-v-33339561">{{item.title}}</view>
+            <view class="spot data-v-33339561">{{item.type==7?item.includeContain:item.rankingInclude}}</view>
+        </view>
+        <image class="mainimg square data-v-33339561" mode="aspectFill" src="{{item.coverImage+'?imageView2/2/w/326/'}}" wx:if="{{item.coverImageHeight<item.coverImageWeight}}"></image>
+        <image class="mainimg data-v-33339561" mode="widthFix" src="{{item.coverImage+'?imageView2/2/w/326/'}}" wx:else></image>
+    </view>
+    <view class="title multilineText2 data-v-33339561" wx:if="{{item.type!=7&&item.type!=8}}">{{item.title}}</view>
+    <view class="readNum data-v-33339561" wx:if="{{item.type!=7&&item.type!=8}}">
+        <view class="price data-v-33339561" wx:if="{{item.type!=9&&item.type!=3&&item.type!=10&&item.type!=11}}">{{item.type==0?'￥'+item.marketPrice:''}}</view>
+        <view class="author data-v-33339561" wx:else>
+            <image class="data-v-33339561" src="{{item.headImgUrl}}" wx:if="{{item.headImgUrl}}"></image>
+            <text class="data-v-33339561" wx:if="{{item.author}}">{{item.author}}</text>
+        </view>
+        <view class="num data-v-33339561" wx:if="{{item.type==0}}">{{'已售'+item.salesNum}}</view>
+        <view class="num data-v-33339561" wx:else>{{item.readingSum}}</view>
+    </view>
+</view>

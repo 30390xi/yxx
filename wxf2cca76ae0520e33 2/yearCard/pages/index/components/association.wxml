@@ -1,0 +1,7 @@
+<view bindtap="__e" class="container data-v-0499595d" data-event-opts="{{[ [ 'tap',[ [ 'jumpToWeb',['$event'] ] ] ] ]}}" hidden="{{!showPop}}">
+    <view class="icon-box data-v-0499595d">
+        <image catchtap="__e" class="data-v-0499595d" data-event-opts="{{[ [ 'tap',[ [ 'closePop',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/2023121409313767977.png"></image>
+    </view>
+    <view class="data-v-0499595d">入群</view>
+    <view class="data-v-0499595d">邀请</view>
+</view>

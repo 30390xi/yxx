@@ -1,0 +1,7 @@
+<view class="u-empty data-v-d43462f0" style="{{'margin-top:'+marginTop+'rpx'+';'}}" wx:if="{{show}}">
+    <image class="data-v-d43462f0" mode="scaleToFill" src="{{imgsrc}}" style="width:260rpx;height:260rpx;" wx:if="{{imgsrc}}"></image>
+    <u-icon bind:__l="__l" class="data-v-d43462f0" color="{{iconColor}}" label="{{text?text:icons[mode]}}" labelColor="{{color}}" labelPos="bottom" labelSize="{{fontSize}}" marginTop="14" name="{{src?src:'empty-'+mode}}" size="{{iconSize}}" vueId="d390174c-1" wx:else></u-icon>
+    <view class="u-slot-wrap data-v-d43462f0">
+        <slot name="bottom"></slot>
+    </view>
+</view>

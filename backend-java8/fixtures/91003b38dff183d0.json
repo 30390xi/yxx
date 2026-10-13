@@ -1,0 +1,345 @@
+{
+  "code": 1,
+  "data": {
+    "records": [
+      {
+        "productId": "1781224807857623042",
+        "productName": "西安西安博物院+小雁塔(荐福寺)半日游【含耳麦 可选9/10/11/14点场次】",
+        "productPic": "https://eshopfile.zhiyousx.com/171351206035121395.jpg",
+        "price": 40.0,
+        "retailPrice": 68.0,
+        "travelMode": 2,
+        "lineType": 1,
+        "lineHighlightLabel": "资深讲解,含耳麦",
+        "journeyDay": 1,
+        "journeyNight": 0,
+        "cityNames": "西安",
+        "cityList": [
+          "西安"
+        ],
+        "startPriceFlag": 0,
+        "lineHighlightLabelList": [
+          "资深讲解",
+          "含耳麦"
+        ],
+        "sellOut": 0,
+        "stockStatus": 1,
+        "sellShortOperation": 0,
+        "lineTagList": [
+          "可订10.14",
+          "无购物",
+          "无自费",
+          "退订无忧"
+        ],
+        "bookingInfoTag": "{\"bookingDate\":1791907200000,\"bookingTag\":\"可订10.14\",\"bookingTimeStr\":\"22:00前可订10.14\"}",
+        "serviceDesc": "[{\"serviceDesc\":2,\"serviceRemark\":\"\"},{\"serviceDesc\":3,\"serviceRemark\":\"\"},{\"serviceDesc\":4,\"serviceRemark\":\"出行前一天18:00之前可全额无损退\"}]",
+        "saleNum": 709
+      },
+      {
+        "productId": "1816761912163487746",
+        "productName": "西安兵马俑讲解亲子研学含铜车马双馆5小时纯玩15人小团",
+        "productPic": "https://eshopfile.zhiyousx.com/172198476758937900.jpg",
+        "price": 98.0,
+        "retailPrice": 128.0,
+        "travelMode": 3,
+        "lineType": 2,
+        "lineHighlightLabel": "亲子研学,深度讲解 ",
+        "journeyDay": 1,
+        "journeyNight": 0,
+        "cityNames": "西安",
+        "cityList": [
+          "西安"
+        ],
+        "startPriceFlag": 1,
+        "lineHighlightLabelList": [
+          "亲子研学",
+          "深度讲解 "
+        ],
+        "sellOut": 0,
+        "stockStatus": 1,
+        "sellShortOperation": 1,
+        "lineTagList": [
+          "可订10.14",
+          "无购物",
+          "无自费",
+          "退订无忧",
+          "二次确认"
+        ],
+        "bookingInfoTag": "{\"bookingDate\":1791907200000,\"bookingTag\":\"可订10.14\",\"bookingTimeStr\":\"18:00前可订10.14\"}",
+        "serviceDesc": "[{\"serviceDesc\":2,\"serviceRemark\":\"全程无任何推销购物\"},{\"serviceDesc\":3,\"serviceRemark\":\"\"},{\"serviceDesc\":4,\"serviceRemark\":\"提前3天18点前无损退\"},{\"serviceDesc\":6,\"serviceRemark\":\"\"}]",
+        "saleNum": 2508
+      },
+      {
+        "productId": "1780425066244669441",
+        "productName": "【特惠团】秦始皇陵（兵马俑）+华清宫纯玩1日游-赠餐含耳麦",
+        "productPic": "https://eshopfile.zhiyousx.com/171332138703390055.jpg",
+        "price": 68.0,
+        "retailPrice": 120.0,
+        "travelMode": 1,
+        "lineType": 1,
+        "lineHighlightLabel": "三环内接,赠送午餐,免费使用耳麦",
+        "journeyDay": 1,
+        "journeyNight": 0,
+        "cityNames": "西安",
+        "cityList": [
+          "西安"
+        ],
+        "startPriceFlag": 1,
+        "lineHighlightLabelList": [
+          "三环内接",
+          "赠送午餐",
+          "免费使用耳麦"
+        ],
+        "sellOut": 0,
+        "stockStatus": 1,
+        "sellShortOperation": 0,
+        "lineTagList": [
+          "可订明日",
+          "上门接"
+        ],
+        "bookingInfoTag": "{\"bookingDate\":1791820800000,\"bookingTag\":\"可订明日\",\"bookingTimeStr\":\"23:50前可订明日\"}",
+        "serviceDesc": "[{\"serviceDesc\":5,\"serviceRemark\":\"三环内部分地区上门接\"}]",
+        "saleNum": 641
+      },
+      {
+        "productId": "1780838999033290753",
+        "productName": "【精品小团】秦始皇陵（兵马俑）+华清宫纯玩1日游* +赠午餐+三环内可接",
+        "productPic": "https://eshopfile.zhiyousx.com/171332138703390055.jpg",
+        "price": 88.0,
+        "retailPrice": 120.0,
+        "travelMode": 1,
+        "lineType": 1,
+        "lineHighlightLabel": "三环内接,赠送午餐,免费使用耳麦",
+        "journeyDay": 1,
+        "journeyNight": 0,
+        "cityNames": "西安",
+        "cityList": [
+          "西安"
+        ],
+        "startPriceFlag": 1,
+        "lineHighlightLabelList": [
+          "三环内接",
+          "赠送午餐",
+          "免费使用耳麦"
+        ],
+        "sellOut": 0,
+        "stockStatus": 1,
+        "sellShortOperation": 0,
+        "lineTagList": [
+          "可订明日",
+          "上门接"
+        ],
+        "bookingInfoTag": "{\"bookingDate\":1791820800000,\"bookingTag\":\"可订明日\",\"bookingTimeStr\":\"23:30前可订明日\"}",
+        "serviceDesc": "[{\"serviceDesc\":5,\"serviceRemark\":\"三环内部分地区上门接\"}]",
+        "saleNum": 744
+      },
+      {
+        "productId": "1781213457669595138",
+        "productName": "黄河壶口瀑布旅游区(陕西侧)一日游【陆地头等舱大巴-送陕北风情宴】",
+        "productPic": "https://eshopfile.zhiyousx.com/176544035839031741.png",
+        "price": 158.0,
+        "retailPrice": 200.0,
+        "travelMode": 1,
+        "lineType": 1,
+        "lineHighlightLabel": "赠餐,黄河之水",
+        "journeyDay": 1,
+        "journeyNight": 0,
+        "cityNames": "西安",
+        "cityList": [
+          "西安"
+        ],
+        "startPriceFlag": 1,
+        "lineHighlightLabelList": [
+          "赠餐",
+          "黄河之水"
+        ],
+        "sellOut": 0,
+        "stockStatus": 1,
+        "sellShortOperation": 0,
+        "lineTagList": [
+          "可订明日",
+          "无购物",
+          "退订无忧",
+          "上门接"
+        ],
+        "bookingInfoTag": "{\"bookingDate\":1791820800000,\"bookingTag\":\"可订明日\",\"bookingTimeStr\":\"23:50前可订明日\"}",
+        "serviceDesc": "[{\"serviceDesc\":2,\"serviceRemark\":\"\"},{\"serviceDesc\":4,\"serviceRemark\":\"出行前一天18:00之前可全额无损退\"},{\"serviceDesc\":5,\"serviceRemark\":\"二环内西安酒店可上门接\"}]",
+        "saleNum": 338
+      },
+      {
+        "productId": "1899734314584825857",
+        "productName": "西安兵马俑讲解亲子研学含铜车马双馆5小时纯玩15人小团",
+        "productPic": "https://eshopfile.zhiyousx.com/172198476758937900.jpg",
+        "price": 98.0,
+        "retailPrice": 128.0,
+        "travelMode": 3,
+        "lineType": 2,
+        "lineHighlightLabel": "亲子研学,深度讲解 ",
+        "journeyDay": 1,
+        "journeyNight": 0,
+        "cityNames": "西安",
+        "cityList": [
+          "西安"
+        ],
+        "startPriceFlag": 1,
+        "lineHighlightLabelList": [
+          "亲子研学",
+          "深度讲解 "
+        ],
+        "sellOut": 0,
+        "stockStatus": 1,
+        "sellShortOperation": 1,
+        "lineTagList": [
+          "可订10.14",
+          "无购物",
+          "无自费",
+          "退订无忧",
+          "二次确认"
+        ],
+        "bookingInfoTag": "{\"bookingDate\":1791907200000,\"bookingTag\":\"可订10.14\",\"bookingTimeStr\":\"18:00前可订10.14\"}",
+        "serviceDesc": "[{\"serviceDesc\":2,\"serviceRemark\":\"全程无任何推销购物\"},{\"serviceDesc\":3,\"serviceRemark\":\"\"},{\"serviceDesc\":4,\"serviceRemark\":\"提前3天18点前无损退\"},{\"serviceDesc\":6,\"serviceRemark\":\"\"}]",
+        "saleNum": 2231
+      },
+      {
+        "productId": "1925101488702676993",
+        "productName": "【西上北下】 陕西西安华山一日游 赠海底捞自热米饭+矿泉水+祈福带+登山手套",
+        "productPic": "https://eshopfile.zhiyousx.com/171342603363795825.jpg",
+        "price": 98.0,
+        "retailPrice": 138.0,
+        "travelMode": 1,
+        "lineType": 1,
+        "lineHighlightLabel": "三环内部分区域接,赠午餐",
+        "journeyDay": 1,
+        "journeyNight": 0,
+        "cityNames": "西安",
+        "cityList": [
+          "西安"
+        ],
+        "startPriceFlag": 0,
+        "lineHighlightLabelList": [
+          "三环内部分区域接",
+          "赠午餐"
+        ],
+        "sellOut": 0,
+        "stockStatus": 1,
+        "sellShortOperation": 0,
+        "lineTagList": [
+          "可订明日",
+          "上门接"
+        ],
+        "bookingInfoTag": "{\"bookingDate\":1791820800000,\"bookingTag\":\"可订明日\",\"bookingTimeStr\":\"23:00前可订明日\"}",
+        "serviceDesc": "[{\"serviceDesc\":5,\"serviceRemark\":\"三环内部分区域上门接（节假日除外）\"}]",
+        "saleNum": 418
+      },
+      {
+        "productId": "1751886051939106818",
+        "productName": "大唐西市博物馆研学-下午场【前进吧！西市掌柜】西市财商知识/唐朝历史文化/丝路人文地理",
+        "productPic": "https://eshopfile.zhiyousx.com/177630660681138199.jpg",
+        "price": 98.0,
+        "retailPrice": 298.0,
+        "travelMode": 0,
+        "lineType": 1,
+        "lineHighlightLabel": "历史思辨,儿童财商,探究学习,丝路人文,适宜6-12周岁儿童",
+        "journeyDay": 1,
+        "journeyNight": 0,
+        "cityNames": "西安",
+        "cityList": [
+          "西安"
+        ],
+        "startPriceFlag": 0,
+        "lineHighlightLabelList": [
+          "历史思辨",
+          "儿童财商",
+          "探究学习",
+          "丝路人文",
+          "适宜6-12周岁儿童"
+        ],
+        "sellOut": 1,
+        "stockStatus": 0,
+        "sellShortOperation": 1,
+        "lineTagList": [
+          "不可订",
+          "自动确认",
+          "无自费",
+          "退订无忧"
+        ],
+        "bookingInfoTag": "{\"bookingTag\":\"不可订\",\"bookingTimeStr\":\"\"}",
+        "serviceDesc": "[{\"serviceDesc\":1,\"serviceRemark\":\"下单后自动确认订单\"},{\"serviceDesc\":3,\"serviceRemark\":\"本商品全程不推荐、不强制任何自费项目(景区景点及用户自身要求安排等非平台商家组织的自费行为不包括在内)\"},{\"serviceDesc\":4,\"serviceRemark\":\"提前48小时以上——全额退款\\n提前24-48小时以上一一退款比例80%\\n提前一天18:00前——退款比例50%\\n提前一天18:00后——不支持退款\"}]",
+        "saleNum": 12
+      },
+      {
+        "productId": "1780863979087372290",
+        "productName": "【直通车】 陕西西安华山一日游 赠海底捞自热米饭+矿泉水+祈福带+登山手套",
+        "productPic": "https://eshopfile.zhiyousx.com/171342603363795825.jpg",
+        "price": 98.0,
+        "retailPrice": 138.0,
+        "travelMode": 1,
+        "lineType": 1,
+        "lineHighlightLabel": "三环内部分区域接,赠午餐",
+        "journeyDay": 1,
+        "journeyNight": 0,
+        "cityNames": "西安",
+        "cityList": [
+          "西安"
+        ],
+        "startPriceFlag": 0,
+        "lineHighlightLabelList": [
+          "三环内部分区域接",
+          "赠午餐"
+        ],
+        "sellOut": 0,
+        "stockStatus": 1,
+        "sellShortOperation": 0,
+        "lineTagList": [
+          "可订明日",
+          "上门接"
+        ],
+        "bookingInfoTag": "{\"bookingDate\":1791820800000,\"bookingTag\":\"可订明日\",\"bookingTimeStr\":\"23:00前可订明日\"}",
+        "serviceDesc": "[{\"serviceDesc\":5,\"serviceRemark\":\"三环内部分区域上门接（节假日除外）\"}]",
+        "saleNum": 458
+      },
+      {
+        "productId": "1925110921000312833",
+        "productName": "【西峰往返】 陕西西安华山一日游 赠海底捞自热米饭+矿泉水+祈福带+登山手套",
+        "productPic": "https://eshopfile.zhiyousx.com/171342603363795825.jpg",
+        "price": 98.0,
+        "retailPrice": 138.0,
+        "travelMode": 1,
+        "lineType": 1,
+        "lineHighlightLabel": "三环内部分区域接,赠午餐",
+        "journeyDay": 1,
+        "journeyNight": 0,
+        "cityNames": "西安",
+        "cityList": [
+          "西安"
+        ],
+        "startPriceFlag": 0,
+        "lineHighlightLabelList": [
+          "三环内部分区域接",
+          "赠午餐"
+        ],
+        "sellOut": 0,
+        "stockStatus": 1,
+        "sellShortOperation": 0,
+        "lineTagList": [
+          "可订明日",
+          "上门接"
+        ],
+        "bookingInfoTag": "{\"bookingDate\":1791820800000,\"bookingTag\":\"可订明日\",\"bookingTimeStr\":\"23:00前可订明日\"}",
+        "serviceDesc": "[{\"serviceDesc\":5,\"serviceRemark\":\"三环内部分区域上门接（节假日除外）\"}]",
+        "saleNum": 430
+      }
+    ],
+    "total": 48,
+    "size": 10,
+    "current": 1,
+    "orders": [],
+    "optimizeCountSql": true,
+    "searchCount": true,
+    "maxLimit": null,
+    "countId": null,
+    "pages": 5
+  },
+  "msg": "成功",
+  "success": true
+}

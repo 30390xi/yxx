@@ -1,0 +1,33 @@
+<view class="lottery-oper__rewards {{lotteryPush.participate_type===2?'lottery-oper__rewards-team':''}} {{screenType==='horizontal'?'lottery-oper__rewards__horizontal':''}} {{!lotteryPush.isWinLottery?'lottery-oper__rewards-noreward':''}}">
+    <block wx:if="{{rewardList.length>0}}">
+        <block wx:if="{{lotteryPush.participate_type!==2}}">
+            <view class="lottery-oper__rewards__title"><text class="lottery-oper__rewards__title__name">{{lotteryPush.name}}</text>幸运观众<text class="lottery-oper__luck-num">共 {{rewardList.length}} 人</text>
+            </view>
+            <scroll-view enableFlex scrollWithAnimation scrollY class="lottery-oper__rewards__body__inner">
+                <view class="lottery-oper__rewards__body" wx:for="{{rewardList}}" wx:key="unique">
+                    <view class="lottery-oper__rewards__item">
+                        <image class="lottery-oper__rewards__item__avatar" src="{{item.headimg}}"></image>
+                        <view class="lottery-oper__rewards__item__info">{{item.nickname||'**'}}</view>
+                    </view>
+                </view>
+            </scroll-view>
+        </block>
+        <block wx:else>
+            <view class="lottery-oper__rewards__title form-team"><text class="lottery-oper__rewards__title__name">{{lotteryPush.name}}</text>获奖名单</view>
+            <scroll-view enableFlex scrollWithAnimation scrollY class="lottery-oper__rewards__body__inner">
+                <view class="lottery-oper__rewards__body" wx:for="{{rewardList}}" wx:for-item="teamList" wx:key="unique">
+                    <view class="lottery-oper__rewards__item">
+                        <view class="lottery-oper__rewards__item__avatar__container">
+                            <image class="lottery-oper__rewards__item__avatar" src="{{item.headimg}}" wx:for="{{teamList}}" wx:key="unique"></image>
+                        </view>
+                        <block wx:for="{{teamList}}" wx:key="unique">
+                            <view class="lottery-oper__rewards__item__info" wx:if="{{index<teamList.length-1}}">{{item.nickname||'**'}}</view>
+                            <block wx:if="{{index<=teamList.length-2}}">、</block>
+                            <view class="lottery-oper__rewards__item__info" wx:else>{{item.nickname||'**'}}</view>
+                        </block>
+                    </view>
+                </view>
+            </scroll-view>
+        </block>
+    </block>
+</view>

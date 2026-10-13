@@ -1,0 +1,29 @@
+<view class="profile-modal {{screenType}} {{screenType==='horizontal'?'profile-modal__horizontal':''}}" hidden="{{screenType==='-1'}}">
+    <view class="profile-modal__inner">
+        <view bindtap="onClose" class="profile-modal__mask"></view>
+        <view class="profile-modal__dialog {{dataIsShow?'fadeIn':'fadeOut'}}">
+            <view class="profile-modal__dialog__inner">
+                <view class="profile-modal__dialog__head">
+                    <view bindtap="onReportRoom" class="profile-modal__dialog__reportRoom">举报</view>
+                </view>
+                <image class="profile-modal__dialog__avatar" src="{{weappImg}}"></image>
+                <view class="profile-modal__dialog__body">
+                    <view class="profile-modal__dialog__store-name">{{weappName}}</view>
+                    <view bindtap="onAttention" class="profile-modal__dialog__button {{!isAttention?'':'profile-modal__dialog__button__subscribed'}}" data-source="modal" data-status="{{!isAttention?false:true}}" wx:if="{{showFollowV2}}">{{!isAttention?'订阅直播':'取消订阅'}}</view>
+                </view>
+                <view class="profile-modal__dialog__info__area">
+                    <view class="profile-modal__dialog__info profile-modal__dialog__info__room-title" wx:if="{{roomTitle}}">本场专题：{{roomTitle}}</view>
+                    <view class="profile-modal__dialog__info profile-modal__dialog__info__anchor-name" wx:if="{{anchorName}}">主播：{{anchorName}}</view>
+                </view>
+                <view class="profile-modal__live__list" wx:if="{{profileExtRoomList&&profileExtRoomList.length}}">
+                    <view bindtap="onExtRoomClick" class="profile-modal__live__item" data-roomid="{{item.id}}" style="background: rgba(0, 0, 0, .5) url('{{item.feeds_img}}') no-repeat center top / cover" wx:for="{{profileExtRoomList}}" wx:key="unique">
+                        <view class="profile-modal__live__item__tag {{item.live_status===101?'profile-modal__live__item__tag__living':''}}{{item.live_status===102?' profile-modal__live__item__tag__advance':''}}{{item.live_status===103?' profile-modal__live__item__tag__playback':''}}"></view>
+                        <view class="profile-modal__live__item__info">
+                            <view class="profile-modal__live__item__info__inner">{{item.name}}</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

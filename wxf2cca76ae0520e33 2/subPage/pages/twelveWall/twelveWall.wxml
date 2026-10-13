@@ -1,0 +1,30 @@
+<view class="photoWall data-v-7506f9fa">
+    <uni-navbar bind:__l="__l" class="data-v-7506f9fa" type="transparentFixed" vueId="668f7180-1"></uni-navbar>
+    <view class="top-box data-v-7506f9fa">
+        <image mode class="top-bg data-v-7506f9fa" src="https://eshopfile.zhiyousx.com/twelveWall/top-bg.png"></image>
+        <image mode class="user-title data-v-7506f9fa" src="https://eshopfile.zhiyousx.com/twelveWall/user-title.png"></image>
+        <image mode class="title-img data-v-7506f9fa" src="https://eshopfile.zhiyousx.com/twelveWall/title-img.png"></image>
+        <image mode bindtap="__e" class="tip-but1 data-v-7506f9fa" data-event-opts="{{[ [ 'tap',[ [ 'jumpSpot',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/twelveWall/jumpSpot.png"></image>
+        <image mode bindtap="__e" class="tip-but2 data-v-7506f9fa" data-event-opts="{{[ [ 'tap',[ [ 'jumpSelection',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/twelveWall/selected.png"></image>
+    </view>
+    <view class="imgList-box data-v-7506f9fa">
+        <u-waterfall addTime="50" bind:__l="__l" bind:input="__e" class="data-v-7506f9fa vue-ref" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','flowList','$event',[] ] ] ] ] ]}}" data-ref="uWaterfall" data-vue-generic="scoped" value="{{flowList}}" vueId="668f7180-2" vueSlots="{{['right','left']}}"></u-waterfall>
+    </view>
+    <image mode class="bottom-box data-v-7506f9fa" src="https://eshopfile.zhiyousx.com/twelveWall/bottom-bg.png"></image>
+    <image mode bindtap="__e" class="uploadImg data-v-7506f9fa" data-event-opts="{{[ [ 'tap',[ [ 'uploadImg',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/twelveWall/uploadImg.png"></image>
+    <u-popup bind:__l="__l" bind:input="__e" class="data-v-7506f9fa vue-ref" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showNotice','$event',[] ] ] ] ] ]}}" data-ref="uPopup" mode="center" value="{{showNotice}}" vueId="668f7180-3" vueSlots="{{['default']}}">
+        <view class="notice-box data-v-7506f9fa">
+            <view class="notice-info data-v-7506f9fa">
+                <view class="notice-title data-v-7506f9fa">照片使用权协议</view>
+                <view class="notice-body data-v-7506f9fa">
+                    <view class="p data-v-7506f9fa">1、上传图片照片请包含人像，以更能体现十二时辰的美为宜；</view>
+                    <view class="p data-v-7506f9fa">2、每月评选3位月度之星，可以获得十二时辰免费入园机会，工作人员将与你联系；</view>
+                    <view class="p data-v-7506f9fa">3、所有的月度之星，将有机会获得十二时辰随后活动的免费体验资格；</view>
+                    <view class="p data-v-7506f9fa">4、如不希望照片被选作精选展示，请联系游陕西平台删除；</view>
+                    <view class="p data-v-7506f9fa">5、参与活动即视为同意长安十二时辰主题街区及游陕西使用该照片作为宣传使用，游陕西平台对此次活动拥有最终解释权。</view>
+                </view>
+                <view bindtap="__e" class="notice-but data-v-7506f9fa" data-event-opts="{{[ [ 'tap',[ [ 'agree',['$event'] ] ] ] ]}}">我已阅读并同意</view>
+            </view>
+        </view>
+    </u-popup>
+</view>

@@ -1,0 +1,25 @@
+<view>
+    <view class="news" wx:for="{{newsList}}" wx:key="msgId">
+        <view>
+            <view class="time">{{''+(typeNum==0?item.sysMsgPushVo.insidePushTime:item.createTime)+''}}</view>
+            <view bindtap="__e" class="activity" data-event-opts="{{[ [ 'tap',[ [ 'goLink',['$0'],[ [ ['newsList','msgId',item.msgId,'sysMsgPushVo'] ] ] ] ] ] ]}}" wx:if="{{typeNum==0}}">
+                <view class="activityTop">{{''+item.sysMsgPushVo.title+''}}</view>
+                <view class="content">
+                    <image src="{{item.sysMsgPushVo.imagUrl}}" wx:if="{{item.sysMsgPushVo.imagUrl}}"></image>
+                    <text>{{item.sysMsgPushVo.content}}</text>
+                </view>
+            </view>
+            <view class="activity" wx:else>
+                <view bindtap="__e" class="content" data-event-opts="{{[ [ 'tap',[ [ 'pageTos',['$event'] ] ] ] ]}}" data-type="{{item.msgClass}}">
+                    <text>{{item.content}}</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="empty" wx:if="{{$root.g0}}">
+        <empty-state bind:__l="__l" imgUrl="https://eshopfile.zhiyousx.com/noMsg@2x.png" text="暂无消息" vueId="c10aeb40-1"></empty-state>
+    </view>
+    <view class="loadMore">
+        <u-loadmore bgColor="#f7f7f7" bind:__l="__l" color="#ccc" data-custom-hidden="{{!$root.g1}}" iconColor="#ccc"  status="{{loadMore}}" vueId="c10aeb40-2"></u-loadmore>
+    </view>
+</view>

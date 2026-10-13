@@ -1,0 +1,12 @@
+<view class="page-box data-v-7f309d23">
+    <uni-navbar bgColor="{{['#6585FA','#F1F5FB']}}" bgColorAngle="180" bind:__l="__l" class="data-v-7f309d23" title="{{$root.m0}}" type="fixed" vueId="0510fb43-1"></uni-navbar>
+    <view class="data-v-7f309d23" style="position:relative;" wx:for="{{collectionList}}" wx:for-index="__i0__" wx:key="id">
+        <view class="data-v-7f309d23">
+            <view class="time data-v-7f309d23">{{item.time}}</view>
+            <chat-item bind:__l="__l" bind:badCommentFun="__e" class="data-v-7f309d23" data-event-opts="{{[ [ '^badCommentFun',[ ['badCommentFun'] ] ] ]}}" item="{{el}}" likeSave="{{true}}" vueId="{{'0510fb43-2-'+__i0__+'-'+__i1__}}" wx:for="{{item.list}}" wx:for-index="__i1__" wx:for-item="el"></chat-item>
+        </view>
+    </view>
+    <view class="loadMore data-v-7f309d23">
+        <u-loadmore bgColor="#f7f7f7" bind:__l="__l" class="data-v-7f309d23" color="#ccc" data-custom-hidden="{{!$root.g0}}" iconColor="#ccc" status="{{loadMore}}" vueId="0510fb43-3"></u-loadmore>
+    </view>
+</view>

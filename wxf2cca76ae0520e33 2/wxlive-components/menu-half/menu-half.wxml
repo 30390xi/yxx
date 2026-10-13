@@ -1,0 +1,19 @@
+<view class="menu-half menu-half__{{screenType}} {{size==='mini'?'menu-half__mini':''}} {{size==='normal'?'menu-half__normal':''}} {{extClass}} {{isMaskTransparent?'menu-half__with-mask-transparent':''}} {{uiPlatform!=='ios'?'menu-half__platform-not-ios':''}}">
+    <view bindtap="closeMenuHalf" class="menu-half__mask {{isMaskTransparent?'menu-half__mask-transparent':''}}" data-from="mask"></view>
+    <view class="menu-half__panel mode-filter-black-half-screen {{isShowAnimation?dataIsShow?'fadeIn':'fadeOut':''}}" style="height: {{menuHeight&&!(height==='auto'&&size==='mini')?menuHeight+'px':undefined}}; {{height==='auto'?'height: auto':''}}">
+        <view class="menu-half__panel__header">
+            <view bindtap="closeMenuHalf" class="menu-half__panel__close" style="z-index: 8" wx:if="{{size==='normal'&&closeable&&returnType==='close'}}"></view>
+            <view bindtap="returnMenuHalf" class="menu-half__panel__back" style="z-index: 8" wx:if="{{size==='normal'&&closeable&&returnType==='back-bottom'}}"></view>
+            <view bindtap="returnMenuHalf" class="menu-half__panel__back-bottom" style="z-index: 8" wx:if="{{size==='normal'&&closeable&&returnType==='back'}}"></view>
+            <slot name="header"></slot>
+        </view>
+        <view class="menu-half__panel__body" style="{{bodyStyle}}">
+            <slot name="body"></slot>
+        </view>
+        <view class="menu-half__panel__footer" wx:if="{{size==='mini'}}">
+            <view bindtap="closeMenuHalf" class="menu-half__panel__close" wx:if="{{returnType==='close'}}"></view>
+            <view bindtap="returnMenuHalf" class="menu-half__panel__back" wx:elif="{{returnType==='back'}}"></view>
+            <view bindtap="returnMenuHalf" class="menu-half__panel__back-bottom" wx:elif="{{returnType==='back-bottom'}}"></view>
+        </view>
+    </view>
+</view>

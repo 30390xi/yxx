@@ -1,0 +1,18 @@
+<view class="data-v-bc7b8e98">
+    <view class="search-box data-v-bc7b8e98">
+        <u-search actionStyle="{{color:'#ff4643'}}" actionText="取消" animation="{{true}}" bind:__l="__l" bind:custom="__e" bind:input="__e" bind:search="__e" class="data-v-bc7b8e98" data-event-opts="{{[ [ '^search',[ [ 'doSearch',['$0'],['keyword'] ] ] ],[ '^custom',[ ['doCustom'] ] ],[ '^input',[ [ '__set_model',[ '','keyword','$event',[] ] ] ] ] ]}}" focus="{{true}}" maxlength="15" placeholder="搜索商品" value="{{keyword}}" vueId="76dc6ac0-1" wx:if="{{focusStatus}}"></u-search>
+    </view>
+    <view class="search-keyword data-v-bc7b8e98">
+        <scroll-view class="keyword-box data-v-bc7b8e98" scrollY="{{true}}">
+            <view class="keyword-block data-v-bc7b8e98" wx:if="{{$root.g0>0}}">
+                <view class="keyword-list-header data-v-bc7b8e98">
+                    <view class="data-v-bc7b8e98">历史搜索</view>
+                    <uni-icons bind:__l="__l" bind:click="__e" class="data-v-bc7b8e98" color="#878787" data-event-opts="{{[ [ '^click',[ ['oldDelete'] ] ] ]}}" size="20" type="trash" vueId="76dc6ac0-2"></uni-icons>
+                </view>
+                <view class="keyword data-v-bc7b8e98">
+                    <view bindtap="__e" class="data-v-bc7b8e98" data-event-opts="{{[ [ 'tap',[ [ 'doSearch',['$0'],[ [ ['oldKeywordList','',index] ] ] ] ] ] ]}}" wx:for="{{oldKeywordList}}" wx:for-item="keyword" wx:key="index">{{keyword}}</view>
+                </view>
+            </view>
+        </scroll-view>
+    </view>
+</view>

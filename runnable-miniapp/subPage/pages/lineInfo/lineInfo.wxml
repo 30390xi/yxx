@@ -1,0 +1,339 @@
+<view class="box u-skeleton data-v-5a494278">
+  <uni-navbar bind:__l="__l" class="data-v-5a494278" type="transparentFixed" vueId="7d064c20-1" wx:if="{{!isPhotoAll}}">
+  </uni-navbar>
+  <album bind:__l="__l" bind:hancleCloseAlbum="__e" bind:topicMap="__e" class="data-v-5a494278 vue-ref"
+    data-event-opts="{{[ [ '^topicMap',[ ['topicMap'] ] ],[ '^hancleCloseAlbum',[ ['hancleCloseAlbum'] ] ] ]}}"
+    data-ref="album" isPhotoAll="{{isPhotoAll}}" lineId="{{lineId}}"
+    style="{{'position:'+(isPhotoAll?'relative':'fixed')+';'+'top:'+0+';'}}" videoUrl="{{detailObj.video}}"
+    vueId="7d064c20-2" wx:if="{{lineId&&isPhotoAll}}"></album>
+  <image class="line-hero data-v-5a494278" mode="aspectFill" src="{{detailObj.imageList[0].url}}"
+    wx:if="{{lineId&&!isPhotoAll&&detailObj.imageList&&detailObj.imageList[0]}}"></image>
+  <view bindtouchmove="__e" bindtouchstart="__e" class="line_info data-v-5a494278"
+    data-event-opts="{{[ [ 'touchmove',[ [ 'scroll',['$event'] ] ] ],[ 'touchstart',[ [ 'touchstart',['$event'] ] ] ] ]}}"
+    style="{{'top:'+(isPhotoAll?lastY+'rpx':0)+';'+'position:'+(!isPhotoAll?'relative':'fixed')+';'+'padding-top:'+paddingTop+'rpx'+';'+'padding-bottom:'+(detailObj.groupOrderFlag&&detailObj.showOwnDue||isGroup?'100rpx':0)+';'}}">
+    <view bindtap="__e" class="albumEnter allcenter data-v-5a494278"
+      data-event-opts="{{[ [ 'tap',[ [ 'down',['$event'] ] ] ] ]}}" style="{{'height:'+paddingTop+'rpx'+';'}}"
+      wx:if="{{!isPhotoAll}}">
+      <image class="data-v-5a494278" mode="aspectFill" src="https://eshopfile.zhiyousx.com/2025111017313127761.png"
+        wx:if="{{detailObj.video}}"></image>
+    </view>
+    <view class="line_bj data-v-5a494278"
+      style="{{'background:'+'linear-gradient(180deg,rgba(16,122,100,0) 0%,'+pageColour+' 50%, '+pageColour+' 100%)'+';'}}">
+      <view bindtap="__e" class="down data-v-5a494278" data-event-opts="{{[ [ 'tap',[ [ 'down',['$event'] ] ] ] ]}}">
+        <image class="down_img data-v-5a494278" src="/static/captured/dc58423b6b10c8a3.png"
+          style="{{'opacity:'+0.6-scrollTop*0.05+';'}}"></image>
+      </view>
+      <view class="line_title data-v-5a494278" id="lineInfo" wx:if="{{false}}">
+        <view class="p1 data-v-5a494278">当季新品</view>
+        <view class="p2 data-v-5a494278">
+          <view class="_p data-v-5a494278">精品周边游系列</view>
+        </view>
+      </view>
+      <view class="line_name data-v-5a494278">{{detailObj.lineName}}</view>
+      <view class="line_lable data-v-5a494278" wx:if="{{$root.g0}}">
+        <label class="lable_item _span data-v-5a494278" wx:for="{{detailObj.themeNameList}}"
+          wx:key="index">{{item}}</label>
+      </view>
+    </view>
+    <view class="line_bj data-v-5a494278"
+      style="{{'background:'+'linear-gradient(180deg,'+pageColour+' 0%,'+' rgba(245, 245, 245, 1) 100%)'+';'}}">
+      <view bindtap="__e" class="line_top_img data-v-5a494278"
+        data-event-opts="{{[ [ 'tap',[ [ 'priviewImg',['$0'],['detailObj.featureUrl'] ] ] ] ]}}"
+        wx:if="{{detailObj.featureUrl}}">
+        <image class="data-v-5a494278" mode="widthFix" showMenuByLongpress="{{true}}" src="{{detailObj.featureUrl}}">
+        </image>
+      </view>
+      <view bindtap="__e" class="loction u-skeleton-fillet data-v-5a494278"
+        data-event-opts="{{[ [ 'tap',[ ['goTrip'] ] ] ]}}" wx:if="{{detailObj.mapShowFlag}}">
+        <view class="route-map-fallback data-v-5a494278">
+          <view class="route-map-heading data-v-5a494278">线路地图</view>
+          <view class="route-map-hint data-v-5a494278">按行程顺序查看路线，点击进入行程明细</view>
+          <scroll-view class="route-map-stops data-v-5a494278" scrollY="{{true}}">
+            <view class="route-map-stop data-v-5a494278" wx:for="{{markers}}" wx:key="index">
+              <view class="route-map-day data-v-5a494278">{{'D'+item.day}}</view>
+              <view class="route-map-name data-v-5a494278">{{item.title}}</view>
+            </view>
+          </scroll-view>
+        </view>
+        <view class="loading data-v-5a494278">
+          <view class="img_box data-v-5a494278" wx:if="{{mapLoading}}">
+            <image class="loading_img data-v-5a494278" src="/static/captured/79cac93e03941197.gif">
+            </image>
+          </view>
+        </view>
+        <view class="extend data-v-5a494278">
+          <image class="extend_img data-v-5a494278" src="/static/captured/5cef9cf35ca66ae0.png"></image>
+        </view>
+      </view>
+      <view class="loction_info u-skeleton-fillet data-v-5a494278"
+        wx:if="{{detailObj.lineGameCapitaList&&detailObj.lineGameCapitaList[0]}}">
+        <view class="info_item data-v-5a494278" wx:for="{{detailObj.lineGameCapitaList}}">
+          <view class="top _p data-v-5a494278">{{item.content}}</view>
+          <view class="bottom _p data-v-5a494278">{{item.desc}}</view>
+          <label class="lines _span data-v-5a494278"></label>
+        </view>
+      </view>
+    </view>
+    <view class="line_model data-v-5a494278" wx:if="{{isbanner}}">
+      <view class="model_title data-v-5a494278">
+        <view class="_p data-v-5a494278">线路特色</view>
+        <label class="_span data-v-5a494278"
+          style="{{'background:'+'linear-gradient(90deg, '+buttonColour+' 0%, rgba(255,255,255,0) 100%)'+';'}}"></label>
+      </view>
+      <view class="teachLoop u-skeleton-fillet data-v-5a494278">
+        <kevy-swiper autoPlay="{{true}}" bind:__l="__l" bind:click="__e" class="data-v-5a494278"
+          data-event-opts="{{[ [ '^click',[ ['achieve'] ] ] ]}}" descAniType="slideFromRight" height="{{470}}"
+          list="{{bannerList}}" showNum="{{3}}" vueId="7d064c20-3" wx:if="{{$root.g1}}"></kevy-swiper>
+        <view class="teachLoop_box data-v-5a494278" wx:else>
+          <image bindtap="__e" class="teachLoop_img data-v-5a494278"
+            data-event-opts="{{[ [ 'tap',[ [ 'bannerTopClick',['$0'],['bannerList.__$n0'] ] ] ] ]}}"
+            src="{{bannerList[0].featureUrl}}"></image>
+        </view>
+      </view>
+    </view>
+    <view class="line_model data-v-5a494278" wx:if="{{overviewList[0]&&detailObj.overviewShowFlag}}">
+      <view class="model_title data-v-5a494278">
+        <view class="_p data-v-5a494278">线路概览</view>
+        <label class="_span data-v-5a494278"
+          style="{{'background:'+'linear-gradient(90deg, '+buttonColour+' 0%, rgba(255,255,255,0) 100%)'+';'}}"></label>
+      </view>
+      <view class="overviewDesc data-v-5a494278" wx:if="{{detailObj.overviewDesc}}">
+        <u-parse bind:__l="__l" class="data-v-5a494278" html="{{detailObj.overviewDesc}}" tagStyle="{{parseStyle}}"
+          vueId="7d064c20-4"></u-parse>
+      </view>
+      <view class="overview data-v-5a494278">
+        <view class="overview_item data-v-5a494278" wx:for="{{overviewList}}" wx:key="index">
+          <view class="title data-v-5a494278">
+            <view class="day data-v-5a494278" wx:if="{{!item.userDefinedIcon}}">{{'0'+item.index}}</view>
+            <view class="address data-v-5a494278">{{item.name}}</view>
+            <view class="dayShow data-v-5a494278" wx:if="{{!item.userDefinedIcon}}"></view>
+          </view>
+          <view class="content data-v-5a494278" wx:if="{{item.list[0]}}">
+            <view class="item _p data-v-5a494278">
+              <label
+                class="{{['adsName','_span','data-v-5a494278',ads.type==2?'lable':'',ads.type==0?'name':'',ads.type==1?'arrow':'',ads.important?'important':'']}}"
+                style="{{'background:'+(ads.type==2?buttonColour:'#fff')+';'}}" wx:if="{{ads.name&&ads.name!=null}}"
+                wx:for="{{item.list}}" wx:for-index="num" wx:for-item="ads" wx:key="num">{{ads.name}}</label>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="line_model data-v-5a494278" id="xcmx" style="padding-bottom:50rpx;">
+      <view class="model_title data-v-5a494278" wx:if="{{$root.g2}}">
+        <view class="_p data-v-5a494278">行程明细</view>
+        <label class="_span data-v-5a494278"
+          style="{{'background:'+'linear-gradient(90deg, '+buttonColour+' 0%, rgba(255,255,255,0) 100%)'+';'}}"></label>
+      </view>
+      <view class="detail data-v-5a494278">
+        <scroll-view class="lable_content data-v-5a494278" id="lable_content" scrollWithAnimation="true"
+          scrollX="{{true}}" throttle="{{false}}" wx:if="{{$root.g3}}">
+          <view bindtap="__e" class="{{['lable','data-v-5a494278',activeDays==index?'active':'']}}"
+            data-event-opts="{{[ [ 'tap',[ [ 'toDay',[index] ] ] ] ]}}"
+            style="{{'background:'+(activeDays==index?buttonColour:'rgba(0, 0, 0, 0.05)')+';'}}" wx:for="{{$root.l0}}"
+            wx:key="index">{{''+item.m0+''}}</view>
+        </scroll-view>
+        <view class="detail_info data-v-5a494278" style="{{'margin-top:'+($root.g4?0:'20rpx')+';'}}">
+          <view class="detail_item data-v-5a494278" id="{{'detailRow'+index}}" wx:for="{{$root.l4}}" wx:key="index">
+            <view class="detail_title data-v-5a494278" wx:if="{{$root.g5}}">
+              <view class="img_title data-v-5a494278" wx:if="{{!item.$orig.userDefinedIcon}}">
+                <image class="data-v-5a494278" src="/static/captured/17359ad369774476.png"></image>
+                <view class="title_bj data-v-5a494278">
+                  <view class="text1 _p data-v-5a494278">{{'0'+item.$orig.day}}</view>
+                  <view class="text2 _p data-v-5a494278">DAY</view>
+                </view>
+              </view>
+              <image class="image-userDef data-v-5a494278" mode="aspectFill" src="{{item.$orig.userDefinedIcon}}"
+                wx:else></image>
+              <view class="title_name data-v-5a494278">
+                <view class="name1 _p data-v-5a494278">{{item.$orig.title}}</view>
+                <view class="name2 _p data-v-5a494278" wx:if="{{item.$orig.subhead}}">{{item.$orig.subhead}}</view>
+              </view>
+            </view>
+            <view class="time_line data-v-5a494278" style="{{'margin-top:'+($root.g6?0:'40rpx')+';'}}">
+              <view class="mask data-v-5a494278" style="{{'top:'+($root.g7?'22rpx':'-7rpx')+';'}}"></view>
+              <view class="data-v-5a494278" style="height:30rpx;" wx:if="{{$root.g8}}"></view>
+              <view class="{{['time_item','setOf','data-v-5a494278',!time.$orig.idy?'close':'']}}" wx:for="{{item.l3}}"
+                wx:for-index="num" wx:for-item="time" wx:key="num">
+                <image class="markIcon data-v-5a494278" src="{{time.$orig.icon}}"></image>
+                <view class="time_title data-v-5a494278"
+                  style="{{'width:'+(time.$orig.journeyDestinationType==9?'470rpx':'595rpx')+';'}}">
+                  <view class="{{['name','_p','data-v-5a494278',time.$orig.journeyDestinationType==9?'walk':'']}}">
+                    {{''+(time.$orig.journeyDetailTime?time.$orig.journeyDetailTime:'')+' '+time.$orig.journeyDetailTitle+''}}
+                  </view>
+                  <view class="{{['times','data-v-5a494278',time.$orig.journeyDestinationType==9?'other':'']}}"
+                    wx:if="{{time.$orig.journeyDetailSubhead&&time.$orig.journeyDestinationType!=8}}">
+                    {{''+time.$orig.journeyDetailSubhead}}</view>
+                </view>
+                <view class="{{['times1','data-v-5a494278',time.$orig.journeyDestinationType==9?'other':'']}}"
+                  wx:if="{{time.$orig.journeyDetailSubhead&&time.$orig.journeyDestinationType==8}}">
+                  {{''+time.$orig.journeyDetailSubhead}}</view>
+                <view bindtap="__e" class="line_view data-v-5a494278"
+                  data-event-opts="{{[ [ 'tap',[ [ 'goTrip',['$0','$1'],[ [ ['detailObj.lineJourneyList','',index,'day'] ],[ ['detailObj.lineJourneyList','',index],['spotList','',num,'idy'] ] ] ] ] ] ]}}"
+                  wx:if="{{time.$orig.journeyDestinationType==9&&time.$orig.idy}}">查看路线<image
+                    class="goView data-v-5a494278" src="https://eshopfile.zhiyousx.com/169267534972027149.png"></image>
+                </view>
+                <view bindtap="__e" class="line_view line-guide data-v-5a494278"
+                  data-event-opts="{{[ [ 'tap',[ [ 'toGuide',['$0'],[ [ ['detailObj.lineJourneyList','',index],['spotList','',num] ] ] ] ] ] ]}}"
+                  wx:if="{{time.$orig.journeyDestinationType==8&&time.$orig.latitude&&time.$orig.longitude&&time.$orig.journeyDetailSubhead}}">
+                  去这里<image class="goView data-v-5a494278" src="https://eshopfile.zhiyousx.com/2026030310211590777.png">
+                  </image>
+                </view>
+                <view class="spot_card data-v-5a494278"
+                  style="{{'background:'+(time.$orig.lineDestinationVO.destinationColor?'linear-gradient(180deg, '+time.$orig.lineDestinationVO.destinationColor+' 0%, rgba(215,247,249,0) 100%)':'#F5F5F5FF')+';'}}"
+                  wx:if="{{time.$orig.journeyDestinationType<6}}">
+                  <view bindtap="__e" class="card_top data-v-5a494278"
+                    data-event-opts="{{[ [ 'tap',[ [ 'goSpot',['$0','$1'],[ [ ['detailObj.lineJourneyList','',index],['spotList','',num,'lineDestinationVO.destinationId'] ],[ ['detailObj.lineJourneyList','',index],['spotList','',num,'journeyDestinationType'] ] ] ] ] ] ]}}">
+                    <view class="card_lab data-v-5a494278" wx:if="{{time.$orig.tab}}">{{time.$orig.tab}}</view>
+                    <image class="head_img data-v-5a494278" mode="aspectFill"
+                      src="{{time.$orig.lineDestinationVO.mainPic}}"></image>
+                    <view class="card_info data-v-5a494278">
+                      <view class="card_title _p data-v-5a494278">{{time.$orig.lineDestinationVO.destinationName}}
+                      </view>
+                      <view class="ranking singleLineText data-v-5a494278"
+                        wx:if="{{time.$orig.lineDestinationVO.originSortInRankingVO.contentId}}">
+                        <view class="text data-v-5a494278">
+                          <view class="name singleLineText data-v-5a494278">
+                            {{''+time.$orig.lineDestinationVO.originSortInRankingVO.rankingName+'第'+time.$orig.lineDestinationVO.originSortInRankingVO.indexInRanking+'名'}}
+                          </view>
+                        </view>
+                      </view>
+                      <view class="card_describe data-v-5a494278"
+                        wx:if="{{time.$orig.lineDestinationVO.subtitle!=null}}">
+                        {{time.$orig.lineDestinationVO.subtitle}}</view>
+                      <view class="card_ticket data-v-5a494278" wx:if="{{time.$orig.lineDestinationVO.ticketName}}">
+                        <view class="ding data-v-5a494278">订</view>
+                        <view class="price data-v-5a494278">
+                          {{(time.$orig.lineDestinationVO.price==0?'免费':'￥'+time.$orig.lineDestinationVO.price)+''}}
+                        </view>
+                        <view class="ticketName singleLineText data-v-5a494278">
+                          {{''+time.$orig.lineDestinationVO.ticketName}}</view>
+                      </view>
+                      <view class="card_describe data-v-5a494278" wx:if="{{time.m1}}">{{''+time.m2+''}}</view>
+                      <view class="watermarkImage data-v-5a494278" wx:if="{{time.$orig.watermarkImage}}">
+                        <image class="data-v-5a494278" mode="aspectFill" src="{{time.$orig.watermarkImage}}"></image>
+                      </view>
+                    </view>
+                  </view>
+                  <view bindtap="__e" class="card_imgList data-v-5a494278"
+                    data-event-opts="{{[ [ 'tap',[ [ 'jumpSpotContentList',['$0','$1'],[ [ ['detailObj.lineJourneyList','',index],['spotList','',num,'lineDestinationVO.destinationName'] ],[ ['detailObj.lineJourneyList','',index],['spotList','',num],['lineDestinationVO.scenicSpotRelationList','',contNum] ] ] ] ] ] ]}}"
+                    wx:if="{{cont.$orig.contentModuleName!=null}}" wx:for="{{time.l2}}" wx:for-index="contNum"
+                    wx:for-item="cont" wx:key="contNum">
+                    <view class="_p data-v-5a494278">{{cont.$orig.contentModuleName}}</view>
+                    <view class="img_list data-v-5a494278">
+                      <image class="img_li data-v-5a494278" mode="aspectFill" src="{{imgs.$orig.coverImage}}"
+                        wx:if="{{imgNum<(imgs.g9==6?6:5)}}" wx:for="{{cont.l1}}" wx:for-index="imgNum"
+                        wx:for-item="imgs" wx:key="imgNum"></image>
+                    </view>
+                    <view class="img_more data-v-5a494278" wx:if="{{cont.g10>6}}">{{''+cont.m3+''}}</view>
+                  </view>
+                </view>
+                <view class="spot_introduction data-v-5a494278"
+                  wx:if="{{time.$orig.journeyDestinationType==6||time.$orig.journeyDestinationType==7}}">
+                  <view class="introduction_title _p data-v-5a494278">{{time.$orig.lineDestinationVO.destinationName}}
+                  </view>
+                  <scroll-view bindtap="__e" class="content-box data-v-5a494278"
+                    data-event-opts="{{[ [ 'tap',[ [ 'pageTo',['/pages/ranking/ranking?id='+time.$orig.lineDestinationVO.destinationId] ] ] ] ]}}"
+                    scrollWithAnimation="{{true}}" scrollX="{{true}}">
+                    <view catchtap="__e" class="hote_item data-v-5a494278"
+                      data-event-opts="{{[ [ 'tap',[ [ 'goSpot',['$0','$1'],[ [ ['detailObj.lineJourneyList','',index],['spotList','',num],['lineDestinationVO.rankingList','',rankNum,'destinationId'] ],[ ['detailObj.lineJourneyList','',index],['spotList','',num],['lineDestinationVO.rankingList','',rankNum,'type'] ] ] ] ] ] ]}}"
+                      wx:for="{{time.$orig.lineDestinationVO.rankingList}}" wx:for-index="rankNum" wx:for-item="ranks"
+                      wx:key="rankNum">
+                      <image class="hote_img data-v-5a494278" mode="aspectFill" src="{{ranks.mainPic}}"></image>
+                      <view class="name singleLineText _p data-v-5a494278">{{ranks.destinationName}}</view>
+                    </view>
+                  </scroll-view>
+                  <view bindtap="__e" class="allHote data-v-5a494278"
+                    data-event-opts="{{[ [ 'tap',[ [ 'pageTo',['/pages/ranking/ranking?id='+time.$orig.lineDestinationVO.destinationId] ] ] ] ]}}">
+                    <view class="_p data-v-5a494278">{{time.$orig.rankingCopyWritering}}</view>
+                    <label class="goView _span data-v-5a494278">
+                      <image class="data-v-5a494278" src="https://eshopfile.zhiyousx.com/169267534972027149.png">
+                      </image>
+                    </label>
+                  </view>
+                </view>
+                <view class="spot_remark data-v-5a494278"
+                  wx:if="{{time.$orig.desc&&time.$orig.journeyDestinationType!==8}}">
+                  <u-parse bind:__l="__l" class="data-v-5a494278" html="{{time.$orig.desc}}" tagStyle="{{parseStyle}}"
+                    vueId="{{'7d064c20-5-'+index+'-'+num}}"></u-parse>
+                </view>
+                <view class="spot_remark spot_tips data-v-5a494278"
+                  wx:if="{{time.$orig.tips&&time.$orig.journeyDestinationType!==8}}">
+                  <view class="tips data-v-5a494278">
+                    <image class="data-v-5a494278" src="https://eshopfile.zhiyousx.com/169266846673784501.png"></image>
+                  </view>
+                  <text class="data-v-5a494278">{{time.$orig.tips}}</text>
+                </view>
+                <view class="html_content data-v-5a494278" wx:if="{{time.$orig.journeyDestinationType==8}}">
+                  <u-parse bind:__l="__l" class="data-v-5a494278" html="{{time.$orig.content}}"
+                    tagStyle="{{parseStyle}}" vueId="{{'7d064c20-6-'+index+'-'+num}}"></u-parse>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="line_model flxeTitle data-v-5a494278" style="{{'height:'+searchHeight+29+'px'+';'}}"
+    wx:if="{{$root.g11}}">
+    <view class="position data-v-5a494278">
+      <view class="absolut data-v-5a494278">
+        <view class="model_title data-v-5a494278">
+          <view bindtap="__e" class="back data-v-5a494278" data-event-opts="{{[ [ 'tap',[ ['back'] ] ] ]}}">
+            <image class="header_icon data-v-5a494278" mode="aspectFit" src="/static/zhouWei-navBar/icon_home_black.png"
+              wx:if="{{firstPage}}"></image>
+            <image class="header_icon data-v-5a494278" mode="aspectFit" src="/static/zhouWei-navBar/icon_back_black.png"
+              wx:else></image>
+          </view>
+          <view class="_p data-v-5a494278">行程明细</view>
+          <label class="_span data-v-5a494278"
+            style="{{'background:'+'linear-gradient(90deg, '+buttonColour+' 0%, rgba(255,255,255,0) 100%)'+';'}}"></label>
+        </view>
+        <view class="detail data-v-5a494278">
+          <view class="lable_content data-v-5a494278" scrollLeft="{{scrollToLeft}}" scrollView="{{true}}"
+            scrollWithAnimation="true" scrollX="{{true}}" throttle="{{false}}">
+            <view bindtap="__e" class="{{['lable','data-v-5a494278',activeDays==index?'active':'']}}"
+              data-event-opts="{{[ [ 'tap',[ [ 'toDay',[index] ] ] ] ]}}"
+              style="{{'background:'+(activeDays==index?buttonColour:'rgba(0, 0, 0, 0.05)')+';'}}" wx:for="{{$root.l5}}"
+              wx:key="index">{{item.m4+''}}</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="line_submit data-v-5a494278"
+    style="{{'bottom:'+(isPhotoAll?-100-safeAreaBottom+'rpx':'0')+';'+'height:'+(100+safeAreaBottom)+'rpx'+';'+'padding-bottom:'+safeAreaBottom+'rpx'+';'}}"
+    wx:if="{{detailObj.groupOrderFlag&&detailObj.showOwnDue||isGroup}}">
+    <view class="iconBox data-v-5a494278">
+      <button class="submit_icon share data-v-5a494278" openType="share">
+        <image class="data-v-5a494278" src="/static/captured/638acbf921e21368.png"></image>
+        <view class="text data-v-5a494278">分享</view>
+      </button>
+      <button bindtap="__e" class="submit_icon share data-v-5a494278"
+        data-event-opts="{{[ [ 'tap',[ ['getCustomer'] ] ] ]}}" wx:if="{{detailObj.customerServiceImage}}">
+        <image class="data-v-5a494278" src="/static/captured/c2626d5726ed2448.png"></image>
+        <view class="text data-v-5a494278">客服</view>
+      </button>
+    </view>
+    <view class="submit_btn data-v-5a494278">
+      <view bindtap="__e"
+        class="{{['btn','group','data-v-5a494278',!(detailObj.groupOrderFlag&&detailObj.showOwnDue)?'single':'']}}"
+        data-event-opts="{{[ [ 'tap',[ ['goGroup'] ] ] ]}}" wx:if="{{isGroup}}">组团报名</view>
+      <view bindtap="__e" class="{{['btn','predetermine','data-v-5a494278',!isGroup?'single':'']}}"
+        data-event-opts="{{[ [ 'tap',[ ['predetermine'] ] ] ]}}"
+        wx:if="{{detailObj.groupOrderFlag&&detailObj.showOwnDue}}">自由预订</view>
+    </view>
+  </view>
+  <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-5a494278" closeable="{{true}}"
+    data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','customerShow','$event',[] ] ] ] ] ]}}" mode="center"
+    value="{{customerShow}}" vueId="7d064c20-8" vueSlots="{{['default']}}">
+    <view class="detailBox data-v-5a494278">
+      <view class="title data-v-5a494278">客服</view>
+      <scroll-view class="content data-v-5a494278" scrollY="{{true}}">
+        <image class="data-v-5a494278" mode="widthFix" showMenuByLongpress="{{true}}"
+          src="{{detailObj.customerServiceImage}}"></image>
+      </scroll-view>
+    </view>
+  </u-popup>
+</view>

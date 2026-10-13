@@ -1,0 +1,114 @@
+<component-menu-half bindcloseevent="onCloseEvent" class="mic-panel mic-choose" height="auto" isShow="{{isShow}}" isShowAnimation="{{true}}" returnType="back" wx:if="{{micPanelMode==1}}">
+    <view class="mic-choose__header" slot="header">选择连麦方式<view class="mic-choose__header__desc" wx:if="{{isNameVerify!=1}}">连麦前需进行实名验证</view>
+    </view>
+    <view class="mic-choose__body" slot="body" wx:if="{{isNameVerify!=1}}">
+        <navigator appId="wxcbbd86b156ae4441" bindsuccess="onNavigatorSucc" class="mic-choose__item" path="verifys/real-name/real-name?is_plugin=1" target="miniProgram">
+            <view class="mic-panel-applying__icon">
+                <view class="icon-mic-voice"></view>
+            </view>
+            <view class="mic-choose__item__info">语音连麦</view>
+        </navigator>
+        <navigator appId="wxcbbd86b156ae4441" bindsuccess="onNavigatorSucc" class="mic-choose__item" path="verifys/real-name/real-name?is_plugin=1" target="miniProgram">
+            <view class="mic-panel-applying__icon">
+                <view class="icon-mic-video"></view>
+            </view>
+            <view class="mic-choose__item__info">视频连麦</view>
+        </navigator>
+    </view>
+    <view class="mic-choose__body" slot="body" wx:else>
+        <view bindtap="onClickLinkMic" class="mic-choose__item" data-type="audio">
+            <view class="mic-panel-applying__icon">
+                <view class="icon-mic-voice"></view>
+            </view>
+            <view class="mic-choose__item__info">语音连麦</view>
+        </view>
+        <view bindtap="onClickLinkMic" class="mic-choose__item" data-type="video">
+            <view class="mic-panel-applying__icon">
+                <view class="icon-mic-video"></view>
+            </view>
+            <view class="mic-choose__item__info">视频连麦</view>
+        </view>
+    </view>
+</component-menu-half>
+<component-menu-half bindcloseevent="onCloseEvent" bodyStyle="justify-content: center; align-items: center;" class="mic-panel mic-panel-applying" isShow="{{isShow}}" isShowAnimation="{{true}}" returnType="close" size="normal" wx:elif="{{micPanelMode==2}}">
+    <view class="mic-panel-applying__header" slot="header">{{linkMicType==2?'语音':'视频'}}连麦申请中<view class="mic-panel-applying__loading">
+            <view class="mic-panel-applying__loading__inner">. . .</view>
+        </view>
+    </view>
+    <view class="mic-panel-applying__body" slot="body">
+        <view class="mic-person">
+            <view class="mic-person__avatar__container">
+                <view class="mic-person__avatar" style="{{'background: url('+avatarUrl+') no-repeat center / cover'}}"></view>
+                <view class="mic-person__avatar__status" wx:if="{{isCaton}}">信号弱</view>
+            </view>
+            <view class="mic-person-info">
+                <view class="mic-person-nickname">{{nickname}}</view>
+            </view>
+        </view>
+        <view class="mic-panel-operation">
+            <view bindtap="onClickChangeLinkMicType" class="mic-panel-operation__item">
+                <view class="mic-panel-applying__icon">
+                    <view class="icon-mic-switch-video" wx:if="{{linkMicType==2}}"></view>
+                    <view class="icon-mic-switch-voice" wx:else></view>
+                </view>
+                <view class="mic-panel-operation__item__info">{{linkMicType==2?'切换至视频':'切换至音频'}}</view>
+            </view>
+            <view bindtap="cancelLinkMicRequest" class="mic-panel-operation__item mic-panel-operation__cancel">
+                <view class="mic-panel-applying__icon">
+                    <view class="icon__mic-close"></view>
+                </view>
+                <view class="mic-panel-operation__item__info">取消申请</view>
+            </view>
+        </view>
+    </view>
+</component-menu-half>
+<component-menu-half bindcloseevent="onCloseEvent" class="mic-panel mic-panel-micing" isShow="{{isShow}}" isShowAnimation="{{true}}" returnType="close" size="normal" wx:elif="{{micPanelMode==3}}">
+    <view class="mic-panel-micing__header" slot="header">{{linkMicType==2?'语音':'视频'}}连麦中</view>
+    <view class="mic-panel-micing__body mic-panel-micing__body__center" slot="body">
+        <view class="mic-person">
+            <view class="mic-person__avatar__container">
+                <view class="mic-person__avatar" style="{{'background: url('+avatarUrl+') no-repeat center / cover'}}"></view>
+                <view class="mic-person__avatar__status" wx:if="{{isCaton}}">信号弱</view>
+            </view>
+            <view class="mic-person-info">
+                <view class="mic-person-nickname">{{nickname?nickname:''}}</view>
+                <view class="mic-person-status">{{linkMicLastTimeFormat?linkMicLastTimeFormat:''}}</view>
+            </view>
+        </view>
+        <view class="mic-panel-operation">
+            <view bindtap="onClickChangeLinkMicType" class="mic-panel-operation__item" wx:if="{{false}}">
+                <view class="mic-panel-applying__icon">
+                    <view class="icon-mic-switch-video" wx:if="{{linkMicType==2}}"></view>
+                    <view class="icon-mic-switch-voice" wx:else></view>
+                </view>
+                <view class="mic-panel-operation__item__info">切换至{{linkMicType==2?'视频':'语音'}}</view>
+            </view>
+            <view bindtap="onClickHangUp" class="mic-panel-operation__item mic-panel-operation__cancel">
+                <view class="mic-panel-applying__icon">
+                    <view class="icon-mic-call-end"></view>
+                </view>
+                <view class="mic-panel-operation__item__info">挂断</view>
+            </view>
+            <view bindtap="onClickMute" class="mic-panel-operation__item {{micBan||!audiencePushEnableMic?'selected':''}}">
+                <view class="mic-panel-applying__icon">
+                    <view class="icon-mic-mike-off"></view>
+                </view>
+                <view class="mic-panel-operation__item__info">静音</view>
+            </view>
+        </view>
+    </view>
+</component-menu-half>
+<component-menu-half bindcloseevent="onCloseEvent" class="mic-panel mic-panel-inviting {{linkMicType!==2?'mic-panel-inviting__video':''}}" closeable="{{false}}" height="auto" isShow="{{isShow}}" isShowAnimation="{{false}}" returnType="close" size="{{linkMicType==2?'mini':'normal'}}" wx:elif="{{micPanelMode==4}}">
+    <view class="mic-panel-inviting__header" slot="header" wx:if="{{!linkMicRecover}}">主播邀请你{{linkMicType==2?'语音':'视频'}}连麦</view>
+    <view class="mic-panel-inviting__header" slot="header" wx:else>主播邀请你恢复{{linkMicType==2?'语音':'视频'}}连麦</view>
+    <view class="mic-panel-inviting__body" slot="body">
+        <view class="mic-panel-inviting__status">
+            <view class="mic-panel__video-screen" id="mic-panel__video-screen" wx:if="{{linkMicType===1}}"></view>
+            <view class="mic-panel-inviting__status__info">{{confirmLeftTime}}s后自动拒绝</view>
+        </view>
+        <view class="mic-panel-button-group">
+            <view bindtap="onClickRejectInvition" class="mic-panel-button mic-panel-button__warn {{anchorCancelInvition?'mic-panel-button__disable':''}}">拒绝</view>
+            <view bindtap="onClickAcceptInvition" class="mic-panel-button mic-panel-button__primary {{!canAccept||anchorCancelInvition?'mic-panel-button__disable':''}}">接受</view>
+        </view>
+    </view>
+</component-menu-half>

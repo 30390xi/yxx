@@ -1,0 +1,5 @@
+<view class="page-box data-v-a6e7c0c2">
+    <video autoplay="{{true}}" bindended="__e" bindpause="__e" bindplay="__e" class="video data-v-a6e7c0c2" controls="{{false}}" customCache="{{false}}" data-event-opts="{{[ [ 'play',[ [ 'videoPlay',['$event'] ] ] ],[ 'pause',[ [ 'videopause',['$event'] ] ] ],[ 'ended',[ [ 'videoEnd',['$event'] ] ] ] ]}}" enablePlayGesture="{{true}}" id="videoPlayer" loop="{{true}}" showCenterPlayBtn="{{false}}" src="https://eshopfile.zhiyousx.com/2026012118164926489.mp4"></video>
+    <image bindtap="__e" class="actIcon data-v-a6e7c0c2" data-event-opts="{{[ [ 'tap',[ [ 'iconClick',['/yearCard/pages/nfcVideo/dnfAct'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/2026012116151053572.png"></image>
+    <image bindtap="__e" class="albumIcon data-v-a6e7c0c2" data-event-opts="{{[ [ 'tap',[ [ 'iconClick',['/yearCard/pages/nfcVideo/dnfAlbum'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/2026012116151345982.png"></image>
+</view>

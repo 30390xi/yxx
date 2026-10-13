@@ -1,0 +1,123 @@
+<view class="page data-v-679ff233">
+    <view class="top-bar data-v-679ff233" id="menu">
+        <block wx:for="{{menuList}}">
+            <view bindtap="__e" class="{{['menu-item','data-v-679ff233',index+1==menuId?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'menuTap',['$0',index],[ [ ['menuList','',index,'id'] ] ] ] ] ] ]}}" wx:if="{{menuId<3}}">
+                <text class="menuTit data-v-679ff233">{{item.name}}</text>
+            </view>
+            <view bindtap="__e" class="{{['menu-item','data-v-679ff233',index+1==menuId?'active1':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'menuTap',['$0',index],[ [ ['menuList','',index,'id'] ] ] ] ] ] ]}}" wx:else>
+                <text class="menuTit data-v-679ff233">{{item.name}}</text>
+            </view>
+        </block>
+    </view>
+    <view class="coupon-box data-v-679ff233" hidden="{{!!showNull}}">
+        <view class="coupon-item data-v-679ff233" wx:if="{{orderStatus==1}}" wx:for="{{$root.l0}}" wx:key="index">
+            <view class="line data-v-679ff233" wx:if="{{item.$orig.itemType==1}}">门票</view>
+            <view class="ticket data-v-679ff233" wx:if="{{item.$orig.itemType==2}}">线路</view>
+            <view class="coupon data-v-679ff233">
+                <view class="cou-l-l data-v-679ff233">
+                    <view class="cou-money data-v-679ff233" wx:if="{{item.$orig.type==3}}">
+                        <text class="cou-pic data-v-679ff233">0</text>元购</view>
+                    <view class="cou-money data-v-679ff233" wx:else>￥<text class="cou-pic data-v-679ff233">{{item.$orig.quota}}</text>
+                    </view>
+                    <view class="cou-pictit data-v-679ff233" wx:if="{{item.$orig.type==2&&item.$orig.threshold==0}}">无门槛</view>
+                    <view class="cou-pictit data-v-679ff233" wx:if="{{item.$orig.type==1&&item.$orig.threshold>0}}">{{'满'+item.$orig.threshold+'元可用'}}</view>
+                    <view class="cou-pictit data-v-679ff233" wx:if="{{item.$orig.type==3}}">{{'已抵扣('+item.$orig.deductionUsedNum+'/'+item.$orig.deductionTotalNum+')'}}</view>
+                </view>
+                <view class="cou-l-r data-v-679ff233">
+                    <view class="cou-title data-v-679ff233">{{item.$orig.name}}</view>
+                    <view class="cou-date data-v-679ff233" style="color:#ADADAD;" wx:if="{{item.$orig.useTimeSlot==0}}">{{item.f0+'-'+item.f1}}</view>
+                    <view class="cou-date data-v-679ff233" style="color:#ADADAD;" wx:if="{{item.$orig.useTimeSlot==1}}">{{item.f2+'前有效'}}</view>
+                    <view class="cou-date data-v-679ff233" style="color:#ADADAD;" wx:if="{{item.$orig.useTimeSlot==2}}">{{item.f3+'-'+item.f4}}</view>
+                    <view class="cou-date data-v-679ff233" style="color:#ADADAD;" wx:if="{{item.$orig.useTimeSlot==2}}">{{'可预订【'+item.f5+'-'+item.f6+'】的'+(item.$orig.itemType==1?'门票':'产品')}}</view>
+                </view>
+                <view class="cou-r data-v-679ff233">
+                    <view class="cou-rbox data-v-679ff233">
+                        <view bindtap="__e" class="cou-btn data-v-679ff233" data-event-opts="{{[ [ 'tap',[ [ 'jumpUse',['$0'],[ [ ['orderList','',index] ] ] ] ] ] ]}}">立即使用</view>
+                        <view class="data-v-679ff233" style="width:120rpx;text-align:right;">
+                            <image bindtap="__e" class="showbtn data-v-679ff233" data-event-opts="{{[ [ 'tap',[ [ 'showList',['$0'],[ [ ['orderList','',index,'userCouponId'] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/170065269243227630.png" wx:if="{{item.$orig.isShow}}"></image>
+                            <image bindtap="__e" class="hidebtn data-v-679ff233" data-event-opts="{{[ [ 'tap',[ [ 'showList',['$0'],[ [ ['orderList','',index,'userCouponId'] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/170065270890750173.png" wx:else></image>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="{{['data-v-679ff233',item.$orig.isShow?'coupon-show':'coupon-hide']}}">
+                <view class="con-msg data-v-679ff233" style="border-top:1rpx dashed #FFD3C6;">{{''+item.$orig.useExplain+''}}</view>
+            </view>
+        </view>
+        <view class="coupon-item data-v-679ff233" wx:if="{{orderStatus==2}}" wx:for="{{$root.l1}}" wx:key="index">
+            <view class="line data-v-679ff233" wx:if="{{item.$orig.itemType==1}}">门票</view>
+            <view class="ticket data-v-679ff233" wx:if="{{item.$orig.itemType==2}}">线路</view>
+            <view class="coupon data-v-679ff233" style="background:#fff;">
+                <view class="cou-l-l data-v-679ff233">
+                    <view class="cou-money data-v-679ff233" style="color:#484848;" wx:if="{{item.$orig.type==3}}">
+                        <text class="cou-pic data-v-679ff233" style="color:#484848;">0</text>元购</view>
+                    <view class="cou-money data-v-679ff233" style="color:#484848;" wx:else>￥<text class="cou-pic data-v-679ff233" style="color:#484848;">{{item.$orig.quota}}</text>
+                    </view>
+                    <view class="cou-pictit data-v-679ff233" style="color:#484848;" wx:if="{{item.$orig.type==2&&item.$orig.threshold==0}}">无门槛</view>
+                    <view class="cou-pictit data-v-679ff233" style="color:#484848;" wx:if="{{item.$orig.type==1&&item.$orig.threshold>0}}">{{'满'+item.$orig.threshold+'元可用'}}</view>
+                    <view class="cou-pictit data-v-679ff233" style="color:#484848;" wx:if="{{item.$orig.type==3}}">{{'已抵扣数量（'+item.$orig.deductionUsedNum+'/'+item.$orig.deductionTotalNum+'）'}}</view>
+                </view>
+                <view class="cou-l-r data-v-679ff233">
+                    <view class="cou-title data-v-679ff233">{{item.$orig.name}}</view>
+                    <view class="cou-date data-v-679ff233" style="color:#ADADAD;" wx:if="{{item.$orig.useTimeSlot==0}}">{{item.f7+'-'+item.f8}}</view>
+                    <view class="cou-date data-v-679ff233" style="color:#ADADAD;" wx:if="{{item.$orig.useTimeSlot==1}}">{{item.f9+'前有效'}}</view>
+                    <view class="cou-date data-v-679ff233" style="color:#ADADAD;" wx:if="{{item.$orig.useTimeSlot==2}}">{{item.f10+'-'+item.f11}}</view>
+                    <view class="cou-date data-v-679ff233" style="color:#ADADAD;" wx:if="{{item.$orig.useTimeSlot==2}}">{{'可预订【'+item.f12+'-'+item.f13+'】的'+(item.$orig.itemType==1?'门票':'产品')}}</view>
+                </view>
+                <view class="cou-r data-v-679ff233" style="padding:0;">
+                    <view class="cou-rbox data-v-679ff233" style="padding:0 30rpx 0 0;text-align:right;">
+                        <image class="rbox-img data-v-679ff233" src="https://eshopfile.zhiyousx.com/2023102620395751612.png"></image>
+                        <view class="data-v-679ff233" style="width:120rpx;text-align:right;">
+                            <image bindtap="__e" class="showbtn data-v-679ff233" data-event-opts="{{[ [ 'tap',[ [ 'showList',['$0'],[ [ ['orderList','',index,'userCouponId'] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/170065277001478042.png" style="margin-top:5rpx;" wx:if="{{item.$orig.isShow}}"></image>
+                            <image bindtap="__e" class="hidebtn data-v-679ff233" data-event-opts="{{[ [ 'tap',[ [ 'showList',['$0'],[ [ ['orderList','',index,'userCouponId'] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/170065280012053856.png" style="margin-top:5rpx;" wx:else></image>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="{{['data-v-679ff233',item.$orig.isShow?'coupon-show':'coupon-hide']}}">
+                <view class="con-msg data-v-679ff233" style="border-top:1rpx dashed #7B7B7B;">{{''+item.$orig.useExplain+''}}</view>
+            </view>
+        </view>
+        <view class="coupon-item data-v-679ff233" wx:if="{{orderStatus==3}}" wx:for="{{$root.l2}}" wx:key="index">
+            <view class="line data-v-679ff233" wx:if="{{item.$orig.itemType==1}}">门票</view>
+            <view class="ticket data-v-679ff233" wx:if="{{item.$orig.itemType==2}}">线路</view>
+            <view class="coupon data-v-679ff233" style="background:#fff;">
+                <view class="cou-l-l data-v-679ff233" style="color:#ADADAD;">
+                    <view class="cou-money data-v-679ff233" style="color:#ADADAD;" wx:if="{{item.$orig.type==3}}">
+                        <text class="cou-pic data-v-679ff233" style="color:#ADADAD;">0</text>元购</view>
+                    <view class="cou-money data-v-679ff233" style="color:#ADADAD;" wx:else>￥<text class="cou-pic data-v-679ff233" style="color:#ADADAD;">{{item.$orig.quota}}</text>
+                    </view>
+                    <view class="cou-pictit data-v-679ff233" style="color:#ADADAD;" wx:if="{{item.$orig.type==2&&item.$orig.threshold==0}}">无门槛</view>
+                    <view class="cou-pictit data-v-679ff233" style="color:#ADADAD;" wx:if="{{item.$orig.type==1&&item.$orig.threshold>0}}">{{'满'+item.$orig.threshold+'元可用'}}</view>
+                    <view class="cou-pictit data-v-679ff233" style="color:#ADADAD;" wx:if="{{item.$orig.type==3}}">{{'已抵扣数量（'+item.$orig.deductionUsedNum+'/'+item.$orig.deductionTotalNum+'）'}}</view>
+                </view>
+                <view class="cou-l-r data-v-679ff233">
+                    <view class="cou-title data-v-679ff233" style="color:#ADADAD;">{{item.$orig.name}}</view>
+                    <view class="cou-date data-v-679ff233" style="color:#ADADAD;" wx:if="{{item.$orig.useTimeSlot==0}}">{{item.f14+'-'+item.f15}}</view>
+                    <view class="cou-date data-v-679ff233" style="color:#ADADAD;" wx:if="{{item.$orig.useTimeSlot==1}}">{{item.f16+'前有效'}}</view>
+                    <view class="cou-date data-v-679ff233" style="color:#ADADAD;" wx:if="{{item.$orig.useTimeSlot==2}}">{{item.f17+'-'+item.f18}}</view>
+                    <view class="cou-date data-v-679ff233" style="color:#ADADAD;" wx:if="{{item.$orig.useTimeSlot==2}}">{{'可预订【'+item.f19+'-'+item.f20+'】的'+(item.$orig.itemType==1?'门票':'产品')}}</view>
+                </view>
+                <view class="cou-r data-v-679ff233" style="padding:0;text-align:right;">
+                    <view class="cou-rbox data-v-679ff233" style="padding:0 30rpx 0 0;">
+                        <image class="rbox-img data-v-679ff233" src="https://eshopfile.zhiyousx.com/2023102620405108419.png"></image>
+                        <view class="data-v-679ff233" style="width:120rpx;text-align:right;">
+                            <image bindtap="__e" class="showbtn data-v-679ff233" data-event-opts="{{[ [ 'tap',[ [ 'showList',['$0'],[ [ ['orderList','',index,'userCouponId'] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/170065277001478042.png" style="margin-top:5rpx;" wx:if="{{item.$orig.isShow}}"></image>
+                            <image bindtap="__e" class="hidebtn data-v-679ff233" data-event-opts="{{[ [ 'tap',[ [ 'showList',['$0'],[ [ ['orderList','',index,'userCouponId'] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/170065280012053856.png" style="margin-top:5rpx;" wx:else></image>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="{{['data-v-679ff233',item.$orig.isShow?'coupon-show':'coupon-hide']}}">
+                <view class="con-msg data-v-679ff233" style="border-top:1rpx dashed #7B7B7B;">{{''+item.$orig.useExplain+''}}</view>
+            </view>
+        </view>
+    </view>
+    <empty-state bind:__l="__l" class="data-v-679ff233" imgUrl="https://eshopfile.zhiyousx.com/noCoupon@2x.png" text="暂无优惠券" vueId="4774cbdc-1" wx:if="{{showNull}}"></empty-state>
+    <view bindtap="__e" class="footer data-v-679ff233" data-event-opts="{{[ [ 'tap',[ [ 'bindCoupon',['$event'] ] ] ] ]}}">
+        <view class="item data-v-679ff233">
+            <image mode class="icon2 data-v-679ff233" src="../../static/images/bindCoupon.png"></image>
+            <view class="t data-v-679ff233">兑换优惠券</view>
+        </view>
+    </view>
+</view>

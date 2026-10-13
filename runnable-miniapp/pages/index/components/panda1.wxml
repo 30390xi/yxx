@@ -1,0 +1,13 @@
+<movable-area class="movable-area data-v-0a0637a9">
+    <movable-view bindchange="__e" bindtouchend="__e" bindtouchstart="__e" catchtap="__e" class="img-layer data-v-0a0637a9" data-event-opts="{{[ [ 'tap',[ [ 'handlePanda',['$event'] ] ] ],[ 'change',[ [ 'handlePandaMove',['$event'] ] ] ],[ 'touchstart',[ [ 'onTouchstart',['$event'] ] ] ],[ 'touchend',[ [ 'onTouchend',['$event'] ] ] ] ]}}" direction="all" disabled="{{isPandaDisabledMove}}" x="{{pandaX}}" y="{{pandaY}}">
+        <view class="{{['scroll-container','data-v-0a0637a9',pandaIsLeft?'scrollLeft':'']}}" wx:if="{{showOverlay&&pandaMode=='sit'&&currentIndex>-1}}">
+            <view class="{{['scroll-items','data-v-0a0637a9',index===currentIndex?'active':'',index==exitingIndex?'exiting':'',pandaIsLeft?'itemsL':'']}}" wx:for="{{tipsItems}}" wx:key="index">{{''+item+''}}</view>
+        </view>
+        <view class="spritesheetSit data-v-0a0637a9" hidden="{{!(pandaMode=='sit')}}"></view>
+        <view class="spritesheetLeft data-v-0a0637a9" hidden="{{!(pandaMode=='grove'&&pandaIsLeft)}}"></view>
+        <view class="spritesheetRight data-v-0a0637a9" hidden="{{!(pandaMode=='grove'&&!pandaIsLeft)}}"></view>
+        <image alt class="data-v-0a0637a9" hidden="{{!(pandaMode=='left')}}" src="https://eshopfile.zhiyousx.com/175559965851875854.png"></image>
+        <image alt class="data-v-0a0637a9" hidden="{{!(pandaMode=='right')}}" src="https://eshopfile.zhiyousx.com/175559965851875854.png"></image>
+        <image alt class="data-v-0a0637a9" hidden="{{!(pandaMode=='static')}}" src="https://eshopfile.zhiyousx.com/175559965851875854.png"></image>
+    </movable-view>
+</movable-area>

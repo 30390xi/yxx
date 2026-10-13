@@ -1,0 +1,12 @@
+<u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-52c9467b" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showPopup','$event',[] ] ] ] ] ]}}" mode="bottom" value="{{showPopup}}" vueId="9e11ab66-1" vueSlots="{{['default']}}">
+    <view class="instruction data-v-52c9467b">
+        <view class="title data-v-52c9467b">使用须知</view>
+        <view class="content data-v-52c9467b">
+            <scroll-view class="scroll-view data-v-52c9467b" scrollY="{{true}}">
+                <u-parse bind:__l="__l" class="data-v-52c9467b" html="{{html}}" vueId="{{'9e11ab66-2'+','+'9e11ab66-1'}}"></u-parse>
+            </scroll-view>
+            <view bindtap="__e" class="red-btn data-v-52c9467b" data-event-opts="{{[ [ 'tap',[ [ 'jumpDetail',['$event'] ] ] ] ]}}" wx:if="{{scenicId}}">查看该景区更多信息</view>
+            <view bindtap="__e" class="red-btn data-v-52c9467b" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" wx:else>{{'知道了'+scenicId}}</view>
+        </view>
+    </view>
+</u-popup>

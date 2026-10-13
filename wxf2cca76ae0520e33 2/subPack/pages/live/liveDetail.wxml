@@ -1,0 +1,31 @@
+<view class="live-box data-v-261d47d5">
+    <view class="top-box data-v-261d47d5" id="liveTop">
+        <view class="play-box data-v-261d47d5">
+            <video autoplay="{{true}}" class="videoPlay data-v-261d47d5" controls="{{false}}" objectFit="fill" onError="palyError" poster="{{listData.mainImage}}" src="{{listData.liveUrl}}"></video>
+            <cover-view class="hot-box data-v-261d47d5">
+                <cover-image mode class="hot-icon data-v-261d47d5" src="https://eshopfile.zhiyousx.com/2024012312210644492.png"></cover-image>
+                <cover-view class="hot data-v-261d47d5">{{$root.f0}}</cover-view>
+            </cover-view>
+        </view>
+        <view class="info-box data-v-261d47d5">
+            <view class="title data-v-261d47d5">{{''+listData.title+''}}<view class="icon-box data-v-261d47d5">
+                    <view class="icon data-v-261d47d5">
+                        <live-icon bind:__l="__l" class="ic data-v-261d47d5" vueId="eea5b976-1"></live-icon>直播中</view>
+                </view>
+            </view>
+            <view class="sub-title data-v-261d47d5">{{''+listData.intro+''}}</view>
+        </view>
+        <view class="comment-box data-v-261d47d5">
+            <view class="title data-v-261d47d5">实时热评</view>
+        </view>
+    </view>
+    <view class="list data-v-261d47d5" style="{{'height:'+'calc(100vh - '+topHeight+'px)'+';'}}">
+        <view class="item data-v-261d47d5" wx:for="{{listData.commentList}}" wx:for-index="i" wx:for-item="it">
+            <view class="user-box data-v-261d47d5">
+                <image class="head-logo data-v-261d47d5" mode="aspectFill" src="{{it.userImage}}"></image>
+            </view>
+            <view class="msg data-v-261d47d5">
+                <label class="_span data-v-261d47d5" style="font-weight:bold;color:#222222;">{{it.userName}}</label>{{'：'+it.comment}}</view>
+        </view>
+    </view>
+</view>

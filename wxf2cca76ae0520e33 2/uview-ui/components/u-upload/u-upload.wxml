@@ -1,0 +1,21 @@
+<view class="u-upload data-v-dc5e218c" wx:if="{{!disabled}}">
+    <view class="u-list-item u-preview-wrap data-v-dc5e218c" style="{{'width:'+width+'rpx'+';'+'height:'+width+'rpx'+';'}}" wx:if="{{showUploadList}}" wx:for="{{lists}}" wx:key="index">
+        <view catchtap="__e" class="u-delete-icon data-v-dc5e218c" data-event-opts="{{[ [ 'tap',[ [ 'deleteItem',[index] ] ] ] ]}}" style="{{'background:'+delBgColor+';'}}" wx:if="{{deletable}}">
+            <u-icon bind:__l="__l" class="u-icon data-v-dc5e218c" color="{{delColor}}" name="{{delIcon}}" size="20" vueId="{{'cd7a84b4-1-'+index}}"></u-icon>
+        </view>
+        <view class="u-progress data-v-dc5e218c">
+            <u-line-progress bind:__l="__l" class="data-v-dc5e218c" height="16" percent="{{item.progress}}" showPercent="{{false}}" vueId="{{'cd7a84b4-2-'+index}}" wx:if="{{showProgress&&item.progress>0&&!item.error}}"></u-line-progress>
+        </view>
+        <view catchtap="__e" class="u-error-btn data-v-dc5e218c" data-event-opts="{{[ [ 'tap',[ [ 'retry',[index] ] ] ] ]}}" wx:if="{{item.error}}">点击重试</view>
+        <image catchtap="__e" class="u-preview-image data-v-dc5e218c" data-event-opts="{{[ [ 'tap',[ [ 'doPreviewImage',[item.url||item.path,index] ] ] ] ]}}" mode="{{imageMode}}" src="{{item.url||item.path}}" wx:if="{{!item.isImage}}"></image>
+    </view>
+    <slot name="file"></slot>
+    <scoped-slots-file bind:__l="__l" class="scoped-ref" file="{{lists}}"></scoped-slots-file>
+    <view bindtap="__e" class="data-v-dc5e218c" data-event-opts="{{[ [ 'tap',[ [ 'selectFile',['$event'] ] ] ] ]}}" style="display:inline-block;" wx:if="{{maxCount>$root.g0}}">
+        <slot name="addBtn"></slot>
+        <view class="u-list-item u-add-wrap data-v-dc5e218c" hoverClass="u-add-wrap__hover" hoverStayTime="150" style="{{'width:'+width+'rpx'+';'+'height:'+width+'rpx'+';'}}" wx:if="{{!customBtn}}">
+            <u-icon bind:__l="__l" class="u-add-btn data-v-dc5e218c" name="plus" size="40" vueId="cd7a84b4-3"></u-icon>
+            <view class="u-add-tips data-v-dc5e218c">{{uploadText}}</view>
+        </view>
+    </view>
+</view>

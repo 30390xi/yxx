@@ -1,0 +1,19 @@
+<view bindtouchstart="onVideoControl" class="component__video-control {{screenType==='horizontal'?'component__video-control__horizontal':''}}">
+    <component-video-dot-list bindclosevideodotlist="closevideodotlist" bindcustomevent="bindcustomevent" bindswitchvideo="bindswitchvideo" from="{{from}}" goodsExplainEnd="{{goodsExplainEnd}}" goodsVideoList="{{goodsVideoList}}" id="component_video_dot_list" playGoodsRecordId="{{playGoodsRecordId}}" wx:if="{{showVideoDotList}}"></component-video-dot-list>
+    <view class="component__video-control__inner">
+        <view class="video-control__body">
+            <view class="video-control__main">
+                <view catchtap="handleVideoControl" class="video-control__button {{playStateClass}}"></view>
+                <view class="video-control__process">
+                    <view class="video-control__process">
+                        <view class="video-control__process__head video-control__time">{{handleVideoProcessChanging&&processChangingTime||time}}</view>
+                        <view class="video-control__process__bar__container">
+                            <slider activeColor="#FFFFFF" backgroundColor="#979797" bindchange="handleVideoProcessChange" bindchanging="handleVideoProcessChanging" blockSize="12" class="video-control__process__bar" disabled="{{disabled}}" max="{{durationSec}}" min="0" value="{{process}}"></slider>
+                        </view>
+                        <view class="video-control__process__foot video-control__time" wx:if="{{duration}}">{{duration}}</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,32 @@
+<view class="setting-more {{screenType}} setting-more__{{screenType}}">
+    <view bindtap="onCloseMask" class="setting-more__mask"></view>
+    <view class="setting-more__panel filter-black__panel {{dataIsShow?'fadeIn':'fadeOut'}}">
+        <view class="mode-filter-black-half-screen">
+            <view class="setting-more__inner">
+                <view class="setting-more__body">
+                    <view bindtap="onClickMic" class="setting-more__item" wx:if="{{showLinkMicIcon}}">
+                        <view class="setting-more__item__icon">
+                            <view class="setting-icon__mic"></view>
+                        </view>
+                        <view class="setting-more__item__info">连麦</view>
+                    </view>
+                    <view bindtap="clickForbidList" class="setting-more__item" wx:if="{{showForbidIcon}}">
+                        <view class="setting-more__item__icon icon__forbid"></view>
+                        <view class="setting-more__item__info">禁言</view>
+                    </view>
+                    <view bindtap="clickEnterContact" class="setting-more__item" wx:if="{{!hideKf}}">
+                        <view class="setting-more__item__icon icon__service"></view>
+                        <view class="setting-more__item__info">联系客服</view>
+                    </view>
+                    <view bindtap="clickAutoReplySetting" class="setting-more__item" wx:if="{{isShowAutoReplySettingBtn}}">
+                        <view class="setting-more__item__icon icon__auto-reply"></view>
+                        <view class="setting-more__item__info">主播回复</view>
+                    </view>
+                </view>
+                <view class="setting-more__footer">
+                    <view bindtap="onCloseMask" class="setting-more__close"></view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

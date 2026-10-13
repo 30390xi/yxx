@@ -1,0 +1,127 @@
+<view class="affirm-order u-skeleton data-v-29f6412e">
+    <view bindtap="__e" class="personal u-skeleton-rect data-v-29f6412e" data-event-opts="{{[ [ 'tap',[ [ 'goAddress',['$event'] ] ] ] ]}}">
+        <image class="data-v-29f6412e" src="https://eshopfile.zhiyousx.com/170065402412127991.png"></image>
+        <block wx:if="{{orderData}}">
+            <view class="userInfor data-v-29f6412e" wx:if="{{orderData.memberAddr}}">
+                <view class="userName data-v-29f6412e">
+                    <text class="data-v-29f6412e">{{orderData.memberAddr.contactPerson}}</text>
+                    <text class="data-v-29f6412e">{{orderData.memberAddr.contactMobile}}</text>
+                </view>
+                <view class="userAddres u-skeleton-rect data-v-29f6412e">
+                    <text class="data-v-29f6412e">{{orderData.memberAddr.addrRegion1Name+orderData.memberAddr.addrRegion2Name+orderData.memberAddr.addrRegion3Name+orderData.memberAddr.addrStreet}}</text>
+                    <view class="tags data-v-29f6412e" wx:if="{{orderData.memberAddr.isDefault===1}}">默认</view>
+                </view>
+            </view>
+            <view class="data-v-29f6412e" style="flex:1;margin-left:20rpx;" wx:else>请选择收货地址</view>
+            <uni-icons bind:__l="__l" class="data-v-29f6412e" color="#c8c8c8" size="24" type="arrowright" vueId="11f648c0-1"></uni-icons>
+        </block>
+    </view>
+    <block wx:if="{{orderData}}">
+        <view class="cardItem u-skeleton-rect data-v-29f6412e" wx:for="{{orderData.tempOrderUnSubmitted.tempOrderSellerItems}}" wx:key="index">
+            <view class="merchant u-skeleton-rect data-v-29f6412e">
+                <view class="mcName data-v-29f6412e">
+                    <image class="data-v-29f6412e" src="../../static/images/sj_icon.png"></image>
+                    <text class="data-v-29f6412e">{{item.sellerName}}</text>
+                    <uni-icons bind:__l="__l" class="data-v-29f6412e" color="#c8c8c8" size="14" type="arrowright" vueId="{{'11f648c0-2-'+index}}"></uni-icons>
+                </view>
+            </view>
+            <view class="cardGoods u-skeleton-rect data-v-29f6412e" wx:for="{{item.tempOrderItems}}" wx:for-index="indexs" wx:for-item="items" wx:key="indexs">
+                <view class="caedLeft data-v-29f6412e">
+                    <view class="cardImg data-v-29f6412e">
+                        <u-lazy-load bind:__l="__l" class="data-v-29f6412e" height="180" image="{{items.picUrl}}" imgMode="scaleToFill" vueId="{{'11f648c0-3-'+index+'-'+indexs}}"></u-lazy-load>
+                    </view>
+                    <view class="cardInfo data-v-29f6412e">
+                        <view class="shopName multilineText2 data-v-29f6412e">{{items.itemName}}</view>
+                        <view class="shopsku data-v-29f6412e">{{items.skuName?items.skuName:''}}</view>
+                        <view class="prceNum data-v-29f6412e">
+                            <text class="pic data-v-29f6412e">{{'￥'+items.price}}</text>
+                            <text class="itemRuter data-v-29f6412e" wx:if="{{items.cashBackAmount&&items.cashBackAmount!=0&&userInfo&&userInfo.isFenxiao}}">{{'返￥'+items.cashBackAmount}}</text>
+                        </view>
+                    </view>
+                    <text class="data-v-29f6412e">{{'X '+items.quantity}}</text>
+                </view>
+            </view>
+            <view class="itemParameter data-v-29f6412e">
+                <text class="data-v-29f6412e">运费</text>
+                <text class="data-v-29f6412e">{{item.deliveryFee&&item.deliveryFee!==0?'￥'+item.deliveryFee:'免运费'}}</text>
+            </view>
+            <view class="itemParameter data-v-29f6412e">
+                <text class="data-v-29f6412e">备注</text>
+                <input bindblur="__e" bindinput="__e" class="remarkInput data-v-29f6412e" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '$0','memberRemark','$event',['trim'] ],[ [ ['orderData.tempOrderUnSubmitted.tempOrderSellerItems','',index] ] ] ] ] ],[ 'blur',[ ['$forceUpdate'] ] ] ]}}" maxlength="40" placeholder="建议留言前线与商家沟通确认" placeholderStyle="color:#cfcfcf" type="text" value="{{item.memberRemark}}"></input>
+            </view>
+            <view class="itemNum data-v-29f6412e">
+                <text class="data-v-29f6412e">{{'共'+item.goodsTotalNum+'件'}}</text>
+                <view class="itemPrice data-v-29f6412e">
+                    <text class="data-v-29f6412e">小计：</text>
+                    <text class="data-v-29f6412e">{{'￥'+item.goodsTotalAmount}}</text>
+                </view>
+            </view>
+        </view>
+    </block>
+    <view class="couponBox gift data-v-29f6412e">
+        <view class="cb1 data-v-29f6412e">
+            <view class="cb1-1 data-v-29f6412e">礼品卡</view>
+            <view class="cb1-2 data-v-29f6412e" wx:if="{{giftCardAmount>0}}">已选1张</view>
+        </view>
+        <view bindtap="__e" class="cb2 data-v-29f6412e" data-event-opts="{{[ [ 'tap',[ [ 'chooseGiftCard',['$event'] ] ] ] ]}}">
+            <view class="cb2-2 data-v-29f6412e" wx:if="{{!giftCardArr[0]}}">无可用</view>
+            <block wx:else>
+                <view class="cb2-1 data-v-29f6412e" wx:if="{{giftCardAmount>0}}">{{'-¥'+giftCardAmount}}</view>
+                <block wx:else>
+                    <view class="cb2-3 data-v-29f6412e" wx:if="{{giftCardAmount==0}}">{{$root.g0+'张可用'}}</view>
+                </block>
+            </block>
+            <uni-icons bind:__l="__l" class="data-v-29f6412e" color="#BDBDBD" size="19" type="arrowright" vueId="11f648c0-4"></uni-icons>
+        </view>
+    </view>
+    <view class="subBox u-skeleton-rect data-v-29f6412e">
+        <block wx:if="{{orderData}}">
+            <view class="subAddress u-skeleton-rect data-v-29f6412e" wx:if="{{orderData.memberAddr}}">
+                <text class="data-v-29f6412e">收货地址：</text>
+                <text class="data-v-29f6412e">{{orderData.memberAddr.addrRegion1Name+orderData.memberAddr.addrRegion2Name+orderData.memberAddr.addrRegion3Name+orderData.memberAddr.addrStreet}}</text>
+            </view>
+        </block>
+        <view class="subNumPrice u-skeleton-rect data-v-29f6412e">
+            <block wx:if="{{orderData}}">
+                <text class="data-v-29f6412e">{{'共'+orderData.tempOrderUnSubmitted.itemNumber+'件'}}</text>
+                <view class="subPrice u-skeleton-rect data-v-29f6412e">
+                    <text class="data-v-29f6412e">应付：</text>
+                    <text class="data-v-29f6412e">{{'￥'+$root.g1}}</text>
+                </view>
+                <button bindtap="__e" class="subBtn data-v-29f6412e" data-event-opts="{{[ [ 'tap',[ [ 'goPay',['$event'] ] ] ] ]}}" disabled="{{submiting}}">去支付</button>
+            </block>
+        </view>
+    </view>
+    <u-skeleton animation="{{true}}" bind:__l="__l" class="data-v-29f6412e" loading="{{loadingStatus}}" vueId="11f648c0-5"></u-skeleton>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-29f6412e" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showGiftCard','$event',[] ] ] ] ] ]}}" mode="bottom" value="{{showGiftCard}}" vueId="11f648c0-6" vueSlots="{{['default']}}">
+        <view class="fill-card-box data-v-29f6412e">
+            <view class="name data-v-29f6412e">礼品卡</view>
+            <view class="card-box-popup data-v-29f6412e">
+                <scroll-view class="data-v-29f6412e" scrollY="true" style="height:600rpx;">
+                    <view class="card-item-popup data-v-29f6412e" wx:for="{{$root.l0}}" wx:key="index">
+                        <image mode class="card-image data-v-29f6412e" src="{{item.$orig.cardPicUrl}}" wx:if="{{item.$orig.cardPicUrl}}"></image>
+                        <view class="card-data data-v-29f6412e">
+                            <view class="{{['card-head','data-v-29f6412e',!item.$orig.cardPicUrl?'cardHeadbg':'']}}">
+                                <image mode class="card-logo data-v-29f6412e" src="https://eshopfile.zhiyousx.com/giftCard/logo.png" wx:if="{{!item.$orig.cardPicUrl}}"></image>
+                                <view class="card-info data-v-29f6412e">
+                                    <view class="card-name data-v-29f6412e">{{''+item.$orig.name+''}}</view>
+                                    <view class="card-value data-v-29f6412e">{{'面值：'+item.$orig.quota+'元'}}</view>
+                                </view>
+                                <view class="card-time data-v-29f6412e">{{''+item.$orig.validityTimeStr+''}}</view>
+                            </view>
+                            <view class="{{['card-body','data-v-29f6412e',!item.$orig.cardPicUrl?'cardBodyBg':'']}}">
+                                <view class="card-balance data-v-29f6412e">
+                                    <text class="label data-v-29f6412e">余额</text>
+                                    <text class="value data-v-29f6412e">{{'￥'+item.$orig.balance}}</text>
+                                </view>
+                                <image mode bindtap="__e" class="card-change data-v-29f6412e" data-event-opts="{{[ [ 'tap',[ [ 'changeGiftCard',['$0',index],[ [ ['giftCardArr','',index] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/giftCard/cardYes.png" wx:if="{{item.g2}}"></image>
+                                <image mode bindtap="__e" class="card-change data-v-29f6412e" data-event-opts="{{[ [ 'tap',[ [ 'changeGiftCard',['$0',index],[ [ ['giftCardArr','',index] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/giftCard/cardNo.png" wx:else></image>
+                            </view>
+                        </view>
+                    </view>
+                </scroll-view>
+            </view>
+            <view bindtap="__e" class="but-popup data-v-29f6412e" data-event-opts="{{[ [ 'tap',[ [ 'confirmCard',['$event'] ] ] ] ]}}">确定</view>
+        </view>
+    </u-popup>
+</view>

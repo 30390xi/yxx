@@ -1,0 +1,63 @@
+<view class="card-container data-v-25e97a6c">
+    <view bindtap="__e" class="box data-v-25e97a6c" data-event-opts="{{[ [ 'tap',[ [ 'handleClickParent',['$event'] ] ] ] ]}}" style="{{'background:'+'url('+info.image+')'+';'+'background-position:'+'center center'+';'+'background-size:'+'cover'+';'}}">
+        <view class="card-header data-v-25e97a6c">
+            <view catchtap="__e" class="card-header-left data-v-25e97a6c" data-event-opts="{{[ [ 'tap',[ [ 'goBadge',['$event'] ] ] ] ]}}" wx:if="{{info.status===3}}">
+                <image class="data-v-25e97a6c" src="https://eshopfile.zhiyousx.com/2023102511025902887.png"></image>
+                <view class="data-v-25e97a6c" wx:if="{{info.activeMedalNum>0}}">{{info.activeMedalNum+'个勋章'}}</view>
+                <view class="data-v-25e97a6c" wx:else>暂无勋章</view>
+            </view>
+            <view class="{{['data-v-25e97a6c','card-num',info.status!==3&&'card-num-start']}}">
+                <view class="text data-v-25e97a6c" wx:if="{{status===1}}">{{'购买数量：'+(info.quantity||'--')}}</view>
+                <block wx:else>
+                    <block wx:if="{{info.cardNo}}">
+                        <view class="text data-v-25e97a6c">NO.</view>
+                        <view class="text data-v-25e97a6c">{{info.cardNo||''}}</view>
+                    </block>
+                </block>
+            </view>
+            <view class="card-header-right data-v-25e97a6c">{{''+statusName+''}}</view>
+        </view>
+        <view class="card-body data-v-25e97a6c">
+            <view class="card-body-title data-v-25e97a6c">{{info.title}}</view>
+            <view class="card-body-name data-v-25e97a6c" wx:if="{{status===1}}">请在<u-count-down bgColor="transparent" bind:__l="__l" bind:end="__e" class="data-v-25e97a6c" color="#ffffff" data-event-opts="{{[ [ '^end',[ ['handEnd'] ] ] ]}}" fontSize="26" separator="zh" separatorColor="#ffffff" separatorSize="26" showDays="{{false}}" showHours="{{false}}" timestamp="{{getTime}}" vueId="7a0e6e01-1"></u-count-down>内完成付款</view>
+            <block wx:else>
+                <view class="card-body-name data-v-25e97a6c" wx:if="{{status===4}}">年卡制作中，请稍后刷新...</view>
+                <block wx:else>
+                    <view class="card-body-name data-v-25e97a6c" wx:if="{{status===2}}">请激活后使用</view>
+                    <block wx:else>
+                        <view class="card-body-name data-v-25e97a6c" wx:if="{{info.cardholderName}}">{{'持卡人：'+info.cardholderName+''}}</view>
+                    </block>
+                    <view class="card-body-time data-v-25e97a6c" wx:if="{{status===2&&info.effectiveDateType===0}}">{{'有效期：激活后'+info.effectiveDays+'天内有效'}}</view>
+                    <block wx:else>
+                        <view class="card-body-time data-v-25e97a6c" wx:if="{{isFinite}}">{{'有效期：'+$root.f0+'~'+$root.f1}}</view>
+                        <block wx:else>
+                            <view class="card-body-time data-v-25e97a6c" wx:if="{{info.effectiveEndDate}}">{{'有效期至：'+effectiveEndDateZh}}</view>
+                        </block>
+                    </block>
+                </block>
+            </block>
+        </view>
+    </view>
+    <view class="card-footer data-v-25e97a6c">
+        <view class="card-footer-left data-v-25e97a6c" wx:if="{{status===3&&info.saveMoneyVO.usedTicketNum}}">
+            <view class="line-view data-v-25e97a6c">
+                <image class="data-v-25e97a6c" src="https://eshopfile.zhiyousx.com/2023102511531888128.png"></image>
+                <view class="data-v-25e97a6c">已去过</view>
+                <view class="line-view-num data-v-25e97a6c">{{info.saveMoneyVO.usedTicketNum}}</view>
+                <view class="data-v-25e97a6c">个地点</view>
+            </view>
+            <view bindtap="__e" class="line-view data-v-25e97a6c" data-event-opts="{{[ [ 'tap',[ [ 'openCalculator',['$event'] ] ] ] ]}}">
+                <image class="data-v-25e97a6c" src="https://eshopfile.zhiyousx.com/2023102511525469667.png"></image>
+                <view class="data-v-25e97a6c">为您节省</view>
+                <view class="line-view-num data-v-25e97a6c">{{info.saveMoneyVO.totalMoney}}</view>
+                <view class="data-v-25e97a6c">元</view>
+            </view>
+        </view>
+        <view class="card-footer-right data-v-25e97a6c">
+            <view catchtap="__e" class="{{['data-v-25e97a6c',item.class]}}" data-event-opts="{{[ [ 'tap',[ [ 'handleJump',['$0'],[ [ ['butList','',index] ] ] ] ] ] ]}}" wx:for="{{butList}}" wx:key="index">{{''+item.label+''}}</view>
+        </view>
+    </view>
+    <calculator bind:__l="__l" bind:updateShow="__e" class="data-v-25e97a6c" data-event-opts="{{[ [ '^updateShow',[ [ '__set_sync',['$0','calculatorShow','$event'],[''] ] ] ] ]}}" info="{{calcData}}" show="{{calculatorShow}}" status="{{2}}" vueId="7a0e6e01-2"></calculator>
+    <u-modal bind:__l="__l" bind:cancel="__e" bind:confirm="__e" bind:input="__e" class="data-v-25e97a6c" content="{{modelOptions.content}}" data-event-opts="{{[ [ '^confirm',[ ['handleConfirm'] ] ],[ '^cancel',[ ['e0'] ] ],[ '^input',[ [ '__set_model',[ '$0','show','$event',[] ],['modelOptions'] ] ] ] ]}}" showCancelButton="{{modelOptions.showCancelButton}}" value="{{modelOptions.show}}" vueId="7a0e6e01-3"></u-modal>
+    <my-loading bind:__l="__l" bind:updateShow="__e" class="data-v-25e97a6c" data-event-opts="{{[ [ '^updateShow',[ [ '__set_sync',['$0','loadingShow','$event'],[''] ] ] ] ]}}" loadingErrText="{{loadingErrText}}" show="{{loadingShow}}" vueId="7a0e6e01-4"></my-loading>
+</view>

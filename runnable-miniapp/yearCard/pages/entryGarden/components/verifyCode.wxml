@@ -1,0 +1,38 @@
+<view class="verify-code data-v-ac4c4410">
+    <view class="font-32 flex-c code-num data-v-ac4c4410">{{'NO. '+(info.cardNo||'')}}</view>
+    <view class="swiper-code data-v-ac4c4410">
+        <view class="code-c data-v-ac4c4410">
+            <l-painter bind:__l="__l" class="data-v-ac4c4410" vueId="5acc884e-1" vueSlots="{{['default']}}">
+                <l-painter-qrcode bind:__l="__l" class="data-v-ac4c4410" css="width: 380rpx; height: 380rpx" text="{{qrCode}}" vueId="{{'5acc884e-2'+','+'5acc884e-1'}}" wx:if="{{qrCode}}"></l-painter-qrcode>
+            </l-painter>
+        </view>
+    </view>
+    <view class="flex-c code-tip data-v-ac4c4410">
+        <u-icon bind:__l="__l" class="data-v-ac4c4410" color="#989898" name="error-circle" size="28" vueId="5acc884e-3"></u-icon>
+        <text class="font-24 data-v-ac4c4410">核验码定时更新，请勿截屏，以免影响正常使用</text>
+    </view>
+    <view bindtap="__e" class="flex-c font-30 code-desc data-v-ac4c4410" data-event-opts="{{[ [ 'tap',[ [ 'jumpReservation',['$event'] ] ] ] ]}}">
+        <block wx:if="{{info.toUseNum}}">您有<text class="30 data-v-ac4c4410">{{info.toUseNum||'0'}}</text>个待游玩预约</block>
+        <block wx:else>查看需要提前预约的商家</block>
+        <image class="data-v-ac4c4410" src="https://eshopfile.zhiyousx.com/2023102710495505447.png"></image>
+    </view>
+    <view class="divider data-v-ac4c4410"></view>
+    <view class="shop data-v-ac4c4410">
+        <view class="shop-header data-v-ac4c4410">
+            <view class="font-32 shop-header-left data-v-ac4c4410">{{'可用商家（'+(info.detailNum||'0')+'家）'}}</view>
+            <view bindtap="__e" class="font-26 shop-header-right data-v-ac4c4410" data-event-opts="{{[ [ 'tap',[ ['goShopList'] ] ] ]}}">查看全部<image class="data-v-ac4c4410" src="https://eshopfile.zhiyousx.com/2023102614083173967.png"></image>
+            </view>
+        </view>
+        <view class="shop-body data-v-ac4c4410" wx:if="{{calcData.usedTicketNum}}">
+            <view bindtap="__e" class="font-26 data-v-ac4c4410" data-event-opts="{{[ [ 'tap',[ ['jumpRecord'] ] ] ]}}">已经去过<text class="data-v-ac4c4410">{{calcData.usedTicketNum||'0'}}</text>
+                <image class="data-v-ac4c4410" src="https://eshopfile.zhiyousx.com/2023102614083173967.png"></image>
+            </view>
+            <view bindtap="__e" class="font-26 data-v-ac4c4410" data-event-opts="{{[ [ 'tap',[ [ 'openCalculator',['$event'] ] ] ] ]}}">累计节省<text class="data-v-ac4c4410">{{'￥'+(calcData.totalMoney||'0')}}</text>
+                <image class="data-v-ac4c4410" src="https://eshopfile.zhiyousx.com/2023102614083173967.png"></image>
+            </view>
+        </view>
+    </view>
+    <view class="divider dashed data-v-ac4c4410"></view>
+    <person-info bind:__l="__l" class="data-v-ac4c4410" info="{{info}}" vueId="5acc884e-4"></person-info>
+    <calculator bind:__l="__l" bind:updateShow="__e" class="data-v-ac4c4410" data-event-opts="{{[ [ '^updateShow',[ [ '__set_sync',['$0','calculatorShow','$event'],[''] ] ] ] ]}}" info="{{calcData}}" show="{{calculatorShow}}" status="{{2}}" vueId="5acc884e-5"></calculator>
+</view>

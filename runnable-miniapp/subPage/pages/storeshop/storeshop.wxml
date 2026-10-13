@@ -1,0 +1,36 @@
+<view class="u-skeleton data-v-1f1c0e86">
+    <uni-navbar bgColor="#F8F8F8" bind:__l="__l" class="data-v-1f1c0e86" home="{{true}}" type="fixed" vueId="5a853eb0-1" vueSlots="{{['right']}}">
+        <view bindtap="__e" class="searchBox data-v-1f1c0e86" data-event-opts="{{[ [ 'tap',[ [ 'goSearch',['$event'] ] ] ] ]}}" slot="right">
+            <icon class="data-v-1f1c0e86" color="#c5c5c5" size="16" type="search"></icon>
+            <input bindblur="__e" bindinput="__e" class="searchInput data-v-1f1c0e86" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '','searchText','$event',['trim'] ] ] ] ],[ 'blur',[ ['$forceUpdate'] ] ] ]}}" disabled="{{true}}" placeholder="搜索商品" placeholderStyle="color:#999999;font-weight:400" type="text" value="{{searchText}}"></input>
+        </view>
+    </uni-navbar>
+    <view class="storeInfo data-v-1f1c0e86">
+        <view class="storeLogo u-skeleton-circle data-v-1f1c0e86">
+            <u-lazy-load bind:__l="__l" borderRadius="10" class="data-v-1f1c0e86" height="84" image="{{sellerInfo.logoPicUrl?sellerInfo.logoPicUrl:'https://eshopfile.zhiyousx.com/2023102620364973049.png'}}" imgMode="aspectFill" vueId="5a853eb0-2"></u-lazy-load>
+        </view>
+        <text class="u-skeleton-rect data-v-1f1c0e86">{{sellerInfo.sellerName}}</text>
+    </view>
+    <view class="sortNav u-skeleton-rect data-v-1f1c0e86">
+        <view bindtap="__e" class="{{['navItem','data-v-1f1c0e86',index===sortIdx?'navItemActive':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'sortTab',[index] ] ] ] ]}}" wx:for="{{$root.l0}}" wx:key="index">{{''+item.$orig+''}}<view class="{{['sanjiaoxing1','data-v-1f1c0e86',item.g1?'sanjiaoxing1y':'']}}" wx:if="{{index===$root.g0-1}}"></view>
+            <view class="{{['sanjiaoxing2','data-v-1f1c0e86',item.g3?'sanjiaoxing2y':'']}}" wx:if="{{index===$root.g2-1}}"></view>
+        </view>
+    </view>
+    <view class="goodsBox data-v-1f1c0e86">
+        <view bindtap="__e" class="goodsItem data-v-1f1c0e86" data-event-opts="{{[ [ 'tap',[ [ 'goGoodsDetails',['$0'],[ [ ['goodsList','',index,'itemId'] ] ] ] ] ] ]}}" wx:for="{{$root.l1}}" wx:key="index">
+            <u-lazy-load bind:__l="__l" borderRadius="8" class="data-v-1f1c0e86" height="306" image="{{item.$orig.defaultPicUrl}}" imgMode="aspectFill" isEffect="{{false}}" vueId="{{'5a853eb0-3-'+index}}"></u-lazy-load>
+            <view class="itemTitle multilineText2 data-v-1f1c0e86">{{item.$orig.itemTitle}}</view>
+            <view class="numBox data-v-1f1c0e86">
+                <text class="data-v-1f1c0e86">{{'￥'+item.$orig.minPrice+(item.$orig.priceType===1?'起':'')}}</text>
+                <text class="data-v-1f1c0e86">{{item.f0+'人付款'}}</text>
+            </view>
+        </view>
+        <view class="empty data-v-1f1c0e86" wx:if="{{$root.g4}}">
+            <u-empty bind:__l="__l" class="data-v-1f1c0e86" marginTop="100" text=" " vueId="5a853eb0-4"></u-empty>
+        </view>
+        <view class="loadMore data-v-1f1c0e86">
+            <u-loadmore bgColor="#f7f7f7" bind:__l="__l" class="data-v-1f1c0e86" color="#ccc" iconColor="#ccc" status="{{loadMore}}" vueId="5a853eb0-5"></u-loadmore>
+        </view>
+    </view>
+    <u-skeleton animation="{{true}}" bind:__l="__l" class="data-v-1f1c0e86" loading="{{loadingStatus}}" vueId="5a853eb0-6"></u-skeleton>
+</view>

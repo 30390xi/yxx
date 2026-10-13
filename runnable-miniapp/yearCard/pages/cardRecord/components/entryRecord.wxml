@@ -1,0 +1,15 @@
+<view class="step data-v-0dcbc011">
+    <block wx:if="{{$root.g0}}">
+        <view class="step-item data-v-0dcbc011" wx:for="{{info}}" wx:key="index">
+            <view class="step-item-name data-v-0dcbc011" wx:if="{{item.recordType===1}}">您在这一天激活了<text class="data-v-0dcbc011">{{item.ticketName}}</text>
+            </view>
+            <view class="step-item-name data-v-0dcbc011" wx:else>您去了<text class="data-v-0dcbc011">{{item.scenicName}}</text>
+            </view>
+            <view class="step-item-time data-v-0dcbc011">{{item.useTime||'--'}}</view>
+        </view>
+    </block>
+    <view class="no-page data-v-0dcbc011" wx:else>
+        <image class="data-v-0dcbc011" src="https://eshopfile.zhiyousx.com/2023110116325879617.png"></image>
+        <view class="data-v-0dcbc011">暂无记录</view>
+    </view>
+</view>

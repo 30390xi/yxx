@@ -1,0 +1,31 @@
+<view bindtap="__e" class="row2 eva-enter data-v-49e0ee14" data-event-opts="{{[ [ 'tap',[ ['jumpTo'] ] ] ]}}">
+    <view class="title data-v-49e0ee14">交你玩测评</view>
+    <view class="eva-enter-l data-v-49e0ee14">
+        <view class="eva-enter-l-b data-v-49e0ee14">
+            <image class="icon data-v-49e0ee14" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173260310299130164.png"></image>
+            <view class="line _div data-v-49e0ee14"></view>
+            <view class="scoreBox data-v-49e0ee14">
+                <view class="score data-v-49e0ee14">{{baseInfo.score||baseInfo.score===0?$root.g0:''}}</view>
+                <view class="desc data-v-49e0ee14">实测评分</view>
+            </view>
+        </view>
+    </view>
+    <view class="eva-enter-r data-v-49e0ee14">
+        <view class="radar data-v-49e0ee14">
+            <view class="data data-v-49e0ee14" style="{{'clip-path:'+'polygon('+xyArr[0].x+' '+xyArr[0].y+', '+xyArr[1].x+' '+xyArr[1].y+', '+xyArr[2].x+' '+xyArr[2].y+')'+';'}}"></view>
+            <view class="data-wonders data-desc data-v-49e0ee14">
+                <view class="name data-v-49e0ee14">奇观度</view>
+                <view class="score data-v-49e0ee14">{{baseInfo.scoreWonder||baseInfo.scoreWonder===0?$root.g1:''}}</view>
+            </view>
+            <view class="data-setting data-desc data-v-49e0ee14">
+                <view class="name data-v-49e0ee14">配套设施</view>
+                <view class="score data-v-49e0ee14">{{baseInfo.scoreFacility||baseInfo.scoreFacility===0?$root.g2:''}}</view>
+            </view>
+            <view class="data-service data-desc data-v-49e0ee14">
+                <view class="name data-v-49e0ee14">运营服务</view>
+                <view class="score data-v-49e0ee14">{{baseInfo.scoreOperation||baseInfo.scoreOperation===0?$root.g3:''}}</view>
+            </view>
+        </view>
+    </view>
+    <image class="enterIcon data-v-49e0ee14" mode="aspectFill" src="../../../static/images/jt.png"></image>
+</view>

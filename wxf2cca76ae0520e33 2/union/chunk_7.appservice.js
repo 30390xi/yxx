@@ -1,0 +1,2257 @@
+$gwx4_XC_59 = function(_, _v, _n, _p, _s, _wp, _wl, $gwn, $gwl, $gwh, wh, $gstack, $gwrt, gra, grb, TestTest, wfor, _ca, _da, _r, _rz, _o, _oz, _1, _1z, _2, _2z, _m, _mz, nv_getDate, nv_getRegExp, nv_console, nv_parseInt, nv_parseFloat, nv_isNaN, nv_isFinite, nv_decodeURI, nv_decodeURIComponent, nv_encodeURI, nv_encodeURIComponent, $gdc, nv_JSON, _af, _gv, _ai, _grp, _gd, _gapi, $ixc, _ic, _w, _ev, _tsd) {
+  return function(path, global) {
+    if (typeof global === 'undefined') {
+      if (typeof __GWX_GLOBAL__ === 'undefined') global = {};
+      else global = __GWX_GLOBAL__;
+    }
+    if (typeof __WXML_GLOBAL__ === 'undefined') {
+      __WXML_GLOBAL__ = {};
+    }
+    __WXML_GLOBAL__.modules = __WXML_GLOBAL__.modules || {};
+    var e_ = {}
+    if (typeof(global.entrys) === 'undefined') global.entrys = {};
+    e_ = global.entrys;
+    var d_ = {}
+    if (typeof(global.defines) === 'undefined') global.defines = {};
+    d_ = global.defines;
+    var f_ = {}
+    if (typeof(global.modules) === 'undefined') global.modules = {};
+    f_ = global.modules || {};
+    var p_ = {}
+    __WXML_GLOBAL__.ops_cached = __WXML_GLOBAL__.ops_cached || {}
+    __WXML_GLOBAL__.ops_set = __WXML_GLOBAL__.ops_set || {};
+    __WXML_GLOBAL__.ops_init = __WXML_GLOBAL__.ops_init || {};
+    var z = __WXML_GLOBAL__.ops_set.$gwx4_XC_59 || [];
+
+    function gz$gwx4_XC_59_1() {
+      if (__WXML_GLOBAL__.ops_cached.$gwx4_XC_59_1) return __WXML_GLOBAL__.ops_cached.$gwx4_XC_59_1
+      __WXML_GLOBAL__.ops_cached.$gwx4_XC_59_1 = [];
+      (function(z) {
+        var a = 11;
+
+        function Z(ops) {
+          z.push(ops)
+        }
+        Z([3, 'chat-input-bar-container data-v-b30b1ec8'])
+        Z([
+          [2, '+'],
+          [
+            [2, '+'],
+            [1, 'padding-bottom:'],
+            [
+              [2, '?:'],
+              [
+                [7],
+                [3, 'isIos']
+              ],
+              [1, ''],
+              [1, '30rpx']
+            ]
+          ],
+          [1, ';']
+        ])
+        Z([3, 'chat-input-bar data-v-b30b1ec8'])
+        Z([
+          [2, '=='],
+          [
+            [7],
+            [3, 'showSpeakBtn']
+          ],
+          [1, 2]
+        ])
+        Z([
+          [2, '=='],
+          [
+            [7],
+            [3, 'showSpeakBtn']
+          ],
+          [1, 3]
+        ])
+        Z([
+          [2, '=='],
+          [
+            [7],
+            [3, 'showSpeakBtn']
+          ],
+          [1, 1]
+        ])
+        Z([3, 'right-btn data-v-b30b1ec8'])
+        Z([
+          [2, '&&'],
+          [
+            [2, '=='],
+            [
+              [7],
+              [3, 'showSpeakBtn']
+            ],
+            [1, 1]
+          ],
+          [
+            [7],
+            [3, 'pushingProgress']
+          ]
+        ])
+        Z([
+          [2, '&&'],
+          [
+            [2, '&&'],
+            [
+              [2, '!'],
+              [
+                [7],
+                [3, 'showHide']
+              ]
+            ],
+            [
+              [2, '||'],
+              [
+                [2, '||'],
+                [
+                  [2, '=='],
+                  [
+                    [7],
+                    [3, 'showSpeakBtn']
+                  ],
+                  [1, 1]
+                ],
+                [
+                  [2, '=='],
+                  [
+                    [7],
+                    [3, 'showSpeakBtn']
+                  ],
+                  [1, 2]
+                ]
+              ],
+              [
+                [2, '=='],
+                [
+                  [7],
+                  [3, 'showSpeakBtn']
+                ],
+                [1, 3]
+              ]
+            ]
+          ],
+          [
+            [7],
+            [3, 'delayBtn']
+          ]
+        ])
+        Z([
+          [7],
+          [3, 'longPress']
+        ])
+        Z([
+          [2, '!'],
+          [
+            [7],
+            [3, 'pushingProgressShow']
+          ]
+        ])
+        Z([3, '__l'])
+        Z([3, '__e'])
+        Z([3, '40'])
+        Z([3, 'popup-code data-v-b30b1ec8'])
+        Z([
+          [4],
+          [
+            [5],
+            [
+              [4],
+              [
+                [5],
+                [
+                  [5],
+                  [1, '^input']
+                ],
+                [
+                  [4],
+                  [
+                    [5],
+                    [
+                      [4],
+                      [
+                        [5],
+                        [
+                          [5],
+                          [1, '__set_model']
+                        ],
+                        [
+                          [4],
+                          [
+                            [5],
+                            [
+                              [5],
+                              [
+                                [5],
+                                [
+                                  [5],
+                                  [1, '']
+                                ],
+                                [1, 'show']
+                              ],
+                              [1, '$event']
+                            ],
+                            [
+                              [4],
+                              [
+                                [5]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ])
+        Z([3, '600rpx'])
+        Z([3, 'bottom'])
+        Z([
+          [7],
+          [3, 'show']
+        ])
+        Z([3, '00d7c57e-1'])
+        Z([
+          [4],
+          [
+            [5],
+            [1, 'default']
+          ]
+        ])
+        Z(z[11])
+        Z(z[12])
+        Z(z[13])
+        Z(z[14])
+        Z([
+          [4],
+          [
+            [5],
+            [
+              [4],
+              [
+                [5],
+                [
+                  [5],
+                  [1, '^input']
+                ],
+                [
+                  [4],
+                  [
+                    [5],
+                    [
+                      [4],
+                      [
+                        [5],
+                        [
+                          [5],
+                          [1, '__set_model']
+                        ],
+                        [
+                          [4],
+                          [
+                            [5],
+                            [
+                              [5],
+                              [
+                                [5],
+                                [
+                                  [5],
+                                  [1, '']
+                                ],
+                                [1, 'showImage']
+                              ],
+                              [1, '$event']
+                            ],
+                            [
+                              [4],
+                              [
+                                [5]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ])
+        Z(z[17])
+        Z([
+          [7],
+          [3, 'showImage']
+        ])
+        Z([3, '00d7c57e-2'])
+        Z(z[20])
+      })(__WXML_GLOBAL__.ops_cached.$gwx4_XC_59_1);
+      return __WXML_GLOBAL__.ops_cached.$gwx4_XC_59_1
+    }
+
+    function gz$gwx4_XC_59_2() {
+      if (__WXML_GLOBAL__.ops_cached.$gwx4_XC_59_2) return __WXML_GLOBAL__.ops_cached.$gwx4_XC_59_2
+      __WXML_GLOBAL__.ops_cached.$gwx4_XC_59_2 = [];
+      (function(z) {
+        var a = 11;
+
+        function Z(ops) {
+          z.push(ops)
+        }
+        Z([
+          [4],
+          [
+            [5],
+            [
+              [2, '?:'],
+              [1, true],
+              [1, 'chat-text'],
+              [1, '']
+            ]
+          ]
+        ])
+        Z([
+          [6],
+          [
+            [7],
+            [3, 'item']
+          ],
+          [3, 'content']
+        ])
+        Z([
+          [2, '!'],
+          [
+            [6],
+            [
+              [7],
+              [3, 'item']
+            ],
+            [3, 'content']
+          ]
+        ])
+        Z([
+          [6],
+          [
+            [7],
+            [3, '$root']
+          ],
+          [3, 'g0']
+        ])
+        Z([3, 'index'])
+        Z([3, 'el'])
+        Z([
+          [6],
+          [
+            [7],
+            [3, '$root']
+          ],
+          [3, 'l1']
+        ])
+        Z(z[4])
+        Z([3, 'spot_card'])
+        Z([3, 'background:rgba(255,255,255,.6);'])
+        Z([3, '__e'])
+        Z([3, 'card_top'])
+        Z([
+          [4],
+          [
+            [5],
+            [
+              [4],
+              [
+                [5],
+                [
+                  [5],
+                  [1, 'tap']
+                ],
+                [
+                  [4],
+                  [
+                    [5],
+                    [
+                      [4],
+                      [
+                        [5],
+                        [
+                          [5],
+                          [
+                            [5],
+                            [1, 'goSpot']
+                          ],
+                          [
+                            [4],
+                            [
+                              [5],
+                              [1, '$0']
+                            ]
+                          ]
+                        ],
+                        [
+                          [4],
+                          [
+                            [5],
+                            [
+                              [4],
+                              [
+                                [5],
+                                [
+                                  [4],
+                                  [
+                                    [5],
+                                    [
+                                      [5],
+                                      [
+                                        [5],
+                                        [
+                                          [5],
+                                          [1, 'item.list']
+                                        ],
+                                        [1, '']
+                                      ],
+                                      [
+                                        [7],
+                                        [3, 'index']
+                                      ]
+                                    ],
+                                    [1, 'id']
+                                  ]
+                                ]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ])
+        Z([3, 'card_ticket'])
+        Z([
+          [6],
+          [
+            [6],
+            [
+              [7],
+              [3, 'el']
+            ],
+            [3, '$orig']
+          ],
+          [3, 'price']
+        ])
+        Z([
+          [2, '&&'],
+          [
+            [6],
+            [
+              [6],
+              [
+                [7],
+                [3, 'el']
+              ],
+              [3, '$orig']
+            ],
+            [3, 'price']
+          ],
+          [
+            [2, '=='],
+            [
+              [6],
+              [
+                [6],
+                [
+                  [7],
+                  [3, 'el']
+                ],
+                [3, '$orig']
+              ],
+              [3, 'startPriceFlag']
+            ],
+            [1, 1]
+          ]
+        ])
+        Z([
+          [6],
+          [
+            [6],
+            [
+              [7],
+              [3, 'el']
+            ],
+            [3, '$orig']
+          ],
+          [3, 'ticketName']
+        ])
+        Z([3, 'contNum'])
+        Z([3, 'cont'])
+        Z([
+          [6],
+          [
+            [7],
+            [3, 'el']
+          ],
+          [3, 'l0']
+        ])
+        Z(z[17])
+        Z(z[10])
+        Z([3, 'card_imgList'])
+        Z([
+          [4],
+          [
+            [5],
+            [
+              [4],
+              [
+                [5],
+                [
+                  [5],
+                  [1, 'tap']
+                ],
+                [
+                  [4],
+                  [
+                    [5],
+                    [
+                      [4],
+                      [
+                        [5],
+                        [
+                          [5],
+                          [
+                            [5],
+                            [1, 'jumpSpotContentList']
+                          ],
+                          [
+                            [4],
+                            [
+                              [5],
+                              [1, '$0']
+                            ]
+                          ]
+                        ],
+                        [
+                          [4],
+                          [
+                            [5],
+                            [
+                              [4],
+                              [
+                                [5],
+                                [
+                                  [5],
+                                  [
+                                    [4],
+                                    [
+                                      [5],
+                                      [
+                                        [5],
+                                        [
+                                          [5],
+                                          [1, 'item.list']
+                                        ],
+                                        [1, '']
+                                      ],
+                                      [
+                                        [7],
+                                        [3, 'index']
+                                      ]
+                                    ]
+                                  ]
+                                ],
+                                [
+                                  [4],
+                                  [
+                                    [5],
+                                    [
+                                      [5],
+                                      [
+                                        [5],
+                                        [1, 'contentList']
+                                      ],
+                                      [1, '']
+                                    ],
+                                    [
+                                      [7],
+                                      [3, 'contNum']
+                                    ]
+                                  ]
+                                ]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ])
+        Z([3, 'imgNum'])
+        Z([3, 'imgs'])
+        Z([
+          [6],
+          [
+            [6],
+            [
+              [7],
+              [3, 'cont']
+            ],
+            [3, '$orig']
+          ],
+          [3, 'contentList']
+        ])
+        Z(z[24])
+        Z([
+          [2, '<'],
+          [
+            [7],
+            [3, 'imgNum']
+          ],
+          [
+            [2, '?:'],
+            [
+              [2, '=='],
+              [
+                [6],
+                [
+                  [7],
+                  [3, 'cont']
+                ],
+                [3, 'g1']
+              ],
+              [1, 6]
+            ],
+            [1, 6],
+            [1, 5]
+          ]
+        ])
+        Z([
+          [2, '>'],
+          [
+            [6],
+            [
+              [7],
+              [3, 'cont']
+            ],
+            [3, 'g2']
+          ],
+          [1, 6]
+        ])
+        Z([
+          [6],
+          [
+            [7],
+            [3, '$root']
+          ],
+          [3, 'g3']
+        ])
+      })(__WXML_GLOBAL__.ops_cached.$gwx4_XC_59_2);
+      return __WXML_GLOBAL__.ops_cached.$gwx4_XC_59_2
+    }
+
+    function gz$gwx4_XC_59_3() {
+      if (__WXML_GLOBAL__.ops_cached.$gwx4_XC_59_3) return __WXML_GLOBAL__.ops_cached.$gwx4_XC_59_3
+      __WXML_GLOBAL__.ops_cached.$gwx4_XC_59_3 = [];
+      (function(z) {
+        var a = 11;
+
+        function Z(ops) {
+          z.push(ops)
+        }
+        Z([
+          [4],
+          [
+            [5],
+            [
+              [5],
+              [
+                [5],
+                [1, 'page-box']
+              ],
+              [1, 'data-v-6a8589f5']
+            ],
+            [
+              [2, '?:'],
+              [
+                [7],
+                [3, 'showHide']
+              ],
+              [1, 'page-box-image1'],
+              [1, 'page-box-image2']
+            ]
+          ]
+        ])
+        Z([
+          [2, '!'],
+          [
+            [7],
+            [3, 'showHide']
+          ]
+        ])
+        Z([3, '__l'])
+        Z([3, 'data-v-6a8589f5'])
+        Z([3, 'transparentFixed'])
+        Z([3, '612c7e5f-1'])
+        Z(z[2])
+        Z([3, '__e'])
+        Z(z[7])
+        Z(z[7])
+        Z([
+          [2, '?:'],
+          [
+            [2, '>'],
+            [
+              [7],
+              [3, 'resres']
+            ],
+            [1, 0]
+          ],
+          [1, '#d62f18'],
+          [1, 'linear-gradient( 180deg, rgba(255,255,255,0) 0%, #FFD899 100%)']
+        ])
+        Z([3, 'data-v-6a8589f5 vue-ref'])
+        Z([
+          [4],
+          [
+            [5],
+            [
+              [5],
+              [
+                [5],
+                [
+                  [4],
+                  [
+                    [5],
+                    [
+                      [5],
+                      [1, '^hidedKeyboard']
+                    ],
+                    [
+                      [4],
+                      [
+                        [5],
+                        [
+                          [4],
+                          [
+                            [5],
+                            [1, 'hidedKeyboard']
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                [4],
+                [
+                  [5],
+                  [
+                    [5],
+                    [1, '^keyboardHeightChange']
+                  ],
+                  [
+                    [4],
+                    [
+                      [5],
+                      [
+                        [4],
+                        [
+                          [5],
+                          [1, 'keyboardHeightChange']
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            [
+              [4],
+              [
+                [5],
+                [
+                  [5],
+                  [1, '^input']
+                ],
+                [
+                  [4],
+                  [
+                    [5],
+                    [
+                      [4],
+                      [
+                        [5],
+                        [
+                          [5],
+                          [1, '__set_model']
+                        ],
+                        [
+                          [4],
+                          [
+                            [5],
+                            [
+                              [5],
+                              [
+                                [5],
+                                [
+                                  [5],
+                                  [1, '']
+                                ],
+                                [1, 'dataList']
+                              ],
+                              [1, '$event']
+                            ],
+                            [
+                              [4],
+                              [
+                                [5]
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ])
+        Z([3, 'paging'])
+        Z([
+          [7],
+          [3, 'isIos']
+        ])
+        Z([3, 'position:fixed;z-index:11;'])
+        Z([1, true])
+        Z(z[16])
+        Z([
+          [7],
+          [3, 'dataList']
+        ])
+        Z([3, '612c7e5f-2'])
+        Z([
+          [4],
+          [
+            [5],
+            [
+              [5],
+              [
+                [5],
+                [1, 'default']
+              ],
+              [1, 'top']
+            ],
+            [1, 'bottom']
+          ]
+        ])
+        Z([3, 'top'])
+        Z(z[1])
+        Z([
+          [7],
+          [3, 'showHide']
+        ])
+        Z(z[16])
+        Z(z[2])
+        Z(z[7])
+        Z(z[7])
+        Z(z[7])
+        Z(z[7])
+        Z(z[7])
+        Z(z[11])
+        Z([
+          [4],
+          [
+            [5],
+            [
+              [5],
+              [
+                [5],
+                [
+                  [5],
+                  [
+                    [5],
+                    [
+                      [4],
+                      [
+                        [5],
+                        [
+                          [5],
+                          [1, '^stopSpeak']
+                        ],
+                        [
+                          [4],
+                          [
+                            [5],
+                            [
+                              [4],
+                              [
+                                [5],
+                                [1, 'stopSpeak']
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ],
+                  [
+                    [4],
+                    [
+                      [5],
+                      [
+                        [5],
+                        [1, '^setShowHide']
+                      ],
+                      [
+                        [4],
+                        [
+                          [5],
+                          [
+                            [4],
+                            [
+                              [5],
+                              [1, 'setShowHide']
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ],
+                [
+                  [4],
+                  [
+                    [5],
+                    [
+                      [5],
+                      [1, '^clearData']
+                    ],
+                    [
+                      [4],
+                      [
+                        [5],
+                        [
+                          [4],
+                          [
+                            [5],
+                            [1, 'clearData']
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                [4],
+                [
+                  [5],
+                  [
+                    [5],
+                    [1, '^clearDataStop']
+                  ],
+                  [
+                    [4],
+                    [
+                      [5],
+                      [
+                        [4],
+                        [
+                          [5],
+                          [1, 'clearDataStop']
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            [
+              [4],
+              [
+                [5],
+                [
+                  [5],
+                  [1, '^send']
+                ],
+                [
+                  [4],
+                  [
+                    [5],
+                    [
+                      [4],
+                      [
+                        [5],
+                        [1, 'doSend']
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ])
+        Z([3, 'inputBar'])
+        Z([
+          [7],
+          [3, 'delayBtn']
+        ])
+        Z(z[14])
+        Z([
+          [7],
+          [3, 'pushingProgress']
+        ])
+        Z([
+          [7],
+          [3, 'pushingProgressShow']
+        ])
+        Z(z[23])
+        Z([3, 'bottom'])
+        Z([
+          [2, '+'],
+          [
+            [2, '+'],
+            [1, '612c7e5f-3'],
+            [1, ',']
+          ],
+          [1, '612c7e5f-2']
+        ])
+        Z(z[1])
+        Z([3, 'index'])
+        Z([3, 'item'])
+        Z(z[18])
+        Z(z[42])
+        Z(z[1])
+        Z(z[2])
+        Z(z[7])
+        Z(z[7])
+        Z(z[7])
+        Z(z[7])
+        Z(z[3])
+        Z([
+          [4],
+          [
+            [5],
+            [
+              [5],
+              [
+                [5],
+                [
+                  [5],
+                  [
+                    [4],
+                    [
+                      [5],
+                      [
+                        [5],
+                        [1, '^askAgain']
+                      ],
+                      [
+                        [4],
+                        [
+                          [5],
+                          [
+                            [4],
+                            [
+                              [5],
+                              [1, 'askAgain']
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ],
+                [
+                  [4],
+                  [
+                    [5],
+                    [
+                      [5],
+                      [1, '^exclusive']
+                    ],
+                    [
+                      [4],
+                      [
+                        [5],
+                        [
+                          [4],
+                          [
+                            [5],
+                            [1, 'exclusive']
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                [4],
+                [
+                  [5],
+                  [
+                    [5],
+                    [1, '^explain']
+                  ],
+                  [
+                    [4],
+                    [
+                      [5],
+                      [
+                        [4],
+                        [
+                          [5],
+                          [1, 'openAudio']
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            [
+              [4],
+              [
+                [5],
+                [
+                  [5],
+                  [1, '^stopSpeak']
+                ],
+                [
+                  [4],
+                  [
+                    [5],
+                    [
+                      [4],
+                      [
+                        [5],
+                        [1, 'stopSpeak']
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ])
+        Z(z[18])
+        Z([
+          [7],
+          [3, 'item']
+        ])
+        Z([
+          [7],
+          [3, 'newVal']
+        ])
+        Z(z[36])
+        Z([
+          [2, '+'],
+          [
+            [2, '+'],
+            [
+              [2, '+'],
+              [1, '612c7e5f-4-'],
+              [
+                [7],
+                [3, 'index']
+              ]
+            ],
+            [1, ',']
+          ],
+          [1, '612c7e5f-2']
+        ])
+      })(__WXML_GLOBAL__.ops_cached.$gwx4_XC_59_3);
+      return __WXML_GLOBAL__.ops_cached.$gwx4_XC_59_3
+    }
+    __WXML_GLOBAL__.ops_set.$gwx4_XC_59 = z;
+    __WXML_GLOBAL__.ops_init.$gwx4_XC_59 = true;
+    var x = ['./union/components1/chat-input-bar/chat-input-bar-service.wxml', './union/components1/chat-item/chat-item-service.wxml', './union/pages/aiService/index.wxml'];
+    d_[x[0]] = {}
+    var m0 = function(e, s, r, gg) {
+      var z = gz$gwx4_XC_59_1()
+      var o8DB = _mz(z, 'view', ['class', 0, 'style', 1], [], e, s, gg)
+      var tAEB = _n('view')
+      _rz(z, tAEB, 'class', 2, e, s, gg)
+      var eBEB = _v()
+      _(tAEB, eBEB)
+      if (_oz(z, 3, e, s, gg)) {
+        eBEB.wxVkey = 1
+      }
+      var bCEB = _v()
+      _(tAEB, bCEB)
+      if (_oz(z, 4, e, s, gg)) {
+        bCEB.wxVkey = 1
+      }
+      var oDEB = _v()
+      _(tAEB, oDEB)
+      if (_oz(z, 5, e, s, gg)) {
+        oDEB.wxVkey = 1
+      }
+      var xEEB = _n('view')
+      _rz(z, xEEB, 'class', 6, e, s, gg)
+      var oFEB = _v()
+      _(xEEB, oFEB)
+      if (_oz(z, 7, e, s, gg)) {
+        oFEB.wxVkey = 1
+      }
+      var fGEB = _v()
+      _(xEEB, fGEB)
+      if (_oz(z, 8, e, s, gg)) {
+        fGEB.wxVkey = 1
+      }
+      oFEB.wxXCkey = 1
+      fGEB.wxXCkey = 1
+      _(tAEB, xEEB)
+      eBEB.wxXCkey = 1
+      bCEB.wxXCkey = 1
+      oDEB.wxXCkey = 1
+      _(o8DB, tAEB)
+      var l9DB = _v()
+      _(o8DB, l9DB)
+      if (_oz(z, 9, e, s, gg)) {
+        l9DB.wxVkey = 1
+      }
+      var a0DB = _v()
+      _(o8DB, a0DB)
+      if (_oz(z, 10, e, s, gg)) {
+        a0DB.wxVkey = 1
+      }
+      var cHEB = _mz(z, 'u-popup', ['bind:__l', 11, 'bind:input', 1, 'borderRadius', 2, 'class', 3, 'data-event-opts', 4, 'height', 5, 'mode', 6, 'value', 7, 'vueId', 8, 'vueSlots', 9], [], e, s, gg)
+      _(o8DB, cHEB)
+      var hIEB = _mz(z, 'u-popup', ['bind:__l', 21, 'bind:input', 1, 'borderRadius', 2, 'class', 3, 'data-event-opts', 4, 'mode', 5, 'value', 6, 'vueId', 7, 'vueSlots', 8], [], e, s, gg)
+      _(o8DB, hIEB)
+      l9DB.wxXCkey = 1
+      a0DB.wxXCkey = 1
+      _(r, o8DB)
+      return r
+    }
+    e_[x[0]] = {
+      f: m0,
+      j: [],
+      i: [],
+      ti: [],
+      ic: []
+    }
+    d_[x[1]] = {}
+    var m1 = function(e, s, r, gg) {
+      var z = gz$gwx4_XC_59_2()
+      var cKEB = _n('view')
+      _rz(z, cKEB, 'class', 0, e, s, gg)
+      var oLEB = _v()
+      _(cKEB, oLEB)
+      if (_oz(z, 1, e, s, gg)) {
+        oLEB.wxVkey = 1
+      }
+      var lMEB = _v()
+      _(cKEB, lMEB)
+      if (_oz(z, 2, e, s, gg)) {
+        lMEB.wxVkey = 1
+      }
+      var aNEB = _v()
+      _(cKEB, aNEB)
+      if (_oz(z, 3, e, s, gg)) {
+        aNEB.wxVkey = 1
+        var ePEB = _v()
+        _(aNEB, ePEB)
+        var bQEB = function(xSEB, oREB, oTEB, gg) {
+          var cVEB = _mz(z, 'view', ['class', 8, 'style', 1], [], xSEB, oREB, gg)
+          var hWEB = _mz(z, 'view', ['bindtap', 10, 'class', 1, 'data-event-opts', 2], [], xSEB, oREB, gg)
+          var oXEB = _n('view')
+          _rz(z, oXEB, 'class', 13, xSEB, oREB, gg)
+          var cYEB = _v()
+          _(oXEB, cYEB)
+          if (_oz(z, 14, xSEB, oREB, gg)) {
+            cYEB.wxVkey = 1
+          }
+          var oZEB = _v()
+          _(oXEB, oZEB)
+          if (_oz(z, 15, xSEB, oREB, gg)) {
+            oZEB.wxVkey = 1
+          }
+          var l1EB = _v()
+          _(oXEB, l1EB)
+          if (_oz(z, 16, xSEB, oREB, gg)) {
+            l1EB.wxVkey = 1
+          }
+          cYEB.wxXCkey = 1
+          oZEB.wxXCkey = 1
+          l1EB.wxXCkey = 1
+          _(hWEB, oXEB)
+          _(cVEB, hWEB)
+          var a2EB = _v()
+          _(cVEB, a2EB)
+          var t3EB = function(b5EB, e4EB, o6EB, gg) {
+            var o8EB = _mz(z, 'view', ['bindtap', 21, 'class', 1, 'data-event-opts', 2], [], b5EB, e4EB, gg)
+            var c0EB = _v()
+            _(o8EB, c0EB)
+            var hAFB = function(cCFB, oBFB, oDFB, gg) {
+              var aFFB = _v()
+              _(oDFB, aFFB)
+              if (_oz(z, 28, cCFB, oBFB, gg)) {
+                aFFB.wxVkey = 1
+              }
+              aFFB.wxXCkey = 1
+              return oDFB
+            }
+            c0EB.wxXCkey = 2
+            _2z(z, 26, hAFB, b5EB, e4EB, gg, c0EB, 'imgs', 'imgNum', 'imgNum')
+            var f9EB = _v()
+            _(o8EB, f9EB)
+            if (_oz(z, 29, b5EB, e4EB, gg)) {
+              f9EB.wxVkey = 1
+            }
+            f9EB.wxXCkey = 1
+            _(o6EB, o8EB)
+            return o6EB
+          }
+          a2EB.wxXCkey = 2
+          _2z(z, 19, t3EB, xSEB, oREB, gg, a2EB, 'cont', 'contNum', 'contNum')
+          _(oTEB, cVEB)
+          return oTEB
+        }
+        ePEB.wxXCkey = 2
+        _2z(z, 6, bQEB, e, s, gg, ePEB, 'el', 'index', 'index')
+      }
+      var tOEB = _v()
+      _(cKEB, tOEB)
+      if (_oz(z, 30, e, s, gg)) {
+        tOEB.wxVkey = 1
+      }
+      oLEB.wxXCkey = 1
+      lMEB.wxXCkey = 1
+      aNEB.wxXCkey = 1
+      tOEB.wxXCkey = 1
+      _(r, cKEB)
+      return r
+    }
+    e_[x[1]] = {
+      f: m1,
+      j: [],
+      i: [],
+      ti: [],
+      ic: []
+    }
+    d_[x[2]] = {}
+    var m2 = function(e, s, r, gg) {
+      var z = gz$gwx4_XC_59_3()
+      var eHFB = _n('view')
+      _rz(z, eHFB, 'class', 0, e, s, gg)
+      var bIFB = _v()
+      _(eHFB, bIFB)
+      if (_oz(z, 1, e, s, gg)) {
+        bIFB.wxVkey = 1
+      }
+      var oJFB = _mz(z, 'uni-navbar', ['bind:__l', 2, 'class', 1, 'type', 2, 'vueId', 3], [], e, s, gg)
+      _(eHFB, oJFB)
+      var xKFB = _mz(z, 'z-paging', ['bind:__l', 6, 'bind:hidedKeyboard', 1, 'bind:input', 2, 'bind:keyboardHeightChange', 3, 'bottomBgColor', 4, 'class', 5, 'data-event-opts', 6, 'data-ref', 7, 'safeAreaInsetBottom', 8, 'style', 9, 'toBottomLoadingMoreEnabled', 10, 'useChatRecordMode', 11, 'value', 12, 'vueId', 13, 'vueSlots', 14], [], e, s, gg)
+      var fMFB = _n('view')
+      _rz(z, fMFB, 'slot', 21, e, s, gg)
+      var cNFB = _v()
+      _(fMFB, cNFB)
+      if (_oz(z, 22, e, s, gg)) {
+        cNFB.wxVkey = 1
+      }
+      var hOFB = _v()
+      _(fMFB, hOFB)
+      if (_oz(z, 23, e, s, gg)) {
+        hOFB.wxVkey = 1
+      }
+      cNFB.wxXCkey = 1
+      hOFB.wxXCkey = 1
+      _(xKFB, fMFB)
+      var oPFB = _mz(z, 'chat-input-bar', ['bg', 24, 'bind:__l', 1, 'bind:clearData', 2, 'bind:clearDataStop', 3, 'bind:send', 4, 'bind:setShowHide', 5, 'bind:stopSpeak', 6, 'class', 7, 'data-event-opts', 8, 'data-ref', 9, 'delayBtn', 10, 'isIos', 11, 'pushingProgress', 12, 'pushingProgressShow', 13, 'showHide', 14, 'slot', 15, 'vueId', 16], [], e, s, gg)
+      _(xKFB, oPFB)
+      var oLFB = _v()
+      _(xKFB, oLFB)
+      if (_oz(z, 41, e, s, gg)) {
+        oLFB.wxVkey = 1
+      }
+      var cQFB = _v()
+      _(xKFB, cQFB)
+      var oRFB = function(aTFB, lSFB, tUFB, gg) {
+        var bWFB = _v()
+        _(tUFB, bWFB)
+        if (_oz(z, 46, aTFB, lSFB, gg)) {
+          bWFB.wxVkey = 1
+          var oXFB = _mz(z, 'chat-item', ['bind:__l', 47, 'bind:askAgain', 1, 'bind:exclusive', 2, 'bind:explain', 3, 'bind:stopSpeak', 4, 'class', 5, 'data-event-opts', 6, 'dataList', 7, 'item', 8, 'newVal', 9, 'pushingProgress', 10, 'vueId', 11], [], aTFB, lSFB, gg)
+          _(bWFB, oXFB)
+        }
+        bWFB.wxXCkey = 1
+        bWFB.wxXCkey = 3
+        return tUFB
+      }
+      cQFB.wxXCkey = 4
+      _2z(z, 44, oRFB, e, s, gg, cQFB, 'item', 'index', 'index')
+      oLFB.wxXCkey = 1
+      _(eHFB, xKFB)
+      bIFB.wxXCkey = 1
+      _(r, eHFB)
+      return r
+    }
+    e_[x[2]] = {
+      f: m2,
+      j: [],
+      i: [],
+      ti: [],
+      ic: []
+    }
+    if (path && e_[path]) {
+      return function(env, dd, global) {
+        $gwxc = 0;
+        var root = {
+          "tag": "wx-page"
+        };
+        root.children = [];
+        g = "$gwx4_XC_59";
+        var main = e_[path].f
+        if (typeof global === "undefined") global = {};
+        global.f = $gdc(f_[path], "", 1);
+        try {
+          main(env, {}, root, global);
+          _tsd(root)
+        } catch (err) {
+          console.log(err)
+        };
+        g = "";
+        return root;
+      }
+    }
+  }
+}(__g.a, __g.b, __g.c, __g.d, __g.e, __g.f, __g.g, __g.h, __g.i, __g.j, __g.k, __g.l, __g.m, __g.n, __g.o, __g.p, __g.q, __g.r, __g.s, __g.t, __g.u, __g.v, __g.w, __g.x, __g.y, __g.z, __g.A, __g.B, __g.C, __g.D, __g.E, __g.F, __g.G, __g.H, __g.I, __g.J, __g.K, __g.L, __g.M, __g.N, __g.O, __g.P, __g.Q, __g.R, __g.S, __g.T, __g.U, __g.V, __g.W, __g.X, __g.Y, __g.Z, __g.aa);
+if (__vd_version_info__.delayedGwx || false) $gwx4_XC_59();
+if (__vd_version_info__.delayedGwx) __wxAppCode__['union/components1/chat-input-bar/chat-input-bar-service.wxml'] = [$gwx4_XC_59, './union/components1/chat-input-bar/chat-input-bar-service.wxml'];
+else __wxAppCode__['union/components1/chat-input-bar/chat-input-bar-service.wxml'] = $gwx4_XC_59('./union/components1/chat-input-bar/chat-input-bar-service.wxml');
+if (__vd_version_info__.delayedGwx) __wxAppCode__['union/components1/chat-item/chat-item-service.wxml'] = [$gwx4_XC_59, './union/components1/chat-item/chat-item-service.wxml'];
+else __wxAppCode__['union/components1/chat-item/chat-item-service.wxml'] = $gwx4_XC_59('./union/components1/chat-item/chat-item-service.wxml');
+if (__vd_version_info__.delayedGwx) __wxAppCode__['union/pages/aiService/index.wxml'] = [$gwx4_XC_59, './union/pages/aiService/index.wxml'];
+else __wxAppCode__['union/pages/aiService/index.wxml'] = $gwx4_XC_59('./union/pages/aiService/index.wxml');;
+__wxRoute = "union/components1/chat-input-bar/chat-input-bar-service";
+__wxRouteBegin = true;
+__wxAppCurrentFile__ = "union/components1/chat-input-bar/chat-input-bar-service.js";
+define("union/components1/chat-input-bar/chat-input-bar-service.js", function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, XMLHttpRequest, WebSocket, Reporter, webkit, WeixinJSCore) {
+  "use strict";
+  require("../../common/vendor.js"), (global.webpackJsonp = global.webpackJsonp || []).push([
+    ["union/components1/chat-input-bar/chat-input-bar-service"], {
+      "1cfa": function(e, t, n) {
+        n.r(t);
+        var o = n("5fbc"),
+          i = n.n(o);
+        for (var a in o)["default"].indexOf(a) < 0 && function(e) {
+          n.d(t, e, (function() {
+            return o[e]
+          }))
+        }(a);
+        t.default = i.a
+      },
+      "530d": function(e, t, n) {},
+      "5fbc": function(e, t, n) {
+        (function(e, n) {
+          Object.defineProperty(t, "__esModule", {
+            value: !0
+          }), t.default = void 0;
+          var o = requirePlugin("WechatSI").getRecordRecognitionManager(),
+            i = {
+              name: "chat-input-bar",
+              props: {
+                isTalking: {
+                  type: Boolean,
+                  default: function() {
+                    return !1
+                  }
+                },
+                detail: {
+                  type: Object,
+                  default: function() {
+                    return {
+                      defaultProblemList: []
+                    }
+                  }
+                },
+                speakInfo: {
+                  type: Object,
+                  default: function() {
+                    return {
+                      language: 1,
+                      gender: "man"
+                    }
+                  }
+                },
+                pushingProgress: {
+                  type: Boolean,
+                  default: function() {
+                    return !1
+                  }
+                },
+                showHide: {
+                  type: Boolean,
+                  default: function() {
+                    return !0
+                  }
+                },
+                isIos: {
+                  type: Boolean,
+                  default: function() {
+                    return !1
+                  }
+                },
+                pushingProgressShow: {
+                  type: Boolean,
+                  default: function() {
+                    return !0
+                  }
+                },
+                delayBtn: {
+                  type: Boolean,
+                  default: function() {
+                    return !1
+                  }
+                }
+              },
+              data: function() {
+                return {
+                  msg: "",
+                  focus: !1,
+                  emojiType: "",
+                  showSpeakBtn: 1,
+                  longPress: !1,
+                  touched: !1,
+                  imageList: [],
+                  show: !1,
+                  showImage: !1,
+                  clickShow: !1,
+                  officialAccount: "",
+                  schedule: ""
+                }
+              },
+              mounted: function() {
+                var e = this;
+                this.initVoice(), this.$uniApi.dataRequestNoLoading("GET", "base/app/v1/sysParam/getSysConfigure", {
+                  paramKey: "WALL_ACTIVITY_IMGS"
+                }).then((function(t) {
+                  1 === t.code && (console.log(t.data), e.imageList = JSON.parse(t.data.paramValue).imageList || [], e.officialAccount = JSON.parse(t.data.paramValue).officialAccount || "", e.schedule = JSON.parse(t.data.paramValue).schedule || "")
+                }))
+              },
+              methods: {
+                previewImageClick: function() {
+                  e.previewImage({
+                    urls: [this.officialAccount]
+                  })
+                },
+                onLongPress: function() {},
+                goPage: function(t) {
+                  if (4 == t.type) this.$eventAnalyse.analyse({
+                    eventTag: "wall_customerService_click",
+                    eventName: "人工客服"
+                  }), this.show = !0;
+                  else if (5 == t.type) this.$eventAnalyse.analyse({
+                    eventTag: "wall_schedule_click",
+                    eventName: "预览演出时刻表"
+                  }), e.previewImage({
+                    urls: [this.schedule]
+                  });
+                  else if (3 == t.type) t.path, this.$util.isLogin(t.path) && (this.$eventAnalyse.analyse({
+                    eventTag: "wall_explanation_click",
+                    eventName: "灯会讲解",
+                    eventParams: {
+                      url: t.path
+                    }
+                  }), this.$navigateTo({
+                    url: t.path
+                  }));
+                  else {
+                    var n = "",
+                      o = "";
+                    1 == t.type ? (n = "灯会活动", o = "lamp") : 2 == t.type ? (n = "对春联", o = "pairUp") : (n = t.str, o = t.str1), this.$eventAnalyse.analyse({
+                      eventTag: "wall_" + o + "_click",
+                      eventName: n,
+                      eventParams: {
+                        url: t.path
+                      }
+                    }), this.$navigateTo({
+                      url: t.path
+                    })
+                  }
+                },
+                setcolse: function() {
+                  this.showSpeakBtn = 1, this.$emit("clearData")
+                },
+                stopVoice: function() {
+                  this.touched = !1, this.longPress = !1, this.showSpeakBtn = 2, o.stop()
+                },
+                keystart: function(t) {
+                  var n = this;
+                  this.longPress ? (this.touched = !1, this.longPress = !1, this.showSpeakBtn = 2, o.stop()) : (this.showSpeakBtn = 3, this.touched = !0, e.vibrateShort(), this.recordShow().then((function(e) {
+                    e ? n.touched && (n.longPress = !0, o.start({
+                      duration: 1e4
+                    })) : n.touched = !1
+                  })))
+                },
+                getSpeak: function() {
+                  this.showSpeakBtn = 2
+                },
+                stopSpeak: function() {
+                  this.$emit("stopSpeak")
+                },
+                initVoice: function() {
+                  console.log(o);
+                  var e = this;
+                  o.onStop = function(t) {
+                    console.log("record file path", t.tempFilePath), console.log("result", t.result);
+                    var n = t.result;
+                    e.sendMsg(n)
+                  }, o.onStart = function(e) {
+                    console.log("成功开始录音识别", e)
+                  }, o.onError = function(e) {
+                    console.error("error msg", e.msg)
+                  }
+                },
+                updateKeyboardHeightChange: function(e) {
+                  e.height > 0 && (this.emojiType = "emoji")
+                },
+                hidedKeyboard: function() {
+                  "keyboard" === this.emojiType && (this.emojiType = "")
+                },
+                emojiChange: function() {
+                  this.$emit("emojiTypeChange", this.emojiType), "keyboard" === this.emojiType ? this.focus = !0 : (this.focus = !1, e.hideKeyboard()), this.emojiType = this.emojiType && "emoji" !== this.emojiType ? "emoji" : "keyboard"
+                },
+                emojiClick: function(e) {
+                  this.msg += e
+                },
+                sendClick: function() {
+                  this.$eventAnalyse.analyse({
+                    eventTag: "wall_sendQuestion_click",
+                    eventName: "城墙客服发送问题",
+                    eventParams: {
+                      msg: this.msg
+                    }
+                  }), this.sendMsg(this.msg) && (this.msg = "")
+                },
+                sendMsg: function(e) {
+                  return this.pushingProgress ? e.length ? (this.showHide ? this.$emit("setShowHide", e) : this.$emit("send", e), !0) : (this.$util.showToast("请输入您的问题"), !1) : (this.$util.showToast("请稍候"), !1)
+                },
+                recordShow: function() {
+                  var t = this;
+                  return new Promise((function(o, i) {
+                    e.getSetting({
+                      success: function(i) {
+                        i.authSetting["scope.record"] ? i.authSetting["scope.record"] && o(!0) : e.authorize({
+                          scope: "scope.record",
+                          success: function() {
+                            o(!0)
+                          },
+                          fail: function() {
+                            o(!1), n.showModal({
+                              title: "提示",
+                              content: "您未授权录音，功能将无法使用",
+                              showCancel: !0,
+                              confirmText: "授权",
+                              confirmColor: "#52a2d8",
+                              success: function(e) {
+                                e.confirm ? n.openSetting({
+                                  success: function(e) {
+                                    e.authSetting["scope.record"] ? (o(!1), console.log("未设置录音授权1")) : (console.log("未设置录音授权"), n.showModal({
+                                      title: "提示",
+                                      content: "您未授权录音，功能将无法使用",
+                                      showCancel: !1
+                                    }), o(!1))
+                                  },
+                                  fail: function() {
+                                    o(!1), console.log("未设置录音授权2")
+                                  }
+                                }) : i.cancel && (console.log("未设置录音授权3"), o(!1))
+                              },
+                              fail: function() {
+                                t.showSpeakBtn = 2, console.log("未设置录音授权4"), o(!1)
+                              },
+                              complete: function() {
+                                t.showSpeakBtn = 2, console.log("未设置录音授权5")
+                              }
+                            })
+                          }
+                        })
+                      }
+                    })
+                  }))
+                }
+              }
+            };
+          t.default = i
+        }).call(this, n("df3c").default, n("3223").default)
+      },
+      cc78: function(e, t, n) {
+        var o = n("530d");
+        n.n(o).a
+      },
+      cfc5: function(e, t, n) {
+        n.d(t, "b", (function() {
+          return i
+        })), n.d(t, "c", (function() {
+          return a
+        })), n.d(t, "a", (function() {
+          return o
+        }));
+        var o = {
+            uPopup: function() {
+              return n.e("uview-ui/components/u-popup/u-popup").then(n.bind(null, "39fb"))
+            }
+          },
+          i = function() {
+            var e = this;
+            e.$createElement;
+            e._self._c, e._isMounted || (e.e0 = function(t) {
+              e.showSpeakBtn = 1
+            })
+          },
+          a = []
+      },
+      d54e: function(e, t, n) {
+        n.r(t);
+        var o = n("cfc5"),
+          i = n("1cfa");
+        for (var a in i)["default"].indexOf(a) < 0 && function(e) {
+          n.d(t, e, (function() {
+            return i[e]
+          }))
+        }(a);
+        n("cc78");
+        var s = n("828b"),
+          c = Object(s.a)(i.default, o.b, o.c, !1, null, "b30b1ec8", null, !1, o.a, void 0);
+        t.default = c.exports
+      }
+    }
+  ]), (global.webpackJsonp = global.webpackJsonp || []).push(["union/components1/chat-input-bar/chat-input-bar-service-create-component", {
+      "union/components1/chat-input-bar/chat-input-bar-service-create-component": function(e, t, n) {
+        n("df3c").createComponent(n("d54e"))
+      }
+    },
+    [
+      ["union/components1/chat-input-bar/chat-input-bar-service-create-component"]
+    ]
+  ]);
+}, {
+  isPage: false,
+  isComponent: true,
+  currentFile: 'union/components1/chat-input-bar/chat-input-bar-service.js'
+});
+require("union/components1/chat-input-bar/chat-input-bar-service.js");;
+__wxRoute = "union/components1/chat-item/chat-item-service";
+__wxRouteBegin = true;
+__wxAppCurrentFile__ = "union/components1/chat-item/chat-item-service.js";
+define("union/components1/chat-item/chat-item-service.js", function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, XMLHttpRequest, WebSocket, Reporter, webkit, WeixinJSCore) {
+  "use strict";
+  require("../../common/vendor.js"), (global.webpackJsonp = global.webpackJsonp || []).push([
+    ["union/components1/chat-item/chat-item-service"], {
+      "27c1": function(t, n, e) {
+        e.r(n);
+        var o = e("5b32"),
+          i = e.n(o);
+        for (var a in o)["default"].indexOf(a) < 0 && function(t) {
+          e.d(n, t, (function() {
+            return o[t]
+          }))
+        }(a);
+        n.default = i.a
+      },
+      "5b32": function(t, n, e) {
+        (function(t) {
+          Object.defineProperty(n, "__esModule", {
+            value: !0
+          }), n.default = void 0;
+          var o = {
+            name: "chat-item",
+            components: {
+              zeroMarkdownView: function() {
+                e.e("union/components1/components/zero-markdown-view/zero-markdown-view").then(function() {
+                  return resolve(e("dd9a"))
+                }.bind(null, e)).catch(e.oe)
+              }
+            },
+            props: {
+              item: {
+                type: Object,
+                default: function() {
+                  return {
+                    time: "",
+                    icon: "",
+                    name: "",
+                    content: "",
+                    isMe: !1
+                  }
+                }
+              },
+              pushingProgress: {
+                type: Boolean,
+                default: function() {
+                  return !1
+                }
+              }
+            },
+            data: function() {
+              return {
+                imgStarted: !1,
+                imgCompleted: !1,
+                imgContent: "",
+                imgArray: [],
+                countInfos: "",
+                index: 0,
+                timer: null,
+                itemContentCopy: "",
+                itemContentIndex: 0,
+                displayText: "",
+                showMore: !1,
+                list: []
+              }
+            },
+            mounted: function() {
+              this.displayText = "", this.index = 0
+            },
+            methods: {
+              previewImageClick: function(n) {
+                var e = this.item.imageCard.map((function(t) {
+                  return t.url
+                }));
+                t.previewImage({
+                  urls: e,
+                  count: n
+                })
+              },
+              goSpot: function(t) {
+                this.$navigateTo({
+                  url: "/pages/spotDetail/spotDetail?spotId=" + t
+                })
+              },
+              jumpSpotContentList: function(n) {
+                n.contentList.forEach((function(t) {
+                  t.title = t.contentModuleName, t.id = t.contentId
+                })), t.setStorageSync("spotContentList", {
+                  name: n.contentModuleName,
+                  contentList: n.contentList
+                }), this.$navigateTo({
+                  url: "/pages/spotContentList/spotContentList?scenicName=".concat(n.contentModuleName)
+                })
+              },
+              spotRelationNum: function(t) {
+                return t.length - 5 + "+"
+              },
+              scenicDetails: function(t) {
+                this.$navigateTo({
+                  url: "/pages/spotDetailNew/spotDetailNew?spotId=" + t.id
+                })
+              },
+              askAgain: function(t) {
+                this.pushingProgress ? this.$emit("askAgain", t) : this.$util.showToast("请稍候")
+              },
+              goLineView: function() {
+                t.navigateTo({
+                  url: "/union/pages/ai/strategyGuide?lineId=1734121312503611394"
+                })
+              },
+              getTagData: function(t) {
+                return t ? t.split(",") : []
+              },
+              showPic: function(n) {
+                var e = [n.data.url];
+                t.previewImage({
+                  urls: e
+                })
+              },
+              downloadFile: function(t) {}
+            }
+          };
+          n.default = o
+        }).call(this, e("df3c").default)
+      },
+      7953: function(t, n, e) {
+        e.r(n);
+        var o = e("b8bb"),
+          i = e("27c1");
+        for (var a in i)["default"].indexOf(a) < 0 && function(t) {
+          e.d(n, t, (function() {
+            return i[t]
+          }))
+        }(a);
+        e("add6");
+        var c = e("828b"),
+          u = Object(c.a)(i.default, o.b, o.c, !1, null, null, null, !1, o.a, void 0);
+        n.default = u.exports
+      },
+      a70c: function(t, n, e) {},
+      add6: function(t, n, e) {
+        var o = e("a70c");
+        e.n(o).a
+      },
+      b8bb: function(t, n, e) {
+        e.d(n, "b", (function() {
+          return o
+        })), e.d(n, "c", (function() {
+          return i
+        })), e.d(n, "a", (function() {}));
+        var o = function() {
+            var t = this,
+              n = (t.$createElement, t._self._c, t.item.list && t.item.list.length && 0 == t.item.type),
+              e = n ? t.__map(t.item.list, (function(n, e) {
+                return {
+                  $orig: t.__get_orig(n),
+                  l0: t.__map(n.contentList, (function(n, e) {
+                    var o = t.__get_orig(n),
+                      i = n.contentList.length,
+                      a = n.contentList.length;
+                    return {
+                      $orig: o,
+                      g1: i,
+                      g2: a,
+                      m0: a > 6 ? t.spotRelationNum(n.contentList) : null
+                    }
+                  }))
+                }
+              })) : null,
+              o = t.item.imageCard && t.item.imageCard.length && 0 == t.item.type;
+            t.$mp.data = Object.assign({}, {
+              $root: {
+                g0: n,
+                l1: e,
+                g3: o
+              }
+            })
+          },
+          i = []
+      }
+    }
+  ]), (global.webpackJsonp = global.webpackJsonp || []).push(["union/components1/chat-item/chat-item-service-create-component", {
+      "union/components1/chat-item/chat-item-service-create-component": function(t, n, e) {
+        e("df3c").createComponent(e("7953"))
+      }
+    },
+    [
+      ["union/components1/chat-item/chat-item-service-create-component"]
+    ]
+  ]);
+}, {
+  isPage: false,
+  isComponent: true,
+  currentFile: 'union/components1/chat-item/chat-item-service.js'
+});
+require("union/components1/chat-item/chat-item-service.js");;
+__wxRoute = "union/pages/aiService/index";
+__wxRouteBegin = true;
+__wxAppCurrentFile__ = "union/pages/aiService/index.js";
+define("union/pages/aiService/index.js", function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, XMLHttpRequest, WebSocket, Reporter, webkit, WeixinJSCore) {
+  "use strict";
+  require("../../common/vendor.js"), (global.webpackJsonp = global.webpackJsonp || []).push([
+    ["union/pages/aiService/index"], {
+      "0969": function(t, e, a) {
+        a.r(e);
+        var n = a("b4b6"),
+          i = a.n(n);
+        for (var s in n)["default"].indexOf(s) < 0 && function(t) {
+          a.d(e, t, (function() {
+            return n[t]
+          }))
+        }(s);
+        e.default = i.a
+      },
+      "47da": function(t, e, a) {
+        a.r(e);
+        var n = a("8579"),
+          i = a("0969");
+        for (var s in i)["default"].indexOf(s) < 0 && function(t) {
+          a.d(e, t, (function() {
+            return i[t]
+          }))
+        }(s);
+        a("f608");
+        var o = a("828b"),
+          r = Object(o.a)(i.default, n.b, n.c, !1, null, "6a8589f5", null, !1, n.a, void 0);
+        e.default = r.exports
+      },
+      8579: function(t, e, a) {
+        a.d(e, "b", (function() {
+          return i
+        })), a.d(e, "c", (function() {
+          return s
+        })), a.d(e, "a", (function() {
+          return n
+        }));
+        var n = {
+            uniNavbar: function() {
+              return a.e("components/uni-navbar/uni-navbar").then(a.bind(null, "101a"))
+            }
+          },
+          i = function() {
+            this.$createElement;
+            var t = (this._self._c, this.showHide ? this.greetings() : null);
+            this.$mp.data = Object.assign({}, {
+              $root: {
+                m0: t
+              }
+            })
+          },
+          s = []
+      },
+      "95a3": function(t, e, a) {
+        (function(t, e) {
+          var n = a("47a9");
+          a("5366"), n(a("3240"));
+          var i = n(a("47da"));
+          t.__webpack_require_UNI_MP_PLUGIN__ = a, e(i.default)
+        }).call(this, a("3223").default, a("df3c").createPage)
+      },
+      "973b": function(t, e, a) {},
+      b4b6: function(t, e, a) {
+        (function(t, n) {
+          var i = a("47a9");
+          Object.defineProperty(e, "__esModule", {
+            value: !0
+          }), e.default = void 0;
+          var s = i(a("af34")),
+            o = {
+              components: {
+                zPaging: function() {
+                  Promise.all([a.e("common/vendor"), a.e("union/common/vendor"), a.e("union/components1/z-paging/z-paging")]).then(function() {
+                    return resolve(a("a7ee"))
+                  }.bind(null, a)).catch(a.oe)
+                },
+                chatInputBar: function() {
+                  a.e("union/components1/chat-input-bar/chat-input-bar-service").then(function() {
+                    return resolve(a("d54e"))
+                  }.bind(null, a)).catch(a.oe)
+                },
+                chatItem: function() {
+                  a.e("union/components1/chat-item/chat-item-service").then(function() {
+                    return resolve(a("7953"))
+                  }.bind(null, a)).catch(a.oe)
+                }
+              },
+              data: function() {
+                return this.hoveImgList = [], this.hoveImg = !1, this.hoveImgListUrl = [], this.newVal = "", {
+                  dataList: [],
+                  currentContent: "",
+                  pushingProgress: !0,
+                  task: null,
+                  showHide: !0,
+                  tripList: [],
+                  scenicSpotList: [],
+                  deliciousFoodList: [],
+                  pushingProgressShow: !0,
+                  isSpeaking: !1,
+                  audioPlayer: null,
+                  flowId: "",
+                  page: 1,
+                  loadMore: "loading",
+                  character: null,
+                  index: 0,
+                  stratSet: !1,
+                  dataInfosList: [],
+                  isIos: !1,
+                  timeNetwork: null,
+                  resres: "",
+                  delayBtn: !1,
+                  smallScreen: !1
+                }
+              },
+              onPageScroll: function(t) {},
+              onLoad: function(e) {
+                this.audioPlayer = t.createInnerAudioContext(), this.getRecommendList();
+                var a = n.getSystemInfoSync();
+                "android" === a.platform ? this.isIos = !1 : "ios" === a.platform ? this.isIos = !0 : this.isIos = !1
+              },
+              onShow: function() {
+                var t = n.getSystemInfoSync().screenHeight;
+                console.log(t, "屏幕高度小于1500"), 2 * t < 1500 ? (console.log("屏幕高度小于1500"), this.smallScreen = !0) : (console.log("屏幕高度大于等于1500"), this.smallScreen = !1), console.log(this.$refs.paging), this.$refs.paging.setInit()
+              },
+              onHide: function() {
+                this.timeNetwork && (clearInterval(this.timeNetwork), this.timeNetwork = null), n.onKeyboardHeightChange()
+              },
+              onUnload: function() {
+                this.timeNetwork && (clearInterval(this.timeNetwork), this.timeNetwork = null), n.removeStorageSync("askQuestion"), n.removeStorageSync("HISTORY_ID"), this.loadMore = "loadmore", this.dataList = [], this.$refs.paging.clear(), this.$refs.paging.complete([]), this.$refs.paging.complete(!1), this.clearStarts()
+              },
+              methods: {
+                showFun: function() {
+                  this.timeNetwork && (clearInterval(this.timeNetwork), this.timeNetwork = null), this.showHide || (this.showHide = !0, this.delayBtn = !1, this.task && this.task.abort(), this.pushingProgressShow = !0, n.setStorageSync("askQuestion", 1), n.removeStorageSync("HISTORY_ID"), this.dataList = [], this.$forceUpdate(), this.clearStarts())
+                },
+                greetings: function() {
+                  var t = (new Date).getHours();
+                  return t >= 5 && t < 10 ? "早上好" : t >= 10 && t < 12 ? "上午好" : t >= 12 && t < 14 ? "中午好" : t >= 14 && t < 19 ? "下午好" : "晚上好"
+                },
+                createData: function(t) {
+                  var e = this;
+                  this.$uniApi.dataRequestNoLoading("post", "ai/app/ai/common/creatConversation", {
+                    bussType: 1,
+                    openId: n.getStorageSync("wxopenid"),
+                    title: t
+                  }).then((function(a) {
+                    1 === a.code && (e.flowId = a.data, n.setStorageSync("askQuestion", 2), e.doSend(t))
+                  }))
+                },
+                openAudio: function() {
+                  this.isSpeaking ? (this.isSpeaking = !1, this.audioPlayer.pause()) : (this.isSpeaking = !0, this.audioPlayer.play())
+                },
+                getRecommendList: function() {
+                  var t = this;
+                  this.$uniApi.dataRequestNoLoading("post", "ai/aiRecommend/recommendList", [10, 11, 12]).then((function(e) {
+                    1 === e.code && e.data && (t.tripList = e.data[10] || [], t.scenicSpotList = e.data[11] || [], t.deliciousFoodList = e.data[12] || [])
+                  }))
+                },
+                askAgain: function(t) {
+                  this.showHide = !1, n.setStorageSync("askQuestion", 2), this.doSend(t)
+                },
+                exclusive: function(t) {
+                  this.showHide = !1, n.setStorageSync("askQuestion", 2), this.doSend("专属攻略", t)
+                },
+                clearDataStop: function() {
+                  this.task && this.task.abort(), this.pushingProgress = !0, this.pushingProgressShow = !0
+                },
+                clearData: function() {
+                  var t = this;
+                  setTimeout((function() {
+                    t.timeNetwork && (clearInterval(t.timeNetwork), t.timeNetwork = null), t.task && t.task.abort(), t.showHide = !0, t.delayBtn = !1, n.setStorageSync("askQuestion", 1), n.removeStorageSync("HISTORY_ID"), t.dataList = [], t.$forceUpdate(), t.clearStarts()
+                  }), 300)
+                },
+                setShowHide: function(t) {
+                  this.showHide = !1, this.createData(t)
+                },
+                goQuestion: function(t, e) {
+                  this.$eventAnalyse.analyse({
+                    eventTag: "wall_" + ["guide", "scenicSpots", "cuisine"][e - 1] + "_click",
+                    eventName: ["城墙客服行程攻略推荐", "城墙客服问景点", "城墙客服问美食"][e - 1],
+                    eventParams: {
+                      language: 0,
+                      question: t,
+                      userId: "ojWxP5WEclcm0Ebaj3h-ZNstnt0A",
+                      sessionId: "1881193790388047873",
+                      bussType: 1
+                    }
+                  }), this.showHide = !1, this.createData(t)
+                },
+                keyboardHeightChange: function(t) {
+                  this.resres = t.height, this.$refs.inputBar.updateKeyboardHeightChange(t)
+                },
+                hidedKeyboard: function() {
+                  this.$refs.inputBar.hidedKeyboard()
+                },
+                stopSpeak: function() {
+                  this.timeNetwork && (clearInterval(this.timeNetwork), this.timeNetwork = null), this.dataList[0].content = this.dataList[0].content.replaceAll('<img src="https://eshopfile.zhiyousx.com/173510744792945036.gif" alt>', ""), this.task && (this.task.abort(), this.dataList[0].content || (this.dataList[0].content = "回答终止，请重新提问。"), this.pushingProgress = !0, this.dataList[0].end = !0, this.task = null, this.pushingProgressShow = !0, this.clearStarts())
+                },
+                findPreviousObjectById: function(t) {
+                  var e = this.dataList.findIndex((function(e) {
+                    return e.id === t
+                  }));
+                  return e > 0 ? this.dataList[e + 1].content : null
+                },
+                doSend: function(t, e) {
+                  var a = this;
+                  this.pushingProgress = !1, this.stratSet = !0, this.$refs.paging.scrollToBottom(), setTimeout((function() {
+                    e || a.dataList.unshift({
+                      content: t,
+                      type: 1,
+                      state: 1,
+                      end: !0,
+                      name: "ai",
+                      list: [],
+                      id: (new Date).getTime()
+                    }), a.dataList.unshift({
+                      content: "",
+                      content1: "",
+                      type: 0,
+                      state: 0,
+                      end: !1,
+                      name: "ai",
+                      isMe: !1,
+                      list: [],
+                      imageCard: [],
+                      id: (new Date).getTime()
+                    }), a.toSend(t), a.$refs.paging.scrollToBottom()
+                  }), 300)
+                },
+                toSend: function(t) {
+                  var e = this,
+                    a = this;
+                  this.dataInfosList = [], this.pushingProgressShow = !1, setTimeout((function() {
+                    e.$refs.paging.scrollToBottom()
+                  }), 100), this.task = n.request({
+                    url: "".concat(getApp().globalData.requestUrl, "ai/wall/activity/ai/chat"),
+                    enableChunked: !0,
+                    method: "POST",
+                    timeout: 9e5,
+                    data: {
+                      language: 1,
+                      question: t,
+                      userId: n.getStorageSync("wxopenid"),
+                      sessionId: this.flowId,
+                      mode: 0,
+                      bussType: 2
+                    },
+                    success: function(t) {
+                      console.log(t), 200 == t.statusCode && (e.stratSet = !1, e.addNextCharacter()), 400 == t.statusCode && (e.clearStarts(), e.dataList[0].content = "网络走丢了，请稍后重试!", e.task && e.task.abort()), a.dataList[0].end = !0, a.$data.currentContent = "", a.$data.sendState = !1, a.delayBtn = !0, clearInterval(a.timeNetwork), a.timeNetwork = null
+                    },
+                    fail: function(t) {
+                      console.log(t, "ssssssssssss"), e.stratSet = !1, e.delayBtn = !0, "request:fail " == t.errMsg && (e.clearStarts(), e.dataList[0].content = "网络走丢了，请稍后重试!", e.task && e.task.abort())
+                    }
+                  }), this.task.onChunkReceived((function(t) {
+                    a.delayBtn = !0, a.timeNetwork && (clearInterval(a.timeNetwork), a.timeNetwork = null), a.timeNetwork = setTimeout((function() {
+                      clearInterval(a.timeNetwork), e.clearStarts(), e.$util.showToast("网络异常，请重试！"), e.task && e.task.abort()
+                    }), 3e4);
+                    var n, i = new Uint8Array(t.data);
+                    if ("[object Uint8Array]" === Object.prototype.toString.call(i)) n = decodeURIComponent(escape(String.fromCharCode.apply(String, (0, s.default)(i))));
+                    else if (i instanceof ArrayBuffer) {
+                      var o = new Uint8Array(i);
+                      n = decodeURIComponent(escape(String.fromCharCode.apply(String, (0, s.default)(o))))
+                    }
+                    console.log(n), n.split("^").forEach((function(t) {
+                      if (t) {
+                        var n = JSON.parse(t);
+                        console.log(n), 0 == n.extend.type && "c001" == n.extend.code && (a.dataList[0].state = 1, a.newVal += n.data ? n.data : "体验用户过多，请稍后重试。", a.character || a.addNextCharacter()), 0 == n.extend.type && "W002" == n.extend.code && (a.dataList[0].state = 1, a.newVal += n.data ? n.data : "体验用户过多，请稍后重试。", a.character || a.addNextCharacter()), 0 == n.extend.type && "W001" == n.extend.code && (a.dataList[0].state = 1, a.newVal += n.data ? n.data : "体验用户过多，请稍后重试。", a.character || a.addNextCharacter()), "w001" == n.extend.code && 0 == n.extend.type && (a.dataList[0].state = 1, a.newVal += n.data ? n.data : "体验用户过多，请稍后重试。", a.character || a.addNextCharacter()), e.dataInfosList.push(n)
+                      }
+                    }))
+                  }))
+                },
+                setCardInfo: function(t) {
+                  t && ("w001" == t.extend.code && 1 == t.extend.type && (this.dataList[0].list = t.data || []), (1 == t.extend.type && "W002" == t.extend.code || "W001" == t.extend.code && 1 == t.extend.type) && (this.dataList[0].imageCard = t.data || []), 0 == t.extend.type && "q001" == t.extend.code && (this.dataList[0].divergenceProblem = t.data || []), this.$forceUpdate())
+                },
+                clearStarts: function() {
+                  var t = this;
+                  this.hoveImg = !1, this.hoveImgList = [], this.hoveImgListUrl = [], JSON.parse(JSON.stringify(this.dataInfosList)).forEach((function(e) {
+                    t.setCardInfo(e)
+                  })), this.dataInfosList = [], this.newVal = "", this.index = 0, this.stratSet = !1, this.pushingProgress = !0, this.pushingProgressShow = !0, this.character && (clearTimeout(this.character), this.character = null)
+                },
+                addNextCharacter: function() {
+                  var t = this;
+                  if (this.index < this.newVal.length) {
+                    var e = this.newVal[this.index];
+                    this.dataList[0].content += e, this.dataList[0].content1 += e, this.index++, this.character = setTimeout((function() {
+                      t.addNextCharacter()
+                    }), 50)
+                  } else clearTimeout(this.character), this.character = null, this.stratSet || this.showHide || this.clearStarts()
+                }
+              }
+            };
+          e.default = o
+        }).call(this, a("3223").default, a("df3c").default)
+      },
+      f608: function(t, e, a) {
+        var n = a("973b");
+        a.n(n).a
+      }
+    },
+    [
+      ["95a3", "common/runtime", "common/vendor"]
+    ]
+  ]);
+}, {
+  isPage: true,
+  isComponent: true,
+  currentFile: 'union/pages/aiService/index.js'
+});
+require("union/pages/aiService/index.js");

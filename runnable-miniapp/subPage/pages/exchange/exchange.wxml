@@ -1,0 +1,60 @@
+<view class="page-box data-v-c6f4471e">
+    <view class="top-box data-v-c6f4471e">
+        <view class="input-box data-v-c6f4471e">
+            <view class="row-box data-v-c6f4471e">
+                <view class="label data-v-c6f4471e">兑换码</view>
+                <view class="value data-v-c6f4471e">
+                    <input bindblur="__e" bindinput="__e" border="{{border}}" class="data-v-c6f4471e" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '','password','$event',['trim'] ] ] ] ],[ 'blur',[ ['$forceUpdate'] ] ] ]}}" data-type="name" placeholder="请输入兑换码，不区分大小写" style="width:90%;font-size:28rpx;" type="text" value="{{password}}"></input>
+                </view>
+            </view>
+            <ocr-index bind:__l="__l" class="data-v-c6f4471e" vueId="3d28c300-1" vueSlots="{{['content']}}">
+                <view class="row-box data-v-c6f4471e" slot="content">
+                    <view class="label data-v-c6f4471e">持卡人</view>
+                    <view class="value data-v-c6f4471e">
+                        <input bindblur="__e" bindinput="__e" border="{{border}}" class="data-v-c6f4471e" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '','useName','$event',['trim'] ] ] ] ],[ 'blur',[ ['$forceUpdate'] ] ] ]}}" data-type="name" placeholder="请填写您的姓名" style="width:90%;font-size:28rpx;" type="text" value="{{useName}}"></input>
+                    </view>
+                </view>
+            </ocr-index>
+            <view class="row-box data-v-c6f4471e">
+                <view class="label data-v-c6f4471e">身份证</view>
+                <view class="value data-v-c6f4471e">
+                    <input bindblur="__e" bindinput="__e" border="{{border}}" class="data-v-c6f4471e" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '','useIdCard','$event',['trim'] ] ] ] ],[ 'blur',[ ['$forceUpdate'] ] ] ]}}" data-type="cardCode" placeholder="请填写证件号码" style="width:90%;font-size:28rpx;" type="idcard" value="{{useIdCard}}"></input>
+                </view>
+            </view>
+            <view class="row-box data-v-c6f4471e">
+                <view class="label data-v-c6f4471e">手机号</view>
+                <view class="value data-v-c6f4471e">
+                    <input bindblur="__e" bindinput="__e" border="{{border}}" class="data-v-c6f4471e" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '','usePhone','$event',['trim'] ] ] ] ],[ 'blur',[ ['$forceUpdate'] ] ] ]}}" data-type="phone" placeholder="请填写手机号码" style="width:90%;font-size:28rpx;" type="number" value="{{usePhone}}"></input>
+                </view>
+            </view>
+            <view class="tips data-v-c6f4471e" wx:if="{{error}}">输入有误，如有疑问请联系客服</view>
+        </view>
+    </view>
+    <view bindtap="__e" class="btn data-v-c6f4471e" data-event-opts="{{[ [ 'tap',[ [ 'getCardInfo',['$event'] ] ] ] ]}}">兑换</view>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-c6f4471e" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','changePop','$event',[] ] ] ] ] ]}}" mode="center" value="{{changePop}}" vueId="3d28c300-2" vueSlots="{{['default']}}" zIndex="10175">
+        <view class="change-box data-v-c6f4471e">
+            <view class="img-box data-v-c6f4471e">
+                <image mode class="data-v-c6f4471e" src="{{cardInfo.image}}"></image>
+            </view>
+            <view class="title-box data-v-c6f4471e">
+                <view class="line data-v-c6f4471e"></view>
+                <text class="data-v-c6f4471e">{{cardInfo.name}}</text>
+                <view class="line data-v-c6f4471e"></view>
+            </view>
+            <view class="tip-box data-v-c6f4471e">
+                <view class="tb1 data-v-c6f4471e">兑换到您的游陕西帐户？</view>
+                <view class="tb2 data-v-c6f4471e">确认兑换后不得转赠，只可在当前帐号使用</view>
+            </view>
+            <view class="btn-box data-v-c6f4471e">
+                <view bindtap="__e" class="btn1 data-v-c6f4471e" data-event-opts="{{[ [ 'tap',[ [ 'exchangeCard',['$event'] ] ] ] ]}}">立即兑换</view>
+                <view bindtap="__e" class="btn2 data-v-c6f4471e" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}">我再想想</view>
+            </view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-c6f4471e" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','tipsPop','$event',[] ] ] ] ] ]}}" mode="center" value="{{tipsPop}}" vueId="3d28c300-3" vueSlots="{{['default']}}">
+        <view class="tipsPop-box data-v-c6f4471e">
+            <view class="t data-v-c6f4471e">{{''+tips+''}}</view>
+            <view bindtap="__e" class="tips-btn data-v-c6f4471e" data-event-opts="{{[ [ 'tap',[ [ 'e1',['$event'] ] ] ] ]}}">知道了</view>
+        </view>
+    </u-popup>
+</view>

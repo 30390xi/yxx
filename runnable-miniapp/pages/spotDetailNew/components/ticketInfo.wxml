@@ -1,0 +1,4 @@
+<view bindtap="__e" class="ticketInfo-box data-v-26df0f06" data-event-opts="{{[ [ 'tap',[ ['showTicketInfoBox'] ] ] ]}}" wx:if="{{ticketAreaNoticeName}}">
+    <view class="info singleLineText data-v-26df0f06">{{''+ticketAreaNoticeName+''}}</view>
+    <image mode class="icon data-v-26df0f06" src="https://eshopfile.zhiyousx.com/spotDetailNew/jiantou2.png"></image>
+</view>

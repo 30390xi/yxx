@@ -1,0 +1,29 @@
+<view class="exchange-card data-v-17cd8fbf">
+    <custom-nav bind:__l="__l" class="data-v-17cd8fbf" muClass="nav-bg" scrollTop="{{scrollTop}}" title="兑换绑定" vueId="7e54ed96-1"></custom-nav>
+    <view class="header data-v-17cd8fbf">
+        <view class="header-body data-v-17cd8fbf">
+            <view class="box data-v-17cd8fbf">
+                <view class="title data-v-17cd8fbf">兑换绑定</view>
+                <u-input bind:__l="__l" bind:input="__e" class="input data-v-17cd8fbf" clearable="{{false}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','code','$event',[] ] ] ] ] ]}}" height="{{86}}" placeholder="请输入兑换码" value="{{code}}" vueId="7e54ed96-2"></u-input>
+                <view class="box-footer data-v-17cd8fbf">
+                    <view bindtap="__e" class="red-btn data-v-17cd8fbf" data-event-opts="{{[ [ 'tap',[ [ 'handleExchange',['$event'] ] ] ] ]}}">确定</view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="exchange-card-container data-v-17cd8fbf">
+        <view class="box data-v-17cd8fbf">
+            <view class="text data-v-17cd8fbf" data-title="兑换细则">游陕西旅游年卡通过线下或网络渠道购买，需线上兑换后激活使用。年卡一卡仅对一人，请在年卡有效期前兑换并激活使用，过期作废。</view>
+            <view class="divider data-v-17cd8fbf"></view>
+            <view class="data-v-17cd8fbf" data-title="兑换流程">
+                <view class="text data-v-17cd8fbf" wx:for="{{flowPath}}" wx:key="index">{{item}}</view>
+            </view>
+            <view class="divider data-v-17cd8fbf"></view>
+            <view class="data-v-17cd8fbf" data-title="兑换说明">
+                <view class="text data-v-17cd8fbf" wx:for="{{review}}" wx:key="index">{{item}}</view>
+            </view>
+        </view>
+    </view>
+    <exchange-module bind:__l="__l" bind:updateShow="__e" class="data-v-17cd8fbf" data-event-opts="{{[ [ '^updateShow',[ [ '__set_sync',['$0','exchangeModuleShow','$event'],[''] ] ] ] ]}}" info="{{exchangeModuleInfo}}" show="{{exchangeModuleShow}}" vueId="7e54ed96-3"></exchange-module>
+    <exchange-result-module bind:__l="__l" bind:updateShow="__e" class="data-v-17cd8fbf" data-event-opts="{{[ [ '^updateShow',[ [ '__set_sync',['$0','exchangeResultModuleShow','$event'],[''] ] ] ] ]}}" show="{{exchangeResultModuleShow}}" tips="{{tips}}" vueId="7e54ed96-4"></exchange-result-module>
+</view>

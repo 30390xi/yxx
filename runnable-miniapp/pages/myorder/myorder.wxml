@@ -1,0 +1,120 @@
+<view class="data-v-6a4384f0">
+    <view class="uTabs data-v-6a4384f0">
+        <view class="type-tabs data-v-6a4384f0">
+            <view class="tab-box data-v-6a4384f0">
+                <view bindtap="__e" class="{{['tab-item','data-v-6a4384f0',activeType==index?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changGoodType',[index] ] ] ] ]}}" wx:for="{{goodType}}" wx:key="index">{{item.name}}</view>
+            </view>
+        </view>
+        <u-tabs activeColor="#ff4643" bind:__l="__l" bind:change="__e" class="data-v-6a4384f0 vue-ref" current="{{currentTab}}" data-event-opts="{{[ [ '^change',[ ['tabsChange'] ] ] ]}}" data-ref="uTabs" fontSize="28" inactiveColor="#606266" isScroll="{{false}}" list="{{tabTitle}}" vueId="0a95c18c-1"></u-tabs>
+    </view>
+    <view class="orderBox data-v-6a4384f0">
+        <view class="orderItem data-v-6a4384f0" wx:if="{{!( item.$orig.isSpecial==4&&(item.$orig.orderStatus==0||item.$orig.orderStatus==1) )}}" wx:for="{{$root.l1}}" wx:key="index">
+            <view class="merchant data-v-6a4384f0">
+                <view class="mcName data-v-6a4384f0" wx:if="{{item.$orig.itemType!=2}}">
+                    <image class="data-v-6a4384f0" src="../../static/images/sj_icon.png"></image>
+                    <text class="data-v-6a4384f0" wx:if="{{item.$orig.itemType==0}}">商城</text>
+                    <text class="data-v-6a4384f0" wx:else>门票</text>
+                </view>
+                <view class="mcName data-v-6a4384f0" wx:else>
+                    <image class="data-v-6a4384f0" src="https://eshopfile.zhiyousx.com/169899172198688653.png"></image>
+                    <text class="data-v-6a4384f0">线路</text>
+                </view>
+                <block wx:if="{{item.$orig.itemType==0}}">
+                    <text class="data-v-6a4384f0" wx:if="{{item.$orig.cancelStatus===1}}">交易关闭</text>
+                    <text class="data-v-6a4384f0" wx:else>{{item.m0}}</text>
+                </block>
+                <text class="data-v-6a4384f0" wx:else>{{item.m1}}</text>
+            </view>
+            <view class="topBox data-v-6a4384f0" wx:if="{{item.$orig.itemType!=2}}">
+                <view bindtap="__e" class="goodsInfo data-v-6a4384f0" data-event-opts="{{[ [ 'tap',[ [ 'goOrderDetails',['$0'],[ [ ['orderList','',index] ] ] ] ] ] ]}}" wx:for="{{item.$orig.items}}" wx:for-index="goodsindex" wx:for-item="itemgoods" wx:key="goodsindex">
+                    <view class="topImg data-v-6a4384f0">
+                        <u-lazy-load bind:__l="__l" borderRadius="10" class="data-v-6a4384f0" height="180" image="{{itemgoods.pic}}" imgMode="aspectFill" vueId="{{'0a95c18c-2-'+index+'-'+goodsindex}}"></u-lazy-load>
+                    </view>
+                    <view class="itemInfo data-v-6a4384f0">
+                        <view class="data-v-6a4384f0">
+                            <view class="itemTitle multilineText2 data-v-6a4384f0">{{itemgoods.name}}</view>
+                            <text class="itemNum data-v-6a4384f0">{{'X '+itemgoods.quantity+' '+(itemgoods.skuName?itemgoods.skuName:'')+''}}</text>
+                        </view>
+                        <text class="data-v-6a4384f0">{{'￥'+itemgoods.price}}</text>
+                    </view>
+                </view>
+                <view class="goodsPrice data-v-6a4384f0">
+                    <view bindtap="__e" class="gp1 data-v-6a4384f0" data-event-opts="{{[ [ 'tap',[ [ 'goWealth',['$event'] ] ] ] ]}}" wx:if="{{item.$orig.memberBrokerage&&item.$orig.memberBrokerage.brokerageType===1&&(item.$orig.memberBrokerage.status==0||item.$orig.memberBrokerage.status==1)&&!item.$orig.returnCashCouponAmount}}">
+                        <view class="gp1-1 data-v-6a4384f0">{{'返￥'+item.$orig.memberBrokerage.income}}</view>
+                        <view class="gp1-2 data-v-6a4384f0" wx:if="{{item.$orig.memberBrokerage.status==0}}">{{item.m2}}</view>
+                        <view class="gp1-3 data-v-6a4384f0" wx:else>{{item.m3}}</view>
+                        <uni-icons bind:__l="__l" class="data-v-6a4384f0" color="#c8c8c8" size="14" type="arrowright" vueId="{{'0a95c18c-3-'+index}}"></uni-icons>
+                    </view>
+                    <view class="data-v-6a4384f0" wx:else></view>
+                    <view class="gp2 data-v-6a4384f0">
+                        <text class="gp2-1 data-v-6a4384f0">{{'共'+item.$orig.itemQuantity+'件商品'}}</text>
+                        <text class="gp2-2 data-v-6a4384f0" wx:if="{{item.$orig.isSpecial!=4}}">{{item.$orig.orderStatus==0||item.$orig.orderStatus==1||item.$orig.orderStatus===12?'应付:￥':'已付:￥'}}</text>
+                        <text class="gp2-3 data-v-6a4384f0" wx:if="{{item.$orig.isSpecial!=4}}">{{item.$orig.count}}</text>
+                    </view>
+                </view>
+            </view>
+            <view bindtap="__e" class="topBox lineBox data-v-6a4384f0" data-event-opts="{{[ [ 'tap',[ [ 'goOrderDetails',['$0'],[ [ ['orderList','',index] ] ] ] ] ] ]}}" wx:else>
+                <block wx:for="{{item.l0}}" wx:for-index="goodsindex" wx:for-item="itemgoods" wx:key="goodsindex">
+                    <view class="box-top data-v-6a4384f0">
+                        <view class="productName multilineText2 data-v-6a4384f0">{{itemgoods.$orig.name}}</view>
+                        <view class="price data-v-6a4384f0">{{'￥'+item.$orig.count}}</view>
+                    </view>
+                    <view class="trip data-v-6a4384f0" wx:if="{{item.$orig.lineRelationName}}">{{item.$orig.lineRelationName}}</view>
+                    <view class="trip data-v-6a4384f0">{{itemgoods.m4+item.$orig.fromTime+'出发'+item.$orig.toTime+'返回'}}</view>
+                    <view class="trip data-v-6a4384f0">{{itemgoods.m5}}</view>
+                </block>
+            </view>
+            <view class="bomBox data-v-6a4384f0">
+                <text class="data-v-6a4384f0"></text>
+                <view class="orderBtn data-v-6a4384f0" wx:if="{{item.$orig.itemType==1||item.$orig.itemType==2}}">
+                    <button bindtap="__e" class="obtn data-v-6a4384f0" data-event-opts="{{[ [ 'tap',[ [ 'openPopup',['$0'],[ [ ['orderList','',index] ] ] ] ] ] ]}}" wx:if="{{item.$orig.orderStatus==1}}">{{'取消'+(item.$orig.items[0]['skuItemType']==1?'预约':'订单')}}</button>
+                    <button bindtap="__e" class="obtn data-v-6a4384f0" data-event-opts="{{[ [ 'tap',[ [ 'openPopup',['$0'],[ [ ['orderList','',index] ] ] ] ] ] ]}}" wx:if="{{item.$orig.confirmStatus==0&&(item.$orig.isSpecial==1||item.$orig.isSpecial==2)&&item.$orig.orderStatus==2}}">{{'取消'+(item.$orig.items[0]['skuItemType']==1?'预约':'订单')}}</button>
+                    <button bindtap="__e" class="obtn obtn1 data-v-6a4384f0" data-event-opts="{{[ [ 'tap',[ [ 'goOrderDetails',['$0'],[ [ ['orderList','',index] ] ] ] ] ] ]}}" wx:if="{{item.$orig.orderStatus==1}}">付款</button>
+                    <button bindtap="__e" class="{{['obtn','data-v-6a4384f0',item.$orig.refundFeeDTO&&item.$orig.refundFeeDTO.feeExceed?'noRfamount':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'orderRefund',['$0'],[ [ ['orderList','',index] ] ] ] ] ] ]}}" wx:if="{{(item.$orig.orderStatus===3||item.$orig.orderStatus===9||item.$orig.orderStatus===13)&&item.$orig.itemUseDescSnap.refundRuleType!=0&&item.$orig.consumeStatus!=1&&(item.$orig.isSpecial==0||item.$orig.isSpecial==3||item.$orig.isSpecial==4||item.$orig.isSpecial==5)}}">申请退款</button>
+                    <button bindtap="__e" class="{{['obtn','data-v-6a4384f0',item.$orig.refundFeeDTO&&item.$orig.refundFeeDTO.feeExceed?'noRfamount':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'beforeConfirmRefund',['$0'],[ [ ['orderList','',index] ] ] ] ] ] ]}}" wx:if="{{item.$orig.orderStatus===2}}">申请退款</button>
+                    <button bindtap="__e" class="obtn obtn1 data-v-6a4384f0" data-event-opts="{{[ [ 'tap',[ [ 'goTicket',['$0','$1'],[ [ ['orderList','',index] ],[ ['orderList','',index,'items.__$n0.itemId'] ] ] ] ] ] ]}}" wx:if="{{item.$orig.orderStatus==5&&item.$orig.itemType!=2}}">{{'再次'+(item.$orig.items[0]['skuItemType']==1?'预约':'预订')}}</button>
+                    <button bindtap="__e" class="obtn xj data-v-6a4384f0" data-event-opts="{{[ [ 'tap',[ [ 'jumpToGear',['$0'],[ [ ['orderList','',index,'orderId'] ] ] ] ] ] ]}}" wx:if="{{!item.$orig.subscribeId&&item.$orig.subscribeType==1&&(item.$orig.orderStatus==2||item.$orig.orderStatus==3)}}">预约雪具</button>
+                    <button bindtap="__e" class="obtn xj data-v-6a4384f0" data-event-opts="{{[ [ 'tap',[ [ 'jumpToGear',['$0','$1'],[ [ ['orderList','',index,'orderId'] ],[ ['orderList','',index,'subscribeId'] ] ] ] ] ] ]}}" wx:if="{{item.$orig.subscribeId&&item.$orig.subscribeType==1&&item.$orig.subscribeEditStatus!=1&&(item.$orig.subscribeStatus==0||item.$orig.subscribeStatus==1)&&(item.$orig.orderStatus==2||item.$orig.orderStatus==3||item.$orig.orderStatus==5||item.$orig.orderStatus==9)}}">增加预约</button>
+                    <button bindtap="__e" class="obtn data-v-6a4384f0" data-event-opts="{{[ [ 'tap',[ [ 'deleteOrder',['$0'],[ [ ['orderList','',index] ] ] ] ] ] ]}}" wx:if="{{item.$orig.cancelStatus===1||item.$orig.orderStatus===5||item.$orig.orderStatus===10||item.$orig.orderStatus===11||item.$orig.orderStatus===12||item.$orig.orderStatus===13}}">删除订单</button>
+                </view>
+                <view class="orderBtn data-v-6a4384f0" wx:else>
+                    <button bindtap="__e" class="obtn data-v-6a4384f0" data-event-opts="{{[ [ 'tap',[ [ 'deleteOrder',['$0'],[ [ ['orderList','',index] ] ] ] ] ] ]}}" wx:if="{{item.$orig.cancelStatus===1||item.$orig.orderStatus===4||item.$orig.orderStatus===5||item.$orig.orderStatus===7}}">删除订单</button>
+                    <block wx:else>
+                        <button bindtap="__e" class="obtn data-v-6a4384f0" data-event-opts="{{[ [ 'tap',[ [ 'openPopup',['$0'],[ [ ['orderList','',index] ] ] ] ] ] ]}}" wx:if="{{item.$orig.orderStatus===1}}">取消订单</button>
+                        <button bindtap="__e" class="obtn obtn1 data-v-6a4384f0" data-event-opts="{{[ [ 'tap',[ [ 'goOrderDetails',['$0'],[ [ ['orderList','',index] ] ] ] ] ] ]}}" wx:if="{{item.$orig.orderStatus===1}}">付款</button>
+                        <button bindtap="__e" class="obtn data-v-6a4384f0" data-event-opts="{{[ [ 'tap',[ [ 'delivery',['$0'],[ [ ['orderList','',index] ] ] ] ] ] ]}}" wx:if="{{item.$orig.orderStatus===2}}">提醒发货</button>
+                        <button bindtap="__e" class="obtn data-v-6a4384f0" data-event-opts="{{[ [ 'tap',[ [ 'logistics',['$0'],[ [ ['orderList','',index,'orderId'] ] ] ] ] ] ]}}" wx:if="{{item.$orig.orderStatus===3}}">查看物流</button>
+                        <button bindtap="__e" class="obtn obtn1 data-v-6a4384f0" data-event-opts="{{[ [ 'tap',[ [ 'cancelOrder',['$0'],[ [ ['orderList','',index] ] ] ] ] ] ]}}" wx:if="{{item.$orig.orderStatus===3}}">确认收货</button>
+                    </block>
+                    <button bindtap="__e" class="obtn data-v-6a4384f0" data-event-opts="{{[ [ 'tap',[ [ 'afterSales',['$0'],[ [ ['orderList','',index,'orderId'] ] ] ] ] ] ]}}" wx:if="{{item.$orig.orderStatus===2||item.$orig.orderStatus===3||item.$orig.orderStatus===4}}">退/换货</button>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="empty data-v-6a4384f0" wx:if="{{$root.g0}}">
+        <empty-state bind:__l="__l" class="data-v-6a4384f0" imgUrl="https://eshopfile.zhiyousx.com/noOrder@2x.png" text="暂无订单" vueId="0a95c18c-4"></empty-state>
+    </view>
+    <view class="loadMore data-v-6a4384f0">
+        <u-loadmore bgColor="#f7f7f7" bind:__l="__l" class="data-v-6a4384f0" color="#ccc" data-custom-hidden="{{!$root.g1}}" iconColor="#ccc" status="{{loadMore}}" vueId="0a95c18c-5"></u-loadmore>
+    </view>
+    <uni-popup bind:__l="__l" class="data-v-6a4384f0 vue-ref" data-ref="popup" type="bottom" vueId="0a95c18c-6" vueSlots="{{['default']}}">
+        <view class="popup data-v-6a4384f0">
+            <view class="popTitle data-v-6a4384f0">
+                <text class="titleText data-v-6a4384f0">取消订单</text>
+                <uni-icons bind:__l="__l" bind:click="__e" class="data-v-6a4384f0" color="#c1c1c1" data-event-opts="{{[ [ '^click',[ ['closePopup'] ] ] ]}}" size="20" type="clear" vueId="{{'0a95c18c-7'+','+'0a95c18c-6'}}"></uni-icons>
+            </view>
+            <view class="popMain data-v-6a4384f0">
+                <radio-group bindchange="__e" class="data-v-6a4384f0" data-event-opts="{{[ [ 'change',[ [ 'radioChange',['$event'] ] ] ] ]}}">
+                    <view class="data-v-6a4384f0" wx:for="{{causeList}}" wx:key="value">
+                        <label class="radioItem data-v-6a4384f0">
+                            <radio checked="{{index===causeIdx}}" class="radioIcon data-v-6a4384f0" color="#ff4643" value="{{item.value}}"></radio>
+                            <text class="data-v-6a4384f0">{{item.name}}</text>
+                        </label>
+                    </view>
+                </radio-group>
+            </view>
+            <button bindtap="__e" class="popupBtn data-v-6a4384f0" data-event-opts="{{[ [ 'tap',[ [ 'cancelOrder',['$0'],['orderObj'] ] ] ] ]}}">确定</button>
+        </view>
+    </uni-popup>
+    <u-toast bind:__l="__l" class="data-v-6a4384f0 vue-ref" data-ref="uToast" vueId="0a95c18c-8"></u-toast>
+</view>

@@ -1,0 +1,62 @@
+<view class="share-panel {{screenType}} share-panel__{{screenType}}">
+    <view catchtap="closeSharePanel" class="share-panel__mask mask"></view>
+    <view class="share-panel__container share-panel__container__init {{dataIsShow?'fadeIn':'fadeOut'}}" wx:if="{{!showShareImageMenu&&!posterCreateing&&!posterCreateOver&&!posterCreateFail}}">
+        <view class="share-panel__container__body">
+            <view class="share-panel__operation-group">
+                <button bindtap="delayCloseSharePanel" class="share-panel__operation-item share-panel__operation__share-friend" id="share-panel" openType="share">
+                    <view class="share-panel__operation-item__icon"></view>
+                    <view class="share-panel__operation-item__info">发送给朋友</view>
+                </button>
+                <button bindtap="delayCloseSharePanel" class="share-panel__operation-item share-panel__operation__friend-circle" openType="shareTimeLine" wx:if="{{showShareFriends}}">
+                    <view class="share-panel__operation-item__icon"></view>
+                    <view class="share-panel__operation-item__info">分享到朋友圈</view>
+                </button>
+                <view bindtap="sharePoster" class="share-panel__operation-item share-panel__operation__poster" style="pointer-events: auto;">
+                    <view class="share-panel__operation-item__icon" style="pointer-events: auto;"></view>
+                    <view class="share-panel__operation-item__info" style="pointer-events: auto;">生成分享海报</view>
+                </view>
+            </view>
+        </view>
+        <view class="share-panel__container__footer">
+            <view catchtap="closeSharePanel" class="share-panel__container__button">取消</view>
+        </view>
+    </view>
+    <view class="share-panel__poster__image__container" style="height: {{imageContainerHeight}}; overflow: {{ableScroll?'scroll':'initial'}}; top: {{imageContainerTop}}; transform: translate(-50%, {{imageContainerTransformY}});" wx:if="{{posterCreateOver}}">
+        <view class="share-panel__poster__image" id="poster__image" style="background: url({{posterUrl}}) no-repeat center / contain;"></view>
+    </view>
+    <view class="share-panel__container share-panel__container__poster" id="poster" wx:if="{{posterCreateOver||posterCreateing}}">
+        <view class="share-panel__container__body">
+            <view class="share-panel__poster" wx:if="{{posterCreateing}}">
+                <view class="share-panel__loading__container">
+                    <view class="share-panel__loading__icon"></view>
+                    <view class="share-panel__loading__info">正在生成海报</view>
+                </view>
+            </view>
+            <view class="share-panel__operation-group" style="{{posterCreateing?'opacity: 0; pointer-events: none;':''}}">
+                <button class="share-panel__operation-item share-panel__operation__share-friend" wx:if="{{false}}">
+                    <view class="share-panel__operation-item__icon"></view>
+                    <view class="share-panel__operation-item__info">发送给朋友</view>
+                </button>
+                <button class="share-panel__operation-item share-panel__operation__friend-circle" openType="shareTimeLine" wx:if="{{false}}">
+                    <view class="share-panel__operation-item__icon"></view>
+                    <view class="share-panel__operation-item__info">分享到朋友圈</view>
+                </button>
+                <view bindtap="savePoster" class="share-panel__operation-item share-panel__operation__save">
+                    <view class="share-panel__operation-item__icon"></view>
+                    <view class="share-panel__operation-item__info">保存到本地</view>
+                </view>
+            </view>
+        </view>
+        <view class="share-panel__container__footer">
+            <view catchtap="closeSharePanel" class="share-panel__container__button">关闭</view>
+        </view>
+    </view>
+    <view class="share-panel__container share-panel__container__poster" id="poster" wx:if="{{posterCreateFail}}">
+        <view class="share-panel__container__body">
+            <view class="share-panel__poster__info">生成海报失败，请稍后重试。</view>
+        </view>
+        <view class="share-panel__container__footer">
+            <view catchtap="closeSharePanel" class="share-panel__container__button">关闭</view>
+        </view>
+    </view>
+</view>

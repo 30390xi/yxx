@@ -1,0 +1,74 @@
+<view class="smart-escort-container data-v-1d24116d">
+    <view class="header-section data-v-1d24116d">
+        <view class="header-logo data-v-1d24116d">
+            <image class="header-icon data-v-1d24116d" src="https://eshopfile.zhiyousx.com/176958773997727947.gif" wx:if="{{!isPlayIng}}"></image>
+            <image class="header-icon data-v-1d24116d" src="https://eshopfile.zhiyousx.com/176958780798329730.gif" wx:if="{{isPlayIng}}"></image>
+        </view>
+        <view class="header-content data-v-1d24116d">
+            <view class="header-nav-item1 data-v-1d24116d">{{$root.m0+''}}<image class="header-nav-icon data-v-1d24116d" src="https://eshopfile.zhiyousx.com/176958794459960221.png"></image>
+            </view>
+            <view class="header-nav-item2 data-v-1d24116d">{{$root.m1}}</view>
+            <view class="header-nav-item3 data-v-1d24116d">
+                <image bindtap="__e" class="header-nav-open data-v-1d24116d" data-event-opts="{{[ [ 'tap',[ [ 'togglePlay',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/176958800191531963.png" wx:if="{{!isPlayIng}}"></image>
+                <image bindtap="__e" class="header-nav-open1 data-v-1d24116d" data-event-opts="{{[ [ 'tap',[ [ 'togglePlay',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/176959220644704629.png" wx:if="{{isPlayIng}}"></image>
+                <text class="data-v-1d24116d">{{currentTime}}</text>
+                <view class="custom-progress data-v-1d24116d">
+                    <view class="progress-bg data-v-1d24116d">
+                        <view class="progress-active data-v-1d24116d" style="{{'width:'+progress+'%'+';'}}">
+                            <view class="progress-dot data-v-1d24116d"></view>
+                        </view>
+                    </view>
+                </view>
+                <text class="data-v-1d24116d">{{duration}}</text>
+            </view>
+        </view>
+        <view bindtap="__e" class="header-actions data-v-1d24116d" data-event-opts="{{[ [ 'tap',[ [ 'toFeatureIntroduction',['$event'] ] ] ] ]}}">{{$root.m2}}</view>
+    </view>
+    <view class="banner-section data-v-1d24116d">
+        <view bindtap="__e" class="banner-left data-v-1d24116d" data-event-opts="{{[ [ 'tap',[ [ 'toMoreActivity',['$event'] ] ] ] ]}}">
+            <view class="banner-t data-v-1d24116d">{{$root.m3}}</view>
+            <view class="banner-b data-v-1d24116d">{{$root.m4}}</view>
+        </view>
+        <view bindtap="__e" class="banner-right data-v-1d24116d" data-event-opts="{{[ [ 'tap',[ [ 'toTeamList',['$event'] ] ] ] ]}}">
+            <view class="banner-t data-v-1d24116d">{{$root.m5}}</view>
+            <view class="banner-b data-v-1d24116d">{{$root.m6}}</view>
+        </view>
+    </view>
+    <view class="tab-container data-v-1d24116d" id="tabContainer" style="{{'top:'+fixednavH+'px'+';'}}">
+        <view bindtap="__e" class="{{['tab-item','data-v-1d24116d',item.$orig.icon===activeTab?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeTab',['$0'],[ [ ['tab','icon',item.$orig.icon] ] ] ] ] ] ]}}" wx:for="{{$root.l0}}" wx:for-index="__i0__" wx:key="icon">
+            <view class="tab-name data-v-1d24116d">{{item.$orig.icon==='1'?item.m7:item.$orig.icon==='2'?item.m8:item.m9}}</view>
+            <image class="tab-icon data-v-1d24116d" src="https://eshopfile.zhiyousx.com/176959338196586089.png" wx:if="{{item.$orig.icon===activeTab}}"></image>
+        </view>
+    </view>
+    <view class="main-content data-v-1d24116d">
+        <view class="list-container data-v-1d24116d">
+            <view class="activity-list data-v-1d24116d">
+                <view bindtap="__e" class="activity data-v-1d24116d" data-event-opts="{{[ [ 'tap',[ [ 'activityItem',['$0'],[ [ ['newsList','',i] ] ] ] ] ] ]}}" wx:for="{{newsList}}" wx:for-index="i" wx:key="i">
+                    <image class="activity-image data-v-1d24116d" mode="aspectFill" src="{{item.imgs}}"></image>
+                    <view class="activityTop data-v-1d24116d">{{item.cityName}}</view>
+                </view>
+            </view>
+            <view class="empty data-v-1d24116d" wx:if="{{$root.g0}}">
+                <empty-state bind:__l="__l" class="data-v-1d24116d" imgUrl="https://eshopfile.zhiyousx.com/noMsg@2x.png" text="{{$root.m10}}" vueId="c55e57f2-1"></empty-state>
+            </view>
+            <view class="loadMore data-v-1d24116d">
+                <u-loadmore bgColor="#fff" bind:__l="__l" class="data-v-1d24116d" color="#ccc" data-custom-hidden="{{!$root.g1}}" iconColor="#ccc" loadText="{{$root.a0}}" status="{{loadMore}}" vueId="c55e57f2-2"></u-loadmore>
+            </view>
+        </view>
+    </view>
+    <view bindtap="__e" bindtouchend="__e" bindtouchmove="__e" bindtouchstart="__e" class="btn-container data-v-1d24116d" data-event-opts="{{[ [ 'touchstart',[ [ 'e0',['$event'] ] ] ],[ 'touchmove',[ [ 'e1',['$event'] ] ] ],[ 'touchend',[ [ 'touchEnd',['$event'] ] ] ],[ 'tap',[ [ 'toggleLanguage',['$event'] ] ] ] ]}}" style="{{'top:'+langBtnTop+'rpx'+';'+'right:'+langBtnRight+'rpx'+';'}}">
+        <image class="language-btn data-v-1d24116d" src="{{langBtnIcon[language]}}"></image>
+    </view>
+    <image bindtap="__e" bindtouchend="__e" bindtouchmove="__e" bindtouchstart="__e" class="favorite-btn data-v-1d24116d" data-event-opts="{{[ [ 'touchstart',[ [ 'e2',['$event'] ] ] ],[ 'touchmove',[ [ 'e3',['$event'] ] ] ],[ 'touchend',[ [ 'touchEnd',['$event'] ] ] ],[ 'tap',[ [ 'collectionFun',['$event'] ] ] ] ]}}" src="{{langCollectionIcon[language]}}" style="{{'bottom:'+favBtnBottom+'rpx'+';'+'right:'+favBtnRight+'rpx'+';'}}"></image>
+    <uni-popup bind:__l="__l" class="data-v-1d24116d vue-ref" data-ref="popupRef" vueId="c55e57f2-3" vueSlots="{{['default']}}">
+        <view class="popup-content data-v-1d24116d">
+            <view class="box data-v-1d24116d">
+                <image class="popup-img data-v-1d24116d" mode="aspectFill" src="https://eshopfile.zhiyousx.com/176965670602878950.png"></image>
+                <view class="popup-desc data-v-1d24116d">{{$root.m11}}</view>
+                <view class="btn-box data-v-1d24116d">
+                    <view bindtap="__e" class="btn data-v-1d24116d" data-event-opts="{{[ [ 'tap',[ [ 'submitPopup',['$event'] ] ] ] ]}}">{{$root.m12}}</view>
+                </view>
+            </view>
+        </view>
+    </uni-popup>
+</view>

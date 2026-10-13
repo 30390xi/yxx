@@ -1,0 +1,30 @@
+<view class="forbid-list fadeIn {{screenType==='horizontal'?'forbid-list__horizontal':''}}" hidden="{{!showForbidUserList}}">
+    <view bindtap="onClose" class="forbid-list__mask"></view>
+    <view class="forbid-list__container mode-filter-black-half-screen">
+        <view class="forbid-list__head">
+            <view bindtap="onClose" class="forbid-list__close" wx:if="{{screenType!=='horizontal'}}"></view>禁言用户</view>
+        <view class="forbid-list__body" wx:if="{{forbidList.length>0}}">
+            <scroll-view scrollY class="forbid-list__scroll-list" style="height: {{forUserListHeight}}px;">
+                <view class="forbid-list__scroll-list__item" wx:for="{{forbidList}}" wx:for-item="userInfo" wx:key="unique">
+                    <view class="forbid-list__scroll-list__item__head">
+                        <view class="forbid-list__avatar">
+                            <image class="forbid-list-item-avatar-image" mode="aspectFill" src="{{userInfo.headimg}}"></image>
+                        </view>
+                    </view>
+                    <view class="forbid-list__scroll-list__item__body">{{userInfo.nickname}}</view>
+                    <view class="forbid-list__scroll-list__item__foot">
+                        <view bindtap="onRemoveUser" class="forbid-list__button" data-index="{{index}}" data-user="{{userInfo}}" wx:if="{{!userInfo.isRemove}}">移除</view>
+                        <view class="forbid-list__button disabled" wx:else>已移除</view>
+                    </view>
+                </view>
+            </scroll-view>
+        </view>
+        <view class="forbid-list__body" style="height: {{forUserListHeight}}px;" wx:elif="{{forbidListLoading}}"></view>
+        <view class="forbid-list__body forbid-list__body__empty" wx:else>
+            <view class="forbid-list__scroll-list forbid-list__scroll-list__empty">
+                <view class="forbid-list__scroll-list__empty__info">暂无禁言用户</view>
+                <view class="forbid-list__scroll-list__empty__info">长按用户评论可删除评论或禁言用户</view>
+            </view>
+        </view>
+    </view>
+</view>

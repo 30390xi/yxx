@@ -1,0 +1,28 @@
+<view bindtap="onClickContainer" class="comments {{commentsClass}}" id="componentComment" style="{{commentsHeight?'height:'+commentsHeight+'px':''}}">
+    <scroll-view enableFlex scrollWithAnimation scrollY bindscroll="scrollComment" bindscrolltolower="onScrollBottom" class="comments__inner {{screenType==='horizontal'?isClearScreen||showVideoDotList?'no-events':'has-events':''}}" lowerThreshold="80" scrollIntoView="comment{{commentScrollIntoView}}" style="{{commentsHeight?'max-height:'+commentsHeight+'px':''}}">
+        <view class="comments-item__container {{item.shakeclass?'comments-item__shake':''}} {{item.role&&item.role.role_type==2||item.official?'comments-item__noavatar':''}} {{item.type===1?'comments-item__pusher':''}}" wx:for="{{curCommentList}}" wx:key="msgId">
+            <view class="comments-item" id="comment{{index+1}}">
+                <view bindlongpress="onLongPress" bindtap="onNudgeComment" class="comments-item__inner" data-index="{{index}}" data-info="{{item}}">
+                    <view class="comments-item__inner__inner mode-opacity-black">
+                        <view class="comments-item-avatar" wx:if="{{(!item.role||item.role.role_type!==2)&&!item.official}}">
+                            <view change:src="{{wxs.loadAvatar}}" class="comments-item-avatar-image" data-default-avatar="{{avatarError}}" data-index="{{index}}" data-msgid="{{item.msgId}}" src="{{item.avatar}}" style="transform: translate3d(0, 0, 0);" wx:if="{{!item.official}}"></view>
+                        </view>
+                        <view class="comments-item__info">
+                            <text class="comments-item__nickname {{item.role&&item.role.role_type==2?'comments-item__nickname_roomhelper':''}}">{{item.role&&item.role.role_type==2?item.role.role_nickname:item.nickname}}</text>
+                            <text class="{{item.role&&item.role.role_type==2?'comments-item__nickname__seperate_roomhelper':'comments-item__nickname__seperate'}}">：</text>
+                            <text class="comments-item__content" wx:if="{{!item.parsedComment||item.parsedComment.length<1}}">{{item.content}}</text>
+                            <block wx:if="{{item.parsedComment&&item.parsedComment.length>0}}" wx:for="{{item.parsedComment}}" wx:for-item="parsedInfo" wx:key="unique">
+                                <view class="we-emoji {{parsedInfo.data.style}}" wx:if="{{!!parsedInfo.text}}">
+                                    <image class="we-emoji we-emoji-faker"></image>
+                                </view>
+                                <text class="comments-item__content" wx:else>{{parsedInfo}}</text>
+                            </block>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </scroll-view>
+    <view bindtap="clickNewNotify" class="comments__new__notify {{screenType==='horizontal'?isClearScreen||showVideoDotList?'no-events':'has-events':''}}" wx:if="{{!isScrollCommentToBottom&&newNotifyCount}}">{{newNotifyCount>99?'99+':newNotifyCount}}条新消息</view>
+</view>
+<wxs module="wxs">module.exports = ({loadAvatar:(function (newValue,oldValue,ownerInstance,instance){if (!newValue){return};if (newValue !== oldValue){var bgUrl = instance.getDataset().defaultAvatar;instance.setStyle(({'background-image':'url(' + bgUrl + ')',}));instance.requestAnimationFrame((function (){instance.setStyle(({'background-image':'url(' + newValue + ')',}))}))}}),});</wxs>

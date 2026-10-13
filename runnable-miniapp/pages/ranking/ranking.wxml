@@ -1,0 +1,36 @@
+<view class="u-wrap data-v-ce1fdd1a">
+    <uni-navbar bind:__l="__l" class="data-v-ce1fdd1a" type="transparentFixed" vueId="1b4e3e12-1"></uni-navbar>
+    <view class="top-fixed-box data-v-ce1fdd1a" style="{{'padding-top:'+statusBarHeight+5+'px'+';'}}">
+        <view class="bg-color data-v-ce1fdd1a" id="top-fixed-box" style="{{'background:'+'#fff'+';'+'opacity:'+1/row2height*scrollTop+';'}}"></view>
+        <view class="headerinfo data-v-ce1fdd1a" id="headerinfo" style="{{'transform:'+(!inTop?'translateY(0rpx)':'translateY('+headerH+'px)')+';'}}">
+            <view class="r data-v-ce1fdd1a">
+                <view class="title singleLineText data-v-ce1fdd1a">{{detailObj.rankingName}}</view>
+                <view class="sub-title multilineText2 data-v-ce1fdd1a">{{detailObj.sumCount+detailObj.rankingInclude}}</view>
+            </view>
+        </view>
+    </view>
+    <view class="headerInfo data-v-ce1fdd1a" style="{{'height:'+(hasDesc?'560rpx':'430rpx')+';'}}">
+        <view class="imgBg data-v-ce1fdd1a" style="{{'background:'+'linear-gradient(to right,'+(detailObj.bottomColour||'#000000')+'99 0%,'+(detailObj.bottomColour||'#000000')+'00 100%)'+';'}}" wx:if="{{detailObj.rankingName}}"></view>
+        <image class="bgimg data-v-ce1fdd1a" mode="aspectFill" src="{{detailObj.rankingMainPictureUrl}}"></image>
+        <view class="msg data-v-ce1fdd1a">
+            <view class="txt title multilineText2 data-v-ce1fdd1a">{{detailObj.rankingName}}</view>
+            <view class="txt info singleLineText data-v-ce1fdd1a">{{detailObj.sumCount+detailObj.rankingInclude+' '+(detailObj.rankingType==2?'丨 '+detailObj.favoriteSum+(detailObj.rankingTotalUserData||'人喜爱'):'')}}</view>
+        </view>
+        <view class="txt passed singleLineText data-v-ce1fdd1a" wx:if="{{isLogin&&detailObj.rankingType==2}}">
+            <image class="data-v-ce1fdd1a" src="https://eshopfile.zhiyousx.com/2021070214201624192.png"></image>
+            <text class="data-v-ce1fdd1a">{{detailObj.rankingPersonalInfo+' '+detailObj.personalInfoValue}}</text>
+        </view>
+    </view>
+    <view class="desc data-v-ce1fdd1a" wx:if="{{hasDesc}}">
+        <text class="data-v-ce1fdd1a">{{detailObj.rankingDescribe}}</text>
+        <image class="top data-v-ce1fdd1a" src="https://eshopfile.zhiyousx.com/2021070217421187774.png"></image>
+        <image class="bottom data-v-ce1fdd1a" src="https://eshopfile.zhiyousx.com/2021070217423746945.png"></image>
+    </view>
+    <view class="spotinfo data-v-ce1fdd1a" id="spotinfo">
+        <spot-list bind:__l="__l" class="data-v-ce1fdd1a vue-ref" data-ref="spotList" datas="{{detailObj.rankingItemList}}" rankingType="{{detailObj.rankingType}}" type="{{detailObj.type}}" vueId="1b4e3e12-2"></spot-list>
+        <view class="noinfo data-v-ce1fdd1a" wx:if="{{!$root.g0}}">
+            <image class="noGoods data-v-ce1fdd1a" mode="widthFix" src="/static/captured/51d17a011d27445c.png"></image>
+            <view class="data-v-ce1fdd1a">暂无榜单</view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,12 @@
+<view class="count-time count-time__with-name {{isGovernment?'count-time__without-info':''}} {{isBgMeeting?'allenLive':''}} {{!countdownTimeContent?'count-time__without-time':''}} count-time__{{this.data.from}}" wx:if="{{roomStartTime}}">
+    <view class="live-player-main-name">{{roomTitle}}</view>
+    <block wx:if="{{!isGovernment}}">
+        <block wx:if="{{countdownTimeContent}}">
+            <view class="count-time__title live-player-main-title">直播倒计时</view>
+            <view class="count-time__info live-player-main-countdown">{{countdownTimeContent}}</view>
+        </block>
+        <view class="count-time__title live-player-main-desc" wx:else>直播即将开始</view>
+    </block>
+    <view bindtap="onUnsubscribe" class="count-time__btn live-player-hasSubscribe has-events" id="subscribeBtn" wx:if="{{isSubscribe}}">取消提醒</view>
+    <view bindtap="onSubscribe" class="count-time__btn live-player-notSubscribe has-events" id="subscribeBtn" wx:else>开播提醒</view>
+</view>

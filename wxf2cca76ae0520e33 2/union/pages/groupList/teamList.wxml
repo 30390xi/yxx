@@ -1,0 +1,19 @@
+<view class="feature-introduction _div data-v-59bdb526">
+    <uni-navbar background="{{$root.a0}}" bind:__l="__l" class="data-v-59bdb526" color="#fff" leftIconStyle="{{color:'#fff'}}" title="{{$root.m0}}" type="transparentFixed" vueId="fb1512c0-1"></uni-navbar>
+    <view class="feature-content _div data-v-59bdb526" style="{{'padding-top:'+statusBarHeight+5+'px'+';'}}">
+        <view class="feature-content-box _div data-v-59bdb526">
+            <view class="group-list-title-section data-v-59bdb526">
+                <view class="group-list-title data-v-59bdb526">
+                    <view class="title-text data-v-59bdb526">{{$root.m1}}</view>
+                    <image alt class="group-list-icon data-v-59bdb526" mode="heightFix" src="https://eshopfile.zhiyousx.com/176975522479724647.png"></image>
+                </view>
+            </view>
+            <view class="userList data-v-59bdb526">
+                <view class="user-item data-v-59bdb526" wx:for="{{listTeam}}" wx:key="index">
+                    <image class="user-icon data-v-59bdb526" mode="aspectFill" src="{{item.logo}}"></image>
+                    <view class="user-name data-v-59bdb526">{{item.name}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

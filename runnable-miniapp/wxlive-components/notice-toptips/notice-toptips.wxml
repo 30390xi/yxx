@@ -1,0 +1,22 @@
+<view class="notice-toptips">
+    <view class="notice-toptips__item" wx:if="{{noticeInfo.type==2}}">
+        <view class="notice-toptips__item__body">{{noticeInfo.content}}</view>
+        <view class="notice-toptips__item__foot">
+            <view bindtap="close" class="notice-toptips__close"></view>
+        </view>
+    </view>
+    <view class="notice-toptips__item notice-toptips__item__official" wx:if="{{noticeInfo.type==1}}">
+        <view class="notice-toptips__item__head">
+            <view class="notice-toptips__icon"></view>
+        </view>
+        <view class="notice-toptips__item__body">
+            <view class="notice-toptips__item__info">
+                <text class="notice-toptips__nickname">小程序直播团队：</text>{{noticeInfo.content}}</view>
+            <navigator appId="{{noticeInfo.jump_appid}}" bindfail="navigateToMiniProgramFail" bindsuccess="navigateToMiniProgramSucc" class="notice-toptips__item__link" path="{{noticeInfo.jump_url}}" target="miniProgram" wx:if="{{noticeInfo.jump_type==2&&noticeInfo.jump_appid}}">查看</navigator>
+            <view bindtap="navigateToUrl" class="notice-toptips__item__link" wx:if="{{noticeInfo.jump_type==1&&noticeInfo.jump_url}}">查看</view>
+        </view>
+        <view class="notice-toptips__item__foot">
+            <view bindtap="close" class="notice-toptips__close"></view>
+        </view>
+    </view>
+</view>

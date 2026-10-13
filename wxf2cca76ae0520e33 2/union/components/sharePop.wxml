@@ -1,0 +1,35 @@
+<view class="data-v-adca44fa">
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="30" class="data-v-adca44fa" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','sharePopup','$event',[] ] ] ] ] ]}}" mode="bottom" value="{{sharePopup}}" vueId="2aac8439-1" vueSlots="{{['default']}}">
+        <view class="share-box data-v-adca44fa">
+            <view class="title data-v-adca44fa">分享到</view>
+            <view class="icon-box data-v-adca44fa" wx:if="{{$root.g0}}">
+                <view class="item data-v-adca44fa">
+                    <image mode class="icon data-v-adca44fa" src="https://eshopfile.zhiyousx.com/2022090510365178497.png"></image>
+                    <view class="t data-v-adca44fa">微信好友</view>
+                    <button class="sharebtn data-v-adca44fa" data-aaa="111" openType="share"></button>
+                </view>
+                <view bindtap="__e" class="item data-v-adca44fa" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" wx:if="{{$root.g1}}">
+                    <image mode class="icon data-v-adca44fa" src="https://eshopfile.zhiyousx.com/2022090510374178970.png"></image>
+                    <view class="t data-v-adca44fa">小程序码</view>
+                </view>
+                <view bindtap="__e" class="item data-v-adca44fa" data-event-opts="{{[ [ 'tap',[ [ 'e1',['$event'] ] ] ] ]}}" wx:if="{{$root.g2}}">
+                    <image mode class="icon data-v-adca44fa" src="https://eshopfile.zhiyousx.com/2022090510375744214.png"></image>
+                    <view class="t data-v-adca44fa">海报</view>
+                </view>
+            </view>
+            <view bindtap="__e" class="close data-v-adca44fa" data-event-opts="{{[ [ 'tap',[ [ 'e2',['$event'] ] ] ] ]}}">取消</view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" class="data-v-adca44fa vue-ref" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showShareImg','$event',[] ] ] ] ] ]}}" data-ref="uPopup" maskCloseAble="{{false}}" mode="center" value="{{showShareImg}}" vueId="2aac8439-2" vueSlots="{{['default']}}">
+        <view class="notice-box data-v-adca44fa">
+            <image class="notice-img data-v-adca44fa" mode="widthFix" showMenuByLongpress="{{true}}" src="{{postUrl1}}"></image>
+            <image mode bindtap="__e" class="notice-close data-v-adca44fa" data-event-opts="{{[ [ 'tap',[ [ 'e3',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/ytc/popupClose1.png"></image>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" class="data-v-adca44fa vue-ref" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showQrCode','$event',[] ] ] ] ] ]}}" data-ref="uPopup" maskCloseAble="{{false}}" mode="center" value="{{showQrCode}}" vueId="2aac8439-3" vueSlots="{{['default']}}">
+        <view class="notice-box data-v-adca44fa">
+            <image class="notice-img data-v-adca44fa" mode="widthFix" showMenuByLongpress="{{true}}" src="{{qrCode}}"></image>
+            <image mode bindtap="__e" class="notice-close data-v-adca44fa" data-event-opts="{{[ [ 'tap',[ [ 'e4',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/ytc/popupClose1.png"></image>
+        </view>
+    </u-popup>
+</view>

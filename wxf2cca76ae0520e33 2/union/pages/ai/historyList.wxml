@@ -1,0 +1,17 @@
+<view class="history-box">
+    <view class="news" wx:for="{{newsListCopy}}" wx:key="index">
+        <view>
+            <view class="news-time">{{''+item.key+''}}</view>
+            <view bindtap="__e" class="news-name" data-event-opts="{{[ [ 'tap',[ [ 'goView',['$0'],[ [ ['newsListCopy','',index],['data','',i,'sessionId'] ] ] ] ] ] ]}}" wx:for="{{item.data}}" wx:for-index="i" wx:for-item="el" wx:key="i">
+                <view class="news-title">{{''+el.title+''}}</view>
+                <image mode class="news-image" src="https://eshopfile.zhiyousx.com/173414253873890055.png"></image>
+            </view>
+        </view>
+    </view>
+    <view class="empty" wx:if="{{$root.g0}}">
+        <empty-state bind:__l="__l" imgUrl="https://eshopfile.zhiyousx.com/noMsg@2x.png" text="暂无数据" vueId="b320a8bc-1"></empty-state>
+    </view>
+    <view class="loadMore">
+        <u-loadmore bgColor="#f7f7f7" bind:__l="__l" color="#ccc" data-custom-hidden="{{!$root.g1}}" iconColor="#ccc" loadText="{{loadmore:'轻轻上拉',loading:'努力加载中',nomore:'暂无更多数据'}}" status="{{loadMore}}" vueId="b320a8bc-2"></u-loadmore>
+    </view>
+</view>

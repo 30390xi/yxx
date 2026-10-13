@@ -1,0 +1,26 @@
+<view class="container data-v-6709bfc6">
+    <view class="step-box data-v-6709bfc6">
+        <view class="photo-count data-v-6709bfc6">
+            <view class="photo-title data-v-6709bfc6">
+                <image alt class="data-v-6709bfc6" mode="widthFix" src="https://eshopfile.zhiyousx.com/174530901418030873.png?imageView2/3/w/300"></image>
+            </view>
+            <view class="photo-table data-v-6709bfc6 vue-ref" data-ref="photoTable">
+                <view class="photo-table-content data-v-6709bfc6">
+                    <view class="photo-sub data-v-6709bfc6">
+                        <view class="photo-sub-group data-v-6709bfc6">
+                            <image alt class="photo-item _img data-v-6709bfc6" mode="aspectFill" src="{{bgUrl}}" wx:if="{{bgUrl}}"></image>
+                            <progress-vue bind:__l="__l" bind:openImage="__e" class="data-v-6709bfc6" data-event-opts="{{[ [ '^openImage',[ [ 'openImage',[1] ] ] ] ]}}" dataInfos="{{dataInfos}}" status="{{videoStatue}}" vueId="111f34c8-1" wx:if="{{showProgress}}"></progress-vue>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="msg data-v-6709bfc6" wx:if="{{minutes&&minutes>0&&videoStatue!==3&&videoStatue!==0}}">{{'我们正在精心生成您的视频，预计'+minutes+'分钟后会推送给您，喝杯茶休息一下，马上就好!'}}</view>
+            <view class="msg data-v-6709bfc6" wx:if="{{minutes==0&&videoStatue!==3&&videoStatue!==0}}">我们正在精心生成您的视频，视频即将生成完成，喝杯茶休息一下，马上就好!</view>
+            <view class="msg data-v-6709bfc6" wx:if="{{videoStatue===3}}">视频生成成功，请点击查看</view>
+            <view class="btn data-v-6709bfc6">
+                <image alt bindtap="__e" class="subscribe-btn data-v-6709bfc6" data-event-opts="{{[ [ 'tap',[ [ 'requestSubscribe',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/174909293434772225.png" wx:if="{{!isSubscribeMessage&&videoStatue!==3&&videoStatue!==0}}"></image>
+                <image alt bindtap="__e" class="history data-v-6709bfc6" data-event-opts="{{[ [ 'tap',[ [ 'goHistory',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/174909283387148487.png" wx:if="{{options.source!=3}}"></image>
+            </view>
+        </view>
+    </view>
+</view>

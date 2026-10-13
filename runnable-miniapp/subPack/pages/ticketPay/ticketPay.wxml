@@ -1,0 +1,82 @@
+<view class="affirm-order u-skeleton data-v-6b9f9d76" wx:if="{{orderData}}">
+    <view class="cardItem u-skeleton-rect data-v-6b9f9d76">
+        <view class="merchant u-skeleton-rect data-v-6b9f9d76">
+            <view class="mcName data-v-6b9f9d76">
+                <image class="data-v-6b9f9d76" src="../../static/images/sj_icon.png"></image>
+                <text class="data-v-6b9f9d76">平台店铺</text>
+                <uni-icons bind:__l="__l" class="data-v-6b9f9d76" color="#c8c8c8" size="14" type="arrowright" vueId="57c6bdc8-1"></uni-icons>
+            </view>
+        </view>
+        <view class="cardGoods u-skeleton-rect data-v-6b9f9d76">
+            <view class="caedLeft data-v-6b9f9d76">
+                <view class="cardImg data-v-6b9f9d76">
+                    <image class="data-v-6b9f9d76" mode="aspectFill" src="{{orderData.defaultPicUrl}}" style="height:180rpx;width:180rpx;"></image>
+                </view>
+                <view class="cardInfo data-v-6b9f9d76">
+                    <view class="shopName multilineText2 data-v-6b9f9d76">{{orderData.itemTitle}}</view>
+                    <view class="prceNum data-v-6b9f9d76">
+                        <text class="pic data-v-6b9f9d76">{{'￥'+orderData.price}}</text>
+                        <text class="itemRuter data-v-6b9f9d76" wx:if="{{cashBackAmount&&cashBackAmount!=0}}">{{'返￥'+cashBackAmount}}</text>
+                    </view>
+                </view>
+                <text class="data-v-6b9f9d76">{{'X '+orderData.payTicketNum}}</text>
+            </view>
+        </view>
+        <view class="itemParameter data-v-6b9f9d76">
+            <text class="data-v-6b9f9d76">有效期：</text>
+            <view class="r data-v-6b9f9d76">
+                <view class="data-v-6b9f9d76">{{validDateStr}}</view>
+                <view class="data-v-6b9f9d76" wx:if="{{weekNotUseStr}}">{{weekNotUseStr}}</view>
+                <view class="data-v-6b9f9d76" wx:if="{{dateNotUseStr}}">{{dateNotUseStr}}</view>
+            </view>
+        </view>
+        <view class="data-v-6b9f9d76" wx:if="{{$root.g0}}">
+            <view class="insure-style data-v-6b9f9d76">
+                <view class="name data-v-6b9f9d76">保额：</view>
+                <view class="data-v-6b9f9d76">
+                    <text class="money col data-v-6b9f9d76">￥</text>
+                    <text class="col data-v-6b9f9d76">{{orderData.insuranceAmount}}</text>
+                </view>
+            </view>
+        </view>
+        <view class="itemParameter data-v-6b9f9d76" wx:else>
+            <text class="data-v-6b9f9d76">留言：</text>
+            <input bindblur="__e" bindinput="__e" class="remarkInput data-v-6b9f9d76" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '','memberRemark','$event',['trim'] ] ] ] ],[ 'blur',[ ['$forceUpdate'] ] ] ]}}" maxlength="40" placeholder="建议留言前先与商家沟通确认" placeholderStyle="color:#cfcfcf" type="text" value="{{memberRemark}}"></input>
+        </view>
+        <view class="couponBox data-v-6b9f9d76" wx:if="{{orderData.couponAmount&&orderData.couponAmount>0}}">
+            <view class="cb-1 data-v-6b9f9d76">优惠券：</view>
+            <view class="cb-2 data-v-6b9f9d76">{{'-￥'+orderData.couponAmount}}</view>
+        </view>
+        <view class="couponBox data-v-6b9f9d76" wx:if="{{orderData.giftCardAmount&&orderData.giftCardAmount>0}}">
+            <view class="cb-1 data-v-6b9f9d76">礼品卡：</view>
+            <view class="cb-2 data-v-6b9f9d76">{{'-￥'+orderData.giftCardAmount}}</view>
+        </view>
+        <view class="itemNum data-v-6b9f9d76">
+            <text class="data-v-6b9f9d76">{{'共'+orderData.payTicketNum+'件'}}</text>
+            <view class="itemPrice data-v-6b9f9d76">
+                <text class="data-v-6b9f9d76">小计：</text>
+                <text class="data-v-6b9f9d76">{{'￥'+orderData.realPayableAmount}}</text>
+            </view>
+        </view>
+    </view>
+    <view class="subBox u-skeleton-rect data-v-6b9f9d76">
+        <view class="subNumPrice u-skeleton-rect data-v-6b9f9d76">
+            <text class="data-v-6b9f9d76">{{'共'+orderData.payTicketNum+'件'}}</text>
+            <view class="subPrice u-skeleton-rect data-v-6b9f9d76">
+                <text class="data-v-6b9f9d76">应付：</text>
+                <text class="data-v-6b9f9d76">{{'￥'+orderData.realPayableAmount}}</text>
+            </view>
+            <button bindtap="__e" class="subBtn data-v-6b9f9d76" data-event-opts="{{[ [ 'tap',[ [ 'goPay',['$event'] ] ] ] ]}}" disabled="{{submiting}}">去支付</button>
+        </view>
+    </view>
+    <uni-popup bind:__l="__l" class="data-v-6b9f9d76 vue-ref" data-ref="popup" type="center" vueId="57c6bdc8-2" vueSlots="{{['default']}}">
+        <view class="popup data-v-6b9f9d76">
+            <view class="text data-v-6b9f9d76">{{'优惠券已失效,订单已恢复原价'+orderData.realPayableAmount+'元,是否继续支付?'}}</view>
+            <view class="bottom data-v-6b9f9d76">
+                <view bindtap="__e" class="b-left data-v-6b9f9d76" data-event-opts="{{[ [ 'tap',[ [ 'closePopup',['$event'] ] ] ] ]}}">取消</view>
+                <view class="b-center data-v-6b9f9d76"></view>
+                <view bindtap="__e" class="b-right data-v-6b9f9d76" data-event-opts="{{[ [ 'tap',[ [ 'confirm',['$event'] ] ] ] ]}}">确认</view>
+            </view>
+        </view>
+    </uni-popup>
+</view>

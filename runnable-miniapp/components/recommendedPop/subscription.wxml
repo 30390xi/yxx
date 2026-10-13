@@ -1,0 +1,5 @@
+<view class="subscription data-v-699809ce" style="{{styleInfo}}">
+    <view bindtap="__e" class="subscription-text data-v-699809ce" data-event-opts="{{[ [ 'tap',[ [ 'clickView',['$event'] ] ] ] ]}}" style="{{'font-size:'+size+';'}}">当前门票已售罄，推荐其他景区｜<text class="subscription-more data-v-699809ce">点击查看→</text>
+    </view>
+    <text bindtap="__e" class="subscription-d data-v-699809ce" data-event-opts="{{[ [ 'tap',[ [ 'subscription',['$event'] ] ] ] ]}}" style="{{'font-size:'+size+';'}}">余票订阅</text>
+</view>

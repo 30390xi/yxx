@@ -1,0 +1,38 @@
+<view class="weui-half-screen-dialog__container {{screenType==='horizontal'?'weui-half-screen-dialog__container__horizontal':''}} {{show?'weui-show':'weui-hidden'}} {{isIPhoneX?'weui-half-screen-dialog__container__iphoneX':''}}">
+    <view bindtap="close" class="weui-mask init {{isMaskFill?'weui-mask-fill':''}}" data-type="tap" style="{{maskZIndex!==-1?'z-index:'+maskZIndex:''}}" wx:if="{{mask}}"></view>
+    <view class="weui-half-screen-dialog {{extClass}}">
+        <view class="weui-half-screen-dialog__inner">
+            <view class="weui-half-screen-dialog__hd">
+                <view bindtap="close" class="weui-half-screen-dialog__hd__side" data-type="close" wx:if="{{closabled}}">
+                    <view class="weui-icon-btn weui-icon-btn_close">关闭</view>
+                </view>
+                <view class="weui-half-screen-dialog__hd__main">
+                    <block wx:if="{{title}}">
+                        <text class="weui-half-screen-dialog__title">{{title}}</text>
+                        <view class="weui-half-screen-dialog__subtitle">{{subTitle}}<slot name="subTitle"></slot>
+                        </view>
+                    </block>
+                    <view class="weui-half-screen-dialog__title" wx:else>
+                        <slot name="title"></slot>
+                    </view>
+                </view>
+            </view>
+            <view class="weui-half-screen-dialog__bd">
+                <block wx:if="{{title}}">
+                    <view class="weui-half-screen-dialog__desc" wx:if="{{desc}}">{{desc}}</view>
+                    <view class="weui-half-screen-dialog__tips" wx:if="{{tips}}">{{tips}}</view>
+                </block>
+                <slot name="desc" wx:else></slot>
+                <view class="weui-half-screen-dialog__bd__content">
+                    <slot name="content"></slot>
+                </view>
+            </view>
+            <view class="weui-half-screen-dialog__ft">
+                <block wx:if="{{buttons&&buttons.length}}">
+                    <button bindtap="buttonTap" class="weui-btn {{item.className}}" data-index="{{index}}" type="{{item.type}}" wx:for="{{buttons}}" wx:key="unique">{{item.text}}</button>
+                </block>
+                <slot name="footer" wx:else></slot>
+            </view>
+        </view>
+    </view>
+</view>

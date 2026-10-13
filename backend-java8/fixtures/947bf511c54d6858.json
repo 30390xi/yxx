@@ -1,0 +1,393 @@
+{
+  "code": 1,
+  "data": {
+    "typeTagList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagType": "SCENIC_SPORT_TYPE_TAG",
+        "memo": "景区分类标签",
+        "tagUrl": null,
+        "parentId": "0",
+        "sort": null,
+        "isDeleted": 0
+      },
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagType": "SCENIC_SPORT_TYPE_TAG",
+        "memo": "景区分类标签",
+        "tagUrl": null,
+        "parentId": "0",
+        "sort": null,
+        "isDeleted": 0
+      },
+      {
+        "id": "13",
+        "name": "游乐场",
+        "tagType": "SCENIC_SPORT_TYPE_TAG",
+        "memo": "景区分类标签",
+        "tagUrl": null,
+        "parentId": "0",
+        "sort": null,
+        "isDeleted": 0
+      },
+      {
+        "id": "14",
+        "name": "滑雪场",
+        "tagType": "SCENIC_SPORT_TYPE_TAG",
+        "memo": "景区分类标签",
+        "tagUrl": null,
+        "parentId": "0",
+        "sort": null,
+        "isDeleted": 0
+      },
+      {
+        "id": "15",
+        "name": "高空景观",
+        "tagType": "SCENIC_SPORT_TYPE_TAG",
+        "memo": "景区分类标签",
+        "tagUrl": null,
+        "parentId": "0",
+        "sort": null,
+        "isDeleted": 0
+      },
+      {
+        "id": "16",
+        "name": "城市公园",
+        "tagType": "SCENIC_SPORT_TYPE_TAG",
+        "memo": "景区分类标签",
+        "tagUrl": null,
+        "parentId": "0",
+        "sort": null,
+        "isDeleted": 0
+      },
+      {
+        "id": "17",
+        "name": "动植物园",
+        "tagType": "SCENIC_SPORT_TYPE_TAG",
+        "memo": "景区分类标签",
+        "tagUrl": null,
+        "parentId": "0",
+        "sort": null,
+        "isDeleted": 0
+      },
+      {
+        "id": "18",
+        "name": "红色旅游",
+        "tagType": "SCENIC_SPORT_TYPE_TAG",
+        "memo": "景区分类标签",
+        "tagUrl": null,
+        "parentId": "0",
+        "sort": null,
+        "isDeleted": 0
+      },
+      {
+        "id": "19",
+        "name": "水上玩乐",
+        "tagType": "SCENIC_SPORT_TYPE_TAG",
+        "memo": "景区分类标签",
+        "tagUrl": null,
+        "parentId": "0",
+        "sort": null,
+        "isDeleted": 0
+      },
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagType": "SCENIC_SPORT_TYPE_TAG",
+        "memo": "景区分类标签",
+        "tagUrl": null,
+        "parentId": "0",
+        "sort": null,
+        "isDeleted": 0
+      },
+      {
+        "id": "21",
+        "name": "地标打卡",
+        "tagType": "SCENIC_SPORT_TYPE_TAG",
+        "memo": "景区分类标签",
+        "tagUrl": null,
+        "parentId": "0",
+        "sort": null,
+        "isDeleted": 0
+      },
+      {
+        "id": "22",
+        "name": "美食街区",
+        "tagType": "SCENIC_SPORT_TYPE_TAG",
+        "memo": "景区分类标签",
+        "tagUrl": null,
+        "parentId": "0",
+        "sort": null,
+        "isDeleted": 0
+      },
+      {
+        "id": "23",
+        "name": "灯光夜景",
+        "tagType": "SCENIC_SPORT_TYPE_TAG",
+        "memo": "景区分类标签",
+        "tagUrl": null,
+        "parentId": "0",
+        "sort": null,
+        "isDeleted": 0
+      },
+      {
+        "id": "63",
+        "name": "宗教文化",
+        "tagType": "SCENIC_SPORT_TYPE_TAG",
+        "memo": "景区分类标签",
+        "tagUrl": null,
+        "parentId": "0",
+        "sort": null,
+        "isDeleted": 0
+      },
+      {
+        "id": "64",
+        "name": "古村古镇",
+        "tagType": "SCENIC_SPORT_TYPE_TAG",
+        "memo": "景区分类标签",
+        "tagUrl": null,
+        "parentId": "0",
+        "sort": null,
+        "isDeleted": 0
+      },
+      {
+        "id": "65",
+        "name": "工业旅游",
+        "tagType": "SCENIC_SPORT_TYPE_TAG",
+        "memo": "景区分类标签",
+        "tagUrl": null,
+        "parentId": "0",
+        "sort": null,
+        "isDeleted": 0
+      },
+      {
+        "id": "66",
+        "name": "体育运动",
+        "tagType": "SCENIC_SPORT_TYPE_TAG",
+        "memo": "景区分类标签",
+        "tagUrl": null,
+        "parentId": "0",
+        "sort": null,
+        "isDeleted": 0
+      },
+      {
+        "id": "67",
+        "name": "文化产业园区",
+        "tagType": "SCENIC_SPORT_TYPE_TAG",
+        "memo": "景区分类标签",
+        "tagUrl": null,
+        "parentId": "0",
+        "sort": null,
+        "isDeleted": 0
+      },
+      {
+        "id": "68",
+        "name": "旅游小镇",
+        "tagType": "SCENIC_SPORT_TYPE_TAG",
+        "memo": "景区分类标签",
+        "tagUrl": null,
+        "parentId": "0",
+        "sort": null,
+        "isDeleted": 0
+      },
+      {
+        "id": "79",
+        "name": "文旅演艺",
+        "tagType": "SCENIC_SPORT_TYPE_TAG",
+        "memo": "景区分类标签",
+        "tagUrl": null,
+        "parentId": "0",
+        "sort": null,
+        "isDeleted": 0
+      },
+      {
+        "id": "173",
+        "name": "沉浸剧场",
+        "tagType": "SCENIC_SPORT_TYPE_TAG",
+        "memo": "景区分类标签",
+        "tagUrl": null,
+        "parentId": "0",
+        "sort": null,
+        "isDeleted": 0
+      },
+      {
+        "id": "174",
+        "name": "儿童乐园",
+        "tagType": "SCENIC_SPORT_TYPE_TAG",
+        "memo": "景区分类标签",
+        "tagUrl": null,
+        "parentId": "0",
+        "sort": null,
+        "isDeleted": 0
+      },
+      {
+        "id": "175",
+        "name": "户外营地",
+        "tagType": "SCENIC_SPORT_TYPE_TAG",
+        "memo": "景区分类标签",
+        "tagUrl": null,
+        "parentId": "0",
+        "sort": null,
+        "isDeleted": 0
+      }
+    ],
+    "peopleTagList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagType": "SCENIC_SPORT_PEOPLE_TAG",
+        "memo": "景区人群标签",
+        "tagUrl": null,
+        "parentId": "0",
+        "sort": null,
+        "isDeleted": 0
+      },
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagType": "SCENIC_SPORT_PEOPLE_TAG",
+        "memo": "景区人群标签",
+        "tagUrl": null,
+        "parentId": "0",
+        "sort": null,
+        "isDeleted": 0
+      },
+      {
+        "id": "51",
+        "name": "拓展游",
+        "tagType": "SCENIC_SPORT_PEOPLE_TAG",
+        "memo": "景区人群标签",
+        "tagUrl": null,
+        "parentId": "0",
+        "sort": null,
+        "isDeleted": 0
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagType": "SCENIC_SPORT_PEOPLE_TAG",
+        "memo": "景区人群标签",
+        "tagUrl": null,
+        "parentId": "0",
+        "sort": null,
+        "isDeleted": 0
+      },
+      {
+        "id": "69",
+        "name": "商务旅",
+        "tagType": "SCENIC_SPORT_PEOPLE_TAG",
+        "memo": "景区人群标签",
+        "tagUrl": null,
+        "parentId": "0",
+        "sort": null,
+        "isDeleted": 0
+      },
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagType": "SCENIC_SPORT_PEOPLE_TAG",
+        "memo": "景区人群标签",
+        "tagUrl": null,
+        "parentId": "0",
+        "sort": null,
+        "isDeleted": 0
+      }
+    ],
+    "allCityList": [
+      {
+        "id": "1320620100725026817",
+        "cityName": "西安",
+        "citySort": null,
+        "updateTime": null,
+        "operatorName": null,
+        "isValid": null
+      },
+      {
+        "id": "1320659384068780033",
+        "cityName": "宝鸡",
+        "citySort": null,
+        "updateTime": null,
+        "operatorName": null,
+        "isValid": null
+      },
+      {
+        "id": "1320661981349588993",
+        "cityName": "咸阳",
+        "citySort": null,
+        "updateTime": null,
+        "operatorName": null,
+        "isValid": null
+      },
+      {
+        "id": "1320650338641162241",
+        "cityName": "铜川",
+        "citySort": null,
+        "updateTime": null,
+        "operatorName": null,
+        "isValid": null
+      },
+      {
+        "id": "1320663137836642305",
+        "cityName": "渭南",
+        "citySort": null,
+        "updateTime": null,
+        "operatorName": null,
+        "isValid": null
+      },
+      {
+        "id": "1320663521644818433",
+        "cityName": "延安",
+        "citySort": null,
+        "updateTime": null,
+        "operatorName": null,
+        "isValid": null
+      },
+      {
+        "id": "1320664225474195458",
+        "cityName": "榆林",
+        "citySort": null,
+        "updateTime": null,
+        "operatorName": null,
+        "isValid": null
+      },
+      {
+        "id": "1320664075750125570",
+        "cityName": "汉中",
+        "citySort": null,
+        "updateTime": null,
+        "operatorName": null,
+        "isValid": null
+      },
+      {
+        "id": "1320664694422548481",
+        "cityName": "安康",
+        "citySort": null,
+        "updateTime": null,
+        "operatorName": null,
+        "isValid": null
+      },
+      {
+        "id": "1320664941605466114",
+        "cityName": "商洛",
+        "citySort": null,
+        "updateTime": null,
+        "operatorName": null,
+        "isValid": null
+      },
+      {
+        "id": "1321278535707701249",
+        "cityName": "杨凌",
+        "citySort": null,
+        "updateTime": null,
+        "operatorName": null,
+        "isValid": null
+      }
+    ],
+    "hotelSpecialServicesTagList": null,
+    "interestTagListList": null
+  },
+  "msg": "成功",
+  "success": true
+}

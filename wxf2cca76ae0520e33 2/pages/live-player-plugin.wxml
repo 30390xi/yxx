@@ -1,0 +1,145 @@
+<page-meta rootBackgroundColor="#191919">
+    <view class="live-player {{live.pageContainerClass}} {{uiIsHasSafeBottom?'live-player__with-safe-bottom':''}}" wx:if="{{!live.isHideLiveRoom}}">
+        <page-live-replay id="page-live-replay" wx:if="{{live.showReplay}}"></page-live-replay>
+        <page-live-record id="page-live-record" wx:elif="{{live.showRecord}}"></page-live-record>
+        <page-live-player id="page-live-player" wx:else></page-live-player>
+        <block wx:if="{{!live.isPriorPlayerPerpare}}">
+            <view class="live-page-1 live-page-2col live-player-countdown live-bottom-page__cover__image__cover" wx:if="{{live.curLiveStatusCode===102||live.isPreviewFullScreen}}">
+                <view class="live-page-2col__inner live-player-countdown__inner">
+                    <view class="live-player-normal__head live-player-countdown__head" id="header">
+                        <component-top-player id="component-top-player">
+                            <view class="mode__navigation__inner__with-home" slot="left">
+                                <component-profile-card class="mode__profile-card" id="component-profile-card" wx:if="{{!live.isShareFriendsScene}}"></component-profile-card>
+                            </view>
+                        </component-top-player>
+                    </view>
+                    <component-notice-toptips class="mode__notice-toptips has-events}}" id="component-notice-toptips" style="top: {{live.waterMarkBottom-18}}px" wx:if="{{live.showNoticeToptips&&!live.showRecord}}"></component-notice-toptips>
+                    <view class="live-player-main" hidden="{{live.showPushComment||live.showStorePanel}}">
+                        <component-subscribe-card class="mode-subscribe-card" id="component-subscribe-card" wx:if="{{live.previewType==0||live.previewAuditStatus!=3&&live.previewType==2}}"></component-subscribe-card>
+                        <component-advance class="mode-advance" id="component-advance" wx:else></component-advance>
+                    </view>
+                    <view class="live-player-room__body" style="{{live.screenType==='horizontal'?'height:'+live.windowHeight-live.waterMarkBottom+111+'px':''}}">
+                        <view class="live-player-room__body__msg-list {{live.pageCommentAreaClass}} " style="{{live.pageCommentAreaStyle}}">
+                            <view class="live-player-room__body__activity-item" wx:if="{{!(live.showPushComment&&live.screenType==='horizontal')}}">
+                                <component-comments class="mod-comments {{live.isBgMeeting?'mod-comments__allenLive':''}}" id="component-comments" wx:if="{{!live.hideComment}}"></component-comments>
+                            </view>
+                            <component-push-comment class="component mode-push-comment-outside" id="component-push-comment" maxlength="{{30}}" placeholder="跟主播说点什么吧" wx:if="{{live.showPushComment}}"></component-push-comment>
+                        </view>
+                        <view class="live-player-normal__operation live-player-room__body__operation {{live.showPushComment&&!live.showLotteryOper?'live-player-room__body__operation__hidden':''}}">
+                            <component-person-operation class="mode-person-operation" id="component-person-operation"></component-person-operation>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="live-page-1 {{live.showRecord?'live-player__replay':'live-player-living'}}  live-player-room no-events {{live.isClearScreen?'live-player-room__clean':'live-player-room__show'}} {{!live.showRecord&&(live.curLiveStatusCode===105||live.curLiveStatusCode===104||live.curLiveStatusCode===106)?'live-bottom-page__cover__image__cover':''}}" wx:if="{{live.curLiveStatusCode===101||live.curLiveStatusCode===105||live.curLiveStatusCode===104||live.curLiveStatusCode===106}}">
+                <view class="live-player-room__inner">
+                    <view class="live-player-normal__head live-player-room__head" id="header">
+                        <component-top-player id="component-top-player">
+                            <view class="navigation_right" slot="right">
+                                <component-operate-paster class="component__operate-paster {{live.isClearScreen?'no-events':'has-events'}}" id="component-operate-paster" style="{{live.isClearScreen||live.screenType==='horizontal'?'position: absolute; bottom: -900px;':''}}" wx:if="{{!!live.activityInfo.is_show&&live.curLiveStatusCode===101}}"></component-operate-paster>
+                            </view>
+                            <view class="mode__navigation__inner__with-home {{live.helpRankStatus>0&&!live.showRecord?'mode__navigation__inner__with-help-list':''}}" slot="left">
+                                <component-profile-card class="mode__profile-card {{live.isClearScreen?'no-events':'has-events'}} {{live.isShareFriendsScene?'hide__placeholder__element':''}}" id="component-profile-card"></component-profile-card>
+                                <component-help-list-entr class="mode__help-list-entr" id="component-help-list-entr" style="{{live.showRecord?'position: absolute; bottom: -900px;':''}}"></component-help-list-entr>
+                                <component-lottery class="mode__lottery {{live.isClearScreen?'no-events':'has-events'}}" id="component-lottery"></component-lottery>
+                            </view>
+                        </component-top-player>
+                        <component-notice-toptips class="mode__notice-toptips {{live.isClearScreen?'no-events':'has-events'}}" id="component-notice-toptips" style="top: {{live.waterMarkBottom-18}}px" wx:if="{{live.showNoticeToptips&&!live.showRecord&&!live.showPushComment}}"></component-notice-toptips>
+                    </view>
+                    <view class="live-player-room__body live-player-room__body__normal ">
+                        <view class="live-player-room__body__msg-list {{live.pageCommentAreaClass}} {{live.isHideRoomBodyContainer?'live-player-room__body__hidden':''}}" style="{{live.pageCommentAreaStyle}}">
+                            <view class="live-player-room__body__activity-item">
+                                <view class="live-player-room__system-msg">
+                                    <component-mic-system-msg class="component" id="mic-system-msg" leftTime="{{live.confirmLeftTime}}" micPanelMode="{{live.micPanelMode}}" style="{{live.showPushComment||live.showRecord?'position: absolute; bottom: -900px;':''}}" wx:if="{{live.micPanelMode===2||live.micPanelMode===4}}"></component-mic-system-msg>
+                                    <component-activity-nudge class="no-events mod-activity-nudge" id="component-activity-nudge" style="{{live.showPushComment||live.showRecord||live.screenType==='horizontal'?'position: absolute; bottom: -900px;':''}}" wx:if="{{!live.isGovernment&&!live.hideNudge}}"></component-activity-nudge>
+                                    <component-barrage-list class="component mod-activity-card" id="component-barrage-list" style="{{live.showPushComment||live.screenType==='horizontal'?'position: absolute; bottom: -900px;':''}}" wx:if="{{!live.isGovernment}}"></component-barrage-list>
+                                    <component-auto-reply class="component" id="component-auto-reply" style="{{live.showPushComment||live.screenType==='horizontal'?'position: absolute; bottom: -900px;':''}}" wx:if="{{!live.isGovernment}}"></component-auto-reply>
+                                </view>
+                                <component-comments class="component mod-comments {{live.isBgMeeting?'mod-comments__allenLive':''}}" id="component-comments" wx:if="{{!live.hideComment}}"></component-comments>
+                            </view>
+                            <view class="live-player-room__body__activity-item live-player-room__body__activity-item__with-push">
+                                <component-coupon-push class="component mod__activity-store-card {{live.isClearScreen?'no-events':'has-events'}}" id="component-coupon-push" wx:if="{{!live.showPushComment}}"></component-coupon-push>
+                                <component-goods-push class="component mod__activity-store-card {{live.isClearScreen?'no-events':'has-events'}}" id="component-goods-push" wx:if="{{!live.showPushComment}}"></component-goods-push>
+                            </view>
+                            <component-push-comment class="component mode-push-comment-outside {{live.isClearScreen?'no-events':'has-events'}}" id="component-push-comment" maxlength="{{30}}" placeholder="跟主播说点什么吧" wx:if="{{live.showPushComment&&!live.showLotteryOper}}"></component-push-comment>
+                        </view>
+                        <view class="live-player-normal__operation live-player-room__body__operation {{live.showPushComment&&!live.showLotteryOper||live.showVideoDotList?'live-player-room__body__operation__hidden':''}}">
+                            <component-person-operation class="component mode-person-operation" id="component-person-operation"></component-person-operation>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="live-page-1 live-player-end live-bottom-page__cover__image__cover {{live.showLotteryIcon?'live-player-end__with-lottery':''}}" wx:if="{{live.curLiveStatusCode===103&&!live.showRecord}}">
+                <view class="live-player-end__inner" style="height: {{live.screenType!=='horizontal'?'100vh':undefined}}">
+                    <view class="live-player-normal__head live-player-end__head" id="header">
+                        <view class="live-player-end__head__bg"></view>
+                        <view class="live-player-normal__head__inner">
+                            <component-top-player id="component-top-player">
+                                <view class="mode__navigation__inner__with-home" slot="left">
+                                    <component-profile-card class="mode__profile-card" id="component-profile-card" wx:if="{{!live.isShareFriendsScene}}"></component-profile-card>
+                                </view>
+                            </component-top-player>
+                        </view>
+                    </view>
+                    <view class="live-player-normal__body live-player-end__body">
+                        <component-help-list-entr class="mode__help-list-entr" id="component-help-list-entr" isStatic="{{true}}" style="{{live.showRecord?'position: absolute; bottom: -900px;':''}}"></component-help-list-entr>
+                        <component-lottery class="mode__lottery mode__lottery__in-end {{!live.showRecord?'mode__lottery__in-end__with-help-list-entr':''}}" id="component-lottery"></component-lottery>
+                        <component-end-block class="mode__end-block {{!live.showRecord&&live.showLotteryIcon?'mode__end-block__with-lottery-help-list-entr':''}}" id="component-end-block" screenType="{{live.isPushStream?live.screenType:''}}"></component-end-block>
+                    </view>
+                    <view class="live-player-room__body live-player-room__body__store-list" wx:if="{{live.curLiveStatusCode===103&&!live.showRecord&&!live.hideStore}}">
+                        <component-store-list class="component mode__store-list {{live.pageStoreAreaClass}}" id="component-store-list"></component-store-list>
+                    </view>
+                </view>
+            </view>
+            <view class="live-page-1 live-player-room live-player__replay no-events {{live.isClearScreen?'live-player-room__clean':'live-player-room__show'}}" wx:if="{{live.curLiveStatusCode===108||live.curLiveStatusCode===103&&live.showRecord}}">
+                <view class="live-player-room__inner">
+                    <view class="live-player-normal__head live-player-room__head" id="header">
+                        <component-top-player id="component-top-player">
+                            <view class="mode__navigation__inner__with-home" slot="left">
+                                <component-profile-card class="mode__profile-card {{live.isClearScreen?'no-events':'has-events'}}" id="component-profile-card" wx:if="{{!live.isShareFriendsScene}}"></component-profile-card>
+                                <component-lottery class="mode__lottery {{live.isClearScreen?'no-events':'has-events'}}" id="component-lottery"></component-lottery>
+                            </view>
+                        </component-top-player>
+                    </view>
+                    <view class="live-player-room__body has-events {{live.isHideRoomBodyContainer?'live-player-room__body__hidden':''}}">
+                        <view class="live-player-room__body__msg-list {{live.pageCommentAreaClass}} {{live.isHideRoomBodyContainer?'live-player-room__body__hidden':''}}" style="{{live.pageCommentAreaStyle}}">
+                            <view class="live-player-room__body__activity-item">
+                                <component-comments class="mod-comments {{live.isBgMeeting?'mod-comments__allenLive':''}}" componentName="endComments" id="component-comments" isPushStream="{{live.isPushStream}}" screenType="{{live.screenType}}" showLotteryOper="{{live.showLotteryOper}}" showPushComment="{{live.showPushComment}}" waterMarkBottom="{{live.waterMarkBottom}}" windowHeight="{{live.windowHeight}}" windowWidth="{{live.windowWidth}}" wx:if="{{!live.hideComment}}"></component-comments>
+                            </view>
+                            <view class="live-player-room__body__activity-item"></view>
+                        </view>
+                        <view class="live-player-normal__operation live-player-room__body__operation {{live.showPushComment&&!live.showLotteryOper||live.showVideoDotList?'live-player-room__body__operation__hidden':''}}">
+                            <component-person-operation class="mode-person-operation" id="component-person-operation"></component-person-operation>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </block>
+    </view>
+    <view class="live-player live-page-1 live-player-unusual" wx:else>
+        <component-top-player id="component-top-player"></component-top-player>
+        <view class="live-player-unusual__container">
+            <mp-icon color="#FFF" icon="error" size="{{64}}" type="outline"></mp-icon>
+            <view class="live-player-unusual__info">{{live.roomErrorWording}}</view>
+        </view>
+    </view>
+</page-meta>
+<component-store-list class="component mode__store-list {{live.pageStoreAreaClass}}" id="component-store-list" wx:if="{{live.curLiveStatusCode!==103||live.curLiveStatusCode===103&&live.showRecord}}"></component-store-list>
+<component-profile-modal class="mod-profile-modal" id="component-profile-modal" isShow="{{live.showProfileModal&&!live.isGovernment}}" wx:if="{{live.showProfileModal&&!live.isGovernment}}"></component-profile-modal>
+<component-forbid-user-list class="forbid__user__list" id="component-forbid-user-list" wx:if="{{live.showForbidUserList}}"></component-forbid-user-list>
+<component-comment-action-sheet class id="component-comment-action-sheet"></component-comment-action-sheet>
+<component-lottery-oper class="mod-lottery-oper" id="component-lottery-oper" wx:if="{{!live.isClearScreen&&live.showLotteryOper&&!live.isShareFriendsScene}}"></component-lottery-oper>
+<component-advance-detail id="component-advance-detail" wx:if="{{live.curLiveStatusCode===102&&live.showAdvanceDetail}}"></component-advance-detail>
+<component-setting-more class="mode__setting__more" id="component-setting-more" isShow="{{live.showOperationPanel&&live.showMoreIcon}}" wx:if="{{live.showOperationPanel&&live.showMoreIcon}}"></component-setting-more>
+<component-attention-guide class="mode__attention-guide" id="component-attention-guide" wx:if="{{live.showAttentionGuide}}"></component-attention-guide>
+<component-share-panel id="component-share-panel" wx:if="{{live.showSharePanel}}"></component-share-panel>
+<component-mic-panel bindcustomevent="onMicPanelPlayerEvent" class="mode__mic__panel" hidden="{{live.showRecord}}" id="component-mic-panel-player" isShow="{{live.showMicPanel}}" linkMicType="{{live.linkMicType}}" micPanelMode="{{live.micPanelMode}}" wx:if="{{live.showMicPanel&&!live.showPushComment}}"></component-mic-panel>
+<component-help-panel id="component-help-panel" style="{{live.showRecord?'position: absolute; bottom: -900px;':''}}"></component-help-panel>
+<component-help-rule-panel id="component-help-rule-panel" style="{{live.showRecord?'position: absolute; bottom: -900px;':''}}"></component-help-rule-panel>
+<component-lottery-fill-phone id="component-lottery-fill-phone" wx:if="{{live.showLowVersionFillPhone}}"></component-lottery-fill-phone>
+<movable-area class="mode__mic-tag-movable-area" hidden="{{live.showRecord||live.showPushComment||live.micPanelMode==4&&!live.showMicPanel}}" style="width: {{live.windowWidth>0?live.windowWidth-24+'px;':'100%'}}; height: {{live.micPanelMode==4?'100%;':live.commentTop-live.waterMarkBottom-52+'px;'}} pointer-events:none; top: {{live.micPanelMode==4?'0':live.waterMarkBottom+52}}px; left: {{live.windowWidth>0?'12px;':'0px;'}}" wx:if="{{live.micPanelMode==3||live.micPanelMode==4||live.showOthersMicTag}}">
+    <movable-view animation="{{false}}" bindtouchend="mvTouchEnd" bindtouchstart="mvTouchStart" class="mode__mic-tag {{live.micPanelMode==4?'mode__mic-tag_inviting':''}}" direction="all" disabled="{{!(live.micPanelMode==3&&live.linkMicType==1)}}" hidden="{{!(live.micTagLeft>=0)||!(live.micTagTop>=0)}}" inertia="{{true}}" style="{{live.isClearScreen?'':'pointer-events: auto;'}} {{live.linkMicType==1&&live.micPanelMode==3?'width: 120px; height: 160px;':'width: 88px; height: 109px;'}} {{live.micTagTop>=0&&live.micTagLeft>=0&&!live.showPushComment?'':'position: absolute; bottom: -900px;'}}" x="{{live.micTagLeft}}" y="{{live.micPanelMode==4?live.micTagTop:live.micTagTop-live.waterMarkBottom-52}}">
+        <component-mic-tag id="component-mic-tag" style="pointer-events:auto;"></component-mic-tag>
+    </movable-view>
+</movable-area>
+<component-auto-reply-panel id="component-auto-reply-panel"></component-auto-reply-panel>

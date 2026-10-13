@@ -1,0 +1,18 @@
+{
+  "code": 1,
+  "data": {
+    "paramKey": "LINE_PLATFORM_REMINDER",
+    "paramName": "平台提醒",
+    "paramValue": "",
+    "memo": "线路产品平台提醒",
+    "isConfigurable": 1,
+    "operatorType": 1,
+    "operatorId": "1",
+    "createTime": null,
+    "updateTime": "2023-11-09 17:30:45",
+    "isDeleted": 0,
+    "serviceType": 0
+  },
+  "msg": "成功",
+  "success": true
+}

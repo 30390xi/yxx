@@ -1,0 +1,12 @@
+<view class="verify-success data-v-b97d9200">
+    <view class="verify-success-box data-v-b97d9200">
+        <image class="icon data-v-b97d9200" src="https://eshopfile.zhiyousx.com/2023102714172210590.png"></image>
+        <view class="title data-v-b97d9200">核验成功</view>
+        <view class="use-num data-v-b97d9200">某某景区您已使用1次<text class="data-v-b97d9200">剩余9次</text>
+        </view>
+        <view class="look-other data-v-b97d9200">查看其他权益<image class="data-v-b97d9200" src="https://eshopfile.zhiyousx.com/2023102614083173967.png"></image>
+        </view>
+    </view>
+    <view class="divider dashed data-v-b97d9200"></view>
+    <person-info bind:__l="__l" class="data-v-b97d9200" vueId="a5c6b104-1"></person-info>
+</view>

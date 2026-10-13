@@ -1,0 +1,188 @@
+{
+  "code": 1,
+  "data": {
+    "records": [
+      {
+        "scenicId": "1320579064720941183",
+        "scenicName": "秦始皇帝陵博物院(兵马俑)",
+        "tag": "秦始皇帝陵博物院 世界第八大奇迹",
+        "mainPicture": "https://eshopfile.zhiyousx.com/2025060919451590141.jpg",
+        "firstContentRankingId": "1439119981701840898",
+        "originSortInRankingVO": {
+          "contentId": "1439119981701840898",
+          "rankingId": null,
+          "indexInRanking": 1,
+          "rankingName": "陕西人气博物馆排行榜",
+          "rankingType": null,
+          "tagUrl": null
+        },
+        "distance": 884.76,
+        "isBookable": true
+      },
+      {
+        "scenicId": "1320579064720941133",
+        "scenicName": "陕西历史博物馆",
+        "tag": "在这里，见证中华文明",
+        "mainPicture": "https://eshopfile.zhiyousx.com/2021081714345787633.jpg",
+        "firstContentRankingId": "1439119981701840898",
+        "originSortInRankingVO": {
+          "contentId": "1439119981701840898",
+          "rankingId": null,
+          "indexInRanking": 2,
+          "rankingName": "陕西人气博物馆排行榜",
+          "rankingType": null,
+          "tagUrl": null
+        },
+        "distance": 918.49,
+        "isBookable": false
+      },
+      {
+        "scenicId": "1320579064699969540",
+        "scenicName": "大慈恩寺(大雁塔)",
+        "tag": "这就是唐僧翻译经文的地方",
+        "mainPicture": "https://eshopfile.zhiyousx.com/2021061711283449827.jpg",
+        "firstContentRankingId": "1551836855409541121",
+        "originSortInRankingVO": {
+          "contentId": "1551836855409541121",
+          "rankingId": null,
+          "indexInRanking": 10,
+          "rankingName": "外地游客西安必逛榜",
+          "rankingType": null,
+          "tagUrl": null
+        },
+        "distance": 918.22,
+        "isBookable": false
+      },
+      {
+        "scenicId": "1320579064720941134",
+        "scenicName": "西安碑林博物馆",
+        "tag": "历史文化宝库,书法艺术殿堂",
+        "mainPicture": "https://eshopfile.zhiyousx.com/3333-1-20201029161416.jpg",
+        "firstContentRankingId": "1439119981701840898",
+        "originSortInRankingVO": {
+          "contentId": "1439119981701840898",
+          "rankingId": null,
+          "indexInRanking": 6,
+          "rankingName": "陕西人气博物馆排行榜",
+          "rankingType": null,
+          "tagUrl": null
+        },
+        "distance": 915.26,
+        "isBookable": true
+      },
+      {
+        "scenicId": "1320579064720941107",
+        "scenicName": "延安革命纪念馆",
+        "tag": "建国60年百项经典暨精品工程",
+        "mainPicture": "https://eshopfile.zhiyousx.com/2021062116130226205.jpg",
+        "firstContentRankingId": null,
+        "originSortInRankingVO": {
+          "contentId": "1574974899180212226",
+          "rankingId": null,
+          "indexInRanking": 11,
+          "rankingName": "陕西免费景区人气榜",
+          "rankingType": null,
+          "tagUrl": null
+        },
+        "distance": 711.37,
+        "isBookable": false
+      },
+      {
+        "scenicId": "1320579064188264540",
+        "scenicName": "大唐芙蓉园",
+        "tag": "进入中国盛唐文化之旅",
+        "mainPicture": "https://eshopfile.zhiyousx.com/2024040611170971691.jpg",
+        "firstContentRankingId": "1538830830115508226",
+        "originSortInRankingVO": {
+          "contentId": "1538830830115508226",
+          "rankingId": null,
+          "indexInRanking": 7,
+          "rankingName": "西安必游人气排行榜",
+          "rankingType": null,
+          "tagUrl": null
+        },
+        "distance": 918.08,
+        "isBookable": true
+      },
+      {
+        "scenicId": "1516616676576112642",
+        "scenicName": "长安十二时辰主题街区",
+        "tag": "全唐市井文化生活体验地",
+        "mainPicture": "https://eshopfile.zhiyousx.com/2022042016341704740.jpg",
+        "firstContentRankingId": "1538830830115508226",
+        "originSortInRankingVO": {
+          "contentId": "1538830830115508226",
+          "rankingId": null,
+          "indexInRanking": 1,
+          "rankingName": "西安必游人气排行榜",
+          "rankingType": null,
+          "tagUrl": null
+        },
+        "distance": 918.6,
+        "isBookable": true
+      },
+      {
+        "scenicId": "1320579064720941132",
+        "scenicName": "西安城墙",
+        "tag": "可以穿越的历史，有多少年？",
+        "mainPicture": "https://eshopfile.zhiyousx.com/2021061714081031680.png",
+        "firstContentRankingId": "1538830830115508226",
+        "originSortInRankingVO": {
+          "contentId": "1538830830115508226",
+          "rankingId": null,
+          "indexInRanking": 2,
+          "rankingName": "西安必游人气排行榜",
+          "rankingType": null,
+          "tagUrl": null
+        },
+        "distance": 916.85,
+        "isBookable": true
+      },
+      {
+        "scenicId": "1320579064720941178",
+        "scenicName": "太白山国家森林公园",
+        "tag": "南北分界线：岩崖已奇绝 冰雪竟雕皱",
+        "mainPicture": "https://eshopfile.zhiyousx.com/太白山1-20201028153503.jpg",
+        "firstContentRankingId": null,
+        "originSortInRankingVO": {
+          "contentId": "1692113814122344449",
+          "rankingId": null,
+          "indexInRanking": 4,
+          "rankingName": "宝鸡自然风光排行榜",
+          "rankingType": null,
+          "tagUrl": null
+        },
+        "distance": 993.37,
+        "isBookable": false
+      },
+      {
+        "scenicId": "1320579064720941177",
+        "scenicName": "华山风景名胜区",
+        "tag": "奇险天下第一山",
+        "mainPicture": "https://eshopfile.zhiyousx.com/2021072617093057217.jpg",
+        "firstContentRankingId": "1455112666791124994",
+        "originSortInRankingVO": {
+          "contentId": "1455112666791124994",
+          "rankingId": null,
+          "indexInRanking": 2,
+          "rankingName": "渭南自驾游景点排行榜",
+          "rankingType": null,
+          "tagUrl": null
+        },
+        "distance": 826.32,
+        "isBookable": true
+      }
+    ],
+    "total": 915,
+    "size": 10,
+    "current": 1,
+    "orders": [],
+    "optimizeCountSql": true,
+    "searchCount": true,
+    "maxLimit": null,
+    "countId": null,
+    "pages": 92
+  },
+  "msg": "成功",
+  "success": true
+}

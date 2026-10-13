@@ -1,0 +1,26 @@
+<view class="advance-detail {{previewType==1?'advance-detail__image':''}}">
+    <view class="advance-detail__container">
+        <view class="advance-detail__mask">
+            <view class="advance-detail__inner">
+                <view class="advance-detail__panel">
+                    <view class="advance-detail__content">
+                        <view class="advance-detail__image" style="background: url({{previewImgUrl}}) no-repeat center center / cover" wx:if="{{previewType==1}}"></view>
+                        <view class="advance-detail__body">
+                            <view class="advance-detail__title">{{roomTitle}}</view>
+                            <view class="advance-detail__info">{{previewText}}</view>
+                        </view>
+                    </view>
+                    <view class="advance-detail__count-time">
+                        <view class="advance-detail__count-time__body">
+                            <view class="advance-detail__count-time__title">开播倒计时</view>
+                            <view class="advance-detail__count-time__info">{{countdownTimeContent}}</view>
+                        </view>
+                        <view bindtap="onSubscribe" class="advance-detail__count-time__extend" wx:if="{{!isSubscribe}}">开播提醒</view>
+                        <view bindtap="onUnsubscribe" class="advance-detail__count-time__extend advance-detail__count-time__extend-disabled" wx:else>取消提醒</view>
+                    </view>
+                </view>
+                <view bindtap="closeAdvanceDetail" class="advance-detail__close"></view>
+            </view>
+        </view>
+    </view>
+</view>

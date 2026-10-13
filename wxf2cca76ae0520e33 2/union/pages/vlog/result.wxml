@@ -1,0 +1,33 @@
+<view class="container data-v-fed9c87c" style="{{'padding-top:'+navBarHeight+';'}}">
+    <uni-navbar bind:__l="__l" class="data-v-fed9c87c" title="vlog" type="transparentFixed" vueId="47d36711-1"></uni-navbar>
+    <view class="head data-v-fed9c87c">
+        <image class="cust-img data-v-fed9c87c" src="https://eshopfile.zhiyousx.com/176913615138339744.png" style="width:100%;height:100%;"></image>
+        <view class="cust-video _div data-v-fed9c87c">
+            <video-play bind:__l="__l" class="video-box data-v-fed9c87c" isRadius="{{true}}" poster="{{posterUrl}}" videoUrl="{{videoUrl}}" vueId="47d36711-2"></video-play>
+        </view>
+        <view bindtap="__e" class="right-tip _div data-v-fed9c87c" data-event-opts="{{[ [ 'tap',[ [ 'handleRecord',['$event'] ] ] ] ]}}" wx:if="{{type!='share'}}">
+            <image class="data-v-fed9c87c" src="https://eshopfile.zhiyousx.com/176913458203456352.png" style="width:40rpx;height:40rpx;"></image>{{''+$root.m0+''}}</view>
+    </view>
+    <view class="footer data-v-fed9c87c" wx:if="{{type!='share'}}">
+        <view class="btn-g data-v-fed9c87c">
+            <view class="gradient-btn data-v-fed9c87c">
+                <view class="btn-content data-v-fed9c87c">
+                    <button class="share-btn data-v-fed9c87c" id="sharebtncust" openType="share">
+                        <image class="share-img data-v-fed9c87c" src="https://eshopfile.zhiyousx.com/176913471242802236.png" style="width:40rpx;height:40rpx;"></image>{{''+$root.m1+''}}</button>
+                </view>
+            </view>
+            <view bindtap="__e" class="gradient-btn data-v-fed9c87c" data-event-opts="{{[ [ 'tap',[ [ 'download',['$event'] ] ] ] ]}}">
+                <view class="btn-content data-v-fed9c87c">
+                    <image class="data-v-fed9c87c" src="https://eshopfile.zhiyousx.com/176913475319370473.png" style="width:40rpx;height:40rpx;"></image>
+                    <view class="btn-text _div data-v-fed9c87c">{{$root.m2}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="{{20}}" class="popup-full-width data-v-fed9c87c" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','downSuccess','$event',[] ] ] ] ] ]}}" height="20%" mode="center" value="{{downSuccess}}" vueId="47d36711-3" vueSlots="{{['default']}}" width="60%" wx:if="{{downSuccess}}">
+        <view class="down-content data-v-fed9c87c">
+            <image class="success-icon data-v-fed9c87c" src="https://eshopfile.zhiyousx.com/176913679707171045.png" style="width:300rpx;height:170rpx;object-fit:cover;"></image>
+            <view class="title data-v-fed9c87c">{{$root.m3}}</view>
+        </view>
+    </u-popup>
+</view>

@@ -1,0 +1,50 @@
+<view class="{{['weather-card','data-v-552cf4c6',weatherClass]}}">
+    <view class="current-weather data-v-552cf4c6">
+        <view class="city-info data-v-552cf4c6">
+            <text class="city-name data-v-552cf4c6">{{weatherToday.cityName}}</text>
+        </view>
+        <view class="weather-main data-v-552cf4c6">
+            <text class="temperature data-v-552cf4c6">{{weatherToday.currentTemp}}</text>
+            <text class="weather-text data-v-552cf4c6">{{weatherToday.weatherCondition}}</text>
+            <image class="weather-icon-img data-v-552cf4c6" src="{{$root.m1}}" wx:if="{{$root.m0}}"></image>
+        </view>
+        <view class="weather-details data-v-552cf4c6">
+            <text class="detail-text data-v-552cf4c6">{{'体感温度'+weatherToday.feelsLikeTemp}}</text>
+            <text class="separator data-v-552cf4c6">|</text>
+            <text class="detail-text data-v-552cf4c6">{{'紫外线指数'+weatherToday.ultraviolet}}</text>
+            <text class="separator data-v-552cf4c6">|</text>
+            <text class="detail-text data-v-552cf4c6">{{'空气质量'+weatherToday.airQuality}}</text>
+        </view>
+    </view>
+    <view class="weather-tips data-v-552cf4c6">
+        <view bindtouchcancel="__e" bindtouchend="__e" bindtouchstart="__e" class="weather-tip left data-v-552cf4c6" data-event-opts="{{[ [ 'touchstart',[ [ 'handleTouchStart',['$event'] ] ] ],[ 'touchend',[ [ 'handleTouchEnd',['$event'] ] ] ],[ 'touchcancel',[ [ 'handleTouchEnd',['$event'] ] ] ] ]}}">
+            <view class="tipsPop data-v-552cf4c6" wx:if="{{showPopUp}}">{{''+weatherToday.dressAdvice+''}}</view>
+            <view class="title data-v-552cf4c6">穿衣推荐<image class="data-v-552cf4c6" src="https://eshopfile.zhiyousx.com/175497114528267063.png"></image>
+            </view>
+            <view class="detail singleLineText data-v-552cf4c6">{{''+weatherToday.dressAdvice+''}}</view>
+            <view class="tips data-v-552cf4c6">{{''+weatherToday.nightTemp+'~'+weatherToday.dayTemp+''}}</view>
+        </view>
+        <view class="weather-tip right data-v-552cf4c6">
+            <view class="title data-v-552cf4c6">未来5小时降水<image class="data-v-552cf4c6" src="https://eshopfile.zhiyousx.com/175497126266020025.png"></image>
+            </view>
+            <view class="detail singleLineText data-v-552cf4c6">{{''+(weatherToday.willRain?'有概率会降雨':'无降雨')+''}}</view>
+            <view class="tips data-v-552cf4c6">{{weatherToday.willRain?'记得带伞哦':'可以正常出行'}}</view>
+        </view>
+    </view>
+    <view class="forecast-section data-v-552cf4c6">
+        <view class="forecast-header data-v-552cf4c6">未来七天天气预报</view>
+        <view class="forecast-list data-v-552cf4c6">
+            <view class="forecast-item data-v-552cf4c6" wx:for="{{$root.l0}}" wx:key="index">
+                <view class="day-info data-v-552cf4c6">
+                    <view class="day-text data-v-552cf4c6">{{item.m2}}</view>
+                    <view class="date-text data-v-552cf4c6">{{item.g0[1]+'月'+item.g1[2]+'日'}}</view>
+                </view>
+                <view class="weather-icon data-v-552cf4c6">
+                    <image class="weather-icon-img data-v-552cf4c6" src="{{item.m4}}" wx:if="{{item.m3}}"></image>
+                    <view class="weather-icon-text data-v-552cf4c6">{{item.$orig.weather_day}}</view>
+                </view>
+                <view class="temperature-range data-v-552cf4c6">{{''+item.$orig.temp_low+'°~'+item.$orig.temp_high+'°'}}</view>
+            </view>
+        </view>
+    </view>
+</view>

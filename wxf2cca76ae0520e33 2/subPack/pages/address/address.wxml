@@ -1,0 +1,20 @@
+<view class="addressBox data-v-d560dd86">
+    <block wx:if="{{$root.g0>0}}">
+        <view catchtap="__e" class="contents data-v-d560dd86" data-event-opts="{{[ [ 'tap',[ [ 'goAddress',['edit','$0'],[ [ ['addressList','',index,'addrId'] ] ] ] ] ] ]}}" wx:for="{{$root.l0}}" wx:key="index">
+            <view class="top data-v-d560dd86">
+                <view class="data-v-d560dd86">{{item.$orig.contactPerson}}</view>
+                <view class="data-v-d560dd86">{{item.f0}}</view>
+                <view class="tabel red data-v-d560dd86" wx:if="{{item.$orig.isDefault===1}}">默认</view>
+            </view>
+            <view class="bottom data-v-d560dd86">
+                <view class="left data-v-d560dd86">
+                    <view class="text data-v-d560dd86">{{item.$orig.addrRegion1Name+item.$orig.addrRegion2Name+item.$orig.addrRegion3Name+item.$orig.addrStreet}}</view>
+                </view>
+                <uni-icons bind:__l="__l" class="data-v-d560dd86" color="#878787" size="22" type="compose" vueId="{{'ab64e128-1-'+index}}" wx:if="{{!addrId}}"></uni-icons>
+            </view>
+        </view>
+    </block>
+    <empty-state bind:__l="__l" class="data-v-d560dd86" imgUrl="https://eshopfile.zhiyousx.com/noGoods@2x.png" text="没有收货地址" vueId="ab64e128-2" wx:else></empty-state>
+    <button bindtap="__e" class="loginSub data-v-d560dd86" data-event-opts="{{[ [ 'tap',[ [ 'goAddress',['add'] ] ] ] ]}}">
+        <uni-icons bind:__l="__l" class="data-v-d560dd86" color="#fff" size="16" type="plusempty" vueId="ab64e128-3"></uni-icons>添加收货地址</button>
+</view>

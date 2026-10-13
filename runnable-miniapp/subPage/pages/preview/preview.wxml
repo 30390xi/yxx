@@ -1,0 +1,15 @@
+<view class="u-wrap data-v-027fdb71" style="{{'padding-top:'+statusBarHeight+12+'px'+';'}}">
+    <view class="maskTop data-v-027fdb71">
+        <view class="num data-v-027fdb71">{{''+swiperCurrent+' / '+swiperLenght+''}}</view>
+    </view>
+    <swiper bindchange="__e" class="swiper data-v-027fdb71" current="{{currentSwiper}}" data-event-opts="{{[ [ 'change',[ [ 'swiperChange',['$event'] ] ] ] ]}}" duration="{{duration}}">
+        <swiper-item class="data-v-027fdb71" wx:for="{{dataList}}" wx:key="index">
+            <view class="swiper-item data-v-027fdb71" wx:if="{{item.resourcesType==1}}">
+                <image class="data-v-027fdb71" mode="widthFix" src="{{item.resourcesUrl}}"></image>
+            </view>
+            <view class="swiper-item data-v-027fdb71" wx:if="{{swiperCurrent==index+1}}">
+                <video autoplay="{{true}}" class="swiper-item data-v-027fdb71 vue-ref-in-for" controls="{{true}}" data-ref="video" src="{{item.resourcesUrl}}"></video>
+            </view>
+        </swiper-item>
+    </swiper>
+</view>

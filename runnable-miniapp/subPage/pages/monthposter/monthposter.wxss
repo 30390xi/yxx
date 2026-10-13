@@ -1,0 +1,1 @@
+.picwalls.data-v-f1c18bce{background:linear-gradient(180deg,#339a81,#f0fbc4);min-height:100vh}.picwall.data-v-f1c18bce{display:-webkit-flex;display:flex;flex-wrap:wrap;padding:40rpx 30rpx}.picwall .item-img.data-v-f1c18bce{border-radius:10rpx;height:220rpx;margin-bottom:10rpx;margin-left:15rpx;width:220rpx}.picwall .item-img.data-v-f1c18bce:nth-child(3n-2){margin-left:0}

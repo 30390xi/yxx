@@ -1,0 +1,10 @@
+<view class="data-v-26c6a14f">
+    <view class="page-box data-v-26c6a14f">
+        <video bindpause="__e" bindplay="__e" bindtimeupdate="__e" class="video data-v-26c6a14f" controls="{{false}}" customCache="{{false}}" data-event-opts="{{[ [ 'play',[ [ 'videoPlay',['$event'] ] ] ],[ 'pause',[ [ 'videopause',['$event'] ] ] ],[ 'timeupdate',[ [ 'videoUpdate',['$event'] ] ] ] ]}}" enablePlayGesture="{{true}}" id="videoPlayer" loop="true" showCenterPlayBtn="{{false}}" src="https://eshopfile.zhiyousx.com/teamVideo2.mp4">
+            <view class="codeBox data-v-26c6a14f" wx:if="{{currentTime>2||!isPlay}}">
+                <image bindtap="__e" class="icon icon2 data-v-26c6a14f" data-event-opts="{{[ [ 'tap',[ [ 'iconClick',[2] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/2025111214435586852.png"></image>
+                <image bindtap="__e" class="icon icon1 data-v-26c6a14f" data-event-opts="{{[ [ 'tap',[ [ 'iconClick',[1] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/2025111214435980756.png"></image>
+            </view>
+        </video>
+    </view>
+</view>

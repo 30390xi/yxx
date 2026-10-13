@@ -1,0 +1,388 @@
+<view class="page-box data-v-e8182906">
+    <order-nav active="{{2}}" bind:__l="__l" class="data-v-e8182906" vueId="98ebca94-1"></order-nav>
+    <view class="pb data-v-e8182906">
+        <view class="order-info data-v-e8182906">
+            <view class="title data-v-e8182906">{{''+lineProductInfo.productName+''}}</view>
+            <view class="info-box data-v-e8182906">
+                <view class="info-it data-v-e8182906" wx:if="{{lineProductInfo.relationProductName}}">
+                    <image mode class="icon data-v-e8182906" src="https://eshopfile.zhiyousx.com/2023091811405282175.png"></image>
+                    <view class="text data-v-e8182906">{{lineProductInfo.relationProductName}}</view>
+                </view>
+                <view class="info-it data-v-e8182906">
+                    <image mode class="icon data-v-e8182906" src="https://eshopfile.zhiyousx.com/169883967619693905.png"></image>
+                    <view class="text data-v-e8182906">{{$root.m0}}</view>
+                </view>
+            </view>
+            <view class="tips-box data-v-e8182906">
+                <view class="tips-l data-v-e8182906">
+                    <label class="bookingTimeStr _span data-v-e8182906">{{refundDetail.refundDesc}}</label>费用说明</view>
+                <view bindtap="__e" class="tips-r data-v-e8182906" data-event-opts="{{[ [ 'tap',[ ['buyTip'] ] ] ]}}">
+                    <view class="t data-v-e8182906">购买须知</view>
+                    <image mode class="icon data-v-e8182906" src="https://eshopfile.zhiyousx.com/2023091816345862711.png"></image>
+                </view>
+            </view>
+        </view>
+        <view class="num-box data-v-e8182906" style="{{'padding-bottom:'+(surplusStock>0&&surplusStock<=20?'0':'40rpx')+';'}}">
+            <view class="item data-v-e8182906" wx:if="{{item.$orig.price!=null}}" wx:for="{{$root.l0}}" wx:key="index">
+                <view class="item-l data-v-e8182906">
+                    <view class="p1 data-v-e8182906">
+                        <view class="type data-v-e8182906">{{item.f0}}</view>
+                        <view class="t data-v-e8182906">{{item.m1}}</view>
+                    </view>
+                </view>
+                <view class="item-r data-v-e8182906">
+                    <view class="price data-v-e8182906">
+                        <text class="{{['data-v-e8182906',item.$orig.num>0?'actColor':'']}}" style="font-size:24rpx;">￥</text>
+                        <text class="{{['data-v-e8182906',item.$orig.num>0?'actColor':'']}}">{{item.$orig.price}}</text>
+                    </view>
+                    <view class="select-box data-v-e8182906">
+                        <view bindtap="__e" class="sb-it data-v-e8182906" data-event-opts="{{[ [ 'tap',[ [ 'reduceNum',[index,'$0'],[ [ ['priceInfo','',index] ] ] ] ] ] ]}}">-</view>{{''+item.$orig.num+''}}<view bindtap="__e" class="sb-it data-v-e8182906" data-event-opts="{{[ [ 'tap',[ [ 'addNum',[index,'$0'],[ [ ['priceInfo','',index] ] ] ] ] ] ]}}">+</view>
+                    </view>
+                </view>
+            </view>
+            <view class="p2 data-v-e8182906" wx:if="{{surplusStock>=0&&surplusStock<=20}}">{{'剩余库存'+surplusStock}}</view>
+        </view>
+        <view class="tourists-box data-v-e8182906" wx:if="{{allTicNum>0}}">
+            <view class="title-box data-v-e8182906">
+                <view class="title data-v-e8182906">{{'选择'+allTicNum+'位游客'}}</view>
+                <view class="sub data-v-e8182906">
+                    <label class="_span data-v-e8182906" wx:if="{{$root.m2!=='已选满'}}">还需选择</label>
+                    <text class="actColor data-v-e8182906" style="font-size:24rpx;">{{$root.m3}}</text>
+                </view>
+            </view>
+            <view class="single data-v-e8182906" wx:if="{{typeNum==1}}">
+                <scroll-view class="passenger-box data-v-e8182906" scrollX="{{true}}">
+                    <view bindtap="__e" class="{{['user','data-v-e8182906',item.g0?'active':'',!item.g1?'dis':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeTourist',['$0',index],[ [ ['commonUsedTouristList','',index] ] ] ] ] ] ]}}" wx:if="{{item.$orig.idCarNo}}" wx:for="{{$root.l1}}" wx:key="index">{{''+item.$orig.name+''}}</view>
+                    <view bindtap="__e" class="user-but data-v-e8182906" data-event-opts="{{[ [ 'tap',[ [ 'chooseUser',['$0',0,'$1'],['actIndex','priceInfo.'+actIndex+''] ] ] ] ]}}">
+                        <view class="but data-v-e8182906">{{''+(commonUsedTouristList[0]?'新增/更换':'+ 新增信息')+''}}</view>
+                    </view>
+                </scroll-view>
+                <view bindtap="__e" class="user-item data-v-e8182906" data-event-opts="{{[ [ 'tap',[ [ 'chooseUser',['$0',0,'$1'],['actIndex','priceInfo.'+actIndex+''] ] ] ] ]}}" wx:for="{{priceInfo[actIndex].userList}}">
+                    <view class="u-item-l data-v-e8182906">
+                        <image mode bindtap="__e" class="icon data-v-e8182906" data-event-opts="{{[ [ 'tap',[ [ 'deleteUser',[index] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/2023091815384493978.png"></image>
+                        <view class="info data-v-e8182906">
+                            <view class="name data-v-e8182906">{{''+item.name+''}}</view>
+                            <view class="card data-v-e8182906">证件号<text class="data-v-e8182906" style="margin-left:30rpx;font-size:26rpx;color:#777777;">{{item.idCarNo}}</text>
+                            </view>
+                        </view>
+                    </view>
+                    <image mode class="u-item-r data-v-e8182906" src="https://eshopfile.zhiyousx.com/169415863023853994.png"></image>
+                </view>
+                <view class="data-v-e8182906" style="height:40rpx;"></view>
+            </view>
+            <view class="multi data-v-e8182906" wx:if="{{typeNum>1}}">
+                <view class="m-class data-v-e8182906" wx:if="{{item.$orig.num>0}}" wx:for="{{$root.l2}}" wx:key="index">
+                    <view class="mc-info data-v-e8182906">
+                        <view class="mc-info-l data-v-e8182906">{{item.f1}}</view>
+                        <view class="mc-info-r data-v-e8182906">{{'× '+item.$orig.num}}</view>
+                    </view>
+                    <view class="m-user-box data-v-e8182906">
+                        <view class="mu-item data-v-e8182906" wx:for="{{item.$orig.userList}}" wx:for-index="i" wx:for-item="it">
+                            <image mode bindtap="__e" class="icon data-v-e8182906" data-event-opts="{{[ [ 'tap',[ [ 'delUser',[index,i,'$0'],[ [ ['priceInfo','',index],['userList','',i] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/2023091815384493978.png"></image>
+                            <view bindtap="__e" class="it-info data-v-e8182906" data-event-opts="{{[ [ 'tap',[ [ 'chooseUser',[index,i,'$0'],[ [ ['priceInfo','',index] ] ] ] ] ] ]}}">
+                                <view class="it-flex data-v-e8182906">
+                                    <view class="name data-v-e8182906">{{it.name}}</view>
+                                    <view class="card data-v-e8182906">{{'证件号：'+it.idCarNo}}</view>
+                                </view>
+                                <image mode class="u-item-r data-v-e8182906" src="https://eshopfile.zhiyousx.com/169415863023853994.png"></image>
+                            </view>
+                        </view>
+                        <view bindtap="__e" class="mu-add data-v-e8182906" data-event-opts="{{[ [ 'tap',[ [ 'chooseUser',[index,'$0','$1'],[ 'i',[ ['priceInfo','',index] ] ] ] ] ] ]}}" wx:if="{{item.$orig.num>item.g2}}">
+                            <image mode class="icon data-v-e8182906" src="https://eshopfile.zhiyousx.com/2023091816291655724.png"></image>
+                            <view class="add-tip data-v-e8182906">{{'需选择'+item.$orig.num-item.g3+'位游客信息'}}</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="contact-box data-v-e8182906">
+            <view class="title data-v-e8182906">联系人信息</view>
+            <view class="row-it data-v-e8182906">
+                <view class="label data-v-e8182906">姓名</view>
+                <input bindblur="__e" bindinput="__e" class="data-v-e8182906" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '','contactPerson','$event',['trim'] ] ] ] ],[ 'blur',[ ['$forceUpdate'] ] ] ]}}" data-type="name" placeholder="请填写姓名" value="{{contactPerson}}"></input>
+            </view>
+            <view class="row-it data-v-e8182906">
+                <view class="label data-v-e8182906">手机号码</view>
+                <input bindblur="__e" bindinput="__e" class="data-v-e8182906" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '','contactTel','$event',['trim'] ] ] ] ],[ 'blur',[ ['$forceUpdate'] ] ] ]}}" placeholder="请填写手机号码" type="number" value="{{contactTel}}"></input>
+            </view>
+        </view>
+        <view class="other-box data-v-e8182906" wx:if="{{$root.g4>0}}">
+            <view class="title data-v-e8182906">其他信息</view>
+            <view class="row-it data-v-e8182906" wx:for="{{otherInfoList}}">
+                <view class="row-it-box data-v-e8182906">
+                    <view class="label data-v-e8182906">{{''+item.title+''}}</view>
+                    <view class="val data-v-e8182906" wx:if="{{item.type==1}}">
+                        <input bindblur="__e" bindinput="__e" class="data-v-e8182906" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '$0','val','$event',['trim'] ],[ [ ['otherInfoList','',index] ] ] ],[ 'handlerChange',['$event','$0',index],[ [ ['otherInfoList','',index] ] ] ] ] ],[ 'blur',[ ['$forceUpdate'] ] ] ]}}" placeholder="{{item.content||'请填写'}}" type="text" value="{{item.val}}"></input>
+                    </view>
+                    <block wx:else>
+                        <view class="val2 data-v-e8182906" wx:if="{{item.type==2}}">
+                            <textarea autoHeight="{{true}}" bindblur="__e" bindinput="__e" class="textareas data-v-e8182906" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '$0','val','$event',['trim'] ],[ [ ['otherInfoList','',index] ] ] ],[ 'handlerChange',['$event','$0',index],[ [ ['otherInfoList','',index] ] ] ] ] ],[ 'blur',[ ['$forceUpdate'] ] ] ]}}" disableDefaultPadding="{{true}}" maxlength="-1" placeholder="{{item.content||'请填写'}}" value="{{item.val}}"></textarea>
+                        </view>
+                        <block wx:else>
+                            <view bindtap="__e" class="val val-box data-v-e8182906" data-event-opts="{{[ [ 'tap',[ [ 'showSelect',['$0',index],[ [ ['otherInfoList','',index] ] ] ] ] ] ]}}" wx:if="{{item.type==3}}">
+                                <view class="singleLineText data-v-e8182906">{{item.val||'请选择'}}</view>
+                                <uni-icons bind:__l="__l" class="data-v-e8182906" color="#BDBDBD" size="19" style="margin-left:4rpx;" type="arrowright" vueId="{{'98ebca94-2-'+index}}"></uni-icons>
+                            </view>
+                            <block wx:else>
+                                <view class="val1 data-v-e8182906" wx:if="{{item.type==0}}">
+                                    <uni-data-select bind:__l="__l" bind:input="__e" class="data-v-e8182906" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','val','$event',[] ],[ [ ['otherInfoList','',index] ] ] ] ] ] ]}}" localdata="{{item.range}}" placeholder="请选择" value="{{item.val}}" vueId="{{'98ebca94-3-'+index}}"></uni-data-select>
+                                </view>
+                            </block>
+                        </block>
+                    </block>
+                </view>
+                <view class="tips data-v-e8182906" wx:if="{{item.description}}">{{''+item.description+''}}</view>
+            </view>
+        </view>
+        <view class="couponBox data-v-e8182906">
+            <view class="cb1 data-v-e8182906">
+                <view class="cb1-1 data-v-e8182906">优惠券</view>
+                <view class="cb1-2 data-v-e8182906" wx:if="{{discountAmount>0}}">已选1张</view>
+            </view>
+            <view bindtap="__e" class="cb2 data-v-e8182906" data-event-opts="{{[ [ 'tap',[ [ 'chooseCoupon',['$event'] ] ] ] ]}}">
+                <view class="cb2-2 data-v-e8182906" wx:if="{{$root.g5==0}}">无可用</view>
+                <block wx:else>
+                    <view class="cb2-1 data-v-e8182906" wx:if="{{discountAmount>0}}">{{'-¥'+discountAmount}}</view>
+                    <block wx:else>
+                        <view class="cb2-3 data-v-e8182906" wx:if="{{discountAmount==0}}">{{$root.g6+'张可用'}}</view>
+                    </block>
+                </block>
+                <uni-icons bind:__l="__l" class="data-v-e8182906" color="#BDBDBD" size="19" type="arrowright" vueId="98ebca94-4"></uni-icons>
+            </view>
+        </view>
+        <view class="{{['footer-box','data-v-e8182906',showPassenger?'firstTop':'']}}" style="{{'padding-bottom:'+safeAreaBottom+'rpx'+';'+'height:'+100+safeAreaBottom+'rpx'+';'}}" wx:if="{{showBar}}">
+            <view class="amount-info data-v-e8182906">
+                <view class="amount-box data-v-e8182906">
+                    <view class="price data-v-e8182906">
+                        <view class="p-it data-v-e8182906">
+                            <view class="name data-v-e8182906">小计</view>
+                            <view class="num actColor data-v-e8182906">
+                                <label class="_span data-v-e8182906" style="font-size:20rpx;">￥</label>{{allAmount+''}}</view>
+                        </view>
+                    </view>
+                </view>
+                <view bindtap="__e" class="res data-v-e8182906" data-event-opts="{{[ [ 'tap',[ ['priceInfoPopup'] ] ] ]}}">明细</view>
+                <u-icon bind:__l="__l" bind:click="__e" class="data-v-e8182906" color="#FF5411" data-event-opts="{{[ [ '^click',[ ['e0'] ] ] ]}}" name="arrow-up" size="22" style="margin-top:-4rpx;" vueId="98ebca94-5" wx:if="{{!showDetail}}"></u-icon>
+                <u-icon bind:__l="__l" bind:click="__e" class="data-v-e8182906" color="#FF5411" data-event-opts="{{[ [ '^click',[ ['e1'] ] ] ]}}" name="arrow-down" size="22" style="margin-top:-4rpx;" vueId="98ebca94-6" wx:else></u-icon>
+            </view>
+            <view bindtap="__e" class="next-btn data-v-e8182906" data-event-opts="{{[ [ 'tap',[ ['submit'] ] ] ]}}">提交订单</view>
+        </view>
+    </view>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-e8182906" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showCoupon','$event',[] ] ] ] ] ]}}" mode="bottom" value="{{showCoupon}}" vueId="98ebca94-7" vueSlots="{{['default']}}">
+        <view class="couponcardBox data-v-e8182906">
+            <view class="title data-v-e8182906">优惠券</view>
+            <scroll-view class="coupon-list data-v-e8182906" scrollY="{{true}}">
+                <view class="coupon-item data-v-e8182906" wx:for="{{$root.l3}}" wx:key="index">
+                    <view bindtap="__e" class="box data-v-e8182906" data-event-opts="{{[ [ 'tap',[ [ 'checkCoupon',['$0'],[ [ ['couponList','',index] ] ] ] ] ] ]}}">
+                        <view class="left data-v-e8182906">
+                            <view class="ceng1 data-v-e8182906" wx:if="{{item.$orig.type==3}}">
+                                <view class="money data-v-e8182906">0</view>
+                                <view class="yang data-v-e8182906">元购</view>
+                            </view>
+                            <view class="ceng1 data-v-e8182906" wx:else>
+                                <view class="yang data-v-e8182906">￥</view>
+                                <view class="money data-v-e8182906">{{item.$orig.realQuota}}</view>
+                            </view>
+                            <view class="ceng2 data-v-e8182906" wx:if="{{item.$orig.type==1&&item.$orig.threshold>0}}">{{'满'+item.$orig.threshold+'可用'}}</view>
+                            <view class="ceng2 data-v-e8182906" wx:if="{{item.$orig.type==2&&item.$orig.threshold==0}}">无门槛</view>
+                            <view class="ceng2 data-v-e8182906" wx:if="{{item.$orig.type==3}}">{{'可抵扣'+item.$orig.deductionNum+'张'}}</view>
+                        </view>
+                        <view class="right data-v-e8182906">
+                            <view class="it1 data-v-e8182906">
+                                <view class="name data-v-e8182906">{{item.$orig.name}}</view>
+                                <view class="date data-v-e8182906" wx:if="{{item.$orig.useTimeSlot==0}}">{{item.f2+'-'+item.f3}}</view>
+                                <view class="date data-v-e8182906" wx:if="{{item.$orig.useTimeSlot==1}}">{{item.$orig.validityEndTime+'前有效'}}</view>
+                                <block wx:if="{{item.$orig.useTimeSlot==2}}">
+                                    <view class="date data-v-e8182906">{{item.f4+'-'+item.f5}}</view>
+                                    <view class="date po data-v-e8182906">{{'可预订【'+item.f6+'-'+item.f7+'】的产品'}}</view>
+                                </block>
+                            </view>
+                            <view class="chooseItem data-v-e8182906">
+                                <image class="choose-style data-v-e8182906" src="https://eshopfile.zhiyousx.com/2022031716044893716.png" wx:if="{{userCouponId==item.$orig.userCouponId}}"></image>
+                                <image class="choose-style data-v-e8182906" src="https://eshopfile.zhiyousx.com/2022031716040660783.png" wx:else></image>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </scroll-view>
+            <view bindtap="__e" class="noUse data-v-e8182906" data-event-opts="{{[ [ 'tap',[ [ 'cancelCoupon',['$event'] ] ] ] ]}}">
+                <view class="wenzi data-v-e8182906">不使用优惠券</view>
+                <image class="choose-style data-v-e8182906" src="https://eshopfile.zhiyousx.com/2022031716044893716.png" wx:if="{{userCouponId==-1}}"></image>
+                <image class="choose-style data-v-e8182906" src="https://eshopfile.zhiyousx.com/2022031716040660783.png" wx:else></image>
+            </view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-e8182906" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showPassenger','$event',[] ] ] ] ] ]}}" mode="bottom" value="{{showPassenger}}" vueId="98ebca94-8" vueSlots="{{['default']}}">
+        <view class="model-box data-v-e8182906">
+            <view class="model-title data-v-e8182906">
+                <view class="model-name data-v-e8182906" wx:if="{{!modelType&&actUserInfo}}">{{''+$root.m4+''}}</view>
+                <view class="model-name data-v-e8182906" wx:if="{{modelType==1}}">新增游客</view>
+                <view class="model-name data-v-e8182906" wx:if="{{modelType==2}}">编辑游客</view>
+                <image bindtap="__e" class="close data-v-e8182906" data-event-opts="{{[ [ 'tap',[ ['closePassenger'] ] ] ]}}" src="https://eshopfile.zhiyousx.com/169345070139905990.png"></image>
+            </view>
+            <view bindtap="__e" class="addContacts data-v-e8182906" data-event-opts="{{[ [ 'tap',[ [ 'addPassenger',['$event'] ] ] ] ]}}" wx:if="{{!modelType}}">+ 新增联系人</view>
+            <view class="data-v-e8182906" wx:if="{{!modelType}}">
+                <scroll-view class="passenger-box-popup data-v-e8182906" scrollY="true">
+                    <view class="user-box data-v-e8182906" wx:for="{{$root.l4}}" wx:key="index">
+                        <view bindtap="__e" class="info-box data-v-e8182906" data-event-opts="{{[ [ 'tap',[ [ 'changeUser',['$0',index],[ [ ['commonUsedTouristList','',index] ] ] ] ] ] ]}}">
+                            <image mode class="user-change data-v-e8182906" src="https://eshopfile.zhiyousx.com/169345574106635019.png" wx:if="{{item.g7}}"></image>
+                            <image mode class="user-change data-v-e8182906" src="https://eshopfile.zhiyousx.com/169345576395787642.png" wx:else></image>
+                            <view class="{{['user-info','data-v-e8182906',!item.g8?'dis':'']}}">
+                                <view class="name data-v-e8182906">{{item.$orig.name}}</view>
+                                <view class="u-phone data-v-e8182906" wx:if="{{item.$orig.phone}}">
+                                    <view class="u-phone1 data-v-e8182906">手机号</view>
+                                    <view class="u-phone2 data-v-e8182906">{{''+item.m5+''}}</view>
+                                </view>
+                                <view class="u-phone data-v-e8182906" wx:if="{{item.$orig.idCarNo}}">
+                                    <view class="u-phone1 data-v-e8182906">证件类型</view>
+                                    <view class="u-phone2 data-v-e8182906">{{''+item.f8+''}}</view>
+                                </view>
+                                <view class="u-phone data-v-e8182906" wx:if="{{item.$orig.idCarNo}}">
+                                    <view class="u-phone1 data-v-e8182906">证件号</view>
+                                    <view class="u-phone2 data-v-e8182906">{{''+item.m6+''}}</view>
+                                </view>
+                                <view class="tips data-v-e8182906" wx:if="{{!item.$orig.idCarNo}}">请补充证件信息</view>
+                            </view>
+                        </view>
+                        <image mode bindtap="__e" class="user_edit data-v-e8182906" data-event-opts="{{[ [ 'tap',[ [ 'editPassenger',['$0'],[ [ ['commonUsedTouristList','',index] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/169415900438889645.png"></image>
+                    </view>
+                </scroll-view>
+            </view>
+            <view class="content data-v-e8182906" wx:else>
+                <view bindtap="__e" class="row-box bet data-v-e8182906" data-event-opts="{{[ [ 'tap',[ [ 'e2',['$event'] ] ] ] ]}}">
+                    <view class="label data-v-e8182906">证件类型</view>
+                    <view class="select data-v-e8182906">{{''+$root.f9+''}}<u-icon bind:__l="__l" class="data-v-e8182906" color="#333333" name="arrow-right" size="20" style="margin-left:10rpx;" vueId="{{'98ebca94-9'+','+'98ebca94-8'}}"></u-icon>
+                    </view>
+                </view>
+                <ocr-index bind:__l="__l" class="data-v-e8182906" vueId="{{'98ebca94-10'+','+'98ebca94-8'}}" vueSlots="{{['content']}}" wx:if="{{passenger.cardType==0}}">
+                    <view class="row-box data-v-e8182906" slot="content">
+                        <view class="label data-v-e8182906">姓名</view>
+                        <view class="value data-v-e8182906">
+                            <u-input bind:__l="__l" bind:input="__e" border="{{border}}" class="data-v-e8182906" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','name','$event',[] ],['passenger'] ] ] ] ]}}" placeholder="请填写" type="text" value="{{passenger.name}}" vueId="{{'98ebca94-11'+','+'98ebca94-10'}}"></u-input>
+                        </view>
+                    </view>
+                </ocr-index>
+                <view class="row-box data-v-e8182906" wx:else>
+                    <view class="label data-v-e8182906">姓名</view>
+                    <view class="value data-v-e8182906">
+                        <u-input bind:__l="__l" bind:input="__e" border="{{border}}" class="data-v-e8182906" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','name','$event',[] ],['passenger'] ] ] ] ]}}" placeholder="{{passenger.cardType==1?'请按Surname/Given name格式填写':'请填写'}}" type="text" value="{{passenger.name}}" vueId="{{'98ebca94-12'+','+'98ebca94-8'}}"></u-input>
+                    </view>
+                </view>
+                <view class="row-box data-v-e8182906">
+                    <view class="label data-v-e8182906">证件号码</view>
+                    <view class="{{['value','data-v-e8182906',passenger.cardType==0?'w390':'']}}">
+                        <u-input bind:__l="__l" bind:input="__e" border="{{border}}" class="data-v-e8182906" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','idCarNo','$event',[] ],['passenger'] ] ] ] ]}}" placeholder="请填写" type="text" value="{{passenger.idCarNo}}" vueId="{{'98ebca94-13'+','+'98ebca94-8'}}"></u-input>
+                    </view>
+                </view>
+                <view class="row-box row-box-count data-v-e8182906">
+                    <view class="label data-v-e8182906">手机号</view>
+                    <view class="value data-v-e8182906">
+                        <u-input bind:__l="__l" bind:input="__e" border="{{border}}" class="data-v-e8182906" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','phone','$event',[] ],['passenger'] ] ] ] ]}}" placeholder="请填写" type="number" value="{{passenger.phone}}" vueId="{{'98ebca94-14'+','+'98ebca94-8'}}"></u-input>
+                    </view>
+                </view>
+            </view>
+            <view bindtap="__e" class="save data-v-e8182906" data-event-opts="{{[ [ 'tap',[ ['save'] ] ] ]}}">保存</view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-e8182906" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showDetail','$event',[] ] ] ] ] ]}}" mode="bottom" value="{{showDetail}}" vueId="98ebca94-15" vueSlots="{{['default']}}">
+        <view class="detailBox data-v-e8182906">
+            <view class="title data-v-e8182906">价格明细</view>
+            <view class="content data-v-e8182906">
+                <view class="item data-v-e8182906" wx:if="{{it[$orig].price!=null}}" wx:for="{{$root.l5}}" wx:for-index="i" wx:for-item="it">
+                    <view class="t1 data-v-e8182906">{{''+it.f10+''}}</view>
+                    <view class="t1 data-v-e8182906">{{'￥ '+it[$orig].price+''}}<text class="t2 data-v-e8182906">{{'x '+it[$orig].num}}</text>
+                    </view>
+                </view>
+            </view>
+            <view class="order-detail data-v-e8182906">
+                <view class="od-item data-v-e8182906">
+                    <text class="data-v-e8182906">订单总额：</text>
+                    <text class="data-v-e8182906">{{'￥'+totalNum}}</text>
+                </view>
+                <view class="od-item color1 data-v-e8182906" wx:if="{{noCouponFlag==0}}">
+                    <text class="data-v-e8182906">优惠券：</text>
+                    <text class="data-v-e8182906">{{'-￥'+discountAmount}}</text>
+                </view>
+                <view class="od-item color2 data-v-e8182906">
+                    <text class="color2 data-v-e8182906">应付金额：</text>
+                    <text class="data-v-e8182906">{{'￥'+allAmount}}</text>
+                </view>
+            </view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-e8182906" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showGroupErr','$event',[] ] ] ] ] ]}}" mode="center" value="{{showGroupErr}}" vueId="98ebca94-16" vueSlots="{{['default']}}">
+        <view class="errBox data-v-e8182906">
+            <view class="name data-v-e8182906">温馨提示</view>
+            <scroll-view class="err-info data-v-e8182906" scrollY="true">
+                <view class="err-box data-v-e8182906" wx:for="{{groupErrList}}" wx:key="index">
+                    <view class="err-item data-v-e8182906">{{''+item.groupItemName+' '+item.msg+''}}</view>
+                </view>
+            </scroll-view>
+            <view bindtap="__e" class="but-popup data-v-e8182906" data-event-opts="{{[ [ 'tap',[ [ 'confirmOrder',['$event'] ] ] ] ]}}">确定</view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-e8182906" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showService','$event',[] ] ] ] ] ]}}" mode="bottom" value="{{showService}}" vueId="98ebca94-17" vueSlots="{{['default']}}">
+        <view class="service-box data-v-e8182906">
+            <view class="title data-v-e8182906">购买须知</view>
+            <scroll-view class="content-service data-v-e8182906" scrollY="{{true}}">
+                <view class="illustrate data-v-e8182906">
+                    <view class="title data-v-e8182906">退改说明<label class="tip _span data-v-e8182906">{{refundDetail.refundDesc||''}}</label>
+                    </view>
+                    <view class="table data-v-e8182906">
+                        <view class="th data-v-e8182906">
+                            <view class="td data-v-e8182906" style="width:490rpx;">取消时间</view>
+                            <view class="td data-v-e8182906" style="width:184rpx;">损失费用</view>
+                        </view>
+                        <view class="tr data-v-e8182906" wx:for="{{refundDetail.refundFeeList}}" wx:key="index">
+                            <view class="td data-v-e8182906" style="width:490rpx;">{{item.orderTimeDesc}}</view>
+                            <view class="td center data-v-e8182906" style="width:184rpx;">{{item.feeDesc}}</view>
+                        </view>
+                        <view class="tr data-v-e8182906">
+                            <view class="td data-v-e8182906" style="width:100%;">
+                                <u-parse bind:__l="__l" class="data-v-e8182906" html="{{lineProductInfo.lineProductUseDescVO.refundRuleDesc}}" lazyLoad="{{true}}" tagStyle="{{parseStyle}}" vueId="{{'98ebca94-18'+','+'98ebca94-17'}}"></u-parse>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+                <view class="illustrate data-v-e8182906">
+                    <view class="title data-v-e8182906" wx:if="{{$root.g9}}">费用说明</view>
+                    <view class="table data-v-e8182906" wx:if="{{$root.g10}}">
+                        <view class="th data-v-e8182906">
+                            <view class="td data-v-e8182906">费用包含</view>
+                        </view>
+                        <view class="tr data-v-e8182906" wx:for="{{lineProductInfo.lineProductUseDescVO.lineProductFeeInclusiveDTOS}}" wx:key="index">
+                            <view class="td bold data-v-e8182906">{{item.type}}</view>
+                            <view class="td data-v-e8182906">
+                                <view class="_p data-v-e8182906">{{item.desc}}</view>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="table data-v-e8182906" wx:if="{{$root.g11}}">
+                        <view class="th data-v-e8182906">
+                            <view class="td data-v-e8182906">费用不包含</view>
+                        </view>
+                        <view class="tr data-v-e8182906" wx:for="{{lineProductInfo.lineProductUseDescVO.lineProductFeeExclusiveDTOS}}" wx:key="index">
+                            <view class="td bold data-v-e8182906">{{item.type}}</view>
+                            <view class="td data-v-e8182906">
+                                <view class="_p data-v-e8182906">{{item.desc}}</view>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="table data-v-e8182906" wx:for="{{lineProductInfo.lineProductUseDescVO.lineProductFeeOtherListDTOS}}" wx:key="index">
+                        <view class="th data-v-e8182906">
+                            <view class="td data-v-e8182906">{{item.costOtherTitle}}</view>
+                        </view>
+                        <view class="tr data-v-e8182906" wx:for="{{item.lineProductFeeOtherDTOS}}" wx:for-index="num" wx:for-item="li" wx:key="num">
+                            <view class="td bold data-v-e8182906">{{li.type}}</view>
+                            <view class="td data-v-e8182906">
+                                <view class="_p data-v-e8182906">{{li.desc}}</view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </scroll-view>
+        </view>
+    </u-popup>
+    <u-select bind:__l="__l" bind:confirm="__e" bind:input="__e" childName="value" class="data-v-e8182906" confirmColor="#FF5411" data-event-opts="{{[ [ '^confirm',[ ['e3'] ] ],[ '^input',[ [ '__set_model',[ '','isShowSelect','$event',[] ] ] ] ] ]}}" defaultValue="{{defaultValue}}" labelName="key" list="{{selectData.lineProductOtherContentVOList}}" mode="mutil-column-auto" style="z-index:13000;position:fixed;" title="{{selectData.title}}" value="{{isShowSelect}}" valueName="key" vueId="98ebca94-19"></u-select>
+    <card-type bind:__l="__l" bind:chooseCardType="__e" bind:closePop="__e" class="data-v-e8182906" data-event-opts="{{[ [ '^chooseCardType',[ ['chooseCardType'] ] ],[ '^closePop',[ ['e4'] ] ] ]}}" realCardType="{{passenger.cardType}}" realCardTypeCodes="{{realCardTypeCodes}}" showCardPop="{{showCardPop}}" vueId="98ebca94-20"></card-type>
+</view>

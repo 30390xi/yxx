@@ -1,0 +1,15 @@
+<u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="review-popup data-v-3a8960e1" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showPopup','$event',[] ] ] ] ] ]}}" mode="bottom" value="{{showPopup}}" vueId="495c651f-1" vueSlots="{{['default']}}">
+    <view bindtap="__e" class="close-btn data-v-3a8960e1" data-event-opts="{{[ [ 'tap',[ [ 'close',['$event'] ] ] ] ]}}">
+        <image class="data-v-3a8960e1" src="https://eshopfile.zhiyousx.com/2023110114343274215.png"></image>
+    </view>
+    <view class="title data-v-3a8960e1">请您确认《年卡购买协议》</view>
+    <view class="content data-v-3a8960e1">
+        <scroll-view class="scroll-content data-v-3a8960e1" scrollY="{{true}}">
+            <u-parse bind:__l="__l" class="data-v-3a8960e1" html="{{html}}" vueId="{{'495c651f-2'+','+'495c651f-1'}}"></u-parse>
+        </scroll-view>
+    </view>
+    <view class="footer data-v-3a8960e1">
+        <view bindtap="__e" class="{{['data-v-3a8960e1','red-btn',!disabled&&'disabled']}}" data-event-opts="{{[ [ 'tap',[ [ 'submit',['$event'] ] ] ] ]}}">我已仔细阅读并同意<block wx:if="{{!disabled}}">{{'('+countDown+'秒)'}}</block>
+        </view>
+    </view>
+</u-popup>

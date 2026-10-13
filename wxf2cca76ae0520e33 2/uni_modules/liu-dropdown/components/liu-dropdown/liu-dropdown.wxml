@@ -1,0 +1,31 @@
+<view class="{{['data-v-561d5f03',isShow?'l-drop':'']}}">
+    <view class="popup-box data-v-561d5f03" style="{{popupBox}}">
+        <view class="type-list data-v-561d5f03">
+            <view catchtap="__e" class="type-item data-v-561d5f03" data-event-opts="{{[ [ 'tap',[ [ 'selectType',[index] ] ] ] ]}}" style="{{'width:'+100/$root.g0+'%'}}" wx:for="{{newMenuList}}" wx:key="index">
+                <view class="type-item-name data-v-561d5f03" style="{{selectIndex==index||item.num?'color:'+themeColor:''}}">
+                    <image class="type-item-icon-img-hot data-v-561d5f03" src="../../static/hot.png" wx:if="{{index==0}}"></image>{{''+(item.showName||item.name)+''}}</view>
+                <view class="tii data-v-561d5f03" wx:if="{{selectIndex==index&&isShow}}">
+                    <image class="data-v-561d5f03" src="../../static/isshow.png"></image>
+                </view>
+                <view class="type-item-icon data-v-561d5f03" style="{{selectIndex==index||item.num?'background-color:'+bgthemeColor:''}}" wx:else>
+                    <text class="data-v-561d5f03" style="{{selectIndex==index||item.num?'color:'+themeColor+';font-size:20rpx;margin-left: 5rpx;margin-right: 2rpx;':''}}" wx:if="{{item.num>0&&selectIndex!=index}}">{{item.num||''}}</text>
+                    <image class="type-item-icon-img data-v-561d5f03" src="../../static/xiala1.png" style="transform:rotate(180deg);margin-top:2rpx;" wx:if="{{selectIndex==index||item.num}}"></image>
+                    <image class="type-item-icon-img data-v-561d5f03" src="../../static/xiala.png" wx:else></image>
+                </view>
+            </view>
+        </view>
+        <view catchtouchmove="{{isShow}}" class="scroll-popup data-v-561d5f03" style="{{scrollPopup}}" wx:if="{{isShow}}">
+            <view class="data-v-561d5f03" wx:if="{{$root.g1>0}}">
+                <item1 bind:__l="__l" bind:complete="__e" class="data-v-561d5f03" data-event-opts="{{[ [ '^complete',[ ['complete'] ] ] ]}}" isMultiple="{{isMultiple}}" itemList="{{itemList}}" themeColor="{{themeColor}}" vueId="7ea0597c-1" wx:if="{{showType==1}}"></item1>
+                <item2 bind:__l="__l" bind:complete="__e" class="data-v-561d5f03" data-event-opts="{{[ [ '^complete',[ ['complete'] ] ] ]}}" isMultiple="{{isMultiple}}" itemList="{{itemList}}" themeColor="{{themeColor}}" vueId="7ea0597c-2" wx:if="{{showType==2}}"></item2>
+                <item3 bind:__l="__l" bind:complete="__e" class="data-v-561d5f03" data-event-opts="{{[ [ '^complete',[ ['complete'] ] ] ]}}" isMultiple="{{isMultiple}}" itemList="{{itemList}}" themeColor="{{themeColor}}" vueId="7ea0597c-3" wx:if="{{showType==3}}"></item3>
+                <item4 bind:__l="__l" bind:complete="__e" class="data-v-561d5f03" data-event-opts="{{[ [ '^complete',[ ['complete'] ] ] ]}}" isMultiple="{{true}}" itemList="{{itemList}}" themeColor="{{themeColor}}" vueId="7ea0597c-4" wx:if="{{showType==4}}"></item4>
+            </view>
+            <view class="no-data data-v-561d5f03" wx:else>
+                <image class="no-data-img data-v-561d5f03" src="../../static/noData.png"></image>
+                <view class="no-data-name data-v-561d5f03">暂无数据</view>
+            </view>
+        </view>
+    </view>
+    <view catchtap="__e" catchtouchmove="{{isShow}}" class="scroll-mask data-v-561d5f03" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" hidden="{{!isShow}}"></view>
+</view>

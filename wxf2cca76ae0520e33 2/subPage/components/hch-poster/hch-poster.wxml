@@ -1,0 +1,7 @@
+<view catchtouchmove="__e" class="canvas_box data-v-7f89ef11" data-event-opts="{{[ [ 'touchmove',[ [ 'clear',['$event'] ] ] ] ]}}" wx:if="{{canvasFlag}}">
+    <uni-transition bind:__l="__l" class="data-v-7f89ef11" duration="{{duration}}" modeClass="{{['fade']}}" show="{{true}}" styles="{{maskClass}}" vueId="091414c2-1"></uni-transition>
+    <icon bindtap="__e" class="canvas_close_btn data-v-7f89ef11" color="#fff" data-event-opts="{{[ [ 'tap',[ [ 'canvasCancelEvn',['$event'] ] ] ] ]}}" size="30" type="cancel"></icon>
+    <view class="button-wrapper data-v-7f89ef11">
+        <cover-view bindtap="__e" class="save_btn data-v-7f89ef11" data-event-opts="{{[ [ 'tap',[ [ 'saveCanvasImage',['$event'] ] ] ] ]}}">保存图片</cover-view>
+    </view>
+</view>

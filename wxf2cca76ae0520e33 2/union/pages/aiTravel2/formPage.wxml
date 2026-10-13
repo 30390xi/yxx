@@ -1,0 +1,142 @@
+<view class="container data-v-1ea1bfe2">
+    <uni-navbar bind:__l="__l" class="data-v-1ea1bfe2" type="transparentFixed" vueId="3ce92edb-1"></uni-navbar>
+    <view class="form-content data-v-1ea1bfe2">
+        <view class="form-item data-v-1ea1bfe2">
+            <view class="form-item-label data-v-1ea1bfe2">请选择您的出发地</view>
+            <view class="form-item-value data-v-1ea1bfe2">
+                <view class="origin-btns data-v-1ea1bfe2">
+                    <view bindtap="__e" class="{{['origin-type-btn','data-v-1ea1bfe2',formData.origin===2?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}">
+                        <view class="origin-type-btn-title data-v-1ea1bfe2">外来游客出行</view>
+                        <view class="origin-type-btn-desc data-v-1ea1bfe2">大众景色、特色美食</view>
+                    </view>
+                    <view bindtap="__e" class="{{['origin-type-btn','data-v-1ea1bfe2',formData.origin===1?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'e1',['$event'] ] ] ] ]}}">
+                        <view class="origin-type-btn-title data-v-1ea1bfe2">本地人出行</view>
+                        <view class="origin-type-btn-desc data-v-1ea1bfe2">本地人常去、高分美食</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="form-item data-v-1ea1bfe2">
+            <view class="form-item-label data-v-1ea1bfe2">想去哪玩</view>
+            <view class="form-item-value data-v-1ea1bfe2">
+                <picker bindchange="__e" class="form-select data-v-1ea1bfe2" data-event-opts="{{[ [ 'change',[ [ 'bindPickerChange',['$event'] ] ] ] ]}}" range="{{cityColumns[0]}}" value="{{cityIndex}}">
+                    <view class="form-select-content data-v-1ea1bfe2">
+                        <view class="select-left-content data-v-1ea1bfe2">
+                            <image mode class="select-left-icon data-v-1ea1bfe2" src="https://eshopfile.zhiyousx.com/175669111355825506.png"></image>
+                            <text class="select-text data-v-1ea1bfe2" wx:if="{{formData.city}}">{{formData.city}}</text>
+                            <text class="select-text placeholder data-v-1ea1bfe2" wx:else>请选择出行城市</text>
+                        </view>
+                        <image mode class="select-right-icon data-v-1ea1bfe2" src="https://eshopfile.zhiyousx.com/175669115668179740.png"></image>
+                    </view>
+                </picker>
+            </view>
+            <view class="select-btns data-v-1ea1bfe2">
+                <view bindtap="__e" class="select-btn data-v-1ea1bfe2" data-event-opts="{{[ [ 'tap',[ [ 'setTravelCity',['$0'],[ [ ['cityOptions','',index] ] ] ] ] ] ]}}" wx:for="{{cityOptions}}" wx:key="index">{{item}}</view>
+            </view>
+        </view>
+        <view class="form-item data-v-1ea1bfe2">
+            <view class="form-item-label data-v-1ea1bfe2">想玩多久</view>
+            <view class="form-item-value data-v-1ea1bfe2">
+                <view bindtap="__e" class="form-select data-v-1ea1bfe2" data-event-opts="{{[ [ 'tap',[ [ 'openDatePicker',['$event'] ] ] ] ]}}">
+                    <view class="form-select-content data-v-1ea1bfe2">
+                        <view class="select-left-content data-v-1ea1bfe2">
+                            <image mode class="select-left-icon data-v-1ea1bfe2" src="https://eshopfile.zhiyousx.com/175669417313273268.png"></image>
+                            <text class="select-text data-v-1ea1bfe2" wx:if="{{formData.beginTime&&formData.endTime}}">{{formData.beginTime+' 至 '+formData.endTime}}</text>
+                            <text class="select-text placeholder data-v-1ea1bfe2" wx:else>请选择出行日期</text>
+                        </view>
+                        <image mode class="select-right-icon data-v-1ea1bfe2" src="https://eshopfile.zhiyousx.com/175669115668179740.png"></image>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="form-item data-v-1ea1bfe2">
+            <view class="form-item-label data-v-1ea1bfe2">出行人数</view>
+            <view class="form-item-value data-v-1ea1bfe2">
+                <view bindtap="__e" class="form-select data-v-1ea1bfe2" data-event-opts="{{[ [ 'tap',[ [ 'openTravelersPopup',['$event'] ] ] ] ]}}">
+                    <view class="form-select-content data-v-1ea1bfe2">
+                        <view class="select-left-content data-v-1ea1bfe2">
+                            <image mode class="select-left-icon data-v-1ea1bfe2" src="https://eshopfile.zhiyousx.com/175669413781862938.png"></image>
+                            <text class="select-text data-v-1ea1bfe2" wx:if="{{$root.m0}}">{{''+($root.m1?formData.adult+'位成人 ':'')+($root.m2?formData.children+'位儿童 ':'')+($root.m3?formData.older+'位老人':'')+''}}</text>
+                            <text class="select-text placeholder data-v-1ea1bfe2" wx:else>请至少选择一名旅游人次</text>
+                        </view>
+                        <image mode class="select-right-icon data-v-1ea1bfe2" src="https://eshopfile.zhiyousx.com/175669496442746609.png"></image>
+                    </view>
+                </view>
+            </view>
+            <view class="select-btns data-v-1ea1bfe2">
+                <view bindtap="__e" class="select-btn data-v-1ea1bfe2" data-event-opts="{{[ [ 'tap',[ [ 'setTravelType',['family'] ] ] ] ]}}">亲子游</view>
+                <view bindtap="__e" class="select-btn data-v-1ea1bfe2" data-event-opts="{{[ [ 'tap',[ [ 'setTravelType',['couple'] ] ] ] ]}}">情侣游</view>
+                <view bindtap="__e" class="select-btn data-v-1ea1bfe2" data-event-opts="{{[ [ 'tap',[ [ 'setTravelType',['full'] ] ] ] ]}}">全家游</view>
+            </view>
+        </view>
+        <view class="form-item data-v-1ea1bfe2">
+            <view class="form-item-label data-v-1ea1bfe2">预算</view>
+            <view class="form-item-label-2 data-v-1ea1bfe2">预算类型</view>
+            <view class="form-item-value data-v-1ea1bfe2">
+                <view class="budget-type-btns data-v-1ea1bfe2">
+                    <view bindtap="__e" class="{{['budget-type-btn','data-v-1ea1bfe2',formData.budgetType===1?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'setBudgetType',[1] ] ] ] ]}}">
+                        <view class="budget-type-btn-title data-v-1ea1bfe2">总预算<text class="data-v-1ea1bfe2">（不包含往返交通）</text>
+                        </view>
+                    </view>
+                    <view bindtap="__e" class="{{['budget-type-btn','data-v-1ea1bfe2',formData.budgetType===2?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'setBudgetType',[2] ] ] ] ]}}">
+                        <view class="budget-type-btn-title data-v-1ea1bfe2">人均预算<text class="data-v-1ea1bfe2">（不包含往返交通）</text>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="form-item-label-2 data-v-1ea1bfe2" style="margin-top:12rpx;">您的预算</view>
+            <view class="form-item-value data-v-1ea1bfe2">
+                <view class="recommend-budget data-v-1ea1bfe2" style="margin-bottom:12rpx;" wx:if="{{showAIBudget}}">{{'AI给您推荐的'+(formData.budgetType===1?'总':'人均')+'预算为'}}<text class="data-v-1ea1bfe2" style="color:#BC41F5;">{{aiBudget}}</text>元</view>
+                <view class="budget-input data-v-1ea1bfe2">
+                    <input adjustPosition="{{true}}" bindinput="__e" class="budget-input-native data-v-1ea1bfe2" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '$0','budget','$event',[] ],['formData'] ],[ 'handleBudgetInput',['$event'] ] ] ] ]}}" maxlength="{{8}}" min="0" placeholder="请输入预算金额" placeholderStyle="color:rgba(51,51,51,0.5)" value="{{formData.budget}}"></input>
+                    <text class="budget-unit data-v-1ea1bfe2">元</text>
+                </view>
+            </view>
+        </view>
+        <view class="form-item data-v-1ea1bfe2">
+            <view class="form-item-label data-v-1ea1bfe2">想怎么玩</view>
+            <view class="form-item-value data-v-1ea1bfe2">
+                <view class="want-do-btns data-v-1ea1bfe2">
+                    <view bindtap="__e" class="{{['want-do-btn','data-v-1ea1bfe2',item.g0?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'toggleWantDo',['$0'],[ [ ['wantDoOptions','',index] ] ] ] ] ] ]}}" wx:for="{{$root.l0}}" wx:key="index">{{''+item.$orig+''}}</view>
+                </view>
+            </view>
+        </view>
+        <view bindtap="__e" class="form-btn data-v-1ea1bfe2" data-event-opts="{{[ [ 'tap',[ [ 'submitForm',['$event'] ] ] ] ]}}">确定</view>
+    </view>
+    <date-range-picker activeBgColor="rgba(188,65,245,0.4)" activeColor="#ffffff" bind:__l="__l" bind:change="__e" bind:input="__e" class="data-v-1ea1bfe2 vue-ref" data-event-opts="{{[ [ '^change',[ ['handleDateChange'] ] ],[ '^input',[ [ '__set_model',[ '','showDateRangePicker','$event',[] ] ] ] ] ]}}" data-ref="datePicker" mode="range" rangeBgColor="rgba(188,65,245,0.1)" rangeColor="#ffffff" value="{{showDateRangePicker}}" vueId="3ce92edb-2"></date-range-picker>
+    <uni-popup bind:__l="__l" bind:maskClick="__e" class="data-v-1ea1bfe2 vue-ref" data-event-opts="{{[ [ '^maskClick',[ ['confirmTravelers'] ] ] ]}}" data-ref="travelersPopup" type="bottom" vueId="3ce92edb-3" vueSlots="{{['default']}}">
+        <view class="travelers-popup data-v-1ea1bfe2">
+            <view class="popup-header data-v-1ea1bfe2">
+                <text class="popup-title data-v-1ea1bfe2">选择出行人数</text>
+                <text bindtap="__e" class="popup-confirm data-v-1ea1bfe2" data-event-opts="{{[ [ 'tap',[ [ 'confirmTravelers',['$event'] ] ] ] ]}}">确定</text>
+            </view>
+            <view class="popup-content data-v-1ea1bfe2">
+                <view class="traveler-row data-v-1ea1bfe2">
+                    <text class="traveler-label data-v-1ea1bfe2">成人</text>
+                    <view class="number-control data-v-1ea1bfe2">
+                        <view bindtap="__e" class="control-btn data-v-1ea1bfe2" data-event-opts="{{[ [ 'tap',[ [ 'changeTravelerCount',['adult',-1] ] ] ] ]}}">-</view>
+                        <u-input bind:__l="__l" bind:input="__e" class="number-input data-v-1ea1bfe2" clearable="{{false}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','adult','$event',[] ],['formData'] ],[ 'handleTravelerInput',['adult','$event'] ] ] ] ]}}" inputAlign="center" maxlength="{{2}}" type="text" value="{{formData.adult}}" vueId="{{'3ce92edb-4'+','+'3ce92edb-3'}}"></u-input>
+                        <view bindtap="__e" class="control-btn data-v-1ea1bfe2" data-event-opts="{{[ [ 'tap',[ [ 'changeTravelerCount',['adult',1] ] ] ] ]}}">+</view>
+                    </view>
+                </view>
+                <view class="traveler-row data-v-1ea1bfe2">
+                    <text class="traveler-label data-v-1ea1bfe2">儿童</text>
+                    <view class="number-control data-v-1ea1bfe2">
+                        <view bindtap="__e" class="control-btn data-v-1ea1bfe2" data-event-opts="{{[ [ 'tap',[ [ 'changeTravelerCount',['children',-1] ] ] ] ]}}">-</view>
+                        <u-input bind:__l="__l" bind:input="__e" class="number-input data-v-1ea1bfe2" clearable="{{false}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','children','$event',[] ],['formData'] ],[ 'handleTravelerInput',['children','$event'] ] ] ] ]}}" inputAlign="center" maxlength="{{2}}" type="text" value="{{formData.children}}" vueId="{{'3ce92edb-5'+','+'3ce92edb-3'}}"></u-input>
+                        <view bindtap="__e" class="control-btn data-v-1ea1bfe2" data-event-opts="{{[ [ 'tap',[ [ 'changeTravelerCount',['children',1] ] ] ] ]}}">+</view>
+                    </view>
+                </view>
+                <view class="traveler-row data-v-1ea1bfe2">
+                    <text class="traveler-label data-v-1ea1bfe2">老人</text>
+                    <view class="number-control data-v-1ea1bfe2">
+                        <view bindtap="__e" class="control-btn data-v-1ea1bfe2" data-event-opts="{{[ [ 'tap',[ [ 'changeTravelerCount',['older',-1] ] ] ] ]}}">-</view>
+                        <u-input bind:__l="__l" bind:input="__e" class="number-input data-v-1ea1bfe2" clearable="{{false}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','older','$event',[] ],['formData'] ],[ 'handleTravelerInput',['older','$event'] ] ] ] ]}}" inputAlign="center" maxlength="{{2}}" type="text" value="{{formData.older}}" vueId="{{'3ce92edb-6'+','+'3ce92edb-3'}}"></u-input>
+                        <view bindtap="__e" class="control-btn data-v-1ea1bfe2" data-event-opts="{{[ [ 'tap',[ [ 'changeTravelerCount',['older',1] ] ] ] ]}}">+</view>
+                    </view>
+                </view>
+            </view>
+            <view class="popup-tips data-v-1ea1bfe2">*儿童1.2米以下免费，1.2-1.4米半价，老人65+免票，军人优待证全免，但不同景区有不同的规则具体请前往官方平台核实!</view>
+        </view>
+    </uni-popup>
+</view>

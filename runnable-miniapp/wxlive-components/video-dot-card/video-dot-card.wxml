@@ -1,0 +1,28 @@
+<view class="video-dot-card {{from==='pusher'?'video-dot-card__pusher':'video-dot-card__player'}} {{status==='normal'?'video-dot-card__normal':''}} {{status==='current'?'video-dot-card__current':''}}">
+    <view class="video-dot-card__inner video-dot-card__inner__normal" wx:if="{{status==='normal'}}">
+        <view class="video-dot-card__head">
+            <image class="video-dot-card__image" mode="aspectFill" src="{{goodsInfo.cover_img_url}}"></image>
+            <view class="video-dot-card__tag">{{goodsInfo.goodsIndex}}</view>
+        </view>
+        <view class="video-dot-card__footer price" wx:if="{{!goodsInfo.price_type||goodsInfo.price_type===1||goodsInfo.price_type===2}}">¥ {{goodsInfo.price}}</view>
+        <view class="store-list__item__price__container" wx:elif="{{goodsInfo.price_type===3}}">
+            <text class="video-dot-card__footer price">¥ {{goodsInfo.price2}}</text>
+        </view>
+    </view>
+    <view class="video-dot-card__inner video-dot-card__inner__current" id="video-dot-card__inner__current" wx:if="{{status==='current'}}">
+        <view class="video-dot-card__head">
+            <image class="video-dot-card__image" mode="aspectFill" src="{{goodsInfo.cover_img_url}}"></image>
+            <view class="video-dot-card__tag">{{goodsInfo.goodsIndex}}</view>
+        </view>
+        <view class="video-dot-card__footer">
+            <view class="video-dot-card__title">{{goodsInfo.name}}</view>
+            <view class="price" wx:if="{{!goodsInfo.price_type||goodsInfo.price_type===1}}">¥ {{goodsInfo.price}}</view>
+            <view class="price" wx:elif="{{goodsInfo.price_type===2}}">¥ {{goodsInfo.price}}</view>
+            <view class="store-list__item__price__container" wx:elif="{{goodsInfo.price_type===3}}">
+                <text class="price">¥ {{goodsInfo.price2}}</text>
+            </view>
+            <navigator appId="{{goodsInfo.third_party_appid}}" class="video-dot-card__extend video-dot-card__extend__buy" hoverClass="navigator-hover" openType="{{!goodsInfo.third_party_appid&&goodsInfo.isTabbar?'switchTab':'navigate'}}" path="{{goodsInfo.url}}" target="{{goodsInfo.third_party_appid?'miniProgram':'self'}}" url="{{goodsInfo.url}}" wx:if="{{from==='player'}}">去购买</navigator>
+            <view bindtap="clickDeleteVideoDot" class="video-dot-card__extend" data-id="{{goodsInfo.goods_id}}" wx:if="{{from==='pusher'}}">删除讲解</view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,35 @@
+<component-menu-half bindcloseevent="onCloseHelpRulePanel" bodyStyle="justify-content: center;" class="help-rule-panel" height="auto" isMaskTransparent="{{true}}" isShow="{{helpRulePanelShow}}" isShowAnimation="{{true}}" returnType="back-bottom" size="normal" wx:if="{{helpRulePanelShow}}">
+    <view class="help-rule-panel__header" slot="header">
+        <view class="help-rule-panel__title">助力榜规则</view>
+    </view>
+    <view class="help-rule-panel__body" slot="body" wx:if="{{from==='player'}}">
+        <view class="help-rule-item">助力榜开启时，观众通过分享直播间、分享海报的方式，邀请朋友观看直播间3秒及以上，则本次助力成功，可获得1助力分。</view>
+        <view class="help-rule-item">一个直播间内，一个用户仅能助力一次。</view>
+        <view class="help-rule-item">榜单仅展示前 50 位。</view>
+        <view class="help-rule-item">自己不能给自己助力。</view>
+        <view class="help-rule-item">若系统检测到用户以不正当手段（如机器作弊、恶意刷榜等方式）参与助力，平台有权终止用户参与活动。</view>
+    </view>
+    <view class="help-rule-panel__body help-rule-panel__pusher__body" slot="body" wx:if="{{from==='pusher'}}">
+        <view class="help-rule-section">
+            <view class="help-rule-section__title">助力榜简介</view>
+            <view class="help-rule-section__body">助力榜是一个通过奖品激励用户邀请朋友观看的工具。助力榜开启时，观众通过分享直播间、分享海报的方式，邀请朋友观看直播间3秒及以上，则本次助力成功，可获得1助力分。排名靠前的用户可以获得奖品。</view>
+        </view>
+        <view class="help-rule-section">
+            <view class="help-rule-section__title">榜单规则</view>
+            <view class="help-rule-section__body">
+                <view>1. 一个直播间内，一个用户仅能助力一次。</view>
+                <view>2. 榜单仅展示前 50 位。</view>
+                <view>3. 自己不能给自己助力。</view>
+                <view>4. 若系统检测到用户以不正当手段（如机器作弊、恶意刷榜等方式）参与助力，平台有权终止用户参与活动。</view>
+            </view>
+        </view>
+        <view class="help-rule-section">
+            <view class="help-rule-section__title">榜单数据</view>
+            <view class="help-rule-section__body">
+                <view>分享人数：助力期间有分享行为的人数</view>
+                <view>上榜人数：成功邀请好友助力的人数</view>
+                <view>总邀请人数：成功助力好友的人数</view>
+            </view>
+        </view>
+    </view>
+</component-menu-half>

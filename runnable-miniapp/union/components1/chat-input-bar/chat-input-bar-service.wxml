@@ -1,0 +1,48 @@
+<view class="chat-input-bar-container data-v-b30b1ec8" style="{{'padding-bottom:'+(isIos?'':'30rpx')+';'}}">
+    <view class="chat-select-ask data-v-b30b1ec8">
+        <scroll-view class="chat-select-scroll data-v-b30b1ec8" scrollX="{{true}}" scrollY="{{false}}">
+            <view class="chat-select-item data-v-b30b1ec8">
+                <image mode bindtap="__e" class="{{['data-v-b30b1ec8',el.fontSize==1?'chat-select-item-image1':'chat-select-item-image']}}" data-event-opts="{{[ [ 'tap',[ [ 'goPage',['$0'],[ [ ['imageList','',i] ] ] ] ] ] ]}}" src="{{el.image}}" wx:for="{{imageList}}" wx:for-index="i" wx:for-item="el"></image>
+            </view>
+        </scroll-view>
+    </view>
+    <view class="chat-input-bar data-v-b30b1ec8">
+        <view class="Hold_Talk data-v-b30b1ec8" wx:if="{{showSpeakBtn==2}}">
+            <image bindtap="__e" class="icon_keyboard data-v-b30b1ec8" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173649100402573140.png"></image>
+            <view bindtouchend="__e" bindtouchstart="__e" class="speakBtn data-v-b30b1ec8" data-event-opts="{{[ [ 'touchstart',[ [ 'keystart',['$event'] ] ] ],[ 'touchend',[ [ 'stopVoice',['$event'] ] ] ] ]}}">按住说话</view>
+        </view>
+        <view class="Hold_Talk_f data-v-b30b1ec8" wx:if="{{showSpeakBtn==3}}">
+            <image class="icon_keyboard data-v-b30b1ec8" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173397098176315734.png"></image>
+        </view>
+        <view class="chat-input-container data-v-b30b1ec8" wx:if="{{showSpeakBtn==1}}">
+            <image bindtap="__e" class="icon data-v-b30b1ec8" data-event-opts="{{[ [ 'tap',[ [ 'getSpeak',['$event'] ] ] ] ]}}" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173647646699774432.png"></image>
+            <input adjustPosition="{{false}}" bindconfirm="__e" bindinput="__e" class="chat-input data-v-b30b1ec8" confirmType="send" cursorSpacing="{{50}}" data-event-opts="{{[ [ 'confirm',[ [ 'sendClick',['$event'] ] ] ],[ 'input',[ [ '__set_model',[ '','msg','$event',[] ] ] ] ] ]}}" focus="{{focus}}" placeholder="发送问题" placeholderClass="title_input" type="text" value="{{msg}}"></input>
+        </view>
+        <view class="right-btn data-v-b30b1ec8">
+            <image bindtap="__e" class="chat-input-send1 data-v-b30b1ec8" data-event-opts="{{[ [ 'tap',[ [ 'sendClick',['$event'] ] ] ] ]}}" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173649024780235604.png" wx:if="{{showSpeakBtn==1&&pushingProgress}}"></image>
+            <image bindtap="__e" class="chat-input-send data-v-b30b1ec8" data-event-opts="{{[ [ 'tap',[ [ 'setcolse',['$event'] ] ] ] ]}}" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173647643421949005.png" wx:if="{{!showHide&&(showSpeakBtn==1||showSpeakBtn==2||showSpeakBtn==3)&&delayBtn}}"></image>
+        </view>
+    </view>
+    <view class="prompt data-v-b30b1ec8">内容由AI生成，无法确保真实准确，仅供参考</view>
+    <view class="layer-box data-v-b30b1ec8">
+        <view class="prompt-layer data-v-b30b1ec8" wx:if="{{longPress}}">
+            <view class="prompt-loader data-v-b30b1ec8">
+                <view class="em data-v-b30b1ec8" wx:for="{{15}}" wx:key="index"></view>
+            </view>
+            <text class="p data-v-b30b1ec8">{{value}}</text>
+            <text class="span data-v-b30b1ec8">松手结束录音</text>
+        </view>
+    </view>
+    <view bindtap="__e" class="stopBtn data-v-b30b1ec8" data-event-opts="{{[ [ 'tap',[ [ 'stopSpeak',['$event'] ] ] ] ]}}" wx:if="{{!pushingProgressShow}}">
+        <image class="icon data-v-b30b1ec8" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173406333510840071.png"></image>停止回答</view>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="40" class="popup-code data-v-b30b1ec8" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','show','$event',[] ] ] ] ] ]}}" height="600rpx" mode="bottom" value="{{show}}" vueId="00d7c57e-1" vueSlots="{{['default']}}">
+        <view class="data-v-b30b1ec8" style="text-align:center;display:flex;align-items:center;justify-content:center;height:100%;">
+            <image bindlongpress="__e" class="data-v-b30b1ec8" data-event-opts="{{[ [ 'longpress',[ [ 'onLongPress',['$event'] ] ] ] ]}}" lazyLoad="false" showMenuByLongpress="{{true}}" src="{{officialAccount}}" style="width:400rpx;height:458rpx;"></image>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="40" class="popup-code data-v-b30b1ec8" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showImage','$event',[] ] ] ] ] ]}}" mode="bottom" value="{{showImage}}" vueId="00d7c57e-2" vueSlots="{{['default']}}">
+        <view class="data-v-b30b1ec8" style="text-align:center;font-size:0;">
+            <image bindtap="__e" class="data-v-b30b1ec8" data-event-opts="{{[ [ 'tap',[ [ 'previewImageClick',['$event'] ] ] ] ]}}" lazyLoad="false" mode="aspectFill" src="{{schedule}}" style="width:750rpx;height:540rpx;"></image>
+        </view>
+    </u-popup>
+</view>

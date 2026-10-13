@@ -1,0 +1,33 @@
+<scroll-view scrollWithAnimation bindscroll="scrollComment" class="weui-emoji_area {{hasSafeBottom?'weui-emoji_area__has-safe-bar':''}} {{uiPlatform!=='ios'?'weui-emoji_area__platform-not-ios':''}}" enableFlex="{{true}}" hidden="{{!isShow}}" scrollTop="{{scrollTop}}" scrollY="{{true}}" style="height: {{height}}px">
+    <view class="weui-emotion_list {{hasSafeBottom?'weui-emoji_area__has-safe-bottom':''}}" id="weui-emotion_list">
+        <view class="weui-emotion_recently" hidden="{{!showHistory||history.length===0}}" id="weui-emotion_recently">
+            <view class="weui-emotion_head" id="weui-emotion_head">最近使用</view>
+            <view class="weui-emotion_body">
+                <view bindtap="insertEmoji" class="weui-emotion_item {{emotions[item].style}}" data-idx="{{item}}" wx:for="{{history}}" wx:key="unique">
+                    <image class="weui-emotion_item we-emoji-faker"></image>
+                </view>
+                <view class="weui-emotion_item" data-idx="{{item}}" wx:for="{{tmplHistory}}" wx:key="unique">
+                    <view class="weui-icon_emotion"></view>
+                </view>
+            </view>
+        </view>
+        <view class="weui-emotion_head" style="margin-top: 8px;">所有表情</view>
+        <view class="weui-emotion_body weui-emotion_body-all">
+            <block wx:for="{{emotions}}" wx:key="unique">
+                <view bindtap="insertEmoji" class="weui-emotion_item {{item.style}}" data-idx="{{index}}" id="weui-emotion_item_{{index}}" style="opacity: {{item.emojiOpacity}};" wx:if="{{item.id!==-999&&item.style}}">
+                    <image class="weui-emotion_item we-emoji-faker"></image>
+                </view>
+                <view class="weui-emotion_item" data-idx="{{index}}" wx:else>
+                    <view class="weui-icon_emotion"></view>
+                </view>
+            </block>
+        </view>
+    </view>
+    <view class="weui-emoji_area-safe-placeholder"></view>
+    <view class="weui-emoji__operation" hidden="{{!isShow}}" id="weui-emoji__operation">
+        <view bindtap="deleteEmoji" class="{{'weui-emoji__operation__delete '+(isSendDisabled?'disabled':'')}}" wx:if="{{showDel}}">
+            <view class="weui-emotion_del_btn"></view>
+        </view>
+        <view bindtap="send" class="{{'weui-emoji__operation__send '+(isSendDisabled?'disabled':'')}}" wx:if="{{showSend}}">发送</view>
+    </view>
+</scroll-view>

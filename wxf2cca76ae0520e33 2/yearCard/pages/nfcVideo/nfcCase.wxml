@@ -1,0 +1,12 @@
+<view class="data-v-0c78cf82">
+    <view class="page-box data-v-0c78cf82">
+        <video autoplay="{{true}}" bindpause="__e" bindplay="__e" bindtimeupdate="__e" class="video data-v-0c78cf82" controls="{{false}}" customCache="{{false}}" data-event-opts="{{[ [ 'timeupdate',[ [ 'videoUpdate',['$event'] ] ] ],[ 'play',[ [ 'videoPlay',['$event'] ] ] ],[ 'pause',[ [ 'videopause',['$event'] ] ] ] ]}}" enablePlayGesture="{{true}}" id="videoPlayer" loop="true" showCenterPlayBtn="{{false}}" src="{{playerData.videoUrl}}" wx:if="{{playerData.videoUrl}}">
+            <view class="codeBox data-v-0c78cf82" wx:if="{{currentTime>playerData.changeTime||!isPlay}}">
+                <view bindtap="__e" class="image-box data-v-0c78cf82" data-event-opts="{{[ [ 'tap',[ ['videoClick'] ] ] ]}}">
+                    <image class="bg data-v-0c78cf82" mode="widthFix" src="{{playerData.iconUrl}}"></image>
+                    <image class="tip-img data-v-0c78cf82" src="https://eshopfile.zhiyousx.com/2026010615334062879.png"></image>
+                </view>
+            </view>
+        </video>
+    </view>
+</view>

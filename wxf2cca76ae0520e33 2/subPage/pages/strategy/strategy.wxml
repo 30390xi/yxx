@@ -1,0 +1,92 @@
+<view class="container" wx:if="{{content}}">
+    <scroll-view bounces="{{false}}" class="pageScroll" enhanced="{{true}}" scrollIntoView="{{pagepoint}}" scrollWithAnimation="{{true}}" scrollY="{{true}}">
+        <view class="imagebox">
+            <image class="headimg" mode="widthFix" src="{{content.mainPictureUrl}}"></image>
+            <view class="linearbg"></view>
+        </view>
+        <view class="scontent">
+            <view class="title multilineText3">{{content.title}}</view>
+            <view class="author" wx:if="{{content.author||content.authorHeadPortraitUrl}}">
+                <image src="{{content.authorHeadPortraitUrl}}" wx:if="{{content.authorHeadPortraitUrl}}"></image>
+                <view class="name">{{content.author||''}}</view>
+            </view>
+            <view class="notice" wx:if="{{content.statisticsList&&content.statisticsList[0]}}">
+                <view class="item" wx:for="{{content.statisticsList}}" wx:key="index">
+                    <image src="{{item.itemPictureUrl}}"></image>
+                    <view class="singleLineText">{{item.content}}</view>
+                </view>
+            </view>
+            <view class="richtext">
+                <view id="{{'tiji'+index}}" wx:for="{{$root.l1}}" wx:key="index">
+                    <view class="sectiontitle multilineText3" wx:if="{{item.$orig.chapterTitle}}">{{item.$orig.chapterTitle}}</view>
+                    <view wx:for="{{item.l0}}" wx:for-index="indexs" wx:for-item="items" wx:key="indexs">
+                        <u-parse bind:__l="__l" html="{{items[$orig].content}}" style="text-align:justify;" vueId="{{'da0bee00-1-'+index+'-'+indexs}}" vueSlots="{{['default']}}" wx:if="{{!items[$orig].originId}}">
+                            <text style="display:inline-block;"></text>
+                        </u-parse>
+                        <view bindtap="__e" class="mention" data-event-opts="{{[ [ 'tap',[ [ 'routerTo',['$0'],[ [ ['content.chapterList','',index],['chapterItemList','',indexs] ] ] ] ] ] ]}}" wx:else>
+                            <image class="img" mode="widthFix" src="{{items[$orig].itemPictureUrl}}"></image>
+                            <view class="spot" wx:if="{{items.g0}}">
+                                <view class="info">
+                                    <view class="name">
+                                        <image class="icon" src="../../static/images/pos.png"></image>
+                                        <view class="t singleLineText">{{items[$orig].title}}</view>
+                                    </view>
+                                    <view class="price" wx:if="{{items.g1}}">
+                                        <text class="num" wx:if="{{items[$orig].price}}">{{'￥'+items[$orig].price}}</text>
+                                        <text>起</text>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class="sl" wx:if="{{items[$orig].mentionType==2}}">
+                                <image mode="widthFix" src="../../static/images/collect.png"></image>
+                                <view class="stitle singleLineText">{{items[$orig].title}}</view>
+                                <view class="likeRate" wx:if="{{items[$orig].mentionType==2&&items[$orig].favoriteValue}}">
+                                    <text class="icon">喜爱值</text>
+                                    <text class="num">{{items[$orig].favoriteValue}}</text>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view bindtap="__e" class="fixnav" data-event-opts="{{[ [ 'tap',[ [ 'showmodal',['$event'] ] ] ] ]}}" wx:if="{{content.isContainDirectory==1}}">
+            <image src="../../static/images/nav.png"></image>
+            <text>{{(content.type==10?'攻略':'游记')+'目录'}}</text>
+        </view>
+    </scroll-view>
+    <u-popup bind:__l="__l" bind:input="__e" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','show','$event',[] ] ] ] ] ]}}" mode="left" value="{{show}}" vueId="da0bee00-2" vueSlots="{{['default']}}" width="520">
+        <view class="modail">
+            <view class="tabs">
+                <view bindtap="__e" class="{{['tab',contentIndex==0?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'togglecontent',[0] ] ] ] ]}}">{{(content.type==10?'攻略':'游记')+'目录'}}</view>
+                <view bindtap="__e" class="{{['tab',contentIndex==1?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'togglecontent',[1] ] ] ] ]}}" hidden="{{!content.mentionList[0]}}">文中提及</view>
+                <view class="line" style="{{'left:'+contentIndex*210+40+'rpx'+';'}}"></view>
+            </view>
+            <view class="scrollBoxLeft" style="{{'height:'+scrollH+'px'+';'}}">
+                <scroll-view bindscroll="__e" bounces="{{false}}" class="leftscroll" data-event-opts="{{[ [ 'scroll',[ [ 'scrollchange',['$event'] ] ] ] ]}}" enhanced="{{true}}" scrollTop="{{showTab}}" scrollWithAnimation="{{true}}" scrollY="{{true}}" style="{{'height:'+scrollH+'px'+';'}}">
+                    <view class="lists" id="lists">
+                        <view bindtap="__e" class="item singleLineText" data-event-opts="{{[ [ 'tap',[ [ 'navtoArticle',[index] ] ] ] ]}}" hidden="{{!item.chapterTitle}}" wx:for="{{content.chapterList}}" wx:key="index">{{item.chapterTitle}}</view>
+                    </view>
+                    <view class="tabmention" hidden="{{!content.mentionList[0]}}" id="tabmention">
+                        <view class="title">以下内容在文中被提及</view>
+                        <view class="spotList">
+                            <view bindtap="__e" class="item" data-event-opts="{{[ [ 'tap',[ [ 'routerTo',['$0'],[ [ ['content.mentionList','',index] ] ] ] ] ] ]}}" wx:if="{{item.originId}}" wx:for="{{content.mentionList}}" wx:key="index">
+                                <image class="img" mode="aspectFill" src="{{item.itemPictureUrl}}"></image>
+                                <view class="info">
+                                    <view class="name singleLineText">
+                                        <text wx:if="{{item.isBookable}}">订</text>{{item.title}}</view>
+                                    <view class="rank singleLineText" wx:if="{{item.rankingName}}">{{item.rankingName+'第'+item.rankingSort+'名'}}</view>
+                                    <view class="likeRate" wx:if="{{item.mentionType==2&&item.favoriteValue}}">
+                                        <text class="icon">喜爱值</text>
+                                        <text class="num">{{item.favoriteValue}}</text>
+                                    </view>
+                                    <view class="desc singleLineText" wx:if="{{item.mentionType!=2&&item.subtitle}}">{{item.subtitle}}</view>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </scroll-view>
+            </view>
+        </view>
+    </u-popup>
+</view>

@@ -1,0 +1,48 @@
+<view class="report-room" wx:if="{{pageStatus==='choice'}}">
+    <mp-navigation-bar back="{{true}}" color="#ffffff" extClass="mode__navigation-bar"></mp-navigation-bar>
+    <view class="report-room__head" style="margin-top: {{statusBarHeight+'px'}}">投诉直播间</view>
+    <view class="report-room__body">
+        <mp-cells title="选择投诉类型">
+            <mp-checkbox-group bindchange="onSelectType" multi="{{false}}" prop="radio">
+                <mp-checkbox checked="{{item.checked}}" label="{{item.type}}" value="{{item.value}}" wx:for="{{reportItems}}" wx:key="unique"></mp-checkbox>
+            </mp-checkbox-group>
+        </mp-cells>
+    </view>
+</view>
+<view class="report-room-detail" wx:if="{{pageStatus==='write'}}">
+    <mp-navigation-bar back="{{true}}" color="#ffffff" extClass="mode__navigation-bar"></mp-navigation-bar>
+    <view class="report-room-detail__head" style="padding-top: {{statusBarHeight+'px'}}">
+        <view class="report-room-detail__head__title">投诉的直播间</view>
+        <view class="report-room-detail__head__main" wx:if="{{roomDateRange}}">
+            <view class="report-room-detail__head__main__head" style="background: url({{roomImg}}) no-repeat center; background-size: contain;"></view>
+            <view class="report-room-detail__head__main__body">
+                <view class="report-room-detail__head__main__body__title">{{roomTitle}}</view>
+                <view class="report-room-detail__head__main__body__main">
+                    <view class="report-room-detail__head__main__body__main__item">直播时间 {{roomDateRange}}</view>
+                    <view class="report-room-detail__head__main__body__main__item" wx:if="mpName">所属公众号 {{mpName}}</view>
+                    <view class="report-room-detail__head__main__body__main__item" wx:else>所属小程序 {{weappName}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="report-room-detail__body">
+        <view class="report-room-detail__body__section report-room-detail__body__section__textarea">
+            <view class="report-room-detail__body__section__main">
+                <view class="report-room-detail__textarea__inner">
+                    <textarea bindinput="onInput" class="report-room-detail__textarea" maxlength="200" placeholder="输入投诉内容" placeholderClass="report-room-detail__placeholder" style="height: 108px"></textarea>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="report-room-detail__foot">
+        <view bindtap="onSubmit" class="weui-btn weui-btn_primary {{reportContent&&reportContent.length?'':'weui-btn_disabled'}}">提交投诉</view>
+    </view>
+</view>
+<view class="report-status" wx:if="{{pageStatus==='done'}}">
+    <mp-navigation-bar back="{{true}}" color="#ffffff" extClass="mode__navigation-bar"></mp-navigation-bar><mp-msg title="已成功提交投诉" type="success">
+        <view slot="desc">核实投诉内容后我们将及时反馈结果</view>
+        <view slot="handle">
+            <view bindtap="onClose" class="weui-btn weui-btn_default">我知道了</view>
+        </view>
+    </mp-msg>
+</view>

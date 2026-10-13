@@ -1,0 +1,31 @@
+<view class="posterwall data-v-35145bab">
+    <view class="showbox data-v-35145bab">
+        <view class="content data-v-35145bab">
+            <image class="main data-v-35145bab" mode="aspectFill" src="{{imgurl}}"></image>
+            <image class="block data-v-35145bab" src="{{actTemp.turl}}" style="{{'width:'+actTemp.t_w+'rpx'+';'+'height:'+actTemp.t_h+'rpx'+';'+'left:'+actTemp.t_l+'rpx'+';'+'top:'+actTemp.t_t+'rpx'+';'}}"></image>
+            <image class="block data-v-35145bab" src="{{actTemp.furl}}" style="{{'width:'+actTemp.f_w+'rpx'+';'+'height:'+actTemp.f_h+'rpx'+';'+'right:'+actTemp.f_r+'rpx'+';'+'bottom:'+actTemp.f_b+'rpx'+';'}}"></image>
+        </view>
+    </view>
+    <view class="btns flex data-v-35145bab">
+        <view class="btn data-v-35145bab">
+            <view bindtap="__e" class="flex data-v-35145bab" data-event-opts="{{[ [ 'tap',[ [ 'saveImg',['$event'] ] ] ] ]}}">保存到相册</view>
+        </view>
+        <view class="btn data-v-35145bab">
+            <view bindtap="__e" class="flex data-v-35145bab" data-event-opts="{{[ [ 'tap',[ [ 'complate',['$event'] ] ] ] ]}}">完成</view>
+        </view>
+    </view>
+    <view class="template flex data-v-35145bab">
+        <view bindtap="__e" class="card data-v-35145bab" data-event-opts="{{[ [ 'tap',[ [ 'chooseTemp',['$0'],[ [ ['templates','',index] ] ] ] ] ] ]}}" wx:for="{{templates}}">
+            <image class="{{['data-v-35145bab','t'+index+1]}}" mode="widthFix" src="{{item.turl}}"></image>
+            <image class="{{['data-v-35145bab','a'+index+1]}}" mode="widthFix" src="{{item.furl}}"></image>
+        </view>
+    </view>
+    <view bindtap="__e" class="nouse data-v-35145bab" data-event-opts="{{[ [ 'tap',[ [ 'noUseTemp',['$event'] ] ] ] ]}}">不使用贴纸</view>
+    <l-painter bind:__l="__l" bind:success="__e" class="data-v-35145bab vue-ref" css="width: 275rpx; height:320rpx;position:fixed;bottom:0;left:0;" customStyle="position: fixed; left:-200%;top:0;" data-event-opts="{{[ [ '^success',[ ['e0'] ] ] ]}}" data-ref="painter" fileType="jpg" isCanvasToTempFilePath="{{true}}" vueId="51e1fbc0-1" vueSlots="{{['default']}}">
+        <l-painter-view bind:__l="__l" class="data-v-35145bab" css="position:relative;width:100%;height:100%;" vueId="{{'51e1fbc0-2'+','+'51e1fbc0-1'}}" vueSlots="{{['default']}}">
+            <l-painter-image bind:__l="__l" class="data-v-35145bab" css="object-fit: cover; object-position: 50% 50%;width:275rpx;height:320rpx;" src="{{printObj.imgurl}}" vueId="{{'51e1fbc0-3'+','+'51e1fbc0-2'}}"></l-painter-image>
+            <l-painter-image bind:__l="__l" class="data-v-35145bab" css="{{'object-fit: cover;position:absolute; object-position: 50% 50%;width:'+printObj.t_w/2+'rpx;height:'+printObj.t_h/2+'rpx;left:'+printObj.t_l/2+'rpx;top:'+printObj.t_t/2+'rpx;z-index:6;'}}" src="{{printObj.turl}}" vueId="{{'51e1fbc0-4'+','+'51e1fbc0-2'}}"></l-painter-image>
+            <l-painter-image bind:__l="__l" class="data-v-35145bab" css="{{'object-fit: cover;position:absolute; object-position: 50% 50%;width:'+printObj.f_w/2+'rpx;height:'+printObj.f_h/2+'rpx;right:'+printObj.f_r/2+'rpx;bottom:'+printObj.f_b/2+'rpx;z-index:6;'}}" src="{{printObj.furl}}" vueId="{{'51e1fbc0-5'+','+'51e1fbc0-2'}}"></l-painter-image>
+        </l-painter-view>
+    </l-painter>
+</view>

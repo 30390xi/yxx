@@ -1,0 +1,120 @@
+<view class="chat-item">
+    <view class="{{[true?'chat-container':'',item.type==1?'chat-location-me':'']}}">
+        <view class="chat-content-container">
+            <view class="chat-text-container-super" style="{{'justify-content:'+(item.type==1?'flex-end':'flex-start')+';'}}" wx:if="{{!item.historyLine&&!item.nomoreLine}}">
+                <view class="{{[true?'chat-text-container':'',item.type==1?'chat-text-container-me':'',item.type!=1?'chat-text-container-no':'']}}">
+                    <view class="bubble">
+                        <view class="{{[true?'chat-text':'']}}">
+                            <view space="nbsp" userSelect="true" wx:if="{{item.content&&item.type!=1}}">
+                                <zero-markdown-view bind:__l="__l" markdown="{{item.content}}" vueId="986c59f8-1"></zero-markdown-view>
+                            </view>
+                            <view class="chat-text-me" wx:if="{{item.content&&item.type==1}}">{{''+item.content+''}}</view>
+                            <view class="loading-box" wx:if="{{!item.content}}">正在思考中<view class="loading">
+                                    <view class="pot"></view>
+                                    <view class="pot"></view>
+                                    <view class="pot"></view>
+                                </view>
+                            </view>
+                            <view bindtap="__e" class="travelBtn" data-event-opts="{{[ [ 'tap',[ [ 'resetTravel',['$event'] ] ] ] ]}}" wx:if="{{item.redirectContent}}">
+                                <image class="ai" src="https://eshopfile.zhiyousx.com/175153136103574217.png"></image>旅行搭子<image class="icon" src="https://eshopfile.zhiyousx.com/175153148262435174.png"></image>
+                            </view>
+                            <view bindtap="__e" class="travelBtn" data-event-opts="{{[ [ 'tap',[ [ 'changePlan',['$event'] ] ] ] ]}}" wx:if="{{item.changeAnswer}}">
+                                <image class="ai" src="https://eshopfile.zhiyousx.com/175153136103574217.png"></image>重新规划<image class="icon" src="https://eshopfile.zhiyousx.com/175153148262435174.png"></image>
+                            </view>
+                            <view style="width:100%;margin-top:30rpx;" wx:if="{{$root.g0}}">
+                                <scroll-view class="card-item" scrollX="true">
+                                    <view class="card-item-count">
+                                        <view bindtap="__e" class="card-item-box" data-event-opts="{{[ [ 'tap',[ [ 'scenicDetails',['$0'],[ [ ['item.list','id',el.$orig.id] ] ] ] ] ] ]}}" style="{{'margin-right:'+(i<el.g1-1?'20rpx':'0')+';'}}" wx:for="{{$root.l1}}" wx:for-index="i" wx:for-item="el" wx:key="id">
+                                            <view class="card-type">景区</view>
+                                            <image class="card-image" lazyLoad="false" mode="aspectFill" src="{{el.$orig.mainPic}}"></image>
+                                            <view class="card-name">{{''+el.$orig.name+''}}</view>
+                                            <view class="tag-item-box parent" wx:if="{{el.g2}}">
+                                                <view class="tag-item child" wx:if="{{index<3}}" wx:for="{{el.l0}}" wx:for-item="ele" wx:key="index">{{ele+''}}</view>
+                                            </view>
+                                        </view>
+                                    </view>
+                                </scroll-view>
+                            </view>
+                            <view class="official-box" wx:if="{{$root.g3}}">
+                                <view bindtap="__e" class="official-item" data-event-opts="{{[ [ 'tap',[ [ 'routeDetails',['$0'],[ [ ['item.officialGuide','lineId',k.$orig.lineId,'lineId'] ] ] ] ] ] ]}}" wx:for="{{$root.l3}}" wx:for-index="ind" wx:for-item="k" wx:key="lineId">
+                                    <image class="official-img" lazyLoad="false" mode="aspectFill" src="{{k.g4[0].url}}"></image>
+                                    <view class="official-r">
+                                        <view class="official-title">{{k.$orig.lineName}}</view>
+                                        <view class="official-tag" wx:if="{{k.$orig.themeNames}}">
+                                            <view class="official-tag-item" wx:if="{{index<3}}" wx:for="{{k.l2}}" wx:for-item="ele" wx:key="index">{{''+ele+''}}</view>
+                                        </view>
+                                        <view class="official-desc">{{k.$orig.cityNames}}</view>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class="chat-text-expand" wx:if="{{$root.g5}}">
+                                <view class="guide">
+                                    <view class="left">
+                                        <image class="headImg" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173510683638304664.png"></image>你可以试着问我<image class="finger" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173373501152490600.png"></image>：</view>
+                                </view>
+                                <view class="questionBox" wx:if="{{$root.g6}}">
+                                    <view bindtap="__e" class="item" data-event-opts="{{[ [ 'tap',[ [ 'askAgain',['$0'],[ [ ['item.divergenceProblem','',index] ] ] ] ] ] ]}}" style="{{'margin-bottom:'+(index!=it.g7-1?'20rpx':'0')+';'}}" wx:for="{{$root.l4}}" wx:for-item="it" wx:key="index">
+                                        <text class="text-desc">{{it.$orig}}</text>
+                                        <image lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173373722521006570.png"></image>
+                                    </view>
+                                </view>
+                            </view>
+                            <view bindtap="__e" class="lined-link" data-event-opts="{{[ [ 'tap',[ [ 'goLine',['$0'],['item.exclusiveRoute'] ] ] ] ]}}" wx:if="{{item.exclusiveRoute&&item.exclusiveRoute}}">点击查看专属攻略</view>
+                            <view class="evaluation" wx:if="{{item.evaluationObj}}">
+                                <xjtu-text-card baseInfo="{{item.evaluationObj.evaluation||null}}" bind:__l="__l" bind:gotoVideo="__e" data-event-opts="{{[ [ '^gotoVideo',[ ['gotoVideo'] ] ] ]}}" scenicName="{{item.evaluationObj.scenicName||''}}" videoList="{{item.evaluationObj.vlogUrls||[]}}" vueId="986c59f8-2"></xjtu-text-card>
+                            </view>
+                            <view class="toilet" wx:if="{{$root.g8}}">
+                                <view class="toilet-title">小七为你推荐</view>
+                                <view bindtap="__e" class="toilet-item" data-event-opts="{{[ [ 'tap',[ [ 'gotoToilet',['$0'],[ [ ['item.toilet','',ind] ] ] ] ] ] ]}}" wx:for="{{item.toilet}}" wx:for-index="ind" wx:for-item="el" wx:key="ind">
+                                    <view class="toilet-item-left">
+                                        <image class="toilet-item-left-img" lazyLoad="false" mode="aspectFill" src="{{el.photos}}" wx:if="{{el.photos}}"></image>
+                                        <view class="toilet-item-left-default _div" wx:else>
+                                            <image lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/175464211103781816.png"></image>
+                                        </view>
+                                        <view class="toilet-item-left-title">
+                                            <view class="name singleLineText">{{el.name}}</view>
+                                            <view class="address singleLineText">{{el.address}}</view>
+                                        </view>
+                                    </view>
+                                    <view class="toilet-item-right">
+                                        <view class="toilet-item-right-guide">
+                                            <view class="txt">去这里</view>
+                                            <view class="distance">
+                                                <image class="distance-icon" src="https://eshopfile.zhiyousx.com/175517483307507834.png"></image>{{''+el.distance+'m'}}</view>
+                                        </view>
+                                        <image class="toilet-item-right-icon" src="https://eshopfile.zhiyousx.com/175464314045201536.png"></image>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class="spotPhone" wx:if="{{item.spotPhone}}">
+                                <view class="spotName">{{''+item.spotPhone.scenicName+''}}</view>
+                                <view class="spotPhone" wx:for="{{item.spotPhone.phoneNumbers}}" wx:for-index="ind" wx:for-item="el" wx:key="ind">{{'电话：'+el+''}}</view>
+                                <view bindtap="__e" class="callBtn" data-event-opts="{{[ [ 'tap',[ ['callPhone'] ] ] ]}}"></view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="evaluationQuestion" wx:if="{{item.type==0}}">
+                <view bindtap="__e" class="evaluationItem" data-event-opts="{{[ [ 'tap',[ [ 'askAgain',['$0'],[ [ ['item.evaluationQuestion','',ind] ] ] ] ] ] ]}}" wx:for="{{item.evaluationQuestion}}" wx:for-index="ind" wx:for-item="el" wx:key="ind">{{''+el+''}}</view>
+            </view>
+            <view class="weather-box" wx:if="{{item.weatherInfo}}">
+                <weather-card bind:__l="__l" historyTime="{{item.weatherInfo.historyTime}}" vueId="986c59f8-3" weatherToday="{{item.weatherInfo.weatherToday}}" weatherWeek="{{item.weatherInfo.weatherWeek}}"></weather-card>
+            </view>
+            <view class="comment" wx:if="{{showComment&&item.type==0&&pushingProgress}}">
+                <view bindtap="__e" class="{{['good','_div',commentType==0?'hasLine':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'goodComment',['$event'] ] ] ] ]}}" wx:if="{{commentType==0||commentType==1}}">
+                    <image src="https://eshopfile.zhiyousx.com/175515269460548588.png" wx:if="{{commentType==0}}"></image>
+                    <image src="https://eshopfile.zhiyousx.com/175515273206550307.png" wx:if="{{commentType==1}}"></image>
+                </view>
+                <view bindtap="__e" class="bad _div" data-event-opts="{{[ [ 'tap',[ [ 'badComment',['$event'] ] ] ] ]}}" wx:if="{{commentType==0||commentType==2}}">
+                    <image src="https://eshopfile.zhiyousx.com/175515274421108382.png" wx:if="{{commentType==0}}"></image>
+                    <image src="https://eshopfile.zhiyousx.com/175515275472076030.png" wx:if="{{commentType==2}}"></image>
+                </view>
+            </view>
+            <view class="btns" wx:if="{{item.officialGuide&&item.officialGuideType==2&&item.type==0}}">
+                <view bindtap="__e" class="speakBtn" data-event-opts="{{[ [ 'tap',[ [ 'exclusiveStrategy',['$0'],['item'] ] ] ] ]}}">生成我的专属攻略</view>
+            </view>
+            <view class="history-line" wx:if="{{item.historyLine||item.nomoreLine}}">{{''+(item.nomoreLine?'没有更多数据了':'以上为历史记录')+''}}</view>
+        </view>
+    </view>
+</view>

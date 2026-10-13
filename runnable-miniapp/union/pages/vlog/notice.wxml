@@ -1,0 +1,28 @@
+<view class="container data-v-3c7fad96" style="{{'padding-top:'+navBarHeight+';'}}">
+    <uni-navbar bind:__l="__l" class="data-v-3c7fad96" title="vlog" type="transparentFixed" vueId="3f249536-1"></uni-navbar>
+    <view class="loadingBox data-v-3c7fad96">
+        <image class="cust-bg data-v-3c7fad96" src="https://eshopfile.zhiyousx.com/176913615138339744.png"></image>
+        <image class="cust-img data-v-3c7fad96" src="https://eshopfile.zhiyousx.com/176887779185712785.png"></image>
+        <view class="loading-content data-v-3c7fad96">
+            <view class="flower-loading data-v-3c7fad96" wx:if="{{!isHasError}}">
+                <view class="petal data-v-3c7fad96"></view>
+                <view class="petal data-v-3c7fad96"></view>
+                <view class="petal data-v-3c7fad96"></view>
+                <view class="petal data-v-3c7fad96"></view>
+                <view class="petal data-v-3c7fad96"></view>
+                <view class="petal data-v-3c7fad96"></view>
+                <view class="petal data-v-3c7fad96"></view>
+                <view class="petal data-v-3c7fad96"></view>
+            </view>
+            <view class="loading-text data-v-3c7fad96" wx:if="{{!isHasError}}">
+                <view class="_p data-v-3c7fad96">{{$root.m0}}</view>
+                <view class="_p data-v-3c7fad96">{{$root.m1+' '+time+' '+$root.m2}}</view>
+            </view>
+            <view class="loading-text data-v-3c7fad96" wx:else>
+                <view class="_p data-v-3c7fad96">{{$root.m3}}</view>
+            </view>
+        </view>
+    </view>
+    <button bindtap="__e" class="cust-btn data-v-3c7fad96" data-event-opts="{{[ [ 'tap',[ [ 'handleBack',['$event'] ] ] ] ]}}" wx:if="{{isHasError}}">{{''+$root.m4+''}}</button>
+    <button bindtap="__e" class="cust-btn data-v-3c7fad96" data-event-opts="{{[ [ 'tap',[ [ 'handleNotice',['$event'] ] ] ] ]}}" wx:if="{{!isHasError}}">{{''+$root.m5+''}}</button>
+</view>

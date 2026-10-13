@@ -1,0 +1,12 @@
+<view class="item-main data-v-1d38b1ac" style="{{height?'height:'+height+'rpx;':''}}">
+    <scroll-view class="item-right data-v-1d38b1ac" scrollY="true">
+        <view catchtap="__e" class="item-right-list data-v-1d38b1ac" data-event-opts="{{[ [ 'tap',[ [ 'selectRight',['$0'],[ [ ['newList','',index] ] ] ] ] ] ]}}" wx:if="{{$root.g0>0}}" wx:for="{{newList}}" wx:key="index">
+            <view class="item-right-list-name data-v-1d38b1ac" style="{{item.chooseState?'color:'+themeColor:''}}">{{item.name+''}}</view>
+            <image class="item-right-list-img data-v-1d38b1ac" src="../../static/select.png" wx:if="{{item.chooseState}}"></image>
+        </view>
+    </scroll-view>
+    <view class="btn-list data-v-1d38b1ac">
+        <view catchtap="__e" class="btn-reset data-v-1d38b1ac" data-event-opts="{{[ [ 'tap',[ [ 'reset',['$event'] ] ] ] ]}}">重置</view>
+        <view catchtap="__e" class="btn-complete data-v-1d38b1ac" data-event-opts="{{[ [ 'tap',[ [ 'complete',['$event'] ] ] ] ]}}" style="{{'background: '+themeColor}}">完成</view>
+    </view>
+</view>

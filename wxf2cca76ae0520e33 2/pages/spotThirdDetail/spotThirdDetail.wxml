@@ -1,0 +1,162 @@
+<view class="u-wrap data-v-5b932149" style="{{'background:'+'linear-gradient(to bottom,'+detailObj.topColour+','+detailObj.bottomColour+' '+midinfoTop+'px)'+';'+'padding-top:'+headerH+'px'+';'}}">
+    <uni-navbar bind:__l="__l" class="data-v-5b932149" data-custom-hidden="{{!(detailObj.closeJumpFlag!=1)}}" type="transparentFixed" vueId="6afb3712-1"></uni-navbar>
+    <view class="top-fixed-box data-v-5b932149" style="{{'padding-top:'+statusBarHeight+5+'px'+';'+'padding-bottom:'+(isShowTicket?'100rpx':'24rpx')+';'}}">
+        <view class="bg-color data-v-5b932149" id="top-fixed-box" style="{{'background:'+detailObj.bottomColour+';'+'opacity:'+1/row2height*scrollTop+';'}}"></view>
+        <view class="headerinfo data-v-5b932149" id="headerinfo" style="{{'transform:'+(!inTop||isShowTicket?'translateY(0rpx)':'translateY('+headerH+'px)')+';'}}">
+            <view class="l data-v-5b932149">
+                <image class="mainImg data-v-5b932149" mode="aspectFill" src="{{detailObj.coverImage}}"></image>
+            </view>
+            <view class="r data-v-5b932149">
+                <view class="title singleLineText data-v-5b932149">{{''+detailObj.title+''}}</view>
+                <view class="sub-title singleLineText data-v-5b932149">{{detailObj.subtitle||''}}</view>
+            </view>
+        </view>
+    </view>
+    <view class="spotinfo data-v-5b932149" id="spotinfo">
+        <image class="mainImg data-v-5b932149" mode="aspectFill" src="{{detailObj.coverImage}}"></image>
+        <view class="info data-v-5b932149">
+            <view class="title multilineText2 data-v-5b932149">
+                <view class="multilineText2 data-v-5b932149">{{detailObj.title}}</view>
+            </view>
+            <view class="tag data-v-5b932149">{{detailObj.subtitle||''}}</view>
+            <view bindtap="__e" class="ranking singleLineText data-v-5b932149" data-event-opts="{{[ [ 'tap',[ [ 'toRanking',['$0'],['detailObj.originSortInRankingVO.contentId'] ] ] ] ]}}" wx:if="{{showRanking}}">
+                <view class="top data-v-5b932149">{{'TOP '+detailObj.originSortInRankingVO.indexInRanking}}</view>
+                <view class="text data-v-5b932149">
+                    <view class="name data-v-5b932149">{{detailObj.originSortInRankingVO.rankingName}}</view>
+                    <u-icon bind:__l="__l" class="data-v-5b932149" color="#6A5A40" name="arrow-right" size="20" vueId="6afb3712-2"></u-icon>
+                </view>
+            </view>
+            <view class="like-box data-v-5b932149" style="{{'position:'+(showRanking?'relative':'absolute')+';'+'margin-top:'+(showRanking?'36rpx':'0')+';'}}" wx:if="{{detailObj.hiddenLoveFlag!=1}}">
+                <view bindtap="__e" class="item data-v-5b932149" data-event-opts="{{[ [ 'tap',[ [ 'likeClick',[1] ] ] ] ]}}">
+                    <image mode class="img data-v-5b932149" src="https://eshopfile.zhiyousx.com/spotDetailNew/like2.png" wx:if="{{centObj.isLike===1}}"></image>
+                    <image mode class="img data-v-5b932149" src="https://eshopfile.zhiyousx.com/spotDetailNew/like1.png" wx:else></image>
+                    <view class="text data-v-5b932149">喜爱</view>
+                </view>
+                <view bindtap="__e" class="item data-v-5b932149" data-event-opts="{{[ [ 'tap',[ [ 'hateClick',[0] ] ] ] ]}}">
+                    <image mode class="img data-v-5b932149" src="https://eshopfile.zhiyousx.com/spotDetailNew/hate2.png" wx:if="{{centObj.isLike===0}}"></image>
+                    <image mode class="img data-v-5b932149" src="https://eshopfile.zhiyousx.com/spotDetailNew/hate1.png" wx:else></image>
+                    <view class="text data-v-5b932149">无感</view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="row2 data-v-5b932149" id="row2" wx:if="{{$root.m0}}">
+        <view class="love-box data-v-5b932149" wx:if="{{$root.m1}}">
+            <view class="l data-v-5b932149">
+                <view class="t data-v-5b932149">喜爱值</view>
+                <view class="b data-v-5b932149">{{$root.m2}}</view>
+            </view>
+            <view class="r data-v-5b932149">
+                <view class="t data-v-5b932149">
+                    <view class="p data-v-5b932149">{{$root.m3+'%'}}</view>
+                    <view class="p data-v-5b932149">{{$root.m4+'%'}}</view>
+                </view>
+                <view class="m data-v-5b932149">
+                    <view class="inner data-v-5b932149" style="{{'width:'+(centObj.likeRatio*100||0)+'%'+';'}}"></view>
+                </view>
+                <view class="b data-v-5b932149">
+                    <view class="l data-v-5b932149">{{(centObj.num||0)+'人参与表态'}}</view>
+                </view>
+            </view>
+        </view>
+        <view bindtap="__e" class="line bordertop data-v-5b932149" data-event-opts="{{[ [ 'tap',[ [ 'openMap',['$event'] ] ] ] ]}}" wx:if="{{detailObj.address&&detailObj.latitude&&detailObj.longitude}}">
+            <image class="icon data-v-5b932149" src="https://eshopfile.zhiyousx.com/2021061516513797848.png"></image>
+            <view class="text singleLineText data-v-5b932149">{{detailObj.address}}</view>
+            <uni-icons bind:__l="__l" class="data-v-5b932149" color="#FFFFFF" size="16" type="arrowright" vueId="6afb3712-3"></uni-icons>
+        </view>
+    </view>
+    <view class="row2 data-v-5b932149" id="row2" style="height:0px;margin:0;" wx:else></view>
+    <view class="row1 data-v-5b932149" wx:if="{{detailObj.otherIntroduction}}">
+        <image class="otherIntroduction data-v-5b932149" mode="widthFix" src="{{detailObj.otherIntroduction}}"></image>
+    </view>
+    <view class="row3 data-v-5b932149">
+        <view class="item data-v-5b932149" wx:if="{{detailObj.sysTagVoList&&detailObj.sysTagVoList[0]}}">
+            <view class="l data-v-5b932149">标签</view>
+            <view class="r data-v-5b932149">
+                <view class="tag data-v-5b932149" wx:for="{{detailObj.sysTagVoList}}" wx:for-index="__i0__" wx:key="id">
+                    <view class="inner data-v-5b932149">
+                        <view class="name data-v-5b932149">{{item.name}}</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="item data-v-5b932149" wx:if="{{detailObj.scenicSpotRelList&&detailObj.scenicSpotRelList[0]}}">
+            <view class="l data-v-5b932149">所属</view>
+            <view class="r data-v-5b932149">
+                <view bindtap="__e" class="tag data-v-5b932149" data-event-opts="{{[ [ 'tap',[ [ 'toSpot',['$0'],[ [ ['detailObj.scenicSpotRelList','scenicId',item.scenicId,'scenicId'] ] ] ] ] ] ]}}" wx:for="{{detailObj.scenicSpotRelList}}" wx:for-index="__i1__" wx:key="scenicId">
+                    <view class="inner data-v-5b932149">
+                        <view class="name data-v-5b932149">{{item.scenicName}}</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="item data-v-5b932149" wx:if="{{detailObj&&detailObj.tagIncludeVoList[0]||detailObj&&detailObj.originRankingList[0]}}">
+            <view class="l data-v-5b932149">收录</view>
+            <view class="r data-v-5b932149">
+                <view bindtap="__e" class="tag data-v-5b932149" data-event-opts="{{[ [ 'tap',[ [ 'toRanking',['$0'],[ [ ['detailObj.tagIncludeVoList','contentId',item.contentId,'contentId'] ] ] ] ] ] ]}}" wx:for="{{detailObj.tagIncludeVoList}}" wx:for-index="__i2__" wx:key="contentId">
+                    <view class="inner data-v-5b932149" style="padding-left:18rpx;">
+                        <image mode class="icon data-v-5b932149" src="{{item.tagUrl?item.tagUrl:'https://eshopfile.zhiyousx.com/spotDetailNew/shoulu.png'}}"></image>
+                        <view class="name data-v-5b932149">{{item.name}}</view>
+                    </view>
+                </view>
+                <view bindtap="__e" class="tag data-v-5b932149" data-event-opts="{{[ [ 'tap',[ [ 'toRanking',['$0'],[ [ ['detailObj.originRankingList','contentId',item.contentId,'contentId'] ] ] ] ] ] ]}}" wx:for="{{detailObj.originRankingList}}" wx:for-index="__i3__" wx:key="contentId">
+                    <view class="inner data-v-5b932149" style="padding-left:18rpx;">
+                        <image mode class="icon data-v-5b932149" src="{{item.tagUrl?item.tagUrl:'https://eshopfile.zhiyousx.com/2021072117045189271.png'}}"></image>
+                        <view class="name data-v-5b932149">{{item.rankingName}}</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="row4 data-v-5b932149">
+        <view class="title-box data-v-5b932149">
+            <view class="l data-v-5b932149">简介</view>
+            <view bindtap="__e" class="button-show data-v-5b932149" data-event-opts="{{[ [ 'tap',[ ['changHide'] ] ] ]}}" wx:if="{{lines>6}}">
+                <view class="button-show-text data-v-5b932149">{{''+(isHide?'展开':'收起')+''}}</view>
+                <u-icon bind:__l="__l" class="data-v-5b932149" color="rgba(255,255,255,0.6)" name="arrow-down" size="20" vueId="6afb3712-4" wx:if="{{isHide}}"></u-icon>
+                <u-icon bind:__l="__l" class="data-v-5b932149" color="rgba(255,255,255,0.6)" name="arrow-up" size="20" vueId="6afb3712-5" wx:else></u-icon>
+            </view>
+        </view>
+        <view class="content-box data-v-5b932149">
+            <mote-lines-divide bind:__l="__l" bind:line_show="__e" class="data-v-5b932149" data-event-opts="{{[ [ '^line_show',[ ['getLines'] ] ] ]}}" dt="{{detailObj.introductionText}}" expandText="展开" foldHint="收起" isHide="{{isHide}}" line="{{6}}" style="color:#fff;" vueId="6afb3712-6"></mote-lines-divide>
+        </view>
+    </view>
+    <view class="row5 data-v-5b932149" wx:if="{{detailObj&&detailObj.bannerList[0]}}">
+        <u-swiper bind:__l="__l" bind:click="__e" borderRadius="10" class="data-v-5b932149" data-event-opts="{{[ [ '^click',[ ['swiperTopClick'] ] ] ]}}" height="268" indicatorActiveColor="#FFFFFF" interval="5000" list="{{detailObj.bannerList}}" name="advertPic" vueId="6afb3712-7"></u-swiper>
+    </view>
+    <view class="row7 data-v-5b932149" wx:if="{{detailObj.picVideoResources&&detailObj.picVideoResources[0]}}">
+        <view bindtap="__e" class="title-box data-v-5b932149" data-event-opts="{{[ [ 'tap',[ [ 'jumpSpotMedia',['$event'] ] ] ] ]}}">
+            <view class="l data-v-5b932149">{{showVideo?'视频/图片':'图片'}}</view>
+            <view class="r data-v-5b932149">
+                <view class="data-v-5b932149">{{'全部'+$root.g0}}</view>
+                <image mode class="data-v-5b932149" src="https://eshopfile.zhiyousx.com/spotDetailNew/jiantou.png"></image>
+            </view>
+        </view>
+        <scroll-view class="item-box data-v-5b932149" scrollX="true" style="height:248rpx;">
+            <view bindtap="__e" class="item data-v-5b932149" data-event-opts="{{[ [ 'tap',[ [ 'openMedia',[index] ] ] ] ]}}" wx:if="{{item.m5}}" wx:for="{{$root.l0}}">
+                <image class="img data-v-5b932149" mode="aspectFill" src="{{item.$orig.resourcesType==2?item.$orig.coverImage:item.$orig.resourcesUrl}}"></image>
+                <view class="mask data-v-5b932149" wx:if="{{item.$orig.resourcesType==2}}">
+                    <image mode class="icon data-v-5b932149" src="https://eshopfile.zhiyousx.com/spotDetailNew/bofang2.png"></image>
+                </view>
+            </view>
+        </scroll-view>
+    </view>
+    <view class="mask data-v-5b932149" wx:if="{{showPicture}}">
+        <view class="maskTop data-v-5b932149" style="{{'top:'+statusBarHeight+8+'px'+';'}}">
+            <u-icon bind:__l="__l" bind:click="__e" class="data-v-5b932149" color="#ffffff" data-event-opts="{{[ [ '^click',[ ['closeMask'] ] ] ]}}" name="arrow-left" size="42" vueId="6afb3712-8"></u-icon>
+            <view class="num data-v-5b932149">{{''+swiperCurrent+' / '+$root.g1+''}}</view>
+        </view>
+        <swiper bindchange="__e" class="swiper data-v-5b932149" current="{{currentSwiper}}" data-event-opts="{{[ [ 'change',[ [ 'swiperChange',['$event'] ] ] ] ]}}" duration="{{500}}">
+            <swiper-item class="data-v-5b932149" wx:for="{{detailObj.picVideoResources}}" wx:key="index">
+                <view class="swiper-item data-v-5b932149" wx:if="{{item.resourcesType==1}}">
+                    <image class="data-v-5b932149" mode="widthFix" src="{{item.resourcesUrl}}"></image>
+                </view>
+                <view class="swiper-item data-v-5b932149" wx:if="{{swiperCurrent==index+1}}">
+                    <video autoplay="{{true}}" class="swiper-item data-v-5b932149 vue-ref-in-for" controls="{{true}}" data-ref="video" src="{{item.resourcesUrl}}"></video>
+                </view>
+            </swiper-item>
+        </swiper>
+    </view>
+    <l-painter bind:__l="__l" bind:success="__e" board="{{posterData}}" class="data-v-5b932149 vue-ref" data-event-opts="{{[ [ '^success',[ ['e0'] ] ] ]}}" data-ref="painter" isRenderImage="{{true}}" style="display:none;" vueId="6afb3712-9" wx:if="{{isAndroid}}"></l-painter>
+    <painter bind:__l="__l" bind:imgErr="__e" bind:imgOK="__e" class="painter data-v-5b932149" data-event-opts="{{[ [ '^imgOK',[ ['onImgOK'] ] ],[ '^imgErr',[ ['onImgErr'] ] ] ]}}" palette="{{painterData}}" vueId="6afb3712-10" widthPixels="{{300}}" wx:if="{{painterData}}"></painter>
+</view>

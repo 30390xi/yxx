@@ -1,0 +1,9 @@
+<view class="no-page data-v-d5843b52">
+    <view class="content data-v-d5843b52">
+        <image class="data-v-d5843b52" src="https://eshopfile.zhiyousx.com/2023110116325879617.png"></image>
+        <view class="data-v-d5843b52">暂无年卡</view>
+    </view>
+    <view class="footer data-v-d5843b52">
+        <view bindtap="__e" class="btn data-v-d5843b52" data-event-opts="{{[ [ 'tap',[ [ 'handleJump',['$event'] ] ] ] ]}}">+ 购买年卡</view>
+    </view>
+</view>

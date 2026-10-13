@@ -1,0 +1,18 @@
+<view bindtap="clickLottery" class="lottery has-events" hidden="{{showRecord}}">
+    <canvas class="lottery__animation" id="lottery__canvas" style="width: 82px; height: 94px;" type="2d"></canvas>
+    <view class="lottery__inner">
+        <view class="{{showLotteryCountTime?'lottery__icon':'lottery__icon__end'}}" hidden="{{isPlayLotteryAnimation&&isSupportAnimation||!showLotteryIcon}}"></view>
+        <view class="lottery__icon__empty" hidden="{{!isPlayLotteryAnimation}}"></view>
+        <black wx:if="{{showLotteryIcon&&!isLotteryOpen&&lotteryTeamMembers.length>0&&isJoinedLotteryTeam}}">
+            <view class="lottery__team__status" wx:if="{{lotteryTeamMembers.length<3}}">
+                <text class="lottery__team__status__word">组队中</text>
+            </view>
+            <view class="lottery__team__status" wx:else>
+                <text class="lottery__team__status__word">组队成功</text>
+            </view>
+        </black>
+        <view class="lottery__info lottery__status" hidden="{{!showLotteryIcon}}" wx:if="{{isLotteryOpen}}">已开奖</view>
+        <view class="lottery__info" wx:elif="{{showLotteryCountTime}}">{{lotteryCountTime}}</view>
+        <view class="lottery__info empty" wx:else></view>
+    </view>
+</view>

@@ -1,0 +1,96 @@
+<view class="page-box data-v-e37b2420">
+    <uni-navbar bind:__l="__l" class="data-v-e37b2420" type="transparentFixed" vueId="8480a138-1"></uni-navbar>
+    <view class="top-gradient-mask data-v-e37b2420"></view>
+    <view bindtap="__e" class="topBtn data-v-e37b2420" data-event-opts="{{[ [ 'tap',[ [ 'scrollToTop',['$event'] ] ] ] ]}}">
+        <image class="data-v-e37b2420" mode="aspectFit" src="https://eshopfile.zhiyousx.com/176716139551045208.png"></image>
+    </view>
+    <z-paging auto="{{false}}" bind:__l="__l" bind:input="__e" bottomBgColor="#00000000" class="data-v-e37b2420 vue-ref" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','dataList','$event',[] ] ] ] ] ]}}" data-ref="paging" lowerThreshold="{{50}}" safeAreaInsetBottom="isIos" scrollable="{{true}}" style="position:fixed;z-index:11;" useChatRecordMode="{{true}}" value="{{dataList}}" vueId="8480a138-2" vueSlots="{{['default','bottom']}}" wx:if="{{!isHide}}">
+        <chat-input-bar bg="{{true}}" bind:__l="__l" bind:clearData="__e" bind:clearDataStop="__e" bind:resetTravel="__e" bind:send="__e" bind:showToastPop="__e" bind:stopSpeak="__e" class="chat-input-bar data-v-e37b2420 vue-ref" data-event-opts="{{[ [ '^stopSpeak',[ ['stopSpeak'] ] ],[ '^showToastPop',[ ['showToastPop'] ] ],[ '^resetTravel',[ ['resetTravel'] ] ],[ '^clearData',[ ['clearData'] ] ],[ '^clearDataStop',[ ['clearDataStop'] ] ],[ '^send',[ ['doSend'] ] ] ]}}" data-ref="inputBar" definedQuestion="{{bottomQuestion}}" detail="{{spotDetail}}" isIos="{{isIos}}" lang="{{lang}}" pushingProgress="{{pushingProgress}}" pushingProgressShow="{{pushingProgressShow}}" slot="bottom" spot="tang" vueId="{{'8480a138-3'+','+'8480a138-2'}}"></chat-input-bar>
+        <view class="data-v-e37b2420" style="position:relative;" wx:for="{{dataList}}" wx:for-index="__i0__" wx:key="id">
+            <view class="data-v-e37b2420" style="transform:scaleY(-1);">
+                <chat-item bind:__l="__l" bind:askAgain="__e" bind:exclusive="__e" bind:playVideo="__e" bind:resetTravel="__e" bind:stopSpeak="__e" class="data-v-e37b2420" data-event-opts="{{[ [ '^askAgain',[ ['askAgain'] ] ],[ '^resetTravel',[ ['resetTravel'] ] ],[ '^exclusive',[ ['exclusive'] ] ],[ '^stopSpeak',[ ['stopSpeak'] ] ],[ '^playVideo',[ ['playVideo'] ] ] ]}}" dataList="{{dataList}}" item="{{item}}" lang="{{lang}}" newVal="{{newVal}}" pushingProgress="{{pushingProgress}}" vueId="{{'8480a138-4-'+__i0__+','+'8480a138-2'}}"></chat-item>
+            </view>
+        </view>
+        <view class="menu data-v-e37b2420" style="transform:scaleY(-1);">
+            <view class="menu-head data-v-e37b2420">
+                <view class="menu-welcome data-v-e37b2420">
+                    <image class="mascot data-v-e37b2420" src="https://res.zhiyousx.com/ahs-2d/test/2026/01/16/176854386173961507.gif"></image>
+                    <view class="speakPop data-v-e37b2420">
+                        <view class="title data-v-e37b2420">
+                            <text class="data-v-e37b2420">{{lang==='zh'?'哈喽~':'Hello~'}}</text>
+                            <image class="data-v-e37b2420" mode="aspectFit" src="https://eshopfile.zhiyousx.com/176820212671250599.png"></image>
+                        </view>
+                        <view class="content data-v-e37b2420">{{''+(lang==='zh'?'我是你的专属芙蓉园灯会智能客服导览助手!':'I am your exclusive Furong Garden Lantern Festival smart customer service guide assistant')+''}}</view>
+                    </view>
+                </view>
+            </view>
+            <view class="enter-btns data-v-e37b2420">
+                <view bindtap="__e" class="{{['enter-btn-vlog','data-v-e37b2420',lang==='zh'?'zh':'',lang==='en'?'en':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'toVlog',['$event'] ] ] ] ]}}"></view>
+            </view>
+            <view class="defined-question data-v-e37b2420" wx:if="{{$root.g0}}">
+                <view class="question-title data-v-e37b2420" wx:if="{{$root.g1}}">
+                    <image class="data-v-e37b2420" mode="aspectFill" src="https://eshopfile.zhiyousx.com/176845755256412891.png"></image>
+                    <text class="data-v-e37b2420">{{lang==='zh'?'猜你想问':'You might want to ask'}}</text>
+                </view>
+                <swiper autoplay="{{true}}" bindchange="__e" circular="{{true}}" class="question-swiper data-v-e37b2420" data-event-opts="{{[ [ 'change',[ [ 'questionChange',['$event'] ] ] ] ]}}" disableTouch="{{true}}" displayMultipleItems="{{1}}" duration="{{800}}" interval="{{4000}}" vertical="{{true}}">
+                    <swiper-item class="data-v-e37b2420" wx:for="{{questionSlides}}" wx:for-index="sidx" wx:for-item="slide" wx:key="sidx">
+                        <view class="question-slide data-v-e37b2420">
+                            <view bindtap="__e" class="question-item data-v-e37b2420" data-event-opts="{{[ [ 'tap',[ [ 'askAgain',['$0'],[ [ ['questionSlides','',sidx],['','id',item.id,'description'] ] ] ] ] ] ]}}" wx:for="{{slide}}" wx:for-index="__i1__" wx:key="id">
+                                <text class="question-text data-v-e37b2420">{{item.description}}</text>
+                                <image class="data-v-e37b2420" mode="aspectFill" src="https://eshopfile.zhiyousx.com/176714582692142151.png" style="width:14px;height:14px;border-radius:20rpx;"></image>
+                            </view>
+                        </view>
+                    </swiper-item>
+                </swiper>
+            </view>
+        </view>
+        <view class="header data-v-e37b2420" style="{{'height:'+headerHeight+'px'+';'}}"></view>
+    </z-paging>
+    <view bindtap="__e" class="notice-detail-popup data-v-e37b2420" data-event-opts="{{[ [ 'tap',[ [ 'closeNoticeDetail',['$event'] ] ] ] ]}}" wx:if="{{showNoticeDetailPopup}}">
+        <view catchtap="__e" class="popup-content data-v-e37b2420" data-event-opts="{{[ [ 'tap',[ [ '',['$event'] ] ] ] ]}}">
+            <image class="popup-img data-v-e37b2420" src="https://eshopfile.zhiyousx.com/176766627375473751.png"></image>
+            <view bindtap="__e" class="close-btn data-v-e37b2420" data-event-opts="{{[ [ 'tap',[ [ 'closeNoticeDetail',['$event'] ] ] ] ]}}">
+                <image class="data-v-e37b2420" mode="aspectFill" src="https://eshopfile.zhiyousx.com/176766604288459703.png" style="width:32rpx;height:32rpx;"></image>
+            </view>
+            <view class="popup-title data-v-e37b2420">{{currentNotice?currentNotice.title:''}}</view>
+            <view class="popup-body data-v-e37b2420">
+                <text class="popup-content-text data-v-e37b2420">{{currentNotice?currentNotice.content:''}}</text>
+            </view>
+        </view>
+    </view>
+    <view class="subscribe-modal data-v-e37b2420" wx:if="{{showSubscribeModal}}">
+        <view catchtap="__e" class="subscribe-content data-v-e37b2420" data-event-opts="{{[ [ 'tap',[ [ '',['$event'] ] ] ] ]}}">
+            <view class="subscribe-header data-v-e37b2420">
+                <text class="subscribe-title data-v-e37b2420">开启二次入园提醒</text>
+            </view>
+            <view class="subscribe-body data-v-e37b2420">
+                <text class="subscribe-text data-v-e37b2420">开启消息通知后，当您符合二次入园条件时，我们将第一时间提醒您，避免错过再次入园。</text>
+            </view>
+            <view class="subscribe-footer data-v-e37b2420">
+                <button bindtap="__e" class="subscribe-btn data-v-e37b2420" data-event-opts="{{[ [ 'tap',[ [ 'handleSubscribeAuth',['$event'] ] ] ] ]}}">开启提醒</button>
+                <button bindtap="__e" class="subscribe-btn secondary data-v-e37b2420" data-event-opts="{{[ [ 'tap',[ [ 'closeSubscribeModal',[2] ] ] ] ]}}">暂不开启</button>
+            </view>
+        </view>
+    </view>
+    <view bindtap="__e" class="subscribe-modal data-v-e37b2420" data-event-opts="{{[ [ 'tap',[ [ 'closeToastModal',['$event'] ] ] ] ]}}" wx:if="{{showToastModal}}">
+        <view catchtap="__e" class="subscribe-content data-v-e37b2420" data-event-opts="{{[ [ 'tap',[ [ '',['$event'] ] ] ] ]}}">
+            <view class="subscribe-body data-v-e37b2420">
+                <view class="subscribe-text data-v-e37b2420">
+                    <block wx:if="{{lang==='zh'}}">
+                        <text class="data-v-e37b2420">如果您需要专业讲解可以联系客服电话</text>
+                        <text bindtap="__e" class="phone-highlight data-v-e37b2420" data-event-opts="{{[ [ 'tap',[ [ 'callPhone',['18629089083'] ] ] ] ]}}">18629089083</text>
+                        <text class="data-v-e37b2420">。也可前往永宁门月城游客服务中心 或永宁门北口售票处进行咨询寻找。</text>
+                    </block>
+                    <block wx:else>
+                        <text class="data-v-e37b2420">If you need professional guidance, please call customer service at</text>
+                        <text bindtap="__e" class="phone-highlight data-v-e37b2420" data-event-opts="{{[ [ 'tap',[ [ 'callPhone',['18629089083'] ] ] ] ]}}">18629089083</text>
+                        <text class="data-v-e37b2420">. You can also visit the Yongning Gate Yuecheng Visitor Service Center or the Yongning Gate North Ticket Office for consultation.</text>
+                    </block>
+                </view>
+            </view>
+            <view class="subscribe-footer data-v-e37b2420">
+                <button bindtap="__e" class="subscribe-btn data-v-e37b2420" data-event-opts="{{[ [ 'tap',[ [ 'closeToastModal',['$event'] ] ] ] ]}}">{{lang==='zh'?'我知道了':'Got it'}}</button>
+            </view>
+        </view>
+    </view>
+</view>

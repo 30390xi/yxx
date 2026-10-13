@@ -1,0 +1,72 @@
+<view class="box data-v-229e4244">
+    <view class="lable_box data-v-229e4244" style="{{'justify-content:'+($root.g0>6?'flex-start':'center')+';'}}">
+        <scroll-view class="lable_content data-v-229e4244" scrollLeft="{{scrollToLeft}}" scrollWithAnimation="true" scrollX="{{true}}" style="{{'width:'+($root.g1>6?'750rpx':'auto')+';'}}" throttle="{{false}}">
+            <view bindtap="__e" class="{{['lable','data-v-229e4244',activeDays==index?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeDay',[index] ] ] ] ]}}" wx:for="{{$root.l0}}" wx:key="index">{{item.m0+''}}<label class="lins _span data-v-229e4244" style="{{'background:'+'linear-gradient(90deg, '+buttonColour+' 0%, rgba(255,84,19,0) 100%)'+';'}}" wx:if="{{activeDays==index}}"></label>
+            </view>
+        </scroll-view>
+    </view>
+    <view class="loction data-v-229e4244">
+        <view class="trip data-v-229e4244" wx:if="{{isTrip}}">
+            <view class="trip_row data-v-229e4244">
+                <image class="tripIcon data-v-229e4244" src="{{trip.icon}}"></image>
+                <label class="trip_lable _span data-v-229e4244">{{trip.type}}</label>
+                <label class="val _span data-v-229e4244">{{trip.distance}}</label>
+            </view>
+            <view class="trip_row data-v-229e4244">
+                <image class="tripIcon data-v-229e4244" src="https://eshopfile.zhiyousx.com/169216975204897973.png"></image>
+                <label class="trip_lable _span data-v-229e4244">预计</label>
+                <label class="val _span data-v-229e4244">{{trip.duration}}</label>
+            </view>
+        </view>
+        <map bindcallouttap="__e" bindlabeltap="__e" class="data-v-229e4244 vue-ref" data-event-opts="{{[ [ 'labeltap',[ [ 'getMarker',['$event'] ] ] ],[ 'callouttap',[ [ 'getMarker',['$event'] ] ] ] ]}}" data-ref="map" enableRotate="{{true}}" id="map" latitude="{{map.latitude}}" layerStyle="1" longitude="{{map.longitude}}" markers="{{markers}}" polyline="{{polyline}}" showLocation="{{true}}" style="width:100%;height:100%;" subkey="{{subkey}}">
+            <cover-view class="data-v-229e4244" slot="callout">
+                <cover-view class="customCallout data-v-229e4244" markerId="{{item.id}}" wx:for="{{markers}}" wx:key="index">
+                    <cover-view class="spot_info data-v-229e4244">
+                        <cover-image class="spot_img data-v-229e4244" hidden="{{!(item.mainPic&&scrollLeft==index)}}" src="{{item.mainPic}}"></cover-image>
+                        <cover-view class="title data-v-229e4244">{{item.title}}</cover-view>
+                    </cover-view>
+                    <cover-view class="jx data-v-229e4244">
+                        <cover-view class="jiantou data-v-229e4244"></cover-view>
+                    </cover-view>
+                </cover-view>
+            </cover-view>
+        </map>
+        <view catchtouchmove="return" class="flex data-v-229e4244">
+            <view class="position data-v-229e4244">
+                <view bindtouchmove="__e" bindtouchstart="__e" class="spot data-v-229e4244" data-event-opts="{{[ [ 'touchmove',[ [ 'scroll',['$event'] ] ] ],[ 'touchstart',[ [ 'touchstart',['$event'] ] ] ] ]}}" style="{{'left:'+-scrollLeft*650+'rpx'+';'}}">
+                    <view bindtap="__e" class="spot_item data-v-229e4244" data-event-opts="{{[ [ 'tap',[ [ 'goSpot',['$0','$1'],[ [ ['spotList','',index,'destinationId'] ],[ ['spotList','',index,'journeyDestinationType'] ] ] ] ] ] ]}}" wx:if="{{item.$orig.trafficType!=null}}" wx:for="{{$root.l1}}" wx:key="index">
+                        <view class="spot_icon data-v-229e4244" style="{{'background:'+(index==scrollLeft?'#FF5411':buttonColour)+';'}}">{{index+1+''}}</view>
+                        <view class="other data-v-229e4244" wx:if="{{item.$orig.journeyDestinationType==8}}">
+                            <image class="spot_img data-v-229e4244" mode="aspectFill" src="{{item.$orig.cardImage}}" wx:if="{{item.$orig.cardImage}}"></image>
+                            <view class="spot_info data-v-229e4244">
+                                <view class="spot_name data-v-229e4244">{{item.$orig.destinationName}}</view>
+                                <u-parse bind:__l="__l" class="content data-v-229e4244" html="{{item.$orig.content}}" lazyLoad="{{true}}" tagStyle="{{parseStyle}}" vueId="{{'2f61a97e-1-'+index}}"></u-parse>
+                            </view>
+                        </view>
+                        <view class="data-v-229e4244" style="display:inline-flex;" wx:else>
+                            <image class="spot_img data-v-229e4244" mode="aspectFill" src="{{item.$orig.lineDestinationVO.mainPic}}"></image>
+                            <view class="spot_info data-v-229e4244">
+                                <view class="spot_name data-v-229e4244">{{item.$orig.lineDestinationVO.destinationName}}</view>
+                                <view class="ranking singleLineText data-v-229e4244" wx:if="{{item.$orig.lineDestinationVO.originSortInRankingVO.contentId}}">
+                                    <view class="text data-v-229e4244">
+                                        <view class="name singleLineText data-v-229e4244">{{''+item.$orig.lineDestinationVO.originSortInRankingVO.rankingName+'第'+item.$orig.lineDestinationVO.originSortInRankingVO.indexInRanking+'名'}}</view>
+                                    </view>
+                                </view>
+                                <view class="card_describe subtitle data-v-229e4244" wx:if="{{item.$orig.lineDestinationVO.subtitle}}">{{''+item.$orig.lineDestinationVO.subtitle}}</view>
+                                <view class="card_ticket data-v-229e4244" wx:if="{{item.$orig.lineDestinationVO.ticketName}}">
+                                    <view class="ding data-v-229e4244">订</view>
+                                    <view class="price data-v-229e4244">{{(item.$orig.lineDestinationVO.price==0?'免费':'￥'+item.$orig.lineDestinationVO.price)+''}}</view>
+                                    <view class="ticketName singleLineText data-v-229e4244">{{item.$orig.lineDestinationVO.ticketName}}</view>
+                                </view>
+                                <view class="card_describe data-v-229e4244" wx:if="{{item.m1}}">{{''+item.m2+''}}</view>
+                            </view>
+                        </view>
+                    </view>
+                    <view capture-bind:tap="__e" class="nextDay data-v-229e4244" data-event-opts="{{[ [ 'tap',[ [ 'nextDay',['$event'] ] ] ] ]}}" wx:if="{{$root.g2-1!=activeDays}}">
+                        <view class="p data-v-229e4244">下一天</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

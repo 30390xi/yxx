@@ -1,0 +1,41 @@
+<u-modal bind:__l="__l" bind:input="__e" borderRadius="20" class="calc-module data-v-2b806a1e" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','show','$event',[] ] ] ] ] ]}}" showConfirmButton="{{false}}" showTitle="{{false}}" value="{{show}}" vueId="7d3b9d42-1" vueSlots="{{['default']}}">
+    <view bindtap="__e" class="close-btn data-v-2b806a1e" data-event-opts="{{[ [ 'tap',[ [ 'close',['$event'] ] ] ] ]}}">
+        <image class="data-v-2b806a1e" src="https://eshopfile.zhiyousx.com/2023103014415331027.png"></image>
+    </view>
+    <view class="slot-content data-v-2b806a1e">
+        <view class="card-title data-v-2b806a1e">{{''+(status===1?'购买1张':'')+info.title}}</view>
+        <view class="card-title-desc data-v-2b806a1e">{{status===1?'最多可省':'累计已为您节省'}}</view>
+        <view class="card-price data-v-2b806a1e">
+            <text class="data-v-2b806a1e">￥</text>{{allPrice}}</view>
+        <u-divider bind:__l="__l" borderColor="#D29B9B" class="data-v-2b806a1e" color="#391818" fontSize="28" halfWidth="82" vueId="{{'7d3b9d42-2'+','+'7d3b9d42-1'}}" vueSlots="{{['default']}}">年卡省钱计算器</u-divider>
+        <view class="scrolling data-v-2b806a1e">
+            <u-notice-bar bgColor="#ffffff" bind:__l="__l" class="data-v-2b806a1e" color="#999999" duration="{{8000}}" fontSize="24" list="{{['权益价值为该景区成人票窗口门市价']}}" mode="vertical" padding="0 0" volumeIcon="{{false}}" vueId="{{'7d3b9d42-3'+','+'7d3b9d42-1'}}"></u-notice-bar>
+        </view>
+        <view class="data-v-2b806a1e">
+            <scroll-view class="line-list data-v-2b806a1e" scrollY="{{true}}">
+                <view class="line data-v-2b806a1e" wx:for="{{info.detailVOList}}" wx:key="index">
+                    <view class="line-name data-v-2b806a1e">{{item.scenicName}}</view>
+                    <view class="line-price data-v-2b806a1e">{{'￥'+item.cost}}</view>
+                    <view class="line-tag data-v-2b806a1e">
+                        <text class="data-v-2b806a1e" wx:if="{{status===1}}">{{'可使用'+(item.useTimesLimit===0?'无限次':item.totalTimes+'次')}}</text>
+                        <text class="data-v-2b806a1e" wx:else>{{'已使用'+item.useNum+'次'}}</text>
+                    </view>
+                </view>
+            </scroll-view>
+        </view>
+    </view>
+    <view class="footer data-v-2b806a1e">
+        <view class="buyBtns data-v-2b806a1e" wx:if="{{info.buyFlag}}">
+            <view bindtap="__e" class="red-btn data-v-2b806a1e" data-event-opts="{{[ [ 'tap',[ [ 'emitPurchase',['$event'] ] ] ] ]}}" wx:if="{{status===1&&info.stockStatus>0}}">立即购买</view>
+            <block wx:else>
+                <view bindtap="__e" class="red-btn data-v-2b806a1e" data-event-opts="{{[ [ 'tap',[ [ 'buyAgain',['$event'] ] ] ] ]}}" wx:if="{{status!==1&&info.stockStatus>0}}">再买一张</view>
+                <view class="red-btn disabled data-v-2b806a1e" wx:else>已售空</view>
+            </block>
+        </view>
+        <view class="buyBtns data-v-2b806a1e" wx:else>
+            <view class="red-btn disabled data-v-2b806a1e">已结束</view>
+        </view>
+        <view bindtap="__e" class="exchange data-v-2b806a1e" data-event-opts="{{[ [ 'tap',[ [ 'goExchange',['$event'] ] ] ] ]}}">兑换码兑换<image class="data-v-2b806a1e" src="https://eshopfile.zhiyousx.com/2023103015502384685.png"></image>
+        </view>
+    </view>
+</u-modal>

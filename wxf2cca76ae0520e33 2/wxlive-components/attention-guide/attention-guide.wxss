@@ -1,0 +1,1 @@
+@import "/_commons/8.wxss";.weui-btn.mode__follow-teach__btn{border-radius:20px;color:var(--color-theme)}.weui-btn.mode__follow-teach__btn:active{opacity:.7}.half-screen-dialog__follow-teach__image{display:block;margin:0 auto;width:262px}.mode__follow-teach__horizontal .half-screen-dialog__follow-teach__image{width:180px}

@@ -1,0 +1,42 @@
+<view class="replacement_box data-v-2f6e3365">
+    <uni-navbar bind:__l="__l" class="data-v-2f6e3365" type="transparentFixed" vueId="4dd3e33c-1"></uni-navbar>
+    <view class="replacement_header data-v-2f6e3365">
+        <image mode bindtap="__e" class="replacement_header-icon data-v-2f6e3365" data-event-opts="{{[ [ 'tap',[ [ 'goList',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/173753619182414398.png"></image>
+    </view>
+    <view class="replacement_count-box data-v-2f6e3365">
+        <view class="replacement_count-top data-v-2f6e3365"></view>
+        <view class="replacement_count-bottom data-v-2f6e3365"></view>
+        <view class="replacement_count data-v-2f6e3365" style="{{'top:'+(smallScreen?'500rpx':'560rpx')+';'}}">
+            <view class="up-photo1 data-v-2f6e3365" hidden="{{!(typeIndex==0)}}">
+                <component-swiper autoplay="{{false}}" bind:__l="__l" bind:scrollImg="__e" class="data-v-2f6e3365 vue-ref" data-event-opts="{{[ [ '^scrollImg',[ ['scrollImg'] ] ] ]}}" data-ref="swiper0" smallScreen="{{smallScreen}}" swiperList="{{bgData.bgList}}" type="{{1}}" vueId="4dd3e33c-2"></component-swiper>
+            </view>
+            <view class="up-photo2 data-v-2f6e3365" hidden="{{!(typeIndex==1)}}">
+                <component-swiper autoplay="{{false}}" bind:__l="__l" bind:scrollImg="__e" class="data-v-2f6e3365 vue-ref" data-event-opts="{{[ [ '^scrollImg',[ ['scrollImg1'] ] ] ]}}" data-ref="swiper1" smallScreen="{{smallScreen}}" swiperList="{{bgData.clothImgList}}" type="{{2}}" vueId="4dd3e33c-3"></component-swiper>
+            </view>
+            <view class="{{['up-photo','data-v-2f6e3365',smallScreen?'up-photo-act':'up-photo-acted']}}" hidden="{{!(typeIndex==2||typeIndex==3)}}">
+                <view class="up-photo-copy data-v-2f6e3365" wx:if="{{!humanImg}}">
+                    <image mode bindtap="__e" class="image data-v-2f6e3365" data-event-opts="{{[ [ 'tap',[ [ 'chooseImage',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/173745921820092720.png"></image>
+                    <view class="text data-v-2f6e3365">请选择人物面部清晰的上半身照片，避免生成视频效果不佳</view>
+                </view>
+                <image class="{{['data-v-2f6e3365',smallScreen?'image-logo1':'image-logo']}}" mode="aspectFill" src="{{humanImg}}" wx:if="{{humanImg}}"></image>
+            </view>
+        </view>
+    </view>
+    <view class="replacement_foot data-v-2f6e3365">
+        <view class="btn-all data-v-2f6e3365">
+            <view class="foot-sub data-v-2f6e3365">
+                <view bindtap="__e" class="foot-btn data-v-2f6e3365" data-event-opts="{{[ [ 'tap',[ [ 'submit',['$event'] ] ] ] ]}}">{{''+( typeIndex==2&&humanImg?'合成视频':btnText[typeIndex] )+''}}</view>
+            </view>
+            <view class="more-btn data-v-2f6e3365">
+                <view bindtap="__e" class="left-btn font data-v-2f6e3365" data-event-opts="{{[ [ 'tap',[ [ 'previousStep',['$event'] ] ] ] ]}}" style="{{'opacity:'+(leftBtn[typeIndex]?1:0)+';'}}">{{''+leftBtn[typeIndex]+''}}</view>
+                <view bindtap="__e" class="right-btn font data-v-2f6e3365" data-event-opts="{{[ [ 'tap',[ [ 'nextStep',['$event'] ] ] ] ]}}" wx:if="{{typeIndex==2&&humanImg}}">重新上传</view>
+            </view>
+        </view>
+    </view>
+    <view class="loading-box data-v-2f6e3365" wx:if="{{showLoading}}">
+        <view class="loading-warp data-v-2f6e3365">
+            <view class="loading-top data-v-2f6e3365"></view>
+            <image class="loading-bottom data-v-2f6e3365" src="https://eshopfile.zhiyousx.com/173746268882550876.png"></image>
+        </view>
+    </view>
+</view>

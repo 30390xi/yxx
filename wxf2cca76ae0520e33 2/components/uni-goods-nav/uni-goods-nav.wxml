@@ -1,0 +1,21 @@
+<view class="uni-goods-nav data-v-13639b7e">
+    <view class="uni-tab__seat data-v-13639b7e"></view>
+    <view class="uni-tab__cart-box flex data-v-13639b7e">
+        <view class="flex uni-tab__cart-sub-left data-v-13639b7e">
+            <view bindtap="__e" class="flex uni-tab__cart-button-left uni-tab__shop-cart data-v-13639b7e" data-event-opts="{{[ [ 'tap',[ [ 'onClick',[index,'$0'],[ [ ['options','',index] ] ] ] ] ] ]}}" wx:for="{{options}}" wx:key="index">
+                <view class="uni-tab__icon data-v-13639b7e">
+                    <image class="image data-v-13639b7e" mode="widthFix" src="{{item.icon}}"></image>
+                </view>
+                <text class="uni-tab__text data-v-13639b7e" style="font-size:20rpx;">{{item.text}}</text>
+                <view class="flex uni-tab__dot-box data-v-13639b7e">
+                    <text class="{{['uni-tab__dot','','data-v-13639b7e',item.info>9?'uni-tab__dots':'']}}" style="{{'background-color:'+(item.infoBackgroundColor?item.infoBackgroundColor:'#ff0000')+';'+'color:'+(item.infoColor?item.infoColor:'#fff')+';'}}" wx:if="{{item.info}}">{{item.info}}</text>
+                </view>
+            </view>
+        </view>
+        <view class="{{['flex','uni-tab__cart-sub-right','','data-v-13639b7e',fill?'uni-tab__right':'']}}">
+            <view bindtap="__e" class="flex uni-tab__cart-button-right data-v-13639b7e" data-event-opts="{{[ [ 'tap',[ [ 'buttonClick',[index,'$0'],[ [ ['buttonGroup','',index] ] ] ] ] ] ]}}" style="{{'background-color:'+item.backgroundColor+';'+'color:'+item.color+';'+'background-image:'+item.backgroundImage+';'}}" wx:for="{{buttonGroup}}" wx:key="index">
+                <text class="uni-tab__cart-button-right-text data-v-13639b7e" style="{{'font-size:26rpx;'+'color:'+item.color+';'}}">{{item.text}}</text>
+            </view>
+        </view>
+    </view>
+</view>

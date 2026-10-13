@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "renderer": "skyline",
+  "componentFramework": "glass-easel",
+  "disableScroll": true
+}

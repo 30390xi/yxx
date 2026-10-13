@@ -1,0 +1,3 @@
+<view class="u-time-axis data-v-2468e906">
+    <slot></slot>
+</view>

@@ -1,0 +1,44 @@
+<view class="chat-item">
+    <view class="{{[true?'chat-container':'',item.type==1?'chat-location-me':'']}}">
+        <view class="chat-content-container">
+            <view class="chat-text-container-super" style="{{'justify-content:'+(item.type==1?'flex-end':'flex-start')+';'}}">
+                <view class="{{[true?'chat-text-container':'',item.type==1?'chat-text-container-me':'',item.type!=1?'chat-text-container-no':'']}}">
+                    <view class="bubble">
+                        <view class="{{[true?'chat-text':'']}}">
+                            <view class="text-warp" space="nbsp" userSelect="true" wx:if="{{item.content}}">{{''+item.content+''}}</view>
+                            <view class="loading-box" wx:if="{{!item.content}}">{{''+(item.classType?'游戏初始化中':'正在思考中')+''}}<view class="loading">
+                                    <view class="pot"></view>
+                                    <view class="pot"></view>
+                                    <view class="pot"></view>
+                                </view>
+                            </view>
+                            <view style="width:100%;margin-top:30rpx;" wx:if="{{item.imgUrl&&item.type==0}}">
+                                <view class="loading-box" wx:if="{{!loaded}}">{{''+'海报生成中'+''}}<view class="loading">
+                                        <view class="pot"></view>
+                                        <view class="pot"></view>
+                                        <view class="pot"></view>
+                                    </view>
+                                </view>
+                                <view bindtap="__e" class="couplet-box" data-event-opts="{{[ [ 'tap',[ [ 'showPic',['$0'],['item.imgUrl'] ] ] ] ]}}" style="{{'height:'+(loaded?'auto':'1px')+';'}}">
+                                    <image bindload="__e" class="coupletImg" data-event-opts="{{[ [ 'load',[ [ 'imgLoad',['$event'] ] ] ] ]}}" lazyLoad="true" mode="aspectFill" showMenuByLongpress="{{true}}" src="{{item.imgUrl}}"></image>
+                                </view>
+                            </view>
+                            <view class="chat-text-expand" wx:if="{{$root.g0}}">
+                                <view class="guide">
+                                    <view class="left">
+                                        <image class="headImg" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173510683638304664.png"></image>你可以试着问我<image class="finger" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173373501152490600.png"></image>：</view>
+                                </view>
+                                <view class="questionBox" wx:if="{{$root.g1}}">
+                                    <view bindtap="__e" class="item" data-event-opts="{{[ [ 'tap',[ [ 'askAgain',['$0'],[ [ ['item.divergenceProblem','',index] ] ] ] ] ] ]}}" style="{{'margin-bottom:'+(index!=it.g2-1?'20rpx':'0')+';'}}" wx:for="{{$root.l0}}" wx:for-item="it" wx:key="index">
+                                        <text class="text-desc">{{it.$orig}}</text>
+                                        <image lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173373722521006570.png"></image>
+                                    </view>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

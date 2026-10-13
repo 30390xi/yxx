@@ -1,0 +1,32 @@
+<view class="card-list data-v-131583f2">
+    <view class="tab-h data-v-131583f2">
+        <scroll-view class="data-v-131583f2" scrollY="{{scrollTop>=listTop}}" style="{{'height:'+(scrollTop>=listTop?'calc(100vh - '+statusBarHeight+'px - 172rpx)':'100%')+';'}}">
+            <view bindtap="__e" class="{{['data-v-131583f2','tab',index===checkedTabIndex&&'checked',index===checkedTabIndex-1&&'pre-checked']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeTab',[index] ] ] ] ]}}" wx:for="{{tabList}}" wx:key="id">
+                <view class="tab-label data-v-131583f2">{{item.className}}</view>
+                <view class="tab-num data-v-131583f2">{{item.detailNum+'家'}}</view>
+            </view>
+        </scroll-view>
+    </view>
+    <scroll-view class="data-v-131583f2" scrollY="{{scrollTop>=listTop}}" style="{{'height:'+(scrollTop>=listTop?'calc(100vh - '+statusBarHeight+'px - 172rpx)':'100%')+';'}}">
+        <view class="spot-list data-v-131583f2">
+            <view bindtap="__e" class="{{['data-v-131583f2','spot-item',item.needCreateOrder===1&&'tag']}}" data-event-opts="{{[ [ 'tap',[ [ 'openInstruction',['$0'],[ [ ['list','',index] ] ] ] ] ] ]}}" wx:for="{{list}}" wx:key="index">
+                <image class="data-v-131583f2" src="{{item.scenicImage}}"></image>
+                <view class="spot-item-center data-v-131583f2">
+                    <view class="spot-name data-v-131583f2">
+                        <view class="close-icon data-v-131583f2" wx:if="{{!item.openingStatus}}">闭园</view>{{item.scenicName}}</view>
+                    <view class="spot-price data-v-131583f2">窗口票价<text class="data-v-131583f2">{{'￥'+item.price}}</text>
+                    </view>
+                    <view class="shop-instructions data-v-131583f2">使用须知<image class="data-v-131583f2" src="https://eshopfile.zhiyousx.com/2023102614083173967.png"></image>
+                    </view>
+                </view>
+                <view class="spot-item-right data-v-131583f2">
+                    <view class="tag-text data-v-131583f2">
+                        <block wx:if="{{item.useTimesLimit}}">免<text class="data-v-131583f2">{{item.totalTimes}}</text>次</block>
+                        <block wx:else>不限次</block>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </scroll-view>
+    <instruction bind:__l="__l" bind:updateShow="__e" class="data-v-131583f2" data-event-opts="{{[ [ '^updateShow',[ [ '__set_sync',['$0','instructionShow','$event'],[''] ] ] ] ]}}" html="{{currentUseDesc}}" scenicId="{{currentScenicId}}" show="{{instructionShow}}" vueId="a80e4dca-1"></instruction>
+</view>

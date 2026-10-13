@@ -1,0 +1,18 @@
+{
+  "code": 1,
+  "data": {
+    "paramKey": "HOME_HOT_PRODUCT_BACK_IMG",
+    "paramName": "首页爆款推荐背景色",
+    "paramValue": null,
+    "memo": "首页爆款推荐背景色",
+    "isConfigurable": 1,
+    "operatorType": 1,
+    "operatorId": "1",
+    "createTime": "2024-12-12 14:46:39",
+    "updateTime": "2024-12-12 14:46:42",
+    "isDeleted": 0,
+    "serviceType": 0
+  },
+  "msg": "成功",
+  "success": true
+}

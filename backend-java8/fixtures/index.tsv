@@ -1,0 +1,46 @@
+13964409eee87b4b	POST	/base/app/v1/advert/selectAppAdvert		13964409eee87b4b.json
+211cbe2974259151	GET	/base/app/v1/advert/selectPopUpAdvert		211cbe2974259151.json
+3a1f0c57e5d5caf7	GET	/base/app/v1/contentApp/queryWaterfallFlowList	contentType=&current=1&size=10	3a1f0c57e5d5caf7.json
+8c8840bdf4ef7a8d	GET	/base/app/v1/contentApp/queryWaterfallFlowList	contentType=&current=2&size=10	8c8840bdf4ef7a8d.json
+f562009a2d4a37ba	GET	/base/app/v1/contentApp/queryWaterfallFlowList	contentType=&current=3&size=10	f562009a2d4a37ba.json
+8fbc7d90b044cfe0	GET	/base/app/v1/contentApp/queryWaterfallFlowList	contentType=&current=4&size=10	8fbc7d90b044cfe0.json
+9d093a3610619f5e	GET	/base/app/v1/contentRanking/home/ranking	count=3	9d093a3610619f5e.json
+7987d995ecf2d687	GET	/base/app/v1/evaluation/getEvaluation	scenicSpotId=1320579064720941183	7987d995ecf2d687.json
+1395e87cb1731c3f	GET	/base/app/v1/scenicSpot/getAppScenicSpotDetail	scenicId=1320579064720941183	1395e87cb1731c3f.json
+2fc0ebd278919e05	GET	/base/app/v1/scenicSpot/getAroundScenicSpot	lat=39.9219&lnt=116.44355	2fc0ebd278919e05.json
+a7f60d9e4b49902b	POST	/base/app/v1/scenicSpot/getScenicSpotListBySysTag		a7f60d9e4b49902b.json
+b4ff00c50b1bd674	GET	/base/app/v1/sysParam/getSysConfigure	paramKey=GRAY_THEME_FLAG	b4ff00c50b1bd674.json
+5fbf9664da33354f	GET	/base/app/v1/sysParam/getSysConfigure	paramKey=HOME_HOT_PRODUCT_BACK_IMG	5fbf9664da33354f.json
+2421ff527be6530f	GET	/base/app/v1/sysParam/getSysConfigure	paramKey=LINE_PLATFORM_REMINDER	2421ff527be6530f.json
+e4f8b1f88fe8ec0e	GET	/base/app/v1/sysParam/getSysConfigure	paramKey=SCENIC_TAG_CONTROL	e4f8b1f88fe8ec0e.json
+d3f6bd43589d6ca6	POST	/base/app/v1/sysParam/getSysParamForApp		d3f6bd43589d6ca6.json
+947bf511c54d6858	GET	/base/app/v1/sysTag/appGetScenicSportTagNew	type=1	947bf511c54d6858.json
+d720a0b9f0206b2c	POST	/product/app/equityCard/selectPage		d720a0b9f0206b2c.json
+db527d04d6757983	POST	/product/app/v1/CouponReceive/getCanReceiveOrUseCouponList		db527d04d6757983.json
+c7a0816e52eba516	GET	/product/app/v1/giftBag/getGiftBagForHome		c7a0816e52eba516.json
+daeb9aec05413f56	GET	/product/app/v1/hotDestination/list		daeb9aec05413f56.json
+4853d916aba47180	GET	/product/app/v1/item/getHomeItemSpecialty		4853d916aba47180.json
+1e01028a0f8b218d	GET	/product/app/v1/item/getItemHotRecommendNew		1e01028a0f8b218d.json
+9a16c806ed74c944	GET	/product/app/v1/item/getScenicItemList	scenicId=1320579064720941183	9a16c806ed74c944.json
+0950fe49755a54e3	GET	/product/app/v1/item/getTiketProductDetail	itemId=1607998382839414786	0950fe49755a54e3.json
+b27f45331cee6d12	GET	/product/app/v1/line/detail/1703700709486821378		b27f45331cee6d12.json
+3a764f94c4e0830b	GET	/product/app/v1/line/detail/map/1703700709486821378		3a764f94c4e0830b.json
+9c12511efbae40f3	GET	/product/app/v1/line/getAllLineCityList		9c12511efbae40f3.json
+416a09bf104c8eb8	GET	/product/app/v1/line/getAllLineDayList		416a09bf104c8eb8.json
+41f10ba44c3c332f	GET	/product/app/v1/line/hotPlay	count=3	41f10ba44c3c332f.json
+4383c7630bf559e1	GET	/product/app/v1/line/product/cityList		4383c7630bf559e1.json
+84e171b378866771	GET	/product/app/v1/line/product/departure		84e171b378866771.json
+a186acf3d14bacc9	GET	/product/app/v1/line/product/destinationList		a186acf3d14bacc9.json
+b7c60fdebbb01f20	GET	/product/app/v1/line/product/detail/1781224807857623042		b7c60fdebbb01f20.json
+e4a0f2c2d7fa9c86	GET	/product/app/v1/line/product/getAllLineDayList		e4a0f2c2d7fa9c86.json
+03ce313995061712	GET	/product/app/v1/line/product/getBetweenPrice		03ce313995061712.json
+253d694e0cee0b62	GET	/product/app/v1/line/product/getFromCityList		253d694e0cee0b62.json
+c1227f261ba8e681	GET	/product/app/v1/line/product/home/list	current=1&size=11	c1227f261ba8e681.json
+070cda1618152694	GET	/product/app/v1/line/product/hotDestinationList		070cda1618152694.json
+91003b38dff183d0	POST	/product/app/v1/line/product/list		91003b38dff183d0.json
+7dc846c46e91cc46	POST	/product/app/v1/line/product/listNum		7dc846c46e91cc46.json
+056b985d441a83dd	GET	/product/app/v1/line/product/themeList		056b985d441a83dd.json
+7ee2168c30bc93f4	GET	/product/app/v1/line/relation/1703700709486821378		7ee2168c30bc93f4.json
+91c77064fd86de40	POST	/product/app/v1/line/selectPage		91c77064fd86de40.json
+eceb3c13dbde4a86	GET	/product/app/v1/searchKey/searchKeyAndDefaultKey		eceb3c13dbde4a86.json
+75a7e2efbf22ed93	GET	/product/app/v1/theme/list		75a7e2efbf22ed93.json

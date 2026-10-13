@@ -1,0 +1,18 @@
+<view class="data-v-30ec223e">
+    <view class="data-v-30ec223e" style="position:relative;" wx:if="{{isHide}}">
+        <view class="dt-content data-v-30ec223e" style="{{'-webkit-line-clamp:'+line}}">
+            <view class="content data-v-30ec223e">{{''+(dt?dt:'')+''}}</view>
+        </view>
+    </view>
+    <view class="data-v-30ec223e" wx:else>
+        <view class="data-v-30ec223e">
+            <view class="content data-v-30ec223e">
+                <slot wx:if="{{$slots.default}}"></slot>
+                <block wx:else>{{dt?dt:''}}</block>
+            </view>
+        </view>
+    </view>
+    <view class="data-v-30ec223e">
+        <view class="placeholder data-v-30ec223e" wx:if="{{placeholder}}">{{''+placeholder+''}}</view>
+    </view>
+</view>

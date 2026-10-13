@@ -1,0 +1,15 @@
+<view class="box data-v-358310b0">
+    <view class="nav data-v-358310b0" style="{{'height:'+searchHeight+38+'px'+';'+'padding-top:'+searchHeight+'px'+';'}}">
+        <view bindtap="__e" class="back data-v-358310b0" data-event-opts="{{[ [ 'tap',[ ['back'] ] ] ]}}">
+            <image class="header_icon data-v-358310b0" mode="aspectFit" src="/static/zhouWei-navBar/icon_back_black.png"></image>
+        </view>
+        <view class="center data-v-358310b0">
+            <view class="{{['title','data-v-358310b0',active==1?'active':'']}}">选资源</view>
+            <view class="title data-v-358310b0">→</view>
+            <view class="{{['title','data-v-358310b0',active==2?'active':'']}}">填订单</view>
+            <view class="title data-v-358310b0">→</view>
+            <view class="{{['title','data-v-358310b0',active==3?'active':'']}}">支付</view>
+        </view>
+    </view>
+    <view class="conten data-v-358310b0" style="{{'height:'+searchHeight+38+'px'+';'}}"></view>
+</view>

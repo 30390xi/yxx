@@ -1,0 +1,33 @@
+<view class="u-wrap data-v-f5e6c02e">
+    <uni-navbar bind:__l="__l" class="navBar data-v-f5e6c02e" id="navbar" shadow="{{false}}" type="fixed" vueId="3e20d1ba-1"></uni-navbar>
+    <view class="tab-box data-v-f5e6c02e" style="{{'top:'+navbarH+'px'+';'}}">
+        <u-tabs activeColor="#000000" barHeight="10" barStyle="{{barStyle}}" barWidth="80" bgColor="rgba(255, 255, 255, 1)" bind:__l="__l" bind:change="__e" class="data-v-f5e6c02e" current="{{current}}" data-event-opts="{{[ [ '^change',[ ['change'] ] ] ]}}" fontSize="30" height="100" inactiveColor="#7C7C7C" isScroll="{{false}}" list="{{showVideo?list:list2}}" vueId="3e20d1ba-2"></u-tabs>
+    </view>
+    <view class="image-box data-v-f5e6c02e">
+        <view bindtap="__e" class="item-box data-v-f5e6c02e" data-event-opts="{{[ [ 'tap',[ [ 'openMedia',[index] ] ] ] ]}}" wx:if="{{item.resourcesType==1||item.resourcesType==2&&showVideo}}" wx:for="{{dataList}}" wx:key="index">
+            <image class="cover data-v-f5e6c02e" mode="aspectFill" src="{{item.resourcesType==1?item.resourcesUrl:item.coverImage}}"></image>
+            <view class="mask data-v-f5e6c02e" wx:if="{{item.resourcesType==2}}">
+                <image mode class="icon data-v-f5e6c02e" src="https://eshopfile.zhiyousx.com/spotDetailNew/bofang2.png"></image>
+            </view>
+        </view>
+    </view>
+    <view class="empty data-v-f5e6c02e" wx:if="{{$root.g0<=0}}">
+        <empty-state bind:__l="__l" class="data-v-f5e6c02e" imgUrl="https://eshopfile.zhiyousx.com/noGoods@2x.png" text="暂无" vueId="3e20d1ba-3"></empty-state>
+    </view>
+    <view class="mask data-v-f5e6c02e" wx:if="{{showScreen}}">
+        <view class="maskTop data-v-f5e6c02e" style="{{'top:'+statusBarHeight+8+'px'+';'}}">
+            <u-icon bind:__l="__l" bind:click="__e" class="data-v-f5e6c02e" color="#ffffff" data-event-opts="{{[ [ '^click',[ ['closeMask'] ] ] ]}}" name="arrow-left" size="42" vueId="3e20d1ba-4"></u-icon>
+            <view class="num data-v-f5e6c02e">{{''+swiperCurrent+' / '+swiperLenght+''}}</view>
+        </view>
+        <swiper bindchange="__e" class="swiper data-v-f5e6c02e" current="{{currentSwiper}}" data-event-opts="{{[ [ 'change',[ [ 'swiperChange',['$event'] ] ] ] ]}}" duration="{{duration}}">
+            <swiper-item class="data-v-f5e6c02e" wx:for="{{dataList}}" wx:key="index">
+                <view class="swiper-item data-v-f5e6c02e" wx:if="{{item.resourcesType==1}}">
+                    <image class="data-v-f5e6c02e" mode="widthFix" src="{{item.resourcesUrl}}"></image>
+                </view>
+                <view class="swiper-item data-v-f5e6c02e" wx:if="{{swiperCurrent==index+1}}">
+                    <video autoplay="{{true}}" class="swiper-item data-v-f5e6c02e vue-ref-in-for" controls="{{true}}" data-ref="video" src="{{item.resourcesUrl}}"></video>
+                </view>
+            </swiper-item>
+        </swiper>
+    </view>
+</view>

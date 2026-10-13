@@ -1,0 +1,12 @@
+<component-menu-half bindcloseevent="onCloseEvent" class="auto-reply-panel {{screenType==='horizontal'?'auto-reply-panel__horizontal':''}}" closeable="{{true}}" height="auto" isResponseHorizontal="{{true}}" isShow="{{isShowAutoReplySettingPanel}}" isShowAnimation="{{true}}" screenType="{{screenType}}" size="normal" wx:if="{{isShowAutoReplySettingPanel}}">
+    <view class="auto-reply-panel__header" slot="header">主播回复</view>
+    <view class="auto-reply-panel__body" slot="body">
+        <view class="auto-reply-panel__cell">
+            <view class="auto-reply-panel__cell-header">主播自动回复</view>
+            <view bindtap="switch2Change" class="auto-reply-panel__cell-footer">
+                <switch checked="{{!isDisableAutoReply}}" color="var(--color-theme)"></switch>
+            </view>
+        </view>
+        <view class="auto-reply-panel__desc">关闭后，你在本场直播间中提出一些问题后，不会收到主播自动回复</view>
+    </view>
+</component-menu-half>

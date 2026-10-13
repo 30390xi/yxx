@@ -1,0 +1,26 @@
+<view class="wxlive-player-pendant" wx:if="{{showPendant}}">
+    <navigator class="wxlive-player-pendant__navigator" hoverClass="navigator-hover" url="plugin-private://wx2b03c6e691cd7370/pages/live-player-plugin?room_id={{_roomId}}&type=16&custom_params={{customParams}}&close_picture_in_picture_mode={{closePictureInPictureMode}}&open_share_ticket={{openShareTicket}}&record_url={{recordUrl}}&play_goods_record_id={{playGoodsRecordId}}">
+        <view class="wxlive-player-pendant__mini-screen wxlive-player-pendant__playing" wx:if="{{showLivePlayer}}">
+            <view class="wxlive-player-pendant__screen" style="{{'background: url('+roomImg+') no-repeat center top /cover'}}">
+                <view class="wxlive-player-pendant__mini-screen__info">
+                    <view class="wxlive-player-pendant__icon-playing"></view>正在直播</view>
+            </view>
+        </view>
+        <view class="wxlive-player-pendant__explain" wx:elif="{{showRecord}}">
+            <view class="wxlive-player-pendant__explain__inner">
+                <view class="wxlive-player-pendant__icon wxlive-player-pendant__icon-play"></view>直播讲解</view>
+        </view>
+        <view class="wxlive-player-pendant__mini-screen wxlive-player-pendant__playback" wx:elif="{{showReplay}}">
+            <view class="wxlive-player-pendant__screen" style="{{'background: url('+roomImg+') no-repeat center top /cover'}}">
+                <view class="wxlive-player-pendant__mini-screen__info">
+                    <view class="wxlive-player-pendant__icon-play"></view>直播回放</view>
+            </view>
+        </view>
+        <view class="wxlive-player-pendant__mini-screen wxlive-player-pendant__advance" wx:elif="{{showLivePlayerNotStart}}">
+            <view class="wxlive-player-pendant__screen" style="{{'background: url('+roomImg+') no-repeat center top /cover'}}">
+                <view class="wxlive-player-pendant__mini-screen__info">
+                    <view class="wxlive-player-pendant__icon-advance"></view>直播预告</view>
+            </view>
+        </view>
+    </navigator>
+</view>

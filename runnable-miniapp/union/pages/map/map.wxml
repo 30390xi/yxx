@@ -1,0 +1,42 @@
+<view class="card-map data-v-20020d03">
+    <uni-navbar bind:__l="__l" class="data-v-20020d03" type="transparentFixed" vueId="860592f4-1"></uni-navbar>
+    <map bindcallouttap="__e" class="data-v-20020d03" data-event-opts="{{[ [ 'callouttap',[ [ 'calloutTap',['$event'] ] ] ] ]}}" enableRotate="{{false}}" id="map" latitude="{{map.latitude}}" layerStyle="2" longitude="{{map.longitude}}" markers="{{markers}}" scale="10" showLocation="{{true}}" style="width:100%;height:100%;" subkey="U4JBZ-K7XW4-GH2UA-KVPJK-OLCYV-7WB3D" theme="satellite">
+        <cover-view class="data-v-20020d03" slot="callout" wx:if="{{markers&&markers[0]}}">
+            <cover-view class="custom-callout-container data-v-20020d03" markerId="{{index}}" wx:for="{{markers}}" wx:key="index">
+                <cover-view class="{{['custom-callout','data-v-20020d03',item.scenicId==selectScenicId?'is-choose-big':'no-choose']}}">{{''+(markers[index].scenicName||'')+''}}</cover-view>
+                <cover-image class="custom-image data-v-20020d03" src="/static/images/up.png" wx:if="{{item.scenicId==selectScenicId}}"></cover-image>
+                <cover-image class="custom-image data-v-20020d03" src="/static/images/grey.png" wx:if="{{item.scenicId!=selectScenicId}}"></cover-image>
+            </cover-view>
+        </cover-view>
+    </map>
+    <view class="pop-box data-v-20020d03" wx:if="{{showPopup}}">
+        <view bindtap="__e" class="store-item data-v-20020d03" data-event-opts="{{[ [ 'tap',[ [ 'jumpToS',['/pages/spotDetailNew/spotDetailNew?spotId='+selectedScenic.scenicId+'&isUnion=1'] ] ] ] ]}}">
+            <view class="img-b data-v-20020d03">
+                <image class="data-v-20020d03" mode="aspectFill" src="{{selectedScenic.scenicImage}}"></image>
+                <view class="tip data-v-20020d03" wx:if="{{selectedScenic.isSponsor}}"></view>
+            </view>
+            <view class="info-box data-v-20020d03">
+                <view class="name-b data-v-20020d03">
+                    <view class="name multilineText2 data-v-20020d03">{{''+selectedScenic.scenicName+''}}</view>
+                    <view class="sub singleLineText data-v-20020d03">{{''+selectedScenic.equityDesc+''}}</view>
+                </view>
+                <view class="ab-box data-v-20020d03">
+                    <view class="tag-box data-v-20020d03">
+                        <view class="level-box data-v-20020d03">{{''+$root.f0+''}}</view>
+                        <view class="eq-box data-v-20020d03">{{''+selectedScenic.equityNum+''}}</view>
+                    </view>
+                    <view class="ad-b data-v-20020d03">
+                        <view class="flex col-center data-v-20020d03">
+                            <text class="data-v-20020d03">{{selectedScenic.className}}</text>
+                            <text class="singleLineText data-v-20020d03">{{selectedScenic.cityName+(selectedScenic.address?'/'+selectedScenic.address:'')}}</text>
+                        </view>
+                        <view class="flex col-center data-v-20020d03" wx:if="{{selectedScenic.distance>0}}">
+                            <image mode class="ad data-v-20020d03" src="https://eshopfile.zhiyousx.com/2024052411165183914.png"></image>
+                            <text class="data-v-20020d03">{{selectedScenic.distance+'km'}}</text>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

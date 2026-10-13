@@ -1,0 +1,67 @@
+<view class="data-v-d8c789ae">
+    <view class="top-box data-v-d8c789ae">
+        <view class="body data-v-d8c789ae">
+            <view class="box1 data-v-d8c789ae">
+                <view class="box1-1 data-v-d8c789ae">
+                    <view class="box1-1-1 data-v-d8c789ae">余额</view>
+                    <view class="box1-1-2 data-v-d8c789ae">(元)</view>
+                </view>
+                <view class="box1-2 data-v-d8c789ae">{{wealthNum.accountBalance||0}}</view>
+                <view class="box1-3 data-v-d8c789ae">累计收入</view>
+                <view class="box1-4 data-v-d8c789ae">{{wealthNum.accountIncome||0}}</view>
+            </view>
+            <view class="box2 data-v-d8c789ae">
+                <text class="option data-v-d8c789ae">结算中</text>
+                <text class="value data-v-d8c789ae">{{wealthNum.brokerageIncome||0}}</text>
+            </view>
+            <view class="box3 data-v-d8c789ae">
+                <view bindtap="__e" class="{{['box3-1','data-v-d8c789ae',wealthNum.accountBalance<minNum?'dis':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'withdrawal',['$event'] ] ] ] ]}}">{{''+(wealthNum.accountBalance<minNum?'满'+minNum+'提现':'提现')+''}}</view>
+                <view class="box3-2 data-v-d8c789ae">
+                    <view class="box3-2-1 data-v-d8c789ae">
+                        <view class="bt1 data-v-d8c789ae">已提现</view>
+                        <view class="bt2 data-v-d8c789ae">{{wealthNum.accountWithdraw||0}}</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view bindtap="__e" class="jmpFooter data-v-d8c789ae" data-event-opts="{{[ [ 'tap',[ [ 'jmpOfficial',['$event'] ] ] ] ]}}" wx:if="{{!isSubscribeFlag}}">关注「游陕西」公众号，实时接收业绩通知 >></view>
+    </view>
+    <view class="tab data-v-d8c789ae">
+        <u-tabs activeColor="#3C3C3C" barHeight="8" barStyle="{{barStyle}}" barWidth="120" bgColor="rgba(0,0,0,0)" bind:__l="__l" bind:change="__e" bold="{{true}}" class="data-v-d8c789ae" current="{{currentIndex}}" data-event-opts="{{[ [ '^change',[ ['changecurr'] ] ] ]}}" inactiveColor="#6B6B6B" isScroll="{{false}}" list="{{listTab}}" vueId="a2133080-1"></u-tabs>
+    </view>
+    <scroll-view class="list-box data-v-d8c789ae" scrollWithAnimation="{{true}}" scrollY="{{true}}" style="{{'height:'+scrollH+'px'+';'}}" wx:if="{{currentIndex==0}}">
+        <view class="cashRecord data-v-d8c789ae" wx:if="{{withDrawList&&withDrawList[0]}}">
+            <view class="item data-v-d8c789ae" wx:for="{{$root.l0}}" wx:key="index">
+                <text class="num data-v-d8c789ae">{{'￥'+item.$orig.sum}}</text>
+                <text class="time data-v-d8c789ae">{{item.$orig.createTime}}</text>
+                <text class="{{['state','data-v-d8c789ae',item.$orig.status==0?'red':'',item.$orig.status==2?'fail':'']}}">{{item.m0}}</text>
+            </view>
+        </view>
+        <empty-state bind:__l="__l" catchtouchmove="true" class="data-v-d8c789ae" imgUrl="https://eshopfile.zhiyousx.com/nodetailed.png" text="暂无提现记录" vueId="a2133080-2" wx:else></empty-state>
+    </scroll-view>
+    <scroll-view class="list-box data-v-d8c789ae" scrollWithAnimation="{{true}}" scrollY="{{true}}" style="{{'height:'+scrollH+'px'+';'}}" wx:if="{{currentIndex==1}}">
+        <view class="detail data-v-d8c789ae" wx:if="{{incomeList&&incomeList[0]}}">
+            <view class="item data-v-d8c789ae" wx:for="{{incomeList}}" wx:key="index">
+                <view class="name data-v-d8c789ae">{{item.brokerageType==2?item.activeName:item.itemTitle}}</view>
+                <view class="n data-v-d8c789ae" wx:if="{{item.brokerageType==0}}">推广奖励：<text class="cash data-v-d8c789ae">{{'￥'+item.income}}</text>
+                </view>
+                <view class="n data-v-d8c789ae" wx:if="{{item.brokerageType==2}}">中奖金额：<text class="cash data-v-d8c789ae">{{'￥'+item.income}}</text>
+                </view>
+                <view class="n data-v-d8c789ae" wx:if="{{item.brokerageType==1}}">返现奖励：<text class="cash data-v-d8c789ae">{{'￥'+item.income}}</text>
+                </view>
+                <view class="n data-v-d8c789ae">{{'奖励状态： '+['进行中','已入账','已失败'][item.status]}}</view>
+                <view class="n ordernum data-v-d8c789ae" wx:if="{{item.brokerageType!=2}}">{{'订单金额：￥'+item.orderAmount}}</view>
+                <view class="orderinfo data-v-d8c789ae">
+                    <text class="data-v-d8c789ae">订单编号：</text>
+                    <text class="data-v-d8c789ae">{{item.orderId}}</text>
+                </view>
+                <view class="orderinfo data-v-d8c789ae">
+                    <text class="data-v-d8c789ae">下单时间：</text>
+                    <text class="data-v-d8c789ae">{{item.createTime}}</text>
+                </view>
+                <view class="state data-v-d8c789ae">{{item.orderStatusStr}}</view>
+            </view>
+        </view>
+        <empty-state bind:__l="__l" catchtouchmove="true" class="data-v-d8c789ae" imgUrl="https://eshopfile.zhiyousx.com/nodetailed.png" text="暂无收入明细" vueId="a2133080-3" wx:else></empty-state>
+    </scroll-view>
+</view>

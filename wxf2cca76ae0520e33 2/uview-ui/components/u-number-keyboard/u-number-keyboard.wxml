@@ -1,0 +1,12 @@
+<view catchtouchmove="__e" class="u-keyboard data-v-cff0f67a" data-event-opts="{{[ [ 'touchmove',[ [ '',['$event'] ] ] ] ]}}">
+    <view class="u-keyboard-grids data-v-cff0f67a">
+        <view bindtap="__e" class="{{['u-keyboard-grids-item','data-v-cff0f67a',item.m0?'u-bg-gray':'',index<=2?'u-border-top':'',index<9?'u-border-bottom':'',(index+1)%3!=0?'u-border-right':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'keyboardClick',['$0'],[ [ ['numList','',index] ] ] ] ] ] ]}}" hoverClass="{{item.m1}}" hoverStayTime="{{100}}" style="{{item.s0}}" wx:for="{{$root.l0}}" wx:key="index">
+            <view class="u-keyboard-grids-btn data-v-cff0f67a">{{item.$orig}}</view>
+        </view>
+        <view bindtouchend="__e" catchtouchstart="__e" class="u-keyboard-grids-item u-bg-gray data-v-cff0f67a" data-event-opts="{{[ [ 'touchstart',[ [ 'backspaceClick',['$event'] ] ] ],[ 'touchend',[ [ 'clearTimer',['$event'] ] ] ] ]}}" hoverClass="u-hover-class" hoverStayTime="{{100}}">
+            <view class="u-keyboard-back u-keyboard-grids-btn data-v-cff0f67a">
+                <u-icon bind:__l="__l" bold="{{true}}" class="data-v-cff0f67a" name="backspace" size="{{38}}" vueId="0dabc61e-1"></u-icon>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,17 @@
+<view class="my-card data-v-7ece651f">
+    <uni-navbar bind:__l="__l" class="data-v-7ece651f" title="卡包" titleCenter="{{false}}" type="transparentFixed" vueId="684f1336-1"></uni-navbar>
+    <view class="header-bg data-v-7ece651f" style="{{'background:'+bgStyle+';'}}">
+        <view class="tab data-v-7ece651f">
+            <view bindtap="__e" class="{{['data-v-7ece651f',item.id===checkedTabId&&'checked']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeTab',['$0'],[ [ ['tabList','id',item.id,'id'] ] ] ] ] ] ]}}" wx:for="{{tabList}}" wx:for-index="__i0__" wx:key="id">{{''+item.name+''}}</view>
+        </view>
+    </view>
+    <view class="card data-v-7ece651f" wx:if="{{$root.g0}}">
+        <view class="card-item data-v-7ece651f" wx:for="{{list}}" wx:for-index="__i1__" wx:key="userYearCardId">
+            <card bind:__l="__l" bind:reset="__e" bind:setStatus="__e" bind:timedRefresh="__e" class="data-v-7ece651f" data-event-opts="{{[ [ '^reset',[ [ 'getList',['$0'],['checkedTabId'] ] ] ],[ '^timedRefresh',[ ['timedRefresh'] ] ],[ '^setStatus',[ ['changeTab'] ] ] ]}}" info="{{item}}" status="{{item.status}}" vueId="{{'684f1336-2-'+__i1__}}"></card>
+        </view>
+        <view class="footer data-v-7ece651f">
+            <view bindtap="__e" class="btn data-v-7ece651f" data-event-opts="{{[ [ 'tap',[ [ 'handleJump',['$event'] ] ] ] ]}}">+ 购买年卡</view>
+        </view>
+    </view>
+    <no-page bind:__l="__l" class="data-v-7ece651f" vueId="684f1336-3" wx:else></no-page>
+</view>

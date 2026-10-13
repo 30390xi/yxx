@@ -1,0 +1,28 @@
+<view class="photoWall data-v-231ac936">
+    <uni-navbar bind:__l="__l" class="data-v-231ac936" type="transparentFixed" vueId="79c98c00-1"></uni-navbar>
+    <view class="top-box data-v-231ac936">
+        <image mode class="top-bg data-v-231ac936" src="https://eshopfile.zhiyousx.com/2022100815285282248.jpg"></image>
+        <image mode class="user-title data-v-231ac936" src="https://eshopfile.zhiyousx.com/2022100815331079289.png"></image>
+        <image mode class="title-img data-v-231ac936" src="https://eshopfile.zhiyousx.com/2022100815330628059.png"></image>
+        <image mode bindtap="__e" class="tip-but1 data-v-231ac936" data-event-opts="{{[ [ 'tap',[ [ 'jumpSpot',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/2022100815262376681.png"></image>
+    </view>
+    <view class="imgList-box data-v-231ac936">
+        <u-waterfall addTime="50" bind:__l="__l" bind:input="__e" class="data-v-231ac936 vue-ref" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','flowList','$event',[] ] ] ] ] ]}}" data-ref="uWaterfall" data-vue-generic="scoped" value="{{flowList}}" vueId="79c98c00-2" vueSlots="{{['right','left']}}"></u-waterfall>
+    </view>
+    <image mode class="bottom-box data-v-231ac936" src="https://eshopfile.zhiyousx.com/2022100815174064482.png"></image>
+    <image mode bindtap="__e" class="uploadImg data-v-231ac936" data-event-opts="{{[ [ 'tap',[ [ 'uploadImg',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/2022100815144246270.png"></image>
+    <u-popup bind:__l="__l" bind:input="__e" class="data-v-231ac936 vue-ref" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showNotice','$event',[] ] ] ] ] ]}}" data-ref="uPopup" mode="center" value="{{showNotice}}" vueId="79c98c00-3" vueSlots="{{['default']}}">
+        <view class="notice-box data-v-231ac936">
+            <view class="notice-info data-v-231ac936">
+                <view class="notice-title data-v-231ac936">在寺照片拍摄及使用权协议</view>
+                <view class="notice-body data-v-231ac936">
+                    <view class="p data-v-231ac936">1、寺院为修行道场，上传照片需得体庄严，以表现寺内风景建筑为主，也可包含人像（但不得有未成年人）。 在寺拍照需礼敬三宝，不得对佛菩萨圣像及寺院出家师父拍照。</view>
+                    <view class="p data-v-231ac936">2、寺院不定期对上传照片进行评选并在首页展示相关作品和作者信息，特别优秀者可发心成为古寺特约摄影师，即有机会近距离接触禅宗文化，拍摄古寺美景。</view>
+                    <view class="p data-v-231ac936">3、长安区古观音禅寺可对平台用户上传的照片作宣传使用，寺院对照片有使用权。</view>
+                    <view class="p data-v-231ac936">4、参与活动即视为同意以上规则，长安区古观音禅寺对此次活动有最终解释权。</view>
+                </view>
+                <view bindtap="__e" class="notice-but data-v-231ac936" data-event-opts="{{[ [ 'tap',[ [ 'agree',['$event'] ] ] ] ]}}">我已阅读并同意</view>
+            </view>
+        </view>
+    </u-popup>
+</view>

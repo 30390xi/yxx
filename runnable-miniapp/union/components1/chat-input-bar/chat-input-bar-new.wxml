@@ -1,0 +1,30 @@
+<view class="chat-input-bar-container data-v-765b9212" style="{{'padding-bottom:'+(isIos?'':'30rpx')+';'}}">
+    <view class="chat-input-bar data-v-765b9212">
+        <view class="Hold_Talk data-v-765b9212" wx:if="{{showSpeakBtn==2}}">
+            <image bindtap="__e" class="icon_keyboard data-v-765b9212" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/175517487518999567.png"></image>
+            <view bindtouchend="__e" bindtouchstart="__e" class="speakBtn data-v-765b9212" data-event-opts="{{[ [ 'touchstart',[ [ 'keystart',['$event'] ] ] ],[ 'touchend',[ [ 'stopVoice',['$event'] ] ] ] ]}}">按住说话</view>
+        </view>
+        <view class="Hold_Talk_f data-v-765b9212" wx:if="{{showSpeakBtn==3}}">
+            <image class="icon_keyboard data-v-765b9212" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/175453620164490027.png"></image>
+        </view>
+        <view class="chat-input-container data-v-765b9212" wx:if="{{showSpeakBtn==1}}">
+            <image bindtap="__e" class="icon data-v-765b9212" data-event-opts="{{[ [ 'tap',[ [ 'getSpeak',['$event'] ] ] ] ]}}" mode="aspectFill" src="https://eshopfile.zhiyousx.com/175515730231435269.png"></image>
+            <input adjustPosition="{{false}}" bindconfirm="__e" bindinput="__e" class="chat-input data-v-765b9212" confirmType="send" cursorSpacing="{{50}}" data-event-opts="{{[ [ 'confirm',[ [ 'sendClick',['$event'] ] ] ],[ 'input',[ [ '__set_model',[ '','msg','$event',[] ] ] ] ] ]}}" focus="{{focus}}" placeholder="请输入您的问题" type="text" value="{{msg}}"></input>
+        </view>
+        <view class="right-btn data-v-765b9212">
+            <image bindtap="__e" class="chat-input-send1 data-v-765b9212" data-event-opts="{{[ [ 'tap',[ [ 'sendClick',['$event'] ] ] ] ]}}" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/175515727358833892.png" wx:if="{{showSpeakBtn==1&&pushingProgress}}"></image>
+        </view>
+    </view>
+    <view class="prompt data-v-765b9212">内容由AI生成，无法确保真实准确，仅供参考</view>
+    <view class="layer-box data-v-765b9212">
+        <view class="prompt-layer data-v-765b9212" wx:if="{{longPress}}">
+            <view class="prompt-loader data-v-765b9212">
+                <view class="em data-v-765b9212" wx:for="{{15}}" wx:for-index="__i0__" wx:key="*this"></view>
+            </view>
+            <text class="p data-v-765b9212">{{value}}</text>
+            <text class="span data-v-765b9212">松手结束录音</text>
+        </view>
+    </view>
+    <view bindtap="__e" class="stopBtn data-v-765b9212" data-event-opts="{{[ [ 'tap',[ [ 'stopSpeak',['$event'] ] ] ] ]}}" wx:if="{{!pushingProgressShow}}">
+        <image class="icon data-v-765b9212" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173406333510840071.png"></image>停止回答</view>
+</view>

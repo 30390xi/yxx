@@ -1,0 +1,106 @@
+<view class="page-box page-box-image2 data-v-a3ad12b8">
+    <uni-navbar bind:__l="__l" class="data-v-a3ad12b8" type="transparentFixed" vueId="74264de8-1"></uni-navbar>
+    <image mode class="video_box1 data-v-a3ad12b8" src="https://eshopfile.zhiyousx.com/175021251389353595.jpg" wx:if="{{showImage}}"></image>
+    <video class="video_box video_box4 data-v-a3ad12b8" controls="{{false}}" id="myVideo3" loop="{{true}}" muted="{{true}}" src="https://eshopfile.zhiyousx.com/2024121814473092347.mp4" style="{{'opacity:'+opacity+';'+'z-index:'+(typeVideo==3?'10':'1')+';'}}"></video>
+    <video autoplay="{{true}}" bindloadedmetadata="__e" class="video_box video_box5 data-v-a3ad12b8" controls="{{false}}" data-event-opts="{{[ [ 'loadedmetadata',[ [ 'loadedmetadata',['$event'] ] ] ] ]}}" id="myVideo4" loop="{{true}}" muted="{{true}}" src="https://eshopfile.zhiyousx.com/2024122710555208245.mp4" style="{{'opacity:'+opacity+';'+'z-index:'+(typeVideo==4?'10':'1')+';'}}"></video>
+    <z-paging bind:__l="__l" bind:input="__e" bottomBgColor="#ffffff" class="page-box-image22 data-v-a3ad12b8 vue-ref" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','dataList','$event',[] ] ] ] ] ]}}" data-ref="paging" safeAreaInsetBottom="{{isIos}}" style="position:fixed;z-index:11;" toBottomLoadingMoreEnabled="{{true}}" useChatRecordMode="{{true}}" value="{{dataList}}" vueId="74264de8-2" vueSlots="{{['default','top','bottom']}}">
+        <view class="data-v-a3ad12b8" slot="top" style="height:300rpx;width:100%;"></view>
+        <chat-input-bar bg="{{true}}" bind:__l="__l" bind:clearDataStop="__e" bind:resetTravel="__e" bind:send="__e" bind:setShowHide="__e" bind:setcolse="__e" bind:stopSpeak="__e" class="data-v-a3ad12b8 vue-ref" data-event-opts="{{[ [ '^stopSpeak',[ ['stopSpeak'] ] ],[ '^resetTravel',[ ['resetTravel'] ] ],[ '^setShowHide',[ ['setShowHide'] ] ],[ '^setcolse',[ ['setcolse'] ] ],[ '^clearDataStop',[ ['clearDataStop'] ] ],[ '^send',[ ['doSend'] ] ] ]}}" data-ref="inputBar" delayBtn="{{delayBtn}}" detail="{{spotDetail}}" isIos="{{isIos}}" isStrategy="{{isStrategy}}" pushingProgress="{{pushingProgress}}" pushingProgressShow="{{pushingProgressShow}}" showHide="{{showHide}}" slot="bottom" vueId="{{'74264de8-3'+','+'74264de8-2'}}" wx:if="{{!showHide}}"></chat-input-bar>
+        <view class="data-v-a3ad12b8" style="width:100%;height:60rpx;"></view>
+        <view class="plan-content data-v-a3ad12b8" style="transform:scaleY(-1);" wx:if="{{showHide}}">
+            <view class="welcom-l1 data-v-a3ad12b8">欢迎来到陕西！</view>
+            <view class="welcom-l2 data-v-a3ad12b8">我是您的AI旅行搭子，为了您在陕西有一个美好的游玩体验，我将根据您的喜好为您定制行程。</view>
+            <view class="plan-card data-v-a3ad12b8">
+                <view class="form-title data-v-a3ad12b8">请选择目的地</view>
+                <picker bindchange="__e" class="form-item data-v-a3ad12b8" data-event-opts="{{[ [ 'change',[ [ 'bindPickerChange',['$event'] ] ] ] ]}}" range="{{cityColumns[0]}}" value="{{cityIndex}}">
+                    <view class="form-select data-v-a3ad12b8">
+                        <text class="select-text data-v-a3ad12b8" wx:if="{{form.city}}">{{form.city}}</text>
+                        <text class="select-text placeholder data-v-a3ad12b8" wx:else>请选择城市</text>
+                        <image mode class="select-icon data-v-a3ad12b8" src="https://eshopfile.zhiyousx.com/175282679163848332.png"></image>
+                    </view>
+                </picker>
+                <view class="form-title data-v-a3ad12b8">请选择旅行时间</view>
+                <view bindtap="__e" class="form-select form-select-data form-item data-v-a3ad12b8" data-event-opts="{{[ [ 'tap',[ [ 'openDatePicker',['$event'] ] ] ] ]}}">
+                    <text class="select-text placeholder data-v-a3ad12b8" wx:if="{{!form.beginTime||!form.endTime}}">请选择开始时间和结束时间</text>
+                    <text class="select-text data-v-a3ad12b8" wx:else>{{form.beginTime+' '+' 至 '+form.endTime}}</text>
+                    <image mode class="select-icon data-v-a3ad12b8" src="https://eshopfile.zhiyousx.com/175282687512221524.png" wx:if="{{!form.beginTime||!form.endTime}}"></image>
+                </view>
+                <view class="form-title data-v-a3ad12b8">出行人</view>
+                <view bindtap="__e" class="form-select form-item data-v-a3ad12b8" data-event-opts="{{[ [ 'tap',[ [ 'openTravelersPopup',['$event'] ] ] ] ]}}">
+                    <view class="select-text data-v-a3ad12b8" wx:if="{{$root.m0}}">{{''+($root.m1?form.adult+'位成人 ':'')+'\n\t\t\t\t\t\t'+($root.m2?form.children+'位儿童 ':'')+'\n\t\t\t\t\t\t'+($root.m3?form.older+'位老人':'')+''}}</view>
+                    <view class="select-text placeholder data-v-a3ad12b8" wx:else>请至少选择一名旅游人次</view>
+                    <image mode class="select-icon data-v-a3ad12b8" src="https://eshopfile.zhiyousx.com/175282679163848332.png"></image>
+                </view>
+                <view class="form-title data-v-a3ad12b8">您这次来想体验什么</view>
+                <view bindtap="__e" class="form-select2 form-item data-v-a3ad12b8" data-event-opts="{{[ [ 'tap',[ [ 'showWantDoPopup',['$event'] ] ] ] ]}}">
+                    <view class="{{['select-item','data-v-a3ad12b8',it===interestPointFromOption?'select-item-option':'']}}" wx:for="{{form.wantDO}}" wx:for-item="it" wx:key="index">{{it}}</view>
+                    <view class="select-text placeholder data-v-a3ad12b8" wx:if="{{$root.g0===0}}">请选择您想体验的项目</view>
+                    <image mode class="select-icon data-v-a3ad12b8" src="https://eshopfile.zhiyousx.com/175282679163848332.png"></image>
+                </view>
+                <view class="form-title data-v-a3ad12b8">我的预算</view>
+                <view class="form-item budget-input data-v-a3ad12b8">
+                    <input adjustPosition="{{false}}" bindinput="__e" class="budget-input-native data-v-a3ad12b8" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '$0','price','$event',[] ],['form'] ],[ 'handlePriceInput',['$event'] ] ] ] ]}}" maxlength="{{8}}" min="0" placeholder="请输入预算金额" placeholderStyle="color:rgba(51,51,51,0.5)" style="{{'background:'+'rgba(255,255,255,0.7)'+';'+'border-radius:'+'60rpx'+';'+'color:'+'#000000'+';'+'height:'+'80rpx'+';'+'width:'+'100%'+';'+'box-sizing:'+'border-box'+';'+'padding:'+'0 60rpx 0 20rpx'+';'+'font-size:'+'28rpx'+';'+'border:'+'none'+';'+'outline:'+'none'+';'}}" value="{{form.price}}"></input>
+                    <text class="budget-unit data-v-a3ad12b8">元</text>
+                </view>
+                <view class="tips data-v-a3ad12b8" style="color:rgba(51,51,51,0.6);margin-top:-10rpx;font-size:24rpx;">*本预算不含大交通费用,如机票/火车票</view>
+            </view>
+            <view bindtap="__e" class="confirmBtn data-v-a3ad12b8" data-event-opts="{{[ [ 'tap',[ [ 'startChat',['$event'] ] ] ] ]}}">开始AI规划</view>
+        </view>
+        <block wx:if="{{!showHide}}">
+            <view class="data-v-a3ad12b8" style="position:relative;" wx:for="{{dataList}}" wx:key="index">
+                <view class="data-v-a3ad12b8" style="transform:scaleY(-1);">
+                    <chat-item bind:__l="__l" bind:changePlan="__e" bind:clickShare="__e" bind:exclusive="__e" bind:resetTravel="__e" bind:stopSpeak="__e" class="data-v-a3ad12b8" data-event-opts="{{[ [ '^changePlan',[ ['changePlan'] ] ],[ '^resetTravel',[ ['resetTravel'] ] ],[ '^exclusive',[ ['exclusive'] ] ],[ '^stopSpeak',[ ['stopSpeak'] ] ],[ '^clickShare',[ ['clickShare'] ] ] ]}}" dataList="{{dataList}}" item="{{item}}" newVal="{{newVal}}" pushingProgress="{{pushingProgress}}" sessionId="{{flowId}}" vueId="{{'74264de8-4-'+index+','+'74264de8-2'}}"></chat-item>
+                </view>
+            </view>
+        </block>
+    </z-paging>
+    <date-range-picker bind:__l="__l" bind:change="__e" bind:input="__e" class="data-v-a3ad12b8 vue-ref" data-event-opts="{{[ [ '^change',[ ['handleDateChange'] ] ],[ '^input',[ [ '__set_model',[ '','showDateRangePicker','$event',[] ] ] ] ] ]}}" data-ref="datePicker" endDateProp="{{form.endTime}}" mode="range" startDateProp="{{form.beginTime}}" value="{{showDateRangePicker}}" vueId="74264de8-5"></date-range-picker>
+    <uni-popup bind:__l="__l" bind:change="__e" class="data-v-a3ad12b8 vue-ref" data-event-opts="{{[ [ '^change',[ ['popupChange'] ] ] ]}}" data-ref="wantDoPopup" type="bottom" vueId="74264de8-6" vueSlots="{{['default']}}">
+        <view class="wantdo-popup data-v-a3ad12b8">
+            <view class="popup-header data-v-a3ad12b8">
+                <text class="popup-title data-v-a3ad12b8">选择想体验的内容</text>
+                <text bindtap="__e" class="popup-confirm data-v-a3ad12b8" data-event-opts="{{[ [ 'tap',[ [ 'confirmWantDo',['$event'] ] ] ] ]}}">确定</text>
+            </view>
+            <scroll-view class="popup-content data-v-a3ad12b8" scrollY="{{true}}">
+                <view class="tag-container data-v-a3ad12b8">
+                    <view bindtap="__e" class="{{['wantdo-tag','data-v-a3ad12b8',item.g1?'wantdo-tag-active':'',item.$orig===interestPointFromOption?'wantdo-tag-option':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'toggleWantDo',['$0'],[ [ ['wantDoOptions','',index] ] ] ] ] ] ]}}" wx:for="{{$root.l0}}" wx:key="index">{{''+item.$orig+''}}</view>
+                </view>
+            </scroll-view>
+        </view>
+    </uni-popup>
+    <uni-popup bind:__l="__l" bind:maskClick="__e" class="data-v-a3ad12b8 vue-ref" data-event-opts="{{[ [ '^maskClick',[ ['confirmTravelers'] ] ] ]}}" data-ref="travelersPopup" type="bottom" vueId="74264de8-7" vueSlots="{{['default']}}">
+        <view class="travelers-popup data-v-a3ad12b8">
+            <view class="popup-header data-v-a3ad12b8">
+                <text class="popup-title data-v-a3ad12b8">选择出行人数</text>
+                <text bindtap="__e" class="popup-confirm data-v-a3ad12b8" data-event-opts="{{[ [ 'tap',[ [ 'confirmTravelers',['$event'] ] ] ] ]}}">确定</text>
+            </view>
+            <view class="popup-content data-v-a3ad12b8">
+                <view class="traveler-row data-v-a3ad12b8">
+                    <text class="traveler-label data-v-a3ad12b8">成人</text>
+                    <view class="number-control data-v-a3ad12b8">
+                        <view bindtap="__e" class="control-btn data-v-a3ad12b8" data-event-opts="{{[ [ 'tap',[ [ 'changeTravelerCount',['adult',-1] ] ] ] ]}}">-</view>
+                        <u-input bind:__l="__l" bind:input="__e" class="number-input data-v-a3ad12b8" clearable="{{false}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','adult','$event',[] ],['form'] ],[ 'handleTravelerInput',['adult','$event'] ] ] ] ]}}" inputAlign="center" maxlength="{{2}}" type="text" value="{{form.adult}}" vueId="{{'74264de8-8'+','+'74264de8-7'}}"></u-input>
+                        <view bindtap="__e" class="control-btn data-v-a3ad12b8" data-event-opts="{{[ [ 'tap',[ [ 'changeTravelerCount',['adult',1] ] ] ] ]}}">+</view>
+                    </view>
+                </view>
+                <view class="traveler-row data-v-a3ad12b8">
+                    <text class="traveler-label data-v-a3ad12b8">儿童</text>
+                    <view class="number-control data-v-a3ad12b8">
+                        <view bindtap="__e" class="control-btn data-v-a3ad12b8" data-event-opts="{{[ [ 'tap',[ [ 'changeTravelerCount',['children',-1] ] ] ] ]}}">-</view>
+                        <u-input bind:__l="__l" bind:input="__e" class="number-input data-v-a3ad12b8" clearable="{{false}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','children','$event',[] ],['form'] ],[ 'handleTravelerInput',['children','$event'] ] ] ] ]}}" inputAlign="center" maxlength="{{2}}" type="text" value="{{form.children}}" vueId="{{'74264de8-9'+','+'74264de8-7'}}"></u-input>
+                        <view bindtap="__e" class="control-btn data-v-a3ad12b8" data-event-opts="{{[ [ 'tap',[ [ 'changeTravelerCount',['children',1] ] ] ] ]}}">+</view>
+                    </view>
+                </view>
+                <view class="traveler-row data-v-a3ad12b8">
+                    <text class="traveler-label data-v-a3ad12b8">老人</text>
+                    <view class="number-control data-v-a3ad12b8">
+                        <view bindtap="__e" class="control-btn data-v-a3ad12b8" data-event-opts="{{[ [ 'tap',[ [ 'changeTravelerCount',['older',-1] ] ] ] ]}}">-</view>
+                        <u-input bind:__l="__l" bind:input="__e" class="number-input data-v-a3ad12b8" clearable="{{false}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','older','$event',[] ],['form'] ],[ 'handleTravelerInput',['older','$event'] ] ] ] ]}}" inputAlign="center" maxlength="{{2}}" type="text" value="{{form.older}}" vueId="{{'74264de8-10'+','+'74264de8-7'}}"></u-input>
+                        <view bindtap="__e" class="control-btn data-v-a3ad12b8" data-event-opts="{{[ [ 'tap',[ [ 'changeTravelerCount',['older',1] ] ] ] ]}}">+</view>
+                    </view>
+                </view>
+            </view>
+            <view class="popup-tips data-v-a3ad12b8">*门票预算计算方面：成年人按照全票价计算，老人按照免票计算，儿童按照半价计算</view>
+        </view>
+    </uni-popup>
+</view>

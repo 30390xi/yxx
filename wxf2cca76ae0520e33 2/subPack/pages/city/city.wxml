@@ -1,0 +1,134 @@
+<view class="city data-v-4bd4f66c">
+    <uni-navbar bind:__l="__l" class="data-v-4bd4f66c" title="{{cityinfo.cityName||'城市'}}" titleCenter="{{false}}" transparentFixedFontColor="{{scrollTop+fixNavTop>navtop2?'#000000':'rgba(255,255,255,0)'}}" type="transparentFixed" vueId="36520bb6-1"></uni-navbar>
+    <view class="fixHeader data-v-4bd4f66c" id="fixHeader" style="{{'background:'+'rgba(255,255,255,'+scrollTop/(navtop2-fixednavTop)+')'+';'}}">
+        <image class="rank data-v-4bd4f66c" style="{{'margin-top:'+searchHeight+8+'px'+';'+'opacity:'+(scrollTop>navtop2-fixednavTop?1:0)+';'}}"></image>
+    </view>
+    <view class="data-v-4bd4f66c" id="mainbox" style="{{'padding-bottom:'+'64rpx'+';'}}">
+        <view class="banner data-v-4bd4f66c">
+            <swiper class="swiper data-v-4bd4f66c" wx:if="{{$root.g0}}">
+                <swiper-item class="data-v-4bd4f66c" wx:for="{{cityinfo.cityAlbumUrls}}" wx:for-index="i" wx:for-item="options" wx:key="i">
+                    <view class="tab_item data-v-4bd4f66c">
+                        <view class="tab_icon data-v-4bd4f66c">
+                            <image class="data-v-4bd4f66c" mode="aspectFill" src="{{options}}"></image>
+                        </view>
+                    </view>
+                </swiper-item>
+            </swiper>
+            <swiper autoplay="false" class="swiper data-v-4bd4f66c" interval="4000" wx:else>
+                <swiper-item catchtouchmove="true" class="data-v-4bd4f66c" wx:for="{{cityinfo.cityAlbumUrls}}" wx:for-index="i" wx:for-item="options" wx:key="i">
+                    <view class="tab_item data-v-4bd4f66c">
+                        <view class="tab_icon data-v-4bd4f66c">
+                            <image class="data-v-4bd4f66c" mode="aspectFill" src="{{options}}"></image>
+                        </view>
+                    </view>
+                </swiper-item>
+            </swiper>
+            <view class="info data-v-4bd4f66c">
+                <view class="box box1 data-v-4bd4f66c">
+                    <text class="name data-v-4bd4f66c">{{cityinfo.cityName||''}}</text>
+                    <text class="temp data-v-4bd4f66c" wx:if="{{weaterObj.nowTemperature}}">{{weaterObj.nowTemperature+'°C'}}</text>
+                </view>
+                <view class="box box2 data-v-4bd4f66c">
+                    <text class="data-v-4bd4f66c">{{cityinfo.cityTag||''}}</text>
+                    <text class="data-v-4bd4f66c">{{weaterObj.weather||''}}</text>
+                </view>
+            </view>
+        </view>
+        <view class="strategy data-v-4bd4f66c" wx:if="{{cityStrategyList&&cityStrategyList[0]}}">
+            <view class="title data-v-4bd4f66c">
+                <view class="name data-v-4bd4f66c">
+                    <text class="data-v-4bd4f66c">{{cityinfo.cityName||''}}</text>
+                    <text class="gl data-v-4bd4f66c">攻略</text>
+                </view>
+                <view bindtap="__e" class="more data-v-4bd4f66c" data-event-opts="{{[ [ 'tap',[ [ 'tostrategyList',['$event'] ] ] ] ]}}" wx:if="{{$root.g1>6}}">
+                    <text class="data-v-4bd4f66c">更多</text>
+                    <u-icon bind:__l="__l" class="data-v-4bd4f66c" color="#D3D3D3" name="arrow-right" size="20" vueId="36520bb6-2"></u-icon>
+                </view>
+            </view>
+            <view class="strategylist data-v-4bd4f66c">
+                <view bindtap="__e" class="item data-v-4bd4f66c" data-event-opts="{{[ [ 'tap',[ [ 'toStrategy',['$0'],[ [ ['cityStrategyList','',index] ] ] ] ] ] ]}}" wx:if="{{index<6}}" wx:for="{{$root.l0}}" wx:key="index">
+                    <image class="recommond data-v-4bd4f66c" src="https://eshopfile.zhiyousx.com/2021091011022464343.png" wx:if="{{item.$orig.isRecommend==1}}"></image>
+                    <image class="spot data-v-4bd4f66c" mode="aspectFill" src="{{item.m0}}"></image>
+                    <view class="info data-v-4bd4f66c">
+                        <view class="name singleLineText data-v-4bd4f66c">{{item.$orig.title}}</view>
+                        <view class="time singleLineText data-v-4bd4f66c" wx:if="{{item.$orig.subtitle}}">{{item.$orig.subtitle}}</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="ranklist data-v-4bd4f66c" wx:if="{{rankingList&&rankingList[0]}}">
+            <view class="title data-v-4bd4f66c">
+                <view class="name data-v-4bd4f66c">
+                    <text class="data-v-4bd4f66c">{{(cityinfo.cityName||'')+'榜单'}}</text>
+                </view>
+                <view bindtap="__e" class="more data-v-4bd4f66c" data-event-opts="{{[ [ 'tap',[ [ 'toranking',[1] ] ] ] ]}}">
+                    <text class="data-v-4bd4f66c">更多</text>
+                    <u-icon bind:__l="__l" class="data-v-4bd4f66c" color="#D3D3D3" name="arrow-right" size="20" vueId="36520bb6-3"></u-icon>
+                </view>
+            </view>
+            <view class="rank data-v-4bd4f66c">
+                <view bindtap="__e" class="item data-v-4bd4f66c" data-event-opts="{{[ [ 'tap',[ [ 'toranking',['$0'],[ [ ['rankingList','',index] ] ] ] ] ] ]}}" style="{{'background-image:'+'url('+item.rankingMainPictureUrl+')'+';'}}" wx:if="{{index<2}}" wx:for="{{rankingList}}" wx:key="index">
+                    <view class="linearbg data-v-4bd4f66c" style="{{'background:'+'linear-gradient(180deg,'+(item.bottomColour||'#6E4B4A')+'00 3%,'+(item.bottomColour||'#6E4B4A')+' 30%)'+';'}}"></view>
+                    <view class="like singleLineText data-v-4bd4f66c" wx:if="{{item.rankingType==2&&item.favoriteSum&&item.favoriteSum>10}}">{{item.favoriteSum+'人喜爱'}}</view>
+                    <view class="name singleLineText data-v-4bd4f66c">{{item.rankingName}}</view>
+                    <view class="list data-v-4bd4f66c">
+                        <view class="option data-v-4bd4f66c" wx:for="{{item.rankingItemList}}" wx:for-index="i" wx:for-item="items" wx:key="i">
+                            <image class="mainImg data-v-4bd4f66c" mode="aspectFill" src="{{items.originUrl}}"></image>
+                            <view class="info data-v-4bd4f66c">
+                                <view class="sname singleLineText data-v-4bd4f66c">{{items.originName}}</view>
+                                <view class="likeval data-v-4bd4f66c" wx:if="{{items.originType==2&&items.favoriteValue}}">{{items.favoriteValue+' 喜爱值'}}</view>
+                                <view class="likeval price data-v-4bd4f66c" wx:else>
+                                    <text class="p data-v-4bd4f66c" wx:if="{{items.price}}">{{'￥'+items.price}}</text>
+                                    <text class="del data-v-4bd4f66c" wx:if="{{items.retailPrice}}">{{'￥'+items.retailPrice}}</text>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="travelNav data-v-4bd4f66c" wx:if="{{spotTagList[0]||childTagList[0]}}">
+        <view class="fixedcitynav data-v-4bd4f66c" id="fixedcitynav" style="{{fixedstyle}}">
+            <view class="tabs data-v-4bd4f66c">
+                <view bindtap="__e" class="{{['tab','data-v-4bd4f66c',listType==0?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changelistType',[0] ] ] ] ]}}" hidden="{{!spotTagList[0]}}">{{'玩在'+(cityinfo.cityName||'')}}</view>
+                <view bindtap="__e" class="{{['tab','data-v-4bd4f66c',listType==1?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changelistType',[1] ] ] ] ]}}" hidden="{{!childTagList[0]}}">{{'吃在'+(cityinfo.cityName||'')}}</view>
+            </view>
+            <scroll-view class="tablabel data-v-4bd4f66c" scrollWithAnimation="{{true}}" scrollX="{{true}}" wx:if="{{listType==0&&spotTagList[0]}}">
+                <view class="data-v-4bd4f66c">
+                    <view bindtap="__e" class="{{['label','data-v-4bd4f66c',currentTagId0==item.id?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changelabel',['$0'],[ [ ['spotTagList','',i,'id'] ] ] ] ] ] ]}}" wx:for="{{spotTagList}}" wx:for-index="i" wx:key="i">{{item.name}}</view>
+                </view>
+            </scroll-view>
+            <scroll-view class="tablabel data-v-4bd4f66c" scrollWithAnimation="{{true}}" scrollX="{{true}}" wx:if="{{listType==1&&childTagList[0]}}">
+                <view class="data-v-4bd4f66c">
+                    <view bindtap="__e" class="{{['label','data-v-4bd4f66c',currentTagId1==item.id?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changelabel',['$0'],[ [ ['childTagList','',i,'id'] ] ] ] ] ] ]}}" wx:for="{{childTagList}}" wx:for-index="i" wx:key="i">{{item.name}}</view>
+                </view>
+            </scroll-view>
+        </view>
+        <scroll-view bindscroll="__e" bindscrolltolower="__e" class="spotList data-v-4bd4f66c vue-ref" data-event-opts="{{[ [ 'scroll',[ [ 'scroll1',['$event'] ] ] ],[ 'scrolltolower',[ [ 'handleScrollToLower',['$event'] ] ] ] ]}}" data-ref="scrollView" scrollTop="{{scrollTopView1}}" scrollY="{{showHideScroll}}" style="{{'min-height:'+listMinH+'px'+';'}}" wx:if="{{listType==0}}">
+            <view bindtap="__e" class="item data-v-4bd4f66c" data-event-opts="{{[ [ 'tap',[ [ 'toSpot',['$0'],[ [ ['spotList','',i] ] ] ] ] ] ]}}" wx:for="{{spotList}}" wx:for-index="i" wx:key="i">
+                <image class="img data-v-4bd4f66c" mode="aspectFill" src="{{item.mainPicture}}"></image>
+                <view class="info data-v-4bd4f66c">
+                    <view class="name singleLineText data-v-4bd4f66c">
+                        <text class="data-v-4bd4f66c" wx:if="{{item.isBookable}}">订</text>{{item.scenicName}}</view>
+                    <view class="rank singleLineText data-v-4bd4f66c" wx:if="{{item.rankingName}}">{{item.rankingName+'第'+item.sort+'名'}}</view>
+                    <view class="desc singleLineText data-v-4bd4f66c" wx:if="{{item.tag}}">{{item.tag}}</view>
+                </view>
+            </view>
+        </scroll-view>
+        <scroll-view bindscroll="__e" bindscrolltolower="__e" class="spotList data-v-4bd4f66c vue-ref" data-event-opts="{{[ [ 'scroll',[ [ 'scroll2',['$event'] ] ] ],[ 'scrolltolower',[ [ 'handleScrollToLower',['$event'] ] ] ] ]}}" data-ref="scrollView" scrollTop="{{scrollTopView2}}" scrollY="{{showHideScroll}}" style="{{'min-height:'+listMinH+'px'+';'}}" wx:if="{{listType==1}}">
+            <view bindtap="__e" class="item data-v-4bd4f66c" data-event-opts="{{[ [ 'tap',[ [ 'toSpotChild',['$0'],[ [ ['childpageList','',i] ] ] ] ] ] ]}}" wx:for="{{childpageList}}" wx:for-index="i" wx:key="i">
+                <image class="img data-v-4bd4f66c" mode="aspectFill" src="{{item.coverImage}}"></image>
+                <view class="info data-v-4bd4f66c">
+                    <view class="name singleLineText data-v-4bd4f66c">{{item.title}}</view>
+                    <view class="rank singleLineText data-v-4bd4f66c" wx:if="{{item.rankingName}}">{{item.rankingName+'第'+item.sort+'名'}}</view>
+                    <view class="desc singleLineText data-v-4bd4f66c">{{item.subtitle}}</view>
+                    <view class="likeRate data-v-4bd4f66c" wx:if="{{item.favoriteValue}}">
+                        <text class="icon data-v-4bd4f66c">喜爱值</text>
+                        <text class="num data-v-4bd4f66c">{{item.favoriteValue}}</text>
+                    </view>
+                </view>
+            </view>
+        </scroll-view>
+    </view>
+</view>

@@ -1,0 +1,48 @@
+<view class="page-box data-v-0a1180dc" wx:if="{{spotDetail}}">
+    <view class="top-box data-v-0a1180dc" wx:if="{{imgList[0]}}">
+        <u-swiper autoplay="{{false}}" bind:__l="__l" borderRadius="0" class="data-v-0a1180dc" height="450" indicatorPos="topRight" interval="5000" list="{{imgList}}" name="imgUrl" vueId="362a3609-1"></u-swiper>
+        <view class="title-box data-v-0a1180dc">
+            <view class="title data-v-0a1180dc">{{''+langData.name+''}}</view>
+            <view class="dic data-v-0a1180dc" wx:if="{{spotDetail.distance}}">
+                <label class="_span data-v-0a1180dc" wx:if="{{langType=='zn'}}">距您</label>{{spotDetail.distance+'km'}}</view>
+        </view>
+    </view>
+    <view class="noImg data-v-0a1180dc" wx:else>
+        <view class="noImg-title-box data-v-0a1180dc">
+            <view class="noImg-title data-v-0a1180dc">{{''+langData.name+''}}</view>
+            <view class="noImg-dic data-v-0a1180dc" wx:if="{{spotDetail.distance}}">
+                <label class="_span data-v-0a1180dc" wx:if="{{langType=='zn'}}">距您</label>{{spotDetail.distance+'km'}}</view>
+        </view>
+    </view>
+    <view class="audio-box data-v-0a1180dc" wx:if="{{langData.voiceUrl}}">
+        <view class="border-Box data-v-0a1180dc" style="{{'background:'+'url('+mapinfo.voiceBottomUrl+') no-repeat'+';'+'background-size:'+'100% 100%'+';'}}">
+            <view class="audio-wrapper data-v-0a1180dc">
+                <view class="audio-number-box data-v-0a1180dc">
+                    <text class="anb1 data-v-0a1180dc" style="{{'color:'+''+mapinfo.fontSelectedColor+';'}}">{{$root.m0}}</text>
+                    <view class="div data-v-0a1180dc">/</view>
+                    <text class="anb2 data-v-0a1180dc" style="{{'color:'+''+mapinfo.fontSelectedColor+';'}}">{{$root.m1}}</text>
+                </view>
+                <slider activeColor="{{mapinfo.fontSelectedColor}}" backgroundColor="rgba(0,0,0,0.1)" bindchange="__e" bindchanging="__e" blockColor="{{mapinfo.audioTitleBg}}" blockSize="16" class="audio-slider data-v-0a1180dc" data-event-opts="{{[ [ 'changing',[ [ 'e0',['$event'] ] ] ],[ 'change',[ [ 'e1',['$event'] ] ] ] ]}}" max="{{duration}}" value="{{current}}"></slider>
+            </view>
+            <image alt bindtap="__e" class="audio-but _img data-v-0a1180dc" data-event-opts="{{[ [ 'tap',[ ['play'] ] ] ]}}" hidden="{{!paused}}" src="{{mapinfo.voicePlayStyle}}"></image>
+            <image alt bindtap="__e" class="audio-but _img data-v-0a1180dc" data-event-opts="{{[ [ 'tap',[ [ 'e2',['$event'] ] ] ] ]}}" hidden="{{!!paused}}" src="{{mapinfo.voiceSuspendStyle}}"></image>
+        </view>
+    </view>
+    <view class="content data-v-0a1180dc">
+        <u-parse bind:__l="__l" class="data-v-0a1180dc vue-ref" data-ref="article" html="{{langData.introduction}}" lazyLoad="{{true}}" style="text-align:justify;" tagStyle="{{parseStyle}}" vueId="362a3609-2" vueSlots="{{['default']}}">
+            <text class="data-v-0a1180dc" style="display:inline-block;"></text>
+        </u-parse>
+    </view>
+    <view class="foot-box data-v-0a1180dc">
+        <button class="data-v-0a1180dc" openType="share" style="{{styleConfig.btn}}">
+            <view class="border-Box data-v-0a1180dc" style="{{'color:'+mapinfo.fontUnselectedColor+';'}}">
+                <image alt class="share data-v-0a1180dc" mode="widthFix" src="{{mapinfo.shareBtnIcon}}"></image>{{''+(langType=='zn'?'分享':'Share')+''}}</view>
+        </button>
+        <button bindtap="__e" class="data-v-0a1180dc" data-event-opts="{{[ [ 'tap',[ [ 'jumpLocation',['$event'] ] ] ] ]}}" style="{{styleConfig.actbtn}}">
+            <view class="border-Box data-v-0a1180dc" style="{{'color:'+mapinfo.fontSelectedColor+';'}}">
+                <image alt class="jump data-v-0a1180dc" mode="widthFix" src="{{mapinfo.navBtnIcon}}"></image>{{''+(langType=='zn'?'去这里':'Go')+''}}</view>
+        </button>
+    </view>
+    <view bindtap="__e" class="banckMap data-v-0a1180dc" data-event-opts="{{[ [ 'tap',[ [ 'toGuide',['$event'] ] ] ] ]}}" wx:if="{{showGuideBut}}">
+        <image mode class="data-v-0a1180dc" src="https://eshopfile.zhiyousx.com/2023031610322750615.png"></image>{{''+(langType=='zn'?'导览':'Guide')+''}}</view>
+</view>

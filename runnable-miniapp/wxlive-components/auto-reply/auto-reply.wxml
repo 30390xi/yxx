@@ -1,0 +1,10 @@
+<view class="auto-reply fadeInOut" hidden="{{showRecord}}" wx:if="{{_isShow}}">
+    <view catch:longpress="onLongPressAutoReply" class="auto-reply__item">
+        <view class="auto-reply__item-inner mode-opacity-black">
+            <text class="auto-reply__item-nickname">{{autoReplyType==='welcome'?'主播':'主播回复你'}}</text>
+            <text class="auto-reply__item-seperate">：</text>
+            <text class="auto-reply__item-content">{{autoReply}}</text>
+            <view bindtap="onClickAutoReplyKf" class="auto-reply__item-link" wx:if="{{!hideKf&&autoReplyType!=='welcome'}}">联系客服</view>
+        </view>
+    </view>
+</view>

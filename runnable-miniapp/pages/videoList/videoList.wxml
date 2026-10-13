@@ -1,0 +1,30 @@
+<view class="u-wrap data-v-3fb89fe0">
+    <uni-navbar bind:__l="__l" class="data-v-3fb89fe0" type="transparentFixed" vueId="511d6fcc-1"></uni-navbar>
+    <view class="top-box data-v-3fb89fe0">
+        <video autoplay="{{true}}" class="data-v-3fb89fe0 vue-ref" controls="{{true}}" data-ref="video" src="{{videoinfo.videoUrl}}"></video>
+        <view class="title data-v-3fb89fe0">{{videoinfo.title}}</view>
+        <view class="author-box data-v-3fb89fe0">
+            <view class="left data-v-3fb89fe0">{{$root.f0+'次播放'}}</view>
+            <view class="right data-v-3fb89fe0">
+                <view class="name data-v-3fb89fe0">{{videoinfo.author||''}}</view>
+            </view>
+        </view>
+    </view>
+    <view class="bottom-box data-v-3fb89fe0">
+        <view class="title data-v-3fb89fe0">更多视频</view>
+        <view class="item-list data-v-3fb89fe0">
+            <view bindtap="__e" class="item data-v-3fb89fe0" data-event-opts="{{[ [ 'tap',[ [ 'jump',['$0'],[ [ ['obj.list','',__i0__] ] ] ] ] ] ]}}" wx:for="{{obj.list}}" wx:for-index="__i0__">
+                <view class="left data-v-3fb89fe0">
+                    <image alt class="bg _img data-v-3fb89fe0" src="{{item.coverImage}}"></image>
+                    <view class="mask data-v-3fb89fe0">
+                        <view class="icon data-v-3fb89fe0"></view>
+                    </view>
+                </view>
+                <view class="right data-v-3fb89fe0">
+                    <view class="name data-v-3fb89fe0">{{item.title}}</view>
+                    <view class="num data-v-3fb89fe0">{{item.playNum+'次播放'}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

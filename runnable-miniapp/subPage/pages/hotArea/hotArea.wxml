@@ -1,0 +1,47 @@
+<view class="u-wrap data-v-37506677">
+    <uni-navbar bind:__l="__l" class="data-v-37506677" type="transparentFixed" vueId="1a1ec5aa-1"></uni-navbar>
+    <view class="fixHeader data-v-37506677" id="fixHeader" style="{{'background:'+'rgba(245, 70, 52,'+scrollTop/(navtop2-fixednavTop)+')'+';'+'padding-top:'+searchHeight+2+'px'+';'}}">
+        <image class="rank data-v-37506677" src="https://eshopfile.zhiyousx.com/2022010918475939610.png" style="{{'opacity:'+(scrollTop>navtop2-fixednavTop?1:0)+';'}}"></image>
+    </view>
+    <view class="headerInfo data-v-37506677">
+        <image class="bgimg data-v-37506677" mode="aspectFill" src="https://eshopfile.zhiyousx.com/2022051812054144670.jpg"></image>
+    </view>
+    <view class="{{['nav','data-v-37506677',showType==3?'navH':'']}}" id="nav" style="{{'top:'+skHeight+'px'+';'}}">
+        <view class="menu default data-v-37506677" id="menu">
+            <view class="type hot active data-v-37506677">今日热门</view>
+        </view>
+        <view class="todayList data-v-37506677" wx:if="{{showType==3}}"></view>
+    </view>
+    <view class="container data-v-37506677">
+        <view bindtap="__e" class="spot-item data-v-37506677" data-event-opts="{{[ [ 'tap',[ [ 'todetail',['$0'],[ [ ['preferentialList','',index] ] ] ] ] ] ]}}" wx:for="{{$root.l0}}" wx:for-item="spot">
+            <view class="imagebox data-v-37506677">
+                <view class="mainimg data-v-37506677">
+                    <image class="data-v-37506677" mode="aspectFill" src="{{spot.$orig.defaultPicUrl}}"></image>
+                </view>
+                <view class="info data-v-37506677">
+                    <view class="name multilineText2 data-v-37506677">{{spot.$orig.itemTitle}}</view>
+                    <view class="btn unsale data-v-37506677" wx:if="{{spot.$orig.sellOut==1}}">{{'已'+(spot.$orig.skuItemType==1?'约满':'售空')}}</view>
+                    <block wx:else>
+                        <view class="btn unsale data-v-37506677" wx:if="{{spot.$orig.listStatus==2}}">已下架</view>
+                        <block wx:else>
+                            <view class="btn emptys data-v-37506677" wx:if="{{spot.$orig.stockStatus==0}}">{{spot.$orig.skuItemType==1?'约满':'售空'}}</view>
+                            <view class="btn data-v-37506677" wx:else>{{'预'+(spot.$orig.skuItemType==1?'约':'订')}}</view>
+                        </block>
+                    </block>
+                    <view class="salesNum data-v-37506677">{{'已'+(spot.$orig.skuItemType==1?'约':'售')+spot.f0}}</view>
+                    <view class="distance data-v-37506677" wx:if="{{spot.$orig.scenicName}}">
+                        <image class="data-v-37506677" src="../../static/images/loc.png"></image>{{''+spot.$orig.scenicName+(spot.$orig.scenicNum&spot.$orig.scenicNum>1?'等'+spot.$orig.scenicNum+'个景区':'')+''}}</view>
+                    <view class="price data-v-37506677">
+                        <block wx:if="{{spot.$orig.skuItemType==1&&spot.$orig.isFree==1}}">免费</block>
+                        <block wx:else>{{'￥'+spot.$orig.marketPrice+''}}<text class="data-v-37506677" wx:if="{{spot.$orig.retailPrice&&spot.$orig.retailPrice>spot.$orig.marketPrice}}">{{'￥'+spot.$orig.retailPrice}}</text>
+                        </block>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="noinfo data-v-37506677" wx:if="{{!preferentialList[0]}}">
+            <image class="noGoods data-v-37506677" mode="widthFix" src="/static/captured/51d17a011d27445c.png"></image>
+            <view class="data-v-37506677">暂无信息</view>
+        </view>
+    </view>
+</view>

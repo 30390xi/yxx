@@ -1,0 +1,87 @@
+<view class="feature-introduction data-v-2dfa04dc">
+    <uni-navbar background="{{$root.a0}}" bind:__l="__l" class="data-v-2dfa04dc" color="#fff" leftIconStyle="{{color:'#fff'}}" title="{{$root.m0}}" type="transparentFixed" vueId="6efd7e0f-1"></uni-navbar>
+    <view class="feature-content data-v-2dfa04dc" style="{{'padding-top:'+statusBarHeight+5+'px'+';'}}">
+        <view class="feature-content-box data-v-2dfa04dc">
+            <view class="create-group-section data-v-2dfa04dc">
+                <view class="create-group-icon-wrapper data-v-2dfa04dc">
+                    <image alt class="create-group-icon data-v-2dfa04dc" src="https://eshopfile.zhiyousx.com/176975521656296497.png"></image>
+                    <view class="create-group-icon-bg data-v-2dfa04dc">{{$root.m1}}</view>
+                </view>
+                <view bindtap="__e" class="create-group-text data-v-2dfa04dc" data-event-opts="{{[ [ 'tap',[ [ 'showCreateGroupPopup',['$event'] ] ] ] ]}}">{{$root.m2}}</view>
+            </view>
+            <view class="divider-line data-v-2dfa04dc">{{$root.m3}}</view>
+            <view class="group-list-title-section data-v-2dfa04dc">
+                <view class="group-list-title data-v-2dfa04dc">
+                    <view class="title-text data-v-2dfa04dc">{{$root.m4}}</view>
+                    <image alt class="group-list-icon data-v-2dfa04dc" mode="heightFix" src="https://eshopfile.zhiyousx.com/176975522479724647.png"></image>
+                </view>
+            </view>
+            <view class="group-list-container data-v-2dfa04dc">
+                <view class="group-item data-v-2dfa04dc" wx:for="{{list}}" wx:key="index">
+                    <view class="group-item-info data-v-2dfa04dc">
+                        <image class="title-icon data-v-2dfa04dc" mode="aspectFill" src="{{item.url}}"></image>
+                        <view class="group-item-details data-v-2dfa04dc">
+                            <view class="group-item-name data-v-2dfa04dc">{{item.name}}</view>
+                            <view class="group-item-member-count data-v-2dfa04dc">{{item.spot}}</view>
+                            <view class="group-item-status data-v-2dfa04dc">{{item.time}}</view>
+                        </view>
+                    </view>
+                    <view class="group-item-actions data-v-2dfa04dc">
+                        <view class="group-item-primary-actions data-v-2dfa04dc">
+                            <view bindtap="__e" class="action-btn share-btn data-v-2dfa04dc" data-event-opts="{{[ [ 'tap',[ [ 'showSharePopup',['$event'] ] ] ] ]}}">{{$root.m5}}</view>
+                            <view bindtap="__e" class="action-btn enter-btn data-v-2dfa04dc" data-event-opts="{{[ [ 'tap',[ [ 'enterGroup',['$0'],[ [ ['list','',index] ] ] ] ] ] ]}}">{{$root.m6}}</view>
+                        </view>
+                        <view bindtap="__e" class="dissolve-btn data-v-2dfa04dc" data-event-opts="{{[ [ 'tap',[ [ 'dissolveGroup',['$0'],[ [ ['list','',index] ] ] ] ] ] ]}}">{{$root.m7}}</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <uni-popup backgroundColor="transparent" bind:__l="__l" class="data-v-2dfa04dc vue-ref" data-ref="popupShare" vueId="6efd7e0f-2" vueSlots="{{['default']}}">
+        <view class="share-content data-v-2dfa04dc">
+            <image alt class="share-bg data-v-2dfa04dc" mode="widthFix" src="https://eshopfile.zhiyousx.com/176975738558095082.png"></image>
+            <view class="code data-v-2dfa04dc">
+                <view class="share-content-title data-v-2dfa04dc">
+                    <image alt class="share-icon data-v-2dfa04dc" mode="widthFix" src="{{codeUrl}}"></image>
+                </view>
+                <view class="share-content-desc data-v-2dfa04dc">{{$root.m8}}</view>
+            </view>
+        </view>
+    </uni-popup>
+    <uni-popup bind:__l="__l" class="data-v-2dfa04dc vue-ref" data-ref="popupRemove" vueId="6efd7e0f-3" vueSlots="{{['default']}}">
+        <view class="popup-content data-v-2dfa04dc">
+            <view class="box data-v-2dfa04dc">
+                <image class="popup-img data-v-2dfa04dc" mode="aspectFill" src="https://eshopfile.zhiyousx.com/176965670602878950.png"></image>
+                <view class="popup-desc data-v-2dfa04dc">{{$root.m9}}</view>
+                <view class="btn-box data-v-2dfa04dc">
+                    <view bindtap="__e" class="btn1 data-v-2dfa04dc" data-event-opts="{{[ [ 'tap',[ [ 'closePopup',['$event'] ] ] ] ]}}">{{$root.m10}}</view>
+                    <view bindtap="__e" class="btn data-v-2dfa04dc" data-event-opts="{{[ [ 'tap',[ [ 'submitPopup',['$event'] ] ] ] ]}}">{{$root.m11}}</view>
+                </view>
+            </view>
+        </view>
+    </uni-popup>
+    <uni-popup bind:__l="__l" class="data-v-2dfa04dc vue-ref" data-ref="popupCreate" vueId="6efd7e0f-4" vueSlots="{{['default']}}">
+        <view class="create-content data-v-2dfa04dc">
+            <view class="popup-title data-v-2dfa04dc">{{$root.m12}}</view>
+            <image alt bindtap="__e" class="close-icon data-v-2dfa04dc" data-event-opts="{{[ [ 'tap',[ [ 'closeCreateGroupPopup',['$event'] ] ] ] ]}}" mode="heightFix" src="https://eshopfile.zhiyousx.com/176975963918442547.png"></image>
+            <view class="popup-input data-v-2dfa04dc">
+                <input class="uni-input data-v-2dfa04dc" placeholder="{{$root.m13}}" placeholderStyle="{{color:'rgba(0, 0, 0, 1)'}}"></input>
+            </view>
+            <view bindtap="__e" class="popup-select data-v-2dfa04dc" data-event-opts="{{[ [ 'tap',[ [ 'showSelectPopup',['$event'] ] ] ] ]}}">{{''+codeName+''}}<image alt class="create-icon data-v-2dfa04dc" src="https://eshopfile.zhiyousx.com/176975955835549173.png"></image>
+            </view>
+            <view class="btn-box data-v-2dfa04dc">
+                <view bindtap="__e" class="btn1 data-v-2dfa04dc" data-event-opts="{{[ [ 'tap',[ [ 'closeCreateGroupPopup',['$event'] ] ] ] ]}}">{{$root.m14}}</view>
+                <view bindtap="__e" class="btn data-v-2dfa04dc" data-event-opts="{{[ [ 'tap',[ [ 'submitCreateGroupPopup',['$event'] ] ] ] ]}}">{{$root.m15}}</view>
+            </view>
+        </view>
+    </uni-popup>
+    <uni-popup backgroundColor="transparent" bind:__l="__l" class="data-v-2dfa04dc vue-ref" data-ref="popupSelect" type="bottom" vueId="6efd7e0f-5" vueSlots="{{['default']}}">
+        <view class="select-content data-v-2dfa04dc">
+            <view class="popup-title data-v-2dfa04dc">{{$root.m16}}</view>
+            <image alt bindtap="__e" class="close-icon data-v-2dfa04dc" data-event-opts="{{[ [ 'tap',[ [ 'closeSelectPopup',['$event'] ] ] ] ]}}" mode="heightFix" src="https://eshopfile.zhiyousx.com/176975963918442547.png"></image>
+            <view class="select-list data-v-2dfa04dc">
+                <view bindtap="__e" class="select-item data-v-2dfa04dc" data-event-opts="{{[ [ 'tap',[ [ 'selectGroup',['$0'],[ [ ['listTeam','',index] ] ] ] ] ] ]}}" wx:for="{{listTeam}}" wx:key="index">{{''+item.name+''}}</view>
+            </view>
+        </view>
+    </uni-popup>
+</view>

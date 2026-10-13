@@ -1,0 +1,57 @@
+<u-popup bind:__l="__l" bind:input="__e" borderRadius="32" class="data-v-b6764d10" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showYhMask','$event',[] ] ] ] ] ]}}" height="70%" mode="bottom" value="{{showYhMask}}" vueId="ddf08bb4-1" vueSlots="{{['default']}}">
+    <view class="yh-mask data-v-b6764d10" wx:if="{{showYhMask}}">
+        <scroll-view class="content data-v-b6764d10" scrollY="{{true}}">
+            <view class="item-list data-v-b6764d10">
+                <view class="{{['item','data-v-b6764d10',item.$orig.couponStates==2?'yqg':'',item.$orig.couponStates==3?'ylq':'']}}" wx:for="{{$root.l0}}">
+                    <view class="top data-v-b6764d10">
+                        <view class="left data-v-b6764d10">
+                            <view class="p1 data-v-b6764d10" wx:if="{{item.$orig.type==3}}">
+                                <text class="text2 data-v-b6764d10">0</text>
+                                <text class="text1 data-v-b6764d10">元购</text>
+                            </view>
+                            <view class="p1 data-v-b6764d10" wx:else>
+                                <text class="text1 data-v-b6764d10">￥</text>
+                                <text class="text2 data-v-b6764d10">{{item.$orig.quota}}</text>
+                            </view>
+                            <view class="p2 data-v-b6764d10">
+                                <block wx:if="{{item.$orig.type==1&&item.$orig.threshold>0}}">{{'满'+item.$orig.threshold+'可用'}}</block>
+                                <block wx:if="{{item.$orig.type==2&&item.$orig.threshold==0}}">无门槛</block>
+                                <block wx:if="{{item.$orig.type==3}}">
+                                    <block wx:if="{{item.$orig.couponStates==2}}">{{'可抵扣'+item.$orig.deduction}}</block>
+                                    <block wx:else>
+                                        <block wx:if="{{item.$orig.memberReceivedNum==0}}">{{'可抵扣'+item.$orig.deduction+'张'}}</block>
+                                        <block wx:else>
+                                            <block wx:if="{{item.$orig.showMemberDeductionNum==0}}">
+                                                <block wx:if="{{item.$orig.canUseNum>0}}">{{'可用'+item.$orig.canUseNum+'张'}}</block>
+                                                <tempalte bind:__l="__l" class="data-v-b6764d10" vueId="{{'ddf08bb4-2-'+index+','+'ddf08bb4-1'}}" vueSlots="{{['default']}}" wx:else>{{'可抵扣'+item.$orig.deduction+'张'}}</tempalte>
+                                            </block>
+                                            <block wx:else>{{'已抵扣('+item.$orig.deductionUsedNum+'/'+item.$orig.deduction+')'}}</block>
+                                        </block>
+                                    </block>
+                                </block>
+                            </view>
+                        </view>
+                        <view class="middle data-v-b6764d10">
+                            <view class="p1 data-v-b6764d10">{{item.$orig.name}}</view>
+                            <view class="p2 data-v-b6764d10">
+                                <block wx:if="{{item.$orig.useTimeSlot==0}}">{{item.f0+'-'+item.f1}}</block>
+                                <block wx:if="{{item.$orig.useTimeSlot==1}}">
+                                    <block wx:if="{{item.$orig.couponStates==3}}">{{item.f2+'前有效'}}</block>
+                                    <block wx:else>{{'领券后'+item.$orig.useTimeSlotHour+'小时内有效'}}</block>
+                                </block>
+                                <block wx:if="{{item.$orig.useTimeSlot==2}}">{{item.f3+'-'+item.f4}}{{'可预订【'+item.f5+'-'+item.f6+'】的门票'}}</block>
+                            </view>
+                        </view>
+                        <view bindtap="__e" class="right data-v-b6764d10" data-event-opts="{{[ [ 'tap',[ [ 'receiveCoupon',['$0','$1'],[ [ ['couponDetailArr','',index,'couponId'] ],[ ['couponDetailArr','',index,'couponStates'] ] ] ] ] ] ]}}">
+                            <block wx:if="{{item.$orig.couponStates==1}}">领取</block>
+                            <block wx:if="{{item.$orig.couponStates==2}}">已抢光</block>
+                            <block wx:if="{{item.$orig.couponStates==3}}">已领取</block>
+                        </view>
+                        <image mode bindtap="__e" class="{{['jt','data-v-b6764d10',index==tapIndex?'extend':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'showMore',[index] ] ] ] ]}}" src="{{'../../static/images/'+(item.$orig.couponStates==1?'xiala.png':'xiala2.png')}}"></image>
+                    </view>
+                    <view class="{{['bottom','data-v-b6764d10',index==tapIndex?'extend':'']}}">{{''+item.$orig.useExplain+''}}</view>
+                </view>
+            </view>
+        </scroll-view>
+    </view>
+</u-popup>

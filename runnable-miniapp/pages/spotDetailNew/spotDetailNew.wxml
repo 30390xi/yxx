@@ -1,0 +1,483 @@
+<view bindtap="__e" class="u-wrap u-skeleton wnoscroll data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'closeCsMenu',['$event'] ] ] ] ]}}" style="{{'background:'+'linear-gradient(to bottom,'+detailObj.topColour+','+detailObj.centralColour+' '+midinfoTop+'px)'+';'+'background-repeat:'+'no-repeat'+';'+'padding-top:'+headerH+'px'+';'+'height:'+(isShowTicket||!detailObj.centralColour?'100vh':'auto')+';'}}">
+    <uni-navbar bind:__l="__l" class="data-v-fdb4cb92" data-custom-hidden="{{!(detailObj.closeJumpFlag!=1)}}" isFinding="{{isFinding}}" type="transparentFixed" vueId="ff18a438-1"></uni-navbar>
+    <cs-menu bind:__l="__l" class="data-v-fdb4cb92 vue-ref" data-ref="csMenu" showMenuList="{{showMenuList}}" vueId="ff18a438-2" wx:if="{{detailObj.scenicType==1&&detailObj.closeJumpFlag==1}}"></cs-menu>
+    <view class="top-fixed-box data-v-fdb4cb92" style="{{'padding-top:'+menuButton.top+'px'+';'+'padding-bottom:'+(isShowTicket?'100rpx':'24rpx')+';'}}">
+        <view class="bg-color data-v-fdb4cb92" id="top-fixed-box" style="{{'background:'+detailObj.centralColour+';'+'opacity:'+1/(row2Top-headerH)*scrollTop+';'}}"></view>
+        <view class="headerinfo data-v-fdb4cb92" id="headerinfo" style="{{'transform:'+(!inTop||isShowTicket?'translateY(0rpx)':'translateY('+headerH+'px)')+';'}}">
+            <view class="l data-v-fdb4cb92">
+                <image class="mainImg data-v-fdb4cb92" mode="aspectFill" src="{{mainPicture}}"></image>
+            </view>
+            <view class="r data-v-fdb4cb92">
+                <view class="title singleLineText data-v-fdb4cb92">{{''+(detailObj.scenicName||'')+''}}</view>
+                <view class="sub-title singleLineText data-v-fdb4cb92">{{detailObj.tag||''}}</view>
+            </view>
+        </view>
+    </view>
+    <view class="data-v-fdb4cb92" style="{{'min-height:'+ticOffsetTop-headerH-6+'px'+';'}}">
+        <view catchtouchmove="{{isShowTicket}}" class="spotinfo data-v-fdb4cb92" wx:if="{{detailObj.scenicName}}">
+            <image class="mainImg u-skeleton-fillet data-v-fdb4cb92" id="row2" mode="aspectFill" src="{{mainPicture}}"></image>
+            <view class="info u-skeleton-fillet data-v-fdb4cb92">
+                <view class="title data-v-fdb4cb92">
+                    <view class="name multilineText2 data-v-fdb4cb92" src="{{mainPicture}}" style="{{'width:'+(detailObj.level&&detailObj.level>0?'340rpx':'414rpx')+';'}}">{{''+detailObj.scenicName+''}}</view>
+                    <view bindtap="__e" class="star data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'toTagfilter',[ [ 'o',['name',detailObj.level+'A'],['id',detailObj.level] ],1 ] ] ] ] ]}}" wx:if="{{detailObj.level&&detailObj.level>0&&detailObj.type==1}}">{{''+detailObj.level+'A级'}}</view>
+                </view>
+                <view class="tag multilineText2 data-v-fdb4cb92">{{detailObj.tag}}</view>
+                <view bindtap="__e" class="ranking singleLineText data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'toRanking',['$0'],['detailObj.originSortInRankingVO.contentId'] ] ] ] ]}}" wx:if="{{detailObj.originSortInRankingVO&&detailObj.originSortInRankingVO.contentId}}">
+                    <view class="top data-v-fdb4cb92">{{'TOP '+detailObj.originSortInRankingVO.indexInRanking}}</view>
+                    <view class="text data-v-fdb4cb92">
+                        <view class="name singleLineText data-v-fdb4cb92">{{detailObj.originSortInRankingVO.rankingName+''}}</view>
+                        <uni-icons bind:__l="__l" class="data-v-fdb4cb92" color="#6A5A40" size="12" type="arrowright" vueId="ff18a438-3"></uni-icons>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="{{['row2','u-skeleton-fillet','data-v-fdb4cb92',!peopleNumObj.activeColor?'opacity0':'']}}" id="midinfo">
+            <view bindtap="__e" class="notice singleLineText data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'opennotice',['$event'] ] ] ] ]}}" wx:if="{{detailObj.noticeTitel&&detailObj.noticeMsg}}">
+                <image class="data-v-fdb4cb92" mode="aspect" src="https://eshopfile.zhiyousx.com/2022031709565822039.png"></image>
+                <view class="singleLineText data-v-fdb4cb92">{{detailObj.noticeTitel}}</view>
+                <u-icon bind:__l="__l" class="data-v-fdb4cb92" color="#E03E1E" name="arrow-right" size="28" vueId="ff18a438-4"></u-icon>
+            </view>
+            <view class="t data-v-fdb4cb92" wx:if="{{detailObj.scenicType!=1&&detailObj.type==1}}">
+                <view class="l data-v-fdb4cb92">
+                    <image class="data-v-fdb4cb92" mode="widthFix" src="{{closeIcon||'https://eshopfile.zhiyousx.com/2021090716325517019.png'}}" style="width:104%;" wx:if="{{detailObj.openingStatus==0}}"></image>
+                    <view class="loop-pie data-v-fdb4cb92" wx:else>
+                        <view class="loop-pie-line loop-pie-r data-v-fdb4cb92">
+                            <view class="loop-pie-c loop-pie-rm data-v-fdb4cb92" id="loop-rc" style="{{'-webkit-transform:'+'rotate('+(rotateRight||0)+'deg)'+';'+'border-bottom-color:'+peopleNumObj.activeColor+';'+'border-right-color:'+peopleNumObj.activeColor+';'}}"></view>
+                        </view>
+                        <view class="loop-pie-line loop-pie-l data-v-fdb4cb92">
+                            <view class="loop-pie-c loop-pie-lm data-v-fdb4cb92" id="loop-lc" style="{{'-webkit-transform:'+'rotate('+(rotateLeft||0)+'deg)'+';'+'border-bottom-color:'+peopleNumObj.activeColor+';'+'border-right-color:'+peopleNumObj.activeColor+';'}}"></view>
+                        </view>
+                        <image class="data-v-fdb4cb92" mode="aspectFill" src="{{peopleNumObj.imgUrl}}"></image>
+                    </view>
+                </view>
+                <view class="m data-v-fdb4cb92">
+                    <view class="p1 data-v-fdb4cb92">人流量情况</view>
+                    <view class="p2 data-v-fdb4cb92" style="{{'color:'+peopleNumObj.activeColor+';'}}">{{peopleNumObj.text}}</view>
+                </view>
+                <view class="r data-v-fdb4cb92">
+                    <view class="item data-v-fdb4cb92">
+                        <view class="p1 data-v-fdb4cb92">实时人数</view>
+                        <view class="p1 data-v-fdb4cb92">{{!detailObj.realTimeNum||detailObj.realTimeNum==0||detailObj.openingStatus==0?'暂无':detailObj.realTimeNum}}</view>
+                    </view>
+                    <view class="item data-v-fdb4cb92">
+                        <view class="p1 data-v-fdb4cb92">承载量</view>
+                        <view class="p1 data-v-fdb4cb92">{{detailObj.capacity}}</view>
+                    </view>
+                </view>
+            </view>
+            <view class="hotel_info data-v-fdb4cb92" wx:if="{{detailObj.type==2}}">
+                <view class="ls data-v-fdb4cb92">
+                    <view class="p1 _p data-v-fdb4cb92">人均</view>
+                    <view class="p2 _p data-v-fdb4cb92">{{detailObj.perCapitaConsumption}}</view>
+                </view>
+                <view class="ls data-v-fdb4cb92">
+                    <view class="p1 _p data-v-fdb4cb92">菜系</view>
+                    <view class="p2 _p data-v-fdb4cb92">{{detailObj.businessType}}</view>
+                </view>
+                <view class="ls data-v-fdb4cb92">
+                    <view class="p1 _p data-v-fdb4cb92">营业时间</view>
+                    <view class="p2 _p data-v-fdb4cb92">{{detailObj.businessHours}}</view>
+                </view>
+            </view>
+            <view class="hotel_info data-v-fdb4cb92" wx:if="{{detailObj.type==3}}">
+                <view class="ls data-v-fdb4cb92">
+                    <view class="p1 _p data-v-fdb4cb92">开业时间</view>
+                    <view class="p2 _p data-v-fdb4cb92">{{detailObj.businessHours}}</view>
+                </view>
+                <view class="ls data-v-fdb4cb92">
+                    <view class="p1 _p data-v-fdb4cb92">房间数量</view>
+                    <view class="p2 _p data-v-fdb4cb92">{{detailObj.hotelRoomNum}}</view>
+                </view>
+                <view class="ls data-v-fdb4cb92">
+                    <view class="p1 _p data-v-fdb4cb92">等级</view>
+                    <view class="p2 _p data-v-fdb4cb92">{{detailObj.businessType}}</view>
+                </view>
+            </view>
+            <view class="hotel_info data-v-fdb4cb92" wx:if="{{detailObj.type==4}}">
+                <view class="ls data-v-fdb4cb92">
+                    <view class="p1 _p data-v-fdb4cb92">人均</view>
+                    <view class="p2 _p data-v-fdb4cb92">{{detailObj.perCapitaConsumption}}</view>
+                </view>
+                <view class="ls data-v-fdb4cb92">
+                    <view class="p1 _p data-v-fdb4cb92">类型</view>
+                    <view class="p2 _p data-v-fdb4cb92">{{detailObj.businessType}}</view>
+                </view>
+                <view class="ls data-v-fdb4cb92">
+                    <view class="p1 _p data-v-fdb4cb92">营业时间</view>
+                    <view class="p2 _p data-v-fdb4cb92">{{detailObj.businessHours}}</view>
+                </view>
+            </view>
+            <view class="b data-v-fdb4cb92">
+                <view bindtap="__e" class="{{['line','data-v-fdb4cb92',detailObj.scenicType!=1?'bordertop':'']}}" data-event-opts="{{[ [ 'tap',[ ['jumpSpotIntro'] ] ] ]}}" wx:if="{{detailObj.type==1}}">
+                    <image class="icon data-v-fdb4cb92" src="{{detailObj.openTimeIcon||'https://eshopfile.zhiyousx.com/2021061516504034012.png'}}"></image>
+                    <view class="text singleLineText data-v-fdb4cb92">{{''+(detailObj.openTimeTitle||'开放时间')}}<text class="data-v-fdb4cb92">｜</text>
+                        <block wx:if="{{detailObj.scenicType!=1}}">{{detailObj.reservationNoticeTitle||'优惠政策'}}<text class="data-v-fdb4cb92">｜</text>
+                        </block>{{(detailObj.visitNoticeTitle||'游玩须知')+''}}</view>
+                    <image class="jt data-v-fdb4cb92" src="../../static/images/jt.png"></image>
+                </view>
+                <view bindtap="__e" class="{{['line','hotelStyle','data-v-fdb4cb92',detailObj.scenicType!=1?'bordertop':'']}}" data-event-opts="{{[ [ 'tap',[ ['jumpHotelIntro'] ] ] ]}}" wx:if="{{detailObj.type==2}}">
+                    <image class="icon data-v-fdb4cb92" src="{{detailObj.openTimeIcon||'https://eshopfile.zhiyousx.com/169157356251588574.png'}}"></image>
+                    <view class="text singleLineText data-v-fdb4cb92">{{''+(detailObj.facilitiesServicesTitle||'设施服务')}}<text class="data-v-fdb4cb92">｜</text>
+                        <block wx:if="{{detailObj.scenicType!=1}}">{{detailObj.specialRecommendationTitle||'特色推荐'}}<text class="data-v-fdb4cb92">｜</text>
+                        </block>{{(detailObj.trafficGuideTitle||'交通指南')+''}}</view>
+                    <image class="jt data-v-fdb4cb92" src="../../static/images/jt.png"></image>
+                </view>
+                <view bindtap="__e" class="{{['line','hotelStyle','data-v-fdb4cb92',detailObj.scenicType!=1?'bordertop':'']}}" data-event-opts="{{[ [ 'tap',[ ['jumpHotelIntro'] ] ] ]}}" wx:if="{{detailObj.type==3}}">
+                    <image class="icon data-v-fdb4cb92" src="{{detailObj.openTimeIcon||'https://eshopfile.zhiyousx.com/169157358342351003.png'}}"></image>
+                    <view class="text singleLineText data-v-fdb4cb92">{{''+(detailObj.facilitiesServicesTitle||'设施服务')}}<text class="data-v-fdb4cb92">｜</text>
+                        <block wx:if="{{detailObj.scenicType!=1}}">{{detailObj.hotelPolicyTitle||'入住政策'}}<text class="data-v-fdb4cb92">｜</text>
+                        </block>{{(detailObj.trafficGuideTitle||'交通指南')+''}}</view>
+                    <image class="jt data-v-fdb4cb92" src="../../static/images/jt.png"></image>
+                </view>
+                <view bindtap="__e" class="{{['line','hotelStyle','data-v-fdb4cb92',detailObj.scenicType!=1?'bordertop':'']}}" data-event-opts="{{[ [ 'tap',[ ['jumpHotelIntro'] ] ] ]}}" wx:if="{{detailObj.type==4}}">
+                    <image class="icon data-v-fdb4cb92" src="{{detailObj.openTimeIcon||'https://eshopfile.zhiyousx.com/169157447415155789.png'}}"></image>
+                    <view class="text singleLineText data-v-fdb4cb92">{{''+(detailObj.storeInfoTitle||'门店信息')}}<text class="data-v-fdb4cb92">｜</text>
+                        <block wx:if="{{detailObj.scenicType!=1}}">{{detailObj.facilitiesServicesTitle||'设施服务'}}<text class="data-v-fdb4cb92">｜</text>
+                        </block>{{(detailObj.trafficGuideTitle||'交通指南')+''}}</view>
+                    <image class="jt data-v-fdb4cb92" src="../../static/images/jt.png"></image>
+                </view>
+                <view bindtap="__e" class="{{['line','bordertop','data-v-fdb4cb92',detailObj.type!=1?'hotelStyle':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'openMap',['$event'] ] ] ] ]}}">
+                    <image class="icon data-v-fdb4cb92" src="{{detailObj.positionIcon||'https://eshopfile.zhiyousx.com/2021061516513797848.png'}}"></image>
+                    <view class="text singleLineText data-v-fdb4cb92">{{detailObj.address}}</view>
+                    <image class="jt data-v-fdb4cb92" src="../../static/images/jt.png"></image>
+                </view>
+            </view>
+        </view>
+        <xjtu-entrance baseInfo="{{evaluationObj}}" bind:__l="__l" class="data-v-fdb4cb92" vueId="ff18a438-5" wx:if="{{detailObj.evaluation&&evaluationObj}}"></xjtu-entrance>
+        <view class="row5 u-skeleton-fillet data-v-fdb4cb92" wx:if="{{$root.g0>0}}">
+            <u-swiper bgColor="rgba(0,0,0,0)" bind:__l="__l" bind:click="__e" borderRadius="10" class="data-v-fdb4cb92" data-event-opts="{{[ [ '^click',[ ['swiperTopClick1'] ] ] ]}}" height="268" indicatorActiveColor="#FFFFFF" interval="5000" list="{{topBannerList}}" name="advertPic" showIndicator="{{$root.g1>1?true:false}}" vueId="ff18a438-6"></u-swiper>
+        </view>
+        <view class="row1 u-skeleton-fillet data-v-fdb4cb92" wx:if="{{detailObj.otherIntroduction}}">
+            <image class="otherIntroduction data-v-fdb4cb92" mode="widthFix" src="{{detailObj.otherIntroduction}}"></image>
+        </view>
+        <view class="row3 u-skeleton-fillet data-v-fdb4cb92" wx:if="{{detailObj&&( detailObj.tagIncludeVoList[0]||detailObj.originRankingList[0]||detailObj.sysTagVoList[0]||detailObj.tagPeopleVoList[0]||detailObj.hotelSpecialTagList[0]||detailObj.businessType||detailObj.interestTagList[0] )}}">
+            <view class="item data-v-fdb4cb92" wx:if="{{detailObj&&( detailObj.sysTagVoList[0]||detailObj.tagPeopleVoList[0]||detailObj.hotelSpecialTagList[0]||detailObj.businessType||detailObj.interestTagList[0] )}}">
+                <view class="l data-v-fdb4cb92">标签</view>
+                <view class="r data-v-fdb4cb92">
+                    <view class="tag data-v-fdb4cb92" wx:for="{{detailObj.sysTagVoList}}" wx:for-index="__i0__" wx:key="id">
+                        <view class="inner data-v-fdb4cb92">
+                            <view bindtap="__e" class="name data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'toTagfilter',['$0',2],[ [ ['detailObj.sysTagVoList','id',item.id] ] ] ] ] ] ]}}">{{item.name}}</view>
+                        </view>
+                    </view>
+                    <view class="tag data-v-fdb4cb92" wx:if="{{detailObj.businessType}}">
+                        <view class="inner data-v-fdb4cb92">
+                            <view bindtap="__e" class="name data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'toTagfilter',[ [ 'o',['name',detailObj.businessType],['id',detailObj.businessType] ],1 ] ] ] ] ]}}">{{''+detailObj.businessType+''}}</view>
+                        </view>
+                    </view>
+                    <view class="tag data-v-fdb4cb92" wx:for="{{detailObj.tagPeopleVoList}}" wx:for-index="__i1__" wx:key="id">
+                        <view class="inner data-v-fdb4cb92">
+                            <view bindtap="__e" class="name data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'toTagfilter',['$0',detailObj.type==1?3:2],[ [ ['detailObj.tagPeopleVoList','id',item.id] ] ] ] ] ] ]}}">{{''+item.name}}</view>
+                        </view>
+                    </view>
+                    <view class="tag data-v-fdb4cb92" wx:for="{{detailObj.hotelSpecialTagList}}" wx:for-index="__i2__" wx:key="id">
+                        <view class="inner data-v-fdb4cb92">
+                            <view bindtap="__e" class="name data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'toTagfilter',['$0',2],[ [ ['detailObj.hotelSpecialTagList','id',item.id] ] ] ] ] ] ]}}">{{item.name}}</view>
+                        </view>
+                    </view>
+                    <view class="tag data-v-fdb4cb92" wx:for="{{detailObj.interestTagList}}" wx:for-index="__i3__" wx:key="id">
+                        <view class="inner data-v-fdb4cb92">
+                            <view bindtap="__e" class="name data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'toTagfilter',['$0',2],[ [ ['detailObj.interestTagList','id',item.id] ] ] ] ] ] ]}}">{{item.name}}</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="item u-skeleton-fillet data-v-fdb4cb92" wx:if="{{detailObj.tagIncludeVoList[0]||detailObj.originRankingList[0]}}">
+                <view class="l data-v-fdb4cb92">收录</view>
+                <view class="r data-v-fdb4cb92">
+                    <view bindtap="__e" class="tag data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'toRanking',['$0'],[ [ ['detailObj.tagIncludeVoList','id',item.id,'contentId'] ] ] ] ] ] ]}}" wx:for="{{detailObj.tagIncludeVoList}}" wx:for-index="__i4__" wx:key="id">
+                        <view class="inner data-v-fdb4cb92" style="padding-left:18rpx;">
+                            <image mode class="icon data-v-fdb4cb92" src="{{item.tagUrl?item.tagUrl:'https://eshopfile.zhiyousx.com/2021061517491399963.png'}}"></image>
+                            <view class="name data-v-fdb4cb92">{{item.name}}</view>
+                        </view>
+                    </view>
+                    <view bindtap="__e" class="tag data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'toRanking',['$0'],[ [ ['detailObj.originRankingList','contentId',item.contentId,'contentId'] ] ] ] ] ] ]}}" wx:for="{{detailObj.originRankingList}}" wx:for-index="__i5__" wx:key="contentId">
+                        <view class="inner data-v-fdb4cb92" style="padding-left:18rpx;">
+                            <image mode class="icon data-v-fdb4cb92" src="{{item.tagUrl?item.tagUrl:'https://eshopfile.zhiyousx.com/2021072117045189271.png'}}"></image>
+                            <view class="name data-v-fdb4cb92">{{item.rankingName}}</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="{{['row4','data-v-fdb4cb92',!peopleNumObj.activeColor?'opacity0':'']}}">
+            <view class="title-box data-v-fdb4cb92">
+                <view class="l data-v-fdb4cb92">{{$root.m0}}</view>
+                <view bindtap="__e" class="button-show data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" wx:if="{{lines>6}}">
+                    <view class="button-show-text data-v-fdb4cb92">{{''+(isHide?'展开':'收起')+''}}</view>
+                    <u-icon bind:__l="__l" class="data-v-fdb4cb92" color="rgba(255,255,255,0.6)" name="arrow-down" size="20" vueId="ff18a438-7" wx:if="{{isHide}}"></u-icon>
+                    <u-icon bind:__l="__l" class="data-v-fdb4cb92" color="rgba(255,255,255,0.6)" name="arrow-up" size="20" vueId="ff18a438-8" wx:else></u-icon>
+                </view>
+            </view>
+            <view class="content-box data-v-fdb4cb92">
+                <mote-lines-divide bind:__l="__l" bind:line_show="__e" class="data-v-fdb4cb92" data-event-opts="{{[ [ '^line_show',[ ['getLines'] ] ] ]}}" dt="{{detailObj.introductionText}}" expandText="展开" foldHint="收起" isHide="{{isHide}}" line="{{6}}" style="color:#fff;" vueId="ff18a438-9"></mote-lines-divide>
+            </view>
+        </view>
+        <view class="row5 u-skeleton-fillet data-v-fdb4cb92" wx:if="{{$root.g2>0}}">
+            <u-swiper bgColor="rgba(0,0,0,0)" bind:__l="__l" bind:click="__e" borderRadius="10" class="data-v-fdb4cb92" data-event-opts="{{[ [ '^click',[ ['swiperTopClick2'] ] ] ]}}" height="268" indicatorActiveColor="#FFFFFF" interval="5000" list="{{bannerList}}" name="advertPic" showIndicator="{{$root.g3>0?true:false}}" vueId="ff18a438-10"></u-swiper>
+        </view>
+        <view class="row6 data-v-fdb4cb92" wx:if="{{detailObj.scenicSpotRelationList&&detailObj.scenicSpotRelationList[0]&&item.$orig.contentModuleName&&item.$orig.contentInfoVOList&&item.$orig.contentInfoVOList[0]}}" wx:for="{{$root.l0}}" wx:for-index="__i6__">
+            <view class="title-box u-skeleton-fillet data-v-fdb4cb92">
+                <view class="l u-skeleton-fillet data-v-fdb4cb92">{{item.$orig.contentModuleName}}</view>
+                <view bindtap="__e" class="r u-skeleton-fillet data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'jumpSpotContentList',['$0'],[ [ ['detailObj.scenicSpotRelationList','',__i6__] ] ] ] ] ] ]}}" wx:if="{{item.g4>3}}">
+                    <view class="data-v-fdb4cb92">{{'全部 '+item.g5}}</view>
+                    <image mode class="data-v-fdb4cb92" src="https://eshopfile.zhiyousx.com/spotDetailNew/jiantou.png"></image>
+                </view>
+            </view>
+            <view class="item-box data-v-fdb4cb92">
+                <view bindtap="__e" class="item data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'jumpSpotThirdDetail',['$0'],[ [ ['detailObj.scenicSpotRelationList','',__i6__],['contentInfoVOList','',indexs] ] ] ] ] ] ]}}" wx:if="{{indexs<3}}" wx:for="{{item.$orig.contentInfoVOList}}" wx:for-index="indexs" wx:for-item="items">
+                    <image class="img data-v-fdb4cb92" mode="aspectFill" src="{{items.coverImage}}"></image>
+                    <view class="name multilineText2 data-v-fdb4cb92">{{items.title}}</view>
+                </view>
+            </view>
+        </view>
+        <view class="row7 data-v-fdb4cb92" wx:if="{{detailObj.contentResourcesDtoList&&detailObj.contentResourcesDtoList[0]}}">
+            <view bindtap="__e" class="title-box data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'jumpSpotMedia',['$event'] ] ] ] ]}}">
+                <view class="l data-v-fdb4cb92">{{showVideo?'视频/图片':'图片'}}</view>
+                <view class="r data-v-fdb4cb92">
+                    <view class="data-v-fdb4cb92">{{'全部 '+$root.g6}}</view>
+                    <image mode class="data-v-fdb4cb92" src="https://eshopfile.zhiyousx.com/spotDetailNew/jiantou.png"></image>
+                </view>
+            </view>
+            <scroll-view class="item-box data-v-fdb4cb92" scrollX="true" style="height:248rpx;">
+                <view bindtap="__e" class="item data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'openMedia',[index] ] ] ] ]}}" wx:if="{{item.m1}}" wx:for="{{$root.l1}}">
+                    <image class="img data-v-fdb4cb92" mode="aspectFill" src="{{item.$orig.resourcesType==2?item.$orig.coverImage:item.$orig.resourcesUrl}}"></image>
+                    <view class="mask data-v-fdb4cb92" wx:if="{{item.$orig.resourcesType==2}}">
+                        <image mode class="icon data-v-fdb4cb92" src="https://eshopfile.zhiyousx.com/spotDetailNew/bofang2.png"></image>
+                    </view>
+                </view>
+            </scroll-view>
+        </view>
+    </view>
+    <view bindtouchend="__e" bindtouchstart="__e" class="ticket-box fixed data-v-fdb4cb92" data-event-opts="{{[ [ 'touchstart',[ [ 'touchStart',['$event'] ] ] ],[ 'touchend',[ [ 'touchEnd',['$event'] ] ] ] ]}}" style="{{'height:'+windowHeight-headerH+'px'+';'+'bottom:'+(isShowTicket?0:-windowHeight+headerH+$root.g7+'px')+';'}}" wx:if="{{(showTicketList||showUnion)&&showFixTicket}}">
+        <image class="fixedLinear data-v-fdb4cb92" src="https://eshopfile.zhiyousx.com/2021090818342456522.png" wx:if="{{!isShowTicket}}"></image>
+        <view bindtouchstart="__e" class="ticketMask data-v-fdb4cb92" data-event-opts="{{[ [ 'touchstart',[ [ 'showTicketMask',[1] ] ] ] ]}}" wx:if="{{!isShowTicket}}"></view>
+        <view catchtap="__e" class="line1 data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'showTicketMask',['$event'] ] ] ] ]}}">
+            <view class="data-v-fdb4cb92"></view>
+        </view>
+        <view class="title-box union-box data-v-fdb4cb92" wx:if="{{showUnion}}">
+            <view bindtap="__e" class="{{['union-tab','union-pb','data-v-fdb4cb92',tabIndex==0?'tabAct':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeTab',[0] ] ] ] ]}}">
+                <view class="tab data-v-fdb4cb92">陕西联合会员权益</view>
+            </view>
+            <view bindtap="__e" class="{{['union-tab','','data-v-fdb4cb92',tabIndex==1?'tabAct':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeTab',[1] ] ] ] ]}}" wx:if="{{showTicketList}}">
+                <view class="tab data-v-fdb4cb92">{{''+(detailObj.ticketTitle||'门票预订')+''}}<text class="price data-v-fdb4cb92" wx:if="{{!isShowTicket&&!detailObj.ticketDesc}}">{{'￥'+ticketArr.startingPrice}}</text>
+                    <text class="data-v-fdb4cb92" wx:if="{{!isShowTicket&&!detailObj.ticketDesc}}">起</text>
+                </view>
+            </view>
+        </view>
+        <view class="title-box data-v-fdb4cb92" wx:else>
+            <view class="l data-v-fdb4cb92">{{(detailObj.ticketTitle||'门票预订')+''}}<text class="p pl data-v-fdb4cb92" wx:if="{{!isShowTicket&&detailObj.ticketDesc}}">{{detailObj.ticketDesc||''}}</text>
+                <text class="p data-v-fdb4cb92" wx:if="{{!isShowTicket&&!detailObj.ticketDesc}}">{{'￥'+ticketArr.startingPrice}}</text>
+                <text class="qi data-v-fdb4cb92" wx:if="{{!isShowTicket&&!detailObj.ticketDesc}}">起</text>
+            </view>
+            <view class="r data-v-fdb4cb92" wx:if="{{!isShowTicket&&detailObj.scenicType!=1}}">
+                <view class="totalSale data-v-fdb4cb92">{{''+$root.f0+'人'+(detailObj.salesNumDesc||'已购买')}}</view>
+            </view>
+            <view catchtap="__e" class="r data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'jumpSpotIntro',['ydzc'] ] ] ] ]}}" wx:if="{{detailObj.discountVoList[0]&&isShowTicket}}">
+                <view class="data-v-fdb4cb92">{{detailObj.reservationNoticeTitle||'优待政策'}}</view>
+                <image mode class="data-v-fdb4cb92" src="https://eshopfile.zhiyousx.com/spotDetailNew/jiantoured.png"></image>
+            </view>
+        </view>
+        <swiper bindchange="__e" class="swiper data-v-fdb4cb92" current="{{tabIndex}}" data-event-opts="{{[ [ 'change',[ [ 'changeSwiper',['$event'] ] ] ] ]}}" style="{{'width:'+'100%'+';'+'height:'+swiperH+'px'+';'}}">
+            <swiper-item class="data-v-fdb4cb92" wx:if="{{showUnion}}">
+                <union bind:__l="__l" bind:showUnionPhone="__e" class="data-v-fdb4cb92 vue-ref" data-event-opts="{{[ [ '^showUnionPhone',[ ['showUnionPhone'] ] ] ]}}" data-ref="unionBox" disScroll="{{disScroll}}" isUnionMember="{{isUnionMember}}" scrollFixH="{{swiperH}}" unionEquityCard="{{unionEquityCard}}" unionExpired="{{unionExpired}}" vueId="ff18a438-11"></union>
+            </swiper-item>
+            <swiper-item class="data-v-fdb4cb92" wx:if="{{showTicketList}}">
+                <coupon bind:__l="__l" bind:showYh="__e" class="data-v-fdb4cb92" couponArr="{{couponArr}}" data-event-opts="{{[ [ '^showYh',[ ['showYh'] ] ] ]}}" vueId="ff18a438-12"></coupon>
+                <ticket-info bind:__l="__l" bind:showTicketInfoBox="__e" class="data-v-fdb4cb92" data-event-opts="{{[ [ '^showTicketInfoBox',[ ['showTicketInfoBox'] ] ] ]}}" ticketAreaNoticeName="{{detailObj.ticketAreaNoticeName}}" vueId="ff18a438-13"></ticket-info>
+                <ticket-box bind:__l="__l" bind:buyFn="__e" bind:fixTicketListScroll="__e" bind:hitClick="__e" bind:sellOutClick="__e" bind:showBookTip="__e" bind:toggleTicketList="__e" class="data-v-fdb4cb92 vue-ref" data-event-opts="{{[ [ '^toggleTicketList',[ ['toggleTicketList'] ] ],[ '^fixTicketListScroll',[ ['fixTicketListScroll'] ] ],[ '^buyFn',[ ['buyFn'] ] ],[ '^showBookTip',[ ['showBookTip'] ] ],[ '^hitClick',[ ['hitClick'] ] ],[ '^sellOutClick',[ ['sellOutClick'] ] ] ]}}" data-ref="ticBox" disScroll="{{disScroll}}" isShowTicket="{{isShowTicket}}" scrollFixH="{{scrollFixH}}" scrollToClass="{{scrollToClass}}" scrollToTic="{{scrollToTic}}" showClassName="{{showClassName}}" showTicketIndex="{{showTicketIndex}}" showType="{{showType}}" ticketArr="{{ticketArr}}" vueId="ff18a438-14"></ticket-box>
+            </swiper-item>
+        </swiper>
+    </view>
+    <view class="ticket-box relative data-v-fdb4cb92" id="ticketBox" style="{{'height:'+windowHeight-headerH+'px'+';'}}" wx:if="{{showTicketList&&showrelTicket||showUnion}}">
+        <view class="line1 data-v-fdb4cb92">
+            <view class="data-v-fdb4cb92"></view>
+        </view>
+        <view class="title-box union-box data-v-fdb4cb92" wx:if="{{showUnion}}">
+            <view bindtap="__e" class="{{['union-tab','union-pb','data-v-fdb4cb92',tabIndex==0?'tabAct':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeTab',[0] ] ] ] ]}}">
+                <view class="tab data-v-fdb4cb92">陕西联合会员权益</view>
+            </view>
+            <view bindtap="__e" class="{{['union-tab','','data-v-fdb4cb92',tabIndex==1?'tabAct':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeTab',[1] ] ] ] ]}}" wx:if="{{showTicketList}}">
+                <view class="tab data-v-fdb4cb92">{{''+(detailObj.ticketTitle||'门票预订')+''}}<text class="price data-v-fdb4cb92" wx:if="{{!isShowTicket&&!detailObj.ticketDesc}}">{{'￥'+ticketArr.startingPrice}}</text>
+                    <text class="data-v-fdb4cb92" wx:if="{{!isShowTicket&&!detailObj.ticketDesc}}">起</text>
+                </view>
+            </view>
+        </view>
+        <view class="title-box data-v-fdb4cb92" wx:else>
+            <view class="l data-v-fdb4cb92">{{''+(detailObj.ticketTitle||'门票预订')+''}}</view>
+            <view catchtap="__e" class="r data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'jumpSpotIntro',['ydzc'] ] ] ] ]}}" wx:if="{{detailObj.discountVoList[0]}}">
+                <view class="data-v-fdb4cb92">{{detailObj.reservationNoticeTitle||'优待政策'}}</view>
+                <image mode class="data-v-fdb4cb92" src="https://eshopfile.zhiyousx.com/spotDetailNew/jiantoured.png"></image>
+            </view>
+        </view>
+        <swiper bindchange="__e" class="swiper data-v-fdb4cb92" current="{{tabIndex}}" data-event-opts="{{[ [ 'change',[ [ 'changeSwiper',['$event'] ] ] ] ]}}" style="{{'width:'+'100%'+';'+'height:'+swiperH+'px'+';'}}">
+            <swiper-item class="data-v-fdb4cb92" wx:if="{{showUnion}}">
+                <union bind:__l="__l" bind:showUnionPhone="__e" class="data-v-fdb4cb92" data-event-opts="{{[ [ '^showUnionPhone',[ ['showUnionPhone'] ] ] ]}}" disScroll="{{disScroll}}" isUnionMember="{{isUnionMember}}" scrollFixH="{{swiperH}}" unionEquityCard="{{unionEquityCard}}" unionExpired="{{unionExpired}}" vueId="ff18a438-15"></union>
+            </swiper-item>
+            <swiper-item class="data-v-fdb4cb92" wx:if="{{showTicketList}}">
+                <coupon bind:__l="__l" bind:showYh="__e" class="data-v-fdb4cb92" couponArr="{{couponArr}}" data-event-opts="{{[ [ '^showYh',[ ['showYh'] ] ] ]}}" vueId="ff18a438-16"></coupon>
+                <ticket-info bind:__l="__l" bind:showTicketInfoBox="__e" class="data-v-fdb4cb92" data-event-opts="{{[ [ '^showTicketInfoBox',[ ['showTicketInfoBox'] ] ] ]}}" ticketAreaNoticeName="{{detailObj.ticketAreaNoticeName}}" vueId="ff18a438-17"></ticket-info>
+                <ticket-box bind:__l="__l" bind:buyFn="__e" bind:fixTicketListScroll="__e" bind:hitClick="__e" bind:sellOutClick="__e" bind:showBookTip="__e" bind:toggleTicketList="__e" class="data-v-fdb4cb92" data-event-opts="{{[ [ '^toggleTicketList',[ ['toggleTicketList'] ] ],[ '^fixTicketListScroll',[ ['fixTicketListScroll'] ] ],[ '^buyFn',[ ['buyFn'] ] ],[ '^showBookTip',[ ['showBookTip'] ] ],[ '^hitClick',[ ['hitClick'] ] ],[ '^sellOutClick',[ ['sellOutClick'] ] ] ]}}" disScroll="{{disScroll}}" isShowTicket="{{isShowTicket}}" scrollFixH="{{scrollFixH}}" scrollToClass="{{scrollToClass}}" scrollToTic="{{scrollToTic}}" showClassName="{{showClassName}}" showTicketIndex="{{showTicketIndex}}" showType="{{showType}}" ticketArr="{{ticketArr}}" vueId="ff18a438-18"></ticket-box>
+            </swiper-item>
+        </swiper>
+    </view>
+    <sku bind:__l="__l" bind:buyFn="__e" bind:showAllTime="__e" bind:showBookTip="__e" bind:showSku="__e" class="data-v-fdb4cb92 vue-ref" data-event-opts="{{[ [ '^showSku',[ ['showSku'] ] ],[ '^showBookTip',[ ['showBookTip'] ] ],[ '^showAllTime',[ ['showAllTimeM'] ] ],[ '^buyFn',[ ['buyFn'] ] ] ]}}" data-ref="skuP" detailObj="{{detailObj}}" vueId="ff18a438-19"></sku>
+    <book-info bind:__l="__l" bind:buyFn="__e" bind:ydxzSellOut="__e" bizType="{{bizType}}" bookTipHeight="{{bookTipHeight}}" class="data-v-fdb4cb92 vue-ref" data-event-opts="{{[ [ '^ydxzSellOut',[ ['ydxzSellOut'] ] ],[ '^buyFn',[ ['buyFn'] ] ] ]}}" data-ref="bookInfoBox" dialogInfos="{{dialogInfos}}" selectDate="{{selectDate}}" showPcT="{{showPcT}}" telephoneVoList="{{telephoneVoList}}" vueId="ff18a438-20" ydxz="{{ydxz}}"></book-info>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="32" class="data-v-fdb4cb92" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showYhMask','$event',[] ] ] ] ] ]}}" height="70%" mode="bottom" value="{{showYhMask}}" vueId="ff18a438-21" vueSlots="{{['default']}}">
+        <view class="yh-mask data-v-fdb4cb92" wx:if="{{showYhMask}}">
+            <scroll-view class="content data-v-fdb4cb92" scrollY="{{true}}">
+                <view class="item-list data-v-fdb4cb92">
+                    <view class="{{['item','data-v-fdb4cb92',item.$orig.couponStates==2?'yqg':'',item.$orig.couponStates==3?'ylq':'']}}" wx:for="{{$root.l2}}">
+                        <view class="top data-v-fdb4cb92">
+                            <view class="left data-v-fdb4cb92">
+                                <view class="p1 data-v-fdb4cb92" wx:if="{{item.$orig.type==3}}">
+                                    <text class="text2 data-v-fdb4cb92">0</text>
+                                    <text class="text1 data-v-fdb4cb92">元购</text>
+                                </view>
+                                <view class="p1 data-v-fdb4cb92" wx:else>
+                                    <text class="text1 data-v-fdb4cb92">￥</text>
+                                    <text class="text2 data-v-fdb4cb92">{{item.$orig.quota}}</text>
+                                </view>
+                                <view class="p2 data-v-fdb4cb92">
+                                    <block wx:if="{{item.$orig.type==1&&item.$orig.threshold>0}}">{{'满'+item.$orig.threshold+'可用'}}</block>
+                                    <block wx:if="{{item.$orig.type==2&&item.$orig.threshold==0}}">无门槛</block>
+                                    <block wx:if="{{item.$orig.type==3}}">
+                                        <block wx:if="{{item.$orig.couponStates==2}}">{{'可抵扣'+item.$orig.deduction}}</block>
+                                        <block wx:else>
+                                            <block wx:if="{{item.$orig.memberReceivedNum==0}}">{{'可抵扣'+item.$orig.deduction+'张'}}</block>
+                                            <block wx:else>
+                                                <block wx:if="{{item.$orig.showMemberDeductionNum==0}}">
+                                                    <block wx:if="{{item.$orig.canUseNum>0}}">{{'可用'+item.$orig.canUseNum+'张'}}</block>
+                                                    <tempalte bind:__l="__l" class="data-v-fdb4cb92" vueId="{{'ff18a438-22-'+index+','+'ff18a438-21'}}" vueSlots="{{['default']}}" wx:else>{{'可抵扣'+item.$orig.deduction+'张'}}</tempalte>
+                                                </block>
+                                                <block wx:else>{{'已抵扣('+item.$orig.deductionUsedNum+'/'+item.$orig.deduction+')'}}</block>
+                                            </block>
+                                        </block>
+                                    </block>
+                                </view>
+                            </view>
+                            <view class="middle data-v-fdb4cb92">
+                                <view class="p1 data-v-fdb4cb92">{{item.$orig.name}}</view>
+                                <view class="p2 data-v-fdb4cb92">
+                                    <block wx:if="{{item.$orig.useTimeSlot==0}}">{{''+item.f1+'-'+item.f2}}</block>
+                                    <block wx:if="{{item.$orig.useTimeSlot==1}}">
+                                        <block wx:if="{{item.$orig.couponStates==3}}">{{''+item.f3+'前有效'}}</block>
+                                        <block wx:else>{{'领券后'+item.$orig.useTimeSlotHour+'小时内有效'}}</block>
+                                    </block>
+                                    <block wx:if="{{item.$orig.useTimeSlot==2}}">{{''+item.f4+'-'+item.f5+''}}{{'可预订【'+item.f6+'-'+item.f7+'】的门票'}}</block>
+                                </view>
+                            </view>
+                            <view bindtap="__e" class="right data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'receiveCoupon',['$0','$1'],[ [ ['couponDetailArr','',index,'couponId'] ],[ ['couponDetailArr','',index,'couponStates'] ] ] ] ] ] ]}}">
+                                <block wx:if="{{item.$orig.couponStates==1}}">领取</block>
+                                <block wx:if="{{item.$orig.couponStates==2}}">已抢光</block>
+                                <block wx:if="{{item.$orig.couponStates==3}}">已领取</block>
+                            </view>
+                            <image mode bindtap="__e" class="{{['jt','data-v-fdb4cb92',index==tapIndex?'extend':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'showMore',[index] ] ] ] ]}}" src="{{'../../static/images/'+(item.$orig.couponStates==1?'xiala.png':'xiala2.png')}}"></image>
+                        </view>
+                        <view class="{{['bottom','data-v-fdb4cb92',index==tapIndex?'extend':'']}}">{{''+item.$orig.useExplain+''}}</view>
+                    </view>
+                </view>
+            </scroll-view>
+        </view>
+    </u-popup>
+    <view class="mask data-v-fdb4cb92" wx:if="{{showPicture}}">
+        <view class="maskTop data-v-fdb4cb92" style="{{'top:'+statusBarHeight+8+'px'+';'}}">
+            <uni-icons bind:__l="__l" bind:click="__e" class="data-v-fdb4cb92" color="#ffffff" data-event-opts="{{[ [ '^click',[ ['e1'] ] ] ]}}" size="22" type="arrowleft" vueId="ff18a438-23"></uni-icons>
+            <view class="num data-v-fdb4cb92">{{''+swiperCurrent+' / '+$root.g8+''}}</view>
+        </view>
+        <swiper bindchange="__e" class="swiper data-v-fdb4cb92" current="{{currentSwiper}}" data-event-opts="{{[ [ 'change',[ [ 'swiperChange',['$event'] ] ] ] ]}}" duration="{{500}}">
+            <swiper-item class="data-v-fdb4cb92" wx:for="{{detailObj.contentResourcesDtoList}}" wx:key="index">
+                <view class="swiper-item data-v-fdb4cb92" wx:if="{{item.resourcesType==1}}">
+                    <movable-area class="movable-area data-v-fdb4cb92" scaleArea="{{true}}">
+                        <movable-view binddblclick="__e" class="movable-view data-v-fdb4cb92" data-event-opts="{{[ [ 'dblclick',[ [ 'dblclick',['$event'] ] ] ] ]}}" direction="all" scale="true" scaleMax="4" scaleMin="1" scaleValue="{{scale}}">
+                            <image class="img data-v-fdb4cb92" mode="widthFix" src="{{item.resourcesUrl}}"></image>
+                        </movable-view>
+                    </movable-area>
+                </view>
+                <view class="swiper-item data-v-fdb4cb92" wx:if="{{swiperCurrent==index+1&&item.resourcesType==2}}">
+                    <video autoplay="{{true}}" class="swiper-item data-v-fdb4cb92 vue-ref-in-for" controls="{{true}}" data-ref="video" playBtnPosition="center" src="{{item.resourcesUrl}}"></video>
+                </view>
+                <view class="describe data-v-fdb4cb92" wx:if="{{item.describe}}">{{item.describe+''}}<text class="data-v-fdb4cb92"></text>
+                </view>
+            </swiper-item>
+        </swiper>
+    </view>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-fdb4cb92" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showNotice','$event',[] ] ] ] ] ]}}" height="70%" mode="bottom" value="{{showNotice}}" vueId="ff18a438-24" vueSlots="{{['default']}}">
+        <view class="noticeBox data-v-fdb4cb92">
+            <view class="title data-v-fdb4cb92">重要通知</view>
+            <scroll-view class="scontent data-v-fdb4cb92" scrollY="{{true}}" style="{{'height:'+noticeHeight+'rpx'+';'}}">
+                <u-parse bind:__l="__l" bind:imgtap="__e" class="data-v-fdb4cb92 vue-ref" data-event-opts="{{[ [ '^imgtap',[ ['priviewImg'] ] ] ]}}" data-ref="noticeMsg" html="{{detailObj.noticeMsg}}" lazyLoad="{{true}}" tagStyle="{{parseStyle}}" vueId="{{'ff18a438-25'+','+'ff18a438-24'}}"></u-parse>
+            </scroll-view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-fdb4cb92" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showTicketInfo','$event',[] ] ] ] ] ]}}" height="70%" mode="bottom" value="{{showTicketInfo}}" vueId="ff18a438-26" vueSlots="{{['default']}}">
+        <view class="noticeBox data-v-fdb4cb92">
+            <view class="title data-v-fdb4cb92">小贴士</view>
+            <scroll-view class="scontent data-v-fdb4cb92" scrollY="{{true}}" style="{{'height:'+noticeHeight+'rpx'+';'}}">
+                <u-parse bind:__l="__l" bind:imgtap="__e" class="data-v-fdb4cb92" data-event-opts="{{[ [ '^imgtap',[ ['priviewImg'] ] ] ]}}" html="{{detailObj.ticketAreaNotice||''}}" lazyLoad="{{true}}" tagStyle="{{parseStyle}}" vueId="{{'ff18a438-27'+','+'ff18a438-26'}}"></u-parse>
+            </scroll-view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="30" class="data-v-fdb4cb92" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','sharePopup','$event',[] ] ] ] ] ]}}" mode="bottom" value="{{sharePopup}}" vueId="ff18a438-28" vueSlots="{{['default']}}">
+        <view class="share-box data-v-fdb4cb92">
+            <view class="title data-v-fdb4cb92">分享到</view>
+            <view class="icon-box data-v-fdb4cb92" wx:if="{{$root.g9}}">
+                <view class="item data-v-fdb4cb92">
+                    <image mode class="icon data-v-fdb4cb92" src="https://eshopfile.zhiyousx.com/2022090510365178497.png"></image>
+                    <view class="t data-v-fdb4cb92">微信好友</view>
+                    <button class="sharebtn data-v-fdb4cb92" data-aaa="111" openType="share"></button>
+                </view>
+                <view bindtap="__e" class="item data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'e2',['$event'] ] ] ] ]}}" wx:if="{{$root.g10}}">
+                    <image mode class="icon data-v-fdb4cb92" src="https://eshopfile.zhiyousx.com/2022090510374178970.png"></image>
+                    <view class="t data-v-fdb4cb92">小程序码</view>
+                </view>
+                <view bindtap="__e" class="item data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'e3',['$event'] ] ] ] ]}}" wx:if="{{$root.g11}}">
+                    <image mode class="icon data-v-fdb4cb92" src="https://eshopfile.zhiyousx.com/2022090510375744214.png"></image>
+                    <view class="t data-v-fdb4cb92">海报</view>
+                </view>
+            </view>
+            <view bindtap="__e" class="close data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'e4',['$event'] ] ] ] ]}}">取消</view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" class="data-v-fdb4cb92 vue-ref" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showShareImg','$event',[] ] ] ] ] ]}}" data-ref="uPopup" maskCloseAble="{{false}}" mode="center" value="{{showShareImg}}" vueId="ff18a438-29" vueSlots="{{['default']}}">
+        <view class="notice-box data-v-fdb4cb92">
+            <image class="notice-img data-v-fdb4cb92" mode="widthFix" showMenuByLongpress="{{true}}" src="{{postUrl1}}"></image>
+            <image mode bindtap="__e" class="notice-close data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'e5',['$event'] ] ] ] ]}}" src="/static/captured/e6819c818da3962f.png"></image>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" class="data-v-fdb4cb92 vue-ref" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showQrCode','$event',[] ] ] ] ] ]}}" data-ref="uPopup" maskCloseAble="{{false}}" mode="center" value="{{showQrCode}}" vueId="ff18a438-30" vueSlots="{{['default']}}">
+        <view class="notice-box data-v-fdb4cb92">
+            <image class="notice-img data-v-fdb4cb92" mode="widthFix" showMenuByLongpress="{{true}}" src="{{qrCode}}"></image>
+            <image mode bindtap="__e" class="notice-close data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'e6',['$event'] ] ] ] ]}}" src="/static/captured/e6819c818da3962f.png"></image>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="30" class="data-v-fdb4cb92" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showPhonePop','$event',[] ] ] ] ] ]}}" mode="bottom" value="{{showPhonePop}}" vueId="ff18a438-31" vueSlots="{{['default']}}">
+        <view class="phone-box data-v-fdb4cb92">
+            <view class="title data-v-fdb4cb92">商家电话</view>
+            <view bindtap="__e" class="phone-row data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'call',['$0'],[ [ ['unionEquityCard.phoneList','',__i7__] ] ] ] ] ] ]}}" wx:if="{{$root.g12}}" wx:for="{{unionEquityCard.phoneList}}" wx:for-index="__i7__" wx:for-item="it">
+                <view class="left data-v-fdb4cb92">{{''+it+''}}</view>
+                <image mode class="data-v-fdb4cb92" src="https://eshopfile.zhiyousx.com/spotIntroNew/dianhua.png" style="width:32rpx;height:32rpx;"></image>
+            </view>
+            <view bindtap="__e" class="close-b data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'e7',['$event'] ] ] ] ]}}">取消</view>
+        </view>
+    </u-popup>
+    <l-painter bind:__l="__l" bind:success="__e" class="data-v-fdb4cb92" customStyle="position: fixed; left: 200%" data-event-opts="{{[ [ '^success',[ ['e8'] ] ] ]}}" isCanvasToTempFilePath="{{true}}" vueId="ff18a438-32" vueSlots="{{['default']}}" wx:if="{{qrCode&&ticketpostObj&&ticketpostObj.sharePosterUrl}}">
+        <l-painter-image bind:__l="__l" class="data-v-fdb4cb92" css="object-fit: fill;width:750rpx;" src="{{ticketpostObj.sharePosterUrl}}" vueId="{{'ff18a438-33'+','+'ff18a438-32'}}"></l-painter-image>
+        <l-painter-image bind:__l="__l" class="data-v-fdb4cb92" css="object-fit: fill;width:750rpx;" src="https://eshopfile.zhiyousx.com/2022090511375406833.png" vueId="{{'ff18a438-34'+','+'ff18a438-32'}}"></l-painter-image>
+        <l-painter-image bind:__l="__l" class="data-v-fdb4cb92" css="object-fit: fill;width:155rpx;height:155rpx;position:absolute;bottom:13rpx;right:46rpx" src="{{qrCode}}" vueId="{{'ff18a438-35'+','+'ff18a438-32'}}"></l-painter-image>
+    </l-painter>
+    <s-painter bind:__l="__l" bind:success="__e" board="{{posterData}}" class="data-v-fdb4cb92" data-event-opts="{{[ [ '^success',[ ['e9'] ] ] ]}}" isRenderImage="{{true}}" style="display:none;" vueId="ff18a438-36" wx:if="{{isAndroid}}"></s-painter>
+    <painter bind:__l="__l" bind:imgOK="__e" class="painter data-v-fdb4cb92" data-event-opts="{{[ [ '^imgOK',[ ['onImgOK'] ] ] ]}}" palette="{{painterData}}" vueId="ff18a438-37" widthPixels="{{300}}" wx:if="{{painterData&&!isAndroid}}"></painter>
+    <l-painter bind:__l="__l" bind:success="__e" class="data-v-fdb4cb92" css="width: 452rpx; height:363rpx;position:fixed;bottom:0;left:0;" customStyle="position: fixed; left: 200%" data-event-opts="{{[ [ '^success',[ ['e10'] ] ] ]}}" isCanvasToTempFilePath="{{true}}" vueId="ff18a438-38" vueSlots="{{['default']}}">
+        <l-painter-image bind:__l="__l" class="data-v-fdb4cb92" css="object-fit: cover; object-position: 50% 50%;width:452rpx;height:362rpx;" src="{{ticketpostObj.defaultPicUrl}}" vueId="{{'ff18a438-39'+','+'ff18a438-38'}}"></l-painter-image>
+        <l-painter-view bind:__l="__l" class="data-v-fdb4cb92" css="position:absolute;width:452rpx;height:82rpx;bottom:00rpx;left:0; background:#ffffff;" vueId="{{'ff18a438-40'+','+'ff18a438-38'}}" vueSlots="{{['default']}}">
+            <l-painter-text bind:__l="__l" class="data-v-fdb4cb92" css="font-size:32rpx;font-weight:600;line-height:82rpx;color:#FF5411;margin-left:20rpx;white-space:no-wrap;word-break: keep-all;" text="￥" vueId="{{'ff18a438-41'+','+'ff18a438-40'}}"></l-painter-text>
+            <l-painter-text bind:__l="__l" class="data-v-fdb4cb92" css="font-size:32rpx;font-weight:600;line-height:82rpx;color:#FF5411;white-space:no-wrap;word-break: keep-all;" text="{{ticketpostObj.price+' '}}" vueId="{{'ff18a438-42'+','+'ff18a438-40'}}"></l-painter-text>
+            <l-painter-text bind:__l="__l" class="data-v-fdb4cb92" css="font-size: 20rpx;line-height:82rpx;text-decoration:line-through;margin-left:10rpx;color:#D0D0D0;" text="￥" vueId="{{'ff18a438-43'+','+'ff18a438-40'}}"></l-painter-text>
+            <l-painter-text bind:__l="__l" class="data-v-fdb4cb92" css="font-size: 20rpx;line-height:82rpx;text-decoration:line-through;color:#D0D0D0;white-space:no-wrap;word-break: keep-all;" text="{{ticketpostObj.marketPrice+' '}}" vueId="{{'ff18a438-44'+','+'ff18a438-40'}}"></l-painter-text>
+            <l-painter-text bind:__l="__l" class="data-v-fdb4cb92" css="height:60rpx;margin-top:11rpx;background:linear-gradient(56deg, #FC4A9E 0%, #FF5411 100%);width:200rpx;position:absolute;text-align:center;font-size:26rpx;color:#ffffff;white-space:no-wrap;word-break: keep-all;border-radius:30rpx;right:11rpx;bottom:11rpx;" text="{{ticketpostObj.skuItemType==1?'立即预约':'立即预订'}}" vueId="{{'ff18a438-45'+','+'ff18a438-40'}}"></l-painter-text>
+        </l-painter-view>
+    </l-painter>
+    <u-skeleton animation="{{true}}" bind:__l="__l" class="data-v-fdb4cb92" loading="{{loadingStatus}}" vueId="ff18a438-46"></u-skeleton>
+    <page-container bindbeforeleave="__e" class="data-v-fdb4cb92" data-event-opts="{{[ [ 'beforeleave',[ [ 'onBeforeLeave',['$event'] ] ] ] ]}}" overlay="{{false}}" show="{{showPC}}"></page-container>
+    <recommended-pop bind:__l="__l" bind:refreshCoupon="__e" class="data-v-fdb4cb92 vue-ref" data-event-opts="{{[ [ '^refreshCoupon',[ ['refreshCoupon'] ] ] ]}}" data-ref="recommendedRef" dialogInfos="{{dialogInfos}}" vueId="ff18a438-47"></recommended-pop>
+</view>

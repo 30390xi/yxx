@@ -1,0 +1,46 @@
+<view class="data-v-1c550159">
+    <uni-navbar bind:__l="__l" class="data-v-1c550159" type="transparentFixed" vueId="39e9af20-1"></uni-navbar>
+    <view class="uni-padding-wrap data-v-1c550159">
+        <view class="page-section swiper data-v-1c550159">
+            <view class="page-section-spacing data-v-1c550159">
+                <swiper bindanimationfinish="__e" bindchange="__e" class="swiper data-v-1c550159" current="{{index_}}" data-event-opts="{{[ [ 'change',[ [ 'changefun',['$event'] ] ] ],[ 'animationfinish',[ [ 'animationfinishfun',['$event'] ] ] ] ]}}" vertical="{{true}}">
+                    <swiper-item class="data-v-1c550159" wx:for="{{videoList}}" wx:key="index">
+                        <view catchtap="__e" class="swiper-item data-v-1c550159" data-event-opts="{{[ [ 'tap',[ [ 'playPause',[index] ] ] ] ]}}">
+                            <image class="btn play data-v-1c550159" src="https://eshopfile.zhiyousx.com/2021083111362225433.png" wx:if="{{!isPlay}}"></image>
+                            <image class="btn pause data-v-1c550159" src="https://eshopfile.zhiyousx.com/2021083111373735978.png" wx:if="{{isPlay&&firstclick}}"></image>
+                            <video bindfullscreenchange="__e" bindtimeupdate="__e" class="video data-v-1c550159" controls="{{fullScreen}}" customCache="{{false}}" data-event-opts="{{[ [ 'fullscreenchange',[ [ 'fullscreenchange',['$event'] ] ] ],[ 'timeupdate',[ [ 'videoUpdate',['$event'] ] ] ] ]}}" duration="{{item.duration}}" enableProgressGesture="{{true}}" id="{{'id'+index}}" loop="true" showCenterPlayBtn="{{false}}" src="{{item.vlogUrl}}"></video>
+                        </view>
+                    </swiper-item>
+                </swiper>
+            </view>
+        </view>
+    </view>
+    <view class="data-v-1c550159" wx:if="{{is_active}}">
+        <view class="left data-v-1c550159">
+            <view class="left_box data-v-1c550159">
+                <view class="full-box data-v-1c550159" wx:if="{{activeObj.height<activeObj.width&&showFull}}">
+                    <view bindtap="__e" class="full-screen data-v-1c550159" data-event-opts="{{[ [ 'tap',[ [ 'changeFull',['$event'] ] ] ] ]}}">全屏观看</view>
+                </view>
+                <view class="data-v-1c550159">
+                    <view class="{{['description','data-v-1c550159',showMore&&!showpart?'multilineText3':'']}}" id="description" style="{{'line-height:'+$root.g0+'rpx'+';'+'height:'+(showMore&&!showpart?$root.g1+'rpx':'auto')+';'+'bottom:'+(relList[0]?'281rpx':'138rpx')+';'+'max-height:'+(activeObj.height<activeObj.width&&showFull?'240rpx':'auto')+';'}}">{{''+(activeObj.title||'')+''}}<text class="data-v-1c550159"></text>
+                    </view>
+                    <u-icon bind:__l="__l" bindtap="__e" class="{{['showmore','data-v-1c550159',showMore&&showpart?'none':'']}}" color="#ffffff" data-event-opts="{{[ [ 'tap',[ [ 'showalltext',[false] ] ] ] ]}}" name="arrow-up-fill" size="24" style="{{'bottom:'+($root.g2>0?'280rpx':'178rpx')+';'}}" vueId="39e9af20-2"></u-icon>
+                    <u-icon bind:__l="__l" bindtap="__e" class="{{['showmore','data-v-1c550159',showMore&&!showpart?'none':'']}}" color="#ffffff" data-event-opts="{{[ [ 'tap',[ [ 'showalltext',[true] ] ] ] ]}}" name="arrow-down-fill" size="24" style="{{'bottom:'+($root.g3>0?'280rpx':'178rpx')+';'}}" vueId="39e9af20-3"></u-icon>
+                </view>
+                <scroll-view class="scroll-box data-v-1c550159" scrollX="true">
+                    <view bindtap="__e" class="item data-v-1c550159" data-event-opts="{{[ [ 'tap',[ [ 'routerpage',['$0'],[ [ ['relList','',__i0__] ] ] ] ] ] ]}}" wx:for="{{relList}}" wx:for-index="__i0__">
+                        <image class="bg data-v-1c550159" mode="aspectFill" src="{{item.coverImage}}"></image>
+                        <view class="linearbg data-v-1c550159"></view>
+                        <view class="info data-v-1c550159">
+                            <image class="icon data-v-1c550159" src="https://eshopfile.zhiyousx.com/2021083112125659006.png"></image>
+                            <view class="text singleLineText data-v-1c550159">{{item.title}}</view>
+                        </view>
+                    </view>
+                </scroll-view>
+                <view class="slider data-v-1c550159">
+                    <slider activeColor="{{!isPlay||!updateState?'#ffffff':'#ffffff4D'}}" backgroundColor="#4f5253" bindchange="__e" bindchanging="__e" bindinput="__e" blockColor="{{!isPlay||!updateState?'#ffffff':'#6e6f71'}}" blockSize="{{!isPlay||!updateState?14:12}}" class="data-v-1c550159" data-event-opts="{{[ [ 'change',[ [ 'sliderChange',['$event'] ] ] ],[ 'changing',[ [ 'sliderChanging',['$event'] ] ] ],[ 'input',[ [ '__set_model',[ '$0','currentTime','$event',[] ],['activeObj'] ] ] ] ]}}" value="{{activeObj.currentTime}}"></slider>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

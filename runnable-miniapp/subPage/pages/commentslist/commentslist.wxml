@@ -1,0 +1,25 @@
+<view class="data-v-7e05ee5f">
+    <view class="comments data-v-7e05ee5f">
+        <view class="commentItem data-v-7e05ee5f" wx:for="{{$root.l0}}" wx:key="index">
+            <view class="itemTop data-v-7e05ee5f">
+                <view class="topLeft data-v-7e05ee5f">
+                    <image class="data-v-7e05ee5f" src="{{item.$orig.memberImage?item.$orig.memberImage:'/static/images/tt@2x.png'}}"></image>
+                    <text class="data-v-7e05ee5f">{{item.$orig.commentPoints?item.$orig.commentPoints:'*匿名'}}</text>
+                </view>
+            </view>
+            <text class="data-v-7e05ee5f">{{item.$orig.createTime}}</text>
+            <view class="itemText multilineText2 data-v-7e05ee5f">{{item.$orig.commentContent}}</view>
+            <view class="itemImg data-v-7e05ee5f" wx:if="{{item.g0>0}}">
+                <view class="imgItem data-v-7e05ee5f" wx:for="{{item.$orig.picUrl}}" wx:for-index="idx" wx:for-item="pic" wx:key="idx">
+                    <u-lazy-load bind:__l="__l" catch:tap="__e" class="data-v-7e05ee5f" data-event-opts="{{[ [ '^tap',[ [ 'commentsBtn',['$0',idx],[ [ ['commentsList','',index,'picUrl'] ] ] ] ] ] ]}}" height="220" image="{{pic}}" imgMode="scaleToFill" vueId="{{'7aea57a0-1-'+index+'-'+idx}}"></u-lazy-load>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="empty data-v-7e05ee5f" wx:if="{{$root.g1}}">
+        <u-empty bind:__l="__l" class="data-v-7e05ee5f" marginTop="100" mode="order" text=" " vueId="7aea57a0-2"></u-empty>
+    </view>
+    <view class="loadMore data-v-7e05ee5f">
+        <u-loadmore bgColor="#f7f7f7" bind:__l="__l" class="data-v-7e05ee5f" color="#ccc" iconColor="#ccc" status="{{loadMore}}" vueId="7aea57a0-3"></u-loadmore>
+    </view>
+</view>

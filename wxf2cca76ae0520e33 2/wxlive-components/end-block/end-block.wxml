@@ -1,0 +1,54 @@
+<view class="{{from==='player'?'end-block end-block__player':'end-block end-block__pusher'}} {{screenType==='horizontal'?'end-block__horizontal':''}}">
+    <view class="end-block__inner">
+        <view class="end-block__head">
+            <view class="end-block__title">直播已结束<block wx:if="{{!hideReplay}}">
+                    <view bindtap="clickReplay" class="play__back__enter play__back__enter__ready" wx:if="{{isGetReplayUrl}}">
+                        <view class="play__back__enter__ready__inner mode-filter-black">回放</view>
+                    </view>
+                    <view class="play__back__enter play__back__generate" wx:else>回放生成中</view>
+                </block>
+            </view>
+            <view class="end-block_desc">直播时长 {{liveDuration}}</view>
+        </view>
+        <view class="end-block__body" wx:if="{{from==='player'&&!isGovernment}}">
+            <view class="end-block__item">
+                <view class="end-block__item__main">{{watchPvTotalWording}}</view>
+                <view class="end-block__item__desc">{{isBgMeeting?'看过':'观看'}}</view>
+            </view>
+            <view class="end-block__item" wx:if="{{!hideComment}}">
+                <view class="end-block__item__main">{{commentPvTotalWording}}</view>
+                <view class="end-block__item__desc">评论</view>
+            </view>
+            <view class="end-block__item" wx:if="{{!hideLike}}">
+                <view class="end-block__item__main">{{likeTotalWording}}</view>
+                <view class="end-block__item__desc">赞</view>
+            </view>
+        </view>
+        <view class="end-block__body end-block__body__pusher" wx:if="{{from==='pusher'}}">
+            <view class="end-block__body__pusher__head">
+                <view class="end-block__item">
+                    <view class="end-block__item__main">{{watchPvTotalWording}}</view>
+                    <view class="end-block__item__desc">观看</view>
+                </view>
+                <view class="end-block__item" wx:if="{{!hideStore}}">
+                    <view class="end-block__item__main">{{clickPvTotalWording}}</view>
+                    <view class="end-block__item__desc">商品点击</view>
+                </view>
+            </view>
+            <view class="end-block__body__pusher__foot">
+                <view class="end-block__item">
+                    <view class="end-block__item__main">{{sharePvTotalWording}}</view>
+                    <view class="end-block__item__desc">分享</view>
+                </view>
+                <view class="end-block__item" wx:if="{{!hideComment}}">
+                    <view class="end-block__item__main">{{commentPvToatalWording}}</view>
+                    <view class="end-block__item__desc">评论</view>
+                </view>
+                <view class="end-block__item" wx:if="{{!hideLike}}">
+                    <view class="end-block__item__main">{{likeTotalWording}}</view>
+                    <view class="end-block__item__desc">赞</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

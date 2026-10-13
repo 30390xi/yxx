@@ -1,0 +1,8 @@
+<view class="u-checkbox data-v-d1b204c2" style="{{$root.s0}}">
+    <view bindtap="__e" class="u-checkbox__icon-wrap data-v-d1b204c2" data-event-opts="{{[ [ 'tap',[ [ 'toggle',['$event'] ] ] ] ]}}">
+        <u-icon bind:__l="__l" class="{{['u-checkbox__icon','data-v-d1b204c2',iconClass]}}" color="{{iconColor}}" name="checkbox-mark" size="{{iconSize}}" style="{{$root.s1}}" vueId="40f28ce6-1"></u-icon>
+    </view>
+    <view bindtap="__e" class="u-label-class u-checkbox__label data-v-d1b204c2" data-event-opts="{{[ [ 'tap',[ [ 'onClickLabel',['$event'] ] ] ] ]}}" style="{{'font-size:'+labelSize+'rpx'+';'}}">
+        <slot></slot>
+    </view>
+</view>

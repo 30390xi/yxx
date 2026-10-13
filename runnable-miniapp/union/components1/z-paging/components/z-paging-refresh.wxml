@@ -1,0 +1,12 @@
+<view class="data-v-5bd476fd" style="height:100%;">
+    <view class="{{['data-v-5bd476fd',showUpdateTime?'zp-r-container zp-r-container-padding':'zp-r-container']}}">
+        <view class="zp-r-left data-v-5bd476fd">
+            <image class="{{['data-v-5bd476fd',leftImageClass]}}" src="{{leftImageSrc}}" style="{{$root.s0}}" wx:if="{{status!==R.Loading}}"></image>
+            <image class="{{['data-v-5bd476fd',refreshingAnimated?'zp-line-loading-image':'',true?'zp-r-left-image':'',unit==='rpx'?'zp-r-left-image-pre-size-rpx':'',unit==='px'?'zp-r-left-image-pre-size-px':'']}}" src="{{leftImageSrc}}" style="{{$root.s1}}" wx:else></image>
+        </view>
+        <view class="zp-r-right data-v-5bd476fd">
+            <text class="zp-r-right-text data-v-5bd476fd" style="{{$root.s2}}">{{currentTitle}}</text>
+            <text class="{{['zp-r-right-text','data-v-5bd476fd',unit==='rpx'?'zp-r-right-time-text-rpx':'',unit==='px'?'zp-r-right-time-text-px':'']}}" style="{{$root.s3}}" wx:if="{{$root.g0}}">{{''+refresherTimeText+''}}</text>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,85 @@
+<view class="bg data-v-0b3a867d" style="{{'padding-bottom:'+(iscs?'100rpx':'260rpx')+';'}}" wx:if="{{detailObj}}">
+    <view class="box1 data-v-0b3a867d">
+        <view class="tip data-v-0b3a867d" wx:if="{{!iscs}}">提交成功后，一般在1-7个工作日内审核完成，请耐心等待</view>
+        <view class="b-box data-v-0b3a867d">
+            <image class="img data-v-0b3a867d" mode="aspectFill" src="{{detailObj.defaultPicUrl}}"></image>
+            <view class="r-box data-v-0b3a867d">
+                <view class="name data-v-0b3a867d">{{detailObj.itemName}}</view>
+                <view class="num data-v-0b3a867d">
+                    <view class="r data-v-0b3a867d">{{'X'+detailObj.payTicketNum}}</view>
+                </view>
+                <view class="price data-v-0b3a867d" wx:if="{{!iscs}}">{{'￥'+detailObj.price}}</view>
+            </view>
+        </view>
+    </view>
+    <view class="box2 data-v-0b3a867d">
+        <view class="row data-v-0b3a867d">
+            <view class="l data-v-0b3a867d">{{(iscs?'预约':'订单')+'状态'}}</view>
+            <view class="r data-v-0b3a867d">{{$root.m0}}</view>
+        </view>
+        <view class="row row2 data-v-0b3a867d">
+            <view class="l data-v-0b3a867d">{{'可'+(iscs?'取消':'退')+'数量'}}</view>
+            <view class="r data-v-0b3a867d">{{detailObj.num}}</view>
+        </view>
+        <view class="tourists-Choose data-v-0b3a867d" wx:if="{{detailObj.checkMode==2&&detailObj.isPartialRefund==0&&detailObj.touristInfoType==2}}">
+            <view class="lable data-v-0b3a867d">{{'选择'+(iscs?'取消':'退款')+'游客'}}</view>
+            <scroll-view class="tourists-box data-v-0b3a867d" scrollX="{{true}}">
+                <view bindtap="__e" class="{{['user','data-v-0b3a867d',item.g0?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'chooseTourist',['$0',index],[ [ ['detailObj.verifyCodeList','',index] ] ] ] ] ] ]}}" wx:for="{{$root.l0}}" wx:key="index">{{''+item.$orig.name+''}}</view>
+            </scroll-view>
+        </view>
+        <view class="row data-v-0b3a867d" wx:else>
+            <view class="l data-v-0b3a867d">{{(iscs?'取消':'退款')+'数量'}}</view>
+            <view class="r data-v-0b3a867d">
+                <picker bindchange="__e" class="picker data-v-0b3a867d" data-event-opts="{{[ [ 'change',[ [ 'bindPickerChange',['$event'] ] ] ] ]}}" range="{{arrayNum}}" wx:if="{{detailObj.isPartialRefund==0}}">
+                    <view class="uni-input data-v-0b3a867d">{{canRefundNum+''}}<uni-icons bind:__l="__l" class="data-v-0b3a867d" color="#AEAEAE" size="13" style="margin-left:15rpx;" type="arrowright" vueId="49832aa8-1"></uni-icons>
+                    </view>
+                </picker>
+                <view class="data-v-0b3a867d" wx:else>{{canRefundNum}}</view>
+            </view>
+        </view>
+    </view>
+    <view class="box3 data-v-0b3a867d" wx:if="{{!iscs}}">
+        <view class="l data-v-0b3a867d">{{'可'+(iscs?'取消':'退款')+'金额'}}</view>
+        <view class="r data-v-0b3a867d">{{'￥'+refundAmount}}</view>
+    </view>
+    <view class="box4 data-v-0b3a867d">
+        <view class="row1 data-v-0b3a867d">
+            <view class="l data-v-0b3a867d">{{(iscs?'取消':'退款')+'原因'}}</view>
+            <view class="r data-v-0b3a867d">
+                <picker bindchange="__e" class="picker data-v-0b3a867d" data-event-opts="{{[ [ 'change',[ [ 'bindReasonPickerChange',['$event'] ] ] ] ]}}" range="{{arrayReason}}">
+                    <view class="uni-input data-v-0b3a867d">{{selectedReason+''}}</view>
+                </picker>
+            </view>
+        </view>
+    </view>
+    <view class="box5 data-v-0b3a867d" wx:if="{{$root.g1}}">
+        <view class="codeBox-title rfzc data-v-0b3a867d">退改政策<view class="rf-tag data-v-0b3a867d">{{''+detailObj.refundTag+''}}</view>
+        </view>
+        <view class="{{['table','data-v-0b3a867d',$root.g3==0?'borderNone':'']}}" wx:if="{{$root.g2}}">
+            <view class="tr first data-v-0b3a867d" wx:if="{{$root.g4}}">
+                <view class="td data-v-0b3a867d" style="font-weight:bold;width:480rpx;">退款时间</view>
+                <view class="td data-v-0b3a867d" style="font-weight:bold;width:210rpx;">损失费用</view>
+            </view>
+            <view class="tr data-v-0b3a867d" wx:if="{{item.timeDesc}}" wx:for="{{detailObj.orderRefundFeeSnapList}}" wx:for-index="__i0__">
+                <view class="td data-v-0b3a867d" style="width:480rpx;">{{item.timeDesc||''}}</view>
+                <view class="td data-v-0b3a867d" style="width:210rpx;">{{item.feeDesc||''}}</view>
+            </view>
+            <view class="{{['tr','data-v-0b3a867d',$root.g5==0?'borderNone':'']}}" wx:if="{{detailObj.refundStr}}">
+                <view class="{{['td','data-v-0b3a867d',$root.g6==0?'borderPadding':'']}}" style="width:690rpx;display:block;">
+                    <view class="data-v-0b3a867d" wx:for="{{$root.l1}}" wx:for-index="i" wx:for-item="it">
+                        <view class="refundItem data-v-0b3a867d">{{it}}</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="notice data-v-0b3a867d" wx:if="{{!iscs}}">
+        <text class="data-v-0b3a867d">温馨提示</text>
+        <text class="data-v-0b3a867d">1、限时优惠、预约资格等购买优惠可能一并取消</text>
+        <text class="data-v-0b3a867d">2、取消订单优惠可能不退回，或退回已过期</text>
+        <text class="data-v-0b3a867d">3、订单一旦取消，无法恢复</text>
+    </view>
+    <view bindtap="__e" class="{{['submit','data-v-0b3a867d',iscs?'cs':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'submitFn',['$event'] ] ] ] ]}}">提交申请</view>
+    <u-modal bind:__l="__l" bind:close="__e" bind:confirm="__e" bind:input="__e" class="data-v-0b3a867d" content="是否确认退票?" data-event-opts="{{[ [ '^close',[ ['close'] ] ],[ '^confirm',[ ['orderRefund'] ] ],[ '^input',[ [ '__set_model',[ '','showPopup','$event',[] ] ] ] ] ]}}" showCancelButton="{{true}}" title="申请退票" value="{{showPopup}}" vueId="49832aa8-2"></u-modal>
+    <u-modal bind:__l="__l" bind:close="__e" bind:confirm="__e" bind:input="__e" class="data-v-0b3a867d" content="{{errorTip}}" data-event-opts="{{[ [ '^close',[ ['close'] ] ],[ '^confirm',[ ['refreshPage'] ] ],[ '^input',[ [ '__set_model',[ '','showPopup2','$event',[] ] ] ] ] ]}}" showCancelButton="{{true}}" title="提示" value="{{showPopup2}}" vueId="49832aa8-3"></u-modal>
+</view>

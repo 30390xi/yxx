@@ -1,0 +1,355 @@
+// Extracted from pages/myorder/myorder.js; webpack module d192.
+// Compiled code for analysis; not an original source file.
+module.exports = {
+    d192: function(e, t, o) {
+      (function(e) {
+        Object.defineProperty(t, "__esModule", {
+          value: !0
+        }), t.default = void 0;
+        var r = {
+          components: {
+            EmptyState: function() {
+              o.e("components/empty/empty").then(function() {
+                return resolve(o("a427"))
+              }.bind(null, o)).catch(o.oe)
+            }
+          },
+          data: function() {
+            return {
+              page: 1,
+              loadMore: "loading",
+              currentTab: 0,
+              tabHeight: 0,
+              tabTitle: [{
+                name: "全部"
+              }, {
+                name: "待付款"
+              }, {
+                name: "待发货"
+              }, {
+                name: "待收货"
+              }],
+              goodType: [{
+                name: "全部",
+                type: null
+              }, {
+                name: "门票",
+                type: 1
+              }, {
+                name: "线路",
+                type: 2
+              }, {
+                name: "商城",
+                type: 0
+              }],
+              activeType: 0,
+              orderList: [],
+              orderObj: "",
+              submiting: !1,
+              causeIdx: 0,
+              causeList: [{
+                value: "0",
+                name: "我不想买了"
+              }, {
+                value: "1",
+                name: "信息填写错误，请重拍"
+              }, {
+                value: "2",
+                name: "商品无货"
+              }, {
+                value: "3",
+                name: "其他原因"
+              }]
+            }
+          },
+          onLoad: function(e) {
+            e.type ? this.currentTab = Number(e.type) : this.currentTab = 0, e.itemType ? this.activeType = Number(e.itemType) : this.activeType = 0, e.height ? this.tabHeight = Number(e.height) : this.tabHeight = 64
+          },
+          onUnload: function() {
+            getApp().watchRouter()
+          },
+          onShow: function() {
+            this.page = 1, this.pageLoad()
+          },
+          onPullDownRefresh: function() {
+            this.page = 1, this.pageLoad()
+          },
+          onReachBottom: function() {
+            "loadmore" === this.loadMore && this.pageLoad()
+          },
+          filters: {
+            toFixed2: function(e) {
+              return e ? Number(e).toFixed(2) : "0.00"
+            }
+          },
+          computed: {
+            userInfo: function() {
+              return this.$store.getters.userInfor
+            }
+          },
+          methods: {
+            peopleText: function(e) {
+              var t = "",
+                o = ["", "成人", "儿童", "老人"];
+              return e.forEach((function(e) {
+                t += e.num + o[e.peopleType] + ","
+              })), t.slice(0, -1)
+            },
+            cityName: function(e) {
+              var t = "";
+              return null == e || (e.forEach((function(e, o) {
+                t += e + "/"
+              })), t && (t = t.slice(0, -1) + "出发,")), t
+            },
+            changGoodType: function(e) {
+              this.activeType = e, this.page = 1, this.pageLoad()
+            },
+            pageLoad: function() {
+              var t = this,
+                o = {
+                  current: this.page,
+                  buyerId: this.userInfo.memberId
+                };
+              this.activeType && (o.itemType = this.goodType[this.activeType].type), 0 !== this.currentTab && (o.orderStatus = this.currentTab, o.cancelStatus = 0), this.loadMore = "loading", this.$uniApi.dataRequestNoLoading("GET", "order/app/v1/order/getOrderStatusListNew", o).then((function(o) {
+                if (e.stopPullDownRefresh(), 1 === o.code) {
+                  var r = o.data.records;
+                  o.data.total > 0 ? (1 === o.data.current ? t.orderList = r : t.orderList = t.orderList.concat(r), o.data.current < o.data.pages ? (t.page = t.page + 1, t.loadMore = "loadmore") : t.loadMore = "nomore") : (t.loadMore = "nomore", t.orderList = [])
+                }
+                t.submiting = !1
+              })).catch((function(t) {
+                e.stopPullDownRefresh()
+              }))
+            },
+            cancelOrder: function(e) {
+              var t = this;
+              if (1 == e.itemType) {
+                var o = {
+                    orderId: e.orderId
+                  },
+                  r = "order/app/v1/order/ticketOrderCancel";
+                2 != e.isSpecial && 1 != e.isSpecial || 0 != e.confirmStatus || 2 != e.orderStatus || (r = "order/app/v1/order/memberCancelSpecialTicket"), this.$uniApi.dataRequestNoLoading("GET", r, o).then((function(e) {
+                  1 === e.code ? (t.page = 1, t.pageLoad(), t.$util.showToast("订单已取消"), t.closePopup()) : t.$util.showToast(e.msg)
+                })).catch((function(e) {
+                  t.$util.showToast(e.msg)
+                }))
+              } else if (2 == e.itemType) {
+                var a = {
+                  orderId: e.orderId
+                };
+                this.$uniApi.dataRequestNoLoading("GET", "order/app/v1/lineOrder/cancel", a).then((function(e) {
+                  1 === e.code ? (t.page = 1, t.pageLoad(), t.$util.showToast("订单已取消"), t.closePopup()) : t.$util.showToast(e.msg)
+                })).catch((function(e) {
+                  t.$util.showToast(e.msg)
+                }))
+              } else {
+                var n = {
+                  orderId: e.orderId
+                };
+                1 === e.orderStatus ? n.cancelStatus = 1 : n.orderStatus = 4, this.$uniApi.dataRequestNoLoading("PUT", "order/app/v1/order/updateOrderStatus", n).then((function(o) {
+                  1 === o.code ? (t.page = 1, t.pageLoad(), t.$refs.uToast.show({
+                    title: 1 === e.orderStatus ? "已取消" : "已确认收货",
+                    type: "success",
+                    position: "bottom"
+                  }), t.closePopup()) : t.$util.showToast(o.msg)
+                })).catch((function(e) {
+                  t.$util.showToast(e.msg)
+                }))
+              }
+            },
+            radioChange: function(e) {
+              for (var t in this.causeList)
+                if (this.causeList[t].value === e.target.value) {
+                  this.current = t;
+                  break
+                }
+            },
+            delivery: function(e) {
+              var t = this,
+                o = {
+                  orderId: e.orderId,
+                  sellerId: e.sellerId
+                };
+              this.$uniApi.dataRequestNoLoading("POST", "order/app/v1/order/remindDeliver", o).then((function(e) {
+                1 === e.code ? t.$refs.uToast.show({
+                  title: "已提醒买家发货",
+                  type: "success",
+                  position: "bottom"
+                }) : t.$util.showToast(e.msg)
+              })).catch((function(e) {
+                t.$util.showToast(e.msg)
+              }))
+            },
+            deleteOrder: function(t) {
+              var o = this;
+              e.showModal({
+                title: "确定删除此订单？",
+                content: "订单删除后无法恢复",
+                confirmColor: "#ff4643",
+                success: function(e) {
+                  e.confirm && o.$uniApi.getRequestNoLoading("get", "order/app/v1/order/hidden/".concat(t.orderId)).then((function(e) {
+                    1 === e.code ? (o.orderList.forEach((function(e, r) {
+                      e.orderId === t.orderId && o.orderList.splice(r, 1)
+                    })), o.deleteSetList(), o.$util.showToast("已删除")) : o.$util.showToast(e.msg)
+                  })).catch((function(e) {
+                    o.$util.showToast(e.msg)
+                  }))
+                }
+              })
+            },
+            deleteSetList: function() {
+              var t = this;
+              if ("loadmore" === this.loadMore) {
+                var o = {
+                  current: this.page - 1,
+                  buyerId: this.userInfo.memberId
+                };
+                this.activeType && (o.itemType = this.goodType[this.activeType].type), 0 !== this.currentTab && (o.orderStatus = this.currentTab, o.cancelStatus = 0), this.$uniApi.dataRequestNoLoading("GET", "order/app/v1/order/getOrderStatusListNew", o).then((function(o) {
+                  if (e.stopPullDownRefresh(), 1 === o.code) {
+                    o.data.total > 0 && o.data.current < o.data.pages ? t.loadMore = "loadmore" : t.loadMore = "nomore";
+                    var r = o.data.records;
+                    t.orderList.push(r[r.length - 1])
+                  }
+                }))
+              }
+            },
+            delOrder: function(t) {
+              var o = this;
+              e.showModal({
+                title: "删除",
+                content: "您确定删除该订单吗？",
+                confirmColor: "#ff4643",
+                success: function(e) {
+                  e.confirm && o.$uniApi.getRequestNoLoading("DELETE", "order/app/v1/order?ids=".concat(t.orderId)).then((function(e) {
+                    1 === e.code ? (o.orderList.forEach((function(e, r) {
+                      e.orderId === t.orderId && o.orderList.splice(r, 1)
+                    })), o.$refs.uToast.show({
+                      title: "已删除",
+                      type: "success",
+                      position: "bottom"
+                    })) : o.$util.showToast(e.msg)
+                  })).catch((function(e) {
+                    o.$util.showToast(e.msg)
+                  }))
+                }
+              })
+            },
+            tabsChange: function(e) {
+              this.currentTab = e, this.page = 1, this.orderList = [], this.pageLoad()
+            },
+            openPopup: function(e) {
+              this.orderObj = e, this.$refs.popup.open()
+            },
+            closePopup: function() {
+              this.orderObj = "", this.$refs.popup.close()
+            },
+            orderStatusFun: function(e) {
+              return 0 === e ? "新提交" : 1 === e ? "待支付" : 2 === e ? "已付款" : 3 === e ? "已发货" : 4 === e ? "已签收" : 5 === e ? "交易成功" : 6 === e ? "售后处理中" : 7 === e ? "售后已完成" : void 0
+            },
+            orderStatusTick: function(e, t, o, r) {
+              return 0 === e ? "新提交" : 1 === e ? "待支付" : 2 === e ? 2 == r ? "确认中" : 0 != o || 1 != t && 2 != t ? "待出票" : "待确认" : 3 === e ? "待游玩" : 5 === e ? "订单完成" : 8 === e ? "退款审核中" : 9 === e ? "部分退款" : 10 === e ? "退款完成" : 11 === e ? "出票失败" : 12 === e ? "订单关闭" : 13 === e ? "已过期" : void 0
+            },
+            goStore: function(e) {
+              this.$navigateTo({
+                url: "/subPage/pages/storeshop/storeshop?sellerId=".concat(e)
+              })
+            },
+            logistics: function(e) {
+              this.$navigateTo({
+                url: "../ordertracking/ordertracking?orderId=".concat(e)
+              })
+            },
+            evaluation: function(e) {
+              this.$navigateTo({
+                url: "/subPack/pages/evaluate/evaluate?orderId=".concat(e, "&type=myorder")
+              })
+            },
+            afterSales: function(t) {
+              var o = this;
+              e.showActionSheet({
+                itemList: ["退货", "换货"],
+                success: function(e) {
+                  o.$navigateTo({
+                    url: "/subPack/pages/aftercontent/aftercontent?aftersaleType=".concat(e.tapIndex + 1, "&orderId=").concat(t, "&type=myorder")
+                  })
+                },
+                fail: function(e) {
+                  console.log(e.errMsg)
+                }
+              })
+            },
+            orderRefund: function(e) {
+              if (e.refundFeeDTO && e.refundFeeDTO.feeExceed) this.$util.showToast("当前订单需收取100%损失费，不支持取消");
+              else {
+                var t = e.orderId;
+                1 != e.itemUseDescSnap.isPartialRefund || -1 == e.consumeStatus ? 2 == e.itemType ? this.$navigateTo({
+                  url: "/subPack/pages/lineRefundApply/lineRefundApply?orderId=".concat(t)
+                }) : this.$navigateTo({
+                  url: "/subPack/pages/refundApply/refundApply?orderId=".concat(t)
+                }) : this.$util.showToast("该产品不支持部分退")
+              }
+            },
+            beforeConfirmRefund: function(t) {
+              var o = this;
+              if (!this.submiting) {
+                if (this.submiting = !0, 1 == t.itemType) return this.$util.showToast("出票中，请稍后再试"), this.page = 1, void this.pageLoad();
+                e.showModal({
+                  title: "提示",
+                  content: "确认要退款吗？",
+                  success: function(e) {
+                    e.confirm ? o.$uniApi.dataRequestYesLoading("POST", "order/app/v1/".concat("lineOrde/refundBeforeConfirmr"), {
+                      orderId: t.orderId
+                    }, "退款中...").then((function(e) {
+                      1 === e.code ? (o.$util.showToast("退款成功"), o.page = 1, o.pageLoad()) : (o.$util.showToast(e.msg), o.submiting = !1)
+                    })) : o.submiting = !1
+                  }
+                })
+              }
+            },
+            goTicket: function(e, t) {
+              1 == e.itemType ? this.$navigateTo({
+                url: "/subPage/pages/ticket_detail/ticket_detail?itemId=" + t
+              }) : this.$navigateTo({
+                url: "/subPage/pages/goods_details/goods_details?itemId=" + t
+              })
+            },
+            goOrderDetails: function(e) {
+              if (1 == e.itemType)
+                if (5 === e.isSpecial) this.$navigateTo({
+                  url: "/artShow/pages/orderDetail/orderDetail?orderId=".concat(e.orderId)
+                });
+                else {
+                  if (2 == e.scenicType) return void this.$navigateTo({
+                    url: "/artShow/pages/orderDetail/orderDetail?orderId=".concat(e.orderId)
+                  });
+                  this.$navigateTo({
+                    url: "/subPage/pages/orderDetailtick/orderDetailtick?orderId=".concat(e.orderId)
+                  })
+                }
+              else 2 == e.itemType ? this.$navigateTo({
+                url: "/subPack/pages/lineOrderDetail/lineOrderDetail?orderId=".concat(e.orderId)
+              }) : this.$navigateTo({
+                url: "../order_details/order_details?orderId=".concat(e.orderId)
+              })
+            },
+            statusVal: function(e) {
+              return 0 === e ? "进行中" : 1 === e ? "已完成" : 2 === e ? "已失败" : void 0
+            },
+            goWealth: function() {
+              var e = "/subPage/pages/wealth/wealth";
+              this.$util.isLogin(e) && this.$navigateTo({
+                url: e
+              })
+            },
+            jumpToGear: function(e, t) {
+              t ? this.$navigateTo({
+                url: "/subPage/pages/snowGear/snowGear?orderId=".concat(e, "&sid=").concat(t)
+              }) : this.$navigateTo({
+                url: "/subPage/pages/snowGear/snowGear?orderId=" + e
+              })
+            }
+          }
+        };
+        t.default = r
+      }).call(this, o("df3c").default)
+    }
+};

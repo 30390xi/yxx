@@ -1,0 +1,27 @@
+<view class="bg data-v-3f7e4df0" wx:if="{{$root.g0>0}}">
+    <view class="item-list data-v-3f7e4df0">
+        <view class="title data-v-3f7e4df0">{{(iscs?'取消':'退款')+'记录'}}</view>
+        <view class="item data-v-3f7e4df0" wx:for="{{$root.l0}}" wx:for-index="__i0__">
+            <view class="l data-v-3f7e4df0">
+                <view class="row data-v-3f7e4df0">
+                    <text class="l data-v-3f7e4df0">申请时间</text>
+                    <text class="r data-v-3f7e4df0">{{item.$orig.createTime}}</text>
+                </view>
+                <view class="row data-v-3f7e4df0" wx:if="{{!iscs}}">
+                    <text class="l data-v-3f7e4df0">退款金额</text>
+                    <text class="r data-v-3f7e4df0">
+                        <text class="red data-v-3f7e4df0">{{'￥'+(isLineProduct?item.$orig.realRefundAmount:item.$orig.applyRefundAmount)+''}}</text>{{'('+item.$orig.refundNum+'张)'}}</text>
+                </view>
+                <view class="row data-v-3f7e4df0">
+                    <text class="l data-v-3f7e4df0">{{(iscs?'取消':'退款')+'原因'}}</text>
+                    <text class="r data-v-3f7e4df0">{{item.m0}}</text>
+                </view>
+                <view class="row data-v-3f7e4df0" wx:if="{{item.$orig.refundStatus==2&&item.$orig.returnMemo}}">
+                    <text class="l data-v-3f7e4df0">失败原因</text>
+                    <text class="r data-v-3f7e4df0">{{item.$orig.returnMemo}}</text>
+                </view>
+            </view>
+            <view class="r data-v-3f7e4df0">{{item.m1}}</view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,14 @@
+<view class="u-wrap data-v-2cc44b25">
+    <uni-navbar bind:__l="__l" class="data-v-2cc44b25" title="景区详情" vueId="26f8d8aa-1"></uni-navbar>
+    <view class="tab-box data-v-2cc44b25">
+        <view class="title-box data-v-2cc44b25">
+            <view class="left data-v-2cc44b25">
+                <view class="name data-v-2cc44b25">简介</view>
+                <view class="line data-v-2cc44b25"></view>
+            </view>
+        </view>
+    </view>
+    <view class="intro-box data-v-2cc44b25">
+        <u-parse bind:__l="__l" class="data-v-2cc44b25" html="{{detailObj.introduction}}" lazyLoad="{{true}}" tagStyle="{{parseStyle}}" vueId="26f8d8aa-2"></u-parse>
+    </view>
+</view>

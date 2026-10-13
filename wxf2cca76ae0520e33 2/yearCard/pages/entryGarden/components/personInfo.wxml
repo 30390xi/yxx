@@ -1,0 +1,13 @@
+<view class="person-info data-v-5174d2c0">
+    <view bindtap="__e" class="head data-v-5174d2c0" data-event-opts="{{[ [ 'tap',[ [ 'previewImg',['$event'] ] ] ] ]}}">
+        <image class="data-v-5174d2c0" mode="aspectFill" src="{{info.cardholderFaceUrl}}"></image>
+    </view>
+    <view class="data-v-5174d2c0">
+        <view class="data-v-5174d2c0" data-label="持卡人" wx:if="{{getInfo.cardholderName}}">
+            <view class="person-name data-v-5174d2c0">{{''+getInfo.cardholderName+''}}<image bindtap="__e" class="icon data-v-5174d2c0" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" src="{{!isShowAll?'https://eshopfile.zhiyousx.com/168492134271144514.png':'https://eshopfile.zhiyousx.com/168492259404793104.png'}}"></image>
+            </view>
+        </view>
+        <view class="data-v-5174d2c0" data-label="身份证">{{getInfo.cardholderIdCard}}</view>
+        <view class="data-v-5174d2c0" data-label="手机号">{{getInfo.cardholderMobile}}</view>
+    </view>
+</view>

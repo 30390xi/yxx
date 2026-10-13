@@ -1,0 +1,25 @@
+<view class="historyList data-v-616da972">
+    <view class="photo-count data-v-616da972">
+        <view class="photo-title data-v-616da972">
+            <image alt class="data-v-616da972" src="https://eshopfile.zhiyousx.com/174530901418030873.png?imageView2/3/w/214/h/85"></image>
+        </view>
+        <view class="photo-table data-v-616da972">
+            <scroll-view bindscrolltolower="__e" class="photo-list data-v-616da972" data-event-opts="{{[ [ 'scrolltolower',[ [ 'scrolltolower',['$event'] ] ] ] ]}}" lowerThreshold="50" scrollY="{{true}}">
+                <view bindtap="__e" class="photo-list-item data-v-616da972" data-event-opts="{{[ [ 'tap',[ [ 'goView',['$0'],[ [ ['photoList','',i] ] ] ] ] ] ]}}" wx:for="{{photoList}}" wx:for-index="i" wx:for-item="el" wx:key="i">
+                    <view class="photo-time data-v-616da972">{{el.createTime}}</view>
+                    <view class="data-v-616da972" style="position:relative;">
+                        <image alt class="photo-time-image data-v-616da972" mode="aspectFill" src="{{el.imageUrl}}"></image>
+                        <view class="loading-box data-v-616da972" style="{{'background-color:'+(show?'rgba(0, 0, 0, .4)':'none')+';'}}" wx:if="{{!el.video}}">
+                            <loading bind:__l="__l" class="data-v-616da972" vueId="{{'ff59d24e-1-'+i}}" wx:if="{{el.status==3||el.status==1}}"></loading>
+                            <view class="title data-v-616da972" wx:if="{{el.status==3||el.status==1}}">生成中...</view>
+                            <view class="title1 data-v-616da972" wx:else>生成失败，请重试</view>
+                        </view>
+                    </view>
+                </view>
+                <view class="loadMore data-v-616da972">
+                    <u-loadmore bgColor="translate" bind:__l="__l" class="data-v-616da972" color="#333333" data-custom-hidden="{{!$root.g0}}" iconColor="#ccc" status="{{loadMore}}" vueId="ff59d24e-2"></u-loadmore>
+                </view>
+            </scroll-view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,10 @@
+<view class="fl-box data-v-59f19bb6">
+    <view class="data-v-59f19bb6" wx:if="{{status==1}}">
+        <loading bind:__l="__l" class="fl-process-box data-v-59f19bb6" show="{{false}}" size="22px" vueId="083305f8-1"></loading>
+        <view class="fl-warp data-v-59f19bb6">{{'视频换脸中（'+$root.g0+'%）'}}</view>
+    </view>
+    <view class="fl-warp1 fl-warp3 data-v-59f19bb6" wx:if="{{status==2}}">视频合成中<label class="dian _span data-v-59f19bb6"></label>
+    </view>
+    <view class="fl-warp1 data-v-59f19bb6" wx:if="{{status==0}}">视频生成失败</view>
+    <image alt catchtap="__e" class="data-v-59f19bb6" data-event-opts="{{[ [ 'tap',[ [ 'openImage',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/174538868522043836.png" wx:if="{{status==3}}"></image>
+</view>

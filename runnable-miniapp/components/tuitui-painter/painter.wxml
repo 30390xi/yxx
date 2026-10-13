@@ -1,0 +1,3 @@
+<view>
+    <canvas canvasId="k-canvas" id="k-canvas" style="{{painterStyle}}"></canvas>
+</view>

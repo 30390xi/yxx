@@ -1,0 +1,16 @@
+<view class="{{['u-notice-bar','data-v-7f330fcc',type?'u-type-'+type+'-light-bg':'']}}" style="{{'background:'+computeBgColor+';'+'padding:'+padding+';'}}" wx:if="{{show}}">
+    <view class="u-direction-row data-v-7f330fcc">
+        <view class="u-icon-wrap data-v-7f330fcc">
+            <u-icon bind:__l="__l" class="u-left-icon data-v-7f330fcc" color="{{computeColor}}" name="volume-fill" size="{{volumeSize}}" vueId="32fc4566-1" wx:if="{{volumeIcon}}"></u-icon>
+        </view>
+        <view class="u-notice-box data-v-7f330fcc" id="u-notice-box">
+            <view class="u-notice-content data-v-7f330fcc" id="u-notice-content" style="{{'animation-duration:'+animationDuration+';'+'animation-play-state:'+animationPlayState+';'}}">
+                <text bindtap="__e" class="{{['u-notice-text','data-v-7f330fcc','u-type-'+type]}}" data-event-opts="{{[ [ 'tap',[ [ 'click',['$event'] ] ] ] ]}}" style="{{$root.s0}}">{{showText}}</text>
+            </view>
+        </view>
+        <view class="u-icon-wrap data-v-7f330fcc">
+            <u-icon bind:__l="__l" bind:click="__e" class="u-right-icon data-v-7f330fcc" color="{{computeColor}}" data-event-opts="{{[ [ '^click',[ ['getMore'] ] ] ]}}" name="arrow-right" size="{{26}}" vueId="32fc4566-2" wx:if="{{moreIcon}}"></u-icon>
+            <u-icon bind:__l="__l" bind:click="__e" class="u-right-icon data-v-7f330fcc" color="{{computeColor}}" data-event-opts="{{[ [ '^click',[ ['close'] ] ] ]}}" name="close" size="{{24}}" vueId="32fc4566-3" wx:if="{{closeIcon}}"></u-icon>
+        </view>
+    </view>
+</view>

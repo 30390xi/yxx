@@ -1,0 +1,32 @@
+<view class="container data-v-59ed2806">
+    <uni-navbar bind:__l="__l" class="data-v-59ed2806" title="vlog" transparentFixedFontColor="#FFFFFF" type="transparentFixed" vueId="1481343c-1"></uni-navbar>
+    <image binderror="__e" bindload="__e" class="bg data-v-59ed2806" data-event-opts="{{[ [ 'load',[ [ 'onImageLoad',['$event'] ] ] ],[ 'error',[ [ 'onImageError',['$event'] ] ] ] ]}}" mode="aspectFill" src="https://eshopfile.zhiyousx.com/176949634824956732.png"></image>
+    <view bindtap="__e" class="right-tip _div data-v-59ed2806" data-event-opts="{{[ [ 'tap',[ [ 'handleRecord',['$event'] ] ] ] ]}}">
+        <image class="data-v-59ed2806" src="https://eshopfile.zhiyousx.com/176913458203456352.png" style="width:40rpx;height:40rpx;margin-right:10rpx;"></image>{{''+$root.m0+''}}</view>
+    <view class="footer data-v-59ed2806">
+        <button bindtap="__e" class="btn-bg data-v-59ed2806" data-event-opts="{{[ [ 'tap',[ [ 'handleBtnClick',['$event'] ] ] ] ]}}">{{''+$root.m1+''}}</button>
+        <view class="tag data-v-59ed2806" wx:if="{{currentTemp.status==0}}">{{$root.m2}}</view>
+        <view class="tag data-v-59ed2806" wx:else>{{'￥'+currentTemp.price+' '+$root.m3}}</view>
+    </view>
+    <u-popup bind:__l="__l" bind:input="__e" bind:touchmove="__e" borderRadius="{{20}}" class="data-v-59ed2806" closeIconPos="top-left" closeable="{{true}}" data-event-opts="{{[ [ '^touchmove',[ ['e0'] ] ],[ '^input',[ [ '__set_model',[ '','showVideo','$event',[] ] ] ] ] ]}}" height="90%" mode="center" value="{{showVideo}}" vueId="1481343c-2" vueSlots="{{['default']}}" width="90%" wx:if="{{showVideo}}">
+        <view class="popup-content data-v-59ed2806" style="width:100%;height:100%;touch-action:none;">
+            <video-play bind:__l="__l" class="data-v-59ed2806" poster="{{curPoster}}" videoUrl="{{currentVideo}}" vueId="{{'1481343c-3'+','+'1481343c-2'}}"></video-play>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="{{20}}" class="popup-full-width data-v-59ed2806" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showPrice','$event',[] ] ] ] ] ]}}" height="25%" mode="center" value="{{showPrice}}" vueId="1481343c-4" vueSlots="{{['default']}}" width="80%" wx:if="{{showPrice}}">
+        <view class="price-content data-v-59ed2806">
+            <view class="title data-v-59ed2806">
+                <text class="data-v-59ed2806">{{currentTemp.price+''}}</text>{{$root.m4}}</view>
+            <view class="title data-v-59ed2806">{{$root.m5}}</view>
+            <button bindtap="__e" class="btn-bg btn-cust data-v-59ed2806" data-event-opts="{{[ [ 'tap',[ [ 'handlePay',['$event'] ] ] ] ]}}">{{''+$root.m6+''}}</button>
+        </view>
+    </u-popup>
+    <image class="price-img data-v-59ed2806" src="https://eshopfile.zhiyousx.com/176898632572285122.png" wx:if="{{showPrice}}"></image>
+    <image class="nickname-img data-v-59ed2806" src="https://eshopfile.zhiyousx.com/176934581923005715.png" style="{{'top:'+nicknameTop+';'}}" wx:if="{{showNickname}}"></image>
+    <u-popup adjustPosition="{{true}}" bind:__l="__l" bind:input="__e" borderRadius="{{20}}" class="data-v-59ed2806" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showNickname','$event',[] ] ] ] ] ]}}" height="264rpx" maskCloseAble="{{false}}" mode="center" value="{{showNickname}}" vueId="1481343c-5" vueSlots="{{['default']}}" width="80%" wx:if="{{showNickname}}">
+        <view class="nickname-content data-v-59ed2806">
+            <input bindblur="__e" bindfocus="__e" bindinput="__e" class="weui-input data-v-59ed2806 vue-ref" data-event-opts="{{[ [ 'focus',[ [ 'onNicknameFocus',['$event'] ] ] ],[ 'blur',[ [ 'onNicknameBlur',['$event'] ] ] ],[ 'input',[ [ '__set_model',[ '','nickName','$event',[] ] ] ] ] ]}}" data-ref="nicknameInput" placeholder="{{$root.m7}}" type="nickname" value="{{nickName}}"></input>
+            <view class="title data-v-59ed2806">{{$root.m8}}</view>
+        </view>
+    </u-popup>
+</view>

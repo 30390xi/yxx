@@ -1,0 +1,202 @@
+<view class="data-v-0220f98f">
+    <block wx:if="{{showType==1}}">
+        <scroll-view class="ticketType-box data-v-0220f98f" scrollX="true" wx:if="{{showClassName}}">
+            <view class="ticketType data-v-0220f98f">
+                <view bindtap="__e" class="{{['item','','data-v-0220f98f',showTicketIndex==index?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'toggleTicketList',[index] ] ] ] ]}}" wx:for="{{ticketArr.scenicTicketTypeClassList}}">
+                    <text class="data-v-0220f98f">{{item.ticketTypeClassName}}</text>
+                </view>
+            </view>
+        </scroll-view>
+        <scroll-view bindscroll="__e" class="tic-list data-v-0220f98f" data-event-opts="{{[ [ 'scroll',[ [ 'fixTicketListScroll',['$event'] ] ] ] ]}}" scrollY="{{!disScroll||isShowTicket}}" style="{{'overflow-y:'+(!disScroll||isShowTicket?'auto':'hidden')+';'+'height:'+scrollFixH+'px'+';'}}">
+            <view class="data-v-0220f98f" style="padding-bottom:1rpx;">
+                <view bindtap="__e" class="{{['data-v-0220f98f',!!item.$orig.recommendStyleUrl?'borders':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'ticketClick',['$0'],[ [ ['ticketArr.scenicTicketTypeClassList.__$n0.itemList','',index] ] ] ] ] ] ]}}" wx:for="{{$root.l1}}">
+                    <image class="borderimg data-v-0220f98f" mode="widthFix" src="{{item.$orig.recommendStyleUrl}}" wx:if="{{item.$orig.recommendStyleUrl}}"></image>
+                    <view bindtap="__e" class="item-product data-v-0220f98f" data-event-opts="{{[ [ 'tap',[ [ 'goGoodInfo',['$0','$1'],[ [ ['ticketArr.scenicTicketTypeClassList.__$n0.itemList','',index,'itemId'] ],[ ['ticketArr.scenicTicketTypeClassList.__$n0.itemList','',index,'sellOut'] ] ] ] ] ] ]}}" wx:if="{{item.$orig.ticketType==3}}">
+                        <view class="img-box data-v-0220f98f" style="width:160rpx;">
+                            <image class="product-img data-v-0220f98f" mode="aspectFill" src="{{item.$orig.productPic}}"></image>
+                            <view class="lt-tip data-v-0220f98f">{{item.f0}}</view>
+                            <view class="bto-tip data-v-0220f98f" wx:if="{{item.g0>0}}">
+                                <image mode class="data-v-0220f98f" src="https://eshopfile.zhiyousx.com/2024041111080587358.png"></image>
+                                <view class="txt data-v-0220f98f">{{item.$orig.fromCityList[0]+'出发'}}</view>
+                            </view>
+                        </view>
+                        <view class="goods-info data-v-0220f98f">
+                            <view class="name multilineText2 data-v-0220f98f">{{item.$orig.itemTitle}}</view>
+                            <view class="highLights singleLineText data-v-0220f98f" style="width:464rpx;" wx:if="{{item.$orig.lineHighlightLabelList}}">
+                                <text class="data-v-0220f98f" wx:for="{{item.l0}}" wx:for-index="idx" wx:for-item="ele" wx:key="idx">{{''+ele[$orig]+(idx===ele.g1-1?'':'/')}}</text>
+                            </view>
+                            <view class="tips data-v-0220f98f">
+                                <view class="tag it data-v-0220f98f" wx:if="{{item.$orig.lineTagList&&item.$orig.lineTagList[0]}}" wx:for="{{item.$orig.lineTagList}}" wx:for-index="__i0__" wx:for-item="tag" wx:key="*this">{{tag}}</view>
+                            </view>
+                            <view class="price-box data-v-0220f98f" wx:if="{{!item.$orig.stockStatus||item.$orig.sellOut}}">
+                                <view class="item-btn data-v-0220f98f">售罄</view>
+                            </view>
+                            <view class="price data-v-0220f98f" wx:else>
+                                <label class="icon _span data-v-0220f98f">￥</label>{{''+item.$orig.price}}<label class="_span data-v-0220f98f" wx:if="{{item.$orig.startPriceFlag}}">起</label>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="item data-v-0220f98f" id="{{index==0?'firstTicket':''}}" style="{{'background:'+(item.$orig.scenicType!=1?item.$orig.recommendStyleUrl?'none':'#FEF4F0':'#fbf8f1')+';'}}" wx:else>
+                        <view class="name multilineText2 data-v-0220f98f">
+                            <view class="ms-box data-v-0220f98f" style="width:64rpx;" wx:if="{{item.$orig.seckillActivity==1}}"></view>{{''+(item.$orig.itemAbbreviate||item.$orig.itemTitle)+''}}</view>
+                        <view class="bto-box data-v-0220f98f">
+                            <view catchtap="__e" class="l data-v-0220f98f" data-event-opts="{{[ [ 'tap',[ [ 'showBookTip',['$0'],[ [ ['ticketArr.scenicTicketTypeClassList.__$n0.itemList','',index] ] ] ] ] ] ]}}" style="width:380rpx;" wx:if="{{item.g2}}">
+                                <view class="tic-tip data-v-0220f98f" style="margin-top:20rpx;">
+                                    <view class="l multilineText2 data-v-0220f98f">{{''+item.$orig.targetGroupsRuleDescList+' >'}}</view>
+                                </view>
+                            </view>
+                            <view catchtap="__e" class="l data-v-0220f98f" data-event-opts="{{[ [ 'tap',[ [ 'showBookTip',['$0'],[ [ ['ticketArr.scenicTicketTypeClassList.__$n0.itemList','',index] ] ] ] ] ] ]}}" wx:else>
+                                <view class="tic-info singleLineText data-v-0220f98f" style="{{'color:'+(item.$orig.scenicType!=1?'#FF7D2A':'#a17111')+';'}}">
+                                    <block wx:if="{{item.$orig.bookingInfoTag.bookingTag}}">{{item.$orig.bookingInfoTag.bookingTag}}</block>
+                                    <block wx:if="{{item.$orig.bookingInfoTag.reserveTimeTag}}">{{'｜'+item.$orig.bookingInfoTag.reserveTimeTag}}</block>
+                                    <block wx:if="{{item.$orig.bookingInfoTag.refundTag}}">{{'｜'+item.$orig.bookingInfoTag.refundTag}}</block>
+                                    <block wx:if="{{item.$orig.scenicType!=1&&item.$orig.bookingInfoTag.changeTag}}">{{'｜'+item.$orig.bookingInfoTag.changeTag}}</block>
+                                </view>
+                                <view class="tic-tip data-v-0220f98f">
+                                    <view catchtap="__e" class="l data-v-0220f98f" data-event-opts="{{[ [ 'tap',[ [ 'showBookTip',['$0'],[ [ ['ticketArr.scenicTicketTypeClassList.__$n0.itemList','',index] ] ] ] ] ] ]}}">
+                                        <block wx:if="{{item.$orig.scenicType!=1}}">{{'已'+(item.$orig.skuItemType==1?'约':'售')+item.f1}}<text class="data-v-0220f98f">｜</text>
+                                        </block>{{'预'+(item.$orig.skuItemType==1?'约':'订')+'须知'}}</view>
+                                    <uni-icons bind:__l="__l" class="data-v-0220f98f" color="#D3D3D3" size="14" type="arrowright" vueId="{{'6a6f3136-1-'+index}}"></uni-icons>
+                                </view>
+                            </view>
+                            <view class="r data-v-0220f98f">
+                                <view class="price data-v-0220f98f" wx:if="{{item.$orig.scenicType!=1}}">
+                                    <view class="freePrice data-v-0220f98f" wx:if="{{item.$orig.skuItemType==1&&item.$orig.isFree==1}}">免费</view>
+                                    <block wx:else>
+                                        <text class="del-price data-v-0220f98f" wx:if="{{item.$orig.retailPrice>item.$orig.price}}">{{'¥'+item.$orig.retailPrice}}</text>{{'¥'+(item.$orig.seckillActivity==1?item.$orig.seckillPrice:item.$orig.price)}}<text class="price-start data-v-0220f98f" wx:if="{{item.$orig.startPriceFlag==1}}">起</text>
+                                    </block>
+                                </view>
+                                <view class="btns data-v-0220f98f" wx:if="{{userInfo&&userInfo.isFenxiao&&item.$orig.maxReward&&item.$orig.stockStatus&&!item.$orig.sellOut}}">
+                                    <view class="btn both data-v-0220f98f">
+                                        <view class="share data-v-0220f98f">
+                                            <text class="data-v-0220f98f">分享赚</text>
+                                            <text class="data-v-0220f98f">{{'￥'+item.$orig.maxReward}}</text>
+                                            <button catchtap="__e" class="sharebtn data-v-0220f98f" data-event-opts="{{[ [ 'tap',[ [ 'hitClick',['$0'],[ [ ['ticketArr.scenicTicketTypeClassList.__$n0.itemList','',index] ] ] ] ] ] ]}}" data-id="{{item.$orig.itemId}}" data-imgurl="{{item.$orig.defaultPicUrl}}" data-title="{{item.$orig.itemTitle}}"></button>
+                                        </view>
+                                        <view catchtap="__e" class="{{['book','yd','data-v-0220f98f',item.$orig.scenicType==1?'btc':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'buyFn',['$0'],[ [ ['ticketArr.scenicTicketTypeClassList.__$n0.itemList','',index] ] ] ] ] ] ]}}">{{'预'+(item.$orig.skuItemType==1?'约':'订')+''}}</view>
+                                    </view>
+                                </view>
+                                <block wx:else>
+                                    <button catchtap="__e" class="{{['btn','data-v-0220f98f',item.$orig.scenicType==1?'btc':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'buyFn',['$0'],[ [ ['ticketArr.scenicTicketTypeClassList.__$n0.itemList','',index] ] ] ] ] ] ]}}" wx:if="{{item.$orig.stockStatus&&!item.$orig.sellOut}}">
+                                        <block wx:if="{{item.$orig.scenicType==1}}">免费预约</block>
+                                        <block wx:else>{{'预'+(item.$orig.skuItemType==1?'约':'订')+''}}</block>
+                                    </button>
+                                    <button class="{{['btn','emptys','data-v-0220f98f',item.$orig.scenicType==1?'btce':'']}}" wx:else>{{item.$orig.skuItemType==1?'约满':'售空'}}</button>
+                                </block>
+                            </view>
+                        </view>
+                        <view catchtap="__e" class="subscribe data-v-0220f98f" data-event-opts="{{[ [ 'tap',[ [ '',['$event'] ] ] ] ]}}" style="margin-top:20rpx;" wx:if="{{ticketArr.selloutSuggestFlag==1&&item.$orig.selloutSuggestFlag==1&&(!item.$orig.stockStatus||item.$orig.sellOut)&&!item.$orig.recommendStyleUrl1}}">
+                            <view bindtap="__e" class="subscribe-info data-v-0220f98f" data-event-opts="{{[ [ 'tap',[ [ 'jumpSubSpot',['$0'],[ [ ['ticketArr.scenicTicketTypeClassList.__$n0.itemList','',index] ] ] ] ] ] ]}}">当前门票售罄，推荐其他景区｜查看→</view>
+                            <view bindtap="__e" class="subscribe-btn data-v-0220f98f" data-event-opts="{{[ [ 'tap',[ [ 'subscription',['$0'],[ [ ['ticketArr.scenicTicketTypeClassList.__$n0.itemList','',index] ] ] ] ] ] ]}}">余票订阅</view>
+                        </view>
+                    </view>
+                    <view catchtap="__e" class="subscribe data-v-0220f98f" data-event-opts="{{[ [ 'tap',[ [ '',['$event'] ] ] ] ]}}" style="margin-top:0rpx;" wx:if="{{ticketArr.selloutSuggestFlag==1&&item.$orig.selloutSuggestFlag==1&&(!item.$orig.stockStatus||item.$orig.sellOut)&&item.$orig.recommendStyleUrl1}}">
+                        <view bindtap="__e" class="subscribe-info data-v-0220f98f" data-event-opts="{{[ [ 'tap',[ [ 'jumpSubSpot',['$0'],[ [ ['ticketArr.scenicTicketTypeClassList.__$n0.itemList','',index] ] ] ] ] ] ]}}">当前门票售罄，推荐其他景区｜查看→</view>
+                        <view bindtap="__e" class="subscribe-btn data-v-0220f98f" data-event-opts="{{[ [ 'tap',[ [ 'subscription',['$0'],[ [ ['ticketArr.scenicTicketTypeClassList.__$n0.itemList','',index] ] ] ] ] ] ]}}">余票订阅</view>
+                    </view>
+                </view>
+            </view>
+        </scroll-view>
+    </block>
+    <view class="vertical-tic-class data-v-0220f98f" wx:else>
+        <scroll-view class="class-box data-v-0220f98f" scrollIntoView="{{scrollToClass}}" scrollY="{{!disScroll||isShowTicket}}" style="{{'overflow-y:'+(!disScroll||isShowTicket?'auto':'hidden')+';'+'height:'+scrollFixH+'px'+';'}}">
+            <view bindtap="__e" class="{{['class-item','data-v-0220f98f',showTicketIndex==index?'act':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'toggleTicketList',['$0',index,2],[ [ ['ticketArr.scenicTicketTypeClassList','',index] ] ] ] ] ] ]}}" id="{{'ticClass-'+index}}" wx:for="{{ticketArr.scenicTicketTypeClassList}}" wx:key="index">
+                <image class="data-v-0220f98f" mode="widthFix" src="{{item.image}}" wx:if="{{item.image}}"></image>
+                <view class="t data-v-0220f98f">{{item.ticketTypeClassName}}</view>
+                <view class="active data-v-0220f98f" wx:if="{{showTicketIndex==index}}"></view>
+            </view>
+        </scroll-view>
+        <scroll-view bindscroll="__e" class="ver-tic-list data-v-0220f98f" data-event-opts="{{[ [ 'scroll',[ [ 'fixTicketListScroll',['$event'] ] ] ] ]}}" scrollIntoView="{{scrollToTic}}" scrollY="{{!disScroll||isShowTicket}}" style="{{'overflow-y:'+(!disScroll?'auto':'hidden')+';'+'height:'+scrollFixH+'px'+';'}}">
+            <view class="class-item-box data-v-0220f98f" id="{{'tic-'+ticClass[$orig].id}}" style="{{'min-height:'+(ticIndex+1==ticClass.g3?scrollFixH+'px':'auto')+';'}}" wx:for="{{$root.l4}}" wx:for-index="ticIndex" wx:for-item="ticClass" wx:key="ticIndex">
+                <view class="title data-v-0220f98f">{{''+ticClass[$orig].ticketTypeClassName+''}}</view>
+                <view bindtap="__e" class="{{['data-v-0220f98f',!!item.$orig.recommendStyleUrl1?'borders':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'ticketClick',['$0'],[ [ ['ticketArr.scenicTicketTypeClassList','',ticIndex],['itemList','',index] ] ] ] ] ] ]}}" wx:for="{{ticClass.l3}}">
+                    <image class="borderimg data-v-0220f98f" mode="widthFix" src="{{item.$orig.recommendStyleUrl1}}" wx:if="{{item.$orig.recommendStyleUrl1}}"></image>
+                    <view bindtap="__e" class="item-product data-v-0220f98f" data-event-opts="{{[ [ 'tap',[ [ 'goGoodInfo',['$0','$1'],[ [ ['ticketArr.scenicTicketTypeClassList','',ticIndex],['itemList','',index,'itemId'] ],[ ['ticketArr.scenicTicketTypeClassList','',ticIndex],['itemList','',index,'sellOut'] ] ] ] ] ] ]}}" wx:if="{{item.$orig.ticketType==3}}">
+                        <view class="img-box data-v-0220f98f" style="width:160rpx;">
+                            <image class="product-img data-v-0220f98f" mode="aspectFill" src="{{item.$orig.productPic}}"></image>
+                            <view class="lt-tip data-v-0220f98f">{{item.f2}}</view>
+                            <view class="bto-tip data-v-0220f98f" wx:if="{{item.g4>0}}">
+                                <image mode class="data-v-0220f98f" src="https://eshopfile.zhiyousx.com/2024041111080587358.png"></image>
+                                <view class="txt data-v-0220f98f">{{item.$orig.fromCityList[0]+'出发'}}</view>
+                            </view>
+                        </view>
+                        <view class="goods-info data-v-0220f98f">
+                            <view class="name multilineText2 data-v-0220f98f">{{item.$orig.itemTitle}}</view>
+                            <view class="highLights singleLineText data-v-0220f98f" style="width:300rpx;" wx:if="{{item.$orig.lineHighlightLabelList}}">
+                                <text class="data-v-0220f98f" wx:for="{{item.l2}}" wx:for-index="idx" wx:for-item="ele" wx:key="idx">{{''+ele[$orig]+(idx===ele.g5-1?'':'/')}}</text>
+                            </view>
+                            <view class="tips data-v-0220f98f">
+                                <view class="tag it data-v-0220f98f" wx:if="{{item.$orig.lineTagList&&item.$orig.lineTagList[0]}}" wx:for="{{item.$orig.lineTagList}}" wx:for-index="__i1__" wx:for-item="tag" wx:key="*this">{{tag}}</view>
+                            </view>
+                            <view class="price-box data-v-0220f98f" wx:if="{{!item.$orig.stockStatus||item.$orig.sellOut}}">
+                                <view class="item-btn data-v-0220f98f">售罄</view>
+                            </view>
+                            <view class="price data-v-0220f98f" wx:else>
+                                <label class="icon _span data-v-0220f98f">￥</label>{{''+item.$orig.price}}<label class="_span data-v-0220f98f" wx:if="{{item.$orig.startPriceFlag}}">起</label>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="t-item data-v-0220f98f" id="{{index==0?'firstTicket':''}}" style="{{'background:'+(item.$orig.scenicType!=1?item.$orig.recommendStyleUrl1?'none':'#FEF4F0':'#fbf8f1')+';'}}" wx:else>
+                        <view class="name multilineText2 data-v-0220f98f">
+                            <view class="ms-box data-v-0220f98f" style="width:64rpx;" wx:if="{{item.$orig.seckillActivity==1}}"></view>{{''+(item.$orig.itemAbbreviate||item.$orig.itemTitle)+''}}</view>
+                        <view class="body-box data-v-0220f98f">
+                            <view catchtap="__e" class="l data-v-0220f98f" data-event-opts="{{[ [ 'tap',[ [ 'showBookTip',['$0'],[ [ ['ticketArr.scenicTicketTypeClassList','',ticIndex],['itemList','',index] ] ] ] ] ] ]}}" wx:if="{{item.g6}}">
+                                <view class="tic-tip data-v-0220f98f" style="margin-top:20rpx;">
+                                    <view class="l multilineText2 data-v-0220f98f" style="line-height:42rpx;">{{''+item.$orig.targetGroupsRuleDescList+' >'}}</view>
+                                </view>
+                            </view>
+                            <view catchtap="__e" class="l data-v-0220f98f" data-event-opts="{{[ [ 'tap',[ [ 'showBookTip',['$0'],[ [ ['ticketArr.scenicTicketTypeClassList','',ticIndex],['itemList','',index] ] ] ] ] ] ]}}" wx:else>
+                                <view class="tic-info singleLineText data-v-0220f98f" style="{{'color:'+(item.$orig.scenicType!=1?'#FF7D2A':'#a17111')+';'}}">
+                                    <block wx:if="{{item.$orig.bookingInfoTag.bookingTag}}">{{item.$orig.bookingInfoTag.bookingTag}}</block>
+                                    <block wx:if="{{item.$orig.bookingInfoTag.reserveTimeTag}}">{{'｜'+item.$orig.bookingInfoTag.reserveTimeTag}}</block>
+                                    <block wx:if="{{item.$orig.bookingInfoTag.refundTag}}">{{'｜'+item.$orig.bookingInfoTag.refundTag}}</block>
+                                    <block wx:if="{{item.$orig.scenicType!=1&&item.$orig.bookingInfoTag.changeTag}}">{{'｜'+item.$orig.bookingInfoTag.changeTag}}</block>
+                                </view>
+                                <view class="tic-tip data-v-0220f98f">
+                                    <view catchtap="__e" class="l data-v-0220f98f" data-event-opts="{{[ [ 'tap',[ [ 'showBookTip',['$0'],[ [ ['ticketArr.scenicTicketTypeClassList','',ticIndex],['itemList','',index] ] ] ] ] ] ]}}">
+                                        <block wx:if="{{item.$orig.scenicType!=1}}">{{'已'+(item.$orig.skuItemType==1?'约':'售')+item.f3}}<text class="data-v-0220f98f">｜</text>
+                                        </block>{{'预'+(item.$orig.skuItemType==1?'约':'订')+'须知'}}</view>
+                                    <uni-icons bind:__l="__l" class="data-v-0220f98f" color="#D3D3D3" size="14" type="arrowright" vueId="{{'6a6f3136-2-'+ticIndex+'-'+index}}"></uni-icons>
+                                </view>
+                            </view>
+                            <view class="r data-v-0220f98f">
+                                <view class="price data-v-0220f98f" wx:if="{{item.$orig.scenicType!=1}}">
+                                    <view class="freePrice data-v-0220f98f" wx:if="{{item.$orig.skuItemType==1&&item.$orig.isFree==1}}">免费</view>
+                                    <block wx:else>
+                                        <text class="del-price data-v-0220f98f" wx:if="{{item.$orig.retailPrice>item.$orig.price}}">{{'¥'+item.$orig.retailPrice}}</text>{{'¥'+(item.$orig.seckillActivity==1?item.$orig.seckillPrice:item.$orig.price)}}<text class="price-start data-v-0220f98f" wx:if="{{item.$orig.startPriceFlag==1}}">起</text>
+                                    </block>
+                                </view>
+                                <view class="btns data-v-0220f98f" wx:if="{{userInfo&&userInfo.isFenxiao&&item.$orig.maxReward&&item.$orig.stockStatus&&!item.$orig.sellOut}}">
+                                    <view class="btn both data-v-0220f98f">
+                                        <view class="share data-v-0220f98f">
+                                            <text class="data-v-0220f98f">分享赚</text>
+                                            <text class="data-v-0220f98f">{{'￥'+item.$orig.maxReward}}</text>
+                                            <button catchtap="__e" class="sharebtn data-v-0220f98f" data-event-opts="{{[ [ 'tap',[ [ 'hitClick',['$0'],[ [ ['ticketArr.scenicTicketTypeClassList','',ticIndex],['itemList','',index] ] ] ] ] ] ]}}" data-id="{{item.$orig.itemId}}" data-imgurl="{{item.$orig.defaultPicUrl}}" data-title="{{item.$orig.itemTitle}}"></button>
+                                        </view>
+                                        <view catchtap="__e" class="book yd data-v-0220f98f" data-event-opts="{{[ [ 'tap',[ [ 'buyFn',['$0'],[ [ ['ticketArr.scenicTicketTypeClassList','',ticIndex],['itemList','',index] ] ] ] ] ] ]}}">{{'预'+(item.$orig.skuItemType==1?'约':'订')+''}}</view>
+                                    </view>
+                                </view>
+                                <block wx:else>
+                                    <button catchtap="__e" class="{{['btn','data-v-0220f98f',item.$orig.scenicType==1?'btc':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'buyFn',['$0'],[ [ ['ticketArr.scenicTicketTypeClassList','',ticIndex],['itemList','',index] ] ] ] ] ] ]}}" wx:if="{{item.$orig.stockStatus&&!item.$orig.sellOut}}">
+                                        <block wx:if="{{item.$orig.scenicType==1}}">免费预约</block>
+                                        <block wx:else>{{'预'+(item.$orig.skuItemType==1?'约':'订')+''}}</block>
+                                    </button>
+                                    <button class="{{['btn','emptys','data-v-0220f98f',item.$orig.scenicType==1?'btce':'']}}" wx:else>{{item.$orig.skuItemType==1?'约满':'售空'}}</button>
+                                </block>
+                            </view>
+                        </view>
+                        <view catchtap="__e" class="subscribe data-v-0220f98f" data-event-opts="{{[ [ 'tap',[ [ '',['$event'] ] ] ] ]}}" wx:if="{{ticketArr.selloutSuggestFlag==1&&item.$orig.selloutSuggestFlag==1&&(!item.$orig.stockStatus||item.$orig.sellOut)&&!item.$orig.recommendStyleUrl1}}">
+                            <view bindtap="__e" class="subscribe-info data-v-0220f98f" data-event-opts="{{[ [ 'tap',[ [ 'jumpSubSpot',['$0'],[ [ ['ticketArr.scenicTicketTypeClassList','',ticIndex],['itemList','',index] ] ] ] ] ] ]}}">当前门票售罄，推荐其他景区｜查看→</view>
+                            <view bindtap="__e" class="subscribe-btn data-v-0220f98f" data-event-opts="{{[ [ 'tap',[ [ 'subscription',['$0'],[ [ ['ticketArr.scenicTicketTypeClassList','',ticIndex],['itemList','',index] ] ] ] ] ] ]}}">余票订阅</view>
+                        </view>
+                    </view>
+                    <view catchtap="__e" class="subscribe data-v-0220f98f" data-event-opts="{{[ [ 'tap',[ [ '',['$event'] ] ] ] ]}}" style="margin-top:0rpx;" wx:if="{{ticketArr.selloutSuggestFlag==1&&item.$orig.selloutSuggestFlag==1&&(!item.$orig.stockStatus||item.$orig.sellOut)&&item.$orig.recommendStyleUrl1}}">
+                        <view bindtap="__e" class="subscribe-info data-v-0220f98f" data-event-opts="{{[ [ 'tap',[ [ 'jumpSubSpot',['$0'],[ [ ['ticketArr.scenicTicketTypeClassList','',ticIndex],['itemList','',index] ] ] ] ] ] ]}}">当前门票售罄，推荐其他景区｜查看→</view>
+                        <view bindtap="__e" class="subscribe-btn data-v-0220f98f" data-event-opts="{{[ [ 'tap',[ [ 'subscription',['$0'],[ [ ['ticketArr.scenicTicketTypeClassList','',ticIndex],['itemList','',index] ] ] ] ] ] ]}}">余票订阅</view>
+                    </view>
+                </view>
+            </view>
+            <view class="data-v-0220f98f" style="height:20rpx;"></view>
+        </scroll-view>
+    </view>
+</view>

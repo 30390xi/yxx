@@ -1,0 +1,83 @@
+<view class="u-wrap page-box data-v-6af09c60">
+    <uni-navbar bind:__l="__l" class="data-v-6af09c60" title="吃喝玩乐" titleCenter="{{false}}" transparentFixedFontColor="{{titleColor}}" type="transparentFixed" vueId="57447680-1"></uni-navbar>
+    <custom-nav bind:__l="__l" class="data-v-6af09c60" muClass="nav-bg" scrollTop="{{scrollTop}}" title="吃喝玩乐" vueId="57447680-2"></custom-nav>
+    <view class="top-box data-v-6af09c60">
+        <image class="bg-img data-v-6af09c60" mode="aspectFill" src="https://eshopfile.zhiyousx.com/2024062118322195121.png" style="{{'opacity:'+1-scrollTop/scrollTopLimit+';'}}"></image>
+        <view class="{{['search-box','data-v-6af09c60',scrollTop>scrollTopLimit/2?'changeS':'']}}" style="{{'top:'+menuButtonInfo.bottom+8+'px'+';'}}">
+            <view class="search data-v-6af09c60">
+                <view class="s-icon data-v-6af09c60"></view>
+                <input bindinput="__e" class="data-v-6af09c60" confirmType="search" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '','searchText','$event',[] ] ],[ 'handleChange',['$event'] ] ] ] ]}}" placeholder="搜索可用餐厅/影院/体验项目等" placeholderStyle="{{scrollTop>scrollTopLimit/2?'color: rgba(30,27,25,0.3)':'color: rgba(255,255,255,0.3);'}}" style="width:500rpx;" value="{{searchText}}"></input>
+            </view>
+            <view bindtap="__e" class="map-box data-v-6af09c60" data-event-opts="{{[ [ 'tap',[ [ 'jumpTo',['/union/pages/map/map'] ] ] ] ]}}">
+                <view class="map-icon data-v-6af09c60"></view>
+                <view class="map-t data-v-6af09c60">地图</view>
+            </view>
+        </view>
+    </view>
+    <view class="top-tab-b data-v-6af09c60" style="{{'background:'+(showSortPop||showChoosePop?'#FFFFFF':scrollTop>scrollTopLimit/2?'#FFFFFF':'#F5F5F4')+';'}}">
+        <scroll-view class="tab-box data-v-6af09c60" scrollWithAnimation="{{true}}" scrollX="{{true}}">
+            <view class="tab-left data-v-6af09c60"></view>
+            <view bindtap="__e" class="{{['tab-item','data-v-6af09c60',detailClassId==tab.detailClassId?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeTab',['$0'],[ [ ['tabList','',i] ] ] ] ] ] ]}}" wx:for="{{tabList}}" wx:for-index="i" wx:for-item="tab" wx:key="i">{{''+tab.detailClassName+''}}</view>
+        </scroll-view>
+        <view class="choose-box data-v-6af09c60">
+            <view bindtap="__e" class="{{['cb-it','allcenter','act','data-v-6af09c60',showSortPop||showChoosePop?'popBg':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'showSort',['$event'] ] ] ] ]}}">
+                <image mode class="ad-mark data-v-6af09c60" src="https://eshopfile.zhiyousx.com/2024052411220221820.png" wx:if="{{sort==1}}"></image>{{''+sortName+''}}<view class="mark allcenter data-v-6af09c60">
+                    <u-icon bind:__l="__l" class="data-v-6af09c60" color="#E4214A" name="{{showSortPop?'arrow-up':'arrow-down'}}" size="18" vueId="57447680-3"></u-icon>
+                </view>
+            </view>
+            <view bindtap="__e" class="{{['cb-it','allcenter','data-v-6af09c60',chooseName?'act':'',showSortPop||showChoosePop?'popBg':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'showChoose',['$event'] ] ] ] ]}}">{{''+(chooseName||'筛选')+''}}<view class="mark allcenter data-v-6af09c60">
+                    <u-icon bind:__l="__l" class="data-v-6af09c60" color="{{chooseName?'#E4214A':'#1E1B19'}}" name="{{showChoosePop?'arrow-up':'arrow-down'}}" size="18" vueId="57447680-4"></u-icon>
+                </view>
+            </view>
+            <view bindtap="__e" catchtouchmove="__e" class="pop-box-bg data-v-6af09c60" data-event-opts="{{[ [ 'tap',[ [ 'closePop',['$event'] ] ] ],[ 'touchmove',[ [ 'moveHandle',['$event'] ] ] ] ]}}" wx:if="{{showSortPop||showChoosePop}}">
+                <view catchtap="__e" class="pop-box data-v-6af09c60" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}">
+                    <view class="sort-box data-v-6af09c60" wx:if="{{showSortPop}}">
+                        <view catchtap="__e" class="{{['it','data-v-6af09c60',sort==it.id?'itAct':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeSort',['$0'],[ [ ['sortList','',__i0__] ] ] ] ] ] ]}}" wx:for="{{sortList}}" wx:for-index="__i0__" wx:for-item="it">{{''+it.name+''}}</view>
+                    </view>
+                    <view class="ch-box data-v-6af09c60" wx:if="{{showChoosePop}}">
+                        <view class="row-box data-v-6af09c60">
+                            <view bindtap="__e" class="{{['row-it','data-v-6af09c60',it.id===mdData.id?'rtAct':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'choose',['$0'],[ [ ['chooseList','',i] ] ] ] ] ] ]}}" wx:for="{{chooseList}}" wx:for-index="i" wx:for-item="it" wx:key="i">{{''+it.name+''}}</view>
+                        </view>
+                        <view class="row-box data-v-6af09c60" style="margin-top:26rpx;">
+                            <view catchtap="__e" class="btn data-v-6af09c60" data-event-opts="{{[ [ 'tap',[ ['reset'] ] ] ]}}">重置</view>
+                            <view catchtap="__e" class="btn-comfirm data-v-6af09c60" data-event-opts="{{[ [ 'tap',[ [ 'chooseConfirm',['$0'],['it'] ] ] ] ]}}">确定</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="module-box data-v-6af09c60">
+        <view bindtap="__e" class="store-item data-v-6af09c60" data-event-opts="{{[ [ 'tap',[ [ 'jumpToS',['/pages/spotDetailNew/spotDetailNew?spotId='+item.scenicId+'&isUnion=1'] ] ] ] ]}}" wx:for="{{equityList}}" wx:key="index">
+            <view class="img-b data-v-6af09c60">
+                <image class="data-v-6af09c60" mode="aspectFill" src="{{item.scenicImage}}"></image>
+                <view class="tip data-v-6af09c60" wx:if="{{item.isSponsor}}"></view>
+            </view>
+            <view class="info-box data-v-6af09c60">
+                <view class="name-b data-v-6af09c60">
+                    <view class="name multilineText2 data-v-6af09c60">{{''+item.scenicName+''}}</view>
+                    <view class="sub singleLineText data-v-6af09c60">{{''+item.equityDesc+''}}</view>
+                </view>
+                <view class="ab-box data-v-6af09c60">
+                    <view class="tag-box data-v-6af09c60">
+                        <view class="level-box data-v-6af09c60">{{''+$root.f0+''}}</view>
+                        <view class="eq-box data-v-6af09c60">{{''+item.equityNum+''}}</view>
+                    </view>
+                    <view class="ad-b data-v-6af09c60">
+                        <view class="flex col-center data-v-6af09c60">
+                            <text class="data-v-6af09c60">{{item.className}}</text>
+                            <text class="singleLineText data-v-6af09c60">{{item.cityName+(item.address?'/'+item.address:'')}}</text>
+                        </view>
+                        <view class="flex col-center data-v-6af09c60" wx:if="{{item.distance>0}}">
+                            <image mode class="ad data-v-6af09c60" src="https://eshopfile.zhiyousx.com/2024052411165183914.png"></image>
+                            <text class="data-v-6af09c60">{{item.distance+'km'}}</text>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="empty-box allcenter data-v-6af09c60" wx:if="{{$root.g0}}">
+        <image mode class="data-v-6af09c60" src="https://eshopfile.zhiyousx.com/2024061417153003821.png"></image>
+    </view>
+</view>

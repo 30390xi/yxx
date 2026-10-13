@@ -1,0 +1,54 @@
+<view class="availableProducts-page data-v-3d188ea6">
+    <view class="header data-v-3d188ea6">
+        <view class="content data-v-3d188ea6" wx:if="{{detailObj.type==3}}">限时促销：以下商品可使用0元购优惠券</view>
+        <block wx:else>
+            <view class="content data-v-3d188ea6" wx:if="{{detailObj.type==1&&detailObj.threshold>0}}">{{'限时促销：以下商品可使用满'+detailObj.threshold+'减'+detailObj.quota}}</view>
+            <view class="content data-v-3d188ea6" wx:if="{{detailObj.type==2&&detailObj.threshold==0}}">{{'限时促销：以下商品可使用'+detailObj.quota+'元无门槛券'}}</view>
+        </block>
+    </view>
+    <scroll-view bindscrolltolower="__e" class="coupon-list data-v-3d188ea6" data-event-opts="{{[ [ 'scrolltolower',[ [ 'scrolltolower',['$event'] ] ] ] ]}}" scrollY="{{true}}">
+        <view class="shop-list data-v-3d188ea6">
+            <view bindtap="__e" class="item data-v-3d188ea6" data-event-opts="{{[ [ 'tap',[ [ 'goShopDetail',['$0'],[ [ ['recommendList','',index] ] ] ] ] ] ]}}" wx:for="{{$root.l1}}" wx:key="index">
+                <view class="info-box data-v-3d188ea6">
+                    <view class="pic-box data-v-3d188ea6">
+                        <image class="data-v-3d188ea6" mode="aspectFill" src="{{item.$orig.productPic}}"></image>
+                        <view class="lt-tip data-v-3d188ea6">{{item.f0}}</view>
+                        <view class="bto-tip data-v-3d188ea6" wx:if="{{item.$orig.cityNames}}">
+                            <image mode class="data-v-3d188ea6" src="https://eshopfile.zhiyousx.com/2024041111080587358.png"></image>
+                            <view class="txt data-v-3d188ea6">{{item.g0[0]+'出发'}}</view>
+                        </view>
+                    </view>
+                    <view class="r-info data-v-3d188ea6">
+                        <view class="nameTipsBox data-v-3d188ea6">
+                            <view class="name multilineText2 data-v-3d188ea6">{{''+item.$orig.productName+''}}<view class="star-box data-v-3d188ea6" wx:if="{{item.$orig.level>0}}">
+                                    <view class="star data-v-3d188ea6">{{''+item.$orig.level+'A'}}</view>
+                                </view>
+                            </view>
+                            <view class="highLights singleLineText data-v-3d188ea6" wx:if="{{item.$orig.lineHighlightLabelList}}">
+                                <text class="data-v-3d188ea6" wx:for="{{item.l0}}" wx:for-index="idx" wx:for-item="ele" wx:key="idx">{{''+ele[$orig]+(idx===ele.g1-1?'':'/')}}</text>
+                            </view>
+                            <view class="tips data-v-3d188ea6">
+                                <view class="tag it data-v-3d188ea6" wx:if="{{item.$orig.lineTagList&&item.$orig.lineTagList[0]}}" wx:for="{{item.$orig.lineTagList}}" wx:for-index="__i0__" wx:for-item="tag" wx:key="*this">{{tag}}</view>
+                            </view>
+                        </view>
+                        <view class="price-box data-v-3d188ea6">
+                            <view class="item-btn data-v-3d188ea6" wx:if="{{!item.$orig.stockStatus||item.$orig.sellOut}}">售罄</view>
+                            <block wx:else>
+                                <view class="quan data-v-3d188ea6">券</view>
+                                <view class="yang data-v-3d188ea6">￥</view>
+                                <view class="num data-v-3d188ea6">{{item.$orig.afterCouponPrice}}</view>
+                                <view class="qi data-v-3d188ea6" wx:if="{{item.$orig.startPriceFlag}}">起</view>
+                            </block>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="empty data-v-3d188ea6" wx:if="{{$root.g2}}">
+                <empty-state bind:__l="__l" class="data-v-3d188ea6" imgUrl="https://eshopfile.zhiyousx.com/noOrder@2x.png" text="暂无产品" vueId="3d1d0e6a-1"></empty-state>
+            </view>
+            <view class="loadMore data-v-3d188ea6" wx:else>
+                <u-loadmore bgColor="#f7f7f7" bind:__l="__l" class="data-v-3d188ea6" color="#ccc" iconColor="#ccc" status="{{loadMore}}" vueId="3d1d0e6a-2"></u-loadmore>
+            </view>
+        </view>
+    </scroll-view>
+</view>

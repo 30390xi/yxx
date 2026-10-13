@@ -1,0 +1,45 @@
+<view class="records data-v-875c916e">
+    <view class="head allcenter data-v-875c916e">
+        <view class="item allcenter data-v-875c916e">
+            <view class="t data-v-875c916e">已领权益</view>
+            <view class="num data-v-875c916e">{{(recordData.receivedEquityNum||0)+''}}<text class="unit data-v-875c916e">个</text>
+            </view>
+            <view class="desc data-v-875c916e">{{'（'+(recordData.cardNum||0)+'张卡）'}}</view>
+        </view>
+        <view class="item allcenter data-v-875c916e">
+            <view class="t data-v-875c916e">已领权益</view>
+            <view class="num data-v-875c916e">
+                <text class="unit data-v-875c916e" style="margin-right:6rpx;">¥</text>{{recordData.equityAmount||0}}</view>
+            <view class="desc data-v-875c916e"></view>
+        </view>
+    </view>
+    <view class="mycard data-v-875c916e">
+        <view class="card data-v-875c916e" wx:for="{{$root.l0}}" wx:for-index="__i0__">
+            <view class="title allcenter data-v-875c916e" style="{{'background:'+'linear-gradient(135deg, '+(item.$orig.backgroundColor1||'#e7d6b4')+' 0%, '+item.m0+' 100%);'+';'}}">{{item.$orig.name}}</view>
+            <view class="list data-v-875c916e">
+                <view bindtap="__e" class="item flex data-v-875c916e" data-event-opts="{{[ [ 'tap',[ [ 'toEqDetail',['$0','$1'],[ [ ['recordData.detail','',__i0__],['detailVOList','',__i1__,'userEquityCardDetailId'] ],[ ['recordData.detail','',__i0__,'equityCardName'] ] ] ] ] ] ]}}" wx:for="{{item.$orig.detailVOList}}" wx:for-index="__i1__" wx:for-item="items">
+                    <view class="info flex data-v-875c916e">
+                        <image class="data-v-875c916e" src="{{items.equityImage}}"></image>
+                        <view class="text data-v-875c916e">
+                            <view class="name multilineText2 data-v-875c916e">{{items.equityName}}</view>
+                            <view class="time data-v-875c916e">{{items.validityStartTime+'至'+items.validityEndTime}}</view>
+                        </view>
+                    </view>
+                    <view class="nums data-v-875c916e">
+                        <block wx:if="{{items.deductionAmount>0}}">
+                            <view class="name data-v-875c916e">已省</view>
+                            <view class="count data-v-875c916e">{{'¥'+(items.deductionAmount||0)}}</view>
+                        </block>
+                        <view class="eqinfo data-v-875c916e" wx:else>查看权益</view>
+                        <image class="data-v-875c916e" src="https://eshopfile.zhiyousx.com/2023011114064095097.png" wx:if="{{items.useState==1}}"></image>
+                        <image class="data-v-875c916e" src="https://eshopfile.zhiyousx.com/2023010910000900378.png" wx:if="{{items.useState==2}}"></image>
+                        <image class="data-v-875c916e" src="https://eshopfile.zhiyousx.com/2023010910005976066.png" wx:if="{{items.useState==3}}"></image>
+                        <image class="data-v-875c916e" src="https://eshopfile.zhiyousx.com/2023010910013637801.png" wx:if="{{items.useState==4}}"></image>
+                        <image class="data-v-875c916e" src="https://eshopfile.zhiyousx.com/2023011114083993049.png" wx:if="{{items.useState==5}}"></image>
+                        <image class="data-v-875c916e" src="https://eshopfile.zhiyousx.com/2023010910015464618.png" wx:if="{{items.useState==6}}"></image>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

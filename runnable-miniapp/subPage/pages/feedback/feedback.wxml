@@ -1,0 +1,21 @@
+<view class="data-v-11afcb7d">
+    <view class="textbox data-v-11afcb7d">
+        <textarea bindinput="__e" class="textareas data-v-11afcb7d" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '','textareanum','$event',[] ] ],[ 'changefun',['$event'] ] ] ] ]}}" maxlength="500" placeholder="对我们的商品、服务，您还有什么建议吗？请直接告诉我们，或拨打客服4000292296" placeholderClass="texts" value="{{textareanum}}"></textarea>
+        <view class="numBox data-v-11afcb7d">{{num+'/500'}}</view>
+    </view>
+    <view class="upload data-v-11afcb7d">
+        <view class="submit data-v-11afcb7d">
+            <view class="data-v-11afcb7d">
+                <u-upload action="{{action}}" autoUpload="{{true}}" bind:__l="__l" bind:onRemove="__e" bind:onUploaded="__e" class="data-v-11afcb7d vue-ref" customBtn="{{true}}" data-event-opts="{{[ [ '^onUploaded',[ ['onUploaded'] ] ],[ '^onRemove',[ ['onRemove'] ] ] ]}}" data-ref="Uupload" maxCount="4" name="images" vueId="31a48680-1" vueSlots="{{['addBtn']}}">
+                    <view class="slot-btn data-v-11afcb7d" hoverClass="slot-btn__hover" hoverStayTime="150" slot="addBtn">
+                        <image class="uploadicon data-v-11afcb7d" mode="widthFix" src="../../static/images/camera.png"></image>
+                        <text class="data-v-11afcb7d">添加图片</text>
+                        <text class="data-v-11afcb7d">最多4张</text>
+                    </view>
+                </u-upload>
+            </view>
+        </view>
+    </view>
+    <button bindtap="__e" class="loginSub data-v-11afcb7d" data-event-opts="{{[ [ 'tap',[ [ 'onSubmit',['$event'] ] ] ] ]}}">提交信息</button>
+    <u-toast bind:__l="__l" class="data-v-11afcb7d vue-ref" data-ref="uToast" vueId="31a48680-2"></u-toast>
+</view>

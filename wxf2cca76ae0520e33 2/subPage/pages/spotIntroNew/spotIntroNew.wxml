@@ -1,0 +1,267 @@
+<view class="u-wrap data-v-3508333f">
+    <uni-navbar bind:__l="__l" class="data-v-3508333f" id="navBar" title="详细信息" vueId="4c6a4d20-1"></uni-navbar>
+    <view class="tab-box data-v-3508333f" id="nav">
+        <view bindtap="__e" class="title-box data-v-3508333f" data-event-opts="{{[ [ 'tap',[ [ 'loc',['kfsj'] ] ] ] ]}}" wx:if="{{detailObj.openTimeVoList&&detailObj.openTimeVoList[0]}}">
+            <view class="left data-v-3508333f">
+                <view class="{{['name','data-v-3508333f',locations=='kfsj'?'active':'']}}">{{detailObj.openTimeTitle||'开放时间'}}</view>
+                <view class="line data-v-3508333f" wx:if="{{locations=='kfsj'}}"></view>
+            </view>
+        </view>
+        <view bindtap="__e" class="title-box data-v-3508333f" data-event-opts="{{[ [ 'tap',[ [ 'loc',['mdxx'] ] ] ] ]}}" wx:if="{{detailObj.storeVoList&&detailObj.storeVoList[0]}}">
+            <view class="left data-v-3508333f">
+                <view class="{{['name','data-v-3508333f',locations=='mdxx'?'active':'']}}">{{detailObj.storeInfoTitle||'门店信息'}}</view>
+                <view class="line data-v-3508333f" wx:if="{{locations=='mdxx'}}"></view>
+            </view>
+        </view>
+        <view bindtap="__e" class="title-box data-v-3508333f" data-event-opts="{{[ [ 'tap',[ [ 'loc',['ssfw'] ] ] ] ]}}" wx:if="{{detailObj.type!=1&&( detailObj.facilitiesServicesVoList&&detailObj.facilitiesServicesVoList[0]||detailObj.additionalExplainVoList[0] )}}">
+            <view class="left data-v-3508333f">
+                <view class="{{['name','data-v-3508333f',locations=='ssfw'?'active':'']}}">{{detailObj.facilitiesServicesTitle||'设施服务'}}</view>
+                <view class="line data-v-3508333f" wx:if="{{locations=='ssfw'}}"></view>
+            </view>
+        </view>
+        <view bindtap="__e" class="title-box data-v-3508333f" data-event-opts="{{[ [ 'tap',[ [ 'loc',['tstj'] ] ] ] ]}}" wx:if="{{detailObj.specialRecommendationVoList&&detailObj.specialRecommendationVoList[0]}}">
+            <view class="left data-v-3508333f">
+                <view class="{{['name','data-v-3508333f',locations=='tstj'?'active':'']}}">{{(detailObj.specialRecommendationTitle||'特色推荐')+''}}</view>
+                <view class="line data-v-3508333f" wx:if="{{locations=='tstj'}}"></view>
+            </view>
+        </view>
+        <view bindtap="__e" class="title-box data-v-3508333f" data-event-opts="{{[ [ 'tap',[ [ 'loc',['ydzc'] ] ] ] ]}}" wx:if="{{detailObj.discountVoList&&detailObj.discountVoList[0]}}">
+            <view class="left data-v-3508333f">
+                <view class="{{['name','data-v-3508333f',locations=='ydzc'?'active':'']}}">{{detailObj.reservationNoticeTitle||'优待政策'}}</view>
+                <view class="line data-v-3508333f" wx:if="{{locations=='ydzc'}}"></view>
+            </view>
+        </view>
+        <view bindtap="__e" class="title-box data-v-3508333f" data-event-opts="{{[ [ 'tap',[ [ 'loc',['ssfw'] ] ] ] ]}}" wx:if="{{hasYwxz&&detailObj.type==1}}">
+            <view class="left data-v-3508333f">
+                <view class="{{['name','data-v-3508333f',locations=='ssfw'?'active':'']}}">{{detailObj.visitNoticeTitle||'游玩须知'}}</view>
+                <view class="line data-v-3508333f" wx:if="{{locations=='ssfw'}}"></view>
+            </view>
+        </view>
+        <view bindtap="__e" class="title-box data-v-3508333f" data-event-opts="{{[ [ 'tap',[ [ 'loc',['jtzn'] ] ] ] ]}}" wx:if="{{hasTraffic&&detailObj.type!=1}}">
+            <view class="left data-v-3508333f">
+                <view class="{{['name','data-v-3508333f',locations=='jtzn'?'active':'']}}">{{detailObj.trafficGuideTitle||'交通指南'}}</view>
+                <view class="line data-v-3508333f" wx:if="{{locations=='jtzn'}}"></view>
+            </view>
+        </view>
+    </view>
+    <scroll-view bindscroll="__e" class="scroll-box data-v-3508333f" data-event-opts="{{[ [ 'scroll',[ [ 'onScrolling',['$event'] ] ] ] ]}}" scrollTop="{{sTop}}" scrollY="true" style="{{'height:'+winHeight-navBarH-windowWidth/750*170+'px'+';'}}" wx:if="{{showScroll}}">
+        <view class="bg data-v-3508333f">
+            <view class="tq-box data-v-3508333f" id="kfsj">
+                <view bindtap="__e" class="{{['item','data-v-3508333f',activeDay==item.$orig.timeType?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeActiveDay',['$0'],[ [ ['weatherObj','',__i0__,'timeType'] ] ] ] ] ] ]}}" wx:for="{{$root.l0}}" wx:for-index="__i0__">
+                    <view class="t data-v-3508333f">
+                        <view class="data-v-3508333f">{{item.m0}}</view>
+                    </view>
+                    <view class="b data-v-3508333f">{{item.$orig.weather+' | '+item.$orig.nightAirTemperature+'/'+item.$orig.dayAirTemperature+'℃'}}</view>
+                </view>
+            </view>
+            <view class="row row1 data-v-3508333f" wx:if="{{detailObj.noticeMsg}}">
+                <view class="title-box data-v-3508333f">重要通知</view>
+                <view class="content-box data-v-3508333f">
+                    <u-parse bind:__l="__l" bind:imgtap="__e" class="data-v-3508333f vue-ref" data-event-opts="{{[ [ '^imgtap',[ ['priviewImg'] ] ] ]}}" data-ref="noticeMsg" html="{{detailObj.noticeMsg}}" lazyLoad="{{true}}" style="text-indent:0;word-break:break-all;white-space:pre-wrap;" tagStyle="{{parseStyle}}" vueId="4c6a4d20-2"></u-parse>
+                </view>
+            </view>
+            <view class="row row2 data-v-3508333f" id="kfsj" wx:if="{{detailObj.openTimeVoList&&detailObj.openTimeVoList[0]}}">
+                <view class="title-box data-v-3508333f">{{detailObj.openTimeTitle||'开放时间'}}</view>
+                <view class="content-box data-v-3508333f">
+                    <u-table align="left" bind:__l="__l" class="u-table data-v-3508333f" color="#656565" fontSize="28rpx" padding="18rpx 32rpx" thStyle="{{color:'#656565',background:'#FFFAF8',fontWeight:600}}" vueId="4c6a4d20-3" vueSlots="{{['default']}}">
+                        <view class="data-v-3508333f" wx:for="{{$root.l2}}">
+                            <u-tr bind:__l="__l" class="u-tr data-v-3508333f" vueId="{{'4c6a4d20-4-'+index+','+'4c6a4d20-3'}}" vueSlots="{{['default']}}">
+                                <u-th bind:__l="__l" class="u-th data-v-3508333f" vueId="{{'4c6a4d20-5-'+index+','+'4c6a4d20-4-'+index}}" vueSlots="{{['default']}}">
+                                    <text class="data-v-3508333f" style="font-weight:bold;color:#656565;">{{item.$orig.openTimeTitle}}</text>
+                                </u-th>
+                            </u-tr>
+                            <u-tr bind:__l="__l" class="u-tr data-v-3508333f" vueId="{{'4c6a4d20-6-'+index+','+'4c6a4d20-3'}}" vueSlots="{{['default']}}">
+                                <u-td bind:__l="__l" class="u-td data-v-3508333f" vueId="{{'4c6a4d20-7-'+index+','+'4c6a4d20-6-'+index}}" vueSlots="{{['default']}}">
+                                    <text class="data-v-3508333f" style="color:#656565;" wx:for="{{item.l1}}" wx:for-index="__i1__" wx:for-item="text">{{text}}</text>
+                                </u-td>
+                            </u-tr>
+                        </view>
+                    </u-table>
+                </view>
+                <view class="open-time-info data-v-3508333f">
+                    <image mode class="data-v-3508333f" src="https://eshopfile.zhiyousx.com/2022090115065996863.png"></image>以上信息仅供参考，具体以当日实际公示信息为准</view>
+            </view>
+            <view class="row row2 data-v-3508333f" id="mdxx" wx:if="{{detailObj.storeVoList&&detailObj.storeVoList[0]}}">
+                <view class="title-box data-v-3508333f">{{detailObj.storeInfoTitle||'门店信息'}}</view>
+                <view class="content-box data-v-3508333f">
+                    <u-table align="left" bind:__l="__l" class="u-table data-v-3508333f" color="#656565" fontSize="28rpx" padding="18rpx 32rpx" thStyle="{{color:'#656565',background:'#FFFAF8',fontWeight:600}}" vueId="4c6a4d20-8" vueSlots="{{['default']}}">
+                        <view class="data-v-3508333f" wx:for="{{$root.l4}}">
+                            <u-tr bind:__l="__l" class="u-tr data-v-3508333f" vueId="{{'4c6a4d20-9-'+index+','+'4c6a4d20-8'}}" vueSlots="{{['default']}}">
+                                <u-th bind:__l="__l" class="u-th data-v-3508333f" vueId="{{'4c6a4d20-10-'+index+','+'4c6a4d20-9-'+index}}" vueSlots="{{['default']}}">
+                                    <text class="data-v-3508333f" style="font-weight:bold;color:#656565;">{{item.$orig.storeTitel}}</text>
+                                </u-th>
+                            </u-tr>
+                            <u-tr bind:__l="__l" class="u-tr data-v-3508333f" vueId="{{'4c6a4d20-11-'+index+','+'4c6a4d20-8'}}" vueSlots="{{['default']}}">
+                                <u-td bind:__l="__l" class="u-td data-v-3508333f" vueId="{{'4c6a4d20-12-'+index+','+'4c6a4d20-11-'+index}}" vueSlots="{{['default']}}">
+                                    <text class="data-v-3508333f" style="color:#656565;" wx:for="{{item.l3}}" wx:for-index="__i2__" wx:for-item="text">{{text}}</text>
+                                </u-td>
+                            </u-tr>
+                        </view>
+                    </u-table>
+                </view>
+                <view class="open-time-info data-v-3508333f">
+                    <image mode class="data-v-3508333f" src="https://eshopfile.zhiyousx.com/2022090115065996863.png"></image>以上信息仅供参考，具体以当日实际公示信息为准</view>
+            </view>
+            <view class="row row2 data-v-3508333f" id="ydzc" style="{{detailObj.discountVoList&&detailObj.discountVoList[0]?'':'height:2rpx;visibility: hidden;margin-bottom:0;'}}">
+                <view class="title-box data-v-3508333f">{{detailObj.reservationNoticeTitle||'优待政策'}}</view>
+                <view class="content-box border data-v-3508333f">
+                    <view class="tr first data-v-3508333f">
+                        <view class="td data-v-3508333f">适用人群</view>
+                        <view class="td data-v-3508333f">适用条件</view>
+                        <view class="td data-v-3508333f">优待政策</view>
+                    </view>
+                    <view class="tr data-v-3508333f" wx:for="{{detailObj.discountVoList}}">
+                        <view class="td data-v-3508333f">{{item.peopleType||''}}</view>
+                        <view class="td data-v-3508333f">{{item.limit||''}}</view>
+                        <view class="td data-v-3508333f">{{item.discount||''}}</view>
+                    </view>
+                </view>
+            </view>
+            <view class="row row3 data-v-3508333f" id="ssfw" style="{{detailObj.facilitiesServicesVoList&&detailObj.facilitiesServicesVoList[0]||detailObj.additionalExplainVoList&&detailObj.additionalExplainVoList[0]?'':'height:2rpx;visibility: hidden;margin-bottom:0;'}}">
+                <view class="title-box data-v-3508333f">{{detailObj.facilitiesServicesTitle||'设施服务'}}</view>
+                <view class="content-box data-v-3508333f">
+                    <view class="icon-box data-v-3508333f">
+                        <view class="item data-v-3508333f" wx:for="{{detailObj.facilitiesServicesVoList}}" wx:for-index="__i3__">
+                            <image mode class="data-v-3508333f" src="{{item.tagUrl}}"></image>
+                            <view class="name data-v-3508333f">{{item.name}}</view>
+                        </view>
+                    </view>
+                    <view class="table data-v-3508333f" wx:for="{{$root.l6}}" wx:for-index="__i4__">
+                        <view class="tr first data-v-3508333f">
+                            <view class="td data-v-3508333f" style="font-weight:bold;">{{item.$orig.additionalExplainTitle||''}}</view>
+                        </view>
+                        <view class="tr data-v-3508333f">
+                            <view class="td data-v-3508333f">
+                                <text class="data-v-3508333f" wx:for="{{item.l5}}" wx:for-index="__i5__" wx:for-item="text">{{text}}</text>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="row row2 data-v-3508333f" id="tstj" wx:if="{{detailObj.specialRecommendationVoList&&detailObj.specialRecommendationVoList[0]}}">
+                <view class="title-box data-v-3508333f">{{detailObj.specialRecommendationTitle||'特色推荐'}}</view>
+                <view class="content-box data-v-3508333f">
+                    <u-table align="left" bind:__l="__l" class="u-table data-v-3508333f" color="#656565" fontSize="28rpx" padding="18rpx 32rpx" thStyle="{{color:'#656565',background:'#FFFAF8',fontWeight:600}}" vueId="4c6a4d20-13" vueSlots="{{['default']}}">
+                        <view class="data-v-3508333f" wx:for="{{$root.l8}}">
+                            <u-tr bind:__l="__l" class="u-tr data-v-3508333f" vueId="{{'4c6a4d20-14-'+index+','+'4c6a4d20-13'}}" vueSlots="{{['default']}}">
+                                <u-th bind:__l="__l" class="u-th data-v-3508333f" vueId="{{'4c6a4d20-15-'+index+','+'4c6a4d20-14-'+index}}" vueSlots="{{['default']}}">
+                                    <text class="data-v-3508333f" style="font-weight:bold;color:#656565;">{{item.$orig.specialRecommendationTitel}}</text>
+                                </u-th>
+                            </u-tr>
+                            <u-tr bind:__l="__l" class="u-tr data-v-3508333f" vueId="{{'4c6a4d20-16-'+index+','+'4c6a4d20-13'}}" vueSlots="{{['default']}}">
+                                <u-td bind:__l="__l" class="u-td data-v-3508333f" vueId="{{'4c6a4d20-17-'+index+','+'4c6a4d20-16-'+index}}" vueSlots="{{['default']}}">
+                                    <text class="data-v-3508333f" style="color:#656565;" wx:for="{{item.l7}}" wx:for-index="__i6__" wx:for-item="text">{{text}}</text>
+                                </u-td>
+                            </u-tr>
+                        </view>
+                    </u-table>
+                </view>
+                <view class="open-time-info data-v-3508333f">
+                    <image mode class="data-v-3508333f" src="https://eshopfile.zhiyousx.com/2022090115065996863.png"></image>以上信息仅供参考，具体以当日实际公示信息为准</view>
+            </view>
+            <view class="row row4 data-v-3508333f" id="jtzn" wx:if="{{hasTraffic}}">
+                <view class="title-box data-v-3508333f">{{detailObj.trafficGuideTitle||'交通指南'}}</view>
+                <view class="content-box data-v-3508333f">
+                    <view class="item-list data-v-3508333f">
+                        <view class="item data-v-3508333f" wx:if="{{item.$orig.trafficContent}}" wx:for="{{$root.l9}}" wx:for-index="__i7__">
+                            <view class="l data-v-3508333f">
+                                <image mode class="data-v-3508333f" src="{{'https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew ('+item.$orig.trafficType+2+').png'}}"></image>
+                            </view>
+                            <view class="r data-v-3508333f">
+                                <view class="t data-v-3508333f">{{item.m1}}</view>
+                                <view class="b data-v-3508333f">
+                                    <rich-text class="data-v-3508333f" nodes="{{item.$orig.trafficContent}}" style="font-size:28rpx;"></rich-text>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="row row5 data-v-3508333f" wx:if="{{!noJqxx}}">
+                <view class="title-box data-v-3508333f">{{$root.m2}}</view>
+                <view class="content-box data-v-3508333f">
+                    <view class="item-list data-v-3508333f">
+                        <view class="item data-v-3508333f" wx:if="{{detailObj.officialWebsite&&detailObj.officialWebsite[0]}}">
+                            <view class="l data-v-3508333f">
+                                <image mode class="data-v-3508333f" src="https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (6).png"></image>
+                            </view>
+                            <view class="r data-v-3508333f">
+                                <view class="t data-v-3508333f">官方网站</view>
+                                <view class="b between data-v-3508333f">
+                                    <view class="weibo-box data-v-3508333f" wx:for="{{detailObj.officialWebsite}}" wx:for-index="__i8__">
+                                        <view bindtap="__e" class="weibo data-v-3508333f" data-event-opts="{{[ [ 'tap',[ [ 'goHref',['$0'],[ [ ['detailObj.officialWebsite','',__i8__] ] ] ] ] ] ]}}" style="color:#3582fb;">{{item}}</view>
+                                        <view bindtap="__e" class="copy data-v-3508333f" data-event-opts="{{[ [ 'tap',[ [ 'copyFn',['$0','复制网址成功'],[ [ ['detailObj.officialWebsite','',__i8__] ] ] ] ] ] ]}}">复制</view>
+                                    </view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="item data-v-3508333f" wx:if="{{detailObj.telephoneVoList&&detailObj.telephoneVoList[0]}}">
+                            <view class="l data-v-3508333f">
+                                <image mode class="data-v-3508333f" src="https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (7).png"></image>
+                            </view>
+                            <view class="r data-v-3508333f">
+                                <view class="t data-v-3508333f">联系电话</view>
+                                <view class="b data-v-3508333f">
+                                    <view class="phone-box data-v-3508333f" wx:for="{{detailObj.telephoneVoList}}" wx:for-index="__i9__">
+                                        <view class="l multilineText2 data-v-3508333f">{{item.telephoneTitle}}</view>
+                                        <view bindtap="__e" class="r data-v-3508333f" data-event-opts="{{[ [ 'tap',[ [ 'call',['$0'],[ [ ['detailObj.telephoneVoList','',__i9__,'telephone'] ] ] ] ] ] ]}}">
+                                            <view class="data-v-3508333f">{{item.telephone||''}}</view>
+                                            <image mode class="data-v-3508333f" src="https://eshopfile.zhiyousx.com/spotIntroNew/dianhua.png"></image>
+                                        </view>
+                                    </view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="item data-v-3508333f" wx:if="{{detailObj.wxSubscriptionVoList&&detailObj.wxSubscriptionVoList[0]}}">
+                            <view class="l data-v-3508333f">
+                                <image mode class="data-v-3508333f" src="https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (8).png"></image>
+                            </view>
+                            <view class="r data-v-3508333f">
+                                <view class="t data-v-3508333f">微信公众号</view>
+                                <view class="b data-v-3508333f" wx:for="{{detailObj.wxSubscriptionVoList}}" wx:for-index="__i10__">
+                                    <view class="wx-box data-v-3508333f">
+                                        <view class="t data-v-3508333f">{{item.wxSubscriptionType||''}}</view>
+                                        <view class="b data-v-3508333f">
+                                            <view class="m singleLineText data-v-3508333f">{{(item.wxSubscriptionName||'')+(item.wxSubscription?'（'+item.wxSubscription+'）':'')}}</view>
+                                            <view bindtap="__e" class="r data-v-3508333f" data-event-opts="{{[ [ 'tap',[ [ 'copyFn',['$0','复制微信号成功'],[ [ ['detailObj.wxSubscriptionVoList','',__i10__,'wxSubscription'] ] ] ] ] ] ]}}" wx:if="{{item.wxSubscription}}">复制</view>
+                                        </view>
+                                    </view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="item data-v-3508333f" wx:if="{{detailObj.tiktokVoList&&detailObj.tiktokVoList[0]}}">
+                            <view class="l data-v-3508333f">
+                                <image mode class="data-v-3508333f" src="https://eshopfile.zhiyousx.com/2022100909491063450.png"></image>
+                            </view>
+                            <view class="r data-v-3508333f">
+                                <view class="t data-v-3508333f">抖音</view>
+                                <view class="b data-v-3508333f" wx:for="{{detailObj.tiktokVoList}}" wx:for-index="__i11__">
+                                    <view class="wx-box data-v-3508333f">
+                                        <view class="b data-v-3508333f">
+                                            <view class="m singleLineText data-v-3508333f">{{(item.toktokName||'')+(item.toktokNo?'（'+item.toktokNo+'）':'')}}</view>
+                                            <view bindtap="__e" class="r data-v-3508333f" data-event-opts="{{[ [ 'tap',[ [ 'copyFn',['$0','复制抖音号成功'],[ [ ['detailObj.tiktokVoList','',__i11__,'toktokNo'] ] ] ] ] ] ]}}" wx:if="{{item.toktokNo}}">复制</view>
+                                        </view>
+                                    </view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="item data-v-3508333f" wx:if="{{detailObj.sinaWeiboVoList&&detailObj.sinaWeiboVoList[0]}}">
+                            <view class="l data-v-3508333f">
+                                <image mode class="data-v-3508333f" src="https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (9).png"></image>
+                            </view>
+                            <view class="r data-v-3508333f">
+                                <view class="t data-v-3508333f">新浪微博</view>
+                                <view class="b between data-v-3508333f" wx:for="{{detailObj.sinaWeiboVoList}}" wx:for-index="__i12__">
+                                    <view class="weibo-box data-v-3508333f">
+                                        <view class="weibo data-v-3508333f">{{item.sinaWeibo}}</view>
+                                        <view bindtap="__e" class="copy data-v-3508333f" data-event-opts="{{[ [ 'tap',[ [ 'copyFn',['$0','复制微博主页成功'],[ [ ['detailObj.sinaWeiboVoList','',__i12__,'sinaWeibo'] ] ] ] ] ] ]}}">复制</view>
+                                    </view>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </scroll-view>
+</view>

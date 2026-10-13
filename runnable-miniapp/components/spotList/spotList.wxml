@@ -1,0 +1,31 @@
+<view class="container">
+    <view bindtap="__e" class="spot-item" data-event-opts="{{[ [ 'tap',[ [ 'routerTo',['$0'],[ [ ['datas','',index] ] ] ] ] ] ]}}" wx:for="{{$root.l0}}" wx:for-item="spot">
+        <view class="imagebox">
+            <view class="badge gold" wx:if="{{index==0&&type==8}}">1</view>
+            <block wx:else>
+                <view class="badge silver" wx:if="{{index==1&&type==8}}">2</view>
+                <block wx:else>
+                    <view class="badge bronze" wx:if="{{index==2&&type==8}}">3</view>
+                    <block wx:else>
+                        <view class="{{['badge',index+1>99?'small':'']}}" wx:if="{{index>2&&type==8}}">{{index+1}}</view>
+                    </block>
+                </block>
+            </block>
+            <view class="mainimg">
+                <image mode="aspectFill" src="{{spot.$orig.originUrl}}"></image>
+            </view>
+            <view class="swiper">
+                <u-swiper bgColor="rgba(0,0,0,0)" bind:__l="__l" bind:click="__e" borderRadius="20" data-event-opts="{{[ [ '^click',[ [ 'routerTo',['$0'],[ [ ['datas','',index] ] ] ] ] ] ]}}" height="236" indicatorActiveColor="rgba(255,255,255,.5)" indicatorColor="#fff" indicatorPos="bottomCenter" interval="5000" list="{{spot.m0}}" name="url" vueId="{{'9d10c0fc-1-'+index}}"></u-swiper>
+            </view>
+        </view>
+        <view class="txt">
+            <view class="title multilineText2">
+                <text wx:if="{{spot.$orig.isBookable}}">订</text>{{''+spot.$orig.originName+''}}</view>
+            <view class="likeRate" wx:if="{{(type==8||type==7)&&rankingType==2&&spot.$orig.favoriteValue}}">
+                <text class="icon">喜爱值</text>
+                <text class="num">{{spot.$orig.favoriteValue}}</text>
+            </view>
+            <view class="subtitle singleLineText">{{spot.$orig.originSubtitleName||''}}</view>
+        </view>
+    </view>
+</view>

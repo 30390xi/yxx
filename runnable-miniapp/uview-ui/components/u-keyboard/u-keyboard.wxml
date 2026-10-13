@@ -1,0 +1,10 @@
+<u-popup bind:__l="__l" bind:close="__e" bind:input="__e" class="data-v-6fb56001" data-event-opts="{{[ [ '^close',[ ['popupClose'] ] ],[ '^input',[ [ '__set_model',[ '','value','$event',[] ] ] ] ] ]}}" length="auto" mask="{{mask}}" maskCloseAble="{{maskCloseAble}}" mode="bottom" popup="{{false}}" safeAreaInsetBottom="{{safeAreaInsetBottom}}" value="{{value}}" vueId="0c298934-1" vueSlots="{{['default']}}">
+    <slot></slot>
+    <view class="u-tooltip data-v-6fb56001" wx:if="{{tooltip}}">
+        <view bindtap="__e" class="u-tooltip-item u-tooltip-cancel data-v-6fb56001" data-event-opts="{{[ [ 'tap',[ [ 'onCancel',['$event'] ] ] ] ]}}" hoverClass="u-tooltip-cancel-hover">{{''+(cancelBtn?'取消':'')+''}}</view>
+        <view class="u-tooltip-item u-tooltip-tips data-v-6fb56001" wx:if="{{showTips}}">{{''+(tips?tips:mode=='number'?'数字键盘':mode=='card'?'身份证键盘':'车牌号键盘')+''}}</view>
+        <view bindtap="__e" class="u-tooltip-item u-tooltips-submit data-v-6fb56001" data-event-opts="{{[ [ 'tap',[ [ 'onConfirm',['$event'] ] ] ] ]}}" hoverClass="u-tooltips-submit-hover" wx:if="{{confirmBtn}}">{{''+(confirmBtn?'完成':'')+''}}</view>
+    </view>
+    <u-number-keyboard bind:__l="__l" bind:backspace="__e" bind:change="__e" class="data-v-6fb56001" data-event-opts="{{[ [ '^backspace',[ ['backspace'] ] ],[ '^change',[ ['change'] ] ] ]}}" dotEnabled="{{dotEnabled}}" mode="{{mode}}" random="{{random}}" vueId="{{'0c298934-2'+','+'0c298934-1'}}" wx:if="{{mode=='number'||mode=='card'}}"></u-number-keyboard>
+    <u-car-keyboard bind:__l="__l" bind:backspace="__e" bind:change="__e" class="data-v-6fb56001" data-event-opts="{{[ [ '^backspace',[ ['backspace'] ] ],[ '^change',[ ['change'] ] ] ]}}" random="{{random}}" vueId="{{'0c298934-3'+','+'0c298934-1'}}" wx:else></u-car-keyboard>
+</u-popup>

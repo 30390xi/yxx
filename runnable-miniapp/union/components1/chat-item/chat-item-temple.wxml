@@ -1,0 +1,54 @@
+<view class="chat-item">
+    <view class="{{[true?'chat-container':'',item.type==1?'chat-location-me':'']}}">
+        <view class="chat-content-container">
+            <view class="chat-text-container-super" style="{{'justify-content:'+(item.type==1?'flex-end':'flex-start')+';'}}">
+                <view class="{{[true?'chat-text-container':'',item.type==1?'chat-text-container-me':'',item.type!=1?'chat-text-container-no':'']}}">
+                    <view class="bubble">
+                        <view class="{{[true?'chat-text':'']}}">
+                            <view class="text-warp" space="nbsp" userSelect="true" wx:if="{{item.content}}">{{''+item.content+''}}</view>
+                            <view class="loading-box" wx:if="{{!item.content}}">正在思考中<view class="loading">
+                                    <view class="pot"></view>
+                                    <view class="pot"></view>
+                                    <view class="pot"></view>
+                                </view>
+                            </view>
+                            <view bindtap="__e" class="travelBtn" data-event-opts="{{[ [ 'tap',[ [ 'gotoPage',['$0'],['item.btnUrl'] ] ] ] ]}}" wx:if="{{item.showBtn}}">立即前往<image class="icon" src="https://eshopfile.zhiyousx.com/175153148262435174.png"></image>
+                            </view>
+                            <view style="width:100%;margin-top:30rpx;" wx:if="{{$root.g0}}">
+                                <view class="spot_card" style="background:rgba(255,255,255,.6);" wx:for="{{$root.l1}}" wx:for-item="el" wx:key="index">
+                                    <view bindtap="__e" class="card_top" data-event-opts="{{[ [ 'tap',[ [ 'goSpot',['$0'],[ [ ['item.list','',index,'id'] ] ] ] ] ] ]}}">
+                                        <image class="head_img" mode="aspectFill" src="{{el.$orig.mainPic}}"></image>
+                                        <view class="card_info">
+                                            <view class="card_title _p">{{el.$orig.name}}</view>
+                                            <view class="ranking singleLineText">
+                                                <view class="text">
+                                                    <view class="name singleLineText">{{el.$orig.tag}}</view>
+                                                </view>
+                                            </view>
+                                            <view class="card_ticket">
+                                                <view class="ding" wx:if="{{el.$orig.price}}">订</view>
+                                                <view class="price">{{(!el.$orig.price?'免费':'￥'+el.$orig.price)+''}}<text wx:if="{{el.$orig.price&&el.$orig.startPriceFlag==1}}">起</text>
+                                                </view>
+                                                <view class="ticketName singleLineText" wx:if="{{el.$orig.ticketName}}">{{el.$orig.ticketName}}</view>
+                                            </view>
+                                        </view>
+                                    </view>
+                                    <view bindtap="__e" class="card_imgList" data-event-opts="{{[ [ 'tap',[ [ 'jumpSpotContentList',['$0'],[ [ ['item.list','',index],['contentList','',contNum] ] ] ] ] ] ]}}" wx:for="{{el.l0}}" wx:for-index="contNum" wx:for-item="cont" wx:key="contNum">
+                                        <view class="_p">{{cont.$orig.contentModuleName}}</view>
+                                        <view class="img_list">
+                                            <image class="img_li" mode="aspectFill" src="{{imgs.coverImage}}" wx:if="{{imgNum<(cont.g1==6?6:5)}}" wx:for="{{cont.$orig.contentList}}" wx:for-index="imgNum" wx:for-item="imgs" wx:key="imgNum"></image>
+                                        </view>
+                                        <view class="img_more" wx:if="{{cont.g2>6}}">{{''+cont.m0+''}}</view>
+                                    </view>
+                                </view>
+                            </view>
+                            <view wx:if="{{$root.g3}}">
+                                <image bindtap="__e" class="card-images" data-event-opts="{{[ [ 'tap',[ [ 'previewImageClick',[i] ] ] ] ]}}" mode="widthFix" src="{{el.url}}" wx:for="{{item.imageCard}}" wx:for-index="i" wx:for-item="el" wx:key="i"></image>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

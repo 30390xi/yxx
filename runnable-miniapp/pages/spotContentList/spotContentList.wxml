@@ -1,0 +1,19 @@
+<view class="u-wrap data-v-a31362e2">
+    <uni-navbar bind:__l="__l" class="data-v-a31362e2" type="fixed" vueId="706f38d8-1"></uni-navbar>
+    <view class="content-tag data-v-a31362e2">
+        <view class="tag data-v-a31362e2">{{name}}</view>
+    </view>
+    <view class="content-box data-v-a31362e2">
+        <view bindtap="__e" class="content-item data-v-a31362e2" data-event-opts="{{[ [ 'tap',[ [ 'jumpSpotThirdDetail',['$0'],[ [ ['contentInfoVOList','',idx] ] ] ] ] ] ]}}" wx:for="{{$root.l0}}" wx:for-index="idx" wx:key="idx">
+            <image class="cover data-v-a31362e2" mode="aspectFill" src="{{item.$orig.coverImage}}"></image>
+            <view class="content data-v-a31362e2">
+                <view class="title singleLineText data-v-a31362e2">{{item.$orig.title}}</view>
+                <view class="subTitle multilineText2 data-v-a31362e2" wx:if="{{item.$orig.subtitle}}">{{item.$orig.subtitle}}</view>
+                <view class="hot data-v-a31362e2" wx:if="{{item.$orig.likeRatio}}">
+                    <view class="l data-v-a31362e2">喜爱值</view>
+                    <view class="likeNum data-v-a31362e2">{{item.f0}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

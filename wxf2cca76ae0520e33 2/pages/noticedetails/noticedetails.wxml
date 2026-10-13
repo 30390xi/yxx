@@ -1,0 +1,7 @@
+<view class="data-v-2ed063a8">
+    <view class="data-v-2ed063a8" style="padding:20rpx 30rpx;text-align:center;font-size:30rpx;">{{content.title}}</view>
+    <view class="data-v-2ed063a8" style="text-align:center;padding:0 30rpx;font-size:24rpx;">{{content.createTime}}</view>
+    <view class="richText data-v-2ed063a8">
+        <u-parse bind:__l="__l" class="data-v-2ed063a8 vue-ref" data-ref="article" html="{{content.content}}" lazyLoad="{{true}}" tagStyle="{{parseStyle}}" vueId="7f39cd2c-1"></u-parse>
+    </view>
+</view>

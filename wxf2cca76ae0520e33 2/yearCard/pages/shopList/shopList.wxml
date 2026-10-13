@@ -1,0 +1,41 @@
+<view class="shop-list data-v-f49d721e">
+    <uni-navbar bind:__l="__l" bind:tap="__e" class="data-v-f49d721e" data-event-opts="{{[ [ '^tap',[ ['openPopup'] ] ] ]}}" type="transparentFixed" vueId="94820514-1"></uni-navbar>
+    <view class="unreal-header data-v-f49d721e" style="{{'opacity:'+opacity+';'+'padding:'+statusBarHeight+'px 96rpx 24rpx 24rpx'+';'}}">
+        <view class="unreal-header-content nav-card data-v-f49d721e" style="{{'color:'+fontColor+';'}}">{{''+title+''}}<image class="data-v-f49d721e" src="https://eshopfile.zhiyousx.com/2023102716084018229.png"></image>
+        </view>
+    </view>
+    <view class="header-bg data-v-f49d721e" style="{{'padding:'+statusBarHeight+'px 30rpx 24rpx 24rpx'+';'}}">
+        <view class="nav-card data-v-f49d721e" style="{{'color:'+fontColor+';'}}">{{''+title+''}}<image class="data-v-f49d721e" src="https://eshopfile.zhiyousx.com/2023102716084018229.png"></image>
+        </view>
+        <view class="search-box data-v-f49d721e">
+            <view class="search data-v-f49d721e">
+                <u-icon bind:__l="__l" class="data-v-f49d721e" color="#808080" name="search" size="50" vueId="94820514-2"></u-icon>
+                <input bindchange="__e" bindinput="__e" class="data-v-f49d721e" confirmType="search" data-event-opts="{{[ [ 'change',[ [ 'handleChange',['$event'] ] ] ],[ 'input',[ [ '__set_model',[ '','searchText','$event',[] ] ] ] ] ]}}" placeholder="搜索可用景区/影院/体验项等" value="{{searchText}}"></input>
+            </view>
+            <view bindtap="__e" class="map data-v-f49d721e" data-event-opts="{{[ [ 'tap',[ [ 'goMap',['$event'] ] ] ] ]}}">
+                <u-icon bind:__l="__l" class="data-v-f49d721e" color="#4E5969" name="map-fill" size="30" vueId="94820514-3"></u-icon>
+                <text class="data-v-f49d721e">地图</text>
+            </view>
+        </view>
+    </view>
+    <view class="shop-list-container data-v-f49d721e" style="{top:`calc(${statusBarHeight}px + 120rpx)`};" wx:if="{{$root.g0}}">
+        <scroll-view class="data-v-f49d721e" scrollX="{{true}}">
+            <view class="tab data-v-f49d721e">
+                <view bindtap="__e" class="{{['data-v-f49d721e',index===checkedTabIndex&&'checked']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeTab',[index] ] ] ] ]}}" wx:for="{{tabList}}" wx:key="index">{{''+item.className}}<text class="drop data-v-f49d721e"></text>{{item.detailNum+'家'}}</view>
+            </view>
+        </scroll-view>
+        <view class="status-tab data-v-f49d721e">
+            <view bindtap="__e" class="{{['data-v-f49d721e',item.g1]}}" data-event-opts="{{[ [ 'tap',[ [ 'changeStatus',['$0'],[ [ ['statusList','id',item.$orig.id,'id'] ] ] ] ] ] ]}}" wx:for="{{$root.l0}}" wx:for-index="__i0__" wx:key="id">{{''+item.$orig.name+''}}</view>
+        </view>
+        <block wx:if="{{$root.g2}}">
+            <view class="shop-item-m data-v-f49d721e" wx:for="{{filterList}}" wx:key="index">
+                <shop-item bind:__l="__l" class="data-v-f49d721e" info="{{item}}" mapPage="{{1}}" userYearCardId="{{currentId}}" vueId="{{'94820514-4-'+index}}"></shop-item>
+            </view>
+        </block>
+        <view class="no-page data-v-f49d721e" wx:else>
+            <image class="data-v-f49d721e" src="https://eshopfile.zhiyousx.com/2023110116325879617.png"></image>
+            <view class="data-v-f49d721e">暂无记录</view>
+        </view>
+    </view>
+    <select-card bind:__l="__l" bind:change="__e" bind:updateShow="__e" class="data-v-f49d721e" currentId="{{currentId}}" data-event-opts="{{[ [ '^updateShow',[ [ '__set_sync',['$0','selectCardShow','$event'],[''] ] ] ],[ '^change',[ ['changeCard'] ] ] ]}}" popupData="{{popupData}}" show="{{selectCardShow}}" vueId="94820514-5"></select-card>
+</view>

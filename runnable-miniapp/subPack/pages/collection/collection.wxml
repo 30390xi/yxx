@@ -1,0 +1,33 @@
+<view class="page-collection data-v-dae27714">
+    <view bindtap="__e" class="navRight data-v-dae27714" data-event-opts="{{[ [ 'tap',[ [ 'onEditor',['$event'] ] ] ] ]}}">{{isEditor?'编辑':'完成'}}</view>
+    <view class="list data-v-dae27714">
+        <view class="item data-v-dae27714" wx:for="{{goodsInfo}}" wx:key="index">
+            <view class="itemLeft data-v-dae27714" wx:if="{{!isEditor}}">
+                <u-checkbox activeColor="#ff463c" bind:__l="__l" bind:change="__e" bind:input="__e" class="data-v-dae27714" data-event-opts="{{[ [ '^change',[ ['checkboxChange'] ] ],[ '^input',[ [ '__set_model',[ '$0','checked','$event',[] ],[ [ ['goodsInfo','',index] ] ] ] ] ] ]}}" name="{{item.id}}" shape="circle" value="{{item.checked}}" vueId="{{'624843d4-1-'+index}}"></u-checkbox>
+            </view>
+            <view bindtap="__e" class="{{['data-v-dae27714',isEditor?'itemMid':'diff']}}" data-event-opts="{{[ [ 'tap',[ [ 'goGoodsDetails',['$0','$1'],[ [ ['goodsInfo','',index,'itemId'] ],[ ['goodsInfo','',index,'isValid'] ] ] ] ] ] ]}}">
+                <image class="_img data-v-dae27714" src="{{item.defaultPicUrl}}"></image>
+            </view>
+            <view bindtap="__e" class="{{['itemRight','data-v-dae27714',!isEditor?'fixWidth':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'goGoodsDetails',['$0','$1'],[ [ ['goodsInfo','',index,'itemId'] ],[ ['goodsInfo','',index,'isValid'] ] ] ] ] ] ]}}">
+                <text class="text multilineText3 data-v-dae27714">{{item.itemTitle}}</text>
+                <text class="itemSubTitle multilineText1 data-v-dae27714">{{item.itemSubTitle?item.itemSubTitle:''}}</text>
+                <text class="price data-v-dae27714" wx:if="{{item.itemStock>0}}">{{(item.price?item.price:0)+(item.priceType===1?'起':'')}}</text>
+                <view class="noStock data-v-dae27714" wx:else>暂无库存</view>
+            </view>
+            <view class="fText data-v-dae27714" wx:if="{{item.isValid===1}}">失效</view>
+        </view>
+    </view>
+    <view class="empty data-v-dae27714" wx:if="{{$root.g0}}">
+        <empty-state bind:__l="__l" class="data-v-dae27714" imgUrl="https://eshopfile.zhiyousx.com/noOrder@2x.png" text="暂无收藏" vueId="624843d4-2"></empty-state>
+    </view>
+    <view class="loadMore data-v-dae27714">
+        <u-loadmore bgColor="#f7f7f7" bind:__l="__l" class="data-v-dae27714" color="#ccc" data-custom-hidden="{{!$root.g1}}" iconColor="#ccc" status="{{loadMore}}" vueId="624843d4-3"></u-loadmore>
+    </view>
+    <view class="addheight data-v-dae27714"></view>
+    <view class="select-all data-v-dae27714" wx:if="{{!isEditor}}">
+        <u-checkbox activeColor="#ff463c" bind:__l="__l" bind:change="__e" bind:input="__e" checked="{{allCheck.checked}}" class="data-v-dae27714" data-event-opts="{{[ [ '^change',[ ['allChecked'] ] ],[ '^input',[ [ '__set_model',[ '$0','checked','$event',[] ],['allCheck'] ] ] ] ]}}" shape="circle" value="{{allCheck.checked}}" vueId="624843d4-4" vueSlots="{{['default']}}">全选</u-checkbox>
+        <view bindtap="__e" class="del data-v-dae27714" data-event-opts="{{[ [ 'tap',[ [ 'del',['$event'] ] ] ] ]}}">
+            <text class="data-v-dae27714">{{'删除('+delNum+')'}}</text>
+        </view>
+    </view>
+</view>

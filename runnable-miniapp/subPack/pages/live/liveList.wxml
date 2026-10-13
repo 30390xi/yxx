@@ -1,0 +1,21 @@
+<view class="live-box data-v-4fc75733">
+    <view bindtap="__e" class="liveItem data-v-4fc75733" data-event-opts="{{[ [ 'tap',[ [ 'toDetail',['$0'],[ [ ['listData','',index] ] ] ] ] ] ]}}" wx:for="{{$root.l0}}" wx:key="index">
+        <view class="live-video data-v-4fc75733">
+            <image class="videoPlay data-v-4fc75733" mode="aspectFill" src="{{item.$orig.mainImage}}"></image>
+            <view class="video-bg data-v-4fc75733">
+                <view class="hot-box data-v-4fc75733">
+                    <image class="hot-icon data-v-4fc75733" mode="aspectFill" src="https://eshopfile.zhiyousx.com/2024012312210644492.png"></image>
+                    <view class="hot data-v-4fc75733">{{item.f0}}</view>
+                </view>
+            </view>
+        </view>
+        <view class="info-box data-v-4fc75733">
+            <view class="title data-v-4fc75733">{{''+item.$orig.title+''}}<view class="icon-box data-v-4fc75733" wx:if="{{item.$orig.state===1}}">
+                    <view class="icon data-v-4fc75733">
+                        <live-icon bind:__l="__l" class="ic data-v-4fc75733" vueId="{{'3216f518-1-'+index}}"></live-icon>直播中</view>
+                </view>
+            </view>
+            <view class="sub-title data-v-4fc75733">{{''+item.$orig.intro+''}}</view>
+        </view>
+    </view>
+</view>

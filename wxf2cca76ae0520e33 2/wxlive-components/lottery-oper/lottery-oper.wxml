@@ -1,0 +1,205 @@
+<view class="lottery-oper__dialog {{lotteryPush.participate_type===2&&lotteryType!=='result'?'lottery-oper__dialog__team':''}} {{lotteryOperClass}} {{isHideLotteryOper?'lottery-oper__dialog-hide':''}}">
+    <view bindtap="closeLotteryOper" class="lottery-oper__dialog__mask"></view>
+    <view class="lottery-oper__dialog__container">
+        <view class="lottery-oper__dialog__bd__for-hide-scroll">
+            <view class="lottery-oper__dialog__bd__for-hide-scroll__inner" wx:if="{{showLotteryComplete}}">
+                <block wx:if="{{lotteryPush.participate_type!==2}}">
+                    <view class="lottery-oper__dialog__head">
+                        <view bindtap="closeLotteryOper" class="lottery-oper__dialog__close"></view>
+                        <view bindtap="clickEnterContact" class="lottery-oper__dialog__head__extend" wx:if="{{!hideKf&&lotteryType!=='result-list'&&!isClickResultList}}">联系客服</view>
+                    </view>
+                    <view class="lottery-oper__dialog__inner lottery-oper__unstart lottery-oper__collect" wx:if="{{(lotteryType==='unstart'||lotteryType==='collect')&&!isClickResultList}}">
+                        <view class="lottery-oper__unstart__head">
+                            <view class="lottery-oper__dialog__title">{{lotteryPush.name}}<text class="lottery-oper__luck-num" wx:if="{{lotteryPush.luck_limit}}">抽 {{lotteryPush.luck_limit}} 人</text>
+                            </view>
+                            <block wx:if="{{showLotteryCountTime}}">
+                                <view class="lottery-oper__dialog__info">开奖倒计时</view>
+                                <view class="lottery-oper__dialog__time">{{lotteryCountTime}}</view>
+                            </block>
+                            <view class="lottery-oper__dialog__time lottery-oper__dialog__time__waiting" wx:else>开奖中</view>
+                            <view class="lottery-oper__dialog__remark"></view>
+                        </view>
+                        <view class="lottery-oper__unstart__foot">
+                            <view class="lottery-oper__btn lottery-oper__btn-primary lottery-oper__btn-disabled" wx:if="{{lotteryPush.isParticipate}}">{{lotteryPush.participate_type===1?'已点赞':'已评论'}}</view>
+                            <block wx:else>
+                                <button bindtap="onGetUserInfo" class="lottery-oper__btn lottery-oper__btn-primary" data-after="onClickParticipate" wx:if="{{isWxaMode&&!isAuthored}}">{{lotteryPush.participate_type===1?'去点赞':'去评论'}}</button>
+                                <view bindtouchstart="onClickParticipate" class="lottery-oper__btn lottery-oper__btn-primary" wx:else>{{lotteryPush.participate_type===1?'去点赞':'去评论'}}</view>
+                            </block>
+                            <view class="lottery-oper__unstart__foot__desc" wx:if="{{lotteryType==='collect'&&showLotteryCountTime}}">{{lotteryPush.participate_type===0?'发表评论':'点赞'}}即可参与抽奖</view>
+                            <view class="lottery-oper__unstart__foot__desc" wx:if="{{lotteryType==='collect'&&!showLotteryCountTime}}">耐心等待主播开奖</view>
+                            <view bindtap="clickResultList" class="lottery-oper__result__extend__info lottery-oper__result__link" wx:if="{{lotteryType!=='result-list'&&!isClickResultList&&isHistoryLuck}}">中奖记录</view>
+                        </view>
+                    </view>
+                    <view class="lottery-oper__dialog__inner lottery-oper__result" wx:elif="{{lotteryType==='result'&&!isClickResultList}}">
+                        <view class="lottery-oper__result__head">
+                            <component-lottery-oper-result bindlotteryevent="onLotteryEvent" curLotteryLuckMen="{{curLotteryLuckMen}}" id="component-lottery-oper-result" lotteryPush="{{lotteryPush}}" myLotteryTeamMembers="{{myLotteryTeamMembers}}" roomAppid="{{roomAppid}}" roomId="{{roomId}}" screenType="{{screenType}}"></component-lottery-oper-result>
+                        </view>
+                        <view class="lottery-oper__result__foot">
+                            <component-lottery-oper-rewards curLotteryLuckMen="{{curLotteryLuckMen}}" lotteryPush="{{lotteryPush}}" screenType="{{screenType}}"></component-lottery-oper-rewards>
+                        </view>
+                        <view class="lottery-oper__result__extend">
+                            <view bindtap="onCopy" class="lottery-oper__result__extend__info" data-token="{{lotteryPush.token}}" wx:if="{{lotteryPush.isWinLottery}}">保存 {{lotteryPush.token}} 以备校验</view>
+                            <view bindtap="clickResultList" class="lottery-oper__result__extend__info lottery-oper__result__link" wx:if="{{lotteryType!=='result-list'&&!isClickResultList&&isHistoryLuck}}">中奖记录</view>
+                        </view>
+                    </view>
+                    <scroll-view enableFlex scrollWithAnimation scrollY class="lottery-oper__dialog__inner lottery-oper__my-result-list" wx:elif="{{lotteryType==='result-list'||isClickResultList}}">
+                        <block wx:for="{{historyLotteryLuckMen}}" wx:for-index="historyIndex" wx:key="unique">
+                            <view class="lottery-oper__my-result-item" wx:if="{{item.obtain_type===0}}">
+                                <view bindtap="onCopy" class="lottery-oper__my-result-item__body" data-token="{{item.token}}">
+                                    <view class="lottery-oper__my-result__title">{{item.name}}</view>
+                                    <view class="lottery-oper__my-result__info" wx:if="{{!item.isFillLotteryAddress&&item.overTime}}">开奖已超过 24 小时，未填写寄奖地址，已视为放弃</view>
+                                    <view class="lottery-oper__my-result__info" wx:else>奖品将被直接寄出</view>
+                                    <view class="lottery-oper__my-result__info">保存 {{item.token}} 以备校验</view>
+                                </view>
+                                <view bindtap="onClickAddress" class="lottery-oper__my-result-item__foot {{!item.isFillLotteryAddress&&item.overTime?'lottery-oper__my-result-item__foot_disabled':''}}" data-index="{{historyIndex}}">{{item.isFillLotteryAddress?'查看寄奖地址':'填写寄奖地址'}}</view>
+                            </view>
+                            <view class="lottery-oper__my-result-item" wx:elif="{{item.obtain_type===1}}">
+                                <view class="lottery-oper__my-result-item__body">
+                                    <view class="lottery-oper__my-result__title">{{item.name}}</view>
+                                    <view class="lottery-oper__my-result__info">保存 {{item.token}} 作为凭证</view>
+                                </view>
+                                <view bindtap="onCopy" class="lottery-oper__my-result-item__foot" data-token="{{item.token}}">复制口令</view>
+                            </view>
+                            <view class="lottery-oper__my-result-item" wx:elif="{{item.obtain_type===2}}">
+                                <view bindtap="onCopy" class="lottery-oper__my-result-item__body" data-token="{{item.token}}">
+                                    <view class="lottery-oper__my-result__title">{{item.name}}</view>
+                                    <view class="lottery-oper__my-result__info" wx:if="{{!item.isFillLotteryPhone&&item.overTime}}">开奖已超过 24 小时，未填写手机号，已视为放弃</view>
+                                    <view class="lottery-oper__my-result__info" wx:else>兑奖手机号 {{item.address.phone}}</view>
+                                    <view class="lottery-oper__my-result__info">保存 {{item.token}} 以备校验</view>
+                                </view>
+                                <view bindtap="onClickPhone" class="lottery-oper__my-result-item__foot {{!item.isFillLotteryPhone&&item.overTime?'lottery-oper__my-result-item__foot_disabled':''}}" data-index="{{historyIndex}}">{{item.isFillLotteryPhone?'修改手机号':'填写手机号'}}</view>
+                            </view>
+                        </block>
+                    </scroll-view>
+                    <view class="lottery-oper__dialog__inner lottery-oper__error" wx:elif="{{lotteryType==='error'&&!isClickResultList}}">
+                        <view class="lottery-oper__result__head">
+                            <view class="lottery-oper__dialog__title">{{lotteryPush.name}}<text class="lottery-oper__luck-num" wx:if="{{lotteryPush.luck_limit}}">抽 {{lotteryPush.luck_limit}} 人</text>
+                            </view>
+                        </view>
+                        <view class="lottery-oper__result__body">
+                            <view class="lottery-oper__error__main">
+                                <view class="lottery-oper__error__main__info">
+                                    <view class="lottery-oper__error__main__info__content">抽奖异常</view>
+                                </view>
+                                <view class="lottery-oper__error__desc">{{lotteryErrorWording}}</view>
+                            </view>
+                        </view>
+                        <view class="lottery-oper__result__footer">
+                            <view bindtap="onRefreshLotteryResult" class="lottery-oper__btn lottery-oper__btn-primary">刷新试试</view>
+                        </view>
+                    </view>
+                </block>
+                <block wx:else>
+                    <view class="lottery-oper__dialog__head">
+                        <view bindtap="closeLotteryOper" class="lottery-oper__dialog__close"></view>
+                        <view bindtap="clickEnterContact" class="lottery-oper__dialog__head__extend" wx:if="{{!hideKf&&lotteryType!=='result-list'&&!isClickResultList}}">联系客服</view>
+                    </view>
+                    <view class="lottery-oper__dialog__inner lottery-oper__unstart lottery-oper__collect" wx:if="{{(lotteryType==='unstart'||lotteryType==='collect')&&!isClickResultList}}">
+                        <view class="lottery-oper__unstart__head">
+                            <view class="lottery-oper__dialog__title font-b">{{lotteryPush.name}}<text class="lottery-oper__luck-num">抽 {{lotteryPush.luck_limit}} 队</text>
+                            </view>
+                            <view class="lottery-oper__dialog__desc">三人组队参与抽奖，中奖后都有奖品。</view>
+                            <view class="lottery-oper__unstart__head__extend" wx:if="{{showLotteryCountTime}}">开奖倒计时 {{lotteryCountTime}}</view>
+                            <view class="lottery-oper__unstart__head__extend" wx:else>开奖中</view>
+                        </view>
+                        <view class="lottery-oper__team__body">
+                            <view class="lottery-oper__team__item" wx:for="{{lotteryTeamMembersIdxList}}" wx:key="unique">
+                                <view class="lottery-oper__team__avatar" style="{{'background: url('+(lotteryTeamMembers[index].avatar||lotteryTeamMembers[index].headimg||'https://res.wx.qq.com/a/fed_upload/198422a7-e66f-4765-8e37-a22c66d2592c/avatar_placeholder.svg')+') no-repeat center / cover'}}"></view>
+                                <view class="lottery-oper__team__item__nickname">{{lotteryTeamMembers[index].nickname||''}}</view>
+                            </view>
+                        </view>
+                        <view class="lottery-oper__team__extend">
+                            <view bindtap="onJoinLotteryTeam" class="lottery-oper__btn lottery-oper__btn-primary" wx:if="{{lotteryTeamStatus==='joinReady'}}">加入队伍</view>
+                            <button class="lottery-oper__btn lottery-oper__btn-primary" id="lottery-team-share" openType="share" wx:elif="{{lotteryTeamStatus==='joined'}}">邀请好友组队</button>
+                            <view class="lottery-oper__status lottery-oper__status__success" wx:elif="{{lotteryTeamStatus==='joinComplete'}}">组队完成，等待开奖</view>
+                            <block wx:elif="{{lotteryTeamStatus==='joinOther'}}">
+                                <view class="lottery-oper__status lottery-oper__status__info">你已经在其他组队中，不可重复组队。</view>
+                                <view bindtap="onViewMyLotteryTeam" class="lottery-oper__access-info">查看我的队伍</view>
+                            </block>
+                            <block wx:elif="{{lotteryTeamStatus==='joinNoFull'}}">
+                                <view class="lottery-oper__status lottery-oper__status__info">当前队伍已满，无法加入队伍。</view>
+                                <view bindtap="onCreateLotteryTeam" class="lottery-oper__btn lottery-oper__btn-primary lottery-oper__btn-team">组建新的队伍</view>
+                            </block>
+                            <block wx:elif="{{lotteryTeamStatus==='joinWithFull'}}">
+                                <view class="lottery-oper__status lottery-oper__status__info">当前队伍已满，无法加入队伍。</view>
+                                <view bindtap="onViewMyLotteryTeam" class="lottery-oper__access-info">查看我的队伍</view>
+                            </block>
+                        </view>
+                    </view>
+                    <view class="lottery-oper__dialog__inner lottery-oper__result" wx:elif="{{lotteryType==='result'&&!isClickResultList}}">
+                        <view class="lottery-oper__result__head">
+                            <component-lottery-oper-result bindlotteryevent="onLotteryEvent" curLotteryLuckMen="{{curLotteryLuckMen}}" id="component-lottery-oper-result" lotteryPush="{{lotteryPush}}" myLotteryTeamMembers="{{myLotteryTeamMembers}}" roomAppid="{{roomAppid}}" roomId="{{roomId}}" screenType="{{screenType}}"></component-lottery-oper-result>
+                        </view>
+                        <view class="lottery-oper__result__foot">
+                            <component-lottery-oper-rewards curLotteryLuckMen="{{curLotteryLuckMen}}" lotteryPush="{{lotteryPush}}" screenType="{{screenType}}"></component-lottery-oper-rewards>
+                        </view>
+                        <view class="lottery-oper__result__extend">
+                            <view bindtap="onCopy" class="lottery-oper__result__extend__info" data-token="{{lotteryPush.token}}" wx:if="{{lotteryPush.isWinLottery}}">保存 {{lotteryPush.token}} 以备校验</view>
+                            <view bindtap="clickResultList" class="lottery-oper__result__extend__info lottery-oper__result__link" wx:if="{{lotteryType!=='result-list'&&!isClickResultList&&isHistoryLuck}}">中奖记录</view>
+                        </view>
+                    </view>
+                    <scroll-view enableFlex scrollWithAnimation scrollY class="lottery-oper__dialog__inner lottery-oper__my-result-list" wx:elif="{{lotteryType==='result-list'||isClickResultList}}">
+                        <block wx:for="{{historyLotteryLuckMen}}" wx:for-index="historyIndex" wx:key="unique">
+                            <view class="lottery-oper__my-result-item" wx:if="{{item.obtain_type===0}}">
+                                <view bindtap="onCopy" class="lottery-oper__my-result-item__body" data-token="{{item.token}}">
+                                    <view class="lottery-oper__my-result__title">{{item.name}}</view>
+                                    <view class="lottery-oper__my-result__info" wx:if="{{!item.isFillLotteryAddress&&item.overTime}}">开奖已超过 24 小时，未填写寄奖地址，已视为放弃</view>
+                                    <view class="lottery-oper__my-result__info" wx:else>奖品将被直接寄出</view>
+                                    <view class="lottery-oper__my-result__info">保存 {{item.token}} 以备校验</view>
+                                </view>
+                                <view bindtap="onClickAddress" class="lottery-oper__my-result-item__foot {{!item.isFillLotteryAddress&&item.overTime?'lottery-oper__my-result-item__foot_disabled':''}}" data-index="{{historyIndex}}">{{item.isFillLotteryAddress?'查看寄奖地址':'填写寄奖地址'}}</view>
+                            </view>
+                            <view class="lottery-oper__my-result-item" wx:elif="{{item.obtain_type===1}}">
+                                <view class="lottery-oper__my-result-item__body">
+                                    <view class="lottery-oper__my-result__title">{{item.name}}</view>
+                                    <view class="lottery-oper__my-result__info">保存 {{item.token}} 作为凭证</view>
+                                </view>
+                                <view bindtap="onCopy" class="lottery-oper__my-result-item__foot" data-token="{{item.token}}">复制口令</view>
+                            </view>
+                            <view class="lottery-oper__my-result-item" wx:elif="{{item.obtain_type===2}}">
+                                <view bindtap="onCopy" class="lottery-oper__my-result-item__body" data-token="{{item.token}}">
+                                    <view class="lottery-oper__my-result__title">{{item.name}}</view>
+                                    <view class="lottery-oper__my-result__info" wx:if="{{!item.isFillLotteryPhone&&item.overTime}}">开奖已超过 24 小时，未填写手机号，已视为放弃</view>
+                                    <view class="lottery-oper__my-result__info" wx:else>兑奖手机号 {{item.address.phone}}</view>
+                                    <view class="lottery-oper__my-result__info">保存 {{item.token}} 以备校验</view>
+                                </view>
+                                <view bindtap="onClickPhone" class="lottery-oper__my-result-item__foot {{!item.isFillLotteryPhone&&item.overTime?'lottery-oper__my-result-item__foot_disabled':''}}" data-index="{{historyIndex}}">{{item.isFillLotteryPhone?'修改手机号':'填写手机号'}}</view>
+                            </view>
+                        </block>
+                    </scroll-view>
+                    <view class="lottery-oper__dialog__inner lottery-oper__error" wx:elif="{{lotteryType==='error'&&!isClickResultList}}">
+                        <view class="lottery-oper__result__head">
+                            <view class="lottery-oper__dialog__title">{{lotteryPush.name}}<text class="lottery-oper__luck-num" wx:if="{{lotteryPush.luck_limit}}">抽 {{lotteryPush.luck_limit}} 人</text>
+                            </view>
+                        </view>
+                        <view class="lottery-oper__result__body">
+                            <view class="lottery-oper__error__main">
+                                <view class="lottery-oper__error__main__info">
+                                    <view class="lottery-oper__error__main__info__content">抽奖异常</view>
+                                </view>
+                                <view class="lottery-oper__error__desc">{{lotteryErrorWording}}</view>
+                            </view>
+                        </view>
+                        <view class="lottery-oper__result__footer">
+                            <view bindtap="onRefreshLotteryResult" class="lottery-oper__btn lottery-oper__btn-primary">刷新试试</view>
+                        </view>
+                    </view>
+                </block>
+            </view>
+            <view class="lottery-oper-result__err" wx:else>
+                <view class="lottery-oper__dialog__head">
+                    <view bindtap="closeLotteryOper" class="lottery-oper__dialog__close"></view>
+                </view>
+                <view class="lottery-oper-result__loading" wx:if="{{showLotteryLoading}}">
+                    <view class="lottery-oper-result__err-info">
+                        <view class="icon__loading"></view>抽奖加载中</view>
+                </view>
+                <block wx:else>
+                    <view class="lottery-oper-result__err-info">
+                        <view class="icon__info"></view>抽奖加载异常</view>
+                    <view bindtap="onJoinLotteryTeam" class="lottery-oper-result__err-button">重新加载</view>
+                </block>
+            </view>
+        </view>
+    </view>
+</view>

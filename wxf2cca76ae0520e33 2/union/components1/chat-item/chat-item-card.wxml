@@ -1,0 +1,32 @@
+<view class="chat-item">
+    <view class="{{[true?'chat-container':'',item.type==1?'chat-location-me':'']}}">
+        <view class="chat-content-container">
+            <view class="chat-text-container-super" style="{{'justify-content:'+(item.type==1?'flex-end':'flex-start')+';'}}">
+                <view class="{{[true?'chat-text-container':'',item.type==1?'chat-text-container-me':'',item.type!=1?'chat-text-container-no':'']}}">
+                    <view class="bubble">
+                        <view class="{{[true?'chat-text':'']}}">
+                            <view class="content" wx:if="{{item.content}}">{{item.content}}</view>
+                            <view bindtap="__e" class="strategy-content" data-event-opts="{{[ [ 'tap',[ [ 'cardDetails',['$event'] ] ] ] ]}}" wx:else>
+                                <view class="{{['message',isHistory?'reverse':'']}}">
+                                    <image catchtap="__e" class="delete" data-event-opts="{{[ [ 'tap',[ [ 'delCard',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/175195946636604672.png" wx:if="{{isHistory}}"></image>
+                                    <text wx:if="{{item.message}}">{{item.message}}</text>
+                                </view>
+                                <view class="remind">您的专属行程已经生成，点击下方卡片查看吧</view>
+                                <view class="card">
+                                    <button catchtap="__e" class="shareBtn" data-event-opts="{{[ [ 'tap',[ ['share'] ] ] ]}}" hoverClass="none" hoverStayTime="0" openType="share"></button>
+                                    <view class="time">{{item.beginTime+' 至 '+item.endTime}}</view>
+                                    <view class="title">{{item.city+item.day+'日游'}}</view>
+                                    <view class="tags">
+                                        <view class="item" wx:for="{{item.scenicList}}" wx:for-item="it" wx:key="index">{{it}}</view>
+                                    </view>
+                                    <view class="welcome">{{'欢迎您来到'+item.city+'！'}}</view>
+                                </view>
+                                <view class="tips">由AI生成</view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

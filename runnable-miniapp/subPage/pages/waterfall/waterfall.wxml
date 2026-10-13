@@ -1,0 +1,66 @@
+<view class="u-wrap data-v-9c3ca3b2">
+    <uni-navbar bind:__l="__l" class="data-v-9c3ca3b2" title="游陕西精品路线攻略" titleCenter="{{false}}" transparentFixedFontColor="{{scrollTop+fixNavTop>navtop2?'#000000':'rgba(255,255,255,0)'}}" type="transparentFixed" vueId="0d2f92ba-1"></uni-navbar>
+    <view class="fixHeader data-v-9c3ca3b2" id="fixHeader" style="{{'background:'+'rgba(255,255,255,'+scrollTop/(navtop2-fixednavTop)+')'+';'}}">
+        <image class="rank data-v-9c3ca3b2" style="{{'margin-top:'+searchHeight+8+'px'+';'+'opacity:'+(scrollTop>navtop2-fixednavTop?1:0)+';'}}"></image>
+    </view>
+    <view class="headerInfo data-v-9c3ca3b2">
+        <image class="bgimg data-v-9c3ca3b2" mode="scaleToFill" src="/static/captured/13e57a9e4ac78058.png"></image>
+        <liu-dropdown bind:__l="__l" bind:change="__e" class="data-v-9c3ca3b2 vue-ref" data-event-opts="{{[ [ '^change',[ ['change'] ] ] ]}}" data-ref="liuDropdown" dataObj="{{dataObj}}" id="nav" menuList="{{menuList}}" status="{{true}}" style="{{fixedstyle}}" themeColor="rgba(255, 84, 17, 1)" vueId="0d2f92ba-2"></liu-dropdown>
+    </view>
+    <view class="container data-v-9c3ca3b2" wx:if="{{!spotList[0]}}">
+        <view class="noinfo data-v-9c3ca3b2">
+            <image class="noGoods data-v-9c3ca3b2" mode="widthFix" src="/static/captured/51d17a011d27445c.png"></image>
+            <view class="data-v-9c3ca3b2">没有相关内容</view>
+        </view>
+    </view>
+    <view class="container data-v-9c3ca3b2" wx:if="{{spotList[0]}}">
+        <view class="spotList data-v-9c3ca3b2" id="spotList">
+            <navigator class="item data-v-9c3ca3b2" url="{{'/subPage/pages/lineInfo/lineInfo?lineId='+item.$orig.lineId}}" wx:for="{{$root.l0}}" wx:for-index="__i0__">
+                <image class="img data-v-9c3ca3b2" mode="aspectFill" src="{{item.$orig.image}}"></image>
+                <view class="info data-v-9c3ca3b2">
+                    <view class="name data-v-9c3ca3b2">{{item.$orig.lineName}}</view>
+                    <view class="r data-v-9c3ca3b2">
+                        <view class="tag data-v-9c3ca3b2" wx:for="{{item.$orig.themeNameList}}" wx:for-index="__i1__" wx:for-item="t" wx:key="id">
+                            <view class="inner data-v-9c3ca3b2">
+                                <view class="name-i data-v-9c3ca3b2">{{t}}</view>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="desc data-v-9c3ca3b2">{{'游玩'+(item.$orig.day||0)+'天 '+item.m0+''+( item.g0>1?'共'+item.g1+'个目的地':''+(item.$orig.destinationNum>1?' 共'+item.$orig.destinationNum+'个观光地':''+item.$orig.destinationNames) )+''}}</view>
+                </view>
+            </navigator>
+        </view>
+        <view class="hot-topics data-v-9c3ca3b2">
+            <image class="data-v-9c3ca3b2" src="/static/captured/04cde855bad0e209.png"></image>
+            <text class="data-v-9c3ca3b2">热门主题玩法</text>
+            <image class="data-v-9c3ca3b2" src="/static/captured/3da812d1d1dad5ad.png"></image>
+        </view>
+        <view class="topics data-v-9c3ca3b2">
+            <view class="r data-v-9c3ca3b2">
+                <view bindtap="__e" class="tag data-v-9c3ca3b2" data-event-opts="{{[ [ 'tap',[ [ 'selectionTheme',['$0'],[ [ ['hotDetailTops','themeId',item.themeId] ] ] ] ] ] ]}}" wx:for="{{hotDetailTops}}" wx:for-index="__i2__" wx:key="themeId">
+                    <view class="inner data-v-9c3ca3b2" style="{{'background:'+'url('+item.themeUrl+')'+';'}}">
+                        <view class="tag-name data-v-9c3ca3b2">
+                            <view class="name data-v-9c3ca3b2">{{'#'+item.themeName}}</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="spotList topics-list data-v-9c3ca3b2" id="hotSpotList">
+            <navigator class="item data-v-9c3ca3b2" url="{{'/subPage/pages/lineInfo/lineInfo?lineId='+item.$orig.lineId}}" wx:for="{{$root.l1}}" wx:for-index="__i3__">
+                <image class="img data-v-9c3ca3b2" mode="aspectFill" src="{{item.$orig.image}}"></image>
+                <view class="info data-v-9c3ca3b2">
+                    <view class="name data-v-9c3ca3b2">{{item.$orig.lineName}}</view>
+                    <view class="r data-v-9c3ca3b2">
+                        <view class="tag data-v-9c3ca3b2" wx:for="{{item.$orig.themeNameList}}" wx:for-index="__i4__" wx:for-item="t" wx:key="id">
+                            <view class="inner data-v-9c3ca3b2">
+                                <view class="name-i data-v-9c3ca3b2">{{t}}</view>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="desc data-v-9c3ca3b2">{{'游玩'+(item.$orig.day||0)+'天 '+item.m1+''+( item.g2>1?'共'+item.g3+'个目的地':''+(item.$orig.destinationNum>1?' 共'+item.$orig.destinationNum+'个观光地':''+item.$orig.destinationNames) )+''}}</view>
+                </view>
+            </navigator>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,84 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": null,
+      "type": null,
+      "scenicName": "华清宫",
+      "scenicId": "1320579064720941182",
+      "status": null
+    },
+    {
+      "id": null,
+      "type": null,
+      "scenicName": "秦始皇帝陵博物院(兵马俑)",
+      "scenicId": "1320579064720941183",
+      "status": null
+    },
+    {
+      "id": null,
+      "type": null,
+      "scenicName": "华山风景名胜区",
+      "scenicId": "1320579064720941177",
+      "status": null
+    },
+    {
+      "id": null,
+      "type": null,
+      "scenicName": "黄河壶口瀑布旅游区",
+      "scenicId": "1320579064720941110",
+      "status": null
+    },
+    {
+      "id": null,
+      "type": null,
+      "scenicName": "西安博物院(小雁塔)",
+      "scenicId": "1320579064720941173",
+      "status": null
+    },
+    {
+      "id": null,
+      "type": null,
+      "scenicName": "西安碑林博物馆",
+      "scenicId": "1320579064720941134",
+      "status": null
+    },
+    {
+      "id": null,
+      "type": null,
+      "scenicName": "陕西历史博物馆",
+      "scenicId": "1320579064720941133",
+      "status": null
+    },
+    {
+      "id": null,
+      "type": null,
+      "scenicName": "乾陵国家考古遗址公园",
+      "scenicId": "1320579064720941099",
+      "status": null
+    },
+    {
+      "id": null,
+      "type": null,
+      "scenicName": "法门寺",
+      "scenicId": "1320579064720941179",
+      "status": null
+    },
+    {
+      "id": null,
+      "type": null,
+      "scenicName": "西安植物园",
+      "scenicId": "",
+      "status": null
+    },
+    {
+      "id": null,
+      "type": null,
+      "scenicName": "西安植物园",
+      "scenicId": "1320579064188264475",
+      "status": null
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

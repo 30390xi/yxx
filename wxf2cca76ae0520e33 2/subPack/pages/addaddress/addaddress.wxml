@@ -1,0 +1,37 @@
+<view class="addressBox data-v-1c18590e">
+    <view class="formBox data-v-1c18590e">
+        <u-form bind:__l="__l" class="data-v-1c18590e vue-ref" data-ref="uForm" errorType="{{errorType}}" model="{{dataForm}}" rules="{{rules}}" vueId="75264936-1" vueSlots="{{['default']}}">
+            <u-form-item bind:__l="__l" class="data-v-1c18590e" label="收货人" labelStyle="{{color:'#878787',fontSize:'28rpx'}}" labelWidth="150" prop="contactPerson" vueId="{{'75264936-2'+','+'75264936-1'}}" vueSlots="{{['default']}}">
+                <u-input bind:__l="__l" bind:input="__e" class="data-v-1c18590e" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','contactPerson','$event',[] ],['dataForm'] ] ] ] ]}}" focus="{{true}}" maxlength="20" placeholder="请填写收货人姓名" value="{{dataForm.contactPerson}}" vueId="{{'75264936-3'+','+'75264936-2'}}"></u-input>
+            </u-form-item>
+            <u-form-item bind:__l="__l" class="data-v-1c18590e" label="手机号码" labelStyle="{{color:'#878787',fontSize:'28rpx'}}" labelWidth="150" prop="contactMobile" vueId="{{'75264936-4'+','+'75264936-1'}}" vueSlots="{{['default']}}">
+                <u-input bind:__l="__l" bind:input="__e" class="data-v-1c18590e" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','contactMobile','$event',[] ],['dataForm'] ] ] ] ]}}" maxlength="11" placeholder="请填写收货人手机号" type="number" value="{{dataForm.contactMobile}}" vueId="{{'75264936-5'+','+'75264936-4'}}"></u-input>
+            </u-form-item>
+            <u-form-item bind:__l="__l" class="data-v-1c18590e" label="所在地区" labelStyle="{{color:'#878787',fontSize:'28rpx'}}" labelWidth="150" prop="addressLabel" vueId="{{'75264936-6'+','+'75264936-1'}}" vueSlots="{{['default']}}">
+                <ds-city bind:__l="__l" bind:cityChange="__e" bind:input="__e" class="data-v-1c18590e vue-ref" data-event-opts="{{[ [ '^cityChange',[ ['cityChange'] ] ],[ '^input',[ [ '__set_model',[ '','cityStatus','$event',[] ] ] ] ] ]}}" data-ref="dscity" defaultRegion="{{defaultRegion}}" value="{{cityStatus}}" vueId="{{'75264936-7'+','+'75264936-6'}}"></ds-city>
+                <u-input bind:__l="__l" bind:click="__e" bind:input="__e" class="data-v-1c18590e" data-event-opts="{{[ [ '^click',[ ['cityPup'] ] ],[ '^input',[ [ '__set_model',[ '$0','addressLabel','$event',[] ],['dataForm'] ] ] ] ]}}" disabled="{{true}}" placeholder="请选择" value="{{dataForm.addressLabel}}" vueId="{{'75264936-8'+','+'75264936-6'}}"></u-input>
+            </u-form-item>
+            <u-form-item bind:__l="__l" class="data-v-1c18590e" label="详细地址" labelStyle="{{color:'#878787',fontSize:'28rpx'}}" labelWidth="150" prop="addrStreet" vueId="{{'75264936-9'+','+'75264936-1'}}" vueSlots="{{['default']}}">
+                <u-input bind:__l="__l" bind:input="__e" class="data-v-1c18590e" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','addrStreet','$event',[] ],['dataForm'] ] ] ] ]}}" height="40" placeholder="街道,门牌号等" type="textarea" value="{{dataForm.addrStreet}}" vueId="{{'75264936-10'+','+'75264936-9'}}"></u-input>
+            </u-form-item>
+            <view class="tabel data-v-1c18590e">
+                <view class="tit data-v-1c18590e">地址标签</view>
+                <view class="tabelbox data-v-1c18590e">
+                    <view class="tagList data-v-1c18590e">
+                        <view bindtap="__e" class="{{['tabels','data-v-1c18590e',tabelName===item?'select':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'tabelfun',['$0'],[ [ ['tabellist','',index] ] ] ] ] ] ]}}" wx:for="{{tabellist}}" wx:key="index">{{item}}</view>
+                        <view bindtap="__e" class="tabels data-v-1c18590e" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" wx:if="{{!modalTag}}">+</view>
+                    </view>
+                    <view class="tagsBox data-v-1c18590e" wx:if="{{modalTag}}">
+                        <input bindblur="__e" bindinput="__e" class="{{['tagsInput','data-v-1c18590e',isEditor?'tagsInputeditor':'']}}" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '$0','addrAlias','$event',['trim'] ],['dataForm'] ] ] ],[ 'blur',[ ['$forceUpdate'] ] ] ]}}" disabled="{{isEditor}}" focus="{{true}}" maxlength="5" placeholder="请填写标签名称,最多5个字" placeholderStyle="color:#C0C4CC" value="{{dataForm.addrAlias}}"></input>
+                        <button bindtap="__e" class="{{['tagsBtn','data-v-1c18590e',isEditor?'editorBtn':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'addTags',['$event'] ] ] ] ]}}">{{isEditor?'编辑':'确定'}}</button>
+                    </view>
+                </view>
+            </view>
+            <u-form-item bind:__l="__l" borderBottom="{{false}}" class="data-v-1c18590e" label="设为默认地址" labelStyle="{{color:'#878787',fontSize:'28rpx'}}" labelWidth="200" prop="isDefault" vueId="{{'75264936-11'+','+'75264936-1'}}" vueSlots="{{['right']}}">
+                <switch bindchange="__e" checked="{{dataForm.isDefault}}" class="data-v-1c18590e" color="#FF4643" data-event-opts="{{[ [ 'change',[ [ 'switchChange',['$event'] ] ] ] ]}}" slot="right"></switch>
+            </u-form-item>
+        </u-form>
+    </view>
+    <button bindtap="__e" class="loginSub data-v-1c18590e" data-event-opts="{{[ [ 'tap',[ [ 'submit',['$event'] ] ] ] ]}}" disabled="{{loadingStatus}}" loading="{{loadingStatus}}">保存</button>
+    <button bindtap="__e" class="registerSub data-v-1c18590e" data-event-opts="{{[ [ 'tap',[ [ 'delAddress',['$event'] ] ] ] ]}}" wx:if="{{addrId}}">删除地址</button>
+</view>

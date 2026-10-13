@@ -1,0 +1,6 @@
+<view class="data-v-03e15530">
+    <uni-navbar bind:__l="__l" class="data-v-03e15530" type="transparentFixed" vueId="4a01780c-1"></uni-navbar>
+    <view class="page-box data-v-03e15530">
+        <image class="data-v-03e15530" mode="widthFix" src="{{imgUrl}}"></image>
+    </view>
+</view>

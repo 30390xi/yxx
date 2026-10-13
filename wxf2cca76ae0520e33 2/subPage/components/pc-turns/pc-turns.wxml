@@ -1,0 +1,6 @@
+<view bindtouchend="__e" bindtouchmove="__e" bindtouchstart="__e" class="pc_turns data-v-15d92d40" data-event-opts="{{[ [ 'touchstart',[ [ 'handleStart',['$event'] ] ] ],[ 'touchmove',[ [ 'handleMove',['$event'] ] ] ],[ 'touchend',[ [ 'handleEnd',['$event'] ] ] ] ]}}" style="height:470rpx;">
+    <view bindtap="__e" class="subgraph data-v-15d92d40" data-event-opts="{{[ [ 'tap',[ [ 'outputreturn',['$0',index],[ [ ['showlist','',index] ] ] ] ] ] ]}}" style="{{'left:'+item.left+'%;z-index:'+item.z_index+';transform: scale('+item.scale+');height:'+height+'rpx;backgroundColor:'+item.backgroundColor}}" wx:for="{{showlist}}" wx:key="index">
+        <view class="image-box data-v-15d92d40" style="{{'background-image:'+'url('+item.src+' )'+';'}}"></view>
+        <view class="mask data-v-15d92d40" wx:if="{{item.isMask}}"></view>
+    </view>
+</view>

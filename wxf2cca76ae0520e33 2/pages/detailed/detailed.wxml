@@ -1,0 +1,24 @@
+<view class="data-v-78374262">
+    <view class="header data-v-78374262">
+        <view bindtap="__e" class="data-v-78374262" data-event-opts="{{[ [ 'tap',[ [ 'showSheet',['$event'] ] ] ] ]}}">{{''+$root.m0+''}}<uni-icons bind:__l="__l" class="icon data-v-78374262" color="#c8c8c8" size="15" type="arrowdown" vueId="50ecf540-1"></uni-icons>
+        </view>
+        <view class="data-v-78374262"></view>
+    </view>
+    <view class="list data-v-78374262" wx:for="{{$root.l0}}" wx:key="index">
+        <view class="left data-v-78374262">
+            <view class="data-v-78374262">{{item.m1}}</view>
+            <view class="data-v-78374262" wx:if="{{item.$orig.type===2}}">{{'金额：'+item.f0}}</view>
+            <view class="data-v-78374262" wx:else>{{'订单：'+item.$orig.orderNo}}</view>
+        </view>
+        <view class="right data-v-78374262">
+            <view class="data-v-78374262">{{item.$orig.createTime}}</view>
+            <view class="{{['red','data-v-78374262',item.$orig.type===0?'red':'']}}">{{(item.$orig.type===0?'+':'-')+' '+item.f1}}</view>
+        </view>
+    </view>
+    <view class="empty data-v-78374262" wx:if="{{$root.g0}}">
+        <u-empty bind:__l="__l" class="data-v-78374262" marginTop="100" text=" " vueId="50ecf540-2"></u-empty>
+    </view>
+    <view class="loadMore data-v-78374262">
+        <u-loadmore bgColor="#f7f7f7" bind:__l="__l" class="data-v-78374262" color="#ccc" iconColor="#ccc" status="{{loadMore}}" vueId="50ecf540-3"></u-loadmore>
+    </view>
+</view>

@@ -1,0 +1,12 @@
+<view bindtap="clickOperatePaster" class="operate-paster">
+    <view class="operate-paster__inner" wx:if="{{activityInfo.jump_type===0||activityInfo.jump_type===1}}">
+        <canvas class="operate-paster__animation" id="operate-paster__canvas" style="width: 72px; height: 72px;" type="2d"></canvas>
+        <view class="operate-paster__image" style="background: url({{activityInfo.cdn_url}}) no-repeat center / contain"></view>
+    </view>
+    <navigator appId="{{activityInfo.jump_appid}}" bindfail="navigateToMiniProgramFail" bindsuccess="navigateToMiniProgramSucc" class="operate-paster__inner" extraData="{{jumpExtraData}}" hoverClass="navigator-hover" target="miniProgram" url="{{activityInfo.jump_url}}" wx:if="{{activityInfo.jump_type===2}}">
+        <view class="operate-paster__inner">
+            <canvas class="operate-paster__animation" hidden="!activityInfo.is_animation" id="operate-paster__canvas" style="width: 72px; height: 72px;" type="2d"></canvas>
+            <view class="operate-paster__image" hidden="{{activityInfo.is_animation}}" style="background: url({{activityInfo.cdn_url}}) no-repeat center / contain"></view>
+        </view>
+    </navigator>
+</view>

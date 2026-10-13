@@ -1,0 +1,71 @@
+<view class="page-box data-v-37484a26">
+    <input bindblur="__e" bindinput="__e" class="card-input data-v-37484a26" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '','password','$event',['trim'] ] ] ] ],[ 'blur',[ ['$forceUpdate'] ] ] ]}}" placeholder="请输入礼品卡密码，区分大小写" value="{{password}}"></input>
+    <view class="tip data-v-37484a26" wx:if="{{showTips}}">礼品卡密码有误，如有疑问请联系客服4000292296</view>
+    <view bindtap="__e" class="bind-but data-v-37484a26" data-event-opts="{{[ [ 'tap',[ [ 'getGiftCardById',['$event'] ] ] ] ]}}">绑定</view>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-37484a26" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','show','$event',[] ] ] ] ] ]}}" mode="center" value="{{show}}" vueId="ad6c7480-1" vueSlots="{{['default']}}">
+        <view class="card-box data-v-37484a26">
+            <view class="t1 data-v-37484a26">{{''+$root.f0+''}}</view>
+            <view class="t2 data-v-37484a26" wx:if="{{cardInfo.status==0}}">确认绑定后该卡不得转增，只可再当前账号使用</view>
+            <view class="card-box-popup data-v-37484a26">
+                <view class="{{['card-item-popup','data-v-37484a26',cardInfo.status==1||cardInfo.status==2||cardInfo.status==3||cardInfo.status==4||cardInfo.status==5||cardInfo.status==6?'filterBox':'']}}">
+                    <image mode class="card-image data-v-37484a26" src="{{cardInfo.cardPicUrl}}" wx:if="{{cardInfo.cardPicUrl}}"></image>
+                    <view class="card-data data-v-37484a26">
+                        <view class="{{['card-head','data-v-37484a26',!cardInfo.cardPicUrl?'cardHeadbg':'']}}">
+                            <image mode class="card-logo data-v-37484a26" src="../../static/images/logo.png" wx:if="{{!cardInfo.cardPicUrl}}"></image>
+                            <view class="card-info data-v-37484a26">
+                                <view class="card-name data-v-37484a26">{{''+cardInfo.name+''}}</view>
+                                <view class="card-value data-v-37484a26">{{'面值：'+cardInfo.quota+'元'}}</view>
+                            </view>
+                            <view bindtap="__e" class="card-log data-v-37484a26" data-event-opts="{{[ [ 'tap',[ [ 'getGiftCardDetail',['$0'],['cardInfo'] ] ] ] ]}}" wx:if="{{cardInfo.status!=0&&cardInfo.isSelfActivate==1}}">消费明细</view>
+                            <view class="card-time data-v-37484a26">{{''+$root.f1+''}}</view>
+                        </view>
+                        <view class="{{['card-body','data-v-37484a26',!cardInfo.cardPicUrl?'cardBodyBg':'']}}">
+                            <view class="card-balance data-v-37484a26">
+                                <text class="label data-v-37484a26">余额</text>
+                                <text class="value data-v-37484a26">{{'￥'+(cardInfo.balance||0)}}</text>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="but-popup data-v-37484a26" wx:if="{{cardInfo.status==0}}">
+                <view bindtap="__e" class="but data-v-37484a26" data-event-opts="{{[ [ 'tap',[ [ 'closePop',['$event'] ] ] ] ]}}">再想想</view>
+                <view bindtap="__e" class="but but1 data-v-37484a26" data-event-opts="{{[ [ 'tap',[ [ 'bindCard',['$event'] ] ] ] ]}}">确定</view>
+            </view>
+            <view bindtap="__e" class="butNot data-v-37484a26" data-event-opts="{{[ [ 'tap',[ [ 'closePop',['$event'] ] ] ] ]}}" wx:if="{{cardInfo.status!=0}}">确定</view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-37484a26" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showOther','$event',[] ] ] ] ] ]}}" mode="center" value="{{showOther}}" vueId="ad6c7480-2" vueSlots="{{['default']}}">
+        <view class="popup-other data-v-37484a26">
+            <view class="title data-v-37484a26">该卡已被绑定！</view>
+            <view bindtap="__e" class="but-other data-v-37484a26" data-event-opts="{{[ [ 'tap',[ [ 'closeOther',['$event'] ] ] ] ]}}">确定</view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-37484a26" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showDetail','$event',[] ] ] ] ] ]}}" mode="center" value="{{showDetail}}" vueId="ad6c7480-3" vueSlots="{{['default']}}">
+        <view class="popup-box data-v-37484a26">
+            <view class="title data-v-37484a26">我的礼品卡</view>
+            <view class="card-number data-v-37484a26">{{'卡号：'+cardId+''}}</view>
+            <view class="record data-v-37484a26">
+                <view class="name data-v-37484a26">消费记录：</view>
+                <view class="no-record data-v-37484a26" wx:if="{{$root.g0}}">
+                    <image mode class="icon3 data-v-37484a26" src="https://eshopfile.zhiyousx.com/2023111315442061719.png"></image>暂无消费记录</view>
+                <view class="record-box data-v-37484a26" wx:if="{{cardDetail[0]}}">
+                    <scroll-view class="data-v-37484a26" scrollY="true" style="height:350rpx;">
+                        <view class="record-item data-v-37484a26" wx:for="{{cardDetail}}" wx:key="index">
+                            <view class="item-left data-v-37484a26">
+                                <view class="item-orderId data-v-37484a26">{{'订单：'+item.orderId+''}}</view>
+                                <view class="item-time data-v-37484a26">{{''+item.createTime+''}}</view>
+                            </view>
+                            <view class="item-right data-v-37484a26">
+                                <view class="{{['item-change','data-v-37484a26',item.balanceChange>0?'add':'']}}">
+                                    <text class="data-v-37484a26" style="color:#FF5411;" wx:if="{{item.balanceChange>0}}">+</text>{{item.balanceChange+''}}</view>
+                                <view class="item-balance data-v-37484a26">{{'余：'+item.balance+''}}</view>
+                            </view>
+                        </view>
+                    </scroll-view>
+                </view>
+            </view>
+            <view bindtap="__e" class="but data-v-37484a26" data-event-opts="{{[ [ 'tap',[ [ 'closePopup',['$event'] ] ] ] ]}}">知道了</view>
+        </view>
+    </u-popup>
+</view>

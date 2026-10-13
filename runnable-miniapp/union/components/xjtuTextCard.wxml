@@ -1,0 +1,33 @@
+<view class="container data-v-95fcc798">
+    <view class="title data-v-95fcc798">{{scenicName+'景区测评'}}</view>
+    <view bindtap="__e" class="eva-enter data-v-95fcc798" data-event-opts="{{[ [ 'tap',[ ['jumpTo'] ] ] ]}}" wx:if="{{baseInfo}}">
+        <view class="eva-enter-l data-v-95fcc798">
+            <view class="score-1 data-v-95fcc798">{{baseInfo.score||baseInfo.score===0?$root.g0:''}}</view>
+            <view class="score-msg data-v-95fcc798">实测评分</view>
+        </view>
+        <view class="eva-enter-r data-v-95fcc798">
+            <view class="radar data-v-95fcc798">
+                <view class="data data-v-95fcc798" style="{{'clip-path:'+'polygon('+xyArr[0].x+' '+xyArr[0].y+', '+xyArr[1].x+' '+xyArr[1].y+', '+xyArr[2].x+' '+xyArr[2].y+')'+';'}}"></view>
+                <view class="data-wonders data-desc data-v-95fcc798">
+                    <view class="name data-v-95fcc798">奇观度</view>
+                    <view class="score data-v-95fcc798">{{baseInfo.scoreWonder||baseInfo.scoreWonder===0?$root.g1:''}}</view>
+                </view>
+                <view class="data-setting data-desc data-v-95fcc798">
+                    <view class="name data-v-95fcc798">配套设施</view>
+                    <view class="score data-v-95fcc798">{{baseInfo.scoreFacility||baseInfo.scoreFacility===0?$root.g2:''}}</view>
+                </view>
+                <view class="data-service data-desc data-v-95fcc798">
+                    <view class="name data-v-95fcc798">运营服务</view>
+                    <view class="score data-v-95fcc798">{{baseInfo.scoreOperation||baseInfo.scoreOperation===0?$root.g3:''}}</view>
+                </view>
+            </view>
+        </view>
+        <image class="enterIcon data-v-95fcc798" mode="aspectFill" src="https://eshopfile.zhiyousx.com/175462295999908064.png"></image>
+    </view>
+    <view class="video-list data-v-95fcc798" wx:if="{{$root.g4}}">
+        <view class="video-item data-v-95fcc798" wx:for="{{videoList}}" wx:for-index="ind" wx:for-item="el" wx:key="ind">
+            <image bindtap="__e" class="video-item-img data-v-95fcc798" data-event-opts="{{[ [ 'tap',[ [ 'gotoVideo',['$0'],[ [ ['videoList','',ind,'vlogUrl'] ] ] ] ] ] ]}}" mode="aspectFill" src="{{el.coverImage}}"></image>
+            <image bindtap="__e" class="video-item-btn data-v-95fcc798" data-event-opts="{{[ [ 'tap',[ [ 'gotoVideo',['$0'],[ [ ['videoList','',ind,'vlogUrl'] ] ] ] ] ] ]}}" mode="aspectFill" src="https://eshopfile.zhiyousx.com/175490833075804316.png"></image>
+        </view>
+    </view>
+</view>

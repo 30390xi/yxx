@@ -1,0 +1,203 @@
+<view class="container data-v-9aae6e9a" wx:if="{{pageData.peopleNum}}">
+    <view class="snowInfo data-v-9aae6e9a">
+        <view class="title data-v-9aae6e9a">{{pageData.itemTitle}}</view>
+        <view class="item data-v-9aae6e9a">
+            <view class="name data-v-9aae6e9a">订单编号：</view>
+            <view class="value data-v-9aae6e9a">{{orderId}}</view>
+        </view>
+        <view class="item item-bottom data-v-9aae6e9a">
+            <view class="name data-v-9aae6e9a">使用日期：</view>
+            <view class="value data-v-9aae6e9a">{{pageData.ticketUseDate+''}}<text class="useTime data-v-9aae6e9a" wx:if="{{pageData.ticketUseStartTime&&pageData.ticketUseEndTime}}">{{pageData.ticketUseStartTime+'~'+pageData.ticketUseEndTime}}</text>
+            </view>
+        </view>
+        <view class="item1 item1-bottom data-v-9aae6e9a">
+            <view class="name data-v-9aae6e9a">预计到达时间</view>
+            <view bindtap="__e" class="value data-v-9aae6e9a" data-event-opts="{{[ [ 'tap',[ [ 'openTime',['$event'] ] ] ] ]}}">
+                <view class="data-v-9aae6e9a" wx:if="{{subscribeTime}}">{{dayTime+' '+subscribeTime}}</view>
+                <view class="data-v-9aae6e9a" wx:else>请选择<image mode class="icon data-v-9aae6e9a" src="https://eshopfile.zhiyousx.com/images/snow/right.png"></image>
+                </view>
+            </view>
+        </view>
+        <view class="item1 item1-bottom data-v-9aae6e9a">
+            <view class="name data-v-9aae6e9a">预约雪具人数</view>
+            <view class="value data-v-9aae6e9a">{{(pageData.peopleNum||'')+'人'}}</view>
+        </view>
+        <view class="item1 data-v-9aae6e9a">
+            <view class="name data-v-9aae6e9a">押金</view>
+            <view class="value color data-v-9aae6e9a">{{(pageData.deposit||'')+'元/每人'}}</view>
+        </view>
+    </view>
+    <view class="gear-box data-v-9aae6e9a">
+        <view class="it data-v-9aae6e9a" wx:for="{{$root.l0}}" wx:key="index">
+            <view class="top-box data-v-9aae6e9a">
+                <view class="left data-v-9aae6e9a">
+                    <image mode class="icon data-v-9aae6e9a" src="{{item.m0}}"></image>
+                    <view class="title data-v-9aae6e9a">{{item.$orig.configName}}</view>
+                    <view class="price colorType data-v-9aae6e9a" wx:if="{{item.$orig.price}}">{{'￥'+item.$orig.price+'/'+item.m1}}</view>
+                    <view class="price colorType data-v-9aae6e9a" wx:if="{{item.$orig.remarks}}">{{item.$orig.remarks}}</view>
+                </view>
+                <view bindtap="__e" class="right data-v-9aae6e9a" data-event-opts="{{[ [ 'tap',[ [ 'showMore',[index] ] ] ] ]}}">
+                    <image mode class="{{['img','','data-v-9aae6e9a',item.$orig.showMore==1?'show':'']}}" src="https://eshopfile.zhiyousx.com/images/snow/snowGear011.png"></image>
+                </view>
+            </view>
+            <view class="userBox data-v-9aae6e9a" wx:if="{{item.$orig.showMore==0}}">
+                <view class="user data-v-9aae6e9a" wx:for="{{userChoose}}" wx:for-index="i" wx:for-item="it" wx:key="i">
+                    <view class="box data-v-9aae6e9a">
+                        <view class="index data-v-9aae6e9a">{{'预约人'+i+1}}</view>
+                        <scroll-view class="left data-v-9aae6e9a" scrollX="{{true}}" wx:if="{{sid}}">
+                            <view bindtap="__e" class="{{['choose','data-v-9aae6e9a',it1.id===it['id'+item.$orig.configClass]?'active':'',initData[i]['dis'+item.$orig.configClass]?'dis':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'selectItem',['$0','$1',i,'$2','$3',index],[ [ ['records','',index,'configClass'] ],[ ['records','',index],['childList','',i1] ],'sid',[ ['records','',index] ] ] ] ] ] ]}}" wx:for="{{item.$orig.childList}}" wx:for-index="i1" wx:for-item="it1" wx:key="i1">{{it1.configName}}</view>
+                        </scroll-view>
+                        <scroll-view class="left data-v-9aae6e9a" scrollX="{{true}}" wx:else>
+                            <view bindtap="__e" class="{{['choose','data-v-9aae6e9a',it1.id===it['id'+item.$orig.configClass]?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'selectItem',['$0','$1',i],[ [ ['records','',index,'configClass'] ],[ ['records','',index],['childList','',i1] ] ] ] ] ] ]}}" wx:for="{{item.$orig.childList}}" wx:for-index="i1" wx:for-item="it1" wx:key="i1">{{it1.configName}}</view>
+                        </scroll-view>
+                    </view>
+                    <view class="input-box data-v-9aae6e9a" wx:if="{{item.$orig.configClass==1&&it.type1==2}}">
+                        <input bindblur="__e" bindinput="__e" class="uInput data-v-9aae6e9a" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '$0','value1','$event',['trim'] ],[ [ ['userChoose','',i] ] ] ],[ 'inputNumber',[i,'$event'] ] ] ],[ 'blur',[ ['$forceUpdate'] ] ] ]}}" disabled="{{initData[i]['heightdisable']}}" name="text" placeholder="请输入身高" type="number" value="{{it.value1}}"></input>
+                        <text class="cm data-v-9aae6e9a">cm</text>
+                    </view>
+                    <view bindtap="__e" class="uni-input data-v-9aae6e9a" data-event-opts="{{[ [ 'tap',[ [ 'showPopup',[1,i] ] ] ] ]}}" style="{{'pointer-events:'+(sid&&it.shoesdisable?'none':'initial')+';'}}" wx:if="{{item.$orig.configClass==2&&it.type1==2&&it.type2==1}}">
+                        <view class="text2 data-v-9aae6e9a" wx:if="{{it.value2&&it.value2.id}}">{{it.value2.configName}}</view>
+                        <view class="text2 data-v-9aae6e9a" wx:else>请选择鞋码</view>
+                        <image mode class="down data-v-9aae6e9a" src="https://eshopfile.zhiyousx.com/images/snow/down.png"></image>
+                    </view>
+                    <view bindtap="__e" class="uni-input data-v-9aae6e9a" data-event-opts="{{[ [ 'tap',[ [ 'showPopup',[2,i] ] ] ] ]}}" style="{{'pointer-events:'+(sid&&it.closedisable?'none':'initial')+';'}}" wx:if="{{item.$orig.configClass==4&&it.type4==1}}">
+                        <view class="text2 data-v-9aae6e9a" wx:if="{{it.value4&&it.value4.id}}">{{it.value4.configName}}</view>
+                        <view class="text2 data-v-9aae6e9a" wx:else>请选择尺码</view>
+                        <image mode class="down data-v-9aae6e9a" src="https://eshopfile.zhiyousx.com/images/snow/down.png"></image>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="yy-info data-v-9aae6e9a" wx:if="{{pageData.useMemo}}">
+        <view class="info data-v-9aae6e9a">
+            <u-parse bind:__l="__l" class="data-v-9aae6e9a vue-ref" data-ref="mask" html="{{pageData.useMemo}}" lazyLoad="{{true}}" style="text-align:justify;" tagStyle="{{parseStyle}}" vueId="ada783c0-1" vueSlots="{{['default']}}">
+                <text class="data-v-9aae6e9a" style="display:inline-block;"></text>
+            </u-parse>
+        </view>
+    </view>
+    <view class="fixed-bottom data-v-9aae6e9a" wx:if="{{sid&&initData&&initData[0]}}">
+        <view class="l data-v-9aae6e9a">
+            <view class="l1 data-v-9aae6e9a"></view>
+            <view class="l2 colorType data-v-9aae6e9a"></view>
+        </view>
+        <button bindtap="__e" class="{{['r','data-v-9aae6e9a',!listchanged?'dis':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'submit',['$event'] ] ] ] ]}}">提交</button>
+    </view>
+    <view class="fixed-bottom data-v-9aae6e9a" wx:else>
+        <view class="l data-v-9aae6e9a">
+            <view class="l1 data-v-9aae6e9a">您需支付:</view>
+            <view class="l2 colorType data-v-9aae6e9a">{{'￥'+priceAmount}}</view>
+        </view>
+        <button bindtap="__e" class="r data-v-9aae6e9a" data-event-opts="{{[ [ 'tap',[ [ 'submit',['$event'] ] ] ] ]}}">支付预订</button>
+    </view>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="{{20}}" class="data-v-9aae6e9a" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showPicker','$event',[] ] ] ] ] ]}}" mode="bottom" value="{{showPicker}}" vueId="ada783c0-2" vueSlots="{{['default']}}">
+        <view class="mask data-v-9aae6e9a">
+            <view bindtap="__e" class="image-box data-v-9aae6e9a" data-event-opts="{{[ [ 'tap',[ [ 'closeTime',['$event'] ] ] ] ]}}">
+                <image mode class="close data-v-9aae6e9a" src="https://eshopfile.zhiyousx.com/images/snow/close.png"></image>
+            </view>
+            <view class="picker-box data-v-9aae6e9a">
+                <view class="t1 data-v-9aae6e9a">选择到达雪场时间</view>
+                <view class="t2 data-v-9aae6e9a">{{'滑雪日期：'+dayTime+' '+$root.m2}}</view>
+            </view>
+            <view class="picker data-v-9aae6e9a">
+                <picker-view bindchange="__e" class="picker-view data-v-9aae6e9a" data-event-opts="{{[ [ 'change',[ [ 'bindTimeChange',['$event'] ] ] ] ]}}" indicatorStyle="{{indicatorStyle}}" value="{{hd}}">
+                    <picker-view-column class="picker-column left data-v-9aae6e9a">
+                        <view class="picker-item l data-v-9aae6e9a" wx:for="{{hours}}" wx:key="index">{{item}}</view>
+                    </picker-view-column>
+                    <picker-view-column class="picker-column right data-v-9aae6e9a">
+                        <view class="picker-item r data-v-9aae6e9a" wx:for="{{minutes}}" wx:key="index">{{item}}</view>
+                    </picker-view-column>
+                </picker-view>
+            </view>
+            <view bindtap="__e" class="but data-v-9aae6e9a" data-event-opts="{{[ [ 'tap',[ [ 'chooseTime',['$event'] ] ] ] ]}}">确定</view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="{{20}}" class="data-v-9aae6e9a" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','show','$event',[] ] ] ] ] ]}}" mode="bottom" value="{{show}}" vueId="ada783c0-3" vueSlots="{{['default']}}">
+        <view class="mask data-v-9aae6e9a">
+            <view bindtap="__e" class="image-box data-v-9aae6e9a" data-event-opts="{{[ [ 'tap',[ ['closeMask'] ] ] ]}}">
+                <image mode class="close data-v-9aae6e9a" src="https://eshopfile.zhiyousx.com/images/snow/close.png"></image>
+            </view>
+            <scroll-view class="data-v-9aae6e9a" scrollY="true" style="max-height:900rpx;">
+                <view class="item bottom30 data-v-9aae6e9a" wx:if="{{$root.g0}}">
+                    <view class="name data-v-9aae6e9a">鞋码</view>
+                    <view class="it-box data-v-9aae6e9a">
+                        <view bindtap="__e" class="{{['it','data-v-9aae6e9a',shoe.id==x.id?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'choseShoe',['$0'],[ [ ['shoeSize','',y] ] ] ] ] ] ]}}" wx:for="{{shoeSize}}" wx:for-index="y" wx:for-item="x" wx:key="y">{{x.configName}}</view>
+                    </view>
+                </view>
+                <view class="item bottom30 data-v-9aae6e9a" wx:if="{{$root.g1}}">
+                    <view class="name data-v-9aae6e9a">尺码</view>
+                    <view class="it-box data-v-9aae6e9a">
+                        <view bindtap="__e" class="{{['it','data-v-9aae6e9a',clothes.id==x.id?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'choseClothes',['$0'],[ [ ['clothesSize','',y] ] ] ] ] ] ]}}" wx:for="{{clothesSize}}" wx:for-index="y" wx:for-item="x" wx:key="y">{{x.configName}}</view>
+                    </view>
+                </view>
+                <view class="it-table data-v-9aae6e9a" wx:if="{{maskType==2}}">
+                    <view class="it-table data-v-9aae6e9a">
+                        <view class="hotel-th th data-v-9aae6e9a">
+                            <view class="t data-v-9aae6e9a">尺码</view>
+                            <view class="t data-v-9aae6e9a">身高</view>
+                            <view class="t data-v-9aae6e9a">体重</view>
+                        </view>
+                        <view class="d-table data-v-9aae6e9a">
+                            <view class="d-tr data-v-9aae6e9a">
+                                <view class="d-td data-v-9aae6e9a">
+                                    <view class="d-table data-v-9aae6e9a">
+                                        <view class="d-tr data-v-9aae6e9a">
+                                            <view class="d-td tableType data-v-9aae6e9a">S码</view>
+                                            <view class="d-td tableType border-left data-v-9aae6e9a">145cm-155cm</view>
+                                            <view class="d-td tableType border-left data-v-9aae6e9a">40kg-50kg</view>
+                                        </view>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class="d-tr data-v-9aae6e9a">
+                                <view class="d-td data-v-9aae6e9a">
+                                    <view class="d-table data-v-9aae6e9a">
+                                        <view class="d-tr data-v-9aae6e9a">
+                                            <view class="d-td tableType data-v-9aae6e9a">M码</view>
+                                            <view class="d-td tableType border-left data-v-9aae6e9a">155cm-165cm</view>
+                                            <view class="d-td tableType border-left data-v-9aae6e9a">50kg-55kg</view>
+                                        </view>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class="d-tr data-v-9aae6e9a">
+                                <view class="d-td data-v-9aae6e9a">
+                                    <view class="d-table data-v-9aae6e9a">
+                                        <view class="d-tr data-v-9aae6e9a">
+                                            <view class="d-td tableType data-v-9aae6e9a">L码</view>
+                                            <view class="d-td tableType border-left data-v-9aae6e9a">165cm-170cm</view>
+                                            <view class="d-td tableType border-left data-v-9aae6e9a">55kg-60kg</view>
+                                        </view>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class="d-tr data-v-9aae6e9a">
+                                <view class="d-td data-v-9aae6e9a">
+                                    <view class="d-table data-v-9aae6e9a">
+                                        <view class="d-tr data-v-9aae6e9a">
+                                            <view class="d-td tableType data-v-9aae6e9a">XL码</view>
+                                            <view class="d-td tableType border-left data-v-9aae6e9a">170cm-175cm</view>
+                                            <view class="d-td tableType border-left data-v-9aae6e9a">60kg-70kg</view>
+                                        </view>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class="d-tr data-v-9aae6e9a">
+                                <view class="d-td data-v-9aae6e9a">
+                                    <view class="d-table data-v-9aae6e9a">
+                                        <view class="d-tr data-v-9aae6e9a">
+                                            <view class="d-td tableType data-v-9aae6e9a">XXL码</view>
+                                            <view class="d-td tableType border-left data-v-9aae6e9a">175cm以上</view>
+                                            <view class="d-td tableType border-left data-v-9aae6e9a">70kg以上</view>
+                                        </view>
+                                    </view>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </scroll-view>
+            <view bindtap="__e" class="but data-v-9aae6e9a" data-event-opts="{{[ [ 'tap',[ [ 'chooseOver',['$event'] ] ] ] ]}}">确定</view>
+        </view>
+    </u-popup>
+</view>

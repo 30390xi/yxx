@@ -1,0 +1,51 @@
+<view class="{{['loginBox','data-v-06b823d9',jumpObj.pathType==2?'dp':'',jumpObj.pathType==3?'smq':'']}}">
+    <uni-navbar bgColor="#ffffff" bind:__l="__l" class="data-v-06b823d9" home="{{true}}" title="手机号登录" type="transparent" vueId="35a7246c-1"></uni-navbar>
+    <view class="chansi data-v-06b823d9" wx:if="{{jumpObj.pathType==1}}">
+        <image class="data-v-06b823d9" src="https://eshopfile.zhiyousx.com/2022110110525948264.png"></image>
+    </view>
+    <block wx:else>
+        <view class="dp-logo data-v-06b823d9" wx:if="{{jumpObj.pathType==2}}">
+            <image class="data-v-06b823d9" src="https://eshopfile.zhiyousx.com/2024081517030136282.png"></image>
+        </view>
+        <block wx:else>
+            <view class="smq-logo data-v-06b823d9" wx:if="{{jumpObj.pathType==3}}">
+                <image class="data-v-06b823d9" src="https://eshopfile.zhiyousx.com/2024082716112414614.png"></image>
+            </view>
+            <view class="logo data-v-06b823d9" wx:else>
+                <image class="data-v-06b823d9" src="https://eshopfile.zhiyousx.com/2021080909282156489.jpg"></image>
+            </view>
+        </block>
+    </block>
+    <u-verification-code bind:__l="__l" bind:change="__e" class="data-v-06b823d9 vue-ref" data-event-opts="{{[ [ '^change',[ ['codeChange'] ] ] ]}}" data-ref="uCode" seconds="60" vueId="35a7246c-2"></u-verification-code>
+    <view class="loginForm data-v-06b823d9">
+        <u-form bind:__l="__l" class="data-v-06b823d9 vue-ref" data-ref="uForm" errorType="{{errorType}}" model="{{loginForm}}" rules="{{rules}}" vueId="35a7246c-3" vueSlots="{{['default']}}">
+            <u-form-item bind:__l="__l" class="data-v-06b823d9" labelWidth="0" prop="username" vueId="{{'35a7246c-4'+','+'35a7246c-3'}}" vueSlots="{{['default']}}">
+                <u-input bind:__l="__l" bind:input="__e" class="data-v-06b823d9" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','username','$event',[] ],['loginForm'] ] ] ] ]}}" maxlength="11" placeholder="请输入手机号" type="number" value="{{loginForm.username}}" vueId="{{'35a7246c-5'+','+'35a7246c-4'}}"></u-input>
+            </u-form-item>
+            <u-form-item bind:__l="__l" class="data-v-06b823d9" labelWidth="0" prop="password" vueId="{{'35a7246c-6'+','+'35a7246c-3'}}" vueSlots="{{['default']}}" wx:if="{{loginType===0}}">
+                <u-input bind:__l="__l" bind:input="__e" class="data-v-06b823d9" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','password','$event',[] ],['loginForm'] ] ] ] ]}}" maxlength="8" passwordIcon="{{true}}" placeholder="请输入密码" type="password" value="{{loginForm.password}}" vueId="{{'35a7246c-7'+','+'35a7246c-6'}}"></u-input>
+            </u-form-item>
+            <u-form-item bind:__l="__l" class="data-v-06b823d9" labelWidth="0" prop="code" vueId="{{'35a7246c-8'+','+'35a7246c-3'}}" vueSlots="{{['default','right']}}" wx:else>
+                <u-input bind:__l="__l" bind:input="__e" class="data-v-06b823d9" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','code','$event',[] ],['loginForm'] ] ] ] ]}}" maxlength="6" placeholder="请输入验证码" type="number" value="{{loginForm.code}}" vueId="{{'35a7246c-9'+','+'35a7246c-8'}}"></u-input>
+                <button bindtap="__e" class="codeStyle data-v-06b823d9" data-event-opts="{{[ [ 'tap',[ [ 'getCode',['$event'] ] ] ] ]}}" slot="right">{{codeTips}}</button>
+            </u-form-item>
+            <view class="loginText data-v-06b823d9">
+                <text class="data-v-06b823d9"></text>
+                <text bindtap="__e" class="data-v-06b823d9" data-event-opts="{{[ [ 'tap',[ [ 'typeBtn',['$event'] ] ] ] ]}}">{{loginType===0?'短信验证码登录':'账号密码登录'}}</text>
+            </view>
+            <button bindtap="__e" class="{{['loginSub','data-v-06b823d9',jumpObj.pathType==2?'dpBtn':'',jumpObj.pathType==3||jumpObj.pathType==1?'smqBtn':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'submit',['$event'] ] ] ] ]}}" disabled="{{loadingStatus}}" loading="{{loadingStatus}}">登录</button>
+            <button bindtap="__e" class="{{['registerSub','data-v-06b823d9',jumpObj.pathType==2?'dpPh':'',jumpObj.pathType==3?'smqPh':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'goRegister',['$event'] ] ] ] ]}}" wx:if="{{jumpObj.pathType==0}}">注册</button>
+            <view bindtap="__e" class="auth data-v-06b823d9" data-event-opts="{{[ [ 'tap',[ [ 'setCheck',['$event'] ] ] ] ]}}">
+                <view class="checkedNo data-v-06b823d9" wx:if="{{!checked}}"></view>
+                <u-icon bind:__l="__l" class="data-v-06b823d9" color="#ff4643" name="checkmark-circle" size="34" vueId="{{'35a7246c-10'+','+'35a7246c-3'}}" wx:else></u-icon>
+                <view class="data-v-06b823d9" style="margin-left:5rpx;">
+                    <text class="data-v-06b823d9">我已阅读并同意</text>
+                    <text catchtap="__e" class="data-v-06b823d9" data-event-opts="{{[ [ 'tap',[ [ 'goServer',['$event'] ] ] ] ]}}" style="color:#FF5411;">《服务条款》</text>
+                    <text class="data-v-06b823d9">及</text>
+                    <text catchtap="__e" class="data-v-06b823d9" data-event-opts="{{[ [ 'tap',[ [ 'goServer1',['$event'] ] ] ] ]}}" style="color:#FF5411;">《隐私协议》</text>
+                </view>
+            </view>
+        </u-form>
+    </view>
+    <view bindtap="__e" class="forgot data-v-06b823d9" data-event-opts="{{[ [ 'tap',[ [ 'gofind',['$event'] ] ] ] ]}}">忘记密码？</view>
+</view>

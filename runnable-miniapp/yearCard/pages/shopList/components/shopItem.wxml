@@ -1,0 +1,111 @@
+<view class="shop-item data-v-e5641d3c">
+    <image bindtap="__e" class="{{['data-v-e5641d3c','shop-img',info.needCreateOrder===1&&'reservation']}}" data-event-opts="{{[ [ 'tap',[ [ 'openInstruction',['$event'] ] ] ] ]}}" mode="aspectFill" src="{{info.scenicImage}}" wx:if="{{mapPage=='1'}}"></image>
+    <image bindtap="__e" class="{{['data-v-e5641d3c','shop-img',info.needCreateOrder===1&&'reservation1']}}" data-event-opts="{{[ [ 'tap',[ [ 'openInstruction',['$event'] ] ] ] ]}}" mode="aspectFill" src="{{info.scenicImage}}" wx:else></image>
+    <view class="shop-item-container data-v-e5641d3c">
+        <view bindtap="__e" class="data-v-e5641d3c" data-event-opts="{{[ [ 'tap',[ [ 'openInstruction',['$event'] ] ] ] ]}}">
+            <view class="title-line data-v-e5641d3c">
+                <view class="title data-v-e5641d3c">
+                    <view class="close-icon data-v-e5641d3c" wx:if="{{!info.openingStatus}}">闭园</view>{{info.scenicName}}</view>
+            </view>
+            <view class="tag tag-yellow data-v-e5641d3c" wx:if="{{info.scenicRankStr}}">{{info.scenicRankStr+'第'+info.indexInRanking+'名'}}</view>
+            <view class="tips data-v-e5641d3c" wx:if="{{info.scenicDesc}}">{{info.scenicDesc||''}}</view>
+        </view>
+        <view class="footer data-v-e5641d3c">
+            <view bindtap="__e" class="tag tag-img data-v-e5641d3c" data-event-opts="{{[ [ 'tap',[ [ 'openInstruction',['$event'] ] ] ] ]}}" wx:if="{{info.useDesc}}">使用须知<image class="data-v-e5641d3c" src="https://eshopfile.zhiyousx.com/2023102614083173967.png"></image>
+            </view>
+            <view class="garden-box data-v-e5641d3c" wx:if="{{info.needCreateOrder===1}}">
+                <view class="garden-box-left data-v-e5641d3c">
+                    <block wx:if="{{info.useTimesLimit===1&&info.appointmentNum-info.refundNum===0}}">
+                        <view class="data-v-e5641d3c" wx:if="{{info.saleStatus===0}}">已过期</view>
+                        <view class="data-v-e5641d3c" wx:else>余<text class="data-v-e5641d3c">{{info.totalTimes}}</text>次</view>
+                        <view class="data-v-e5641d3c">未使用</view>
+                    </block>
+                    <block wx:else>
+                        <block wx:if="{{info.useTimesLimit===1&&info.totalTimes-info.appointmentNum+info.refundNum>0}}">
+                            <view class="data-v-e5641d3c" wx:if="{{info.saleStatus===0}}">已过期</view>
+                            <view class="data-v-e5641d3c" wx:else>余<text class="data-v-e5641d3c">{{info.totalTimes-info.appointmentNum+info.refundNum}}</text>次</view>
+                            <view class="data-v-e5641d3c">{{'已约'+info.appointmentNum-info.refundNum+'次'}}</view>
+                        </block>
+                        <block wx:else>
+                            <block wx:if="{{info.useTimesLimit===1&&info.totalTimes===info.appointmentNum-info.refundNum}}">
+                                <view class="data-v-e5641d3c" wx:if="{{info.saleStatus===0}}">已过期</view>
+                                <view class="font-24 data-v-e5641d3c" wx:else>已用完</view>
+                                <view class="data-v-e5641d3c">{{'已约'+(info.totalTimes||0)+'次'}}</view>
+                            </block>
+                            <block wx:else>
+                                <block wx:if="{{info.useTimesLimit===0&&info.appointmentNum-info.refundNum===0}}">
+                                    <view class="data-v-e5641d3c" wx:if="{{info.saleStatus===0}}">已过期</view>
+                                    <view class="font-26 data-v-e5641d3c" wx:else>不限次</view>
+                                    <view class="data-v-e5641d3c">未使用</view>
+                                </block>
+                                <block wx:else>
+                                    <view class="data-v-e5641d3c" wx:if="{{info.saleStatus===0}}">已过期</view>
+                                    <view class="font-26 data-v-e5641d3c" wx:else>不限次</view>
+                                    <view class="data-v-e5641d3c">{{'已约'+info.appointmentNum-info.refundNum+'次'}}</view>
+                                </block>
+                            </block>
+                        </block>
+                    </block>
+                </view>
+                <image class="garden-box-center data-v-e5641d3c" src="{{info.useTimesLimit===1&&info.totalTimes===info.appointmentNum-info.refundNum||info.saleStatus===0?'https://eshopfile.zhiyousx.com/2023111414332394613.png':'https://eshopfile.zhiyousx.com/2023102810394679388.png'}}"></image>
+                <view bindtap="__e" class="{{['data-v-e5641d3c','garden-box-right',info.useTimesLimit===1&&info.totalTimes===info.appointmentNum-info.refundNum||info.saleStatus===0?'disabled':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'jumpReservation',['$event'] ] ] ] ]}}">
+                    <view class="content data-v-e5641d3c">
+                        <view class="data-v-e5641d3c">预约</view>
+                        <view class="data-v-e5641d3c">入园</view>
+                    </view>
+                    <image class="data-v-e5641d3c" src="https://eshopfile.zhiyousx.com/2023102811112062702.png"></image>
+                </view>
+            </view>
+            <view bindtap="__e" class="garden-box data-v-e5641d3c" data-event-opts="{{[ [ 'tap',[ [ 'jumpEntry',['$event'] ] ] ] ]}}" wx:else>
+                <block wx:if="{{info.useTimesLimit===1&&info.appointmentNum-info.refundNum===0}}">
+                    <view class="garden-box-left data-v-e5641d3c">
+                        <view class="text-origin font-24 data-v-e5641d3c">未使用</view>
+                    </view>
+                    <image class="garden-box-center data-v-e5641d3c" src="https://eshopfile.zhiyousx.com/2023102810394679388.png"></image>
+                    <view class="garden-box-right p-right-10 data-v-e5641d3c">{{'免'+info.totalTimes+'次'}}<image class="data-v-e5641d3c" src="https://eshopfile.zhiyousx.com/2023102811112062702.png"></image>
+                    </view>
+                </block>
+                <block wx:else>
+                    <block wx:if="{{info.useTimesLimit===1&&info.totalTimes-info.appointmentNum+info.refundNum>0}}">
+                        <view class="garden-box-left data-v-e5641d3c">
+                            <view class="data-v-e5641d3c">余<text class="data-v-e5641d3c">{{info.totalTimes-info.appointmentNum+info.refundNum}}</text>次</view>
+                            <view class="data-v-e5641d3c">{{'已约'+info.appointmentNum-info.refundNum+'次'}}</view>
+                        </view>
+                        <image class="garden-box-center data-v-e5641d3c" src="https://eshopfile.zhiyousx.com/2023102810394679388.png"></image>
+                        <view class="garden-box-right data-v-e5641d3c">{{'免'+info.totalTimes+'次'}}<image class="data-v-e5641d3c" src="https://eshopfile.zhiyousx.com/2023102811112062702.png"></image>
+                        </view>
+                    </block>
+                    <block wx:else>
+                        <block wx:if="{{info.useTimesLimit===1&&info.totalTimes===info.appointmentNum-info.refundNum}}">
+                            <view class="garden-box-left data-v-e5641d3c">
+                                <view class="font-24 data-v-e5641d3c">已用完</view>
+                            </view>
+                            <image class="garden-box-center data-v-e5641d3c" src="https://eshopfile.zhiyousx.com/2023111414332394613.png"></image>
+                            <view class="garden-box-right p-right-10 disabled data-v-e5641d3c">{{'免'+info.totalTimes+'次'}}<image class="data-v-e5641d3c" src="https://eshopfile.zhiyousx.com/2023102811112062702.png"></image>
+                            </view>
+                        </block>
+                        <block wx:else>
+                            <block wx:if="{{info.useTimesLimit===0&&info.appointmentNum-info.refundNum===0}}">
+                                <view class="garden-box-left data-v-e5641d3c">
+                                    <view class="text-origin font-24 data-v-e5641d3c">未使用</view>
+                                </view>
+                                <image class="garden-box-center data-v-e5641d3c" src="https://eshopfile.zhiyousx.com/2023102810394679388.png"></image>
+                                <view class="garden-box-right p-right-10 data-v-e5641d3c">不限次<image class="data-v-e5641d3c" src="https://eshopfile.zhiyousx.com/2023102811112062702.png"></image>
+                                </view>
+                            </block>
+                            <block wx:else>
+                                <view class="garden-box-left data-v-e5641d3c">
+                                    <view class="data-v-e5641d3c">{{'已约'+info.appointmentNum-info.refundNum+'次'}}</view>
+                                </view>
+                                <image class="garden-box-center data-v-e5641d3c" src="https://eshopfile.zhiyousx.com/2023102810394679388.png"></image>
+                                <view class="garden-box-right p-right-10 data-v-e5641d3c">不限次<image class="data-v-e5641d3c" src="https://eshopfile.zhiyousx.com/2023102811112062702.png"></image>
+                                </view>
+                            </block>
+                        </block>
+                    </block>
+                </block>
+            </view>
+        </view>
+    </view>
+    <instruction bind:__l="__l" bind:updateShow="__e" class="data-v-e5641d3c" data-event-opts="{{[ [ '^updateShow',[ [ '__set_sync',['$0','instructionShow','$event'],[''] ] ] ] ]}}" html="{{info.useDesc}}" scenicId="{{info.scenicId}}" show="{{instructionShow}}" vueId="04775ef0-1"></instruction>
+</view>

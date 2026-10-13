@@ -1,0 +1,54 @@
+<uni-popup bind:__l="__l" class="recommended-popup data-v-d7fdaef2 vue-ref" data-ref="recommendPop" type="center" vueId="021d4aa4-1" vueSlots="{{['default']}}">
+    <view class="popup-box data-v-d7fdaef2" wx:if="{{scenicSpotlistData&&scenicSpotlistData.itemId}}">
+        <view class="popup-box-count data-v-d7fdaef2">
+            <view class="popup-content data-v-d7fdaef2">
+                <view class="_div data-v-d7fdaef2">{{'当前'+bizTypeText+'已售罄! 您可选择前往'+goSpotData}}</view>
+            </view>
+            <view class="coupon-section data-v-d7fdaef2" wx:if="{{scenicSpotlistData.selloutSuggestCouponVO&&scenicSpotlistData.selloutSuggestCouponVO&&scenicSpotlistData.selloutSuggestCouponVO.couponList}}">
+                <scroll-view class="cate-box data-v-d7fdaef2" scrollX="{{true}}">
+                    <view class="coupon-item data-v-d7fdaef2" style="{{'width:'+(el.g0>1?'90%':'100%')+';'+'margin-right:'+(el.g1?'20rpx':'0')+';'}}" wx:for="{{$root.l0}}" wx:for-index="i" wx:for-item="el" wx:key="i">
+                        <view class="coupon-item-box data-v-d7fdaef2">
+                            <view class="coupon-content data-v-d7fdaef2">
+                                <view class="price-section data-v-d7fdaef2" wx:if="{{el.$orig.type==3}}">
+                                    <text class="amount data-v-d7fdaef2">0元购</text>
+                                </view>
+                                <view class="price-section data-v-d7fdaef2" wx:else>￥<text class="amount data-v-d7fdaef2">{{''+el.$orig.quota+''}}</text>
+                                </view>
+                                <view class="info-section data-v-d7fdaef2">
+                                    <view class="spot-name data-v-d7fdaef2">{{''+el.$orig.name+''}}</view>
+                                    <view class="coupon-desc data-v-d7fdaef2">游陕西专属优惠券</view>
+                                </view>
+                            </view>
+                            <view bindtap="__e" class="receive-btn data-v-d7fdaef2" data-event-opts="{{[ [ 'tap',[ [ 'receive',['$0'],[ [ ['scenicSpotlistData.selloutSuggestCouponVO.couponList','',i,'receiveState'] ] ] ] ] ] ]}}">{{''+el.m0+''}}</view>
+                        </view>
+                    </view>
+                </scroll-view>
+            </view>
+            <view class="divider data-v-d7fdaef2" wx:if="{{scenicSpotlistData.selloutSuggestScenicList}}">
+                <view bindtap="__e" class="card_top data-v-d7fdaef2" data-event-opts="{{[ [ 'tap',[ [ 'goSpot',['$0'],[ [ ['scenicSpotlistData.selloutSuggestScenicList','',index,'scenicId'] ] ] ] ] ] ]}}" style="{{'margin-bottom:'+(index==time.g2-1?'0':'40rpx')+';'}}" wx:for="{{$root.l1}}" wx:for-item="time" wx:key="index">
+                    <image class="head_img data-v-d7fdaef2" mode="aspectFill" src="{{time.$orig.mainPic}}"></image>
+                    <view class="card_info data-v-d7fdaef2">
+                        <view class="card_title _p data-v-d7fdaef2">{{time.$orig.scenicName}}</view>
+                        <view class="ranking singleLineText data-v-d7fdaef2" wx:if="{{time.$orig.originSortInRankingVO.contentId}}">
+                            <view class="text data-v-d7fdaef2">
+                                <view class="name singleLineText data-v-d7fdaef2">{{''+time.$orig.originSortInRankingVO.rankingName+'第'+time.$orig.originSortInRankingVO.indexInRanking+'名'}}</view>
+                            </view>
+                        </view>
+                        <view class="card_ticket data-v-d7fdaef2" wx:if="{{time.$orig.ticketName}}">
+                            <view class="ding data-v-d7fdaef2">订</view>
+                            <view class="price data-v-d7fdaef2">{{''+(time.$orig.price==0?'免费':'￥'+time.$orig.price)+''}}</view>
+                            <view class="ticketName singleLineText data-v-d7fdaef2">{{time.$orig.ticketName}}</view>
+                        </view>
+                        <view class="distance data-v-d7fdaef2" wx:if="{{time.$orig.distance<=3}}">{{'距当前景区'+time.m1+''}}</view>
+                    </view>
+                </view>
+            </view>
+            <view class="subscription-tip data-v-d7fdaef2">关注最新门票信息，一键订阅<label bindtap="__e" class="highlight _span data-v-d7fdaef2" data-event-opts="{{[ [ 'tap',[ [ 'subscription',['$event'] ] ] ] ]}}">余票提醒</label>
+            </view>
+            <view class="button-group data-v-d7fdaef2">
+                <view bindtap="__e" class="btn btn-cancel data-v-d7fdaef2" data-event-opts="{{[ [ 'tap',[ [ 'notNeeded',['$event'] ] ] ] ]}}">暂不需要</view>
+                <view bindtap="__e" class="btn btn-confirm data-v-d7fdaef2" data-event-opts="{{[ [ 'tap',[ [ 'viewDetails',['$event'] ] ] ] ]}}">查看详情</view>
+            </view>
+        </view>
+    </view>
+</uni-popup>

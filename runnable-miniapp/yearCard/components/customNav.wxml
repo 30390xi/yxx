@@ -1,0 +1,19 @@
+<view class="data-v-330a7d9f">
+    <view class="cu-custom data-v-330a7d9f" style="{{'height:'+CustomBar+'px'+';'}}">
+        <view class="{{['cu-bar','fixed','data-v-330a7d9f',bgImage!=''?'none-bg text-white bg-img':'']}}" style="{{style}}">
+            <view bindtap="__e" class="action data-v-330a7d9f" data-event-opts="{{[ [ 'tap',[ [ 'BackPage',['$event'] ] ] ] ]}}" wx:if="{{isBack}}">
+                <view class="header-icon-border data-v-330a7d9f">
+                    <image class="header-icon data-v-330a7d9f" mode="aspectFit" src="/static/zhouWei-navBar/icon_back_black.png" wx:if="{{backFun||!firstPage}}"></image>
+                    <image class="header-icon data-v-330a7d9f" mode="aspectFit" src="/static/zhouWei-navBar/icon_home_black.png" wx:else></image>
+                </view>
+            </view>
+            <view class="content data-v-330a7d9f" style="{{'top:'+StatusBar+'px'+';'}}">
+                <view class="data-v-330a7d9f" style="{{'color:'+titleColor+';'}}" wx:if="{{title}}">{{title+''}}</view>
+                <slot name="content"></slot>
+            </view>
+        </view>
+        <view class="seize-seat mu-class data-v-330a7d9f">
+            <view class="w-bg data-v-330a7d9f" style="{{'opacity:'+topOpacity+';'+'height:'+CustomBar+6+'px'+';'}}"></view>
+        </view>
+    </view>
+</view>

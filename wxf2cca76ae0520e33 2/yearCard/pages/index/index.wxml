@@ -1,0 +1,44 @@
+<view class="container data-v-03cdf3d0">
+    <custom-nav bind:__l="__l" bind:back="__e" class="data-v-03cdf3d0" data-event-opts="{{[ [ '^back',[ ['e0'] ] ] ]}}" muClass="nav-bg" scrollTop="{{scrollTop}}" title="游陕西年卡" vueId="a002c660-1"></custom-nav>
+    <view class="header data-v-03cdf3d0">
+        <view class="tag-list data-v-03cdf3d0">
+            <view bindtap="__e" class="tag-item data-v-03cdf3d0" data-event-opts="{{[ [ 'tap',[ [ 'handleJump',['$0'],[ [ ['tagList','',index,'path'] ] ] ] ] ] ]}}" wx:for="{{tagList}}" wx:key="index">
+                <image class="data-v-03cdf3d0" src="{{item.img}}"></image>
+                <view class="data-v-03cdf3d0">{{item.title}}</view>
+                <view class="tags data-v-03cdf3d0" hidden="{{!(index==0&&totalNum>0)}}">{{totalNum}}</view>
+                <view class="tags data-v-03cdf3d0" hidden="{{!(index==2&&waitActiveNum>0)}}">{{waitActiveNum}}</view>
+            </view>
+        </view>
+    </view>
+    <view class="card-body data-v-03cdf3d0" wx:if="{{$root.g0}}">
+        <swiper-card bind:__l="__l" bind:checkedCard="__e" bind:clickCalculator="__e" class="data-v-03cdf3d0" data-event-opts="{{[ [ '^clickCalculator',[ ['openCalculator'] ] ],[ '^checkedCard',[ ['checkedCard'] ] ] ]}}" list="{{list}}" vueId="a002c660-2"></swiper-card>
+        <card-list bind:__l="__l" bind:handAllData="__e" class="data-v-03cdf3d0 vue-ref" data-event-opts="{{[ [ '^handAllData',[ ['getCalcData'] ] ] ]}}" data-ref="cardList" scrollTop="{{scrollTop}}" vueId="a002c660-3"></card-list>
+    </view>
+    <view class="content data-v-03cdf3d0" wx:else>
+        <image class="data-v-03cdf3d0" src="https://eshopfile.zhiyousx.com/2023110116325879617.png"></image>
+        <view class="data-v-03cdf3d0">暂无年卡</view>
+    </view>
+    <view class="data-v-03cdf3d0" wx:if="{{$root.g1>0}}">
+        <view class="card-footer data-v-03cdf3d0" wx:if="{{currentCardInfo.buyFlag}}">
+            <view bindtap="__e" class="{{['data-v-03cdf3d0',currentCardInfo.stockStatus>0?'':'op']}}" data-event-opts="{{[ [ 'tap',[ [ 'showCard',['$event'] ] ] ] ]}}">
+                <view class="label data-v-03cdf3d0">购卡数量</view>
+                <view class="num data-v-03cdf3d0">{{purchaseNum+'张'}}<image class="data-v-03cdf3d0" src="https://eshopfile.zhiyousx.com/2023103015102566506.png"></image>
+                </view>
+            </view>
+            <view bindtap="__e" class="{{['data-v-03cdf3d0',currentCardInfo.stockStatus>0?'':'op']}}" data-event-opts="{{[ [ 'tap',[ [ 'showCard',['$event'] ] ] ] ]}}">
+                <view class="label data-v-03cdf3d0">需支付</view>
+                <view class="num data-v-03cdf3d0">{{(currentCardInfo.sellPrice*100*purchaseNum/100||0)+'元'}}</view>
+            </view>
+            <view bindtap="__e" class="{{['data-v-03cdf3d0','red-btn',currentCardInfo.stockStatus===0&&'disabled']}}" data-event-opts="{{[ [ 'tap',[ [ 'handlePurchaseBefore',['$event'] ] ] ] ]}}">{{''+(currentCardInfo.stockStatus===0?'已售空':'立即购买')}}</view>
+        </view>
+        <view class="noCard data-v-03cdf3d0" wx:else>
+            <view class="red-btn disabled wd data-v-03cdf3d0">已结束</view>
+        </view>
+    </view>
+    <calculator bind:__l="__l" bind:handlePurchase="__e" bind:updateShow="__e" class="data-v-03cdf3d0" data-event-opts="{{[ [ '^updateShow',[ [ '__set_sync',['$0','calculatorShow','$event'],[''] ] ] ],[ '^handlePurchase',[ ['handlePurchaseBefore'] ] ] ]}}" info="{{calcData}}" show="{{calculatorShow}}" status="{{1}}" vueId="a002c660-4"></calculator>
+    <u-select bind:__l="__l" bind:confirm="__e" bind:input="__e" class="data-v-03cdf3d0" data-event-opts="{{[ [ '^confirm',[ ['confirm'] ] ],[ '^input',[ [ '__set_model',[ '','selectCardShow','$event',[] ] ] ] ] ]}}" list="{{selectList}}" value="{{selectCardShow}}" vueId="a002c660-5"></u-select>
+    <review-popup bind:__l="__l" bind:confirm="__e" bind:updateShow="__e" class="data-v-03cdf3d0" data-event-opts="{{[ [ '^updateShow',[ [ '__set_sync',['$0','reviewPopupShow','$event'],[''] ] ] ],[ '^confirm',[ ['handlePurchase'] ] ] ]}}" html="{{currentCardInfo.warmPrompt}}" show="{{reviewPopupShow}}" vueId="a002c660-6"></review-popup>
+    <no-card-module bind:__l="__l" bind:updateShow="__e" class="data-v-03cdf3d0" data-event-opts="{{[ [ '^updateShow',[ [ '__set_sync',['$0','noCardModuleShow','$event'],[''] ] ] ] ]}}" show="{{noCardModuleShow}}" vueId="a002c660-7"></no-card-module>
+    <my-loading bind:__l="__l" bind:updateShow="__e" class="data-v-03cdf3d0" data-event-opts="{{[ [ '^updateShow',[ [ '__set_sync',['$0','loadingShow','$event'],[''] ] ] ] ]}}" loadingErrText="{{loadingErrText}}" show="{{loadingShow}}" vueId="a002c660-8"></my-loading>
+    <association bind:__l="__l" class="data-v-03cdf3d0" vueId="a002c660-9"></association>
+</view>

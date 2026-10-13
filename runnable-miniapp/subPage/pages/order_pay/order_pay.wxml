@@ -1,0 +1,145 @@
+<view class="data-v-3a55a765">
+    <uni-navbar backState="{{2000}}" bind:__l="__l" class="data-v-3a55a765 vue-ref" data-ref="navBar" home="{{true}}" title="订单支付" type="fixed" vueId="8d4c7620-1"></uni-navbar>
+    <view class="pay data-v-3a55a765">
+        <image alt class="icon _img data-v-3a55a765" src="https://eshopfile.zhiyousx.com/image/orderPay/sucess.png"></image>
+        <view class="payPrice data-v-3a55a765">{{'￥'+$root.f0}}</view>
+        <view class="payText data-v-3a55a765">支付成功，等待系统出票</view>
+        <view class="sub-payText data-v-3a55a765" wx:if="{{isSpecial!=1}}">系统将在30分钟内返回出票结果</view>
+        <view class="sub-payText data-v-3a55a765" wx:if="{{isSpecial!=1}}">若出票失败，将自动为您退款</view>
+        <view class="hotelText data-v-3a55a765" wx:if="{{isSpecial==1}}">酒店预计在2小时内确认订单，请耐心等待</view>
+        <view bindtap="__e" class="hotelBtn data-v-3a55a765" data-event-opts="{{[ [ 'tap',[ [ 'jumpToGear',['$event'] ] ] ] ]}}" wx:if="{{guideCopywriting&&subscribeType==1}}">{{guideCopywriting}}</view>
+        <view class="subtext data-v-3a55a765">请前往订单详情页查看出票结果</view>
+        <view class="btn data-v-3a55a765">
+            <button bindtap="__e" class="payBtn data-v-3a55a765" data-event-opts="{{[ [ 'tap',[ [ 'ticketNotice',['index'] ] ] ] ]}}">返回首页</button>
+            <button bindtap="__e" class="payBtn data-v-3a55a765" data-event-opts="{{[ [ 'tap',[ [ 'ticketNotice',['order'] ] ] ] ]}}">查看订单</button>
+        </view>
+    </view>
+    <u-popup bind:__l="__l" bind:input="__e" class="data-v-3a55a765 vue-ref" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showGiftBag','$event',[] ] ] ] ] ]}}" data-ref="uPopup" maskCloseAble="{{true}}" mode="center" value="{{showGiftBag}}" vueId="8d4c7620-2" vueSlots="{{['default']}}">
+        <view class="giftBag data-v-3a55a765">
+            <view class="title-bar data-v-3a55a765" style="{{'background-image:'+'url('+giftBagData.giftBagImage+')'+';'}}">
+                <view class="phone-style data-v-3a55a765">
+                    <view class="title-style data-v-3a55a765">{{giftBagData.orderActivePrize.prizeDesc}}</view>
+                </view>
+            </view>
+            <view class="gift-mid data-v-3a55a765">
+                <scroll-view class="card-box data-v-3a55a765" scrollY="{{true}}" style="{{'height:'+(gbCl>3?'604rpx':gbCl==1?'255rpx':gbCl*151+'rpx')+';'}}">
+                    <view class="data-v-3a55a765" wx:if="{{giftBagData.orderActivePrize&&giftBagData.orderActivePrize.giftBag}}">
+                        <view class="{{['data-v-3a55a765',gbCl==1?'candItem1':'',gbCl>1?'candItem':'']}}" wx:for="{{$root.l0}}" wx:for-index="i" wx:for-item="it">
+                            <image mode class="it-img1 data-v-3a55a765" src="https://eshopfile.zhiyousx.com/166384545957301610.png" wx:if="{{gbCl>1&&i==0}}"></image>
+                            <image mode class="it-img2 data-v-3a55a765" src="https://eshopfile.zhiyousx.com/166384386610789834.png" wx:if="{{gbCl>1&&i>0&&i<gbCl-1}}"></image>
+                            <image mode class="it-img3 data-v-3a55a765" src="https://eshopfile.zhiyousx.com/166384545957301610.png" wx:if="{{gbCl>1&&gbCl-i==1}}"></image>
+                            <view class="item-card-box data-v-3a55a765">
+                                <view class="left data-v-3a55a765">
+                                    <image class="data-v-3a55a765" mode="aspectFill" src="{{it.$orig.couponImage}}"></image>
+                                    <view class="info data-v-3a55a765">
+                                        <view class="name multilineText2 data-v-3a55a765">{{''+it.$orig.couponName+''}}</view>
+                                        <view class="time data-v-3a55a765">{{''+it.f1+' -\n\t\t\t\t\t\t\t\t\t\t\t'+it.f2+''}}</view>
+                                    </view>
+                                </view>
+                                <view class="right data-v-3a55a765">
+                                    <view class="price data-v-3a55a765" wx:if="{{it.$orig.type==3}}">0<text class="data-v-3a55a765" style="font-size:20rpx;color:#FF4848;">元购</text>
+                                    </view>
+                                    <view class="price data-v-3a55a765" wx:else>
+                                        <text class="data-v-3a55a765" style="font-size:20rpx;color:#FF4848;">￥</text>{{it.$orig.quota+''}}</view>
+                                    <view class="tips data-v-3a55a765" wx:if="{{it.$orig.type==2&&it.$orig.threshold==0}}">无门槛</view>
+                                    <view class="tips data-v-3a55a765" wx:if="{{it.$orig.type==1&&it.$orig.threshold>0}}">{{'满'+it.$orig.threshold+'元可用'}}</view>
+                                    <view class="tips data-v-3a55a765" wx:if="{{it.$orig.type==3}}">{{'可抵'+(it.$orig.deduction||1)+'张'}}</view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="data-v-3a55a765" style="height:110rpx;" wx:if="{{gbCl>1}}"></view>
+                    </view>
+                </scroll-view>
+                <image mode class="giftBag-bottom-img data-v-3a55a765" src="https://eshopfile.zhiyousx.com/170547277021934819.png"></image>
+                <view bindtap="__e" class="giftBag-but data-v-3a55a765" data-event-opts="{{[ [ 'tap',[ [ 'closeGiftPack',['$event'] ] ] ] ]}}">我知道了</view>
+                <view bindtap="__e" class="box-tip data-v-3a55a765" data-event-opts="{{[ [ 'tap',[ [ 'goDiscounts',['$event'] ] ] ] ]}}">可至"我的"-"优惠券"中查看 ></view>
+            </view>
+        </view>
+    </u-popup>
+    <view class="{{['red-packets-Box','data-v-3a55a765',animationType>0?'b1':'']}}" hidden="{{!showPacketBox}}" style="{{'background:'+(animationType==0?'rgba(0, 0, 0, 0.7)':'')+';'}}">
+        <view bindtap="__e" class="{{['red-box','data-v-3a55a765',animationType==0?'a0':'',animationType==1?'a1':'',animationType>1&&animationType<3?'a2':'',animationType==4?'a4':'']}}" data-event-opts="{{[ [ 'tap',[ ['closeBox'] ] ] ]}}">
+            <view class="red-box-imgBox data-v-3a55a765">
+                <image mode class="red-img data-v-3a55a765" src="https://eshopfile.zhiyousx.com/170566204561167235.png" wx:if="{{animationType<3}}"></image>
+                <image mode class="{{['red-top','data-v-3a55a765',animationType==3?'a3':'']}}" src="https://eshopfile.zhiyousx.com/166375879186329370.png"></image>
+                <image mode class="{{['red-bottom','data-v-3a55a765',animationType==3?'a31':'']}}" src="https://eshopfile.zhiyousx.com/170566207043928788.png"></image>
+                <image mode class="{{['red-img1-1','data-v-3a55a765',animationType==3?'a32s':'']}}" src="https://eshopfile.zhiyousx.com/166383758911999357.png"></image>
+                <image mode class="{{['red-img1-2','data-v-3a55a765',animationType==3?'a32m':'']}}" src="https://eshopfile.zhiyousx.com/166383762954099488.png"></image>
+                <image mode class="{{['red-img1-3','data-v-3a55a765',animationType==3?'a32l':'']}}" src="https://eshopfile.zhiyousx.com/166383764742027825.png"></image>
+                <image mode class="{{['red-img2','data-v-3a55a765',animationType==3?'a33':'']}}" src="https://eshopfile.zhiyousx.com/166376006214008240.png"></image>
+                <image mode class="{{['red-img3','data-v-3a55a765',animationType==3?'a34':'']}}" src="https://eshopfile.zhiyousx.com/166376009989063829.png"></image>
+            </view>
+        </view>
+    </view>
+    <u-popup bind:__l="__l" bind:input="__e" class="data-v-3a55a765" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','giftPhone','$event',[] ] ] ] ] ]}}" maskCloseAble="{{true}}" mode="center" value="{{giftPhone}}" vueId="8d4c7620-3" vueSlots="{{['default']}}">
+        <view class="title-bar data-v-3a55a765" style="{{'background-image:'+'url('+giftBagData.giftBagImage+')'+';'}}">
+            <view class="phone-style data-v-3a55a765">
+                <view class="title-style data-v-3a55a765">{{giftBagData.orderActivePrize.prizeDesc}}</view>
+            </view>
+        </view>
+        <view class="gift-content data-v-3a55a765">
+            <view class="gift-box max-h data-v-3a55a765">
+                <view class="within-box data-v-3a55a765">
+                    <image class="phoneImg data-v-3a55a765" mode="aspectFit" src="{{giftBagData.orderActivePrize.prizeImage}}"></image>
+                    <scroll-view class="yello data-v-3a55a765" scrollY="{{true}}" style="height:500rpx;">
+                        <u-form bind:__l="__l" class="data-v-3a55a765" labelPosition="top" model="{{form}}" vueId="{{'8d4c7620-4'+','+'8d4c7620-3'}}" vueSlots="{{['default']}}">
+                            <u-form-item bind:__l="__l" class="data-v-3a55a765" label="输入姓名" labelPosition="top" prop="name" vueId="{{'8d4c7620-5'+','+'8d4c7620-4'}}" vueSlots="{{['default']}}">
+                                <u-input bind:__l="__l" bind:input="__e" class="data-v-3a55a765" clearable="{{false}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','name','$event',[] ],['form'] ] ] ] ]}}" height="58" placehod="{{placehod}}" placeholderStyle="color: '#9B9B9B'; padding-left: '10rpx'" value="{{form.name}}" vueId="{{'8d4c7620-6'+','+'8d4c7620-5'}}"></u-input>
+                            </u-form-item>
+                            <u-form-item bind:__l="__l" class="data-v-3a55a765" label="输入手机号" labelPosition="top" prop="phone" vueId="{{'8d4c7620-7'+','+'8d4c7620-4'}}" vueSlots="{{['default']}}">
+                                <u-input bind:__l="__l" bind:input="__e" class="data-v-3a55a765" clearable="{{false}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','phone','$event',[] ],['form'] ] ] ] ]}}" height="58" placehod="{{placehod}}" placeholderStyle="color: '#9B9B9B'; padding-left: '10rpx'" value="{{form.phone}}" vueId="{{'8d4c7620-8'+','+'8d4c7620-7'}}"></u-input>
+                            </u-form-item>
+                            <u-form-item bind:__l="__l" class="data-v-3a55a765" label="收货地址" labelPosition="top" prop="address" vueId="{{'8d4c7620-9'+','+'8d4c7620-4'}}" vueSlots="{{['default']}}">
+                                <u-input bind:__l="__l" bind:input="__e" class="data-v-3a55a765" clearable="{{false}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','address','$event',[] ],['form'] ] ] ] ]}}" height="58" placehod="{{placehod}}" placeholderStyle="color: '#9B9B9B'; padding-left: '10rpx'" value="{{form.address}}" vueId="{{'8d4c7620-10'+','+'8d4c7620-9'}}"></u-input>
+                            </u-form-item>
+                            <view class="prompt data-v-3a55a765">{{''+giftBagData.orderActivePrize.prizeUseDesc+''}}</view>
+                        </u-form>
+                        <view class="empty-box _div data-v-3a55a765"></view>
+                    </scroll-view>
+                </view>
+                <view class="footer data-v-3a55a765">
+                    <view class="btn data-v-3a55a765">
+                        <view bindtap="__e" class="btn-style data-v-3a55a765" data-event-opts="{{[ [ 'tap',[ [ 'sure',['$event'] ] ] ] ]}}">确定</view>
+                    </view>
+                    <view bindtap="__e" class="active data-v-3a55a765" data-event-opts="{{[ [ 'tap',[ [ 'goActive',['$event'] ] ] ] ]}}" wx:if="{{activeRule}}">活动规则</view>
+                </view>
+            </view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" class="data-v-3a55a765" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','giftMoney','$event',[] ] ] ] ] ]}}" maskCloseAble="{{true}}" mode="center" value="{{giftMoney}}" vueId="8d4c7620-11" vueSlots="{{['default']}}">
+        <view class="title-bar data-v-3a55a765" style="{{'background-image:'+'url('+giftBagData.giftBagImage+')'+';'}}">
+            <view class="title data-v-3a55a765">{{giftBagData.orderActivePrize.prizeDesc}}</view>
+        </view>
+        <view class="gift-content data-v-3a55a765">
+            <view class="gift-box min-h data-v-3a55a765">
+                <view class="within-box data-v-3a55a765">
+                    <image class="img data-v-3a55a765" mode="aspectFit" src="{{giftBagData.orderActivePrize.prizeImage}}"></image>
+                    <view class="illustrate data-v-3a55a765">{{giftBagData.orderActivePrize.prizeUseDesc}}</view>
+                </view>
+                <view class="footer data-v-3a55a765">
+                    <view class="btn data-v-3a55a765">
+                        <view bindtap="__e" class="btn-style data-v-3a55a765" data-event-opts="{{[ [ 'tap',[ [ 'closeGiftPack',['$event'] ] ] ] ]}}">知道了</view>
+                    </view>
+                    <view bindtap="__e" class="active data-v-3a55a765" data-event-opts="{{[ [ 'tap',[ [ 'goActive',['$event'] ] ] ] ]}}" wx:if="{{activeRule}}">活动规则</view>
+                </view>
+            </view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" class="data-v-3a55a765" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','noGift','$event',[] ] ] ] ] ]}}" maskCloseAble="{{true}}" mode="center" value="{{noGift}}" vueId="8d4c7620-12" vueSlots="{{['default']}}">
+        <view class="title-bar data-v-3a55a765" style="{{'background-image:'+'url('+giftBagData.giftBagImage+')'+';'}}">
+            <view class="title data-v-3a55a765">{{giftBagData.orderActivePrize.prizeDesc}}</view>
+        </view>
+        <view class="gift-content data-v-3a55a765">
+            <view class="gift-box min-h data-v-3a55a765">
+                <view class="within-box data-v-3a55a765">
+                    <image class="img data-v-3a55a765" mode="aspectFit" src="{{giftBagData.orderActivePrize.prizeImage}}"></image>
+                </view>
+                <view class="footer data-v-3a55a765">
+                    <view class="btn data-v-3a55a765">
+                        <view bindtap="__e" class="btn-style data-v-3a55a765" data-event-opts="{{[ [ 'tap',[ [ 'closeGiftPack',['$event'] ] ] ] ]}}">再接再厉</view>
+                    </view>
+                    <view bindtap="__e" class="active data-v-3a55a765" data-event-opts="{{[ [ 'tap',[ [ 'goActive',['$event'] ] ] ] ]}}" wx:if="{{activeRule}}">活动规则</view>
+                </view>
+            </view>
+        </view>
+    </u-popup>
+</view>

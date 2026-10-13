@@ -1,0 +1,13 @@
+<view class="custom-popup data-v-b037c622" wx:if="{{showPopup}}">
+    <view class="loading data-v-b037c622" style="{{'width:'+(!loadingErrText?'280rpx':'450rpx')+';'+'height:'+(!loadingErrText?'280rpx':'400rpx')+';'}}">
+        <view class="loading-round data-v-b037c622" wx:if="{{!loadingErrText}}">
+            <view class="round-animation data-v-b037c622">
+                <image class="loading-suc-image data-v-b037c622" src="https://eshopfile.zhiyousx.com/2023121819231125834.png"></image>
+            </view>
+        </view>
+        <image class="loading-err-image data-v-b037c622" src="https://eshopfile.zhiyousx.com/2023121215140424055.png" wx:else></image>
+        <view class="text data-v-b037c622" wx:if="{{!!loadingErrText}}">{{loadingErrText}}</view>
+        <view class="text m-r-10 data-v-b037c622" wx:else>制卡中<text class="dotting data-v-b037c622"></text>
+        </view>
+    </view>
+</view>

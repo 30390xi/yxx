@@ -1,0 +1,48 @@
+<view class="data-v-0b7417a4">
+    <u-form bind:__l="__l" class="upload-user data-v-0b7417a4 vue-ref" data-ref="uForm" errorType="{{['toast']}}" model="{{form}}" vueId="58114b58-1" vueSlots="{{['default']}}">
+        <ocr-index bind:__l="__l" class="data-v-0b7417a4" vueId="{{'58114b58-2'+','+'58114b58-1'}}" vueSlots="{{['content']}}">
+            <u-form-item bind:__l="__l" class="upload-user-item data-v-0b7417a4" label=" " leftIcon="https://eshopfile.zhiyousx.com/2023102616591581812.png" leftIconStyle="{{iconStyle}}" prop="cardholderName" slot="content" vueId="{{'58114b58-3'+','+'58114b58-2'}}" vueSlots="{{['default']}}">
+                <u-input bind:__l="__l" bind:input="__e" class="data-v-0b7417a4" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','cardholderName','$event',[] ],['form'] ] ] ] ]}}" placeholder="持卡人姓名" value="{{form.cardholderName}}" vueId="{{'58114b58-4'+','+'58114b58-3'}}"></u-input>
+            </u-form-item>
+        </ocr-index>
+        <u-form-item bind:__l="__l" class="upload-user-item data-v-0b7417a4" label=" " leftIcon="https://eshopfile.zhiyousx.com/2023102616590180161.png" leftIconStyle="{{iconStyle}}" prop="cardholderIdCard" vueId="{{'58114b58-5'+','+'58114b58-1'}}" vueSlots="{{['default']}}">
+            <u-input bind:__l="__l" bind:input="__e" class="data-v-0b7417a4" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','cardholderIdCard','$event',[] ],['form'] ] ] ] ]}}" placeholder="持卡人身份证号码" value="{{form.cardholderIdCard}}" vueId="{{'58114b58-6'+','+'58114b58-5'}}"></u-input>
+        </u-form-item>
+        <u-form-item bind:__l="__l" class="upload-user-item data-v-0b7417a4" label=" " leftIcon="https://eshopfile.zhiyousx.com/2023102616585324739.png" leftIconStyle="{{iconStyle}}" prop="cardholderMobile" vueId="{{'58114b58-7'+','+'58114b58-1'}}" vueSlots="{{['default']}}">
+            <u-input bind:__l="__l" bind:input="__e" class="data-v-0b7417a4" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','cardholderMobile','$event',[] ],['form'] ] ] ] ]}}" placeholder="持卡人手机号码" value="{{form.cardholderMobile}}" vueId="{{'58114b58-8'+','+'58114b58-7'}}"></u-input>
+        </u-form-item>
+        <u-form-item bind:__l="__l" class="upload-image data-v-0b7417a4" label=" " labelWidth="0" prop="cardholderFaceUrl" vueId="{{'58114b58-9'+','+'58114b58-1'}}" vueSlots="{{['default']}}">
+            <view class="upload-image-content data-v-0b7417a4">
+                <u-upload action="{{action}}" autoUpload="{{true}}" bind:__l="__l" bind:onError="__e" bind:onOversize="__e" bind:onProgress="__e" bind:onRemove="__e" bind:onUploaded="__e" capture="user" class="data-v-0b7417a4 vue-ref" customBtn="{{true}}" data-event-opts="{{[ [ '^onError',[ ['onError'] ] ],[ '^onOversize',[ ['onOversize'] ] ],[ '^onProgress',[ ['e0'] ] ],[ '^onUploaded',[ ['onUploaded'] ] ],[ '^onRemove',[ ['onRemove'] ] ] ]}}" data-ref="uUpload" fileList="{{fileList}}" maxCount="1" maxSize="{{10*1024*1024}}" name="images" showProgress="{{showProgress}}" showTips="{{false}}" vueId="{{'58114b58-10'+','+'58114b58-9'}}" vueSlots="{{['addBtn']}}">
+                    <view class="slot-btn data-v-0b7417a4" slot="addBtn">
+                        <image class="data-v-0b7417a4" src="https://eshopfile.zhiyousx.com/2023102616584033346.png"></image>
+                        <view class="data-v-0b7417a4">上传人像</view>
+                    </view>
+                </u-upload>
+            </view>
+            <view class="upload-image-text data-v-0b7417a4">根据景区实名制要求，照片用于人像验证入园</view>
+            <view class="upload-image-text1 data-v-0b7417a4">请拍摄正面免冠照，五官清晰，露额头，请勿使用美颜、特效。</view>
+        </u-form-item>
+    </u-form>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-0b7417a4" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','infoPop','$event',[] ] ] ] ] ]}}" mode="center" value="{{infoPop}}" vueId="58114b58-11" vueSlots="{{['default']}}" zIndex="10175">
+        <view class="change-box data-v-0b7417a4">
+            <image class="data-v-0b7417a4" src="https://eshopfile.zhiyousx.com/2024011111221125247.png"></image>
+            <view class="tip-box data-v-0b7417a4">系统可一键导入您在下单平台订单中对应的游客资料，您是否需要？</view>
+            <view class="user-row data-v-0b7417a4">
+                <view class="key data-v-0b7417a4">姓 名</view>
+                <view class="val data-v-0b7417a4">{{''+userInfo.cardholderName+''}}</view>
+            </view>
+            <view class="user-row data-v-0b7417a4">
+                <view class="key data-v-0b7417a4">身份证</view>
+                <view class="val data-v-0b7417a4">{{''+userInfo.cardholderIdCard+''}}</view>
+            </view>
+            <view class="user-row data-v-0b7417a4">
+                <view class="key data-v-0b7417a4">手机号</view>
+                <view class="val data-v-0b7417a4">{{''+userInfo.cardholderMobile+''}}</view>
+            </view>
+            <view bindtap="__e" class="btn1 data-v-0b7417a4" data-event-opts="{{[ [ 'tap',[ [ 'setInfo',['$event'] ] ] ] ]}}">帮我导入<image class="data-v-0b7417a4" src="https://eshopfile.zhiyousx.com/2024011111471878373.png"></image>
+            </view>
+            <view bindtap="__e" class="btn1 btn2 data-v-0b7417a4" data-event-opts="{{[ [ 'tap',[ [ 'close',['$event'] ] ] ] ]}}">不用了，我要填写其他人的资料</view>
+        </view>
+    </u-popup>
+</view>

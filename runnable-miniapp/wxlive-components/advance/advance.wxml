@@ -1,0 +1,34 @@
+<view class="advance advance__{{from}} {{previewType===3?'advance__type-text':''}} {{previewType===1?'advance__type-image':''}} {{previewType===2?'advance__type-video':''}}">
+    <view class="advance__inner">
+        <view class="advance__title">{{roomTitle}}</view>
+        <view class="advance__count-time">
+            <view class="advance__count-time__body">
+                <view class="advance__count-time__title">开播倒计时</view>
+                <view class="advance__count-time__info">{{countdownTimeContent}}</view>
+            </view>
+            <view class="advance__count-time__footer">
+                <view bindtap="onSubscribe" class="advance__count-time__button" wx:if="{{!isSubscribe}}">开播提醒</view>
+                <view bindtap="onUnsubscribe" class="advance__count-time__button advance__count-time__button__disabled" wx:else>取消提醒</view>
+            </view>
+        </view>
+        <view class="advance__content">
+            <view class="advance__image-text" wx:if="{{previewType==1}}">
+                <view class="advance__image" style="background: url({{previewImgUrl}}) no-repeat center center / cover"></view>
+                <view class="advance__info-mask">
+                    <view class="advance__image-text__info {{pictureTextMoreThanTwo?'advance__ellipsis-container':''}}" id="advanceText">{{previewText}}</view>
+                    <view bindtap="tapMore" class="advance__text-more" wx:if="{{pictureTextMoreThanTwo}}">更多</view>
+                </view>
+            </view>
+            <view class="advance__text" wx:if="{{previewType==3}}">
+                <view class="advance__info-mask">
+                    <view class="advance__text__info {{textMoreThanSix?'advance__ellipsis-container':''}}" id="advanceText">{{previewText}}</view>
+                    <view bindtap="tapMore" class="advance__text-more" wx:if="{{textMoreThanSix}}">更多</view>
+                </view>
+            </view>
+            <view class="advance__video" wx:if="{{previewType==2}}">
+                <video bindended="videoEnded" bindfullscreenchange="fullScreenChange" bindloadedmetadata="loadedMetaData" bindpause="videoPause" bindplay="bindPlay" bindtimeupdate="timeUpdate" class="advance__video-inner" enablePlayGesture="{{true}}" id="previewVideo" objectFit="cover" showCenterPlayBtn="{{false}}" src="{{previewVideoUrl}}"></video>
+                <view bindtap="clickPlayBtn" class="advance__video-icon advance__video-icon-play" wx:if="{{!isPlaying}}"></view>
+            </view>
+        </view>
+    </view>
+</view>

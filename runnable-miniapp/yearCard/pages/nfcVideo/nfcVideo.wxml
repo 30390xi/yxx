@@ -1,0 +1,7 @@
+<view class="data-v-14e7353e">
+    <uni-navbar bind:__l="__l" class="data-v-14e7353e" type="transparentFixed" vueId="2c1975f6-1"></uni-navbar>
+    <view class="page-box data-v-14e7353e">
+        <video autoplay="{{true}}" bindpause="__e" bindplay="__e" class="video data-v-14e7353e" customCache="{{false}}" data-event-opts="{{[ [ 'play',[ [ 'videoPlay',['$event'] ] ] ],[ 'pause',[ [ 'videopause',['$event'] ] ] ] ]}}" enablePlayGesture="{{true}}" id="videoPlayer" loop="true" src="{{vlogUrl}}" wx:if="{{vlogUrl}}"></video>
+        <image bindtap="__e" class="btn play data-v-14e7353e" data-event-opts="{{[ [ 'tap',[ [ 'playPause',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/2021083111362225433.png" wx:if="{{!isPlay}}"></image>
+    </view>
+</view>

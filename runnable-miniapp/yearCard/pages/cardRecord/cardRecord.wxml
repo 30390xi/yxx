@@ -1,0 +1,25 @@
+<view class="card-record">
+    <uni-navbar bind:__l="__l" scrollTop="{{scrollTop}}" title="使用记录" titleCenter="{{false}}" type="transparentFixed" vueId="8330da54-1"></uni-navbar>
+    <view class="unreal-header" style="{{'opacity:'+bgStyle+';'+'padding:'+statusBarHeight+'px 96rpx 24rpx 24rpx'+';'}}">
+        <view class="unreal-header-content"></view>
+    </view>
+    <view class="header-bg">
+        <view class="card" style="{{'background-image:'+'url('+baseInfo.image+')'+';'+'background-position:'+'center center'+';'+'background-size:'+'cover'+';'}}">
+            <view class="card-body">
+                <view class="card-body-title">{{baseInfo.scenicName||baseInfo.title}}</view>
+                <view class="card-body-name" wx:if="{{baseInfo.cardholderName}}">{{'持卡人：'+baseInfo.cardholderName+''}}</view>
+                <view class="card-body-time" wx:if="{{$root.g0>$root.g1}}">{{'有效期：'+$root.f0+'~'+$root.f1}}</view>
+                <block wx:else>
+                    <view class="card-body-time" wx:if="{{baseInfo.effectiveEndDate}}">{{'有效期至：'+$root.f2}}</view>
+                </block>
+            </view>
+        </view>
+    </view>
+    <view class="tab">
+        <view bindtap="__e" class="{{[item.id===checkedTabId&&'checked']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeTab',['$0'],[ [ ['tabList','id',item.id,'id'] ] ] ] ] ] ]}}" wx:for="{{tabList}}" wx:for-index="__i0__" wx:key="id">{{''+item.name+''}}</view>
+    </view>
+    <view class="card-record-body">
+        <entry-record bind:__l="__l" info="{{useRecord}}" vueId="8330da54-2" wx:if="{{checkedTabId===1}}"></entry-record>
+        <reservation-record bind:__l="__l" bind:reset="__e" data-event-opts="{{[ [ '^reset',[ [ 'getAppointmentRecord',['$0'],['baseInfo.userYearCardId'] ] ] ] ]}}" info="{{appointmentRecord}}" showReappointBtn="{{baseInfo.status===3}}" userYearCardId="{{baseInfo.userYearCardId}}" vueId="8330da54-3" wx:else></reservation-record>
+    </view>
+</view>

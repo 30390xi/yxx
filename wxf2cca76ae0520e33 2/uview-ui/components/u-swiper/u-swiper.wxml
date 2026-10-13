@@ -1,0 +1,22 @@
+<view class="u-swiper-wrap data-v-1b6e0f42" style="{{'border-radius:'+borderRadius+'rpx'+';'}}">
+    <swiper autoplay="{{autoplay}}" bindanimationfinish="__e" bindchange="__e" circular="{{circular}}" class="data-v-1b6e0f42" data-event-opts="{{[ [ 'change',[ [ 'change',['$event'] ] ] ],[ 'animationfinish',[ [ 'animationfinish',['$event'] ] ] ] ]}}" duration="{{duration}}" interval="{{interval}}" nextMargin="{{effect3d?effect3dPreviousMargin+'rpx':'0'}}" previousMargin="{{effect3d?effect3dPreviousMargin+'rpx':'0'}}" style="{{'height:'+height+'rpx'+';'}}">
+        <swiper-item class="u-swiper-item data-v-1b6e0f42" wx:for="{{list}}" wx:key="index">
+            <view catchtap="__e" class="{{['u-list-image-wrap','data-v-1b6e0f42',current!=index?'u-list-scale':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'listClick',[index] ] ] ] ]}}" style="{{'border-radius:'+borderRadius+'rpx'+';'+'transform:'+(effect3d&&current!=index?'scaleY(0.9)':'scaleY(1)')+';'+'margin:'+(effect3d&&current!=index?'0 20rpx':0)+';'+'background-color:'+bgColor+';'}}">
+                <image class="u-swiper-image data-v-1b6e0f42" mode="{{imgMode}}" src="{{item[name]}}"></image>
+                <view class="u-swiper-title u-line-1 data-v-1b6e0f42" style="{{'padding-bottom:'+titlePaddingBottom+';'}}" wx:if="{{title}}">{{''+item.title+''}}</view>
+            </view>
+        </swiper-item>
+    </swiper>
+    <view class="u-swiper-indicator data-v-1b6e0f42" style="{{'top:'+(indicatorPos=='topLeft'||indicatorPos=='topCenter'||indicatorPos=='topRight'?'12rpx':'auto')+';'+'bottom:'+(indicatorPos=='indexBottom'?'52rpx':indicatorPos=='bottomLeft'||indicatorPos=='bottomCenter'||indicatorPos=='bottomRight'?'12rpx':'auto')+';'+'justify-content:'+justifyContent+';'+'padding:'+'0 '+(effect3d?'74rpx':'24rpx')+';'}}" wx:if="{{showIndicator}}">
+        <block wx:if="{{mode=='rect'}}">
+            <view class="{{['u-indicator-item-rect','data-v-1b6e0f42',index==current?'u-indicator-item-rect-active':'']}}" style="{{'background-color:'+(index==current?indicatorActiveColor:indicatorColor)+';'}}" wx:for="{{list}}" wx:key="index"></view>
+        </block>
+        <block wx:if="{{mode=='dot'}}">
+            <view class="{{['u-indicator-item-dot','data-v-1b6e0f42',index==current?'u-indicator-item-dot-active':'']}}" style="{{'background-color:'+(index==current?indicatorActiveColor:indicatorColor)+';'}}" wx:for="{{list}}" wx:key="index"></view>
+        </block>
+        <block wx:if="{{mode=='round'}}">
+            <view class="{{['u-indicator-item-round','data-v-1b6e0f42',index==current?'u-indicator-item-round-active':'']}}" style="{{'background-color:'+(index==current?indicatorActiveColor:indicatorColor)+';'}}" wx:for="{{list}}" wx:key="index"></view>
+        </block>
+        <view class="u-indicator-item-number data-v-1b6e0f42" wx:if="{{mode=='number'}}">{{current+1+'/'+$root.g0}}</view>
+    </view>
+</view>

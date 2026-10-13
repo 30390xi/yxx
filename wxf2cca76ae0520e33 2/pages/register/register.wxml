@@ -1,0 +1,23 @@
+<view class="{{['loginBox','data-v-2042da57',pathType==2?'dp':'']}}">
+    <uni-navbar bind:__l="__l" class="data-v-2042da57" type="transparentFixed" vueId="9a676040-1"></uni-navbar>
+    <view class="title data-v-2042da57">手机号注册</view>
+    <u-verification-code bind:__l="__l" bind:change="__e" class="data-v-2042da57 vue-ref" data-event-opts="{{[ [ '^change',[ ['codeChange'] ] ] ]}}" data-ref="uCode" seconds="60" vueId="9a676040-2"></u-verification-code>
+    <view class="loginForm data-v-2042da57">
+        <u-form bind:__l="__l" class="data-v-2042da57 vue-ref" data-ref="uForm" errorType="{{errorType}}" model="{{loginForm}}" rules="{{rules}}" vueId="9a676040-3" vueSlots="{{['default']}}">
+            <u-form-item bind:__l="__l" class="data-v-2042da57" labelWidth="0" prop="username" vueId="{{'9a676040-4'+','+'9a676040-3'}}" vueSlots="{{['default']}}">
+                <u-input bind:__l="__l" bind:input="__e" class="data-v-2042da57" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','username','$event',[] ],['loginForm'] ] ] ] ]}}" maxlength="11" placeholder="请输入手机号" type="number" value="{{loginForm.username}}" vueId="{{'9a676040-5'+','+'9a676040-4'}}"></u-input>
+            </u-form-item>
+            <u-form-item bind:__l="__l" class="data-v-2042da57" labelWidth="0" prop="code" vueId="{{'9a676040-6'+','+'9a676040-3'}}" vueSlots="{{['default','right']}}">
+                <u-input bind:__l="__l" bind:input="__e" class="data-v-2042da57" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','code','$event',[] ],['loginForm'] ] ] ] ]}}" maxlength="6" placeholder="请输入验证码" type="number" value="{{loginForm.code}}" vueId="{{'9a676040-7'+','+'9a676040-6'}}"></u-input>
+                <button bindtap="__e" class="codeStyle data-v-2042da57" data-event-opts="{{[ [ 'tap',[ [ 'getCode',['$event'] ] ] ] ]}}" slot="right">{{codeTips}}</button>
+            </u-form-item>
+            <u-form-item bind:__l="__l" class="data-v-2042da57" labelWidth="0" prop="password" vueId="{{'9a676040-8'+','+'9a676040-3'}}" vueSlots="{{['default']}}">
+                <u-input bind:__l="__l" bind:input="__e" class="data-v-2042da57" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','password','$event',[] ],['loginForm'] ] ] ] ]}}" maxlength="8" passwordIcon="{{true}}" placeholder="请设置密码" type="password" value="{{loginForm.password}}" vueId="{{'9a676040-9'+','+'9a676040-8'}}"></u-input>
+            </u-form-item>
+            <button bindtap="__e" class="{{['loginSub','data-v-2042da57',pathType==2?'dpBtn':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'submit',['$event'] ] ] ] ]}}" disabled="{{loadingStatus}}" loading="{{loadingStatus}}">注册</button>
+            <view class="loginText data-v-2042da57">
+                <text class="data-v-2042da57"></text>
+            </view>
+        </u-form>
+    </view>
+</view>

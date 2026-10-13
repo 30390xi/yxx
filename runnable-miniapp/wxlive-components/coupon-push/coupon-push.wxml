@@ -1,0 +1,17 @@
+<view class="coupon__card coupon__card__{{from}} {{couponPush?'fadeIn':'fadeOut'}} coupon__card__{{!screenType||screenType==='vertical'?'vertical':'horizontal'}} {{goodsPush?'coupon__card__no-arrow':''}} {{showCommentIcon?'coupon__card__with-comment':''}}" hidden="{{!couponPush||showRecord}}" style="transform-origin: {{screenType==='horizontal'?uiArrowLeftHorizontal+'px':uiArrowLeftVeritical+'px'}} bottom;">
+    <view class="coupon__card__inner">
+        <view class="store-list__item store-list__item__coupon">
+            <view class="store-list__item__inner">
+                <view class="store-list__item__body">
+                    <view class="store-list__item__title">{{couponPush.name}}</view>
+                </view>
+                <view class="store-list__item__foot" wx:if="{{from!=='pusher'}}">
+                    <view class="store-list__item__foot__deco store-list__item__foot__deco-top"></view>
+                    <view class="store-list__button-push disabled" wx:if="{{couponPush.is_given||couponPush.isGetCouponSucc!==undefined}}">{{couponPush.is_given||couponPush.isGetCouponSucc?'已领取':'没抢到'}}</view>
+                    <view bindtap="onGetCoupon" class="store-list__button-push" wx:else>领取</view>
+                    <view class="store-list__item__foot__deco store-list__item__foot__deco-bottom"></view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

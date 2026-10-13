@@ -1,0 +1,53 @@
+<view class="u-wrap data-v-bf49665a">
+    <uni-navbar bind:__l="__l" class="data-v-bf49665a" type="transparentFixed" vueId="6f6d4800-1"></uni-navbar>
+    <view class="fixHeader data-v-bf49665a" id="fixHeader" style="{{'background:'+'rgba(52,46,48,'+scrollTop/(navtop2-fixednavTop)+')'+';'}}">
+        <image class="rank data-v-bf49665a" src="https://eshopfile.zhiyousx.com/2021082714583556955.png" style="{{'margin-top:'+searchHeight+8+'px'+';'+'opacity:'+(scrollTop>navtop2-fixednavTop?1:0)+';'}}"></image>
+    </view>
+    <view class="headerInfo data-v-bf49665a">
+        <image class="bgimg data-v-bf49665a" mode="aspectFill" src="https://eshopfile.zhiyousx.com/162695356849759455.jpg"></image>
+        <view class="{{['nav','data-v-bf49665a',navFixed?'navFixed':'']}}" id="nav" style="{{fixedstyle}}">
+            <view bindtap="__e" class="{{['item','data-v-bf49665a',activeIndex==1?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeType',['',1] ] ] ] ]}}">全部</view>
+            <view bindtap="__e" class="{{['item','data-v-bf49665a',activeIndex==2?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeType',['1',2] ] ] ] ]}}">景点</view>
+            <view bindtap="__e" class="{{['item','data-v-bf49665a',activeIndex==3?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeType',['2',3] ] ] ] ]}}">美食</view>
+            <view bindtap="__e" class="{{['item','data-v-bf49665a',activeIndex==4?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeType',['0',4] ] ] ] ]}}">其他</view>
+            <view class="line data-v-bf49665a" style="{{'left:'+(activeIndex-1)*116+'rpx'+';'}}"></view>
+        </view>
+    </view>
+    <view class="container data-v-bf49665a">
+        <view class="list data-v-bf49665a" wx:if="{{spotList[0]}}">
+            <view bindtap="__e" class="item data-v-bf49665a" data-event-opts="{{[ [ 'tap',[ [ 'pageTo',['$0'],[ [ ['spotList','',__i0__] ] ] ] ] ] ]}}" wx:if="{{spot[$orig].rankingItemList}}" wx:for="{{$root.l1}}" wx:for-index="__i0__" wx:for-item="spot">
+                <view class="name singleLineText data-v-bf49665a">{{spot[$orig].rankingName}}</view>
+                <view class="info singleLineText data-v-bf49665a">{{(spot[$orig].sumCount||0)+(spot[$orig].rankingInclude||'')}}</view>
+                <view class="intro data-v-bf49665a" wx:if="{{spot[$orig].rankingDescribe}}">
+                    <text class="multilineText2 data-v-bf49665a">{{spot[$orig].rankingDescribe}}</text>
+                </view>
+                <view class="spotList data-v-bf49665a">
+                    <view class="spot data-v-bf49665a" wx:if="{{index<3}}" wx:for="{{spot.l0}}">
+                        <view class="imgbox data-v-bf49665a">
+                            <view class="data-v-bf49665a" wx:if="{{spot[$orig].type==8}}">
+                                <view class="badge gold data-v-bf49665a" wx:if="{{index==0}}">1</view>
+                                <block wx:else>
+                                    <view class="badge silver data-v-bf49665a" wx:if="{{index==1}}">2</view>
+                                    <block wx:else>
+                                        <view class="badge bronze data-v-bf49665a" wx:if="{{index==2}}">3</view>
+                                    </block>
+                                </block>
+                            </view>
+                            <image class="mainimg data-v-bf49665a" mode="aspectFill" src="{{item.$orig.originUrl}}"></image>
+                        </view>
+                        <view class="spotname singleLineText data-v-bf49665a">{{item.$orig.originName}}</view>
+                        <view class="likeRate data-v-bf49665a" wx:if="{{(spot[$orig].type==8||spot[$orig].type==7)&&spot[$orig].rankingType==2&&item.$orig.favoriteValue}}">
+                            <text class="icon data-v-bf49665a">喜爱值</text>
+                            <text class="num data-v-bf49665a">{{item.g0}}</text>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="noinfo data-v-bf49665a" wx:else>
+            <image class="noGoods data-v-bf49665a" mode="widthFix" src="https://eshopfile.zhiyousx.com/noGoods@2x.png"></image>
+            <view class="data-v-bf49665a">暂无内容</view>
+        </view>
+    </view>
+    <tab-bar bind:__l="__l" class="data-v-bf49665a" vueId="6f6d4800-2"></tab-bar>
+</view>

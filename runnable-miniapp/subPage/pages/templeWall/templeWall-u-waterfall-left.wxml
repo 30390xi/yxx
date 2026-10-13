@@ -1,0 +1,9 @@
+<view class="waterfall-item left data-v-231ac936" wx:for="{{leftList}}" wx:key="index">
+    <view class="img-box data-v-231ac936">
+        <image bindtap="__e" class="item-img data-v-231ac936" data-event-opts="{{[ [ 'tap',[ [ 'priview',['$0'],[ [ ['leftList','',index,'splitPicUrl'] ] ] ] ] ] ]}}" mode="widthFix" src="{{item.splitPicUrl}}" wx:if="{{item.showType>1}}"></image>
+        <image bindtap="__e" class="item-img square data-v-231ac936" data-event-opts="{{[ [ 'tap',[ [ 'priview',['$0'],[ [ ['leftList','',index,'splitPicUrl'] ] ] ] ] ] ]}}" mode="aspectFill" src="{{item.splitPicUrl}}" wx:if="{{item.showType<=1}}"></image>
+    </view>
+    <view class="userName-box data-v-231ac936">
+        <view class="userName l data-v-231ac936">{{''+item.nickName+''}}</view>
+    </view>
+</view>

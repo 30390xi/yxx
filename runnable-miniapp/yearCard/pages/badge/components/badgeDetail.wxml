@@ -1,0 +1,13 @@
+<view class="badge-detail data-v-812b1e72">
+    <share-element class="data-v-812b1e72" duration="{{300}}" key="badge" style="width:440rpx;height:440rpx;" transform="{{true}}">
+        <image class="data-v-812b1e72" mode="aspectFill" src="{{detailInfo.status===2?detailInfo.medalIconActive:detailInfo.medalIcon}}" style="width:450rpx;height:450rpx;"></image>
+    </share-element>
+    <view class="{{['data-v-812b1e72','paragraph',showEnter&&'enter']}}">
+        <view class="badge-name center data-v-812b1e72">{{detailInfo.medalName}}</view>
+        <view class="subBadge-name center data-v-812b1e72">{{detailInfo.medalSubName}}</view>
+        <view bindtap="__e" class="badge-time center data-v-812b1e72" data-event-opts="{{[ [ 'tap',[ [ 'goBack',['$0'],['detailInfo'] ] ] ] ]}}">{{detailInfo.status!==2?'未点亮':detailInfo.activeTime+'点亮'}}</view>
+        <view class="badge-tip center data-v-812b1e72">勋章获得条件</view>
+        <view class="badge-tip-desc center data-v-812b1e72">{{detailInfo.medalActiveCondition}}</view>
+        <view class="badge-desc data-v-812b1e72">{{detailInfo.medalDesc}}</view>
+    </view>
+</view>

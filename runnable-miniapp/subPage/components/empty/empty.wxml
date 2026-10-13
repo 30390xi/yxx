@@ -1,0 +1,4 @@
+<view class="empty">
+    <image mode="widthFix" src="{{''+imgUrl}}" width="318"></image>
+    <text>{{text||''}}</text>
+</view>

@@ -1,0 +1,36 @@
+<view class="page-box data-v-11334fc0">
+    <uni-navbar bind:__l="__l" class="data-v-11334fc0" type="transparentFixed" vueId="5e4e8980-1"></uni-navbar>
+    <image mode class="monthly-bg data-v-11334fc0" src="https://eshopfile.zhiyousx.com/monthly/monthly-bg.png"></image>
+    <image mode class="monthly-title data-v-11334fc0" src="https://eshopfile.zhiyousx.com/monthly/monthly-title.png"></image>
+    <view class="month-box data-v-11334fc0" wx:if="{{monthList[0]}}">
+        <view bindtap="__e" class="item data-v-11334fc0" data-event-opts="{{[ [ 'tap',[ [ 'viewmore',['$0'],[ [ ['monthList','',index] ] ] ] ] ] ]}}" wx:for="{{$root.l0}}">
+            <image mode class="bg-img data-v-11334fc0" src="https://eshopfile.zhiyousx.com/monthly/card-bg.png"></image>
+            <view class="item-top data-v-11334fc0">
+                <view class="{{['month','data-v-11334fc0',item.m0>9?'left':'']}}">{{item.m1}}</view>
+                <image class="month12 data-v-11334fc0" mode="heightFix" src="{{item.m2}}"></image>
+                <view class="num-box data-v-11334fc0">
+                    <text class="data-v-11334fc0">{{item.$orig.num+'张'}}</text>
+                    <u-icon bind:__l="__l" class="data-v-11334fc0" color="#555555" name="arrow-right" size="18" vueId="{{'5e4e8980-2-'+index}}"></u-icon>
+                </view>
+            </view>
+            <view class="item-body data-v-11334fc0">
+                <view class="item-box data-v-11334fc0" wx:if="{{i<4}}" wx:for="{{item.$orig.userPicVoList}}" wx:for-index="i" wx:for-item="option">
+                    <image class="item-img data-v-11334fc0" mode="aspectFill" src="{{option.splitPicUrl}}"></image>
+                    <image mode class="tips data-v-11334fc0" src="https://eshopfile.zhiyousx.com/monthly/img-tip.png"></image>
+                </view>
+            </view>
+        </view>
+    </view>
+    <image mode class="rule-title data-v-11334fc0" src="https://eshopfile.zhiyousx.com/monthly/rule.png"></image>
+    <view class="rule-box data-v-11334fc0">
+        <image mode class="bt data-v-11334fc0" src="https://eshopfile.zhiyousx.com/170065234874612378.png"></image>
+        <view class="content data-v-11334fc0">
+            <view class="data-v-11334fc0">1、上传图片照片请包含人像，以更能体现十二时辰的美为宜；</view>
+            <view class="data-v-11334fc0">2、每月评选3位月度之星，可以获得十二时辰免费入园机会，工作人员将与你联系；</view>
+            <view class="data-v-11334fc0">3、所有的月度之星，将有机会获得十二时辰随后活动的免费体验资格；</view>
+            <view class="data-v-11334fc0">4、如不希望照片被选作精选展示，请联系游陕西平台删除；</view>
+            <view class="data-v-11334fc0">5、参与活动即视为同意长安十二时辰主题街区及游陕西使用该照片作为宣传使用，游陕西平台对此次活动拥有最终解释权。</view>
+        </view>
+        <image mode class="bb data-v-11334fc0" src="https://eshopfile.zhiyousx.com/170065221134689184.png"></image>
+    </view>
+</view>

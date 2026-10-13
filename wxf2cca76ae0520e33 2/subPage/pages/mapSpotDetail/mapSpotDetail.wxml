@@ -1,0 +1,42 @@
+<view class="page-box data-v-3e5bb606" wx:if="{{spotDetail}}">
+    <view class="top-box data-v-3e5bb606" wx:if="{{imgList[0]}}">
+        <u-swiper autoplay="{{false}}" bind:__l="__l" borderRadius="0" class="data-v-3e5bb606" height="424" indicatorPos="bottomRight" interval="5000" list="{{imgList}}" name="imgUrl" vueId="74378b80-1"></u-swiper>
+        <view class="title-box data-v-3e5bb606">
+            <view class="title data-v-3e5bb606">{{''+langData.name+''}}</view>
+            <view class="dic data-v-3e5bb606" wx:if="{{spotDetail.distance}}">
+                <label class="_span data-v-3e5bb606" wx:if="{{langType=='中文'}}">距您</label>{{spotDetail.distance+'km'}}</view>
+        </view>
+    </view>
+    <view class="noImg data-v-3e5bb606" wx:else>
+        <view class="noImg-title-box data-v-3e5bb606">
+            <view class="noImg-title data-v-3e5bb606">{{''+langData.name+''}}</view>
+            <view class="noImg-dic data-v-3e5bb606" wx:if="{{spotDetail.distance}}">
+                <label class="_span data-v-3e5bb606" wx:if="{{langType=='中文'}}">距您</label>{{spotDetail.distance+'km'}}</view>
+        </view>
+    </view>
+    <view class="audio-box data-v-3e5bb606" wx:if="{{langData.voiceUrl}}">
+        <view class="audio-wrapper data-v-3e5bb606">
+            <view class="audio-number-box data-v-3e5bb606">
+                <text class="anb1 data-v-3e5bb606">{{$root.m0}}</text>
+                <view class="div data-v-3e5bb606">/</view>
+                <text class="anb2 data-v-3e5bb606">{{$root.m1}}</text>
+            </view>
+            <slider activeColor="#957F66" backgroundColor="#515151" bindchange="__e" bindchanging="__e" blockSize="16" class="audio-slider data-v-3e5bb606" data-event-opts="{{[ [ 'changing',[ [ 'e0',['$event'] ] ] ],[ 'change',[ [ 'e1',['$event'] ] ] ] ]}}" max="{{duration}}" value="{{current}}"></slider>
+        </view>
+        <image alt bindtap="__e" class="audio-but _img data-v-3e5bb606" data-event-opts="{{[ [ 'tap',[ ['play'] ] ] ]}}" hidden="{{!paused}}" src="https://eshopfile.zhiyousx.com/templeHeaven/mplay.png"></image>
+        <image alt bindtap="__e" class="audio-but _img data-v-3e5bb606" data-event-opts="{{[ [ 'tap',[ [ 'e2',['$event'] ] ] ] ]}}" hidden="{{!!paused}}" src="https://eshopfile.zhiyousx.com/templeHeaven/pause.png"></image>
+    </view>
+    <view class="content data-v-3e5bb606">
+        <u-parse bind:__l="__l" class="data-v-3e5bb606 vue-ref" data-ref="article" html="{{langData.introduction}}" lazyLoad="{{true}}" style="text-align:justify;" tagStyle="{{parseStyle}}" vueId="74378b80-2" vueSlots="{{['default']}}">
+            <text class="data-v-3e5bb606" style="display:inline-block;"></text>
+        </u-parse>
+    </view>
+    <view class="foot-box data-v-3e5bb606">
+        <button bindtap="__e" class="data-v-3e5bb606" data-event-opts="{{[ [ 'tap',[ [ 'jumpLocation',['$event'] ] ] ] ]}}">
+            <image alt class="jump _img data-v-3e5bb606" src="{{$root.m2}}"></image>{{''+(langType=='中文'?'去这里':'Go')+''}}</button>
+        <button class="data-v-3e5bb606" openType="share">
+            <image alt class="share _img data-v-3e5bb606" src="{{$root.m3}}"></image>{{''+(langType=='中文'?'分享':'Share')+''}}</button>
+    </view>
+    <view bindtap="__e" class="banckMap data-v-3e5bb606" data-event-opts="{{[ [ 'tap',[ [ 'toGuide',['$event'] ] ] ] ]}}" wx:if="{{showGuideBut}}">
+        <image mode class="data-v-3e5bb606" src="../../static/images/map/toMap.png"></image>{{''+(langType=='中文'?'去导览':'Guide')+''}}</view>
+</view>

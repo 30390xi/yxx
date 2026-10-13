@@ -1,0 +1,33 @@
+<popup-bottom bind:__l="__l" bind:close="__e" class="data-v-084ed9e2" data-event-opts="{{[ [ '^close',[ ['closeSkuBox'] ] ] ]}}" show="{{show}}" vueId="e76d1bbc-1" vueSlots="{{['default']}}">
+    <view class="sku-box data-v-084ed9e2">
+        <view class="sku-header container data-v-084ed9e2">
+            <view class="goods-img data-v-084ed9e2">
+                <image class="data-v-084ed9e2" src="{{selectSkuInfo[cbImage]?selectSkuInfo[cbImage]:defaultPicUrl}}"></image>
+            </view>
+            <view class="sku-goods-info data-v-084ed9e2">
+                <view class="money data-v-084ed9e2" style="{{'color:'+themeColor+';'}}">
+                    <text class="symbol fs-26 data-v-084ed9e2">￥</text>
+                    <text class="amount fs-38 data-v-084ed9e2">{{selectSkuInfo[cbPrice]}}</text>
+                </view>
+                <view class="fs-24 data-v-084ed9e2" wx:if="{{selectSkuInfo[cbValue]}}">{{'已选："'+selectSkuInfo[cbValue]+'"'}}</view>
+            </view>
+        </view>
+        <scroll-view class="data-v-084ed9e2" scrollY="{{true}}" style="max-height:40vh;min-height:20vh;">
+            <view class="sku-item container data-v-084ed9e2" wx:for="{{mySpecifications}}" wx:for-index="sIndex" wx:for-item="sku" wx:key="speId">
+                <view class="sku-name data-v-084ed9e2">{{sku[speName]}}</view>
+                <view class="sku-content data-v-084ed9e2">
+                    <text bindtap="__e" class="sku-content-item data-v-084ed9e2" data-event-opts="{{[ [ 'tap',[ [ 'selectSku',[sIndex,index] ] ] ] ]}}" style="{{'border:'+(index===sku.sidx?borderWidth+'px solid '+themeColor:borderWidth+'px solid transparent')+';'+'color:'+(index===sku.sidx?themeColor:'#333')+';'+'background-color:'+(index===sku.sidx?'white':'#f5f5f5')+';'}}" wx:for="{{sku[speList]}}" wx:key="index">{{item}}</text>
+                </view>
+            </view>
+            <view class="sku-item container count data-v-084ed9e2">
+                <view class="sku-name data-v-084ed9e2">数量</view>
+                <view class="count-box data-v-084ed9e2">
+                    <text bindtap="__e" class="{{['minus','data-v-084ed9e2',buyCount<=1?'disabled':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'handleBuyCount',['minus'] ] ] ] ]}}">-</text>
+                    <input bindblur="__e" bindinput="__e" class="count-content data-v-084ed9e2" data-event-opts="{{[ [ 'blur',[ [ 'inputNum',['$event'] ] ] ],[ 'input',[ [ '__set_model',[ '','buyCount','$event',[] ] ] ] ] ]}}" maxlength="200" type="number" value="{{buyCount}}"></input>
+                    <text bindtap="__e" class="{{['add','data-v-084ed9e2',buyCount>=selectSkuInfo[cbStock]?'disabled':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'handleBuyCount',['add'] ] ] ] ]}}">+</text>
+                </view>
+            </view>
+        </scroll-view>
+        <view bindtap="__e" class="confirm-btn container data-v-084ed9e2" data-event-opts="{{[ [ 'tap',[ [ 'handleConfirm',['$event'] ] ] ] ]}}" style="{{'background-color:'+themeColor+';'}}">确定</view>
+    </view>
+</popup-bottom>

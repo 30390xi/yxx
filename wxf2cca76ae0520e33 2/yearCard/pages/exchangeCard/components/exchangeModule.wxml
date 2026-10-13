@@ -1,0 +1,28 @@
+<u-modal bind:__l="__l" bind:input="__e" class="data-v-78ee1788" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','show','$event',[] ] ] ] ] ]}}" showConfirmButton="{{false}}" showTitle="{{false}}" value="{{show}}" vueId="7423bbab-1" vueSlots="{{['default']}}" width="640">
+    <view class="exchange-module data-v-78ee1788">
+        <view class="card-box data-v-78ee1788" style="{{'background-image:'+'url('+info.image+')'+';'+'background-position:'+'center center'+';'+'background-size:'+'cover'+';'}}">
+            <view class="card-num data-v-78ee1788">{{'NO.'+(info.cardNo||'')}}</view>
+            <view class="card-content data-v-78ee1788">
+                <view class="data-v-78ee1788">{{info.title}}</view>
+                <view class="data-v-78ee1788">{{info.subTitle}}</view>
+            </view>
+            <view class="card-time data-v-78ee1788" wx:if="{{info.effectiveDateType===0}}">{{'有效期：激活后'+info.effectiveDays+'天内有效'}}</view>
+            <block wx:else>
+                <view class="card-time data-v-78ee1788" wx:if="{{$root.g0>$root.g1}}">{{'有效期：\n            '+$root.f0+'~\n            '+$root.f1+''}}</view>
+                <block wx:else>
+                    <view class="card-time data-v-78ee1788" wx:if="{{info.effectiveEndDate}}">{{'有效期至：\n            '+$root.f2+''}}</view>
+                </block>
+            </block>
+        </view>
+        <view class="slot-content data-v-78ee1788">
+            <view class="tip-content data-v-78ee1788">
+                <view class="data-v-78ee1788">兑换到您的游陕西帐户？</view>
+                <view class="data-v-78ee1788">确认兑换后不得转赠，只可在当前账号激活使用。</view>
+            </view>
+            <view class="footer data-v-78ee1788">
+                <view bindtap="__e" class="red-btn data-v-78ee1788" data-event-opts="{{[ [ 'tap',[ [ 'handleExchange',['$event'] ] ] ] ]}}">立即兑换</view>
+                <view bindtap="__e" class="btn data-v-78ee1788" data-event-opts="{{[ [ 'tap',[ [ 'close',['$event'] ] ] ] ]}}">我再想想</view>
+            </view>
+        </view>
+    </view>
+</u-modal>

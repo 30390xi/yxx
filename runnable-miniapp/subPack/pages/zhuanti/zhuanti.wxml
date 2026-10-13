@@ -1,0 +1,30 @@
+<view class="bg">
+    <uni-navbar bind:__l="__l" type="transparentFixed" vueId="32fdde7c-1"></uni-navbar>
+    <view class="top">
+        <image mode="aspectFill" src="{{content.coverImage}}"></image>
+        <view class="p1">{{content.title}}</view>
+        <view class="p2">{{content.subtitle}}</view>
+    </view>
+    <view class="bottom">
+        <view class="title">
+            <view class="name">推荐</view>
+            <view class="line"></view>
+        </view>
+        <view class="item-list">
+            <view bindtap="__e" class="item" data-event-opts="{{[ [ 'tap',[ [ 'jump',['$0'],[ [ ['specialProducts','',index] ] ] ] ] ] ]}}" wx:for="{{specialProducts}}" wx:key="index">
+                <view class="left">
+                    <image mode="aspectFill" src="{{item.defaultPicUrl}}"></image>
+                </view>
+                <view class="right">
+                    <view class="name">{{item.productName}}</view>
+                    <view class="tip">{{item.likesNum+'人感兴趣'}}</view>
+                    <view class="price-box">
+                        <view class="p1">{{'￥'+item.retailPrice+'起'}}</view>
+                        <view class="p2">{{'￥'+item.price}}<text>起</text>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

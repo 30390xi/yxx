@@ -1,0 +1,137 @@
+<view class="collectCoupons data-v-72ec494b">
+    <scroll-view class="coupon-list data-v-72ec494b" scrollY="{{true}}">
+        <view class="empty data-v-72ec494b">
+            <view class="coupon-item data-v-72ec494b">
+                <view class="box data-v-72ec494b">
+                    <view class="box1 data-v-72ec494b">
+                        <view class="left data-v-72ec494b">
+                            <view class="name data-v-72ec494b">{{couponDetail.name}}</view>
+                            <view class="date data-v-72ec494b" wx:if="{{couponDetail.useTimeSlot==0}}">{{$root.f0+'-'+$root.f1}}</view>
+                            <block wx:if="{{couponDetail.useTimeSlot==1}}">
+                                <view class="date data-v-72ec494b" wx:if="{{couponDetail.memberReceivedNum==0}}">{{$root.f2+'-'+$root.f3}}</view>
+                                <view class="date data-v-72ec494b" wx:else>{{'领券后'+couponDetail.useTimeSlotHour+'小时内有效'}}</view>
+                            </block>
+                            <block wx:if="{{couponDetail.useTimeSlot==2}}">
+                                <view class="date data-v-72ec494b" wx:if="{{couponDetail.memberReceivedNum==0}}">{{$root.f4+'-'+$root.f5}}</view>
+                                <view class="date data-v-72ec494b" wx:else>{{couponDetail.useTimeStart+'-'+couponDetail.useTimeEnd}}</view>
+                            </block>
+                            <view bindtap="__e" class="detail data-v-72ec494b" data-event-opts="{{[ [ 'tap',[ ['showMore'] ] ] ]}}">
+                                <view class="look data-v-72ec494b">查看详情</view>
+                                <image class="data-v-72ec494b" src="https://eshopfile.zhiyousx.com/170960897814194743.png" style="width:24rpx;height:24rpx;" wx:if="{{showDetail}}"></image>
+                                <image class="data-v-72ec494b" src="https://eshopfile.zhiyousx.com/170911466956745555.png" style="width:24rpx;height:24rpx;" wx:else></image>
+                            </view>
+                        </view>
+                        <view class="right data-v-72ec494b">
+                            <view class="ceng1 data-v-72ec494b" wx:if="{{couponDetail.type==3}}">
+                                <view class="money data-v-72ec494b">0</view>
+                                <view class="yang data-v-72ec494b">元购</view>
+                            </view>
+                            <view class="ceng1 data-v-72ec494b" wx:else>
+                                <view class="yang data-v-72ec494b">￥</view>
+                                <view class="money data-v-72ec494b">{{couponDetail.quota}}</view>
+                            </view>
+                            <view class="ceng2 data-v-72ec494b" wx:if="{{couponDetail.type==1&&couponDetail.threshold>0}}">{{'满'+couponDetail.threshold+'可用'}}</view>
+                            <view class="ceng2 data-v-72ec494b" wx:if="{{couponDetail.type==2&&couponDetail.threshold==0}}">无门槛</view>
+                            <view class="ceng2 data-v-72ec494b" wx:if="{{couponDetail.type==3}}">
+                                <block wx:if="{{couponDetail.couponStates==2}}">{{'可抵扣'+couponDetail.deduction+''}}</block>
+                                <block wx:else>
+                                    <block wx:if="{{couponDetail.memberReceivedNum==0}}">{{'可抵扣'+couponDetail.deduction+(type==2?'人':'张')+''}}</block>
+                                    <block wx:else>
+                                        <block wx:if="{{couponDetail.showMemberDeductionNum==0}}">
+                                            <block wx:if="{{couponDetail.canUseNum>0}}">{{'可用'+couponDetail.canUseNum+'张'}}</block>
+                                            <tempalte bind:__l="__l" class="data-v-72ec494b" vueId="38eda742-1" vueSlots="{{['default']}}" wx:else>{{'可抵扣'+couponDetail.deduction+(type==2?'人':'张')}}</tempalte>
+                                        </block>
+                                        <block wx:else>{{'已抵扣('+couponDetail.deductionUsedNum+'/'+couponDetail.deduction+')'}}</block>
+                                    </block>
+                                </block>
+                            </view>
+                            <view bindtap="__e" class="ceng3 data-v-72ec494b" data-event-opts="{{[ [ 'tap',[ [ 'receive',['$0'],['couponDetail.couponId'] ] ] ] ]}}" wx:if="{{couponDetail.couponStates==1}}">立即领取</view>
+                            <view class="ceng5 data-v-72ec494b" wx:if="{{couponDetail.couponStates==2}}">抢光了</view>
+                            <view class="ceng4 data-v-72ec494b" wx:if="{{couponDetail.couponStates==3}}">已领取</view>
+                        </view>
+                        <image class="stamp data-v-72ec494b" src="https://eshopfile.zhiyousx.com/170917825995622404.png" wx:if="{{couponDetail.couponStates==3}}"></image>
+                    </view>
+                    <view class="{{['introduce','data-v-72ec494b',showDetail?'extend':'']}}">
+                        <view class="data-v-72ec494b">
+                            <image class="data-v-72ec494b" src="https://eshopfile.zhiyousx.com/170917719529144229.png" style="width:20rpx;height:20rpx;"></image>
+                        </view>
+                        <view class="data-v-72ec494b">
+                            <view class="wenzi data-v-72ec494b">{{couponDetail.useExplain}}</view>
+                            <view class="wenzi data-v-72ec494b" wx:if="{{couponDetail.useTimeSlot==2}}">{{'可预订【'+couponDetail.useTimeStart+'-'+couponDetail.useTimeEnd+'】的门票'}}</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="recommend data-v-72ec494b">
+            <u-divider bgColor="#F5F5F5" bind:__l="__l" borderColor="#6d6d6d" class="data-v-72ec494b" color="#000000" halfWidth="100" vueId="38eda742-2" vueSlots="{{['default']}}">此券值得买商品推荐</u-divider>
+        </view>
+        <view class="search-box data-v-72ec494b">
+            <u-search actionStyle="{{ {color:'#333333'} }}" actionText="搜索" animation="{{true}}" bgColor="#FFFFFF" bind:__l="__l" bind:custom="__e" bind:input="__e" bind:search="__e" class="data-v-72ec494b" data-event-opts="{{[ [ '^search',[ ['doSearch'] ] ],[ '^custom',[ ['doSearch'] ] ],[ '^input',[ [ '__set_model',[ '','keyWord','$event',[] ] ] ] ] ]}}" focus="{{true}}" maxlength="30" placeholder="{{searchKey||'输入您想搜索的内容'}}" value="{{keyWord}}" vueId="38eda742-3"></u-search>
+        </view>
+        <view class="shop-list data-v-72ec494b" wx:if="{{recommendList[0]||goodsList[0]}}">
+            <block wx:if="{{type==2}}">
+                <view class="shop-item data-v-72ec494b" wx:for="{{$root.l0}}" wx:key="index">
+                    <view bindtap="__e" class="data-v-72ec494b" data-event-opts="{{[ [ 'tap',[ [ 'goProduct',['$0'],[ [ ['recommendList','',index] ] ] ] ] ] ]}}" style="display:flex;">
+                        <view class="shop-left data-v-72ec494b">
+                            <image class="item-img data-v-72ec494b" mode="aspectFill" src="{{item.$orig.productPic}}"></image>
+                        </view>
+                        <view class="shop-right data-v-72ec494b">
+                            <view class="title data-v-72ec494b">{{item.$orig.productName}}</view>
+                            <view class="card data-v-72ec494b" wx:if="{{item.g0}}">
+                                <scroll-view class="name data-v-72ec494b" scrollLeft="{{0}}" scrollWithAnimation="true" scrollX="{{true}}" throttle="{{false}}">
+                                    <view class="service-item data-v-72ec494b" wx:for="{{item.$orig.lineHighlightLabelList}}" wx:for-index="num" wx:for-item="li" wx:key="num">
+                                        <view class="conp-item data-v-72ec494b">{{li}}</view>
+                                    </view>
+                                </scroll-view>
+                            </view>
+                            <view class="list data-v-72ec494b">
+                                <view class="its data-v-72ec494b">
+                                    <view class="ramark data-v-72ec494b">{{''+item.m0+''}}</view>
+                                </view>
+                            </view>
+                            <view class="footer data-v-72ec494b">
+                                <view class="item-btn data-v-72ec494b" wx:if="{{!item.$orig.stockStatus||item.$orig.sellOut}}">售罄</view>
+                                <block wx:else>
+                                    <view class="quan data-v-72ec494b">券</view>
+                                    <view class="yang data-v-72ec494b">￥</view>
+                                    <view class="num data-v-72ec494b">{{item.$orig.afterCouponPrice}}</view>
+                                    <view class="qi data-v-72ec494b" wx:if="{{item.$orig.startPriceFlag}}">起</view>
+                                </block>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </block>
+            <view class="goodsBoxs data-v-72ec494b" wx:else>
+                <view bindtap="__e" class="goodsItem data-v-72ec494b" data-event-opts="{{[ [ 'tap',[ [ 'goGoodsDetails',['$0'],[ [ ['goodsList','',index,'itemId'] ] ] ] ] ] ]}}" wx:for="{{$root.l1}}" wx:key="index">
+                    <view class="itemImg data-v-72ec494b">
+                        <u-lazy-load bind:__l="__l" borderRadius="8" class="data-v-72ec494b" height="192" image="{{item.$orig.defaultPicUrl}}" imgMode="aspectFill" isEffect="{{false}}" style="width:200rpx;" vueId="{{'38eda742-4-'+index}}"></u-lazy-load>
+                    </view>
+                    <view class="itemLeft data-v-72ec494b">
+                        <view class="itemTitle multilineText2 data-v-72ec494b">{{item.$orig.itemTitle}}</view>
+                        <view class="itemSubTitle singleLineText data-v-72ec494b" wx:if="{{item.$orig.itemSubTitle}}">{{item.$orig.itemSubTitle}}</view>
+                        <view class="yh-box data-v-72ec494b">
+                            <text class="itemRuter data-v-72ec494b" wx:if="{{item.$orig.couponFullAmount>0}}">{{'满'+item.f6+'减'+item.f7}}</text>
+                            <text class="itemRuter data-v-72ec494b" wx:if="{{item.$orig.couponFullAmount==0}}">{{'领券减'+item.f8}}</text>
+                            <text class="itemRuter data-v-72ec494b" wx:if="{{item.$orig.cashBackAmount&&userInfo&&userInfo.isFenxiao}}">{{'返￥'+item.$orig.cashBackAmount}}</text>
+                        </view>
+                        <view class="numBox data-v-72ec494b">
+                            <view class="numBox-l data-v-72ec494b">
+                                <text class="num-pic data-v-72ec494b" wx:if="{{item.$orig.startPriceFlag===0}}">{{'￥'+item.$orig.marketPrice}}</text>
+                                <text class="num-pic data-v-72ec494b" wx:if="{{item.$orig.startPriceFlag===1}}">{{'￥'+item.$orig.marketPrice+'起'}}</text>
+                            </view>
+                            <text class="num-ys data-v-72ec494b">{{'已售'+item.f9}}</text>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="empty data-v-72ec494b" wx:if="{{loadMore=='nomore'&&num==0}}">
+                <empty-state bind:__l="__l" class="data-v-72ec494b" imgUrl="https://eshopfile.zhiyousx.com/noOrder@2x.png" text="暂无产品" vueId="38eda742-5"></empty-state>
+            </view>
+            <view class="loadMore data-v-72ec494b" wx:else>
+                <u-loadmore bgColor="#f7f7f7" bind:__l="__l" class="data-v-72ec494b" color="#ccc" iconColor="#ccc" status="{{loadMore}}" vueId="38eda742-6"></u-loadmore>
+            </view>
+        </view>
+    </scroll-view>
+</view>

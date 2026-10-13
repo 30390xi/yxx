@@ -1,0 +1,37 @@
+<view ariaModal="true" ariaRole="dialog" wx:if="{{wrapperShow}}">
+    <view ariaLabel="关闭" ariaRole="button" bindtap="close" catch:touchmove="onMaskMouseMove" class="weui-mask {{innerShow?'weui-animate_fade-in':'weui-animate_fade-out'}}" data-type="tap" wx:if="{{mask}}"></view>
+    <view catch:touchmove="onMaskMouseMove" class="weui-half-screen-dialog {{innerShow?'weui-animate-slide-up':'weui-animate-slide-down'}} {{extClass}}">
+        <view class="weui-half-screen-dialog__hd" wx:if="{{showHeader}}">
+            <view bindtap="close" class="weui-half-screen-dialog__hd__side" data-type="close" wx:if="{{closabled}}">
+                <view ariaRole="button" class="weui-icon-btn" hoverClass="weui-active" wx:if="{{closeType!='arrow'}}">关闭<i class="weui-icon-close-thin font-500"></i>
+                </view>
+                <view class="weui-hd-close-arrow" hoverClass="weui-active" wx:else></view>
+            </view>
+            <view class="weui-half-screen-dialog__hd__main">
+                <block wx:if="{{title}}">
+                    <text class="weui-half-screen-dialog__title font-500">{{title}}</text>
+                    <text class="weui-half-screen-dialog__subtitle">{{subTitle}}</text>
+                </block>
+                <view class="weui-half-screen-dialog__title font-500" wx:else>
+                    <slot name="title"></slot>
+                </view>
+            </view>
+            <view class="weui-half-screen-dialog__hd__side weui-half-screen-dialog__hd__rightside">
+                <slot name="right"></slot>
+            </view>
+        </view>
+        <view class="weui-half-screen-dialog__bd">
+            <block wx:if="{{desc}}">
+                <view class="weui-half-screen-dialog__desc">{{desc}}</view>
+                <view class="weui-half-screen-dialog__tips">{{tips}}</view>
+            </block>
+            <slot name="desc" wx:else></slot>
+        </view>
+        <view class="weui-half-screen-dialog__ft" wx:if="{{showFooter}}">
+            <view class="weui-half-screen-dialog__btn-area" wx:if="{{buttons&&buttons.length}}">
+                <button ariaRole="button" bindtap="buttonTap" class="weui-btn {{item.className}}" data-index="{{index}}" hoverClass="weui-hover_cover" style="width:120px;height:40px;line-height:24px;" type="{{item.type}}" wx:for="{{buttons}}" wx:key="index">{{item.text}}</button>
+            </view>
+            <slot name="footer" wx:else></slot>
+        </view>
+    </view>
+</view>

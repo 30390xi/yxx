@@ -1,0 +1,40 @@
+<template name="goods-push-item">
+    <view class="activity-store-card__item__inner">
+        <view class="activity-store-card__item__head">
+            <image class="activity-store-card__item__avatar" mode="aspectFill" src="{{cover_img_url}}"></image>
+        </view>
+        <view class="activity-store-card__item__body">
+            <text class="activity-store-card__item__title">{{name}}</text>
+            <block wx:if="{{!isSeckilling}}">
+                <text class="activity-store-card__item__price" wx:if="{{price_type===1}}">¥{{price}}</text>
+                <text class="activity-store-card__item__price" wx:elif="{{price_type===2}}">¥{{price}} - ¥{{price2}}</text>
+                <view class="activity-store-card__item__price__container" wx:elif="{{price_type===3}}">
+                    <text class="activity-store-card__item__price">¥{{price2}}</text>
+                    <text class="activity-store-card__item__price activity-store-card__item__price-before">¥{{price}}</text>
+                </view>
+            </block>
+            <block wx:else>
+                <view class="activity-store-card__item__price__container">
+                    <text class="activity-store-card__item__price">¥{{seckillPrice}}</text>
+                    <text class="activity-store-card__item__price activity-store-card__item__price-before" wx:if="{{from!=='player'&&price_type!==2}}">¥{{price}}</text>
+                </view>
+                <view class="activity-store-card__sell-status">
+                    <view class="activity-store-card__item__tag">限时秒杀 {{seckillCountdownTime}}</view>
+                    <view class="activity-store-card__item__status">{{stock>0?'剩'+stock+'件':'售罄'}}</view>
+                </view>
+            </block>
+        </view>
+    </view>
+</template>
+<view bindtap="onClickViewGoods" class="activity-store-card has-events {{goodsPush.isSeckilling?'activity-store-card__with-seckill':''}} {{goodsPush?'fadeIn':'fadeOut'}} activity-store-card__{{!screenType||screenType==='vertical'?'vertical':'horizontal'}} {{showCommentIcon?'activity-store-card__with-comment':''}}" hidden="{{!goodsPush||showRecord}}" style="transform-origin: {{screenType==='horizontal'?uiArrowLeftHorizontal+'px':uiArrowLeftVeritical+'px'}} bottom">
+    <view class="activity-store-card__inner">
+        <view class="activity-store-card__item">
+            <navigator appId="{{goodsPush.third_party_appid}}" hoverClass="navigator-hover" openType="{{!goodsPush.third_party_appid&&goodsPush.isTabbar?'switchTab':'navigate'}}" path="{{goodsPush.url}}" target="{{goodsPush.third_party_appid?'miniProgram':'self'}}" url="{{goodsPush.url}}" wx:if="{{from==='player'}}">
+                <template is="goods-push-item" data="{{...goodsPush}}"></template>
+            </navigator>
+            <view wx:else>
+                <template is="goods-push-item" data="{{...goodsPush}}"></template>
+            </view>
+        </view>
+    </view>
+</view>

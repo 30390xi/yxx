@@ -1,0 +1,12 @@
+<view class="video-box-c data-v-2bbc111c">
+    <uni-navbar bind:__l="__l" class="data-v-2bbc111c" type="transparentFixed" vueId="48fe1fcf-1"></uni-navbar>
+    <image alt class="photo-box-image data-v-2bbc111c" src="https://eshopfile.zhiyousx.com/174540058622383938.png?imageView2/3/w/750"></image>
+    <view class="video-box data-v-2bbc111c">
+        <image mode class="photo-box-image3 data-v-2bbc111c" src="{{posterUrl+'?imageView2/3/w/578/h/1027'}}" wx:if="{{posterUrlStatus}}"></image>
+        <video bindloadedmetadata="__e" class="photo-box-image1 data-v-2bbc111c" controls="{{true}}" data-event-opts="{{[ [ 'loadedmetadata',[ [ 'loadedmetadata',['$event'] ] ] ] ]}}" enablePlayGesture="{{true}}" id="myVideo1" initialTime="{{0.01}}" objectFit="cover" poster="{{posterUrl}}" showCenterPlayBtn="{{true}}" showFullscreenBtn="{{true}}" src="{{videoUrl}}" wx:if="{{videoUrl}}"></video>
+    </view>
+    <view class="btns data-v-2bbc111c">
+        <image alt bindtap="__e" class="image-btn data-v-2bbc111c" data-event-opts="{{[ [ 'tap',[ [ 'downloadVideo',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/174540127656532660.png"></image>
+    </view>
+    <image mode bindtap="__e" class="image-btn1 data-v-2bbc111c" data-event-opts="{{[ [ 'tap',[ [ 'backPage',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/174540082410559197.png"></image>
+</view>

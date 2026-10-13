@@ -1,0 +1,163 @@
+<u-popup bind:__l="__l" bind:input="__e" borderRadius="32" class="data-v-69333700" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','isShowBookTip','$event',[] ] ] ] ] ]}}" height="70%" mode="bottom" value="{{isShowBookTip}}" vueId="c47e6462-1" vueSlots="{{['default']}}">
+    <view class="ytxz-box data-v-69333700" wx:if="{{ydxz}}">
+        <view class="content-box1 data-v-69333700">
+            <view class="title-box data-v-69333700">
+                <view class="p1 data-v-69333700" id="ytxz-box-title">{{ydxz.itemTitle}}</view>
+                <view class="p2 data-v-69333700">
+                    <text class="data-v-69333700" wx:if="{{ydxz.scenicType!=1}}">{{'已'+(ydxz.skuItemType==1?'约':'售')+$root.f0}}</text>
+                </view>
+            </view>
+            <scroll-view class="bottom-box data-v-69333700" scrollY="true" style="{{'height:'+bookTipHeight+'rpx'+';'}}">
+                <view class="line2 data-v-69333700" wx:if="{{$root.g0}}">
+                    <view class="title data-v-69333700">适用人群</view>
+                    <view class="b data-v-69333700" style="margin-bottom:8rpx;" wx:for="{{ydxz.targetGroupsRuleDescList}}" wx:for-index="i" wx:for-item="des" wx:key="i">{{''+des+''}}</view>
+                </view>
+                <view class="line1 data-v-69333700" wx:if="{{ydxz.bookingInfoTag}}">
+                    <view class="title data-v-69333700">{{(ydxz.skuItemType==1?'预约':'购买')+'须知'}}</view>
+                    <view class="b data-v-69333700">
+                        <view class="item data-v-69333700" wx:if="{{ydxz.itemUseDesc&&ydxz.itemUseDesc.dateType==1}}">
+                            <view class="l lc data-v-69333700" wx:if="{{ydxz.scenicType==1}}">入寺先预约</view>
+                            <block wx:else>
+                                <view class="l data-v-69333700" wx:if="{{ydxz.bookingInfoTag}}">{{ydxz.bookingInfoTag.bookingTag}}</view>
+                            </block>
+                            <view class="r data-v-69333700">
+                                <view class="refundItem data-v-69333700" wx:if="{{ydxz.bookingInfoTag.validityModeBookStr1}}">{{''+ydxz.bookingInfoTag.validityModeBookStr1}}</view>
+                                <view class="refundItem data-v-69333700" wx:if="{{ydxz.bookingInfoTag.validityModeBookStr2}}">{{''+ydxz.bookingInfoTag.validityModeBookStr2}}</view>
+                                <view class="refundItem data-v-69333700" wx:if="{{ydxz.bookingInfoTag.validityModeBookStr3}}">{{''+ydxz.bookingInfoTag.validityModeBookStr3}}</view>
+                            </view>
+                        </view>
+                        <view class="item data-v-69333700" wx:else>
+                            <view class="l lc data-v-69333700" wx:if="{{ydxz.scenicType==1}}">入寺先预约</view>
+                            <block wx:else>
+                                <view class="l data-v-69333700" wx:if="{{ydxz.bookingInfoTag}}">{{ydxz.bookingInfoTag.bookingTag}}</view>
+                            </block>
+                            <view class="r data-v-69333700" wx:if="{{ydxz.bookingInfoTag&&ydxz.bookingInfoTag.bookingTimeStr}}">{{ydxz.bookingInfoTag.bookingTimeStr+(ydxz.bookingInfoTag.reserveTimeStr?'，'+ydxz.bookingInfoTag.reserveTimeStr:'')}}</view>
+                        </view>
+                        <view class="item data-v-69333700" wx:if="{{ydxz.scenicType!=1&&ydxz.bookingInfoTag}}">
+                            <view class="l data-v-69333700">{{ydxz.bookingInfoTag.changeTag}}</view>
+                            <view class="r data-v-69333700">{{ydxz.bookingInfoTag.changeStr}}</view>
+                        </view>
+                        <view class="item data-v-69333700">
+                            <view class="{{['l','data-v-69333700',ydxz.scenicType==1?'lc':'']}}" wx:if="{{ydxz.bookingInfoTag}}">{{ydxz.bookingInfoTag.refundTag}}</view>
+                            <view class="r data-v-69333700" wx:if="{{ydxz.bookingInfoTag&&ydxz.bookingInfoTag.refundStr&&ydxz.bookingInfoTag.refundTag!='条件退'}}">
+                                <view class="data-v-69333700" wx:for="{{$root.l0}}">
+                                    <view class="refundItem data-v-69333700">{{item}}</view>
+                                </view>
+                            </view>
+                            <view class="r data-v-69333700" wx:else>
+                                <view class="data-v-69333700">
+                                    <view class="refundItem data-v-69333700">退款规则如下：</view>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+                <view class="table data-v-69333700" wx:if="{{ydxz.bookingInfoTag&&ydxz.bookingInfoTag.refundTag=='条件退'}}">
+                    <view class="tr first data-v-69333700" wx:if="{{ydxz.bookingInfoTag&&ydxz.bookingInfoTag.refundTag!='不可退'}}">
+                        <view class="td data-v-69333700" style="font-weight:bold;width:480rpx;">退款时间</view>
+                        <view class="td data-v-69333700" style="font-weight:bold;width:210rpx;">损失费用</view>
+                    </view>
+                    <view class="tr data-v-69333700" wx:if="{{item.timeDesc}}" wx:for="{{ydxz.refundFeeList}}" wx:for-index="__i0__">
+                        <view class="td data-v-69333700" style="width:480rpx;">{{item.timeDesc||''}}</view>
+                        <view class="td data-v-69333700" style="width:210rpx;">{{item.feeDesc||''}}</view>
+                    </view>
+                    <view class="tr data-v-69333700" wx:if="{{ydxz.bookingInfoTag&&ydxz.bookingInfoTag.refundStr1}}">
+                        <view class="td data-v-69333700" style="width:690rpx;display:block;">
+                            <view class="data-v-69333700" wx:for="{{$root.l1}}" wx:for-index="i" wx:for-item="it">
+                                <view class="refundItem data-v-69333700">{{it}}</view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+                <view class="line2 data-v-69333700" wx:if="{{ydxz.scenicType!=1&&ydxz.bookingInfoTag&&(ydxz.bookingInfoTag.feeIncludes||ydxz.bookingInfoTag.feeNotIncludes)}}">
+                    <view class="title data-v-69333700">{{(ydxz.skuItemType==1?'预约':'费用')+'说明'}}</view>
+                    <view class="b data-v-69333700">
+                        <view class="options data-v-69333700" wx:if="{{ydxz.bookingInfoTag.feeIncludes}}">
+                            <view class="title data-v-69333700">{{(ydxz.skuItemType==1?'预约':'费用')+'包含：'}}</view>
+                            <view class="content data-v-69333700">
+                                <u-parse bind:__l="__l" class="data-v-69333700 vue-ref" color="#777474" data-ref="article" html="{{ydxz.bookingInfoTag.feeIncludes}}" lazyLoad="{{true}}" tagStyle="{{parseStyle1}}" vueId="{{'c47e6462-2'+','+'c47e6462-1'}}"></u-parse>
+                            </view>
+                        </view>
+                        <view class="options data-v-69333700" wx:if="{{ydxz.bookingInfoTag.feeNotIncludes}}">
+                            <view class="title data-v-69333700">{{(ydxz.skuItemType==1?'预约':'费用')+'不含：'}}</view>
+                            <view class="content data-v-69333700">
+                                <u-parse bind:__l="__l" class="data-v-69333700 vue-ref" color="#777474" data-ref="article" html="{{ydxz.bookingInfoTag.feeNotIncludes}}" lazyLoad="{{true}}" tagStyle="{{parseStyle1}}" vueId="{{'c47e6462-3'+','+'c47e6462-1'}}"></u-parse>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+                <view class="line2 data-v-69333700" wx:if="{{ydxz.scenicType!=1&&ydxz.bookingInfoTag&&ydxz.bookingInfoTag.entranceDetail}}">
+                    <view class="title data-v-69333700">使用说明</view>
+                    <view class="b data-v-69333700">
+                        <u-parse bind:__l="__l" class="data-v-69333700 vue-ref" data-ref="article" html="{{ydxz.bookingInfoTag.entranceDetail}}" lazyLoad="{{true}}" tagStyle="{{parseStyle1}}" vueId="{{'c47e6462-4'+','+'c47e6462-1'}}"></u-parse>
+                    </view>
+                </view>
+                <view class="line2 data-v-69333700" wx:if="{{ydxz.scenicType!=1&&ydxz.bookingInfoTag&&ydxz.bookingInfoTag.bookNote}}">
+                    <view class="title data-v-69333700">其它说明</view>
+                    <view class="b data-v-69333700">
+                        <u-parse bind:__l="__l" class="data-v-69333700 vue-ref" data-ref="article" html="{{ydxz.bookingInfoTag.bookNote}}" lazyLoad="{{true}}" tagStyle="{{parseStyle1}}" vueId="{{'c47e6462-5'+','+'c47e6462-1'}}"></u-parse>
+                    </view>
+                </view>
+                <image class="community-box data-v-69333700" mode="widthFix" showMenuByLongpress="{{true}}" src="{{ydxz.communityUrl}}" wx:if="{{ydxz.communityUrl}}"></image>
+                <view class="line3 data-v-69333700">
+                    <view class="title data-v-69333700">客服电话</view>
+                    <view class="b data-v-69333700" wx:if="{{ydxz.scenicType!=1}}">
+                        <view class="item data-v-69333700">
+                            <view class="col1 data-v-69333700">平台</view>
+                            <view class="col2 data-v-69333700">门票或订单问题</view>
+                            <view class="col3 data-v-69333700">4000292296</view>
+                            <view class="col4 data-v-69333700">
+                                <image mode bindtap="__e" class="data-v-69333700" data-event-opts="{{[ [ 'tap',[ [ 'call',['4000292296'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/spotIntroNew/dianhua.png"></image>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+                <view class="line3 data-v-69333700">
+                    <view class="b data-v-69333700" wx:if="{{ydxz.scenicType!=1}}">
+                        <view class="item data-v-69333700">
+                            <view class="col1 data-v-69333700" style="opacity:0;">平台</view>
+                            <view class="col2 data-v-69333700" style="opacity:0;">门票或订单问题</view>
+                            <view class="col3 data-v-69333700">4001618666</view>
+                            <view class="col4 data-v-69333700">
+                                <image mode bindtap="__e" class="data-v-69333700" data-event-opts="{{[ [ 'tap',[ [ 'call',['4001618666'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/spotIntroNew/dianhua.png"></image>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+                <view class="line3 data-v-69333700" wx:for="{{telephoneVoList}}" wx:for-index="__i1__">
+                    <view class="b data-v-69333700">
+                        <view class="item data-v-69333700">
+                            <view class="{{['col1','data-v-69333700',ydxz.scenicType==1?'col1c':'']}}">{{(ydxz.scenicType!=1?'官方':'客堂')+''}}</view>
+                            <view class="col2 singleLineText data-v-69333700">{{item.telephoneTitle||''}}</view>
+                            <view class="col3 singleLineText data-v-69333700">{{item.telephone||''}}</view>
+                            <view class="col4 data-v-69333700">
+                                <image mode bindtap="__e" class="data-v-69333700" data-event-opts="{{[ [ 'tap',[ [ 'call',['$0'],[ [ ['telephoneVoList','',__i1__,'telephone'] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/spotIntroNew/dianhua.png"></image>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+                <view class="{{['ydxz-bot','data-v-69333700',showPcT&&bizType>1&&dialogInfos.itemId==ydxz.itemId?'ydxzBH':'']}}">-</view>
+            </scroll-view>
+            <subscription bind:__l="__l" class="data-v-69333700" dialogInfos="{{dialogInfos}}" styleInfo="position: absolute;bottom: 100rpx;padding: 8rpx 40rpx;" vueId="{{'c47e6462-6'+','+'c47e6462-1'}}" wx:if="{{showPcT&&bizType>1&&dialogInfos.itemId==ydxz.itemId}}"></subscription>
+            <view class="book-box data-v-69333700" wx:if="{{!ydxz.scenicType}}">
+                <view class="l data-v-69333700" wx:if="{{ydxz.scenicType!=1}}">
+                    <text class="p2 data-v-69333700" wx:if="{{ydxz.skuItemType==1&&ydxz.isFree==1}}">免费</text>
+                    <block wx:else>
+                        <text class="p1 data-v-69333700">价格</text>
+                        <text class="p2 data-v-69333700">{{'￥'+ydxz.marketPrice}}<text class="price-start data-v-69333700" wx:if="{{ydxz.startPriceFlag==1}}">起</text>
+                        </text>
+                    </block>
+                </view>
+                <view class="l data-v-69333700" wx:else></view>
+                <block wx:if="{{ydxz.scenicType==1}}">
+                    <button bindtap="__e" class="btn chansi data-v-69333700" data-event-opts="{{[ [ 'tap',[ [ 'buyFn',['$0'],['ydxz'] ] ] ] ]}}" wx:if="{{ydxz.stockStatus&&!ydxz.sellOut}}">免费预约</button>
+                    <button bindtap="__e" class="btn chansic data-v-69333700" data-event-opts="{{[ [ 'tap',[ [ 'ydxzSellOut',['$0'],['ydxz'] ] ] ] ]}}" wx:else>{{ydxz.skuItemType==1?'约满':'售空'}}</button>
+                </block>
+                <block wx:else>
+                    <button bindtap="__e" class="btn data-v-69333700" data-event-opts="{{[ [ 'tap',[ [ 'buyFn',['$0'],['ydxz'] ] ] ] ]}}" wx:if="{{ydxz.stockStatus&&!ydxz.sellOut}}">{{'立即预'+(ydxz.skuItemType==1?'约':'订')+''}}</button>
+                    <button bindtap="__e" class="btn emptys data-v-69333700" data-event-opts="{{[ [ 'tap',[ [ 'ydxzSellOut',['$0'],['ydxz'] ] ] ] ]}}" wx:else>{{ydxz.skuItemType==1?'约满':'售空'}}</button>
+                </block>
+            </view>
+        </view>
+    </view>
+</u-popup>

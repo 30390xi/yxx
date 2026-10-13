@@ -1,0 +1,269 @@
+<view class="bg u-skeleton data-v-33339561">
+    <view class="linearbg data-v-33339561" style="{{'height:'+fixednavH+'px'+';'}}"></view>
+    <view class="head_container data-v-33339561" style="{{'background:'+(!showIndex?'#fff':'rgba(255,255,255,'+1/fixednavH*scrollTop+')')+';'+'box-shadow:'+'0px 2px 40px 0px rgba(0, 0, 0, '+(showIndex?0:0.1)+')'+';'}}">
+        <image class="logo_t u-skeleton-fillet data-v-33339561" src="https://eshopfile.zhiyousx.com/2022112211283520803.png" style="{{'margin-top:'+searchHeight+'rpx'+';'}}" wx:if="{{!showIndex}}"></image>
+        <block wx:else>
+            <image class="logo_t u-skeleton-fillet data-v-33339561" src="https://eshopfile.zhiyousx.com/2021082411011139014.png" style="{{'margin-top:'+searchHeight+'rpx'+';'}}" wx:if="{{1-1/fixednavH*scrollTop>0}}"></image>
+            <image class="logo_t u-skeleton-fillet data-v-33339561" src="https://eshopfile.zhiyousx.com/2022112211283520803.png" style="{{'margin-top:'+searchHeight+'rpx'+';'}}" wx:else></image>
+        </block>
+        <view class="{{['searchBoxTop','u-skeleton-fillet','data-v-33339561',configrights==1?'grayFilter':'']}}" style="{{'background:'+(!showIndex?'rgba(0,0,0,0.1)':'rgba('+255-255/fixednavH*scrollTop+','+255-255/fixednavH*scrollTop+','+255-255/fixednavH*scrollTop+','+(0.8-1/fixednavH*scrollTop>0.1?0.8-1/fixednavH*scrollTop:0.1)+')')+';'}}">
+            <view class="item txt data-v-33339561">
+                <image class="data-v-33339561" src="https://eshopfile.zhiyousx.com/2021082411132637974.png"></image>
+                <view bindtap="__e" class="searchInput data-v-33339561" data-event-opts="{{[ [ 'tap',[ [ 'goSearch',['$0'],['searchKeyList.__$n0'] ] ] ] ]}}" wx:if="{{$root.g0==1}}">{{''+searchKeyList[0]+''}}</view>
+                <view class="searchInput data-v-33339561" wx:else>
+                    <u-notice-bar bgColor="#00000000" bind:__l="__l" bind:click="__e" class="data-v-33339561" color="#777474" data-event-opts="{{[ [ '^click',[ ['goSearch1'] ] ] ]}}" duration="{{10000}}" fontSize="26" list="{{searchKeyList}}" mode="vertical" padding="18rpx 0rpx" volumeIcon="{{false}}" vueId="8dd740cc-1"></u-notice-bar>
+                </view>
+            </view>
+        </view>
+    </view>
+    <panda-view bind:__l="__l" class="data-v-33339561 vue-ref" data-ref="pandaRef" isHasPopup="{{isHasPopup}}" isHide="{{isHide}}" isShowPanda="{{isShowPanda}}" version="{{xiaoqiVersion}}" vueId="8dd740cc-2" wx:if="{{showPandaSys&&!isIntoHide}}"></panda-view>
+    <view class="{{['container','data-v-33339561',configrights==1?'grayFilter':'']}}">
+        <view class="header u-skeleton-fillet data-v-33339561">
+            <u-swiper bind:__l="__l" bind:click="__e" borderRadius="0" class="data-v-33339561" data-event-opts="{{[ [ '^click',[ ['swiperTopClick'] ] ] ]}}" height="560" indicatorPos="indexBottom" interval="5000" list="{{swiperList}}" name="advertPicUrl" vueId="8dd740cc-3"></u-swiper>
+        </view>
+        <view class="body-box data-v-33339561">
+            <view class="tab-box nav-box data-v-33339561" wx:if="{{$root.g1}}">
+                <scroll-view class="tab data-v-33339561" scrollWithAnimation="true" scrollX="{{true}}" throttle="{{false}}">
+                    <view class="tabOver tabOver-nav data-v-33339561">
+                        <view class="tabCon-nav data-v-33339561" wx:for="{{firstLevelNav}}" wx:for-index="ci" wx:for-item="cl" wx:key="ci">
+                            <view bindtap="__e" class="tab-item tab-item-nav data-v-33339561" data-event-opts="{{[ [ 'tap',[ [ 'bannerClick',[ '$0',[ 'o',['eventTag','index_tab_click'],['eventName','首页一级导航'] ] ],[ [ ['firstLevelNav','',ci] ] ] ] ] ] ]}}">
+                                <view class="tab_icon data-v-33339561">
+                                    <image class="u-skeleton-circle data-v-33339561" mode="aspectFit" src="{{cl.advertPicUrl}}"></image>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </scroll-view>
+            </view>
+            <view class="tab-box data-v-33339561">
+                <scroll-view bindscroll="__e" class="tab data-v-33339561" data-event-opts="{{[ [ 'scroll',[ [ 'tabScrollToLeft',['$event'] ] ] ] ]}}" scrollWithAnimation="true" scrollX="{{true}}" throttle="{{false}}">
+                    <view class="tabOver data-v-33339561">
+                        <view class="tabCon data-v-33339561" wx:for="{{midNavList}}" wx:for-index="ci" wx:for-item="cl" wx:key="ci">
+                            <view bindtap="__e" class="tab-item data-v-33339561" data-event-opts="{{[ [ 'tap',[ [ 'bannerClick',[ '$0',[ 'o',['eventTag','index_tab_click'],['eventName','首页中部导航'] ] ],[ [ ['midNavList','',ci] ] ] ] ] ] ]}}">
+                                <view class="tab_icon data-v-33339561">
+                                    <image class="u-skeleton-circle data-v-33339561" mode="aspectFit" src="{{cl.advertPicUrl}}"></image>
+                                </view>
+                                <text class="singleLineText data-v-33339561">{{cl.advertName}}</text>
+                                <view class="dir data-v-33339561" wx:if="{{cl.isRelation==1}}"></view>
+                            </view>
+                        </view>
+                    </view>
+                </scroll-view>
+            </view>
+            <view class="ac_box data-v-33339561" wx:if="{{$root.g2}}">
+                <view class="ac_left u-skeleton-fillet data-v-33339561">
+                    <image bindtap="__e" class="ac_image data-v-33339561" data-event-opts="{{[ [ 'tap',[ [ 'bannerClick',[ '$0',[ 'o',['eventTag','index_center_banner_click'],['eventName','首页中部banner点击'] ] ],['middleBanner.__$n0'] ] ] ] ]}}" mode="aspectFill" src="{{middleBanner[0].advertPicUrl}}"></image>
+                </view>
+                <view class="ac_right data-v-33339561" wx:if="{{$root.g3}}">
+                    <view class="rank-b u-skeleton-fillet data-v-33339561">
+                        <swiper autoplay="true" circular="{{true}}" class="rank-swiper data-v-33339561" interval="10000">
+                            <swiper-item bindtap="__e" class="data-v-33339561" data-event-opts="{{[ [ 'tap',[ [ 'bannerClick',[ '$0',[ 'o',['eventTag','index_center_banner_click'],['eventName','首页中部banner点击'] ] ],[ [ ['middleBannerFilter','',index] ] ] ] ] ] ]}}" wx:for="{{middleBannerFilter}}" wx:key="index">
+                                <view class="rank-item data-v-33339561">
+                                    <image class="data-v-33339561" mode="aspectFill" src="{{''+item.advertPicUrl}}"></image>
+                                </view>
+                            </swiper-item>
+                        </swiper>
+                    </view>
+                </view>
+            </view>
+            <view class="re_box data-v-33339561" style="{{'background:'+HOME_HOT_PRODUCT_BACK_IMG+';'}}" wx:if="{{$root.g4}}">
+                <scroll-view class="re-top data-v-33339561" scrollWithAnimation="{{true}}" scrollX="{{true}}">
+                    <view bindtap="__e" class="{{['re-item','u-skeleton-fillet','data-v-33339561',item.id==showReId?'active':'',index>0?'reLine':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeType',['$0'],[ [ ['reNavList','',index,'id'] ] ] ] ] ] ]}}" wx:for="{{reNavList}}" wx:key="index">
+                        <view class="re-b data-v-33339561">
+                            <view class="title data-v-33339561">{{''+item.name+''}}</view>
+                            <view class="sub data-v-33339561">{{''+item.sub+''}}</view>
+                        </view>
+                    </view>
+                </scroll-view>
+                <scroll-view class="spotlist data-v-33339561" scrollWithAnimation="{{true}}" scrollX="{{true}}" wx:if="{{showReId=='r1'}}">
+                    <view catchtap="__e" class="spot u-skeleton-fillet data-v-33339561" data-event-opts="{{[ [ 'tap',[ [ 'toTicketDeatil',['$0'],[ [ ['recommend.list','',index] ] ] ] ] ] ]}}" wx:if="{{index<10}}" wx:for="{{recommend.list}}">
+                        <image class="spot_icon data-v-33339561" mode="aspectFill" src="{{item.defaultPicUrl+'?imageView2/1/w/216/h/158/'}}"></image>
+                        <image class="tips data-v-33339561" mode="aspectFill" src="https://eshopfile.zhiyousx.com/2024080109580212180.png"></image>
+                        <view class="spot_name multilineText2 data-v-33339561">{{item.itemTitle}}</view>
+                        <view class="spot_price spot-bg data-v-33339561">
+                            <view class="price-box data-v-33339561">
+                                <view class="dis-box data-v-33339561" wx:if="{{item.retailPrice&&item.retailPrice>item.marketPrice||item.discount&&item.discount>0}}">
+                                    <view class="maketPrice data-v-33339561" wx:if="{{item.retailPrice&&item.retailPrice>item.marketPrice}}">{{'￥'+item.retailPrice+''}}</view>
+                                    <view class="discount data-v-33339561" wx:if="{{item.discount&&item.discount>0&&item.discount<10}}">{{''+item.discount+'折'}}</view>
+                                </view>
+                                <view class="price data-v-33339561">
+                                    <view class="p data-v-33339561" style="font-size:28rpx;" wx:if="{{item.skuItemType==1&&item.isFree==1}}">免费</view>
+                                    <block wx:else>
+                                        <view class="t data-v-33339561">￥</view>
+                                        <view class="p data-v-33339561">{{item.marketPrice}}</view>
+                                        <view class="start data-v-33339561" wx:if="{{item.startPriceFlag==1}}">起</view>
+                                    </block>
+                                </view>
+                            </view>
+                            <view class="picBox data-v-33339561">
+                                <image class="picImg data-v-33339561" mode="widthFix" src="https://eshopfile.zhiyousx.com/2024080709391015048.png"></image>
+                            </view>
+                        </view>
+                    </view>
+                    <view catchtap="__e" class="more data-v-33339561" data-event-opts="{{[ [ 'tap',[ ['todetail'] ] ] ]}}" wx:if="{{$root.g5}}">
+                        <view class="data-v-33339561">
+                            <text class="data-v-33339561">查</text>
+                            <text class="data-v-33339561">看</text>
+                            <text class="data-v-33339561">更</text>
+                            <text class="data-v-33339561">多</text>
+                        </view>
+                    </view>
+                </scroll-view>
+                <scroll-view class="cardList u-skeleton-fillet data-v-33339561" scrollWithAnimation="{{true}}" scrollX="{{true}}" wx:if="{{showReId=='r2'}}">
+                    <view catchtap="__e" class="card data-v-33339561" data-event-opts="{{[ [ 'tap',[ [ 'toEquityCard',['$0'],[ [ ['equityCardList','',index] ] ] ] ] ] ]}}" wx:if="{{index<6}}" wx:for="{{equityCardList}}">
+                        <view class="card-bg data-v-33339561"></view>
+                        <view class="card-info data-v-33339561">
+                            <image class="card-image data-v-33339561" mode="aspectFill" src="{{item.image+'?imageView2/1/w/200/h/120/'}}"></image>
+                            <view class="card-t1 data-v-33339561">{{''+item.name+''}}</view>
+                            <view class="card-sub singleLineText data-v-33339561">{{''+item.subtitle+''}}</view>
+                            <view class="card-btn data-v-33339561">GO<u-icon bind:__l="__l" class="data-v-33339561" color="#FFFFFF" name="arrow-rightward" size="18" style="margin-left:10rpx;margin-top:-5rpx;" vueId="{{'8dd740cc-4-'+index}}"></u-icon>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="card data-v-33339561" wx:if="{{$root.g6==1}}">
+                        <view class="card-bg data-v-33339561"></view>
+                        <view class="card-info data-v-33339561">
+                            <image class="card-image data-v-33339561" mode="aspectFill" src="https://eshopfile.zhiyousx.com/167316384967509305.png"></image>
+                            <view class="card-t1 data-v-33339561">更多权益</view>
+                            <view class="card-sub data-v-33339561">敬请期待</view>
+                            <view class="card-btn dis data-v-33339561">持续更新</view>
+                        </view>
+                    </view>
+                </scroll-view>
+                <scroll-view class="spotlist u-skeleton-fillet data-v-33339561" scrollWithAnimation="{{true}}" scrollX="{{true}}" wx:if="{{showReId=='r3'}}">
+                    <view catchtap="__e" class="spot data-v-33339561" data-event-opts="{{[ [ 'tap',[ [ 'goGoodInfo',['$0'],[ [ ['lineList','',index] ] ] ] ] ] ]}}" wx:if="{{index<10}}" wx:for="{{$root.l0}}">
+                        <image class="spot_icon data-v-33339561" mode="aspectFill" src="{{item.$orig.productPic+'?imageView2/1/w/216/h/158/'}}"></image>
+                        <view class="travelMode data-v-33339561">{{''+item.$orig.travelMode+''}}</view>
+                        <view class="spot_name multilineText2 data-v-33339561">{{item.$orig.productName}}</view>
+                        <view class="saleNum data-v-33339561" wx:if="{{item.$orig.sellNum>0}}">{{'已有'+item.f0+'人出行'}}</view>
+                        <view class="saleNum data-v-33339561" style="opacity:0;" wx:else>123</view>
+                        <view class="spot_price data-v-33339561" style="height:40rpx;">
+                            <view class="price data-v-33339561">
+                                <block wx:if="{{item.$orig.price>0}}">
+                                    <view class="t data-v-33339561">￥</view>
+                                    <view class="p data-v-33339561">{{item.$orig.price}}</view>
+                                    <view class="start data-v-33339561" wx:if="{{item.$orig.startPriceFlag==1}}">起</view>
+                                    <view class="line-through data-v-33339561" wx:if="{{item.$orig.retailPrice>0&&item.$orig.retailPrice>item.$orig.price}}">{{'￥'+item.$orig.retailPrice+''}}</view>
+                                </block>
+                            </view>
+                        </view>
+                    </view>
+                    <view catchtap="__e" class="more data-v-33339561" data-event-opts="{{[ [ 'tap',[ [ 'pageTo',[ '/subPack/pages/lineList/lineList',[ 'o',['eventTag','index_lineList_click'],['eventName','首页线路列表跳转'] ] ] ] ] ] ]}}" wx:if="{{$root.g7>10}}">
+                        <view class="data-v-33339561">
+                            <text class="data-v-33339561">查</text>
+                            <text class="data-v-33339561">看</text>
+                            <text class="data-v-33339561">更</text>
+                            <text class="data-v-33339561">多</text>
+                        </view>
+                    </view>
+                </scroll-view>
+                <scroll-view class="spotlist u-skeleton-fillet data-v-33339561" scrollWithAnimation="{{true}}" scrollX="{{true}}" wx:if="{{showReId=='r4'}}">
+                    <view catchtap="__e" class="spot data-v-33339561" data-event-opts="{{[ [ 'tap',[ [ 'goInnovationInfo',['$0'],[ [ ['culturalInnovationlist','',index] ] ] ] ] ] ]}}" wx:if="{{index<10}}" wx:for="{{$root.l1}}" wx:key="index">
+                        <image class="spot_icon data-v-33339561" mode="aspectFill" src="{{item.$orig.defaultPicUrl+'?imageView2/1/w/216/h/158/'}}"></image>
+                        <view class="spot_name multilineText2 data-v-33339561">{{item.$orig.itemTitle}}</view>
+                        <view class="saleNum data-v-33339561">{{item.f1+'人付款'}}</view>
+                        <view class="spot_price data-v-33339561" style="height:40rpx;">
+                            <view class="price data-v-33339561">
+                                <block wx:if="{{item.$orig.productType===0}}">
+                                    <view class="t data-v-33339561">￥</view>
+                                    <view class="p data-v-33339561">{{item.$orig.minPrice}}</view>
+                                    <view class="start data-v-33339561" wx:if="{{item.$orig.startPriceFlag==1}}">起</view>
+                                    <view class="line-through data-v-33339561" wx:if="{{item.$orig.marketPrice>0&&item.$orig.marketPrice>item.$orig.minPrice}}">{{'￥'+item.$orig.marketPrice+''}}</view>
+                                </block>
+                                <block wx:if="{{item.$orig.productType===1}}">
+                                    <view class="t data-v-33339561">￥</view>
+                                    <view class="p data-v-33339561">{{item.$orig.marketPrice}}</view>
+                                    <view class="start data-v-33339561">起</view>
+                                    <view class="line-through data-v-33339561" wx:if="{{item.$orig.marketPrice>0&&item.$orig.marketPrice>item.$orig.minPrice}}">{{'￥'+item.$orig.marketPrice+''}}</view>
+                                </block>
+                            </view>
+                        </view>
+                    </view>
+                    <view catchtap="__e" class="more data-v-33339561" data-event-opts="{{[ [ 'tap',[ [ 'pageTo',[ '/subPage/pages/goodslist/goodslist?catId=1285865298884374530',[ 'o',['eventTag','index_InnovationList_click'],['eventName','首页文创列表跳转'] ] ] ] ] ] ]}}" wx:if="{{$root.g8>10}}">
+                        <view class="data-v-33339561">
+                            <text class="data-v-33339561">查</text>
+                            <text class="data-v-33339561">看</text>
+                            <text class="data-v-33339561">更</text>
+                            <text class="data-v-33339561">多</text>
+                        </view>
+                    </view>
+                </scroll-view>
+            </view>
+            <view class="navBar data-v-33339561" id="midNavbar" style="{{'top:'+fixednavH+'px'+';'}}">
+                <scroll-view class="cate-box data-v-33339561" scrollWithAnimation="{{true}}" scrollX="{{true}}">
+                    <image class="cate cateImg data-v-33339561" mode="aspectFill" src="https://eshopfile.zhiyousx.com/2024080617341933155.png" wx:if="{{waterfallActiveIndex==0}}"></image>
+                    <view bindtap="__e" class="{{['cate','data-v-33339561',index==waterfallActiveIndex?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changewaterType',['$0',index,'$1'],[ [ ['waterNavList','',index,'type'] ],[ ['waterNavList','',index,'name'] ] ] ] ] ] ]}}" wx:if="{{(item.show||item.type==9&&showVideo)&&!(waterfallActiveIndex==0&&index==0)}}" wx:for="{{waterNavList}}">{{''+item.name+''}}</view>
+                </scroll-view>
+            </view>
+            <view bindtouchend="__e" bindtouchstart="__e" class="waterfall data-v-33339561" data-event-opts="{{[ [ 'touchstart',[ [ 'wtouchStart',['$event'] ] ] ],[ 'touchend',[ [ 'wtouchEnd',['$event'] ] ] ] ]}}" wx:if="{{showIndex}}">
+                <view class="data-v-33339561">
+                    <u-waterfall addTime="10" bannerList="{{waterFallBanner}}" bg="{{HOME_HOT_PRODUCT_BACK_IMG}}" bind:__l="__l" bind:click="__e" bind:input="__e" bind:wclick="__e" class="data-v-33339561 vue-ref" data-event-opts="{{[ [ '^wclick',[ ['wclick'] ] ],[ '^click',[ ['jumpWater'] ] ],[ '^input',[ [ '__set_model',[ '','waterfallList','$event',[] ] ] ] ] ]}}" data-ref="uWaterfall" data-vue-generic="scoped" recommendList="{{nearBySopt}}" value="{{waterfallList}}" vueId="8dd740cc-5" vueSlots="{{['right','left']}}" waterType="{{waterNavList[waterfallActiveIndex]['type']}}"></u-waterfall>
+                </view>
+            </view>
+        </view>
+    </view>
+    <tab-bar bind:__l="__l" class="data-v-33339561" grayFilter="{{configrights}}" vueId="8dd740cc-6" wx:if="{{showIndex}}"></tab-bar>
+    <u-skeleton animation="{{true}}" bind:__l="__l" class="data-v-33339561" loading="{{loadingStatus}}" vueId="8dd740cc-7"></u-skeleton>
+    <view bindtap="__e" class="{{['indexPopop','data-v-33339561',configrights==1?'grayFilter':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" wx:if="{{showPopup}}">
+        <view class="follow-box data-v-33339561" style="{{'margin-top:'+menuButton.bottom+5+'px'+';'+'margin-right:'+5+'px'+';'}}">
+            <image catchtap="__e" class="follow data-v-33339561" data-event-opts="{{[ [ 'tap',[ [ '',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/guide/follow.png"></image>
+            <image class="follow-close data-v-33339561" src="https://eshopfile.zhiyousx.com/guide/follow-close.png"></image>
+        </view>
+    </view>
+    <view class="guide-box data-v-33339561" style="{{'top:'+menuButton.top-7+'px'+';'+'right:'+menuButton.width+15+'px'+';'}}" wx:if="{{showGuide}}">
+        <view class="{{['guide-bg','data-v-33339561',configrights==1?'grayFilter':'']}}">
+            <image mode bindtap="__e" class="data-v-33339561" data-event-opts="{{[ [ 'tap',[ [ 'showPopupBox',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/guide/guideImg.png"></image>
+            <image mode bindtap="__e" class="guide-close data-v-33339561" data-event-opts="{{[ [ 'tap',[ [ 'closePopupBox',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/guide/guide-close.png"></image>
+        </view>
+    </view>
+    <u-popup bind:__l="__l" bind:input="__e" class="data-v-33339561 vue-ref" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showNotice','$event',[] ] ] ] ] ]}}" data-ref="uPopup" maskCloseAble="{{false}}" mode="center" value="{{showNotice}}" vueId="8dd740cc-8" vueSlots="{{['default']}}">
+        <view class="{{['notice-box','data-v-33339561',configrights==1?'grayFilter':'']}}">
+            <image bindtap="__e" class="notice-img data-v-33339561" data-event-opts="{{[ [ 'tap',[ [ 'bannerClick',[ '$0',[ 'o',['eventTag','index_popup_click'],['eventName','首页弹窗点击'] ] ],['popupData'] ] ] ] ]}}" mode="widthFix" showMenuByLongpress="{{true}}" src="{{popupData.advertPicUrl}}"></image>
+            <image mode bindtap="__e" class="notice-close data-v-33339561" data-event-opts="{{[ [ 'tap',[ [ 'e1',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/ytc/popupClose1.png"></image>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" class="data-v-33339561 vue-ref" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showGiftBag','$event',[] ] ] ] ] ]}}" data-ref="giftPopup" maskCloseAble="{{true}}" mode="center" value="{{showGiftBag}}" vueId="8dd740cc-9" vueSlots="{{['default']}}">
+        <view class="{{['giftBag','data-v-33339561',configrights==1?'grayFilter':'']}}">
+            <image class="giftBag-img data-v-33339561" mode="widthFix" src="{{giftBagData.image}}"></image>
+            <view class="gift-mid data-v-33339561">
+                <view class="gift-title data-v-33339561">{{''+giftBagData.desc+''}}</view>
+                <scroll-view class="card-box data-v-33339561" scrollY="{{true}}" style="{{'height:'+(gbCl>3?'604rpx':gbCl==1?'250rpx':gbCl*151+'rpx')+';'}}">
+                    <view class="{{['data-v-33339561',gbCl==1?'candItem1':'',gbCl>1?'candItem':'']}}" wx:for="{{$root.l2}}" wx:for-index="i" wx:for-item="it">
+                        <image mode class="it-img1 data-v-33339561" src="https://eshopfile.zhiyousx.com/166384545957301610.png" wx:if="{{gbCl>1&&i==0}}"></image>
+                        <image mode class="it-img2 data-v-33339561" src="https://eshopfile.zhiyousx.com/166384386610789834.png" wx:if="{{gbCl>1&&i>0&&i<gbCl-1}}"></image>
+                        <image mode class="it-img3 data-v-33339561" src="https://eshopfile.zhiyousx.com/166384545957301610.png" wx:if="{{gbCl>1&&gbCl-i==1}}"></image>
+                        <view class="item-card-box data-v-33339561">
+                            <view class="left data-v-33339561">
+                                <image class="data-v-33339561" mode="aspectFill" src="{{it[$orig].couponImage}}"></image>
+                                <view class="info data-v-33339561">
+                                    <view class="name data-v-33339561">{{''+it[$orig].couponName+''}}</view>
+                                    <view class="time data-v-33339561">{{''+it.f2+' -\n                      '+it.f3+''}}</view>
+                                </view>
+                            </view>
+                            <view class="right data-v-33339561">
+                                <view class="price data-v-33339561" wx:if="{{it[$orig].type==3}}">0<text class="data-v-33339561" style="font-size:20rpx;color:#FF4848;">元购</text>
+                                </view>
+                                <view class="price data-v-33339561" wx:else>
+                                    <text class="data-v-33339561" style="font-size:20rpx;color:#FF4848;">￥</text>{{it[$orig].quota+''}}</view>
+                                <view class="tips data-v-33339561" wx:if="{{it[$orig].type==2&&it[$orig].threshold==0}}">无门槛</view>
+                                <view class="tips data-v-33339561" wx:if="{{it[$orig].type==1&&it[$orig].threshold>0}}">{{'满'+it[$orig].threshold+'元可用'}}</view>
+                                <view class="tips data-v-33339561" wx:if="{{it[$orig].type==3}}">{{'可抵'+(it[$orig].deduction||1)+'张'}}</view>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="data-v-33339561" style="height:98rpx;" wx:if="{{gbCl>1}}"></view>
+                </scroll-view>
+                <image mode class="giftBag-bottom-img data-v-33339561" src="https://eshopfile.zhiyousx.com/2022091611243407453.png"></image>
+                <view bindtap="__e" class="giftBag-but data-v-33339561" data-event-opts="{{[ [ 'tap',[ ['receiveGiftBag'] ] ] ]}}">立即领取</view>
+            </view>
+        </view>
+    </u-popup>
+    <view class="data-v-33339561" style="position:fixed;right:200vw;">
+        <image alt class="data-v-33339561" src="https://eshopfile.zhiyousx.com/173624572062868212.png"></image>
+        <image alt class="data-v-33339561" src="https://eshopfile.zhiyousx.com/2025010209442127956.png"></image>
+        <image alt class="data-v-33339561" src="https://eshopfile.zhiyousx.com/2025010209491993271.png"></image>
+        <image alt class="data-v-33339561" src="https://eshopfile.zhiyousx.com/173685356329009453.png"></image>
+        <image alt class="data-v-33339561" src="https://eshopfile.zhiyousx.com/173685349083777006.png"></image>
+        <image alt class="data-v-33339561" src="https://eshopfile.zhiyousx.com/173685342354545235.png"></image>
+    </view>
+</view>

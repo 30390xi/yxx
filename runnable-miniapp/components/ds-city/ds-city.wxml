@@ -1,0 +1,40 @@
+<u-popup bind:__l="__l" bind:close="__e" bind:input="__e" closeIconColor="#ffffff" closeable="{{true}}" data-event-opts="{{[ [ '^close',[ ['close'] ] ],[ '^input',[ [ '__set_model',[ '','value','$event',[] ] ] ] ] ]}}" mask="{{true}}" maskCloseAble="{{maskCloseAble}}" mode="bottom" popup="{{false}}" safeAreaInsetBottom="{{true}}" value="{{value}}" vueId="1c874e2e-1" vueSlots="{{['default']}}" zIndex="{{uZIndex}}">
+    <u-tabs activeColor="#ff4643" bind:__l="__l" bind:change="__e" class="vue-ref" current="{{tabsIndex}}" data-event-opts="{{[ [ '^change',[ ['tabsChange'] ] ] ]}}" data-ref="tabs" isScroll="{{true}}" list="{{genTabsList}}" vueId="{{'1c874e2e-2'+','+'1c874e2e-1'}}" wx:if="{{value}}"></u-tabs>
+    <view class="area-box">
+        <view class="{{['u-flex',isChange?'change':'']}}">
+            <view class="area-item">
+                <view class="u-padding-10 u-bg-gray" style="height:100%;">
+                    <scroll-view scrollY="{{true}}" style="height:100%;">
+                        <u-cell-group bind:__l="__l" vueId="{{'1c874e2e-3'+','+'1c874e2e-1'}}" vueSlots="{{['default']}}">
+                            <u-cell-item arrow="{{false}}" bind:__l="__l" bind:click="__e" data-event-opts="{{[ [ '^click',[ ['provinceChange'] ] ] ]}}" index="{{index}}" title="{{item.label}}" vueId="{{'1c874e2e-4-'+index+','+'1c874e2e-3'}}" vueSlots="{{['default']}}" wx:for="{{provinces}}" wx:key="index">
+                                <u-icon bind:__l="__l" color="#ff4643" name="checkbox-mark" size="34" slot="right-icon" vueId="{{'1c874e2e-5-'+index+','+'1c874e2e-4-'+index}}" wx:if="{{isChooseP&&province===index}}"></u-icon>
+                            </u-cell-item>
+                        </u-cell-group>
+                    </scroll-view>
+                </view>
+            </view>
+            <view class="area-item">
+                <view class="u-padding-10 u-bg-gray" style="height:100%;">
+                    <scroll-view scrollY="{{true}}" style="height:100%;">
+                        <u-cell-group bind:__l="__l" vueId="{{'1c874e2e-6'+','+'1c874e2e-1'}}" vueSlots="{{['default']}}" wx:if="{{isChooseP}}">
+                            <u-cell-item arrow="{{false}}" bind:__l="__l" bind:click="__e" data-event-opts="{{[ [ '^click',[ ['cityChange'] ] ] ]}}" index="{{index}}" title="{{item.label}}" vueId="{{'1c874e2e-7-'+index+','+'1c874e2e-6'}}" vueSlots="{{['default']}}" wx:for="{{citys}}" wx:key="index">
+                                <u-icon bind:__l="__l" color="#ff4643" name="checkbox-mark" size="34" slot="right-icon" vueId="{{'1c874e2e-8-'+index+','+'1c874e2e-7-'+index}}" wx:if="{{isChooseC&&city===index}}"></u-icon>
+                            </u-cell-item>
+                        </u-cell-group>
+                    </scroll-view>
+                </view>
+            </view>
+            <view class="area-item">
+                <view class="u-padding-10 u-bg-gray" style="height:100%;">
+                    <scroll-view scrollY="{{true}}" style="height:100%;">
+                        <u-cell-group bind:__l="__l" vueId="{{'1c874e2e-9'+','+'1c874e2e-1'}}" vueSlots="{{['default']}}" wx:if="{{isChooseC}}">
+                            <u-cell-item arrow="{{false}}" bind:__l="__l" bind:click="__e" data-event-opts="{{[ [ '^click',[ ['areaChange'] ] ] ]}}" index="{{index}}" title="{{item.label}}" vueId="{{'1c874e2e-10-'+index+','+'1c874e2e-9'}}" vueSlots="{{['default']}}" wx:for="{{areas}}" wx:key="index">
+                                <u-icon bind:__l="__l" color="#ff4643" name="checkbox-mark" size="34" slot="right-icon" vueId="{{'1c874e2e-11-'+index+','+'1c874e2e-10-'+index}}" wx:if="{{isChooseA&&area===index}}"></u-icon>
+                            </u-cell-item>
+                        </u-cell-group>
+                    </scroll-view>
+                </view>
+            </view>
+        </view>
+    </view>
+</u-popup>

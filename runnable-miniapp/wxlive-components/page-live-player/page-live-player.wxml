@@ -1,0 +1,27 @@
+<view bindtap="onClearScreen" class="page-live-player {{'page-live-player__'+screenType}} {{isGovernment&&roomImg?'live-page-cover':''}}" data-source="page" style="pointer-events: {{isClearScreen?'auto':'none'}}; {{isGovernment&&roomImg?'background: url('+roomImg+') no-repeat center / cover':''}}">
+    <view wx:if="{{isPushStream&&screenType==='vertical'&&isLivePlaying||hangUpLinkMicCountTime>0}}">
+        <image style="background:url({{roomImg}}) no-repeat center / cover; width: 100%; height: 100%; position: absolute;"></image>
+        <view class="{{coverFuzzy||hangUpLinkMicCountTime>0?'live-bottom-page__cover__image__cover':''}}"></view>
+    </view>
+    <view class="live-page-0 live-bottom-page__playing {{showHorizontalBtn&&screenType!=='horizontal'?isClearScreen?'live-bottom-page__playing__horizontal-button__clean':'live-bottom-page__playing__horizontal-button__show':''}} {{isPriorPlayerPerpare||isPushStream&&screenType==='vertical'&&!playingLayerStyle?'live-player-hidden':''}} {{curLiveStatusCode==allLiveStatusCode.LIVE&&anchorOpenLinkMic&&transformDuration?'live_player_transform_duration':''}}" id="playerId" style="{{'transform: scale('+scaleRate+') translateX('+translateX+'px);'+playingLayerStyle}}" wx:if="{{isPriorPlayerPerpare||showLivePlayer}}">
+        <live-player _useSimulatedPictureInPicture="{{!closePictureInPictureMode}}" autoplay="{{curLiveStatusCode===allLiveStatusCode.LIVE}}" bindenterpictureinpicture="onEnterPictureInPicture" binderror="onLivePlayerError" bindfullscreenchange="onLivePlayerFullScreenChange" bindleavepictureinpicture="onLeavePictureInPicture" bindnetstatus="onLivePlayerNetStatus" bindrendererror="onLivePlayerRenderError" bindstatechange="onLivePlayerStateChange" catchtap="onClearScreen" class="live-player__stream {{!isLivePlaying||isPushStream&&screenType==='vertical'&&!playingLayerStyle?'live-player-hidden':'live-player-show'}}" data-source="video" hidden="{{hangUpLinkMicCountTime>0}}" id="live-player-context" maxCache="{{maxCache}}" minCache="{{minCache}}" mode="{{playerMode}}" objectFit="{{isPushStream&&screenType==='horizontal'||isHorizontalPC||useContain?'contain':'fillCrop'}}" pictureInPictureMode="{{!closePictureInPictureMode?!closePictureInPicturePop?pictureInPictureMode:pictureInPicturePushMode:''}}" simulatedPictureInPicturePoster="{{!closePictureInPictureMode?roomImg:''}}" src="{{livePlayUrl}}" style="pointer-events: {{isClearScreen?'none':'auto'}};" wx:if="{{isM3u8===false}}">
+            <cover-view bindtap="onExitLivePlayerFullScreen" class="live-playing__pc__shadow" wx:if="{{isPCFullScreen}}">
+                <view class="live-playing__esc-fullscreen-button">
+                    <view class="esc-fullscreen__icon"></view>退出全屏</view>
+            </cover-view>
+        </live-player>
+        <video autoplay="{{curLiveStatusCode===allLiveStatusCode.LIVE}}" bindenterpictureinpicture="onEnterPictureInPicture" binderror="onVideoError" bindleavepictureinpicture="onLeavePictureInPicture" bindloadedmetadata="onVideoLoadedMetaData" bindtimeupdate="onVideoTimeUpdate" bindwaiting="onVideoWaiting" catchtap="onClearScreen" class="live-player__stream {{!isLivePlaying||isPushStream&&screenType==='vertical'&&!playingLayerStyle?'live-player-hidden':'live-player-show'}}" controls="{{false}}" data-source="video" enableProgressGesture="{{false}}" id="video-context" objectFit="{{isPushStream&&screenType==='horizontal'||isHorizontalPC?'contain':'fillCrop'}}" pictureInPictureMode="{{!closePictureInPictureMode?!closePictureInPicturePop?pictureInPictureMode:pictureInPicturePushMode:''}}" showCenterPlayBtn="{{false}}" showFullscreenBtn="{{false}}" showPlayBtn="{{false}}" src="{{livePlayUrl}}" style="pointer-events: {{isClearScreen?'none':'auto'}};" wx:if="{{isM3u8===true}}"></video>
+        <view class="live-page__id__watermark {{isAnimation?'live-page__id__watermark__animation':''}}" wx:if="{{isLivePlaying&&rtxName&&(!isPushStream||screenVerticalHeight)}}">{{rtxName}}</view>
+        <view catchtap="onHorizontalBtn" class="live-playing__horizontal-button {{!isClearScreen&&!showLoading&&showHorizontalBtn&&isPushStream&&screenType==='vertical'&&playingLayerStyle?'live-playing__horizontal-button__show':'live-playing__horizontal-button__clean'}}"></view>
+    </view>
+    <view class="live-page-0 live-bottom-page__cover" hidden="{{!(showLoading||showRoomImg)&&(!isPushStream||screenVerticalHeight)}}">
+        <view class="live-bottom-page__cover__image" style="background: url({{roomImg}}) no-repeat center; background-size: cover" wx:if="{{roomImg}}"></view>
+        <view class="live-bottom-page__cover__image" wx:else></view>
+    </view>
+</view>
+<view class="live-page-loading page__icon__loading" wx:if="{{!playerTips&&showLoading&&curLiveStatusCode!==allLiveStatusCode.NOT_START&&curLiveStatusCode!==allLiveStatusCode.END&&!hidePlayerGuide&&hangUpLinkMicCountTime<=0}}"></view>
+<view class="live-page-loading live-page-loading__with-info" wx:if="{{hangUpLinkMicCountTime>0}}">
+    <view class="page__icon__loading"></view>
+    <view class="live-page-loading__info">正在结束连麦({{hangUpLinkMicCountTime}}s)</view>
+</view>
+<view class="live-page-status__msg live-page-top-toast {{showLoading||showRoomImg?'':'live-page-tips'}}" wx:if="{{playerTips&&!hidePlayerGuide}}">{{playerTips}}</view>

@@ -1,0 +1,55 @@
+<view class="scenic-sport-code data-v-ae2a9104">
+    <view class="data-v-ae2a9104">{{'凭'+info.verifyModeName+'验证入园'}}</view>
+    <view class="card-item data-v-ae2a9104">
+        <view class="card-item-left data-v-ae2a9104">
+            <view class="left-box data-v-ae2a9104" wx:if="{{$root.g0}}">必带</view>
+            <view class="left-box data-v-ae2a9104">
+                <block wx:if="{{$root.g1}}">
+                    <view class="data-v-ae2a9104">证</view>
+                    <view class="data-v-ae2a9104">件</view>
+                </block>
+                <block wx:else>
+                    <view class="data-v-ae2a9104">持</view>
+                    <view class="data-v-ae2a9104">卡</view>
+                    <view class="data-v-ae2a9104">人</view>
+                </block>
+            </view>
+        </view>
+        <view class="card-item-right data-v-ae2a9104">
+            <view class="card-info data-v-ae2a9104">
+                <view class="data-v-ae2a9104">{{info.contactName}}</view>
+                <view class="data-v-ae2a9104" data-c-label="身份证">{{info.contactIdCard}}</view>
+            </view>
+            <view bindtap="__e" class="card-code data-v-ae2a9104" data-event-opts="{{[ [ 'tap',[ [ 'changePopupStatus',[true] ] ] ] ]}}" wx:if="{{$root.g2}}">
+                <l-painter bind:__l="__l" class="image data-v-ae2a9104" vueId="0c010110-1" vueSlots="{{['default']}}">
+                    <l-painter-qrcode bind:__l="__l" class="data-v-ae2a9104" css="width: 80rpx; height: 80rpx;" text="{{qrCode}}" vueId="{{'0c010110-2'+','+'0c010110-1'}}"></l-painter-qrcode>
+                </l-painter>
+                <view class="data-v-ae2a9104">核验码</view>
+            </view>
+        </view>
+    </view>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-ae2a9104" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','show','$event',[] ] ] ] ] ]}}" mode="bottom" value="{{show}}" vueId="0c010110-3" vueSlots="{{['default']}}" wx:if="{{show}}">
+        <view class="popup-container data-v-ae2a9104">
+            <view class="popup-body data-v-ae2a9104">
+                <view class="title data-v-ae2a9104">检验码</view>
+                <view class="popup-code data-v-ae2a9104" wx:if="{{$root.g3}}">
+                    <l-painter bind:__l="__l" class="code data-v-ae2a9104" vueId="{{'0c010110-4'+','+'0c010110-3'}}" vueSlots="{{['default']}}">
+                        <l-painter-qrcode bind:__l="__l" class="data-v-ae2a9104" css="width: 480rpx; height: 480rpx" text="{{qrCode}}" vueId="{{'0c010110-5'+','+'0c010110-4'}}"></l-painter-qrcode>
+                    </l-painter>
+                </view>
+                <view class="popup-num data-v-ae2a9104" wx:if="{{info.useType===1}}">
+                    <view class="data-v-ae2a9104">数字码</view>
+                    <view class="data-v-ae2a9104">{{info.verifyCode}}</view>
+                    <view bindtap="__e" class="copy-btn data-v-ae2a9104" data-event-opts="{{[ [ 'tap',[ [ 'copy',['$event'] ] ] ] ]}}">复制</view>
+                </view>
+                <view class="popup-info data-v-ae2a9104">
+                    <view class="data-v-ae2a9104">{{info.contactName}}</view>
+                    <view class="data-v-ae2a9104">{{info.contactIdCard}}</view>
+                </view>
+            </view>
+            <view class="popup-footer data-v-ae2a9104">
+                <view bindtap="__e" class="btn data-v-ae2a9104" data-event-opts="{{[ [ 'tap',[ [ 'changePopupStatus',[false] ] ] ] ]}}">完成</view>
+            </view>
+        </view>
+    </u-popup>
+</view>

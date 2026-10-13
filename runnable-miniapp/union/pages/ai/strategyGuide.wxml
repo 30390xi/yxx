@@ -1,0 +1,130 @@
+<view class="box u-skeleton data-v-a3819dfe">
+    <uni-navbar bind:__l="__l" class="data-v-a3819dfe" type="transparentFixed" vueId="5a335c8b-1"></uni-navbar>
+    <scroll-view class="data-v-a3819dfe" scrollIntoView="{{scrollIntoView}}" scrollY="{{true}}" style="height:100vh;">
+        <image class="data-v-a3819dfe" mode="aspectFill" src="{{shareImage}}" style="width:100%;height:700rpx;"></image>
+        <view class="count-box-warp data-v-a3819dfe">
+            <view class="box_title data-v-a3819dfe">{{dataInfos.lineName}}</view>
+            <view class="line_bj data-v-a3819dfe" style="background:linear-gradient(180deg,#B1630A 0%, rgba(245, 245, 245, 1) 100%);">
+                <view bindtap="__e" class="loction u-skeleton-fillet data-v-a3819dfe" data-event-opts="{{[ [ 'tap',[ ['goTrip'] ] ] ]}}">
+                    <map class="data-v-a3819dfe vue-ref" data-ref="map" id="map" markers="{{markers}}" polyline="{{polyline}}" style="width:100%;height:100%;" subkey="{{subkey}}"></map>
+                    <view class="loading data-v-a3819dfe" wx:if="{{mapLoading}}">
+                        <view class="img_box data-v-a3819dfe">
+                            <image class="loading_img data-v-a3819dfe" src="/static/captured/79cac93e03941197.gif"></image>
+                        </view>
+                    </view>
+                </view>
+                <view class="loction_info u-skeleton-fillet data-v-a3819dfe" wx:if="{{$root.g0}}">
+                    <view class="info_item data-v-a3819dfe" wx:for="{{$root.l0}}" wx:key="index">
+                        <view class="top _p data-v-a3819dfe">{{item.$orig.desc}}</view>
+                        <view class="bottom _p data-v-a3819dfe">{{item.$orig.content}}</view>
+                        <label class="lines _span data-v-a3819dfe" wx:if="{{index!=item.g1-1}}"></label>
+                    </view>
+                </view>
+            </view>
+            <view class="line_model data-v-a3819dfe">
+                <view class="model_title data-v-a3819dfe">
+                    <view class="_p data-v-a3819dfe">线路概览</view>
+                    <label class="_span data-v-a3819dfe" style="background:linear-gradient(90deg, #F1A16F 0%, rgba(255,255,255,0) 100%);"></label>
+                </view>
+                <view class="overview data-v-a3819dfe">
+                    <view class="overview_item data-v-a3819dfe" wx:for="{{$root.l2}}" wx:key="index">
+                        <view class="title data-v-a3819dfe">
+                            <view class="day data-v-a3819dfe">{{'0'+item.$orig.day}}</view>
+                            <view class="dayShow data-v-a3819dfe"></view>
+                        </view>
+                        <view class="content data-v-a3819dfe" wx:if="{{item.$orig.lineJourneyDetailList}}">
+                            <view class="item _p data-v-a3819dfe">
+                                <label class="adsName lines _span data-v-a3819dfe" style="background:#fff;" wx:for="{{item.l1}}" wx:for-index="num" wx:for-item="ads" wx:key="num">{{''+ads.$orig.destinationName+''}}<label class="adsName arrow _span data-v-a3819dfe" wx:if="{{num!=ads.g2-1}}">→</label>
+                                </label>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="line_model data-v-a3819dfe" id="xcmx" style="padding-bottom:50rpx;">
+                <view class="model_title data-v-a3819dfe">
+                    <view class="_p data-v-a3819dfe">行程明细</view>
+                    <label class="_span data-v-a3819dfe" style="{{'background:'+'linear-gradient(90deg, '+buttonColour+' 0%, rgba(255,255,255,0) 100%)'+';'}}"></label>
+                </view>
+                <view class="detail data-v-a3819dfe">
+                    <scroll-view class="lable_content data-v-a3819dfe" id="lable_content" scrollWithAnimation="true" scrollX="{{true}}" throttle="{{false}}">
+                        <view bindtap="__e" class="{{['lable','data-v-a3819dfe',activeDays==index?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'toDay',[index] ] ] ] ]}}" style="{{'background:'+(activeDays==index?'#F1A16F':'rgba(0, 0, 0, 0.05)')+';'}}" wx:for="{{$root.l3}}" wx:key="index">{{item.m0+''}}</view>
+                    </scroll-view>
+                    <view class="detail_info data-v-a3819dfe">
+                        <view class="detail_item data-v-a3819dfe" id="{{'detailRow'+index}}" wx:for="{{$root.l7}}" wx:key="index">
+                            <view class="detail_title data-v-a3819dfe">
+                                <view class="img_title data-v-a3819dfe">
+                                    <image class="data-v-a3819dfe" src="/static/captured/17359ad369774476.png"></image>
+                                    <view class="title_bj data-v-a3819dfe">
+                                        <view class="text1 _p data-v-a3819dfe">{{'0'+item.$orig.day}}</view>
+                                        <view class="text2 _p data-v-a3819dfe">DAY</view>
+                                    </view>
+                                </view>
+                                <view class="title_name data-v-a3819dfe">
+                                    <view class="name1 _p data-v-a3819dfe">{{item.$orig.city}}</view>
+                                </view>
+                            </view>
+                            <view class="time_line data-v-a3819dfe">
+                                <view class="mask data-v-a3819dfe"></view>
+                                <view class="time_item setOf data-v-a3819dfe" wx:for="{{item.l6}}" wx:for-index="num" wx:for-item="time" wx:key="num">
+                                    <image class="markIcon data-v-a3819dfe" src="/static/captured/0c997113edfa6a7c.png" wx:if="{{time.$orig.journeyDestinationType==1}}"></image>
+                                    <image class="markIcon data-v-a3819dfe" src="https://eshopfile.zhiyousx.com/169209038492172696.png" wx:if="{{time.$orig.journeyDestinationType==3}}"></image>
+                                    <image class="markIcon data-v-a3819dfe" src="/static/captured/748b5d9b0def299c.png" wx:if="{{time.$orig.journeyDestinationType==2}}"></image>
+                                    <image class="markIcon data-v-a3819dfe" src="/static/captured/e7bd639e2a122985.png" wx:if="{{time.$orig.journeyDestinationType==4}}"></image>
+                                    <view class="time_title data-v-a3819dfe" style="width:470rpx;">
+                                        <view class="name _p data-v-a3819dfe">{{time.$orig.journeyDetailTitle}}</view>
+                                        <label class="times _span data-v-a3819dfe" wx:if="{{time.$orig.journeyDetailTime}}">{{time.$orig.journeyDetailTime}}</label>
+                                    </view>
+                                    <view class="spot_card data-v-a3819dfe" style="background:#F5F5F5FF;" wx:if="{{time.$orig.journeyDestinationType<6}}">
+                                        <view bindtap="__e" class="card_top data-v-a3819dfe" data-event-opts="{{[ [ 'tap',[ [ 'goSpot',['$0','$1'],[ [ ['dataInfos.lineJourneyList','',index],['lineJourneyDetailList','',num,'destinationId'] ],[ ['dataInfos.lineJourneyList','',index],['lineJourneyDetailList','',num,'journeyDestinationType'] ] ] ] ] ] ]}}">
+                                            <image class="head_img data-v-a3819dfe" mode="aspectFill" src="{{time.$orig.images}}" wx:if="{{time.$orig.images}}"></image>
+                                            <view class="card_info data-v-a3819dfe" style="{{'width:'+(time.$orig.images?'392rpx':'100%')+';'}}">
+                                                <view class="card_title _p data-v-a3819dfe">{{time.$orig.destinationName}}</view>
+                                                <view class="data-v-a3819dfe" wx:if="{{time.$orig.ticketName}}">
+                                                    <view class="ticketName singleLineText data-v-a3819dfe">{{time.$orig.ticketName}}</view>
+                                                </view>
+                                                <view class="card_ticket data-v-a3819dfe" wx:if="{{time.$orig.price}}">
+                                                    <view class="ding data-v-a3819dfe">订</view>
+                                                    <view class="price data-v-a3819dfe">{{time.$orig.price==0?'免费':'￥'+time.$orig.price}}</view>
+                                                </view>
+                                            </view>
+                                        </view>
+                                        <view bindtap="__e" class="card_imgList data-v-a3819dfe" data-event-opts="{{[ [ 'tap',[ [ 'jumpSpotContentList',['$0','$1'],[ [ ['dataInfos.lineJourneyList','',index],['lineJourneyDetailList','',num],['scenicRelations','',contNum,'contentModuleName'] ],[ ['dataInfos.lineJourneyList','',index],['lineJourneyDetailList','',num],['scenicRelations','',contNum] ] ] ] ] ] ]}}" wx:if="{{cont.$orig.contentModuleName!=null}}" wx:for="{{time.l5}}" wx:for-index="contNum" wx:for-item="cont" wx:key="contNum">
+                                            <view class="_p data-v-a3819dfe">{{cont.$orig.contentModuleName}}</view>
+                                            <view class="img_list data-v-a3819dfe">
+                                                <image class="img_li data-v-a3819dfe" mode="aspectFill" src="{{imgs.$orig.coverImage}}" wx:if="{{imgNum<(imgs.g3==6?6:5)}}" wx:for="{{cont.l4}}" wx:for-index="imgNum" wx:for-item="imgs" wx:key="imgNum"></image>
+                                            </view>
+                                            <view class="img_more data-v-a3819dfe" wx:if="{{cont.g4>6}}">{{''+cont.m1+''}}</view>
+                                        </view>
+                                    </view>
+                                    <view class="spot_remark data-v-a3819dfe" wx:if="{{time.$orig.desc}}">
+                                        <u-parse bind:__l="__l" class="data-v-a3819dfe" html="{{time.$orig.desc}}" lazyLoad="{{true}}" tagStyle="{{parseStyle}}" vueId="{{'5a335c8b-2-'+index+'-'+num}}"></u-parse>
+                                    </view>
+                                    <view class="spot_remark spot_tips data-v-a3819dfe" wx:if="{{time.$orig.tips}}">
+                                        <view class="tips data-v-a3819dfe">
+                                            <image class="data-v-a3819dfe" src="https://eshopfile.zhiyousx.com/169266846673784501.png"></image>
+                                        </view>
+                                        <text class="data-v-a3819dfe">{{time.$orig.tips}}</text>
+                                    </view>
+                                </view>
+                                <view class="time_item1 setOf data-v-a3819dfe">
+                                    <image class="markIcon data-v-a3819dfe" src="/static/captured/e7bd639e2a122985.png"></image>
+                                    <view class="time_title data-v-a3819dfe" style="width:100%;">
+                                        <view class="name _p data-v-a3819dfe">行程结束，希望您能收获愉快的旅程。</view>
+                                    </view>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="data-v-a3819dfe" style="width:100%;height:130rpx;"></view>
+                </view>
+            </view>
+        </view>
+    </scroll-view>
+    <view class="iconBox data-v-a3819dfe">
+        <button class="submit_icon share data-v-a3819dfe" openType="share">
+            <image class="data-v-a3819dfe" src="/static/captured/638acbf921e21368.png"></image>
+            <view class="text data-v-a3819dfe">分享</view>
+        </button>
+    </view>
+</view>

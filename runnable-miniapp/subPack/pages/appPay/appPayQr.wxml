@@ -1,0 +1,7 @@
+<view class="page-box data-v-b6dde270">
+    <view class="info-box data-v-b6dde270">
+        <view class="text data-v-b6dde270">{{''+payMsg+''}}</view>
+        <image mode class="icon data-v-b6dde270" src="https://eshopfile.zhiyousx.com/2023061917344246662.png"></image>
+    </view>
+    <view bindtap="__e" class="btn data-v-b6dde270" data-event-opts="{{[ [ 'tap',[ [ 'closePay',['$event'] ] ] ] ]}}" hidden="{{!(payMsg!='支付中...')}}">退出</view>
+</view>

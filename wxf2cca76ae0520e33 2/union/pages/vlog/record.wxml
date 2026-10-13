@@ -1,0 +1,55 @@
+<view class="container data-v-9a017d72" style="{{'padding-top:'+navBarHeight+';'}}">
+    <uni-navbar bind:__l="__l" class="data-v-9a017d72" title="vlog" type="transparentFixed" vueId="93457946-1"></uni-navbar>
+    <scroll-view bindrefresherrefresh="__e" bindscrolltolower="__e" class="photo-scroll data-v-9a017d72" data-event-opts="{{[ [ 'scrolltolower',[ [ 'loadMore',['$event'] ] ] ],[ 'refresherrefresh',[ [ 'onRefresh',['$event'] ] ] ] ]}}" refresherBackground="transparent" refresherEnabled="{{true}}" refresherTriggered="{{refreshing}}" scrollY="true">
+        <view class="photo-list data-v-9a017d72" wx:if="{{!noData}}">
+            <view class="photo-item data-v-9a017d72" wx:for="{{$root.l0}}" wx:key="index">
+                <view class="photo-item-time data-v-9a017d72">
+                    <view class="data-v-9a017d72">{{item.$orig.createTime}}</view>
+                </view>
+                <view class="photo-item-picList data-v-9a017d72">
+                    <view class="photo-item-picList-item photo-item-picList-video data-v-9a017d72">
+                        <view class="video-box data-v-9a017d72">
+                            <view class="status-text data-v-9a017d72" wx:if="{{item.$orig.status!=2}}">
+                                <view class="_p data-v-9a017d72">{{objStatus[item.$orig.status]}}</view>
+                                <view class="_p data-v-9a017d72" wx:if="{{item.$orig.waitTime&&item.$orig.status==1}}">{{''+item.m0+item.$orig.waitTime+item.m1+''}}</view>
+                            </view>
+                            <image class="data-v-9a017d72" mode="aspectFill" src="{{item.$orig.homeImage}}" style="border-radius:8px;" wx:if="{{item.$orig.status==2}}"></image>
+                            <view class="video-box-icon data-v-9a017d72" wx:if="{{item.$orig.status==2}}">
+                                <image catchtap="__e" class="data-v-9a017d72" data-event-opts="{{[ [ 'tap',[ [ 'download',['$0'],[ [ ['dateList','',index] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/176913475319370473.png" style="width:40rpx;height:40rpx;margin-right:10rpx;"></image>
+                            </view>
+                            <image bindtap="__e" class="icon data-v-9a017d72" data-event-opts="{{[ [ 'tap',[ [ 'handlePlay',['$0'],[ [ ['dateList','',index] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/176913464226725136.png" wx:if="{{item.$orig.videoUrl&&item.$orig.status==2}}"></image>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="load-more data-v-9a017d72" wx:if="{{$root.g0>0}}">
+                <view class="loading data-v-9a017d72" wx:if="{{loading}}">
+                    <text class="data-v-9a017d72">{{$root.m2}}</text>
+                </view>
+                <block wx:else>
+                    <view bindtap="__e" class="load-more-btn data-v-9a017d72" data-event-opts="{{[ [ 'tap',[ [ 'loadMore',['$event'] ] ] ] ]}}" wx:if="{{hasMore}}">
+                        <text class="data-v-9a017d72">{{$root.m3}}</text>
+                    </view>
+                    <view class="no-more data-v-9a017d72" wx:else>
+                        <text class="data-v-9a017d72">{{$root.m4}}</text>
+                    </view>
+                </block>
+            </view>
+        </view>
+        <view class="no-data data-v-9a017d72" wx:else>
+            <image class="data-v-9a017d72" src="https://eshopfile.zhiyousx.com/175559437543504270.png"></image>
+            <text class="data-v-9a017d72">{{$root.m5}}</text>
+        </view>
+    </scroll-view>
+    <u-popup bind:__l="__l" bind:input="__e" bind:touchmove="__e" borderRadius="{{20}}" class="data-v-9a017d72" closeIconPos="top-left" closeable="{{true}}" data-event-opts="{{[ [ '^touchmove',[ ['e0'] ] ],[ '^input',[ [ '__set_model',[ '','showVideo','$event',[] ] ] ] ] ]}}" height="65%" mode="center" value="{{showVideo}}" vueId="93457946-2" vueSlots="{{['default']}}" width="600rpx" wx:if="{{showVideo}}">
+        <view class="popup-content data-v-9a017d72" style="width:100%;height:100%;touch-action:none;">
+            <video-play bind:__l="__l" class="data-v-9a017d72" poster="{{curPoster}}" videoUrl="{{currentVideo}}" vueId="{{'93457946-3'+','+'93457946-2'}}"></video-play>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="{{20}}" class="popup-full-width data-v-9a017d72" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','downSuccess','$event',[] ] ] ] ] ]}}" height="20%" mode="center" value="{{downSuccess}}" vueId="93457946-4" vueSlots="{{['default']}}" width="60%" wx:if="{{downSuccess}}">
+        <view class="down-content data-v-9a017d72">
+            <image class="success-icon data-v-9a017d72" src="https://eshopfile.zhiyousx.com/176913679707171045.png" style="width:300rpx;height:170rpx;object-fit:cover;"></image>
+            <view class="title data-v-9a017d72">{{$root.m6}}</view>
+        </view>
+    </u-popup>
+</view>

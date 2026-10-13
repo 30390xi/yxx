@@ -1,0 +1,14 @@
+<u-modal bind:__l="__l" bind:input="__e" borderRadius="20" class="calc-module data-v-7fa1d08a" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','show','$event',[] ] ] ] ] ]}}" maskCloseAble="{{true}}" showConfirmButton="{{false}}" showTitle="{{false}}" value="{{show}}" vueId="4f2f4ae8-1" vueSlots="{{['default']}}">
+    <view class="slot-content data-v-7fa1d08a">
+        <image class="data-v-7fa1d08a" src="https://eshopfile.zhiyousx.com/2023110115432205983.png"></image>
+        <view class="tip-content data-v-7fa1d08a">
+            <view class="data-v-7fa1d08a">温馨提示</view>
+            <view class="data-v-7fa1d08a">您当前账号暂无可使用年卡</view>
+            <view class="font-26 data-v-7fa1d08a">可能还没有购买年卡、年卡未激活或年卡已过期</view>
+        </view>
+    </view>
+    <view class="footer data-v-7fa1d08a">
+        <view bindtap="__e" class="btn data-v-7fa1d08a" data-event-opts="{{[ [ 'tap',[ [ 'handleJump',['$event'] ] ] ] ]}}">我的卡包</view>
+        <view bindtap="__e" class="red-btn data-v-7fa1d08a" data-event-opts="{{[ [ 'tap',[ [ 'close',['$event'] ] ] ] ]}}">购卡</view>
+    </view>
+</u-modal>

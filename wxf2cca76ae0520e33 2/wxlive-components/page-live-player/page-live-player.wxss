@@ -1,0 +1,1 @@
+@import "/_commons/9.wxss";@import "/_commons/10.wxss";@import "/_commons/14.wxss";.live-player-show,.page-live-player{height:100%;width:100%}.live-player-show{opacity:1}.live-player-hidden{opacity:0}.live-bottom-page__cover.live-page-0{position:absolute}

@@ -1,0 +1,16 @@
+<view bindtap="__e" class="youhui-box data-v-5b51f2b9" data-event-opts="{{[ [ 'tap',[ [ 'showYh',['$event'] ] ] ] ]}}" wx:if="{{couponArr[0]}}">
+    <view class="l data-v-5b51f2b9">优惠</view>
+    <view class="m data-v-5b51f2b9">
+        <view class="item singleLineText data-v-5b51f2b9" wx:if="{{index<3}}" wx:for="{{couponArr}}">
+            <block wx:if="{{item.type==3}}">0元购</block>
+            <block wx:else>
+                <block wx:if="{{item.type==2||item.threshold==0}}">{{item.quota+'元无门槛券'}}</block>
+                <block wx:else>{{'满'+item.threshold+'减'+item.quota}}</block>
+            </block>
+        </view>
+    </view>
+    <view class="r data-v-5b51f2b9">
+        <view class="data-v-5b51f2b9">领券</view>
+        <image mode class="data-v-5b51f2b9" src="https://eshopfile.zhiyousx.com/spotDetailNew/jiantou2.png"></image>
+    </view>
+</view>

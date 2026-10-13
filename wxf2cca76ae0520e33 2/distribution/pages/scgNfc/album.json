@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "黄勇同志2025年度工作相册",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "renderer": "skyline",
+  "componentFramework": "glass-easel",
+  "disableScroll": true
+}

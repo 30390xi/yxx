@@ -1,0 +1,710 @@
+$gwx2_XC_57 = function(_, _v, _n, _p, _s, _wp, _wl, $gwn, $gwl, $gwh, wh, $gstack, $gwrt, gra, grb, TestTest, wfor, _ca, _da, _r, _rz, _o, _oz, _1, _1z, _2, _2z, _m, _mz, nv_getDate, nv_getRegExp, nv_console, nv_parseInt, nv_parseFloat, nv_isNaN, nv_isFinite, nv_decodeURI, nv_decodeURIComponent, nv_encodeURI, nv_encodeURIComponent, $gdc, nv_JSON, _af, _gv, _ai, _grp, _gd, _gapi, $ixc, _ic, _w, _ev, _tsd) {
+  return function(path, global) {
+    if (typeof global === 'undefined') {
+      if (typeof __GWX_GLOBAL__ === 'undefined') global = {};
+      else global = __GWX_GLOBAL__;
+    }
+    if (typeof __WXML_GLOBAL__ === 'undefined') {
+      __WXML_GLOBAL__ = {};
+    }
+    __WXML_GLOBAL__.modules = __WXML_GLOBAL__.modules || {};
+    var e_ = {}
+    if (typeof(global.entrys) === 'undefined') global.entrys = {};
+    e_ = global.entrys;
+    var d_ = {}
+    if (typeof(global.defines) === 'undefined') global.defines = {};
+    d_ = global.defines;
+    var f_ = {}
+    if (typeof(global.modules) === 'undefined') global.modules = {};
+    f_ = global.modules || {};
+    var p_ = {}
+    __WXML_GLOBAL__.ops_cached = __WXML_GLOBAL__.ops_cached || {}
+    __WXML_GLOBAL__.ops_set = __WXML_GLOBAL__.ops_set || {};
+    __WXML_GLOBAL__.ops_init = __WXML_GLOBAL__.ops_init || {};
+    var z = __WXML_GLOBAL__.ops_set.$gwx2_XC_57 || [];
+
+    function gz$gwx2_XC_57_1() {
+      if (__WXML_GLOBAL__.ops_cached.$gwx2_XC_57_1) return __WXML_GLOBAL__.ops_cached.$gwx2_XC_57_1
+      __WXML_GLOBAL__.ops_cached.$gwx2_XC_57_1 = [];
+      (function(z) {
+        var a = 11;
+
+        function Z(ops) {
+          z.push(ops)
+        }
+        Z([3, 'u-wrap data-v-9c3ca3b2'])
+        Z([3, '__l'])
+        Z([3, 'data-v-9c3ca3b2'])
+        Z([3, '游陕西精品路线攻略'])
+        Z([1, false])
+        Z([
+          [2, '?:'],
+          [
+            [2, '>'],
+            [
+              [2, '+'],
+              [
+                [7],
+                [3, 'scrollTop']
+              ],
+              [
+                [7],
+                [3, 'fixNavTop']
+              ]
+            ],
+            [
+              [7],
+              [3, 'navtop2']
+            ]
+          ],
+          [1, '#000000'],
+          [1, 'rgba(255,255,255,0)']
+        ])
+        Z([3, 'transparentFixed'])
+        Z([3, '0d2f92ba-1'])
+        Z(z[1])
+        Z([3, '__e'])
+        Z([3, 'data-v-9c3ca3b2 vue-ref'])
+        Z([
+          [4],
+          [
+            [5],
+            [
+              [4],
+              [
+                [5],
+                [
+                  [5],
+                  [1, '^change']
+                ],
+                [
+                  [4],
+                  [
+                    [5],
+                    [
+                      [4],
+                      [
+                        [5],
+                        [1, 'change']
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ])
+        Z([3, 'liuDropdown'])
+        Z([
+          [7],
+          [3, 'dataObj']
+        ])
+        Z([3, 'nav'])
+        Z([
+          [7],
+          [3, 'menuList']
+        ])
+        Z([1, true])
+        Z([
+          [7],
+          [3, 'fixedstyle']
+        ])
+        Z([3, 'rgba(255, 84, 17, 1)'])
+        Z([3, '0d2f92ba-2'])
+        Z([
+          [2, '!'],
+          [
+            [6],
+            [
+              [7],
+              [3, 'spotList']
+            ],
+            [1, 0]
+          ]
+        ])
+        Z([
+          [6],
+          [
+            [7],
+            [3, 'spotList']
+          ],
+          [1, 0]
+        ])
+      })(__WXML_GLOBAL__.ops_cached.$gwx2_XC_57_1);
+      return __WXML_GLOBAL__.ops_cached.$gwx2_XC_57_1
+    }
+    __WXML_GLOBAL__.ops_set.$gwx2_XC_57 = z;
+    __WXML_GLOBAL__.ops_init.$gwx2_XC_57 = true;
+    var x = ['./subPage/pages/waterfall/waterfall.wxml'];
+    d_[x[0]] = {}
+    var m0 = function(e, s, r, gg) {
+      var z = gz$gwx2_XC_57_1()
+      var o25B = _n('view')
+      _rz(z, o25B, 'class', 0, e, s, gg)
+      var t55B = _mz(z, 'uni-navbar', ['bind:__l', 1, 'class', 1, 'title', 2, 'titleCenter', 3, 'transparentFixedFontColor', 4, 'type', 5, 'vueId', 6], [], e, s, gg)
+      _(o25B, t55B)
+      var e65B = _mz(z, 'liu-dropdown', ['bind:__l', 8, 'bind:change', 1, 'class', 2, 'data-event-opts', 3, 'data-ref', 4, 'dataObj', 5, 'id', 6, 'menuList', 7, 'status', 8, 'style', 9, 'themeColor', 10, 'vueId', 11], [], e, s, gg)
+      _(o25B, e65B)
+      var l35B = _v()
+      _(o25B, l35B)
+      if (_oz(z, 20, e, s, gg)) {
+        l35B.wxVkey = 1
+      }
+      var a45B = _v()
+      _(o25B, a45B)
+      if (_oz(z, 21, e, s, gg)) {
+        a45B.wxVkey = 1
+      }
+      l35B.wxXCkey = 1
+      a45B.wxXCkey = 1
+      _(r, o25B)
+      return r
+    }
+    e_[x[0]] = {
+      f: m0,
+      j: [],
+      i: [],
+      ti: [],
+      ic: []
+    }
+    if (path && e_[path]) {
+      return function(env, dd, global) {
+        $gwxc = 0;
+        var root = {
+          "tag": "wx-page"
+        };
+        root.children = [];
+        g = "$gwx2_XC_57";
+        var main = e_[path].f
+        if (typeof global === "undefined") global = {};
+        global.f = $gdc(f_[path], "", 1);
+        try {
+          main(env, {}, root, global);
+          _tsd(root)
+        } catch (err) {
+          console.log(err)
+        };
+        g = "";
+        return root;
+      }
+    }
+  }
+}(__g.a, __g.b, __g.c, __g.d, __g.e, __g.f, __g.g, __g.h, __g.i, __g.j, __g.k, __g.l, __g.m, __g.n, __g.o, __g.p, __g.q, __g.r, __g.s, __g.t, __g.u, __g.v, __g.w, __g.x, __g.y, __g.z, __g.A, __g.B, __g.C, __g.D, __g.E, __g.F, __g.G, __g.H, __g.I, __g.J, __g.K, __g.L, __g.M, __g.N, __g.O, __g.P, __g.Q, __g.R, __g.S, __g.T, __g.U, __g.V, __g.W, __g.X, __g.Y, __g.Z, __g.aa);
+if (__vd_version_info__.delayedGwx || false) $gwx2_XC_57();
+if (__vd_version_info__.delayedGwx) __wxAppCode__['subPage/pages/waterfall/waterfall.wxml'] = [$gwx2_XC_57, './subPage/pages/waterfall/waterfall.wxml'];
+else __wxAppCode__['subPage/pages/waterfall/waterfall.wxml'] = $gwx2_XC_57('./subPage/pages/waterfall/waterfall.wxml');;
+__wxRoute = "subPage/pages/waterfall/waterfall";
+__wxRouteBegin = true;
+__wxAppCurrentFile__ = "subPage/pages/waterfall/waterfall.js";
+define("subPage/pages/waterfall/waterfall.js", function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, XMLHttpRequest, WebSocket, Reporter, webkit, WeixinJSCore) {
+  "use strict";
+  require("../../common/vendor.js"), (global.webpackJsonp = global.webpackJsonp || []).push([
+    ["subPage/pages/waterfall/waterfall"], {
+      "00581": function(t, e, n) {
+        var i = n("d6aa");
+        n.n(i).a
+      },
+      "05de": function(t, e, n) {
+        n.r(e);
+        var i = n("35cf"),
+          a = n.n(i);
+        for (var o in i)["default"].indexOf(o) < 0 && function(t) {
+          n.d(e, t, (function() {
+            return i[t]
+          }))
+        }(o);
+        e.default = a.a
+      },
+      "35cf": function(t, e, n) {
+        (function(t) {
+          var i = n("47a9");
+          Object.defineProperty(e, "__esModule", {
+            value: !0
+          }), e.default = void 0;
+          var a = i(n("7ca3"));
+
+          function o(t, e) {
+            var n = "undefined" != typeof Symbol && t[Symbol.iterator] || t["@@iterator"];
+            if (!n) {
+              if (Array.isArray(t) || (n = function(t, e) {
+                  if (t) {
+                    if ("string" == typeof t) return r(t, e);
+                    var n = Object.prototype.toString.call(t).slice(8, -1);
+                    return "Object" === n && t.constructor && (n = t.constructor.name), "Map" === n || "Set" === n ? Array.from(t) : "Arguments" === n || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n) ? r(t, e) : void 0
+                  }
+                }(t)) || e && t && "number" == typeof t.length) {
+                n && (t = n);
+                var i = 0,
+                  a = function() {};
+                return {
+                  s: a,
+                  n: function() {
+                    return i >= t.length ? {
+                      done: !0
+                    } : {
+                      done: !1,
+                      value: t[i++]
+                    }
+                  },
+                  e: function(t) {
+                    throw t
+                  },
+                  f: a
+                }
+              }
+              throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")
+            }
+            var o, s = !0,
+              c = !1;
+            return {
+              s: function() {
+                n = n.call(t)
+              },
+              n: function() {
+                var t = n.next();
+                return s = t.done, t
+              },
+              e: function(t) {
+                c = !0, o = t
+              },
+              f: function() {
+                try {
+                  s || null == n.return || n.return()
+                } finally {
+                  if (c) throw o
+                }
+              }
+            }
+          }
+
+          function r(t, e) {
+            (null == e || e > t.length) && (e = t.length);
+            for (var n = 0, i = new Array(e); n < e; n++) i[n] = t[n];
+            return i
+          }
+
+          function s(t, e) {
+            var n = Object.keys(t);
+            if (Object.getOwnPropertySymbols) {
+              var i = Object.getOwnPropertySymbols(t);
+              e && (i = i.filter((function(e) {
+                return Object.getOwnPropertyDescriptor(t, e).enumerable
+              }))), n.push.apply(n, i)
+            }
+            return n
+          }
+
+          function c(t) {
+            for (var e = 1; e < arguments.length; e++) {
+              var n = null != arguments[e] ? arguments[e] : {};
+              e % 2 ? s(Object(n), !0).forEach((function(e) {
+                (0, a.default)(t, e, n[e])
+              })) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : s(Object(n)).forEach((function(e) {
+                Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
+              }))
+            }
+            return t
+          }
+          var l = {
+            computed: {
+              cityNamesFn: function() {
+                return function(t) {
+                  if (!t) return "";
+                  var e = t.replaceAll(",", "、"),
+                    n = t.split(",");
+                  if (1 == n.length) return "· ".concat(e || "", " ·");
+                  if (2 == n.length && t.length <= 6) return "· 含".concat(e);
+                  var i = e.slice(0, 5);
+                  return "· 含".concat(i || "", "...")
+                }
+              }
+            },
+            data: function() {
+              return {
+                showMask: !0,
+                menuList: [{
+                  id: 1,
+                  name: "主题玩法",
+                  isMultiple: !0,
+                  showType: 4
+                }, {
+                  id: 2,
+                  name: "游玩天数",
+                  isMultiple: !1,
+                  showType: 4
+                }, {
+                  id: 3,
+                  name: "包含城市",
+                  isMultiple: !1,
+                  showType: 4
+                }, {
+                  id: 4,
+                  name: "热门地点",
+                  isMultiple: !0,
+                  showType: 4
+                }],
+                dataObj: {
+                  itemList1: [{
+                    id: 1,
+                    name: "热门",
+                    childs: [{
+                      id: 1,
+                      name: "烤肉",
+                      chooseState: !0
+                    }, {
+                      id: 2,
+                      name: "西北菜"
+                    }, {
+                      id: 3,
+                      name: "川湘菜"
+                    }, {
+                      id: 4,
+                      name: "川湘菜"
+                    }]
+                  }],
+                  itemList2: [{
+                    id: 1,
+                    name: "商圈",
+                    childs: [{
+                      id: 1,
+                      name: "大润发"
+                    }, {
+                      id: 2,
+                      name: "火车站"
+                    }, {
+                      id: 3,
+                      name: "金牛街"
+                    }]
+                  }],
+                  itemList3: [{
+                    id: 1,
+                    name: "商圈",
+                    childs: [{
+                      id: 1,
+                      name: "大润发"
+                    }, {
+                      id: 2,
+                      name: "火车站"
+                    }, {
+                      id: 3,
+                      name: "金牛街"
+                    }]
+                  }],
+                  itemList4: [{
+                    id: 1,
+                    name: "用餐人数",
+                    childs: [{
+                      id: 1,
+                      name: "单人餐"
+                    }, {
+                      id: 2,
+                      name: "双人餐"
+                    }, {
+                      id: 3,
+                      name: "3～4人餐"
+                    }]
+                  }]
+                },
+                hotDetailTops: [{
+                  name: "线路特色"
+                }, {
+                  name: "线路特色"
+                }, {
+                  name: "线路特色"
+                }, {
+                  name: "线路特色"
+                }],
+                fixednavTop: 0,
+                fixNavTop: 90,
+                searchHeight: 0,
+                scrollTop: 0,
+                navtop2: 100,
+                fixedstyle: "z-index: 9999 !important;position: absolute;top: 598rpx;left: 0;width: 100%;",
+                navFixed: !1,
+                spotList: [],
+                hotSpotList: []
+              }
+            },
+            onLoad: function(e) {
+              var n = this,
+                i = t.getMenuButtonBoundingClientRect();
+              this.searchHeight = i.top, t.getSystemInfo({
+                success: function(t) {
+                  n.unit = 750 / t.screenWidth, n.fixNavTop = parseInt(i.top + 80 / n.unit)
+                }
+              }), this.getDomInfo().then((function(e) {
+                t.getSystemInfo({
+                  success: function(t) {
+                    n.fixednavTop = e[1].height - parseInt(68 / n.unit), n.navtop2 = e[0].top
+                  }
+                })
+              })), this.getMenuThemeList(), this.getLineListPage()
+            },
+            onPageScroll: function(t) {
+              this.scrollTop = t.scrollTop, this.fixedstyle = t.scrollTop + this.fixNavTop > this.navtop2 ? "width:100%;position:fixed;left:0;z-index:9999;top:".concat(this.fixNavTop, "px") : "z-index: 9999 !important;position: absolute;top: 598rpx;left: 0;width: 100%;", this.navFixed = !!this.fixedstyle
+            },
+            onReachBottom: function() {
+              this.current += 1
+            },
+            onShow: function() {},
+            onShareAppMessage: function(t) {
+              return {
+                title: "游陕西精品路线攻略",
+                imageUrl: "https://eshopfile.zhiyousx.com/169284690523561367.png",
+                path: this.$util.setShareUrl("/subPage/pages/waterfall/waterfall")
+              }
+            },
+            onShareTimeline: function(t) {
+              return {
+                title: "游陕西精品路线攻略",
+                path: "/subPage/pages/waterfall/waterfall",
+                query: this.$util.setShareTimeline("")
+              }
+            },
+            methods: {
+              getDomInfo: function() {
+                var e = this;
+                return new Promise((function(n) {
+                  setTimeout((function() {
+                    e.$nextTick((function() {
+                      var e = t.createSelectorQuery();
+                      e.select("#nav").boundingClientRect(), e.select("#fixHeader").boundingClientRect(), e.exec((function(t) {
+                        n(t)
+                      }))
+                    }))
+                  }), 500)
+                }))
+              },
+              selectionTheme: function(t) {
+                var e = this;
+                this.dataObj.itemList1[0].childs.map((function(n, i) {
+                  e.$set(e.dataObj.itemList1[0].childs[i], "chooseState", !1), n.themeId == t.themeId && e.$set(e.dataObj.itemList1[0].childs[i], "chooseState", !0)
+                })), this.$refs.liuDropdown.selectType(0, this.dataObj.itemList1)
+              },
+              getLineListPage: function() {
+                var t = this,
+                  e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {};
+                e = c(c({}, e), {}, {
+                  current: 1,
+                  size: 999
+                }), this.$uniApi.dataRequestNoLoading("POST", "product/app/v1/line/selectPage", e).then((function(e) {
+                  t.spotList = e.data.records.slice(0, 3), t.hotSpotList = e.data.records.slice(3)
+                }))
+              },
+              toSpot: function(t) {
+                this.$navigateTo({
+                  url: "/subPage/pages/lineInfo/lineInfo?lineId=" + t.lineId
+                })
+              },
+              getMenuThemeList: function() {
+                var t = this;
+                this.$uniApi.dataRequestNoLoading("get", "product/app/v1/theme/list", {}).then((function(e) {
+                  var n = JSON.parse(JSON.stringify(e.data));
+                  n.map((function(t) {
+                    t.name = t.themeName, t.id = t.id, t.chooseState = !1
+                  })), t.hotDetailTops = n.filter((function(t) {
+                    return t.themeUrl
+                  })), t.dataObj.itemList1[0].childs = n
+                })), this.$uniApi.dataRequestNoLoading("get", "product/app/v1/hotDestination/list", {}).then((function(e) {
+                  var n = JSON.parse(JSON.stringify(e.data));
+                  n.map((function(t) {
+                    t.name = t.scenicName, t.id = t.scenicId
+                  })), t.dataObj.itemList4[0].childs = n
+                })), this.$uniApi.dataRequestNoLoading("get", "product/app/v1/line/getAllLineDayList", {}).then((function(e) {
+                  var n = [];
+                  e.data.map((function(t) {
+                    var e = t + "天";
+                    t >= 10 && (e = t + "天及以上");
+                    var i = {
+                      name: e,
+                      id: t
+                    };
+                    n.push(i)
+                  })), t.dataObj.itemList2[0].childs = n
+                })), this.$uniApi.dataRequestNoLoading("get", "product/app/v1/line/getAllLineCityList", {}).then((function(e) {
+                  var n = JSON.parse(JSON.stringify(e.data));
+                  n.map((function(t) {
+                    t.name = t.cityName, t.id = t.cityId
+                  })), t.dataObj.itemList3[0].childs = n
+                }))
+              },
+              change: function(e) {
+                var n, i = {
+                    themeIds: [],
+                    cityIdList: [],
+                    dayList: [],
+                    destinationIdList: []
+                  },
+                  a = o(e.chooseInfo.itemList1);
+                try {
+                  for (a.s(); !(n = a.n()).done;) {
+                    var r, s = o(n.value.childs);
+                    try {
+                      for (s.s(); !(r = s.n()).done;) {
+                        var c = r.value;
+                        i.themeIds.push(c.themeId)
+                      }
+                    } catch (t) {
+                      s.e(t)
+                    } finally {
+                      s.f()
+                    }
+                  }
+                } catch (t) {
+                  a.e(t)
+                } finally {
+                  a.f()
+                }
+                var l, u = o(e.chooseInfo.itemList3);
+                try {
+                  for (u.s(); !(l = u.n()).done;) {
+                    var d, f = o(l.value.childs);
+                    try {
+                      for (f.s(); !(d = f.n()).done;) {
+                        var p = d.value;
+                        i.cityIdList.push(p.id)
+                      }
+                    } catch (t) {
+                      f.e(t)
+                    } finally {
+                      f.f()
+                    }
+                  }
+                } catch (t) {
+                  u.e(t)
+                } finally {
+                  u.f()
+                }
+                var h, m = o(e.chooseInfo.itemList2);
+                try {
+                  for (m.s(); !(h = m.n()).done;) {
+                    var v, g = o(h.value.childs);
+                    try {
+                      for (g.s(); !(v = g.n()).done;) {
+                        var y = v.value;
+                        i.dayList.push(y.id)
+                      }
+                    } catch (t) {
+                      g.e(t)
+                    } finally {
+                      g.f()
+                    }
+                  }
+                } catch (t) {
+                  m.e(t)
+                } finally {
+                  m.f()
+                }
+                var b, L = o(e.chooseInfo.itemList4);
+                try {
+                  for (L.s(); !(b = L.n()).done;) {
+                    var O, w = o(b.value.childs);
+                    try {
+                      for (w.s(); !(O = w.n()).done;) {
+                        var S = O.value;
+                        i.destinationIdList.push(S.id)
+                      }
+                    } catch (t) {
+                      w.e(t)
+                    } finally {
+                      w.f()
+                    }
+                  }
+                } catch (t) {
+                  L.e(t)
+                } finally {
+                  L.f()
+                }
+                this.getLineListPage(i), t.pageScrollTo({
+                  scrollTop: 0 - this.scrollTop,
+                  duration: 500
+                })
+              }
+            }
+          };
+          e.default = l
+        }).call(this, n("df3c").default)
+      },
+      "78da": function(t, e, n) {
+        n.d(e, "b", (function() {
+          return a
+        })), n.d(e, "c", (function() {
+          return o
+        })), n.d(e, "a", (function() {
+          return i
+        }));
+        var i = {
+            uniNavbar: function() {
+              return n.e("components/uni-navbar/uni-navbar").then(n.bind(null, "101a"))
+            },
+            liuDropdown: function() {
+              return n.e("uni_modules/liu-dropdown/components/liu-dropdown/liu-dropdown").then(n.bind(null, "c8f5"))
+            }
+          },
+          a = function() {
+            var t = this,
+              e = (t.$createElement, t._self._c, t.spotList[0] ? t.__map(t.spotList, (function(e, n) {
+                var i = t.__get_orig(e),
+                  a = t.cityNamesFn(e.cityNames),
+                  o = e.cityNames.split(",").length;
+                return {
+                  $orig: i,
+                  m0: a,
+                  g0: o,
+                  g1: o > 1 ? e.cityNames.split(",").length : null
+                }
+              })) : null),
+              n = t.spotList[0] ? t.__map(t.hotSpotList, (function(e, n) {
+                var i = t.__get_orig(e),
+                  a = t.cityNamesFn(e.cityNames),
+                  o = e.cityNames.split(",").length;
+                return {
+                  $orig: i,
+                  m1: a,
+                  g2: o,
+                  g3: o > 1 ? e.cityNames.split(",").length : null
+                }
+              })) : null;
+            t.$mp.data = Object.assign({}, {
+              $root: {
+                l0: e,
+                l1: n
+              }
+            })
+          },
+          o = []
+      },
+      "7ebe": function(t, e, n) {
+        n.r(e);
+        var i = n("78da"),
+          a = n("05de");
+        for (var o in a)["default"].indexOf(o) < 0 && function(t) {
+          n.d(e, t, (function() {
+            return a[t]
+          }))
+        }(o);
+        n("00581");
+        var r = n("828b"),
+          s = Object(r.a)(a.default, i.b, i.c, !1, null, "9c3ca3b2", null, !1, i.a, void 0);
+        e.default = s.exports
+      },
+      d6aa: function(t, e, n) {},
+      f594: function(t, e, n) {
+        (function(t, e) {
+          var i = n("47a9");
+          n("5366"), i(n("3240"));
+          var a = i(n("7ebe"));
+          t.__webpack_require_UNI_MP_PLUGIN__ = n, e(a.default)
+        }).call(this, n("3223").default, n("df3c").createPage)
+      }
+    },
+    [
+      ["f594", "common/runtime", "common/vendor"]
+    ]
+  ]);
+}, {
+  isPage: true,
+  isComponent: true,
+  currentFile: 'subPage/pages/waterfall/waterfall.js'
+});
+require("subPage/pages/waterfall/waterfall.js");

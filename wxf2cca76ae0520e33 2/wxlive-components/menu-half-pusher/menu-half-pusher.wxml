@@ -1,0 +1,17 @@
+<view class="menu-half {{size==='mini'?'menu-half__mini':''}} {{size==='normal'?'menu-half__normal':''}} {{isShowAnimation&&dataIsShow?'longFadeIn':''}} {{screenType==='horizontal'&&isResponseHorizontal?'menu-half__horizontal':''}}">
+    <view bindtap="closeMenuHalf" class="menu-half__mask"></view>
+    <view class="menu-half__panel mode-filter-black-half-screen" style="height: {{!(screenType==='horizontal'&&isResponseHorizontal)&&menuHeight?menuHeight+'px':undefined}}">
+        <view class="menu-half__panel__header">
+            <view bindtap="closeMenuHalf" class="menu-half__panel__close" style="z-index: 8" wx:if="{{size==='normal'&&closeable&&returnType==='close'}}"></view>
+            <view bindtap="returnMenuHalf" class="menu-half__panel__back" style="z-index: 8" wx:if="{{size==='normal'&&closeable&&returnType==='back'}}"></view>
+            <slot name="header"></slot>
+        </view>
+        <view class="menu-half__panel__body" style="{{bodyStyle}}">
+            <slot name="body"></slot>
+        </view>
+        <view bindtap="closeMenuHalf" class="menu-half__panel__footer" wx:if="{{size==='mini'}}">
+            <view bindtap="closeMenuHalf" class="menu-half__panel__close" wx:if="{{returnType==='close'}}"></view>
+            <view bindtap="closeMenuHalf" class="menu-half__panel__back" wx:elif="{{returnType==='back'}}"></view>
+        </view>
+    </view>
+</view>

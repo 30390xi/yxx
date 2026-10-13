@@ -1,0 +1,85 @@
+<view class="page-box data-v-70632462" wx:if="{{cardDetail.name}}">
+    <view class="{{['top-box','data-v-70632462',cardState==1?'invalid':'']}}" style="{{'background:'+'linear-gradient(180deg,'+(cardDetail.backgroundColor1||'#e7d6b4')+'4D 0%, #FAFAFA 100%)'+';'}}">
+        <view class="card-box data-v-70632462">
+            <image mode class="data-v-70632462" src="{{cardDetail.image}}"></image>
+            <image mode class="state-Img data-v-70632462" src="../../static/images/eqcard4.png" wx:if="{{cardState==1}}"></image>
+        </view>
+    </view>
+    <view class="top data-v-70632462">
+        <view class="t1 data-v-70632462">{{''+cardDetail.name+''}}</view>
+        <view class="t2 data-v-70632462">{{''+cardDetail.subtitle+''}}</view>
+    </view>
+    <view bindtap="__e" class="info-box data-v-70632462" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}">
+        <view class="ibl data-v-70632462" wx:if="{{cardDetail.discounts>0}}">已为您累计节省<text class="data-v-70632462">{{'￥'+cardDetail.discounts}}</text>
+        </view>
+        <view class="ibl data-v-70632462" wx:else>快去领取权益吧</view>
+        <view class="data-v-70632462" wx:if="{{cardDetail.discounts>0}}">
+            <u-icon bind:__l="__l" class="data-v-70632462" color="#777777" name="arrow-right" size="28" vueId="237b7797-1"></u-icon>
+        </view>
+    </view>
+    <view class="equity-box data-v-70632462">
+        <view class="tbox data-v-70632462">
+            <image mode class="icon data-v-70632462" src="https://eshopfile.zhiyousx.com/2022122014544389817.png"></image>
+            <view class="t data-v-70632462">甄选权益</view>
+            <image mode class="icon i2 data-v-70632462" src="https://eshopfile.zhiyousx.com/2022122014544389817.png"></image>
+        </view>
+        <view class="bbox data-v-70632462">
+            <view bindtap="__e" class="item data-v-70632462" data-event-opts="{{[ [ 'tap',[ [ 'toEqDetail',['$0'],[ [ ['cardDetail.detailList','',__i0__,'userEquityCardDetailId'] ] ] ] ] ] ]}}" wx:for="{{cardDetail.detailList}}" wx:for-index="__i0__">
+                <view class="item-l data-v-70632462">
+                    <image mode class="data-v-70632462" src="{{item.equityImage}}"></image>
+                    <view class="item-l-tip data-v-70632462" style="{{'background:'+(cardState==1?'#E7D2B7':'#9F8762')+';'}}">
+                        <text class="data-v-70632462">已领</text>
+                        <text class="num data-v-70632462">{{item.receivedNum}}</text>{{'/'+item.totalNum+''}}</view>
+                </view>
+                <view class="item-r data-v-70632462">
+                    <view class="t1 multilineText2 data-v-70632462">{{''+item.equityName+''}}</view>
+                    <view class="t2 singleLineText data-v-70632462">{{''+item.equityDesc+''}}</view>
+                    <view class="pt data-v-70632462">
+                        <view class="p text-line data-v-70632462">{{'￥'+item.price+''}}</view>
+                        <view class="get allcenter dis data-v-70632462" wx:if="{{cardDetail.expireState==1}}">查看</view>
+                        <block wx:else>
+                            <view class="get allcenter dis data-v-70632462" wx:if="{{cardDetail.state==3||cardDetail.state==4||cardDetail.state==5}}">查看</view>
+                            <block wx:else>
+                                <view class="get allcenter dis data-v-70632462" wx:if="{{item.receivedNum==item.totalNum}}">查看</view>
+                                <block wx:else>
+                                    <view class="get allcenter data-v-70632462" wx:if="{{item.receivedNum<item.totalNum}}">立即领取</view>
+                                </block>
+                            </block>
+                        </block>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-70632462" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','savePop','$event',[] ] ] ] ] ]}}" mode="center" value="{{savePop}}" vueId="237b7797-2" vueSlots="{{['default']}}">
+        <view class="save-box data-v-70632462">
+            <view bindtap="__e" class="btn-close data-v-70632462" data-event-opts="{{[ [ 'tap',[ [ 'e1',['$event'] ] ] ] ]}}"></view>
+            <image mode bindtap="__e" class="close-btn data-v-70632462" data-event-opts="{{[ [ 'tap',[ [ 'e2',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/2022122109502468658.png"></image>
+            <view class="top-bg data-v-70632462">
+                <view class="tb1 data-v-70632462">{{''+cardDetail.name}}<text class="data-v-70632462">已为您累计节省</text>
+                </view>
+                <view class="tb2 data-v-70632462">￥<text class="data-v-70632462">{{cardDetail.discounts}}</text>
+                </view>
+            </view>
+            <view class="save-body data-v-70632462">
+                <view class="at data-v-70632462">
+                    <view class="line data-v-70632462"></view>
+                    <text class="data-v-70632462">{{cardDetail.name+'省钱计算器'}}</text>
+                    <view class="line data-v-70632462"></view>
+                </view>
+                <view class="as data-v-70632462">权益价值为该产品商家窗口门市价</view>
+                <scroll-view class="coupon-box-b data-v-70632462" scrollY="{{true}}" style="{{'height:'+(dll>2?'320rpx':dll*120+'rpx')+';'}}">
+                    <view class="coupon-box data-v-70632462">
+                        <view class="cbt data-v-70632462" wx:for="{{cardDetail.detailList}}" wx:for-index="__i1__">
+                            <view class="badge allcenter data-v-70632462">已领<text class="data-v-70632462">{{''+item.receivedNum}}</text>{{'/'+item.totalNum}}</view>
+                            <view class="cbt-l singleLineText data-v-70632462">{{''+item.saveDesc+''}}</view>
+                            <view class="cbt-r data-v-70632462">{{'￥'+item.price+''}}</view>
+                        </view>
+                    </view>
+                </scroll-view>
+                <view class="could data-v-70632462"></view>
+            </view>
+            <view bindtap="__e" class="bottom-btn data-v-70632462" data-event-opts="{{[ [ 'tap',[ [ 'toBuy',['$0'],['cardDetail.equityCardId'] ] ] ] ]}}" wx:if="{{(cardDetail.buyLimit==0||cardDetail.buyLimit>cardDetail.memberBuyNum)&&cardDetail.equityCard.state==2}}">再买一张</view>
+        </view>
+    </u-popup>
+</view>

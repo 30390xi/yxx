@@ -1,0 +1,12 @@
+<view class="badge-list data-v-47d58f22">
+    <view class="content badges data-v-47d58f22">
+        <view bindtap="__e" class="badge-item data-v-47d58f22" data-event-opts="{{[ [ 'tap',[ [ 'handleClick',[index] ] ] ] ]}}" wx:for="{{badgeList}}" wx:key="index">
+            <share-element class="image data-v-47d58f22" duration="{{300}}" key="badge" style="width:220rpx;height:220rpx;" transform="{{currentBadgeIndex===index}}">
+                <image class="data-v-47d58f22" mode="aspectFill" src="{{item.status===2?item.medalIconActive:item.medalIcon}}" style="width:100%;height:100%;"></image>
+            </share-element>
+            <view class="name data-v-47d58f22">{{item.medalName}}</view>
+            <view class="name data-v-47d58f22" wx:if="{{item.medalSubName}}">{{item.medalSubName}}</view>
+            <view class="tip data-v-47d58f22">{{item.status!==2?'未点亮':item.activeTime+'点亮'}}</view>
+        </view>
+    </view>
+</view>

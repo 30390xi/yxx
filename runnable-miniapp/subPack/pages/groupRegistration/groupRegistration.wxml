@@ -1,0 +1,51 @@
+<view class="box data-v-69ee07f9">
+    <view class="box-top data-v-69ee07f9">
+        <view class="top-title _p data-v-69ee07f9">{{$root.g0+'家旅行社提供同款线路'}}</view>
+        <scroll-view class="spot-box data-v-69ee07f9" scrollLeft="{{0}}" scrollWithAnimation="true" scrollX="{{true}}" throttle="{{false}}">
+            <view bindtap="__e" class="{{['spot-item','data-v-69ee07f9',activeTravel==index?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeTravel',[index] ] ] ] ]}}" wx:for="{{travelList}}" wx:key="index">
+                <view class="jiantou data-v-69ee07f9"></view>
+                <view class="spot-info data-v-69ee07f9">
+                    <image class="spot-img data-v-69ee07f9" mode="aspectFill" src="{{item.pic}}"></image>
+                    <view class="spot-content data-v-69ee07f9">
+                        <view class="name singleLineText data-v-69ee07f9">{{item.travelAgencyName}}</view>
+                        <view class="text data-v-69ee07f9">{{item.num+'个可选套餐'}}</view>
+                    </view>
+                    <view catchtap="__e" class="data-v-69ee07f9" data-event-opts="{{[ [ 'tap',[ [ 'goTrave',['$0'],[ [ ['travelList','',index,'travelAgencyId'] ] ] ] ] ] ]}}" style="width:50rpx;display:flex;justify-content:flex-end;">
+                        <uni-icons bind:__l="__l" class="data-v-69ee07f9" color="#4E5969" size="12" style="padding-top:5rpx;" type="arrowright" vueId="{{'41bc0c64-1-'+index}}"></uni-icons>
+                    </view>
+                </view>
+            </view>
+        </scroll-view>
+        <scroll-view class="lable-box data-v-69ee07f9" scrollLeft="{{0}}" scrollWithAnimation="true" scrollX="{{true}}" throttle="{{false}}">
+            <view bindtap="__e" class="{{['lable-item','data-v-69ee07f9',activeType==index?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeType',[index,'$0'],[ [ ['typeList','',index,'type'] ] ] ] ] ] ]}}" wx:for="{{typeList}}" wx:key="index">{{item.name}}</view>
+        </scroll-view>
+    </view>
+    <view class="box-content data-v-69ee07f9">
+        <scroll-view bindscrolltolower="__e" class="goods-box data-v-69ee07f9" data-event-opts="{{[ [ 'scrolltolower',[ ['scrollBottom'] ] ] ]}}" scrollY="true">
+            <view bindtap="__e" class="{{['goods-item','data-v-69ee07f9',!item.$orig.stockStatus||item.$orig.sellOut?'disable':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'goGoodInfo',['$0','$1'],[ [ ['goodList','',index,'productId'] ],[ ['goodList','',index] ] ] ] ] ] ]}}" wx:for="{{$root.l0}}" wx:key="index">
+                <view class="img-box data-v-69ee07f9">
+                    <image class="goods-img data-v-69ee07f9" mode="aspectFill" src="{{item.$orig.productPic}}"></image>
+                </view>
+                <view class="goods-info data-v-69ee07f9">
+                    <view class="name multilineText2 data-v-69ee07f9">{{item.$orig.productName}}</view>
+                    <scroll-view class="tips data-v-69ee07f9" scrollX="true" wx:if="{{item.$orig.lineHighlightLabelList}}">
+                        <view class="it data-v-69ee07f9" wx:for="{{item.$orig.lineHighlightLabelList}}" wx:for-index="num" wx:for-item="li" wx:key="num">{{li}}</view>
+                    </scroll-view>
+                    <view class="{{['ramark','data-v-69ee07f9',!item.$orig.lineHighlightLabelList?'mp':'']}}">{{''+item.m0+''}}</view>
+                    <view class="price data-v-69ee07f9" wx:if="{{!item.$orig.stockStatus||item.$orig.sellOut}}">
+                        <view class="item-btn data-v-69ee07f9">售罄</view>
+                    </view>
+                    <view class="price data-v-69ee07f9" wx:else>
+                        <label class="icon _span data-v-69ee07f9">￥</label>{{''+item.$orig.price}}<label class="_span data-v-69ee07f9" wx:if="{{item.$orig.startPriceFlag}}">起</label>
+                    </view>
+                </view>
+            </view>
+            <view class="empty data-v-69ee07f9" wx:if="{{$root.g1}}">
+                <empty-state bind:__l="__l" class="data-v-69ee07f9" imgUrl="https://eshopfile.zhiyousx.com/noOrder@2x.png" text="暂无产品" vueId="41bc0c64-2"></empty-state>
+            </view>
+            <view class="loadMore data-v-69ee07f9" wx:else>
+                <u-loadmore bgColor="#f7f7f7" bind:__l="__l" class="data-v-69ee07f9" color="#ccc" iconColor="#ccc" status="{{loadMore}}" vueId="41bc0c64-3"></u-loadmore>
+            </view>
+        </scroll-view>
+    </view>
+</view>

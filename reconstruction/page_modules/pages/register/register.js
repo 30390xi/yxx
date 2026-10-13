@@ -1,0 +1,99 @@
+// Extracted from pages/register/register.js; webpack module "717d".
+// Compiled code for analysis; not an original source file.
+module.exports = {
+    "717d": function(e, n, t) {
+      Object.defineProperty(n, "__esModule", {
+        value: !0
+      }), n.default = void 0;
+      var o = t("7dd9"),
+        i = {
+          data: function() {
+            return {
+              loadingStatus: !1,
+              codeTips: "",
+              loginForm: {
+                username: "",
+                password: "",
+                code: ""
+              },
+              errorType: ["message"],
+              rules: {
+                username: [{
+                  required: !0,
+                  message: "请输入手机号"
+                }, {
+                  validator: function(e, n, t) {
+                    return (0, o.validatePhone)(n)
+                  },
+                  message: "手机号码不正确"
+                }],
+                code: [{
+                  required: !0,
+                  message: "请输入验证码"
+                }],
+                password: [{
+                  required: !0,
+                  message: "请输入密码"
+                }, {
+                  pattern: /^[a-zA-Z0-9]{6,8}$/,
+                  message: "需由6-8位数字、数字加字母组成"
+                }]
+              },
+              pathType: 0
+            }
+          },
+          onLoad: function(e) {
+            this.pathType = e.pathType || 0
+          },
+          onReady: function() {
+            this.$refs.uForm.setRules(this.rules)
+          },
+          computed: {
+            distributorId: function() {
+              return this.$store.getters.distributorId
+            }
+          },
+          methods: {
+            submit: function() {
+              var e = this;
+              this.$refs.uForm.validate((function(n) {
+                var t;
+                n && (e.loadingStatus = !0, t = e.distributorId ? "manager/app/ignoreAuth/register/".concat(e.loginForm.username, "/").concat(e.loginForm.password, "/").concat(e.loginForm.code, "?referrer=").concat(e.distributorId) : "manager/app/ignoreAuth/register/".concat(e.loginForm.username, "/").concat(e.loginForm.password, "/").concat(e.loginForm.code), e.$uniApi.getRequestNoLoading("POST", t).then((function(n) {
+                  e.loadingStatus = !1, 1 === n.code ? (e.$util.showSuccessToast("注册成功"), e.$refs.uForm.resetFields(), setTimeout((function(n) {
+                    e.$util.goBack()
+                  }), 1e3)) : e.$util.showToast(n.msg)
+                })).catch((function(n) {
+                  e.loadingStatus = !1, console.log(n)
+                })))
+              }))
+            },
+            codeChange: function(e) {
+              this.codeTips = e
+            },
+            getCode: function() {
+              var e = this;
+              if (this.$refs.uCode.canGetCode)
+                if ((0, o.validatePhone)(this.loginForm.username)) {
+                  var n = {
+                      phone: this.loginForm.username,
+                      time: (new Date).getTime()
+                    },
+                    t = this.$eventAnalyse.encrypt(n, "8nXB5qupfE2mwSeZ");
+                  this.$uniApi.getRequestYesLoading("POST", "manager/app/ignoreAuth/sendSmsCode?type=1&phoneNumber=".concat(this.loginForm.username, "&sign=").concat(t), "正在获取验证码").then((function(n) {
+                    1 === n.code ? (e.$util.showSuccessToast("验证码已发送"), e.$refs.uCode.start()) : e.$util.showToast("验证码获取失败")
+                  })).catch((function(n) {
+                    e.$util.showToast("验证码获取失败")
+                  }))
+                } else this.$util.showToast("请输入正确手机号");
+              else console.log("倒计时结束后再发送")
+            },
+            goServer: function() {
+              this.$navigateTo({
+                url: "../termsservice/termsservice"
+              })
+            }
+          }
+        };
+      n.default = i
+    },
+};

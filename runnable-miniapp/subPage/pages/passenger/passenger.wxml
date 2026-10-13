@@ -1,0 +1,26 @@
+<view class="page-box data-v-f351e5d8">
+    <view class="user-box data-v-f351e5d8" wx:for="{{$root.l0}}" wx:key="index">
+        <view class="row-box data-v-f351e5d8" wx:if="{{item.$orig.name}}">
+            <view class="label data-v-f351e5d8">姓名</view>
+            <view class="value data-v-f351e5d8">{{item.$orig.name}}</view>
+        </view>
+        <view class="row-box data-v-f351e5d8" wx:if="{{item.$orig.phone}}">
+            <view class="label data-v-f351e5d8">手机号</view>
+            <view class="value data-v-f351e5d8">{{item.f0}}</view>
+        </view>
+        <view class="row-box data-v-f351e5d8" wx:if="{{item.$orig.idCarNo}}">
+            <view class="label data-v-f351e5d8">证件类型</view>
+            <view class="value data-v-f351e5d8">{{item.f1}}</view>
+        </view>
+        <view class="row-box data-v-f351e5d8" wx:if="{{item.$orig.idCarNo}}">
+            <view class="label data-v-f351e5d8">证件号码</view>
+            <view class="value data-v-f351e5d8">{{item.f2}}</view>
+        </view>
+        <view class="but-box data-v-f351e5d8">
+            <view bindtap="__e" class="but data-v-f351e5d8" data-event-opts="{{[ [ 'tap',[ [ 'editPassenger',['$0'],[ [ ['commonUsedTouristList','',index,'id'] ] ] ] ] ] ]}}">
+                <image mode class="edit data-v-f351e5d8" src="../../static/images/edit.png"></image>编辑</view>
+            <view bindtap="__e" class="but del data-v-f351e5d8" data-event-opts="{{[ [ 'tap',[ [ 'delPassenger',['$0'],[ [ ['commonUsedTouristList','',index,'id'] ] ] ] ] ] ]}}">删除</view>
+        </view>
+    </view>
+    <view bindtap="__e" class="add-but data-v-f351e5d8" data-event-opts="{{[ [ 'tap',[ ['addPassenger'] ] ] ]}}">+ 新增联系人</view>
+</view>

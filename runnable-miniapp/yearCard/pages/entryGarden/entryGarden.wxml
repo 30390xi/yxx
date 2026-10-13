@@ -1,0 +1,38 @@
+<view class="entry-garden data-v-6426fc66">
+    <uni-navbar bind:__l="__l" class="data-v-6426fc66" title="核验入园" titleCenter="{{false}}" type="transparentFixed" vueId="0344e966-1"></uni-navbar>
+    <view class="unreal-header data-v-6426fc66" style="{{'opacity:'+opacity+';'+'padding:'+statusBarHeight+'px 96rpx 24rpx 24rpx'+';'}}">
+        <view class="unreal-header-content data-v-6426fc66"></view>
+    </view>
+    <view class="header-bg data-v-6426fc66">
+        <view class="box-container data-v-6426fc66">
+            <scroll-view class="box-scroll data-v-6426fc66" scrollIntoView="{{'item'+currentCardIndex}}" scrollWithAnimation="{{true}}" scrollX="{{true}}">
+                <view bindtap="__e" class="{{['data-v-6426fc66','box-item',currentCardIndex===index&&'checked']}}" data-event-opts="{{[ [ 'tap',[ [ 'handleClickCard',[index] ] ] ] ]}}" id="{{'item'+index}}" style="{{'background-image:'+'url('+item.image+')'+';'+'background-position:'+'center center'+';'+'background-size:'+'cover'+';'}}" wx:for="{{swiperList}}" wx:key="index">
+                    <view class="box-item-title data-v-6426fc66">{{item.title}}</view>
+                    <view class="box-item-footer data-v-6426fc66">
+                        <image class="data-v-6426fc66" src="https://eshopfile.zhiyousx.com/2023102709472199404.png"></image>
+                        <text class="font-24 data-v-6426fc66">持卡人</text>
+                        <text class="font-26 data-v-6426fc66" wx:if="{{item.cardholderName}}">{{item.cardholderName}}</text>
+                    </view>
+                </view>
+                <view bindtap="__e" class="add-item data-v-6426fc66" data-event-opts="{{[ [ 'tap',[ [ 'goHome',['$event'] ] ] ] ]}}">
+                    <view class="add-item-content data-v-6426fc66">
+                        <image class="data-v-6426fc66" src="https://eshopfile.zhiyousx.com/2023103020440722066.png"></image>
+                        <view class="add-item-text data-v-6426fc66">再买一张</view>
+                    </view>
+                </view>
+            </scroll-view>
+        </view>
+    </view>
+    <view class="entry-garden-container data-v-6426fc66">
+        <view class="box data-v-6426fc66" wx:if="{{true}}">
+            <verify-code bind:__l="__l" class="data-v-6426fc66" info="{{detail}}" vueId="0344e966-2"></verify-code>
+        </view>
+        <view class="box data-v-6426fc66" wx:else>
+            <verify-success bind:__l="__l" class="data-v-6426fc66" vueId="0344e966-3"></verify-success>
+        </view>
+        <view class="box desc-explain data-v-6426fc66">
+            <view class="desc-explain-title data-v-6426fc66">使用说明</view>
+            <u-parse bind:__l="__l" class="data-v-6426fc66" html="{{detail.useDesc}}" vueId="0344e966-4"></u-parse>
+        </view>
+    </view>
+</view>

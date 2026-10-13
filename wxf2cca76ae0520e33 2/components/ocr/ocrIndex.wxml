@@ -1,0 +1,9 @@
+<view class="box-from data-v-ec960686">
+    <view class="box-from-input data-v-ec960686">
+        <slot name="content"></slot>
+    </view>
+    <view bindtap="__e" class="cor-box data-v-ec960686" data-event-opts="{{[ [ 'tap',[ [ 'ocrFun',['$event'] ] ] ] ]}}" wx:if="{{showOcr}}">
+        <image mode class="iamge data-v-ec960686" src="https://eshopfile.zhiyousx.com/173949675513410762.png"></image>
+        <view class="more-cut data-v-ec960686">拍照识别</view>
+    </view>
+</view>

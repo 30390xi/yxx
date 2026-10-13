@@ -1,0 +1,121 @@
+<view class="u-skeleton data-v-23c28ed1">
+    <view class="statusInfo data-v-23c28ed1">
+        <view class="orderStatus u-skeleton-rect data-v-23c28ed1">
+            <image class="data-v-23c28ed1" src="../../static/images/time.png"></image>
+            <text class="data-v-23c28ed1">{{$root.m0}}</text>
+        </view>
+        <view class="userBox u-skeleton-fillet data-v-23c28ed1">
+            <view class="userInfo data-v-23c28ed1">
+                <image class="data-v-23c28ed1" src="../../static/images/weizhi.png"></image>
+                <text class="data-v-23c28ed1">{{orderDetails.contactPerson}}</text>
+                <text class="data-v-23c28ed1">{{$root.f0}}</text>
+            </view>
+            <view class="userAddres data-v-23c28ed1">{{orderDetails.fullAddr}}</view>
+        </view>
+    </view>
+    <view class="Main data-v-23c28ed1">
+        <view class="goodsBox u-skeleton-rect data-v-23c28ed1">
+            <view class="merchant data-v-23c28ed1">
+                <view class="mcName data-v-23c28ed1">
+                    <image class="data-v-23c28ed1" src="../../static/images/sj_icon.png"></image>
+                    <text class="data-v-23c28ed1">{{orderDetails.sellerNameReal}}</text>
+                    <uni-icons bind:__l="__l" class="data-v-23c28ed1" color="#c8c8c8" size="14" type="arrowright" vueId="768d0e9c-1"></uni-icons>
+                </view>
+            </view>
+            <view class="goodsInfo data-v-23c28ed1" wx:for="{{orderDetails.items}}" wx:key="index">
+                <view class="topImg data-v-23c28ed1">
+                    <u-lazy-load bind:__l="__l" class="data-v-23c28ed1" height="180" image="{{item.pic}}" imgMode="scaleToFill" vueId="{{'768d0e9c-2-'+index}}"></u-lazy-load>
+                </view>
+                <view class="itemInfo data-v-23c28ed1">
+                    <view class="data-v-23c28ed1">
+                        <view class="itemTitle multilineText2 data-v-23c28ed1">{{item.name}}</view>
+                        <text class="itemNum data-v-23c28ed1">{{'X '+item.quantity+' '+(item.skuName?item.skuName:'')}}</text>
+                    </view>
+                    <text class="data-v-23c28ed1">{{'￥'+item.price}}</text>
+                </view>
+            </view>
+            <view class="goodsPrice data-v-23c28ed1">
+                <text class="data-v-23c28ed1">商品总额</text>
+                <text class="data-v-23c28ed1">{{'￥'+orderDetails.itemAmount}}</text>
+            </view>
+            <view class="goodsPrice data-v-23c28ed1">
+                <text class="data-v-23c28ed1">运费</text>
+                <text class="data-v-23c28ed1">{{orderDetails.deliveryFee&&orderDetails.deliveryFee!==0?'￥'+orderDetails.deliveryFee:'免运费'}}</text>
+            </view>
+            <view class="goodsPrice data-v-23c28ed1" wx:if="{{orderDetails.giftCardAmount}}">
+                <text class="data-v-23c28ed1">礼品卡</text>
+                <text class="data-v-23c28ed1" style="color:#ff4643;">{{'-￥'+orderDetails.giftCardAmount}}</text>
+            </view>
+            <view class="goodsPrice data-v-23c28ed1">
+                <text class="data-v-23c28ed1">{{orderDetails.orderStatus==0||orderDetails.orderStatus==1||orderDetails.orderStatus===12?'应付款':'实付款'}}</text>
+                <text class="data-v-23c28ed1" style="color:#ff4643;">{{'￥'+orderDetails.count}}</text>
+            </view>
+        </view>
+        <view bindtap="__e" class="rebateBox data-v-23c28ed1" data-event-opts="{{[ [ 'tap',[ [ 'goWealth',['$event'] ] ] ] ]}}" wx:if="{{orderBack}}">
+            <view class="rb1 data-v-23c28ed1">{{'返￥'+brokerageIncome.income}}</view>
+            <view class="rb2 data-v-23c28ed1">
+                <view class="rb2-1 data-v-23c28ed1">{{$root.m1}}</view>
+                <uni-icons bind:__l="__l" class="data-v-23c28ed1" color="#c8c8c8" size="14" type="arrowright" vueId="768d0e9c-3"></uni-icons>
+            </view>
+        </view>
+        <view class="goodsBox u-skeleton-rect data-v-23c28ed1">
+            <view class="orderInfo data-v-23c28ed1">
+                <text class="orderName data-v-23c28ed1">订单编号</text>
+                <text class="orderNum data-v-23c28ed1">{{orderDetails.orderNo}}</text>
+                <uni-tag bind:__l="__l" bind:click="__e" circle="{{true}}" class="data-v-23c28ed1" data-event-opts="{{[ [ '^click',[ ['setClipboardData'] ] ] ]}}" inverted="{{true}}" size="small" text="复制" type="error" vueId="768d0e9c-4"></uni-tag>
+            </view>
+            <view class="orderInfo data-v-23c28ed1">
+                <text class="orderName data-v-23c28ed1">下单时间</text>
+                <text class="orderNum data-v-23c28ed1">{{orderDetails.createTime}}</text>
+                <view class="data-v-23c28ed1"></view>
+            </view>
+            <block wx:if="{{orderDetails.orderStatus!==0&&orderDetails.orderStatus!==1&&orderDetails.orderStatus!=12}}">
+                <view class="orderInfo data-v-23c28ed1">
+                    <text class="orderName data-v-23c28ed1">支付方式</text>
+                    <text class="orderNum data-v-23c28ed1">{{$root.m2}}</text>
+                    <view class="data-v-23c28ed1"></view>
+                </view>
+                <view class="orderInfo data-v-23c28ed1" wx:if="{{orderDetails.payTime}}">
+                    <text class="orderName data-v-23c28ed1">支付时间</text>
+                    <text class="orderNum data-v-23c28ed1">{{orderDetails.payTime||''}}</text>
+                    <view class="data-v-23c28ed1"></view>
+                </view>
+            </block>
+        </view>
+    </view>
+    <view class="bomBox u-skeleton-rect data-v-23c28ed1" wx:if="{{orderDetails.orderStatus!=6}}">
+        <text class="data-v-23c28ed1"></text>
+        <view class="orderBtn data-v-23c28ed1">
+            <button bindtap="__e" class="obtn data-v-23c28ed1" data-event-opts="{{[ [ 'tap',[ [ 'delOrder',['$event'] ] ] ] ]}}" wx:if="{{orderDetails.cancelStatus===1||orderDetails.orderStatus===4||orderDetails.orderStatus===5}}">删除订单</button>
+            <block wx:else>
+                <button bindtap="__e" class="obtn data-v-23c28ed1" data-event-opts="{{[ [ 'tap',[ [ 'openPopup',['$event'] ] ] ] ]}}" wx:if="{{orderDetails.orderStatus===1}}">取消订单</button>
+                <button bindtap="__e" class="obtn obtn1 data-v-23c28ed1" data-event-opts="{{[ [ 'tap',[ [ 'goPay',['$event'] ] ] ] ]}}" disabled="{{submiting}}" wx:if="{{orderDetails.orderStatus===1}}">付款</button>
+                <button bindtap="__e" class="obtn data-v-23c28ed1" data-event-opts="{{[ [ 'tap',[ [ 'delivery',['$event'] ] ] ] ]}}" wx:if="{{orderDetails.orderStatus===2}}">提醒发货</button>
+                <button bindtap="__e" class="obtn data-v-23c28ed1" data-event-opts="{{[ [ 'tap',[ [ 'logistics',['$0'],['orderDetails.orderId'] ] ] ] ]}}" wx:if="{{orderDetails.orderStatus===3}}">查看物流</button>
+                <button bindtap="__e" class="obtn obtn1 data-v-23c28ed1" data-event-opts="{{[ [ 'tap',[ [ 'cancelOrder',['$event'] ] ] ] ]}}" wx:if="{{orderDetails.orderStatus===3}}">确认收货</button>
+            </block>
+            <button bindtap="__e" class="obtn data-v-23c28ed1" data-event-opts="{{[ [ 'tap',[ [ 'afterSales',['$0'],['orderDetails.orderId'] ] ] ] ]}}" wx:if="{{orderDetails.orderStatus===2||orderDetails.orderStatus===3||orderDetails.orderStatus===4}}">退/换货</button>
+        </view>
+    </view>
+    <uni-popup bind:__l="__l" class="data-v-23c28ed1 vue-ref" data-ref="popup" type="bottom" vueId="768d0e9c-5" vueSlots="{{['default']}}">
+        <view class="popup data-v-23c28ed1">
+            <view class="popTitle data-v-23c28ed1">
+                <text class="titleText data-v-23c28ed1">取消订单</text>
+                <uni-icons bind:__l="__l" bind:click="__e" class="data-v-23c28ed1" color="#c1c1c1" data-event-opts="{{[ [ '^click',[ ['closePopup'] ] ] ]}}" size="20" type="clear" vueId="{{'768d0e9c-6'+','+'768d0e9c-5'}}"></uni-icons>
+            </view>
+            <view class="popMain data-v-23c28ed1">
+                <radio-group bindchange="__e" class="data-v-23c28ed1" data-event-opts="{{[ [ 'change',[ [ 'radioChange',['$event'] ] ] ] ]}}">
+                    <view class="data-v-23c28ed1" wx:for="{{causeList}}" wx:key="value">
+                        <label class="radioItem data-v-23c28ed1">
+                            <radio checked="{{index===causeIdx}}" class="radioIcon data-v-23c28ed1" color="#ff4643" value="{{item.value}}"></radio>
+                            <text class="data-v-23c28ed1">{{item.name}}</text>
+                        </label>
+                    </view>
+                </radio-group>
+            </view>
+            <button bindtap="__e" class="popupBtn data-v-23c28ed1" data-event-opts="{{[ [ 'tap',[ [ 'cancelOrder',['$event'] ] ] ] ]}}">确定</button>
+        </view>
+    </uni-popup>
+    <u-skeleton animation="{{true}}" bind:__l="__l" class="data-v-23c28ed1" loading="{{loadingStatus}}" vueId="768d0e9c-7"></u-skeleton>
+    <u-toast bind:__l="__l" class="data-v-23c28ed1 vue-ref" data-ref="uToast" vueId="768d0e9c-8"></u-toast>
+</view>

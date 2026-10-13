@@ -1,0 +1,16 @@
+<view class="big-box data-v-79c72830">
+    <view class="calendar-box data-v-79c72830" wx:if="{{$root.g0>0}}">
+        <yu-calendar bind:__l="__l" bind:getDataInDay="__e" class="data-v-79c72830" data-event-opts="{{[ [ '^getDataInDay',[ ['itemClickFn'] ] ] ]}}" defaultDate="{{selectedHour.date}}" isCs="{{infoObj.scenicType}}" notbookinfo="{{infoObj.skuNotBookableInfo}}" priceList="{{timeData}}" vueId="573ed6c0-1"></yu-calendar>
+    </view>
+    <view class="bottom-box data-v-79c72830" wx:if="{{showHourBox}}">
+        <view class="title data-v-79c72830">{{'入'+(infoObj.scenicType==1?'寺':'园')+'时段'}}</view>
+        <view class="item-box data-v-79c72830">
+            <view bindtap="__e" class="{{['item','data-v-79c72830',item.surplusStock===0?'grey':'',selectedHour.time===item.startTime+'-'+item.endTime?'active':'',selectedHour.time===item.startTime+'-'+item.endTime&&infoObj.scenicType==1?'csBg':'',item.disabled===true?'disabled':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'selectHourFn',['$0'],[ [ ['hourArr','',index] ] ] ] ] ] ]}}" wx:for="{{hourArr}}">
+                <view class="data-v-79c72830">{{item.startTime+'-'+item.endTime}}</view>
+                <view class="{{['data-v-79c72830',infoObj.scenicType==1?'csColor':'']}}" style="{{'opacity:'+(item.surplusStock===0&&!item.timePassed?1:0)+';'}}" wx:if="{{item.disabled===true}}">{{infoObj.skuSellOutInfo?infoObj.skuSellOutInfo:infoObj.skuItemType==0?'已满':'约满'}}</view>
+                <view class="data-v-79c72830" wx:else>{{item.surplusStockStr}}</view>
+            </view>
+        </view>
+    </view>
+    <view bindtap="__e" class="{{['confirm','data-v-79c72830',infoObj.scenicType==1?'csBtn':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'confirmFn',['$event'] ] ] ] ]}}">确定选择</view>
+</view>

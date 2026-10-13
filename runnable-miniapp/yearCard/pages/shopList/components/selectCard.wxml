@@ -1,0 +1,24 @@
+<u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-7c930716" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showPopup','$event',[] ] ] ] ] ]}}" mode="bottom" value="{{showPopup}}" vueId="7699cb0d-1" vueSlots="{{['default']}}">
+    <view class="selected-card data-v-7c930716">
+        <view class="title data-v-7c930716">选择年卡</view>
+        <view class="content data-v-7c930716">
+            <scroll-view class="scroll-view data-v-7c930716" scrollY="{{true}}">
+                <view class="selected-card-item data-v-7c930716" wx:for="{{popupData}}" wx:key="index">
+                    <image class="selected-card-item-left data-v-7c930716" src="{{item.image}}"></image>
+                    <view class="selected-card-item-center data-v-7c930716">
+                        <view class="data-v-7c930716">{{item.title}}</view>
+                        <view class="font-26 data-v-7c930716">
+                            <text class="data-v-7c930716">NO.</text>{{item.cardNo||''}}</view>
+                    </view>
+                    <view bindtap="__e" class="selected-card-item-right data-v-7c930716" data-event-opts="{{[ [ 'tap',[ [ 'handleClick',['$0'],[ [ ['popupData','',index] ] ] ] ] ] ]}}">
+                        <image class="data-v-7c930716" src="https://eshopfile.zhiyousx.com/2023102815391473645.png" wx:if="{{item.userYearCardId===checkedInfo.userYearCardId}}"></image>
+                        <view class="data-v-7c930716" wx:else></view>
+                    </view>
+                </view>
+            </scroll-view>
+            <view class="footer data-v-7c930716">
+                <view bindtap="__e" class="red-btn data-v-7c930716" data-event-opts="{{[ [ 'tap',[ [ 'submit',['$event'] ] ] ] ]}}">确认</view>
+            </view>
+        </view>
+    </view>
+</u-popup>

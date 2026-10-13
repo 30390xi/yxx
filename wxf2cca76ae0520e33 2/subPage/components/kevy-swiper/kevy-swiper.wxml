@@ -1,0 +1,18 @@
+<view class="data-v-d34e81a2">
+    <view bindtouchend="__e" bindtouchstart="__e" class="swiper-container data-v-d34e81a2" data-event-opts="{{[ [ 'touchstart',[ [ 'touchStart',['$event'] ] ] ],[ 'touchend',[ [ 'touchEnd',['$event'] ] ] ] ]}}" style="{{'height:'+height+'rpx'+';'+'width:'+(width?width+'rpx':'100%')+';'}}" wx:if="{{$root.g0}}">
+        <view class="swiper-item data-v-d34e81a2" style="{{'transform:'+styleList[index].transform+';'+'z-index:'+styleList[index].zIndex+';'+'opacity:'+styleList[index].opacity+';'+'display:'+styleList[index].display+';'}}" wx:for="{{$root.l0}}" wx:key="index">
+            <view bindtap="__e" class="wrap data-v-d34e81a2" data-event-opts="{{[ [ 'tap',[ [ 'itemClick',[index] ] ] ] ]}}" style="{{'width:'+(item.g1?'84%':'400rpx')+';'}}">
+                <view class="{{['mask','data-v-d34e81a2',curr==index?'hide':'']}}"></view>
+                <image class="image data-v-d34e81a2" id="{{index}}" mode="aspectFill" src="{{item.m0?item.$orig.featureUrl:item.$orig}}"></image>
+            </view>
+        </view>
+    </view>
+    <view class="sw-con data-v-d34e81a2" wx:if="{{showDot}}">
+        <view class="t-dot-con data-v-d34e81a2">
+            <view class="t-dot-active data-v-d34e81a2" style="{{'left:'+40*curr+'rpx'+';'+'background:'+dotSelectedColor+';'}}"></view>
+            <view class="t-dot-wrap data-v-d34e81a2" wx:for="{{list.length}}" wx:for-index="idx" wx:for-item="dot" wx:key="idx">
+                <view class="{{[ 'data-v-d34e81a2','t-dot',[idx==curr?'active':''] ]}}" style="{{'background:'+dotColor+';'}}"></view>
+            </view>
+        </view>
+    </view>
+</view>

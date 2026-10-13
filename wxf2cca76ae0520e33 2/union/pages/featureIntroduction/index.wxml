@@ -1,0 +1,22 @@
+<view class="feature-introduction data-v-2cfa1430">
+    <uni-navbar background="{{$root.a0}}" bind:__l="__l" class="data-v-2cfa1430" color="#fff" leftIconStyle="{{color:'#fff'}}" title="{{$root.m0}}" type="transparentFixed" vueId="344b507c-1"></uni-navbar>
+    <view class="feature-content data-v-2cfa1430" style="{{'padding-top:'+statusBarHeight+5+'px'+';'}}">
+        <view class="feature-content-box data-v-2cfa1430">
+            <view class="feature-item data-v-2cfa1430" wx:for="{{$root.l0}}">
+                <view bindtap="__e" class="feature-header data-v-2cfa1430" data-event-opts="{{[ [ 'tap',[ [ 'toggleCollapse',[index] ] ] ] ]}}">
+                    <view class="feature-title data-v-2cfa1430">
+                        <image class="title-icon data-v-2cfa1430" mode="aspectFill" src="{{item.$orig.logo}}"></image>
+                        <label class="title-text _span data-v-2cfa1430">{{item.$orig.title}}</label>
+                    </view>
+                    <view class="collapse-control data-v-2cfa1430">
+                        <label class="control-text _span data-v-2cfa1430">{{item.$orig.isCollapsed?item.m1:item.m2}}</label>
+                        <image class="control-icon data-v-2cfa1430" mode="widthFix" src="{{item.$orig.isCollapsed?'https://eshopfile.zhiyousx.com/176960428738785505.png':'https://eshopfile.zhiyousx.com/176960429741503355.png'}}"></image>
+                    </view>
+                </view>
+                <view class="feature-description data-v-2cfa1430" hidden="{{!!item.$orig.isCollapsed}}">
+                    <rich-text class="data-v-2cfa1430" id="richtext" nodes="{{item.m3}}"></rich-text>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

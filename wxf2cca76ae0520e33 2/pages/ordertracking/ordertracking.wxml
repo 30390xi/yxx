@@ -1,0 +1,31 @@
+<view class="data-v-5f9d08de">
+    <view class="logisticsInfo data-v-5f9d08de">
+        <view class="wl-left data-v-5f9d08de">
+            <image alt class="_img data-v-5f9d08de" src="https://eshopfile.zhiyousx.com/170065397014456594.png"></image>
+            <view class="text data-v-5f9d08de">
+                <text class="key data-v-5f9d08de">物流公司：</text>
+                <text class="val data-v-5f9d08de">{{logistics.logisticsName}}</text>
+            </view>
+        </view>
+        <view class="wl-mid data-v-5f9d08de">
+            <view class="text data-v-5f9d08de">
+                <text class="key data-v-5f9d08de">物流单号：</text>
+                <text class="val data-v-5f9d08de" wx:if="{{logistics.logisticsInfo}}">{{logistics.logisticsInfo.LogisticCode}}</text>
+            </view>
+            <view bindtap="__e" class="wl-right data-v-5f9d08de" data-event-opts="{{[ [ 'tap',[ [ 'copyText',['$event'] ] ] ] ]}}">
+                <text class="data-v-5f9d08de">复制</text>
+            </view>
+        </view>
+    </view>
+    <view class="timeLine data-v-5f9d08de">
+        <u-time-line bind:__l="__l" class="data-v-5f9d08de" vueId="2ac80f34-1" vueSlots="{{['default']}}">
+            <u-time-line-item bind:__l="__l" class="data-v-5f9d08de" vueId="{{'2ac80f34-2-'+index+','+'2ac80f34-1'}}" vueSlots="{{['node','content']}}" wx:for="{{logisticList}}" wx:key="index">
+                <view class="u-node data-v-5f9d08de" slot="node" style="{{index===$root.g0-1?'background:#ff4643':'background:#cfcfcf'}}"></view>
+                <view class="data-v-5f9d08de" slot="content">
+                    <view class="u-order-time data-v-5f9d08de">{{item.AcceptTime}}</view>
+                    <view class="u-order-desc data-v-5f9d08de">{{item.AcceptStation}}</view>
+                </view>
+            </u-time-line-item>
+        </u-time-line>
+    </view>
+</view>

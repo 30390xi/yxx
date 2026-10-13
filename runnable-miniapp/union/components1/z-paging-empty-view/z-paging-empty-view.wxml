@@ -1,0 +1,8 @@
+<view bindtap="__e" class="{{['data-v-21d7c678',true?'zp-container':'',emptyViewFixed?'zp-container-fixed':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'emptyViewClick',['$event'] ] ] ] ]}}" style="{{$root.s0}}">
+    <view class="zp-main data-v-21d7c678">
+        <image class="{{['data-v-21d7c678',unit==='rpx'?'zp-main-image-rpx':'',unit==='px'?'zp-main-image-px':'']}}" src="{{emptyImg}}" style="{{$root.s1}}" wx:if="{{!$root.g0}}"></image>
+        <image class="{{['data-v-21d7c678',unit==='rpx'?'zp-main-image-rpx':'',unit==='px'?'zp-main-image-px':'']}}" mode="aspectFit" src="{{emptyViewImg}}" style="{{$root.s2}}" wx:else></image>
+        <text class="{{['zp-main-title','data-v-21d7c678',unit==='rpx'?'zp-main-title-rpx':'',unit==='px'?'zp-main-title-px':'']}}" style="{{$root.s3}}">{{emptyViewText}}</text>
+        <text catchtap="__e" class="{{['data-v-21d7c678',true?'zp-main-error-btn':'',unit==='rpx'?'zp-main-error-btn-rpx':'',unit==='px'?'zp-main-error-btn-px':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'reloadClick',['$event'] ] ] ] ]}}" style="{{$root.s4}}" wx:if="{{showEmptyViewReload}}">{{emptyViewReloadText}}</text>
+    </view>
+</view>

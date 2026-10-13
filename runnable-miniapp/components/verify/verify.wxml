@@ -1,0 +1,37 @@
+<view class="container {{platform}}-font">
+    <half-screen-dialog bind:close="onHideDialog" extClass="verify-dialog" show="{{!showAgreementDialog&&showDialog}}" showFooter="{{false}}" showHeader="{{false}}">
+        <view class="verify-dialog-desc" id="verify-dialog-desc" slot="desc" style="{{startAnimate?'opacity:0;height:'+height+';':''}}{{cgiWording.isSysErr?'max-height:292px;':''}}">
+            <block wx:if="{{!loading}}">
+                <mp-msg desc="{{cgiWording.desc}}" primary="{{''}}" secondary="{{''}}" showBottom="{{false}}" title="{{cgiWording.title}}" type="error" wx:if="{{cgiWording.isSysErr}}"></mp-msg>
+                <block wx:elif="{{!showAuth}}">
+                    <mp-msg bind:tapPrimary="onTapComplementPrimary" bind:tapSecondary="onTapComplementSecondary" desc="该权益需前往“学信网”补充学籍验证后使用" miniProgram="{{complementMiniProgram}}" primary="去验证" secondary="暂不验证" title="请补充学籍验证信息" type="info" wx:if="{{!isQuick&&modelBindStatus===BIND_STATUS.BIND&&(xuexinBindStatus===BIND_STATUS.UNBIND||xuexinBindStatus===BIND_STATUS.NOT_EXIST)}}"></mp-msg>
+                    <mp-msg bind:tapPrimary="onTapFailPrimary" bind:tapSecondary="onTapFailSecondary" desc="{{cgiWording.desc}}" miniProgram="{{baseResp.ret===180110?failGraduateMiniProgram:failMiniProgram}}" primary="{{cgiWording.primary}}" secondary="{{cgiWording.secondary}}" title="{{cgiWording.title}}" type="error" wx:elif="{{bindStatus===BIND_STATUS.FAIL}}"></mp-msg>
+                    <mp-msg bind:tapPrimary="onTapSuccessPrimary" desc="你的学生身份已验证" primary="返回" secondary="{{''}}" title="验证成功" type="success_circle" wx:elif="{{bindStatus===BIND_STATUS.BIND}}"></mp-msg>
+                    <mp-msg bind:tapBottom="onTapAuditBottomLink" bind:tapPrimary="onTapAuditPrimary" bottomLink="了解详情" bottomMiniProgram="{{auditMiniProgram}}" desc="你的学生身份信息正在审核中" primary="返回" secondary="{{''}}" title="审核中" type="waiting" wx:elif="{{bindStatus===BIND_STATUS.AUDITING}}"></mp-msg>
+                    <mp-msg bind:tapPrimary="onTapComplementPrimary" bind:tapSecondary="onTapComplementSecondary" miniProgram="{{complementMiniProgram}}" primary="去补充" secondary="暂不补充" title="请补充学生身份信息" type="info" wx:else></mp-msg>
+                </block>
+                <block wx:else>
+                    <view class="header">
+                        <image src="{{headimgurl}}"></image>
+                        <view class="header-title font-500">{{nickname}} 申请</view>
+                        <image bind:tap="onShowAgreement" class="icon_ask" src="/_assets/question_mark_circle.54ac39a7.svg"></image>
+                    </view>
+                    <view class="content">
+                        <view class="content-title font-500">{{authorizeInfo.title}}</view>
+                        <view class="content-desc">{{authorizeInfo.content}}</view>
+                    </view>
+                    <view class="bottom">
+                        <view class="btn-area">
+                            <view bind:tap="onReject" class="btn font-500" hoverClass="weui-hover-class">拒绝</view>
+                            <view bind:tap="onAuth" class="btn primary font-500 {{!checked?'disabled':''}}" hoverClass="weui-hover-class">允许</view>
+                        </view>
+                    </view>
+                </block>
+            </block>
+            <view class="loading" wx:else>
+                <image src="/_assets/progressing.d7e2f8f5.svg"></image>
+            </view>
+        </view>
+    </half-screen-dialog>
+    <agreement agreement="{{authorizeInfo.agreement}}" bind:close="onAgreementClose" bind:iconClose="onAgreementIconClose" show="{{showAgreementDialog}}" title="{{authorizeInfo.agreementTitle}}"></agreement>
+</view>

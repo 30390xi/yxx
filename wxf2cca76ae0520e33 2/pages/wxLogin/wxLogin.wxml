@@ -1,0 +1,20 @@
+<view class="{{['u-wrap','data-v-f1094192',jumpObj.pathType==2?'dp':'',jumpObj.pathType==3?'smq':'']}}" hidden="{{!isLoginShow}}">
+    <uni-navbar bind:__l="__l" class="data-v-f1094192" shadow="{{false}}" type="transparent" vueId="f4927624-1" vueSlots="{{['default']}}">
+        <view bindtap="__e" class="reg data-v-f1094192" data-event-opts="{{[ [ 'tap',[ [ 'goRegister',['$event'] ] ] ] ]}}" slot="right" wx:if="{{jumpObj.pathType==0}}">注册</view>
+    </uni-navbar>
+    <image mode class="chansi data-v-f1094192" src="https://eshopfile.zhiyousx.com/2022110110525948264.png" wx:if="{{jumpObj.pathType==1}}"></image>
+    <block wx:else>
+        <image mode class="dp-logo data-v-f1094192" src="https://eshopfile.zhiyousx.com/2024082015423390579.png" wx:if="{{jumpObj.pathType==2}}"></image>
+        <block wx:else>
+            <image mode class="smq-logo data-v-f1094192" src="https://eshopfile.zhiyousx.com/2024082716112414614.png" wx:if="{{jumpObj.pathType==3}}"></image>
+            <image mode class="logo data-v-f1094192" src="https://eshopfile.zhiyousx.com/2021080909291540081.png" wx:else></image>
+        </block>
+    </block>
+    <button bindtap="__e" class="{{['wx-box','data-v-f1094192',jumpObj.pathType==2?'dpBtn':'',jumpObj.pathType==3||jumpObj.pathType==1?'smqBtn':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'defLogin',['$event'] ] ] ] ]}}" disabled="{{loadingStatus}}" loading="{{loadingStatus}}" wx:if="{{hasAccount}}">
+        <view class="data-v-f1094192">快捷登录</view>
+    </button>
+    <button bindgetphonenumber="__e" class="{{['wx-box','data-v-f1094192',jumpObj.pathType==2?'dpBtn':'',jumpObj.pathType==3||jumpObj.pathType==1?'smqBtn':'']}}" data-event-opts="{{[ [ 'getphonenumber',[ [ 'decryptPhoneNumber',['$event'] ] ] ] ]}}" disabled="{{loadingStatus}}" loading="{{loadingStatus}}" openType="getPhoneNumber" wx:else>
+        <view class="data-v-f1094192">快捷登录</view>
+    </button>
+    <view bindtap="__e" class="{{['phone','data-v-f1094192',jumpObj.pathType==2?'dpPh':'',jumpObj.pathType==3?'smqPh':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'jumpPhoneLogin',['$event'] ] ] ] ]}}" wx:if="{{type!='wx'}}">手机号登录</view>
+</view>

@@ -1,0 +1,171 @@
+<view hidden="{{!( helpRankPanelShow&&helpRankStatus===1&&helpRankLeftTime&&helpRankLeftTime>0&&(curLiveStatusCode===101||curLiveStatusCode===105||curLiveStatusCode===106) )}}">
+    <component-menu-half bindcloseevent="onCloseHelpRulePanel" bodyStyle="display: block;" class="help-panel help-panel__in-action help-panel__{{screenType}} {{!uiIsHasSafeBottom?'help-panel__without-safe-bottom':''}}" closeable="{{true}}" extClass="menu-half__help-panel" height="auto" isMaskClose="{{true}}" isMaskTransparent="{{true}}" isShow="{{helpRankPanelShow}}" isShowAnimation="{{true}}" returnType="close" screenType="{{screenType}}" size="normal">
+        <view class="help-panel__header" slot="header">
+            <view class="help-panel__title"></view>
+            <view class="help-panel__desc">倒计时 {{helpRankCountTime}}</view>
+            <view bindtap="onOpenHelpRulePanel" class="help-panel__header-extend"></view>
+        </view>
+        <view class="help-panel__body" slot="body">
+            <view class="help-panel__data" wx:if="{{from==='pusher'}}">
+                <view class="help-panel__data__item">
+                    <view class="help-panel__data__item__title">分享人数</view>
+                    <view class="help-panel__data__item__body">{{helpRankInviteUV}}</view>
+                </view>
+                <view class="help-panel__data__item">
+                    <view class="help-panel__data__item__title">上榜总人数</view>
+                    <view class="help-panel__data__item__body">{{helpRankInviterankUV}}</view>
+                </view>
+                <view class="help-panel__data__item">
+                    <view class="help-panel__data__item__title">被邀请人数</view>
+                    <view class="help-panel__data__item__body">{{helpRankInvitedUV}}</view>
+                </view>
+            </view>
+            <view class="help-panel__goods-ranking">
+                <view class="help-panel__goods-ranking__header">排名前{{helpRankChineseGiftCount}}奖品</view>
+                <view class="help-panel__goods-ranking__body">
+                    <view class="help-panel__goods-ranking__item" data-item="item" wx:for="{{helpRankGiftList}}" wx:key="unique">
+                        <view class="help-panel__goods-ranking__image" style="background: url({{item.gift_url}}) no-repeat top center / cover "></view>
+                        <view class="help-panel__goods-ranking__info">
+                            <view class="help-panel__goods-ranking__num">{{index+1}}</view>
+                            <view class="help-panel__goods-ranking__info__content">{{item.gift_name}}</view>
+                        </view>
+                    </view>
+                    <view class="help-panel__goods-ranking__item__empty"></view>
+                </view>
+            </view>
+            <view class="help-panel__user-ranking {{from==='player'&&(myRankScore||!myRankScore)?'help-panel__user-ranking__with-extend':''}}">
+                <view class="help-panel__user-ranking__header">排名<view class="help-panel__user-ranking__header__extend">助力分</view>
+                </view>
+                <view class="help-panel__user-ranking__body" wx:if="{{helpRankList&&helpRankList.length}}">
+                    <view class="help-panel__user-ranking__item" data-item="item" wx:for="{{helpRankList}}" wx:key="unique">
+                        <view class="help-panel__user-ranking__item__num help-panel__user-ranking__item__num-{{index+1}}">{{index+1}}</view>
+                        <view class="help-panel__user-ranking__item__body">
+                            <view class="help-panel__user-ranking__item__avatar" style="background: url({{item.useruinInfo.headimg}}) no-repeat center / contain"></view>
+                            <view class="help-panel__user-ranking__item__nickname">{{item.useruinInfo.nickname}}</view>
+                        </view>
+                        <view class="help-panel__user-ranking__item__footer">{{item.score}}</view>
+                    </view>
+                </view>
+                <view class="help-panel__user-ranking__body help-panel__user-ranking__body__empty" wx:else>暂无观众参加助力榜</view>
+            </view>
+            <view class="help-panel__user-ranking__item help-panel__invite-item help-panel__user-ranking__item__hightline" wx:if="{{from==='player'&&myRankScore}}">
+                <view class="help-panel__user-ranking__item__num help-panel__font-normal">{{myRankInfo.rank?myRankInfo.rank:'50+'}}</view>
+                <view class="help-panel__user-ranking__item__body">
+                    <view class="help-panel__user-ranking__item__avatar" style="background: url({{myRankInfo.avatar}}) no-repeat center / contain"></view>
+                    <view class="help-panel__user-ranking__item__info">
+                        <view class="help-panel__user-ranking__item__nickname">{{myRankInfo.nickname}}</view>
+                        <view class="help-panel__reward-item__desc">
+                            <view class="help-panel__reward-item__desc-item">
+                                <view class="help-panel__icon help-panel__icon-fire"></view>{{myRankScore}}</view>
+                        </view>
+                    </view>
+                </view>
+                <button class="help-panel__user-ranking__item__footer share-panel__operation-item" id="help-rank-share" openType="share">
+                    <view class="help-panel__invite__button">分享助力</view>
+                </button>
+            </view>
+            <view class="help-panel__invite-item" wx:if="{{from==='player'&&!myRankScore}}">
+                <view class="help-panel__invite-item__inner">
+                    <view class="help-panel__invite-item__info">
+                        <view class="help-panel__invite-item__info-p">邀请一个朋友观看3秒直播</view>
+                        <view class="help-panel__invite-item__info-p">可获得1助力分</view>
+                    </view>
+                    <button class="help-panel__invite-item__extend share-panel__operation-item" id="help-rank-share" openType="share">
+                        <view class="help-panel__invite__button">分享助力</view>
+                    </button>
+                </view>
+            </view>
+        </view>
+    </component-menu-half>
+</view>
+<view hidden="{{!( helpRankPanelShow&&(helpRankStatus===2||helpRankLeftTime!==''&&helpRankLeftTime<=0||curLiveStatusCode===103||curLiveStatusCode===104) )}}">
+    <component-menu-half bindcloseevent="onCloseHelpRulePanel" bodyStyle="display: block;" class="help-panel help-panel__{{screenType}} help-panel__end {{_myRank?'help-panel__reward':''}} {{!uiIsHasSafeBottom?'help-panel__without-safe-bottom':''}}" closeable="{{true}}" extClass="menu-half__help-panel" height="auto" isMaskClose="{{true}}" isMaskTransparent="{{true}}" isShow="{{helpRankPanelShow}}" isShowAnimation="{{true}}" returnType="close" screenType="{{screenType}}" size="normal">
+        <view class="help-panel__header {{_myRank?'help-panel__header__has-reward':''}}" slot="header">
+            <view class="help-panel__title"></view>
+            <view class="help-panel__desc">活动结束</view>
+            <view bindtap="onOpenHelpRulePanel" class="help-panel__header-extend"></view>
+        </view>
+        <view class="help-panel__body" slot="body">
+            <view class="help-panel__data" wx:if="{{from==='pusher'}}">
+                <view class="help-panel__data__item">
+                    <view class="help-panel__data__item__title">分享人数</view>
+                    <view class="help-panel__data__item__body">{{helpRankInviteUV}}</view>
+                </view>
+                <view class="help-panel__data__item">
+                    <view class="help-panel__data__item__title">上榜总人数</view>
+                    <view class="help-panel__data__item__body">{{helpRankInviterankUV}}</view>
+                </view>
+                <view class="help-panel__data__item">
+                    <view class="help-panel__data__item__title">被邀请人数</view>
+                    <view class="help-panel__data__item__body">{{helpRankInvitedUV}}</view>
+                </view>
+            </view>
+            <view class="help-panel__end__sub-title" wx:if="{{from==='player'&&!_myRank}}">
+                <block wx:if="{{helpRankAwardList.length>0}}">恭喜前{{helpRankChineseGiftCount}}的观众获得奖品</block>
+                <block wx:else>本次活动无人参与</block>
+            </view>
+            <view class="help-panel__end__reward" wx:if="{{from==='player'&&_myRank}}">
+                <view class="help-panel__end__reward__store" style="{{'background: url('+myRankInfo.myAwardInfo.gift_url+') no-repeat center / cover'}}"></view>
+                <view class="help-panel__end__reward__info">恭喜你 排名第{{_myRank}}获得奖品</view>
+                <block wx:if="{{helpRankRedeem===1||helpRankRedeem===3}}">
+                    <view bindtap="onClickHelpRankAddress" class="help-panel__end__reward__button" wx:if="{{helpRankRedeem===1&&!isFillHelpRankAddress}}">填写寄件地址</view>
+                    <view bindtap="onClickHelpRankAddress" class="help-panel__end__reward__button" wx:if="{{helpRankRedeem===1&&isFillHelpRankAddress}}">查看寄件地址</view>
+                    <view bindtap="onClickHelpRankPhone" class="help-panel__end__reward__button" wx:if="{{helpRankRedeem===3&&!helpRankAddress.phone}}">填写手机号</view>
+                    <view bindtap="onClickHelpRankPhone" class="help-panel__end__reward__cell" wx:if="{{helpRankRedeem===3&&helpRankAddress.phone}}">
+                        <view class="help-panel__end__reward__cell__body">兑奖手机号 {{helpRankAddress.phone}}</view>
+                        <view class="help-panel__end__reward__cell__footer">修改</view>
+                    </view>
+                    <view bindtap="onCopy" class="help-panel__end__reward__desc" data-code="{{myRankInfo.myAwardInfo.code}}">
+                        <view>{{helpRankLastFillAddressTime+'之前填写，逾期视为放弃'}}</view>
+                        <view>保存 {{myRankInfo.myAwardInfo.code}} 以备校验</view>
+                    </view>
+                </block>
+                <block wx:if="{{helpRankRedeem===2}}">
+                    <view bindtap="onCopy" class="help-panel__end__reward__command" data-code="{{myRankInfo.myAwardInfo.code}}">
+                        <view class="help-panel__end__reward__command__main">
+                            <view class="help-panel__end__reward__command__main__title">兑奖口令</view>
+                            <view class="help-panel__end__reward__command__main__info">{{myRankInfo.myAwardInfo.code}}</view>
+                        </view>
+                        <view class="help-panel__end__reward__command__extend">复制</view>
+                    </view>
+                    <view class="help-panel__end__reward__desc">联系客服凭口令兑换奖品</view>
+                </block>
+            </view>
+            <view class="help-panel__reward-list">
+                <view class="help-panel__reward-list__title" wx:if="{{_myRank}}">助力榜获奖名单 · 共{{helpRankAwardList.length}}人</view>
+                <view class="help-panel__reward-item {{item.curUser?'help-panel__user-ranking__item__hightline__item':''}}" data-item="item" wx:for="{{helpRankAwardList}}" wx:key="unique">
+                    <view class="help-panel__user-ranking__item__num help-panel__user-ranking__item__num-{{index+1}}">{{index+1}}</view>
+                    <view class="help-panel__reward-item__body">
+                        <view class="help-panel__reward-item__avatar" style="background: url({{item.useruinInfo.avatar}}) no-repeat center / cover"></view>
+                        <view class="help-panel__reward-item__info">
+                            <view class="help-panel__reward-item__nickname">{{item.useruinInfo.nickname}}</view>
+                            <view class="help-panel__reward-item__desc">
+                                <view class="help-panel__reward-item__desc-item">
+                                    <view class="help-panel__icon help-panel__icon-fire"></view>{{item.score}}</view>
+                                <view class="help-panel__reward-item__desc-item">{{item.awardInfo.gift_name}}</view>
+                                <view class="help-panel__reward-item__desc-item" wx:if="{{from==='pusher'}}">·{{item.isFillHelpRankAddress||item.isFillHelpRankPhone?'已填地址':'未填地址'}}</view>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="help-panel__reward-item__extend">
+                        <view class="help-panel__reward-item__store" style="background: url({{item.awardInfo.gift_url}}) no-repeat center / cover"></view>
+                    </view>
+                </view>
+                <view class="help-panel__reward-item help-panel__reward-item__hightline" wx:if="{{from==='player'&&!_myRank}}">
+                    <view class="help-panel__reward-item__body">
+                        <view class="help-panel__reward-item__avatar" style="background: url({{myRankInfo.avatar}}) no-repeat center / cover"></view>
+                        <view class="help-panel__reward-item__info">
+                            <view class="help-panel__reward-item__nickname">{{myRankInfo.nickname}}</view>
+                            <view class="help-panel__reward-item__desc">
+                                <view class="help-panel__reward-item__desc-item">
+                                    <view class="help-panel__icon help-panel__icon-fire"></view>{{myRankScore}}</view>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="help-panel__reward-item__extend" wx:if="{{myRankScore}}">本次排名 {{myRankInfo.rank?myRankInfo.rank:'50+'}}，未能获得奖品</view>
+                    <view class="help-panel__reward-item__extend" wx:else>未参与助力榜</view>
+                </view>
+            </view>
+        </view>
+    </component-menu-half>
+</view>

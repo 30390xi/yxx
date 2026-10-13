@@ -1,0 +1,35 @@
+<view class="chat-input-bar-container data-v-edb66738" style="{{'padding-bottom:'+(isIos?'':'0rpx')+';'}}">
+    <view class="chat-select-ask data-v-edb66738" wx:if="{{$root.g0}}">
+        <scroll-view class="chat-select-scroll data-v-edb66738" scrollX="{{true}}" scrollY="{{false}}">
+            <view bindtap="__e" class="chat-select-item1 data-v-edb66738" data-event-opts="{{[ [ 'tap',[ [ 'askClick',['$0'],[ [ ['definedQuestion','',index] ] ] ] ] ] ]}}" wx:for="{{definedQuestion}}" wx:for-item="it" wx:key="index">{{''+it.description+''}}</view>
+        </scroll-view>
+    </view>
+    <view class="chat-input-bar data-v-edb66738">
+        <view class="Hold_Talk data-v-edb66738" wx:if="{{showSpeakBtn==2}}">
+            <image bindtap="__e" class="icon_keyboard data-v-edb66738" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/175517487518999567.png"></image>
+            <view bindtouchcancel="__e" bindtouchend="__e" bindtouchstart="__e" class="speakBtn data-v-edb66738" data-event-opts="{{[ [ 'touchstart',[ [ 'keystart',['$event'] ] ] ],[ 'touchend',[ [ 'stopVoice',['$event'] ] ] ],[ 'touchcancel',[ [ 'handleTouchCancel',['$event'] ] ] ] ]}}">{{lang=='zh'?'按住说话':'Hold to speak'}}</view>
+        </view>
+        <view class="Hold_Talk_f data-v-edb66738" wx:if="{{showSpeakBtn==3}}">
+            <image class="icon_keyboard data-v-edb66738" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/175453620164490027.png"></image>
+        </view>
+        <view class="chat-input-container data-v-edb66738" wx:if="{{showSpeakBtn==1}}">
+            <image bindtap="__e" class="icon data-v-edb66738" data-event-opts="{{[ [ 'tap',[ [ 'getSpeak',['$event'] ] ] ] ]}}" mode="aspectFill" src="https://eshopfile.zhiyousx.com/175515730231435269.png" wx:if="{{pushingProgress}}"></image>
+            <input adjustPosition="{{false}}" bindconfirm="__e" bindinput="__e" class="chat-input data-v-edb66738" confirmType="send" cursorSpacing="{{50}}" data-event-opts="{{[ [ 'confirm',[ [ 'sendClick',['$event'] ] ] ],[ 'input',[ [ '__set_model',[ '','msg','$event',[] ] ] ] ] ]}}" focus="{{focus}}" placeholder="{{lang=='zh'?'有什么要问我的吗~':'Is there anything you need me for~'}}" type="text" value="{{msg}}"></input>
+        </view>
+        <view class="right-btn data-v-edb66738">
+            <image bindtap="__e" class="chat-input-send1 data-v-edb66738" data-event-opts="{{[ [ 'tap',[ [ 'sendClick',['$event'] ] ] ] ]}}" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/176699507535536617.png" wx:if="{{showSpeakBtn==1&&pushingProgress}}"></image>
+        </view>
+    </view>
+    <view class="prompt data-v-edb66738">{{''+(lang=='zh'?'内容由AI生成，无法确保真实准确，仅供参考':'AI-generated content. Accuracy not guaranteed. For reference only.')+''}}</view>
+    <view class="layer-box data-v-edb66738" wx:if="{{longPress}}">
+        <view class="prompt-layer data-v-edb66738">
+            <view class="prompt-loader data-v-edb66738">
+                <view class="em data-v-edb66738" wx:for="{{15}}" wx:for-index="__i0__" wx:key="*this"></view>
+            </view>
+            <text class="p data-v-edb66738">{{value}}</text>
+            <text class="span data-v-edb66738">{{lang=='zh'?'松手结束录音':'Release to end the recording'}}</text>
+        </view>
+    </view>
+    <view bindtap="__e" class="stopBtn data-v-edb66738" data-event-opts="{{[ [ 'tap',[ [ 'stopSpeak',['$event'] ] ] ] ]}}" wx:if="{{!pushingProgressShow}}">
+        <image class="icon data-v-edb66738" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173406333510840071.png"></image>{{''+(lang=='zh'?'停止回答':'Stop answering')+''}}</view>
+</view>

@@ -1,0 +1,30 @@
+<view class="page-box data-v-2ed38f26">
+    <view class="data-v-2ed38f26" wx:if="{{listData&&listData[0]}}">
+        <view class="item-box data-v-2ed38f26" wx:for="{{$root.l1}}" wx:key="index">
+            <view class="item-top data-v-2ed38f26" style="{{'background:'+mapinfo.audioTitleBg+';'}}">
+                <image alt class="icon _img data-v-2ed38f26" hidden="{{!item.$orig.voiceIcon}}" src="{{item.$orig.voiceIcon}}"></image>{{''+item.$orig.base.name+''}}</view>
+            <view class="item-body data-v-2ed38f26" style="{{'background:'+mapinfo.audioBarBg+';'}}" wx:for="{{item.l0}}" wx:for-index="i" wx:for-item="it" wx:key="i">
+                <view bindtap="__e" class="item-body-l data-v-2ed38f26" data-event-opts="{{[ [ 'tap',[ [ 'toDetail',['$0'],[ [ ['listData','',index],['scenicSpotMapTagVOList','',i] ] ] ] ] ] ]}}">
+                    <image class="spot-img data-v-2ed38f26" mode="aspectFill" src="{{it.g1[0]}}" wx:if="{{it.g0}}"></image>
+                    <image class="spot-img data-v-2ed38f26" mode="aspectFill" src="{{it[$orig].picUrl}}" wx:if="{{it.g2}}"></image>
+                    <view class="info-box data-v-2ed38f26" style="{{'width:'+(it[$orig].picUrl?'250rpx':'450rpx')+';'}}">
+                        <view class="name singleLineText data-v-2ed38f26">{{''+it[$orig].base.name+''}}</view>
+                        <view class="dic data-v-2ed38f26" wx:if="{{it[$orig].distance}}">
+                            <label class="_span data-v-2ed38f26" wx:if="{{langType=='zn'}}">距您</label>{{it[$orig].distance+'km'}}</view>
+                    </view>
+                </view>
+                <view class="item-body-r data-v-2ed38f26">
+                    <view bindtap="__e" class="icon-box data-v-2ed38f26" data-event-opts="{{[ [ 'tap',[ [ 'jumpLocation',['$0'],[ [ ['listData','',index],['scenicSpotMapTagVOList','',i] ] ] ] ] ] ]}}">
+                        <image alt class="icon1 _img data-v-2ed38f26" src="https://eshopfile.zhiyousx.com/2023031611150313119.png"></image>
+                        <view class="icon1-text data-v-2ed38f26">{{''+(langType=='zn'?'去这里':'Go')+''}}</view>
+                    </view>
+                    <view bindtap="__e" class="icon-box data-v-2ed38f26" data-event-opts="{{[ [ 'tap',[ [ 'toDetail',['$0'],[ [ ['listData','',index],['scenicSpotMapTagVOList','',i] ] ] ] ] ] ]}}">
+                        <image alt class="icon1 _img data-v-2ed38f26" src="https://eshopfile.zhiyousx.com/2023031520024239890.png"></image>
+                        <view class="icon1-text data-v-2ed38f26">{{''+(langType=='zn'?'讲解':'Interpreter')+''}}</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <empty bind:__l="__l" class="data-v-2ed38f26" text="暂无内容" vueId="4e81e8dc-1" wx:else></empty>
+</view>

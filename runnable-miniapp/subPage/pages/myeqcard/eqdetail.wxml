@@ -1,0 +1,56 @@
+<view class="eqdetail data-v-5a96b9c2" wx:if="{{eqDetail}}">
+    <image class="headerimg data-v-5a96b9c2" mode="aspectFill" src="{{eqDetail.equityImage}}"></image>
+    <view class="title allcenter data-v-5a96b9c2">
+        <text class="name singleLineText data-v-5a96b9c2">{{eqDetail.itemName}}</text>
+        <text bindtap="__e" class="link data-v-5a96b9c2" data-event-opts="{{[ [ 'tap',[ [ 'toProductDetail',['$0'],['eqDetail.itemId'] ] ] ] ]}}">产品详情 ></text>
+    </view>
+    <view class="desc data-v-5a96b9c2">
+        <view class="ins data-v-5a96b9c2" wx:if="{{eqDetail.coupon}}">
+            <view class="flex data-v-5a96b9c2" wx:if="{{eqDetail.coupon.useTimeSlot==0}}">
+                <text class="data-v-5a96b9c2">●</text>{{eqDetail.coupon.validityEndTime+'前有效'}}</view>
+            <view class="flex data-v-5a96b9c2" wx:if="{{eqDetail.coupon.useTimeSlot==1}}">
+                <text class="data-v-5a96b9c2">●</text>{{$root.f0}}</view>
+            <view class="flex data-v-5a96b9c2" wx:if="{{eqDetail.coupon.useTimeSlot==2}}">
+                <text class="data-v-5a96b9c2">●</text>{{eqDetail.coupon.validityEndTime+'可购买'+eqDetail.coupon.useTimeStart+'至'+eqDetail.coupon.useTimeEnd+$root.f1}}</view>
+            <view class="flex data-v-5a96b9c2" wx:if="{{eqDetail.coupon.useExplain}}">
+                <text class="data-v-5a96b9c2">●</text>{{eqDetail.coupon.useExplain}}</view>
+        </view>
+        <view class="ins data-v-5a96b9c2">
+            <view class="name data-v-5a96b9c2">使用说明</view>
+            <view class="txt data-v-5a96b9c2" wx:for="{{$root.l0}}" wx:for-index="__i0__" wx:for-item="text">{{text}}</view>
+        </view>
+    </view>
+    <view class="getinfo data-v-5a96b9c2" wx:if="{{receiveDetail[0]}}">
+        <view class="name data-v-5a96b9c2">
+            <view class="allcenter data-v-5a96b9c2">
+                <text class="n data-v-5a96b9c2">{{cardName}}</text>
+            </view>
+        </view>
+        <view bindtap="__e" class="info data-v-5a96b9c2" data-event-opts="{{[ [ 'tap',[ [ 'jumpUse',['$0','$1'],[ [ ['receiveDetail','',__i1__] ],'eqDetail.equityType' ] ] ] ] ]}}" wx:for="{{receiveDetail}}" wx:for-index="__i1__">
+            <view class="t data-v-5a96b9c2">领取信息</view>
+            <view class="line data-v-5a96b9c2">领取编号<text class="data-v-5a96b9c2">{{item.userCouponId}}</text>
+            </view>
+            <view class="line data-v-5a96b9c2">领取时间<text class="data-v-5a96b9c2">{{item.receiveTime}}</text>
+            </view>
+            <view class="line data-v-5a96b9c2">领取数量<text class="data-v-5a96b9c2">1</text>
+            </view>
+            <view class="line data-v-5a96b9c2">为您节省<text class="data-v-5a96b9c2">{{'¥ '+item.price}}</text>
+            </view>
+            <image class="data-v-5a96b9c2" src="https://eshopfile.zhiyousx.com/2023011114064095097.png" wx:if="{{item.useState==1}}"></image>
+            <image class="data-v-5a96b9c2" src="https://eshopfile.zhiyousx.com/2023010910000900378.png" wx:if="{{item.useState==2}}"></image>
+            <image class="data-v-5a96b9c2" src="https://eshopfile.zhiyousx.com/2023010910005976066.png" wx:if="{{item.useState==3}}"></image>
+            <image class="data-v-5a96b9c2" src="https://eshopfile.zhiyousx.com/2023010910013637801.png" wx:if="{{item.useState==4}}"></image>
+            <image class="data-v-5a96b9c2" src="https://eshopfile.zhiyousx.com/2023011114083993049.png" wx:if="{{item.useState==5}}"></image>
+            <image class="data-v-5a96b9c2" src="https://eshopfile.zhiyousx.com/2023010910015464618.png" wx:if="{{item.useState==6}}"></image>
+        </view>
+    </view>
+    <view class="footer allcenter data-v-5a96b9c2" wx:if="{{source==2}}">
+        <view class="btn allcenter dis data-v-5a96b9c2" wx:if="{{eqDetail.userEquityCard.expireState==1}}">已过期</view>
+        <view bindtap="__e" class="{{['btn','allcenter','data-v-5a96b9c2',eqDetail.waitReceiveNum<1?'dis':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'receiveEquity',['$event'] ] ] ] ]}}" wx:else>{{(eqDetail.waitReceiveNum>0?'立即':'已')+'领取 （'}}<text class="data-v-5a96b9c2">{{eqDetail.receivedNum}}</text>{{'/'+eqDetail.totalNum+'）'}}</view>
+    </view>
+    <view class="footer allcenter data-v-5a96b9c2" wx:if="{{source==1}}">
+        <view bindtap="__e" class="btn allcenter data-v-5a96b9c2" data-event-opts="{{[ [ 'tap',[ [ 'toBuy',['$0'],['eqDetail.equityCardId'] ] ] ] ]}}">
+            <text class="data-v-5a96b9c2">购卡立享</text>
+        </view>
+    </view>
+</view>

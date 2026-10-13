@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>游陕西接口样本管理</title>
+  <style>
+    :root{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif;color:#172235;background:#f4f6fa}
+    *{box-sizing:border-box}body{margin:0}header{padding:22px 32px;background:#152d50;color:#fff}h1{margin:0;font-size:22px}header p{margin:7px 0 0;opacity:.8;font-size:13px}
+    main{display:grid;grid-template-columns:minmax(280px,38%) 1fr;gap:16px;padding:18px;min-height:calc(100vh - 91px)}
+    section{background:white;border:1px solid #dfe5ed;border-radius:10px;overflow:hidden}#search{width:calc(100% - 24px);margin:12px;padding:10px;border:1px solid #cbd5e1;border-radius:6px}
+    #list{max-height:calc(100vh - 180px);overflow:auto}.row{display:block;width:100%;padding:12px 15px;background:white;border:0;border-bottom:1px solid #edf0f4;text-align:left;cursor:pointer}.row:hover,.row.active{background:#eaf2ff}.method{display:inline-block;width:42px;color:#1260ae;font-weight:700;font-size:12px}.path{font-size:13px;overflow-wrap:anywhere}.query{display:block;padding-left:42px;color:#64748b;font-size:11px;margin-top:3px}
+    .editorHead{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;border-bottom:1px solid #edf0f4;gap:8px}.editorHead strong{font-size:13px;overflow-wrap:anywhere}button.save{background:#1260ae;color:white;border:0;border-radius:6px;padding:9px 16px;cursor:pointer}button.save:disabled{opacity:.5;cursor:default}
+    textarea{display:block;width:100%;height:calc(100vh - 210px);padding:18px;border:0;resize:none;outline:none;font:12px/1.5 Menlo,Monaco,monospace;white-space:pre;tab-size:2}#status{padding:8px 16px;color:#64748b;font-size:12px}
+    @media(max-width:800px){main{display:block}section{margin-bottom:16px}#list{max-height:35vh}textarea{height:50vh}}
+  </style>
+</head>
+<body>
+<header><h1>游陕西接口样本管理</h1><p>基于实际抓取的公开接口返回；修改后本地 API 立即生效</p></header>
+<main>
+  <section><input id="search" placeholder="搜索路径或字段"><div id="list"></div></section>
+  <section><div class="editorHead"><strong id="title">选择接口</strong><button class="save" id="save" disabled>保存 JSON</button></div><textarea id="json" spellcheck="false" placeholder="选择左侧接口查看返回内容"></textarea><div id="status">仅监听 127.0.0.1。订单、支付和登录接口未收录。</div></section>
+</main>
+<script>
+let fixtures=[],selected=null;
+const $=id=>document.getElementById(id);
+async function load(){fixtures=await (await fetch('/admin/api/fixtures')).json();render()}
+function render(){const q=$('search').value.toLowerCase();const list=$('list');list.replaceChildren();for(const item of fixtures.filter(x=>(x.path+' '+x.query+' '+x.dataKeys.join(' ')).toLowerCase().includes(q))){const b=document.createElement('button');b.className='row'+(selected?.id===item.id?' active':'');const m=document.createElement('span');m.className='method';m.textContent=item.method;const p=document.createElement('span');p.className='path';p.textContent=item.path;const s=document.createElement('span');s.className='query';s.textContent=item.query||item.dataKeys.join(', ');b.append(m,p,s);b.onclick=()=>select(item);list.append(b)}}
+async function select(item){selected=item;$('title').textContent=item.method+' '+item.path+(item.query?'?'+item.query:'');$('json').value=JSON.stringify(await (await fetch('/admin/api/fixture/'+item.id)).json(),null,2);$('save').disabled=false;$('status').textContent='返回字段：'+(item.dataKeys.join(', ')||'列表或空值');render()}
+$('save').onclick=async()=>{if(!selected)return;try{JSON.parse($('json').value);const res=await fetch('/admin/api/fixture/'+selected.id,{method:'PUT',headers:{'Content-Type':'application/json'},body:$('json').value});if(!res.ok)throw Error((await res.json()).error||res.status);$('status').textContent='已保存，本地 API 返回已更新。'}catch(e){$('status').textContent='保存失败：'+e.message}};
+$('search').oninput=render;load().catch(e=>$('status').textContent='加载失败：'+e.message);
+</script>
+</body></html>

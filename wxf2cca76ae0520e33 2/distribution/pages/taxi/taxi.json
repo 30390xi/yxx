@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#FFFFFF",
+  "navigationBarTitleText": "分销司机"
+}

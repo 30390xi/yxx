@@ -1,0 +1,31 @@
+<view class="card-map data-v-9826ce1a">
+    <uni-navbar bind:__l="__l" class="data-v-9826ce1a" type="transparentFixed" vueId="3e8d01dc-1"></uni-navbar>
+    <map bindcallouttap="__e" class="data-v-9826ce1a" data-event-opts="{{[ [ 'callouttap',[ [ 'calloutTap',['$event'] ] ] ] ]}}" enableRotate="{{false}}" id="map" latitude="{{map.latitude}}" layerStyle="2" longitude="{{map.longitude}}" markers="{{markers}}" scale="10" showLocation="{{true}}" style="width:100%;height:100%;" subkey="U4JBZ-K7XW4-GH2UA-KVPJK-OLCYV-7WB3D" theme="satellite">
+        <cover-view class="data-v-9826ce1a" slot="callout" wx:if="{{markers&&markers[0]}}">
+            <block wx:for="{{markers}}" wx:key="index">
+                <cover-view class="already-visited-container data-v-9826ce1a" markerId="{{index}}" wx:if="{{markers[index].verifyNum>0}}">
+                    <cover-view class="{{['custom-callout','already-visited','data-v-9826ce1a',item.scenicId==selectScenicId?'is-choose-big':'is-choose']}}">
+                        <cover-view class="i-block already-visited-left data-v-9826ce1a">
+                            <cover-image class="already-visited-left-image data-v-9826ce1a" src="https://eshopfile.zhiyousx.com/2023112717491104306.png"></cover-image>
+                        </cover-view>
+                        <cover-view class="i-block already-visited-right data-v-9826ce1a">
+                            <cover-view class="name data-v-9826ce1a">{{''+(markers[index].scenicName||'')}}</cover-view>
+                            <cover-view class="data-v-9826ce1a">
+                                <cover-view class="i-block time data-v-9826ce1a">{{markers[index].lastUseDate||''}}</cover-view>
+                                <cover-view class="i-block status data-v-9826ce1a">已去过</cover-view>
+                            </cover-view>
+                        </cover-view>
+                    </cover-view>
+                    <cover-image class="custom-image data-v-9826ce1a" src="/static/images/up.png" wx:if="{{item.scenicId==selectScenicId}}"></cover-image>
+                    <cover-image class="custom-image data-v-9826ce1a" src="/static/images/dropwown.png" wx:if="{{item.scenicId!=selectScenicId}}"></cover-image>
+                </cover-view>
+                <cover-view class="custom-callout-container data-v-9826ce1a" markerId="{{index}}" wx:else>
+                    <cover-view class="{{['custom-callout','data-v-9826ce1a',item.scenicId==selectScenicId?'is-choose-big':'no-choose']}}">{{''+(markers[index].scenicName||'')+''}}</cover-view>
+                    <cover-image class="custom-image data-v-9826ce1a" src="/static/images/up.png" wx:if="{{item.scenicId==selectScenicId}}"></cover-image>
+                    <cover-image class="custom-image data-v-9826ce1a" src="/static/images/grey.png" wx:if="{{item.scenicId!=selectScenicId}}"></cover-image>
+                </cover-view>
+            </block>
+        </cover-view>
+    </map>
+    <content bind:__l="__l" bind:handleChange="__e" cardList="{{cardList}}" class="data-v-9826ce1a" currentInfo="{{currentInfo}}" data-event-opts="{{[ [ '^handleChange',[ ['handleChange'] ] ] ]}}" mapPage="{{2}}" selectedScenic="{{selectedScenic}}" vueId="3e8d01dc-2"></content>
+</view>

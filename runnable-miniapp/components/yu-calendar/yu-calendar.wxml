@@ -1,0 +1,22 @@
+<view class="yu-calendar data-v-a432d41c">
+    <view class="yu-calendar-header data-v-a432d41c">
+        <view bindtap="__e" class="header-left data-v-a432d41c" data-event-opts="{{[ [ 'tap',[ ['prevMonth'] ] ] ]}}">
+            <view class="arrow-left data-v-a432d41c"></view>
+        </view>
+        <view class="header-center data-v-a432d41c">{{year+'年'+selectMonth+'月'}}</view>
+        <view bindtap="__e" class="header-right data-v-a432d41c" data-event-opts="{{[ [ 'tap',[ ['nextMonth'] ] ] ]}}">
+            <view class="arrow-right data-v-a432d41c"></view>
+        </view>
+    </view>
+    <view class="yu-calendar-week data-v-a432d41c">
+        <view class="list data-v-a432d41c" wx:for="{{weeks}}" wx:for-index="idx" wx:for-item="week" wx:key="idx">{{week}}</view>
+    </view>
+    <view class="yu-calendar-content data-v-a432d41c">
+        <view class="yu-calendar-day data-v-a432d41c">
+            <view bindtap="__e" class="{{['list','data-v-a432d41c',!item.diyData||item.diyData.diy=='不可订'||item.diyData.dis||item.diyData.disabled?'grey':'',selectedDate===item.date?'active':'',info?'info':'',isCs&&selectedDate===item.date?'csBg':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'onClick',['$0',idx],[ [ ['dayArr','',idx] ] ] ] ] ] ]}}" wx:for="{{dayArr}}" wx:for-index="idx" wx:key="idx">
+                <view class="day data-v-a432d41c">{{item.day}}</view>
+                <view class="price data-v-a432d41c">{{(item.diyData?item.diyData.diy:notbookinfo||'不可订')+(item.diyData&&item.diyData.qi?'起':'')}}</view>
+            </view>
+        </view>
+    </view>
+</view>

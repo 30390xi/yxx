@@ -1,0 +1,12 @@
+<view class="mic-system-msg">
+    <view class="mic-system-msg__inner">
+        <view bindtap="onMicSystemMsgTap" class="mic-system-msg__item {{isClearScreen?'no-events':'has-events'}}">
+            <view class="mic-system-msg__item__inner mode-opacity-black">
+                <view class="mic-system-msg__item__icon"></view>
+                <text class="mic-system-msg__item__info" wx:if="{{micPanelMode==2}}">{{linkMicType==1?'视频':'语音'}}连麦申请中</text>
+                <text class="mic-system-msg__item__info" wx:if="{{micPanelMode==4}}">主播邀请你{{linkMicType==1?'视频':'语音'}}连麦({{leftTime}}s)</text>
+                <view class="comments-item__access"></view>
+            </view>
+        </view>
+    </view>
+</view>

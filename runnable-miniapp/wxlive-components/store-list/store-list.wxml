@@ -1,0 +1,122 @@
+<view class="store-list {{type}} {{showStorePanel}} store-list__from-player {{curLiveStatusCode===103&&!showRecord?'store-list-end':isShow?' fadeIn':' fadeOut'}} {{screenType!=='horizontal'&&screenType!=='vertical'?'store-list__normal':''}} {{screenType==='horizontal'?'store-list__horizontal':''}} {{screenType==='vertical'?'store-list__vertical':''}} {{from==='player'?'store-list__from-player':''}} {{(storePanelStatus==='error'||storePanelStatus==='loading')&&screenType==='horizontal'?'store-list__error-status':''}} {{goodsList.length===0&&couponList.length===0?'store-list__empty':''}} {{uiPlatform!=='ios'?'store-list__platform-not-ios':''}}" hidden="{{!(curLiveStatusCode===103&&!showRecord||showStorePanel)}}">
+    <view bindtap="onCloseStore" class="store__mask"></view>
+    <view class="store-list__inner__container filter-black__panel" wx:if="{{!isHideStorePanelInEnd}}">
+        <view class="store-list__inner__panel mode-filter-black-half-screen">
+            <view class="store-list__inner {{screenType==='horizontal'&&curLiveStatusCode===103?'has-events':''}}">
+                <view class="store-list__header" style="padding-top: {{screenType==='horizontal'&&waterMarkBottom?waterMarkBottom-25-14+'px':screenType==='horizontal'&&waterMarkBottom?'0px':undefined}};" wx:if="{{screenType==='horizontal'}}"></view>
+                <scroll-view enableFlex scrollWithAnimation class="store-list__body {{curLiveStatusCode}}" scrollY="{{curLiveStatusCode!==103||showRecord}}" style="height: {{uiHalfScreenHeight&&screenType!=='horizontal'&&!(curLiveStatusCode===103&&!showRecord)?uiHalfScreenHeight+'px':undefined}}">
+                    <view class="store-list__block-coupon" wx:if="{{couponList.length>0}}">
+                        <view class="store-list__body__title">优惠券<view class="store-list__body__title__extend" wx:if="{{showGetCouponTips}}">微信卡包中可查看领取的优惠券</view>
+                        </view>
+                        <view class="store-list__body__inner store-list__body__inner__coupon">
+                            <view class="store-list__item store-list__item__coupon" wx:if="{{!openMoreCouponBtn&&index===0||openMoreCouponBtn}}" wx:for="{{couponList}}" wx:key="unique">
+                                <view class="store-list__item__inner">
+                                    <view class="store-list__item__body">
+                                        <view class="store-list__item__title">{{item.name}}</view>
+                                    </view>
+                                    <view class="store-list__item__foot">
+                                        <view class="store-list__item__foot__deco store-list__item__foot__deco-top"></view>
+                                        <view class="store-list__button-push disabled" wx:if="{{item.is_given||item.isGetCouponSucc!==undefined}}">{{item.is_given||item.isGetCouponSucc?'已领取':'没抢到'}}</view>
+                                        <view bindtap="onGetCoupon" class="store-list__button-push" data-index="{{index}}" wx:else>领取</view>
+                                        <view class="store-list__item__foot__deco store-list__item__foot__deco-bottom"></view>
+                                    </view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="store-list__extend-more">
+                            <view catchtap="onClickMoreCoupon" class="store-list__extend-more__inner {{openMoreCouponBtn?'open':'close'}}" wx:if="{{showMoreCouponBtn}}">{{openMoreCouponBtn?'收起':'更多'}}</view>
+                        </view>
+                    </view>
+                    <view class="store-list__block-store" wx:if="{{!(couponList.length>0&&goodsList.length===0)}}">
+                        <block wx:if="{{storePanelStatus==='normal'}}">
+                            <view class="store-list__body__title store-list__title">商品</view>
+                            <view class="store-list__body__inner">
+                                <block wx:if="{{goodsList.length!==0}}">
+                                    <view bindtap="onClickViewGoods" class="store-list__item store-list__item__with-navigator" data-index="{{index}}" wx:for="{{goodsHotList}}" wx:key="unique">
+                                        <navigator appId="{{item.third_party_appid}}" class="store-list__item__inner" hoverClass="navigator-hover" openType="{{!item.third_party_appid&&item.isTabbar?'switchTab':'navigate'}}" path="{{item.url}}" target="{{item.third_party_appid?'miniProgram':'self'}}" url="{{item.url}}">
+                                            <view class="store-list__item__header">
+                                                <view class="store-list__item__avatar">
+                                                    <image class="store-list__item__avatar-image" mode="aspectFill" src="{{item.cover_img_url}}"></image>
+                                                    <view class="store-list__item__avatar-tag" wx:if="{{item.goods_describe_video_info&&item.goods_describe_video_info.status==2}}">
+                                                        <view class="store-list__item__avatar-tag-icon"></view>正在讲解</view>
+                                                </view>
+                                                <text class="{{index===0?'store-rank-index':'store-rank-index store-rank-index__important'}}">
+                                                    <text class="store-rank-index__tag">HOT.{{index+1}}</text>
+                                                </text>
+                                            </view>
+                                            <view class="store-list__item__body">
+                                                <view class="store-list__item__body__main">
+                                                    <view class="store-list__item__title">{{item.name}}</view>
+                                                    <block wx:if="{{!item.isSeckilling}}">
+                                                        <view class="store-list__item__price" wx:if="{{!item.price_type||item.price_type===1}}">¥{{item.price}}</view>
+                                                        <view class="store-list__item__price" wx:elif="{{item.price_type===2}}">¥{{item.price}} - ¥{{item.price2}}</view>
+                                                        <view class="store-list__item__price__container" wx:elif="{{item.price_type===3}}">
+                                                            <text class="store-list__item__price">¥{{item.price2}}</text>
+                                                            <text class="store-list__item__price store-list__item__price-before">¥{{item.price}}</text>
+                                                        </view>
+                                                    </block>
+                                                    <block wx:else>
+                                                        <view class="store-list__item__price">¥{{item.seckillPrice}}</view>
+                                                        <view class="store-list__item__seckill">限时秒杀 {{item.seckillCountdownTime}} {{item.stock>0?'剩'+item.stock+'件':'售罄'}}</view>
+                                                    </block>
+                                                </view>
+                                                <view class="store-list__item__body__extend">
+                                                    <view catchtap="hotClickLike" class="store-list__item__like" data-id="{{item.goods_id}}" data-like="{{item.like}}">
+                                                        <view class="{{item.isClickLike?'icon__like':'icon__unlike'}}"></view>{{item.like}}</view>
+                                                    <view catchtap="goodsRecord" class="store-list__item__video" data-id="{{item.goods_id}}" wx:if="{{item.goods_describe_video_info&&item.goods_describe_video_info.status==0}}">讲解</view>
+                                                    <view class="store-list__item__button__record store-list__item__button__record__loading" data-id="{{item.goods_id}}" wx:if="{{item.goods_describe_video_info&&item.goods_describe_video_info.status==3}}">讲解生成中</view>
+                                                </view>
+                                            </view>
+                                        </navigator>
+                                    </view>
+                                    <view bindtap="onClickViewGoods" class="store-list__item store-list__item__with-navigator" data-index="{{index}}" wx:for="{{goodsList}}" wx:key="unique">
+                                        <navigator appId="{{item.third_party_appid}}" class="store-list__item__inner" hoverClass="navigator-hover" openType="{{!item.third_party_appid&&item.isTabbar?'switchTab':'navigate'}}" path="{{item.url}}" target="{{item.third_party_appid?'miniProgram':'self'}}" url="{{item.url}}">
+                                            <view class="store-list__item__header">
+                                                <view class="store-list__item__avatar">
+                                                    <image class="store-list__item__avatar" mode="aspectFill" src="{{item.cover_img_url}}"></image>
+                                                    <view class="store-list__item__avatar-tag" wx:if="{{item.goods_describe_video_info&&item.goods_describe_video_info.status==2}}">
+                                                        <view class="store-list__item__avatar-tag-icon"></view>正在讲解</view>
+                                                </view>
+                                                <view class="store-list__item__index">{{item.goods_serial}}</view>
+                                            </view>
+                                            <view class="store-list__item__body">
+                                                <view class="store-list__item__body__main">
+                                                    <view class="store-list__item__title">{{item.name}}</view>
+                                                    <block wx:if="{{!item.isSeckilling}}">
+                                                        <view class="store-list__item__price" wx:if="{{!item.price_type||item.price_type===1}}">¥{{item.price}}</view>
+                                                        <view class="store-list__item__price" wx:elif="{{item.price_type===2}}">¥{{item.price}} - ¥{{item.price2}}</view>
+                                                        <view class="store-list__item__price__container" wx:elif="{{item.price_type===3}}">
+                                                            <text class="store-list__item__price">¥{{item.price2}}</text>
+                                                            <text class="store-list__item__price store-list__item__price-before">¥{{item.price}}</text>
+                                                        </view>
+                                                    </block>
+                                                    <block wx:else>
+                                                        <view class="store-list__item__price">¥{{item.seckillPrice}}</view>
+                                                        <view class="store-list__item__seckill">限时秒杀 {{item.seckillCountdownTime}} {{item.stock>0?'剩'+item.stock+'件':'售罄'}}</view>
+                                                    </block>
+                                                </view>
+                                                <view class="store-list__item__body__extend">
+                                                    <view catchtap="clickLike" class="store-list__item__like" data-id="{{item.goods_id}}" data-like="{{item.like}}">
+                                                        <view class="{{item.isClickLike?'icon__like':'icon__unlike'}}"></view>{{item.like}}</view>
+                                                    <view catchtap="goodsRecord" class="store-list__item__video" data-id="{{item.goods_id}}" wx:if="{{item.goods_describe_video_info&&item.goods_describe_video_info.status==0}}">讲解</view>
+                                                    <view class="store-list__item__button__record store-list__item__button__record__loading" data-id="{{item.goods_id}}" wx:if="{{item.goods_describe_video_info&&item.goods_describe_video_info.status==3}}">讲解生成中...</view>
+                                                </view>
+                                            </view>
+                                        </navigator>
+                                    </view>
+                                </block>
+                                <view class="store-list__error" style="height: {{uiStoreListHeight&&screenType!=='horizontal'?uiStoreListHeight-60+'px':undefined}}" wx:if="{{goodsList.length===0}}">
+                                    <view class="store-list__error__info">主播未上架商品</view>
+                                </view>
+                            </view>
+                        </block>
+                        <view class="store-list__error" style="height: {{uiStoreListHeight?uiStoreListHeight-36+'px':undefined}}" wx:else>
+                            <view class="store-list__error__info" wx:if="{{storePanelStatus==='error'}}">商品加载失败</view>
+                            <view class="store-list__error__info icon_loading" wx:if="{{storePanelStatus==='loading'}}"></view>
+                        </view>
+                    </view>
+                </scroll-view>
+            </view>
+        </view>
+    </view>
+</view>

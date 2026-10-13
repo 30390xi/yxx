@@ -1,0 +1,139 @@
+{
+  "code": 1,
+  "data": {
+    "records": [
+      {
+        "productId": "1781224807857623042",
+        "startPriceFlag": 0,
+        "price": 40.0,
+        "lineHighlightLabel": "资深讲解,含耳麦",
+        "productPic": "https://eshopfile.zhiyousx.com/171351206035121395.jpg",
+        "retailPrice": 68.0,
+        "productName": "西安西安博物院+小雁塔(荐福寺)半日游【含耳麦 可选9/10/11/14点场次】",
+        "sellNum": 709,
+        "travelMode": "自由行"
+      },
+      {
+        "productId": "1816761912163487746",
+        "startPriceFlag": 1,
+        "price": 98.0,
+        "lineHighlightLabel": "亲子研学,深度讲解 ",
+        "productPic": "https://eshopfile.zhiyousx.com/172198476758937900.jpg",
+        "retailPrice": 128.0,
+        "productName": "西安兵马俑讲解亲子研学含铜车马双馆5小时纯玩15人小团",
+        "sellNum": 2508,
+        "travelMode": "研学游"
+      },
+      {
+        "productId": "1780425066244669441",
+        "startPriceFlag": 1,
+        "price": 68.0,
+        "lineHighlightLabel": "三环内接,赠送午餐,免费使用耳麦",
+        "productPic": "https://eshopfile.zhiyousx.com/171332138703390055.jpg",
+        "retailPrice": 120.0,
+        "productName": "【特惠团】秦始皇陵（兵马俑）+华清宫纯玩1日游-赠餐含耳麦",
+        "sellNum": 641,
+        "travelMode": "一日游"
+      },
+      {
+        "productId": "1780838999033290753",
+        "startPriceFlag": 1,
+        "price": 88.0,
+        "lineHighlightLabel": "三环内接,赠送午餐,免费使用耳麦",
+        "productPic": "https://eshopfile.zhiyousx.com/171332138703390055.jpg",
+        "retailPrice": 120.0,
+        "productName": "【精品小团】秦始皇陵（兵马俑）+华清宫纯玩1日游* +赠午餐+三环内可接",
+        "sellNum": 744,
+        "travelMode": "一日游"
+      },
+      {
+        "productId": "1781213457669595138",
+        "startPriceFlag": 1,
+        "price": 158.0,
+        "lineHighlightLabel": "赠餐,黄河之水",
+        "productPic": "https://eshopfile.zhiyousx.com/176544035839031741.png",
+        "retailPrice": 200.0,
+        "productName": "黄河壶口瀑布旅游区(陕西侧)一日游【陆地头等舱大巴-送陕北风情宴】",
+        "sellNum": 338,
+        "travelMode": "一日游"
+      },
+      {
+        "productId": "1899734314584825857",
+        "startPriceFlag": 1,
+        "price": 98.0,
+        "lineHighlightLabel": "亲子研学,深度讲解 ",
+        "productPic": "https://eshopfile.zhiyousx.com/172198476758937900.jpg",
+        "retailPrice": 128.0,
+        "productName": "西安兵马俑讲解亲子研学含铜车马双馆5小时纯玩15人小团",
+        "sellNum": 2231,
+        "travelMode": "研学游"
+      },
+      {
+        "productId": "1925101488702676993",
+        "startPriceFlag": 0,
+        "price": 98.0,
+        "lineHighlightLabel": "三环内部分区域接,赠午餐",
+        "productPic": "https://eshopfile.zhiyousx.com/171342603363795825.jpg",
+        "retailPrice": 138.0,
+        "productName": "【西上北下】 陕西西安华山一日游 赠海底捞自热米饭+矿泉水+祈福带+登山手套",
+        "sellNum": 418,
+        "travelMode": "一日游"
+      },
+      {
+        "productId": "1751886051939106818",
+        "startPriceFlag": 0,
+        "price": 98.0,
+        "lineHighlightLabel": "历史思辨,儿童财商,探究学习,丝路人文,适宜6-12周岁儿童",
+        "productPic": "https://eshopfile.zhiyousx.com/177630660681138199.jpg",
+        "retailPrice": 298.0,
+        "productName": "大唐西市博物馆研学-下午场【前进吧！西市掌柜】西市财商知识/唐朝历史文化/丝路人文地理",
+        "sellNum": 12,
+        "travelMode": "跟团游"
+      },
+      {
+        "productId": "1780863979087372290",
+        "startPriceFlag": 0,
+        "price": 98.0,
+        "lineHighlightLabel": "三环内部分区域接,赠午餐",
+        "productPic": "https://eshopfile.zhiyousx.com/171342603363795825.jpg",
+        "retailPrice": 138.0,
+        "productName": "【直通车】 陕西西安华山一日游 赠海底捞自热米饭+矿泉水+祈福带+登山手套",
+        "sellNum": 458,
+        "travelMode": "一日游"
+      },
+      {
+        "productId": "1925110921000312833",
+        "startPriceFlag": 0,
+        "price": 98.0,
+        "lineHighlightLabel": "三环内部分区域接,赠午餐",
+        "productPic": "https://eshopfile.zhiyousx.com/171342603363795825.jpg",
+        "retailPrice": 138.0,
+        "productName": "【西峰往返】 陕西西安华山一日游 赠海底捞自热米饭+矿泉水+祈福带+登山手套",
+        "sellNum": 430,
+        "travelMode": "一日游"
+      },
+      {
+        "productId": "2095361174109609985",
+        "startPriceFlag": 0,
+        "price": 168.0,
+        "lineHighlightLabel": "博物科普,趣味知识竞赛,活体饲养,DIY搭建",
+        "productPic": "https://eshopfile.zhiyousx.com/178840848851903534.jpg",
+        "retailPrice": 298.0,
+        "productName": "【自然博物课】我有一只小跳蛛—蛛形纲科普｜领养跳蛛｜活体互动",
+        "sellNum": 6,
+        "travelMode": "研学游"
+      }
+    ],
+    "total": 51,
+    "size": 11,
+    "current": 1,
+    "orders": [],
+    "optimizeCountSql": true,
+    "searchCount": true,
+    "maxLimit": null,
+    "countId": null,
+    "pages": 5
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,40 @@
+<view class="teamPage data-v-3b1c5dfa">
+    <view class="tabs data-v-3b1c5dfa">
+        <u-tabs activeColor="#333333" barHeight="6" barStyle="{{barStyle}}" barWidth="68" bind:__l="__l" bind:change="__e" bold="{{true}}" class="data-v-3b1c5dfa" current="{{current}}" data-event-opts="{{[ [ '^change',[ ['changecurr'] ] ] ]}}" fontSize="26" inactiveColor="#777777" isScroll="{{false}}" list="{{listTab}}" vueId="9ae26d40-1"></u-tabs>
+    </view>
+    <view class="main-box data-v-3b1c5dfa">
+        <block wx:if="{{cardlist[0]&&current==0}}">
+            <view bindtap="__e" class="card data-v-3b1c5dfa" data-event-opts="{{[ [ 'tap',[ [ 'toCardDetail',['$0'],[ [ ['cardlist','',__i0__] ] ] ] ] ] ]}}" wx:for="{{$root.l0}}" wx:for-index="__i0__">
+                <view class="time data-v-3b1c5dfa">{{item.f0+'前可领取权益'}}</view>
+                <view class="content data-v-3b1c5dfa" style="{{'background:'+'linear-gradient(135deg, '+(item.$orig.backgroundColor1||'#e7d6b4')+' 0%, '+item.m0+' 100%);'+';'}}">
+                    <image class="data-v-3b1c5dfa" mode="aspectFill" src="{{item.$orig.image}}"></image>
+                    <view class="info data-v-3b1c5dfa">
+                        <view class="name singleLineText data-v-3b1c5dfa">{{item.$orig.name}}</view>
+                        <view class="desc singleLineText data-v-3b1c5dfa">{{item.$orig.subtitle}}</view>
+                    </view>
+                </view>
+            </view>
+        </block>
+        <block wx:if="{{cardlist[0]&&current==1}}">
+            <view bindtap="__e" class="card data-v-3b1c5dfa" data-event-opts="{{[ [ 'tap',[ [ 'toCardDetail',['$0'],[ [ ['cardlist','',__i1__] ] ] ] ] ] ]}}" wx:for="{{$root.l1}}" wx:for-index="__i1__">
+                <view class="time invalid data-v-3b1c5dfa">{{item.f1+'前可领取权益'}}</view>
+                <view class="content data-v-3b1c5dfa">
+                    <image class="data-v-3b1c5dfa" mode="aspectFill" src="{{item.$orig.image}}"></image>
+                    <view class="info data-v-3b1c5dfa">
+                        <view class="name singleLineText data-v-3b1c5dfa">{{item.$orig.name}}</view>
+                        <view class="desc singleLineText data-v-3b1c5dfa">{{item.$orig.subtitle}}</view>
+                    </view>
+                </view>
+                <image class="state-image data-v-3b1c5dfa" src="../../static/images/eqcard4.png"></image>
+            </view>
+        </block>
+        <view class="records data-v-3b1c5dfa">
+            <view bindtap="__e" class="records-btn data-v-3b1c5dfa" data-event-opts="{{[ [ 'tap',[ [ 'torecords',['$event'] ] ] ] ]}}">查看领取记录 ></view>
+            <view class="records-line data-v-3b1c5dfa">|</view>
+            <view catchtap="__e" class="records-btn data-v-3b1c5dfa" data-event-opts="{{[ [ 'tap',[ [ 'toExchange',['$event'] ] ] ] ]}}">兑换码兑换 ></view>
+        </view>
+    </view>
+    <view class="empty data-v-3b1c5dfa" wx:if="{{!cardlist[0]}}">
+        <empty-state bind:__l="__l" class="data-v-3b1c5dfa" imgUrl="/static/captured/51d17a011d27445c.png" text="暂无数据" vueId="9ae26d40-2"></empty-state>
+    </view>
+</view>

@@ -1,0 +1,64 @@
+<view class="parent-container">
+    <uni-bar backgroundColor="linear-gradient(to bottom, #000000 0%, rgba(0,0,0,0) 100%);" bind:__l="__l" bind:clickLeft="__e" border="{{false}}" color="#ffffff" data-custom-hidden="{{!isPhotoShow}}" data-event-opts="{{[ [ '^clickLeft',[ ['back'] ] ] ]}}" fixed="{{true}}" leftIcon="closeempty" statusBar="{{true}}" style="position:absolute;width:100%;font-size:34rpx;font-weight:500;" vueId="8f8b6eb2-1" vueSlots="{{['default']}}">
+        <transition bind:__l="__l" mode="in-out" name="fade" style="width:100%;" vueId="{{'8f8b6eb2-2'+','+'8f8b6eb2-1'}}" vueSlots="{{['default']}}">
+            <view class="title-nav">{{navTitle}}</view>
+        </transition>
+    </uni-bar>
+    <scroll-view bindscroll="__e" bindscrolltolower="__e" data-event-opts="{{[ [ 'scroll',[ [ 'pagescroll',['$event'] ] ] ],[ 'scrolltolower',[ [ 'wtouchEnd',['$event'] ] ] ] ]}}" lowerThreshold="150" scrollTop="{{scrollTop}}" scrollY="{{true}}" style="height:100vh;">
+        <view class="headvideo" style="{{'height:'+(isPhotoShow?vHeight+'px':0)+';'}}" wx:if="{{videoUrl}}">
+            <video autoplay="{{false}}" bindloadedmetadata="__e" class="headvideo vue-ref" controls="{{fullScreen}}" customCache="{{false}}" data-event-opts="{{[ [ 'loadedmetadata',[ [ 'videoUpdate',['$event'] ] ] ] ]}}" data-ref="videoAlbum" enableProgressGesture="{{true}}" id="videoAlbum" loop="{{true}}" objectFit="contain" showCenterPlayBtn="{{true}}" showFullscreenBtn="{{true}}" src="{{videoUrl}}" style="{{'height:'+(isPhotoShow?vHeight+'px':0)+';'}}"></video>
+        </view>
+        <view class="topic-map" id="topicMap">
+            <view class="mask"></view>
+            <image alt bindtap="__e" data-event-opts="{{[ [ 'tap',[ [ 'priviewImg',['$0'],['allPicList.__$n0'] ] ] ] ]}}" mode="aspectFill" src="{{lineImageUrl}}"></image>
+        </view>
+        <view class="module" wx:if="{{lineData.imageList&&lineData.imageList[0]}}">
+            <fall-pro bind:__l="__l" bind:priviewImg="__e" data-event-opts="{{[ [ '^priviewImg',[ ['priviewImg'] ] ] ]}}" moduleObj="{{lineData}}" showCover="{{false}}" vueId="8f8b6eb2-3"></fall-pro>
+        </view>
+        <view class="module" id="{{'module'+index}}" wx:if="{{item.$orig.imageList&&item.$orig.imageList[0]}}" wx:for="{{$root.l0}}" wx:key="index">
+            <view class="title">
+                <image class="title-no" src="https://eshopfile.zhiyousx.com/169292956046620888.png"></image>
+                <view class="title-word">
+                    <text>{{item.m0}}</text>
+                    <text class="t">{{item.$orig.destinationName}}</text>
+                </view>
+            </view>
+            <fall-pro bind:__l="__l" bind:priviewImg="__e" data-event-opts="{{[ [ '^priviewImg',[ ['priviewImg'] ] ] ]}}" moduleObj="{{item.$orig}}" showCover="{{true}}" vueId="{{'8f8b6eb2-4-'+index}}"></fall-pro>
+        </view>
+    </scroll-view>
+    <view class="preview-box" hidden="{{!showPreview}}">
+        <view class="maskTop" style="top:113rpx;">
+            <uni-icons bind:__l="__l" bind:click="__e" color="#ffffff" data-event-opts="{{[ [ '^click',[ ['downPage'] ] ] ]}}" size="22" type="arrowleft" vueId="8f8b6eb2-5"></uni-icons>
+            <view class="num">{{''+current1+1+' / '+imageAllNum+''}}</view>
+        </view>
+        <swiper bindanimationfinish="__e" catchtouchend="__e" catchtouchstart="__e" class="swiper" current="{{current}}" data-event-opts="{{[ [ 'animationfinish',[ [ 'itemChange',['$event'] ] ] ],[ 'touchstart',[ [ 'handleTouchStart',['$event'] ] ] ],[ 'touchend',[ [ 'handleTouchEnd',['$event'] ] ] ] ]}}" duration="{{duration}}">
+            <swiper-item wx:for="{{swiperList}}" wx:key="index">
+                <movable-area class="movable-area" scaleArea="{{true}}">
+                    <movable-view class="movable-view" damping="100" direction="all" inertia="{{true}}" scale="{{true}}" scaleMax="{{4}}" scaleMin="{{1}}" scaleValue="{{scale}}">
+                        <scroll-view class="uni-scroll-view" scrollY="true">
+                            <view class="scroll-view">
+                                <image bindlongpress="__e" class="image" data-event-opts="{{[ [ 'longpress',[ [ 'onLongpress',['$0'],[ [ ['swiperList','',index] ] ] ] ] ] ]}}" mode="widthFix" src="{{item.url}}"></image>
+                            </view>
+                        </scroll-view>
+                    </movable-view>
+                </movable-area>
+            </swiper-item>
+        </swiper>
+        <scroll-view class="scroll-box" scrollX="true">
+            <view bindtap="__e" class="item" data-event-opts="{{[ [ 'tap',[ [ 'routerpage',['$0','$1'],['showPic.type','showPic.destinationId'] ] ] ] ]}}" wx:if="{{showPic.mainUrl}}">
+                <view class="linearbg" style="{{'background-image:'+'url('+showPic.mainUrl+')'+';'}}"></view>
+                <view class="info">
+                    <image class="icon" src="https://eshopfile.zhiyousx.com/2021083112125659006.png"></image>
+                    <view class="text singleLineText">{{showPic.destinationName}}</view>
+                </view>
+            </view>
+            <view bindtap="__e" class="item" data-event-opts="{{[ [ 'tap',[ [ 'routerpage',['$0','$1'],['showPic.destinationType','showPic.destinationSubId'] ] ] ] ]}}" wx:if="{{showPic.mainSubUrl}}">
+                <view class="linearbg" style="{{'background-image:'+'url('+showPic.mainSubUrl+')'+';'}}"></view>
+                <view class="info">
+                    <image class="icon" src="https://eshopfile.zhiyousx.com/2021083112125659006.png"></image>
+                    <view class="text singleLineText">{{showPic.destinationSubName}}</view>
+                </view>
+            </view>
+        </scroll-view>
+    </view>
+</view>

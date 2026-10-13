@@ -1,0 +1,46 @@
+<view class="container">
+    <view class="search-container">
+        <view class="search-box">
+            <view class="item txt">
+                <image src="/static/captured/98b5024e40f5a003.png"></image>
+                <view bindtap="__e" class="searchInput" data-event-opts="{{[ [ 'tap',[ [ 'goSearch',['$0'],['searchKeyList.__$n0'] ] ] ] ]}}" wx:if="{{$root.g0==1}}">{{''+searchKeyList[0]+''}}</view>
+                <view class="searchInput" wx:else>
+                    <u-notice-bar bgColor="#00000000" bind:__l="__l" bind:click="__e" color="#777474" data-event-opts="{{[ [ '^click',[ ['goSearch1'] ] ] ]}}" duration="{{10000}}" fontSize="26" list="{{searchKeyList}}" mode="vertical" padding="18rpx 0rpx" volumeIcon="{{false}}" vueId="1783b9e0-1"></u-notice-bar>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="labelContainer" id="labelContainer" style="{{'height:'+serchHeightList[type-1]+'rpx'+';'}}">
+        <view class="moveBox" style="{{'position:'+(scrollTop>spotListTop?'fixed':'relative')+';'+'top:'+(scrollTop>spotListTop?'-'+serchHeightList[type-1]-80+'rpx':0+'px')+';'+'transform:'+(showLabel?'translateY('+serchHeightList[type-1]+'rpx)':'translateY(0rpx)')+';'+'z-index:'+(showLabel?997:1)+';'+'transition:'+(showLabel?'transform 0.2s linear':'')+';'+'height:'+serchHeightList[type-1]+'rpx'+';'}}">
+            <view class="spotType" wx:if="{{configTypeShow}}">
+                <view bindtap="__e" class="{{['spotItem',type==index+1?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeSpot',[index] ] ] ] ]}}" wx:for="{{spotNameList}}">{{item}}</view>
+            </view>
+            <view class="box">
+                <view class="item" wx:for="{{labels}}">
+                    <view class="name">{{item.name}}</view>
+                    <scroll-view class="scrollBox" scrollLeft="{{leftOffset[index]}}" scrollWithAnimation="{{true}}" scrollX="{{true}}">
+                        <view bindtap="__e" class="{{['options',conditions[index].name==opt.name?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'chooseLabel',[index,'$0'],[ [ ['labels','',index],['children','',__i0__] ] ] ] ] ] ]}}" wx:for="{{item.children}}" wx:for-index="__i0__" wx:for-item="opt">{{opt.name}}</view>
+                    </scroll-view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view bindtap="__e" class="nav" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" style="{{'top:'+'80rpx'+';'+'z-index:'+(scrollTop>spotListTop-120?99:-10)+';'+'opacity:'+1/100*(scrollTop-spotListTop+120)+';'}}" wx:if="{{scrollTop>spotListTop-120}}">{{''+(currentTag||'综合排序')}}</view>
+    <view class="spotList" id="spotList">
+        <view bindtap="__e" class="item" data-event-opts="{{[ [ 'tap',[ [ 'toSpot',['$0'],[ [ ['spotList','',__i1__] ] ] ] ] ] ]}}" wx:for="{{$root.l0}}" wx:for-index="__i1__">
+            <image class="img" mode="aspectFill" src="{{item.$orig.mainPicture}}"></image>
+            <view class="info">
+                <view class="name singleLineText">
+                    <text wx:if="{{item.$orig.isBookable}}">订</text>{{item.$orig.scenicName}}</view>
+                <view class="rank singleLineText" wx:if="{{item.$orig.originSortInRankingVO&&item.$orig.originSortInRankingVO.rankingName}}">{{''+item.$orig.originSortInRankingVO.rankingName+'第 '+item.$orig.originSortInRankingVO.indexInRanking+' 名'}}</view>
+                <view class="desc singleLineText" wx:if="{{item.$orig.tag}}">{{item.$orig.tag}}</view>
+                <view class="distance" wx:if="{{item.m0}}">
+                    <image mode="aspectFill" src="../../static/images/loc.png"></image>{{'距您'+item.$orig.distance+'km'}}</view>
+            </view>
+        </view>
+    </view>
+    <view class="noinfo" wx:if="{{!spotList[0]}}">
+        <image class="noGoods" mode="widthFix" src="/static/captured/51d17a011d27445c.png"></image>
+        <view>没有相关内容</view>
+    </view>
+</view>

@@ -1,0 +1,41 @@
+<view class="data-v-36495c36">
+    <view class="orderBox data-v-36495c36">
+        <view bindtap="__e" class="orderItem data-v-36495c36" data-event-opts="{{[ [ 'tap',[ [ 'goOrderDetails',['$0'],[ [ ['aftersalesList','',index,'orderId'] ] ] ] ] ] ]}}" wx:for="{{$root.l1}}" wx:key="index">
+            <view class="merchant data-v-36495c36">
+                <view class="mcName data-v-36495c36">
+                    <image class="data-v-36495c36" src="../../static/images/sj_icon.png"></image>
+                    <text class="data-v-36495c36">{{item.$orig.sellerNameReal}}</text>
+                    <uni-icons bind:__l="__l" class="data-v-36495c36" color="#c8c8c8" size="14" type="arrowright" vueId="{{'56237556-1-'+index}}"></uni-icons>
+                </view>
+            </view>
+            <view class="topBox data-v-36495c36">
+                <view class="goodsInfo data-v-36495c36" wx:for="{{item.l0}}" wx:for-index="goodsindex" wx:for-item="itemgoods" wx:key="goodsindex">
+                    <view class="topImg data-v-36495c36">
+                        <u-lazy-load bind:__l="__l" borderRadius="10" class="data-v-36495c36" height="180" image="{{itemgoods.$orig.pic}}" imgMode="scaleToFill" vueId="{{'56237556-2-'+index+'-'+goodsindex}}"></u-lazy-load>
+                    </view>
+                    <view class="itemInfo data-v-36495c36">
+                        <view class="data-v-36495c36">
+                            <view class="itemTitle multilineText2 data-v-36495c36">{{itemgoods.$orig.name}}</view>
+                            <text class="itemNum data-v-36495c36">{{'X '+itemgoods.$orig.quantity}}</text>
+                        </view>
+                        <text class="data-v-36495c36">{{'￥'+itemgoods.f0}}</text>
+                    </view>
+                </view>
+                <view class="goodsPrice data-v-36495c36">{{'共'+item.$orig.itemQuantity+'件商品 应付:￥'}}<text class="data-v-36495c36">{{item.f1}}</text>
+                </view>
+            </view>
+            <view class="bomBox data-v-36495c36">
+                <text class="data-v-36495c36"></text>
+                <view class="orderBtn data-v-36495c36">
+                    <button class="obtn obtn1 data-v-36495c36">查看详情</button>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="empty data-v-36495c36" wx:if="{{$root.g0}}">
+        <u-empty bind:__l="__l" class="data-v-36495c36" marginTop="100" mode="order" text=" " vueId="56237556-3"></u-empty>
+    </view>
+    <view class="loadMore data-v-36495c36">
+        <u-loadmore bgColor="#f7f7f7" bind:__l="__l" class="data-v-36495c36" color="#ccc" iconColor="#ccc" status="{{loadMore}}" vueId="56237556-4"></u-loadmore>
+    </view>
+</view>

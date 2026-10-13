@@ -1,0 +1,18 @@
+<view>
+    <view class="swiperPanel">
+        <view bindtouchend="__e" bindtouchstart="__e" class="swiperItem" data-event-opts="{{[ [ 'touchstart',[ [ 'startMove',['$event'] ] ] ],[ 'touchend',[ [ 'e0',['$event'] ] ] ] ]}}" data-event-params="{{item:item.$orig,index:index}}" style="{{'transform:'+itemStyle[index].transform+';'+'z-index:'+itemStyle[index].zIndex+';'+'opacity:'+itemStyle[index].opacity+';'}}" wx:for="{{$root.l0}}" wx:key="index">
+            <view class="content" style="{{'background-image:'+'url('+item.$orig.image+')'+';'+'background-position:'+'center center'+';'+'background-size:'+'cover'+';'}}">
+                <view class="card-title">{{item.$orig.title}}</view>
+                <view class="card-num">
+                    <text>NO.</text>{{(item.$orig.cardNo||'')+''}}</view>
+                <view class="card-body-time" wx:if="{{item.$orig.effectiveDateType===0}}">{{'有效期：激活后'+item.$orig.effectiveDays+'天内有效'}}</view>
+                <block wx:else>
+                    <view class="card-body-time" wx:if="{{item.g0>item.g1}}">{{'有效期：'+item.f0+'~'+item.f1}}</view>
+                    <block wx:else>
+                        <view class="card-body-time" wx:if="{{item.$orig.effectiveEndDate}}">{{'有效期至：'+item.f2}}</view>
+                    </block>
+                </block>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,57 @@
+<view class="{{['page-box','','data-v-7764ebce',showHide?'page-box-image1':'page-box-image2']}}">
+    <view bindtap="__e" class="data-v-7764ebce" data-event-opts="{{[ [ 'tap',[ [ 'showFun',['$event'] ] ] ] ]}}" style="position:fixed;height:140rpx;width:100%;z-index:111;" wx:if="{{!showHide}}"></view>
+    <uni-navbar bind:__l="__l" class="data-v-7764ebce" type="transparentFixed" vueId="7ce9bea2-1"></uni-navbar>
+    <image mode class="video_box1 data-v-7764ebce" src="https://eshopfile.zhiyousx.com/173451299530852204.jpg" wx:if="{{showImage}}"></image>
+    <video bindended="__e" bindloadedmetadata="__e" bindpause="__e" class="video_box video_box2 data-v-7764ebce" controls="{{false}}" data-event-opts="{{[ [ 'ended',[ [ 'ended1',['$event'] ] ] ],[ 'loadedmetadata',[ [ 'loadedmetadata1',['$event'] ] ] ],[ 'pause',[ [ 'pauseFun',['$event'] ] ] ] ]}}" id="myVideo1" initialTime="{{0}}" muted="{{true}}" objectFit="cover" src="https://eshopfile.zhiyousx.com/2024121814465221773.mp4" style="{{'opacity:'+opacity+';'+'z-index:'+(typeVideo==1?'10':'1')+';'}}"></video>
+    <video autoplay="{{true}}" class="video_box video_box3 data-v-7764ebce" controls="{{false}}" id="myVideo2" loop="{{true}}" muted="{{true}}" src="https://eshopfile.zhiyousx.com/2024122711551596359.mp4" style="{{'opacity:'+opacity+';'+'z-index:'+(typeVideo==2?'10':'1')+';'}}"></video>
+    <video bindloadedmetadata="__e" class="video_box video_box4 data-v-7764ebce" controls="{{false}}" data-event-opts="{{[ [ 'loadedmetadata',[ [ 'loadedmetadata3',['$event'] ] ] ] ]}}" id="myVideo3" loop="{{true}}" muted="{{true}}" src="https://eshopfile.zhiyousx.com/2024121814473092347.mp4" style="{{'opacity:'+opacity+';'+'z-index:'+(typeVideo==3?'10':'1')+';'}}"></video>
+    <video autoplay="{{true}}" bindloadedmetadata="__e" class="video_box video_box5 data-v-7764ebce" controls="{{false}}" data-event-opts="{{[ [ 'loadedmetadata',[ [ 'loadedmetadata4',['$event'] ] ] ] ]}}" id="myVideo4" loop="{{true}}" muted="{{true}}" src="https://eshopfile.zhiyousx.com/2024122710555208245.mp4" style="{{'opacity:'+opacity+';'+'z-index:'+(typeVideo==4?'10':'1')+';'}}"></video>
+    <image mode class="video_box1 data-v-7764ebce" src="https://eshopfile.zhiyousx.com/175021251389353595.jpg" style="{{'z-index:'+(typeVideo==4||typeVideo==3?'11':'1')+';'}}" wx:if="{{(!videoReady4||!videoReady3)&&!showHide}}"></image>
+    <z-paging bind:__l="__l" bind:input="__e" bind:query="__e" bottomBgColor="{{!showHide?'#ffffff':'#e1d3ba'}}" class="{{['data-v-7764ebce','vue-ref',showHide?'page-box-image11':'page-box-image22']}}" data-event-opts="{{[ [ '^query',[ ['queryList'] ] ],[ '^input',[ [ '__set_model',[ '','dataList','$event',[] ] ] ] ] ]}}" data-ref="paging" safeAreaInsetBottom="{{isIos}}" style="position:fixed;z-index:11;" toBottomLoadingMoreEnabled="{{true}}" useChatRecordMode="{{true}}" value="{{dataList}}" vueId="7ce9bea2-2" vueSlots="{{['default','top','bottom']}}">
+        <view slot="top">
+            <view bindtap="__e" class="data-v-7764ebce" data-event-opts="{{[ [ 'tap',[ [ 'showFun',['$event'] ] ] ] ]}}" style="height:300rpx;width:100%;" wx:if="{{!showHide}}"></view>
+            <view class="content-box data-v-7764ebce" wx:if="{{showHide}}">
+                <view class="greet-box data-v-7764ebce">
+                    <view class="greet-box-t data-v-7764ebce">{{'HI，'+$root.m0+'~'}}</view>
+                    <view class="greet-box-b data-v-7764ebce">
+                        <view class="greet-box-l data-v-7764ebce">准备好一段新旅程了吗？</view>
+                        <view class="greet-box-l data-v-7764ebce">和我聊聊吧！</view>
+                    </view>
+                </view>
+                <view class="default-box data-v-7764ebce">
+                    <view class="default-box-copy data-v-7764ebce" wx:if="{{maskShow}}"></view>
+                    <view class="default-l data-v-7764ebce" wx:for="{{tripList}}" wx:for-index="__i0__" wx:for-item="m" wx:key="id">
+                        <view class="default-h data-v-7764ebce">
+                            <image mode class="default-image data-v-7764ebce" src="{{m.iconUrl}}"></image>
+                            <text class="default-text data-v-7764ebce" style="{{'color:'+m.titleColor+';'}}">{{m.title}}</text>
+                        </view>
+                        <view bindtap="__e" class="default-item data-v-7764ebce" data-event-opts="{{[ [ 'tap',[ [ 'goQuestion',['$0',1],[ [ ['tripList','id',m.id],['contentList','id',el.id,'content'] ] ] ] ] ] ]}}" style="{{'background-color:'+el.bgColor+';'}}" wx:for="{{m.contentList}}" wx:for-index="i" wx:for-item="el" wx:key="id">{{''+el.content+''}}</view>
+                    </view>
+                    <view class="default-r data-v-7764ebce">
+                        <view class="default-t data-v-7764ebce" wx:for="{{scenicSpotList}}" wx:for-index="__i1__" wx:for-item="m" wx:key="id">
+                            <view class="default-h data-v-7764ebce">
+                                <image mode class="default-image data-v-7764ebce" src="{{m.iconUrl}}"></image>
+                                <text class="default-text data-v-7764ebce" style="{{'color:'+m.titleColor+';'}}">{{m.title}}</text>
+                            </view>
+                            <view bindtap="__e" class="default-item data-v-7764ebce" data-event-opts="{{[ [ 'tap',[ [ 'goQuestion',['$0',2],[ [ ['scenicSpotList','id',m.id],['contentList','id',el.id,'content'] ] ] ] ] ] ]}}" style="{{'background-color:'+el.bgColor+';'}}" wx:for="{{m.contentList}}" wx:for-index="i" wx:for-item="el" wx:key="id">{{''+el.content+''}}</view>
+                        </view>
+                        <view class="default-b data-v-7764ebce" wx:for="{{deliciousFoodList}}" wx:for-index="__i2__" wx:for-item="m" wx:key="id">
+                            <view class="default-h data-v-7764ebce">
+                                <image mode class="default-image data-v-7764ebce" src="{{m.iconUrl}}"></image>
+                                <text class="default-text data-v-7764ebce" style="{{'color:'+m.titleColor+';'}}">{{m.title}}</text>
+                            </view>
+                            <view bindtap="__e" class="default-item data-v-7764ebce" data-event-opts="{{[ [ 'tap',[ [ 'goQuestion',['$0',3],[ [ ['deliciousFoodList','id',m.id],['contentList','id',el.id,'content'] ] ] ] ] ] ]}}" style="{{'background-color:'+el.bgColor+';'}}" wx:for="{{m.contentList}}" wx:for-index="i" wx:for-item="el" wx:key="id">{{''+el.content+''}}</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <chat-input-bar bg="{{true}}" bind:__l="__l" bind:clearData="__e" bind:clearDataStop="__e" bind:resetTravel="__e" bind:send="__e" bind:setShowHide="__e" bind:stopSpeak="__e" class="data-v-7764ebce vue-ref" data-event-opts="{{[ [ '^stopSpeak',[ ['stopSpeak'] ] ],[ '^resetTravel',[ ['resetTravel'] ] ],[ '^setShowHide',[ ['setShowHide'] ] ],[ '^clearData',[ ['clearData'] ] ],[ '^clearDataStop',[ ['clearDataStop'] ] ],[ '^send',[ ['doSend'] ] ] ]}}" data-ref="inputBar" defaultList="{{defaultList}}" delayBtn="{{delayBtn}}" detail="{{spotDetail}}" isIos="{{isIos}}" pushingProgress="{{pushingProgress}}" pushingProgressShow="{{pushingProgressShow}}" showHide="{{showHide}}" slot="bottom" vueId="{{'7ce9bea2-3'+','+'7ce9bea2-2'}}"></chat-input-bar>
+        <view class="data-v-7764ebce" style="width:100%;height:60rpx;" wx:if="{{!showHide}}"></view>
+        <view class="data-v-7764ebce" style="position:relative;" wx:if="{{!showHide}}" wx:for="{{dataList}}" wx:key="index">
+            <view class="data-v-7764ebce" style="transform:scaleY(-1);">
+                <chat-item bind:__l="__l" bind:askAgain="__e" bind:exclusive="__e" bind:explain="__e" bind:resetTravel="__e" bind:stopSpeak="__e" class="data-v-7764ebce" data-event-opts="{{[ [ '^askAgain',[ ['askAgain'] ] ],[ '^resetTravel',[ ['resetTravel'] ] ],[ '^exclusive',[ ['exclusive'] ] ],[ '^explain',[ ['openAudio'] ] ],[ '^stopSpeak',[ ['stopSpeak'] ] ] ]}}" dataList="{{dataList}}" item="{{item}}" newVal="{{newVal}}" pushingProgress="{{pushingProgress}}" vueId="{{'7ce9bea2-4-'+index+','+'7ce9bea2-2'}}"></chat-item>
+            </view>
+        </view>
+    </z-paging>
+</view>

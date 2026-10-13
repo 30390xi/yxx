@@ -1,0 +1,6 @@
+<view class="{{['u-toast','data-v-b33de616',isShow?'u-show':'','u-type-'+config.type,'u-position-'+config.position]}}" style="{{'z-index:'+uZIndex+';'}}">
+    <view class="u-icon-wrap data-v-b33de616">
+        <u-icon bind:__l="__l" class="u-icon data-v-b33de616" color="{{config.type}}" name="{{iconName}}" size="{{30}}" vueId="32dc05b4-1" wx:if="{{config.icon}}"></u-icon>
+    </view>
+    <text class="u-text data-v-b33de616">{{config.title}}</text>
+</view>

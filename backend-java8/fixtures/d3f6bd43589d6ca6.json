@@ -1,0 +1,59 @@
+{
+  "code": 1,
+  "data": {
+    "WX_VERSION": {
+      "paramKey": "WX_VERSION",
+      "paramName": "wx小程序要上线审核的最新版本号",
+      "paramValue": "v3.2.0",
+      "memo": "用于控制审核不过功能开关",
+      "isConfigurable": 1,
+      "operatorType": null,
+      "operatorId": null,
+      "createTime": null,
+      "updateTime": "2026-10-08 14:27:26",
+      "isDeleted": 0,
+      "serviceType": 0
+    },
+    "HOME_PANDA_IS_SHOW": {
+      "paramKey": "HOME_PANDA_IS_SHOW",
+      "paramName": "首页熊猫是否展示",
+      "paramValue": "1",
+      "memo": "0：隐藏 1：展示",
+      "isConfigurable": 1,
+      "operatorType": 1,
+      "operatorId": "1",
+      "createTime": "2025-01-20 09:39:55",
+      "updateTime": "2025-09-18 09:09:33",
+      "isDeleted": 0,
+      "serviceType": 0
+    },
+    "GRAY_THEME_FLAG": {
+      "paramKey": "GRAY_THEME_FLAG",
+      "paramName": "黑白滤镜配置",
+      "paramValue": "0",
+      "memo": "1 开启\n0 关闭",
+      "isConfigurable": 1,
+      "operatorType": 1,
+      "operatorId": "1",
+      "createTime": null,
+      "updateTime": "2022-12-07 19:09:25",
+      "isDeleted": 0,
+      "serviceType": 0
+    },
+    "XIAOQI_VERSION": {
+      "paramKey": "XIAOQI_VERSION",
+      "paramName": "小七版本切换",
+      "paramValue": "2",
+      "memo": "1:老版本 2：新版本",
+      "isConfigurable": 1,
+      "operatorType": 1,
+      "operatorId": "1",
+      "createTime": null,
+      "updateTime": "2025-08-18 17:07:04",
+      "isDeleted": 0,
+      "serviceType": 0
+    }
+  },
+  "msg": "成功",
+  "success": true
+}

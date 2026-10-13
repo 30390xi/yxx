@@ -1,0 +1,41 @@
+<view class="activation-card">
+    <uni-navbar bind:__l="__l" title="激活使用" titleCenter="{{false}}" type="transparentFixed" vueId="9ae7fd14-1"></uni-navbar>
+    <view class="unreal-header" style="{{'opacity:'+opacity+';'+'padding:'+statusBarHeight+'px 96rpx 24rpx 24rpx'+';'}}">
+        <view class="unreal-header-content"></view>
+    </view>
+    <view class="header-bg">
+        <view class="card">
+            <view class="card-title">
+                <view>{{'您有'+$root.g0+'张待激活的年卡'}}</view>
+                <view bindtap="__e" class="card-right-title" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}">
+                    <text>实体卡激活</text>
+                    <u-icon bind:__l="__l" color="#9D8C85" name="question-circle" size="20" vueId="9ae7fd14-2"></u-icon>
+                </view>
+            </view>
+            <view class="tip-popup-container" hidden="{{!tipPopupShow}}">
+                <view class="body">*实体卡和其它网络渠道购买用户请先在兑换通道兑换后再来激活，线上购买时未完成激活，可以直接在此激活</view>
+            </view>
+            <view class="card-body">
+                <custom-swiper bind:__l="__l" bind:change="__e" data-event-opts="{{[ [ '^change',[ ['swiperChange'] ] ] ]}}" swiperList="{{swiperList}}" vueId="9ae7fd14-3"></custom-swiper>
+            </view>
+        </view>
+    </view>
+    <view class="activation-card-container">
+        <view class="box">
+            <upload-user bind:__l="__l" class="vue-ref" data-ref="uploadUser" infosUser="{{infosUser}}" vueId="9ae7fd14-4"></upload-user>
+        </view>
+        <view class="box desc-explain">
+            <view class="desc-explain-title">激活说明</view>
+            <view class="desc-explain-content">1、为确保旅游年卡正常使用，请认真填写并核实持卡人真实身份信息和头像，以保障持卡人权益；</view>
+            <view class="desc-explain-content">2、一张卡只能绑定一个身份信息，每张卡的限购数量各不相同，如需购买多年卡，请参照每张卡片的购买须知。</view>
+        </view>
+    </view>
+    <view class="activation-card-footer">
+        <view class="radio-text">
+            <image bindtap="__e" class="circle-image" data-event-opts="{{[ [ 'tap',[ [ 'e1',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/2023110915401580825.png" wx:if="{{checked}}"></image>
+            <view bindtap="__e" class="circle" data-event-opts="{{[ [ 'tap',[ [ 'e2',['$event'] ] ] ] ]}}" wx:else></view>我已阅读并同意<text bindtap="__e" data-event-opts="{{[ [ 'tap',[ [ 'openPopup',['$event'] ] ] ] ]}}">《游陕西旅游年卡人像采集服务协议》</text>
+        </view>
+        <view bindtap="__e" class="{{['red-btn',!checked&&'disabled']}}" data-event-opts="{{[ [ 'tap',[ [ 'submit',['$event'] ] ] ] ]}}">确认</view>
+    </view>
+    <review-popup bind:__l="__l" bind:confirm="__e" bind:updateShow="__e" data-event-opts="{{[ [ '^updateShow',[ [ '__set_sync',['$0','reviewPopupShow','$event'],[''] ] ] ],[ '^confirm',[ ['handlePurchase'] ] ] ]}}" html="{{html}}" show="{{reviewPopupShow}}" vueId="9ae7fd14-5"></review-popup>
+</view>

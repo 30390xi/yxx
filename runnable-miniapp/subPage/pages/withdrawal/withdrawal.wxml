@@ -1,0 +1,39 @@
+<view class="data-v-9b0746c2">
+    <view class="withdrawal data-v-9b0746c2">
+        <view class="data-v-9b0746c2">提现至</view>
+        <view class="data-v-9b0746c2">
+            <image class="data-v-9b0746c2" src="../../static/images/weixin.png"></image>微信</view>
+    </view>
+    <view class="text data-v-9b0746c2">提现方式仅支持提现到微信余额，不收取手续费</view>
+    <view class="text data-v-9b0746c2">{{'*满'+minNum+'元可提现'}}</view>
+    <view class="moneybox data-v-9b0746c2">
+        <view class="tit data-v-9b0746c2">提现金额</view>
+        <view class="money data-v-9b0746c2">
+            <text class="data-v-9b0746c2">￥</text>
+            <input bindblur="__e" bindinput="__e" class="payInput data-v-9b0746c2" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '','writeMoney','$event',['trim'] ] ],[ 'oninput',['$event'] ] ] ],[ 'blur',[ ['$forceUpdate'] ] ] ]}}" focus="{{true}}" maxlength="8" type="digit" value="{{writeMoney}}"></input>
+        </view>
+        <view class="balance data-v-9b0746c2">{{'余额 '+$root.f0+' 元'}}</view>
+    </view>
+    <button bindtap="__e" class="btn data-v-9b0746c2" data-event-opts="{{[ [ 'tap',[ [ 'showPop',[true] ] ] ] ]}}" disabled="{{balanceNum<minNum}}">{{balanceNum<minNum?'满'+minNum+'提现':'提 现'}}</button>
+    <u-keyboard default bind:__l="__l" bind:backspace="__e" bind:change="__e" bind:input="__e" class="data-v-9b0746c2 vue-ref" data-event-opts="{{[ [ '^change',[ ['onChange'] ] ],[ '^backspace',[ ['onBackspace'] ] ],[ '^input',[ [ '__set_model',[ '','popShow','$event',[] ] ] ] ] ]}}" data-ref="uKeyboard" dotEnabled="{{false}}" mask="{{true}}" maskCloseAble="{{false}}" mode="number" safeAreaInsetBottom="{{true}}" tooltip="{{false}}" value="{{popShow}}" vueId="31f76cc0-1" vueSlots="{{['default']}}">
+        <view class="data-v-9b0746c2">
+            <view class="u-text-center u-padding-20 money data-v-9b0746c2">
+                <text class="data-v-9b0746c2">{{writeMoney}}</text>
+                <text class="u-font-20 u-padding-left-10 data-v-9b0746c2">元</text>
+                <view bindtap="__e" class="u-padding-10 close data-v-9b0746c2" data-event-opts="{{[ [ 'tap',[ [ 'showPop',[false] ] ] ] ]}}" data-flag="false">
+                    <u-icon bind:__l="__l" class="data-v-9b0746c2" color="#333333" name="close" size="28" vueId="{{'31f76cc0-2'+','+'31f76cc0-1'}}"></u-icon>
+                </view>
+            </view>
+            <view class="u-flex u-row-center data-v-9b0746c2">
+                <u-message-input bind:__l="__l" bind:input="__e" class="data-v-9b0746c2" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','password','$event',[] ] ] ] ] ]}}" disabledKeyboard="{{true}}" dotFill="{{true}}" maxlength="{{6}}" mode="box" value="{{password}}" vueId="{{'31f76cc0-3'+','+'31f76cc0-1'}}"></u-message-input>
+            </view>
+            <view class="u-text-center u-padding-top-10 u-padding-bottom-20 tips data-v-9b0746c2">支付键盘</view>
+        </view>
+    </u-keyboard>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="32" class="data-v-9b0746c2" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','setPassWord','$event',[] ] ] ] ] ]}}" mode="center" value="{{setPassWord}}" vueId="31f76cc0-4" vueSlots="{{['default']}}">
+        <view class="wenan data-v-9b0746c2">
+            <view class="text-style data-v-9b0746c2">您未设置支付密码，请先设置支付密码</view>
+            <button bindtap="__e" class="data-v-9b0746c2" data-event-opts="{{[ [ 'tap',[ [ 'goSet',['$event'] ] ] ] ]}}" style="height:70rpx;font-size:29rpx;" type="primary">去设置</button>
+        </view>
+    </u-popup>
+</view>

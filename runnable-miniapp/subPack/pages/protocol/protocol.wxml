@@ -1,0 +1,3 @@
+<view class="page-box data-v-6e843c86">
+    <u-parse bind:__l="__l" class="data-v-6e843c86 vue-ref" data-ref="protocol" html="{{content}}" lazyLoad="{{true}}" tagStyle="{{parseStyle}}" vueId="e93f8fd4-1" wx:if="{{content}}"></u-parse>
+</view>

@@ -1,0 +1,27 @@
+<view class="page-box data-v-7fbf3d40">
+    <view class="item-box data-v-7fbf3d40" wx:for="{{$root.l1}}" wx:key="index">
+        <view class="item-top data-v-7fbf3d40">
+            <image alt class="icon _img data-v-7fbf3d40" src="{{item.$orig.iconUrl}}"></image>{{''+item.$orig.base.name+''}}</view>
+        <view class="item-body data-v-7fbf3d40" wx:for="{{item.l0}}" wx:for-index="i" wx:for-item="it" wx:key="i">
+            <view bindtap="__e" class="item-body-l data-v-7fbf3d40" data-event-opts="{{[ [ 'tap',[ [ 'toDetail',['$0'],[ [ ['listData','',index],['scenicSpotMapTagVOList','',i] ] ] ] ] ] ]}}">
+                <image class="spot-img data-v-7fbf3d40" mode="aspectFill" src="{{it.g1[0]}}" wx:if="{{it.g0}}"></image>
+                <image class="spot-img data-v-7fbf3d40" mode="aspectFill" src="{{it.$orig.picUrl}}" wx:if="{{it.g2}}"></image>
+                <view class="info-box data-v-7fbf3d40" style="{{'width:'+(it.$orig.picUrl?'250rpx':'450rpx')+';'}}">
+                    <view class="name multilineText2 data-v-7fbf3d40">{{''+it.$orig.base.name+''}}</view>
+                    <view class="dic data-v-7fbf3d40" wx:if="{{it.$orig.distance}}">
+                        <label class="_span data-v-7fbf3d40" wx:if="{{langType=='中文'}}">距您</label>{{it.$orig.distance+'km'}}</view>
+                </view>
+            </view>
+            <view class="item-body-r data-v-7fbf3d40">
+                <view bindtap="__e" class="icon-box data-v-7fbf3d40" data-event-opts="{{[ [ 'tap',[ [ 'jumpLocation',['$0'],[ [ ['listData','',index],['scenicSpotMapTagVOList','',i] ] ] ] ] ] ]}}">
+                    <image alt class="icon1 _img data-v-7fbf3d40" src="{{item.m0}}"></image>
+                    <view class="icon1-text data-v-7fbf3d40">{{''+(langType=='中文'?'去这里':'Go')+''}}</view>
+                </view>
+                <view bindtap="__e" class="icon-box data-v-7fbf3d40" data-event-opts="{{[ [ 'tap',[ [ 'toDetail',['$0'],[ [ ['listData','',index],['scenicSpotMapTagVOList','',i] ] ] ] ] ] ]}}">
+                    <image alt class="icon1 _img data-v-7fbf3d40" src="{{item.m1}}"></image>
+                    <view class="icon1-text data-v-7fbf3d40">{{''+(langType=='中文'?'讲解':'Interpreter')+''}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

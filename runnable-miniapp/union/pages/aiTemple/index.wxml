@@ -1,0 +1,47 @@
+<view class="{{['page-box','data-v-7fc23477',showHide?'page-box-image1':'page-box-image2']}}">
+    <view bindtap="__e" class="data-v-7fc23477" data-event-opts="{{[ [ 'tap',[ [ 'showFun',['$event'] ] ] ] ]}}" style="position:fixed;height:140rpx;width:100%;z-index:111;" wx:if="{{!showHide}}"></view>
+    <uni-navbar bind:__l="__l" class="data-v-7fc23477" type="transparentFixed" vueId="3a8df2d5-1"></uni-navbar>
+    <image class="video_box1 data-v-7fc23477" hidden="{{!showHide}}" mode="aspectFill" src="https://eshopfile.zhiyousx.com/176049930295641964.png"></image>
+    <image class="video_box1 data-v-7fc23477" hidden="{{!!showHide}}" mode="aspectFill" src="https://eshopfile.zhiyousx.com/176049935099597141.png"></image>
+    <z-paging bind:__l="__l" bind:hidedKeyboard="__e" bind:input="__e" bind:keyboardHeightChange="__e" bottomBgColor="{{resres>0?'#FFFFFF':'transparent'}}" class="data-v-7fc23477 vue-ref" data-event-opts="{{[ [ '^hidedKeyboard',[ ['hidedKeyboard'] ] ],[ '^keyboardHeightChange',[ ['keyboardHeightChange'] ] ],[ '^input',[ [ '__set_model',[ '','dataList','$event',[] ] ] ] ] ]}}" data-ref="paging" safeAreaInsetBottom="{{isIos}}" style="position:fixed;z-index:11;" toBottomLoadingMoreEnabled="{{true}}" useChatRecordMode="{{true}}" value="{{dataList}}" vueId="3a8df2d5-2" vueSlots="{{['default','top','bottom']}}">
+        <view slot="top">
+            <view bindtap="__e" class="data-v-7fc23477" data-event-opts="{{[ [ 'tap',[ [ 'showFun',['$event'] ] ] ] ]}}" style="height:300rpx;width:100%;" wx:if="{{!showHide}}"></view>
+            <view class="content-box data-v-7fc23477" wx:if="{{showHide}}">
+                <view class="greet-box data-v-7fc23477">
+                    <image class="data-v-7fc23477" src="https://eshopfile.zhiyousx.com/176050088167418353.png"></image>
+                    <text class="data-v-7fc23477">心有千惑，此有一应</text>
+                    <image class="data-v-7fc23477" src="https://eshopfile.zhiyousx.com/176050089724368608.png"></image>
+                </view>
+                <view class="default-box data-v-7fc23477" style="{{'height:'+(smallScreen?'400rpx':'')+';'+'overflow:'+(smallScreen?'auto':'')+';'}}">
+                    <view class="default-l data-v-7fc23477" style="{{'min-height:'+(smallScreen?'500rpx':'')+';'}}" wx:for="{{tripList}}" wx:for-index="__i0__" wx:for-item="m" wx:key="id">
+                        <view class="default-h data-v-7fc23477">
+                            <text class="default-text data-v-7fc23477" style="{{'color:'+m.titleColor+';'}}">{{m.title}}</text>
+                        </view>
+                        <view bindtap="__e" class="default-item data-v-7fc23477" data-event-opts="{{[ [ 'tap',[ [ 'goQuestion',['$0',1],[ [ ['tripList','id',m.id],['contentList','id',el.id,'content'] ] ] ] ] ] ]}}" style="{{'background-color:'+el.bgColor+';'}}" wx:for="{{m.contentList}}" wx:for-index="i" wx:for-item="el" wx:key="id">{{''+el.content+''}}</view>
+                    </view>
+                    <view class="default-r data-v-7fc23477">
+                        <view class="default-t data-v-7fc23477" wx:for="{{scenicSpotList}}" wx:for-index="__i1__" wx:for-item="m" wx:key="id">
+                            <view class="default-h data-v-7fc23477">
+                                <text class="default-text data-v-7fc23477" style="{{'color:'+m.titleColor+';'}}">{{m.title}}</text>
+                            </view>
+                            <view bindtap="__e" class="default-item data-v-7fc23477" data-event-opts="{{[ [ 'tap',[ [ 'goQuestion',['$0',2],[ [ ['scenicSpotList','id',m.id],['contentList','id',el.id,'content'] ] ] ] ] ] ]}}" style="{{'background-color:'+el.bgColor+';'}}" wx:for="{{m.contentList}}" wx:for-index="i" wx:for-item="el" wx:key="id">{{''+el.content+''}}</view>
+                        </view>
+                        <view class="default-b data-v-7fc23477" wx:for="{{deliciousFoodList}}" wx:for-index="__i2__" wx:for-item="m" wx:key="id">
+                            <view class="default-h data-v-7fc23477">
+                                <text class="default-text data-v-7fc23477" style="{{'color:'+m.titleColor+';'}}">{{m.title}}</text>
+                            </view>
+                            <view bindtap="__e" class="default-item data-v-7fc23477" data-event-opts="{{[ [ 'tap',[ [ 'goQuestion',['$0',3],[ [ ['deliciousFoodList','id',m.id],['contentList','id',el.id,'content'] ] ] ] ] ] ]}}" style="{{'background-color:'+el.bgColor+';'}}" wx:for="{{m.contentList}}" wx:for-index="i" wx:for-item="el" wx:key="id">{{''+el.content+''}}</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <chat-input-bar bg="{{true}}" bind:__l="__l" bind:clearData="__e" bind:clearDataStop="__e" bind:send="__e" bind:setShowHide="__e" bind:stopSpeak="__e" class="data-v-7fc23477 vue-ref" data-event-opts="{{[ [ '^stopSpeak',[ ['stopSpeak'] ] ],[ '^setShowHide',[ ['setShowHide'] ] ],[ '^clearData',[ ['clearData'] ] ],[ '^clearDataStop',[ ['clearDataStop'] ] ],[ '^send',[ ['doSend'] ] ] ]}}" data-ref="inputBar" delayBtn="{{delayBtn}}" isIos="{{isIos}}" pushingProgress="{{pushingProgress}}" pushingProgressShow="{{pushingProgressShow}}" showHide="{{showHide}}" slot="bottom" vueId="{{'3a8df2d5-3'+','+'3a8df2d5-2'}}"></chat-input-bar>
+        <view class="data-v-7fc23477" style="width:100%;height:60rpx;" wx:if="{{!showHide}}"></view>
+        <view class="data-v-7fc23477" style="position:relative;" wx:if="{{!showHide}}" wx:for="{{dataList}}" wx:key="index">
+            <view class="data-v-7fc23477" style="transform:scaleY(-1);">
+                <chat-item bind:__l="__l" bind:askAgain="__e" bind:exclusive="__e" bind:explain="__e" bind:stopSpeak="__e" class="data-v-7fc23477" data-event-opts="{{[ [ '^askAgain',[ ['askAgain'] ] ],[ '^exclusive',[ ['exclusive'] ] ],[ '^explain',[ ['openAudio'] ] ],[ '^stopSpeak',[ ['stopSpeak'] ] ] ]}}" dataList="{{dataList}}" item="{{item}}" newVal="{{newVal}}" pushingProgress="{{pushingProgress}}" vueId="{{'3a8df2d5-4-'+index+','+'3a8df2d5-2'}}"></chat-item>
+            </view>
+        </view>
+    </z-paging>
+</view>

@@ -1,0 +1,119 @@
+<view class="page-box data-v-4b836498" wx:if="{{showCardInfo.name}}">
+    <view class="head-box data-v-4b836498">
+        <scroll-view class="tab-box data-v-4b836498" scrollLeft="{{scrollToLeft}}" scrollWithAnimation="true" scrollX="{{true}}" throttle="{{false}}">
+            <view class="scroll-box data-v-4b836498">
+                <view bindtap="__e" class="{{['item','data-v-4b836498',index==currentTab?'act':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'tabClick',[index] ] ] ] ]}}" id="{{'tab'+index}}" wx:for="{{equityCardList}}" wx:key="index">{{''+item.name+''}}<image mode class="active-img data-v-4b836498" src="https://eshopfile.zhiyousx.com/2022122010132798008.png" wx:if="{{index==currentTab}}"></image>
+                </view>
+            </view>
+        </scroll-view>
+    </view>
+    <view class="card-box data-v-4b836498" style="{{'background:'+'linear-gradient(180deg,'+(showCardInfo.backgroundColor1||'#e7d6b4')+'4D 0%, #FAFAFA 100%)'+';'}}">
+        <view class="title-box data-v-4b836498">
+            <view class="name data-v-4b836498">{{''+showCardInfo.name+''}}</view>
+            <view class="sub-name data-v-4b836498">{{''+showCardInfo.subtitle+''}}</view>
+        </view>
+        <view class="card-content data-v-4b836498">
+            <view class="{{['content','data-v-4b836498',!savePop?'cardR':'']}}">
+                <image mode class="data-v-4b836498" src="{{showCardInfo.image}}"></image>
+            </view>
+        </view>
+        <view bindtap="__e" class="bot-box data-v-4b836498" data-event-opts="{{[ [ 'tap',[ [ 'showPop',['$event'] ] ] ] ]}}">
+            <view class="l-b data-v-4b836498">
+                <view class="lb1 data-v-4b836498">预计可省</view>
+                <view class="lb2 data-v-4b836498">{{'￥'+showCardInfo.discounts+''}}</view>
+            </view>
+            <view class="r data-v-4b836498">
+                <u-icon bind:__l="__l" class="data-v-4b836498" color="#777777" name="arrow-right" size="28" vueId="7007b680-1"></u-icon>
+            </view>
+        </view>
+    </view>
+    <view class="equity-box data-v-4b836498">
+        <view class="tbox data-v-4b836498">
+            <image mode class="icon data-v-4b836498" src="https://eshopfile.zhiyousx.com/2022122014544389817.png"></image>
+            <view class="t data-v-4b836498">甄选权益</view>
+            <image mode class="icon i2 data-v-4b836498" src="https://eshopfile.zhiyousx.com/2022122014544389817.png"></image>
+        </view>
+        <view class="bbox data-v-4b836498">
+            <view bindtap="__e" class="item data-v-4b836498" data-event-opts="{{[ [ 'tap',[ [ 'toEqdetail',['$0'],[ [ ['showCardInfo.detailList','',index] ] ] ] ] ] ]}}" wx:for="{{showCardInfo.detailList}}" wx:key="index">
+                <view class="item-l data-v-4b836498">
+                    <image class="data-v-4b836498" mode="aspectFill" src="{{item.equityImage}}"></image>
+                    <view class="item-l-tip data-v-4b836498">{{'共'+item.equityNum+'份'}}</view>
+                </view>
+                <view class="item-r data-v-4b836498">
+                    <view class="t1 multilineText2 data-v-4b836498">{{''+item.equityName+''}}</view>
+                    <view class="t2 singleLineText data-v-4b836498">{{''+item.equityDesc+''}}</view>
+                    <view class="pt data-v-4b836498">
+                        <view class="p text-line data-v-4b836498">{{'￥'+item.price+''}}</view>
+                        <view class="tag data-v-4b836498">购卡立享</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="card-info data-v-4b836498">
+        <view bindtap="__e" class="c-it ct1 data-v-4b836498" data-event-opts="{{[ [ 'tap',[ [ 'toAgreenment',['$0'],['showCardInfo.equityCardId'] ] ] ] ]}}">
+            <view class="t data-v-4b836498">购买须知</view>
+            <image mode class="data-v-4b836498" src="https://eshopfile.zhiyousx.com/2022122015483147026.png"></image>
+        </view>
+        <view bindtap="__e" class="c-it ct2 data-v-4b836498" data-event-opts="{{[ [ 'tap',[ [ 'myEquityCard',['$event'] ] ] ] ]}}">
+            <view class="t data-v-4b836498">我的卡包</view>
+            <image mode class="data-v-4b836498" src="https://eshopfile.zhiyousx.com/2022122015481627503.png"></image>
+        </view>
+    </view>
+    <view class="countDown data-v-4b836498" wx:if="{{showTimeCount}}">距结束<text class="data-v-4b836498">{{days+'天 '+$root.f0+':'+$root.f1+':'+$root.f2}}</text>
+    </view>
+    <view class="foot-box data-v-4b836498">
+        <view class="fb1 data-v-4b836498">
+            <text class="fbl1 data-v-4b836498">限时售价:</text>
+            <text class="fbl2 data-v-4b836498">{{'￥'+showCardInfo.price}}</text>
+            <text class="fbl3 data-v-4b836498">/ 张</text>
+        </view>
+        <view class="fbr data-v-4b836498">
+            <view bindtap="__e" class="fbr1 data-v-4b836498" data-event-opts="{{[ [ 'tap',[ [ 'toExchange',['$event'] ] ] ] ]}}">兑换码兑换</view>
+            <view bindtap="__e" class="{{['fbr2','data-v-4b836498',timeOut||showCardInfo.buyLimit!=0&&showCardInfo.memberBuyNum>=showCardInfo.buyLimit?'timeEnd':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'toBuy',['$0'],['showCardInfo.equityCardId'] ] ] ] ]}}" wx:if="{{showCardInfo.buyAbleNum>0}}">
+                <block wx:if="{{timeOut}}">已结束</block>
+                <block wx:else>{{''+(showCardInfo.buyLimit!=0&&showCardInfo.memberBuyNum>=showCardInfo.buyLimit?'每人限购'+showCardInfo.memberBuyNum+'张':'立即购买')+''}}</block>
+            </view>
+            <view class="fbr2 timeEnd data-v-4b836498" wx:else>已售空</view>
+        </view>
+    </view>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-4b836498" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','savePop','$event',[] ] ] ] ] ]}}" mode="center" value="{{savePop}}" vueId="7007b680-2" vueSlots="{{['default']}}">
+        <view class="save-box data-v-4b836498">
+            <view bindtap="__e" class="btn-close data-v-4b836498" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}"></view>
+            <image mode bindtap="__e" class="close-btn data-v-4b836498" data-event-opts="{{[ [ 'tap',[ [ 'e1',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/2022122109502468658.png"></image>
+            <view class="top-bg data-v-4b836498">
+                <view class="tb1 data-v-4b836498">{{'购买1张'+showCardInfo.name}}<text class="data-v-4b836498">预计可省</text>
+                </view>
+                <view class="tb2 data-v-4b836498">￥<text class="data-v-4b836498">{{showCardInfo.discounts}}</text>
+                </view>
+            </view>
+            <view class="save-body data-v-4b836498">
+                <view class="at data-v-4b836498">
+                    <view class="line data-v-4b836498"></view>
+                    <text class="data-v-4b836498">{{showCardInfo.name+'省钱计算器'}}</text>
+                    <view class="line data-v-4b836498"></view>
+                </view>
+                <view class="as data-v-4b836498">权益价值为该产品商家窗口门市价</view>
+                <scroll-view class="coupon-box-b data-v-4b836498" scrollY="{{true}}" style="{{'height:'+(dll>2?'320rpx':dll*120+'rpx')+';'}}">
+                    <view class="coupon-box data-v-4b836498">
+                        <view class="cbt data-v-4b836498" wx:for="{{showCardInfo.detailList}}" wx:for-index="i" wx:for-item="it" wx:key="i">
+                            <view class="badge allcenter data-v-4b836498">{{'共'+it.equityNum+'份'}}</view>
+                            <view class="cbt-l singleLineText data-v-4b836498">{{''+it.saveDesc+''}}</view>
+                            <view class="cbt-r data-v-4b836498">{{'￥'+it.price+''}}</view>
+                        </view>
+                    </view>
+                </scroll-view>
+                <view class="could data-v-4b836498"></view>
+            </view>
+            <view class="price-tips data-v-4b836498">
+                <view class="pt1 data-v-4b836498">权益总价值：</view>
+                <view class="pt2 data-v-4b836498">{{'￥'+showCardInfo.detailDiscounts+''}}</view>
+            </view>
+            <view bindtap="__e" class="{{['bottom-btn','data-v-4b836498',timeOut||showCardInfo.buyLimit!=0&&showCardInfo.memberBuyNum>=showCardInfo.buyLimit?'timeEnd':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'toBuy',['$0'],['showCardInfo.equityCardId'] ] ] ] ]}}" wx:if="{{showCardInfo.buyAbleNum>0}}">
+                <block wx:if="{{timeOut}}">已结束</block>
+                <block wx:else>{{''+(showCardInfo.buyLimit!=0&&showCardInfo.memberBuyNum>=showCardInfo.buyLimit?'每人限购'+showCardInfo.memberBuyNum+'张':'立即购买')+''}}</block>
+            </view>
+            <view class="bottom-btn timeEnd data-v-4b836498" wx:else>已售空</view>
+        </view>
+    </u-popup>
+</view>

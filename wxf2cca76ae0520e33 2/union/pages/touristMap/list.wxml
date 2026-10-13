@@ -1,0 +1,25 @@
+<view class="u-wrap page-box data-v-82dc4a9c">
+    <uni-navbar bind:__l="__l" class="data-v-82dc4a9c" title="选择地图" titleCenter="{{false}}" transparentFixedFontColor="{{titleColor}}" type="transparentFixed" vueId="35efcda8-1"></uni-navbar>
+    <view class="CustomBarBg data-v-82dc4a9c" style="{{'height:'+CustomBar+'px'+';'}}">
+        <view class="data-v-82dc4a9c"></view>
+    </view>
+    <view class="map-pop data-v-82dc4a9c">
+        <view class="mp-top data-v-82dc4a9c" style="{{'height:'+CustomBar+'px'+';'}}"></view>
+        <view class="map-content data-v-82dc4a9c" wx:if="{{$root.g0>0}}">
+            <black bind:__l="__l" class="data-v-82dc4a9c" vueId="{{'35efcda8-2-'+__i0__}}" vueSlots="{{['default']}}" wx:for="{{mapList}}" wx:for-index="__i0__" wx:key="id">
+                <view class="title-b data-v-82dc4a9c">
+                    <view class="title data-v-82dc4a9c">{{''+item.name+''}}</view>
+                </view>
+                <view class="scoll-map-box data-v-82dc4a9c">
+                    <view bindtap="__e" class="item data-v-82dc4a9c" data-event-opts="{{[ [ 'tap',[ [ 'jumpToMap',['$0'],[ [ ['mapList','id',item.id],['travelMapList','id',it.id] ] ] ] ] ] ]}}" wx:for="{{item.travelMapList}}" wx:for-index="__i1__" wx:for-item="it" wx:key="id">
+                        <image class="data-v-82dc4a9c" mode="aspectFill" src="{{it.coverImg+'?imageView2/2/w/216/'}}"></image>
+                        <view class="name multilineText2 data-v-82dc4a9c">{{it.name}}</view>
+                    </view>
+                </view>
+            </black>
+        </view>
+        <view class="empty-box allcenter data-v-82dc4a9c" wx:else>
+            <image mode class="data-v-82dc4a9c" src="https://eshopfile.zhiyousx.com/2024061417153003821.png"></image>
+        </view>
+    </view>
+</view>

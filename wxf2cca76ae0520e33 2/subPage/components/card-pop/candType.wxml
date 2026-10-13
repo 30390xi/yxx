@@ -1,0 +1,14 @@
+<view class="data-v-2a2d465a">
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-2a2d465a" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showCertificate','$event',[] ] ] ] ] ]}}" mode="bottom" value="{{showCertificate}}" vueId="6a70bf70-1" vueSlots="{{['default']}}">
+        <view class="certificate data-v-2a2d465a">
+            <view class="name data-v-2a2d465a">选择证件类型</view>
+            <view class="certificate-box data-v-2a2d465a">
+                <view bindtap="__e" class="{{['certificate-item','data-v-2a2d465a',!item.g0?'dis':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'chooseCardType',['$0'],[ [ ['realCardTypeList','',index] ] ] ] ] ] ]}}" wx:for="{{$root.l0}}" wx:key="index">
+                    <view class="t data-v-2a2d465a">{{''+item.f0+''}}</view>
+                    <image mode class="icon data-v-2a2d465a" src="https://eshopfile.zhiyousx.com/2025030311392797413.png" wx:if="{{realCardType==item.$orig}}"></image>
+                    <image mode class="icon data-v-2a2d465a" src="https://eshopfile.zhiyousx.com/2025030311393487281.png" wx:else></image>
+                </view>
+            </view>
+        </view>
+    </u-popup>
+</view>

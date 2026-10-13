@@ -1,0 +1,445 @@
+<view class="u-wrap data-v-19ae887a">
+    <uni-navbar bind:__l="__l" class="data-v-19ae887a" id="navBar" title="详细信息" vueId="04c6b354-1"></uni-navbar>
+    <view class="tab-box data-v-19ae887a" id="nav">
+        <view bindtap="__e" class="title-box data-v-19ae887a" data-event-opts="{{[ [ 'tap',[ [ 'loc',['ssfw'] ] ] ] ]}}" wx:if="{{hasSsfw}}">
+            <view class="left data-v-19ae887a">
+                <view class="{{['name','data-v-19ae887a',locations=='ssfw'?'active':'']}}">{{detailObj.facilitiesServicesTitle||'设施服务'}}</view>
+                <view class="line data-v-19ae887a" wx:if="{{locations=='ssfw'}}"></view>
+            </view>
+        </view>
+        <view bindtap="__e" class="title-box data-v-19ae887a" data-event-opts="{{[ [ 'tap',[ [ 'loc',['tstj'] ] ] ] ]}}" wx:if="{{hasTstj}}">
+            <view class="left data-v-19ae887a">
+                <view class="{{['name','data-v-19ae887a',locations=='tstj'?'active':'']}}">{{detailObj.hotelPolicyTitle||'入住政策'}}</view>
+                <view class="line data-v-19ae887a" wx:if="{{locations=='tstj'}}"></view>
+            </view>
+        </view>
+        <view bindtap="__e" class="title-box data-v-19ae887a" data-event-opts="{{[ [ 'tap',[ [ 'loc',['ywxz'] ] ] ] ]}}" wx:if="{{hasTraffic}}">
+            <view class="left data-v-19ae887a">
+                <view class="{{['name','data-v-19ae887a',locations=='ywxz'?'active':'']}}">{{detailObj.trafficGuideTitle||'交通指南'}}</view>
+                <view class="line data-v-19ae887a" wx:if="{{locations=='ywxz'}}"></view>
+            </view>
+        </view>
+    </view>
+    <scroll-view bindscroll="__e" class="scroll-box data-v-19ae887a" data-event-opts="{{[ [ 'scroll',[ [ 'onScrolling',['$event'] ] ] ] ]}}" scrollIntoView="{{boxId}}" scrollWithAnimation="{{true}}" scrollY="true" style="{{'height:'+winHeight-navBarH-windowWidth/750*150+'px'+';'}}" wx:if="{{showScroll}}">
+        <view class="bg data-v-19ae887a">
+            <view class="tq-box data-v-19ae887a" id="ssfw">
+                <view bindtap="__e" class="{{['item','data-v-19ae887a',activeDay==item.$orig.timeType?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeActiveDay',['$0'],[ [ ['weatherObj','',__i0__,'timeType'] ] ] ] ] ] ]}}" wx:for="{{$root.l0}}" wx:for-index="__i0__">
+                    <view class="t data-v-19ae887a">
+                        <view class="data-v-19ae887a">{{item.m0}}</view>
+                    </view>
+                    <view class="b data-v-19ae887a">{{item.$orig.weather+' | '+item.$orig.nightAirTemperature+'/'+item.$orig.dayAirTemperature+'℃'}}</view>
+                </view>
+            </view>
+            <view class="row row1 data-v-19ae887a" wx:if="{{detailObj.noticeMsg}}">
+                <view class="title-box data-v-19ae887a">重要通知</view>
+                <view class="content-box data-v-19ae887a">
+                    <u-parse bind:__l="__l" bind:imgtap="__e" class="data-v-19ae887a vue-ref" data-event-opts="{{[ [ '^imgtap',[ ['priviewImg'] ] ] ]}}" data-ref="noticeMsg" html="{{detailObj.noticeMsg}}" lazyLoad="{{true}}" style="text-indent:0;word-break:break-all;white-space:pre-wrap;" tagStyle="{{parseStyle}}" vueId="04c6b354-2"></u-parse>
+                </view>
+            </view>
+            <view class="row row3 data-v-19ae887a" style="{{hasSsfw?'':'height:2rpx;visibility: hidden,margin-bottom:0;'}}">
+                <view class="title-box data-v-19ae887a" wx:if="{{hasSsfw}}">{{detailObj.facilitiesServicesTitle||'设施服务'}}</view>
+                <view class="content-box data-v-19ae887a" wx:if="{{detailObj.hotelFacilitiesServicesSysTagVo.parkingTagList&&detailObj.hotelFacilitiesServicesSysTagVo.parkingTagList[0]||detailObj.hotelAdditionalExplainVo.parkingAdditionalExplainVoList&&detailObj.hotelAdditionalExplainVo.parkingAdditionalExplainVoList[0]}}">
+                    <view class="content-title-box data-v-19ae887a">
+                        <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082510313514843.png"></image>停车场</view>
+                    <view class="icon-box data-v-19ae887a">
+                        <view class="item data-v-19ae887a" wx:for="{{detailObj.hotelFacilitiesServicesSysTagVo.parkingTagList}}" wx:for-index="__i1__">
+                            <image mode class="data-v-19ae887a" src="{{item.tagUrl}}"></image>
+                            <view class="name data-v-19ae887a">{{item.name}}</view>
+                        </view>
+                    </view>
+                    <view class="dic data-v-19ae887a"></view>
+                    <view class="table data-v-19ae887a" wx:for="{{$root.l2}}" wx:for-index="__i2__">
+                        <view class="tr first data-v-19ae887a">
+                            <view class="td data-v-19ae887a" style="font-weight:bold;">{{item.$orig.additionalExplainTitle||''}}</view>
+                        </view>
+                        <view class="tr data-v-19ae887a">
+                            <view class="td data-v-19ae887a">
+                                <text class="data-v-19ae887a" wx:for="{{item.l1}}" wx:for-index="__i3__" wx:for-item="text">{{text}}</text>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+                <view class="content-box data-v-19ae887a" wx:if="{{detailObj.hotelFacilitiesServicesSysTagVo.trafficTagList&&detailObj.hotelFacilitiesServicesSysTagVo.trafficTagList[0]||detailObj.hotelAdditionalExplainVo.trafficAdditionalExplainVoList&&detailObj.hotelAdditionalExplainVo.trafficAdditionalExplainVoList[0]}}">
+                    <view class="content-title-box data-v-19ae887a">
+                        <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082316535478170.png"></image>交通服务</view>
+                    <view class="icon-box data-v-19ae887a">
+                        <view class="item data-v-19ae887a" wx:for="{{detailObj.hotelFacilitiesServicesSysTagVo.trafficTagList}}" wx:for-index="__i4__">
+                            <image mode class="data-v-19ae887a" src="{{item.tagUrl}}"></image>
+                            <view class="name data-v-19ae887a">{{item.name}}</view>
+                        </view>
+                    </view>
+                    <view class="dic data-v-19ae887a"></view>
+                    <view class="table data-v-19ae887a" wx:for="{{$root.l4}}" wx:for-index="__i5__">
+                        <view class="tr first data-v-19ae887a">
+                            <view class="td data-v-19ae887a" style="font-weight:bold;">{{item.$orig.additionalExplainTitle||''}}</view>
+                        </view>
+                        <view class="tr data-v-19ae887a">
+                            <view class="td data-v-19ae887a">
+                                <text class="data-v-19ae887a" wx:for="{{item.l3}}" wx:for-index="__i6__" wx:for-item="text">{{text}}</text>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+                <view class="content-box data-v-19ae887a" wx:if="{{detailObj.hotelFacilitiesServicesSysTagVo.recreationFacilitiesTagList&&detailObj.hotelFacilitiesServicesSysTagVo.recreationFacilitiesTagList[0]||detailObj.hotelAdditionalExplainVo.recreationFacilitiesAdditionalExplainVoList&&detailObj.hotelAdditionalExplainVo.recreationFacilitiesAdditionalExplainVoList[0]}}">
+                    <view class="content-title-box data-v-19ae887a">
+                        <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082316553191179.png"></image>玩乐活动设施</view>
+                    <view class="icon-box data-v-19ae887a">
+                        <view class="item data-v-19ae887a" wx:for="{{detailObj.hotelFacilitiesServicesSysTagVo.recreationFacilitiesTagList}}" wx:for-index="__i7__">
+                            <image mode class="data-v-19ae887a" src="{{item.tagUrl}}"></image>
+                            <view class="name data-v-19ae887a">{{item.name}}</view>
+                        </view>
+                    </view>
+                    <view class="dic data-v-19ae887a"></view>
+                    <view class="table data-v-19ae887a" wx:for="{{$root.l6}}" wx:for-index="__i8__">
+                        <view class="tr first data-v-19ae887a">
+                            <view class="td data-v-19ae887a" style="font-weight:bold;">{{item.$orig.additionalExplainTitle||''}}</view>
+                        </view>
+                        <view class="tr data-v-19ae887a">
+                            <view class="td data-v-19ae887a">
+                                <text class="data-v-19ae887a" wx:for="{{item.l5}}" wx:for-index="__i9__" wx:for-item="text">{{text}}</text>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+                <view class="content-box data-v-19ae887a" wx:if="{{detailObj.hotelFacilitiesServicesSysTagVo.restaurantTagList&&detailObj.hotelFacilitiesServicesSysTagVo.restaurantTagList[0]||detailObj.hotelAdditionalExplainVo.trafficAdditionalExplainVoList&&detailObj.hotelAdditionalExplainVo.restaurantAdditionalExplainVoList[0]}}">
+                    <view class="content-title-box data-v-19ae887a">
+                        <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082317011321205.png"></image>餐饮服务</view>
+                    <view class="icon-box data-v-19ae887a">
+                        <view class="item data-v-19ae887a" wx:for="{{detailObj.hotelFacilitiesServicesSysTagVo.restaurantTagList}}" wx:for-index="__i10__">
+                            <image mode class="data-v-19ae887a" src="{{item.tagUrl}}"></image>
+                            <view class="name data-v-19ae887a">{{item.name}}</view>
+                        </view>
+                    </view>
+                    <view class="dic data-v-19ae887a"></view>
+                    <view class="table data-v-19ae887a" wx:for="{{$root.l8}}" wx:for-index="__i11__">
+                        <view class="tr first data-v-19ae887a">
+                            <view class="td data-v-19ae887a" style="font-weight:bold;">{{item.$orig.additionalExplainTitle||''}}</view>
+                        </view>
+                        <view class="tr data-v-19ae887a">
+                            <view class="td data-v-19ae887a">
+                                <text class="data-v-19ae887a" wx:for="{{item.l7}}" wx:for-index="__i12__" wx:for-item="text">{{text}}</text>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+                <view class="content-box data-v-19ae887a" wx:if="{{detailObj.hotelFacilitiesServicesSysTagVo.childrenTagList&&detailObj.hotelFacilitiesServicesSysTagVo.childrenTagList[0]||detailObj.hotelAdditionalExplainVo.childrenAdditionalExplainVoList&&detailObj.hotelAdditionalExplainVo.childrenAdditionalExplainVoList[0]}}">
+                    <view class="content-title-box data-v-19ae887a">
+                        <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082317013169808.png"></image>儿童设施</view>
+                    <view class="icon-box data-v-19ae887a">
+                        <view class="item data-v-19ae887a" wx:for="{{detailObj.hotelFacilitiesServicesSysTagVo.childrenTagList}}" wx:for-index="__i13__">
+                            <image mode class="data-v-19ae887a" src="{{item.tagUrl}}"></image>
+                            <view class="name data-v-19ae887a">{{item.name}}</view>
+                        </view>
+                    </view>
+                    <view class="dic data-v-19ae887a"></view>
+                    <view class="table data-v-19ae887a" wx:for="{{$root.l10}}" wx:for-index="__i14__">
+                        <view class="tr first data-v-19ae887a">
+                            <view class="td data-v-19ae887a" style="font-weight:bold;">{{item.$orig.additionalExplainTitle||''}}</view>
+                        </view>
+                        <view class="tr data-v-19ae887a">
+                            <view class="td data-v-19ae887a">
+                                <text class="data-v-19ae887a" wx:for="{{item.l9}}" wx:for-index="__i15__" wx:for-item="text">{{text}}</text>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+                <view class="content-box data-v-19ae887a" wx:if="{{detailObj.hotelFacilitiesServicesSysTagVo.massageTagList&&detailObj.hotelFacilitiesServicesSysTagVo.massageTagList[0]||detailObj.hotelAdditionalExplainVo.massageAdditionalExplainVoList&&detailObj.hotelAdditionalExplainVo.massageAdditionalExplainVoList[0]}}">
+                    <view class="content-title-box data-v-19ae887a">
+                        <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082317021511027.png"></image>康体设施</view>
+                    <view class="icon-box data-v-19ae887a">
+                        <view class="item data-v-19ae887a" wx:for="{{detailObj.hotelFacilitiesServicesSysTagVo.massageTagList}}" wx:for-index="__i16__">
+                            <image mode class="data-v-19ae887a" src="{{item.tagUrl}}"></image>
+                            <view class="name data-v-19ae887a">{{item.name}}</view>
+                        </view>
+                    </view>
+                    <view class="dic data-v-19ae887a"></view>
+                    <view class="table data-v-19ae887a" wx:for="{{$root.l12}}" wx:for-index="__i17__">
+                        <view class="tr first data-v-19ae887a">
+                            <view class="td data-v-19ae887a" style="font-weight:bold;">{{item.$orig.additionalExplainTitle||''}}</view>
+                        </view>
+                        <view class="tr data-v-19ae887a">
+                            <view class="td data-v-19ae887a">
+                                <text class="data-v-19ae887a" wx:for="{{item.l11}}" wx:for-index="__i18__" wx:for-item="text">{{text}}</text>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+                <view class="content-box data-v-19ae887a" wx:if="{{detailObj.hotelFacilitiesServicesSysTagVo.receptionTagList&&detailObj.hotelFacilitiesServicesSysTagVo.receptionTagList[0]||detailObj.hotelAdditionalExplainVo.receptionAdditionalExplainVoList&&detailObj.hotelAdditionalExplainVo.receptionAdditionalExplainVoList[0]}}">
+                    <view class="content-title-box data-v-19ae887a">
+                        <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082317022947309.png"></image>前台服务</view>
+                    <view class="icon-box data-v-19ae887a">
+                        <view class="item data-v-19ae887a" wx:for="{{detailObj.hotelFacilitiesServicesSysTagVo.receptionTagList}}" wx:for-index="__i19__">
+                            <image mode class="data-v-19ae887a" src="{{item.tagUrl}}"></image>
+                            <view class="name data-v-19ae887a">{{item.name}}</view>
+                        </view>
+                    </view>
+                    <view class="dic data-v-19ae887a"></view>
+                    <view class="table data-v-19ae887a" wx:for="{{$root.l14}}" wx:for-index="__i20__">
+                        <view class="tr first data-v-19ae887a">
+                            <view class="td data-v-19ae887a" style="font-weight:bold;">{{item.$orig.additionalExplainTitle||''}}</view>
+                        </view>
+                        <view class="tr data-v-19ae887a">
+                            <view class="td data-v-19ae887a">
+                                <text class="data-v-19ae887a" wx:for="{{item.l13}}" wx:for-index="__i21__" wx:for-item="text">{{text}}</text>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+                <view class="content-box data-v-19ae887a" wx:if="{{detailObj.hotelFacilitiesServicesSysTagVo.cleanTagList&&detailObj.hotelFacilitiesServicesSysTagVo.cleanTagList[0]||detailObj.hotelAdditionalExplainVo.cleanAdditionalExplainVoList&&detailObj.hotelAdditionalExplainVo.cleanAdditionalExplainVoList[0]}}">
+                    <view class="content-title-box data-v-19ae887a">
+                        <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082510322805349.png"></image>清洁服务</view>
+                    <view class="icon-box data-v-19ae887a">
+                        <view class="item data-v-19ae887a" wx:for="{{detailObj.hotelFacilitiesServicesSysTagVo.cleanTagList}}" wx:for-index="__i22__">
+                            <image mode class="data-v-19ae887a" src="{{item.tagUrl}}"></image>
+                            <view class="name data-v-19ae887a">{{item.name}}</view>
+                        </view>
+                    </view>
+                    <view class="dic data-v-19ae887a"></view>
+                    <view class="table data-v-19ae887a" wx:for="{{$root.l16}}" wx:for-index="__i23__">
+                        <view class="tr first data-v-19ae887a">
+                            <view class="td data-v-19ae887a" style="font-weight:bold;">{{item.$orig.additionalExplainTitle||''}}</view>
+                        </view>
+                        <view class="tr data-v-19ae887a">
+                            <view class="td data-v-19ae887a">
+                                <text class="data-v-19ae887a" wx:for="{{item.l15}}" wx:for-index="__i24__" wx:for-item="text">{{text}}</text>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+                <view class="content-box data-v-19ae887a" wx:if="{{detailObj.hotelFacilitiesServicesSysTagVo.businessTagList&&detailObj.hotelFacilitiesServicesSysTagVo.businessTagList[0]||detailObj.hotelAdditionalExplainVo.businessAdditionalExplainVoList&&detailObj.hotelAdditionalExplainVo.businessAdditionalExplainVoList[0]}}">
+                    <view class="content-title-box data-v-19ae887a">
+                        <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082510334039578.png"></image>商务服务</view>
+                    <view class="icon-box data-v-19ae887a">
+                        <view class="item data-v-19ae887a" wx:for="{{detailObj.hotelFacilitiesServicesSysTagVo.businessTagList}}" wx:for-index="__i25__">
+                            <image mode class="data-v-19ae887a" src="{{item.tagUrl}}"></image>
+                            <view class="name data-v-19ae887a">{{item.name}}</view>
+                        </view>
+                    </view>
+                    <view class="dic data-v-19ae887a"></view>
+                    <view class="table data-v-19ae887a" wx:for="{{$root.l18}}" wx:for-index="__i26__">
+                        <view class="tr first data-v-19ae887a">
+                            <view class="td data-v-19ae887a" style="font-weight:bold;">{{item.$orig.additionalExplainTitle||''}}</view>
+                        </view>
+                        <view class="tr data-v-19ae887a">
+                            <view class="td data-v-19ae887a">
+                                <text class="data-v-19ae887a" wx:for="{{item.l17}}" wx:for-index="__i27__" wx:for-item="text">{{text}}</text>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+                <view class="content-box data-v-19ae887a" wx:if="{{detailObj.hotelFacilitiesServicesSysTagVo.publicAreaTagList&&detailObj.hotelFacilitiesServicesSysTagVo.publicAreaTagList[0]||detailObj.hotelAdditionalExplainVo.publicAreaAdditionalExplainVoList&&detailObj.hotelAdditionalExplainVo.publicAreaAdditionalExplainVoList[0]}}">
+                    <view class="content-title-box data-v-19ae887a">
+                        <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082317032159442.png"></image>公共区</view>
+                    <view class="icon-box data-v-19ae887a">
+                        <view class="item data-v-19ae887a" wx:for="{{detailObj.hotelFacilitiesServicesSysTagVo.publicAreaTagList}}" wx:for-index="__i28__">
+                            <image mode class="data-v-19ae887a" src="{{item.tagUrl}}"></image>
+                            <view class="name data-v-19ae887a">{{item.name}}</view>
+                        </view>
+                    </view>
+                    <view class="dic data-v-19ae887a"></view>
+                    <view class="table data-v-19ae887a" wx:for="{{$root.l20}}" wx:for-index="__i29__">
+                        <view class="tr first data-v-19ae887a">
+                            <view class="td data-v-19ae887a" style="font-weight:bold;">{{item.$orig.additionalExplainTitle||''}}</view>
+                        </view>
+                        <view class="tr data-v-19ae887a">
+                            <view class="td data-v-19ae887a">
+                                <text class="data-v-19ae887a" wx:for="{{item.l19}}" wx:for-index="__i30__" wx:for-item="text">{{text}}</text>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+                <view class="content-box data-v-19ae887a" wx:if="{{detailObj.hotelFacilitiesServicesSysTagVo.freeBarrierTagList&&detailObj.hotelFacilitiesServicesSysTagVo.freeBarrierTagList[0]||detailObj.hotelAdditionalExplainVo.freeBarrierAdditionalExplainVoList&&detailObj.hotelAdditionalExplainVo.freeBarrierAdditionalExplainVoList[0]}}">
+                    <view class="content-title-box data-v-19ae887a">
+                        <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082317034072932.png"></image>无障碍设施服务</view>
+                    <view class="icon-box data-v-19ae887a">
+                        <view class="item data-v-19ae887a" wx:for="{{detailObj.hotelFacilitiesServicesSysTagVo.freeBarrierTagList}}" wx:for-index="__i31__">
+                            <image mode class="data-v-19ae887a" src="{{item.tagUrl}}"></image>
+                            <view class="name data-v-19ae887a">{{item.name}}</view>
+                        </view>
+                    </view>
+                    <view class="dic data-v-19ae887a"></view>
+                    <view class="table data-v-19ae887a" wx:for="{{$root.l22}}" wx:for-index="__i32__">
+                        <view class="tr first data-v-19ae887a">
+                            <view class="td data-v-19ae887a" style="font-weight:bold;">{{item.$orig.additionalExplainTitle||''}}</view>
+                        </view>
+                        <view class="tr data-v-19ae887a">
+                            <view class="td data-v-19ae887a">
+                                <text class="data-v-19ae887a" wx:for="{{item.l21}}" wx:for-index="__i33__" wx:for-item="text">{{text}}</text>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+                <view class="content-box data-v-19ae887a" wx:if="{{detailObj.hotelFacilitiesServicesSysTagVo.securityTagList&&detailObj.hotelFacilitiesServicesSysTagVo.securityTagList[0]||detailObj.hotelAdditionalExplainVo.securityAdditionalExplainVoList&&detailObj.hotelAdditionalExplainVo.securityAdditionalExplainVoList[0]}}">
+                    <view class="content-title-box data-v-19ae887a">
+                        <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082317035311231.png"></image>安全措施</view>
+                    <view class="icon-box data-v-19ae887a">
+                        <view class="item data-v-19ae887a" wx:for="{{detailObj.hotelFacilitiesServicesSysTagVo.securityTagList}}" wx:for-index="__i34__">
+                            <image mode class="data-v-19ae887a" src="{{item.tagUrl}}"></image>
+                            <view class="name data-v-19ae887a">{{item.name}}</view>
+                        </view>
+                    </view>
+                    <view class="dic data-v-19ae887a"></view>
+                    <view class="table data-v-19ae887a" wx:for="{{$root.l24}}" wx:for-index="__i35__">
+                        <view class="tr first data-v-19ae887a">
+                            <view class="td data-v-19ae887a" style="font-weight:bold;">{{item.$orig.additionalExplainTitle||''}}</view>
+                        </view>
+                        <view class="tr data-v-19ae887a">
+                            <view class="td data-v-19ae887a">
+                                <text class="data-v-19ae887a" wx:for="{{item.l23}}" wx:for-index="__i36__" wx:for-item="text">{{text}}</text>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="row row4 data-v-19ae887a" id="tstj" style="{{hasTstj?'':'height:2rpx;visibility: hidden,margin-bottom:0;'}}">
+                <view class="title-box data-v-19ae887a" wx:if="{{hasTstj}}">{{detailObj.hotelPolicyTitle||'入住政策'}}</view>
+                <view class="content-box data-v-19ae887a" wx:if="{{hasTstj}}">
+                    <view class="item-list data-v-19ae887a">
+                        <view class="item data-v-19ae887a" wx:if="{{detailObj.hotelArrivalDepartureTime}}">
+                            <view class="l icon-r data-v-19ae887a">
+                                <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082317225024529.png"></image>
+                            </view>
+                            <view class="r data-v-19ae887a">
+                                <view class="t data-v-19ae887a">入离时间</view>
+                                <view class="b data-v-19ae887a">
+                                    <view class="data-v-19ae887a" wx:for="{{$root.l25}}" wx:for-index="__i37__" wx:for-item="text">{{text}}</view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="item data-v-19ae887a" wx:if="{{detailObj.hotelReceptionPolicy}}">
+                            <view class="l icon-r data-v-19ae887a">
+                                <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082317230826523.png"></image>
+                            </view>
+                            <view class="r data-v-19ae887a">
+                                <view class="t data-v-19ae887a">人群接待政策</view>
+                                <view class="b data-v-19ae887a">
+                                    <view class="data-v-19ae887a" wx:for="{{$root.l26}}" wx:for-index="__i38__" wx:for-item="text">{{text}}</view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="item data-v-19ae887a" wx:if="{{detailObj.hotelChildrenBed}}">
+                            <view class="l icon-r data-v-19ae887a">
+                                <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082317231935554.png"></image>
+                            </view>
+                            <view class="r data-v-19ae887a">
+                                <view class="t data-v-19ae887a">儿童及加床</view>
+                                <view class="b data-v-19ae887a">
+                                    <view class="data-v-19ae887a" wx:for="{{$root.l27}}" wx:for-index="__i39__" wx:for-item="text">{{text}}</view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="item data-v-19ae887a" wx:if="{{detailObj.hotelPet}}">
+                            <view class="l icon-r data-v-19ae887a">
+                                <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082317235969539.png"></image>
+                            </view>
+                            <view class="r data-v-19ae887a">
+                                <view class="t data-v-19ae887a">宠物</view>
+                                <view class="b data-v-19ae887a">
+                                    <view class="data-v-19ae887a" wx:for="{{$root.l28}}" wx:for-index="__i40__" wx:for-item="text">{{text}}</view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="item data-v-19ae887a" wx:if="{{detailObj.hotelBreakfast}}">
+                            <view class="l icon-r data-v-19ae887a">
+                                <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082317241423190.png"></image>
+                            </view>
+                            <view class="r data-v-19ae887a">
+                                <view class="t data-v-19ae887a">早餐</view>
+                                <view class="b data-v-19ae887a">
+                                    <view class="data-v-19ae887a" wx:for="{{$root.l29}}" wx:for-index="__i41__" wx:for-item="text">{{text}}</view>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="row row4 data-v-19ae887a" hidden="{{!hasTraffic}}" id="ywxz">
+                <view class="title-box data-v-19ae887a">{{detailObj.trafficGuideTitle||'交通指南'}}</view>
+                <view class="content-box data-v-19ae887a">
+                    <view class="item-list data-v-19ae887a">
+                        <view class="item data-v-19ae887a" wx:if="{{item.$orig.trafficContent}}" wx:for="{{$root.l30}}" wx:for-index="__i42__">
+                            <view class="l data-v-19ae887a">
+                                <image mode class="data-v-19ae887a" src="{{'https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew ('+item.$orig.trafficType+2+').png'}}"></image>
+                            </view>
+                            <view class="r data-v-19ae887a">
+                                <view class="t data-v-19ae887a">{{item.m1}}</view>
+                                <view class="b data-v-19ae887a">
+                                    <rich-text class="data-v-19ae887a" nodes="{{item.$orig.trafficContent}}" style="font-size:28rpx;text-align:justify;"></rich-text>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="row row5 data-v-19ae887a" wx:if="{{!noJqxx}}">
+                <view class="title-box data-v-19ae887a">{{''+(detailObj.scenicInfoTitle||'酒店信息')}}</view>
+                <view class="content-box data-v-19ae887a">
+                    <view class="item-list data-v-19ae887a">
+                        <view class="item data-v-19ae887a" wx:if="{{detailObj.officialWebsite&&detailObj.officialWebsite[0]}}">
+                            <view class="l data-v-19ae887a">
+                                <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (6).png"></image>
+                            </view>
+                            <view class="r data-v-19ae887a">
+                                <view class="t data-v-19ae887a">官方网站</view>
+                                <view class="b between data-v-19ae887a">
+                                    <view class="weibo-box data-v-19ae887a" wx:for="{{detailObj.officialWebsite}}" wx:for-index="__i43__">
+                                        <view class="weibo data-v-19ae887a">{{item}}</view>
+                                        <view bindtap="__e" class="copy data-v-19ae887a" data-event-opts="{{[ [ 'tap',[ [ 'copyFn',['$0'],[ [ ['detailObj.officialWebsite','',__i43__] ] ] ] ] ] ]}}">复制</view>
+                                    </view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="item data-v-19ae887a" wx:if="{{detailObj.telephoneVoList&&detailObj.telephoneVoList[0]}}">
+                            <view class="l data-v-19ae887a">
+                                <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (7).png"></image>
+                            </view>
+                            <view class="r data-v-19ae887a">
+                                <view class="t data-v-19ae887a">联系电话</view>
+                                <view class="b data-v-19ae887a">
+                                    <view class="phone-box data-v-19ae887a" wx:for="{{detailObj.telephoneVoList}}" wx:for-index="__i44__">
+                                        <view class="l multilineText2 data-v-19ae887a">{{item.telephoneTitle}}</view>
+                                        <view bindtap="__e" class="r data-v-19ae887a" data-event-opts="{{[ [ 'tap',[ [ 'call',['$0'],[ [ ['detailObj.telephoneVoList','',__i44__,'telephone'] ] ] ] ] ] ]}}">
+                                            <view class="data-v-19ae887a">{{item.telephone||''}}</view>
+                                            <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/spotIntroNew/dianhua.png"></image>
+                                        </view>
+                                    </view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="item data-v-19ae887a" wx:if="{{detailObj.wxSubscriptionVoList&&detailObj.wxSubscriptionVoList[0]}}">
+                            <view class="l data-v-19ae887a">
+                                <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (8).png"></image>
+                            </view>
+                            <view class="r data-v-19ae887a">
+                                <view class="t data-v-19ae887a">微信公众号</view>
+                                <view class="b data-v-19ae887a" wx:for="{{detailObj.wxSubscriptionVoList}}" wx:for-index="__i45__">
+                                    <view class="wx-box data-v-19ae887a">
+                                        <view class="t data-v-19ae887a">{{item.wxSubscriptionType||''}}</view>
+                                        <view class="b data-v-19ae887a">
+                                            <view class="m singleLineText data-v-19ae887a">{{(item.wxSubscriptionName||'')+(item.wxSubscription?'（'+item.wxSubscription+'）':'')}}</view>
+                                            <view bindtap="__e" class="r data-v-19ae887a" data-event-opts="{{[ [ 'tap',[ [ 'copyFn',['$0'],[ [ ['detailObj.wxSubscriptionVoList','',__i45__,'wxSubscription'] ] ] ] ] ] ]}}" wx:if="{{item.wxSubscription}}">复制</view>
+                                        </view>
+                                    </view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="item data-v-19ae887a" wx:if="{{detailObj.sinaWeiboVoList&&detailObj.sinaWeiboVoList[0]}}">
+                            <view class="l data-v-19ae887a">
+                                <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (9).png"></image>
+                            </view>
+                            <view class="r data-v-19ae887a">
+                                <view class="t data-v-19ae887a">新浪微博</view>
+                                <view class="b between data-v-19ae887a" wx:for="{{detailObj.sinaWeiboVoList}}" wx:for-index="__i46__">
+                                    <view class="weibo-box data-v-19ae887a">
+                                        <view class="weibo data-v-19ae887a">{{item.sinaWeibo}}</view>
+                                        <view bindtap="__e" class="copy data-v-19ae887a" data-event-opts="{{[ [ 'tap',[ [ 'copyFn',['$0'],[ [ ['detailObj.sinaWeiboVoList','',__i46__,'sinaWeibo'] ] ] ] ] ] ]}}">复制</view>
+                                    </view>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </scroll-view>
+</view>

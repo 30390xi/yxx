@@ -1,0 +1,29 @@
+<view class="teamPage data-v-77b27c39">
+    <view class="tabs data-v-77b27c39">
+        <u-tabs activeColor="#333333" barHeight="6" barStyle="{{barStyle}}" barWidth="68" bind:__l="__l" bind:change="__e" bold="{{true}}" class="data-v-77b27c39" current="{{current}}" data-event-opts="{{[ [ '^change',[ ['changecurr'] ] ] ]}}" inactiveColor="#333333" isScroll="{{false}}" list="{{listTab}}" vueId="3e06aa40-1"></u-tabs>
+    </view>
+    <view class="search-box data-v-77b27c39">
+        <view bindtap="__e" class="{{['item','data-v-77b27c39',orderByType===item.orderByType?'act':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'seachFun',[index] ] ] ] ]}}" wx:for="{{orderByTypeList}}" wx:key="index">{{item.name}}</view>
+    </view>
+    <view class="main-box data-v-77b27c39" wx:if="{{list&&list[0]}}">
+        <view bindtap="__e" class="user-box data-v-77b27c39" data-event-opts="{{[ [ 'tap',[ [ 'toDetail',['$0'],[ [ ['list','',index,'memberId'] ] ] ] ] ] ]}}" wx:for="{{list}}" wx:key="index">
+            <view class="info-box data-v-77b27c39">
+                <image mode class="user-img data-v-77b27c39" src="{{item.picUrl?item.picUrl:'https://eshopfile.zhiyousx.com/2021120611010377794.png'}}"></image>
+                <view class="info data-v-77b27c39">
+                    <view class="i1 data-v-77b27c39">{{item.nickName?item.nickName:item.mobilePhone}}</view>
+                    <view class="i3 data-v-77b27c39" wx:if="{{item.expertTime}}">{{timeTitle+'：'+item.expertTime}}</view>
+                </view>
+            </view>
+            <view class="value data-v-77b27c39">
+                <view class="v1 data-v-77b27c39">累计贡献</view>
+                <view class="v2 data-v-77b27c39">{{'￥'+item.income}}</view>
+            </view>
+        </view>
+        <view class="loadMore data-v-77b27c39" style="padding-top:0;">
+            <u-loadmore bgColor="#fff" bind:__l="__l" class="data-v-77b27c39" color="#ccc" data-custom-hidden="{{!$root.g0}}" iconColor="#ccc" status="{{loadMore}}" vueId="3e06aa40-2"></u-loadmore>
+        </view>
+    </view>
+    <view class="empty data-v-77b27c39" style="margin-top:200rpx;" wx:else>
+        <empty-state bind:__l="__l" class="data-v-77b27c39" imgUrl="/static/captured/51d17a011d27445c.png" text="暂无数据" vueId="3e06aa40-3"></empty-state>
+    </view>
+</view>

@@ -1,0 +1,5 @@
+<view class="data-v-d96cfb52">
+    <view class="richText data-v-d96cfb52">
+        <u-parse bind:__l="__l" class="data-v-d96cfb52 vue-ref" data-ref="article" html="{{linkUrl}}" lazyLoad="{{true}}" tagStyle="{{parseStyle}}" vueId="3aa3d520-1"></u-parse>
+    </view>
+</view>

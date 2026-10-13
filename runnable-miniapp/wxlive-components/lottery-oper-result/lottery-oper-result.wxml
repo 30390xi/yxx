@@ -1,0 +1,89 @@
+<view class="lottery-oper-result {{screenType==='horizontal'?'lottery-oper-result__horizontal':''}} {{lotteryPush.participate_type===2?'lottery-oper-result__team':''}}">
+    <block wx:if="{{curLotteryLuckMen.length>0}}">
+        <block wx:if="{{lotteryPush.isParticipate}}">
+            <view class="lottery-oper__result__user" wx:if="{{lotteryPush.isWinLottery}}">
+                <block wx:if="{{lotteryPush.participate_type!==2}}">
+                    <view class="lottery-oper__result__user__avatar__container">
+                        <image class="lottery-oper__result__user__avatar" src="{{lotteryPush.headimg}}"></image>
+                    </view>
+                    <view class="lottery-oper__result__user__info lottery-oper__result__add-bold">{{lotteryPush.nickname}} 恭喜中奖</view>
+                </block>
+                <block wx:else>
+                    <view class="lottery-oper__result__user__avatar__container lottery-oper__result__user__avatar__container-team">
+                        <image class="lottery-oper__result__other-user__avatar" src="{{curLotteryLuckMen[0].headimg}}" wx:if="{{curLotteryLuckMen[0]}}"></image>
+                        <image class="lottery-oper__result__user__avatar" src="{{curLotteryLuckMen[1].headimg}}" wx:if="{{curLotteryLuckMen[1]}}"></image>
+                        <image class="lottery-oper__result__other-user__avatar" src="{{curLotteryLuckMen[2].headimg}}" wx:if="{{curLotteryLuckMen[2]}}"></image>
+                    </view>
+                    <view class="lottery-oper__result__user__info lottery-oper__result__add-bold">恭喜你的队伍中奖</view>
+                </block>
+                <view class="lottery-oper__result__user__oper lottery-oper__result__user__oper-button" wx:if="{{lotteryPush.obtain_type===0}}">
+                    <view class="lottery-oper__result__user__addr">
+                        <view bindtap="onClickAddress" class="lottery-oper__btn lottery-oper__btn-primary {{!lotteryPush.isFillLotteryAddress&&lotteryPush.overTime?'lottery-oper__btn-disabled':''}}">{{lotteryPush.isFillLotteryAddress?'查看寄奖地址':'填写寄奖地址'}}</view>
+                        <view bindlongpress="onCopy" class="lottery-oper__result__user__addr__info" data-token="{{lotteryPush.token}}">
+                            <view wx:if="{{lotteryPush.isFillLotteryAddress}}">奖品将被寄送到填写的地址</view>
+                            <view wx:else>{{lotteryPush.overTime?'开奖已超过 24 小时，未填写寄奖地址，已视为放弃':lastFillAddressTime+'之前填写，逾期视为放弃'}}</view>
+                            <view>{{lotteryPush.explain}}</view>
+                        </view>
+                    </view>
+                </view>
+                <view class="lottery-oper__result__user__oper" wx:elif="{{lotteryPush.obtain_type===1}}">
+                    <view class="lottery-oper__result__user__word">
+                        <view class="lottery-oper__result__user__word__body">
+                            <view class="lottery-oper__result__user__word__title">兑奖口令</view>
+                            <view class="lottery-oper__result__user__word__main">{{lotteryPush.token}}</view>
+                        </view>
+                        <view bindtap="onCopy" class="lottery-oper__result__user__word__foot" data-token="{{lotteryPush.token}}">复制</view>
+                    </view>
+                    <view class="lottery-oper__result__user__addr__info">
+                        <view>保存 联系客服时作为兑奖凭证</view>
+                        <view>{{lotteryPush.explain}}</view>
+                    </view>
+                </view>
+                <block wx:elif="{{lotteryPush.obtain_type===2}}">
+                    <view class="lottery-oper__result__user__oper lottery-oper__result__user__oper-button" wx:if="{{!lotteryPush.isFillLotteryPhone}}">
+                        <view class="lottery-oper__result__user__addr">
+                            <view bindtap="onClickPhone" class="lottery-oper__btn lottery-oper__btn-primary">填写手机号</view>
+                            <view class="lottery-oper__result__user__addr__info">
+                                <view>{{lotteryPush.overTime?'开奖已超过 24 小时，未填写手机号，已视为放弃':lastFillAddressTime+'之前填写，逾期视为放弃'}}</view>
+                                <view>{{lotteryPush.explain}}</view>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="lottery-oper__result__user__oper lottery-oper__result__user__oper-cell" wx:else>
+                        <view class="lottery-oper__result__user__addr">
+                            <view class="lottery-oper__operation__cell">兑奖手机号 {{lotteryPush.address.phone}}<view bindtap="onClickPhone" class="lottery-oper__operation__cell__operation">修改</view>
+                            </view>
+                            <view class="lottery-oper__result__user__addr__info">{{lotteryPush.explain}}</view>
+                        </view>
+                    </view>
+                </block>
+            </view>
+            <view class="lottery-oper__result__user lottery-oper__result__user__noreward lottery-oper__result__user__avatar__container__noreward" wx:else>
+                <view class="lottery-oper__result__user__info move-top lottery-oper__result__add-bold" wx:if="{{lotteryPush.participate_type!==2}}">很遗憾，你没有中奖</view>
+                <view class="lottery-oper__result-noreward move-top lottery-oper__result__add-bold" wx:else>很遗憾，本次没有中奖</view>
+            </view>
+        </block>
+        <block wx:else>
+            <view class="lottery-oper__result__user lottery-oper__result__user__noreward" wx:if="{{lotteryPush.participate_type!==2}}">
+                <view class="lottery-oper__result__user__info lottery-oper__result__add-bold">尚未参与抽奖</view>
+            </view>
+            <view class="lottery-oper__result__user lottery-oper__result__user__noreward" wx:else>
+                <block wx:if="{{isJoinedLotteryTeam}}">
+                    <view class="lottery-oper__result__user__info lottery-oper__result__add-bold">你的队伍不足三人</view>
+                    <view class="lottery-oper__result__user__info lottery-oper__result__add-bold">未能参加抽奖</view>
+                </block>
+                <view class="lottery-oper__result__add-bold" wx:else>未参加本次抽奖</view>
+            </view>
+            <view class="lottery-oper__rewards" wx:if="{{screenType==='horizontal'}}">
+                <view class="lottery-oper__rewards__head"></view>
+            </view>
+        </block>
+    </block>
+    <block wx:else>
+        <view class="lottery-oper__unstart__head">
+            <view class="lottery-oper__dialog__title">{{lotteryPush.name}}<text class="lottery-oper__luck-num" wx:if="{{lotteryPush.luck_limit}}">抽 {{lotteryPush.luck_limit}} {{lotteryPush.participate_type!==2?'人':'队'}}</text>
+            </view>
+        </view>
+        <view class="lottery-oper__result__user__unpartin__info">本次抽奖无人参与</view>
+    </block>
+</view>

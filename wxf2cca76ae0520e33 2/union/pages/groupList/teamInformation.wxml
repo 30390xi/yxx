@@ -1,0 +1,62 @@
+<view class="page-box data-v-6aebe530">
+    <uni-navbar bgColor="{{['#6585FA','#F1F5FB']}}" bgColorAngle="180" bind:__l="__l" class="data-v-6aebe530" title="{{$root.m0}}" type="fixed" vueId="3f4322b2-1"></uni-navbar>
+    <z-paging auto="{{false}}" bind:__l="__l" bind:input="__e" bind:keyboardHeightChange="__e" bottomBgColor="#00000000" class="data-v-6aebe530 vue-ref" data-event-opts="{{[ [ '^keyboardHeightChange',[ ['keyboardHeightChange'] ] ],[ '^input',[ [ '__set_model',[ '','dataList','$event',[] ] ] ] ] ]}}" data-ref="paging" lowerThreshold="{{50}}" safeAreaInsetBottom="isIos" scrollable="{{true}}" style="position:fixed;z-index:11;" useChatRecordMode="{{true}}" value="{{dataList}}" vueId="3f4322b2-2" vueSlots="{{['default','top','bottom']}}" wx:if="{{!isHide}}">
+        <view class="top data-v-6aebe530" slot="top" style="{{'height:'+statusBarHeight+'px'+';'}}"></view>
+        <chat-input-bar bg="{{true}}" bind:__l="__l" bind:clearData="__e" bind:clearDataStop="__e" bind:resetTravel="__e" bind:send="__e" bind:stopSpeak="__e" class="chat-input-bar data-v-6aebe530 vue-ref" data-event-opts="{{[ [ '^stopSpeak',[ ['stopSpeak'] ] ],[ '^resetTravel',[ ['resetTravel'] ] ],[ '^clearData',[ ['clearData'] ] ],[ '^clearDataStop',[ ['clearDataStop'] ] ],[ '^send',[ ['doSend'] ] ] ]}}" data-ref="inputBar" detail="{{spotDetail}}" isIos="{{isIos}}" pushingProgress="{{pushingProgress}}" pushingProgressShow="{{pushingProgressShow}}" slot="bottom" teamType="2" vueId="{{'3f4322b2-3'+','+'3f4322b2-2'}}"></chat-input-bar>
+        <view class="data-v-6aebe530" style="position:relative;" wx:for="{{dataList}}" wx:for-index="__i0__" wx:key="id">
+            <view class="data-v-6aebe530" style="transform:scaleY(-1);">
+                <chat-item bind:__l="__l" bind:askAgain="__e" bind:delComment="__e" bind:exclusive="__e" bind:openDrawer="__e" bind:playVideo="__e" bind:resetTravel="__e" bind:stopSpeak="__e" class="data-v-6aebe530" data-event-opts="{{[ [ '^askAgain',[ ['askAgain'] ] ],[ '^resetTravel',[ ['resetTravel'] ] ],[ '^exclusive',[ ['exclusive'] ] ],[ '^delComment',[ ['delComment'] ] ],[ '^openDrawer',[ ['openDrawer'] ] ],[ '^stopSpeak',[ ['stopSpeak'] ] ],[ '^playVideo',[ ['playVideo'] ] ] ]}}" dataList="{{dataList}}" item="{{item}}" newVal="{{newVal}}" pushingProgress="{{pushingProgress}}" showComment="{{currrentId===item.id}}" vueId="{{'3f4322b2-4-'+__i0__+','+'3f4322b2-2'}}"></chat-item>
+            </view>
+        </view>
+        <view class="menuBox data-v-6aebe530" style="transform:scaleY(-1);">
+            <view class="header-section data-v-6aebe530">
+                <view class="header-logo data-v-6aebe530">
+                    <image class="header-icon data-v-6aebe530" src="https://eshopfile.zhiyousx.com/176958773997727947.gif" wx:if="{{!isPlayIngDefault}}"></image>
+                    <image class="header-icon data-v-6aebe530" src="https://eshopfile.zhiyousx.com/176958780798329730.gif" wx:if="{{isPlayIngDefault}}"></image>
+                </view>
+                <view class="header-content data-v-6aebe530">
+                    <view class="header-nav-item1 data-v-6aebe530">{{$root.m1+''}}<image class="header-nav-icon data-v-6aebe530" src="https://eshopfile.zhiyousx.com/176958794459960221.png"></image>
+                    </view>
+                    <view class="header-nav-item2 data-v-6aebe530">{{$root.m2}}</view>
+                </view>
+            </view>
+            <view bindtap="__e" class="container-b data-v-6aebe530" data-event-opts="{{[ [ 'tap',[ [ 'togglePlay',['$event'] ] ] ] ]}}">
+                <view class="item-b item-b1 data-v-6aebe530" wx:if="{{!isPlayIngDefault}}">
+                    <image alt class="item-icon data-v-6aebe530" src="https://eshopfile.zhiyousx.com/176966891639156328.png"></image>{{''+$root.m3+''}}</view>
+                <view class="item-b item-b2 data-v-6aebe530" wx:else>
+                    <image alt class="item-icon data-v-6aebe530" src="https://eshopfile.zhiyousx.com/176966894441482348.png"></image>{{''+$root.m4+''}}</view>
+            </view>
+            <view class="you-may-warp data-v-6aebe530">
+                <image alt class="you-may-warp-icon data-v-6aebe530" src="https://eshopfile.zhiyousx.com/177010678939108518.png"></image>
+                <view class="you-may-ask data-v-6aebe530">
+                    <view class="ask-title _div data-v-6aebe530">{{''+$root.m5+''}}</view>
+                    <view class="ask-item-box _div data-v-6aebe530">
+                        <view bindtap="__e" class="ask-item _div data-v-6aebe530" data-event-opts="{{[ [ 'tap',[ [ 'askAgain',['$0'],[ [ ['askList','',index,'title'] ] ] ] ] ] ]}}" wx:for="{{askList}}" wx:key="index">{{''+item.title+''}}<image alt class="ask-item-icon data-v-6aebe530" src="https://eshopfile.zhiyousx.com/173373722521006570.png"></image>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="topBox data-v-6aebe530" style="transform:scaleY(-1);">
+            <view class="topBox-warp data-v-6aebe530">
+                <image alt class="topBox-icon data-v-6aebe530" src="https://eshopfile.zhiyousx.com/177010500725336860.png"></image>{{'XX'+$root.m6+''}}</view>
+            <view bindtap="__e" class="topBox-btn data-v-6aebe530" data-event-opts="{{[ [ 'tap',[ [ 'viewUser',['$event'] ] ] ] ]}}">{{$root.m7}}</view>
+        </view>
+    </z-paging>
+    <uni-popup bind:__l="__l" class="data-v-6aebe530 vue-ref" data-ref="videoPopup" maskClick="{{true}}" type="center" vueId="3f4322b2-5" vueSlots="{{['default']}}">
+        <view class="video-popup-container data-v-6aebe530">
+            <view class="video-popup-header data-v-6aebe530">
+                <text class="video-popup-title data-v-6aebe530"></text>
+                <view bindtap="__e" class="video-popup-close data-v-6aebe530" data-event-opts="{{[ [ 'tap',[ [ 'closeVideoPopup',['$event'] ] ] ] ]}}">
+                    <text class="close-icon data-v-6aebe530">×</text>
+                </view>
+            </view>
+            <view class="video-popup-content data-v-6aebe530">
+                <video autoplay="{{true}}" binderror="__e" bindloadeddata="__e" bindloadstart="__e" class="video-player data-v-6aebe530" controls="{{true}}" data-event-opts="{{[ [ 'error',[ [ 'onVideoError',['$event'] ] ] ],[ 'loadstart',[ [ 'onVideoLoadStart',['$event'] ] ] ],[ 'loadeddata',[ [ 'onVideoLoaded',['$event'] ] ] ] ]}}" showCenterPlayBtn="{{true}}" showFullscreenBtn="{{true}}" showPlayBtn="{{true}}" showProgress="{{true}}" src="{{currentVideoUrl}}"></video>
+                <view class="video-loading data-v-6aebe530" wx:if="{{videoLoading}}">
+                    <text class="loading-text data-v-6aebe530">{{$root.m8}}</text>
+                </view>
+            </view>
+        </view>
+    </uni-popup>
+</view>

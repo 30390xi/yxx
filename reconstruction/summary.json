@@ -1,0 +1,18 @@
+{
+  "declared_pages": 314,
+  "subpackages": 10,
+  "literal_request_calls": 564,
+  "unique_method_path_prefixes": 346,
+  "request_domains": {
+    "": 1,
+    "ai": 85,
+    "base": 126,
+    "manager": 107,
+    "order": 81,
+    "product": 157,
+    "program": 5,
+    "volce": 2
+  },
+  "extracted_page_modules": 203,
+  "missing_page_wxss": 111
+}

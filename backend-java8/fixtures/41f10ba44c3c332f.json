@@ -1,0 +1,25 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "1703700709486821378",
+      "pic": "https://eshopfile.zhiyousx.com/169710366569740620.png",
+      "title": "西安精华景点3日游攻略",
+      "color": "#E7A75F"
+    },
+    {
+      "id": "2020692104018321410",
+      "pic": "https://eshopfile.zhiyousx.com/177208050044753910.jpg",
+      "title": "汉中市油菜花海旅游廊道",
+      "color": "#E1C60E"
+    },
+    {
+      "id": "1696432131851087874",
+      "pic": "https://eshopfile.zhiyousx.com/169329605924505188.jpg",
+      "title": "西安经典3天2晚旅游行程攻略",
+      "color": "#4C4142"
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

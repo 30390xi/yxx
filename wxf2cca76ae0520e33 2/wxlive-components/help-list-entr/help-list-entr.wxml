@@ -1,0 +1,23 @@
+<view class="help-list-entr {{isStatic?'help-list-entr__static':''}}" wx:if="{{helpRankStatus>0}}">
+    <view class="help-list-entr__inner">
+        <view bindtap="openHelpListPanel" class="help-list-entr__item {{isClearScreen?'no-events':'has-events'}}" wx:if="{{helpRankStatus===1&&helpRankLeftTime&&helpRankLeftTime>0&&(curLiveStatusCode===101||curLiveStatusCode===105||curLiveStatusCode===106)}}">
+            <view class="help-list-entr__item__inner">
+                <view class="circle-loading-container circle-loading-{{helpRankLoadingPolygon}}"></view>
+                <view class="help-list-entr__item__info" wx:if="{{!_helpRankTipsCountTime&&!_helpRankTipsSuccee}}">
+                    <block wx:if="{{helpRankLeftTime>=60}}">助力进行中</block>
+                    <block wx:else>{{helpRankLeftTime}}秒后助力结束</block>
+                </view>
+                <view class="help-list-entr__item__info" wx:if="{{_helpRankTipsCountTime}}">正在为“{{helpRankRankNickname}}”助力</view>
+                <view class="help-list-entr__item__info" wx:if="{{_helpRankTipsSuccee}}">成功为“{{helpRankRankNickname}}”助力</view>
+                <view class="comments-item__access"></view>
+            </view>
+        </view>
+        <view bindtap="openHelpListPanel" class="help-list-entr__item {{isClearScreen?'no-events':'has-events'}}" wx:if="{{helpRankStatus===2||helpRankLeftTime!==''&&helpRankLeftTime<=0||curLiveStatusCode===103||curLiveStatusCode===104}}">
+            <view class="help-list-entr__item__inner">
+                <view class="icon__support"></view>
+                <text class="help-list-entr__item__info">助力榜</text>
+                <view class="comments-item__access"></view>
+            </view>
+        </view>
+    </view>
+</view>

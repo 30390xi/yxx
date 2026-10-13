@@ -1,0 +1,157 @@
+<view class="page-box data-v-56c04c3e">
+    <uni-navbar bind:__l="__l" class="data-v-56c04c3e" title=" " type="transparentFixed" vueId="6f14160f-1" wx:if="{{isFromHistoryList}}"></uni-navbar>
+    <uni-navbar bind:__l="__l" class="data-v-56c04c3e" title=" " type="transparentFixed" vueId="6f14160f-2" vueSlots="{{['transparentFixedLeft']}}" wx:else>
+        <view class="data-v-56c04c3e" slot="transparentFixedLeft">
+            <view bindtap="__e" class="home-btn data-v-56c04c3e" data-event-opts="{{[ [ 'tap',[ [ 'goHome',['$event'] ] ] ] ]}}">
+                <image class="home-icon data-v-56c04c3e" src="/static/zhouWei-navBar/icon_home_black.png"></image>
+            </view>
+        </view>
+    </uni-navbar>
+    <view class="topBtns data-v-56c04c3e" style="{{'top:'+capsuleHeight+10+'px'+';'}}">
+        <view bindtap="__e" class="editBtn btn1 data-v-56c04c3e" data-event-opts="{{[ [ 'tap',[ [ 'goEditPage',['$event'] ] ] ] ]}}" wx:if="{{!isShare}}"></view>
+        <view bindtap="__e" class="historyBtn btn1 data-v-56c04c3e" data-event-opts="{{[ [ 'tap',[ [ 'goHistoryList',['$event'] ] ] ] ]}}"></view>
+    </view>
+    <view class="bottomBtns data-v-56c04c3e">
+        <view bindtap="__e" class="topBtn data-v-56c04c3e" data-event-opts="{{[ [ 'tap',[ [ 'generateAiGuide',['$event'] ] ] ] ]}}" style="margin-right:20rpx;">生成AI攻略长图</view>
+        <view bindtap="__e" class="topBtn data-v-56c04c3e" data-event-opts="{{[ [ 'tap',[ [ 'getCardTop',['$event'] ] ] ] ]}}">{{dataList[0]&&isCardTop?'取消置顶':'置顶行程'}}</view>
+    </view>
+    <view class="lineMap data-v-56c04c3e">
+        <map bindcallouttap="__e" class="data-v-56c04c3e vue-ref" data-event-opts="{{[ [ 'callouttap',[ [ 'onMarkerTap',['$event'] ] ] ] ]}}" data-ref="map" enableBuilding="{{true}}" enablePoi="{{true}}" enableRotate="{{true}}" enableScroll="{{true}}" enableZoom="{{true}}" id="map" latitude="{{map.latitude}}" layerStyle="1" longitude="{{map.longitude}}" markers="{{markers}}" polyline="{{polyline}}" scale="{{map.scale}}" style="{{'width:100%;height:100%;'+'pointer-events:'+(isShowDetail?'none':'auto')+';'}}" subkey="{{subkey}}"></map>
+        <view class="loading data-v-56c04c3e" wx:if="{{mapLoading}}">
+            <view class="img_box data-v-56c04c3e">
+                <image class="loading_img data-v-56c04c3e" src="/static/captured/79cac93e03941197.gif"></image>
+            </view>
+        </view>
+    </view>
+    <view catchtouchend="{{blockEvent}}" catchtouchmove="{{blockEvent}}" catchtouchstart="{{blockEvent}}" class="page-content data-v-56c04c3e" style="{{'bottom:'+(isShowDetail?0:'-15vh')+';'}}">
+        <view bindtouchend="__e" bindtouchstart="__e" catchtouchmove="__e" class="fixed-header data-v-56c04c3e vue-ref" data-event-opts="{{[ [ 'touchstart',[ [ 'headerTouchStart',['$event'] ] ] ],[ 'touchmove',[ [ '',['$event'] ] ] ],[ 'touchend',[ [ 'headerTouchEnd',['$event'] ] ] ] ]}}" data-ref="fixedHeader">
+            <view class="line1 data-v-56c04c3e">
+                <view class="line1-left data-v-56c04c3e" wx:if="{{dataList}}">{{'共'+$root.g0+'天 | '+$root.g1+'个行程'}}</view>
+                <view bindtap="__e" class="line1-right data-v-56c04c3e" data-event-opts="{{[ [ 'tap',[ [ 'showInvitePopup',['$event'] ] ] ] ]}}" style="border:2rpx solid #8666FD;padding:0 20rpx;" wx:if="{{$root.g2}}">邀请好友共创</view>
+                <view bindtap="__e" class="line1-right data-v-56c04c3e" data-event-opts="{{[ [ 'tap',[ [ 'showInvitePopup',['$event'] ] ] ] ]}}" wx:if="{{$root.g3}}">
+                    <view class="avatar-group data-v-56c04c3e">
+                        <image class="avatar-img data-v-56c04c3e" src="{{item.avatarUrl}}" style="{{'z-index:'+3-index+';'}}" wx:for="{{$root.l0}}" wx:key="index"></image>
+                        <image class="avatar-img data-v-56c04c3e" src="https://eshopfile.zhiyousx.com/175749781153832280.png"></image>
+                    </view>
+                </view>
+            </view>
+            <view class="line2 data-v-56c04c3e" wx:if="{{dataList&&dataList[0]}}">{{''+(dataList[0].travelTitle?dataList[0].travelTitle:dataList[0].city+$root.g4+'天旅行计划')+''}}</view>
+            <view class="line3 data-v-56c04c3e">
+                <view bindtap="__e" class="{{['tabs','data-v-56c04c3e',currentTab===0?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeTab',[0] ] ] ] ]}}">总览</view>
+                <view bindtap="__e" class="{{['tabs','data-v-56c04c3e',currentTab===1?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeTab',[1] ] ] ] ]}}">路线</view>
+                <view bindtap="__e" class="{{['tabs','data-v-56c04c3e',currentTab===2?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeTab',[2] ] ] ] ]}}">预算</view>
+                <view bindtap="__e" class="{{['tabs','data-v-56c04c3e',currentTab===3?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeTab',[3] ] ] ] ]}}">本地人说</view>
+            </view>
+        </view>
+        <scroll-view bindscroll="__e" bindscrolltolower="__e" bindtouchend="__e" bindtouchstart="__e" class="scroll-content data-v-56c04c3e" data-event-opts="{{[ [ 'touchstart',[ [ 'touchStart',['$event'] ] ] ],[ 'touchend',[ [ 'touchEnd',['$event'] ] ] ],[ 'scroll',[ [ 'handleScroll',['$event'] ] ] ],[ 'scrolltolower',[ [ 'scrolltolower',['$event'] ] ] ] ]}}" scrollTop="{{insideScrollTop}}" scrollY="{{true}}" style="{{'height:'+'calc('+'80vh - '+headerHeight+'px)'+';'}}">
+            <view class="data-v-56c04c3e" id="contentBox" style="{{'min-height:'+'calc('+'80vh - '+headerHeight-1+'px)'+';'}}">
+                <view class="overview data-v-56c04c3e" hidden="{{!(currentTab===0)}}">
+                    <view class="lineDay data-v-56c04c3e" wx:for="{{$root.l1}}" wx:for-item="obj" wx:key="index">
+                        <view class="day-title data-v-56c04c3e">
+                            <text class="data-v-56c04c3e">{{'DAY'+index+1}}</text>
+                        </view>
+                        <view bindtap="__e" class="day-content data-v-56c04c3e" data-event-opts="{{[ [ 'tap',[ [ 'goToDetail',[index] ] ] ] ]}}" wx:if="{{obj.g5}}">
+                            <view class="left data-v-56c04c3e">
+                                <text class="data-v-56c04c3e">{{obj.m0}}</text>
+                            </view>
+                            <image class="right-img data-v-56c04c3e" src="https://eshopfile.zhiyousx.com/175678052598670074.png"></image>
+                        </view>
+                    </view>
+                </view>
+                <view class="lineList data-v-56c04c3e" wx:if="{{currentTab===1}}">
+                    <view class="lineDay data-v-56c04c3e" wx:for="{{$root.l3}}" wx:for-item="obj" wx:key="index">
+                        <view class="day-title data-v-56c04c3e" id="{{'dayTitle'+index}}">
+                            <text class="data-v-56c04c3e">{{'DAY'+index+1}}</text>
+                        </view>
+                        <view class="day-content data-v-56c04c3e" wx:if="{{obj.g6}}">
+                            <view class="cardBox data-v-56c04c3e" wx:for="{{obj.l2}}" wx:for-index="__i0__" wx:for-item="it" wx:key="id">
+                                <view bindtap="__e" class="cardBox-top data-v-56c04c3e" data-event-opts="{{[ [ 'tap',[ [ 'goSpot',['$0'],[ [ ['dataList','',index],['aiPlanCards','id',it.$orig.id,'scenicId'] ] ] ] ] ] ]}}">
+                                    <view class="card-left data-v-56c04c3e" style="{{'background:'+'url('+(it.$orig.pictureUrl[0]?it.$orig.pictureUrl[0]:'https://eshopfile.zhiyousx.com/175695850936006689.png')+') no-repeat center center / cover'+';'}}"></view>
+                                    <view class="card-right data-v-56c04c3e">
+                                        <view class="card-right-title data-v-56c04c3e">{{''+it.$orig.name+''}}<image class="data-v-56c04c3e" src="{{it.m1}}"></image>
+                                        </view>
+                                        <view class="card-right-time data-v-56c04c3e" wx:if="{{it.$orig.timeSlot}}">
+                                            <image class="data-v-56c04c3e" src="https://eshopfile.zhiyousx.com/175680025446541259.png"></image>{{''+it.$orig.timeSlot+''}}</view>
+                                        <view class="card-right-detail data-v-56c04c3e" wx:if="{{it.$orig.reason||it.$orig.price}}">
+                                            <view class="content data-v-56c04c3e">
+                                                <image class="data-v-56c04c3e" src="https://eshopfile.zhiyousx.com/175680058086856766.png"></image>
+                                                <text class="data-v-56c04c3e">{{'人均:'+it.$orig.price+'元'+('，'+it.$orig.reason||'')}}</text>
+                                            </view>
+                                        </view>
+                                    </view>
+                                    <image class="goIcon data-v-56c04c3e" src="https://eshopfile.zhiyousx.com/175678052598670074.png" wx:if="{{it.$orig.scenicId}}"></image>
+                                </view>
+                                <view bindtap="__e" class="couponbox data-v-56c04c3e" data-event-opts="{{[ [ 'tap',[ ['goCoupon'] ] ] ]}}" wx:if="{{it.$orig.coupon}}">
+                                    <view class="coupon-text data-v-56c04c3e">{{'已补贴'+it.$orig.coupon+'元'}}</view>
+                                    <view class="coupon-btn data-v-56c04c3e">立即预订</view>
+                                </view>
+                                <image class="couponIcon data-v-56c04c3e" src="https://eshopfile.zhiyousx.com/175835069876974683.png" wx:if="{{it.$orig.coupon}}"></image>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+                <view class="localSay data-v-56c04c3e" wx:if="{{currentTab===2}}">
+                    <view class="content data-v-56c04c3e" space="nbsp" style="margin-bottom:20rpx;" userSelect="true">
+                        <zero-markdown-view bind:__l="__l" class="data-v-56c04c3e" markdown="{{budgetItems}}" vueId="6f14160f-3"></zero-markdown-view>
+                        <zero-markdown-view bind:__l="__l" class="data-v-56c04c3e" markdown="{{tipsContent}}" vueId="6f14160f-4"></zero-markdown-view>
+                    </view>
+                </view>
+                <view class="localSay data-v-56c04c3e" wx:if="{{currentTab===3}}">
+                    <view class="content data-v-56c04c3e" space="nbsp" style="margin-bottom:20rpx;" userSelect="true" wx:for="{{dataList[0].localsAdvice}}" wx:for-item="txt" wx:key="index">
+                        <zero-markdown-view bind:__l="__l" class="data-v-56c04c3e" markdown="{{txt}}" vueId="{{'6f14160f-5-'+index}}"></zero-markdown-view>
+                    </view>
+                </view>
+                <view class="bottom data-v-56c04c3e" style="{{'height:'+(isShowDetail?'10vh':'25vh')+';'+'transition:'+'.5s'+';'}}"></view>
+            </view>
+        </scroll-view>
+    </view>
+    <uni-popup bind:__l="__l" class="data-v-56c04c3e vue-ref" data-ref="invitePopup" type="bottom" vueId="6f14160f-6" vueSlots="{{['default']}}">
+        <view class="invite-popup data-v-56c04c3e">
+            <view class="invite-title data-v-56c04c3e">邀请好友共同编辑行程</view>
+            <view class="invite-content data-v-56c04c3e">
+                <view class="invite-subtitle data-v-56c04c3e">已加入好友：</view>
+                <scroll-view class="friends-list data-v-56c04c3e" scrollY="{{true}}">
+                    <view class="friends-grid data-v-56c04c3e" wx:if="{{$root.g7>0}}">
+                        <view class="friend-item data-v-56c04c3e" wx:for="{{invitedFriends}}" wx:for-item="friend" wx:key="index">
+                            <image class="friend-avatarUrl data-v-56c04c3e" src="{{friend.avatarUrl}}"></image>
+                            <text class="friend-name data-v-56c04c3e">{{friend.name}}</text>
+                        </view>
+                    </view>
+                    <view class="empty-friends data-v-56c04c3e" wx:else>
+                        <text class="empty-text data-v-56c04c3e">暂无加入好友</text>
+                        <text class="empty-desc data-v-56c04c3e">好友参与编辑后将出现在这里</text>
+                    </view>
+                </scroll-view>
+            </view>
+            <view class="invite-footer data-v-56c04c3e">
+                <view class="msg data-v-56c04c3e">
+                    <image class="msg-icon data-v-56c04c3e" src="https://eshopfile.zhiyousx.com/175747243556313621.png"></image>
+                    <view class="msg-text data-v-56c04c3e">最后保存的版本会直接覆盖之前的所有编辑内容，且无法恢复之前的版本。</view>
+                </view>
+                <button bindtap="__e" class="share-btn data-v-56c04c3e" data-event-opts="{{[ [ 'tap',[ [ 'shareToChat',['$event'] ] ] ] ]}}" hoverClass="none" hoverStayTime="0" openType="share">分享至聊天</button>
+            </view>
+        </view>
+    </uni-popup>
+    <uni-popup bind:__l="__l" bind:change="__e" class="data-v-56c04c3e vue-ref" data-event-opts="{{[ [ '^change',[ ['handleChange'] ] ] ]}}" data-ref="feedbackDrawer" type="bottom" vueId="6f14160f-7" vueSlots="{{['default']}}">
+        <view class="drawer-content data-v-56c04c3e" style="{{'padding-bottom:'+(keyboardHeight?keyboardHeight+'px':'')+';'}}">
+            <view class="data-v-56c04c3e">
+                <view class="drawer-title data-v-56c04c3e">本次攻略推荐的内容对您有帮助吗?<image bindtap="__e" class="btn data-v-56c04c3e" data-event-opts="{{[ [ 'tap',[ [ 'submitComment',['$event'] ] ] ] ]}}" src="{{star>0?'https://eshopfile.zhiyousx.com/175758343779519665.png':'https://eshopfile.zhiyousx.com/175254389842185569.png'}}"></image>
+                </view>
+                <view class="star-row data-v-56c04c3e">
+                    <u-rate activeColor="#D988FF" allowHalf="false" bind:__l="__l" bind:change="__e" class="data-v-56c04c3e vue-ref" count="{{5}}" data-event-opts="{{[ [ '^change',[ ['changeStar'] ] ] ]}}" data-ref="rate" gutter="40" inactiveColor="#D9D9D9" size="60" vueId="{{'6f14160f-8'+','+'6f14160f-7'}}" wx:if="{{showRate}}"></u-rate>
+                    <view class="starName data-v-56c04c3e">{{$root.f0}}</view>
+                </view>
+            </view>
+            <view class="data-v-56c04c3e" style="width:100%;position:relative;" wx:if="{{star>0}}">
+                <textarea adjustPosition="{{false}}" bindinput="__e" class="drawer-input data-v-56c04c3e" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '','comment','$event',[] ] ] ] ] ]}}" maxlength="300" placeholder="请输入您的评价" style="max-height:400rpx;overflow-y:auto;" value="{{comment}}"></textarea>
+                <text class="fontNum data-v-56c04c3e">{{$root.g8+' / 300'}}</text>
+            </view>
+        </view>
+    </uni-popup>
+    <uni-popup bind:__l="__l" class="data-v-56c04c3e vue-ref" data-ref="giftEnterPopup" maskClick="{{false}}" type="center" vueId="6f14160f-9" vueSlots="{{['default']}}">
+        <view class="share-popup data-v-56c04c3e">
+            <image bindtap="__e" class="gift-enter-image data-v-56c04c3e" data-event-opts="{{[ [ 'tap',[ [ 'goGiftEnter',['$event'] ] ] ] ]}}" mode="widthFix" src="https://eshopfile.zhiyousx.com/175827608830675583.png"></image>
+            <image bindtap="__e" class="gift-close-image data-v-56c04c3e" data-event-opts="{{[ [ 'tap',[ [ 'closeGiftEnter',['$event'] ] ] ] ]}}" mode="widthFix" src="https://eshopfile.zhiyousx.com/175827584521593665.png"></image>
+        </view>
+    </uni-popup>
+</view>

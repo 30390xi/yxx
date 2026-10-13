@@ -1,0 +1,22 @@
+<view class="container data-v-4eda9f98">
+    <uni-navbar bind:__l="__l" class="data-v-4eda9f98" title=" " type="transparentFixed" vueId="5a367cf9-1"></uni-navbar>
+    <z-paging bind:__l="__l" bind:input="__e" bottomBgColor="#ffffff" class="page-box-image22 data-v-4eda9f98 vue-ref" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','dataList','$event',[] ] ] ] ] ]}}" data-ref="paging" safeAreaInsetBottom="{{isIos}}" style="position:fixed;z-index:11;" toBottomLoadingMoreEnabled="{{true}}" useChatRecordMode="{{true}}" value="{{dataList}}" vueId="5a367cf9-2" vueSlots="{{['default','top']}}">
+        <view class="loadBox data-v-4eda9f98" slot="top">
+            <image class="data-v-4eda9f98" src="https://eshopfile.zhiyousx.com/175671244741237616.png"></image>
+            <view class="loading-text data-v-4eda9f98">{{loadingText}}</view>
+        </view>
+        <view class="chat-box data-v-4eda9f98" style="transform:scaleY(-1);">
+            <view class="chat-content data-v-4eda9f98">
+                <view class="data-v-4eda9f98" space="nbsp" userSelect="true" wx:if="{{content}}">
+                    <zero-markdown-view bind:__l="__l" class="data-v-4eda9f98" markdown="{{content}}" vueId="{{'5a367cf9-3'+','+'5a367cf9-2'}}"></zero-markdown-view>
+                </view>
+                <view class="loading-box data-v-4eda9f98" wx:else>正在思考中<view class="loading data-v-4eda9f98">
+                        <view class="pot data-v-4eda9f98"></view>
+                        <view class="pot data-v-4eda9f98"></view>
+                        <view class="pot data-v-4eda9f98"></view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </z-paging>
+</view>

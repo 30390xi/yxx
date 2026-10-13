@@ -1,0 +1,8 @@
+<view class="picwalls data-v-f1c18bce">
+    <view class="picwall data-v-f1c18bce" wx:if="{{scenicId}}">
+        <image bindtap="__e" class="item-img data-v-f1c18bce" data-event-opts="{{[ [ 'tap',[ [ 'priview',['$0'],[ [ ['imgList','',index] ] ] ] ] ] ]}}" mode="aspectFill" src="{{item}}" wx:for="{{imgList}}"></image>
+    </view>
+    <view class="picwall data-v-f1c18bce" wx:else>
+        <image bindtap="__e" class="item-img data-v-f1c18bce" data-event-opts="{{[ [ 'tap',[ [ 'priview',['$0'],[ [ ['imgList','',index] ] ] ] ] ] ]}}" mode="aspectFill" src="{{item}}" wx:for="{{imgList}}"></image>
+    </view>
+</view>

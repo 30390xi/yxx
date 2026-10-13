@@ -1,0 +1,1 @@
+.weui-cells_checkbox .weui-check__label:before{left:55px}.weui-check__label:active{background-color:#ececec}.weui-check{left:-9999px;position:absolute}.weui-check__hd_in-checkbox{padding-right:16px}.weui-cell__ft_in-radio{padding-left:16px}

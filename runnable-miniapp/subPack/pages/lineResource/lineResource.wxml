@@ -1,0 +1,368 @@
+<view class="page-box data-v-344c7ce5">
+    <order-nav active="{{1}}" bind:__l="__l" class="data-v-344c7ce5" vueId="787e9c56-1"></order-nav>
+    <view class="top-box data-v-344c7ce5" style="{{'top:'+searchHeight*unit-242+'rpx'+';'}}">
+        <view class="title titleF data-v-344c7ce5" style="{{'top:'+searchHeight*unit-2+'rpx'+';'}}">{{'景区（'+$root.g0+'）'}}</view>
+        <view class="spot-box data-v-344c7ce5">
+            <scroll-view class="scroll-box-spot data-v-344c7ce5" scrollX="{{true}}">
+                <block wx:if="{{imageH>0}}">
+                    <view bindtap="__e" class="{{['item','data-v-344c7ce5',item.destinationId===destinationId?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'selectSpot',['$0',index],[ [ ['spotData','',index] ] ] ] ] ] ]}}" wx:for="{{spotData}}" wx:key="index">
+                        <image class="data-v-344c7ce5" mode="aspectFill" src="{{item.mainPicture}}"></image>
+                        <view class="spot-name data-v-344c7ce5">
+                            <view class="name multilineText2 data-v-344c7ce5">{{''+item.destinationName+''}}</view>
+                        </view>
+                        <view class="icon-box data-v-344c7ce5" wx:if="{{item.ticNum>0}}">{{'已选 '+item.ticNum+''}}</view>
+                    </view>
+                </block>
+                <block wx:else>
+                    <view bindtap="__e" class="{{['item','ft','data-v-344c7ce5',item.destinationId===destinationId?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'selectSpot',['$0',index],[ [ ['spotData','',index] ] ] ] ] ] ]}}" wx:for="{{spotData}}" wx:key="index">
+                        <view class="spot-name data-v-344c7ce5">
+                            <view class="name multilineText2 data-v-344c7ce5">{{''+item.destinationName+''}}</view>
+                        </view>
+                        <view class="icon-box data-v-344c7ce5" wx:if="{{item.ticNum>0}}">{{'已选 '+item.ticNum+''}}</view>
+                    </view>
+                </block>
+            </scroll-view>
+        </view>
+        <view class="title data-v-344c7ce5">选择使用日期</view>
+        <view class="date-box data-v-344c7ce5">
+            <view class="scroll-box-date data-v-344c7ce5">
+                <scroll-view class="left data-v-344c7ce5" scrollIntoView="{{scrollToDate}}" scrollX="{{true}}">
+                    <view bindtap="__e" class="{{['date-item','data-v-344c7ce5',item.date==selectDateStr?'activeDate':'',item.disabled?'disable':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'selectedDate',['$0',false],[ [ ['dateData','',i] ] ] ] ] ] ]}}" id="{{'date-'+item.date}}" wx:for="{{dateData}}" wx:for-index="i">
+                        <view class="date-str data-v-344c7ce5">{{''+item.dateShort+' '+item.week+''}}</view>
+                        <view class="price data-v-344c7ce5">{{''+item.diy+''}}</view>
+                    </view>
+                </scroll-view>
+                <view class="line data-v-344c7ce5"></view>
+                <view bindtap="__e" class="right data-v-344c7ce5" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}">
+                    <view class="text data-v-344c7ce5">更多日期</view>
+                    <image mode class="arrow data-v-344c7ce5" src="/static/captured/cad1321b1fb32ab6.png"></image>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="product-box data-v-344c7ce5" wx:if="{{spotData[activeIndex]}}">
+        <view class="tic-class-box data-v-344c7ce5" wx:for="{{$root.l1}}" wx:key="index">
+            <view class="class-title data-v-344c7ce5">{{''+item.$orig.ticketTypeClassName+''}}</view>
+            <view class="tic-box data-v-344c7ce5">
+                <view class="tic-item data-v-344c7ce5" style="{{'margin-top:'+(it.$orig.skuCashBackAmount!=null?it.$orig.skuCashBackAmount:it.$orig.cashBackAmount?'40rpx':'20rpx')+';'}}" wx:for="{{item.l0}}" wx:for-index="i" wx:for-item="it">
+                    <view class="tic-name multilineText2 data-v-344c7ce5">
+                        <view class="ms-box data-v-344c7ce5" style="width:64rpx;" wx:if="{{it.$orig.seckillActivity==0}}"></view>{{''+(it.$orig.itemAbbreviate||it.$orig.itemTitle)+''}}</view>
+                    <view bindtap="__e" class="tip-tag data-v-344c7ce5" data-event-opts="{{[ [ 'tap',[ [ 'e1',['$event'] ] ] ] ]}}" wx:if="{{it.$orig.skuCashBackAmount!=null?it.$orig.skuCashBackAmount:it.$orig.cashBackAmount}}">{{'多买减'+it.f0+'元'}}<label class="_span data-v-344c7ce5" wx:if="{{it.$orig.cashStartPriceFlag}}">起</label>
+                        <view class="icon-box-t data-v-344c7ce5">
+                            <image mode class="icon data-v-344c7ce5" src="https://eshopfile.zhiyousx.com/169416211261817496.png"></image>
+                        </view>
+                    </view>
+                    <view class="tic-body data-v-344c7ce5">
+                        <view class="tb-left data-v-344c7ce5">
+                            <view class="tic-info singleLineText data-v-344c7ce5" style="{{'color:'+(it.$orig.scenicType!=1?'#FF5411':'#a17111')+';'}}">
+                                <block wx:if="{{it.$orig.bookingInfoTag.bookingTag}}">{{it.$orig.bookingInfoTag.bookingTag}}</block>
+                                <block wx:if="{{it.$orig.bookingInfoTag.reserveTimeTag}}">{{'｜'+it.$orig.bookingInfoTag.reserveTimeTag}}</block>
+                                <block wx:if="{{it.$orig.bookingInfoTag.refundTag}}">{{'｜'+it.$orig.bookingInfoTag.refundTag}}</block>
+                                <block wx:if="{{it.$orig.scenicType!=1&&it.$orig.bookingInfoTag.changeTag}}">{{'｜'+it.$orig.bookingInfoTag.changeTag}}</block>
+                            </view>
+                            <view class="tic-tip data-v-344c7ce5">
+                                <view catchtap="__e" class="l data-v-344c7ce5" data-event-opts="{{[ [ 'tap',[ [ 'showBookTip',[index,i,'$0'],[ [ ['spotData.'+activeIndex+'.classList','',index],['itemlist','',i] ] ] ] ] ] ]}}">
+                                    <block wx:if="{{it.$orig.scenicType!=1}}">{{'已'+(it.$orig.skuItemType==1?'约':'售')+it.f1}}<text class="data-v-344c7ce5">｜</text>
+                                    </block>{{'预'+(it.$orig.skuItemType==1?'约':'订')+'须知'}}</view>
+                                <uni-icons bind:__l="__l" class="data-v-344c7ce5" color="#A6A6A6" size="10" style="margin-top:-7rpx;" type="arrowright" vueId="{{'787e9c56-2-'+index+'-'+i}}"></uni-icons>
+                            </view>
+                        </view>
+                        <view class="tb-right data-v-344c7ce5">
+                            <view class="price-box data-v-344c7ce5">
+                                <block wx:if="{{!it.$orig.stockStatus||it.$orig.sellOut}}">当日已订完</block>
+                                <block wx:else>
+                                    <block wx:if="{{it.$orig.skuItemType==1&&it.$orig.isFree==1}}">免费</block>
+                                    <block wx:else>
+                                        <block wx:if="{{it.$orig.ticketNum<=0}}">
+                                            <text class="del data-v-344c7ce5" wx:if="{{it.$orig.retailPrice>it.$orig.price}}">{{'￥'+it.$orig.retailPrice}}</text>
+                                            <text class="sign data-v-344c7ce5">￥</text>{{''+(it.$orig.seckillActivity==0?it.$orig.seckillPrice:it.$orig.price)+''}}<text class="data-v-344c7ce5" style="color:#777777;font-size:24rpx;margin-left:4rpx;" wx:if="{{it.$orig.startPriceFlag==1}}">起</text>
+                                        </block>
+                                        <block wx:else>
+                                            <text class="del data-v-344c7ce5" wx:if="{{it.$orig.retailPrice>it.$orig.selectedtime.sellPrice}}">{{'￥'+it.$orig.retailPrice}}</text>
+                                            <text class="sign data-v-344c7ce5">￥</text>{{''+it.$orig.selectedtime.sellPrice+''}}</block>
+                                    </block>
+                                </block>
+                            </view>
+                            <view class="{{['tic-num-box','data-v-344c7ce5',!it.$orig.stockStatus||it.$orig.sellOut?'disable':'']}}">
+                                <view bindtap="__e" class="{{['tnb-it','data-v-344c7ce5',it.$orig.ticketNum<=0?'disable':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'reduceNum',[index,i,'$0'],[ [ ['spotData.'+activeIndex+'.classList','',index],['itemlist','',i] ] ] ] ] ] ]}}">-</view>{{''+it.$orig.ticketNum+''}}<view bindtap="__e" class="{{['tnb-it','data-v-344c7ce5',it.m0?'disable':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'addNum',[index,i,'$0'],[ [ ['spotData.'+activeIndex+'.classList','',index],['itemlist','',i] ] ] ] ] ] ]}}">+</view>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="additional-box data-v-344c7ce5" wx:if="{{it.$orig.selectedtime&&it.$orig.selectedtime.time||it.$orig.selectedSku&&it.$orig.selectedSku[0]}}">
+                        <view class="info-box data-v-344c7ce5" wx:if="{{it.$orig.ticketType==1}}">
+                            <view class="info data-v-344c7ce5">{{'入园时段：'+it.$orig.selectedtime.time+''}}</view>
+                            <view bindtap="__e" class="btn data-v-344c7ce5" data-event-opts="{{[ [ 'tap',[ [ 'changeHourTime',[index,i,'$0'],[ [ ['spotData.'+activeIndex+'.classList','',index],['itemlist','',i] ] ] ] ] ] ]}}">修改<u-icon bind:__l="__l" class="data-v-344c7ce5" color="#FF5411" name="arrow-right" size="22" style="margin-top:-4rpx;margin-left:10rpx;" vueId="{{'787e9c56-3-'+index+'-'+i}}"></u-icon>
+                            </view>
+                        </view>
+                        <view class="info-box data-v-344c7ce5" wx:if="{{it.$orig.ticketType==2}}">
+                            <view class="info singleLineText data-v-344c7ce5">
+                                <text class="data-v-344c7ce5" style="margin-right:10rpx;" wx:if="{{t[0]&&t[1]}}" wx:for="{{it.$orig.selectedSku}}" wx:for-index="__i0__" wx:for-item="t">{{''+t[0]+': '+t[1]+''}}</text>
+                            </view>
+                            <view bindtap="__e" class="btn data-v-344c7ce5" data-event-opts="{{[ [ 'tap',[ [ 'changeSkuItem',[index,i,'$0'],[ [ ['spotData.'+activeIndex+'.classList','',index],['itemlist','',i] ] ] ] ] ] ]}}">修改<u-icon bind:__l="__l" class="data-v-344c7ce5" color="#FF5411" name="arrow-right" size="22" style="margin-top:-4rpx;margin-left:10rpx;" vueId="{{'787e9c56-4-'+index+'-'+i}}"></u-icon>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="{{['footer-box','data-v-344c7ce5',showTicketSku||showTimeHour||isShowBookTip?'firstTop':'']}}" style="{{'padding-bottom:'+safeAreaBottom+'rpx'+';'+'height:'+(130+safeAreaBottom)+'rpx'+';'}}">
+        <view class="amount-info data-v-344c7ce5">
+            <view class="amount-box data-v-344c7ce5">
+                <view class="price data-v-344c7ce5">
+                    <view class="p-it data-v-344c7ce5">
+                        <view class="name data-v-344c7ce5">小计</view>
+                        <view class="num data-v-344c7ce5">{{'￥'+allAmount+''}}</view>
+                    </view>
+                    <view class="p-it p-it-last data-v-344c7ce5" wx:if="{{reduction>0}}">
+                        <view class="name pt data-v-344c7ce5">共减</view>
+                        <view class="num pt data-v-344c7ce5">{{'￥'+reduction+''}}</view>
+                    </view>
+                </view>
+            </view>
+            <view bindtap="__e" class="res data-v-344c7ce5" data-event-opts="{{[ [ 'tap',[ [ 'e2',['$event'] ] ] ] ]}}">明细</view>
+            <u-icon bind:__l="__l" bind:click="__e" class="data-v-344c7ce5" color="#FF5411" data-event-opts="{{[ [ '^click',[ ['e3'] ] ] ]}}" name="arrow-up" size="22" style="margin-top:-4rpx;" vueId="787e9c56-5" wx:if="{{!showDetail}}"></u-icon>
+            <u-icon bind:__l="__l" bind:click="__e" class="data-v-344c7ce5" color="#FF5411" data-event-opts="{{[ [ '^click',[ ['e4'] ] ] ]}}" name="arrow-down" size="22" style="margin-top:-4rpx;" vueId="787e9c56-6" wx:else></u-icon>
+        </view>
+        <view bindtap="__e" class="next-btn data-v-344c7ce5" data-event-opts="{{[ [ 'tap',[ ['submit'] ] ] ]}}">下一步</view>
+    </view>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-344c7ce5" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showDetail','$event',[] ] ] ] ] ]}}" height="70%" mode="bottom" value="{{showDetail}}" vueId="787e9c56-7" vueSlots="{{['default']}}">
+        <view class="detailBox data-v-344c7ce5">
+            <view class="title data-v-344c7ce5">价格明细</view>
+            <scroll-view class="content data-v-344c7ce5" scrollY="{{true}}" style="{{'height:'+noticeHeight+'rpx'+';'}}">
+                <view class="item data-v-344c7ce5" wx:for="{{$root.l2}}" wx:key="index">
+                    <view class="tic-title singleLineText data-v-344c7ce5">{{''+item.$orig.destinationName+''}}</view>
+                    <view class="use-time data-v-344c7ce5">{{'使用日期：'+item.f2+''}}</view>
+                    <view class="tic-num-info data-v-344c7ce5">
+                        <view class="it data-v-344c7ce5" wx:for="{{item.$orig.itemList}}" wx:for-index="i" wx:for-item="it" wx:key="i">
+                            <view class="it-l data-v-344c7ce5">
+                                <text class="multilineText2 data-v-344c7ce5">{{''+it.itemTitle+''}}</text>
+                                <view class="tag data-v-344c7ce5" wx:if="{{it.backAmount>0}}">{{'已减'+it.backAmount+'元'}}</view>
+                            </view>
+                            <view class="it-r data-v-344c7ce5">
+                                <text class="p data-v-344c7ce5">{{it.price}}</text>{{'x '+it.ticketNum+'张'}}</view>
+                        </view>
+                    </view>
+                </view>
+                <view class="order-detail data-v-344c7ce5">
+                    <view class="od-item data-v-344c7ce5">
+                        <text class="data-v-344c7ce5">订单总额：</text>
+                        <text class="data-v-344c7ce5">{{'￥'+lineOrderInfo.orderAmount}}</text>
+                    </view>
+                    <view class="od-item color1 data-v-344c7ce5" wx:if="{{lineOrderInfo.reduction>0}}">
+                        <text class="data-v-344c7ce5">多买优惠：</text>
+                        <text class="data-v-344c7ce5">{{'-￥'+lineOrderInfo.reduction}}</text>
+                    </view>
+                    <view class="od-item color2 data-v-344c7ce5">
+                        <text class="color2 data-v-344c7ce5">应付金额：</text>
+                        <text class="data-v-344c7ce5">{{'￥'+lineOrderInfo.allAmount}}</text>
+                    </view>
+                </view>
+            </scroll-view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-344c7ce5" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showTicketSku','$event',[] ] ] ] ] ]}}" height="70%" mode="bottom" value="{{showTicketSku}}" vueId="787e9c56-8" vueSlots="{{['default']}}">
+        <view class="skuBox data-v-344c7ce5">
+            <view class="skuTitle data-v-344c7ce5">选择门票</view>
+            <view class="skuTitle data-v-344c7ce5" style="margin-top:50rpx;">{{''+skuData.aggregationItemName+''}}</view>
+            <view class="use-time data-v-344c7ce5">{{'使用日期：'+$root.f3+''}}</view>
+            <view class="skuTips data-v-344c7ce5" wx:if="{{tipsInfo}}">
+                <view class="info multilineText2 data-v-344c7ce5">{{''+tipsInfo+''}}</view>
+            </view>
+            <scroll-view class="scroll-sku data-v-344c7ce5" scrollY="{{true}}" style="{{'height:'+skuHeight+'rpx'+';'}}">
+                <view class="attr-box data-v-344c7ce5" wx:if="{{attrs[0]}}" wx:for="{{$root.l4}}" wx:for-item="attr" wx:key="index">
+                    <view class="attr-head data-v-344c7ce5">
+                        <view class="attr-name singleLineText data-v-344c7ce5">{{''+attr.$orig.attributeKey+''}}<text bindtap="__e" class="attr-name-desc data-v-344c7ce5" data-event-opts="{{[ [ 'tap',[ [ 'getSkuDesc',['$0'],[ [ ['attrs','',index,'attributeDescContent'] ] ] ] ] ] ]}}" wx:if="{{attr.$orig.attributeDesc}}">{{''+attr.$orig.attributeDesc+''}}</text>
+                        </view>
+                        <image bindtap="__e" class="data-v-344c7ce5" data-event-opts="{{[ [ 'tap',[ [ 'getSkuDesc',['$0'],[ [ ['attrs','',index,'attributeDescContent'] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/172480687839557894.png" wx:if="{{attr.$orig.attributeDescContent&&attr.$orig.attributeDesc}}"></image>
+                    </view>
+                    <view class="attr-scoll data-v-344c7ce5">
+                        <view bindtap="__e" class="{{['attr-it','data-v-344c7ce5',opt.m1?'active':'',!opt.m2?'disabled':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'handleClick',['$0','$1'],[ [ ['attrs','',index,'attributeKey'] ],[ ['attrs','',index],['attrList','',i,'name'] ] ] ] ] ] ]}}" wx:for="{{attr.l3}}" wx:for-index="i" wx:for-item="opt" wx:key="i">{{''+opt.$orig.name+''}}<label class="reduce _span data-v-344c7ce5" wx:if="{{opt.$orig.reduceFlag}}">减</label>
+                        </view>
+                    </view>
+                </view>
+                <view class="bottom-sku data-v-344c7ce5"></view>
+            </scroll-view>
+            <view catchtap="__e" class="sku-info-box data-v-344c7ce5" data-event-opts="{{[ [ 'tap',[ [ 'showBookTip',['$0','$1','$2'],['parentIndex','itemIndex','skuTicData'] ] ] ] ]}}" style="{{'bottom:'+(100+safeAreaBottom)+'rpx'+';'}}" wx:if="{{skuTicData&&skuTicData.itemId}}">
+                <view class="sku-info singleLineText data-v-344c7ce5" style="{{'color:'+(skuTicData.scenicType!=1?'#FF7D2A':'#a17111')+';'}}">{{''+(skuTicData.bookingInfoTag.bookingTag||'--')}}<block wx:if="{{skuTicData.bookingInfoTag.reserveTimeTag}}">{{'｜'+(skuTicData.bookingInfoTag.reserveTimeTag||'--')}}</block>{{'｜'+(skuTicData.bookingInfoTag.refundTag||'--')}}<block wx:if="{{skuTicData.scenicType!=1}}">{{'｜'+(skuTicData.bookingInfoTag.changeTag||'--')}}</block>
+                </view>
+                <view class="sku-tip data-v-344c7ce5">
+                    <view class="l data-v-344c7ce5">{{'预'+(skuTicData.skuItemType==1?'约':'订')+'须知'}}</view>
+                    <uni-icons bind:__l="__l" class="data-v-344c7ce5" color="#555555" size="14" type="arrowright" vueId="{{'787e9c56-9'+','+'787e9c56-8'}}"></uni-icons>
+                </view>
+            </view>
+            <view class="bot-box data-v-344c7ce5" style="{{'padding-bottom:'+safeAreaBottom+'rpx'+';'+'height:'+(100+safeAreaBottom)+'rpx'+';'}}">
+                <view class="price data-v-344c7ce5">
+                    <block wx:if="{{skuTicData&&skuTicData.itemId}}">{{'￥'+skuTicData.price+''}}</block>
+                    <block wx:else>￥--</block>
+                </view>
+                <view bindtap="__e" class="{{['btn','data-v-344c7ce5',skuTicData&&skuTicData.itemId?'act':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'chooseSkuItem',['$0'],['skuTicData'] ] ] ] ]}}">确 定</view>
+            </view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-344c7ce5" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showTimeHour','$event',[] ] ] ] ] ]}}" height="70%" mode="bottom" value="{{showTimeHour}}" vueId="787e9c56-10" vueSlots="{{['default']}}">
+        <view class="hour-box data-v-344c7ce5">
+            <view class="title data-v-344c7ce5">选择门票</view>
+            <view class="title data-v-344c7ce5" style="margin-top:50rpx;">{{''+itemData.itemTitle+''}}</view>
+            <view class="use-time data-v-344c7ce5">{{'使用日期：'+$root.f4+''}}</view>
+            <view class="hour-title data-v-344c7ce5">{{'入'+(itemData.scenicType==1?'寺':'园')+'时段'}}</view>
+            <scroll-view class="scroll-hour data-v-344c7ce5" scrollY="{{true}}" style="{{'height:'+hourHeight+'rpx'+';'}}">
+                <view class="item-box data-v-344c7ce5">
+                    <view bindtap="__e" class="{{['item','data-v-344c7ce5',selectedHourTime.time===item.startTime+'-'+item.endTime?'active':'',itemData.scenicType==1&&selectedHourTim.time===item.startTime+'-'+item.endTime?'csBg':'',item.disabled===true?'disabled':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'selectHourFn',['$0'],[ [ ['itemData.hourArr','id',item.id] ] ] ] ] ] ]}}" wx:for="{{itemData.hourArr}}" wx:key="id">
+                        <view class="p1 data-v-344c7ce5">{{item.startTime+'-'+item.endTime}}</view>
+                        <view class="{{['p2','data-v-344c7ce5',infoObj.scenicType==1?'csColor':'']}}" style="{{'opacity:'+(item.surplusStock===0&&!item.timePassed?1:0)+';'}}" wx:if="{{item.disabled}}">{{infoObj.skuSellOutInfo?infoObj.skuSellOutInfo:infoObj.skuItemType==0?'已满':'约满'}}</view>
+                        <view class="p2 data-v-344c7ce5" wx:else>{{item.surplusStockStr}}</view>
+                    </view>
+                </view>
+            </scroll-view>
+            <view class="bot-box data-v-344c7ce5" style="{{'padding-bottom:'+safeAreaBottom+'rpx'+';'+'height:'+(100+safeAreaBottom)+'rpx'+';'}}">
+                <view class="price data-v-344c7ce5">
+                    <block wx:if="{{itemData&&itemData.itemId}}">{{'￥'+itemData.marketPrice+''}}<text class="data-v-344c7ce5" style="color:#777777;font-size:24rpx;" wx:if="{{itemData.startPriceFlag==1}}">起</text>
+                    </block>
+                    <block wx:else>￥--</block>
+                </view>
+                <view bindtap="__e" class="{{['btn','data-v-344c7ce5',selectedHourTime&&selectedHourTime.time?'act':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'chooseTimeItem',['$0'],['itemData'] ] ] ] ]}}">确 定</view>
+            </view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="32" class="data-v-344c7ce5" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','isShowBookTip','$event',[] ] ] ] ] ]}}" height="70%" mode="bottom" value="{{isShowBookTip}}" vueId="787e9c56-11" vueSlots="{{['default']}}">
+        <view class="ytxz-box data-v-344c7ce5" wx:if="{{ydxz}}">
+            <view class="content-box1 data-v-344c7ce5">
+                <view class="title-box data-v-344c7ce5">
+                    <view class="p1 data-v-344c7ce5" id="ytxz-box-title">{{ydxz.itemTitle}}</view>
+                    <view class="p2 data-v-344c7ce5">
+                        <text class="data-v-344c7ce5" wx:if="{{ydxz.scenicType!=1}}">{{'已'+(ydxz.skuItemType==1?'约':'售')+$root.f5}}</text>
+                    </view>
+                </view>
+                <scroll-view class="bottom-box data-v-344c7ce5" scrollY="true" style="{{'height:'+bookTipHeight+'rpx'+';'}}">
+                    <view class="line1 data-v-344c7ce5" wx:if="{{ydxz.bookingInfoTag}}">
+                        <view class="title data-v-344c7ce5">{{(ydxz.skuItemType==1?'预约':'购买')+'须知'}}</view>
+                        <view class="b data-v-344c7ce5">
+                            <view class="item data-v-344c7ce5" wx:if="{{ydxz.itemUseDesc&&ydxz.itemUseDesc.dateType==1}}">
+                                <view class="l lc data-v-344c7ce5" wx:if="{{ydxz.scenicType==1}}">入寺先预约</view>
+                                <view class="l data-v-344c7ce5" wx:else>{{ydxz.bookingInfoTag.bookingTag}}</view>
+                                <view class="r data-v-344c7ce5">
+                                    <view class="refundItem data-v-344c7ce5" wx:if="{{ydxz.bookingInfoTag.validityModeBookStr1}}">{{''+ydxz.bookingInfoTag.validityModeBookStr1}}</view>
+                                    <view class="refundItem data-v-344c7ce5" wx:if="{{ydxz.bookingInfoTag.validityModeBookStr2}}">{{''+ydxz.bookingInfoTag.validityModeBookStr2}}</view>
+                                    <view class="refundItem data-v-344c7ce5" wx:if="{{ydxz.bookingInfoTag.validityModeBookStr3}}">{{''+ydxz.bookingInfoTag.validityModeBookStr3}}</view>
+                                </view>
+                            </view>
+                            <view class="item data-v-344c7ce5" wx:else>
+                                <view class="l lc data-v-344c7ce5" wx:if="{{ydxz.scenicType==1}}">入寺先预约</view>
+                                <view class="l data-v-344c7ce5" wx:else>{{ydxz.bookingInfoTag.bookingTag}}</view>
+                                <view class="r data-v-344c7ce5">{{ydxz.bookingInfoTag.bookingTimeStr+(ydxz.bookingInfoTag.reserveTimeStr?'，'+ydxz.bookingInfoTag.reserveTimeStr:'')}}</view>
+                            </view>
+                            <view class="item data-v-344c7ce5" wx:if="{{ydxz.scenicType!=1}}">
+                                <view class="l data-v-344c7ce5">{{ydxz.bookingInfoTag.changeTag}}</view>
+                                <view class="r data-v-344c7ce5">{{ydxz.bookingInfoTag.changeStr}}</view>
+                            </view>
+                            <view class="item data-v-344c7ce5">
+                                <view class="{{['l','data-v-344c7ce5',ydxz.scenicType==1?'lc':'']}}">{{ydxz.bookingInfoTag.refundTag}}</view>
+                                <view class="r data-v-344c7ce5" wx:if="{{ydxz.bookingInfoTag&&ydxz.bookingInfoTag.refundStr&&ydxz.bookingInfoTag.refundTag!='条件退'}}">
+                                    <view class="data-v-344c7ce5" wx:for="{{$root.l5}}">
+                                        <view class="refundItem data-v-344c7ce5">{{item}}</view>
+                                    </view>
+                                </view>
+                                <view class="r data-v-344c7ce5" wx:else>
+                                    <view class="data-v-344c7ce5">
+                                        <view class="refundItem data-v-344c7ce5">退款规则如下：</view>
+                                    </view>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="table data-v-344c7ce5" wx:if="{{ydxz.bookingInfoTag&&ydxz.bookingInfoTag.refundTag=='条件退'}}">
+                        <view class="tr first data-v-344c7ce5" wx:if="{{ydxz.bookingInfoTag&&ydxz.bookingInfoTag.refundTag!='不可退'}}">
+                            <view class="td data-v-344c7ce5" style="font-weight:bold;width:480rpx;">退款时间</view>
+                            <view class="td data-v-344c7ce5" style="font-weight:bold;width:210rpx;">损失费用</view>
+                        </view>
+                        <view class="tr data-v-344c7ce5" wx:if="{{item.timeDesc}}" wx:for="{{ydxz.refundFeeList}}" wx:for-index="__i1__">
+                            <view class="td data-v-344c7ce5" style="width:480rpx;">{{item.timeDesc||''}}</view>
+                            <view class="td data-v-344c7ce5" style="width:210rpx;">{{item.feeDesc||''}}</view>
+                        </view>
+                        <view class="tr data-v-344c7ce5" wx:if="{{ydxz.bookingInfoTag&&ydxz.bookingInfoTag.refundStr1}}">
+                            <view class="td data-v-344c7ce5" style="width:690rpx;display:block;">
+                                <view class="data-v-344c7ce5" wx:for="{{$root.l6}}" wx:for-index="i" wx:for-item="it">
+                                    <view class="refundItem data-v-344c7ce5">{{it}}</view>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="line2 data-v-344c7ce5" wx:if="{{ydxz.scenicType!=1&&ydxz.bookingInfoTag&&(ydxz.bookingInfoTag.feeIncludes||ydxz.bookingInfoTag.feeNotIncludes)}}">
+                        <view class="title data-v-344c7ce5">{{(ydxz.skuItemType==1?'预约':'费用')+'说明'}}</view>
+                        <view class="b data-v-344c7ce5">
+                            <view class="options data-v-344c7ce5" wx:if="{{ydxz.bookingInfoTag.feeIncludes}}">
+                                <view class="title data-v-344c7ce5">{{(ydxz.skuItemType==1?'预约':'费用')+'包含：'}}</view>
+                                <view class="content data-v-344c7ce5">
+                                    <u-parse bind:__l="__l" class="data-v-344c7ce5 vue-ref" color="#777474" data-ref="article" html="{{ydxz.bookingInfoTag.feeIncludes}}" lazyLoad="{{true}}" tagStyle="{{parseStyle1}}" vueId="{{'787e9c56-12'+','+'787e9c56-11'}}"></u-parse>
+                                </view>
+                            </view>
+                            <view class="options data-v-344c7ce5" wx:if="{{ydxz.bookingInfoTag.feeNotIncludes}}">
+                                <view class="title data-v-344c7ce5">{{(ydxz.skuItemType==1?'预约':'费用')+'不含：'}}</view>
+                                <view class="content data-v-344c7ce5">
+                                    <u-parse bind:__l="__l" class="data-v-344c7ce5 vue-ref" color="#777474" data-ref="article" html="{{ydxz.bookingInfoTag.feeNotIncludes}}" lazyLoad="{{true}}" tagStyle="{{parseStyle1}}" vueId="{{'787e9c56-13'+','+'787e9c56-11'}}"></u-parse>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="line2 data-v-344c7ce5" wx:if="{{ydxz.scenicType!=1&&ydxz.bookingInfoTag&&ydxz.bookingInfoTag.entranceDetail}}">
+                        <view class="title data-v-344c7ce5">使用说明</view>
+                        <view class="b data-v-344c7ce5">
+                            <u-parse bind:__l="__l" class="data-v-344c7ce5 vue-ref" data-ref="article" html="{{ydxz.bookingInfoTag.entranceDetail}}" lazyLoad="{{true}}" tagStyle="{{parseStyle1}}" vueId="{{'787e9c56-14'+','+'787e9c56-11'}}"></u-parse>
+                        </view>
+                    </view>
+                    <view class="line2 data-v-344c7ce5" wx:if="{{ydxz.scenicType!=1&&ydxz.bookingInfoTag&&ydxz.bookingInfoTag.bookNote}}">
+                        <view class="title data-v-344c7ce5">其它说明</view>
+                        <view class="b data-v-344c7ce5">
+                            <u-parse bind:__l="__l" class="data-v-344c7ce5 vue-ref" data-ref="article" html="{{ydxz.bookingInfoTag.bookNote}}" lazyLoad="{{true}}" tagStyle="{{parseStyle1}}" vueId="{{'787e9c56-15'+','+'787e9c56-11'}}"></u-parse>
+                        </view>
+                    </view>
+                    <image class="community-box data-v-344c7ce5" mode="widthFix" showMenuByLongpress="{{true}}" src="{{ydxz.communityUrl}}" wx:if="{{ydxz.communityUrl}}"></image>
+                    <view class="line3 data-v-344c7ce5">
+                        <view class="title data-v-344c7ce5">客服电话</view>
+                        <view class="b data-v-344c7ce5" wx:if="{{ydxz.scenicType!=1}}">
+                            <view class="item data-v-344c7ce5">
+                                <view class="col1 data-v-344c7ce5">平台</view>
+                                <view class="col2 data-v-344c7ce5">门票或订单问题</view>
+                                <view class="col3 data-v-344c7ce5">4000292296</view>
+                                <view class="col4 data-v-344c7ce5">
+                                    <image mode bindtap="__e" class="data-v-344c7ce5" data-event-opts="{{[ [ 'tap',[ [ 'call',['4000292296'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/spotIntroNew/dianhua.png"></image>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="line3 data-v-344c7ce5" wx:for="{{ydxz.telephoneVoList}}" wx:for-index="__i2__">
+                        <view class="b data-v-344c7ce5">
+                            <view class="item data-v-344c7ce5">
+                                <view class="{{['col1','data-v-344c7ce5',ydxz.scenicType==1?'col1c':'']}}">{{(ydxz.scenicType!=1?'官方':'客堂')+''}}</view>
+                                <view class="col2 singleLineText data-v-344c7ce5">{{item.telephoneTitle||''}}</view>
+                                <view class="col3 singleLineText data-v-344c7ce5">{{item.telephone||''}}</view>
+                                <view class="col4 data-v-344c7ce5">
+                                    <image mode bindtap="__e" class="data-v-344c7ce5" data-event-opts="{{[ [ 'tap',[ [ 'call',['$0'],[ [ ['ydxz.telephoneVoList','',__i2__,'telephone'] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/spotIntroNew/dianhua.png"></image>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="data-v-344c7ce5" style="opacity:0;width:0;height:0;">-</view>
+                </scroll-view>
+            </view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-344c7ce5" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showAllTime','$event',[] ] ] ] ] ]}}" mode="center" value="{{showAllTime}}" vueId="787e9c56-16" vueSlots="{{['default']}}">
+        <view class="calendar-box data-v-344c7ce5" wx:if="{{$root.g1>0}}">
+            <yu-calendar bind:__l="__l" bind:getDataInDay="__e" class="data-v-344c7ce5" data-event-opts="{{[ [ '^getDataInDay',[ ['itemClickFn'] ] ] ]}}" defaultDate="{{selectDateStr}}" priceList="{{dateData}}" vueId="{{'787e9c56-17'+','+'787e9c56-16'}}"></yu-calendar>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-344c7ce5" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showGroupErr','$event',[] ] ] ] ] ]}}" mode="center" value="{{showGroupErr}}" vueId="787e9c56-18" vueSlots="{{['default']}}">
+        <view class="errBox data-v-344c7ce5">
+            <view class="name data-v-344c7ce5">温馨提示</view>
+            <view class="err-item data-v-344c7ce5">{{'当前日期 “'+$root.g2+'” 库存不足，需清除数量重新选择!'}}</view>
+            <view bindtap="__e" class="but-popup data-v-344c7ce5" data-event-opts="{{[ [ 'tap',[ [ 'e5',['$event'] ] ] ] ]}}">取 消</view>
+            <view bindtap="__e" class="but-popup1 data-v-344c7ce5" data-event-opts="{{[ [ 'tap',[ [ 'confirmOrder',['$event'] ] ] ] ]}}">确 定</view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-344c7ce5" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showTips','$event',[] ] ] ] ] ]}}" mode="center" value="{{showTips}}" vueId="787e9c56-19" vueSlots="{{['default']}}">
+        <view class="popup-tips data-v-344c7ce5">
+            <view class="data-v-344c7ce5" style="font-weight:bold;text-align:center;width:100%;margin-bottom:20rpx;">什么是多买减？</view>带有“多买减*元”标识的产品，在当前页面一次性购买多个景区的（同一景区购买多张门票不减）门票享立减优惠，具体优惠金额以明细内减少金额为准</view>
+    </u-popup>
+</view>

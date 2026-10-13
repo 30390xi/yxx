@@ -1,0 +1,14 @@
+<view class="data-v-2d325771">
+    <view bindtap="__e" class="contents data-v-2d325771" data-event-opts="{{[ [ 'tap',[ [ 'changepassword',['$event'] ] ] ] ]}}">
+        <view class="data-v-2d325771">修改登录密码</view>
+        <view class="data-v-2d325771">
+            <uni-icons bind:__l="__l" class="data-v-2d325771" color="#c8c8c8" type="arrowright" vueId="4f575980-1"></uni-icons>
+        </view>
+    </view>
+    <view bindtap="__e" class="contents data-v-2d325771" data-event-opts="{{[ [ 'tap',[ [ 'setpassword',['$event'] ] ] ] ]}}">
+        <view class="data-v-2d325771">设置提现密码</view>
+        <view class="data-v-2d325771">
+            <uni-icons bind:__l="__l" class="data-v-2d325771" color="#c8c8c8" type="arrowright" vueId="4f575980-2"></uni-icons>
+        </view>
+    </view>
+</view>

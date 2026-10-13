@@ -1,0 +1,54 @@
+<view class="{{['page-box','data-v-6a8589f5',showHide?'page-box-image1':'page-box-image2']}}">
+    <view bindtap="__e" class="data-v-6a8589f5" data-event-opts="{{[ [ 'tap',[ [ 'showFun',['$event'] ] ] ] ]}}" style="position:fixed;height:140rpx;width:100%;z-index:111;" wx:if="{{!showHide}}"></view>
+    <uni-navbar bind:__l="__l" class="data-v-6a8589f5" type="transparentFixed" vueId="612c7e5f-1"></uni-navbar>
+    <image class="video_box1 data-v-6a8589f5" hidden="{{!showHide}}" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173647213623932206.png"></image>
+    <image class="video_box1 data-v-6a8589f5" hidden="{{!!showHide}}" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173647694935403302.png"></image>
+    <image mode class="fireworks1 data-v-6a8589f5" src="https://eshopfile.zhiyousx.com/173650265898469613.png"></image>
+    <image mode class="fireworks2 data-v-6a8589f5" src="https://eshopfile.zhiyousx.com/173650482751437807.png"></image>
+    <image mode class="fireworks3 data-v-6a8589f5" src="https://eshopfile.zhiyousx.com/173650483980311452.png"></image>
+    <z-paging bind:__l="__l" bind:hidedKeyboard="__e" bind:input="__e" bind:keyboardHeightChange="__e" bottomBgColor="{{resres>0?'#d62f18':'linear-gradient( 180deg, rgba(255,255,255,0) 0%, #FFD899 100%)'}}" class="data-v-6a8589f5 vue-ref" data-event-opts="{{[ [ '^hidedKeyboard',[ ['hidedKeyboard'] ] ],[ '^keyboardHeightChange',[ ['keyboardHeightChange'] ] ],[ '^input',[ [ '__set_model',[ '','dataList','$event',[] ] ] ] ] ]}}" data-ref="paging" safeAreaInsetBottom="{{isIos}}" style="position:fixed;z-index:11;" toBottomLoadingMoreEnabled="{{true}}" useChatRecordMode="{{true}}" value="{{dataList}}" vueId="612c7e5f-2" vueSlots="{{['default','top','bottom']}}">
+        <view slot="top">
+            <view bindtap="__e" class="data-v-6a8589f5" data-event-opts="{{[ [ 'tap',[ [ 'showFun',['$event'] ] ] ] ]}}" style="height:300rpx;width:100%;" wx:if="{{!showHide}}"></view>
+            <view class="content-box data-v-6a8589f5" wx:if="{{showHide}}">
+                <view class="greet-box data-v-6a8589f5">
+                    <view class="greet-box-t data-v-6a8589f5">{{'HI，'+$root.m0+'~'}}</view>
+                    <view class="greet-box-b data-v-6a8589f5">
+                        <view class="greet-box-l data-v-6a8589f5">我是城墙智能客服，有什么问题，尽管问我哦！</view>
+                    </view>
+                </view>
+                <view class="default-box data-v-6a8589f5" style="{{'height:'+(smallScreen?'400rpx':'')+';'+'overflow:'+(smallScreen?'auto':'')+';'}}">
+                    <view class="default-l data-v-6a8589f5" style="{{'min-height:'+(smallScreen?'500rpx':'')+';'}}" wx:for="{{tripList}}" wx:for-index="__i0__" wx:for-item="m" wx:key="id">
+                        <view class="default-h data-v-6a8589f5">
+                            <image mode class="default-image data-v-6a8589f5" src="{{m.iconUrl}}"></image>
+                            <text class="default-text data-v-6a8589f5" style="{{'color:'+m.titleColor+';'}}">{{m.title}}</text>
+                        </view>
+                        <view bindtap="__e" class="default-item data-v-6a8589f5" data-event-opts="{{[ [ 'tap',[ [ 'goQuestion',['$0',1],[ [ ['tripList','id',m.id],['contentList','id',el.id,'content'] ] ] ] ] ] ]}}" style="{{'background-color:'+el.bgColor+';'}}" wx:for="{{m.contentList}}" wx:for-index="i" wx:for-item="el" wx:key="id">{{''+el.content+''}}</view>
+                    </view>
+                    <view class="default-r data-v-6a8589f5">
+                        <view class="default-t data-v-6a8589f5" wx:for="{{scenicSpotList}}" wx:for-index="__i1__" wx:for-item="m" wx:key="id">
+                            <view class="default-h data-v-6a8589f5">
+                                <image mode class="default-image data-v-6a8589f5" src="{{m.iconUrl}}"></image>
+                                <text class="default-text data-v-6a8589f5" style="{{'color:'+m.titleColor+';'}}">{{m.title}}</text>
+                            </view>
+                            <view bindtap="__e" class="default-item data-v-6a8589f5" data-event-opts="{{[ [ 'tap',[ [ 'goQuestion',['$0',2],[ [ ['scenicSpotList','id',m.id],['contentList','id',el.id,'content'] ] ] ] ] ] ]}}" style="{{'background-color:'+el.bgColor+';'}}" wx:for="{{m.contentList}}" wx:for-index="i" wx:for-item="el" wx:key="id">{{''+el.content+''}}</view>
+                        </view>
+                        <view class="default-b data-v-6a8589f5" wx:for="{{deliciousFoodList}}" wx:for-index="__i2__" wx:for-item="m" wx:key="id">
+                            <view class="default-h data-v-6a8589f5">
+                                <image mode class="default-image data-v-6a8589f5" src="{{m.iconUrl}}"></image>
+                                <text class="default-text data-v-6a8589f5" style="{{'color:'+m.titleColor+';'}}">{{m.title}}</text>
+                            </view>
+                            <view bindtap="__e" class="default-item data-v-6a8589f5" data-event-opts="{{[ [ 'tap',[ [ 'goQuestion',['$0',3],[ [ ['deliciousFoodList','id',m.id],['contentList','id',el.id,'content'] ] ] ] ] ] ]}}" style="{{'background-color:'+el.bgColor+';'}}" wx:for="{{m.contentList}}" wx:for-index="i" wx:for-item="el" wx:key="id">{{''+el.content+''}}</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <chat-input-bar bg="{{true}}" bind:__l="__l" bind:clearData="__e" bind:clearDataStop="__e" bind:send="__e" bind:setShowHide="__e" bind:stopSpeak="__e" class="data-v-6a8589f5 vue-ref" data-event-opts="{{[ [ '^stopSpeak',[ ['stopSpeak'] ] ],[ '^setShowHide',[ ['setShowHide'] ] ],[ '^clearData',[ ['clearData'] ] ],[ '^clearDataStop',[ ['clearDataStop'] ] ],[ '^send',[ ['doSend'] ] ] ]}}" data-ref="inputBar" delayBtn="{{delayBtn}}" isIos="{{isIos}}" pushingProgress="{{pushingProgress}}" pushingProgressShow="{{pushingProgressShow}}" showHide="{{showHide}}" slot="bottom" vueId="{{'612c7e5f-3'+','+'612c7e5f-2'}}"></chat-input-bar>
+        <view class="data-v-6a8589f5" style="width:100%;height:60rpx;" wx:if="{{!showHide}}"></view>
+        <view class="data-v-6a8589f5" style="position:relative;" wx:if="{{!showHide}}" wx:for="{{dataList}}" wx:key="index">
+            <view class="data-v-6a8589f5" style="transform:scaleY(-1);">
+                <chat-item bind:__l="__l" bind:askAgain="__e" bind:exclusive="__e" bind:explain="__e" bind:stopSpeak="__e" class="data-v-6a8589f5" data-event-opts="{{[ [ '^askAgain',[ ['askAgain'] ] ],[ '^exclusive',[ ['exclusive'] ] ],[ '^explain',[ ['openAudio'] ] ],[ '^stopSpeak',[ ['stopSpeak'] ] ] ]}}" dataList="{{dataList}}" item="{{item}}" newVal="{{newVal}}" pushingProgress="{{pushingProgress}}" vueId="{{'612c7e5f-4-'+index+','+'612c7e5f-2'}}"></chat-item>
+            </view>
+        </view>
+    </z-paging>
+</view>

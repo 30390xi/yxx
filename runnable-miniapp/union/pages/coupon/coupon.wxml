@@ -1,0 +1,53 @@
+<view class="u-wrap page-box data-v-299e5889" style="{{'overflow:'+(showSortPop||showChoosePop?'hidden':'visible')+';'+'height:'+(showSortPop||showChoosePop?'100vh':'auto')+';'}}">
+    <uni-navbar bind:__l="__l" class="data-v-299e5889" title="旅游出行" titleCenter="{{false}}" transparentFixedFontColor="{{titleColor}}" type="transparentFixed" vueId="75b9dd80-1"></uni-navbar>
+    <view class="top-box data-v-299e5889">
+        <image class="bg-img data-v-299e5889" mode="aspectFill" src="https://eshopfile.zhiyousx.com/2024062118322195121.png" style="{{'opacity:'+1-scrollTop/scrollTopLimit+';'}}"></image>
+        <view class="{{['search-box','data-v-299e5889',scrollTop>scrollTopLimit/2?'changeS':'']}}" style="{{'top:'+menuButtonInfo.bottom+10+'px'+';'}}">
+            <text class="data-v-299e5889" wx:if="{{month}}">{{month+'月'}}</text>文旅消费福利·每月1日0点更新</view>
+    </view>
+    <view class="top-tab-b data-v-299e5889" style="{{'background:'+(showSortPop||showChoosePop?'#FFFFFF':scrollTop>scrollTopLimit/2?'#FFFFFF':'#F5F5F4')+';'}}">
+        <scroll-view class="tab-box data-v-299e5889" scrollWithAnimation="{{true}}" scrollX="{{true}}">
+            <view class="tab-left data-v-299e5889"></view>
+            <view bindtap="__e" class="{{['tab-item','data-v-299e5889',itemType==item.itemType?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeType',['$0'],[ [ ['tabList','',index] ] ] ] ] ] ]}}" wx:for="{{tabList}}" wx:key="index">{{''+item.name+''}}</view>
+        </scroll-view>
+    </view>
+    <view class="module-box data-v-299e5889">
+        <view class="store-item data-v-299e5889" wx:for="{{$root.l0}}" wx:for-index="i" wx:for-item="it" wx:key="i">
+            <view class="img-b data-v-299e5889">
+                <image class="data-v-299e5889" mode="aspectFill" src="{{it.$orig.showImage}}"></image>
+                <view class="tip data-v-299e5889">{{''+(it.$orig.itemType==1?'门票':'线路')+''}}</view>
+            </view>
+            <view class="info-box data-v-299e5889">
+                <view class="name-b data-v-299e5889">
+                    <view class="name singleLineText data-v-299e5889">{{''+it.$orig.showName+''}}</view>
+                    <view class="sub data-v-299e5889">券后<text class="price data-v-299e5889">{{'￥'+it.$orig.afterCouponPrice}}</text>
+                        <text class="qi data-v-299e5889">起</text>
+                        <text class="del data-v-299e5889">{{'￥'+it.$orig.itemSellPrice}}</text>
+                    </view>
+                </view>
+                <view class="ad-b data-v-299e5889">
+                    <view class="c-l data-v-299e5889">
+                        <view class="c-info data-v-299e5889" wx:if="{{it.$orig.type==3}}">
+                            <text class="price data-v-299e5889">免单</text>
+                            <text class="pt data-v-299e5889">{{it.f0}}</text>
+                        </view>
+                        <view class="c-info data-v-299e5889" wx:else>￥<text class="price data-v-299e5889">{{it.$orig.quota}}</text>
+                            <text class="pt data-v-299e5889">{{it.f1}}</text>
+                        </view>
+                        <view class="c-num data-v-299e5889">{{'已领'+it.m0+'张'}}</view>
+                    </view>
+                    <view bindtap="__e" class="{{['c-r','data-v-299e5889',it.$orig.receiveButton==2||it.$orig.receiveButton==4||it.$orig.receiveButton==5?'dis':'',it.$orig.receiveButton==1?'crb':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'receiveCoupon',['$0'],[ [ ['couponList','',i] ] ] ] ] ] ]}}">
+                        <block wx:if="{{it.$orig.receiveButton==1}}">
+                            <view class="data-v-299e5889">立即</view>
+                            <view class="data-v-299e5889">领取</view>
+                        </block>
+                        <view class="data-v-299e5889" wx:else>{{''+it.f2+''}}</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="empty-box allcenter data-v-299e5889" wx:if="{{$root.g0}}">
+        <image mode class="data-v-299e5889" src="https://eshopfile.zhiyousx.com/2024061417153003821.png"></image>
+    </view>
+</view>

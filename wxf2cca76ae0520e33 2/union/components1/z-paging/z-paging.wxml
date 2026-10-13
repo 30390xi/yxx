@@ -1,0 +1,119 @@
+<view class="{{['data-v-262182c8',true?'z-paging-content':'',!usePageScroll?'z-paging-content-full':'',!usePageScroll&&fixed?'z-paging-content-fixed':'',usePageScroll?'z-paging-content-page':'',renderPropScrollTop<1?'z-paging-reached-top':'',useChatRecordMode?'z-paging-use-chat-record-mode':'']}}" style="{{$root.s0}}">
+    <view class="zp-safe-area-inset-bottom data-v-262182c8" wx:if="{{cssSafeAreaInsetBottom===-1}}"></view>
+    <view catchtouchmove="__e" class="zp-f2-content data-v-262182c8" data-event-opts="{{[ [ 'touchmove',[ [ '',['$event'] ] ] ] ]}}" style="{{'transform:'+f2Transform+';'+'transition:'+'transform .2s linear'+';'+'height:'+superContentHeight+'px'+';'+'z-index:'+f2ZIndex+';'}}" wx:if="{{showF2&&showRefresherF2}}">
+        <slot name="f2"></slot>
+    </view>
+    <slot name="top" wx:if="{{!usePageScroll&&zSlots.top}}"></slot>
+    <block wx:else>
+        <view catchtouchmove="__e" class="zp-page-top data-v-262182c8" data-event-opts="{{[ [ 'touchmove',[ [ '',['$event'] ] ] ] ]}}" style="{{'top:'+windowTop+'px'+';'+'z-index:'+topZIndex+';'}}" wx:if="{{usePageScroll&&zSlots.top}}">
+            <slot name="top"></slot>
+        </view>
+    </block>
+    <view class="{{['data-v-262182c8',true?'zp-view-super':'',!usePageScroll?'zp-scroll-view-super':'']}}" style="{{$root.s1}}">
+        <view class="{{['data-v-262182c8',true?'zp-page-left':'',finalIsOldWebView?'zp-absoulte':'']}}" wx:if="{{zSlots.left}}">
+            <slot name="left"></slot>
+        </view>
+        <view class="{{['data-v-262182c8',true?'zp-scroll-view-container':'',finalIsOldWebView?'zp-absoulte':'']}}" style="{{$root.s2}}">
+            <scroll-view bindrefresherrefresh="__e" bindrefresherrestore="__e" bindscroll="__e" bindscrolltolower="__e" bindscrolltoupper="__e" class="{{['data-v-262182c8','vue-ref',true?'zp-scroll-view':'',!usePageScroll?'zp-scroll-view-absolute':'',!showScrollbar?'zp-scroll-view-hide-scrollbar':'']}}" data-event-opts="{{[ [ 'scroll',[ [ '_scroll',['$event'] ] ] ],[ 'scrolltolower',[ [ '_onScrollToLower',['$event'] ] ] ],[ 'scrolltoupper',[ [ '_onScrollToUpper',['$event'] ] ] ],[ 'refresherrestore',[ [ '_onRestore',['$event'] ] ] ],[ 'refresherrefresh',[ [ '_onRefresh',[true] ] ] ] ]}}" data-ref="zp-scroll-view" enableBackToTop="{{finalEnableBackToTop}}" lowerThreshold="{{finalLowerThreshold}}" refresherBackground="{{refresherBackground}}" refresherDefaultStyle="{{finalRefresherDefaultStyle}}" refresherEnabled="{{finalRefresherEnabled&&!useCustomRefresher}}" refresherThreshold="{{finalRefresherThreshold}}" refresherTriggered="{{finalRefresherTriggered}}" scrollIntoView="{{scrollIntoView}}" scrollTop="{{scrollTop}}" scrollWithAnimation="{{finalScrollWithAnimation}}" scrollX="{{scrollX}}" scrollY="{{finalScrollable}}" showScrollbar="{{showScrollbar}}" style="{{$root.s3}}" upperThreshold="{{5}}">
+                <view bindmousedown="{{pagingWxs.mousedown}}" bindmouseleave="{{pagingWxs.mouseleave}}" bindmousemove="{{pagingWxs.mousemove}}" bindmouseup="{{pagingWxs.mouseup}}" bindtouchcancel="{{pagingWxs.touchend}}" bindtouchend="{{pagingWxs.touchend}}" bindtouchmove="{{pagingWxs.touchmove}}" bindtouchstart="{{pagingWxs.touchstart}}" class="zp-paging-touch-view data-v-262182c8">
+                    <view class="zp-fixed-bac-view data-v-262182c8" style="{{'background:'+refresherFixedBackground+';'+'height:'+finalRefresherFixedBacHeight+'px'+';'}}" wx:if="{{finalRefresherFixedBacHeight>0}}"></view>
+                    <view change:prop="{{pagingWxs.propObserver}}" class="zp-paging-main data-v-262182c8" data-hasTouchmove="{{hasTouchmove}}" data-isIos="{{isIos}}" data-loading="{{loading||isRefresherInComplete}}" data-oldIsTouchmoving="{{isTouchmoving}}" data-pageScrollTop="{{wxsPageScrollTop}}" data-refresherAecc="{{refresherAngleEnableChangeContinued}}" data-refresherEnabled="{{refresherEnabled}}" data-refresherF2Enabled="{{refresherF2Enabled}}" data-refresherF2Threshold="{{finalRefresherF2Threshold}}" data-refresherMaxAngle="{{refresherMaxAngle}}" data-refresherNoTransform="{{refresherNoTransform}}" data-refresherOutRate="{{finalRefresherOutRate}}" data-refresherPullRate="{{finalRefresherPullRate}}" data-refresherThreshold="{{finalRefresherThreshold}}" data-scrollTop="{{wxsScrollTop}}" data-useChatRecordMode="{{useChatRecordMode}}" data-useCustomRefresher="{{useCustomRefresher}}" data-usePageScroll="{{usePageScroll}}" data-watchTouchDirectionChange="{{watchTouchDirectionChange}}" prop="{{wxsPropType}}" style="{{$root.s4}}">
+                        <view class="zp-custom-refresher-view data-v-262182c8" style="{{'margin-top:'+'-'+finalRefresherThreshold+refresherThresholdUpdateTag+'px'+';'+'background:'+refresherBackground+';'+'opacity:'+(isTouchmoving?1:0)+';'}}" wx:if="{{showRefresher}}">
+                            <view class="zp-custom-refresher-container data-v-262182c8" style="{{'height:'+finalRefresherThreshold+'px'+';'+'background:'+refresherBackground+';'}}">
+                                <view class="zp-custom-refresher-status-bar-placeholder data-v-262182c8" style="{{'height:'+statusBarHeight+'px'+';'}}" wx:if="{{useRefresherStatusBarPlaceholder}}"></view>
+                                <view class="zp-custom-refresher-slot-view data-v-262182c8">
+                                    <block wx:if="{{!(zSlots.refresherComplete&&refresherStatus===R.Complete)&&!(zSlots.refresherF2&&refresherStatus===R.GoF2)}}">
+                                        <slot name="refresher"></slot>
+                                        <scoped-slots-refresher bind:__l="__l" class="scoped-ref" refresherStatus="{{refresherStatus}}"></scoped-slots-refresher>
+                                    </block>
+                                </view>
+                                <slot name="refresherComplete" wx:if="{{zSlots.refresherComplete&&refresherStatus===R.Complete}}"></slot>
+                                <block wx:else>
+                                    <slot name="refresherF2" wx:if="{{zSlots.refresherF2&&refresherStatus===R.GoF2}}"></slot>
+                                    <block wx:else>
+                                        <z-paging-refresh bind:__l="__l" class="zp-custom-refresher-refresh data-v-262182c8 vue-ref" completeImg="{{refresherCompleteImg}}" completeText="{{finalRefresherCompleteText}}" data-ref="refresh" defaultImg="{{refresherDefaultImg}}" defaultText="{{finalRefresherDefaultText}}" defaultThemeStyle="{{finalRefresherThemeStyle}}" goF2Text="{{finalRefresherGoF2Text}}" imgStyle="{{refresherImgStyle}}" pullingImg="{{refresherPullingImg}}" pullingText="{{finalRefresherPullingText}}" refreshingAnimated="{{refresherRefreshingAnimated}}" refreshingImg="{{refresherRefreshingImg}}" refreshingText="{{finalRefresherRefreshingText}}" showUpdateTime="{{showRefresherUpdateTime}}" status="{{refresherStatus}}" style="{{'height:'+finalRefresherThreshold-finalRefresherThresholdPlaceholder+'px'+';'}}" unit="{{unit}}" updateTimeKey="{{refresherUpdateTimeKey}}" updateTimeStyle="{{refresherUpdateTimeStyle}}" updateTimeTextMap="{{finalRefresherUpdateTimeTextMap}}" vueId="085f6eae-1" wx:if="{{!showCustomRefresher}}"></z-paging-refresh>
+                                    </block>
+                                </block>
+                            </view>
+                        </view>
+                        <view class="zp-paging-container data-v-262182c8" style="{{'justify-content:'+(useChatRecordMode?'flex-end':'flex-start')+';'}}">
+                            <slot name="loading" wx:if="{{showLoading&&zSlots.loading&&!loadingFullFixed}}"></slot>
+                            <view class="zp-paging-container-content data-v-262182c8" style="{{$root.s5}}">
+                                <view class="zp-virtual-placeholder data-v-262182c8" style="{{'height:'+virtualPlaceholderTopHeight+'px'+';'}}" wx:if="{{useVirtualList}}"></view>
+                                <slot></slot>
+                                <block wx:if="{{finalUseInnerList}}">
+                                    <slot name="header"></slot>
+                                    <view class="zp-list-container data-v-262182c8" style="{{$root.s6}}">
+                                        <block wx:if="{{finalUseVirtualList}}">
+                                            <view bindtap="__e" class="zp-list-cell data-v-262182c8" data-event-opts="{{[ [ 'tap',[ [ '_innerCellClick',['$0',virtualTopRangeIndex+index],[ [ [ 'virtualList','zp_unique_index',item.$orig['zp_unique_index'] ] ] ] ] ] ] ]}}" id="{{'zp-id-'+item.$orig[virtualCellIndexKey]}}" style="{{item.s7}}" wx:for="{{$root.l0}}" wx:key="zp_unique_index">
+                                                <view class="data-v-262182c8" wx:if="{{useCompatibilityMode}}">使用兼容模式请在组件源码z-paging.vue第101行中注释这一行，并打开下面一行注释</view>
+                                                <block wx:else>
+                                                    <slot name="cell"></slot>
+                                                    <scoped-slots-cell bind:__l="__l" class="scoped-ref" index="{{virtualTopRangeIndex+index}}" item="{{item.$orig}}"></scoped-slots-cell>
+                                                </block>
+                                            </view>
+                                        </block>
+                                        <block wx:else>
+                                            <view bindtap="__e" class="zp-list-cell data-v-262182c8" data-event-opts="{{[ [ 'tap',[ [ '_innerCellClick',['$0',index],[ [ ['realTotalData','',index] ] ] ] ] ] ]}}" wx:for="{{$root.l1}}" wx:key="index">
+                                                <slot name="cell"></slot>
+                                                <scoped-slots-cell bind:__l="__l" class="scoped-ref" index="{{index}}" item="{{item.$orig}}"></scoped-slots-cell>
+                                            </view>
+                                        </block>
+                                    </view>
+                                    <slot name="footer"></slot>
+                                </block>
+                                <view class="data-v-262182c8" style="{{$root.s8}}" wx:if="{{$root.g0}}">
+                                    <slot name="chatNoMore" wx:if="{{loadingStatus===M.NoMore&&zSlots.chatNoMore}}"></slot>
+                                    <block wx:else>
+                                        <block wx:if="{{zSlots.chatLoading}}">
+                                            <slot name="chatLoading"></slot>
+                                            <scoped-slots-chatLoading bind:__l="__l" class="scoped-ref" loadingMoreStatus="{{loadingStatus}}"></scoped-slots-chatLoading>
+                                        </block>
+                                        <z-paging-load-more bind:__l="__l" bind:doClick="__e" class="data-v-262182c8" data-event-opts="{{[ [ '^doClick',[ [ '_onLoadingMore',['click'] ] ] ] ]}}" vueId="085f6eae-2" zConfig="{{zLoadMoreConfig}}" wx:else></z-paging-load-more>
+                                    </block>
+                                </view>
+                                <view class="zp-virtual-placeholder data-v-262182c8" style="{{'height:'+virtualPlaceholderBottomHeight+'px'+';'}}" wx:if="{{useVirtualList}}"></view>
+                                <slot name="loadingMoreDefault" wx:if="{{showLoadingMoreDefault}}"></slot>
+                                <block wx:else>
+                                    <slot name="loadingMoreLoading" wx:if="{{showLoadingMoreLoading}}"></slot>
+                                    <block wx:else>
+                                        <slot name="loadingMoreNoMore" wx:if="{{showLoadingMoreNoMore}}"></slot>
+                                        <block wx:else>
+                                            <slot name="loadingMoreFail" wx:if="{{showLoadingMoreFail}}"></slot>
+                                            <block wx:else>
+                                                <z-paging-load-more bind:__l="__l" bind:doClick="__e" class="data-v-262182c8" data-event-opts="{{[ [ '^doClick',[ [ '_onLoadingMore',['click'] ] ] ] ]}}" vueId="085f6eae-3" zConfig="{{zLoadMoreConfig}}" wx:if="{{showLoadingMoreCustom}}"></z-paging-load-more>
+                                            </block>
+                                        </block>
+                                    </block>
+                                </block>
+                                <view class="zp-safe-area-placeholder data-v-262182c8" style="{{'height:'+safeAreaBottom+'px'+';'}}" wx:if="{{safeAreaInsetBottom&&useSafeAreaPlaceholder&&!useChatRecordMode}}"></view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </scroll-view>
+        </view>
+        <view class="{{['data-v-262182c8',true?'zp-page-right':'',finalIsOldWebView?'zp-absoulte zp-right':'']}}" wx:if="{{zSlots.right}}">
+            <slot name="right"></slot>
+        </view>
+    </view>
+    <view class="zp-page-bottom-container data-v-262182c8" style="{{'background:'+bottomBgColor+';'}}">
+        <slot name="bottom" wx:if="{{!usePageScroll&&zSlots.bottom}}"></slot>
+        <block wx:else>
+            <view catchtouchmove="__e" class="zp-page-bottom data-v-262182c8" data-event-opts="{{[ [ 'touchmove',[ [ '',['$event'] ] ] ] ]}}" style="{{'bottom:'+windowBottom+'px'+';'}}" wx:if="{{usePageScroll&&zSlots.bottom}}">
+                <slot name="bottom"></slot>
+            </view>
+        </block>
+        <block wx:if="{{useChatRecordMode&&autoAdjustPositionWhenChat}}">
+            <view class="data-v-262182c8" style="{{'height:'+chatRecordModeSafeAreaBottom+'px'+';'}}"></view>
+            <view class="zp-page-bottom-keyboard-placeholder-animate data-v-262182c8" style="{{'height:'+keyboardHeight+'px'+';'}}"></view>
+        </block>
+    </view>
+    <view catchtap="__e" class="{{['data-v-262182c8',finalBackToTopClass]}}" data-event-opts="{{[ [ 'tap',[ [ '_backToTopClick',['$event'] ] ] ] ]}}" style="{{$root.s9}}" wx:if="{{showBackToTopClass}}">
+        <slot name="backToTop" wx:if="{{zSlots.backToTop}}"></slot>
+        <image class="{{['zp-back-to-top-img','data-v-262182c8',$root.g1?'zp-back-to-top-img-inversion':'']}}" src="{{$root.g2?backToTopImg:base64BackToTop}}" wx:else></image>
+    </view>
+    <view class="zp-loading-fixed data-v-262182c8" wx:if="{{showLoading&&zSlots.loading&&loadingFullFixed}}">
+        <slot name="loading"></slot>
+    </view>
+</view>

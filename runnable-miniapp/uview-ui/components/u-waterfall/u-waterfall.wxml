@@ -1,0 +1,34 @@
+<view class="u-waterfall data-v-e243c014">
+    <view class="u-column data-v-e243c014" id="u-left-column">
+        <swiper autoplay="true" class="swiper data-v-e243c014" interval="4000" wx:if="{{bannerList&&bannerList[0]&&waterType==100}}">
+            <swiper-item class="data-v-e243c014" wx:for="{{bannerList}}" wx:for-index="i" wx:for-item="options" wx:key="i">
+                <view class="tab_item data-v-e243c014">
+                    <view class="tab_icon data-v-e243c014">
+                        <image bindtap="__e" class="data-v-e243c014" data-event-opts="{{[ [ 'tap',[ [ 'wclick',['$0'],[ [ ['bannerList','',i] ] ] ] ] ] ]}}" mode="aspectFill" src="{{options.advertPicUrl+'?imageView2/1/w/325/h/460/'}}"></image>
+                    </view>
+                </view>
+            </swiper-item>
+        </swiper>
+        <slot name="left"></slot>
+        <scoped-slots-left bind:__l="__l" class="scoped-ref" leftList="{{leftList}}"></scoped-slots-left>
+    </view>
+    <view class="u-column data-v-e243c014" id="u-right-column">
+        <view class="near-spot data-v-e243c014" style="{{'background:'+bg+';'}}" wx:if="{{recommendList&&recommendList[0]&&waterType==100}}">
+            <view bindtap="__e" class="title data-v-e243c014" data-event-opts="{{[ [ 'tap',[ [ 'routerTo',['/subPage/pages/spotFilter/spotFilter?index=5&name=距离&id=1','navigateTo'] ] ] ] ]}}">身边趣玩<uni-icons bind:__l="__l" class="data-v-e243c014" color="#1E1B19" size="14" type="arrowright" vueId="7e2f5690-1"></uni-icons>
+            </view>
+            <view bindtap="__e" class="spot-item data-v-e243c014" data-event-opts="{{[ [ 'tap',[ [ 'toSpot',['$0'],[ [ ['recommendList','',i,'id'] ] ] ] ] ] ]}}" wx:if="{{i<5}}" wx:for="{{recommendList}}" wx:for-index="i" wx:key="i">
+                <image class="img data-v-e243c014" mode="aspectFill" src="{{item.picUrl}}"></image>
+                <view class="info-box data-v-e243c014">
+                    <view class="name singleLineText data-v-e243c014">{{''+item.name+''}}</view>
+                    <view class="foot data-v-e243c014">
+                        <view class="dis data-v-e243c014" wx:if="{{item.distance}}">{{''+item.distance+'km'}}</view>
+                        <view class="pic data-v-e243c014" wx:if="{{item.showPrice}}">{{'￥'+item.showPrice+''}}<text class="data-v-e243c014" style="font-size:18rpx;color:rgba(30, 27, 25, 0.6);" wx:if="{{item.startPriceFlag}}">起</text>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <slot name="right"></slot>
+        <scoped-slots-right bind:__l="__l" class="scoped-ref" rightList="{{rightList}}"></scoped-slots-right>
+    </view>
+</view>

@@ -1,0 +1,41 @@
+<view class="{{['uni-navbar','data-v-6d988502',dark?'uni-dark':'',fixed?'uni-nvue-fixed':'']}}">
+    <view class="{{['uni-navbar__content','data-v-6d988502',fixed?'uni-navbar--fixed':'',shadow?'uni-navbar--shadow':'',border?'uni-navbar--border':'']}}" style="{{'background:'+themeBgColor+';'+'border-bottom-color:'+themeColor+';'}}">
+        <status-bar bind:__l="__l" class="data-v-6d988502" vueId="67057808-1" wx:if="{{statusBar}}"></status-bar>
+        <view class="uni-navbar__header data-v-6d988502" style="{{'color:'+themeColor+';'+'background-color:'+themeBgColor+';'+'height:'+navbarHeight+';'}}">
+            <view bindtap="__e" class="uni-navbar__header-btns uni-navbar__header-btns-left data-v-6d988502" data-event-opts="{{[ [ 'tap',[ [ 'onClickLeft',['$event'] ] ] ] ]}}" style="{{'width:'+leftIconWidth+';'}}">
+                <slot name="left" wx:if="{{$slots.left}}"></slot>
+                <block wx:else>
+                    <view class="uni-navbar__content_view data-v-6d988502" wx:if="{{$root.g0>0}}">
+                        <uni-icons bind:__l="__l" class="data-v-6d988502" color="{{themeColor}}" size="20" type="{{leftIcon}}" vueId="67057808-2"></uni-icons>
+                    </view>
+                    <view class="{{['uni-navbar-btn-text','data-v-6d988502',!$root.g2>0?'uni-navbar-btn-icon-left':'']}}" wx:if="{{$root.g1}}">
+                        <text class="data-v-6d988502" style="{{'color:'+themeColor+';'+'font-size:'+'12px'+';'}}">{{leftText}}</text>
+                    </view>
+                </block>
+            </view>
+            <view bindtap="__e" class="uni-navbar__header-container data-v-6d988502" data-event-opts="{{[ [ 'tap',[ [ 'onClickTitle',['$event'] ] ] ] ]}}">
+                <slot wx:if="{{$slots.default}}"></slot>
+                <block wx:else>
+                    <view class="uni-navbar__header-container-inner data-v-6d988502" wx:if="{{$root.g3>0}}">
+                        <text class="uni-nav-bar-text uni-ellipsis-1 data-v-6d988502" style="{{'color:'+themeColor+';'}}">{{title}}</text>
+                    </view>
+                </block>
+            </view>
+            <view bindtap="__e" class="uni-navbar__header-btns uni-navbar__header-btns-right data-v-6d988502" data-event-opts="{{[ [ 'tap',[ [ 'onClickRight',['$event'] ] ] ] ]}}" style="{{'width:'+rightIconWidth+';'}}">
+                <slot name="right" wx:if="{{$slots.right}}"></slot>
+                <block wx:else>
+                    <view class="data-v-6d988502" wx:if="{{$root.g4}}">
+                        <uni-icons bind:__l="__l" class="data-v-6d988502" color="{{themeColor}}" size="22" type="{{rightIcon}}" vueId="67057808-3"></uni-icons>
+                    </view>
+                    <view class="uni-navbar-btn-text data-v-6d988502" wx:if="{{$root.g5}}">
+                        <text class="uni-nav-bar-right-text data-v-6d988502" style="{{'color:'+themeColor+';'}}">{{rightText}}</text>
+                    </view>
+                </block>
+            </view>
+        </view>
+    </view>
+    <view class="uni-navbar__placeholder data-v-6d988502" wx:if="{{fixed}}">
+        <status-bar bind:__l="__l" class="data-v-6d988502" vueId="67057808-4" wx:if="{{statusBar}}"></status-bar>
+        <view class="uni-navbar__placeholder-view data-v-6d988502" style="{{'height:'+navbarHeight+';'}}"></view>
+    </view>
+</view>

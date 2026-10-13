@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": " ",
+  "enablePullDownRefresh": false,
+  "allowsBounceVertical": "NO",
+  "navigationStyle": "custom",
+  "__warning__": "无效的 page.json [\"allowsBounceVertical\"]"
+}

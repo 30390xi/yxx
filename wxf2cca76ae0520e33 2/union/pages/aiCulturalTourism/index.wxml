@@ -1,0 +1,135 @@
+<view class="page-box data-v-6defd9f1">
+    <uni-navbar bind:__l="__l" class="data-v-6defd9f1" type="transparentFixed" vueId="3e2f126a-1"></uni-navbar>
+    <z-paging auto="{{false}}" bind:__l="__l" bind:input="__e" bind:keyboardHeightChange="__e" bind:scrolltolower="__e" bottomBgColor="#00000000" class="data-v-6defd9f1 vue-ref" data-event-opts="{{[ [ '^scrolltolower',[ ['startLoading'] ] ],[ '^keyboardHeightChange',[ ['keyboardHeightChange'] ] ],[ '^input',[ [ '__set_model',[ '','dataList','$event',[] ] ] ] ] ]}}" data-ref="paging" lowerThreshold="{{50}}" safeAreaInsetBottom="isIos" scrollable="{{true}}" style="position:fixed;z-index:11;" useChatRecordMode="{{true}}" value="{{dataList}}" vueId="3e2f126a-2" vueSlots="{{['default','bottom']}}" wx:if="{{!isHide}}">
+        <chat-input-bar bg="{{true}}" bind:__l="__l" bind:clearData="__e" bind:clearDataStop="__e" bind:resetTravel="__e" bind:send="__e" bind:stopSpeak="__e" class="chat-input-bar data-v-6defd9f1 vue-ref" data-event-opts="{{[ [ '^stopSpeak',[ ['stopSpeak'] ] ],[ '^resetTravel',[ ['resetTravel'] ] ],[ '^clearData',[ ['clearData'] ] ],[ '^clearDataStop',[ ['clearDataStop'] ] ],[ '^send',[ ['doSend'] ] ] ]}}" data-ref="inputBar" detail="{{spotDetail}}" isIos="{{isIos}}" pushingProgress="{{pushingProgress}}" pushingProgressShow="{{pushingProgressShow}}" slot="bottom" vueId="{{'3e2f126a-3'+','+'3e2f126a-2'}}"></chat-input-bar>
+        <view class="data-v-6defd9f1" style="position:relative;" wx:for="{{dataList}}" wx:for-index="__i0__" wx:key="id">
+            <view class="data-v-6defd9f1" style="transform:scaleY(-1);">
+                <chat-item bind:__l="__l" bind:askAgain="__e" bind:delComment="__e" bind:exclusive="__e" bind:openDrawer="__e" bind:playVideo="__e" bind:resetTravel="__e" bind:stopSpeak="__e" class="data-v-6defd9f1" data-event-opts="{{[ [ '^askAgain',[ ['askAgain'] ] ],[ '^resetTravel',[ ['resetTravel'] ] ],[ '^exclusive',[ ['exclusive'] ] ],[ '^delComment',[ ['delComment'] ] ],[ '^openDrawer',[ ['openDrawer'] ] ],[ '^stopSpeak',[ ['stopSpeak'] ] ],[ '^playVideo',[ ['playVideo'] ] ] ]}}" dataList="{{dataList}}" item="{{item}}" newVal="{{newVal}}" pushingProgress="{{pushingProgress}}" showComment="{{currrentId===item.id}}" vueId="{{'3e2f126a-4-'+__i0__+','+'3e2f126a-2'}}"></chat-item>
+            </view>
+        </view>
+        <view class="data-v-6defd9f1" style="{{'height:'+calculatedPlaceholderHeight+';'+'transform:'+'scaleY(-1)'+';'}}" wx:if="{{$root.g0===0}}"></view>
+        <view class="menuBox data-v-6defd9f1" style="transform:scaleY(-1);">
+            <view class="line1 data-v-6defd9f1" style="height:432rpx;" wx:if="{{!topData}}">
+                <view bindtap="__e" class="btnBox data-v-6defd9f1" data-event-opts="{{[ [ 'tap',[ ['goAiTravel'] ] ] ]}}">
+                    <view class="welcome data-v-6defd9f1">欢迎来到陕西</view>
+                    <view class="welcomeText data-v-6defd9f1">hello，我是小七，您的专属AI旅行助手~</view>
+                    <view class="btn data-v-6defd9f1">AI定制攻略<image class="data-v-6defd9f1" src="https://eshopfile.zhiyousx.com/175496335940198661.png"></image>
+                    </view>
+                </view>
+                <image class="data-v-6defd9f1" src="https://eshopfile.zhiyousx.com/175496153844154546.png" wx:if="{{showImage}}"></image>
+                <video bindended="__e" bindloadedmetadata="__e" bindpause="__e" class="video_box data-v-6defd9f1" controls="{{false}}" data-event-opts="{{[ [ 'ended',[ [ 'ended',['$event'] ] ] ],[ 'pause',[ [ 'pauseFun',['$event'] ] ] ],[ 'loadedmetadata',[ [ 'loadedmetadata',['$event'] ] ] ] ]}}" enableProgressGesture="{{false}}" id="myVideo1" initialTime="{{0}}" muted="{{true}}" objectFit="cover" src="https://eshopfile.zhiyousx.com/2025081209100788639.mp4" style="{{'opacity:'+opacity+';'+'z-index:'+10+';'+'background-color:'+'transparent'+';'+'transform:'+'translate3d(0,0,0)'+';'}}"></video>
+                <view class="bottomMask data-v-6defd9f1"></view>
+            </view>
+            <view class="line1 topCard data-v-6defd9f1" wx:if="{{topData}}">
+                <view class="head data-v-6defd9f1">待出行计划<view class="btn-box data-v-6defd9f1">
+                        <view bindtap="__e" class="btn data-v-6defd9f1" data-event-opts="{{[ [ 'tap',[ ['goAiTravel'] ] ] ]}}">重新规划</view>
+                    </view>
+                </view>
+                <view bindtap="__e" class="content data-v-6defd9f1" data-event-opts="{{[ [ 'tap',[ ['goCardPage'] ] ] ]}}">
+                    <view class="content-left data-v-6defd9f1">
+                        <view class="title data-v-6defd9f1">{{topData.city+topData.day+'天旅行计划'}}</view>
+                        <view class="member data-v-6defd9f1">{{''+(topData.scenicList?$root.g1:0)+'个景点'}}<view class="avatar-group data-v-6defd9f1">
+                                <image class="avatar-img data-v-6defd9f1" src="{{item.avatarUrl}}" style="{{'z-index:'+3-index+';'}}" wx:for="{{$root.l0}}" wx:key="index"></image>
+                            </view>
+                        </view>
+                        <view class="clock data-v-6defd9f1">
+                            <image class="data-v-6defd9f1" src="https://eshopfile.zhiyousx.com/175672522805774296.png"></image>
+                            <text class="data-v-6defd9f1">{{topData.message}}</text>
+                        </view>
+                        <view class="goBtn data-v-6defd9f1">
+                            <image class="data-v-6defd9f1" src="https://eshopfile.zhiyousx.com/175672557849516358.png"></image>
+                        </view>
+                    </view>
+                    <image class="content-right data-v-6defd9f1" src="{{topData.homeImage}}"></image>
+                </view>
+            </view>
+            <view class="line2 data-v-6defd9f1">
+                <view bindtap="__e" class="testBox box data-v-6defd9f1" data-event-opts="{{[ [ 'tap',[ ['goMap'] ] ] ]}}" wx:if="{{systemInfo.mapUrl}}">
+                    <view class="title data-v-6defd9f1">文旅地图</view>
+                    <view class="content data-v-6defd9f1">地图总览/导航</view>
+                </view>
+                <view bindtap="__e" class="travelBox box data-v-6defd9f1" data-event-opts="{{[ [ 'tap',[ ['goTravel'] ] ] ]}}" wx:if="{{systemInfo.travelUrl}}">
+                    <view class="title data-v-6defd9f1">景区导览</view>
+                    <view class="content data-v-6defd9f1">景点讲解/路线</view>
+                </view>
+                <view bindtap="__e" class="dailyBox box data-v-6defd9f1" data-event-opts="{{[ [ 'tap',[ ['travelDailyNews'] ] ] ]}}" wx:if="{{systemInfo.travelUrl}}">
+                    <view class="title data-v-6defd9f1">智慧伴游</view>
+                    <view class="content data-v-6defd9f1">智游随行/多语</view>
+                </view>
+            </view>
+            <view class="line3 data-v-6defd9f1">
+                <view class="title data-v-6defd9f1">配套服务</view>
+                <view class="tag-scroll data-v-6defd9f1">
+                    <view bindtap="__e" class="tag-item data-v-6defd9f1" data-event-opts="{{[ [ 'tap',[ ['getToilet'] ] ] ]}}">
+                        <image class="tag-item-icon data-v-6defd9f1" src="https://eshopfile.zhiyousx.com/176950768079780499.png"></image>
+                        <view class="tag-item-text data-v-6defd9f1">卫生间</view>
+                    </view>
+                    <view bindtap="__e" class="tag-item data-v-6defd9f1" data-event-opts="{{[ [ 'tap',[ ['getTest'] ] ] ]}}">
+                        <image class="tag-item-icon data-v-6defd9f1" src="https://eshopfile.zhiyousx.com/176950768764287525.png"></image>
+                        <view class="tag-item-text data-v-6defd9f1">景区测评</view>
+                    </view>
+                    <view bindtap="__e" class="tag-item data-v-6defd9f1" data-event-opts="{{[ [ 'tap',[ ['getWeather'] ] ] ]}}">
+                        <image class="tag-item-icon data-v-6defd9f1" src="https://eshopfile.zhiyousx.com/176950769515398390.png"></image>
+                        <view class="tag-item-text data-v-6defd9f1">入境游</view>
+                    </view>
+                    <view bindtap="__e" class="tag-item data-v-6defd9f1" data-event-opts="{{[ [ 'tap',[ ['getPhone'] ] ] ]}}">
+                        <image class="tag-item-icon data-v-6defd9f1" src="https://eshopfile.zhiyousx.com/176950770291859068.png"></image>
+                        <view class="tag-item-text data-v-6defd9f1">附近景点</view>
+                    </view>
+                </view>
+            </view>
+            <view bindtap="__e" class="line4 data-v-6defd9f1" data-event-opts="{{[ [ 'tap',[ [ 'goCoupon',['$event'] ] ] ] ]}}" wx:if="{{systemInfo.couponUrl&&topData}}">
+                <view class="l-left data-v-6defd9f1">
+                    <view class="title data-v-6defd9f1">小七送十一福利啦！</view>
+                    <view class="content data-v-6defd9f1">百元优惠券等你来</view>
+                </view>
+                <image class="l-right data-v-6defd9f1" src="https://eshopfile.zhiyousx.com/175550099700853223.png"></image>
+            </view>
+        </view>
+        <view class="history-box data-v-6defd9f1" style="{{'transform:'+'scaleY(-1)'+';'}}" wx:if="{{hasHistory}}">
+            <view class="history-line data-v-6defd9f1">{{''+($root.g2===0?'下拉查看历史数据':'以上为历史记录')+''}}</view>
+        </view>
+        <view class="data-v-6defd9f1" style="position:relative;" wx:for="{{historyList}}" wx:key="index">
+            <view class="data-v-6defd9f1" style="transform:scaleY(-1);">
+                <chat-item bind:__l="__l" bind:askAgain="__e" bind:exclusive="__e" bind:openDrawer="__e" bind:playVideo="__e" bind:resetTravel="__e" bind:stopSpeak="__e" class="data-v-6defd9f1" data-event-opts="{{[ [ '^askAgain',[ ['askAgain'] ] ],[ '^resetTravel',[ ['resetTravel'] ] ],[ '^exclusive',[ ['exclusive'] ] ],[ '^openDrawer',[ ['openDrawer'] ] ],[ '^stopSpeak',[ ['stopSpeak'] ] ],[ '^playVideo',[ ['playVideo'] ] ] ]}}" dataList="{{dataList}}" item="{{item}}" newVal="{{newVal}}" pushingProgress="{{pushingProgress}}" showComment="{{false}}" vueId="{{'3e2f126a-5-'+index+','+'3e2f126a-2'}}"></chat-item>
+            </view>
+        </view>
+        <view class="topLoading data-v-6defd9f1" style="{{'transform:scaleY(-1);'+'background-color:'+'#fff'+';'+'height:'+NavH+'px'+';'}}">
+            <view class="data-v-6defd9f1" style="display:flex;align-items:center;" wx:if="{{showTopLoading}}">加载中<view class="loading data-v-6defd9f1">
+                    <view class="pot data-v-6defd9f1"></view>
+                    <view class="pot data-v-6defd9f1"></view>
+                    <view class="pot data-v-6defd9f1"></view>
+                </view>
+            </view>
+        </view>
+    </z-paging>
+    <uni-popup bind:__l="__l" bind:change="__e" class="data-v-6defd9f1 vue-ref" data-event-opts="{{[ [ '^change',[ ['handleChange'] ] ] ]}}" data-ref="feedbackDrawer" type="bottom" vueId="3e2f126a-6" vueSlots="{{['default']}}">
+        <view class="drawer-content data-v-6defd9f1" style="{{'padding-bottom:'+(keyboardHeight?keyboardHeight+'px':'')+';'}}">
+            <view class="drawer-title data-v-6defd9f1">您的反馈将帮助我们优化进步</view>
+            <view class="drawer-btns data-v-6defd9f1">
+                <view bindtap="__e" class="{{['drawer-btn','data-v-6defd9f1',index%2==0?'mr32':'',el.select?'selected':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'addCommentType',['$0'],[ [ ['typeList','',index] ] ] ] ] ] ]}}" wx:for="{{typeList}}" wx:for-item="el" wx:key="index">{{el.content}}</view>
+            </view>
+            <view class="data-v-6defd9f1" style="width:100%;position:relative;">
+                <textarea adjustPosition="{{false}}" bindinput="__e" class="drawer-input data-v-6defd9f1" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '$0','content','$event',[] ],['commentObj'] ] ] ] ]}}" maxlength="300" placeholder="请输入您的评价" style="max-height:200rpx;overflow-y:auto;" value="{{commentObj.content}}"></textarea>
+                <text class="fontNum data-v-6defd9f1">{{$root.g3+' / 300'}}</text>
+            </view>
+            <view bindtap="__e" class="submitBtn data-v-6defd9f1" data-event-opts="{{[ [ 'tap',[ [ 'closeComment',['$event'] ] ] ] ]}}">提交</view>
+        </view>
+    </uni-popup>
+    <uni-popup bind:__l="__l" class="data-v-6defd9f1 vue-ref" data-ref="videoPopup" maskClick="{{true}}" type="center" vueId="3e2f126a-7" vueSlots="{{['default']}}">
+        <view class="video-popup-container data-v-6defd9f1">
+            <view class="video-popup-header data-v-6defd9f1">
+                <text class="video-popup-title data-v-6defd9f1"></text>
+                <view bindtap="__e" class="video-popup-close data-v-6defd9f1" data-event-opts="{{[ [ 'tap',[ [ 'closeVideoPopup',['$event'] ] ] ] ]}}">
+                    <text class="close-icon data-v-6defd9f1">×</text>
+                </view>
+            </view>
+            <view class="video-popup-content data-v-6defd9f1">
+                <video autoplay="{{true}}" binderror="__e" bindloadeddata="__e" bindloadstart="__e" class="video-player data-v-6defd9f1" controls="{{true}}" data-event-opts="{{[ [ 'error',[ [ 'onVideoError',['$event'] ] ] ],[ 'loadstart',[ [ 'onVideoLoadStart',['$event'] ] ] ],[ 'loadeddata',[ [ 'onVideoLoaded',['$event'] ] ] ] ]}}" showCenterPlayBtn="{{true}}" showFullscreenBtn="{{true}}" showPlayBtn="{{true}}" showProgress="{{true}}" src="{{currentVideoUrl}}"></video>
+                <view class="video-loading data-v-6defd9f1" wx:if="{{videoLoading}}">
+                    <text class="loading-text data-v-6defd9f1">视频加载中...</text>
+                </view>
+            </view>
+        </view>
+    </uni-popup>
+</view>

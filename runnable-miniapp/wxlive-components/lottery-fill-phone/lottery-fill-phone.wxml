@@ -1,0 +1,9 @@
+<mp-halfScreenDialog bindclose="onCloseFillPhone" closabled="{{true}}" extClass="input-half-panel" isMaskFill="{{true}}" maskZIndex="{{1004}}" show="{{true}}">
+    <view class="input-half-panel__header" slot="title">输入手机号<view bindtap="onConfirmFillPhone" class="input-half-panel__header__operation {{phone.length>=8?'':'disabled'}}">确定</view>
+    </view>
+    <view class="input-half-panel__body" slot="content">
+        <view class="input-half-panel__input-container" style="margin-bottom: {{keyboardHeight}}px">
+            <input adjustPosition="{{false}}" bindconfirm="onConfirmFillPhone" bindfocus="onFocusFillPhone" bindinput="onInputFillPhone" bindkeyboardheightchange="onKeyboardHeightChange" class="input-half-panel__input" confirmHold="{{true}}" focus="{{true}}" holdKeyboard="{{true}}" maxlength="11" placeholder="输入手机号" type="number"></input>
+        </view>
+    </view>
+</mp-halfScreenDialog>

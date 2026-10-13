@@ -1,0 +1,19 @@
+<view class="data-v-2036dd08">
+    <view class="textbox data-v-2036dd08">
+        <textarea autoHeight="{{true}}" bindinput="__e" class="textareas data-v-2036dd08" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '','aftersaleReason','$event',[] ] ],[ 'changefun',['$event'] ] ] ] ]}}" maxlength="300" placeholder="请输入售后原因..." placeholderClass="texts" value="{{aftersaleReason}}"></textarea>
+        <view class="numBox data-v-2036dd08">{{num+'/300'}}</view>
+    </view>
+    <view class="upload data-v-2036dd08">
+        <view class="submit data-v-2036dd08">
+            <view class="data-v-2036dd08">
+                <u-upload action="{{action}}" autoUpload="{{true}}" bind:__l="__l" bind:onRemove="__e" bind:onUploaded="__e" class="data-v-2036dd08 vue-ref" customBtn="{{true}}" data-event-opts="{{[ [ '^onUploaded',[ ['onUploaded'] ] ],[ '^onRemove',[ ['onRemove'] ] ] ]}}" data-ref="Uupload" maxCount="3" name="images" vueId="664e9876-1" vueSlots="{{['addBtn']}}">
+                    <view class="slot-btn data-v-2036dd08" hoverClass="slot-btn__hover" hoverStayTime="150" slot="addBtn">
+                        <uni-icons bind:__l="__l" class="data-v-2036dd08" color="{{$u.color['lightColor']}}" size="60" type="image" vueId="{{'664e9876-2'+','+'664e9876-1'}}"></uni-icons>
+                    </view>
+                </u-upload>
+            </view>
+        </view>
+    </view>
+    <button bindtap="__e" class="loginSub data-v-2036dd08" data-event-opts="{{[ [ 'tap',[ [ 'onSubmit',['$event'] ] ] ] ]}}" disabled="{{loadingStatus}}" loading="{{loadingStatus}}">提交申请</button>
+    <u-toast bind:__l="__l" class="data-v-2036dd08 vue-ref" data-ref="uToast" vueId="664e9876-3"></u-toast>
+</view>

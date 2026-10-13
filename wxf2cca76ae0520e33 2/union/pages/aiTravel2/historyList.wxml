@@ -1,0 +1,47 @@
+<view class="container data-v-68554c9f">
+    <uni-navbar bind:__l="__l" class="data-v-68554c9f" title="历史记录" titleCenter="{{true}}" transparentFixedFontColor="{{titleColor}}" type="transparentFixed" vueId="2b283348-1"></uni-navbar>
+    <view class="historyBox data-v-68554c9f">
+        <view class="topCard data-v-68554c9f" wx:if="{{topData}}">
+            <view class="title data-v-68554c9f">置顶攻略<image class="title-icon data-v-68554c9f" src="https://eshopfile.zhiyousx.com/175703578338160764.png"></image>
+            </view>
+            <view bindtap="__e" class="historyItem topItem data-v-68554c9f" data-event-opts="{{[ [ 'tap',[ [ 'goToDetail',['$0'],['topData'] ] ] ] ]}}">
+                <view class="historyItem-left data-v-68554c9f">
+                    <view class="historyItem-left-title data-v-68554c9f">{{''+(topData.travelTitle||topData.city+topData.day+'天旅行计划')+''}}</view>
+                    <view class="historyItem-left-tags data-v-68554c9f">{{''+(topData.scenicList?$root.g0:0)+'个景点'}}<image class="headImg data-v-68554c9f" src="{{topData.editorHead}}" wx:if="{{topData.editorHead}}"></image>
+                    </view>
+                    <view class="historyItem-left-content data-v-68554c9f">
+                        <image class="data-v-68554c9f" src="https://eshopfile.zhiyousx.com/175672522805774296.png"></image>
+                        <text class="data-v-68554c9f">{{topData.message}}</text>
+                    </view>
+                    <view class="historyItem-left-btn data-v-68554c9f">
+                        <image class="data-v-68554c9f" src="https://eshopfile.zhiyousx.com/175672557849516358.png"></image>
+                    </view>
+                </view>
+                <image class="historyItem-right data-v-68554c9f" src="{{topData.homeImage||'https://eshopfile.zhiyousx.com/175671244741237616.png'}}"></image>
+            </view>
+        </view>
+        <view class="topLine data-v-68554c9f" wx:if="{{topData}}"></view>
+        <view class="historyList data-v-68554c9f" wx:for="{{$root.l0}}" wx:key="index">
+            <view class="time data-v-68554c9f">{{''+(item.$orig.createTime||'1970-10-01')+''}}</view>
+            <view bindtap="__e" class="historyItem data-v-68554c9f" data-event-opts="{{[ [ 'tap',[ [ 'goToDetail',['$0'],[ [ ['historyList','',index] ] ] ] ] ] ]}}">
+                <view class="historyItem-left data-v-68554c9f">
+                    <view class="historyItem-left-title data-v-68554c9f">{{''+(item.$orig.travelTitle||item.$orig.city+item.$orig.day+'天旅行计划')+''}}</view>
+                    <view class="historyItem-left-tags data-v-68554c9f">{{''+(item.$orig.scenicList?item.g1:0)+'个景点'}}<image class="headImg data-v-68554c9f" src="{{item.$orig.editorHead}}" wx:if="{{item.$orig.editorHead}}"></image>
+                    </view>
+                    <view class="historyItem-left-content data-v-68554c9f">
+                        <image class="data-v-68554c9f" src="https://eshopfile.zhiyousx.com/175672522805774296.png"></image>
+                        <text class="data-v-68554c9f">{{item.$orig.message}}</text>
+                    </view>
+                    <view class="historyItem-left-btn data-v-68554c9f">
+                        <image class="data-v-68554c9f" src="https://eshopfile.zhiyousx.com/175672557849516358.png"></image>
+                    </view>
+                </view>
+                <image class="historyItem-right data-v-68554c9f" src="{{item.$orig.homeImage||'https://eshopfile.zhiyousx.com/175671244741237616.png'}}"></image>
+            </view>
+        </view>
+        <view class="empty-state data-v-68554c9f" wx:if="{{$root.g2}}">
+            <image class="data-v-68554c9f" src="https://eshopfile.zhiyousx.com/175671244741237616.png"></image>
+            <text class="data-v-68554c9f">暂无历史记录</text>
+        </view>
+    </view>
+</view>

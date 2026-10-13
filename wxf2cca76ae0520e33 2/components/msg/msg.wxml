@@ -1,0 +1,27 @@
+<view class="container msg-container {{platform}}-font">
+    <view class="header">
+        <view class="logo">
+            <image src="/_assets/failure.97783014.svg" wx:if="{{type==='error'}}"></image>
+            <image src="/_assets/loading.f957767e.svg" wx:elif="{{type==='waiting'}}"></image>
+            <image src="/_assets/success.d218c144.svg" wx:elif="{{type==='success'}}"></image>
+            <image src="/_assets/warning.dcfbc648.svg" wx:elif="{{type==='warning'}}"></image>
+            <image src="/_assets/info_circle.41dd5b43.svg" wx:elif="{{type==='info'}}"></image>
+            <image src="/_assets/success_circle.314f124e.svg" wx:elif="{{type==='success_circle'}}"></image>
+        </view>
+        <view class="title font-500" wx:if="{{title}}">{{title}}</view>
+        <view class="desc" wx:if="{{desc}}">{{desc}}</view>
+    </view>
+    <view class="bottom">
+        <view bind:tap="onTapSecondary" class="btn font-500 {{!primary?'btn-large':''}}" hoverClass="weui-hover-class" wx:if="{{secondary}}">{{secondary}}</view>
+        <navigator appId="{{miniProgram.appId}}" hoverClass="none" path="{{miniProgram.path}}" target="miniProgram" version="{{version}}" wx:if="{{primary&&miniProgram.appId}}">
+            <view bind:tap="onTapPrimary" class="btn primary font-500" hoverClass="weui-hover-class">{{primary}}</view>
+        </navigator>
+        <view bind:tap="onTapPrimary" class="btn primary font-500 {{!secondary?'btn-large':''}}" hoverClass="weui-hover-class" wx:elif="{{primary}}">{{primary}}</view>
+    </view>
+    <view class="bottom-link" wx:if="{{bottomLink}}">
+        <navigator appId="{{bottomMiniProgram.appId}}" path="{{bottomMiniProgram.path}}" target="miniProgram" version="{{version}}" wx:if="{{bottomMiniProgram.appId}}">
+            <view bind:tap="onTapBottomLink" class="link">{{bottomLink}}</view>
+        </navigator>
+        <view bind:tap="onTapBottomLink" class="link" wx:else>{{bottomLink}}</view>
+    </view>
+</view>

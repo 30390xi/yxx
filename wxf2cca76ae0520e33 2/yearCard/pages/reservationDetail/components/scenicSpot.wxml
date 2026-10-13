@@ -1,0 +1,17 @@
+<view class="scenic-spot data-v-46a703da">
+    <view class="scenic-spot-left data-v-46a703da">
+        <image class="data-v-46a703da" mode="aspectFill" src="{{info.scenicImage}}"></image>
+    </view>
+    <view class="scenic-spot-right data-v-46a703da">
+        <view class="title data-v-46a703da">
+            <view class="data-v-46a703da">{{info.scenicName||info.ticketName}}</view>
+        </view>
+        <view class="data-v-46a703da" data-label="使用日期" wx:if="{{info.departDate||info.datePeriodBegin}}">
+            <block wx:if="{{info.dateType===2}}">{{''+info.departDate+''}}</block>
+            <block wx:else>{{''+info.datePeriodBegin+'至'+info.datePeriodEnd+''}}</block>
+        </view>
+        <view class="data-v-46a703da" data-label="入园时段" wx:if="{{info.departStartTime&&info.departEndTime}}">{{''+info.departStartTime+'-'+info.departEndTime+''}}</view>
+        <view class="time data-v-46a703da" wx:if="{{info.cWeek}}">{{info.cWeek}}</view>
+        <view class="data-v-46a703da" data-label="特定日期" wx:if="{{info.cDays}}">{{info.cDays}}</view>
+    </view>
+</view>

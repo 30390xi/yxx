@@ -1,0 +1,16 @@
+<view class="live-player-navigation-header live-player__profile-card live-player__profile-card_without-btn live-player__profile-card__player  {{!(showFollowV2&&!isGovernment)?'live-player__profile-card__with-noactive':''}} {{isBgMeeting?'live-player__profile-card__allenLive':''}} live-player__profile-card__with-follow">
+    <view bindtap="onOpenModel" class="live-player-navigation-header live-player__profile-card__inner">
+        <image class="live-player-navigation-header-avatar live-player__profile-card__avatar" src="{{weappImg}}"></image>
+        <view class="live-player-navigation-header__unread" wx:if="{{hasExtLiveRoom}}">
+            <canvas class="navigation__unread__canvas" id="navigation__unread__canvas" style="width: 10px; height: 10px;" type="2d"></canvas>
+        </view>
+        <view catchtap="onOpenModel" class="live-player-navigation-header-content live-player__profile-card__body">
+            <view class="live-player-navigation-header-content-name live-player__profile-card__title">{{weappName}}</view>
+            <view class="live-player-navigation-header-content-audience live-player__profile-card__desc" wx:if="{{!isGovernment}}">
+                <text class="live-player__profile-card__desc__item live-player__profile-card__desc__item__replay" wx:if="{{curLiveStatusCode===108}}">回放</text>
+                <text class="live-player__profile-card__desc__item">{{watchPvTotalWording}} {{isBgMeeting?'人看过':'观看'}}</text>
+            </view>
+        </view>
+        <view catchtap="onAttention" class="live-player__profile-card__subscribe {{isAttention?'live-player__profile-card__subscribe__selected':''}}" id="attentionBtn" wx:if="{{showFollowV2&&!isGovernment}}">{{isAttention?'已订阅':'订阅直播'}}</view>
+    </view>
+</view>

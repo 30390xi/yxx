@@ -1,0 +1,38 @@
+<view class="page-box data-v-32f77074">
+    <view class="top-box data-v-32f77074">
+        <view class="top data-v-32f77074">
+            <view class="line data-v-32f77074"></view>
+            <view class="tips data-v-32f77074" wx:if="{{userInfo&&!userInfo.isFenxiao&&!shareId}}">成为游陕西旅行达人</view>
+            <view class="tips data-v-32f77074" wx:else>分享赚钱 自用省钱</view>
+            <view class="line data-v-32f77074"></view>
+        </view>
+    </view>
+    <view class="main-box data-v-32f77074">
+        <view class="title data-v-32f77074" wx:if="{{userInfo&&userInfo.isFenxiao}}">您已是游陕西的旅行达人啦</view>
+        <block wx:else>
+            <view class="title bold data-v-32f77074" wx:if="{{shareId}}">{{shareinfo.nickName+' 邀请你成为游陕西旅行达人'}}</view>
+            <view class="title bold data-v-32f77074" wx:else>申请开通游陕西旅行达人权限</view>
+        </block>
+        <image mode class="icon data-v-32f77074" src="{{shareinfo.picUrl?shareinfo.picUrl:'https://eshopfile.zhiyousx.com/2021120611010377794.png'}}" wx:if="{{shareId&&(!userInfo||!userInfo.isFenxiao)}}"></image>
+        <image mode class="icon data-v-32f77074" src="{{userInfo&&userInfo.picUrl?userInfo.picUrl:'https://eshopfile.zhiyousx.com/2021120611010377794.png'}}" wx:else></image>
+        <view class="name data-v-32f77074" wx:if="{{shareId&&(!userInfo||!userInfo.isFenxiao)}}">{{shareinfo.nickName}}</view>
+        <view class="name data-v-32f77074" wx:else>{{userInfo.nickName?userInfo.nickName:''}}</view>
+        <view bindtap="__e" class="but data-v-32f77074" data-event-opts="{{[ [ 'tap',[ [ 'toBeTalent',[1] ] ] ] ]}}" wx:if="{{!userInfo}}">登录/注册</view>
+        <block wx:else>
+            <view bindtap="__e" class="but data-v-32f77074" data-event-opts="{{[ [ 'tap',[ [ 'toBeTalent',[2] ] ] ] ]}}" wx:if="{{!userInfo.isFenxiao&&!shareId}}">开通</view>
+            <block wx:else>
+                <view bindtap="__e" class="but data-v-32f77074" data-event-opts="{{[ [ 'tap',[ [ 'toBeTalent',[3] ] ] ] ]}}" wx:if="{{!userInfo.isFenxiao&&shareId}}">立即成为旅行达人</view>
+                <block wx:else>
+                    <view bindtap="__e" class="but data-v-32f77074" data-event-opts="{{[ [ 'tap',[ [ 'toBeTalent',[4] ] ] ] ]}}" wx:if="{{userInfo.isFenxiao}}">去赚钱</view>
+                </block>
+            </block>
+        </block>
+    </view>
+    <view class="info-box data-v-32f77074">
+        <view class="i-title data-v-32f77074">旅行达人权益</view>
+        <view class="item data-v-32f77074" wx:for="{{configrights}}">
+            <image mode class="img data-v-32f77074" src="{{item.url}}"></image>
+            <view class="value data-v-32f77074">{{item.FenxiaoPower}}</view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,4 @@
+<view>
+    <uni-navbar bind:__l="__l" type="transparentFixed" vueId="0ded4714-1"></uni-navbar>
+    <web-view src="{{urlSrc}}" webviewStyles="{{webviewStyles}}"></web-view>
+</view>

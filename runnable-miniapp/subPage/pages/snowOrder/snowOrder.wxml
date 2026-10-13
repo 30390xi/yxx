@@ -1,0 +1,156 @@
+<view class="box data-v-28eb88bb" wx:if="{{detailInfo.orderId}}">
+    <view class="page-box data-v-28eb88bb">
+        <view class="bg-box data-v-28eb88bb">
+            <view class="bgText data-v-28eb88bb">
+                <view class="state data-v-28eb88bb" wx:if="{{detailInfo.subscribeEditStatus!=1}}">{{$root.m0}}</view>
+                <view class="state data-v-28eb88bb" wx:else>待处理</view>
+                <view class="tips data-v-28eb88bb" wx:if="{{detailInfo.subscribeEditStatus==1}}">雪场预计15分钟内确认，请耐心等待</view>
+                <block wx:else>
+                    <view class="tips data-v-28eb88bb" wx:if="{{detailInfo.status==0}}">雪场预计提前1天放置雪具入柜，请耐心等待</view>
+                    <block wx:else>
+                        <view class="tips data-v-28eb88bb" wx:if="{{detailInfo.status==1}}">到达雪场后扫柜身二维码，输入激活码激活柜子</view>
+                        <block wx:else>
+                            <view class="tips data-v-28eb88bb" wx:if="{{detailInfo.status==3}}">押金扣除消费后退回原支付账号</view>
+                        </block>
+                    </block>
+                </block>
+            </view>
+        </view>
+        <view class="info m-top data-v-28eb88bb">
+            <view class="itemBox data-v-28eb88bb">
+                <view class="title data-v-28eb88bb">{{detailInfo.subscribeProject}}</view>
+                <view class="price data-v-28eb88bb">{{'￥'+detailInfo.deposit}}</view>
+            </view>
+            <view class="topTitle data-v-28eb88bb">{{'门票订单-'+detailInfo.orderId}}</view>
+            <view class="num data-v-28eb88bb">{{'x '+detailInfo.subscribeNumber}}</view>
+            <view class="itemBox data-v-28eb88bb">
+                <view class="name data-v-28eb88bb">实付押金</view>
+                <view class="value data-v-28eb88bb">{{'￥'+detailInfo.depositSum}}</view>
+            </view>
+            <view class="itemBox data-v-28eb88bb" wx:if="{{detailInfo.refundAmount}}">
+                <view class="name data-v-28eb88bb">
+                    <text class="data-v-28eb88bb">实退押金</text>
+                    <text bindtap="__e" class="show data-v-28eb88bb" data-event-opts="{{[ [ 'tap',[ [ 'showMask',['$event'] ] ] ] ]}}" wx:if="{{detailInfo.depositRemarks}}">查看></text>
+                </view>
+                <view class="value data-v-28eb88bb">{{'￥'+detailInfo.refundAmount}}</view>
+            </view>
+        </view>
+        <view class="hotel-box data-v-28eb88bb">
+            <view class="hotel-title m40 data-v-28eb88bb">
+                <text class="data-v-28eb88bb">预约明细</text>
+            </view>
+            <view class="user data-v-28eb88bb" wx:for="{{$root.l1}}" wx:key="index">
+                <view class="user-top data-v-28eb88bb">
+                    <view class="name data-v-28eb88bb">{{item.m1}}</view>
+                    <view class="value data-v-28eb88bb" wx:if="{{item.$orig.price}}">{{'¥'+item.$orig.price}}</view>
+                </view>
+                <view class="user-it data-v-28eb88bb">
+                    <view class="it data-v-28eb88bb" wx:for="{{item.l0}}" wx:for-index="i" wx:for-item="it" wx:key="i">
+                        <view class="it-name data-v-28eb88bb">{{'预约人'+i+1+':'}}</view>
+                        <view class="it-info data-v-28eb88bb">{{it.m2}}</view>
+                    </view>
+                </view>
+            </view>
+            <view class="hotel-title m40 data-v-28eb88bb">
+                <text class="data-v-28eb88bb"></text>
+                <view bindtap="__e" class="addbook data-v-28eb88bb" data-event-opts="{{[ [ 'tap',[ [ 'jumpToGear',['$0','$1'],['detailInfo.orderId','subscribeId'] ] ] ] ]}}" wx:if="{{detailInfo.subscribeEditStatus!=1&&(detailInfo.status==1||detailInfo.status==0)}}">增加预约</view>
+            </view>
+            <view class="tips data-v-28eb88bb">*明细仅作为预约登记记录，实际消费以景区为准</view>
+        </view>
+        <view class="hotel-box data-v-28eb88bb">
+            <view class="hotel-title m30 data-v-28eb88bb">雪柜信息</view>
+            <view class="hotel-table data-v-28eb88bb">
+                <view class="hotel-th th data-v-28eb88bb">
+                    <view class="t data-v-28eb88bb">游客信息</view>
+                    <view class="t data-v-28eb88bb">柜号</view>
+                    <view class="t data-v-28eb88bb">激活码</view>
+                </view>
+                <view class="d-table data-v-28eb88bb">
+                    <view class="d-tr data-v-28eb88bb" wx:for="{{detailInfo.peopleLockersVoList}}" wx:key="*this">
+                        <view class="d-td data-v-28eb88bb" wx:if="{{detailInfo.status==2||detailInfo.status==4}}">
+                            <view class="d-table tableType data-v-28eb88bb">
+                                <view class="d-tr data-v-28eb88bb">
+                                    <view class="d-td tableType data-v-28eb88bb" style="width:33.3%;">{{'预约人'+index+1+''}}</view>
+                                    <view class="d-td tableType border-left color data-v-28eb88bb">已取消</view>
+                                </view>
+                            </view>
+                        </view>
+                        <block wx:else>
+                            <view class="d-td data-v-28eb88bb" wx:if="{{detailInfo.status==3}}">
+                                <view class="d-table tableType data-v-28eb88bb">
+                                    <view class="d-tr data-v-28eb88bb">
+                                        <view class="d-td tableType data-v-28eb88bb" style="width:33.3%;">{{'预约人'+index+1+''}}</view>
+                                        <view class="d-td tableType border-left color data-v-28eb88bb">已完成</view>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class="d-td data-v-28eb88bb" wx:else>
+                                <view class="d-table data-v-28eb88bb" wx:if="{{item.lockersNo&&item.lockersPassword}}">
+                                    <view class="d-tr data-v-28eb88bb">
+                                        <view class="d-td tableType data-v-28eb88bb" style="width:33.3%;">{{'预约人'+index+1}}</view>
+                                        <view class="d-td tableType border-left data-v-28eb88bb">{{item.lockersNo}}</view>
+                                        <view class="d-td tableType border-left data-v-28eb88bb">{{item.lockersPassword}}</view>
+                                    </view>
+                                </view>
+                                <view class="d-table tableType data-v-28eb88bb" wx:else>
+                                    <view class="d-tr data-v-28eb88bb">
+                                        <view class="d-td tableType data-v-28eb88bb" style="width:33.3%;">{{'预约人'+index+1+''}}</view>
+                                        <view class="d-td tableType border-left color data-v-28eb88bb" wx:if="{{detailInfo.status==0}}">待入柜</view>
+                                        <view class="d-td tableType border-left color data-v-28eb88bb" wx:else>请联系服务台获取</view>
+                                    </view>
+                                </view>
+                            </view>
+                        </block>
+                    </view>
+                </view>
+            </view>
+            <view class="hotel-list-box data-v-28eb88bb">
+                <view class="item data-v-28eb88bb">
+                    <text class="title data-v-28eb88bb">产品信息：</text>
+                    <text class="value data-v-28eb88bb">{{detailInfo.itemTitle}}</text>
+                </view>
+                <view class="item data-v-28eb88bb">
+                    <text class="title data-v-28eb88bb">使用时间：</text>
+                    <text class="value data-v-28eb88bb">{{day}}</text>
+                </view>
+                <view class="item data-v-28eb88bb">
+                    <view class="title data-v-28eb88bb">预计到达：</view>
+                    <text class="value data-v-28eb88bb">{{time}}</text>
+                </view>
+            </view>
+        </view>
+        <view class="hotel-box data-v-28eb88bb">
+            <view class="hotel-title m20 data-v-28eb88bb">订单信息</view>
+            <view class="hotel-list-box data-v-28eb88bb">
+                <view class="item data-v-28eb88bb">
+                    <text class="title data-v-28eb88bb">订单编号：</text>
+                    <text class="value data-v-28eb88bb">{{detailInfo.id}}</text>
+                </view>
+                <view class="item data-v-28eb88bb">
+                    <text class="title data-v-28eb88bb">下单时间：</text>
+                    <text class="value data-v-28eb88bb">{{detailInfo.createTime}}</text>
+                </view>
+                <view class="item data-v-28eb88bb">
+                    <view class="title data-v-28eb88bb">支付方式：</view>
+                    <text class="value data-v-28eb88bb">{{$root.m3}}</text>
+                </view>
+                <view class="item data-v-28eb88bb">
+                    <view class="title data-v-28eb88bb">支付时间：</view>
+                    <text class="value data-v-28eb88bb">{{detailInfo.payTime}}</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="item-footer data-v-28eb88bb" wx:if="{{(detailInfo.status==0||detailInfo.payStatus==0)&&detailInfo.status!=4&&detailInfo.status!=3&&detailInfo.status!=2}}">
+        <view bindtap="__e" class="repeat-buy-btn data-v-28eb88bb" data-event-opts="{{[ [ 'tap',[ ['cancelOrder'] ] ] ]}}" wx:if="{{detailInfo.status==0||detailInfo.payStatus==0}}">取消订单</view>
+        <view bindtap="__e" class="pay-btn data-v-28eb88bb" data-event-opts="{{[ [ 'tap',[ ['goPay'] ] ] ]}}" wx:if="{{detailInfo.payStatus===0}}">付款</view>
+    </view>
+    <view bindtap="__e" class="mask-box data-v-28eb88bb" data-event-opts="{{[ [ 'tap',[ [ 'closeMask',['$event'] ] ] ] ]}}" wx:if="{{show}}">
+        <view catchtap="__e" class="main data-v-28eb88bb" data-event-opts="{{[ [ 'tap',[ [ '',['$event'] ] ] ] ]}}">
+            <view class="title data-v-28eb88bb">押金备注</view>
+            <view class="info data-v-28eb88bb">
+                <text class="data-v-28eb88bb">{{detailInfo.depositRemarks}}</text>
+            </view>
+        </view>
+    </view>
+</view>

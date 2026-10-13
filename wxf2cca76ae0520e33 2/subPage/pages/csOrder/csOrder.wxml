@@ -1,0 +1,64 @@
+<view class="data-v-406e40d8">
+    <uni-navbar bind:__l="__l" class="data-v-406e40d8" homePath="{{$root.m0}}" title="我的预约" type="ordinary" vueId="2a159222-1"></uni-navbar>
+    <view class="orderBox data-v-406e40d8">
+        <view class="orderItem data-v-406e40d8" wx:if="{{!( item.$orig.isSpecial==4&&(item.$orig.orderStatus==0||item.$orig.orderStatus==1) )}}" wx:for="{{$root.l0}}" wx:key="index">
+            <view class="merchant data-v-406e40d8">
+                <view class="mcName data-v-406e40d8">
+                    <text class="data-v-406e40d8">古观音禅寺</text>
+                </view>
+                <block wx:if="{{item.$orig.itemType!=1}}">
+                    <text class="data-v-406e40d8" wx:if="{{item.$orig.cancelStatus===1}}">交易关闭</text>
+                    <text class="data-v-406e40d8" wx:else>{{item.m1}}</text>
+                </block>
+                <text class="data-v-406e40d8" wx:else>{{item.m2}}</text>
+            </view>
+            <view class="topBox data-v-406e40d8">
+                <view bindtap="__e" class="goodsInfo data-v-406e40d8" data-event-opts="{{[ [ 'tap',[ [ 'goOrderDetails',['$0'],[ [ ['orderList','',index] ] ] ] ] ] ]}}" wx:for="{{item.$orig.items}}" wx:for-index="goodsindex" wx:for-item="itemgoods" wx:key="goodsindex">
+                    <view class="topImg data-v-406e40d8">
+                        <u-lazy-load bind:__l="__l" borderRadius="10" class="data-v-406e40d8" height="180" image="{{itemgoods.pic}}" imgMode="aspectFill" vueId="{{'2a159222-2-'+index+'-'+goodsindex}}"></u-lazy-load>
+                    </view>
+                    <view class="itemInfo data-v-406e40d8">
+                        <view class="data-v-406e40d8">
+                            <view class="itemTitle multilineText2 data-v-406e40d8">{{itemgoods.name}}</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="bomBox data-v-406e40d8">
+                <text class="data-v-406e40d8"></text>
+                <view class="orderBtn data-v-406e40d8" wx:if="{{item.$orig.itemType==1}}">
+                    <button bindtap="__e" class="obtn data-v-406e40d8" data-event-opts="{{[ [ 'tap',[ [ 'openPopup',['$0'],[ [ ['orderList','',index] ] ] ] ] ] ]}}" wx:if="{{item.$orig.orderStatus==1}}">取消预约</button>
+                    <button bindtap="__e" class="obtn data-v-406e40d8" data-event-opts="{{[ [ 'tap',[ [ 'openPopup',['$0'],[ [ ['orderList','',index] ] ] ] ] ] ]}}" wx:if="{{item.$orig.confirmStatus==0&&(item.$orig.isSpecial==1||item.$orig.isSpecial==2)&&item.$orig.orderStatus==2}}">取消预约</button>
+                    <button bindtap="__e" class="obtn data-v-406e40d8" data-event-opts="{{[ [ 'tap',[ [ 'orderRefund',['$0'],[ [ ['orderList','',index,'orderId'] ] ] ] ] ] ]}}" wx:if="{{(item.$orig.orderStatus===3||item.$orig.orderStatus===9||item.$orig.orderStatus===13)&&item.$orig.itemUseDescSnap.refundRuleType!=0&&item.$orig.consumeStatus!=1&&(detailInfo.isSpecial==0||detailInfo.isSpecial==3||detailInfo.isSpecial==4)}}">取消预约</button>
+                    <button bindtap="__e" class="obtn obtn1 data-v-406e40d8" data-event-opts="{{[ [ 'tap',[ [ 'goTicket',['$0'],[ [ ['orderList','',index,'items.__$n0.itemId'] ] ] ] ] ] ]}}" wx:if="{{item.$orig.orderStatus==5}}">再次预约</button>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="empty data-v-406e40d8" wx:if="{{$root.g0}}">
+        <empty-state bind:__l="__l" class="data-v-406e40d8" imgUrl="https://eshopfile.zhiyousx.com/noOrder@2x.png" text="暂无预约" vueId="2a159222-3"></empty-state>
+    </view>
+    <view class="loadMore data-v-406e40d8">
+        <u-loadmore bgColor="#f7f7f7" bind:__l="__l" class="data-v-406e40d8" color="#ccc" data-custom-hidden="{{!$root.g1}}" iconColor="#ccc" status="{{loadMore}}" vueId="2a159222-4"></u-loadmore>
+    </view>
+    <uni-popup bind:__l="__l" class="data-v-406e40d8 vue-ref" data-ref="popup" type="bottom" vueId="2a159222-5" vueSlots="{{['default']}}">
+        <view class="popup data-v-406e40d8">
+            <view class="popTitle data-v-406e40d8">
+                <text class="titleText data-v-406e40d8">取消预约</text>
+                <uni-icons bind:__l="__l" bind:click="__e" class="data-v-406e40d8" color="#c1c1c1" data-event-opts="{{[ [ '^click',[ ['closePopup'] ] ] ]}}" size="20" type="clear" vueId="{{'2a159222-6'+','+'2a159222-5'}}"></uni-icons>
+            </view>
+            <view class="popMain data-v-406e40d8">
+                <radio-group bindchange="__e" class="data-v-406e40d8" data-event-opts="{{[ [ 'change',[ [ 'radioChange',['$event'] ] ] ] ]}}">
+                    <view class="data-v-406e40d8" wx:for="{{causeList}}" wx:key="value">
+                        <label class="radioItem data-v-406e40d8">
+                            <radio checked="{{index===causeIdx}}" class="radioIcon data-v-406e40d8" color="#ff4643" value="{{item.value}}"></radio>
+                            <text class="data-v-406e40d8">{{item.name}}</text>
+                        </label>
+                    </view>
+                </radio-group>
+            </view>
+            <button bindtap="__e" class="popupBtn data-v-406e40d8" data-event-opts="{{[ [ 'tap',[ [ 'cancelOrder',['$0'],['orderObj'] ] ] ] ]}}">确定</button>
+        </view>
+    </uni-popup>
+    <u-toast bind:__l="__l" class="data-v-406e40d8 vue-ref" data-ref="uToast" vueId="2a159222-7"></u-toast>
+</view>

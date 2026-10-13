@@ -1,0 +1,21 @@
+<view class="bg">
+    <uni-navbar bind:__l="__l" type="transparentFixed" vueId="57a53cb4-1"></uni-navbar>
+    <view class="top">
+        <image mode="aspectFill" src="{{content.coverImage}}"></image>
+        <view class="p1">{{content.title}}</view>
+        <view class="p2">{{content.subtitle}}</view>
+    </view>
+    <view class="bottom">
+        <view class="item-list">
+            <view bindtap="__e" class="item" data-event-opts="{{[ [ 'tap',[ [ 'jump',['$0'],[ [ ['contentList','',index] ] ] ] ] ] ]}}" wx:for="{{contentList}}" wx:key="index">
+                <view class="img-box" wx:if="{{item.imageUrl}}">
+                    <image mode="aspectFill" src="{{item.imageUrl}}"></image>
+                </view>
+                <view class="tip-box">
+                    <view class="title" wx:if="{{item.title}}">{{item.title}}</view>
+                    <view class="sub-title" wx:if="{{item.subtitle}}">{{item.subtitle}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

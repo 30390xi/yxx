@@ -1,0 +1,12 @@
+<view class="container data-v-16cf2e2e">
+    <image bindtap="__e" class="cover data-v-16cf2e2e" data-event-opts="{{[ [ 'tap',[ [ 'priview',['$0'],['cover'] ] ] ] ]}}" mode="aspectFill" src="{{cover.url}}" wx:if="{{showCover}}"></image>
+    <view class="wrapper data-v-16cf2e2e" wx:if="{{imageList[0]}}">
+        <image bindtap="__e" class="{{['data-v-16cf2e2e',it.class]}}" data-event-opts="{{[ [ 'tap',[ [ 'priview',['$0'],[ [ ['imageList','',i] ] ] ] ] ] ]}}" mode="aspectFill" src="{{it.url}}" style="{{'grid-row:'+it.gridRow+';'}}" wx:for="{{imageList}}" wx:for-index="i" wx:for-item="it"></image>
+    </view>
+    <view class="wrapper wrapper-6 data-v-16cf2e2e" wx:if="{{endListSix[0]}}">
+        <image bindtap="__e" class="data-v-16cf2e2e" data-event-opts="{{[ [ 'tap',[ [ 'priview',['$0'],[ [ ['endListSix','',i] ] ] ] ] ] ]}}" mode="aspectFill" src="{{it.url}}" wx:for="{{endListSix}}" wx:for-index="i" wx:for-item="it"></image>
+    </view>
+    <view class="{{['wrapper','data-v-16cf2e2e','wrapper-'+endType]}}" wx:if="{{endList[0]}}">
+        <image bindtap="__e" class="data-v-16cf2e2e" data-event-opts="{{[ [ 'tap',[ [ 'priview',['$0'],[ [ ['endList','',i] ] ] ] ] ] ]}}" mode="aspectFill" src="{{it.url}}" wx:for="{{endList}}" wx:for-index="i" wx:for-item="it"></image>
+    </view>
+</view>

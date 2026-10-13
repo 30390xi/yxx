@@ -1,0 +1,95 @@
+<view class="page-box data-v-2ad9723a" wx:if="{{showCardInfo}}">
+    <view class="top-box data-v-2ad9723a" style="{{'background:'+'linear-gradient(180deg,'+(showCardInfo.backgroundColor1||'#e7d6b4')+'4D 0%, #FAFAFA 100%)'+';'}}">
+        <view class="card-box data-v-2ad9723a">
+            <image mode class="data-v-2ad9723a" src="{{showCardInfo.image}}"></image>
+        </view>
+    </view>
+    <view class="top data-v-2ad9723a">
+        <view class="t1 data-v-2ad9723a">{{''+showCardInfo.name+''}}</view>
+        <view class="t2 data-v-2ad9723a">{{''+showCardInfo.subtitle+''}}</view>
+    </view>
+    <view bindtap="__e" class="info-box data-v-2ad9723a" data-event-opts="{{[ [ 'tap',[ [ 'showPop',['$event'] ] ] ] ]}}">
+        <view class="ibl data-v-2ad9723a">预计可省<text class="data-v-2ad9723a">{{'￥'+showCardInfo.discounts}}</text>
+        </view>
+        <view class="data-v-2ad9723a">
+            <u-icon bind:__l="__l" class="data-v-2ad9723a" color="#777777" name="arrow-right" size="28" vueId="3d932c32-1"></u-icon>
+        </view>
+    </view>
+    <view class="formBox data-v-2ad9723a">
+        <ocr-index bind:__l="__l" class="data-v-2ad9723a" vueId="3d932c32-2" vueSlots="{{['content']}}">
+            <view class="row-box data-v-2ad9723a" slot="content">
+                <view class="label data-v-2ad9723a">持卡人</view>
+                <view class="value data-v-2ad9723a">
+                    <input bindblur="__e" bindinput="__e" border="{{border}}" class="data-v-2ad9723a" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '','useName','$event',['trim'] ] ] ] ],[ 'blur',[ ['$forceUpdate'] ] ] ]}}" data-type="name" placeholder="请填写您的姓名" style="width:90%;font-size:28rpx;" type="text" value="{{useName}}"></input>
+                </view>
+            </view>
+        </ocr-index>
+        <view class="row-box data-v-2ad9723a">
+            <view class="label data-v-2ad9723a">身份证</view>
+            <view class="value data-v-2ad9723a">
+                <input bindblur="__e" bindinput="__e" border="{{border}}" class="data-v-2ad9723a" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '','useIdCard','$event',['trim'] ] ] ] ],[ 'blur',[ ['$forceUpdate'] ] ] ]}}" data-type="cardCode" placeholder="请填写证件号码" style="width:90%;font-size:28rpx;" type="idcard" value="{{useIdCard}}"></input>
+            </view>
+        </view>
+        <view class="row-box data-v-2ad9723a">
+            <view class="label data-v-2ad9723a">手机号</view>
+            <view class="value data-v-2ad9723a">
+                <input bindblur="__e" bindinput="__e" border="{{border}}" class="data-v-2ad9723a" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '','usePhone','$event',['trim'] ] ] ] ],[ 'blur',[ ['$forceUpdate'] ] ] ]}}" data-type="phone" placeholder="请填写手机号码" style="width:90%;font-size:28rpx;" type="number" value="{{usePhone}}"></input>
+            </view>
+        </view>
+        <view class="tips data-v-2ad9723a">该卡需实名制购买并仅限本人抵扣使用</view>
+    </view>
+    <view bindtap="__e" class="info-box data-v-2ad9723a" data-event-opts="{{[ [ 'tap',[ [ 'toAgreenment',['$0'],['showCardInfo.equityCardId'] ] ] ] ]}}">
+        <view class="ibl data-v-2ad9723a">本卡购买须知</view>
+        <view class="ibr data-v-2ad9723a">
+            <text class="data-v-2ad9723a">查看详情</text>
+            <u-icon bind:__l="__l" class="data-v-2ad9723a" color="#777777" name="arrow-right" size="28" vueId="3d932c32-3"></u-icon>
+        </view>
+    </view>
+    <view class="foot-box data-v-2ad9723a">
+        <view bindtap="__e" class="{{['btn','data-v-2ad9723a',showCardInfo.buyLimit!=0&&showCardInfo.memberBuyNum>=showCardInfo.buyLimit?'timeEnd':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'buyCard',['$event'] ] ] ] ]}}" wx:if="{{showCardInfo.buyAbleNum>0}}">
+            <text class="bt1 data-v-2ad9723a" wx:if="{{showCardInfo.buyLimit!=0&&showCardInfo.memberBuyNum>=showCardInfo.buyLimit}}">{{'每人限购'+showCardInfo.memberBuyNum+'张'}}</text>
+            <block wx:else>
+                <text class="bt1 data-v-2ad9723a">立即支付</text>
+                <text class="bt2 data-v-2ad9723a">{{'￥'+showCardInfo.price}}</text>
+                <text class="bt3 data-v-2ad9723a">/ 张</text>
+            </block>
+        </view>
+        <view bindtap="__e" class="btn timeEnd data-v-2ad9723a" data-event-opts="{{[ [ 'tap',[ [ 'buyCard',['$event'] ] ] ] ]}}" wx:else>
+            <text class="bt1 data-v-2ad9723a">已售空</text>
+        </view>
+    </view>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-2ad9723a" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','savePop','$event',[] ] ] ] ] ]}}" mode="center" value="{{savePop}}" vueId="3d932c32-4" vueSlots="{{['default']}}">
+        <view class="save-box data-v-2ad9723a">
+            <view bindtap="__e" class="btn-close data-v-2ad9723a" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}"></view>
+            <image mode bindtap="__e" class="close-btn data-v-2ad9723a" data-event-opts="{{[ [ 'tap',[ [ 'e1',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/2022122109502468658.png"></image>
+            <view class="top-bg data-v-2ad9723a">
+                <view class="tb1 data-v-2ad9723a">{{'购买1张'+showCardInfo.name}}<text class="data-v-2ad9723a">预计可省</text>
+                </view>
+                <view class="tb2 data-v-2ad9723a">￥<text class="data-v-2ad9723a">{{showCardInfo.discounts}}</text>
+                </view>
+            </view>
+            <view class="save-body data-v-2ad9723a">
+                <view class="at data-v-2ad9723a">
+                    <view class="line data-v-2ad9723a"></view>
+                    <text class="data-v-2ad9723a">{{showCardInfo.name+'省钱计算器'}}</text>
+                    <view class="line data-v-2ad9723a"></view>
+                </view>
+                <view class="as data-v-2ad9723a">权益价值为该产品商家窗口门市价</view>
+                <scroll-view class="coupon-box-b data-v-2ad9723a" scrollY="{{true}}" style="{{'height:'+(dll>2?'320rpx':dll*120+'rpx')+';'}}">
+                    <view class="coupon-box data-v-2ad9723a">
+                        <view class="cbt data-v-2ad9723a" wx:for="{{showCardInfo.detailList}}" wx:for-index="i" wx:for-item="it" wx:key="i">
+                            <view class="badge allcenter data-v-2ad9723a">{{'共'+it.equityNum+'份'}}</view>
+                            <view class="cbt-l singleLineText data-v-2ad9723a">{{''+it.saveDesc+''}}</view>
+                            <view class="cbt-r data-v-2ad9723a">{{'￥'+it.price+''}}</view>
+                        </view>
+                    </view>
+                </scroll-view>
+                <view class="could data-v-2ad9723a"></view>
+            </view>
+            <view class="price-tips data-v-2ad9723a">
+                <view class="pt1 data-v-2ad9723a">权益总价值：</view>
+                <view class="pt2 data-v-2ad9723a">{{'￥'+showCardInfo.detailDiscounts+''}}</view>
+            </view>
+        </view>
+    </u-popup>
+</view>

@@ -1,0 +1,11 @@
+<view class="user-info data-v-2d9edbbe">
+    <view class="avatar data-v-2d9edbbe">
+        <image class="data-v-2d9edbbe" mode="aspectFit" src="{{otherInfo.avatarUrl}}"></image>
+    </view>
+    <view class="user-name flex-c data-v-2d9edbbe">{{otherInfo.nickName||''}}</view>
+    <view class="card-name flex-c data-v-2d9edbbe">{{'使用'+(otherInfo.title||'')}}</view>
+    <view class="badge-num data-v-2d9edbbe">
+        <view class="flex-c data-v-2d9edbbe" wx:if="{{otherInfo.activeNum+otherInfo.waitActiveNum>0}}">{{'获得 '+otherInfo.activeNum+otherInfo.waitActiveNum+' 枚勋章'}}</view>
+        <view class="flex-c data-v-2d9edbbe" wx:else>您还没有获得勋章</view>
+    </view>
+</view>

@@ -1,0 +1,8 @@
+<u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-092ecb56" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showNotice','$event',[] ] ] ] ] ]}}" height="70%" mode="bottom" value="{{showNotice}}" vueId="caea424e-1" vueSlots="{{['default']}}">
+    <view class="noticeBox data-v-092ecb56">
+        <view class="title data-v-092ecb56">重要通知</view>
+        <scroll-view class="scontent data-v-092ecb56" scrollY="{{true}}" style="{{'height:'+noticeHeight+'rpx'+';'}}">
+            <u-parse bind:__l="__l" bind:imgtap="__e" class="data-v-092ecb56 vue-ref" data-event-opts="{{[ [ '^imgtap',[ ['priviewImg'] ] ] ]}}" data-ref="noticeMsg" html="{{detailObj.noticeMsg}}" lazyLoad="{{true}}" tagStyle="{{parseStyle}}" vueId="{{'caea424e-2'+','+'caea424e-1'}}"></u-parse>
+        </scroll-view>
+    </view>
+</u-popup>

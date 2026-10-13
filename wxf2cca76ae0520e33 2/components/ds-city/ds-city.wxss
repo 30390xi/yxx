@@ -1,0 +1,1 @@
+.area-box{height:800rpx;overflow:hidden;width:100%}.area-box>view{transform:translateX(0);transition:-webkit-transform .3s ease-in-out 0s;transition:transform .3s ease-in-out 0s;transition:transform .3s ease-in-out 0s,-webkit-transform .3s ease-in-out 0s;width:150%}.area-box>view.change{transform:translateX(-33.33333%)}.area-box .area-item{height:800rpx;width:33.3333333%}

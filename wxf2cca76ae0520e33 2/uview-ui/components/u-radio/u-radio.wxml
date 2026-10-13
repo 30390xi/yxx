@@ -1,0 +1,8 @@
+<view class="u-radio data-v-e0aa0326" style="{{$root.s0}}">
+    <view bindtap="__e" class="u-radio__icon-wrap data-v-e0aa0326" data-event-opts="{{[ [ 'tap',[ [ 'toggle',['$event'] ] ] ] ]}}">
+        <u-icon bind:__l="__l" class="{{['u-radio__icon','data-v-e0aa0326',iconClass]}}" color="{{iconColor}}" name="checkbox-mark" size="{{iconSize}}" style="{{$root.s1}}" vueId="7282c304-1"></u-icon>
+    </view>
+    <view bindtap="__e" class="u-label-class u-radio__label data-v-e0aa0326" data-event-opts="{{[ [ 'tap',[ [ 'onClickLabel',['$event'] ] ] ] ]}}" style="{{'font-size:'+labelSize+'rpx'+';'}}">
+        <slot></slot>
+    </view>
+</view>

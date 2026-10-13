@@ -1,0 +1,19 @@
+<view class="bg">
+    <uni-navbar bind:__l="__l" type="transparentFixed" vueId="b9829c30-1"></uni-navbar>
+    <view class="top">
+        <image mode="widthFix" src="{{articleData.coverImage}}"></image>
+    </view>
+    <view class="bottom">
+        <view class="name">{{articleData.title}}</view>
+        <view class="auth-box" wx:if="{{articleData.author}}">
+            <image mode="aspectFill" src="{{articleData.headImgUrl}}" wx:if="{{articleData.headImgUrl}}"></image>
+            <image mode="aspectFill" src="https://eshopfile.zhiyousx.com/headerImg.png" wx:else></image>
+            <view>{{articleData.author}}</view>
+        </view>
+        <view class="main-box">
+            <u-parse bind:__l="__l" class="vue-ref" data-ref="article" html="{{articleData.content}}" lazyLoad="{{true}}" style="text-align:justify;" tagStyle="{{parseStyle}}" vueId="b9829c30-2" vueSlots="{{['default']}}">
+                <text style="display:inline-block;"></text>
+            </u-parse>
+        </view>
+    </view>
+</view>

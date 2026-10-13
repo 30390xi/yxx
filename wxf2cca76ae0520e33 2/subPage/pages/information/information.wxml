@@ -1,0 +1,75 @@
+<view class="bigbox data-v-30b56d44">
+    <view class="up data-v-30b56d44">
+        <button bindchooseavatar="__e" class="up data-v-30b56d44" data-event-opts="{{[ [ 'chooseavatar',[ [ 'onChooseavatar',['$event'] ] ] ] ]}}" openType="chooseAvatar" type="balanced">
+            <view class="imgbox data-v-30b56d44" slot="addBtn">
+                <image class="data-v-30b56d44" src="{{userInfo.picUrl?userInfo.picUrl:'../../static/images/tt@2x.png'}}"></image>
+            </view>
+        </button>
+    </view>
+    <view class="list listline data-v-30b56d44">
+        <view class="contents data-v-30b56d44">
+            <view class="t data-v-30b56d44">ID</view>
+            <view class="data-v-30b56d44">{{userInfo.memberId}}</view>
+        </view>
+        <view class="contents data-v-30b56d44">
+            <view class="t data-v-30b56d44">昵称</view>
+            <view bindtap="__e" class="name data-v-30b56d44" data-event-opts="{{[ [ 'tap',[ [ 'editName',['$event'] ] ] ] ]}}">
+                <text class="data-v-30b56d44">{{userInfo.nickName?userInfo.nickName:'请输入昵称'}}</text>
+                <uni-icons bind:__l="__l" class="data-v-30b56d44" color="#c8c8c8" type="arrowright" vueId="0f8cb646-1"></uni-icons>
+            </view>
+        </view>
+        <view class="contents data-v-30b56d44">
+            <view class="t data-v-30b56d44">手机</view>
+            <view class="data-v-30b56d44">{{userInfo.mobilePhone}}</view>
+        </view>
+        <view class="contents data-v-30b56d44">
+            <view class="t data-v-30b56d44">性别</view>
+            <view class="data-v-30b56d44">
+                <radio-group bindchange="__e" class="Gender data-v-30b56d44" data-event-opts="{{[ [ 'change',[ [ 'radioChange',['$event'] ] ] ] ]}}">
+                    <view class="nan data-v-30b56d44">
+                        <label class="gender-item data-v-30b56d44">
+                            <radio checked="{{userInfoFrom.usersex==0}}" class="data-v-30b56d44" color="#ff4643" value="0"></radio>
+                            <view class="data-v-30b56d44">男</view>
+                        </label>
+                    </view>
+                    <view class="nan data-v-30b56d44">
+                        <label class="gender-item data-v-30b56d44">
+                            <radio checked="{{userInfoFrom.usersex==1}}" class="data-v-30b56d44" color="#ff4643" value="1"></radio>
+                            <view class="data-v-30b56d44">女</view>
+                        </label>
+                    </view>
+                </radio-group>
+            </view>
+        </view>
+        <view class="contents data-v-30b56d44">
+            <view class="t data-v-30b56d44">出生日期</view>
+            <picker bindchange="__e" class="data-v-30b56d44" data-event-opts="{{[ [ 'change',[ [ 'bindDateChange',['$event'] ] ] ] ]}}" end="{{endDate}}" fields="day" mode="date" start="{{startDate}}" value="{{userInfo.birthday}}">
+                <view class="name data-v-30b56d44">
+                    <text class="data-v-30b56d44">{{userInfo.birthday?userInfo.birthday:'未设置'}}</text>
+                    <uni-icons bind:__l="__l" class="data-v-30b56d44" color="#c8c8c8" type="arrowright" vueId="0f8cb646-2"></uni-icons>
+                </view>
+            </picker>
+        </view>
+    </view>
+    <view class="list data-v-30b56d44">
+        <view bindtap="__e" class="contents data-v-30b56d44" data-event-opts="{{[ [ 'tap',[ [ 'address',['$event'] ] ] ] ]}}">
+            <view class="t data-v-30b56d44">收货地址管理</view>
+            <view class="data-v-30b56d44">
+                <uni-icons bind:__l="__l" class="data-v-30b56d44" color="#c8c8c8" type="arrowright" vueId="0f8cb646-3"></uni-icons>
+            </view>
+        </view>
+    </view>
+    <view bindtap="__e" class="bottombox data-v-30b56d44" data-event-opts="{{[ [ 'tap',[ [ 'layout',['$event'] ] ] ] ]}}">退出当前账户</view>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-30b56d44 vue-ref" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showNameDialog','$event',[] ] ] ] ] ]}}" data-ref="uPopup" maskCloseAble="{{false}}" mode="center" value="{{showNameDialog}}" vueId="0f8cb646-4" vueSlots="{{['default']}}">
+        <view class="notice-box data-v-30b56d44">
+            <view class="t data-v-30b56d44">提示</view>
+            <u-input bind:__l="__l" bind:input="__e" border="{{true}}" class="data-v-30b56d44" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','userName','$event',[] ],['userInfoFrom'] ] ] ] ]}}" maxlength="12" placeholder="请输入昵称" style="width:60%;margin:20rpx auto;" type="nickname" value="{{userInfoFrom.userName}}" vueId="{{'0f8cb646-5'+','+'0f8cb646-4'}}"></u-input>
+            <view class="b-box data-v-30b56d44">
+                <view bindtap="__e" class="bt data-v-30b56d44" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}">取消</view>
+                <view bindtap="__e" class="bt b2 data-v-30b56d44" data-event-opts="{{[ [ 'tap',[ [ 'editUserInfo',['name'] ] ] ] ]}}">确认</view>
+            </view>
+        </view>
+    </u-popup>
+    <u-toast bind:__l="__l" class="data-v-30b56d44 vue-ref" data-ref="uToast" vueId="0f8cb646-6"></u-toast>
+    <avatar bind:__l="__l" bind:upload="__e" class="data-v-30b56d44 vue-ref" data-event-opts="{{[ [ '^upload',[ ['myUploadInfo'] ] ] ]}}" data-ref="avatarInfo" style="position:absolute;bottom:0;" vueId="0f8cb646-7"></avatar>
+</view>

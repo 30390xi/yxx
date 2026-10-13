@@ -1,0 +1,11 @@
+<view class="video-dot-list">
+    <view catchtap="closeVideoDotList" class="video-dot-list__mask"></view>
+    <view class="video-dot-list__container">
+        <view class="video-dot-list__head">
+            <view catchtap="playNext" class="video-dot-play-button video-dot-play-button__next mode-filter-black" wx:if="{{goodsExplainEnd&&goodsVideoList.length-1>currentIndex}}">播放下一个</view>
+        </view>
+        <scroll-view class="video-dot-list__body" scrollLeft="{{leftDistance}}" scrollWithAnimation="{{true}}" scrollX="{{true}}" style="width: 100%">
+            <mp-video-dot-card bindcustomevent="bindcustomevent" catchtap="selectDot" class="video-dot-list__item" data-index="{{index}}" data-info="{{item}}" from="{{from}}" goodsIndex="{{index}}" goodsInfo="{{item}}" status="{{index===currentIndex?'current':'normal'}}" wx:for="{{goodsVideoList}}" wx:key="unique"></mp-video-dot-card>
+        </scroll-view>
+    </view>
+</view>

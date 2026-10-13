@@ -1,0 +1,28 @@
+<view class="mic-tag">
+    <view class="mic-tag__inner">
+        <view bindtap="onMicTagTap" class="mic-tag__voice" wx:if="{{linkMicType===2&&micPanelMode===3}}">
+            <view class="mic-tag__voice__icon">
+                <view class="mic-tag__avatar" style="{{'background: url('+avatarUrl+') no-repeat center / contain'}}"></view>
+            </view>
+            <view class="mic-tag__voice__info">{{nickname}}</view>
+        </view>
+        <view class="mic-tag__voice" wx:if="{{showOthersMicTag}}">
+            <view class="mic-tag__voice__icon">
+                <view class="mic-tag__avatar" style="{{'background: url('+othersAvatarUrl+') no-repeat center / contain'}}"></view>
+            </view>
+            <view class="mic-tag__voice__info">{{othersNickname}}</view>
+        </view>
+        <view bindtap="onMicTagTap" class="mic-tag__video__container" hidden="{{linkMicType===2||!showMicPanel&&micPanelMode==4}}" wx:if="{{micPanelMode===3||micPanelMode===4}}">
+            <view class="mic-tag-video__cover" style="background: url(https://res.wx.qq.com/op_res/5wx1ATnDyhaarrUFp2oikxhjn4AR2-5H0zcNUjwiD2q55MFT47dxwPFN4WurhsKW) no-repeat center/cover"></view>
+            <live-pusher enableAgc enableAns mirror aspect="3:4" beauty="5" binderror="onLiveError" bindnetstatus="onLiveNetStatus" bindstatechange="onLiveStatechange" class="mic-tag__video" enableMic="{{!micBan&&audiencePushEnableMic}}" maxBitrate="350" minBitrate="200" mode="RTC" muted="{{micBan||!audiencePushEnableMic}}" style="width: 120px; height: 160px; border-radius: 8px; z-index:1" url="{{audiencePushUrl}}" videoHeight="{{audiencePushEnableCamera?256:1}}" videoWidth="{{audiencePushEnableCamera?192:1}}" waitingImage="{{waitingImagePath}}" whiteness="5"></live-pusher>
+        </view>
+        <view class="mic-tag__error mic-tag__video__error" wx:if="{{false}}">
+            <view class="mic-tag__error__info">观众</view>
+            <view class="mic-tag__error__info">暂时离开</view>
+        </view>
+        <view class="mic-tag__error mic-tag__voice__error" wx:if="{{false}}">
+            <view class="mic-tag__error__info">观众</view>
+            <view class="mic-tag__error__info">暂时离开</view>
+        </view>
+    </view>
+</view>

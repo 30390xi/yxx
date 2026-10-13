@@ -1,0 +1,35 @@
+<view bindtap="onTapBar" class="weui-navigation-bar mode__navigation__with__custom mode__navigation__with__white-icon navigation__with__profile has-events {{navigationBtn==='goHome'?'mode__navigation__with__home-icon':''}} {{screenType==='horizontal'?'weui-navigation-bar__horizontal':''}} {{isSupportBounding?'weui-navigation-bar__support-bounding':''}} {{isBgMeeting?'mode__navigation__with__custom__allenLive':''}}">
+    <view class="weui-navigation-bar__placeholder {{isIos?'ios':'android'}}" style="padding-top: {{statusBarHeight}}px; visibility: hidden;"></view>
+    <view class="weui-navigation-bar__body {{isIos?'ios':'android'}}" style="padding-top: {{statusBarHeight}}px; color: #ffffff; background: {{background}};{{displayStyle}};{{innerPaddingRight}};{{innerWidth}};">
+        <view class="weui-navigation-bar__left">
+            <block wx:if="{{navigationBtn==='back'}}">
+                <view class="weui-navigation-bar__buttons">
+                    <view bindtap="onBack" class="weui-navigation-bar__button weui-navigation-bar__btn_goback"></view>
+                </view>
+                <view style="{{isSupportBounding?innerWidth:'width: calc(70vw)'}}">
+                    <slot name="left"></slot>
+                </view>
+            </block>
+            <block wx:if="{{navigationBtn==='exit'}}">
+                <view class="weui-navigation-bar__buttons">
+                    <navigator bindtap="exit" openType="exit" target="miniProgram">
+                        <view class="weui-navigation-bar__button weui-navigation-bar__btn_goback"></view>
+                    </navigator>
+                </view>
+                <slot name="left"></slot>
+            </block>
+            <block wx:if="{{navigationBtn==='goHome'}}">
+                <view bindtap="onGobackHome" class="goback__home__icon"></view>
+                <slot name="left"></slot>
+            </block>
+            <block wx:if="{{navigationBtn==='shareFriend'}}">
+                <view class="weui-navigation-bar__share__friend"></view>
+                <slot name="left"></slot>
+            </block>
+        </view>
+        <view class="weui-navigation-bar__right navigation_right">
+            <view class="watermark" id="watermarkId"></view>
+            <slot name="right"></slot>
+        </view>
+    </view>
+</view>

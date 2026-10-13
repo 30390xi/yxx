@@ -1,0 +1,29 @@
+<view class="data-v-8043881a">
+    <block wx:if="{{$root.g0>0}}">
+        <view class="evaluateItem data-v-8043881a" wx:for="{{commentList}}" wx:key="index">
+            <view class="goodsBox data-v-8043881a">
+                <view class="itemPic data-v-8043881a">
+                    <u-lazy-load bind:__l="__l" borderRadius="10" class="data-v-8043881a" height="100" image="{{item.pic}}" imgMode="scaleToFill" vueId="{{'ecf28a14-1-'+index}}"></u-lazy-load>
+                </view>
+                <view class="goodsInfo data-v-8043881a">
+                    <text class="multilineText2 data-v-8043881a">{{item.name}}</text>
+                    <text class="data-v-8043881a">{{item.skuName?item.skuName:''}}</text>
+                </view>
+            </view>
+            <u-input bind:__l="__l" bind:input="__e" class="data-v-8043881a" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','commentContent','$event',[] ],[ [ ['commentList','',index] ] ] ] ] ] ]}}" maxlength="120" placeholder="分享购买心得给小伙伴吧" type="textarea" value="{{item.commentContent}}" vueId="{{'ecf28a14-2-'+index}}"></u-input>
+            <view class="upload data-v-8043881a">
+                <view class="submit data-v-8043881a">
+                    <view class="uItem data-v-8043881a">
+                        <u-upload action="{{action}}" autoUpload="{{true}}" bind:__l="__l" class="data-v-8043881a vue-ref-in-for" customBtn="{{true}}" data-ref="{{'uUpload'+index}}" maxCount="3" name="images" vueId="{{'ecf28a14-3-'+index}}" vueSlots="{{['addBtn']}}">
+                            <view class="slot-btn data-v-8043881a" hoverClass="slot-btn__hover" hoverStayTime="150" slot="addBtn">
+                                <u-icon bind:__l="__l" class="data-v-8043881a" color="{{$u.color['lightColor']}}" name="photo" size="60" vueId="{{'ecf28a14-4-'+index+','+'ecf28a14-3-'+index}}"></u-icon>
+                            </view>
+                        </u-upload>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <button bindtap="__e" class="loginSub data-v-8043881a" data-event-opts="{{[ [ 'tap',[ [ 'onSubmit',['$event'] ] ] ] ]}}">提交评论</button>
+    </block>
+    <u-toast bind:__l="__l" class="data-v-8043881a vue-ref" data-ref="uToast" vueId="ecf28a14-5"></u-toast>
+</view>

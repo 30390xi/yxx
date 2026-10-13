@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "门票订单详情",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true
+}

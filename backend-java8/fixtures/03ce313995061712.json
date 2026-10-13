@@ -1,0 +1,9 @@
+{
+  "code": 1,
+  "data": {
+    "minPrice": 15.0,
+    "maxPrice": 1380.0
+  },
+  "msg": "成功",
+  "success": true
+}

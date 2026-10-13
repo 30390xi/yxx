@@ -1,0 +1,78 @@
+<view class="data-v-21e49a41">
+    <uni-navbar bgColor="#FFFFFF" bind:__l="__l" class="data-v-21e49a41" shadow="{{false}}" type="fixed" vueId="50ef6b00-1" vueSlots="{{['default']}}">
+        <view bindtap="__e" class="searchBox data-v-21e49a41" data-event-opts="{{[ [ 'tap',[ [ 'goSearch',['$event'] ] ] ] ]}}">
+            <icon class="data-v-21e49a41" color="#c5c5c5" size="16" type="search"></icon>
+            <input bindinput="__e" class="searchInput data-v-21e49a41" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '','searchText','$event',[] ] ] ] ] ]}}" disabled="{{true}}" placeholder="搜索商品" placeholderStyle="color:#999999;font-weight:400" type="text" value="{{searchText}}"></input>
+        </view>
+    </uni-navbar>
+    <view class="nav data-v-21e49a41" style="{{'top:'+navHeight+'px'+';'}}">
+        <view class="sortNav data-v-21e49a41">
+            <view bindtap="__e" class="{{['navItem','data-v-21e49a41',index===sortIdx?'navItemActive':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'sortTab',[index] ] ] ] ]}}" wx:for="{{$root.l0}}" wx:key="index">{{''+item.$orig+''}}<view class="{{['sanjiaoxing1','data-v-21e49a41',item.g1?'sanjiaoxing1y':'']}}" wx:if="{{index===$root.g0-1}}"></view>
+                <view class="{{['sanjiaoxing2','data-v-21e49a41',item.g3?'sanjiaoxing2y':'']}}" wx:if="{{index===$root.g2-1}}"></view>
+            </view>
+        </view>
+        <view class="navIcon data-v-21e49a41">
+            <image bindtap="__e" class="data-v-21e49a41" data-event-opts="{{[ [ 'tap',[ [ 'listType',[0] ] ] ] ]}}" src="../../static/images/Switch_i@2x.png" wx:if="{{listTypeIcon==0}}"></image>
+            <image bindtap="__e" class="data-v-21e49a41" data-event-opts="{{[ [ 'tap',[ [ 'listType',[1] ] ] ] ]}}" src="../../static/images/Switch_i2@2x.png" wx:else></image>
+        </view>
+    </view>
+    <view class="adTitle data-v-21e49a41" wx:if="{{type==3}}">
+        <text class="data-v-21e49a41" style="margin-left:40rpx;">限时促销：以下商品可使用0元购优惠券</text>
+    </view>
+    <block wx:if="{{type==1||type==2}}">
+        <view class="adTitle data-v-21e49a41" wx:if="{{threshold>0}}">
+            <text class="data-v-21e49a41" style="margin-left:40rpx;">{{'限时促销：以下商品可使用满'+threshold+'减'+quota+'优惠券'}}</text>
+        </view>
+        <view class="adTitle data-v-21e49a41" wx:if="{{threshold==0}}">
+            <text class="data-v-21e49a41" style="margin-left:40rpx;">{{'限时促销：以下商品可使用'+quota+'元无门槛优惠券'}}</text>
+        </view>
+    </block>
+    <view class="goodsBox data-v-21e49a41" wx:if="{{listTypeIcon===0}}">
+        <view bindtap="__e" class="goodsItem data-v-21e49a41" data-event-opts="{{[ [ 'tap',[ [ 'goGoodsDetails',['$0'],[ [ ['goodsList','',index] ] ] ] ] ] ]}}" wx:for="{{$root.l1}}" wx:key="index">
+            <u-lazy-load bind:__l="__l" borderRadius="8" class="data-v-21e49a41" height="306" image="{{item.$orig.defaultPicUrl}}" imgMode="aspectFill" isEffect="{{false}}" vueId="{{'50ef6b00-2-'+index}}"></u-lazy-load>
+            <view class="goodsInfo data-v-21e49a41">
+                <view class="itemTitle multilineText2 data-v-21e49a41">{{item.$orig.itemTitle}}</view>
+                <view class="yh-box data-v-21e49a41">
+                    <image class="seckillIcon data-v-21e49a41" src="https://eshopfile.zhiyousx.com/2021091318044528261.png" wx:if="{{item.$orig.seckillActivity==0}}"></image>
+                    <text class="itemRuter data-v-21e49a41" wx:if="{{item.$orig.cashBackAmount&&item.$orig.cashBackAmount!=0&&userInfo&&userInfo.isFenxiao}}">{{'赚￥'+item.$orig.cashBackAmount}}</text>
+                </view>
+                <view class="numBox data-v-21e49a41">
+                    <text class="num-pic data-v-21e49a41" wx:if="{{item.$orig.startPriceFlag===0}}">{{'￥'+item.$orig.marketPrice}}</text>
+                    <text class="num-pic data-v-21e49a41" wx:if="{{item.$orig.startPriceFlag===1}}">{{'￥'+item.$orig.marketPrice+'起'}}</text>
+                </view>
+                <view class="numBox data-v-21e49a41">
+                    <text class="num-ys data-v-21e49a41">{{item.f0+'人付款'}}</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="goodsBoxs data-v-21e49a41" wx:else>
+        <view bindtap="__e" class="goodsItem data-v-21e49a41" data-event-opts="{{[ [ 'tap',[ [ 'goGoodsDetails',['$0'],[ [ ['goodsList','',index] ] ] ] ] ] ]}}" wx:for="{{$root.l2}}" wx:key="index">
+            <view class="itemImg data-v-21e49a41">
+                <u-lazy-load bind:__l="__l" borderRadius="8" class="data-v-21e49a41" height="192" image="{{item.$orig.defaultPicUrl}}" imgMode="scaleToFill" isEffect="{{false}}" style="width:200rpx;" vueId="{{'50ef6b00-3-'+index}}"></u-lazy-load>
+            </view>
+            <view class="itemLeft data-v-21e49a41">
+                <view class="itemTitle multilineText2 data-v-21e49a41">{{item.$orig.itemTitle}}</view>
+                <view class="itemSubTitle singleLineText data-v-21e49a41" wx:if="{{item.$orig.itemSubTitle}}">{{item.$orig.itemSubTitle}}</view>
+                <view class="yh-box data-v-21e49a41">
+                    <text class="itemRuter data-v-21e49a41" wx:if="{{item.$orig.couponFullAmount>0}}">{{'满'+item.f1+'减'+item.f2}}</text>
+                    <text class="itemRuter data-v-21e49a41" wx:if="{{item.$orig.couponFullAmount==0}}">{{'领券减'+item.f3}}</text>
+                    <text class="itemRuter data-v-21e49a41" wx:if="{{item.$orig.cashBackAmount&&userInfo&&userInfo.isFenxiao}}">{{'返￥'+item.$orig.cashBackAmount}}</text>
+                </view>
+                <view class="numBox data-v-21e49a41">
+                    <view class="numBox-l data-v-21e49a41">
+                        <text class="num-pic data-v-21e49a41" wx:if="{{item.$orig.startPriceFlag===0}}">{{'￥'+item.$orig.marketPrice}}</text>
+                        <text class="num-pic data-v-21e49a41" wx:if="{{item.$orig.startPriceFlag===1}}">{{'￥'+item.$orig.marketPrice+'起'}}</text>
+                    </view>
+                    <text class="num-ys data-v-21e49a41">{{item.f4+'人付款'}}</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="empty data-v-21e49a41" wx:if="{{$root.g4}}">
+        <empty-state bind:__l="__l" class="data-v-21e49a41" imgUrl="/static/captured/51d17a011d27445c.png" text="暂无数据" vueId="50ef6b00-4"></empty-state>
+    </view>
+    <view class="loadMore data-v-21e49a41">
+        <u-loadmore bgColor="#f7f7f7" bind:__l="__l" class="data-v-21e49a41" color="#ccc" data-custom-hidden="{{!$root.g5}}" iconColor="#ccc" loadText="{{$root.a0}}" status="{{loadMore}}" vueId="50ef6b00-5"></u-loadmore>
+    </view>
+</view>

@@ -1,0 +1,94 @@
+<view class="page-box data-v-4a5cfa80">
+    <view class="head-box data-v-4a5cfa80">
+        <view class="bg-box data-v-4a5cfa80">
+            <view class="title data-v-4a5cfa80">礼品卡总余额</view>
+            <view class="money data-v-4a5cfa80">{{'￥'+sumBalance+''}}</view>
+        </view>
+        <view class="tab-box data-v-4a5cfa80">
+            <u-tabs activeColor="#FF5411" barStyle="{{barStyle}}" bind:__l="__l" bind:change="__e" class="data-v-4a5cfa80 vue-ref" current="{{currentTab}}" data-event-opts="{{[ [ '^change',[ ['tabsChange'] ] ] ]}}" data-ref="uTabs" fontSize="28" inactiveColor="#555555" isScroll="{{false}}" list="{{tabTitle}}" vueId="57487260-1"></u-tabs>
+        </view>
+    </view>
+    <view class="card-box data-v-4a5cfa80">
+        <view class="card-box-it data-v-4a5cfa80" wx:if="{{records[0]}}" wx:for="{{$root.l0}}" wx:key="index">
+            <view class="{{['card-item','data-v-4a5cfa80',currentTab==1?'filterBox':'']}}">
+                <image mode class="card-image data-v-4a5cfa80" src="{{item.$orig.cardPicUrl}}" wx:if="{{item.$orig.cardPicUrl}}"></image>
+                <view class="card-data data-v-4a5cfa80">
+                    <view class="{{['card-head','data-v-4a5cfa80',!item.$orig.cardPicUrl?'cardHeadbg':'']}}">
+                        <image mode class="card-logo data-v-4a5cfa80" src="../../static/images/logo.png" wx:if="{{!item.$orig.cardPicUrl}}"></image>
+                        <view class="card-info data-v-4a5cfa80">
+                            <view class="card-name data-v-4a5cfa80">{{''+item.$orig.name+''}}</view>
+                            <view class="card-value data-v-4a5cfa80">{{'面值：'+item.$orig.quota+'元'}}</view>
+                        </view>
+                        <view bindtap="__e" class="card-log data-v-4a5cfa80" data-event-opts="{{[ [ 'tap',[ [ 'getGiftCardDetail',['$0'],[ [ ['records','',index] ] ] ] ] ] ]}}">消费记录</view>
+                        <view class="card-time data-v-4a5cfa80">{{''+item.$orig.validityTimeStr+''}}</view>
+                    </view>
+                    <view class="{{['card-body','data-v-4a5cfa80',!item.$orig.cardPicUrl?'cardBodyBg':'']}}">
+                        <view class="card-balance data-v-4a5cfa80">
+                            <text class="label data-v-4a5cfa80">余额</text>
+                            <text class="value data-v-4a5cfa80">{{'￥'+item.$orig.balance}}</text>
+                        </view>
+                        <view bindtap="__e" class="card-tips data-v-4a5cfa80" data-event-opts="{{[ [ 'tap',[ [ 'showtips',['$0'],[ [ ['records','',index] ] ] ] ] ] ]}}" wx:if="{{currentTab==0}}">
+                            <view class="tips data-v-4a5cfa80">{{''+item.f0+''}}</view>
+                            <image mode class="tips-icon data-v-4a5cfa80" src="../../static/images/info.png"></image>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <image mode class="card-state data-v-4a5cfa80" src="https://eshopfile.zhiyousx.com/170065250008116634.png" wx:if="{{item.$orig.status==3}}"></image>
+            <image mode class="card-state data-v-4a5cfa80" src="https://eshopfile.zhiyousx.com/170065251327546322.png" wx:if="{{item.$orig.status==4}}"></image>
+            <image mode class="card-state data-v-4a5cfa80" src="https://eshopfile.zhiyousx.com/170065252675437017.png" wx:if="{{item.$orig.status==6}}"></image>
+            <image mode class="card-state data-v-4a5cfa80" src="https://eshopfile.zhiyousx.com/170065254044085555.png" wx:if="{{item.$orig.status==5}}"></image>
+        </view>
+        <view class="no-card data-v-4a5cfa80" wx:if="{{$root.g0}}">
+            <image mode class="no-card-icon data-v-4a5cfa80" src="https://eshopfile.zhiyousx.com/giftCard/noGiftCard.png"></image>{{'您暂无'+(currentTab==1?'不':'')+'可用的礼品卡'}}</view>
+    </view>
+    <view class="footer data-v-4a5cfa80">
+        <view bindtap="__e" class="item data-v-4a5cfa80" data-event-opts="{{[ [ 'tap',[ [ 'buyCard',['$event'] ] ] ] ]}}">
+            <image mode class="icon1 data-v-4a5cfa80" src="../../static/images/purchase.png"></image>
+            <view class="t data-v-4a5cfa80">购买新卡</view>
+        </view>
+        <view bindtap="__e" class="item data-v-4a5cfa80" data-event-opts="{{[ [ 'tap',[ [ 'bindCard',['$event'] ] ] ] ]}}">
+            <image mode class="icon2 data-v-4a5cfa80" src="../../static/images/binding.png"></image>
+            <view class="t data-v-4a5cfa80">绑定新卡</view>
+        </view>
+    </view>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-4a5cfa80" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','show','$event',[] ] ] ] ] ]}}" mode="center" value="{{show}}" vueId="57487260-2" vueSlots="{{['default']}}">
+        <view class="popup-box data-v-4a5cfa80">
+            <view class="title data-v-4a5cfa80">我的礼品卡</view>
+            <view class="card-number data-v-4a5cfa80">{{'卡号：'+cardId+''}}</view>
+            <view class="record data-v-4a5cfa80">
+                <view class="name data-v-4a5cfa80">消费记录：</view>
+                <view class="no-record data-v-4a5cfa80" wx:if="{{$root.g1}}">
+                    <image mode class="icon3 data-v-4a5cfa80" src="https://eshopfile.zhiyousx.com/2023111315442061719.png"></image>暂无消费记录</view>
+                <view class="record-box data-v-4a5cfa80" wx:if="{{cardDetail[0]}}">
+                    <scroll-view class="data-v-4a5cfa80" scrollY="true" style="height:350rpx;">
+                        <view class="record-item data-v-4a5cfa80" wx:for="{{cardDetail}}" wx:key="index">
+                            <view class="item-left data-v-4a5cfa80">
+                                <view class="item-orderId data-v-4a5cfa80">{{'订单：'+item.orderId+''}}</view>
+                                <view class="item-time data-v-4a5cfa80">{{''+item.createTime+''}}</view>
+                            </view>
+                            <view class="item-right data-v-4a5cfa80">
+                                <view class="{{['item-change','data-v-4a5cfa80',item.balanceChange>0?'add':'']}}">
+                                    <text class="data-v-4a5cfa80" style="color:#FF5411;" wx:if="{{item.balanceChange>0}}">+</text>{{item.balanceChange+''}}</view>
+                                <view class="item-balance data-v-4a5cfa80">{{'余：'+item.balance+''}}</view>
+                            </view>
+                        </view>
+                    </scroll-view>
+                </view>
+            </view>
+            <view bindtap="__e" class="but data-v-4a5cfa80" data-event-opts="{{[ [ 'tap',[ [ 'closePopup',['$event'] ] ] ] ]}}">知道了</view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-4a5cfa80" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','buyPop','$event',[] ] ] ] ] ]}}" mode="center" value="{{buyPop}}" vueId="57487260-3" vueSlots="{{['default']}}">
+        <view class="buy-tips-box data-v-4a5cfa80">
+            <view class="bt-title data-v-4a5cfa80">购买礼品卡</view>
+            <view class="bt-info1 data-v-4a5cfa80">如果需要团购礼品或品牌合作</view>
+            <view class="bt-info2 data-v-4a5cfa80">请联系客服电话</view>
+            <view class="bt-info3 data-v-4a5cfa80">400-029-2296</view>
+            <view bindtap="__e" class="bt-but data-v-4a5cfa80" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}">知道了</view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-4a5cfa80" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showTip','$event',[] ] ] ] ] ]}}" mode="center" value="{{showTip}}" vueId="57487260-4" vueSlots="{{['default']}}">
+        <view class="popup-tips data-v-4a5cfa80">{{''+$root.f1+''}}</view>
+    </u-popup>
+</view>

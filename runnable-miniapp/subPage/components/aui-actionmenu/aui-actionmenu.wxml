@@ -1,0 +1,15 @@
+<view class="{{['aui-actionmenu',location=='bottom'?'aui-actionmenu-bottom':'',location=='middle'?'aui-actionmenu-middle':'',$root.m0==1?'aui-actionmenu-style-1':'',$root.m1==2?'aui-actionmenu-style-2':'',FADE==1?'aui-actionmenu-in':'',FADE==0?'aui-actionmenu-out':'']}}" wx:if="{{SHOW}}">
+    <view catchtap="__e" catchtouchmove="__e" class="aui-mask" data-event-opts="{{[ [ 'touchmove',[ [ '',['$event'] ] ] ],[ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" wx:if="{{mask}}"></view>
+    <view class="aui-actionmenu-main">
+        <view class="aui-actionmenu-title" wx:if="{{title}}">{{title}}</view>
+        <view class="aui-actionmenu-items" style="{{'padding:'+(!title?'10px':'')+';'}}">
+            <view bindtouchend="__e" bindtouchmove="__e" bindtouchstart="__e" catchtap="__e" class="{{['aui-actionmenu-item',!item.icon&&!item.img?'no-icon':'']}}" data-event-opts="{{[ [ 'tap',[ [ '_btnTab',['$event'] ] ] ],[ 'touchstart',[ [ '_btnTouchStart',['$event'] ] ] ],[ 'touchmove',[ [ '_btnTouchEnd',['$event'] ] ] ],[ 'touchend',[ [ '_btnTouchEnd',['$event'] ] ] ] ]}}" data-index="{{index+1}}" style="{{'color:'+(touchIndex==index+1?touchStyle.color:item.color)+';'+'font-size:'+item.fontSize+';'+'text-align:'+item.textAlign+';'+'background:'+(touchIndex==index+1?touchStyle.background:'')+';'}}" wx:for="{{items}}" wx:key="index">
+                <image alt class="_img" src="{{item.img}}" wx:if="{{item.img}}"></image>
+                <view class="{{['iconfont',item.icon]}}" style="{{'color:'+item.iconColor+';'}}" wx:if="{{item.icon}}"></view>
+                <view class="aui-actionmenu-item-text">{{item.name}}</view>
+                <button class="left_share" openType="share" wx:if="{{item.name==='微信'}}"></button>
+            </view>
+        </view>
+        <view bindtouchend="__e" bindtouchmove="__e" bindtouchstart="__e" catchtap="__e" class="aui-actionmenu-cancle" data-event-opts="{{[ [ 'tap',[ [ '_btnTab',['$event'] ] ] ],[ 'touchstart',[ [ '_btnTouchStart',['$event'] ] ] ],[ 'touchmove',[ [ '_btnTouchEnd',['$event'] ] ] ],[ 'touchend',[ [ '_btnTouchEnd',['$event'] ] ] ] ]}}" data-index="0" style="{{'color:'+(touchIndex==0?touchStyle.color:'')+';'+'background:'+(touchIndex==0?touchStyle.background:'')+';'}}">{{cancel||'取消'}}</view>
+    </view>
+</view>

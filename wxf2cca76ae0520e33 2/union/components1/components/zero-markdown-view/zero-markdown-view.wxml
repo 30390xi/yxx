@@ -1,0 +1,3 @@
+<view class="zero-markdown-view">
+    <mp-html bind:__l="__l" content="{{html}}" markdown="{{true}}" scrollTable="{{scrollTable}}" selectable="{{selectable}}" tagStyle="{{tagStyle}}" vueId="7fff828e-1"></mp-html>
+</view>

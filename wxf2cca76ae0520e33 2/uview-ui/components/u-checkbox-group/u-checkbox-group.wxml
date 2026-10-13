@@ -1,0 +1,3 @@
+<view class="u-checkbox-group u-clearfix data-v-75c99649">
+    <slot></slot>
+</view>

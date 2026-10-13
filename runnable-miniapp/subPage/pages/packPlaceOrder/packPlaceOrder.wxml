@@ -1,0 +1,647 @@
+<view class="container data-v-6c16d096" wx:if="{{infoObj.itemTitle}}">
+    <view class="box1 data-v-6c16d096">
+        <view class="name data-v-6c16d096">{{''+infoObj.groupScenicName+''}}</view>
+    </view>
+    <view class="box2 data-v-6c16d096">
+        <view class="new-box data-v-6c16d096">
+            <block wx:if="{{infoObj.itemUseDesc.dateType==2}}">
+                <view class="date-box data-v-6c16d096">
+                    <view class="title data-v-6c16d096">使用日期</view>
+                    <view class="scroll-box data-v-6c16d096">
+                        <scroll-view class="left data-v-6c16d096" scrollIntoView="{{scrollToDate}}" scrollX="{{true}}">
+                            <view bindtap="__e" class="{{['item','data-v-6c16d096',item.date===selectedDate?'active':'',item.disabled===true?'disabled':'',infoObj.scenicType==1&&item.date===selectedDate?'csBg':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'selectBookDateInPage',['$0'],[ [ ['timeData','',index] ] ] ] ] ] ]}}" id="{{'date-'+item.date}}" wx:for="{{timeData}}" wx:key="index">
+                                <view class="p1 data-v-6c16d096">{{item.dateShort+' '+item.week}}</view>
+                                <view class="{{['p3','data-v-6c16d096',infoObj.scenicType==1?'csColor':'']}}">{{item.diy}}</view>
+                            </view>
+                        </scroll-view>
+                        <view bindtap="__e" class="right data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'jumpCalendarPage',['$event'] ] ] ] ]}}">
+                            <view class="text data-v-6c16d096">更多日期</view>
+                            <view class="{{['arrow','data-v-6c16d096',infoObj.scenicType==1?'csBorder':'']}}"></view>
+                        </view>
+                    </view>
+                </view>
+                <view class="hour-box data-v-6c16d096" wx:if="{{showHourBox&&hourArr[0]}}">
+                    <view class="title data-v-6c16d096">{{'入'+(infoObj.scenicType==1?'寺':'园')+'时段'}}</view>
+                    <view class="item-box data-v-6c16d096">
+                        <view bindtap="__e" class="{{['item','data-v-6c16d096',selectedHour.time===item.startTime+'-'+item.endTime?'active':'',infoObj.scenicType==1&&selectedHour.time===item.startTime+'-'+item.endTime?'csBg':'',item.disabled===true?'disabled':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'selectHourFn',['$0'],[ [ ['hourArr','',index] ] ] ] ] ] ]}}" wx:for="{{hourArr}}">
+                            <view class="p1 data-v-6c16d096">{{item.startTime+'-'+item.endTime}}</view>
+                            <view class="{{['p2','data-v-6c16d096',infoObj.scenicType==1?'csColor':'']}}" style="{{'opacity:'+(item.surplusStock===0&&!item.timePassed?1:0)+';'}}" wx:if="{{item.disabled}}">{{infoObj.skuSellOutInfo?infoObj.skuSellOutInfo:infoObj.skuItemType==0?'已满':'约满'}}</view>
+                            <view class="p2 data-v-6c16d096" wx:else>{{item.surplusStockStr}}</view>
+                        </view>
+                    </view>
+                </view>
+            </block>
+            <view class="yxrq-box data-v-6c16d096" wx:else>
+                <view class="title data-v-6c16d096">有效日期</view>
+                <view class="p-box data-v-6c16d096">
+                    <view class="p1 data-v-6c16d096">{{infoObj.itemUseDesc.datePeriodBegin+'-'+infoObj.itemUseDesc.datePeriodEnd+'有效'}}</view>
+                    <view class="p2 data-v-6c16d096" wx:if="{{infoObj.bookingInfoTag.validityModeBookStr3}}">{{infoObj.bookingInfoTag.validityModeBookStr3}}</view>
+                </view>
+            </view>
+        </view>
+        <view class="buy-limit data-v-6c16d096" wx:if="{{infoObj.itemUseDesc.accountAstrictNum>0}}">
+            <view class="p data-v-6c16d096">{{infoObj.itemUseDesc.accountAstrictDays+'天最多'+(infoObj.skuItemType==0?'购买':'预约')+infoObj.itemUseDesc.accountAstrictNum+$root.f0}}</view>
+        </view>
+        <view class="buy-limit data-v-6c16d096" wx:if="{{infoObj.itemUseDesc.idAstrictNum>0}}">
+            <view class="p data-v-6c16d096">{{'同一身份证'+infoObj.itemUseDesc.idAstrictDays+'天最多'+(infoObj.skuItemType==0?'购买':'预约')+infoObj.itemUseDesc.idAstrictNum+$root.f1}}</view>
+        </view>
+    </view>
+    <view class="pack-box data-v-6c16d096">
+        <view class="pack-item data-v-6c16d096">
+            <view class="pt-it data-v-6c16d096">
+                <view class="name singleLineText data-v-6c16d096">{{''+infoObj.groupItemName+''}}</view>
+                <view class="price data-v-6c16d096" wx:if="{{ticketPrice!=null&&ticketPrice>=0}}">{{'￥'+ticketPrice+''}}</view>
+            </view>
+            <view class="pt-it data-v-6c16d096">
+                <view class="info-box data-v-6c16d096">
+                    <view bindtap="__e" class="info data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'showBookTip',['$0'],['infoObj'] ] ] ] ]}}">
+                        <view class="data-v-6c16d096" wx:if="{{infoObj.scenicType==1}}">
+                            <text class="data-v-6c16d096">入寺先预约</text>
+                            <text class="data-v-6c16d096">｜</text>
+                            <text class="data-v-6c16d096">取消请提前</text>
+                            <text bindtap="__e" class="data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'showBookTip',['$0'],['infoObj'] ] ] ] ]}}">
+                                <text class="data-v-6c16d096" style="color:#777777;">｜</text>{{(infoObj.skuItemType==0?'购买':'预约')+'须知 >'}}</text>
+                        </view>
+                        <view class="data-v-6c16d096" wx:else>
+                            <text class="data-v-6c16d096" style="color:#FF5411;" wx:if="{{infoObj.bookingInfoTag.reserveTimeTag&&showTimeTag&&infoObj.bookingInfoTag.bookingTag=='可订今日'}}">{{infoObj.bookingInfoTag.reserveTimeTag+''}}<text class="data-v-6c16d096" style="color:#777777;">｜</text>
+                            </text>
+                            <text class="data-v-6c16d096" style="{{'color:'+$root.m0+';'}}">{{$root.m1}}</text>
+                            <text class="data-v-6c16d096">｜</text>
+                            <text class="data-v-6c16d096" style="{{'color:'+$root.m2+';'}}">{{infoObj.bookingInfoTag.changeTag}}</text>
+                            <text class="data-v-6c16d096" style="color:#FF5411;" wx:if="{{infoObj.bookingInfoTag.idCardTag}}">
+                                <text class="data-v-6c16d096" style="color:#777777;">｜</text>{{infoObj.bookingInfoTag.idCardTag+''}}</text>
+                            <text class="data-v-6c16d096" style="color:#777777;">
+                                <text class="data-v-6c16d096">｜</text>{{(infoObj.skuItemType==0?'购买':'预约')+'须知 >'}}</text>
+                        </view>
+                    </view>
+                </view>
+                <view class="op-box data-v-6c16d096">
+                    <view bindtap="__e" class="op data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'reduceNum',[0] ] ] ] ]}}">-</view>
+                    <view class="op-num data-v-6c16d096">{{''+(groupTicketArr[0].ticketNum||0)+''}}</view>
+                    <view bindtap="__e" class="{{['op','data-v-6c16d096',infoObj.scenicType==1?'csBg':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'addNum',[0] ] ] ] ]}}">+</view>
+                </view>
+            </view>
+        </view>
+        <view class="pack-item data-v-6c16d096" wx:for="{{$root.l0}}">
+            <view class="pt-it data-v-6c16d096">
+                <view class="name singleLineText data-v-6c16d096">{{''+item.$orig.groupItemName+''}}</view>
+                <view class="price data-v-6c16d096">
+                    <block wx:if="{{!showHourBox&&selectedObj&&(selectedObj['surplusStock'+index]>0||selectedObj['surplusStock'+index]==-1)}}">{{'￥'+selectedObj['sellPrice'+index]+''}}</block>
+                    <block wx:if="{{showHourBox&&selectedHour&&(selectedHour['surplusStock'+index]>0||selectedHour['surplusStock'+index]==-1)}}">{{'￥'+selectedHour['sellPrice'+index]+''}}</block>
+                </view>
+            </view>
+            <view class="pt-it data-v-6c16d096">
+                <view class="info-box data-v-6c16d096">
+                    <view bindtap="__e" class="info data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'showBookTip',['$0'],[ [ ['infoObj.itemGroupVOList','',index] ] ] ] ] ] ]}}">
+                        <view class="data-v-6c16d096" wx:if="{{item.$orig.scenicType==1}}">
+                            <text class="data-v-6c16d096">入寺先预约</text>
+                            <text class="data-v-6c16d096">｜</text>
+                            <text class="data-v-6c16d096">取消请提前</text>
+                            <text bindtap="__e" class="data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'showBookTip',['$0'],['infoObj'] ] ] ] ]}}">
+                                <text class="data-v-6c16d096" style="color:#777777;">｜</text>{{(item.$orig.skuItemType==0?'购买':'预约')+'须知 >'}}</text>
+                        </view>
+                        <view class="data-v-6c16d096" wx:else>
+                            <text class="data-v-6c16d096" style="color:#FF5411;" wx:if="{{item.$orig.bookingInfoTag.reserveTimeTag&&showTimeTag&&item.$orig.bookingInfoTag.bookingTag=='可订今日'}}">{{item.$orig.bookingInfoTag.reserveTimeTag+''}}<text class="data-v-6c16d096" style="color:#777777;">｜</text>
+                            </text>
+                            <text class="data-v-6c16d096" style="{{'color:'+item.m3+';'}}">{{item.m4}}</text>
+                            <text class="data-v-6c16d096">｜</text>
+                            <text class="data-v-6c16d096" style="{{'color:'+item.m5+';'}}">{{item.$orig.bookingInfoTag.changeTag}}</text>
+                            <text class="data-v-6c16d096" style="color:#FF5411;" wx:if="{{item.$orig.bookingInfoTag.idCardTag}}">
+                                <text class="data-v-6c16d096" style="color:#777777;">｜</text>{{item.$orig.bookingInfoTag.idCardTag+''}}</text>
+                            <text class="data-v-6c16d096" style="color:#777777;">
+                                <text class="data-v-6c16d096">｜</text>{{(item.$orig.skuItemType==0?'购买':'预约')+'须知 >'}}</text>
+                        </view>
+                    </view>
+                </view>
+                <view class="op-box data-v-6c16d096" wx:if="{{showHourBox}}">
+                    <view bindtap="__e" class="op data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'reduceNum',[index+1] ] ] ] ]}}">-</view>
+                    <view class="{{['op-num','data-v-6c16d096',selectedHour&&(!selectedHour['surplusStock'+index]||selectedHour['surplusStock'+index]<1)&&selectedHour['surplusStock'+index]!=-1&&!groupTicketArr[index+1].ticketNum?'opDisabled':'']}}">{{''+(groupTicketArr[index+1].ticketNum||0)+''}}</view>
+                    <view bindtap="__e" class="{{['op','data-v-6c16d096',selectedHour&&(!selectedHour['surplusStock'+index]||selectedHour['surplusStock'+index]<1)&&selectedHour['surplusStock'+index]!=-1?'opDisabled':'',infoObj.scenicType==1?'csBg':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'addNum',[index+1] ] ] ] ]}}">+</view>
+                </view>
+                <view class="op-box data-v-6c16d096" wx:else>
+                    <view bindtap="__e" class="op data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'reduceNum',[index+1] ] ] ] ]}}">-</view>
+                    <view class="{{['op-num','data-v-6c16d096',selectedObj&&(!selectedObj['surplusStock'+index]||selectedObj['surplusStock'+index]<1)&&selectedObj['surplusStock'+index]!=-1&&!groupTicketArr[index+1].ticketNum?'opDisabled':'']}}">{{''+(groupTicketArr[index+1].ticketNum||0)+''}}</view>
+                    <view bindtap="__e" class="{{['op','data-v-6c16d096',selectedObj&&(!selectedObj['surplusStock'+index]||selectedObj['surplusStock'+index]<1)&&selectedObj['surplusStock'+index]!=-1?'opDisabled':'',infoObj.scenicType==1?'csBg':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'addNum',[index+1] ] ] ] ]}}">+</view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="touristNumTips data-v-6c16d096">
+        <view class="t1 data-v-6c16d096">{{'需填写 '+$root.f2+' 位游客信息'}}</view>
+        <view class="t2 data-v-6c16d096" wx:if="{{ptSum>0}}">还需<text class="data-v-6c16d096">{{ptSum}}</text>位</view>
+    </view>
+    <view class="box3 data-v-6c16d096" wx:if="{{itemInfo.$orig.inputGroup[0]}}" wx:for="{{$root.l3}}" wx:for-index="itemIndex" wx:for-item="itemInfo">
+        <block wx:if="{{touristInfoTypeLevel!=0}}">
+            <view class="tMame data-v-6c16d096" wx:if="{{itemIndex==0}}">{{infoObj.groupItemName}}</view>
+            <view class="tMame data-v-6c16d096" wx:else>{{''+infoObj.itemGroupVOList[itemIndex-1].groupItemName+''}}</view>
+        </block>
+        <view class="scroll-box data-v-6c16d096">
+            <scroll-view class="passenger-box data-v-6c16d096" scrollX="{{true}}">
+                <view bindtap="__e" class="{{['user','data-v-6c16d096',item.g0?'active':'',!item.g1?'dis':'',item.g2?'csBg':'',item.g3?'csColor':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeTourist',['$0',index,itemIndex],[ [ ['commonUsedTouristList','',index] ] ] ] ] ] ]}}" wx:for="{{itemInfo.l1}}">{{''+item.$orig.name+''}}</view>
+                <view bindtap="__e" class="user-but data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'choosePassenger',[itemIndex] ] ] ] ]}}">
+                    <view class="but data-v-6c16d096">{{''+(commonUsedTouristList[0]?'新增/更换':'+ 新增信息')+''}}</view>
+                </view>
+            </scroll-view>
+        </view>
+        <view class="contact-box data-v-6c16d096">
+            <view class="item data-v-6c16d096" wx:for="{{itemInfo.l2}}" wx:for-index="i" wx:for-item="it">
+                <view class="row data-v-6c16d096">
+                    <view class="l data-v-6c16d096">
+                        <image mode class="image-l data-v-6c16d096" src="https://eshopfile.zhiyousx.com/173950170060653880.png"></image>
+                    </view>
+                    <input bindblur="__e" bindinput="__e" class="r data-v-6c16d096" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '$0','name','$event',['trim'] ],[ [ ['groupTicketArr','',itemIndex],['inputGroup','',i] ] ] ] ] ],[ 'blur',[ ['$forceUpdate'] ] ] ]}}" data-type="name" placeholder="请按Surname/Given name格式填写" value="{{it.$orig.name}}" wx:if="{{it.$orig.cardType==1}}"></input>
+                    <block wx:else>
+                        <ocr-index bind:__l="__l" class="data-v-6c16d096" itemIndex="{{itemIndex}}" style="width:calc(100% - 80rpx);" subscript="{{i}}" vueId="{{'679367c0-1-'+itemIndex+'-'+i}}" vueSlots="{{['content']}}" wx:if="{{it.m6}}">
+                            <input bindblur="__e" bindinput="__e" class="r data-v-6c16d096" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '$0','name','$event',['trim'] ],[ [ ['groupTicketArr','',itemIndex],['inputGroup','',i] ] ] ] ] ],[ 'blur',[ ['$forceUpdate'] ] ] ]}}" data-type="name" placeholder="请填写姓名" slot="content" value="{{it.$orig.name}}"></input>
+                        </ocr-index>
+                        <input bindblur="__e" bindinput="__e" class="r data-v-6c16d096" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '$0','name','$event',['trim'] ],[ [ ['groupTicketArr','',itemIndex],['inputGroup','',i] ] ] ] ] ],[ 'blur',[ ['$forceUpdate'] ] ] ]}}" data-type="name" placeholder="请填写姓名" value="{{it.$orig.name}}" wx:if="{{it.m7}}"></input>
+                    </block>
+                </view>
+                <block wx:if="{{itemIndex==0}}">
+                    <view class="row data-v-6c16d096" wx:if="{{infoObj.itemUseDesc.touristInfoType==1&&i==0||infoObj.itemUseDesc.touristInfoType==2}}">
+                        <view class="l data-v-6c16d096"></view>
+                        <view bindtap="__e" class="user-card data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'showCertificatePoP',['$0',itemIndex,i],[ [ ['groupTicketArr','',itemIndex],['inputGroup','',i] ] ] ] ] ] ]}}">
+                            <view class="card-name data-v-6c16d096">{{''+it.f3+''}}</view>
+                            <u-icon bind:__l="__l" class="data-v-6c16d096" color="#555555" name="arrow-down" size="20" vueId="{{'679367c0-2-'+itemIndex+'-'+i}}"></u-icon>
+                        </view>
+                        <input bindblur="__e" bindinput="__e" class="{{['r','data-v-6c16d096',it.g4?'errId':'']}}" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '$0','idCard','$event',['trim'] ],[ [ ['groupTicketArr','',itemIndex],['inputGroup','',i] ] ] ],[ 'handlerChange',['$event',itemIndex,'$0',i],[ [ ['groupTicketArr','',itemIndex],['inputGroup','',i] ] ] ] ] ],[ 'blur',[ ['$forceUpdate'] ] ] ]}}" data-type="cardCode" placeholder="请填写证件号码" style="border:none;" type="idcard" value="{{it.$orig.idCard}}" wx:if="{{it.$orig.cardType==0}}"></input>
+                        <input bindblur="__e" bindinput="__e" class="r data-v-6c16d096" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '$0','idCard','$event',['trim'] ],[ [ ['groupTicketArr','',itemIndex],['inputGroup','',i] ] ] ] ] ],[ 'blur',[ ['$forceUpdate'] ] ] ]}}" data-type="cardCode" placeholder="请填写证件号码" style="border:none;" type="text" value="{{it.$orig.idCard}}" wx:else></input>
+                    </view>
+                </block>
+                <block wx:else>
+                    <view class="row data-v-6c16d096" wx:if="{{infoObj.itemGroupVOList[itemIndex-1].itemUseDesc.touristInfoType==1&&i==0||infoObj.itemGroupVOList[itemIndex-1].itemUseDesc.touristInfoType==2}}">
+                        <view class="l data-v-6c16d096"></view>
+                        <view bindtap="__e" class="user-card data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'showCertificatePoP',['$0',itemIndex,i],[ [ ['groupTicketArr','',itemIndex],['inputGroup','',i] ] ] ] ] ] ]}}">
+                            <view class="card-name data-v-6c16d096">{{''+it.f4+''}}</view>
+                            <u-icon bind:__l="__l" class="data-v-6c16d096" color="#555555" name="arrow-down" size="20" vueId="{{'679367c0-3-'+itemIndex+'-'+i}}"></u-icon>
+                        </view>
+                        <input bindblur="__e" bindinput="__e" class="{{['r','data-v-6c16d096',it.g5?'errId':'']}}" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '$0','idCard','$event',['trim'] ],[ [ ['groupTicketArr','',itemIndex],['inputGroup','',i] ] ] ],[ 'handlerChange',['$event',itemIndex,'$0',i],[ [ ['groupTicketArr','',itemIndex],['inputGroup','',i] ] ] ] ] ],[ 'blur',[ ['$forceUpdate'] ] ] ]}}" data-type="cardCode" placeholder="请填写证件号码" style="border:none;" type="idcard" value="{{it.$orig.idCard}}" wx:if="{{it.$orig.cardType==0}}"></input>
+                        <input bindblur="__e" bindinput="__e" class="r data-v-6c16d096" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '$0','idCard','$event',['trim'] ],[ [ ['groupTicketArr','',itemIndex],['inputGroup','',i] ] ] ] ] ],[ 'blur',[ ['$forceUpdate'] ] ] ]}}" data-type="cardCode" placeholder="请填写证件号码" style="border:none;" type="text" value="{{it.$orig.idCard}}" wx:else></input>
+                    </view>
+                </block>
+                <view class="row data-v-6c16d096" wx:if="{{it.m8}}">
+                    <view class="l data-v-6c16d096"></view>
+                    <input bindblur="__e" bindinput="__e" class="r data-v-6c16d096" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '$0','telephone','$event',['trim'] ],[ [ ['groupTicketArr','',itemIndex],['inputGroup','',i] ] ] ] ] ],[ 'blur',[ ['$forceUpdate'] ] ] ]}}" data-type="phone" placeholder="请填写手机号码" type="number" value="{{it.$orig.telephone}}"></input>
+                    <view bindtap="__e" class="addPhone data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ ['getUserPhone'] ] ] ]}}">填写本机号码</view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="couponBox data-v-6c16d096" wx:if="{{!isFree}}">
+        <view class="cb1 data-v-6c16d096">
+            <view class="cb1-1 data-v-6c16d096">优惠券</view>
+            <view class="cb1-2 data-v-6c16d096" wx:if="{{discountAmount>0}}">已选1张</view>
+        </view>
+        <view bindtap="__e" class="cb2 data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'chooseCoupon',['$event'] ] ] ] ]}}">
+            <view class="cb2-2 data-v-6c16d096" wx:if="{{!couponArr[0]}}">无可用</view>
+            <block wx:else>
+                <view class="cb2-1 data-v-6c16d096" wx:if="{{discountAmount>0}}">{{'-¥'+$root.m9}}</view>
+                <block wx:else>
+                    <view class="cb2-3 data-v-6c16d096" wx:if="{{discountAmount==0}}">{{$root.g6+'张可用'}}</view>
+                </block>
+            </block>
+            <uni-icons bind:__l="__l" class="data-v-6c16d096" color="#BDBDBD" size="19" type="arrowright" vueId="679367c0-4"></uni-icons>
+        </view>
+    </view>
+    <view class="data-v-6c16d096">
+        <uni-popup bind:__l="__l" class="data-v-6c16d096 vue-ref" data-ref="popup" type="center" vueId="679367c0-5" vueSlots="{{['default']}}">
+            <view class="popup data-v-6c16d096">
+                <view class="text data-v-6c16d096">{{'优惠券已失效,'+(infoObj.skuItemType==0?'订':'预约')+'单已恢复原价'+priceAmount+'元,是否继续支付?'}}</view>
+                <view class="bottom data-v-6c16d096">
+                    <view bindtap="__e" class="b-left data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'closePopup',['$event'] ] ] ] ]}}">取消</view>
+                    <view class="b-center data-v-6c16d096"></view>
+                    <view bindtap="__e" class="b-right data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'confirm',['$event'] ] ] ] ]}}">确认</view>
+                </view>
+            </view>
+        </uni-popup>
+    </view>
+    <view class="yy-success-mask data-v-6c16d096" hidden="{{!isHideSuccessMask}}">
+        <view class="content data-v-6c16d096">
+            <view class="t data-v-6c16d096">
+                <view class="title data-v-6c16d096">
+                    <image class="data-v-6c16d096" src="https://eshopfile.zhiyousx.com/170065317610766757.png" wx:if="{{infoObj.scenicType!=1}}"></image>
+                    <view class="data-v-6c16d096">{{(infoObj.skuItemType==0?'购买':'预约')+'成功'}}</view>
+                </view>
+                <view class="detail data-v-6c16d096">
+                    <view class="data-v-6c16d096">
+                        <text class="data-v-6c16d096">游玩时间:</text>{{bookInfoObj.time}}</view>
+                </view>
+            </view>
+            <view class="b data-v-6c16d096">
+                <view bindtap="__e" class="l data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'backPage',['$event'] ] ] ] ]}}">返回</view>
+                <view bindtap="__e" class="r data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'jumpToOrder',['$event'] ] ] ] ]}}">{{'查看'+(infoObj.skuItemType==0?'订':'预约')+'单'}}</view>
+            </view>
+        </view>
+    </view>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="32" class="data-v-6c16d096" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','isShowBookTip','$event',[] ] ] ] ] ]}}" height="70%" mode="bottom" value="{{isShowBookTip}}" vueId="679367c0-6" vueSlots="{{['default']}}">
+        <view class="ytxz-box data-v-6c16d096" wx:if="{{ydxz}}">
+            <view class="content-box1 data-v-6c16d096">
+                <view class="title-box data-v-6c16d096">
+                    <view class="p1 data-v-6c16d096" id="ytxz-box-title">{{ydxz.itemAbbreviate||ydxz.itemTitle}}</view>
+                    <view class="p2 data-v-6c16d096">
+                        <text class="data-v-6c16d096" wx:if="{{ydxz.scenicType!=1}}">{{'已'+(infoObj.skuItemType==0?'售':'约')+$root.f5}}</text>
+                    </view>
+                </view>
+                <scroll-view class="bottom-box data-v-6c16d096" scrollY="true" style="{{'height:'+bookTipHeight+'rpx'+';'}}">
+                    <view class="line2 data-v-6c16d096" wx:if="{{$root.g7}}">
+                        <view class="title data-v-6c16d096">适用人群</view>
+                        <view class="b data-v-6c16d096" style="margin-bottom:8rpx;" wx:for="{{ydxz.targetGroupsRuleDescList}}" wx:for-index="i" wx:for-item="des" wx:key="i">{{''+des+''}}</view>
+                    </view>
+                    <view class="line1 data-v-6c16d096">
+                        <view class="title data-v-6c16d096">{{(infoObj.skuItemType==0?'购买':'预约')+'须知'}}</view>
+                        <view class="b data-v-6c16d096">
+                            <view class="item data-v-6c16d096" wx:if="{{ydxz.itemUseDesc.dateType==1}}">
+                                <view class="l lc data-v-6c16d096" wx:if="{{ydxz.scenicType==1}}">入寺先预约</view>
+                                <view class="l data-v-6c16d096" wx:else>{{ydxz.bookingInfoTag.bookingTag}}</view>
+                                <view class="r data-v-6c16d096">
+                                    <view class="refundItem data-v-6c16d096" wx:if="{{ydxz.bookingInfoTag.validityModeBookStr1}}">{{ydxz.bookingInfoTag.validityModeBookStr1}}</view>
+                                    <view class="refundItem data-v-6c16d096" wx:if="{{ydxz.bookingInfoTag.validityModeBookStr2}}">{{ydxz.bookingInfoTag.validityModeBookStr2}}</view>
+                                    <view class="refundItem data-v-6c16d096" wx:if="{{ydxz.bookingInfoTag.validityModeBookStr3}}">{{ydxz.bookingInfoTag.validityModeBookStr3}}</view>
+                                </view>
+                            </view>
+                            <view class="item data-v-6c16d096" wx:else>
+                                <view class="l lc data-v-6c16d096" wx:if="{{ydxz.scenicType==1}}">入寺先预约</view>
+                                <view class="l data-v-6c16d096" wx:else>{{ydxz.bookingInfoTag.bookingTag}}</view>
+                                <view class="r data-v-6c16d096">{{ydxz.bookingInfoTag.bookingTimeStr+(ydxz.bookingInfoTag.reserveTimeStr?'，'+ydxz.bookingInfoTag.reserveTimeStr:'')}}</view>
+                            </view>
+                            <view class="item data-v-6c16d096" wx:if="{{ydxz.scenicType!=1}}">
+                                <view class="l data-v-6c16d096">{{ydxz.bookingInfoTag.changeTag}}</view>
+                                <view class="r data-v-6c16d096">{{ydxz.bookingInfoTag.changeStr}}</view>
+                            </view>
+                            <view class="item data-v-6c16d096">
+                                <view class="l lc data-v-6c16d096" wx:if="{{ydxz.scenicType==1}}">取消请提前</view>
+                                <view class="l data-v-6c16d096" wx:else>{{ydxz.bookingInfoTag.refundTag}}</view>
+                                <view class="r data-v-6c16d096" wx:if="{{ydxz.bookingInfoTag&&ydxz.bookingInfoTag.refundStr&&ydxz.bookingInfoTag.refundTag!='条件退'}}">
+                                    <view class="data-v-6c16d096" wx:for="{{$root.l4}}">
+                                        <view class="refundItem data-v-6c16d096">{{item}}</view>
+                                    </view>
+                                </view>
+                                <view class="r data-v-6c16d096" wx:else>
+                                    <view class="data-v-6c16d096">
+                                        <view class="refundItem data-v-6c16d096">退款规则如下：</view>
+                                    </view>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="table data-v-6c16d096" wx:if="{{ydxz.bookingInfoTag&&ydxz.bookingInfoTag.refundTag=='条件退'}}">
+                        <view class="tr first data-v-6c16d096" wx:if="{{ydxz.bookingInfoTag&&ydxz.bookingInfoTag.refundTag!='不可退'}}">
+                            <view class="td data-v-6c16d096" style="font-weight:bold;width:480rpx;">退款时间</view>
+                            <view class="td data-v-6c16d096" style="font-weight:bold;width:210rpx;">损失费用</view>
+                        </view>
+                        <view class="tr data-v-6c16d096" wx:if="{{item.$orig.timeDesc}}" wx:for="{{$root.l5}}">
+                            <view class="td data-v-6c16d096" style="width:480rpx;">{{item.m10}}</view>
+                            <view class="td data-v-6c16d096" style="width:210rpx;">{{item.$orig.feeDesc||''}}</view>
+                        </view>
+                        <view class="tr data-v-6c16d096" wx:if="{{ydxz.bookingInfoTag&&ydxz.bookingInfoTag.refundStr1}}">
+                            <view class="td data-v-6c16d096" style="width:690rpx;display:block;">
+                                <view class="data-v-6c16d096" wx:for="{{$root.l6}}" wx:for-index="i" wx:for-item="it">
+                                    <view class="refundItem data-v-6c16d096">{{it}}</view>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="line2 data-v-6c16d096" wx:if="{{ydxz.scenicType!=1&&(ydxz.bookingInfoTag.feeIncludes||ydxz.bookingInfoTag.feeNotIncludes)}}">
+                        <view class="title data-v-6c16d096">{{(ydxz.skuItemType==1?'预约':'费用')+'说明'}}</view>
+                        <view class="b data-v-6c16d096">
+                            <view class="options data-v-6c16d096" wx:if="{{ydxz.bookingInfoTag.feeIncludes}}">
+                                <view class="title data-v-6c16d096">{{(ydxz.skuItemType==1?'预约':'费用')+'包含：'}}</view>
+                                <view class="content data-v-6c16d096">
+                                    <u-parse bind:__l="__l" class="data-v-6c16d096 vue-ref" color="#777474" data-ref="article" html="{{ydxz.bookingInfoTag.feeIncludes}}" lazyLoad="{{true}}" tagStyle="{{parseStyle1}}" vueId="{{'679367c0-7'+','+'679367c0-6'}}"></u-parse>
+                                </view>
+                            </view>
+                            <view class="options data-v-6c16d096" wx:if="{{ydxz.bookingInfoTag.feeNotIncludes}}">
+                                <view class="title data-v-6c16d096">{{(ydxz.skuItemType==1?'预约':'费用')+'不含：'}}</view>
+                                <view class="content data-v-6c16d096">
+                                    <u-parse bind:__l="__l" class="data-v-6c16d096 vue-ref" color="#777474" data-ref="article" html="{{ydxz.bookingInfoTag.feeNotIncludes}}" lazyLoad="{{true}}" tagStyle="{{parseStyle1}}" vueId="{{'679367c0-8'+','+'679367c0-6'}}"></u-parse>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="line2 data-v-6c16d096" wx:if="{{ydxz.scenicType!=1&&ydxz.bookingInfoTag.entranceDetail}}">
+                        <view class="title data-v-6c16d096">使用说明</view>
+                        <view class="b data-v-6c16d096">
+                            <u-parse bind:__l="__l" class="data-v-6c16d096 vue-ref" data-ref="article" html="{{ydxz.bookingInfoTag.entranceDetail}}" lazyLoad="{{true}}" tagStyle="{{parseStyle1}}" vueId="{{'679367c0-9'+','+'679367c0-6'}}"></u-parse>
+                        </view>
+                    </view>
+                    <view class="line2 data-v-6c16d096" wx:if="{{ydxz.scenicType!=1&&ydxz.bookingInfoTag.bookNote}}">
+                        <view class="title data-v-6c16d096">其它说明</view>
+                        <view class="b data-v-6c16d096">
+                            <u-parse bind:__l="__l" class="data-v-6c16d096 vue-ref" data-ref="article" html="{{ydxz.bookingInfoTag.bookNote}}" lazyLoad="{{true}}" tagStyle="{{parseStyle1}}" vueId="{{'679367c0-10'+','+'679367c0-6'}}"></u-parse>
+                        </view>
+                    </view>
+                    <image class="community-box data-v-6c16d096" mode="widthFix" showMenuByLongpress="{{true}}" src="{{ydxz.communityUrl}}" wx:if="{{ydxz.communityUrl}}"></image>
+                    <view class="line3 data-v-6c16d096">
+                        <view class="title data-v-6c16d096">{{ydxz.scenicType==1&&( !telephoneVoList||!telephoneVoList[0] )?'':'客服电话'}}</view>
+                        <view class="b data-v-6c16d096" wx:if="{{ydxz.scenicType!=1}}">
+                            <view class="item data-v-6c16d096">
+                                <view class="{{['col1','data-v-6c16d096',ydxz.scenicType==1?'col1c':'']}}">平台</view>
+                                <view class="col2 data-v-6c16d096">{{'门票或'+(infoObj.skuItemType==0?'订':'预约')+'单问题'}}</view>
+                                <view class="col3 data-v-6c16d096">4000292296</view>
+                                <view class="col4 data-v-6c16d096">
+                                    <image mode bindtap="__e" class="data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'call',['4000292296'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/spotIntroNew/dianhua.png"></image>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="line3 data-v-6c16d096" wx:if="{{telephoneVoList&&telephoneVoList[0]}}" wx:for="{{telephoneVoList}}" wx:for-index="__i0__">
+                        <view class="b data-v-6c16d096">
+                            <view class="item data-v-6c16d096">
+                                <view class="{{['col1','data-v-6c16d096',ydxz.scenicType==1?'col1c':'']}}">{{ydxz.scenicType!=1?'官方':'客堂'}}</view>
+                                <view class="col2 singleLineText data-v-6c16d096">{{item.telephoneTitle||''}}</view>
+                                <view class="col3 singleLineText data-v-6c16d096">{{item.telephone||''}}</view>
+                                <view class="col4 data-v-6c16d096">
+                                    <image mode bindtap="__e" class="data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'call',['$0'],[ [ ['telephoneVoList','',__i0__,'telephone'] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/spotIntroNew/dianhua.png"></image>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </scroll-view>
+            </view>
+        </view>
+    </u-popup>
+    <view class="fixed-bottom data-v-6c16d096">
+        <view class="l data-v-6c16d096" wx:if="{{!isFree}}">您需支付:<text class="data-v-6c16d096">{{'￥'+$root.m11}}</text>
+        </view>
+        <button bindtap="__e" class="{{['r','data-v-6c16d096',infoObj.scenicType==1?'csBtn':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'submit',['$event'] ] ] ] ]}}" disabled="{{disabledSubmitBtn}}">{{infoObj.scenicType!=1?'立即预订':'免费预约'}}</button>
+    </view>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-6c16d096" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showNotice','$event',[] ] ] ] ] ]}}" maskCloseAble="{{false}}" mode="center" value="{{showNotice}}" vueId="679367c0-11" vueSlots="{{['default']}}">
+        <view class="hasnotice data-v-6c16d096">
+            <view class="title data-v-6c16d096">温馨提示</view>
+            <view class="scontent data-v-6c16d096">
+                <text class="data-v-6c16d096">{{infoObj.useNotes}}</text>
+            </view>
+            <view bindtap="__e" class="{{['data-v-6c16d096',infoObj.scenicType==1?'csColor':'',true?'close':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}">{{infoObj.scenicType==1?'已阅读并同意':'知道了'}}</view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-6c16d096" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','lineing','$event',[] ] ] ] ] ]}}" maskCloseAble="{{false}}" mode="center" value="{{lineing}}" vueId="679367c0-12" vueSlots="{{['default']}}">
+        <view class="hasnotice data-v-6c16d096">
+            <view class="title data-v-6c16d096" style="color:#d51422;">正在排队，请稍候</view>
+            <view class="scontent data-v-6c16d096">
+                <view class="loading data-v-6c16d096">
+                    <view class="data-v-6c16d096"></view>
+                    <view class="data-v-6c16d096"></view>
+                    <view class="data-v-6c16d096"></view>
+                    <view class="data-v-6c16d096"></view>
+                </view>
+            </view>
+            <view bindtap="__e" class="close data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'closeLineing',['$event'] ] ] ] ]}}">退出排队</view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-6c16d096" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showNoStock','$event',[] ] ] ] ] ]}}" maskCloseAble="{{false}}" mode="center" value="{{showNoStock}}" vueId="679367c0-13" vueSlots="{{['default']}}">
+        <view class="hasnotice data-v-6c16d096">
+            <view class="title data-v-6c16d096" style="color:#d51422;">很抱歉</view>
+            <view class="scontent data-v-6c16d096">
+                <text class="data-v-6c16d096">{{showHourBox?'当前时段库存不足':'当前日期库存不足~'}}</text>
+            </view>
+            <view bindtap="__e" class="close data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'closeNoStock',['$event'] ] ] ] ]}}">知道了</view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-6c16d096" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showCoupon','$event',[] ] ] ] ] ]}}" mode="bottom" value="{{showCoupon}}" vueId="679367c0-14" vueSlots="{{['default']}}">
+        <view class="couponcardBox data-v-6c16d096">
+            <view class="title data-v-6c16d096">优惠券</view>
+            <scroll-view class="scontent data-v-6c16d096" scrollY="{{true}}">
+                <view bindtap="__e" class="item data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'checkCoupon',['$0'],[ [ ['couponArr','',__i1__] ] ] ] ] ] ]}}" wx:for="{{$root.l7}}" wx:for-index="__i1__">
+                    <view class="info data-v-6c16d096">
+                        <view class="name singleLineText data-v-6c16d096">{{item.$orig.name}}</view>
+                        <view class="date data-v-6c16d096" wx:if="{{item.$orig.useTimeSlot==0}}">{{item.f6+'-'+item.f7}}</view>
+                        <view class="date data-v-6c16d096" wx:if="{{item.$orig.useTimeSlot==1}}">{{item.$orig.validityEndTime+'前可用'}}</view>
+                        <view class="date data-v-6c16d096" wx:if="{{item.$orig.useTimeSlot==2}}">{{'可预'+(infoObj.skuItemType==0?'订':'约')+'【'+item.f8+'-'+item.f9+'】的门票'}}</view>
+                    </view>
+                    <view class="price data-v-6c16d096">
+                        <view class="num data-v-6c16d096" wx:if="{{item.$orig.type==3}}">
+                            <text class="n data-v-6c16d096">0</text>
+                            <text class="data-v-6c16d096">元购</text>
+                        </view>
+                        <view class="num data-v-6c16d096" wx:else>
+                            <text class="data-v-6c16d096">￥</text>
+                            <text class="n data-v-6c16d096">{{item.$orig.realQuota}}</text>
+                        </view>
+                        <view class="condition data-v-6c16d096" wx:if="{{item.$orig.type==3}}">{{'可抵扣'+item.$orig.deductionNum+'张'}}</view>
+                        <view class="condition data-v-6c16d096" wx:if="{{item.$orig.type==2}}">无门槛</view>
+                        <view class="condition data-v-6c16d096" wx:if="{{item.$orig.type==1}}">{{'满'+item.$orig.threshold+'元可用'}}</view>
+                    </view>
+                    <image class="radio data-v-6c16d096" mode="aspect" src="https://eshopfile.zhiyousx.com/2022031716044893716.png" wx:if="{{userCouponId==item.$orig.userCouponId}}"></image>
+                    <image class="radio data-v-6c16d096" mode="aspect" src="https://eshopfile.zhiyousx.com/2022031716040660783.png" wx:else></image>
+                </view>
+            </scroll-view>
+            <view bindtap="__e" class="no data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'cancelCoupon',['$event'] ] ] ] ]}}">
+                <text class="data-v-6c16d096">暂不使用优惠券</text>
+                <image class="data-v-6c16d096" mode="aspect" src="https://eshopfile.zhiyousx.com/2022031716044893716.png" wx:if="{{userCouponId==-1}}"></image>
+                <image class="data-v-6c16d096" mode="aspect" src="https://eshopfile.zhiyousx.com/2022031716040660783.png" wx:else></image>
+            </view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-6c16d096" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showGroupErr','$event',[] ] ] ] ] ]}}" mode="center" value="{{showGroupErr}}" vueId="679367c0-15" vueSlots="{{['default']}}">
+        <view class="errBox data-v-6c16d096">
+            <view class="name data-v-6c16d096">温馨提示</view>
+            <scroll-view class="err-info data-v-6c16d096" scrollY="true">
+                <view class="err-box data-v-6c16d096" wx:for="{{groupErrList}}" wx:key="index">
+                    <view class="err-item data-v-6c16d096">{{''+item.groupItemName+' '+item.msg+''}}</view>
+                </view>
+            </scroll-view>
+            <view bindtap="__e" class="but-popup data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'confirmOrder',['$event'] ] ] ] ]}}">确定</view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-6c16d096" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showGiftCard','$event',[] ] ] ] ] ]}}" mode="bottom" value="{{showGiftCard}}" vueId="679367c0-16" vueSlots="{{['default']}}">
+        <view class="fill-card-box data-v-6c16d096">
+            <view class="name data-v-6c16d096">礼品卡</view>
+            <view class="card-box-popup data-v-6c16d096">
+                <scroll-view class="data-v-6c16d096" scrollY="true" style="height:600rpx;">
+                    <view class="card-item-popup data-v-6c16d096" wx:for="{{$root.l8}}" wx:key="index">
+                        <image mode class="card-image data-v-6c16d096" src="{{item.$orig.cardPicUrl}}" wx:if="{{item.$orig.cardPicUrl}}"></image>
+                        <view class="card-data data-v-6c16d096">
+                            <view class="{{['card-head','data-v-6c16d096',!item.$orig.cardPicUrl?'cardHeadbg':'']}}">
+                                <image mode class="card-logo data-v-6c16d096" src="../../static/images/logo.png" wx:if="{{!item.$orig.cardPicUrl}}"></image>
+                                <view class="card-info data-v-6c16d096">
+                                    <view class="card-name data-v-6c16d096">{{''+item.$orig.name+''}}</view>
+                                    <view class="card-value data-v-6c16d096">{{'面值：'+item.$orig.quota+'元'}}</view>
+                                </view>
+                                <view class="card-time data-v-6c16d096">{{''+item.$orig.validityTimeStr+''}}</view>
+                            </view>
+                            <view class="{{['card-body','data-v-6c16d096',!item.$orig.cardPicUrl?'cardBodyBg':'']}}">
+                                <view class="card-balance data-v-6c16d096">
+                                    <text class="label data-v-6c16d096">余额</text>
+                                    <text class="value data-v-6c16d096">{{'￥'+item.$orig.balance}}</text>
+                                </view>
+                                <image mode bindtap="__e" class="card-change data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'changeGiftCard',['$0',index],[ [ ['giftCardArr','',index] ] ] ] ] ] ]}}" src="../../static/images/cardYes.png" wx:if="{{item.g8}}"></image>
+                                <image mode bindtap="__e" class="card-change data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'changeGiftCard',['$0',index],[ [ ['giftCardArr','',index] ] ] ] ] ] ]}}" src="../../static/images/cardNo.png" wx:else></image>
+                            </view>
+                        </view>
+                    </view>
+                </scroll-view>
+            </view>
+            <view bindtap="__e" class="but-popup data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'confirmCard',['$event'] ] ] ] ]}}">确定</view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-6c16d096" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showPassenger','$event',[] ] ] ] ] ]}}" mode="bottom" value="{{showPassenger}}" vueId="679367c0-17" vueSlots="{{['default']}}">
+        <view class="fill-passenger-box data-v-6c16d096">
+            <view class="name data-v-6c16d096">{{''+passengerTitle+''}}</view>
+            <view bindtap="__e" class="savePassenger data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'e1',['$event'] ] ] ] ]}}">保存</view>
+            <view bindtap="__e" class="{{['but-popup','data-v-6c16d096',infoObj.scenicType==1?'csColor':'',infoObj.scenicType==1?'csBorder':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'addPassenger',['$0'],['groupTicketIndex'] ] ] ] ]}}">+ 新增联系人</view>
+            <view class="data-v-6c16d096">
+                <scroll-view class="passenger-box-popup data-v-6c16d096" scrollY="true">
+                    <view class="user-box pass data-v-6c16d096" wx:for="{{$root.l9}}" wx:key="index">
+                        <view bindtap="__e" class="info-box data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'changeTourist',['$0',index,'$1'],[ [ ['commonUsedTouristList','',index] ],'groupTicketIndex' ] ] ] ] ]}}">
+                            <image mode class="user-change data-v-6c16d096" src="../../static/images/cardYes.png" wx:if="{{item.g9}}"></image>
+                            <image mode class="user-change data-v-6c16d096" src="../../static/images/cardNo.png" wx:else></image>
+                            <view class="{{['user-info','data-v-6c16d096',!item.g10?'dis':'']}}">
+                                <view class="name data-v-6c16d096">{{item.$orig.name}}</view>
+                                <view class="u-phone data-v-6c16d096" wx:if="{{item.$orig.phone}}">
+                                    <view class="u-phone1 data-v-6c16d096">手机号</view>
+                                    <view class="u-phone2 data-v-6c16d096">{{''+item.f10+''}}</view>
+                                </view>
+                                <view class="u-phone data-v-6c16d096" wx:if="{{item.$orig.cardType}}">
+                                    <view class="u-phone1 data-v-6c16d096">证件类型</view>
+                                    <view class="u-phone2 data-v-6c16d096">{{''+item.f11+''}}</view>
+                                </view>
+                                <view class="u-phone data-v-6c16d096" wx:if="{{item.$orig.idCarNo}}">
+                                    <view class="u-phone1 data-v-6c16d096">证件号</view>
+                                    <view class="u-phone2 data-v-6c16d096">{{''+item.f12+''}}</view>
+                                </view>
+                            </view>
+                        </view>
+                        <image mode bindtap="__e" class="user-edit data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'editPassenger',['$0','$1'],[ [ ['commonUsedTouristList','',index,'id'] ],'groupTicketIndex' ] ] ] ] ]}}" src="../../static/images/edit.png"></image>
+                    </view>
+                </scroll-view>
+            </view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" class="data-v-6c16d096 vue-ref" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showGiftBag','$event',[] ] ] ] ] ]}}" data-ref="uPopup" maskCloseAble="{{true}}" mode="center" value="{{showGiftBag}}" vueId="679367c0-18" vueSlots="{{['default']}}">
+        <view class="giftBag data-v-6c16d096" wx:if="{{giftBagData.orderActivePrize&&giftBagData.orderActivePrize.giftBag}}">
+            <image class="giftBag-img data-v-6c16d096" mode="widthFix" src="{{giftBagData.orderActivePrize.giftBag.image}}"></image>
+            <view class="gift-mid data-v-6c16d096">
+                <view class="gift-title data-v-6c16d096">{{''+giftBagData.orderActivePrize.giftBag.desc+''}}</view>
+                <scroll-view class="card-box data-v-6c16d096" scrollY="{{true}}" style="{{'height:'+(gbCl>3?'604rpx':gbCl==1?'255rpx':gbCl*151+'rpx')+';'}}">
+                    <view class="data-v-6c16d096">
+                        <view class="{{['data-v-6c16d096',gbCl==1?'candItem1':'',gbCl>1?'candItem':'']}}" wx:for="{{$root.l10}}" wx:for-index="i" wx:for-item="it">
+                            <image mode class="it-img1 data-v-6c16d096" src="https://eshopfile.zhiyousx.com/166384545957301610.png" wx:if="{{gbCl>1&&i==0}}"></image>
+                            <image mode class="it-img2 data-v-6c16d096" src="https://eshopfile.zhiyousx.com/166384386610789834.png" wx:if="{{gbCl>1&&i>0&&i<gbCl-1}}"></image>
+                            <image mode class="it-img3 data-v-6c16d096" src="https://eshopfile.zhiyousx.com/166384545957301610.png" wx:if="{{gbCl>1&&gbCl-i==1}}"></image>
+                            <view class="item-card-box data-v-6c16d096">
+                                <view class="left data-v-6c16d096">
+                                    <image class="data-v-6c16d096" mode="aspectFill" src="{{it.$orig.couponImage}}"></image>
+                                    <view class="info data-v-6c16d096">
+                                        <view class="name data-v-6c16d096">{{''+it.$orig.couponName+''}}</view>
+                                        <view class="time data-v-6c16d096">{{''+it.f13+' -\n    \t\t\t\t\t\t\t\t\t\t'+it.f14+''}}</view>
+                                    </view>
+                                </view>
+                                <view class="right data-v-6c16d096">
+                                    <view class="price data-v-6c16d096" wx:if="{{it.$orig.type==3}}">0<text class="data-v-6c16d096" style="font-size:20rpx;color:#FF4848;">元购</text>
+                                    </view>
+                                    <view class="price data-v-6c16d096" wx:else>
+                                        <text class="data-v-6c16d096" style="font-size:20rpx;color:#FF4848;">￥</text>{{it.$orig.quota+''}}</view>
+                                    <view class="tips data-v-6c16d096" wx:if="{{it.$orig.type==2&&it.$orig.threshold==0}}">无门槛</view>
+                                    <view class="tips data-v-6c16d096" wx:if="{{it.$orig.type==1&&it.$orig.threshold>0}}">{{'满'+it.$orig.threshold+'元可用'}}</view>
+                                    <view class="tips data-v-6c16d096" wx:if="{{it.$orig.type==3}}">{{'可抵'+(it.$orig.deduction||1)+'张'}}</view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="data-v-6c16d096" style="height:110rpx;" wx:if="{{gbCl>1}}"></view>
+                    </view>
+                </scroll-view>
+                <image mode class="giftBag-bottom-img data-v-6c16d096" src="/static/captured/c28c4c6cd2db0904.png"></image>
+                <view bindtap="__e" class="giftBag-but data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'closeGiftPack',['$event'] ] ] ] ]}}">我知道了</view>
+                <view bindtap="__e" class="box-tip data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'goDiscounts',['$event'] ] ] ] ]}}">可至"我的"-"优惠券"中查看 ></view>
+            </view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" class="data-v-6c16d096" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','giftPhone','$event',[] ] ] ] ] ]}}" maskCloseAble="{{true}}" mode="center" value="{{giftPhone}}" vueId="679367c0-19" vueSlots="{{['default']}}">
+        <view class="title-bar data-v-6c16d096" style="{{'background-image:'+'url('+giftBagData.giftBagImage+')'+';'}}">
+            <view class="phone-style data-v-6c16d096">
+                <view class="title-style data-v-6c16d096">{{giftBagData.orderActivePrize.prizeDesc}}</view>
+            </view>
+        </view>
+        <view class="gift-content data-v-6c16d096">
+            <view class="gift-box max-h data-v-6c16d096">
+                <view class="within-box data-v-6c16d096">
+                    <image class="phoneImg data-v-6c16d096" mode="aspectFit" src="{{giftBagData.orderActivePrize.prizeImage}}"></image>
+                    <scroll-view class="yello data-v-6c16d096" scrollY="{{true}}" style="height:500rpx;">
+                        <u-form bind:__l="__l" class="data-v-6c16d096" labelPosition="top" model="{{form}}" vueId="{{'679367c0-20'+','+'679367c0-19'}}" vueSlots="{{['default']}}">
+                            <u-form-item bind:__l="__l" class="data-v-6c16d096" label="输入姓名" labelPosition="top" prop="name" vueId="{{'679367c0-21'+','+'679367c0-20'}}" vueSlots="{{['default']}}">
+                                <u-input bind:__l="__l" bind:input="__e" class="data-v-6c16d096" clearable="{{false}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','name','$event',[] ],['form'] ] ] ] ]}}" height="58" placehod="{{placehod}}" placeholderStyle="color: '#9B9B9B'; padding-left: '10rpx'" value="{{form.name}}" vueId="{{'679367c0-22'+','+'679367c0-21'}}"></u-input>
+                            </u-form-item>
+                            <u-form-item bind:__l="__l" class="data-v-6c16d096" label="输入手机号" labelPosition="top" prop="phone" vueId="{{'679367c0-23'+','+'679367c0-20'}}" vueSlots="{{['default']}}">
+                                <u-input bind:__l="__l" bind:input="__e" class="data-v-6c16d096" clearable="{{false}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','phone','$event',[] ],['form'] ] ] ] ]}}" height="58" placehod="{{placehod}}" placeholderStyle="color: '#9B9B9B'; padding-left: '10rpx'" value="{{form.phone}}" vueId="{{'679367c0-24'+','+'679367c0-23'}}"></u-input>
+                            </u-form-item>
+                            <u-form-item bind:__l="__l" class="data-v-6c16d096" label="收货地址" labelPosition="top" prop="address" vueId="{{'679367c0-25'+','+'679367c0-20'}}" vueSlots="{{['default']}}">
+                                <u-input bind:__l="__l" bind:input="__e" class="data-v-6c16d096" clearable="{{false}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '$0','address','$event',[] ],['form'] ] ] ] ]}}" height="58" placehod="{{placehod}}" placeholderStyle="color: '#9B9B9B'; padding-left: '10rpx'" value="{{form.address}}" vueId="{{'679367c0-26'+','+'679367c0-25'}}"></u-input>
+                            </u-form-item>
+                        </u-form>
+                        <view class="empty-box _div data-v-6c16d096"></view>
+                    </scroll-view>
+                </view>
+                <view class="footer data-v-6c16d096">
+                    <view class="btn data-v-6c16d096">
+                        <view bindtap="__e" class="btn-style data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'sure',['$event'] ] ] ] ]}}">确定</view>
+                    </view>
+                    <view class="active data-v-6c16d096">活动规则</view>
+                </view>
+            </view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" class="data-v-6c16d096" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','giftMoney','$event',[] ] ] ] ] ]}}" maskCloseAble="{{true}}" mode="center" value="{{giftMoney}}" vueId="679367c0-27" vueSlots="{{['default']}}">
+        <view class="title-bar data-v-6c16d096" style="{{'background-image:'+'url('+giftBagData.giftBagImage+')'+';'}}">
+            <view class="title data-v-6c16d096">{{giftBagData.orderActivePrize.prizeDesc}}</view>
+        </view>
+        <view class="gift-content data-v-6c16d096">
+            <view class="gift-box min-h data-v-6c16d096">
+                <view class="within-box data-v-6c16d096">
+                    <image class="img data-v-6c16d096" mode="aspectFit" src="{{giftBagData.orderActivePrize.prizeImage}}"></image>
+                    <view class="illustrate data-v-6c16d096">{{giftBagData.orderActivePrize.prizeDesc}}</view>
+                </view>
+                <view class="footer data-v-6c16d096">
+                    <view class="btn data-v-6c16d096">
+                        <view bindtap="__e" class="btn-style data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'closeGiftPack',['$event'] ] ] ] ]}}">知道了</view>
+                    </view>
+                    <view class="active data-v-6c16d096">活动规则</view>
+                </view>
+            </view>
+        </view>
+    </u-popup>
+    <u-popup bind:__l="__l" bind:input="__e" class="data-v-6c16d096" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','noGift','$event',[] ] ] ] ] ]}}" maskCloseAble="{{true}}" mode="center" value="{{noGift}}" vueId="679367c0-28" vueSlots="{{['default']}}">
+        <view class="title-bar data-v-6c16d096" style="{{'background-image:'+'url('+giftBagData.giftBagImage+')'+';'}}">
+            <view class="title data-v-6c16d096">{{giftBagData.orderActivePrize.prizeDesc}}</view>
+        </view>
+        <view class="gift-content data-v-6c16d096">
+            <view class="gift-box min-h data-v-6c16d096">
+                <view class="within-box data-v-6c16d096">
+                    <image class="img data-v-6c16d096" mode="aspectFit" src="{{giftBagData.orderActivePrize.prizeImage}}"></image>
+                </view>
+                <view class="footer data-v-6c16d096">
+                    <view class="btn data-v-6c16d096">
+                        <view bindtap="__e" class="btn-style data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'closeGiftPack',['$event'] ] ] ] ]}}">再接再厉</view>
+                    </view>
+                    <view class="active data-v-6c16d096">活动规则</view>
+                </view>
+            </view>
+        </view>
+    </u-popup>
+    <view class="{{['red-packets-Box','data-v-6c16d096',animationType>0?'b1':'']}}" hidden="{{!showPacketBox}}" style="{{'background:'+(animationType==0?'rgba(0, 0, 0, 0.7)':'')+';'}}">
+        <view bindtap="__e" class="{{['red-box','data-v-6c16d096',animationType==0?'a0':'',animationType==1?'a1':'',animationType>1&&animationType<3?'a2':'',animationType==4?'a4':'']}}" data-event-opts="{{[ [ 'tap',[ ['closeBox'] ] ] ]}}">
+            <view class="red-box-imgBox data-v-6c16d096">
+                <image mode class="red-img data-v-6c16d096" src="https://eshopfile.zhiyousx.com/166375766042742591.png" wx:if="{{animationType<3}}"></image>
+                <image mode class="{{['red-top','data-v-6c16d096',animationType==3?'a3':'']}}" src="https://eshopfile.zhiyousx.com/166375879186329370.png"></image>
+                <image mode class="{{['red-bottom','data-v-6c16d096',animationType==3?'a31':'']}}" src="https://eshopfile.zhiyousx.com/166375881330329349.png"></image>
+                <image mode class="{{['red-img1-1','data-v-6c16d096',animationType==3?'a32s':'']}}" src="https://eshopfile.zhiyousx.com/166383758911999357.png"></image>
+                <image mode class="{{['red-img1-2','data-v-6c16d096',animationType==3?'a32m':'']}}" src="https://eshopfile.zhiyousx.com/166383762954099488.png"></image>
+                <image mode class="{{['red-img1-3','data-v-6c16d096',animationType==3?'a32l':'']}}" src="https://eshopfile.zhiyousx.com/166383764742027825.png"></image>
+                <image mode class="{{['red-img2','data-v-6c16d096',animationType==3?'a33':'']}}" src="https://eshopfile.zhiyousx.com/166376006214008240.png"></image>
+                <image mode class="{{['red-img3','data-v-6c16d096',animationType==3?'a34':'']}}" src="https://eshopfile.zhiyousx.com/166376009989063829.png"></image>
+                <view class="red-name data-v-6c16d096" hidden="{{!(animationType==0)}}">点击开盲盒</view>
+            </view>
+        </view>
+    </view>
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-6c16d096" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showCertificate','$event',[] ] ] ] ] ]}}" mode="bottom" value="{{showCertificate}}" vueId="679367c0-29" vueSlots="{{['default']}}">
+        <view class="certificate data-v-6c16d096">
+            <view class="name data-v-6c16d096">选择证件类型</view>
+            <view class="certificate-box data-v-6c16d096">
+                <view bindtap="__e" class="certificate-item data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'chooseCardType',['$0'],[ [ ['realCardTypeList','',index] ] ] ] ] ] ]}}" wx:for="{{$root.l11}}" wx:key="index">
+                    <view class="t data-v-6c16d096">{{''+item.f15+''}}</view>
+                    <image mode class="icon data-v-6c16d096" src="../../static/images/cardYes.png" wx:if="{{realCardType==item.$orig}}"></image>
+                    <image mode class="icon data-v-6c16d096" src="../../static/images/cardNo.png" wx:else></image>
+                </view>
+            </view>
+        </view>
+    </u-popup>
+</view>

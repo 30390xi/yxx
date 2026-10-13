@@ -1,0 +1,13 @@
+<view class="data-v-9783321a">
+    <view class="select-card data-v-9783321a" style="{{'top:'+height+';'}}">
+        <view bindtap="__e" class="title data-v-9783321a" data-event-opts="{{[ [ 'tap',[ [ 'openSelectCard',['$event'] ] ] ] ]}}">{{''+(currentInfo.title||'')+''}}<image class="data-v-9783321a" src="https://eshopfile.zhiyousx.com/2023112411094293620.png"></image>
+        </view>
+        <view class="desc data-v-9783321a">您共去过<text class="desc-num data-v-9783321a">{{currentInfo.saveMoneyVO?currentInfo.saveMoneyVO.usedTicketNum:0}}</text>个地点,累计节省<text class="desc-num data-v-9783321a">{{currentInfo.saveMoneyVO?currentInfo.saveMoneyVO.totalMoney:0}}</text>元</view>
+    </view>
+    <view class="card-item data-v-9783321a" wx:if="{{$root.g0!=='{}'}}">
+        <view class="content data-v-9783321a">
+            <shop-item bind:__l="__l" class="data-v-9783321a" info="{{selectedScenic}}" mapPage="{{mapPage}}" userYearCardId="{{currentInfo.userYearCardId}}" vueId="4c0fa194-1"></shop-item>
+        </view>
+    </view>
+    <select-card bind:__l="__l" bind:change="__e" bind:updateShow="__e" class="data-v-9783321a" currentId="{{currentInfo.userYearCardId}}" data-event-opts="{{[ [ '^updateShow',[ [ '__set_sync',['$0','selectCardShow','$event'],[''] ] ] ],[ '^change',[ ['changeCard'] ] ] ]}}" popupData="{{cardList}}" show="{{selectCardShow}}" vueId="4c0fa194-2"></select-card>
+</view>

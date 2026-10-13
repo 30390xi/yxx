@@ -1,0 +1,15 @@
+<view class="item-main data-v-a220efea">
+    <scroll-view class="item-list data-v-a220efea" scrollY="true">
+        <view class="list-info data-v-a220efea" wx:for="{{newList}}" wx:key="index">
+            <view class="list-mess data-v-a220efea">
+                <view catchtap="__e" class="mess-name data-v-a220efea" data-event-opts="{{[ [ 'tap',[ [ 'selectRight',['$0'],[ [ ['newList','',index],['childs','',inx] ] ] ] ] ] ]}}" style="{{mess.chooseState?'color:'+themeColor+';border-color:'+themeColor+';font-size:28rpx;fontWeight:bold;background:rgba(255, 84, 17, 0.10);':''}}" wx:for="{{item.childs}}" wx:for-index="inx" wx:for-item="mess">{{mess.name+''}}<image class="selected data-v-a220efea" src="../../static/selected.png" wx:if="{{mess.chooseState}}"></image>
+                </view>
+            </view>
+        </view>
+    </scroll-view>
+    <view class="btn-list data-v-a220efea">
+        <view catchtap="__e" class="btn-reset data-v-a220efea" data-event-opts="{{[ [ 'tap',[ [ 'reset',['$event'] ] ] ] ]}}">
+            <image class="no-data-img data-v-a220efea" src="../../static/reset.png" style="transform:rotateY(180deg);"></image>重置</view>
+        <view catchtap="__e" class="btn-complete data-v-a220efea" data-event-opts="{{[ [ 'tap',[ [ 'complete',['$event'] ] ] ] ]}}">确定</view>
+    </view>
+</view>

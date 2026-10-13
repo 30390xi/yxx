@@ -1,0 +1,13 @@
+<view catchtouchmove="__e" class="u-keyboard data-v-127232e6" data-event-opts="{{[ [ 'touchmove',[ [ '',['$event'] ] ] ] ]}}">
+    <view class="u-keyboard-grids data-v-127232e6">
+        <view class="u-keyboard-grids-item data-v-127232e6" wx:for="{{abc?EngKeyBoardList:areaList}}" wx:for-index="i" wx:for-item="group" wx:key="i">
+            <view bindtap="__e" class="u-keyboard-grids-btn data-v-127232e6" data-event-opts="{{[ [ 'tap',[ [ 'carInputClick',[i,j] ] ] ] ]}}" hoverClass="u-carinput-hover" hoverStayTime="{{100}}" wx:for="{{group}}" wx:for-index="j" wx:key="j">{{''+item+''}}</view>
+        </view>
+        <view bindtouchend="__e" bindtouchstart="__e" class="u-keyboard-back data-v-127232e6" data-event-opts="{{[ [ 'touchstart',[ [ 'backspaceClick',['$event'] ] ] ],[ 'touchend',[ [ 'clearTimer',['$event'] ] ] ] ]}}" hoverClass="u-hover-class" hoverStayTime="{{100}}">
+            <u-icon bind:__l="__l" bold="{{true}}" class="data-v-127232e6" name="backspace" size="{{38}}" vueId="77326586-1"></u-icon>
+        </view>
+        <view bindtap="__e" class="u-keyboard-change data-v-127232e6" data-event-opts="{{[ [ 'tap',[ [ 'changeCarInputMode',['$event'] ] ] ] ]}}" hoverClass="u-carinput-hover" hoverStayTime="{{100}}">
+            <text class="{{['zh','data-v-127232e6',!abc?'active':'inactive']}}">中</text>/<text class="{{['en','data-v-127232e6',abc?'active':'inactive']}}">英</text>
+        </view>
+    </view>
+</view>

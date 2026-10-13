@@ -1,0 +1,7 @@
+<view class="activity-nudge {{isBgMeeting?'activity-nudge__allenLive':''}} {{'activity-nudge__'+screenType}}">
+    <view class="activity-nudge__item {{nudgeWithMe?'activity-nudge__y':'activity-nudge__w'}} {{fadeIn?' fadeInOut':' '}}">
+        <view class="activity-nudge__icon__before"></view>
+        <view class="activity-nudge__icon__after"></view>
+        <view class="activity-nudge__info">{{content}}</view>
+    </view>
+</view>
