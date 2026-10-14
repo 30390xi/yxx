@@ -1,0 +1,23 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "1518161895557738498",
+      "resourcesId": "1323112074296188930",
+      "title": "王家坪宣传片",
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062911114621822.mp4",
+      "coverImage": "https://eshopfile.zhiyousx.com/2021062911112853503.jpg",
+      "videoId": "1409712256115118081",
+      "resourcesType": 2,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2022-04-24 17:36:16",
+      "updateTime": "2022-04-24 17:36:16",
+      "createBy": "1511977558009303041",
+      "updateBy": "1511977558009303041",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

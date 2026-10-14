@@ -1,0 +1,143 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1455797439972876290",
+    "contentId": "1455797439343730689",
+    "rankingName": "安康美食人气排行榜",
+    "rankingClass": "2",
+    "rankingType": "2",
+    "rankingMainPictureUrl": "https://res.zhiyousx.com/ysx/pro/2021/11/03/163592412254694180.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": "人喜爱",
+    "rankingInclude": "个美食",
+    "rankingPersonalInfo": "我吃过的美食",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#D98D39",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1451488924663816193",
+        "originType": "2",
+        "originName": "汉阴蕨粉皮子",
+        "originSubtitleName": "细腻软糯，营养丰富",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489682905367713.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489687142549453.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489687952603423.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489689729947233.jpg"
+        ],
+        "sort": "0",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "4",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451480045343219713",
+        "originType": "2",
+        "originName": "浆粑馍",
+        "originSubtitleName": "色泽金黄，香甜微酸",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489460780183302.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489469757949578.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489470588557447.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489476634996844.jpg"
+        ],
+        "sort": "1",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "2",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451472240775274498",
+        "originType": "2",
+        "originName": "紫阳蒸盆子",
+        "originSubtitleName": "原汁原味，汤醇肉香",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489285466379830.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489289370488935.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489290190043689.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489291143927667.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489291972222892.jpg"
+        ],
+        "sort": "2",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "1",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451475487632138241",
+        "originType": "2",
+        "originName": "汉阴炕炕馍",
+        "originSubtitleName": "形似满月，脆酥喷香",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489359524265911.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489362292547184.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489362755348163.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489364704766580.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489368992570882.jpg"
+        ],
+        "sort": "3",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "1",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451482318542741506",
+        "originType": "2",
+        "originName": "石泉豆腐干",
+        "originSubtitleName": "咸度适宜，营养丰富",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489521878058262.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489525393255428.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489527771824612.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489531886477491.jpg"
+        ],
+        "sort": "4",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451484965253423105",
+        "originType": "2",
+        "originName": "猪血豆腐干",
+        "originSubtitleName": "营养丰富的重口味豆腐干",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489590856883471.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489593684697297.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489594326345094.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489595297366790.jpg"
+        ],
+        "sort": "5",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "6",
+    "favoriteSum": "8",
+    "personalInfoValue": "0/6"
+  },
+  "msg": "成功",
+  "success": true
+}

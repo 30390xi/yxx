@@ -1,0 +1,224 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1437986066001940482",
+    "scenicName": "凤翔县博物馆",
+    "tag": "天下九州唯雍其昌",
+    "level": -1,
+    "address": "宝鸡市凤翔县文化路",
+    "longitude": "107.403609",
+    "latitude": "34.516278",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#B9BCC3",
+    "centralColour": "#8D929D",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021091511454448686.png"
+    ],
+    "introduction": "<p>　　凤翔县博物馆位于陕西省凤翔县东湖内。该馆成立于1959年，隶属凤翔县文化局。凤翔县博物馆成立时在凤翔县东湖北岸\"苏公祠\"内。1962年撤销。1982年7月成立\"凤翔县雍城文物管理所\"。1984年5月，恢复凤翔县博物馆，与凤翔县雍城文物管理所两个牌子。该馆藏品4000件(组)。因凤翔县是先秦故都雍的所在地，历先秦十九公，建都294年，因此这里多出土先秦遗物。馆藏文物也以先秦为多，如雍城遗址出土的铜质建筑构件、陶质建筑材料水道、板瓦、筒瓦瓦当和砖块等。特别是高王寺出土的窑藏铜器，其中有一镶嵌宴享狩猎纹铜壶，壶身有图案四部分;第一部分为高台习射图;第二部分为水陆射禽图;第三部分为狩猎斗兽图。全图有各式人物88人，鸟兽鱼龟等图像143个，形像生动，制作精美，对研究先秦冶炼、铸造、镶嵌工艺有重要价值。</p>",
+    "introductionText": "　　凤翔县博物馆位于陕西省凤翔县东湖内。该馆成立于1959年，隶属凤翔县文化局。凤翔县博物馆成立时在凤翔县东湖北岸\"苏公祠\"内。1962年撤销。1982年7月成立\"凤翔县雍城文物管理所\"。1984年5月，恢复凤翔县博物馆，与凤翔县雍城文物管理所两个牌子。该馆藏品4000件(组)。因凤翔县是先秦故都雍的所在地，历先秦十九公，建都294年，因此这里多出土先秦遗物。馆藏文物也以先秦为多，如雍城遗址出土的铜质建筑构件、陶质建筑材料水道、板瓦、筒瓦瓦当和砖块等。特别是高王寺出土的窑藏铜器，其中有一镶嵌宴享狩猎纹铜壶，壶身有图案四部分;第一部分为高台习射图;第二部分为水陆射禽图;第三部分为狩猎斗兽图。全图有各式人物88人，鸟兽鱼龟等图像143个，形像生动，制作精美，对研究先秦冶炼、铸造、镶嵌工艺有重要价值。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026545651713",
+        "contentId": "1418152026541457409",
+        "name": "国家三级博物馆",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "<p>一、免费开放实行&ldquo;免费不免票&rdquo;。<br /> 1、散客凭身份证或其他有效证件参观，一人限领一票，当日有效；<br />2、观众须按照工作人员引导，每15&mdash;20人为一组，一组结束另一组进入，有序参观；<br />3、团体参观（20人以上）须提前24小时预约，预约电话：0917&mdash;7231161。确认后凭单位介绍信或旅行社任务派遣书领票；<br />4、高龄老年人、残疾人士、小学生须有家属或监护人陪同参观。现役军人凭证件可优先领票；<br />二、衣冠不整、举止不雅者谢绝入馆，携带危险管制物品者禁止入馆。<br /> 三、展厅内禁止拍照、饮食、喧哗、嬉闹，禁止从事其它与参观无关的事情；禁止随地吐痰、吸烟和随手乱扔废弃物等不文明行为。<br /> 四、爱护文物展品、展览设施和其它公共服务设施及花草树木、绿地等，如有损坏照价赔偿或承担相应法律责任。<br /> 五、参观车辆在停车场指定位置有序停放，请勿在禁停区乱停乱放。<br />六、本管理办法由凤翔县博物馆负责解释。</p>",
+    "discountVoList": [
+      {
+        "peopleType": "全员",
+        "limit": "无",
+        "discount": "免费"
+      }
+    ],
+    "officialWebsite": [
+      "http://baoji08539.11467.com/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0917-7231161"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": "馆内珍藏",
+    "contentResourcesDtoList": [
+      {
+        "id": "1438400941870141441",
+        "resourcesId": "1437986065993551874",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091511440783093.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2021-09-16 15:14:43",
+        "updateTime": "2021-09-16 15:14:43",
+        "createBy": "1427085429085155330",
+        "updateBy": "1427085429085155330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1438400941870141442",
+        "resourcesId": "1437986065993551874",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091511441835646.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2021-09-16 15:14:43",
+        "updateTime": "2021-09-16 15:14:43",
+        "createBy": "1427085429085155330",
+        "updateBy": "1427085429085155330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1438400941870141443",
+        "resourcesId": "1437986065993551874",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091511442701568.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2021-09-16 15:14:43",
+        "updateTime": "2021-09-16 15:14:43",
+        "createBy": "1427085429085155330",
+        "updateBy": "1427085429085155330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1438400941874335745",
+        "resourcesId": "1437986065993551874",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091511443441678.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2021-09-16 15:14:43",
+        "updateTime": "2021-09-16 15:14:43",
+        "createBy": "1427085429085155330",
+        "updateBy": "1427085429085155330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1439119981701840898",
+      "rankingId": null,
+      "indexInRanking": 61,
+      "rankingName": "陕西人气博物馆排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": [
+      {
+        "id": "1458481955157909506",
+        "scenicSpotId": "1437986066001940482",
+        "contentModuleName": "馆内珍藏",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1438400644422684674",
+            "type": 5,
+            "title": "小金盆",
+            "subtitle": "两千多年前的秦国金盆",
+            "coverImage": "https://eshopfile.zhiyousx.com/163177602429345257.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

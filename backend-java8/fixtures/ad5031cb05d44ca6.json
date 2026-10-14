@@ -1,0 +1,250 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941152",
+    "scenicName": "五龙洞国家森林公园",
+    "tag": "森林中还有天然的溶洞群",
+    "level": 4,
+    "address": "陕西省汉中市略阳县五龙洞镇",
+    "longitude": "106.282931",
+    "latitude": "33.585239",
+    "openingStatus": 1,
+    "capacity": 3000,
+    "topColour": "#4EAE6B",
+    "centralColour": "#3C7B5C",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2026060317122998614.jpg",
+      "https://eshopfile.zhiyousx.com/2026040219043387466.png",
+      "https://eshopfile.zhiyousx.com/8ee6a9d8-9e50-4e8a-80d3-4c14ff59e53b-20201028172039.jpg"
+    ],
+    "introduction": "<p>&nbsp; &nbsp; &nbsp; 五龙洞国家森林公园位于汉中市略阳县境内，总面积5800公顷，海拔900-2214米，年均气温12℃，森林覆盖率达98%。公园内奇峰兀立、巨树参天、古藤高悬，有五龙谷、青龙沟、白龙沟、三佛寺、氐羌民俗村5大区域，木城瀑布、茶马古道、五龙洞、呼龙台等100余处景点。景区动植物资源丰富、种类繁多，有羚牛、金钱豹、大鲵等野生动物200余种，秦岭冷杉、珙桐、金钱槭、红豆杉、高山杜鹃等植物1700余种，曾是氐羌人重要聚居区和陕甘茶马古道重要支线，历史文化厚重，氐羌特色鲜明，是秦岭秘境中的氐羌精神家园。</p>",
+    "introductionText": "      五龙洞国家森林公园位于汉中市略阳县境内，总面积5800公顷，海拔900-2214米，年均气温12℃，森林覆盖率达98%。公园内奇峰兀立、巨树参天、古藤高悬，有五龙谷、青龙沟、白龙沟、三佛寺、氐羌民俗村5大区域，木城瀑布、茶马古道、五龙洞、呼龙台等100余处景点。景区动植物资源丰富、种类繁多，有羚牛、金钱豹、大鲵等野生动物200余种，秦岭冷杉、珙桐、金钱槭、红豆杉、高山杜鹃等植物1700余种，曾是氐羌人重要聚居区和陕甘茶马古道重要支线，历史文化厚重，氐羌特色鲜明，是秦岭秘境中的氐羌精神家园。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "老年人",
+        "limit": "70周岁（含）以上凭身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米（含）以下，以闸机口测量为准",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "现役军人",
+        "limit": "凭本人军官证（离退休证）、士官证、士兵证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭本人有效证件",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "“三属”人员",
+        "limit": "烈士遗属、因公牺牲军人遗属、病故军人遗属凭三属人员优待证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "江苏省南通市游客",
+        "limit": "凭本人身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "略阳县五龙洞镇本地居民",
+        "limit": "凭本人身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "国家综合性消防救援人员",
+        "limit": "凭国家综合性救援队消防员证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "陕西省老人",
+        "limit": "65岁（含）以上老人凭敬老优待证",
+        "discount": "免费"
+      }
+    ],
+    "officialWebsite": [
+      "http://www.snwld.com/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "官方电话",
+        "telephone": "0916-4956358"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2062102344792342530",
+        "resourcesId": "1321381486702911489",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/3eaf4e77-6624-4b9d-bd35-dd5726dc1a83-20201028172054.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-06-03 17:21:25",
+        "updateTime": "2026-06-03 17:21:25",
+        "createBy": "2047232991458557954",
+        "updateBy": "2047232991458557954",
+        "isDeleted": 0
+      },
+      {
+        "id": "2062102344796536833",
+        "resourcesId": "1321381486702911489",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/6c9d6ec5-7123-492d-96c8-2e484eaab85a-20201028172100.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-06-03 17:21:25",
+        "updateTime": "2026-06-03 17:21:25",
+        "createBy": "2047232991458557954",
+        "updateBy": "2047232991458557954",
+        "isDeleted": 0
+      },
+      {
+        "id": "2062102344796536834",
+        "resourcesId": "1321381486702911489",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/b17a244c-9a53-4dc6-8fa5-0b12194b982e-20201028172108.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-06-03 17:21:25",
+        "updateTime": "2026-06-03 17:21:25",
+        "createBy": "2047232991458557954",
+        "updateBy": "2047232991458557954",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455795982670340097",
+      "rankingId": null,
+      "indexInRanking": 13,
+      "rankingName": "汉中必玩景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

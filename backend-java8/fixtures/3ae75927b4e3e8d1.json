@@ -1,0 +1,317 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064590917643",
+    "scenicName": "神泉堡革命纪念馆",
+    "tag": "中共中央转战陕北的纪念地",
+    "level": -1,
+    "cityId": "1320664225474195458",
+    "cityName": "榆林",
+    "address": "榆林市佳县佳米公路",
+    "longitude": "110.44316",
+    "latitude": "38.001711",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 209,
+    "topColour": "#A2BEE3",
+    "centralColour": "#6690C6",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021062918073403775.jpg"
+    ],
+    "introduction": "<p>　　神泉堡革命纪念馆位于佳县城西10公里处，由上、中、下三院组成，上院是毛泽东、周恩来等领导人旧居，中院和下院是中共中央办公厅旧址。 1947年，毛泽东、周恩来、任弼时、陆定一等老一辈革命领导人率领党的中央机关转战陕北，在佳县生活、战斗过100个日日夜夜，期间仅在神泉堡就度过57天。这期间毛泽东起草并发表了《中国人民解放军宣言》、《中国人民解放军总部关于重新颁布三大纪律八项主意的训令》等一系列重要革命文献，发出了&ldquo;打倒蒋介石，解放全中国&rdquo;的伟大号召;毛泽东、周恩来还进行了包括动员、讲话、指示、题词、视察等大量活动，留下了供后人学习、参观、瞻仰的大量弥足珍贵的实物资料。</p>",
+    "introductionText": "　　神泉堡革命纪念馆位于佳县城西10公里处，由上、中、下三院组成，上院是毛泽东、周恩来等领导人旧居，中院和下院是中共中央办公厅旧址。 1947年，毛泽东、周恩来、任弼时、陆定一等老一辈革命领导人率领党的中央机关转战陕北，在佳县生活、战斗过100个日日夜夜，期间仅在神泉堡就度过57天。这期间毛泽东起草并发表了《中国人民解放军宣言》、《中国人民解放军总部关于重新颁布三大纪律八项主意的训令》等一系列重要革命文献，发出了“打倒蒋介石，解放全中国”的伟大号召;毛泽东、周恩来还进行了包括动员、讲话、指示、题词、视察等大量活动，留下了供后人学习、参观、瞻仰的大量弥足珍贵的实物资料。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "18",
+        "name": "红色旅游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026361102337",
+        "contentId": "1418152026344325122",
+        "name": "全国红色旅游经典景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全天开放，门票免费",
+        "openTimeContent": "09:00-17:30"
+      }
+    ],
+    "discountVoList": null,
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": null,
+        "parentId": null,
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "8",
+        "name": "宠物禁止入园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (13).png",
+        "tagType": null,
+        "parentId": null,
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "神泉堡革命纪念馆停车场",
+        "additionalExplainContent": "地址：榆林市佳县佳米公路"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": null,
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "佳县神泉堡纪念馆",
+        "wxSubscription": "shenquanbujinianguan"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "1418415191049138177",
+        "outId": "1320579064590917643",
+        "type": 1,
+        "advertName": "吹响黄河岸边的胜利号角",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021062918203589396.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<div class=\"publicStyle\">\n<div class=\"width-sty mr-two\">\n<div class=\"clear mr-three\">\n<div class=\"fl yulin-colum\">\n<div class=\"article-cont mr-three\">\n<p style=\"text-align: center;\"><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062918230519159.jpg\" /></p>\n<p>　　在佳县城西10公里处的神泉堡，流传着一首民歌：红天红地红霞飞，咱神泉来了三支队；多少代来多少辈，没见过这样的好军队！当年毛泽东在这里起草了《双十宣言》，发出&ldquo;打倒蒋介石，解放全中国&rdquo;的进军令，伟大祖国从黑暗走向光明的胜利号角从这里吹响！1947年9月23日，毛泽东率领中央机来到神泉堡，同年11月18日离开，在神泉堡居住长达57天。</p>\n<p style=\"text-align: center;\"><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062918242199452.jpg\" /></p>\n<p>　　1947年秋，国共双方十多万大军压在佳县、米脂和榆林相接的狭小地区，粮食问题成了最大的困难。部队由于极度缺粮根本无法打仗，毛主席请来时任佳县县委书记张俊贤，问他能不能给部队筹集三天的粮食。张俊贤说：&ldquo;把全县群众的所有粮食筹集来，够部队吃一天；把全县地里的青玉米和谷子收割了，还可以吃一天；剩下的一天，就把全县的羊和驴都杀了！&rdquo;战役打响了，佳县老百姓的支前队伍扛着拉着从各家各户凑来的粮食、驴和羊，解放军打到哪里，他们就把给羊送到哪里；而在战场的后方，老百姓吃的是树叶和树皮。面对此情此景，毛主席十分感动，于是挥笔在一块白布上写下&ldquo;站在最大多数劳动人民的一面&rdquo;的题词。毛泽东给佳县人民的题词，是对佳县人民的最高褒奖，也饱含着党与人民鱼水相依、血肉相连的深厚感情。</p>\n<p>　　在神泉堡村，毛泽东和中央机关居住在高家大院。这座宅子四面封闭，酷似古堡，相对安全。此时，陕北和全国战局都大为好转，毛泽东在考虑局势发生转折后面临的情况和新问题，以便作出重大的决策。在这孔窑洞里，毛泽东起草了《中国人民解放军宣言》，郑重提出&ldquo;打倒蒋介石，解放全中国&rdquo;的口号，立刻在全国上下乃至国际社会上引起了巨大的轰动。此外，在神泉堡的这盏油灯下，毛泽东审定了《中国土地法大纲》，指出中国革命的根本问题是农民问题，农民的根本问题是土地问题。《大纲》颁布后，各解放区都召开了农民代表会议，世世代代没有土地的农民不仅分得了土地，而且还分到了财产。中共中央在神泉堡期间还颁布了《中国人民解放军训令》和《关于重新颁布三大纪律八项注意的训令》，使全党、全军和人民群众受到了极大的鼓舞，人们感到中国革命的新高潮就要到来。</p>\n<p style=\"text-align: center;\"><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062918280328962.jpg\" /></p>\n</div>\n</div>\n</div>\n</div>\n</div>\n<p>　　神泉堡革命纪念馆以大量的革命遗址、革命文物、历史照片，从&ldquo;扭转乾坤&rdquo;、&ldquo;运筹帷幄&rdquo;、&ldquo;鱼水情深&rdquo;、&ldquo;走向胜利&rdquo;四部分充分展现了党中央转战陕北的革命历史。展览主题突出，内容鲜明，图文并茂，具有浓郁的地域特色，得到观众的好评。</p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\">来源：网络摘选</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1418415191023972354",
+        "resourcesId": "1409822509053874178",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062918165753131.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2021-07-23 11:38:29",
+        "updateTime": "2021-07-23 11:38:29",
+        "createBy": "1290153639661703170",
+        "updateBy": "1290153639661703170",
+        "isDeleted": 0
+      },
+      {
+        "id": "1418415191028166658",
+        "resourcesId": "1409822509053874178",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062918164617413.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2021-07-23 11:38:29",
+        "updateTime": "2021-07-23 11:38:29",
+        "createBy": "1290153639661703170",
+        "updateBy": "1290153639661703170",
+        "isDeleted": 0
+      },
+      {
+        "id": "1418415191032360962",
+        "resourcesId": "1409822509053874178",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062918195528747.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2021-07-23 11:38:29",
+        "updateTime": "2021-07-23 11:38:29",
+        "createBy": "1290153639661703170",
+        "updateBy": "1290153639661703170",
+        "isDeleted": 0
+      },
+      {
+        "id": "1418415191032360963",
+        "resourcesId": "1409822509053874178",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062918171417033.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2021-07-23 11:38:29",
+        "updateTime": "2021-07-23 11:38:29",
+        "createBy": "1290153639661703170",
+        "updateBy": "1290153639661703170",
+        "isDeleted": 0
+      },
+      {
+        "id": "1418415191036555265",
+        "resourcesId": "1409822509053874178",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062918172448433.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2021-07-23 11:38:29",
+        "updateTime": "2021-07-23 11:38:29",
+        "createBy": "1290153639661703170",
+        "updateBy": "1290153639661703170",
+        "isDeleted": 0
+      },
+      {
+        "id": "1418415191036555266",
+        "resourcesId": "1409822509053874178",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062918173329236.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2021-07-23 11:38:29",
+        "updateTime": "2021-07-23 11:38:29",
+        "createBy": "1290153639661703170",
+        "updateBy": "1290153639661703170",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455743348567547905",
+      "rankingId": null,
+      "indexInRanking": 8,
+      "rankingName": " 榆林必逛景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": null,
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "scenicInfoTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": 0,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": null,
+    "hotelArrivalDepartureTime": null,
+    "hotelChildrenBed": null,
+    "hotelPet": null,
+    "hotelBreakfast": null,
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

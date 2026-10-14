@@ -1,0 +1,817 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941133",
+    "scenicName": "陕西历史博物馆",
+    "tag": "在这里，见证中华文明",
+    "level": 4,
+    "cityId": "1320620100725026817",
+    "cityName": "西安",
+    "address": "西安市雁塔区小寨东路91号",
+    "longitude": "108.95501",
+    "latitude": "34.22307",
+    "openingStatus": 1,
+    "capacity": 9000,
+    "sequence": 3,
+    "topColour": "#A16531",
+    "centralColour": "#6A3C26",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021081714345787633.jpg",
+      "https://eshopfile.zhiyousx.com/161171906647189020.jpg"
+    ],
+    "introduction": "<p>　　世界文化看中国，中国文化看陕西，陕西文化看这里。陕西历史博物馆是中国第一座大型现代化国家级博物馆，被誉为&ldquo;古都明珠、华夏宝库&rdquo;，收藏了170余万件藏品，是一座收藏和展示了陕西历史文化和中国古代文明的艺术殿堂。陕西历史博物馆位于西安大雁塔的西北侧，筹建于1983年，1991年6月20日落成开放，它的建成标志着中国博物馆事业迈入了新的发展里程。这座馆舍为&ldquo;中央殿堂、四隅崇楼&rdquo;的唐风建筑群，主次井然有序，高低错落有致，气势雄浑庄重，融民族传统、地方特色和时代精神于一体。馆区占地 65000平方米。建筑面积55600平方米，文物库区面积8000平方米，展厅面积11000平方米。馆藏文物多达 370000余件，上起远古人类初始阶段使用的简单石器，下至1840年前社会生活中的各类器物，时间跨度长达一百多万年。文物不仅数量多、种类全，而且品位高、价值广，其中的商周青铜器精美绝伦，历代陶俑千姿百态，汉唐金银器独步全国，唐墓壁 画举世无双。可谓琳琅满目、精品荟萃。&nbsp;</p>",
+    "introductionText": "　　世界文化看中国，中国文化看陕西，陕西文化看这里。陕西历史博物馆是中国第一座大型现代化国家级博物馆，被誉为“古都明珠、华夏宝库”，收藏了170余万件藏品，是一座收藏和展示了陕西历史文化和中国古代文明的艺术殿堂。陕西历史博物馆位于西安大雁塔的西北侧，筹建于1983年，1991年6月20日落成开放，它的建成标志着中国博物馆事业迈入了新的发展里程。这座馆舍为“中央殿堂、四隅崇楼”的唐风建筑群，主次井然有序，高低错落有致，气势雄浑庄重，融民族传统、地方特色和时代精神于一体。馆区占地 65000平方米。建筑面积55600平方米，文物库区面积8000平方米，展厅面积11000平方米。馆藏文物多达 370000余件，上起远古人类初始阶段使用的简单石器，下至1840年前社会生活中的各类器物，时间跨度长达一百多万年。文物不仅数量多、种类全，而且品位高、价值广，其中的商周青铜器精美绝伦，历代陶俑千姿百态，汉唐金银器独步全国，唐墓壁 画举世无双。可谓琳琅满目、精品荟萃。 ",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "69",
+        "name": "商务旅",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026461765634",
+        "contentId": "1418152026449182722",
+        "name": "全国爱国主义教育示范基地",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026327547906",
+        "contentId": "1418152026310770690",
+        "name": "国家一级博物馆",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "<section data-mpa-powered-by=\"yiban.io\" data-nest-level=\"2\">\n<section style=\"text-align: center; line-height: 1.75em;\" data-nest-level=\"3\">\n<section class=\"\" data-nest-level=\"4\">\n<section style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin: 0px; padding: 0px; outline: 0px; max-width: 100%; box-sizing: border-box !important; overflow-wrap: break-word !important;\">\n<section style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin: 0px; padding: 0px; outline: 0px; max-width: 100%; box-sizing: border-box !important; overflow-wrap: break-word !important;\" data-pm-slice=\"0 0 []\">\n<section style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin: 0px; padding: 0px; outline: 0px; max-width: 100%; box-sizing: border-box !important; overflow-wrap: break-word !important;\">\n<section data-style-id=\"51416\" data-pm-slice=\"0 0 []\">\n<section>\n<section>\n<section class=\"\" data-pm-slice=\"3 3 [&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;data-mpa-powered-by&quot;:&quot;yiban.io&quot;,&quot;data-nest-level&quot;:&quot;2&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;data-nest-level&quot;:&quot;3&quot;,&quot;style&quot;:&quot;text-align: center;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;data-pm-slice&quot;:&quot;0 0 []&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;}]\">\n<h1 style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin: 0px; padding: 0px; outline: 0px; max-width: 100%; text-align: center; line-height: 1.75em; visibility: visible; box-sizing: border-box !important; overflow-wrap: break-word !important; font-size: 17px;\" data-pm-slice=\"0 0 []\"><span class=\"js_title_inner\" style=\"letter-spacing: 2px; font-size: 16px;\"><span style=\"color: rgba(0, 0, 0, 0.9); font-size: 17px; letter-spacing: 0.034em; font-style: normal; font-weight: normal; visibility: visible; font-family: mp-quote, 'PingFang SC', system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif;\"><span style=\"font-size: 16px; letter-spacing: 2px; color: #007aaa;\"><strong>陕西历史博物馆发布</strong></span></span></span></h1>\n</section>\n<section class=\"\" data-pm-slice=\"3 3 [&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;data-mpa-powered-by&quot;:&quot;yiban.io&quot;,&quot;data-nest-level&quot;:&quot;2&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;data-nest-level&quot;:&quot;3&quot;,&quot;style&quot;:&quot;text-align: center;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;data-pm-slice&quot;:&quot;0 0 []&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;}]\">\n<h1 style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin: 0px; padding: 0px; outline: 0px; max-width: 100%; text-align: center; line-height: 1.75em; visibility: visible; box-sizing: border-box !important; overflow-wrap: break-word !important; font-size: 17px;\" data-pm-slice=\"0 0 []\"><span class=\"js_title_inner\" style=\"letter-spacing: 2px; font-size: 16px;\"><span style=\"color: rgba(0, 0, 0, 0.9); font-size: 17px; letter-spacing: 0.034em; font-style: normal; font-weight: normal; visibility: visible; font-family: mp-quote, 'PingFang SC', system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif;\"><span style=\"font-size: 16px; letter-spacing: 2px; color: #007aaa;\"><strong>2026年中秋、国庆假期开放公告</strong></span></span></span></h1>\n<section style=\"box-sizing: border-box; font-style: normal; font-weight: 400; text-align: justify; font-size: 16px; color: #3e3e3e;\" data-pm-slice=\"0 0 []\">\n<section style=\"text-align: left; justify-content: flex-start; display: flex; flex-flow: row; margin: 10px 0px; box-sizing: border-box;\">\n<section class=\"\" style=\"display: inline-block; width: 100%; vertical-align: middle; align-self: center; flex: 0 0 auto; background-color: rgba(114, 174, 255, 0.11); padding: 25px; max-width: 100% !important; box-sizing: border-box;\">\n<section class=\"\" style=\"text-align: justify; line-height: 1.75; letter-spacing: 1px; box-sizing: border-box;\">\n<p style=\"text-indent: 0em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">亲爱的观众朋友：</p>\n<p style=\"text-indent: 2.125em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">2026年中秋、国庆假期将至，为进一步满足广大观众假日期间精神文化需求，现就陕西历史博物馆中秋、国庆假期开放事宜公告如下：</p>\n</section>\n<section class=\"\" style=\"text-align: center; justify-content: center; display: flex; flex-flow: row; margin: 10px 0px; box-sizing: border-box;\">\n<section style=\"display: inline-block; vertical-align: bottom; width: auto; align-self: flex-end; flex: 0 0 0%; border-style: solid; border-width: 0px 0px 0px 6px; border-color: #56a5d7 #56a5d7 #56a5d7 #0d50c9; height: auto; padding: 0px; margin: 0px 0px 5px; box-sizing: border-box;\">\n<section style=\"text-align: left; justify-content: flex-start; display: flex; flex-flow: row; margin: 0px 0px -6px; box-sizing: border-box; transform: translate3d(-6px, 0px, 0px); -webkit-transform: translate3d(-6px, 0px, 0px); -moz-transform: translate3d(-6px, 0px, 0px); -o-transform: translate3d(-6px, 0px, 0px);\">\n<section style=\"display: inline-block; vertical-align: bottom; width: auto; flex: 0 0 0%; height: auto; line-height: 0; align-self: flex-end; box-sizing: border-box;\">\n<section style=\"box-sizing: border-box;\">\n<section style=\"display: inline-block; width: 0px; height: 0px; vertical-align: top; overflow: hidden; border-style: solid; border-width: 6px 0px 0px 6px; border-color: #00cafe rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); box-sizing: border-box;\" data-ignore-width=\"\">\n<section style=\"text-align: justify; box-sizing: border-box;\">\n<p style=\"white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">&nbsp;</p>\n</section>\n</section>\n</section>\n</section>\n<section style=\"display: inline-block; vertical-align: bottom; width: auto; align-self: flex-end; flex: 0 0 auto; border-style: solid; border-width: 0px 0px 6px; border-color: #846c41 #846c41 #00cafe; line-height: 0; min-width: 5%; max-width: 100%; height: auto; box-sizing: border-box;\">\n<section style=\"text-align: center; box-sizing: border-box;\">\n<section style=\"display: inline-block; width: 15px; height: 15px; vertical-align: top; overflow: hidden; box-sizing: border-box;\" data-ignore-width=\"\">\n<section style=\"text-align: justify; box-sizing: border-box;\">\n<p style=\"white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">&nbsp;</p>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section class=\"\" style=\"display: inline-block; vertical-align: bottom; width: auto; align-self: flex-end; flex: 0 0 auto; background-color: #ebf2fa; min-width: 5%; max-width: 100%; height: auto; margin: 0px -21px; padding: 5px 14px; box-sizing: border-box;\">\n<section class=\"\" style=\"color: #0d50c9; box-sizing: border-box;\">\n<p style=\"margin: 0px; padding: 0px; box-sizing: border-box;\"><strong style=\"box-sizing: border-box;\"><span style=\"color: #007aaa;\">本馆</span></strong></p>\n<p style=\"margin: 0px; padding: 0px; box-sizing: border-box;\"><strong style=\"box-sizing: border-box;\"><span style=\"color: #007aaa; font-weight: normal;\">（西安市雁塔区小寨东路91号）</span></strong></p>\n</section>\n</section>\n<section style=\"display: inline-block; vertical-align: top; width: auto; flex: 0 0 0%; height: auto; margin: 6px 0px 0px; box-sizing: border-box;\">\n<section style=\";transform-style: flat; box-sizing: border-box; transform: perspective(0px); -webkit-transform: perspective(0px); -moz-transform: perspective(0px); -o-transform: perspective(0px);\">\n<section style=\"text-align: left; justify-content: flex-start; display: flex; flex-flow: row; box-sizing: border-box; transform: rotateX(180deg) rotateY(180deg); -webkit-transform: rotateX(180deg) rotateY(180deg); -moz-transform: rotateX(180deg) rotateY(180deg); -o-transform: rotateX(180deg) rotateY(180deg);\">\n<section style=\"display: inline-block; width: auto; vertical-align: bottom; align-self: flex-end; flex: 0 0 0%; border-style: solid; border-width: 0px 0px 0px 6px; border-color: #56a5d7 #56a5d7 #56a5d7 #0d50c9; height: auto; padding: 0px; box-sizing: border-box;\">\n<section style=\"justify-content: flex-start; display: flex; flex-flow: row; margin: 0px 0px -6px; box-sizing: border-box; transform: translate3d(-6px, 0px, 0px); -webkit-transform: translate3d(-6px, 0px, 0px); -moz-transform: translate3d(-6px, 0px, 0px); -o-transform: translate3d(-6px, 0px, 0px);\">\n<section style=\"display: inline-block; vertical-align: bottom; width: auto; flex: 0 0 0%; height: auto; line-height: 0; align-self: flex-end; box-sizing: border-box;\">\n<section style=\"box-sizing: border-box;\">\n<section style=\"display: inline-block; width: 0px; height: 0px; vertical-align: top; overflow: hidden; border-style: solid; border-width: 6px 0px 0px 6px; border-color: #00cafe rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); box-sizing: border-box;\" data-ignore-width=\"\">\n<section style=\"text-align: justify; box-sizing: border-box;\">\n<p style=\"white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">&nbsp;</p>\n</section>\n</section>\n</section>\n</section>\n<section style=\"display: inline-block; vertical-align: bottom; width: auto; align-self: flex-end; flex: 0 0 auto; border-style: solid; border-width: 0px 0px 6px; border-color: #846c41 #846c41 #00cafe; line-height: 0; min-width: 5%; max-width: 100%; height: auto; box-sizing: border-box;\">\n<section style=\"text-align: center; box-sizing: border-box;\">\n<section style=\"display: inline-block; width: 15px; height: 15px; vertical-align: top; overflow: hidden; box-sizing: border-box;\" data-ignore-width=\"\">\n<section style=\"text-align: justify; box-sizing: border-box;\">\n<p style=\"white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">&nbsp;</p>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section class=\"\" style=\"text-align: justify; line-height: 1.75; letter-spacing: 1px; box-sizing: border-box;\">\n<p style=\"text-indent: 2.125em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">1.<span style=\"color: #007aaa;\"><strong>9月25日&mdash;9月27日及10月1日&mdash;10月7日期间，开放时间调整为7:30-20:30（19:30停止检票），参观预约数量为17500人次/日。</strong></span></p>\n<p style=\"text-indent: 2.125em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">2.开放的展览有：</p>\n<p style=\"text-indent: 2.125em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">①基本陈列&ldquo;陕西古代文明&rdquo;（第一、第二、第三展厅）；</p>\n<p style=\"text-indent: 2.125em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">②专题陈列&ldquo;大唐遗宝&mdash;&mdash;何家村窖藏出土文物展&rdquo;（第四展厅）；</p>\n<p style=\"text-indent: 2.125em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">③专题陈列&ldquo;唐代壁画珍品展&rdquo;（收费展，东展厅负一层），购票可参观&ldquo;壁上丹青 &nbsp;盛唐气象&mdash;&mdash;唐韩休墓壁画考古发掘与保护展&rdquo;（西展厅负一层）；</p>\n<p style=\"text-indent: 2.125em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">④临时展览&ldquo;文明以止&mdash;&mdash;希腊化时期的黄金艺术&rdquo;特展（收费展，第七展厅）；</p>\n<p style=\"text-indent: 2.125em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">⑤临时展览&ldquo;锦绣华裳&mdash;&mdash;新疆巴州博物馆藏古代服饰精品展&rdquo;（第五展厅）；</p>\n<p style=\"text-indent: 2.125em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">⑥临时展览&ldquo;金石学在陕西&middot;追金篇&rdquo;（第六展厅）；</p>\n<p style=\"text-indent: 2.125em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">⑦临时展览&ldquo;伯乐相马&rdquo;（西地下青少年教育活动中心）；</p>\n<p style=\"text-indent: 2.125em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">⑧临时展览&ldquo;面见唐人&mdash;&mdash;陕西唐代面食文化展&rdquo;（国宝厅）。</p>\n<p style=\"text-indent: 2.125em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\"><span style=\"text-indent: 2.125em; caret-color: red;\">感谢您对陕西历史博物馆的关注与支持。</span></p>\n</section>\n<section class=\"\" style=\"text-align: justify; line-height: 1.75; letter-spacing: 1px; box-sizing: border-box;\">\n<p style=\"text-indent: 2.125em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">&nbsp;</p>\n<p style=\"white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box; text-indent: 1.875em; text-align: right;\" align=\"right\"><span style=\"font-size: 14px;\">来源：陕西历史博物馆</span></p>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<p style=\"display: none;\">&nbsp;</p>\n<section class=\"_135editor\"></section>",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "冬季（11月15日—3月14日）",
+        "openTimeContent": "9：00—17：30（16：00停止入场）"
+      },
+      {
+        "openTimeTitle": "夏季（3月15日—11月14日）",
+        "openTimeContent": "（3月15日至11月14日）<br/>8：30—18：00（16：30停止入场）"
+      },
+      {
+        "openTimeTitle": "开放时间限额参观",
+        "openTimeContent": "9000人/日"
+      },
+      {
+        "openTimeTitle": "基本陈列门票",
+        "openTimeContent": "可提前7天（含当天）在官方微信公众号中进行预约"
+      },
+      {
+        "openTimeTitle": "放票时间",
+        "openTimeContent": "“陕西历史博物馆”微信公众号将在每天18:00、19:00、20:00、21:00、22:00分批次自动放票，每个时间段放1680张，另余600张为与已预约成人同行的老人、军人、残障人士等特殊人群预留门票，请您按需预约。"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.4米（含1.4米）及以下或6周岁以下（含6周岁）（在监护人陪同下）凭有效证件",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "65周岁（含）以上（在监护人陪同下）凭身份证、敬老优待证）",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "（在监护人陪同下）凭残疾人、伤残军人证、伤残警察证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "现役军人",
+        "limit": "凭军官证、文职干部证、士官证、士兵证、军队院校学院证",
+        "discount": "免费"
+      }
+    ],
+    "facilitiesServicesVoList": null,
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "讲解导览",
+        "additionalExplainContent": "位置：进入博物馆中央大厅第一展厅门口。选择免费下载“博物馆讲读APP“。"
+      },
+      {
+        "additionalExplainTitle": "讲解员",
+        "additionalExplainContent": "陕西古代文明（基本陈列，免费参观）：中文讲解200元，英文讲解300元 <br/>大唐遗宝展（专题展览，票价30元）：中文讲解50元，英文讲解100元<br/>唐代壁画珍品馆（专题展览，票价270元）：中文讲解50元，英文讲解100元<br/>一名讲解员最多可带领10名游客参观。<br/>另外，博物馆安排志愿者讲解员为观众提供免费讲解，请在大厅讲解员联系处了解详细信息。"
+      },
+      {
+        "additionalExplainTitle": "服务项目",
+        "additionalExplainContent": "游客服务中心位于大厅西侧，为您提供展览、票务、参观等信息，并提供婴儿车及轮椅的租借服务。<br/>大厅西侧地下一层设有餐厅、咖啡馆、青少年活动中心、陕西数字博物馆实体体验馆等设施。"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": "<p>线路1：乘坐地铁2/3号线到【小寨站】，沿小寨东路向东步行7至8分钟。<br />线路2：乘坐地铁3号/4号线到【大雁塔站】，沿小寨东路向西步行10分钟。</p>"
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "咨询服务电话",
+        "telephone": "4000293806"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "陕西历史文化博物馆",
+        "wxSubscription": " sxhm_com"
+      }
+    ],
+    "sinaWeiboVoList": [
+      {
+        "sinaWeibo": "陕西历史文化博物馆",
+        "sinaWeiboUrl": "https://weibo.com/u/3168822453"
+      }
+    ],
+    "tiktokVoList": null,
+    "topBannerList": [
+      {
+        "id": "2102290018884313089",
+        "outId": "1320579064720941133",
+        "type": 1,
+        "advertName": "陕历博预约游览攻略",
+        "advertPic": "https://eshopfile.zhiyousx.com/2024050818012148861.jpg",
+        "jumpType": 1,
+        "jumpUrl": "https://mp.weixin.qq.com/s/IUJO-Qyz_0aFHigBhiLV3A",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "",
+        "contentType": null,
+        "bannerPosition": 0
+      }
+    ],
+    "bannerList": [],
+    "contentModuleName": "镇馆之宝",
+    "contentResourcesDtoList": [
+      {
+        "id": "2102290018762678273",
+        "resourcesId": "1321348048977420289",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/611-20201028150433.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-09-22 14:52:53",
+        "updateTime": "2026-09-22 14:52:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102290018766872577",
+        "resourcesId": "1321348048977420289",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/621-20201028150604.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-09-22 14:52:53",
+        "updateTime": "2026-09-22 14:52:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102290018771066881",
+        "resourcesId": "1321348048977420289",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/631-20201028150610.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-09-22 14:52:53",
+        "updateTime": "2026-09-22 14:52:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102290018771066882",
+        "resourcesId": "1321348048977420289",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/641-20201028150750.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-09-22 14:52:53",
+        "updateTime": "2026-09-22 14:52:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102290018775261186",
+        "resourcesId": "1321348048977420289",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/671-20201028150756.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2026-09-22 14:52:53",
+        "updateTime": "2026-09-22 14:52:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102290018779455490",
+        "resourcesId": "1321348048977420289",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/681-20201028150802.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2026-09-22 14:52:53",
+        "updateTime": "2026-09-22 14:52:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102290018779455491",
+        "resourcesId": "1321348048977420289",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/6991-20201028150808.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2026-09-22 14:52:53",
+        "updateTime": "2026-09-22 14:52:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102290018783649794",
+        "resourcesId": "1321348048977420289",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/691-20201028150816.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2026-09-22 14:52:53",
+        "updateTime": "2026-09-22 14:52:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1439119981701840898",
+      "rankingId": null,
+      "indexInRanking": 2,
+      "rankingName": "陕西人气博物馆排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1574974899180212226",
+        "rankingId": "1574974902443380737",
+        "indexInRanking": null,
+        "rankingName": "陕西免费景区人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1551836855409541121",
+        "rankingId": "1551836856105795586",
+        "indexInRanking": null,
+        "rankingName": "外地游客西安必逛榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1658303499793903618",
+        "rankingId": "1658303501412904962",
+        "indexInRanking": null,
+        "rankingName": "历史文化类博物馆人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1538830830115508226",
+        "rankingId": "1538830831147307010",
+        "indexInRanking": null,
+        "rankingName": "西安必游人气排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1680835374538088449",
+        "rankingId": "1680835375632801794",
+        "indexInRanking": null,
+        "rankingName": "陕西省热搜50强博物馆排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1676883692355641345",
+        "rankingId": "1676883693114810370",
+        "indexInRanking": null,
+        "rankingName": "西安热门景区人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "2102290018796232705",
+        "scenicSpotId": "1320579064720941133",
+        "contentModuleName": "人气馆藏精品",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1412694128663224321",
+            "type": 5,
+            "title": "唐三彩骆驼载乐俑",
+            "subtitle": "穿越千年的“巡回乐队”",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021071316553829561.jpg",
+            "likeRatio": 87.1,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412694776075018241",
+            "type": 5,
+            "title": "皇后玉玺",
+            "subtitle": "一个女人和一个王朝的权力印证",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021071309240855560.jpg",
+            "likeRatio": 81.5,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412696172128133122",
+            "type": 5,
+            "title": "宫女图",
+            "subtitle": "翩若惊鸿 婉若游龙",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021071316562174563.jpg",
+            "likeRatio": 81.8,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412697029418704898",
+            "type": 5,
+            "title": "五祀卫鼎",
+            "subtitle": "纪录中国最早土地制度的青铜史书",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021071309232593791.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412697650213445634",
+            "type": 5,
+            "title": "多友鼎",
+            "subtitle": "为一场战争而生的鼎",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021071309194464613.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412698355196256258",
+            "type": 5,
+            "title": "鎏金银竹节铜熏炉",
+            "subtitle": "一座铜熏炉见证两千年前的爱情",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021071309220882927.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412698848006004738",
+            "type": 5,
+            "title": "鎏金舞马衔杯纹银壶",
+            "subtitle": "大唐王朝兴衰的见证",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021071309212886367.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412699147307343873",
+            "type": 5,
+            "title": "阙楼仪仗图",
+            "subtitle": "最真实的历史图像记忆",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021071309224189171.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412699465277530113",
+            "type": 5,
+            "title": "打马球图",
+            "subtitle": "一千年前中国人这样“踢足球”",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021070717054611403.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412699785982402561",
+            "type": 5,
+            "title": "狩猎出行图",
+            "subtitle": "大唐贵族的出猎景象",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021071316582317262.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412700693583650818",
+            "type": 5,
+            "title": "客使图",
+            "subtitle": "大唐盛世外交的见证",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021071316570362963.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412701003270086657",
+            "type": 5,
+            "title": "鸳鸯莲瓣纹金碗",
+            "subtitle": "一只“小碗”容纳整个盛唐",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021071316593181470.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412701280438083585",
+            "type": 5,
+            "title": "镶金兽首玛瑙杯",
+            "subtitle": "源自西域的唐代至尊酒器",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021071316591010145.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412701576925044737",
+            "type": 5,
+            "title": "鎏金鹦鹉纹提梁银罐",
+            "subtitle": "高颜值的“胖美人 ”",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021071316572921364.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412701865346359298",
+            "type": 5,
+            "title": "青釉提梁倒灌壶",
+            "subtitle": "“倒而不漏”的神奇国瓷",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021071316580439142.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412702127133843458",
+            "type": 5,
+            "title": "黑釉油滴碗",
+            "subtitle": "最“低调”的陕历博国宝",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021071316563812573.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412690924177219586",
+            "type": 5,
+            "title": "西周旟鼎",
+            "subtitle": "一个讲述着妇女能顶半边天的文物",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021071316584824987.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1434718163492253698",
+            "type": 5,
+            "title": "日己觥",
+            "subtitle": "觥筹交错的西周酒器",
+            "coverImage": "https://eshopfile.zhiyousx.com/163089810087706143.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1434780248880295937",
+            "type": 5,
+            "title": "墨玉牙璋",
+            "subtitle": "四千年前的礼仪之器",
+            "coverImage": "https://eshopfile.zhiyousx.com/163091299638078202.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1434730185218961410",
+            "type": 5,
+            "title": "彩陶人面纹细颈瓶",
+            "subtitle": null,
+            "coverImage": "https://eshopfile.zhiyousx.com/163090048374490076.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1434734547089600514",
+            "type": 5,
+            "title": "四神十二生肖方镜",
+            "subtitle": "唐代镜子",
+            "coverImage": "https://eshopfile.zhiyousx.com/163090219523011464.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1433319161865547777",
+            "type": 5,
+            "title": "四神瓦当",
+            "subtitle": "中国建筑之美",
+            "coverImage": "https://eshopfile.zhiyousx.com/163056462578038793.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1434720603738320898",
+            "type": 5,
+            "title": "幻方铁板",
+            "subtitle": "阿拉伯数字最早的实物资料",
+            "coverImage": "https://eshopfile.zhiyousx.com/163089880312779052.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1433324090558623746",
+            "type": 5,
+            "title": "象牙算筹",
+            "subtitle": "古老的计算工具",
+            "coverImage": "https://eshopfile.zhiyousx.com/163056567956272335.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1433272414518751234",
+            "type": 5,
+            "title": "银平脱双鹿纹椭方形漆盒",
+            "subtitle": "一对奔鹿见证大唐手艺",
+            "coverImage": "https://eshopfile.zhiyousx.com/163055332121475697.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1433263675103358978",
+            "type": 5,
+            "title": "内者竹节熏炉",
+            "subtitle": "两千年前公主使用的熏香",
+            "coverImage": "https://eshopfile.zhiyousx.com/163054850057744923.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1433341297493651458",
+            "type": 5,
+            "title": "鸟盖瓠壶",
+            "subtitle": "战国精美酒壶",
+            "coverImage": "https://eshopfile.zhiyousx.com/163056992472365097.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1433329731687788546",
+            "type": 5,
+            "title": "牛尊",
+            "subtitle": "非比寻常的牛",
+            "coverImage": "https://eshopfile.zhiyousx.com/163056708571895528.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1433275238115815425",
+            "type": 5,
+            "title": "阙楼图",
+            "subtitle": "盛唐的绘画技巧",
+            "coverImage": "https://eshopfile.zhiyousx.com/163055395691615573.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1433268258080927746",
+            "type": 5,
+            "title": "珊瑚翡翠朝珠",
+            "subtitle": "大清的品味有多高",
+            "coverImage": "https://eshopfile.zhiyousx.com/163057035518076087.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1438411071760224258",
+            "type": 5,
+            "title": "秦 ·两诏铜椭量",
+            "subtitle": "秦朝时期的标准量器",
+            "coverImage": "https://eshopfile.zhiyousx.com/163177811702237452.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1926935089142890498",
+            "type": 5,
+            "title": "淳化大鼎",
+            "subtitle": "",
+            "coverImage": "https://eshopfile.zhiyousx.com/174825204915760872.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": "2026年中秋、国庆假期开放公告",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": "产品预订",
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,26 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1455811431080501249",
+    "contentId": "1455811430946283521",
+    "rankingName": "杨凌美食人气排行榜",
+    "rankingClass": "2",
+    "rankingType": "2",
+    "rankingMainPictureUrl": "https://res.zhiyousx.com/ysx/pro/2021/11/03/163592746001412231.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": null,
+    "rankingInclude": "个美食",
+    "rankingPersonalInfo": "我吃过的美食",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#D98D39",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": null,
+    "sumCount": "5",
+    "favoriteSum": "4",
+    "personalInfoValue": null
+  },
+  "msg": "成功",
+  "success": true
+}

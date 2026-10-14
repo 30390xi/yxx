@@ -1,8 +1,8 @@
 <view class="container data-v-59ed2806">
     <uni-navbar bind:__l="__l" class="data-v-59ed2806" title="vlog" transparentFixedFontColor="#FFFFFF" type="transparentFixed" vueId="1481343c-1"></uni-navbar>
-    <image binderror="__e" bindload="__e" class="bg data-v-59ed2806" data-event-opts="{{[ [ 'load',[ [ 'onImageLoad',['$event'] ] ] ],[ 'error',[ [ 'onImageError',['$event'] ] ] ] ]}}" mode="aspectFill" src="https://eshopfile.zhiyousx.com/176949634824956732.png"></image>
+    <image binderror="__e" bindload="__e" class="bg data-v-59ed2806" data-event-opts="{{[ [ 'load',[ [ 'onImageLoad',['$event'] ] ] ],[ 'error',[ [ 'onImageError',['$event'] ] ] ] ]}}" mode="aspectFill" src="/static/captured/9f0dcae8f660472f.png"></image>
     <view bindtap="__e" class="right-tip _div data-v-59ed2806" data-event-opts="{{[ [ 'tap',[ [ 'handleRecord',['$event'] ] ] ] ]}}">
-        <image class="data-v-59ed2806" src="https://eshopfile.zhiyousx.com/176913458203456352.png" style="width:40rpx;height:40rpx;margin-right:10rpx;"></image>{{''+$root.m0+''}}</view>
+        <image class="data-v-59ed2806" src="/static/captured/f284003cfa129c1c.png" style="width:40rpx;height:40rpx;margin-right:10rpx;"></image>{{''+$root.m0+''}}</view>
     <view class="footer data-v-59ed2806">
         <button bindtap="__e" class="btn-bg data-v-59ed2806" data-event-opts="{{[ [ 'tap',[ [ 'handleBtnClick',['$event'] ] ] ] ]}}">{{''+$root.m1+''}}</button>
         <view class="tag data-v-59ed2806" wx:if="{{currentTemp.status==0}}">{{$root.m2}}</view>
@@ -21,8 +21,8 @@
             <button bindtap="__e" class="btn-bg btn-cust data-v-59ed2806" data-event-opts="{{[ [ 'tap',[ [ 'handlePay',['$event'] ] ] ] ]}}">{{''+$root.m6+''}}</button>
         </view>
     </u-popup>
-    <image class="price-img data-v-59ed2806" src="https://eshopfile.zhiyousx.com/176898632572285122.png" wx:if="{{showPrice}}"></image>
-    <image class="nickname-img data-v-59ed2806" src="https://eshopfile.zhiyousx.com/176934581923005715.png" style="{{'top:'+nicknameTop+';'}}" wx:if="{{showNickname}}"></image>
+    <image class="price-img data-v-59ed2806" src="/static/captured/1155358a9c5eb6e0.png" wx:if="{{showPrice}}"></image>
+    <image class="nickname-img data-v-59ed2806" src="/static/captured/193518afb16798d1.png" style="{{'top:'+nicknameTop+';'}}" wx:if="{{showNickname}}"></image>
     <u-popup adjustPosition="{{true}}" bind:__l="__l" bind:input="__e" borderRadius="{{20}}" class="data-v-59ed2806" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showNickname','$event',[] ] ] ] ] ]}}" height="264rpx" maskCloseAble="{{false}}" mode="center" value="{{showNickname}}" vueId="1481343c-5" vueSlots="{{['default']}}" width="80%" wx:if="{{showNickname}}">
         <view class="nickname-content data-v-59ed2806">
             <input bindblur="__e" bindfocus="__e" bindinput="__e" class="weui-input data-v-59ed2806 vue-ref" data-event-opts="{{[ [ 'focus',[ [ 'onNicknameFocus',['$event'] ] ] ],[ 'blur',[ [ 'onNicknameBlur',['$event'] ] ] ],[ 'input',[ [ '__set_model',[ '','nickName','$event',[] ] ] ] ] ]}}" data-ref="nicknameInput" placeholder="{{$root.m7}}" type="nickname" value="{{nickName}}"></input>

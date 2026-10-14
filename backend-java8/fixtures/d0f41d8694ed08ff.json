@@ -1,0 +1,39 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "1442342686043455489",
+      "resourcesId": "1321383745943789570",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/新天地3-20201028172928.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2021-09-27 12:17:48",
+      "updateTime": "2021-09-27 12:17:48",
+      "createBy": "1344113100973973505",
+      "updateBy": "1344113100973973505",
+      "isDeleted": 0
+    },
+    {
+      "id": "1442342686047649793",
+      "resourcesId": "1321383745943789570",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/新天地4-20201028172941.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 2,
+      "describe": null,
+      "createTime": "2021-09-27 12:17:48",
+      "updateTime": "2021-09-27 12:17:48",
+      "createBy": "1344113100973973505",
+      "updateBy": "1344113100973973505",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,237 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1468869086028001282",
+    "scenicName": "榆林古城",
+    "tag": "九边重镇，塞上明珠",
+    "level": 4,
+    "cityId": "1320664225474195458",
+    "cityName": "榆林",
+    "address": "榆林市榆阳区北大街259号",
+    "longitude": "109.752421",
+    "latitude": "38.29639",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 273,
+    "topColour": "#3DA3D6",
+    "centralColour": "#008BC9",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021120916552044372.jpg"
+    ],
+    "introduction": "<div class=\"para\" data-pid=\"1\">　　榆林古城位于国家历史文化名城陕西省榆林市，2008年中国最具潜力的十大古城之一，东依驼山，南凭榆阳河，西临榆溪，北踞红山。明成化年间，延绥镇巡抚余子俊将镇治所由绥德迁至榆林卫以后，曾多次修建。其中比较著名的有三次：第一次是明成化二十二年（1486），第二次是明弘治五年；第三次是明正德十年(1515)。这就是当地历史上流传的&ldquo;三拓榆阳&rdquo;。经此修拓，榆林城益发坚固雄伟。此城已历600余年沧桑，虽屡遭兵火，迭经风雨侵蚀，但大部完好，不失为塞上明珠。为重现历史文化名城榆林的风采，对古城墙的研究很有必要。古代的榆林不但是军事重地，也是边疆贸易的中心和汉族与西北少数民族文化交会和交流的地方。附近有不少与此有关的名胜古迹。历史上榆林还是首都北京的安全战略屏障，榆林是全国唯一由皇帝钦定城墙高度可以超过北京的城市，榆林与北京是休戚与共的生态安全共同体。榆林城倚山临水，龙腾虎踞，气势非凡，街道上楼阁相望，衙署相连，皇帝行宫（即凯歌楼，其时称&ldquo;太乙神宫&rdquo;）修得玲珑别致，大有皇宫气象，明武宗驻跸榆林时高兴地对随从说：&ldquo;榆林真乃小北京也！&rdquo;<sup class=\"sup--normal\" data-sup=\"1\" data-ctrmap=\":1,\">&nbsp;</sup></div>",
+    "introductionText": "　　榆林古城位于国家历史文化名城陕西省榆林市，2008年中国最具潜力的十大古城之一，东依驼山，南凭榆阳河，西临榆溪，北踞红山。明成化年间，延绥镇巡抚余子俊将镇治所由绥德迁至榆林卫以后，曾多次修建。其中比较著名的有三次：第一次是明成化二十二年（1486），第二次是明弘治五年；第三次是明正德十年(1515)。这就是当地历史上流传的“三拓榆阳”。经此修拓，榆林城益发坚固雄伟。此城已历600余年沧桑，虽屡遭兵火，迭经风雨侵蚀，但大部完好，不失为塞上明珠。为重现历史文化名城榆林的风采，对古城墙的研究很有必要。古代的榆林不但是军事重地，也是边疆贸易的中心和汉族与西北少数民族文化交会和交流的地方。附近有不少与此有关的名胜古迹。历史上榆林还是首都北京的安全战略屏障，榆林是全国唯一由皇帝钦定城墙高度可以超过北京的城市，榆林与北京是休戚与共的生态安全共同体。榆林城倚山临水，龙腾虎踞，气势非凡，街道上楼阁相望，衙署相连，皇帝行宫（即凯歌楼，其时称“太乙神宫”）修得玲珑别致，大有皇宫气象，明武宗驻跸榆林时高兴地对随从说：“榆林真乃小北京也！” ",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": null,
+    "discountVoList": null,
+    "facilitiesServicesVoList": null,
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": null,
+    "wxSubscriptionVoList": null,
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1635551040051503106",
+        "resourcesId": "1468869086019612674",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021120917034865843.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2023-03-14 15:58:49",
+        "updateTime": "2023-03-14 15:58:49",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1635551040055697410",
+        "resourcesId": "1468869086019612674",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021120917035496918.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2023-03-14 15:58:49",
+        "updateTime": "2023-03-14 15:58:49",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1635551040059891714",
+        "resourcesId": "1468869086019612674",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021120917035990399.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2023-03-14 15:58:49",
+        "updateTime": "2023-03-14 15:58:49",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": null,
+      "rankingId": null,
+      "indexInRanking": null,
+      "rankingName": null,
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": null,
+    "hotelArrivalDepartureTime": null,
+    "hotelChildrenBed": null,
+    "hotelPet": null,
+    "hotelBreakfast": null,
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

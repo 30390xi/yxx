@@ -114,7 +114,7 @@
                 <view class="item data-v-90140ccc" wx:for="{{$root.l1}}" wx:key="index">
                     <view class="row data-v-90140ccc">
                         <view class="l data-v-90140ccc">
-                            <image mode class="image-l data-v-90140ccc" src="https://eshopfile.zhiyousx.com/173950170060653880.png"></image>
+                            <image mode class="image-l data-v-90140ccc" src="/static/captured/81a46c1254d503b2.png"></image>
                         </view>
                         <input bindblur="__e" bindinput="__e" class="r data-v-90140ccc" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '$0','name','$event',['trim'] ],[ [ ['inputGroup','',index] ] ] ] ] ],[ 'blur',[ ['$forceUpdate'] ] ] ]}}" data-type="name" placeholder="请按Surname/Given name格式填写" value="{{item.$orig.name}}" wx:if="{{item.$orig.cardType==1}}"></input>
                         <ocr-index bind:__l="__l" class="data-v-90140ccc" csflag="{{infoObj.scenicType==1}}" style="width:calc(100% - 80rpx);" subscript="{{index}}" vueId="{{'2e4e1020-1-'+index}}" vueSlots="{{['content']}}" wx:if="{{(infoObj.itemUseDesc.touristInfoType==1&&index==0||infoObj.itemUseDesc.touristInfoType==2)&&item.$orig.cardType==0&&!item.$orig.idCard}}">
@@ -190,8 +190,8 @@
                             <view class="item2 data-v-90140ccc">{{''+'('+item.$orig.insuranceProductDesc+')'+''}}</view>
                         </view>
                         <view class="insure-choose data-v-90140ccc">
-                            <image bindtap="__e" class="img-style data-v-90140ccc" data-event-opts="{{[ [ 'tap',[ [ 'goDetail',[index,'$0','check'],[ [ ['insureList','',index] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/170675434646321261.png" wx:if="{{item.$orig.isInsurance}}"></image>
-                            <image bindtap="__e" class="img-style data-v-90140ccc" data-event-opts="{{[ [ 'tap',[ [ 'goDetail',[index,'$0','check'],[ [ ['insureList','',index] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/169345576395787642.png" wx:else></image>
+                            <image bindtap="__e" class="img-style data-v-90140ccc" data-event-opts="{{[ [ 'tap',[ [ 'goDetail',[index,'$0','check'],[ [ ['insureList','',index] ] ] ] ] ] ]}}" src="/static/captured/bc41acb9f83fb1d1.png" wx:if="{{item.$orig.isInsurance}}"></image>
+                            <image bindtap="__e" class="img-style data-v-90140ccc" data-event-opts="{{[ [ 'tap',[ [ 'goDetail',[index,'$0','check'],[ [ ['insureList','',index] ] ] ] ] ] ]}}" src="/static/captured/bee3789d50c080ab.png" wx:else></image>
                         </view>
                     </view>
                     <view class="bottom data-v-90140ccc">
@@ -200,18 +200,18 @@
                             <view class="right data-v-90140ccc">
                                 <view class="m-user-box data-v-90140ccc">
                                     <view class="mu-item data-v-90140ccc" wx:for="{{item.$orig.insuranceForm}}" wx:for-index="i" wx:for-item="it">
-                                        <image mode bindtap="__e" class="icon data-v-90140ccc" data-event-opts="{{[ [ 'tap',[ [ 'delUser',[index,i,'$0'],[ [ ['insureList','',index],['insuranceForm','',i] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/2023091815384493978.png"></image>
+                                        <image mode bindtap="__e" class="icon data-v-90140ccc" data-event-opts="{{[ [ 'tap',[ [ 'delUser',[index,i,'$0'],[ [ ['insureList','',index],['insuranceForm','',i] ] ] ] ] ] ]}}" src="/static/captured/e1be26750c2a19a5.png"></image>
                                         <view bindtap="__e" class="it-info data-v-90140ccc" data-event-opts="{{[ [ 'tap',[ [ 'addInsure',['$event'] ] ] ] ]}}">
                                             <view class="it-flex data-v-90140ccc">
                                                 <view class="name data-v-90140ccc">{{'姓名：'+it.name}}</view>
                                                 <view class="card data-v-90140ccc">{{'身份证：'+(it.idCarNo?it.idCarNo:'')}}</view>
                                             </view>
-                                            <image mode class="u-item-r data-v-90140ccc" src="https://eshopfile.zhiyousx.com/169415863023853994.png"></image>
+                                            <image mode class="u-item-r data-v-90140ccc" src="/static/captured/adbcc7c8acbd7bac.png"></image>
                                         </view>
                                     </view>
                                 </view>
                                 <view bindtap="__e" class="{{['data-v-90140ccc',insNum>0?'mt':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'addInsure',['$event'] ] ] ] ]}}" style="display:flex;width:490rpx;" wx:if="{{item.g13}}">
-                                    <image class="add data-v-90140ccc" src="https://eshopfile.zhiyousx.com/170675827192963998.png"></image>
+                                    <image class="add data-v-90140ccc" src="/static/captured/6804815b8c1c962e.png"></image>
                                     <view class="people data-v-90140ccc" wx:if="{{insNum==0}}">请选择被保人</view>
                                     <view class="people data-v-90140ccc" wx:else>{{'补充'+ticketNum-insNum+'个被保人'}}</view>
                                 </view>
@@ -237,7 +237,7 @@
             <view class="content data-v-90140ccc">
                 <view class="t data-v-90140ccc">
                     <view class="title data-v-90140ccc">
-                        <image class="data-v-90140ccc" src="https://eshopfile.zhiyousx.com/170065317610766757.png" wx:if="{{infoObj.scenicType!=1}}"></image>
+                        <image class="data-v-90140ccc" src="/static/captured/4ff114e7b2932b23.png" wx:if="{{infoObj.scenicType!=1}}"></image>
                         <view class="data-v-90140ccc">{{(infoObj.skuItemType==0?'购买':'预约')+'成功'}}</view>
                     </view>
                     <view class="detail data-v-90140ccc">
@@ -361,7 +361,7 @@
                                     <view class="col2 data-v-90140ccc">{{'门票或'+(infoObj.skuItemType==0?'订':'预约')+'单问题'}}</view>
                                     <view class="col3 data-v-90140ccc">4000292296</view>
                                     <view class="col4 data-v-90140ccc">
-                                        <image mode bindtap="__e" class="data-v-90140ccc" data-event-opts="{{[ [ 'tap',[ [ 'call',['4000292296'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/spotIntroNew/dianhua.png"></image>
+                                        <image mode bindtap="__e" class="data-v-90140ccc" data-event-opts="{{[ [ 'tap',[ [ 'call',['4000292296'] ] ] ] ]}}" src="/static/captured/9653e7f23b8aa244.png"></image>
                                     </view>
                                 </view>
                             </view>
@@ -373,7 +373,7 @@
                                     <view class="col2 singleLineText data-v-90140ccc">{{item.telephoneTitle||''}}</view>
                                     <view class="col3 singleLineText data-v-90140ccc">{{item.telephone||''}}</view>
                                     <view class="col4 data-v-90140ccc">
-                                        <image mode bindtap="__e" class="data-v-90140ccc" data-event-opts="{{[ [ 'tap',[ [ 'call',['$0'],[ [ ['telephoneVoList','',__i0__,'telephone'] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/spotIntroNew/dianhua.png"></image>
+                                        <image mode bindtap="__e" class="data-v-90140ccc" data-event-opts="{{[ [ 'tap',[ [ 'call',['$0'],[ [ ['telephoneVoList','',__i0__,'telephone'] ] ] ] ] ] ]}}" src="/static/captured/9653e7f23b8aa244.png"></image>
                                     </view>
                                 </view>
                             </view>
@@ -453,15 +453,15 @@
                             <view class="condition data-v-90140ccc" wx:if="{{item.$orig.type==2}}">无门槛</view>
                             <view class="condition data-v-90140ccc" wx:if="{{item.$orig.type==1}}">{{'满'+item.$orig.threshold+'元可用'}}</view>
                         </view>
-                        <image class="radio data-v-90140ccc" mode="aspect" src="https://eshopfile.zhiyousx.com/2022031716044893716.png" wx:if="{{item.g15}}"></image>
-                        <image class="radio data-v-90140ccc" mode="aspect" src="https://eshopfile.zhiyousx.com/2022031716040660783.png" wx:else></image>
+                        <image class="radio data-v-90140ccc" mode="aspect" src="/static/captured/b6e3452b44eb6f95.png" wx:if="{{item.g15}}"></image>
+                        <image class="radio data-v-90140ccc" mode="aspect" src="/static/captured/17afb0fed7be66e1.png" wx:else></image>
                     </view>
                 </scroll-view>
                 <view class="bottom data-v-90140ccc">
                     <view bindtap="__e" class="no data-v-90140ccc" data-event-opts="{{[ [ 'tap',[ [ 'cancelCoupon',['$event'] ] ] ] ]}}">
                         <text class="data-v-90140ccc">暂不使用优惠券</text>
-                        <image class="data-v-90140ccc" mode="aspect" src="https://eshopfile.zhiyousx.com/2022031716044893716.png" wx:if="{{userCouponId[0]==-1}}"></image>
-                        <image class="data-v-90140ccc" mode="aspect" src="https://eshopfile.zhiyousx.com/2022031716040660783.png" wx:else></image>
+                        <image class="data-v-90140ccc" mode="aspect" src="/static/captured/b6e3452b44eb6f95.png" wx:if="{{userCouponId[0]==-1}}"></image>
+                        <image class="data-v-90140ccc" mode="aspect" src="/static/captured/17afb0fed7be66e1.png" wx:else></image>
                     </view>
                     <view bindtap="__e" class="btn data-v-90140ccc" data-event-opts="{{[ [ 'tap',[ [ 'e1',['$event'] ] ] ] ]}}">确定</view>
                 </view>
@@ -548,15 +548,15 @@
                 <view class="model-title data-v-90140ccc">
                     <view class="data-v-90140ccc" wx:if="{{ticketNum-insNum>0}}">{{'选择'+ticketNum-insNum+'位被保险人'}}</view>
                     <view class="data-v-90140ccc" wx:else>已选满</view>
-                    <image bindtap="__e" class="close data-v-90140ccc" data-event-opts="{{[ [ 'tap',[ [ 'e3',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/169345070139905990.png"></image>
+                    <image bindtap="__e" class="close data-v-90140ccc" data-event-opts="{{[ [ 'tap',[ [ 'e3',['$event'] ] ] ] ]}}" src="/static/captured/6bf5cf8e7436d9c2.png"></image>
                 </view>
                 <view bindtap="__e" class="addContacts data-v-90140ccc" data-event-opts="{{[ [ 'tap',[ [ 'addInsurePeople',['$event'] ] ] ] ]}}" wx:if="{{!modelType}}">+ 新增被保险人</view>
                 <view class="data-v-90140ccc" wx:if="{{!modelType}}">
                     <scroll-view class="passenger-box-popup data-v-90140ccc" scrollY="true">
                         <view class="user-box pass data-v-90140ccc" wx:for="{{$root.l10}}" wx:key="index">
                             <view bindtap="__e" class="info-box data-v-90140ccc" data-event-opts="{{[ [ 'tap',[ [ 'changeUser',['$0',index],[ [ ['insurePeopleList','',index] ] ] ] ] ] ]}}">
-                                <image mode class="user-change data-v-90140ccc" src="https://eshopfile.zhiyousx.com/169345574106635019.png" wx:if="{{item.$orig.check}}"></image>
-                                <image mode class="user-change data-v-90140ccc" src="https://eshopfile.zhiyousx.com/169345576395787642.png" wx:else></image>
+                                <image mode class="user-change data-v-90140ccc" src="/static/captured/3947c01b48146351.png" wx:if="{{item.$orig.check}}"></image>
+                                <image mode class="user-change data-v-90140ccc" src="/static/captured/bee3789d50c080ab.png" wx:else></image>
                                 <view class="{{['user-info','data-v-90140ccc',item.$orig.cardType!=0?'dis':'']}}">
                                     <view class="name data-v-90140ccc">{{item.$orig.name}}</view>
                                     <view class="u-phone data-v-90140ccc" wx:if="{{item.$orig.phone}}">
@@ -574,7 +574,7 @@
                                     <view class="tips data-v-90140ccc" wx:if="{{!item.$orig.idCarNo}}">请补充证件信息</view>
                                 </view>
                             </view>
-                            <image mode bindtap="__e" class="user_edit data-v-90140ccc" data-event-opts="{{[ [ 'tap',[ [ 'editInsure',['$0'],[ [ ['insurePeopleList','',index] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/169415900438889645.png"></image>
+                            <image mode bindtap="__e" class="user_edit data-v-90140ccc" data-event-opts="{{[ [ 'tap',[ [ 'editInsure',['$0'],[ [ ['insurePeopleList','',index] ] ] ] ] ] ]}}" src="/static/captured/37d4cf68722450ef.png"></image>
                         </view>
                     </scroll-view>
                 </view>

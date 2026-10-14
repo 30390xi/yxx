@@ -1,0 +1,88 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1507176408005263362",
+    "contentId": "1507176407057350658",
+    "rankingName": "赏花踏青好去处",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://res.zhiyousx.com/ysx/pro/2022/03/25/164817340024921127.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": "人去过",
+    "rankingInclude": "个目的地",
+    "rankingPersonalInfo": "我去过的目的地",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#EC7672",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1436250046726148098",
+        "originType": "1",
+        "originName": "长安公园",
+        "originSubtitleName": "长安区规模最大公园",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021091016391939050.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021091016412240698.jpg",
+          "https://eshopfile.zhiyousx.com/2021091016413499211.jpg",
+          "https://eshopfile.zhiyousx.com/2021091016413961930.jpg",
+          "https://eshopfile.zhiyousx.com/2021091016414437690.jpg"
+        ],
+        "sort": "10",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064720941154",
+        "originType": "1",
+        "originName": "朱鹮梨园景区",
+        "originSubtitleName": "山水休闲景区，内有朱鹮观赏",
+        "originUrl": "https://eshopfile.zhiyousx.com/2026040219031815146.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/76df8613-ccf8-4d68-b45b-a4520191e0ff-20201029121253.jpg",
+          "https://eshopfile.zhiyousx.com/dea7362b-6571-4efb-af99-502438223948-20201029121258.jpg",
+          "https://eshopfile.zhiyousx.com/5f8fca1a-c7ab-4577-aaca-583faee6a615-20201029121303.jpg"
+        ],
+        "sort": "11",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1436179803253334017",
+        "originType": "1",
+        "originName": "长乐公园",
+        "originSubtitleName": "西安鲜有的原生态绿地",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021091012130911626.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021091012071260233.jpg",
+          "https://eshopfile.zhiyousx.com/2021091012072782571.jpg",
+          "https://eshopfile.zhiyousx.com/2021091012074344956.png",
+          "https://eshopfile.zhiyousx.com/2021091012075462301.jpg",
+          "https://eshopfile.zhiyousx.com/2021091012080542655.png",
+          "https://eshopfile.zhiyousx.com/2021091012081813995.png"
+        ],
+        "sort": "12",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "13",
+    "favoriteSum": null,
+    "personalInfoValue": "0/13"
+  },
+  "msg": "成功",
+  "success": true
+}

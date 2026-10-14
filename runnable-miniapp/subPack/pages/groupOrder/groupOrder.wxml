@@ -5,11 +5,11 @@
             <view class="title data-v-e8182906">{{''+lineProductInfo.productName+''}}</view>
             <view class="info-box data-v-e8182906">
                 <view class="info-it data-v-e8182906" wx:if="{{lineProductInfo.relationProductName}}">
-                    <image mode class="icon data-v-e8182906" src="https://eshopfile.zhiyousx.com/2023091811405282175.png"></image>
+                    <image mode class="icon data-v-e8182906" src="/static/captured/17cc246bdad2f05a.png"></image>
                     <view class="text data-v-e8182906">{{lineProductInfo.relationProductName}}</view>
                 </view>
                 <view class="info-it data-v-e8182906">
-                    <image mode class="icon data-v-e8182906" src="https://eshopfile.zhiyousx.com/169883967619693905.png"></image>
+                    <image mode class="icon data-v-e8182906" src="/static/captured/3443c4fe28c90dbc.png"></image>
                     <view class="text data-v-e8182906">{{$root.m0}}</view>
                 </view>
             </view>
@@ -18,7 +18,7 @@
                     <label class="bookingTimeStr _span data-v-e8182906">{{refundDetail.refundDesc}}</label>费用说明</view>
                 <view bindtap="__e" class="tips-r data-v-e8182906" data-event-opts="{{[ [ 'tap',[ ['buyTip'] ] ] ]}}">
                     <view class="t data-v-e8182906">购买须知</view>
-                    <image mode class="icon data-v-e8182906" src="https://eshopfile.zhiyousx.com/2023091816345862711.png"></image>
+                    <image mode class="icon data-v-e8182906" src="/static/captured/c3bb2414de985de7.png"></image>
                 </view>
             </view>
         </view>
@@ -59,14 +59,14 @@
                 </scroll-view>
                 <view bindtap="__e" class="user-item data-v-e8182906" data-event-opts="{{[ [ 'tap',[ [ 'chooseUser',['$0',0,'$1'],['actIndex','priceInfo.'+actIndex+''] ] ] ] ]}}" wx:for="{{priceInfo[actIndex].userList}}">
                     <view class="u-item-l data-v-e8182906">
-                        <image mode bindtap="__e" class="icon data-v-e8182906" data-event-opts="{{[ [ 'tap',[ [ 'deleteUser',[index] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/2023091815384493978.png"></image>
+                        <image mode bindtap="__e" class="icon data-v-e8182906" data-event-opts="{{[ [ 'tap',[ [ 'deleteUser',[index] ] ] ] ]}}" src="/static/captured/e1be26750c2a19a5.png"></image>
                         <view class="info data-v-e8182906">
                             <view class="name data-v-e8182906">{{''+item.name+''}}</view>
                             <view class="card data-v-e8182906">证件号<text class="data-v-e8182906" style="margin-left:30rpx;font-size:26rpx;color:#777777;">{{item.idCarNo}}</text>
                             </view>
                         </view>
                     </view>
-                    <image mode class="u-item-r data-v-e8182906" src="https://eshopfile.zhiyousx.com/169415863023853994.png"></image>
+                    <image mode class="u-item-r data-v-e8182906" src="/static/captured/adbcc7c8acbd7bac.png"></image>
                 </view>
                 <view class="data-v-e8182906" style="height:40rpx;"></view>
             </view>
@@ -78,17 +78,17 @@
                     </view>
                     <view class="m-user-box data-v-e8182906">
                         <view class="mu-item data-v-e8182906" wx:for="{{item.$orig.userList}}" wx:for-index="i" wx:for-item="it">
-                            <image mode bindtap="__e" class="icon data-v-e8182906" data-event-opts="{{[ [ 'tap',[ [ 'delUser',[index,i,'$0'],[ [ ['priceInfo','',index],['userList','',i] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/2023091815384493978.png"></image>
+                            <image mode bindtap="__e" class="icon data-v-e8182906" data-event-opts="{{[ [ 'tap',[ [ 'delUser',[index,i,'$0'],[ [ ['priceInfo','',index],['userList','',i] ] ] ] ] ] ]}}" src="/static/captured/e1be26750c2a19a5.png"></image>
                             <view bindtap="__e" class="it-info data-v-e8182906" data-event-opts="{{[ [ 'tap',[ [ 'chooseUser',[index,i,'$0'],[ [ ['priceInfo','',index] ] ] ] ] ] ]}}">
                                 <view class="it-flex data-v-e8182906">
                                     <view class="name data-v-e8182906">{{it.name}}</view>
                                     <view class="card data-v-e8182906">{{'证件号：'+it.idCarNo}}</view>
                                 </view>
-                                <image mode class="u-item-r data-v-e8182906" src="https://eshopfile.zhiyousx.com/169415863023853994.png"></image>
+                                <image mode class="u-item-r data-v-e8182906" src="/static/captured/adbcc7c8acbd7bac.png"></image>
                             </view>
                         </view>
                         <view bindtap="__e" class="mu-add data-v-e8182906" data-event-opts="{{[ [ 'tap',[ [ 'chooseUser',[index,'$0','$1'],[ 'i',[ ['priceInfo','',index] ] ] ] ] ] ]}}" wx:if="{{item.$orig.num>item.g2}}">
-                            <image mode class="icon data-v-e8182906" src="https://eshopfile.zhiyousx.com/2023091816291655724.png"></image>
+                            <image mode class="icon data-v-e8182906" src="/static/captured/51a42898744e4ca1.png"></image>
                             <view class="add-tip data-v-e8182906">{{'需选择'+item.$orig.num-item.g3+'位游客信息'}}</view>
                         </view>
                     </view>
@@ -198,8 +198,8 @@
                                 </block>
                             </view>
                             <view class="chooseItem data-v-e8182906">
-                                <image class="choose-style data-v-e8182906" src="https://eshopfile.zhiyousx.com/2022031716044893716.png" wx:if="{{userCouponId==item.$orig.userCouponId}}"></image>
-                                <image class="choose-style data-v-e8182906" src="https://eshopfile.zhiyousx.com/2022031716040660783.png" wx:else></image>
+                                <image class="choose-style data-v-e8182906" src="/static/captured/b6e3452b44eb6f95.png" wx:if="{{userCouponId==item.$orig.userCouponId}}"></image>
+                                <image class="choose-style data-v-e8182906" src="/static/captured/17afb0fed7be66e1.png" wx:else></image>
                             </view>
                         </view>
                     </view>
@@ -207,8 +207,8 @@
             </scroll-view>
             <view bindtap="__e" class="noUse data-v-e8182906" data-event-opts="{{[ [ 'tap',[ [ 'cancelCoupon',['$event'] ] ] ] ]}}">
                 <view class="wenzi data-v-e8182906">不使用优惠券</view>
-                <image class="choose-style data-v-e8182906" src="https://eshopfile.zhiyousx.com/2022031716044893716.png" wx:if="{{userCouponId==-1}}"></image>
-                <image class="choose-style data-v-e8182906" src="https://eshopfile.zhiyousx.com/2022031716040660783.png" wx:else></image>
+                <image class="choose-style data-v-e8182906" src="/static/captured/b6e3452b44eb6f95.png" wx:if="{{userCouponId==-1}}"></image>
+                <image class="choose-style data-v-e8182906" src="/static/captured/17afb0fed7be66e1.png" wx:else></image>
             </view>
         </view>
     </u-popup>
@@ -218,15 +218,15 @@
                 <view class="model-name data-v-e8182906" wx:if="{{!modelType&&actUserInfo}}">{{''+$root.m4+''}}</view>
                 <view class="model-name data-v-e8182906" wx:if="{{modelType==1}}">新增游客</view>
                 <view class="model-name data-v-e8182906" wx:if="{{modelType==2}}">编辑游客</view>
-                <image bindtap="__e" class="close data-v-e8182906" data-event-opts="{{[ [ 'tap',[ ['closePassenger'] ] ] ]}}" src="https://eshopfile.zhiyousx.com/169345070139905990.png"></image>
+                <image bindtap="__e" class="close data-v-e8182906" data-event-opts="{{[ [ 'tap',[ ['closePassenger'] ] ] ]}}" src="/static/captured/6bf5cf8e7436d9c2.png"></image>
             </view>
             <view bindtap="__e" class="addContacts data-v-e8182906" data-event-opts="{{[ [ 'tap',[ [ 'addPassenger',['$event'] ] ] ] ]}}" wx:if="{{!modelType}}">+ 新增联系人</view>
             <view class="data-v-e8182906" wx:if="{{!modelType}}">
                 <scroll-view class="passenger-box-popup data-v-e8182906" scrollY="true">
                     <view class="user-box data-v-e8182906" wx:for="{{$root.l4}}" wx:key="index">
                         <view bindtap="__e" class="info-box data-v-e8182906" data-event-opts="{{[ [ 'tap',[ [ 'changeUser',['$0',index],[ [ ['commonUsedTouristList','',index] ] ] ] ] ] ]}}">
-                            <image mode class="user-change data-v-e8182906" src="https://eshopfile.zhiyousx.com/169345574106635019.png" wx:if="{{item.g7}}"></image>
-                            <image mode class="user-change data-v-e8182906" src="https://eshopfile.zhiyousx.com/169345576395787642.png" wx:else></image>
+                            <image mode class="user-change data-v-e8182906" src="/static/captured/3947c01b48146351.png" wx:if="{{item.g7}}"></image>
+                            <image mode class="user-change data-v-e8182906" src="/static/captured/bee3789d50c080ab.png" wx:else></image>
                             <view class="{{['user-info','data-v-e8182906',!item.g8?'dis':'']}}">
                                 <view class="name data-v-e8182906">{{item.$orig.name}}</view>
                                 <view class="u-phone data-v-e8182906" wx:if="{{item.$orig.phone}}">
@@ -244,7 +244,7 @@
                                 <view class="tips data-v-e8182906" wx:if="{{!item.$orig.idCarNo}}">请补充证件信息</view>
                             </view>
                         </view>
-                        <image mode bindtap="__e" class="user_edit data-v-e8182906" data-event-opts="{{[ [ 'tap',[ [ 'editPassenger',['$0'],[ [ ['commonUsedTouristList','',index] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/169415900438889645.png"></image>
+                        <image mode bindtap="__e" class="user_edit data-v-e8182906" data-event-opts="{{[ [ 'tap',[ [ 'editPassenger',['$0'],[ [ ['commonUsedTouristList','',index] ] ] ] ] ] ]}}" src="/static/captured/37d4cf68722450ef.png"></image>
                     </view>
                 </scroll-view>
             </view>

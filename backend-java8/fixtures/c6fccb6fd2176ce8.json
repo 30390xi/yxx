@@ -1,0 +1,452 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064641249284",
+    "scenicName": "熊猫谷景区",
+    "tag": "藏在秦岭中的国宝乐园",
+    "level": 4,
+    "cityId": "1320664075750125570",
+    "cityName": "汉中",
+    "address": "汉中市佛坪县城北20公里108国道旁",
+    "longitude": "107.990873",
+    "latitude": "33.672986",
+    "openingStatus": 1,
+    "capacity": 6000,
+    "sequence": 413,
+    "topColour": "#C9D12E",
+    "centralColour": "#707010",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021090210052764618.jpg",
+      "https://eshopfile.zhiyousx.com/2021090117314595458.jpg"
+    ],
+    "introduction": "<p>熊猫谷景区风景旖旎，峰岭叠嶂，灵山俊秀，奇石灵异，潭瀑多姿，溪水清澈，时而碧潭映石，时而飞瀑跌雪，时而峭壁陡立，时而曲径通幽，触耳溪鸣鸟唱，使人心旷神怡。站在景区外眺望纱帽石，其主峰浑圆突兀，十分显要，两侧的山峰圆滑灵动，整体酷似古代的&ldquo;乌纱帽&rdquo;，相传到此游览的人会转运做官；森林茂密，松涛阵阵，清风徐来；三叠泉跌宕起伏，泉水清澈见底，从布满纹路的巨大石板上流动，如丝如线，形成落差三十多米的三级瀑布，颇为壮观；二龙戏珠、女儿滩、双心池等景点浑然天成，母女峰、栖云峰等天趣神功，其景观引人入胜，若逢雨后初晴，云雾升腾，行云流水，仿若仙境。受海拔、气候、降雨等影响，形成了栓皮栎景观林带、夏绿落叶针阔混交景观林带等自然景观分布带，每到秋季，枫叶红透，层林尽染，色彩斑斓。景区集秦岭山水之幽、静、秀、奇和珍稀动植物于一身，著名学者萧云儒曾题词&ldquo;秦岭之窗、熊猫家园&rdquo;。</p>",
+    "introductionText": "熊猫谷景区风景旖旎，峰岭叠嶂，灵山俊秀，奇石灵异，潭瀑多姿，溪水清澈，时而碧潭映石，时而飞瀑跌雪，时而峭壁陡立，时而曲径通幽，触耳溪鸣鸟唱，使人心旷神怡。站在景区外眺望纱帽石，其主峰浑圆突兀，十分显要，两侧的山峰圆滑灵动，整体酷似古代的“乌纱帽”，相传到此游览的人会转运做官；森林茂密，松涛阵阵，清风徐来；三叠泉跌宕起伏，泉水清澈见底，从布满纹路的巨大石板上流动，如丝如线，形成落差三十多米的三级瀑布，颇为壮观；二龙戏珠、女儿滩、双心池等景点浑然天成，母女峰、栖云峰等天趣神功，其景观引人入胜，若逢雨后初晴，云雾升腾，行云流水，仿若仙境。受海拔、气候、降雨等影响，形成了栓皮栎景观林带、夏绿落叶针阔混交景观林带等自然景观分布带，每到秋季，枫叶红透，层林尽染，色彩斑斓。景区集秦岭山水之幽、静、秀、奇和珍稀动植物于一身，著名学者萧云儒曾题词“秦岭之窗、熊猫家园”。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "17",
+        "name": "动植物园",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "旺季（3月-11月）",
+        "openTimeContent": "08:00—18:00"
+      },
+      {
+        "openTimeTitle": "淡季（12月-1月）",
+        "openTimeContent": "08:30—17:30"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "65周岁（含）以上老年人",
+        "limit": "凭老年证或身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米（含）以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭残疾证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "现役军人",
+        "limit": "凭军官证或士兵证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "记者",
+        "limit": "凭新闻记者证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "消防官兵",
+        "limit": "凭现役证或官兵证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "军残",
+        "limit": "凭军残证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "60周岁（含）-64周岁（含）老年人",
+        "limit": "凭老年证或身份证",
+        "discount": "优惠"
+      },
+      {
+        "peopleType": "本地市民",
+        "limit": "佛坪县本地市民凭有效身份证件",
+        "discount": "优惠"
+      },
+      {
+        "peopleType": "全日制大中小学生（不含成人教育研究生）",
+        "limit": "凭学生证",
+        "discount": "五折"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "11",
+        "name": "餐厅",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (22).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "6",
+        "name": "免费wifi",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (11).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "10",
+        "name": "商店",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (19).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "熊猫谷旅游区停车场",
+        "additionalExplainContent": "参考价格：收费<br/>地址：熊猫谷旅游区门口"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>西安</p>\n<p>　　乘车地点：西安水司汽车站</p>\n<p>　　发车时间：8:00（108国道）；14:00（高速）</p>\n<p>汉中</p>\n<p>　　乘车地点：汉运司汽车站</p>\n<p>　　发班时间：7:10；7:50；8:30（高速）；9:59；11:20；12:50；14:40；15:30（高速到陈家坝，在三河口换乘至佛坪的班车）；16:00（高速）；16:40.</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<p>西安</p>\n<p>　　线路一：G30连霍高速-武功县下高速-周至-108国道-佛坪熊猫谷景区</p>\n<p>　　线路二：108国道-佛坪熊猫谷景区</p>\n<p>　　线路三：G5京昆高速-涝峪口下高速-关中环线-马召-108国道-佛坪县城-佛坪熊猫谷景区</p>\n<p>&nbsp;</p>\n<p>汉中</p>\n<p>　　G5京昆高速-金水下高速-108国道-佛坪县城-佛坪熊猫谷景区</p>"
+      }
+    ],
+    "officialWebsite": [
+      "http://www.fpxmg.com/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区服务热线",
+        "telephone": "0916-899-2115"
+      },
+      {
+        "telephoneTitle": "咨询电话",
+        "telephone": "400-007-6169"
+      },
+      {
+        "telephoneTitle": "订房电话",
+        "telephone": "0916-2999766/8992000"
+      },
+      {
+        "telephoneTitle": "订餐电话",
+        "telephone": "0916-2999866/8992266"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "官方微信",
+        "wxSubscriptionName": "佛坪熊猫谷",
+        "wxSubscription": "fpxiongmaogu"
+      }
+    ],
+    "sinaWeiboVoList": [
+      {
+        "sinaWeibo": "佛坪熊猫谷官博",
+        "sinaWeiboUrl": "https://weibo.com/u/2420874987"
+      }
+    ],
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "2033372901738151938",
+        "outId": "1320579064641249284",
+        "type": 1,
+        "advertName": "大熊猫竟有两种！一种像熊，一种像猫",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021090210502423347.jpg",
+        "jumpType": 2,
+        "jumpUrl": "",
+        "interalLinkType": 2,
+        "interalLinkId": "1433011532320583682",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "",
+        "contentType": 3,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2033372901704597505",
+        "resourcesId": "1321295339398148098",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/e4db4d88-19db-4640-809c-4a23d9f14db1-20201028113834.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-03-16 10:40:52",
+        "updateTime": "2026-03-16 10:40:52",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2033372901704597506",
+        "resourcesId": "1321295339398148098",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021090115482994261.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-03-16 10:40:52",
+        "updateTime": "2026-03-16 10:40:52",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2033372901708791809",
+        "resourcesId": "1321295339398148098",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021090115482080513.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-03-16 10:40:52",
+        "updateTime": "2026-03-16 10:40:52",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2033372901712986113",
+        "resourcesId": "1321295339398148098",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021090115480901750.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-03-16 10:40:52",
+        "updateTime": "2026-03-16 10:40:52",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2033372901712986114",
+        "resourcesId": "1321295339398148098",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021090115475344760.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2026-03-16 10:40:52",
+        "updateTime": "2026-03-16 10:40:52",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2033372901717180418",
+        "resourcesId": "1321295339398148098",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/6a2945cb-52e9-4524-bdc3-1db4f6aa7e7f-20201028113823.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2026-03-16 10:40:52",
+        "updateTime": "2026-03-16 10:40:52",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2033372901721374721",
+        "resourcesId": "1321295339398148098",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/e638d04d-fe98-4e1e-9f6b-a967052f6359-20201028114339.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2026-03-16 10:40:52",
+        "updateTime": "2026-03-16 10:40:52",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455795982670340097",
+      "rankingId": null,
+      "indexInRanking": 19,
+      "rankingName": "汉中必玩景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

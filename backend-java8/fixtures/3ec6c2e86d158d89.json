@@ -1,0 +1,984 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1331167361658589186",
+    "scenicName": "照金国际滑雪场",
+    "tag": "家附近的高品质滑雪场",
+    "level": -1,
+    "cityId": "1320650338641162241",
+    "cityName": "铜川",
+    "address": "铜川市耀州区照金镇",
+    "longitude": "108.649918",
+    "latitude": "35.063365",
+    "openingStatus": 1,
+    "capacity": 5000,
+    "sequence": 64,
+    "topColour": "#5094D3",
+    "centralColour": "#3C71D9",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/f8471a48-ddb4-4252-a507-4edf1f2f0424_看图王(1)-20201124180725-20201203094753.JPG",
+      "https://eshopfile.zhiyousx.com/2021082411140402703.jpeg"
+    ],
+    "introduction": "<p>　　从西安出发，驱车全程高速一小时，就能抵达这个吸引了众多滑雪爱好者的国际滑雪场。雪场由冬奥会指定造雪设备和一流管理标准打造，不论是新人还是高手，都能在这里找到合适的雪道。家长也可选择在戏雪区陪伴孩子体验雪地迷宫、雪橇等冰雪游戏，实现孩子的滑雪梦，与孩子度过一个梦幻的冬天。晚上，大家亦能相聚在一起，享用雪地里的火锅，举行一场篝火盛宴，在感受品质的同时接受冬季的馈赠。</p>",
+    "introductionText": "　　从西安出发，驱车全程高速一小时，就能抵达这个吸引了众多滑雪爱好者的国际滑雪场。雪场由冬奥会指定造雪设备和一流管理标准打造，不论是新人还是高手，都能在这里找到合适的雪道。家长也可选择在戏雪区陪伴孩子体验雪地迷宫、雪橇等冰雪游戏，实现孩子的滑雪梦，与孩子度过一个梦幻的冬天。晚上，大家亦能相聚在一起，享用雪地里的火锅，举行一场篝火盛宴，在感受品质的同时接受冬季的馈赠。",
+    "otherIntroduction": "https://eshopfile.zhiyousx.com/2022112218071326373.png",
+    "sysTagVoList": [
+      {
+        "id": "66",
+        "name": "体育运动",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "68",
+        "name": "旅游小镇",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "14",
+        "name": "滑雪场",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "51",
+        "name": "拓展游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1419544677090156546",
+        "contentId": "1419544677060796418",
+        "name": "陕文投集团景区",
+        "tagUrl": "https://eshopfile.zhiyousx.com/162728079399429661.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "2024-2025雪季营业时间",
+        "openTimeContent": "11月30日至次年3月初"
+      },
+      {
+        "openTimeTitle": "日场",
+        "openTimeContent": "日场滑雪营业时间8:30-17:30<br/>日场滑雪入园时间8:30-16:30"
+      }
+    ],
+    "discountVoList": null,
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "8",
+        "name": "宠物禁止入园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (13).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "10",
+        "name": "商店",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (19).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "11",
+        "name": "餐厅",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (22).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "12",
+        "name": "吸烟区",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (25).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "54",
+        "name": "手机充电",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016402390363.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "60",
+        "name": "行李寄存",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016430812186.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "59",
+        "name": "园内交通",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016420452783.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "停车场",
+        "additionalExplainContent": "位置：位于雪具大厅门口<br/>费用：10元/车/天"
+      },
+      {
+        "additionalExplainTitle": "园内交通",
+        "additionalExplainContent": "缆车"
+      },
+      {
+        "additionalExplainTitle": "自费项目（租金不退，押金可退）",
+        "additionalExplainContent": "1、保险10元/人。<br/>2、小寄存柜租金30元/个，大寄存柜租金50元/个（可选）。<br/>3、滑雪服租金45元/套（可选）。<br/>4、眼镜租金20元/个，手套租金10元/双，护臀租金40元/个（可选）<br/>5、雪具（雪鞋、雪板、雪杖）押金200元/人（其中一百元可用于消费,可刷卡，现金，微信，支付宝）。<br/>6、停车费根据车辆大小10元到15元不等<br/>7、用餐人均20元左右"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>1：西安城北客运站&mdash;&mdash;&mdash;照金镇。北客站每日早上8:30发车 下午14：30发车，票价40.5元，全程2小时，照金每日7:00、16:00发车；</p>\n<p>2：西安城北客运站&mdash;&mdash;耀县（首7:10&mdash;末19:10，流水班次，车程1.5小时，票价25.5元）&mdash;&mdash;华原汽车站（打车4元）&mdash;&mdash;照金滑雪场（华原汽车站至照金镇的客车每一个小时一班，票价14元，末班17:10从滑雪场发车）全程3小时左右。&nbsp;</p>\n<p>&nbsp;</p>\n<p><span style=\"color: #ffffff; background-color: #ff0000;\"><strong>照金国际滑雪场直通车信息</strong></span></p>\n<p><span style=\"background-color: #ff9900;\">?日场直通车信息?</span></p>\n<p><span style=\"background-color: #ff9900;\">西安发车地点1：</span></p>\n<p>乘车点：地铁2号线-省体育场站D出口<br />发车时间：7:20集合，7:30出发，过时不候</p>\n<p><span style=\"background-color: #ff9900;\">西安发车地点2：</span></p>\n<p>乘车点：行政中心地铁D2出口<br />发车时间：8:00集合，8:10发车，过时不侯</p>\n<p><span style=\"background-color: #ff9900;\">雪场返回西安信息：</span></p>\n<p>雪场返回集合地点：停车场（雪具大厅旁）<br />雪场返回集合时间：17:00</p>\n<p><span style=\"background-color: #ff9900;\">直通车售价：</span></p>\n<p>当天往返售价70元/人<br />单程售价50元/人</p>\n<p><span style=\"background-color: #ff9900;\">直通车订座咨询电话：</span></p>\n<p>咨询电话：13201692367，18966711605（微信同电话）<br />订座下单时间：提前1天20点前订座，超出该时间请电话或微信询是否有位后订座</p>\n<p>&nbsp;</p>\n<p><span style=\"background-color: #00ccff;\">?午夜场直通车信息?</span></p>\n<p><span style=\"background-color: #00ccff;\">西安发车点:</span></p>\n<p>乘车点：行政中心地铁D2出口<br />发车时间：14:30集合，14:40发车，过时不侯</p>\n<p><span style=\"background-color: #00ccff;\">雪场返回西安：</span></p>\n<p>雪场返回集合地点：停车场（雪具大厅旁）<br />雪场返回时间：21:30发车</p>\n<p><span style=\"background-color: #00ccff;\">直通车售价：</span></p>\n<p>当天往返售价70元/人，单程售价50元/人</p>\n<p><span style=\"background-color: #00ccff;\">直通车订座咨询电话：</span></p>\n<p>咨询电话：18149286884（微信同号）<br />订座下单时间：提前当天12点前预定，超出该时间请电话或微信咨询是否有位后订座。<br />退款时间：提前2小时前可全额退款，超出该时间不可退！</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<p>线路一：西安绕城任意入口（未央入口除外,可从聂冯入口上）可转至G65W ，延G65W行驶70公里至 铜川关庄出口转G3511至旬邑方向行驶30公里到铜川照金出口下，继续行驶3公里即到照金国际滑雪场。（照金国际滑雪场推荐线路）</p>\n<p>省钱小技巧： 建议各位雪友可从三环转入西铜一级公路走聂冯上G65W, 这样可以节约15块钱过路费。但不影响行车速度。</p>\n<p>线路二：西安绕城高速（G3001）&mdash;&mdash;&mdash;吕小寨立交（G65，出口）&mdash;&mdash;&mdash;延西高速（G65W）&mdash;&mdash;&mdash;铜川南（马额 坡头）&mdash;&mdash;&mdash;照金镇。</p>"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "官方电话",
+        "telephone": "0919-6927111"
+      },
+      {
+        "telephoneTitle": "官方电话",
+        "telephone": "0919-6927333"
+      },
+      {
+        "telephoneTitle": "直通车咨询",
+        "telephone": "18149286884"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "今日照金",
+        "wxSubscription": "jinrizhaojin"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [
+      {
+        "id": "2063886299511840769",
+        "outId": "1331167361658589186",
+        "type": 1,
+        "advertName": "1",
+        "advertPic": "https://eshopfile.zhiyousx.com/2023010916013594146.jpg",
+        "jumpType": 3,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "gh_193f9dda4314",
+        "newAppId": "wxf6b1156c887f80af",
+        "appUrl": "pages/zjPhotoListN/zjPhotoListN",
+        "richText": "",
+        "contentType": null,
+        "bannerPosition": 0
+      }
+    ],
+    "bannerList": [
+      {
+        "id": "2063886299516035074",
+        "outId": "1331167361658589186",
+        "type": 1,
+        "advertName": "面条雪、粉雪，都是啥意思？",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021082416190857728.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p>寒冬已至，正值滑雪的大好时机，如果你想吹牛自己是滑雪&ldquo;大神&rdquo;，那么必须对不同形式的雪了如指掌。雪，是由大量白色不透明的冰晶（雪晶）和其聚合物（雪团）组成的降水，说白了就是水的另一种形态，大多数滑雪者都会发现滑雪场的雪有多种状态，雪的状态或类型取决于很多因素，包括温度、大气中的水蒸气、降雪时的风速以及雪落地后所经历的变化等。雪也分好多种，面条雪、粉雪、春雪、粒雪、人造雪、渣雪；不仅不同地方的雪有所不同，同一个地方的雪也不尽相同，甚至每天不同时段的雪也不同。下面就详细介绍一下。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;面条雪--推介指数★★★★★</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;经压雪机压成的平整、密实的雪道上面有一条一条的细脊，很像压面机里压出的面条，面条雪因此得名。与光滑的雪面相比，这种条纹状的雪面让滑雪板吃雪更深，还能更好地回应滑雪者的力。新压过的面条雪非常令人赏心悦目。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/story1-20210105174313.png\" /></p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;粉雪--推介指数★★★★★</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;粉雪一般是指刚刚下过的、尚未融化且还未被滑雪者滑过的新鲜雪。粉雪干燥、蓬松、有弹性，抓一把不会黏合成雪球。当你在粉雪上面行走时，它会发出&ldquo;吱吱&rdquo;声。粉雪一直被滑雪爱好者们奉为雪中极品，而且每位滑雪者都梦想着雪道最好能有10厘米左右厚的粉雪层。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/story2-20210105174426.png\" /></p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;春雪--推介指数★★★★</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;春雪一般是指冬末经早上九十点钟的太阳融化了雪层顶部形成的一层1～2厘米深的柔软表层雪。春雪极适合卡宾转弯。这层雪过了午后会因为融化过深变得泥泞，继而就不再适合滑行了。在有些雪坡上，这层融化的雪层可能因为有雪崩风险而在次日一早就被封闭。最理想的春雪生存期仅为一天，融化层超过2厘米的雪面就因为水分过大而不再平滑了。那过分融化后再遇冷而冻住的雪就变成了粒雪。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/story3-20210105174554.png\" /></p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;粒雪--推介指数★★★</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;粒雪是颗粒状、表面比较粗糙的潮雪。粒雪是白天融化晚上又重新冷凝后的结果，很容易变成烂雪。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/story4-20210105174626.png\" /></p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人造雪--推介指数★★★</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在天然降雪不足的情况下，雪场都会用造雪机进行人工造雪。造雪机将水雾化后喷洒向天空，雾化后的小水滴遇到冷空气便凝结成冰晶，成为人造雪。人造雪通常比较硬，但随着技术的进步，已经有了能够造出接近天然雪雪质的粉雪造雪机。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/story5-20210105174839.png\" /></p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;渣雪--推介指数★</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;雪面被滑雪板反复滑行碾压后融化、板结变硬成块形成雪碴。经过成百上千次的碾压后，这些雪碴会变得很硬，因此滑行时需要比较高的技巧。滑碴雪的关键是保持膝盖弯曲、灵活，并且要更加主动地滑行。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/story6-20210105174921.png\" /></p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;滑雪是一项绿色环保的健身休闲运动，也是一项令人兴奋刺激的比赛项目。在雪道间穿梭时的感觉会非常自由，可以让你忘掉很多生活中的琐事。一时间，你仿佛跟大自然融为一体了。在雪山中自由穿行的时候，你已经逃离了城市的喧嚣、雾霾、堵车、熊市、领导、同事、考试、房价、柴米油盐&hellip;&hellip;这些跟你一点关系都没有了。你仿佛到了另外一个次元&mdash;&mdash;一个自由的、安静的、透明的、纯粹的、洁白的、天真的、原始的世界。你只能听见板刃摩擦雪面那干净的声音以及风在耳边呼啸的声音，没有什么音乐比这些声音更动听了。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;既然知道了哪一种雪适合你，还需一个完美的滑雪场作为入门级滑雪玩家的欢乐起点。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;照金国际滑雪场位于照金红色旅游名镇东侧（紧临照金牧场），占地约1000亩，是西北一流、陕西规模最大的冰雪运动基地。采用冬奥会指定造雪设备，拥有国内一流管理标准。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/story7-20210105175021.png\" /></p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/story8-20210105175107.png\" /></p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/story9-20210105175139.png\" /></p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;景区内分为核心滑雪区、冰雪游乐区、休闲服务区和配套设施区。建设各级雪道8条，雪道总长约3000米，造雪总面积约13万平方米，其中高级道1条，中级道1条，初级道2条，练习道1条，雪圈道1条，猫跳道1条，单板道1条，能充分满足不同水平滑雪爱好者的需求。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最后，我们的大朋友们小朋友们，快快来体验滑雪带给你前所未有的乐趣和刺激心跳的体验吧。</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      },
+      {
+        "id": "2063886299520229377",
+        "outId": "1331167361658589186",
+        "type": 1,
+        "advertName": "滑雪为什么会上瘾？",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021082416200145437.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p>&nbsp;　　当滑雪爱好者看见有雪字的词汇和句子就莫名的兴奋；一年四季三个季节都在等冬天，一下雪就坐不住，嘴里念念有词：&ldquo;哎呀，这雪呀，好啊，这雪下的，哎呀呀呀&rdquo; ；冬天除了工作以外，基本上所有的时间都在滑雪或者在研究啥时候去滑，去哪滑；如果出现这些现象，那么恭喜你，你可能中了&ldquo;白色鸦片&rdquo;的毒。</p>\n<p>　　这项运动看起来又冷、又危险、操作起来还烧钱，为什么有人会如此着迷？大概像冲浪，滑翔伞，帆板，滑雪这种运动都给人一种飞翔的感觉，自古以来人类对飞翔是一直有情结的，所以一旦你尝到过这种滋味，这辈子就不可能戒断了。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/%E5%9B%BE%E7%89%871-20210106122819.png\" /></p>\n<p>　　在雪上飞驰的感觉非常自由，可以忘掉很多生活中琐事，一些瞬间你会感觉自己跟大自然融为一体了一样，这么形容虽然感觉有点像邪教，但是真的不夸张.</p>\n<p>　　滑雪称作健康的&ldquo;白色鸦片&rdquo;。说它是鸦片，正是因为滑雪有着让人&ldquo;上瘾&rdquo;的魅力。尤其是在当今这个快节奏、高压力的社会环境下，不少人都被沉重的生活、工作负担压得喘不过气。忧郁、沮丧、易疲劳、注意力分散、工作效率下降等都变成了现代人的家常便饭。滑雪这项刺激的运动，恰恰可以起到振奋人们低落情绪的作用。喜欢滑雪的人往往比较开朗，喜欢寻求刺激，在生活中也比较有冲劲和勇气。对于现代人来说，从高高的雪道上迅速地滑下，快感瞬时间就随着速度飙升，压力也随之轻松地释放出去。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2-20210106122832.png\" /></p>\n<p>　　尤其是单板滑雪的难度系数相对较高，它往往还能锻炼一个人的耐心和恒心，改善为人处世的态度，培养豁达的胸怀，敦促大家把滑雪运动中那种不服输的劲头带到工作中去。</p>\n<p>　　从生理上解释,人滑雪时处于失重的状态，瞬间高处而下，此时大脑会产生内啡肽或脑啡肽、多巴胺这些物质，让人产生愉悦感，渐渐地人就会产生依赖。其中，内啡肽或脑啡肽的效果非常接近于一种毒品&mdash;&mdash;吗啡，可以调解情绪，如果人体的内啡肽或脑啡肽分泌增多，人会感到非常愉悦，并降低焦虑感，体会到一种安逸的、舒适的、平静的感觉。</p>\n<p>内啡肽或脑啡肽也被称之为&ldquo;快感荷尔蒙&rdquo;或者&ldquo;年轻荷尔蒙&rdquo;，意味它们可以帮助人保持年轻快乐的状态。另外，多巴胺同时还有消除疲劳，抑制抑郁的作用，所以在上瘾的同时，还没感到有多疲劳。生理学家认为，人体有一种奖励机制，当滑雪的运动动作带来愉悦的体验，一次次出现在大脑，大脑就会下达再次体验的命令，这就是致瘾性。</p>\n<p>　　从心理上解释,在雪上飞驰的感觉非常自由，一些瞬间你会感觉自己跟大自然融为一体了，在大山中，逃离了都市的快节奏和鬼天气，没有老板的工作邮件，没有大城市的雾霾、堵车、考试、房价、油价、柴米油盐，也没有人际交往的那些琐事，只有纯粹的滑雪。你到了另外一个次元，一个自由的，安静的，透明的，纯粹的，洁白的，天真的， 原始的世界，你只能听见板刃摩擦雪面干净的声音，风从你耳边呼啸的声音，你觉得没有什么音乐比这动听了。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/%E5%9B%BE%E7%89%872-20210106122855.png\" /></p>\n<p>　　让人们在滑雪时忘却一切，这大概是&ldquo;白色鸦片&rdquo;的魅力吧！</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      },
+      {
+        "id": "2063886299524423681",
+        "outId": "1331167361658589186",
+        "type": 1,
+        "advertName": "那些有趣的滑雪黑话",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021082416123874693.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这不是美食介绍，这是滑雪爱好者的沟通语言。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;由于互联网的发展，现在的&ldquo;黑话&rdquo;越来越多了？每个领域都有自己的&ldquo;黑话&rdquo;，门外汉对几句就会被识破，滑雪圈也不例外。滑雪运动的兴起俨然已变为一种潮流，雪季眼看着就到了，再不赶紧更新自己的knowledge base，你是随时就会陷入尬聊的。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;粉雪的粉是&ldquo;面粉&rdquo;的粉不是&ldquo;粉色&rdquo;的粉：粉雪英文翻译为powder snow，是凝固核还没有充分冰冻变大就落到了地面的雪颗粒，雪的核心是冰晶，冰晶外面吸附着细小而密实的雪绒花，雪成颗粒状。根据颗粒的大小，可以分为细粉雪、粗粉雪。把粉雪捧在手里，像捧着面粉，雪可以从手指缝滑落，滑雪时有弹性，被挤压后还能像海绵一样恢复原状，有雪中冲浪的感觉。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;猫跳的猫是&ldquo;Mogul&rdquo;的音译不是&ldquo;学猫叫&rdquo;的猫：猫跳滑雪(Mogul Skiing)，不是学猫跳，猫&mdash;Mogul的音译，简单的说是在有一定的坡度并且布满雪包的场地上进行的滑雪。回转技术是猫跳滑雪(Mogul Skiing)的最主要技术，是指在沿着垂直滚落线绕雪包下滑的小回转技术。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;面条雪的&ldquo;面条&rdquo;不是吃的面条：面条雪，是经人工梳理过的整齐平整的雪道，上面有一条一条的细脊，像灯芯绒一样，也很像压面机里压出的面条，因此得名。与光滑的雪面相比，这种条纹状的雪面让滑雪板吃雪更深，滑行起来更平稳，更好地回应滑雪者的用力。新梳理过的雪道非常令人赏心悦目。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此&ldquo;鱼雷&rdquo;非彼鱼雷：鱼雷通常指那些还不能控制速度和方向，不会刹车，但却在中高级坡道上肆意往下冲的初学者。&ldquo;鱼雷&rdquo;在滑雪场上的杀伤力非常大，不仅仅是自己摔倒，更严重的是撞倒躲闪不及的其他人。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ldquo;大冰箱&rdquo;：室内滑雪场是建在房子内的.室内滑雪场是室外滑雪的补充和延续，填补了冬季外其他季节的滑雪空窗期，满足了滑雪爱好者强烈的夏季滑雪欲望。由于常年制冷，室内滑雪场形似一个大冰箱或者大冰柜。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ldquo;双修&rdquo;：双修是一个人练两项技能，不是两个人练一项技能，是指一个滑雪者，既练双板滑雪，又会单板滑雪。双修的修是修炼的修，但是不是男女双修的修，也不是休假的休。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;所有的滑雪大神都是从萌新小白一步一步走来的，快用这些黑话考考你身边不滑雪的朋友吧，看看他们能答上来几个！</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": "",
+    "contentResourcesDtoList": [
+      {
+        "id": "2063886299360845826",
+        "resourcesId": "1331170859779428353",
+        "title": "照金国际滑雪场宣传片",
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2022030711040307045.mp4",
+        "coverImage": "https://res.zhiyousx.com/ysx/pro/2022/03/07/164662223591350996.jpg",
+        "videoId": null,
+        "resourcesType": 2,
+        "sequence": 1,
+        "describe": "",
+        "createTime": "2026-06-08 15:30:13",
+        "updateTime": "2026-06-08 15:30:13",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063886299365040129",
+        "resourcesId": "1331170859779428353",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/173166115973632019.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": "",
+        "createTime": "2026-06-08 15:30:13",
+        "updateTime": "2026-06-08 15:30:13",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063886299365040130",
+        "resourcesId": "1331170859779428353",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/173561747882254329.jpg",
+        "coverImage": "",
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": "",
+        "createTime": "2026-06-08 15:30:13",
+        "updateTime": "2026-06-08 15:30:13",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063886299369234433",
+        "resourcesId": "1331170859779428353",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/173561748386301748.jpg",
+        "coverImage": "",
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": "",
+        "createTime": "2026-06-08 15:30:13",
+        "updateTime": "2026-06-08 15:30:13",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063886299373428738",
+        "resourcesId": "1331170859779428353",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/173561747757698978.jpg",
+        "coverImage": "",
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": "",
+        "createTime": "2026-06-08 15:30:13",
+        "updateTime": "2026-06-08 15:30:13",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063886299377623042",
+        "resourcesId": "1331170859779428353",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/173561748174894833.jpg",
+        "coverImage": "",
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": "",
+        "createTime": "2026-06-08 15:30:13",
+        "updateTime": "2026-06-08 15:30:13",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063886299381817346",
+        "resourcesId": "1331170859779428353",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/3.webp-20201125105701.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2026-06-08 15:30:13",
+        "updateTime": "2026-06-08 15:30:13",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063886299381817347",
+        "resourcesId": "1331170859779428353",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2.webp-20201125105652.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2026-06-08 15:30:13",
+        "updateTime": "2026-06-08 15:30:13",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063886299386011649",
+        "resourcesId": "1331170859779428353",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/3-20201124174036.JPG",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": null,
+        "createTime": "2026-06-08 15:30:13",
+        "updateTime": "2026-06-08 15:30:13",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063886299390205954",
+        "resourcesId": "1331170859779428353",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2-20201124174028.JPG",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": null,
+        "createTime": "2026-06-08 15:30:13",
+        "updateTime": "2026-06-08 15:30:13",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063886299394400258",
+        "resourcesId": "1331170859779428353",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/9f531d22ec38f23990.img.jpg_710x360_d7c7e933-20201124180918.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 11,
+        "describe": null,
+        "createTime": "2026-06-08 15:30:13",
+        "updateTime": "2026-06-08 15:30:13",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063886299394400259",
+        "resourcesId": "1331170859779428353",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2-20201203094806.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 12,
+        "describe": null,
+        "createTime": "2026-06-08 15:30:13",
+        "updateTime": "2026-06-08 15:30:13",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063886299398594562",
+        "resourcesId": "1331170859779428353",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/4-20201203094826.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 13,
+        "describe": null,
+        "createTime": "2026-06-08 15:30:13",
+        "updateTime": "2026-06-08 15:30:13",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063886299402788865",
+        "resourcesId": "1331170859779428353",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/3-20201203094815.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 14,
+        "describe": null,
+        "createTime": "2026-06-08 15:30:13",
+        "updateTime": "2026-06-08 15:30:13",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063886299406983170",
+        "resourcesId": "1331170859779428353",
+        "title": "来照金国际滑雪场，尽享速度与激情！",
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091715441457704.mp4",
+        "coverImage": "https://eshopfile.zhiyousx.com/163186484282335939.jpg",
+        "videoId": null,
+        "resourcesType": 2,
+        "sequence": 15,
+        "describe": null,
+        "createTime": "2026-06-08 15:30:13",
+        "updateTime": "2026-06-08 15:30:13",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063886299411177474",
+        "resourcesId": "1331170859779428353",
+        "title": "2020照金滑雪场滑雪英雄大会完美举行！",
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091715512248431.mp4",
+        "coverImage": "https://eshopfile.zhiyousx.com/163186579661594207.jpg",
+        "videoId": null,
+        "resourcesType": 2,
+        "sequence": 16,
+        "describe": null,
+        "createTime": "2026-06-08 15:30:13",
+        "updateTime": "2026-06-08 15:30:13",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063886299415371777",
+        "resourcesId": "1331170859779428353",
+        "title": "照金国际滑雪场11月26日率先开板！",
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/官宣 ‖ 照金国际滑雪场11月26日率先开板！_2-20201125105453.mp4",
+        "coverImage": "https://eshopfile.zhiyousx.com/微信图片_20201125105559-20201125105608.jpg",
+        "videoId": null,
+        "resourcesType": 2,
+        "sequence": 17,
+        "describe": null,
+        "createTime": "2026-06-08 15:30:13",
+        "updateTime": "2026-06-08 15:30:13",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063886299419566082",
+        "resourcesId": "1331170859779428353",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166746125627726095.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 18,
+        "describe": "",
+        "createTime": "2026-06-08 15:30:13",
+        "updateTime": "2026-06-08 15:30:13",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063886299419566083",
+        "resourcesId": "1331170859779428353",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166746125677552381.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 19,
+        "describe": "",
+        "createTime": "2026-06-08 15:30:13",
+        "updateTime": "2026-06-08 15:30:13",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063886299423760385",
+        "resourcesId": "1331170859779428353",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166746125717243853.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 20,
+        "describe": "",
+        "createTime": "2026-06-08 15:30:13",
+        "updateTime": "2026-06-08 15:30:13",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063886299427954690",
+        "resourcesId": "1331170859779428353",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166746125761775815.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 21,
+        "describe": "",
+        "createTime": "2026-06-08 15:30:13",
+        "updateTime": "2026-06-08 15:30:13",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063886299427954691",
+        "resourcesId": "1331170859779428353",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166746125803488811.JPG",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 22,
+        "describe": "",
+        "createTime": "2026-06-08 15:30:13",
+        "updateTime": "2026-06-08 15:30:13",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063886299432148994",
+        "resourcesId": "1331170859779428353",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166746125850932144.JPG",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 23,
+        "describe": "",
+        "createTime": "2026-06-08 15:30:13",
+        "updateTime": "2026-06-08 15:30:13",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063886299436343297",
+        "resourcesId": "1331170859779428353",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166746125893216418.JPG",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 24,
+        "describe": "",
+        "createTime": "2026-06-08 15:30:13",
+        "updateTime": "2026-06-08 15:30:13",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063886299436343298",
+        "resourcesId": "1331170859779428353",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166746125946927130.JPG",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 25,
+        "describe": "",
+        "createTime": "2026-06-08 15:30:13",
+        "updateTime": "2026-06-08 15:30:13",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063886299440537601",
+        "resourcesId": "1331170859779428353",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166746125990680236.JPG",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 26,
+        "describe": "",
+        "createTime": "2026-06-08 15:30:13",
+        "updateTime": "2026-06-08 15:30:13",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063886299444731905",
+        "resourcesId": "1331170859779428353",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166746126025591913.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 27,
+        "describe": "",
+        "createTime": "2026-06-08 15:30:13",
+        "updateTime": "2026-06-08 15:30:13",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1460178484126052354",
+      "rankingId": null,
+      "indexInRanking": 1,
+      "rankingName": "陕西滑雪场人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1430087797645094914",
+        "rankingId": "1430087797649289218",
+        "indexInRanking": null,
+        "rankingName": "西安周边滑雪场排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "2063886299457314818",
+        "scenicSpotId": "1331167361658589186",
+        "contentModuleName": null,
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1429728901373997058",
+            "type": 5,
+            "title": "宁苏宁",
+            "subtitle": "照金国际滑雪场总教练",
+            "coverImage": "https://eshopfile.zhiyousx.com/162970852353209339.jpg",
+            "likeRatio": 92.3,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      },
+      {
+        "id": "2063886299465703425",
+        "scenicSpotId": "1331167361658589186",
+        "contentModuleName": "雪道设施",
+        "contentModuleSubName": null,
+        "sort": 2,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1472749749286207489",
+            "type": 5,
+            "title": "高级道1-【金光大道】",
+            "subtitle": "最陡雪道，高手在这里挑战自我",
+            "coverImage": "https://res.zhiyousx.com/ysx/pro/2021/12/22/164015611839116222.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1472829309776297985",
+            "type": 5,
+            "title": "高级道2-【金山大道】",
+            "subtitle": "最长雪道，在这里尽情飞驰",
+            "coverImage": "https://res.zhiyousx.com/ysx/pro/2021/12/22/164015613248050794.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1472823597885030401",
+            "type": 5,
+            "title": "中级道1-【溪山雪道】",
+            "subtitle": "这条雪道，见证你的高手成长之路",
+            "coverImage": "https://eshopfile.zhiyousx.com/173287164264802782.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1472825185450065921",
+            "type": 5,
+            "title": "中级道2-【丹霞雪道】",
+            "subtitle": "这条雪道，见证你的高手成长之路",
+            "coverImage": "https://eshopfile.zhiyousx.com/173287172829491447.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1471053197215920129",
+            "type": 5,
+            "title": "初级道1-【星海雪道】",
+            "subtitle": "初学者的乐园，在这里要小心鱼雷",
+            "coverImage": "https://res.zhiyousx.com/ysx/pro/2021/12/22/164015631000075773.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1472745091574530050",
+            "type": 5,
+            "title": "初级道2-【星河雪道】",
+            "subtitle": "初学者的乐园，在这里要小心鱼雷",
+            "coverImage": "https://res.zhiyousx.com/ysx/pro/2021/12/22/164015632733141423.png",
+            "likeRatio": 96.0,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1472830921550856194",
+            "type": 5,
+            "title": "练习道-【星辰雪道】",
+            "subtitle": "萌新的第一站，开启你的滑雪之旅",
+            "coverImage": "https://res.zhiyousx.com/ysx/pro/2021/12/22/164015641793677351.png",
+            "likeRatio": 95.2,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1472834241283751937",
+            "type": 5,
+            "title": "公园道-【青春公园道】",
+            "subtitle": "在这里你可以花式炫技",
+            "coverImage": "https://res.zhiyousx.com/ysx/pro/2021/12/22/164015643203949631.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1472831879290814465",
+            "type": 5,
+            "title": "戏雪区-【摩托车道】",
+            "subtitle": "萌新的第一站，开启你的滑雪之旅",
+            "coverImage": "https://eshopfile.zhiyousx.com/173287264545060268.png",
+            "likeRatio": 93.8,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1472818985274703873",
+            "type": 5,
+            "title": "戏雪区-【雪圈道】",
+            "subtitle": "给孩子一座冰雪王国",
+            "coverImage": "https://res.zhiyousx.com/ysx/pro/2021/12/22/164015644638307424.png",
+            "likeRatio": 98.4,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1473187404180357122",
+            "type": 5,
+            "title": "照金滑雪场-索道",
+            "subtitle": "坐在这里俯瞰，最有滑雪的感觉",
+            "coverImage": "https://res.zhiyousx.com/ysx/pro/2021/12/22/164015635265488643.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1473187614239490049",
+            "type": 5,
+            "title": "照金滑雪场-魔毯",
+            "subtitle": "滑雪场的电梯，带你轻松上道",
+            "coverImage": "https://res.zhiyousx.com/ysx/pro/2021/12/22/164015634138503695.png",
+            "likeRatio": 79.2,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": "",
+    "ticketAreaNoticeName": "2月16日除夕当日日场营业至15:00，夜场不开放，其他时间日场、夜场正常营业。",
+    "ticketAreaNotice": "<p><strong>Q：景区营业时间是什么时候？</strong><br />A：周内日场营业时间8:30-17:30（换票时间8:30-16:30）<br />周末/节假日日场营业时间8:00-17:30（换票时间8:00-16:30）<br />夜场营业时间18:30-21:30（换票时间18:00-20:30）<br />午+夜场营业时间16:30-21:30（换票时间16:30-20:30）</p>\n<p><strong>Q：照金直通车的路线及发车时间是？<br /></strong>A：西安发车点1：乘车点：地铁2号线 省体育场站 D出口<br />发车时间：每天上午7:20集合，7:30出发，过时不候<br />西安发车点2：乘车点：行政中心地铁C5出口<br />发车时间：集合时间8:00，发车时间8:10，过时不侯<br />雪场返回集合地点：停车场（雪具大厅旁）<br />雪场返回集合时间：17:00<br />直通车订座咨询电话：18149286884（微信同电话）<br />退款时间：提前1天18点前可全额退款，超出该时间不可退</p>\n<p><strong>Q：雪场门票核验地点是？<br /></strong>A： 双板的验票处在雪具大厅一楼收银处（双板雪具在一楼），单板的验票处在雪具大厅二楼收银处（单板雪具在二楼）</p>\n<p><strong>Q：办理住宿的流程是什么？</strong><br />A：1.先去酒店，酒店办理入住，并按照游客要滑雪的日期给游客开具滑雪凭证，凭滑雪凭证在雪场办理滑雪；2.先去雪场，办理滑雪手续，并给游客开具当天入住的酒店凭证，凭酒店凭证前往酒店办理入住。（酒店及青旅均需提前咨询前台客服电话：0919-8105555）</p>\n<p><strong>Q：滑雪计时规则是什么？<br /></strong>A：办理雪卡后，领取雪鞋开始计时，滑完雪后，退完雪具计时停止，退完雪具后的30分钟内需要归还雪卡，否则会继续触发计时。</p>\n<p>&nbsp;</p>",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "开放时间",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": "雪票预订",
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

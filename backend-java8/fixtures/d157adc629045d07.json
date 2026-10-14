@@ -1,0 +1,39 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "2082013958184763393",
+      "resourcesId": "1322009889743331330",
+      "title": "延安革命纪念馆 “红色建筑镌党史”",
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062211232377741.mp4",
+      "coverImage": "https://eshopfile.zhiyousx.com/2021062211230439256.png",
+      "videoId": null,
+      "resourcesType": 2,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2026-07-28 16:03:04",
+      "updateTime": "2026-07-28 16:03:04",
+      "createBy": "1635171719176675330",
+      "updateBy": "1635171719176675330",
+      "isDeleted": 0
+    },
+    {
+      "id": "2082013958188957697",
+      "resourcesId": "1322009889743331330",
+      "title": "延安革命纪念馆 “闪光的足迹——我在爱国",
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062211423956563.mp4",
+      "coverImage": "https://eshopfile.zhiyousx.com/2021062211245715669.png",
+      "videoId": null,
+      "resourcesType": 2,
+      "sequence": 2,
+      "describe": null,
+      "createTime": "2026-07-28 16:03:04",
+      "updateTime": "2026-07-28 16:03:04",
+      "createBy": "1635171719176675330",
+      "updateBy": "1635171719176675330",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,657 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941177",
+    "scenicName": "华山风景名胜区",
+    "tag": "奇险天下第一山",
+    "level": 5,
+    "cityId": "1320663137836642305",
+    "cityName": "渭南",
+    "address": "渭南华阴市华山集灵路中段",
+    "longitude": "110.065531",
+    "latitude": "34.503223",
+    "openingStatus": 1,
+    "capacity": 30000,
+    "sequence": 17,
+    "topColour": "#7C7A55",
+    "centralColour": "#494B41",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021072617093057217.jpg"
+    ],
+    "introduction": "<p>　　华山风景区位于陕西省渭南华阴市境内，距西安120公里，在全国乃至世界享有很高的声誉，素有奇险天下第一山之称。华山为五岳之西岳，南接秦岭，北瞰黄渭，扼守着大西北进出中原的门户，资源丰富，景观独特，文化内涵丰厚。华山是中华民族文化的发祥地之一，据清代著名学者章太炎先生考证，中华、华夏 皆因华山而得名。华山是神州九大观日处之一。华山观日处位于华山东峰（亦称朝阳峰），朝阳台为最佳观日地点。华山的著名景区景点多达210余处，有凌空架设的长空栈道，三面临空的鹞子翻身，以及在峭壁绝崖上凿出的千尺幢、百尺峡、老君犁沟等，华岳仙掌被列为关中八景之首。</p>",
+    "introductionText": "　　华山风景区位于陕西省渭南华阴市境内，距西安120公里，在全国乃至世界享有很高的声誉，素有奇险天下第一山之称。华山为五岳之西岳，南接秦岭，北瞰黄渭，扼守着大西北进出中原的门户，资源丰富，景观独特，文化内涵丰厚。华山是中华民族文化的发祥地之一，据清代著名学者章太炎先生考证，中华、华夏 皆因华山而得名。华山是神州九大观日处之一。华山观日处位于华山东峰（亦称朝阳峰），朝阳台为最佳观日地点。华山的著名景区景点多达210余处，有凌空架设的长空栈道，三面临空的鹞子翻身，以及在峭壁绝崖上凿出的千尺幢、百尺峡、老君犁沟等，华岳仙掌被列为关中八景之首。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "21",
+        "name": "地标打卡",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026415628289",
+        "contentId": "1418152026403045378",
+        "name": "陕西5A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "<section></section>\n<section class=\"_135editor\" style=\"-webkit-tap-highlight-color: transparent; margin-bottom: 0px; outline: 0px; font-size: 16px; letter-spacing: 0.544px; background-color: #ffffff; visibility: visible; font-family: 'PingFang SC', system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif;\">\n<section style=\"-webkit-tap-highlight-color: transparent; outline: 0px; color: #222222; letter-spacing: 0.544px; visibility: visible; text-align: left; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif;\">\n<section class=\"_135editor\" style=\"-webkit-tap-highlight-color: transparent; margin-top: 10px; margin-bottom: 10px; outline: 0px; visibility: visible;\">\n<section style=\"-webkit-tap-highlight-color: transparent; padding: 3px; outline: 0px; visibility: visible; box-sizing: border-box; border: 1px solid #ec0d0d;\">\n<section class=\"_135editor\" style=\"-webkit-tap-highlight-color: transparent; outline: 0px; visibility: visible;\">\n<section class=\"\" style=\"-webkit-tap-highlight-color: transparent; padding: 10px; outline: 0px; visibility: visible; box-sizing: border-box; border: 3px solid #ec0d0d;\">\n<section style=\"-webkit-tap-highlight-color: transparent; outline: 0px; visibility: visible;\">\n<section class=\"_135editor\" style=\"-webkit-tap-highlight-color: transparent; margin-top: 10px; margin-bottom: 10px; outline: 0px; visibility: visible;\">\n<section style=\"-webkit-tap-highlight-color: transparent; outline: 0px; visibility: visible;\">\n<section style=\"-webkit-tap-highlight-color: transparent; outline: 0px; line-height: 0; text-align: center; visibility: visible;\">\n<section class=\"\" style=\"-webkit-tap-highlight-color: transparent; outline: 0px; visibility: visible;\"></section>\n<section class=\"\" style=\"-webkit-tap-highlight-color: transparent; outline: 0px; vertical-align: middle; display: inline-block; line-height: 0; visibility: visible; width: 540px; box-sizing: border-box;\">\n<p>&nbsp;</p>\n</section>\n</section>\n</section>\n</section>\n<section class=\"_135editor\" style=\"-webkit-tap-highlight-color: transparent; outline: 0px; visibility: visible;\">\n<section style=\"-webkit-tap-highlight-color: transparent; outline: 0px; text-align: center; visibility: visible;\">\n<section style=\"-webkit-tap-highlight-color: transparent; outline: 0px; visibility: visible;\">\n<section class=\"_135editor\" style=\"-webkit-tap-highlight-color: transparent; outline: 0px; visibility: visible;\">\n<section style=\"-webkit-tap-highlight-color: transparent; outline: 0px; clear: both; min-height: 1em; visibility: visible;\">\n<p style=\"-webkit-tap-highlight-color: transparent; outline: 0px; visibility: visible;\">&nbsp;</p>\n</section>\n</section>\n<section class=\"_135editor\" style=\"-webkit-tap-highlight-color: transparent; outline: 0px; display: contents;\" data-filtered=\"filtered\">\n<section style=\"-webkit-tap-highlight-color: transparent; outline: 0px; display: contents;\" data-filtered=\"filtered\">\n<section style=\"-webkit-tap-highlight-color: transparent; outline: 0px; display: contents;\" data-filtered=\"filtered\">\n<section style=\"-webkit-tap-highlight-color: transparent; outline: 0px; text-align: right; text-indent: 0em; visibility: visible;\"></section>\n</section>\n</section>\n</section>\n<section class=\"_135editor\" style=\"-webkit-tap-highlight-color: transparent; outline: 0px; display: contents;\" data-filtered=\"filtered\">\n<section style=\"-webkit-tap-highlight-color: transparent; outline: 0px; display: contents;\" data-filtered=\"filtered\">\n<section style=\"-webkit-tap-highlight-color: transparent; outline: 0px; display: contents;\" data-filtered=\"filtered\">\n<section style=\"-webkit-tap-highlight-color: transparent; outline: 0px; text-align: right;\">\n<section style=\"max-width: 100%; box-sizing: border-box; visibility: visible;\" data-pm-slice=\"0 0 []\">\n<section style=\"max-width: 100%; box-sizing: border-box; visibility: visible; font-family: PingFangSC-light;\">\n<p style=\"margin: 0px; padding: 0px; box-sizing: border-box; visibility: visible; text-align: center;\" align=\"center\"><strong style=\"letter-spacing: 0.034em; box-sizing: border-box; visibility: visible;\"><span style=\"font-size: 18px; box-sizing: border-box; visibility: visible;\">华山景区冬季惠民政策公告</span></strong></p>\n</section>\n</section>\n<section style=\"text-align: justify; box-sizing: border-box; visibility: visible;\">\n<p style=\"white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box; visibility: visible;\">&nbsp;</p>\n</section>\n<section style=\"display: contents; box-sizing: border-box;\">\n<section style=\"display: contents; box-sizing: border-box;\">\n<section style=\"display: contents; box-sizing: border-box;\">\n<section style=\"text-align: right; text-indent: 0em; box-sizing: border-box; visibility: visible;\"></section>\n</section>\n</section>\n</section>\n<section style=\"max-width: 100%; box-sizing: border-box; visibility: visible;\">\n<section style=\"text-align: justify; letter-spacing: 2px; line-height: 2; max-width: 100%; box-sizing: border-box; visibility: visible; font-family: PingFangSC-light;\">\n<section style=\"max-width: 100%; box-sizing: border-box; font-size: 15px; letter-spacing: 1.8px; visibility: visible; font-family: PingFangSC-light;\">\n<p style=\"text-indent: 0em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box; visibility: visible;\">游客朋友们：</p>\n<p style=\"text-indent: 2em;\">为回馈广大游客对华山景区的喜爱与支持，景区推出冬季专项惠民政策，具体公告如下：</p>\n<p style=\"text-indent: 2em;\"><strong>一、政策执行时间</strong></p>\n<p style=\"text-indent: 2em;\">2026年1月1日&mdash;2026年2月28日（含国家法定节假日）</p>\n<p style=\"text-indent: 2em;\"><strong>二、每日游客限流</strong></p>\n<p style=\"text-indent: 2em;\">因冬季气候特点和景区实际，华山景区每日最大接待人数限量20000人次。</p>\n<p style=\"text-indent: 2em;\"><strong>三、惠民政策内容</strong></p>\n<p style=\"text-indent: 2em;\">1. 景区门票：成人门票在冬季门票价格基础上实行八折优惠。</p>\n<p style=\"text-indent: 2em;\">2. 索道票：成人索道票执行九折优惠（含北峰、西峰索道）。</p>\n<p style=\"text-indent: 2em;\">3. 西岳庙景区：免费开放（无需购票，凭有效身份证件入园）。</p>\n<p style=\"text-indent: 2em;\">4. 老人，儿童，学生，军人等符合优惠政策的群体，优惠按原有政策执行（本次惠民政策不与其他优惠政策叠加使用）。</p>\n<p style=\"text-indent: 2em;\"><strong>四、购票与入园须知</strong></p>\n<p style=\"text-indent: 2em;\">1. 优惠门票实行实名制预约购买，游客可通过华山景区官方微信公众号等正规渠道提前预约，售完即止。</p>\n<p style=\"text-indent: 2em;\">2. 购票时需准确填写本人有效身份证件信息，入园时须凭购票时使用的证件原件核验入园。</p>\n<p style=\"text-indent: 2em;\"><strong>五、温馨提示</strong></p>\n<p style=\"text-indent: 2em;\">1. 冬季华山气温较低，部分路段可能出现积雪结冰，建议游客提前关注天气及景区运营信息，备好防滑鞋、保暖衣物等防护用品。</p>\n<p style=\"text-indent: 2em;\">2. 景区严格落实&ldquo;限量、预约、错峰&rdquo;要求，为保障游览安全与体验，建议合理规划行程，避开高峰时段。</p>\n<p style=\"text-indent: 2em;\">3. 请通过官方渠道购票，谨防虚假信息和购票陷阱，维护自身合法权益。</p>\n<p style=\"text-indent: 2em;\">4. 景区咨询电话：0913-8376888、0913-8375999</p>\n<p style=\"text-indent: 2em;\">&nbsp;</p>\n<p style=\"text-indent: 2em;\">诚邀广大游客相约冬日华山，赏雾凇奇景，感雄峰壮阔，共赴一场难忘的冬日之旅！</p>\n<p style=\"white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box; text-align: right;\" align=\"right\">来源：华山景区&nbsp; &nbsp;&nbsp;</p>\n</section>\n</section>\n</section>\n<p style=\"-webkit-tap-highlight-color: transparent; outline: 0px; text-align: justify;\" align=\"justify\">&nbsp;</p>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section class=\"_135editor\" style=\"-webkit-tap-highlight-color: transparent; margin-bottom: 0px; outline: 0px; font-size: 16px; letter-spacing: 0.544px; background-color: #ffffff; font-family: 'PingFang SC', system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif;\">\n<section style=\"-webkit-tap-highlight-color: transparent; outline: 0px; color: #222222; font-size: 17px; letter-spacing: 0.544px; visibility: visible; text-align: left; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif;\">\n<section style=\"-webkit-tap-highlight-color: transparent; outline: 0px; text-align: center; color: #353535; font-size: medium; letter-spacing: 0.544px; visibility: visible; font-family: -apple-system-font, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif;\">\n<section style=\"-webkit-tap-highlight-color: transparent; outline: 0px; letter-spacing: 0.544px; background-color: #feffff; color: #ffffff; font-size: 16px; caret-color: #333333; visibility: visible; font-family: -apple-system, BlinkMacSystemFont, Arial, sans-serif;\">\n<section style=\"-webkit-tap-highlight-color: transparent; outline: 0px; color: #222222; letter-spacing: 0.544px; visibility: visible; font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif;\">\n<section style=\"-webkit-tap-highlight-color: transparent; outline: none 0px; color: #000000; font-size: 14px; letter-spacing: 2px; min-height: 1em; cursor: text; line-height: 2em; font-family: -apple-system, BlinkMacSystemFont, Arial, sans-serif;\">\n<section style=\"-webkit-tap-highlight-color: transparent; outline: 0px; background-color: #ffffff; letter-spacing: 0.578px; color: #909090; line-height: 3em; visibility: visible; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif;\">\n<p style=\"-webkit-tap-highlight-color: transparent; outline: 0px; font-size: 12px; letter-spacing: 0.578px;\">&nbsp;</p>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section style=\"-webkit-tap-highlight-color: transparent; margin-bottom: 0px; outline: 0px; color: #3e3e3e; letter-spacing: 1.8px; text-align: center; background-color: #ffffff;\">\n<section style=\"-webkit-tap-highlight-color: transparent; outline: 0px; font-size: 16px; color: rgba(160, 160, 160, 0.82); letter-spacing: 1.6px; line-height: normal;\">\n<p>&nbsp;</p>\n</section>\n</section>\n<p>&nbsp;</p>\n<p style=\"display: none;\">&nbsp;</p>\n<section class=\"_135editor\"></section>\n<p>&nbsp;</p>",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "1月1日至12月31日",
+        "openTimeContent": "周一至周日全天开放"
+      },
+      {
+        "openTimeTitle": "补充说明",
+        "openTimeContent": "2024年3月1日零时至2024年11月30日，游客中心入园时间7:00-16:00；<br/>华山门（步行登山）入园时间：24小时；<br/>索道运营时间：7:00-19:00"
+      },
+      {
+        "openTimeTitle": "建议游玩时间",
+        "openTimeContent": "春夏季节"
+      },
+      {
+        "openTimeTitle": "建议游玩时长",
+        "openTimeContent": "1-2天"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "6周岁（含）以下或1.2米（含）以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "65周岁（含）持本人身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "军人",
+        "limit": "持有效期内《士兵证》、《军官证》、《军队院校学员证》、《文职干部证》、《军官离休证》；军（警）残证、《残疾人证》；《消防员证》。",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "记者",
+        "limit": "持有效年审《新闻记者证》的内地记者",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "导游",
+        "limit": "持导游IC卡证、特定语种临时导游证、导游从业临时证明",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "对6周岁(不含)至18周岁(含)的未成年人(含港澳台入境游青少年)、全日制大学本科及以下学历学生(含港澳台入境游学生)持有效证件",
+        "discount": "半价"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "10",
+        "name": "商店",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (19).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "11",
+        "name": "餐厅",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (22).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "59",
+        "name": "园内交通",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016420452783.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>西安城东客运站-华山<br />西安-华阴k302/k402：首班车7：00 末班车19:15（30分钟/班，路程2小时）,24-28元、燃油2元；<br />旅游专线1号（当日17：00由玉泉院返回）：淡季首班7:00、末班车19:15；旺季首班车6:00、末班车19:15，28元。</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<p>西安-华山景区游客中心：途径华清路-西潼高速（途径渭南、华阴）-玉泉路（华山脚下）。</p>"
+      }
+    ],
+    "officialWebsite": [
+      "http://www.chinahuashan.com/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "咨询电话",
+        "telephone": "4000913777"
+      },
+      {
+        "telephoneTitle": "咨询电话",
+        "telephone": "0913-4362692"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "华山景区",
+        "wxSubscription": "huashanjingqu"
+      },
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "华山智慧旅游",
+        "wxSubscription": "huashanzhihui"
+      }
+    ],
+    "sinaWeiboVoList": [
+      {
+        "sinaWeibo": "华山风景名胜区",
+        "sinaWeiboUrl": "https://weibo.com/xiyuehuashan?profile_ftype=1&is_all=1#_0"
+      }
+    ],
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "2064268876764602369",
+        "outId": "1320579064720941177",
+        "type": 1,
+        "advertName": "最详细的华山攻略来袭",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021072617341589862.jpg",
+        "jumpType": 1,
+        "jumpUrl": "https://mp.weixin.qq.com/s/JLTDbL4CZRv92CPH6dGrGA",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2064268876701687809",
+        "resourcesId": "1321303308970012673",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072617010829644.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-06-09 16:50:27",
+        "updateTime": "2026-06-09 16:50:27",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2064268876705882113",
+        "resourcesId": "1321303308970012673",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072617011988816.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-06-09 16:50:27",
+        "updateTime": "2026-06-09 16:50:27",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2064268876705882114",
+        "resourcesId": "1321303308970012673",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072617013673503.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-06-09 16:50:27",
+        "updateTime": "2026-06-09 16:50:27",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2064268876710076417",
+        "resourcesId": "1321303308970012673",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072617014543261.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-06-09 16:50:27",
+        "updateTime": "2026-06-09 16:50:27",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2064268876710076418",
+        "resourcesId": "1321303308970012673",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072617015522878.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2026-06-09 16:50:27",
+        "updateTime": "2026-06-09 16:50:27",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2064268876714270722",
+        "resourcesId": "1321303308970012673",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072617020412675.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2026-06-09 16:50:27",
+        "updateTime": "2026-06-09 16:50:27",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2064268876714270723",
+        "resourcesId": "1321303308970012673",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072617022733771.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2026-06-09 16:50:27",
+        "updateTime": "2026-06-09 16:50:27",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2064268876718465025",
+        "resourcesId": "1321303308970012673",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072617023834535.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2026-06-09 16:50:27",
+        "updateTime": "2026-06-09 16:50:27",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2064268876718465026",
+        "resourcesId": "1321303308970012673",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072617024878598.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": null,
+        "createTime": "2026-06-09 16:50:27",
+        "updateTime": "2026-06-09 16:50:27",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2064268876722659329",
+        "resourcesId": "1321303308970012673",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072617025975690.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": null,
+        "createTime": "2026-06-09 16:50:27",
+        "updateTime": "2026-06-09 16:50:27",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2064268876722659330",
+        "resourcesId": "1321303308970012673",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072617031103582.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 11,
+        "describe": null,
+        "createTime": "2026-06-09 16:50:27",
+        "updateTime": "2026-06-09 16:50:27",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2064268876726853633",
+        "resourcesId": "1321303308970012673",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072617032215344.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 12,
+        "describe": null,
+        "createTime": "2026-06-09 16:50:27",
+        "updateTime": "2026-06-09 16:50:27",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2064268876731047937",
+        "resourcesId": "1321303308970012673",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072617033291187.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 13,
+        "describe": null,
+        "createTime": "2026-06-09 16:50:27",
+        "updateTime": "2026-06-09 16:50:27",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2064268876731047938",
+        "resourcesId": "1321303308970012673",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072617035464026.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 14,
+        "describe": null,
+        "createTime": "2026-06-09 16:50:27",
+        "updateTime": "2026-06-09 16:50:27",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2064268876735242241",
+        "resourcesId": "1321303308970012673",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072617040963310.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 15,
+        "describe": null,
+        "createTime": "2026-06-09 16:50:27",
+        "updateTime": "2026-06-09 16:50:27",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2064268876735242242",
+        "resourcesId": "1321303308970012673",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072617041848008.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 16,
+        "describe": null,
+        "createTime": "2026-06-09 16:50:27",
+        "updateTime": "2026-06-09 16:50:27",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2064268876739436545",
+        "resourcesId": "1321303308970012673",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072617043300865.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 17,
+        "describe": null,
+        "createTime": "2026-06-09 16:50:27",
+        "updateTime": "2026-06-09 16:50:27",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2064268876743630849",
+        "resourcesId": "1321303308970012673",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072617044997195.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 18,
+        "describe": null,
+        "createTime": "2026-06-09 16:50:27",
+        "updateTime": "2026-06-09 16:50:27",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2064268876743630850",
+        "resourcesId": "1321303308970012673",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072617045961004.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 19,
+        "describe": null,
+        "createTime": "2026-06-09 16:50:27",
+        "updateTime": "2026-06-09 16:50:27",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2064268876747825153",
+        "resourcesId": "1321303308970012673",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072617050899544.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 20,
+        "describe": null,
+        "createTime": "2026-06-09 16:50:27",
+        "updateTime": "2026-06-09 16:50:27",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455112666791124994",
+      "rankingId": null,
+      "indexInRanking": 2,
+      "rankingName": "渭南自驾游景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1566623053130653698",
+        "rankingId": "1566623054191812609",
+        "indexInRanking": null,
+        "rankingName": "渭南亲子游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": null,
+    "noticeTitel": "华山景区冬季惠民政策公告",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

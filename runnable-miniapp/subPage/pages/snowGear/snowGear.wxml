@@ -14,7 +14,7 @@
             <view class="name data-v-9aae6e9a">预计到达时间</view>
             <view bindtap="__e" class="value data-v-9aae6e9a" data-event-opts="{{[ [ 'tap',[ [ 'openTime',['$event'] ] ] ] ]}}">
                 <view class="data-v-9aae6e9a" wx:if="{{subscribeTime}}">{{dayTime+' '+subscribeTime}}</view>
-                <view class="data-v-9aae6e9a" wx:else>请选择<image mode class="icon data-v-9aae6e9a" src="https://eshopfile.zhiyousx.com/images/snow/right.png"></image>
+                <view class="data-v-9aae6e9a" wx:else>请选择<image mode class="icon data-v-9aae6e9a" src="/static/captured/6cdb8fcc90d8b3d0.png"></image>
                 </view>
             </view>
         </view>
@@ -37,7 +37,7 @@
                     <view class="price colorType data-v-9aae6e9a" wx:if="{{item.$orig.remarks}}">{{item.$orig.remarks}}</view>
                 </view>
                 <view bindtap="__e" class="right data-v-9aae6e9a" data-event-opts="{{[ [ 'tap',[ [ 'showMore',[index] ] ] ] ]}}">
-                    <image mode class="{{['img','','data-v-9aae6e9a',item.$orig.showMore==1?'show':'']}}" src="https://eshopfile.zhiyousx.com/images/snow/snowGear011.png"></image>
+                    <image mode class="{{['img','','data-v-9aae6e9a',item.$orig.showMore==1?'show':'']}}" src="/static/captured/521362dd2ad016a6.png"></image>
                 </view>
             </view>
             <view class="userBox data-v-9aae6e9a" wx:if="{{item.$orig.showMore==0}}">
@@ -58,12 +58,12 @@
                     <view bindtap="__e" class="uni-input data-v-9aae6e9a" data-event-opts="{{[ [ 'tap',[ [ 'showPopup',[1,i] ] ] ] ]}}" style="{{'pointer-events:'+(sid&&it.shoesdisable?'none':'initial')+';'}}" wx:if="{{item.$orig.configClass==2&&it.type1==2&&it.type2==1}}">
                         <view class="text2 data-v-9aae6e9a" wx:if="{{it.value2&&it.value2.id}}">{{it.value2.configName}}</view>
                         <view class="text2 data-v-9aae6e9a" wx:else>请选择鞋码</view>
-                        <image mode class="down data-v-9aae6e9a" src="https://eshopfile.zhiyousx.com/images/snow/down.png"></image>
+                        <image mode class="down data-v-9aae6e9a" src="/static/captured/dc2114f4b6ea5886.png"></image>
                     </view>
                     <view bindtap="__e" class="uni-input data-v-9aae6e9a" data-event-opts="{{[ [ 'tap',[ [ 'showPopup',[2,i] ] ] ] ]}}" style="{{'pointer-events:'+(sid&&it.closedisable?'none':'initial')+';'}}" wx:if="{{item.$orig.configClass==4&&it.type4==1}}">
                         <view class="text2 data-v-9aae6e9a" wx:if="{{it.value4&&it.value4.id}}">{{it.value4.configName}}</view>
                         <view class="text2 data-v-9aae6e9a" wx:else>请选择尺码</view>
-                        <image mode class="down data-v-9aae6e9a" src="https://eshopfile.zhiyousx.com/images/snow/down.png"></image>
+                        <image mode class="down data-v-9aae6e9a" src="/static/captured/dc2114f4b6ea5886.png"></image>
                     </view>
                 </view>
             </view>
@@ -93,7 +93,7 @@
     <u-popup bind:__l="__l" bind:input="__e" borderRadius="{{20}}" class="data-v-9aae6e9a" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showPicker','$event',[] ] ] ] ] ]}}" mode="bottom" value="{{showPicker}}" vueId="ada783c0-2" vueSlots="{{['default']}}">
         <view class="mask data-v-9aae6e9a">
             <view bindtap="__e" class="image-box data-v-9aae6e9a" data-event-opts="{{[ [ 'tap',[ [ 'closeTime',['$event'] ] ] ] ]}}">
-                <image mode class="close data-v-9aae6e9a" src="https://eshopfile.zhiyousx.com/images/snow/close.png"></image>
+                <image mode class="close data-v-9aae6e9a" src="/static/captured/2a87d4f5834e8366.png"></image>
             </view>
             <view class="picker-box data-v-9aae6e9a">
                 <view class="t1 data-v-9aae6e9a">选择到达雪场时间</view>
@@ -115,7 +115,7 @@
     <u-popup bind:__l="__l" bind:input="__e" borderRadius="{{20}}" class="data-v-9aae6e9a" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','show','$event',[] ] ] ] ] ]}}" mode="bottom" value="{{show}}" vueId="ada783c0-3" vueSlots="{{['default']}}">
         <view class="mask data-v-9aae6e9a">
             <view bindtap="__e" class="image-box data-v-9aae6e9a" data-event-opts="{{[ [ 'tap',[ ['closeMask'] ] ] ]}}">
-                <image mode class="close data-v-9aae6e9a" src="https://eshopfile.zhiyousx.com/images/snow/close.png"></image>
+                <image mode class="close data-v-9aae6e9a" src="/static/captured/2a87d4f5834e8366.png"></image>
             </view>
             <scroll-view class="data-v-9aae6e9a" scrollY="true" style="max-height:900rpx;">
                 <view class="item bottom30 data-v-9aae6e9a" wx:if="{{$root.g0}}">

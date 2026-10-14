@@ -3,7 +3,7 @@
         <view class="title data-v-36c0633e">团员自购贡献</view>
         <view class="user-box data-v-36c0633e">
             <view class="info-box data-v-36c0633e">
-                <image mode class="user-img data-v-36c0633e" src="{{firstFenXiaoVo.picUrl?firstFenXiaoVo.picUrl:'https://eshopfile.zhiyousx.com/2021120611010377794.png'}}"></image>
+                <image mode class="user-img data-v-36c0633e" src="{{firstFenXiaoVo.picUrl?firstFenXiaoVo.picUrl:'/static/captured/8a2baa9a07ce97e1.png'}}"></image>
                 <view class="info data-v-36c0633e">
                     <view class="i1 data-v-36c0633e">{{firstFenXiaoVo.nickName||''}}</view>
                 </view>
@@ -18,7 +18,7 @@
         <view class="title data-v-36c0633e">团员邀请贡献</view>
         <view class="user-box data-v-36c0633e" wx:for="{{secondFenXiaoVoList}}" wx:for-index="__i0__">
             <view class="info-box data-v-36c0633e">
-                <image mode class="user-img data-v-36c0633e" src="{{item.picUrl?item.picUrl:'https://eshopfile.zhiyousx.com/2021120611010377794.png'}}"></image>
+                <image mode class="user-img data-v-36c0633e" src="{{item.picUrl?item.picUrl:'/static/captured/8a2baa9a07ce97e1.png'}}"></image>
                 <view class="info data-v-36c0633e">
                     <view class="i1 data-v-36c0633e">{{item.nickName||''}}</view>
                     <view class="i3 data-v-36c0633e">{{'注册日期 '+item.createTime}}</view>

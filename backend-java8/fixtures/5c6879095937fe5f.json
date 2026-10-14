@@ -1,0 +1,299 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941172",
+    "scenicName": "白云山风景名胜区",
+    "tag": "全国重点文物保护单位，国家4A旅游景区",
+    "level": 4,
+    "cityId": "1320664225474195458",
+    "cityName": "榆林",
+    "address": "佳县峪口乡任家畔村",
+    "longitude": "110.5145240000",
+    "latitude": "38.0093740000",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 347,
+    "topColour": "#9C9DA2",
+    "centralColour": "#88898F",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/1_副本-20201028162857.jpg",
+      "https://eshopfile.zhiyousx.com/2_副本1-20201028162938.jpg"
+    ],
+    "introduction": "<p>　　白云山位于陕北佳县城南5公里的黄河之滨，因山上建有古迹白云观，山下有黄河峡谷风貌奇异而闻名遐尔。白云山始建于宋代，主建于明清。经历代续建补葺，白云山总共占地200亩，建成庙宇54座，各类古建104处，并存有建筑、壁画、书法、雕塑、音乐等文化精品，明万历四十六年（1618年），万历皇帝朱翊钧给白云山颁圣旨一道，亲赐《道藏》4726卷。自此，白云山作为皇家道观，享誉全国。目前，白云山是中国著名道教圣地，黄河沿岸最大的明代古建筑群，全国重点文物保护单位，是正在创建国家4A级旅游景区之地。白云山属典型的庙观文化，它把传统的儒家文化、宗教文化、黄河文化、黄土文化和民族文化等有机地熔于一炉，其内涵深刻，形式多样，内容广泛，不失为一座巨大的文化宝库。白云山诸神荟萃，由54座宫、殿、楼、阁等组成的庙建，每庙必有神，200多位神，400多尊像司职各异，又相互联系。其中以道教系列神为主，儒、释、道三教交汇，既供华夏大地供奉的传统神，也供具有地方特色的民间神。</p>",
+    "introductionText": "　　白云山位于陕北佳县城南5公里的黄河之滨，因山上建有古迹白云观，山下有黄河峡谷风貌奇异而闻名遐尔。白云山始建于宋代，主建于明清。经历代续建补葺，白云山总共占地200亩，建成庙宇54座，各类古建104处，并存有建筑、壁画、书法、雕塑、音乐等文化精品，明万历四十六年（1618年），万历皇帝朱翊钧给白云山颁圣旨一道，亲赐《道藏》4726卷。自此，白云山作为皇家道观，享誉全国。目前，白云山是中国著名道教圣地，黄河沿岸最大的明代古建筑群，全国重点文物保护单位，是正在创建国家4A级旅游景区之地。白云山属典型的庙观文化，它把传统的儒家文化、宗教文化、黄河文化、黄土文化和民族文化等有机地熔于一炉，其内涵深刻，形式多样，内容广泛，不失为一座巨大的文化宝库。白云山诸神荟萃，由54座宫、殿、楼、阁等组成的庙建，每庙必有神，200多位神，400多尊像司职各异，又相互联系。其中以道教系列神为主，儒、释、道三教交汇，既供华夏大地供奉的传统神，也供具有地方特色的民间神。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "63",
+        "name": "宗教文化",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": null,
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米（含）以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "65周岁(含)以上凭老年证或身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "军人",
+        "limit": "现役军人、革命伤残军人凭有效合法证件",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭残疾证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "全日制本科（不含研究生）及以下学生凭有效证件",
+        "discount": "半价"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "开放时间",
+        "additionalExplainContent": "3月1日-10月31日（夏季） 06:30-18:00<br/>11月1日-2月28日（冬季） 07:00-17:00<br/>"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "官方电话",
+        "telephone": "0912-6010082"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "佳县白云山景区",
+        "wxSubscription": "jxbys813"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2082011595746238466",
+        "resourcesId": "1321368667819368450",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/3_副本-20201028162949.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-07-28 15:53:40",
+        "updateTime": "2026-07-28 15:53:40",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011595746238467",
+        "resourcesId": "1321368667819368450",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/4_副本-20201028163001.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-07-28 15:53:40",
+        "updateTime": "2026-07-28 15:53:40",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011595750432770",
+        "resourcesId": "1321368667819368450",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/5_副本-20201028163010.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-07-28 15:53:40",
+        "updateTime": "2026-07-28 15:53:40",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455743348567547905",
+      "rankingId": null,
+      "indexInRanking": 17,
+      "rankingName": " 榆林必逛景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

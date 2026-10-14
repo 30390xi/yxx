@@ -17,7 +17,7 @@
         </view>
     </view>
     <view class="empty" wx:if="{{$root.g0}}">
-        <empty-state bind:__l="__l" imgUrl="https://eshopfile.zhiyousx.com/noMsg@2x.png" text="暂无消息" vueId="c10aeb40-1"></empty-state>
+        <empty-state bind:__l="__l" imgUrl="/static/captured/e6e10420d40ada39.png" text="暂无消息" vueId="c10aeb40-1"></empty-state>
     </view>
     <view class="loadMore">
         <u-loadmore bgColor="#f7f7f7" bind:__l="__l" color="#ccc" data-custom-hidden="{{!$root.g1}}" iconColor="#ccc"  status="{{loadMore}}" vueId="c10aeb40-2"></u-loadmore>

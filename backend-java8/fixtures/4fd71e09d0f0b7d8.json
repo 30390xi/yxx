@@ -1,0 +1,23 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "2059806768843259905",
+      "resourcesId": "1321729436935282690",
+      "title": "大雁塔名场面",
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061714590430268.mp4",
+      "coverImage": "https://eshopfile.zhiyousx.com/2021061714585130763.jpg",
+      "videoId": null,
+      "resourcesType": 2,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2026-05-28 09:19:37",
+      "updateTime": "2026-05-28 09:19:37",
+      "createBy": "1635171719176675330",
+      "updateBy": "1635171719176675330",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

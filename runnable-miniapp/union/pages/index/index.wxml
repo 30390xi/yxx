@@ -1,7 +1,7 @@
 <view class="u-wrap page-box data-v-2e00899c">
     <uni-navbar bind:__l="__l" class="data-v-2e00899c" title="陕西联合会员权益中心" transparentFixedFontColor="{{titleColor}}" type="transparentFixed" vueId="6c75fb4c-1"></uni-navbar>
     <view bindtap="__e" class="top-box data-v-2e00899c" data-event-opts="{{[ [ 'tap',[ ['isUnion'] ] ] ]}}">
-        <image class="bg-img data-v-2e00899c" mode="aspectFill" src="https://eshopfile.zhiyousx.com/2024062010391767799.png"></image>
+        <image class="bg-img data-v-2e00899c" mode="aspectFill" src="/static/captured/461e2840525b3625.png"></image>
         <view class="tip-box data-v-2e00899c">
             <image mode class="logo data-v-2e00899c" src="{{unionUserInfo.photoUrl?unionUserInfo.photoUrl:logo}}"></image>
             <view class="user-box data-v-2e00899c" wx:if="{{isUnionMember}}">
@@ -17,19 +17,19 @@
             </block>
         </view>
         <view catchtap="__e" class="code-box allcenter data-v-2e00899c" data-event-opts="{{[ [ 'tap',[ [ 'toUserCard',['$event'] ] ] ] ]}}" wx:if="{{!unionExpired&&isUnionMember}}">
-            <image mode class="code data-v-2e00899c" src="https://eshopfile.zhiyousx.com/2024062114233519836.png"></image>会员码</view>
+            <image mode class="code data-v-2e00899c" src="/static/captured/cc72b9a92299632d.png"></image>会员码</view>
     </view>
     <view class="module-box data-v-2e00899c">
         <view class="black-box data-v-2e00899c" wx:if="{{$root.g0}}">
             <view class="flex col-center row-space-between data-v-2e00899c">
                 <view class="title flex col-center data-v-2e00899c">
-                    <image mode class="t-img data-v-2e00899c" src="https://eshopfile.zhiyousx.com/2024052310373321295.png"></image>
+                    <image mode class="t-img data-v-2e00899c" src="/static/captured/0c9a17d7e860f1b9.png"></image>
                     <text class="data-v-2e00899c">吃喝玩乐</text>
                     <text class="union-color data-v-2e00899c">热门权益</text>
                 </view>
                 <view bindtap="__e" class="toR flex col-center data-v-2e00899c" data-event-opts="{{[ [ 'tap',[ [ 'jumpTo',['/union/pages/list/list'] ] ] ] ]}}">
                     <text class="data-v-2e00899c">{{$root.f1+'特权'}}</text>
-                    <image mode class="r-img data-v-2e00899c" src="https://eshopfile.zhiyousx.com/2024052310422161768.png"></image>
+                    <image mode class="r-img data-v-2e00899c" src="/static/captured/3a1240bd9d623552.png"></image>
                 </view>
             </view>
             <view class="row-box data-v-2e00899c">
@@ -43,13 +43,13 @@
         <view class="black-box data-v-2e00899c" wx:if="{{$root.g1}}">
             <view class="flex col-center row-space-between data-v-2e00899c">
                 <view class="title flex col-center data-v-2e00899c">
-                    <image mode class="t-img data-v-2e00899c" src="https://eshopfile.zhiyousx.com/2024052310373321295.png"></image>
+                    <image mode class="t-img data-v-2e00899c" src="/static/captured/0c9a17d7e860f1b9.png"></image>
                     <text class="data-v-2e00899c">旅游出行</text>
                     <text class="union-color data-v-2e00899c">{{'畅玩'+month+'月'}}</text>
                 </view>
                 <view bindtap="__e" class="toR flex col-center data-v-2e00899c" data-event-opts="{{[ [ 'tap',[ [ 'jumpTo',['/union/pages/coupon/coupon'] ] ] ] ]}}">
                     <text class="data-v-2e00899c">{{$root.f2+'神券'}}</text>
-                    <image mode class="r-img data-v-2e00899c" src="https://eshopfile.zhiyousx.com/2024052310422161768.png"></image>
+                    <image mode class="r-img data-v-2e00899c" src="/static/captured/3a1240bd9d623552.png"></image>
                 </view>
             </view>
             <scroll-view class="col-box data-v-2e00899c" scrollWithAnimation="{{true}}" scrollX="{{true}}">
@@ -78,33 +78,33 @@
         <view class="black-box data-v-2e00899c" wx:if="{{cardInfo.serviceExpertAddress&&cardInfo.serviceExpertPhone&&cardInfo.cooperationAddress}}">
             <view class="flex col-center row-space-between data-v-2e00899c">
                 <view class="title flex col-center data-v-2e00899c">
-                    <image mode class="t-img data-v-2e00899c" src="https://eshopfile.zhiyousx.com/2024052310373321295.png"></image>
+                    <image mode class="t-img data-v-2e00899c" src="/static/captured/0c9a17d7e860f1b9.png"></image>
                     <text class="data-v-2e00899c">帮助中心</text>
                 </view>
                 <view class="toR flex col-center data-v-2e00899c"></view>
             </view>
             <view class="help-row flex col-center row-space-between data-v-2e00899c" wx:if="{{cardInfo.serviceExpertAddress&&cardInfo.serviceExpertPhone}}">
                 <view class="r-left flex col-center data-v-2e00899c">
-                    <image mode class="icon-l data-v-2e00899c" src="https://eshopfile.zhiyousx.com/2024052311363025995.png"></image>
+                    <image mode class="icon-l data-v-2e00899c" src="/static/captured/a1e165e21d2c689e.png"></image>
                     <view class="l-info data-v-2e00899c">
                         <view class="name data-v-2e00899c">服务专家</view>
                         <view class="time singleLineText data-v-2e00899c" hidden="{{!cardInfo.serviceExpertDesc}}">{{''+cardInfo.serviceExpertDesc+''}}</view>
                     </view>
                 </view>
                 <view class="r-right data-v-2e00899c">
-                    <image mode bindtap="__e" class="icon data-v-2e00899c" data-event-opts="{{[ [ 'tap',[ [ 'jumpToH5',['$0'],['cardInfo.serviceExpertAddress'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/2024052311431440330.png" wx:if="{{cardInfo.serviceExpertAddress}}"></image>
-                    <image mode bindtap="__e" class="icon data-v-2e00899c" data-event-opts="{{[ [ 'tap',[ [ 'phone',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/2024052311431841365.png" wx:if="{{cardInfo.serviceExpertPhone}}"></image>
+                    <image mode bindtap="__e" class="icon data-v-2e00899c" data-event-opts="{{[ [ 'tap',[ [ 'jumpToH5',['$0'],['cardInfo.serviceExpertAddress'] ] ] ] ]}}" src="/static/captured/dd5d972a5f1802e2.png" wx:if="{{cardInfo.serviceExpertAddress}}"></image>
+                    <image mode bindtap="__e" class="icon data-v-2e00899c" data-event-opts="{{[ [ 'tap',[ [ 'phone',['$event'] ] ] ] ]}}" src="/static/captured/7994d215b2fc94fe.png" wx:if="{{cardInfo.serviceExpertPhone}}"></image>
                 </view>
             </view>
             <block wx:if="{{cardInfo.cooperationAddress}}">
                 <view class="line data-v-2e00899c"></view>
                 <view bindtap="__e" class="help-row flex col-center row-space-between data-v-2e00899c" data-event-opts="{{[ [ 'tap',[ [ 'jumpToH5',['$0'],['cardInfo.cooperationAddress'] ] ] ] ]}}">
                     <view class="r-left flex col-center data-v-2e00899c">
-                        <image mode class="icon-l data-v-2e00899c" src="https://eshopfile.zhiyousx.com/2024052311452667077.png"></image>
+                        <image mode class="icon-l data-v-2e00899c" src="/static/captured/8615e1deb4f21872.png"></image>
                         <text class="data-v-2e00899c">企业合作</text>
                     </view>
                     <view class="r-right data-v-2e00899c">
-                        <image mode class="data-v-2e00899c" src="https://eshopfile.zhiyousx.com/2024052310422161768.png"></image>
+                        <image mode class="data-v-2e00899c" src="/static/captured/3a1240bd9d623552.png"></image>
                     </view>
                 </view>
             </block>

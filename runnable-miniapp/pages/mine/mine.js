@@ -93,6 +93,7 @@
           },
           onLoad: function() {},
           onShow: function() {
+            setTimeout(function() { var pages = getCurrentPages(), page = pages[pages.length - 1], bar = page && page.getTabBar && page.getTabBar(); if (page && page.route === "pages/mine/mine" && bar) bar.setData({ selected: 3 }); }, 100);
             var t = this;
             this.$bus.$emit("tabPlay", 3), e.getSystemInfo({
               success: function(e) {

@@ -23,6 +23,8 @@ build/
 
 # Logs
 *.log
+backend-java8/fixtures/ai-history.jsonl
+backend-java8/fixtures/ai-feedback.jsonl
 
 # Env / secrets
 .env

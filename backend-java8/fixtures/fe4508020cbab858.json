@@ -1,0 +1,117 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1538830831147307010",
+    "contentId": "1538830830115508226",
+    "rankingName": "西安必游人气排行榜",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/165572048555484352.jpg",
+    "rankingDescribe": "",
+    "rankingTotalUserData": "人去过",
+    "rankingInclude": "个目的地",
+    "rankingPersonalInfo": "我去过的目的地",
+    "rankingSharePictureUrl": "https://eshopfile.zhiyousx.com/165572083084429154.jpg",
+    "bottomColour": "#7E0000",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1320579064720941182",
+        "originType": "1",
+        "originName": "华清宫",
+        "originSubtitleName": "览盛唐宫阙，登骊山怀古，赏长恨歌舞",
+        "originUrl": "https://eshopfile.zhiyousx.com/511-20201028143348.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/521-20201028143405.jpg",
+          "https://eshopfile.zhiyousx.com/531-20201028143411.jpg",
+          "https://eshopfile.zhiyousx.com/551-20201028143419.jpg"
+        ],
+        "sort": "10",
+        "favoriteValue": null,
+        "isBookable": true,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064720941134",
+        "originType": "1",
+        "originName": "西安碑林博物馆",
+        "originSubtitleName": "历史文化宝库  书法艺术殿堂",
+        "originUrl": "https://eshopfile.zhiyousx.com/3333-1-20201029161416.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/33333-1-20201029161439.jpg",
+          "https://eshopfile.zhiyousx.com/3333333333333-1-20201029161451.jpg",
+          "https://eshopfile.zhiyousx.com/333545454-1-20201029161459.jpg"
+        ],
+        "sort": "11",
+        "favoriteValue": null,
+        "isBookable": true,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064720941173",
+        "originType": "1",
+        "originName": "西安博物院(小雁塔)",
+        "originSubtitleName": "看尽十三朝古都",
+        "originUrl": "https://eshopfile.zhiyousx.com/2024032716471670816.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/165943424080244898.jpg",
+          "https://eshopfile.zhiyousx.com/165943424129718728.jpg",
+          "https://eshopfile.zhiyousx.com/165943424168883098.jpg",
+          "https://eshopfile.zhiyousx.com/165943424209528526.jpg",
+          "https://eshopfile.zhiyousx.com/165943424251159566.jpg",
+          "https://eshopfile.zhiyousx.com/165943424291465563.jpg",
+          "https://eshopfile.zhiyousx.com/2021082515221214536.png",
+          "https://eshopfile.zhiyousx.com/2021082515223219803.png",
+          "https://eshopfile.zhiyousx.com/2021082515224683089.png",
+          "https://eshopfile.zhiyousx.com/2021082515232093275.png",
+          "https://eshopfile.zhiyousx.com/2021082515233182455.jpg",
+          "https://eshopfile.zhiyousx.com/2021082515233853422.png",
+          "https://eshopfile.zhiyousx.com/2021082515240404650.jpg",
+          "https://eshopfile.zhiyousx.com/2021082515241535373.png",
+          "https://eshopfile.zhiyousx.com/2021082515243142301.jpg"
+        ],
+        "sort": "12",
+        "favoriteValue": null,
+        "isBookable": true,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1714944755026763778",
+        "originType": "1",
+        "originName": "《无界·长安》",
+        "originSubtitleName": " 中国首部大型驻场观念演出",
+        "originUrl": "https://eshopfile.zhiyousx.com/2023101918001033239.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/169778427569135946.jpg",
+          "https://eshopfile.zhiyousx.com/169778427624553300.jpg",
+          "https://eshopfile.zhiyousx.com/169778427684486039.jpg",
+          "https://eshopfile.zhiyousx.com/169778427716999182.jpg",
+          "https://eshopfile.zhiyousx.com/169778427746963212.jpg"
+        ],
+        "sort": "13",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "14",
+    "favoriteSum": null,
+    "personalInfoValue": "0/14"
+  },
+  "msg": "成功",
+  "success": true
+}

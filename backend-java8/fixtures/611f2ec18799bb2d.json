@@ -1,0 +1,452 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941182",
+    "scenicName": "华清宫",
+    "tag": "览盛唐宫阙，登骊山怀古，赏长恨歌舞",
+    "level": 5,
+    "address": "临潼区华清路3号",
+    "longitude": "109.213586",
+    "latitude": "34.364145",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#7AB751",
+    "centralColour": "#779968",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/511-20201028143348.jpg",
+      "https://eshopfile.zhiyousx.com/541-20201028143352.jpg"
+    ],
+    "introduction": "<p>　　华清宫（华清池&middot;骊山）景区位于西安城东30公里，与&ldquo;世界第八大奇迹&rdquo;兵马俑相毗邻。为国家首批5A级旅游景区、全国重点风景名胜区、全国重点文物保护单位、国家级文化产业示范基地。 周、秦、汉、隋、唐等历代帝王在此建有离宫别苑。 因其亘古不变的温泉资源、烽火戏诸侯的历史典故、唐明皇与杨贵妃的爱情故事、&ldquo;西安事变&rdquo;发生地而享誉海内外，成为中国唐宫文化旅游标志性景区。华清宫内集中着唐御汤遗址博物馆、西安事变旧址&mdash;&mdash;五间厅、九龙湖与芙蓉湖风景区、唐梨园遗址博物馆等文化区和飞霜殿、万寿殿、长生殿、环园和禹王殿等标志性建筑群。骊山海拔1302米，老母殿、老君殿、烽火台、兵谏亭、石瓮寺、遇仙桥等景点星罗棋布，&ldquo;骊山晚照&rdquo;是著名的&ldquo;关中八景&rdquo;之一。</p>",
+    "introductionText": "　　华清宫（华清池·骊山）景区位于西安城东30公里，与“世界第八大奇迹”兵马俑相毗邻。为国家首批5A级旅游景区、全国重点风景名胜区、全国重点文物保护单位、国家级文化产业示范基地。 周、秦、汉、隋、唐等历代帝王在此建有离宫别苑。 因其亘古不变的温泉资源、烽火戏诸侯的历史典故、唐明皇与杨贵妃的爱情故事、“西安事变”发生地而享誉海内外，成为中国唐宫文化旅游标志性景区。华清宫内集中着唐御汤遗址博物馆、西安事变旧址——五间厅、九龙湖与芙蓉湖风景区、唐梨园遗址博物馆等文化区和飞霜殿、万寿殿、长生殿、环园和禹王殿等标志性建筑群。骊山海拔1302米，老母殿、老君殿、烽火台、兵谏亭、石瓮寺、遇仙桥等景点星罗棋布，“骊山晚照”是著名的“关中八景”之一。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "21",
+        "name": "地标打卡",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "18",
+        "name": "红色旅游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "69",
+        "name": "商务旅",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026415628289",
+        "contentId": "1418152026403045378",
+        "name": "陕西5A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1450028527872122881",
+        "contentId": "1450028527859539970",
+        "name": "陕西省文化遗址公园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "老年人",
+        "limit": "年满65周岁持本人身份证",
+        "discount": "直接刷证入园"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米(含)以下、或6周岁(含) 以下持本人身份证",
+        "discount": "直接刷证入园"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭残疾证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "二级以上重度残疾人需要陪护的",
+        "discount": "1名陪同人员免费"
+      },
+      {
+        "peopleType": "军人",
+        "limit": "持军官证、消防员证、士兵证、学员证、武警警官证的现役军人，持有离休退休军官证的军队离休退休干部和退休士官",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "人民警察",
+        "limit": "凭《人民警察证》",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "6周岁(不含)-18周岁(不含)凭身份证或户口本",
+        "discount": "优惠"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "全日制大中小学生(不含成人教育研究生)凭有效学生证",
+        "discount": "优惠"
+      },
+      {
+        "peopleType": "退役军人",
+        "limit": "凭退役证、优待证",
+        "discount": "半价优惠"
+      },
+      {
+        "peopleType": "身高1.2米以上，或6周岁至18周岁未成年人",
+        "limit": "持本人户口本或身份证",
+        "discount": "半价优惠"
+      },
+      {
+        "peopleType": "留学生",
+        "limit": "凭我国境内就读学校学生证",
+        "discount": "半价优惠"
+      },
+      {
+        "peopleType": "本科及本科以下全日制学生",
+        "limit": "持本人在校注册的有效学生证",
+        "discount": "享学生票"
+      },
+      {
+        "peopleType": "享受国家特殊津贴及省级以上突出贡献的专家、劳动模范",
+        "limit": "持本人相关荣誉证书原件及本人身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "导游",
+        "limit": "持导游证及旅行社带团计划单",
+        "discount": "免费"
+      }
+    ],
+    "officialWebsite": [
+      "http://www.hqc.cn/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "电话",
+        "telephone": "029-83812004"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": "华清珍宝",
+    "contentResourcesDtoList": [
+      {
+        "id": "2082012869693079553",
+        "resourcesId": "1321339508812439554",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/521-20201028143405.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-07-28 15:58:44",
+        "updateTime": "2026-07-28 15:58:44",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082012869693079554",
+        "resourcesId": "1321339508812439554",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/531-20201028143411.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-07-28 15:58:44",
+        "updateTime": "2026-07-28 15:58:44",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082012869697273857",
+        "resourcesId": "1321339508812439554",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/551-20201028143419.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-07-28 15:58:44",
+        "updateTime": "2026-07-28 15:58:44",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1551836855409541121",
+      "rankingId": null,
+      "indexInRanking": 9,
+      "rankingName": "外地游客西安必逛榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1818221757267132417",
+        "rankingId": "1818221762493235202",
+        "indexInRanking": null,
+        "rankingName": "西安汉服拍摄地人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1538830830115508226",
+        "rankingId": "1538830831147307010",
+        "indexInRanking": null,
+        "rankingName": "西安必游人气排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1676883692355641345",
+        "rankingId": "1676883693114810370",
+        "indexInRanking": null,
+        "rankingName": "西安热门景区人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "2082012869714051073",
+        "scenicSpotId": "1320579064720941182",
+        "contentModuleName": "华清珍宝",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1412977038767185921",
+            "type": 5,
+            "title": "亘古不变的温泉资源",
+            "subtitle": null,
+            "coverImage": "https://eshopfile.zhiyousx.com/2021070811285639201.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412977403675828225",
+            "type": 5,
+            "title": "烽火戏诸侯的历史故事",
+            "subtitle": null,
+            "coverImage": "https://eshopfile.zhiyousx.com/2021070811303065355.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412977645997547522",
+            "type": 5,
+            "title": "唐明皇与杨贵妃的爱情故事",
+            "subtitle": null,
+            "coverImage": "https://eshopfile.zhiyousx.com/2021070811311931105.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412977948100681730",
+            "type": 5,
+            "title": "西安事变发生地",
+            "subtitle": null,
+            "coverImage": "https://eshopfile.zhiyousx.com/2021070811321297481.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412980069332180993",
+            "type": 5,
+            "title": "三彩套兽 唐代",
+            "subtitle": null,
+            "coverImage": "https://eshopfile.zhiyousx.com/2021070811404391291.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412979808136093698",
+            "type": 5,
+            "title": "三彩鸱吻 唐代",
+            "subtitle": null,
+            "coverImage": "https://eshopfile.zhiyousx.com/2021070811401065254.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412979437862936577",
+            "type": 5,
+            "title": "蒋介石手谕 民国",
+            "subtitle": null,
+            "coverImage": "https://eshopfile.zhiyousx.com/2021070811383770341.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412979154139242497",
+            "type": 5,
+            "title": "“温泉颂”碑 北魏",
+            "subtitle": null,
+            "coverImage": "https://eshopfile.zhiyousx.com/2021070811371407925.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1419506149639675905",
+            "type": 6,
+            "title": "《长恨歌》",
+            "subtitle": "中国旅游文化创意产业的典范之作",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021072716085385820.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1420309963347116033",
+            "type": 6,
+            "title": "《12·12西安事变》",
+            "subtitle": "中国第一部讲述西安事变的旅游演艺",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021072816164648574.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": "",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

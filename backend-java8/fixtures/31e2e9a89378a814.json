@@ -1,0 +1,221 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064188264456",
+    "scenicName": "雁山瀑布",
+    "tag": "瀑布、碧潭、溪涧、悬崖、奇石、古藤",
+    "level": 4,
+    "cityId": "1320664694422548481",
+    "cityName": "安康",
+    "address": "安康市石泉县石蒿路",
+    "longitude": "108.2458380000",
+    "latitude": "32.8844020000",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 285,
+    "topColour": "#4EAE6B",
+    "centralColour": "#3C7B5C",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/雁山瀑布-20201030123019.jpg"
+    ],
+    "introduction": "<p><span style=\"color: #333333; font-family: 'microsoft yahei', Tahoma, Simsun, sans-serif; font-size: 12px; background-color: #ffffff;\">　　雁山瀑布位于陕西省安康市石泉县喜河镇境内，毗邻汉江，北依后柳，南靠喜河，距石泉县城约20公里，从县城出发，国道、汉江水运航道直达景区，交通十分便利。巴山山脉的青龙山、大雁山合抱景区，形成了独特的小气候环境，在峡谷中造就了瀑布、碧潭、溪涧、悬崖、奇石、古藤等自然景观，构成了一幅幅绚丽的山水画卷，被众多专家誉为&ldquo;生态立体水景&rdquo;。</span></p>",
+    "introductionText": "　　雁山瀑布位于陕西省安康市石泉县喜河镇境内，毗邻汉江，北依后柳，南靠喜河，距石泉县城约20公里，从县城出发，国道、汉江水运航道直达景区，交通十分便利。巴山山脉的青龙山、大雁山合抱景区，形成了独特的小气候环境，在峡谷中造就了瀑布、碧潭、溪涧、悬崖、奇石、古藤等自然景观，构成了一幅幅绚丽的山水画卷，被众多专家誉为“生态立体水景”。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": null,
+    "discountVoList": null,
+    "facilitiesServicesVoList": null,
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": null,
+    "wxSubscriptionVoList": null,
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1635568423951949826",
+        "resourcesId": "1322034571708227586",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/雁山瀑布1-20201030123003.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2023-03-14 17:07:54",
+        "updateTime": "2023-03-14 17:07:54",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1635568423964532737",
+        "resourcesId": "1322034571708227586",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/雁山瀑布2-20201030123010.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2023-03-14 17:07:54",
+        "updateTime": "2023-03-14 17:07:54",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": null,
+      "rankingId": null,
+      "indexInRanking": null,
+      "rankingName": null,
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": null,
+    "hotelArrivalDepartureTime": null,
+    "hotelChildrenBed": null,
+    "hotelPet": null,
+    "hotelBreakfast": null,
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -147,7 +147,7 @@
             <view class="item data-v-6c16d096" wx:for="{{itemInfo.l2}}" wx:for-index="i" wx:for-item="it">
                 <view class="row data-v-6c16d096">
                     <view class="l data-v-6c16d096">
-                        <image mode class="image-l data-v-6c16d096" src="https://eshopfile.zhiyousx.com/173950170060653880.png"></image>
+                        <image mode class="image-l data-v-6c16d096" src="/static/captured/81a46c1254d503b2.png"></image>
                     </view>
                     <input bindblur="__e" bindinput="__e" class="r data-v-6c16d096" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '$0','name','$event',['trim'] ],[ [ ['groupTicketArr','',itemIndex],['inputGroup','',i] ] ] ] ] ],[ 'blur',[ ['$forceUpdate'] ] ] ]}}" data-type="name" placeholder="请按Surname/Given name格式填写" value="{{it.$orig.name}}" wx:if="{{it.$orig.cardType==1}}"></input>
                     <block wx:else>
@@ -219,7 +219,7 @@
         <view class="content data-v-6c16d096">
             <view class="t data-v-6c16d096">
                 <view class="title data-v-6c16d096">
-                    <image class="data-v-6c16d096" src="https://eshopfile.zhiyousx.com/170065317610766757.png" wx:if="{{infoObj.scenicType!=1}}"></image>
+                    <image class="data-v-6c16d096" src="/static/captured/4ff114e7b2932b23.png" wx:if="{{infoObj.scenicType!=1}}"></image>
                     <view class="data-v-6c16d096">{{(infoObj.skuItemType==0?'购买':'预约')+'成功'}}</view>
                 </view>
                 <view class="detail data-v-6c16d096">
@@ -339,7 +339,7 @@
                                 <view class="col2 data-v-6c16d096">{{'门票或'+(infoObj.skuItemType==0?'订':'预约')+'单问题'}}</view>
                                 <view class="col3 data-v-6c16d096">4000292296</view>
                                 <view class="col4 data-v-6c16d096">
-                                    <image mode bindtap="__e" class="data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'call',['4000292296'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/spotIntroNew/dianhua.png"></image>
+                                    <image mode bindtap="__e" class="data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'call',['4000292296'] ] ] ] ]}}" src="/static/captured/9653e7f23b8aa244.png"></image>
                                 </view>
                             </view>
                         </view>
@@ -351,7 +351,7 @@
                                 <view class="col2 singleLineText data-v-6c16d096">{{item.telephoneTitle||''}}</view>
                                 <view class="col3 singleLineText data-v-6c16d096">{{item.telephone||''}}</view>
                                 <view class="col4 data-v-6c16d096">
-                                    <image mode bindtap="__e" class="data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'call',['$0'],[ [ ['telephoneVoList','',__i0__,'telephone'] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/spotIntroNew/dianhua.png"></image>
+                                    <image mode bindtap="__e" class="data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'call',['$0'],[ [ ['telephoneVoList','',__i0__,'telephone'] ] ] ] ] ] ]}}" src="/static/captured/9653e7f23b8aa244.png"></image>
                                 </view>
                             </view>
                         </view>
@@ -421,14 +421,14 @@
                         <view class="condition data-v-6c16d096" wx:if="{{item.$orig.type==2}}">无门槛</view>
                         <view class="condition data-v-6c16d096" wx:if="{{item.$orig.type==1}}">{{'满'+item.$orig.threshold+'元可用'}}</view>
                     </view>
-                    <image class="radio data-v-6c16d096" mode="aspect" src="https://eshopfile.zhiyousx.com/2022031716044893716.png" wx:if="{{userCouponId==item.$orig.userCouponId}}"></image>
-                    <image class="radio data-v-6c16d096" mode="aspect" src="https://eshopfile.zhiyousx.com/2022031716040660783.png" wx:else></image>
+                    <image class="radio data-v-6c16d096" mode="aspect" src="/static/captured/b6e3452b44eb6f95.png" wx:if="{{userCouponId==item.$orig.userCouponId}}"></image>
+                    <image class="radio data-v-6c16d096" mode="aspect" src="/static/captured/17afb0fed7be66e1.png" wx:else></image>
                 </view>
             </scroll-view>
             <view bindtap="__e" class="no data-v-6c16d096" data-event-opts="{{[ [ 'tap',[ [ 'cancelCoupon',['$event'] ] ] ] ]}}">
                 <text class="data-v-6c16d096">暂不使用优惠券</text>
-                <image class="data-v-6c16d096" mode="aspect" src="https://eshopfile.zhiyousx.com/2022031716044893716.png" wx:if="{{userCouponId==-1}}"></image>
-                <image class="data-v-6c16d096" mode="aspect" src="https://eshopfile.zhiyousx.com/2022031716040660783.png" wx:else></image>
+                <image class="data-v-6c16d096" mode="aspect" src="/static/captured/b6e3452b44eb6f95.png" wx:if="{{userCouponId==-1}}"></image>
+                <image class="data-v-6c16d096" mode="aspect" src="/static/captured/17afb0fed7be66e1.png" wx:else></image>
             </view>
         </view>
     </u-popup>
@@ -515,9 +515,9 @@
                 <scroll-view class="card-box data-v-6c16d096" scrollY="{{true}}" style="{{'height:'+(gbCl>3?'604rpx':gbCl==1?'255rpx':gbCl*151+'rpx')+';'}}">
                     <view class="data-v-6c16d096">
                         <view class="{{['data-v-6c16d096',gbCl==1?'candItem1':'',gbCl>1?'candItem':'']}}" wx:for="{{$root.l10}}" wx:for-index="i" wx:for-item="it">
-                            <image mode class="it-img1 data-v-6c16d096" src="https://eshopfile.zhiyousx.com/166384545957301610.png" wx:if="{{gbCl>1&&i==0}}"></image>
-                            <image mode class="it-img2 data-v-6c16d096" src="https://eshopfile.zhiyousx.com/166384386610789834.png" wx:if="{{gbCl>1&&i>0&&i<gbCl-1}}"></image>
-                            <image mode class="it-img3 data-v-6c16d096" src="https://eshopfile.zhiyousx.com/166384545957301610.png" wx:if="{{gbCl>1&&gbCl-i==1}}"></image>
+                            <image mode class="it-img1 data-v-6c16d096" src="/static/captured/f2e7f03034cfff25.png" wx:if="{{gbCl>1&&i==0}}"></image>
+                            <image mode class="it-img2 data-v-6c16d096" src="/static/captured/ce87d44f6357412a.png" wx:if="{{gbCl>1&&i>0&&i<gbCl-1}}"></image>
+                            <image mode class="it-img3 data-v-6c16d096" src="/static/captured/f2e7f03034cfff25.png" wx:if="{{gbCl>1&&gbCl-i==1}}"></image>
                             <view class="item-card-box data-v-6c16d096">
                                 <view class="left data-v-6c16d096">
                                     <image class="data-v-6c16d096" mode="aspectFill" src="{{it.$orig.couponImage}}"></image>
@@ -620,14 +620,14 @@
     <view class="{{['red-packets-Box','data-v-6c16d096',animationType>0?'b1':'']}}" hidden="{{!showPacketBox}}" style="{{'background:'+(animationType==0?'rgba(0, 0, 0, 0.7)':'')+';'}}">
         <view bindtap="__e" class="{{['red-box','data-v-6c16d096',animationType==0?'a0':'',animationType==1?'a1':'',animationType>1&&animationType<3?'a2':'',animationType==4?'a4':'']}}" data-event-opts="{{[ [ 'tap',[ ['closeBox'] ] ] ]}}">
             <view class="red-box-imgBox data-v-6c16d096">
-                <image mode class="red-img data-v-6c16d096" src="https://eshopfile.zhiyousx.com/166375766042742591.png" wx:if="{{animationType<3}}"></image>
-                <image mode class="{{['red-top','data-v-6c16d096',animationType==3?'a3':'']}}" src="https://eshopfile.zhiyousx.com/166375879186329370.png"></image>
-                <image mode class="{{['red-bottom','data-v-6c16d096',animationType==3?'a31':'']}}" src="https://eshopfile.zhiyousx.com/166375881330329349.png"></image>
-                <image mode class="{{['red-img1-1','data-v-6c16d096',animationType==3?'a32s':'']}}" src="https://eshopfile.zhiyousx.com/166383758911999357.png"></image>
-                <image mode class="{{['red-img1-2','data-v-6c16d096',animationType==3?'a32m':'']}}" src="https://eshopfile.zhiyousx.com/166383762954099488.png"></image>
-                <image mode class="{{['red-img1-3','data-v-6c16d096',animationType==3?'a32l':'']}}" src="https://eshopfile.zhiyousx.com/166383764742027825.png"></image>
-                <image mode class="{{['red-img2','data-v-6c16d096',animationType==3?'a33':'']}}" src="https://eshopfile.zhiyousx.com/166376006214008240.png"></image>
-                <image mode class="{{['red-img3','data-v-6c16d096',animationType==3?'a34':'']}}" src="https://eshopfile.zhiyousx.com/166376009989063829.png"></image>
+                <image mode class="red-img data-v-6c16d096" src="/static/captured/ad5feec231ef7e85.png" wx:if="{{animationType<3}}"></image>
+                <image mode class="{{['red-top','data-v-6c16d096',animationType==3?'a3':'']}}" src="/static/captured/5f7a0a8c70d44164.png"></image>
+                <image mode class="{{['red-bottom','data-v-6c16d096',animationType==3?'a31':'']}}" src="/static/captured/d0563b611e720d35.png"></image>
+                <image mode class="{{['red-img1-1','data-v-6c16d096',animationType==3?'a32s':'']}}" src="/static/captured/1f748c73ba5697f2.png"></image>
+                <image mode class="{{['red-img1-2','data-v-6c16d096',animationType==3?'a32m':'']}}" src="/static/captured/dd8c3e7066a328d4.png"></image>
+                <image mode class="{{['red-img1-3','data-v-6c16d096',animationType==3?'a32l':'']}}" src="/static/captured/77a3dda8be489ec2.png"></image>
+                <image mode class="{{['red-img2','data-v-6c16d096',animationType==3?'a33':'']}}" src="/static/captured/f22ef2a3c0b81cf6.png"></image>
+                <image mode class="{{['red-img3','data-v-6c16d096',animationType==3?'a34':'']}}" src="/static/captured/5c9089f74425fdfc.png"></image>
                 <view class="red-name data-v-6c16d096" hidden="{{!(animationType==0)}}">点击开盲盒</view>
             </view>
         </view>

@@ -1,0 +1,326 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064712552464",
+    "scenicName": "镇北台长城景区",
+    "tag": "陕甘宁蒙晋五省交界处",
+    "level": 3,
+    "cityId": "1320664225474195458",
+    "cityName": "榆林",
+    "address": "榆林市榆阳区榆阳镇吴家梁村",
+    "longitude": "109.7393820000",
+    "latitude": "38.3403470000",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 53,
+    "topColour": "#DA8E59",
+    "centralColour": "#895A1B",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/1-20201028173707.JPG",
+      "https://eshopfile.zhiyousx.com/6-20201028173714.jpg"
+    ],
+    "introduction": "<p>　　镇北台，全国重点文物保护单位。位于陕西省榆林市城北4公里之红山顶上。镇北台是明代长城遗址中最为宏大、气势最为磅礴的建筑物之一，素有中国长城&ldquo;三大奇观之一（东有山海关、中有镇北台、西有嘉峪关）&rdquo;和&ldquo;万里长城第一台&rdquo; 之称。有诗云&ldquo;万里长城的一块坚硬脊椎骨镇北台、永在&rdquo;、&ldquo;上台下台演王朝 进戏出戏扮将士&rdquo;。镇北台据险临下，控南北之咽喉，如巨锁扼边关要隘，为古长城沿线现存最大的要塞之一，是长城的重要组成部分。</p>\n<p>　　镇北台呈方形，共4层，高30余米。台基北长82米，南长76米，东、西各64米，占地面积5056平方米。</p>",
+    "introductionText": "　　镇北台，全国重点文物保护单位。位于陕西省榆林市城北4公里之红山顶上。镇北台是明代长城遗址中最为宏大、气势最为磅礴的建筑物之一，素有中国长城“三大奇观之一（东有山海关、中有镇北台、西有嘉峪关）”和“万里长城第一台” 之称。有诗云“万里长城的一块坚硬脊椎骨镇北台、永在”、“上台下台演王朝 进戏出戏扮将士”。镇北台据险临下，控南北之咽喉，如巨锁扼边关要隘，为古长城沿线现存最大的要塞之一，是长城的重要组成部分。　　镇北台呈方形，共4层，高30余米。台基北长82米，南长76米，东、西各64米，占地面积5056平方米。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "21",
+        "name": "地标打卡",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026386268161",
+        "contentId": "1418152026377879553",
+        "name": "世界遗产名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1450028527872122881",
+        "contentId": "1450028527859539970",
+        "name": "陕西省文化遗址公园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全天开放",
+        "openTimeContent": "7:30~19:30"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "学生",
+        "limit": "凭学生证",
+        "discount": "半价优惠"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>榆林市内乘坐公交3、11路到终点站镇北台下车，沿指示牌右拐步行约15分钟可到达。</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<p>导航榆林市镇北台长城景区</p>"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区电话",
+        "telephone": "0912-3821359"
+      }
+    ],
+    "wxSubscriptionVoList": null,
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "2089256790515646465",
+        "outId": "1320579064712552464",
+        "type": 1,
+        "advertName": "游玩攻略",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021072217251173042.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p>镇北台为全国重点文物保护单位，位于陕西省榆林城北约5公里处的红山顶上。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072217294696389.jpg\" /></p>\n<p>镇北台建于1607年，属于万里长城防御体系之一的观察所，是明长城中部的要塞之一，为古长城沿线现存最大的要塞。台为正方形，四层，外砌砖石，内筑夯土，外砌砖石，底大顶小，逐层收进，总占地近5000平方米。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072217295528514.jpg\" /></p>\n<p>镇北台是明代长城遗址中最为宏大、气势最为磅礴的建筑物，素有中国长城&ldquo;三大奇观之一（东有山海关、中有镇北台、西有嘉峪关）&rdquo;和&ldquo;万里长城第一台&rdquo;之称。镇北台据险临下，控南北之咽喉，如巨锁扼边关要隘。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072217304897467.jpg\" /></p>\n<p>景区门票为30元/人，大门立柱上的对联为：东连山海西接嘉裕&nbsp;万里长城第一台；南蔽秦陇北瞰河套&nbsp;榆塞固垒震九边。这幅对联说明了镇北台的地理位置和重要性。</p>\n<p>门楣上的&ldquo;镇北台&rdquo;三字为当代书法家魏传统所题。</p>\n<p>镇北台因其建筑雄伟和重要性被誉为&ldquo;万里长城第一台&rdquo;，台周边遍植杨树、松树、柏树、柠条等植被。镇北台据险临下，控南北之咽喉，如巨锁扼边关要隘，为古长城沿线现存最大的要塞之一。这座亭子叫&ldquo;超然亭&rdquo;。</p>\n<p>&nbsp;</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2089256790482092033",
+        "resourcesId": "1321385760249896961",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072217345789188.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-08-17 15:43:30",
+        "updateTime": "2026-08-17 15:43:30",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2089256790486286337",
+        "resourcesId": "1321385760249896961",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072217351996498.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-08-17 15:43:30",
+        "updateTime": "2026-08-17 15:43:30",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2089256790490480642",
+        "resourcesId": "1321385760249896961",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/5-20201028173753.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-08-17 15:43:30",
+        "updateTime": "2026-08-17 15:43:30",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2089256790490480643",
+        "resourcesId": "1321385760249896961",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/4-20201028173740.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-08-17 15:43:30",
+        "updateTime": "2026-08-17 15:43:30",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2089256790494674945",
+        "resourcesId": "1321385760249896961",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/33-20201028173803.JPG",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2026-08-17 15:43:30",
+        "updateTime": "2026-08-17 15:43:30",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455743348567547905",
+      "rankingId": null,
+      "indexInRanking": 12,
+      "rankingName": " 榆林必逛景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,281 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064188264667",
+    "scenicName": "唐玄宗泰陵",
+    "tag": "中国历史上最具传奇色彩的皇帝陵墓",
+    "level": -1,
+    "cityId": "1320663137836642305",
+    "cityName": "渭南",
+    "address": "蒲城县东北约15公里的金粟山",
+    "longitude": "109.673298",
+    "latitude": "35.036946",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 176,
+    "topColour": "#7D6A58",
+    "centralColour": "#5B4A3A",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021092811092043023.png"
+    ],
+    "introduction": "<p>　　唐泰陵是关中唐十八陵中最东边的一座。其建制仿唐长安城，规模宏大，封地21.4平方公里，为诸陵最大。虽经一千多年风雨，但神道两侧三十四对石刻仍基本保存完好。石刻形体较小，更注重写实化，人物面部表情各不相同，给人以亲切之感。石刻左文右武，文者握笏，武者仗剑，文臣雍容华贵，武臣勇武骠悍。唐代帝王陵寝都有很多的陪葬墓，但是泰陵却只有一个高力士的陪葬墓。有人说，缘于唐玄宗的高寿，有资格陪葬的臣子都死在他的前面，只有高力士是玄宗死后才去世的；也有人认为这是唐玄宗尽孝道的结果，他不愿意以自己为中心建立陵区，而是想和他的兄弟姐妹一样侍奉他的父亲&hellip;&hellip;无论怎样的历史原因导致了千年过后我们百思不得其解，泰陵以其别样的孤独与唐玄宗生前的显赫形成了强烈的反差。</p>",
+    "introductionText": "　　唐泰陵是关中唐十八陵中最东边的一座。其建制仿唐长安城，规模宏大，封地21.4平方公里，为诸陵最大。虽经一千多年风雨，但神道两侧三十四对石刻仍基本保存完好。石刻形体较小，更注重写实化，人物面部表情各不相同，给人以亲切之感。石刻左文右武，文者握笏，武者仗剑，文臣雍容华贵，武臣勇武骠悍。唐代帝王陵寝都有很多的陪葬墓，但是泰陵却只有一个高力士的陪葬墓。有人说，缘于唐玄宗的高寿，有资格陪葬的臣子都死在他的前面，只有高力士是玄宗死后才去世的；也有人认为这是唐玄宗尽孝道的结果，他不愿意以自己为中心建立陵区，而是想和他的兄弟姐妹一样侍奉他的父亲……无论怎样的历史原因导致了千年过后我们百思不得其解，泰陵以其别样的孤独与唐玄宗生前的显赫形成了强烈的反差。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1450028527872122881",
+        "contentId": "1450028527859539970",
+        "name": "陕西省文化遗址公园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全年",
+        "openTimeContent": "周一至周日<br/>8:00-22:00,22:00停止入场"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "全员",
+        "limit": "无",
+        "discount": "免费"
+      }
+    ],
+    "facilitiesServicesVoList": null,
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": null,
+    "wxSubscriptionVoList": null,
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1450032170302185473",
+        "resourcesId": "1442690342011846658",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092811180495573.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2021-10-18 17:33:04",
+        "updateTime": "2021-10-18 17:33:04",
+        "createBy": "1432951840294678529",
+        "updateBy": "1432951840294678529",
+        "isDeleted": 0
+      },
+      {
+        "id": "1450032170306379777",
+        "resourcesId": "1442690342011846658",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092811181848395.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2021-10-18 17:33:04",
+        "updateTime": "2021-10-18 17:33:04",
+        "createBy": "1432951840294678529",
+        "updateBy": "1432951840294678529",
+        "isDeleted": 0
+      },
+      {
+        "id": "1450032170306379778",
+        "resourcesId": "1442690342011846658",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092811184038365.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2021-10-18 17:33:04",
+        "updateTime": "2021-10-18 17:33:04",
+        "createBy": "1432951840294678529",
+        "updateBy": "1432951840294678529",
+        "isDeleted": 0
+      },
+      {
+        "id": "1450032170310574081",
+        "resourcesId": "1442690342011846658",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092811184853716.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2021-10-18 17:33:04",
+        "updateTime": "2021-10-18 17:33:04",
+        "createBy": "1432951840294678529",
+        "updateBy": "1432951840294678529",
+        "isDeleted": 0
+      },
+      {
+        "id": "1450032170310574082",
+        "resourcesId": "1442690342011846658",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092811185847923.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2021-10-18 17:33:04",
+        "updateTime": "2021-10-18 17:33:04",
+        "createBy": "1432951840294678529",
+        "updateBy": "1432951840294678529",
+        "isDeleted": 0
+      },
+      {
+        "id": "1450032170310574083",
+        "resourcesId": "1442690342011846658",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092811190764674.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2021-10-18 17:33:04",
+        "updateTime": "2021-10-18 17:33:04",
+        "createBy": "1432951840294678529",
+        "updateBy": "1432951840294678529",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1566623053130653698",
+      "rankingId": null,
+      "indexInRanking": 10,
+      "rankingName": "渭南亲子游景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1455112666791124994",
+        "rankingId": "1455112668192022530",
+        "indexInRanking": null,
+        "rankingName": "渭南自驾游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": null,
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "scenicInfoTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": 0,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": null,
+    "hotelArrivalDepartureTime": null,
+    "hotelChildrenBed": null,
+    "hotelPet": null,
+    "hotelBreakfast": null,
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

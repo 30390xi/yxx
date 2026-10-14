@@ -1,0 +1,85 @@
+{
+  "code": 1,
+  "data": {
+    "salesNum": 701,
+    "startingPrice": 98.0,
+    "scenicTicketTypeClassList": [
+      {
+        "id": "1659380684713668609",
+        "ticketTypeClassName": "一日游",
+        "ticketTypeClassNameEn": null,
+        "image": null,
+        "itemList": [
+          {
+            "itemId": "1780863979087372290",
+            "itemTitle": "【直通车】 陕西西安华山一日游 赠海底捞自热米饭+矿泉水+祈福带+登山手套",
+            "itemTitleEn": null,
+            "itemAbbreviate": null,
+            "itemSubTitle": null,
+            "salesNum": 458,
+            "inventedSalesNum": null,
+            "retailPrice": 138.0,
+            "defaultPicUrl": null,
+            "productType": null,
+            "stockStatus": 1,
+            "sellOut": 0,
+            "sellStatus": null,
+            "startPriceFlag": 0,
+            "skuItemType": null,
+            "isFree": null,
+            "scenicType": null,
+            "groupFlag": null,
+            "jumpFlag": null,
+            "jumpUrl": null,
+            "jumpAppId": null,
+            "jumpType": null,
+            "jumpOriId": null,
+            "hideShareFlag": null,
+            "hideCopyFlag": null,
+            "marketPrice": 98.0,
+            "price": 98.0,
+            "bookingInfoTag": null,
+            "maxReward": 6.86,
+            "shareType": "1",
+            "sharePosterUrl": "",
+            "seckillActivity": null,
+            "seckillPrice": null,
+            "seckillItemId": null,
+            "recommendStyleUrl": null,
+            "recommendStyleUrl1": null,
+            "ticketType": 3,
+            "aggregationItemId": null,
+            "productPic": "https://eshopfile.zhiyousx.com/171342603363795825.jpg",
+            "lineHighlightLabelList": [
+              "三环内部分区域接",
+              "赠午餐"
+            ],
+            "cityList": [
+              "西安"
+            ],
+            "travelMode": 1,
+            "journeyDay": 1,
+            "journeyNight": 0,
+            "fromCityList": [
+              "西安"
+            ],
+            "cashStartPriceFlag": null,
+            "lineTagList": [
+              "可订明日",
+              "上门接"
+            ],
+            "selloutSuggestFlag": null,
+            "targetGroupLimitFlag": null,
+            "targetGroupsRuleDescList": null,
+            "discountedPrice": 98.0,
+            "userCouponId": null,
+            "couponName": null
+          }
+        ]
+      }
+    ],
+    "sellOut": 0
+  },
+  "msg": "成功",
+  "success": true
+}

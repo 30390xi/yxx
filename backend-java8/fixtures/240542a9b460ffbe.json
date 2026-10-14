@@ -1,0 +1,203 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941103",
+    "scenicName": "尧头窑文化旅游生态园区",
+    "tag": "我国唯一现存完整的陶瓷遗址生态区",
+    "level": 4,
+    "address": "渭南市澄城县尧杨路",
+    "longitude": "109.850572",
+    "latitude": "35.151175",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#D98D39",
+    "centralColour": "#B7762E",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/47-20201029172425.jpg"
+    ],
+    "introduction": "<p>　　尧头窑遗址位于历史名镇尧头镇附近，依山傍水，风景独特，拥有深厚的历史人文景观，总面积4平方公里之多，目前保存着元、 明、清、民国各个时期以来遗存的古遗址、古作坊40余座，古民居100余家，是我国唯一现存完整的陶瓷遗址生态区，极具保护挖掘开发价值。据史料记载，澄城&ldquo;瓷砂始于唐&rdquo;。尧头镇古称&ldquo;窑头镇&rdquo;，因瓷器窑较多而得名。由于古圣人&ldquo;尧&rdquo;与&ldquo;窑&rdquo;的发音相同，圣人之&ldquo;尧&rdquo;这个优雅的字符慢慢取代了瓷窑的&ldquo;窑&rdquo;，尧头镇的称谓延用直今。尧头陶瓷，2006年6月经国务院批准、文化部颁布为第一批国家级非物质文化遗产;2013年4月，尧头窑又被国务院又批准为第七批国家级重点文物保护单位;2013年8月，尧头村被国家三部委列入中国传统村落榜单，成为我省八个入选村落之一;2014年2月尧头镇又被国家评为第六批中国历史文化名镇。</p>",
+    "introductionText": "　　尧头窑遗址位于历史名镇尧头镇附近，依山傍水，风景独特，拥有深厚的历史人文景观，总面积4平方公里之多，目前保存着元、 明、清、民国各个时期以来遗存的古遗址、古作坊40余座，古民居100余家，是我国唯一现存完整的陶瓷遗址生态区，极具保护挖掘开发价值。据史料记载，澄城“瓷砂始于唐”。尧头镇古称“窑头镇”，因瓷器窑较多而得名。由于古圣人“尧”与“窑”的发音相同，圣人之“尧”这个优雅的字符慢慢取代了瓷窑的“窑”，尧头镇的称谓延用直今。尧头陶瓷，2006年6月经国务院批准、文化部颁布为第一批国家级非物质文化遗产;2013年4月，尧头窑又被国务院又批准为第七批国家级重点文物保护单位;2013年8月，尧头村被国家三部委列入中国传统村落榜单，成为我省八个入选村落之一;2014年2月尧头镇又被国家评为第六批中国历史文化名镇。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "64",
+        "name": "古村古镇",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "全员",
+        "limit": "无",
+        "discount": "免费"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0913-6019666"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1443041572340940802",
+        "resourcesId": "1321744888025604097",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/48-20201029172439.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2021-09-29 10:34:55",
+        "updateTime": "2021-09-29 10:34:55",
+        "createBy": "1427085429085155330",
+        "updateBy": "1427085429085155330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1443041572340940803",
+        "resourcesId": "1321744888025604097",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/49-20201029172452.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2021-09-29 10:34:55",
+        "updateTime": "2021-09-29 10:34:55",
+        "createBy": "1427085429085155330",
+        "updateBy": "1427085429085155330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1443041572345135106",
+        "resourcesId": "1321744888025604097",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/50-20201029172500.JPG",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2021-09-29 10:34:55",
+        "updateTime": "2021-09-29 10:34:55",
+        "createBy": "1427085429085155330",
+        "updateBy": "1427085429085155330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1566623053130653698",
+      "rankingId": null,
+      "indexInRanking": 12,
+      "rankingName": "渭南亲子游景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1455112666791124994",
+        "rankingId": "1455112668192022530",
+        "indexInRanking": null,
+        "rankingName": "渭南自驾游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -7,7 +7,7 @@
         <view bindtap="__e" class="item-box data-v-f5e6c02e" data-event-opts="{{[ [ 'tap',[ [ 'openMedia',[index] ] ] ] ]}}" wx:if="{{item.resourcesType==1||item.resourcesType==2&&showVideo}}" wx:for="{{dataList}}" wx:key="index">
             <image class="cover data-v-f5e6c02e" mode="aspectFill" src="{{item.resourcesType==1?item.resourcesUrl:item.coverImage}}"></image>
             <view class="mask data-v-f5e6c02e" wx:if="{{item.resourcesType==2}}">
-                <image mode class="icon data-v-f5e6c02e" src="https://eshopfile.zhiyousx.com/spotDetailNew/bofang2.png"></image>
+                <image mode class="icon data-v-f5e6c02e" src="/static/captured/92b600b4dbb76811.png"></image>
             </view>
         </view>
     </view>

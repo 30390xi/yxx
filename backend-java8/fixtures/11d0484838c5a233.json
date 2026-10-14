@@ -1,0 +1,165 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1422757752438046721",
+    "contentId": "1422757752429658114",
+    "rankingName": "秦岭野生动物园人气榜",
+    "rankingClass": "0",
+    "rankingType": "2",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/162804685290713571.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": null,
+    "rankingInclude": "个动物",
+    "rankingPersonalInfo": "我看过的小动物",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#4EAE6B",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1419500843224358914",
+        "originType": "2",
+        "originName": "猛兽区-狮区",
+        "originSubtitleName": "猫猫界的大哥大",
+        "originUrl": "https://eshopfile.zhiyousx.com/162726999936072695.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/162805876832908374.jpg",
+          "https://eshopfile.zhiyousx.com/162805886058484256.jpg",
+          "https://eshopfile.zhiyousx.com/162805897101722226.jpg"
+        ],
+        "sort": "10",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "1",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1418131971267125250",
+        "originType": "2",
+        "originName": "步行区-大象犀牛馆",
+        "originSubtitleName": "大象犀牛哥俩好",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021072216495288808.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021072216505492295.jpg",
+          "https://eshopfile.zhiyousx.com/162805911145015668.jpg",
+          "https://eshopfile.zhiyousx.com/162805915581678653.jpg",
+          "https://eshopfile.zhiyousx.com/162805932692099982.jpg"
+        ],
+        "sort": "11",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1419498285936238594",
+        "originType": "2",
+        "originName": "猛兽区-虎区",
+        "originSubtitleName": "虎虎生威",
+        "originUrl": "https://eshopfile.zhiyousx.com/162726902637794801.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/162726904450325499.jpg",
+          "https://eshopfile.zhiyousx.com/162805979604818762.jpg",
+          "https://eshopfile.zhiyousx.com/162805984201110164.jpg",
+          "https://eshopfile.zhiyousx.com/162805994729068695.jpg"
+        ],
+        "sort": "12",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "1",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1419507818783924226",
+        "originType": "2",
+        "originName": "猛兽区-狼区",
+        "originSubtitleName": "我们是来自西北的狼",
+        "originUrl": "https://eshopfile.zhiyousx.com/162727157350785670.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/162746650824770667.jpg",
+          "https://eshopfile.zhiyousx.com/162746650095561752.jpg"
+        ],
+        "sort": "13",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "3",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1418144706776293377",
+        "originType": "2",
+        "originName": "步行区-中型猛兽馆",
+        "originSubtitleName": "据说这儿是各种豹子扎堆的地方",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021072217340499970.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/162746570207800636.jpg",
+          "https://eshopfile.zhiyousx.com/162746570948162355.jpg",
+          "https://eshopfile.zhiyousx.com/162746579202872189.jpg",
+          "https://eshopfile.zhiyousx.com/162746572430158517.jpg",
+          "https://eshopfile.zhiyousx.com/162746582653496539.jpg"
+        ],
+        "sort": "14",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "1",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1418141257003196418",
+        "originType": "2",
+        "originName": "步行区-两栖爬行馆",
+        "originSubtitleName": "前方有鳄鱼出没",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021072217291884527.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/162806154014281203.jpg",
+          "https://eshopfile.zhiyousx.com/162806158683241441.jpg",
+          "https://eshopfile.zhiyousx.com/162806162534069258.jpg",
+          "https://eshopfile.zhiyousx.com/162806165540175247.jpg"
+        ],
+        "sort": "15",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "2",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1418142116793573377",
+        "originType": "2",
+        "originName": "步行区-灵长类馆",
+        "originSubtitleName": "全动物园最聪明的宝贝聚集地",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021072217311520057.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/162806180557363172.jpg",
+          "https://eshopfile.zhiyousx.com/162806195761609197.jpg",
+          "https://eshopfile.zhiyousx.com/162806196542085518.jpg",
+          "https://eshopfile.zhiyousx.com/162806197308199112.jpg"
+        ],
+        "sort": "16",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "17",
+    "favoriteSum": "121",
+    "personalInfoValue": "0/17"
+  },
+  "msg": "成功",
+  "success": true
+}

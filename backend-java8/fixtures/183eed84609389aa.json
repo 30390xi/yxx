@@ -1,0 +1,497 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941069",
+    "scenicName": "溪山胜境景区",
+    "tag": "《溪山行旅图》原景地",
+    "level": 4,
+    "address": "铜川市耀州区照金镇秀房沟",
+    "longitude": "108.647547",
+    "latitude": "35.097328",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#CC6C33",
+    "centralColour": "#9B5227",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/xiahsan5-20201029111003.jpg",
+      "https://eshopfile.zhiyousx.com/xishan3-20201029111009.jpg"
+    ],
+    "introduction": "<p>　　溪山胜境景区是照金丹霞地貌的核心区域，也是北宋山水画家范宽《溪山行旅图》的原景地和历代山水画界的朝圣地。这里平均海拔1600余米，森林覆盖率95%，由1.37亿年前白垩纪时期的红色砂砾岩经过漫长的风化剥落、重力崩塌和流水侵蚀，最终形成顶平、身陡、麓缓的赤壁丹崖峰林，大自然的鬼斧神工造就出这里山势雄伟、奇峰林立、形态各异的丹霞景观，具有极为丰富的地质内涵。</p>",
+    "introductionText": "　　溪山胜境景区是照金丹霞地貌的核心区域，也是北宋山水画家范宽《溪山行旅图》的原景地和历代山水画界的朝圣地。这里平均海拔1600余米，森林覆盖率95%，由1.37亿年前白垩纪时期的红色砂砾岩经过漫长的风化剥落、重力崩塌和流水侵蚀，最终形成顶平、身陡、麓缓的赤壁丹崖峰林，大自然的鬼斧神工造就出这里山势雄伟、奇峰林立、形态各异的丹霞景观，具有极为丰富的地质内涵。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "老人",
+        "limit": "年龄65周岁(含)以上凭老年证或身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米(不含)以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭残疾证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "军人",
+        "limit": "现役军人凭军官证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "年龄60周岁(含)至65周岁(不含)凭老年证或身份证",
+        "discount": "半价优惠"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米(含)至1.5米(不含)",
+        "discount": "半价优惠"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "全日制大中小学生(不含成人教育研究生)凭学生证",
+        "discount": "半价优惠"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "官方电话",
+        "telephone": "0919-6931666"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1635550611347574786",
+        "resourcesId": "1321650908646629377",
+        "title": "溪山胜境宣传片",
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2022081615083093663.mp4",
+        "coverImage": "https://eshopfile.zhiyousx.com/166063369715181263.png",
+        "videoId": "1559436977802719234",
+        "resourcesType": 2,
+        "sequence": 1,
+        "describe": "丹霞画中游，行旅溪山秀，溪山胜境欢迎您。",
+        "createTime": "2023-03-14 15:57:07",
+        "updateTime": "2023-03-14 15:57:07",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1635550611368546305",
+        "resourcesId": "1321650908646629377",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166012578522197225.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": "",
+        "createTime": "2023-03-14 15:57:07",
+        "updateTime": "2023-03-14 15:57:07",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1635550611381129217",
+        "resourcesId": "1321650908646629377",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166012578571146869.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": "",
+        "createTime": "2023-03-14 15:57:07",
+        "updateTime": "2023-03-14 15:57:07",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1635550611393712130",
+        "resourcesId": "1321650908646629377",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166012578631288491.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": "",
+        "createTime": "2023-03-14 15:57:07",
+        "updateTime": "2023-03-14 15:57:07",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1635550611402100738",
+        "resourcesId": "1321650908646629377",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166012578719307395.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": "",
+        "createTime": "2023-03-14 15:57:07",
+        "updateTime": "2023-03-14 15:57:07",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1635550611414683649",
+        "resourcesId": "1321650908646629377",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166012578786449233.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": "",
+        "createTime": "2023-03-14 15:57:07",
+        "updateTime": "2023-03-14 15:57:07",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1635550611427266561",
+        "resourcesId": "1321650908646629377",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166012578838013233.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": "",
+        "createTime": "2023-03-14 15:57:07",
+        "updateTime": "2023-03-14 15:57:07",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1635550611439849474",
+        "resourcesId": "1321650908646629377",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166012578896466085.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": "",
+        "createTime": "2023-03-14 15:57:07",
+        "updateTime": "2023-03-14 15:57:07",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1635550611452432385",
+        "resourcesId": "1321650908646629377",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166012578953817504.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": "",
+        "createTime": "2023-03-14 15:57:07",
+        "updateTime": "2023-03-14 15:57:07",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1635550611465015297",
+        "resourcesId": "1321650908646629377",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166012579004784591.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": "",
+        "createTime": "2023-03-14 15:57:07",
+        "updateTime": "2023-03-14 15:57:07",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1635550611473403905",
+        "resourcesId": "1321650908646629377",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166012579059905068.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 11,
+        "describe": "",
+        "createTime": "2023-03-14 15:57:07",
+        "updateTime": "2023-03-14 15:57:07",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1635550611485986818",
+        "resourcesId": "1321650908646629377",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166012579109979630.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 12,
+        "describe": "",
+        "createTime": "2023-03-14 15:57:07",
+        "updateTime": "2023-03-14 15:57:07",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1635550611498569729",
+        "resourcesId": "1321650908646629377",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166012579175170567.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 13,
+        "describe": "",
+        "createTime": "2023-03-14 15:57:07",
+        "updateTime": "2023-03-14 15:57:07",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1635550611511152641",
+        "resourcesId": "1321650908646629377",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/010251200087i271o4338_R_1600_10000-20201029111052.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 14,
+        "describe": null,
+        "createTime": "2023-03-14 15:57:07",
+        "updateTime": "2023-03-14 15:57:07",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1635550611523735554",
+        "resourcesId": "1321650908646629377",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/xiashan4-20201029111106.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 15,
+        "describe": null,
+        "createTime": "2023-03-14 15:57:07",
+        "updateTime": "2023-03-14 15:57:07",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455081861037531138",
+      "rankingId": null,
+      "indexInRanking": 8,
+      "rankingName": "铜川必游景区人气榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1559032346152939522",
+        "rankingId": "1559032347344121858",
+        "indexInRanking": null,
+        "rankingName": "铜川亲子游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "1635550611561484290",
+        "scenicSpotId": "1320579064720941069",
+        "contentModuleName": "溪山美景",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1557187657623810050",
+            "type": 5,
+            "title": "火车驿站",
+            "subtitle": "绿皮火车怀旧打卡地",
+            "coverImage": "https://eshopfile.zhiyousx.com/166009743423066720.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1557294000221384706",
+            "type": 5,
+            "title": "颐静湖",
+            "subtitle": "湖光山色辉相映 流水落花人无踪",
+            "coverImage": "https://eshopfile.zhiyousx.com/166012271201794387.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1557302279454519297",
+            "type": 5,
+            "title": "画里溪山街",
+            "subtitle": "灵山秀水 丹崖险峻 溪山胜境核心区域",
+            "coverImage": "https://eshopfile.zhiyousx.com/166012462107651457.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

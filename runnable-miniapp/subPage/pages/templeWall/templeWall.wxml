@@ -1,16 +1,16 @@
 <view class="photoWall data-v-231ac936">
     <uni-navbar bind:__l="__l" class="data-v-231ac936" type="transparentFixed" vueId="79c98c00-1"></uni-navbar>
     <view class="top-box data-v-231ac936">
-        <image mode class="top-bg data-v-231ac936" src="https://eshopfile.zhiyousx.com/2022100815285282248.jpg"></image>
-        <image mode class="user-title data-v-231ac936" src="https://eshopfile.zhiyousx.com/2022100815331079289.png"></image>
-        <image mode class="title-img data-v-231ac936" src="https://eshopfile.zhiyousx.com/2022100815330628059.png"></image>
-        <image mode bindtap="__e" class="tip-but1 data-v-231ac936" data-event-opts="{{[ [ 'tap',[ [ 'jumpSpot',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/2022100815262376681.png"></image>
+        <image mode class="top-bg data-v-231ac936" src="/static/captured/236b17ac06ec96d6.jpg"></image>
+        <image mode class="user-title data-v-231ac936" src="/static/captured/182726eaa5b4b201.png"></image>
+        <image mode class="title-img data-v-231ac936" src="/static/captured/975247a7e315b01f.png"></image>
+        <image mode bindtap="__e" class="tip-but1 data-v-231ac936" data-event-opts="{{[ [ 'tap',[ [ 'jumpSpot',['$event'] ] ] ] ]}}" src="/static/captured/1e451bb61fa870cd.png"></image>
     </view>
     <view class="imgList-box data-v-231ac936">
         <u-waterfall addTime="50" bind:__l="__l" bind:input="__e" class="data-v-231ac936 vue-ref" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','flowList','$event',[] ] ] ] ] ]}}" data-ref="uWaterfall" data-vue-generic="scoped" value="{{flowList}}" vueId="79c98c00-2" vueSlots="{{['right','left']}}"></u-waterfall>
     </view>
-    <image mode class="bottom-box data-v-231ac936" src="https://eshopfile.zhiyousx.com/2022100815174064482.png"></image>
-    <image mode bindtap="__e" class="uploadImg data-v-231ac936" data-event-opts="{{[ [ 'tap',[ [ 'uploadImg',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/2022100815144246270.png"></image>
+    <image mode class="bottom-box data-v-231ac936" src="/static/captured/14826c1595c112b9.png"></image>
+    <image mode bindtap="__e" class="uploadImg data-v-231ac936" data-event-opts="{{[ [ 'tap',[ [ 'uploadImg',['$event'] ] ] ] ]}}" src="/static/captured/fda75e5591440290.png"></image>
     <u-popup bind:__l="__l" bind:input="__e" class="data-v-231ac936 vue-ref" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showNotice','$event',[] ] ] ] ] ]}}" data-ref="uPopup" mode="center" value="{{showNotice}}" vueId="79c98c00-3" vueSlots="{{['default']}}">
         <view class="notice-box data-v-231ac936">
             <view class="notice-info data-v-231ac936">

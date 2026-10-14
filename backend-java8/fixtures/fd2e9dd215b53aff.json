@@ -1,0 +1,278 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941174",
+    "scenicName": "金丝峡景区",
+    "tag": "风光秀丽 风格独特 风景如画",
+    "level": 5,
+    "address": "商洛市商南县东南部",
+    "longitude": "110.5731710000",
+    "latitude": "33.3602530000",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#81CCB5",
+    "centralColour": "#669579",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/1-20201028151006.jpg",
+      "https://eshopfile.zhiyousx.com/2-20201028151811.jpg",
+      "https://eshopfile.zhiyousx.com/3-20201028151815.jpg",
+      "https://eshopfile.zhiyousx.com/4-20201028151818.jpg",
+      "https://eshopfile.zhiyousx.com/5-20201028151823.jpg"
+    ],
+    "introduction": "<p>　　陕西省商洛市金丝峡景区，位于商洛市商南县东南部新开岭腹地。距商南县城40公里，距金丝峡镇18公里。景区内有白龙峡、黑龙峡、青龙峡、石燕寨和丹江源五大景区，一百多个景点，峡谷总长度20.5公里，纵深10多公里。2015年10月，批准为国家AAAAA级旅游景区、 同时为国家地质公园，是秦岭地区罕见的而且是最完整的嶂谷地质构造。</p>\n<p>2018中国西北旅游营销大会暨旅游装备展上，入围&ldquo;神奇西北100景&rdquo;榜单。</p>",
+    "introductionText": "　　陕西省商洛市金丝峡景区，位于商洛市商南县东南部新开岭腹地。距商南县城40公里，距金丝峡镇18公里。景区内有白龙峡、黑龙峡、青龙峡、石燕寨和丹江源五大景区，一百多个景点，峡谷总长度20.5公里，纵深10多公里。2015年10月，批准为国家AAAAA级旅游景区、 同时为国家地质公园，是秦岭地区罕见的而且是最完整的嶂谷地质构造。2018中国西北旅游营销大会暨旅游装备展上，入围“神奇西北100景”榜单。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "51",
+        "name": "拓展游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "69",
+        "name": "商务旅",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026415628289",
+        "contentId": "1418152026403045378",
+        "name": "陕西5A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026591789057",
+        "contentId": "1418152026583400449",
+        "name": "全国科普教育基地",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "老人",
+        "limit": "65周岁(含)以上凭老年证或身份证",
+        "discount": "免票"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "6周岁(含)以下或身高1.2米(含)以下",
+        "discount": "免票"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭残疾证",
+        "discount": "免票"
+      },
+      {
+        "peopleType": "军人",
+        "limit": "现役军人(含军队离退休干部)或退役军人，凭军官证(离退休证)、士官证或其他有效证件",
+        "discount": "免票"
+      }
+    ],
+    "officialWebsite": [
+      "http://www.sxjsx.cn/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区电话",
+        "telephone": "0914-6566888"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "1565516254906359809",
+        "outId": "1320579064720941174",
+        "type": 1,
+        "advertName": "攻略",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021072616495962108.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p>在全国数百家5A级景区中，陕西秦岭金丝峡堪比&ldquo;小家碧玉&rdquo;，是浓缩了自然精华的峡谷盆景。面积不大，开园时间不长，却因精致妩媚和灵秀，跻身国家森林公园、国家地质公园、国家水利风景区、国家5A级景区行列，荣膺&ldquo;大秦岭封面&rdquo;、&ldquo;中国王牌景区&rdquo;、&ldquo;中国最美十大峡谷&rdquo;等多项桂冠。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072616520480669.jpg\" /></p>\n<p>从气候气象上看，这里冬无严寒，夏无酷暑，云蒸霞蔚，草木葳蕤，如蜜的空气可灌装出口，清冽的甘泉掬起来能畅饮。一日历四季，十里兰花香。这里是一处极少遭人为破坏的生态净土。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072616514300957.jpg\" /></p>\n<p>倘若把华山比作秦岭的儿子，金丝峡就是秦岭的女儿。她天生丽质，小巧精致：游客眼里，她是观光胜地，养生天堂；地质学家眼里，她是一部内容丰富的地质百科全书，峰林峡洞铭志地质变迁，五谷地貌造就峡谷之都奇观；而在生态学家眼里，她是人与自然合谐相生的金</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072616515698596.jpg\" /></p>\n<p>人们喜爱她，爱在深谷幽兰的馨香，爱在泉瀑争鸣的意境，爱在五彩斑斓的韵味，爱在雪霁冰凌的圣洁，爱在原汁原味的生态。</p>\n<p>&nbsp;</p>\n<p>有朝一日，当你走进这座状似山城石巷的万米画廊，你一定会爱上她。爱她多姿多彩的峻岭奇峰，朝夕变幻的紫气山岚；爱她巉岩幽谷间的高峡平湖，清爽秀雅的原始风貌；爱她千姿百态的钟乳倒挂，波诡云谲的悬崖古洞；爱她栩栩如生的奇石根雕，碧绿如染的石上森林。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072616521484889.jpg\" /></p>\n<p>&ldquo;奇峰翠插天、秀水碧如玉&rdquo;，这里是绿浪滔天的天然氧仓和诗意栖息地。溪流润泽碧潭，涌泉养育飞瀑，叮咚的山泉钻山穿洞顺涧流，宛若白色巨龙，盘旋游走于如蛇的幽谷，动则挂作万壁珠玑，静可凝成千潭美玉。</p>\n<p>图片</p>\n<p>&nbsp;</p>\n<p>这里的设施十分精细。金丝峡人坚持二十年如一日，精品化开发，精细化管理，从规范员工的一言一行一举一动，从保护一山一石一草一木做起，把昔日名不见经传的深山老林打造成了&ldquo;生态中国第一景区&rdquo;。</p>\n<p>&nbsp;</p>\n<p>按照&ldquo;避石护树、依势造景、原始粗犷、古朴自然&rdquo;和&ldquo;宜曲不宜直，宜狭不宜宽，宜粗不宜细，宜险不宜夷&rdquo;的生态文明建设理念，游步道全部沿林间、溪边、景旁修筑，观赏植物一律移植道路两旁。游径上巧妙布设亭台楼阁轩榭廊舫，供游客休憩观景，蔽日遮雨。</p>\n<p>&nbsp;</p>\n<p>这里的服务精心。为营造温馨舒适的游览环境，游道上每六百米建一座卫生间，内部洗手液、抽纸、盥洗、绿植、水银镜、风光画、警示标识牌应有尽有；每五百米左右设几组桌凳躺椅吊床，方便游人休息和沐浴阳光；南北门设立三处游客咨询服务台，全天候站立迎接，微笑服务，并免费供应开水、提供雨具、轮椅、担架、拐杖、充电、寄存、宠物托养等各种服务。</p>\n<p>&nbsp;</p>\n<p>这里景色佳，设施全，人优秀，美在骨子里。金丝峡人以5A创建为契机，上至管理层，下至一线员工，用制度管人，按标准做事，利用精致的资源、精细的管理和精心的服务，换来了全国闻名遐迩的精品旅游品牌。</p>\n<p>精之精巧金丝峡，灵山圣水美如画。</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": "景区看点",
+    "contentResourcesDtoList": [
+      {
+        "id": "1565516254885388289",
+        "resourcesId": "1321348708733050882",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2-20201028153222.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2022-09-02 09:45:35",
+        "updateTime": "2022-09-02 09:45:35",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1565516254885388290",
+        "resourcesId": "1321348708733050882",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/3-20201028153228.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2022-09-02 09:45:35",
+        "updateTime": "2022-09-02 09:45:35",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1565516254889582594",
+        "resourcesId": "1321348708733050882",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/4-20201028153234.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2022-09-02 09:45:35",
+        "updateTime": "2022-09-02 09:45:35",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455809122913067009",
+      "rankingId": null,
+      "indexInRanking": 6,
+      "rankingName": "商洛自驾游景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": [
+      {
+        "id": "1565516254897971201",
+        "scenicSpotId": "1320579064720941174",
+        "contentModuleName": "景区看点",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1443420951361404930",
+            "type": 6,
+            "title": "金丝峡漂流景区",
+            "subtitle": "体验与自然的搏斗刺激",
+            "coverImage": "https://eshopfile.zhiyousx.com/2023061517330383084.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": "",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

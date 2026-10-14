@@ -3,7 +3,7 @@
         <view class="play-box data-v-261d47d5">
             <video autoplay="{{true}}" class="videoPlay data-v-261d47d5" controls="{{false}}" objectFit="fill" onError="palyError" poster="{{listData.mainImage}}" src="{{listData.liveUrl}}"></video>
             <cover-view class="hot-box data-v-261d47d5">
-                <cover-image mode class="hot-icon data-v-261d47d5" src="https://eshopfile.zhiyousx.com/2024012312210644492.png"></cover-image>
+                <cover-image mode class="hot-icon data-v-261d47d5" src="/static/captured/49696dc59143a03a.png"></cover-image>
                 <cover-view class="hot data-v-261d47d5">{{$root.f0}}</cover-view>
             </cover-view>
         </view>

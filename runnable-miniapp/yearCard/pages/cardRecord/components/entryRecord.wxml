@@ -9,7 +9,7 @@
         </view>
     </block>
     <view class="no-page data-v-0dcbc011" wx:else>
-        <image class="data-v-0dcbc011" src="https://eshopfile.zhiyousx.com/2023110116325879617.png"></image>
+        <image class="data-v-0dcbc011" src="/static/captured/f689b63710303e4b.png"></image>
         <view class="data-v-0dcbc011">暂无记录</view>
     </view>
 </view>

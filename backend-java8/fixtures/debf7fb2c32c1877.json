@@ -1,0 +1,400 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941072",
+    "scenicName": "耀州窑博物馆",
+    "tag": "追索历史的课堂 陶冶情趣的圣殿",
+    "level": 3,
+    "cityId": "1320650338641162241",
+    "cityName": "铜川",
+    "address": "铜川市王益区黄堡镇新宜南路25号",
+    "longitude": "109.012293",
+    "latitude": "34.991052",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 129,
+    "topColour": "#CEBA9E",
+    "centralColour": "#846231",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/100a1f000001g2rw6A299_R_1600_10000-20201029142356.jpg"
+    ],
+    "introduction": "<p>　　耀州窑博物馆是一座集遗址保护展示、文物标本陈列、模拟古代制瓷工艺演示于一体的大型瓷窑遗址专题博物馆。耀州窑是我国古代北方著名的青瓷窑，创烧于唐、五代发展、北宋鼎盛、金代续烧、元代以后烧瓷中心由黄堡镇转移到陈炉镇一带。黄堡窑停烧于明代中叶，陈炉窑经明、清延续至今，烧造时间近达1400余年。20世纪50年代以来，遗址发掘逾万平方米，出土文物300多万件（片），清理作坊、窑炉200余座，发掘规模之大，出土文物数量之多，遗址遗迹保留之完整，文化内涵之丰富实属罕见，是一座巨大的陶瓷文化宝库。其遗址被公布为全国重点文物保护单位和20世纪中国一百项考古大发现之一。博物馆于1994年5月落成开放，以&ldquo;千载名窑耀州窑陈列&rdquo;、&ldquo;遗址遗迹陈列&rdquo;、&ldquo;参考研究室&rdquo;和&ldquo;陶艺中心&rdquo;为主题，全面展现该窑千余年陶瓷烧造的辉煌历史，为公众提供陶瓷鉴赏、科学研究和休闲娱乐服务。特别是陶艺中心，不但使您全局了解制瓷过程，而且能亲身参与考古陶瓷制作，体验制瓷乐趣。</p>",
+    "introductionText": "　　耀州窑博物馆是一座集遗址保护展示、文物标本陈列、模拟古代制瓷工艺演示于一体的大型瓷窑遗址专题博物馆。耀州窑是我国古代北方著名的青瓷窑，创烧于唐、五代发展、北宋鼎盛、金代续烧、元代以后烧瓷中心由黄堡镇转移到陈炉镇一带。黄堡窑停烧于明代中叶，陈炉窑经明、清延续至今，烧造时间近达1400余年。20世纪50年代以来，遗址发掘逾万平方米，出土文物300多万件（片），清理作坊、窑炉200余座，发掘规模之大，出土文物数量之多，遗址遗迹保留之完整，文化内涵之丰富实属罕见，是一座巨大的陶瓷文化宝库。其遗址被公布为全国重点文物保护单位和20世纪中国一百项考古大发现之一。博物馆于1994年5月落成开放，以“千载名窑耀州窑陈列”、“遗址遗迹陈列”、“参考研究室”和“陶艺中心”为主题，全面展现该窑千余年陶瓷烧造的辉煌历史，为公众提供陶瓷鉴赏、科学研究和休闲娱乐服务。特别是陶艺中心，不但使您全局了解制瓷过程，而且能亲身参与考古陶瓷制作，体验制瓷乐趣。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026524680194",
+        "contentId": "1418152026516291586",
+        "name": "国家二级博物馆",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1450028527872122881",
+        "contentId": "1450028527859539970",
+        "name": "陕西省文化遗址公园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "1月1日至12月31日",
+        "openTimeContent": "周一闭园，周二至周日9:00-17:00，16:30停止入场。"
+      }
+    ],
+    "discountVoList": null,
+    "facilitiesServicesVoList": [
+      {
+        "id": "6",
+        "name": "免费wifi",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (11).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>　　铜川市内乘坐公交6路可以到达。</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<p>　　包茂高速至黄堡出口下，过黄堡收费站后向右150米即可到达。</p>"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "联系电话",
+        "telephone": "0919-7189413"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "官方微信公众号",
+        "wxSubscriptionName": "耀州窑博物馆",
+        "wxSubscription": "yzymuseum"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1701537602341629953",
+        "resourcesId": "1321699459158269954",
+        "title": "唐风宋韵——耀州窑",
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2022081615135885272.mp4",
+        "coverImage": "https://eshopfile.zhiyousx.com/166063400580846132.png",
+        "videoId": "1559438379023265793",
+        "resourcesType": 2,
+        "sequence": 1,
+        "describe": "",
+        "createTime": "2023-09-12 18:05:52",
+        "updateTime": "2023-09-12 18:05:52",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1701537602358407170",
+        "resourcesId": "1321699459158269954",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091314035878508.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2023-09-12 18:05:52",
+        "updateTime": "2023-09-12 18:05:52",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1701537602366795777",
+        "resourcesId": "1321699459158269954",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091314040958275.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2023-09-12 18:05:52",
+        "updateTime": "2023-09-12 18:05:52",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1701537602375184386",
+        "resourcesId": "1321699459158269954",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091314050143052.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2023-09-12 18:05:52",
+        "updateTime": "2023-09-12 18:05:52",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1701537602387767297",
+        "resourcesId": "1321699459158269954",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/100a1f000001g2rw8C0CF_R_1600_10000-20201029142412.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2023-09-12 18:05:52",
+        "updateTime": "2023-09-12 18:05:52",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1701537602396155905",
+        "resourcesId": "1321699459158269954",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/100c1f000001g43j14003_R_1600_10000-20201029142420.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2023-09-12 18:05:52",
+        "updateTime": "2023-09-12 18:05:52",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1701537602404544513",
+        "resourcesId": "1321699459158269954",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/100e1f000001g47bk93D6_R_1600_10000-20201029142428.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2023-09-12 18:05:52",
+        "updateTime": "2023-09-12 18:05:52",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1701537018679062530",
+      "rankingId": null,
+      "indexInRanking": 1,
+      "rankingName": "铜川博物馆人气榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1574974899180212226",
+        "rankingId": "1574974902443380737",
+        "indexInRanking": null,
+        "rankingName": "陕西免费景区人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1439119981701840898",
+        "rankingId": "1439119983840935938",
+        "indexInRanking": null,
+        "rankingName": "陕西人气博物馆排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1658303499793903618",
+        "rankingId": "1658303501412904962",
+        "indexInRanking": null,
+        "rankingName": "历史文化类博物馆人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1680835374538088449",
+        "rankingId": "1680835375632801794",
+        "indexInRanking": null,
+        "rankingName": "陕西省热搜50强博物馆排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1455081861037531138",
+        "rankingId": "1455081861855420418",
+        "indexInRanking": null,
+        "rankingName": "铜川必游景区人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1559032346152939522",
+        "rankingId": "1559032347344121858",
+        "indexInRanking": null,
+        "rankingName": "铜川亲子游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": "门票预约",
+    "ticketDesc": "免费",
+    "salesNumDesc": "已预约",
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

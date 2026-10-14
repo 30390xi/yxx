@@ -17,7 +17,7 @@
         </view>
         <view class="module" id="{{'module'+index}}" wx:if="{{item.$orig.imageList&&item.$orig.imageList[0]}}" wx:for="{{$root.l0}}" wx:key="index">
             <view class="title">
-                <image class="title-no" src="https://eshopfile.zhiyousx.com/169292956046620888.png"></image>
+                <image class="title-no" src="/static/captured/2ae17f6dba09f5e6.png"></image>
                 <view class="title-word">
                     <text>{{item.m0}}</text>
                     <text class="t">{{item.$orig.destinationName}}</text>
@@ -48,14 +48,14 @@
             <view bindtap="__e" class="item" data-event-opts="{{[ [ 'tap',[ [ 'routerpage',['$0','$1'],['showPic.type','showPic.destinationId'] ] ] ] ]}}" wx:if="{{showPic.mainUrl}}">
                 <view class="linearbg" style="{{'background-image:'+'url('+showPic.mainUrl+')'+';'}}"></view>
                 <view class="info">
-                    <image class="icon" src="https://eshopfile.zhiyousx.com/2021083112125659006.png"></image>
+                    <image class="icon" src="/static/captured/7e60a79310dab1dd.png"></image>
                     <view class="text singleLineText">{{showPic.destinationName}}</view>
                 </view>
             </view>
             <view bindtap="__e" class="item" data-event-opts="{{[ [ 'tap',[ [ 'routerpage',['$0','$1'],['showPic.destinationType','showPic.destinationSubId'] ] ] ] ]}}" wx:if="{{showPic.mainSubUrl}}">
                 <view class="linearbg" style="{{'background-image:'+'url('+showPic.mainSubUrl+')'+';'}}"></view>
                 <view class="info">
-                    <image class="icon" src="https://eshopfile.zhiyousx.com/2021083112125659006.png"></image>
+                    <image class="icon" src="/static/captured/7e60a79310dab1dd.png"></image>
                     <view class="text singleLineText">{{showPic.destinationSubName}}</view>
                 </view>
             </view>

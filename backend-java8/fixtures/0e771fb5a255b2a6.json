@@ -1,0 +1,230 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1529350009064124417",
+    "contentId": "1529350008590168065",
+    "rankingName": "宝鸡城市公园人气榜",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/165346035989297134.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": "人去过",
+    "rankingInclude": "个目的地",
+    "rankingPersonalInfo": "我去过的目的地",
+    "rankingSharePictureUrl": "https://eshopfile.zhiyousx.com/165346025957304858.jpg",
+    "bottomColour": "#4EAE6B",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1320579064720941118",
+        "originType": "1",
+        "originName": "中华石鼓园",
+        "originSubtitleName": "生态文化公园",
+        "originUrl": "https://eshopfile.zhiyousx.com/88c724bd-4ab4-4cd4-a88f-e5e36f757ea2-20201029165908.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/fe057efa-997e-4757-b642-053047825e4b-20201029165922.jpg",
+          "https://eshopfile.zhiyousx.com/f57d4d18-c0b5-4f5b-b254-0465ed13aeea-20201029165928.jpg",
+          "https://eshopfile.zhiyousx.com/af515e78-81d1-4f5c-811f-1c81b6889b18-20201029165935.jpg",
+          "https://eshopfile.zhiyousx.com/165344894841981200.jpg",
+          "https://eshopfile.zhiyousx.com/165344894943231643.jpg",
+          "https://eshopfile.zhiyousx.com/165344894886240291.jpg",
+          "https://eshopfile.zhiyousx.com/165344895055289580.jpg"
+        ],
+        "sort": "0",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1466692015902191618",
+        "originType": "1",
+        "originName": "宝鸡人民公园",
+        "originSubtitleName": "鸟语花香，湖光山水",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021120316481985567.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/165346085826113997.jpg",
+          "https://eshopfile.zhiyousx.com/165346085790352883.jpg",
+          "https://eshopfile.zhiyousx.com/165346085861961969.jpg",
+          "https://eshopfile.zhiyousx.com/165346085905076104.jpg"
+        ],
+        "sort": "1",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1377183473005015041",
+        "originType": "1",
+        "originName": "宝鸡植物园",
+        "originSubtitleName": "观花何须去洛阳，植物园里赏牡丹",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021033116553222436.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/165103690791621920.jpg",
+          "https://eshopfile.zhiyousx.com/165103690797803120.jpg",
+          "https://eshopfile.zhiyousx.com/165103690803864841.jpg"
+        ],
+        "sort": "2",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1529386909020069889",
+        "originType": "1",
+        "originName": "渭河生态体育公园",
+        "originSubtitleName": "休闲、观光、健身于一体的开放式公园",
+        "originUrl": "https://eshopfile.zhiyousx.com/2022052516583166153.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/165346911216080480.jpg",
+          "https://eshopfile.zhiyousx.com/165346911271298178.jpg"
+        ],
+        "sort": "3",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1529646890508230657",
+        "originType": "1",
+        "originName": "渭河生态园",
+        "originSubtitleName": "渭河百里画廊",
+        "originUrl": "https://eshopfile.zhiyousx.com/2022052609522125254.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/165353001018939234.jpg",
+          "https://eshopfile.zhiyousx.com/165353001057033228.jpg",
+          "https://eshopfile.zhiyousx.com/165353001097893340.jpg",
+          "https://eshopfile.zhiyousx.com/165353001141072487.jpg",
+          "https://eshopfile.zhiyousx.com/165353001185348271.jpg"
+        ],
+        "sort": "4",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1529318913370595329",
+        "originType": "1",
+        "originName": "宝鸡古渔公园",
+        "originSubtitleName": "历史文化主题公园",
+        "originUrl": "https://eshopfile.zhiyousx.com/2022052512154575320.jpeg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/165345935480442938.jpg",
+          "https://eshopfile.zhiyousx.com/165345935311311967.jpg",
+          "https://eshopfile.zhiyousx.com/165345935271297095.jpg",
+          "https://eshopfile.zhiyousx.com/165345935398421270.jpg",
+          "https://eshopfile.zhiyousx.com/165345935439701951.jpg",
+          "https://eshopfile.zhiyousx.com/165345935349827200.jpg"
+        ],
+        "sort": "5",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1529362969966800897",
+        "originType": "1",
+        "originName": "千渭之会国家湿地公园",
+        "originSubtitleName": "绝美湿地生态,山水共长天一色",
+        "originUrl": "https://eshopfile.zhiyousx.com/2022052515233331897.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/165346342252483559.jpg",
+          "https://eshopfile.zhiyousx.com/165346342291437856.jpg",
+          "https://eshopfile.zhiyousx.com/165346342330089736.jpg",
+          "https://eshopfile.zhiyousx.com/165346342371749415.jpg",
+          "https://eshopfile.zhiyousx.com/165346342406234539.jpg"
+        ],
+        "sort": "6",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1529625631858487297",
+        "originType": "1",
+        "originName": "炎帝园公园",
+        "originSubtitleName": "华夏始祖，炎帝故里",
+        "originUrl": "https://eshopfile.zhiyousx.com/2022052608470224590.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/165352603720528942.jpg",
+          "https://eshopfile.zhiyousx.com/165352603767917575.jpg",
+          "https://eshopfile.zhiyousx.com/165352603813054296.jpg"
+        ],
+        "sort": "7",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1529369610107592706",
+        "originType": "1",
+        "originName": "金台森林公园",
+        "originSubtitleName": "俯瞰城市美景，感受道教魅力",
+        "originUrl": "https://eshopfile.zhiyousx.com/2022052516055172960.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/165346596553810766.jpg",
+          "https://eshopfile.zhiyousx.com/165346499298211573.jpg",
+          "https://eshopfile.zhiyousx.com/165346499342036953.jpg",
+          "https://eshopfile.zhiyousx.com/165346499437305206.jpg"
+        ],
+        "sort": "8",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1529709773920919554",
+        "originType": "1",
+        "originName": "宝鸡儿童公园",
+        "originSubtitleName": "休闲带娃好去处",
+        "originUrl": "https://eshopfile.zhiyousx.com/2022052614161741948.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/165354597597845260.jpg",
+          "https://eshopfile.zhiyousx.com/165354597671266970.jpg",
+          "https://eshopfile.zhiyousx.com/165354597636283897.jpg",
+          "https://eshopfile.zhiyousx.com/165354597709671044.jpg"
+        ],
+        "sort": "9",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "16",
+    "favoriteSum": null,
+    "personalInfoValue": "0/16"
+  },
+  "msg": "成功",
+  "success": true
+}

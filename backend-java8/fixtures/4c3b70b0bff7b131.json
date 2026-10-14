@@ -1,0 +1,486 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941087",
+    "scenicName": "药王山景区",
+    "tag": "药王归隐处 中医名胜地",
+    "level": 4,
+    "address": "铜川市耀州区药王大道",
+    "longitude": "109.004335",
+    "latitude": "34.906759",
+    "openingStatus": 1,
+    "capacity": 59575,
+    "topColour": "#00924F",
+    "centralColour": "#007841",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/100q15000000yay1p5AAB_R_1600_10000-20201029120150.jpg"
+    ],
+    "introduction": "<p>　　药王山，本名磐玉山，因隋唐时期伟大的医药学家、&ldquo;药王&rdquo;孙思邈晚年归隐于此，药王山便因此而得名。药王山历史悠久，自然景观独特，文物荟萃，文化内涵极为丰富。山上有关中地区面积最大的古柏林，有金、元建筑及大型元代壁画，有药王大殿及医方碑、太玄古洞、洗药池等景点五十余处，药王山石刻遍及全山，隋至明摩崖造像四十余尊，精美绝伦；北魏至唐代造像碑百余通，弥足珍贵；历代碑石二百余通，为药王山的实物历史档案；还有石塔、石棺、石牌坊等石刻，均有极高的历史、科学、艺术价值。药王山被列为全国第一批重点文物保护单位和省级风景名胜保护区，&ldquo;药王山庙会&rdquo;也被国务院列入国家级非物质文化遗产名录。</p>",
+    "introductionText": "　　药王山，本名磐玉山，因隋唐时期伟大的医药学家、“药王”孙思邈晚年归隐于此，药王山便因此而得名。药王山历史悠久，自然景观独特，文物荟萃，文化内涵极为丰富。山上有关中地区面积最大的古柏林，有金、元建筑及大型元代壁画，有药王大殿及医方碑、太玄古洞、洗药池等景点五十余处，药王山石刻遍及全山，隋至明摩崖造像四十余尊，精美绝伦；北魏至唐代造像碑百余通，弥足珍贵；历代碑石二百余通，为药王山的实物历史档案；还有石塔、石棺、石牌坊等石刻，均有极高的历史、科学、艺术价值。药王山被列为全国第一批重点文物保护单位和省级风景名胜保护区，“药王山庙会”也被国务院列入国家级非物质文化遗产名录。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米(含)以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "年龄65周岁(含)以上凭老年证或身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭残疾证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "军人",
+        "limit": "现役军人凭本人军官证、士兵证或消防官兵证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "全日制大中小学生(不含成人教育研究生)凭学生证",
+        "discount": "半价优惠"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "官方电话",
+        "telephone": "0919-6581215"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2082014169864404994",
+        "resourcesId": "1321663670756073474",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/167988255387925398.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": "",
+        "createTime": "2026-07-28 16:03:54",
+        "updateTime": "2026-07-28 16:03:54",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014169868599297",
+        "resourcesId": "1321663670756073474",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/167988255516265143.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": "",
+        "createTime": "2026-07-28 16:03:54",
+        "updateTime": "2026-07-28 16:03:54",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014169868599298",
+        "resourcesId": "1321663670756073474",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/167988255467898172.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": "",
+        "createTime": "2026-07-28 16:03:54",
+        "updateTime": "2026-07-28 16:03:54",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014169872793602",
+        "resourcesId": "1321663670756073474",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/167988255425404233.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": "",
+        "createTime": "2026-07-28 16:03:54",
+        "updateTime": "2026-07-28 16:03:54",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014169872793603",
+        "resourcesId": "1321663670756073474",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/167988255559681847.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": "",
+        "createTime": "2026-07-28 16:03:54",
+        "updateTime": "2026-07-28 16:03:54",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014169876987905",
+        "resourcesId": "1321663670756073474",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/0104h1200082pc8uk53D9_R_1600_10000-20201029120204.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2026-07-28 16:03:54",
+        "updateTime": "2026-07-28 16:03:54",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014169876987906",
+        "resourcesId": "1321663670756073474",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/0310eda67ff34dd6a4a869345fadb6c1_R_1600_10000-20201029120213.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2026-07-28 16:03:54",
+        "updateTime": "2026-07-28 16:03:54",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014169881182209",
+        "resourcesId": "1321663670756073474",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/100115000000ynzpk032D_R_1600_10000-20201029120221.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2026-07-28 16:03:54",
+        "updateTime": "2026-07-28 16:03:54",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014169885376514",
+        "resourcesId": "1321663670756073474",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165992659123404259.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": "",
+        "createTime": "2026-07-28 16:03:54",
+        "updateTime": "2026-07-28 16:03:54",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014169885376515",
+        "resourcesId": "1321663670756073474",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165992659218856952.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": "",
+        "createTime": "2026-07-28 16:03:54",
+        "updateTime": "2026-07-28 16:03:54",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014169889570818",
+        "resourcesId": "1321663670756073474",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165992659176432139.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 11,
+        "describe": "",
+        "createTime": "2026-07-28 16:03:54",
+        "updateTime": "2026-07-28 16:03:54",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014169893765121",
+        "resourcesId": "1321663670756073474",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165992659268440950.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 12,
+        "describe": "",
+        "createTime": "2026-07-28 16:03:54",
+        "updateTime": "2026-07-28 16:03:54",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014169893765122",
+        "resourcesId": "1321663670756073474",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165992659307671692.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 13,
+        "describe": "",
+        "createTime": "2026-07-28 16:03:54",
+        "updateTime": "2026-07-28 16:03:54",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014169897959425",
+        "resourcesId": "1321663670756073474",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165992659358927006.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 14,
+        "describe": "",
+        "createTime": "2026-07-28 16:03:54",
+        "updateTime": "2026-07-28 16:03:54",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455081861037531138",
+      "rankingId": null,
+      "indexInRanking": 1,
+      "rankingName": "铜川必游景区人气榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1559032346152939522",
+        "rankingId": "1559032347344121858",
+        "indexInRanking": null,
+        "rankingName": "铜川亲子游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "2082014169910542337",
+        "scenicSpotId": "1320579064720941087",
+        "contentModuleName": "必逛推荐",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1437342574892347394",
+            "type": 6,
+            "title": "药王山博物馆（孙思邈纪念馆）",
+            "subtitle": "现存北朝及隋唐造像碑最多的博物馆",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021091317080873917.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1628956053994192898",
+            "type": 6,
+            "title": "孙思邈纪念馆",
+            "subtitle": "药王孙思邈中医药文化传承展示窗口",
+            "coverImage": "https://eshopfile.zhiyousx.com/2023022411010945632.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1556499456110243842",
+            "type": 5,
+            "title": "北洞",
+            "subtitle": "纪念药王孙思邈的中心场所",
+            "coverImage": "https://eshopfile.zhiyousx.com/165993333776503805.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1556526887093334018",
+            "type": 5,
+            "title": "南庵",
+            "subtitle": "药王孙思邈升仙台",
+            "coverImage": "https://eshopfile.zhiyousx.com/165993989883917475.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

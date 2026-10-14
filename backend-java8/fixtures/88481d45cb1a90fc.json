@@ -1,0 +1,250 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064578334732",
+    "scenicName": "周原博物馆",
+    "tag": "钟鼎彝器甲天下，金甲陶文冠古今",
+    "level": -1,
+    "address": "宝鸡市扶风县法门镇召陈村",
+    "longitude": "107.870869",
+    "latitude": "34.481364",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#8D7B61",
+    "centralColour": "#756349",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021091314192049329.png"
+    ],
+    "introduction": "<p>　　周原博物馆陈列展出分室内室外两大部分。室外展览有西周宗庙和西周宫殿两处大型建筑群基址;室内展览在4座展厅内，有周原历史文物陈列、西周书法艺术展览、西周酒文化展览及周原珍贵文物特别展。馆内收藏有周原遗址出土的万余件珍贵文物。有巧夺天工的青铜器，如艺术瑰宝折觥、青铜史书墙盘、壶中之冠三年师壶、战争史书师同鼎、法律判决书等，这些文物不仅史料价值极高，且纪年明确，是西周青铜器研究中难得的断代标准器；有弥足珍贵的甲骨文，周原甲骨文字迹秀丽、字形工整、刀法流畅娴熟、刻划刚劲有力，有的小如粟粒，用放大镜才能看清，堪称我国最早的微雕艺术精品，具有极高的史料和艺术价值。</p>",
+    "introductionText": "　　周原博物馆陈列展出分室内室外两大部分。室外展览有西周宗庙和西周宫殿两处大型建筑群基址;室内展览在4座展厅内，有周原历史文物陈列、西周书法艺术展览、西周酒文化展览及周原珍贵文物特别展。馆内收藏有周原遗址出土的万余件珍贵文物。有巧夺天工的青铜器，如艺术瑰宝折觥、青铜史书墙盘、壶中之冠三年师壶、战争史书师同鼎、法律判决书等，这些文物不仅史料价值极高，且纪年明确，是西周青铜器研究中难得的断代标准器；有弥足珍贵的甲骨文，周原甲骨文字迹秀丽、字形工整、刀法流畅娴熟、刻划刚劲有力，有的小如粟粒，用放大镜才能看清，堪称我国最早的微雕艺术精品，具有极高的史料和艺术价值。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026524680194",
+        "contentId": "1418152026516291586",
+        "name": "国家二级博物馆",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "全员",
+        "limit": "无",
+        "discount": "免费"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0917-5251193"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1542329936800681986",
+        "resourcesId": "1437304307937476610",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091314362101333.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2022-06-30 10:11:26",
+        "updateTime": "2022-06-30 10:11:26",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1542329936804876290",
+        "resourcesId": "1437304307937476610",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091314362999809.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2022-06-30 10:11:26",
+        "updateTime": "2022-06-30 10:11:26",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1542329936804876291",
+        "resourcesId": "1437304307937476610",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091314363891174.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2022-06-30 10:11:26",
+        "updateTime": "2022-06-30 10:11:26",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1542329936809070594",
+        "resourcesId": "1437304307937476610",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091314364512383.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2022-06-30 10:11:26",
+        "updateTime": "2022-06-30 10:11:26",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1542329936809070595",
+        "resourcesId": "1437304307937476610",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091314365404297.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2022-06-30 10:11:26",
+        "updateTime": "2022-06-30 10:11:26",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1542329936813264897",
+        "resourcesId": "1437304307937476610",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091314370120922.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2022-06-30 10:11:26",
+        "updateTime": "2022-06-30 10:11:26",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1439119981701840898",
+      "rankingId": null,
+      "indexInRanking": 26,
+      "rankingName": "陕西人气博物馆排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1658303499793903618",
+        "rankingId": "1658303501412904962",
+        "indexInRanking": null,
+        "rankingName": "历史文化类博物馆人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1680835374538088449",
+        "rankingId": "1680835375632801794",
+        "indexInRanking": null,
+        "rankingName": "陕西省热搜50强博物馆排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

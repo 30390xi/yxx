@@ -1,0 +1,55 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "2092136574704222210",
+      "resourcesId": "1321362630794043393",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/法门寺1-20201028160541.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2026-08-25 14:26:44",
+      "updateTime": "2026-08-25 14:26:44",
+      "createBy": "1790219374788558850",
+      "updateBy": "1790219374788558850",
+      "isDeleted": 0
+    },
+    {
+      "id": "2092136574708416514",
+      "resourcesId": "1321362630794043393",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/法门寺7-20201028160559.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 2,
+      "describe": null,
+      "createTime": "2026-08-25 14:26:44",
+      "updateTime": "2026-08-25 14:26:44",
+      "createBy": "1790219374788558850",
+      "updateBy": "1790219374788558850",
+      "isDeleted": 0
+    },
+    {
+      "id": "2092136574712610817",
+      "resourcesId": "1321362630794043393",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/法门寺2-20201028160606.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 3,
+      "describe": null,
+      "createTime": "2026-08-25 14:26:44",
+      "updateTime": "2026-08-25 14:26:44",
+      "createBy": "1790219374788558850",
+      "updateBy": "1790219374788558850",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

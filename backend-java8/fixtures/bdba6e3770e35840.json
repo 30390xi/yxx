@@ -1,0 +1,216 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064666415110",
+    "scenicName": "良周秦汉宫",
+    "tag": "秦始皇先祖秦献公居住之地",
+    "level": 3,
+    "address": "渭南市澄城县王庄镇良周村",
+    "longitude": "109.886224",
+    "latitude": "35.371203",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#888493",
+    "centralColour": "#5F5A6C",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021092914492490519.png"
+    ],
+    "introduction": "<p>　　良周秦汉宫景区，西北有高耸的壶梯山，东北有宏伟险峻的杜公山，秦汉宫殿遗址是一处面积巨大、内涵丰富、保存完整的秦汉大型宫殿建筑遗址。该地方曾被称为秦始皇训兵、练兵的\"校场地\"，其实不然，它是秦始皇前先祖秦献公自魏国返回秦国时发展实力之地，献公随后在河西(现渭南的黄河以西，史称\"河西\")发动政变取得政权。故此地实为秦汉时期秦献公所居之地。</p>",
+    "introductionText": "　　良周秦汉宫景区，西北有高耸的壶梯山，东北有宏伟险峻的杜公山，秦汉宫殿遗址是一处面积巨大、内涵丰富、保存完整的秦汉大型宫殿建筑遗址。该地方曾被称为秦始皇训兵、练兵的\"校场地\"，其实不然，它是秦始皇前先祖秦献公自魏国返回秦国时发展实力之地，献公随后在河西(现渭南的黄河以西，史称\"河西\")发动政变取得政权。故此地实为秦汉时期秦献公所居之地。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1450028527872122881",
+        "contentId": "1450028527859539970",
+        "name": "陕西省文化遗址公园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "全员",
+        "limit": "无",
+        "discount": "免费"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0913-6957738"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1450030169996664834",
+        "resourcesId": "1443107166536908802",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092914550227915.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2021-10-18 17:25:07",
+        "updateTime": "2021-10-18 17:25:07",
+        "createBy": "1432951840294678529",
+        "updateBy": "1432951840294678529",
+        "isDeleted": 0
+      },
+      {
+        "id": "1450030170000859138",
+        "resourcesId": "1443107166536908802",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092914551025170.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2021-10-18 17:25:07",
+        "updateTime": "2021-10-18 17:25:07",
+        "createBy": "1432951840294678529",
+        "updateBy": "1432951840294678529",
+        "isDeleted": 0
+      },
+      {
+        "id": "1450030170000859139",
+        "resourcesId": "1443107166536908802",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092914551894037.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2021-10-18 17:25:07",
+        "updateTime": "2021-10-18 17:25:07",
+        "createBy": "1432951840294678529",
+        "updateBy": "1432951840294678529",
+        "isDeleted": 0
+      },
+      {
+        "id": "1450030170000859140",
+        "resourcesId": "1443107166536908802",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092914552538106.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2021-10-18 17:25:07",
+        "updateTime": "2021-10-18 17:25:07",
+        "createBy": "1432951840294678529",
+        "updateBy": "1432951840294678529",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1566623053130653698",
+      "rankingId": null,
+      "indexInRanking": 19,
+      "rankingName": "渭南亲子游景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1455112666791124994",
+        "rankingId": "1455112668192022530",
+        "indexInRanking": null,
+        "rankingName": "渭南自驾游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

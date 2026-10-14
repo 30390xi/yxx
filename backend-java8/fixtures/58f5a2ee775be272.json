@@ -1,0 +1,554 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941134",
+    "scenicName": "西安碑林博物馆",
+    "tag": "历史文化宝库,书法艺术殿堂",
+    "level": 5,
+    "address": "西安市碑林区三学街15号",
+    "longitude": "108.9593090000",
+    "latitude": "34.2601300000",
+    "openingStatus": 1,
+    "capacity": 8000,
+    "topColour": "#CDC0C0",
+    "centralColour": "#A49B9B",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/3333-1-20201029161416.jpg",
+      "https://eshopfile.zhiyousx.com/2025071714545927304.jpg",
+      "https://eshopfile.zhiyousx.com/333343-1-20201029161423.jpg",
+      "https://eshopfile.zhiyousx.com/3334-1-20201029161429.jpg"
+    ],
+    "introduction": "<p>　　西安碑林博物馆是在具有900多年历史的&ldquo;西安碑林&rdquo;基础上，利用西安孔庙古建筑群扩建而成的一座以收藏、研究和陈列历代碑石、墓志及石刻造像为主的专题性艺术博物馆。它原名陕西省博物馆，创建于1944年，1961年被国务院列为全国第一批重点文物保护单位。西安碑林博物馆藏品浩瀚，书法艺术卓越，文化内涵丰富，被誉为&ldquo;东方文化的宝库&rdquo;&ldquo;书法艺术的渊薮&rdquo;&ldquo;汉唐石刻精品的殿堂&rdquo;&ldquo;世界最古的石刻书库&rdquo;，是国家一级博物馆，国家AAAAA级旅游景点。</p>",
+    "introductionText": "　　西安碑林博物馆是在具有900多年历史的“西安碑林”基础上，利用西安孔庙古建筑群扩建而成的一座以收藏、研究和陈列历代碑石、墓志及石刻造像为主的专题性艺术博物馆。它原名陕西省博物馆，创建于1944年，1961年被国务院列为全国第一批重点文物保护单位。西安碑林博物馆藏品浩瀚，书法艺术卓越，文化内涵丰富，被誉为“东方文化的宝库”“书法艺术的渊薮”“汉唐石刻精品的殿堂”“世界最古的石刻书库”，是国家一级博物馆，国家AAAAA级旅游景点。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "69",
+        "name": "商务旅",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026415628289",
+        "contentId": "1418152026403045378",
+        "name": "陕西5A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026461765634",
+        "contentId": "1418152026449182722",
+        "name": "全国爱国主义教育示范基地",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026327547906",
+        "contentId": "1418152026310770690",
+        "name": "国家一级博物馆",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "<section class=\"\" style=\"background-image: url('https://mmbiz.qpic.cn/sz_mmbiz_png/a1L2SMg2YgCMF4MChV7oB7NgkhqVddK36gia2zR5tT1n4T7L0yWO7DaQVwDlUCYsUTDQ2yibZWjqm2UBHWKR8qCw/640?wx_fmt=png'); background-position: 0% 0%; background-repeat: repeat-y; background-size: 100%; background-attachment: scroll; box-sizing: border-box; font-style: normal; font-weight: 400; text-align: justify; font-size: 16px; color: #3e3e3e;\">\n<section style=\"text-align: center; margin: 0px 0px 2%; line-height: 0; box-sizing: border-box;\">\n<section style=\"max-width: 100%; vertical-align: middle; display: inline-block; line-height: 0; box-sizing: border-box;\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: middle; width: 100%; box-sizing: border-box; max-width: 100% !important;\" src=\"https://mmbiz.qpic.cn/mmbiz_png/B2sGicibXoDbsz2CCM3AJapFCNuD6lxxMISFR3v1PNeic2dwHn4JnV897z6c6pcgjH5yEtZM1Zop6yZPZN2YPWXEA/640?wx_fmt=png\" width=\"100%\" data-aistatus=\"1\" data-s=\"300,640\" data-ratio=\"0.17592592592592593\" data-w=\"1080\" /></section>\n</section>\n<section style=\"text-align: center; justify-content: center; display: flex; flex-flow: row; box-sizing: border-box;\">\n<section style=\"display: inline-block; width: 90%; vertical-align: top; align-self: flex-start; flex: 0 0 auto; height: auto; background-color: rgba(255, 255, 255, 0.8); padding: 0px 20px; box-sizing: border-box; max-width: 90% !important; border: 1px solid #89b630;\">\n<section class=\"\" style=\"text-align: justify; box-sizing: border-box;\">\n<p style=\"white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">&nbsp;</p>\n</section>\n<section class=\"\" style=\"text-align: justify; padding: 0px; line-height: 2; letter-spacing: 2px; box-sizing: border-box;\">\n<p style=\"white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\"><span style=\"font-size: 14px; box-sizing: border-box;\"><strong style=\"box-sizing: border-box;\">尊敬的观众朋友：</strong></span></p>\n<p style=\"text-indent: 2.25em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\"><span style=\"font-size: 14px; box-sizing: border-box;\">为进一步优化观众参观体验，更好满足公众观展需求，我馆将于2026年7月1日至2026年7月31日期间，每日延长开放60分钟。具体如下：</span></p>\n</section>\n<section style=\"text-align: justify; box-sizing: border-box;\">\n<p style=\"white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">&nbsp;</p>\n</section>\n</section>\n</section>\n<p style=\"white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">&nbsp;</p>\n<section style=\"display: flex; width: 100%; flex-flow: column; max-width: 100% !important; box-sizing: border-box;\">\n<section style=\"z-index: 2; box-sizing: border-box;\">\n<section style=\"text-align: center; margin: 0px 0px -7px; line-height: 0; box-sizing: border-box; transform: translate3d(50px, 0px, 0px); -webkit-transform: translate3d(50px, 0px, 0px); -moz-transform: translate3d(50px, 0px, 0px); -o-transform: translate3d(50px, 0px, 0px);\">\n<section style=\"max-width: 100%; vertical-align: middle; display: inline-block; line-height: 0; width: 40px; height: auto; box-sizing: border-box;\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: middle; width: 100%; box-sizing: border-box; max-width: 100% !important;\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_png/a1L2SMg2YgCMF4MChV7oB7NgkhqVddK3l1ibibeZSg6TjPPVnYmkQwWy4aZbjZrjAoDQB3FOdOJQ3UdINqONF2og/640?wx_fmt=png\" width=\"100%\" data-s=\"300,640\" data-aistatus=\"1\" data-ratio=\"0.3067940552016985\" data-w=\"942\" /></section>\n</section>\n</section>\n</section>\n<p style=\"white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">&nbsp;</p>\n<section style=\"text-align: center; justify-content: center; display: flex; flex-flow: row; box-sizing: border-box;\">\n<section class=\"\" style=\"display: inline-block; width: 90%; vertical-align: top; align-self: flex-start; flex: 0 0 auto; background-color: #ffffff; height: auto; padding: 0px 20px; box-sizing: border-box; max-width: 90% !important; border: 1px dashed #89b630;\">\n<section style=\"line-height: 0; margin: 10px 0px 0px; box-sizing: border-box;\">\n<section style=\"max-width: 100%; vertical-align: middle; display: inline-block; line-height: 0; box-sizing: border-box;\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: middle; width: 100%; box-sizing: border-box; max-width: 100% !important;\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_png/btLkCxjz5dJEo8ah5UuiboEuowcHiaSMniaiaXrkf2podjDTK7sZzClhFCSyw7a9DPyI424qMwJ0AecJ2TSiciaRPsCMZWxF5nrYYVy4rw3Sj29P4/640?wx_fmt=png\" data-aistatus=\"1\" data-s=\"300,640\" data-ratio=\"0.026851851851851852\" data-w=\"1080\" /></section>\n</section>\n<section style=\"justify-content: center; display: flex; flex-flow: row; margin: 0px; box-sizing: border-box;\">\n<section style=\"display: inline-block; width: 100%; vertical-align: top; align-self: flex-start; flex: 0 0 auto; background-color: #f7f7f7; margin: 0px; max-width: 100% !important; box-sizing: border-box;\">\n<section style=\"text-align: left; justify-content: flex-start; display: flex; flex-flow: row; box-sizing: border-box;\">\n<section class=\"\" style=\"display: inline-block; width: 100%; vertical-align: top; align-self: flex-start; flex: 0 0 auto; background-image: url('https://mmbiz.qpic.cn/sz_mmbiz_png/btLkCxjz5dK5aaFE0ZDTmVO9hnNIR7ZQsemASUsXMjt6PNgP7eIicUStHOnicDjuOay39AkTKl1BSzGOhrTjHUSc4Ue5Ta8HsoMz6OVficwfzs/640?wx_fmt=png'); background-repeat: repeat; background-attachment: scroll; padding: 6px 11px; background-size: 4.91359% !important; background-position: 0% 0% !important; max-width: 100% !important; box-sizing: border-box;\">\n<section class=\"\" style=\"text-align: center; justify-content: center; display: flex; flex-flow: row; margin: 0px; box-sizing: border-box;\">\n<section style=\"display: inline-block; vertical-align: middle; width: auto; align-self: center; flex: 0 0 auto; min-width: 5%; max-width: 100%; height: auto; padding: 4px; box-sizing: border-box;\">\n<section style=\";box-sizing: border-box; transform: rotateZ(315deg); -webkit-transform: rotateZ(315deg); -moz-transform: rotateZ(315deg); -o-transform: rotateZ(315deg);\">\n<section style=\"box-sizing: border-box;\">\n<section style=\"display: inline-block; vertical-align: top; overflow: hidden; height: 24px; width: 24px; background-color: #c2d7b0; border-radius: 7px; box-sizing: border-box;\">\n<section style=\";box-sizing: border-box; transform: rotateZ(45deg); -webkit-transform: rotateZ(45deg); -moz-transform: rotateZ(45deg); -o-transform: rotateZ(45deg);\">\n<section style=\"color: #ffffff; box-sizing: border-box;\">\n<p style=\"margin: 0px; padding: 0px; box-sizing: border-box;\"><strong style=\"box-sizing: border-box;\">1</strong></p>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section style=\"display: inline-block; vertical-align: middle; width: auto; flex: 100 100 0%; height: auto; align-self: center; padding: 0px 0px 0px 6px; box-sizing: border-box;\">\n<section class=\"\" style=\"text-align: justify; box-sizing: border-box;\">\n<p style=\"white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\"><strong style=\"box-sizing: border-box;\">开放时间调整</strong></p>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section style=\";transform-style: flat; box-sizing: border-box; transform: perspective(0px); -webkit-transform: perspective(0px); -moz-transform: perspective(0px); -o-transform: perspective(0px);\">\n<section style=\"line-height: 0; margin: 0px 0px 10px; box-sizing: border-box; transform: rotateX(180deg); -webkit-transform: rotateX(180deg); -moz-transform: rotateX(180deg); -o-transform: rotateX(180deg);\">\n<section class=\"\" style=\"max-width: 100%; vertical-align: middle; display: inline-block; line-height: 0; width: auto; flex: 100 100 0%; height: auto; box-sizing: border-box;\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: middle; width: 100%; box-sizing: border-box; max-width: 100% !important;\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_png/btLkCxjz5dJEo8ah5UuiboEuowcHiaSMniaiaXrkf2podjDTK7sZzClhFCSyw7a9DPyI424qMwJ0AecJ2TSiciaRPsCMZWxF5nrYYVy4rw3Sj29P4/640?wx_fmt=png\" data-aistatus=\"1\" data-s=\"300,640\" data-ratio=\"0.026851851851851852\" data-w=\"1080\" /></section>\n</section>\n</section>\n<section class=\"\" style=\"text-align: justify; padding: 0px; font-size: 14px; line-height: 2; letter-spacing: 2px; box-sizing: border-box;\">\n<p style=\"text-indent: 2.2857em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">7月1日至7月31日，每日开放时间由9:00-18:30（17:00停止售票）调整为8:30-19:00（17:30停止售票）。</p>\n</section>\n<section style=\"line-height: 0; margin: 10px 0px 0px; box-sizing: border-box;\">\n<section style=\"max-width: 100%; vertical-align: middle; display: inline-block; line-height: 0; box-sizing: border-box;\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: middle; width: 100%; box-sizing: border-box; max-width: 100% !important;\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_png/btLkCxjz5dJEo8ah5UuiboEuowcHiaSMniaiaXrkf2podjDTK7sZzClhFCSyw7a9DPyI424qMwJ0AecJ2TSiciaRPsCMZWxF5nrYYVy4rw3Sj29P4/640?wx_fmt=png\" data-aistatus=\"1\" data-s=\"300,640\" data-ratio=\"0.026851851851851852\" data-w=\"1080\" /></section>\n</section>\n<section style=\"justify-content: center; display: flex; flex-flow: row; margin: 0px; box-sizing: border-box;\">\n<section style=\"display: inline-block; width: 100%; vertical-align: top; align-self: flex-start; flex: 0 0 auto; background-color: #f7f7f7; margin: 0px; max-width: 100% !important; box-sizing: border-box;\">\n<section style=\"text-align: left; justify-content: flex-start; display: flex; flex-flow: row; box-sizing: border-box;\">\n<section style=\"display: inline-block; width: 100%; vertical-align: top; align-self: flex-start; flex: 0 0 auto; background-image: url('https://mmbiz.qpic.cn/sz_mmbiz_png/btLkCxjz5dK5aaFE0ZDTmVO9hnNIR7ZQsemASUsXMjt6PNgP7eIicUStHOnicDjuOay39AkTKl1BSzGOhrTjHUSc4Ue5Ta8HsoMz6OVficwfzs/640?wx_fmt=png'); background-repeat: repeat; background-attachment: scroll; padding: 6px 11px; background-size: 4.91359% !important; background-position: 0% 0% !important; max-width: 100% !important; box-sizing: border-box;\">\n<section style=\"text-align: center; justify-content: center; display: flex; flex-flow: row; margin: 0px; box-sizing: border-box;\">\n<section style=\"display: inline-block; vertical-align: middle; width: auto; align-self: center; flex: 0 0 auto; min-width: 5%; max-width: 100%; height: auto; padding: 4px; box-sizing: border-box;\">\n<section style=\";box-sizing: border-box; transform: rotateZ(315deg); -webkit-transform: rotateZ(315deg); -moz-transform: rotateZ(315deg); -o-transform: rotateZ(315deg);\">\n<section style=\"box-sizing: border-box;\">\n<section style=\"display: inline-block; vertical-align: top; overflow: hidden; height: 24px; width: 24px; background-color: #c2d7b0; border-radius: 7px; box-sizing: border-box;\">\n<section style=\";box-sizing: border-box; transform: rotateZ(45deg); -webkit-transform: rotateZ(45deg); -moz-transform: rotateZ(45deg); -o-transform: rotateZ(45deg);\">\n<section style=\"color: #ffffff; box-sizing: border-box;\">\n<p style=\"margin: 0px; padding: 0px; box-sizing: border-box;\"><strong style=\"box-sizing: border-box;\">2</strong></p>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section style=\"display: inline-block; vertical-align: middle; width: auto; flex: 100 100 0%; height: auto; align-self: center; padding: 0px 0px 0px 6px; box-sizing: border-box;\">\n<section style=\"text-align: justify; box-sizing: border-box;\">\n<p style=\"white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\"><strong style=\"box-sizing: border-box;\">预约购票须知</strong></p>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section style=\";transform-style: flat; box-sizing: border-box; transform: perspective(0px); -webkit-transform: perspective(0px); -moz-transform: perspective(0px); -o-transform: perspective(0px);\">\n<section style=\"line-height: 0; margin: 0px 0px 10px; box-sizing: border-box; transform: rotateX(180deg); -webkit-transform: rotateX(180deg); -moz-transform: rotateX(180deg); -o-transform: rotateX(180deg);\">\n<section style=\"max-width: 100%; vertical-align: middle; display: inline-block; line-height: 0; width: auto; flex: 100 100 0%; height: auto; box-sizing: border-box;\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: middle; width: 100%; box-sizing: border-box; max-width: 100% !important;\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_png/btLkCxjz5dJEo8ah5UuiboEuowcHiaSMniaiaXrkf2podjDTK7sZzClhFCSyw7a9DPyI424qMwJ0AecJ2TSiciaRPsCMZWxF5nrYYVy4rw3Sj29P4/640?wx_fmt=png\" data-aistatus=\"1\" data-s=\"300,640\" data-ratio=\"0.026851851851851852\" data-w=\"1080\" /></section>\n</section>\n</section>\n<section class=\"\" style=\"text-align: justify; padding: 0px 10px; font-size: 14px; line-height: 2; letter-spacing: 2px; box-sizing: border-box;\">\n<p style=\"text-indent: 2.2857em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">1. 观众须通过官方微信服务号和官方网站（<span style=\"color: #5f9cef; box-sizing: border-box;\">www.beilin-museum.com</span>）提前<strong style=\"box-sizing: border-box;\">5</strong>天预约购票。凭身份证或购票二维码入园参观。</p>\n<p style=\"text-indent: 2.2857em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">&nbsp;</p>\n</section>\n<section class=\"\" style=\"text-align: justify; line-height: 2; letter-spacing: 2px; padding: 0px; box-sizing: border-box;\">\n<p style=\"text-indent: 2.25em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\"><span style=\"font-size: 14px; box-sizing: border-box;\">2.全面实行分时预约制，请务必按照预约时间段前来参观。</span></p>\n<p style=\"white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">&nbsp;</p>\n</section>\n<section style=\"line-height: 0; margin: 10px 0px 0px; box-sizing: border-box;\">\n<section style=\"max-width: 100%; vertical-align: middle; display: inline-block; line-height: 0; box-sizing: border-box;\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: middle; width: 100%; box-sizing: border-box; max-width: 100% !important;\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_png/btLkCxjz5dJEo8ah5UuiboEuowcHiaSMniaiaXrkf2podjDTK7sZzClhFCSyw7a9DPyI424qMwJ0AecJ2TSiciaRPsCMZWxF5nrYYVy4rw3Sj29P4/640?wx_fmt=png\" data-aistatus=\"1\" data-s=\"300,640\" data-ratio=\"0.026851851851851852\" data-w=\"1080\" /></section>\n</section>\n<section style=\"justify-content: center; display: flex; flex-flow: row; margin: 0px; box-sizing: border-box;\">\n<section style=\"display: inline-block; width: 100%; vertical-align: top; align-self: flex-start; flex: 0 0 auto; background-color: #f7f7f7; margin: 0px; max-width: 100% !important; box-sizing: border-box;\">\n<section style=\"text-align: left; justify-content: flex-start; display: flex; flex-flow: row; box-sizing: border-box;\">\n<section style=\"display: inline-block; width: 100%; vertical-align: top; align-self: flex-start; flex: 0 0 auto; background-image: url('https://mmbiz.qpic.cn/sz_mmbiz_png/btLkCxjz5dK5aaFE0ZDTmVO9hnNIR7ZQsemASUsXMjt6PNgP7eIicUStHOnicDjuOay39AkTKl1BSzGOhrTjHUSc4Ue5Ta8HsoMz6OVficwfzs/640?wx_fmt=png'); background-repeat: repeat; background-attachment: scroll; padding: 6px 11px; background-size: 4.91359% !important; background-position: 0% 0% !important; max-width: 100% !important; box-sizing: border-box;\">\n<section style=\"text-align: center; justify-content: center; display: flex; flex-flow: row; margin: 0px; box-sizing: border-box;\">\n<section style=\"display: inline-block; vertical-align: middle; width: auto; align-self: center; flex: 0 0 auto; min-width: 5%; max-width: 100%; height: auto; padding: 4px; box-sizing: border-box;\">\n<section style=\";box-sizing: border-box; transform: rotateZ(315deg); -webkit-transform: rotateZ(315deg); -moz-transform: rotateZ(315deg); -o-transform: rotateZ(315deg);\">\n<section style=\"box-sizing: border-box;\">\n<section style=\"display: inline-block; vertical-align: top; overflow: hidden; height: 24px; width: 24px; background-color: #c2d7b0; border-radius: 7px; box-sizing: border-box;\">\n<section style=\";box-sizing: border-box; transform: rotateZ(45deg); -webkit-transform: rotateZ(45deg); -moz-transform: rotateZ(45deg); -o-transform: rotateZ(45deg);\">\n<section style=\"color: #ffffff; box-sizing: border-box;\">\n<p style=\"margin: 0px; padding: 0px; box-sizing: border-box;\"><strong style=\"box-sizing: border-box;\">3</strong></p>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section style=\"display: inline-block; vertical-align: middle; width: auto; flex: 100 100 0%; height: auto; align-self: center; padding: 0px 0px 0px 6px; box-sizing: border-box;\">\n<section style=\"text-align: justify; box-sizing: border-box;\">\n<p style=\"white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\"><strong style=\"box-sizing: border-box;\">特殊证件换票</strong></p>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section style=\";transform-style: flat; box-sizing: border-box; transform: perspective(0px); -webkit-transform: perspective(0px); -moz-transform: perspective(0px); -o-transform: perspective(0px);\">\n<section style=\"line-height: 0; margin: 0px 0px 10px; box-sizing: border-box; transform: rotateX(180deg); -webkit-transform: rotateX(180deg); -moz-transform: rotateX(180deg); -o-transform: rotateX(180deg);\">\n<section style=\"max-width: 100%; vertical-align: middle; display: inline-block; line-height: 0; width: auto; flex: 100 100 0%; height: auto; box-sizing: border-box;\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: middle; width: 100%; box-sizing: border-box; max-width: 100% !important;\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_png/btLkCxjz5dJEo8ah5UuiboEuowcHiaSMniaiaXrkf2podjDTK7sZzClhFCSyw7a9DPyI424qMwJ0AecJ2TSiciaRPsCMZWxF5nrYYVy4rw3Sj29P4/640?wx_fmt=png\" data-s=\"300,640\" data-ratio=\"0.026851851851851852\" data-w=\"1080\" /></section>\n</section>\n</section>\n<section style=\"text-align: justify; line-height: 2; letter-spacing: 2px; box-sizing: border-box;\">\n<p style=\"text-indent: 2.25em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\"><span style=\"font-size: 14px; box-sizing: border-box;\">特殊证件人群（军官证、士兵证、消防员证、残疾证等）请前往售票窗口兑换免票。</span></p>\n<p style=\"white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">&nbsp;</p>\n</section>\n<section style=\"line-height: 0; margin: 10px 0px 0px; box-sizing: border-box;\">\n<section style=\"max-width: 100%; vertical-align: middle; display: inline-block; line-height: 0; box-sizing: border-box;\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: middle; width: 100%; box-sizing: border-box; max-width: 100% !important;\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_png/btLkCxjz5dJEo8ah5UuiboEuowcHiaSMniaiaXrkf2podjDTK7sZzClhFCSyw7a9DPyI424qMwJ0AecJ2TSiciaRPsCMZWxF5nrYYVy4rw3Sj29P4/640?wx_fmt=png\" data-s=\"300,640\" data-ratio=\"0.026851851851851852\" data-w=\"1080\" /></section>\n</section>\n<section style=\"justify-content: center; display: flex; flex-flow: row; margin: 0px; box-sizing: border-box;\">\n<section style=\"display: inline-block; width: 100%; vertical-align: top; align-self: flex-start; flex: 0 0 auto; background-color: #f7f7f7; margin: 0px; max-width: 100% !important; box-sizing: border-box;\">\n<section style=\"text-align: left; justify-content: flex-start; display: flex; flex-flow: row; box-sizing: border-box;\">\n<section style=\"display: inline-block; width: 100%; vertical-align: top; align-self: flex-start; flex: 0 0 auto; background-image: url('https://mmbiz.qpic.cn/sz_mmbiz_png/btLkCxjz5dK5aaFE0ZDTmVO9hnNIR7ZQsemASUsXMjt6PNgP7eIicUStHOnicDjuOay39AkTKl1BSzGOhrTjHUSc4Ue5Ta8HsoMz6OVficwfzs/640?wx_fmt=png'); background-repeat: repeat; background-attachment: scroll; padding: 6px 11px; background-size: 4.91359% !important; background-position: 0% 0% !important; max-width: 100% !important; box-sizing: border-box;\">\n<section style=\"text-align: center; justify-content: center; display: flex; flex-flow: row; margin: 0px; box-sizing: border-box;\">\n<section style=\"display: inline-block; vertical-align: middle; width: auto; align-self: center; flex: 0 0 auto; min-width: 5%; max-width: 100%; height: auto; padding: 4px; box-sizing: border-box;\">\n<section style=\";box-sizing: border-box; transform: rotateZ(315deg); -webkit-transform: rotateZ(315deg); -moz-transform: rotateZ(315deg); -o-transform: rotateZ(315deg);\">\n<section style=\"box-sizing: border-box;\">\n<section style=\"display: inline-block; vertical-align: top; overflow: hidden; height: 24px; width: 24px; background-color: #c2d7b0; border-radius: 7px; box-sizing: border-box;\">\n<section style=\";box-sizing: border-box; transform: rotateZ(45deg); -webkit-transform: rotateZ(45deg); -moz-transform: rotateZ(45deg); -o-transform: rotateZ(45deg);\">\n<section style=\"color: #ffffff; box-sizing: border-box;\">\n<p style=\"margin: 0px; padding: 0px; box-sizing: border-box;\"><strong style=\"box-sizing: border-box;\">4</strong></p>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section style=\"display: inline-block; vertical-align: middle; width: auto; flex: 100 100 0%; height: auto; align-self: center; padding: 0px 0px 0px 6px; box-sizing: border-box;\">\n<section style=\"text-align: justify; box-sizing: border-box;\">\n<p style=\"white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\"><strong style=\"box-sizing: border-box;\">温馨提示</strong></p>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section style=\";transform-style: flat; box-sizing: border-box; transform: perspective(0px); -webkit-transform: perspective(0px); -moz-transform: perspective(0px); -o-transform: perspective(0px);\">\n<section style=\"line-height: 0; margin: 0px 0px 10px; box-sizing: border-box; transform: rotateX(180deg); -webkit-transform: rotateX(180deg); -moz-transform: rotateX(180deg); -o-transform: rotateX(180deg);\">\n<section style=\"max-width: 100%; vertical-align: middle; display: inline-block; line-height: 0; width: auto; flex: 100 100 0%; height: auto; box-sizing: border-box;\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: middle; width: 100%; box-sizing: border-box; max-width: 100% !important;\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_png/btLkCxjz5dJEo8ah5UuiboEuowcHiaSMniaiaXrkf2podjDTK7sZzClhFCSyw7a9DPyI424qMwJ0AecJ2TSiciaRPsCMZWxF5nrYYVy4rw3Sj29P4/640?wx_fmt=png\" data-s=\"300,640\" data-ratio=\"0.026851851851851852\" data-w=\"1080\" /></section>\n</section>\n</section>\n<section style=\"text-align: justify; line-height: 2; letter-spacing: 2px; box-sizing: border-box;\">\n<p style=\"text-indent: 2.25em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\"><span style=\"font-size: 14px; box-sizing: border-box;\">1.请遵守馆内参观指引，共同爱护珍贵碑刻文物，营造文明有序的参观环境。</span></p>\n<p style=\"text-indent: 2.25em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\"><span style=\"font-size: 14px; box-sizing: border-box;\">2.如您在游览期间有任何疑问或者需要帮助，请致电<strong style=\"box-sizing: border-box;\">029-87253331</strong>。</span></p>\n<p style=\"white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">&nbsp;</p>\n</section>\n<section style=\"text-align: right; font-size: 14px; letter-spacing: 2px; line-height: 2; padding: 0px 10px; box-sizing: border-box;\">\n<p style=\"text-indent: 2em; margin: 0px; padding: 0px; box-sizing: border-box;\">西安碑林博物馆</p>\n</section>\n<section style=\"text-align: justify; box-sizing: border-box;\">\n<p style=\"white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">&nbsp;</p>\n</section>\n</section>\n</section>\n<p style=\"white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">&nbsp;</p>\n<section style=\"display: flex; width: 100%; flex-flow: column; max-width: 100% !important; box-sizing: border-box;\">\n<section style=\"z-index: 2; box-sizing: border-box;\">\n<section style=\"text-align: center; margin: 0px 0px -7px; line-height: 0; box-sizing: border-box; transform: translate3d(50px, 0px, 0px); -webkit-transform: translate3d(50px, 0px, 0px); -moz-transform: translate3d(50px, 0px, 0px); -o-transform: translate3d(50px, 0px, 0px);\">\n<section style=\"max-width: 100%; vertical-align: middle; display: inline-block; line-height: 0; width: 40px; height: auto; box-sizing: border-box;\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: middle; width: 100%; box-sizing: border-box; max-width: 100% !important;\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_png/a1L2SMg2YgCMF4MChV7oB7NgkhqVddK3l1ibibeZSg6TjPPVnYmkQwWy4aZbjZrjAoDQB3FOdOJQ3UdINqONF2og/640?wx_fmt=png\" width=\"100%\" data-s=\"300,640\" data-aistatus=\"1\" data-ratio=\"0.3067940552016985\" data-w=\"942\" /></section>\n</section>\n</section>\n</section>\n<p style=\"white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">&nbsp;</p>\n<section style=\";transform-style: flat; box-sizing: border-box; transform: perspective(0px); -webkit-transform: perspective(0px); -moz-transform: perspective(0px); -o-transform: perspective(0px);\">\n<section style=\"text-align: center; margin: 0px; line-height: 0; box-sizing: border-box; transform: rotateX(180deg); -webkit-transform: rotateX(180deg); -moz-transform: rotateX(180deg); -o-transform: rotateX(180deg);\">\n<section style=\"max-width: 100%; vertical-align: middle; display: inline-block; line-height: 0; box-sizing: border-box;\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: middle; width: 100%; box-sizing: border-box; max-width: 100% !important;\" src=\"https://mmbiz.qpic.cn/mmbiz_png/B2sGicibXoDbsz2CCM3AJapFCNuD6lxxMISFR3v1PNeic2dwHn4JnV897z6c6pcgjH5yEtZM1Zop6yZPZN2YPWXEA/640?wx_fmt=png\" width=\"100%\" data-aistatus=\"1\" data-s=\"300,640\" data-ratio=\"0.17592592592592593\" data-w=\"1080\" /></section>\n</section>\n</section>\n</section>\n<p style=\"display: none;\">&nbsp;</p>\n<section class=\"_135editor\"></section>\n<p>&nbsp;</p>",
+    "discountVoList": [
+      {
+        "peopleType": "老人",
+        "limit": "65周岁以上（含65周岁）凭居民身份证（或陕西省敬老优待证）",
+        "discount": " 免票"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "6周岁（含6周岁）以下",
+        "discount": " 免票"
+      },
+      {
+        "peopleType": "军人",
+        "limit": "现役军人（含军队离退休干部）凭军官证(离退休证)、士官证",
+        "discount": "免票"
+      },
+      {
+        "peopleType": "军属",
+        "limit": "现役军人本人所携的配偶和18岁以下未成年子女凭结婚证、户口本等有效证件",
+        "discount": "免票"
+      },
+      {
+        "peopleType": "“三属”人员",
+        "limit": "烈士遗属、因公牺牲军人遗属、病故军人遗属凭优待证",
+        "discount": "免票"
+      },
+      {
+        "peopleType": "消防救援人员",
+        "limit": "消防救援人员（含离退休）凭有效证件",
+        "discount": "免票"
+      },
+      {
+        "peopleType": "人民警察",
+        "limit": "凭《人民警察证》",
+        "discount": "免票"
+      },
+      {
+        "peopleType": "三秦优才卡人员",
+        "limit": "三秦优才卡人员持证",
+        "discount": "同行三人免门票"
+      },
+      {
+        "peopleType": "专家",
+        "limit": "陕西省内有突出贡献专家、享受政府特殊津贴专家和离休老干部，凭有效证件（荣誉证书、身份证两证齐全）",
+        "discount": "免票"
+      },
+      {
+        "peopleType": "院士",
+        "limit": "院士",
+        "discount": "免票"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "  凭残疾证",
+        "discount": "免票"
+      },
+      {
+        "peopleType": "重度残疾人陪护",
+        "limit": "二级以上重度残疾人需要陪护的",
+        "discount": "1名陪同人员免票"
+      },
+      {
+        "peopleType": "未成年人",
+        "limit": "6周岁（不含6周岁）至18周岁（含18周岁）的未成年人凭有效证件",
+        "discount": "  半票"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "6周岁（不含6周岁）至18周岁（含18周岁）的未成年人、国内全日制大学本科及以下学历学生凭有效证件（成人院校、在职教育、网络教育等均不享受优惠）",
+        "discount": "半票"
+      },
+      {
+        "peopleType": "入境游青少年",
+        "limit": "香港、澳门、台湾等入境游青少年凭《港澳居民来往内地通行证》、《台湾居民来往大陆通行证》或学生证件等有效身份证明",
+        "discount": "半票"
+      }
+    ],
+    "officialWebsite": [
+      "http://www.beilin-museum.com/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "票务咨询",
+        "telephone": "029-87253331"
+      },
+      {
+        "telephoneTitle": "讲解咨询",
+        "telephone": "029-87213868"
+      },
+      {
+        "telephoneTitle": "馆办电话",
+        "telephone": "029-87210764"
+      }
+    ],
+    "topBannerList": [
+      {
+        "id": "2085633026587951105",
+        "outId": "1320579064720941134",
+        "type": 1,
+        "advertName": " 西安碑林博物馆硬核游览指南",
+        "advertPic": "https://eshopfile.zhiyousx.com/2026051812063346908.png",
+        "jumpType": 1,
+        "jumpUrl": "https://mp.weixin.qq.com/s/gnykA2xfZHwF4jBuclhOtA",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "",
+        "contentType": null,
+        "bannerPosition": 0
+      }
+    ],
+    "bannerList": [],
+    "contentModuleName": "精品视窗",
+    "contentResourcesDtoList": [
+      {
+        "id": "2085633026520842241",
+        "resourcesId": "1321727224326676481",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/33333-1-20201029161439.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-08-07 15:43:57",
+        "updateTime": "2026-08-07 15:43:57",
+        "createBy": "1771079502224134145",
+        "updateBy": "1771079502224134145",
+        "isDeleted": 0
+      },
+      {
+        "id": "2085633026525036545",
+        "resourcesId": "1321727224326676481",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/3333333333333-1-20201029161451.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-08-07 15:43:57",
+        "updateTime": "2026-08-07 15:43:57",
+        "createBy": "1771079502224134145",
+        "updateBy": "1771079502224134145",
+        "isDeleted": 0
+      },
+      {
+        "id": "2085633026525036546",
+        "resourcesId": "1321727224326676481",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/333545454-1-20201029161459.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-08-07 15:43:57",
+        "updateTime": "2026-08-07 15:43:57",
+        "createBy": "1771079502224134145",
+        "updateBy": "1771079502224134145",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1439119981701840898",
+      "rankingId": null,
+      "indexInRanking": 6,
+      "rankingName": "陕西人气博物馆排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1551836855409541121",
+        "rankingId": "1551836856105795586",
+        "indexInRanking": null,
+        "rankingName": "外地游客西安必逛榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1658303499793903618",
+        "rankingId": "1658303501412904962",
+        "indexInRanking": null,
+        "rankingName": "历史文化类博物馆人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1538830830115508226",
+        "rankingId": "1538830831147307010",
+        "indexInRanking": null,
+        "rankingName": "西安必游人气排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1680835374538088449",
+        "rankingId": "1680835375632801794",
+        "indexInRanking": null,
+        "rankingName": "陕西省热搜50强博物馆排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1676883692355641345",
+        "rankingId": "1676883693114810370",
+        "indexInRanking": null,
+        "rankingName": "西安热门景区人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "2085633026541813761",
+        "scenicSpotId": "1320579064720941134",
+        "contentModuleName": "精品视窗",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1412963309598040065",
+            "type": 5,
+            "title": "颜勤礼碑",
+            "subtitle": "颜勤礼碑",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021071309324818573.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412963775014789122",
+            "type": 5,
+            "title": "玄秘塔碑",
+            "subtitle": "玄秘塔碑",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021071309334374651.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412964217488695297",
+            "type": 5,
+            "title": "大秦景教流行中国碑",
+            "subtitle": "大秦景教流行中国碑",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021071309345264499.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412964931476676609",
+            "type": 5,
+            "title": "穆亮墓志",
+            "subtitle": "穆亮墓志",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021071309402509725.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412965942366855169",
+            "type": 5,
+            "title": "穆亮妻尉太妃墓志",
+            "subtitle": "穆亮妻尉太妃墓志",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021071309394797306.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412966203286118401",
+            "type": 5,
+            "title": "元简墓志",
+            "subtitle": "元简墓志",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021070810460346831.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412966568727437314",
+            "type": 5,
+            "title": "昭陵六骏",
+            "subtitle": "昭陵六骏",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021070810470936627.png",
+            "likeRatio": 90.0,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412966885045067777",
+            "type": 5,
+            "title": "石犀",
+            "subtitle": "石犀",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021070810484774089.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412967210107822081",
+            "type": 5,
+            "title": "李寿石椁墓志墓门",
+            "subtitle": "李寿石椁墓志墓门",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021070810500477072.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412968333476651009",
+            "type": 5,
+            "title": "菩萨立像",
+            "subtitle": "菩萨立像",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021070810543446657.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412968606492286977",
+            "type": 5,
+            "title": "观音菩萨坐像",
+            "subtitle": "观音菩萨坐像",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021070810553927336.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1412968954682433538",
+            "type": 5,
+            "title": "皇兴造像",
+            "subtitle": "皇兴造像",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021070810565298785.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1435508325637795842",
+            "type": 5,
+            "title": "宋拓《集王圣教序》",
+            "subtitle": null,
+            "coverImage": "https://eshopfile.zhiyousx.com/163108670804682096.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1435509892118065153",
+            "type": 5,
+            "title": "宋拓《孔子庙堂碑》",
+            "subtitle": null,
+            "coverImage": "https://eshopfile.zhiyousx.com/163108703008745337.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1434694471047557121",
+            "type": 5,
+            "title": "景云钟",
+            "subtitle": "天下第一名钟",
+            "coverImage": "https://eshopfile.zhiyousx.com/163089172729169499.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": "延时开放公告",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": "产品预订",
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

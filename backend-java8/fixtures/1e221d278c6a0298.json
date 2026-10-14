@@ -1,0 +1,46 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1455793159865999362",
+    "contentId": "1455793158108585986",
+    "rankingName": "汉中美食人气排行榜",
+    "rankingClass": "2",
+    "rankingType": "2",
+    "rankingMainPictureUrl": "https://res.zhiyousx.com/ysx/pro/2021/11/03/163592305162488636.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": null,
+    "rankingInclude": "个美食",
+    "rankingPersonalInfo": "我吃过的美食",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#258A43",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1452568185680175106",
+        "originType": "2",
+        "originName": "浆水面",
+        "originSubtitleName": "酸而不烈，酸中寓香",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/25/163515415295206213.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/25/163515420457706343.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/25/163515420886372787.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/25/163515421380641251.jpg"
+        ],
+        "sort": "10",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "2",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "11",
+    "favoriteSum": "11",
+    "personalInfoValue": "0/11"
+  },
+  "msg": "成功",
+  "success": true
+}

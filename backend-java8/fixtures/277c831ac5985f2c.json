@@ -1,0 +1,26 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1813858480160460801",
+    "contentId": "1813858480143683585",
+    "rankingName": "陕文投集团人气景区",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/172129250900633356.jpg",
+    "rankingDescribe": "",
+    "rankingTotalUserData": "人喜爱",
+    "rankingInclude": "个目的地",
+    "rankingPersonalInfo": "我去过的目的地",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#0187CC",
+    "tagUrl": null,
+    "travelMapFlag": null,
+    "type": "7",
+    "rankingItemList": null,
+    "sumCount": "8",
+    "favoriteSum": null,
+    "personalInfoValue": null
+  },
+  "msg": "成功",
+  "success": true
+}

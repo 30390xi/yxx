@@ -1,0 +1,445 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1409846526909452290",
+    "scenicName": "陈家坡会议旧址",
+    "tag": "陕甘边革命史上的“遵义会议”",
+    "level": -1,
+    "cityId": "1320650338641162241",
+    "cityName": "铜川",
+    "address": "铜川市耀州区照金镇北梁村",
+    "longitude": "108.700985",
+    "latitude": "35.072158",
+    "openingStatus": 1,
+    "capacity": 1000,
+    "sequence": 9997,
+    "topColour": "#B3DEFE",
+    "centralColour": "#3B678B",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021062920585687697.jpg",
+      "https://eshopfile.zhiyousx.com/2021062919503875232.jpg"
+    ],
+    "introduction": "<p>　　陈家坡会议旧址是照金主要红色旅游景点之一。1933年8月14日，在革命斗争连续遭受严重挫折的危急关头，中共陕甘边特委在照金陈家坡召开了党、政、军联席扩大会议。会议抵制了左倾错误路线的干扰，重申了党对红军的领导地位，制定了正确的战略方针，为陕甘边根据地的发展和红二十六军的重建奠定了基础，在陕甘边党和红军的发展史上具有重要的历史地位。</p>",
+    "introductionText": "　　陈家坡会议旧址是照金主要红色旅游景点之一。1933年8月14日，在革命斗争连续遭受严重挫折的危急关头，中共陕甘边特委在照金陈家坡召开了党、政、军联席扩大会议。会议抵制了左倾错误路线的干扰，重申了党对红军的领导地位，制定了正确的战略方针，为陕甘边根据地的发展和红二十六军的重建奠定了基础，在陕甘边党和红军的发展史上具有重要的历史地位。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "18",
+        "name": "红色旅游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1559361626942615553",
+        "contentId": "1559361626913255425",
+        "name": "铜川红色旅游经典景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "参观时间",
+        "openTimeContent": "9:00-16:30"
+      }
+    ],
+    "discountVoList": null,
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "61",
+        "name": "讲解员",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016440410223.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "联系电话",
+        "telephone": "0919-6288868"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "陈家坡会议旧址管理所",
+        "wxSubscription": "gh_3cfeddad664d"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "1559370648869597185",
+        "outId": "1409846526909452290",
+        "type": 1,
+        "advertName": "陈家坡",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021062919522422460.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p>　　1933年8月14日，中共陕甘边区特委、游击队总指挥部和陕甘边革命委员会，在陈家坡召开了联席会议。会议由执行主席、陕甘边特委书记秦武山和陕甘边特委委员、军委书记习仲勋主持，在当地农民麦场上一棵千年的古树下举行。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062919551479496.jpeg\" /></p>\n<p>　　从当日下午四点左右开始，一直开到第二天太阳大照才散会。 会议主要围绕三个焦点了展开激烈争论：还要不要坚持、巩固和扩大陕甘边根据地？还要不要坚持统一领导，集中指挥三支武装力量?谁来担任新成立的红军临时总指挥部的总指挥和政委。 经过一晚上的激烈争论和两次表决，陈家坡会议最终作出了三项正确决议：一是坚持并扩大陕甘边根据地，恢复红军主力。这就克服了少数左倾路线领导人企图北上蒙古打通国际交通线的盲动思想和南下渭华地区威胁西安的妄想。二是成立&ldquo;陕甘边红军临时总指挥部&rdquo;，王泰吉任总指挥，高岗任政委，统一领导集中指挥三只武装力量。三是确立了陕甘红军正确的军事战略方针，会议制定了&ldquo;不打大仗打小仗，积小胜为大胜，集中主力，广泛开展游击战争，深入开展群众工作&rdquo;的战略方针。</p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\">来源：网络综合整理</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": "主要看点",
+    "contentResourcesDtoList": [
+      {
+        "id": "1559370648647299073",
+        "resourcesId": "1409848430553042945",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062920134504808.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2022-08-16 10:45:09",
+        "updateTime": "2022-08-16 10:45:09",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1559370648659881985",
+        "resourcesId": "1409848430553042945",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062920142534528.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2022-08-16 10:45:09",
+        "updateTime": "2022-08-16 10:45:09",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1559370648672464897",
+        "resourcesId": "1409848430553042945",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062920153058962.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2022-08-16 10:45:09",
+        "updateTime": "2022-08-16 10:45:09",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1559370648685047810",
+        "resourcesId": "1409848430553042945",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062920170463575.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2022-08-16 10:45:09",
+        "updateTime": "2022-08-16 10:45:09",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1559370648697630722",
+        "resourcesId": "1409848430553042945",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165934533439665789.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": "",
+        "createTime": "2022-08-16 10:45:09",
+        "updateTime": "2022-08-16 10:45:09",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1559370648710213633",
+        "resourcesId": "1409848430553042945",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165934533481019595.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": "",
+        "createTime": "2022-08-16 10:45:09",
+        "updateTime": "2022-08-16 10:45:09",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1559370648722796546",
+        "resourcesId": "1409848430553042945",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165934533521048400.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": "",
+        "createTime": "2022-08-16 10:45:09",
+        "updateTime": "2022-08-16 10:45:09",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1559370648735379458",
+        "resourcesId": "1409848430553042945",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165934533562855598.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": "",
+        "createTime": "2022-08-16 10:45:09",
+        "updateTime": "2022-08-16 10:45:09",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1559370648747962370",
+        "resourcesId": "1409848430553042945",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165934533598424673.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": "",
+        "createTime": "2022-08-16 10:45:09",
+        "updateTime": "2022-08-16 10:45:09",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1559370648756350978",
+        "resourcesId": "1409848430553042945",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165934533651310851.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": "",
+        "createTime": "2022-08-16 10:45:09",
+        "updateTime": "2022-08-16 10:45:09",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1559370648768933890",
+        "resourcesId": "1409848430553042945",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165934533687775266.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 11,
+        "describe": "",
+        "createTime": "2022-08-16 10:45:09",
+        "updateTime": "2022-08-16 10:45:09",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455081861037531138",
+      "rankingId": null,
+      "indexInRanking": 17,
+      "rankingName": "铜川必游景区人气榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": [
+      {
+        "id": "1559370648806682625",
+        "scenicSpotId": "1409846526909452290",
+        "contentModuleName": "主要看点",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1409853386064498689",
+            "type": 5,
+            "title": "陈家坡会议纪念馆",
+            "subtitle": "感受曾经的硝烟",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062920213974471.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1409857298611933186",
+            "type": 5,
+            "title": "红色文化广场",
+            "subtitle": "聆听远去的炮声",
+            "coverImage": "https://eshopfile.zhiyousx.com/165934503954006359.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1554020498064207873",
+            "type": 5,
+            "title": "马灯雕塑",
+            "subtitle": "照亮前行的道路",
+            "coverImage": "https://eshopfile.zhiyousx.com/165934182756478944.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": null,
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "scenicInfoTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": 0,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": null,
+    "hotelArrivalDepartureTime": null,
+    "hotelChildrenBed": null,
+    "hotelPet": null,
+    "hotelBreakfast": null,
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

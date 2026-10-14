@@ -1,0 +1,262 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1465930213668974593",
+    "scenicName": "麻黄梁黄土地质公园景区",
+    "tag": "全国唯一的黄土地质遗迹与沙漠地貌地质公园",
+    "level": 4,
+    "cityId": "1320664225474195458",
+    "cityName": "榆林",
+    "address": "榆林市榆阳区麻黄梁镇黄土地质公园景区",
+    "longitude": "110.057281",
+    "latitude": "38.381574",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 275,
+    "topColour": "#D29C56",
+    "centralColour": "#B7762E",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021120114175788115.jpg"
+    ],
+    "introduction": "<p>　　麻黄梁黄土地质公园位于榆林市城东约35公里，公园以佳芦河为中心，总面积37平方公里，核心保护区6.35平方公里，地质遗迹涉及5大类、50余处地质遗迹点，主要包括黄土峰林地貌景观、第四纪地层剖面、沙漠地貌景观、古生物化石等地质遗迹，对研究我国大陆乃至欧亚大陆第四纪地层剖面地质学具有重要意义，建成后是目前全国唯一一个可以同时欣赏到黄土地质遗迹与沙漠地貌景观的地质公园。</p>",
+    "introductionText": "　　麻黄梁黄土地质公园位于榆林市城东约35公里，公园以佳芦河为中心，总面积37平方公里，核心保护区6.35平方公里，地质遗迹涉及5大类、50余处地质遗迹点，主要包括黄土峰林地貌景观、第四纪地层剖面、沙漠地貌景观、古生物化石等地质遗迹，对研究我国大陆乃至欧亚大陆第四纪地层剖面地质学具有重要意义，建成后是目前全国唯一一个可以同时欣赏到黄土地质遗迹与沙漠地貌景观的地质公园。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "51",
+        "name": "拓展游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1468151869783175169",
+        "contentId": "1468151869758009346",
+        "name": "陕西新晋4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全年开放",
+        "openTimeContent": "周一至周日08：00-21：00"
+      }
+    ],
+    "discountVoList": null,
+    "facilitiesServicesVoList": null,
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "",
+        "telephone": "17709128159"
+      }
+    ],
+    "wxSubscriptionVoList": null,
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2089256486767353858",
+        "resourcesId": "1465930625440575489",
+        "title": "麻黄梁黄土地质公园",
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021120114281926572.mp4",
+        "coverImage": "https://res.zhiyousx.com/ysx/pro/2021/12/01/163834021031762926.jpg",
+        "videoId": null,
+        "resourcesType": 2,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-08-17 15:42:17",
+        "updateTime": "2026-08-17 15:42:17",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2089256486771548161",
+        "resourcesId": "1465930625440575489",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021120114273155165.jpeg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-08-17 15:42:17",
+        "updateTime": "2026-08-17 15:42:17",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2089256486775742466",
+        "resourcesId": "1465930625440575489",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021120114274630709.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-08-17 15:42:17",
+        "updateTime": "2026-08-17 15:42:17",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455743348567547905",
+      "rankingId": null,
+      "indexInRanking": 2,
+      "rankingName": " 榆林必逛景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

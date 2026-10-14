@@ -1,0 +1,281 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941178",
+    "scenicName": "太白山国家森林公园",
+    "tag": "南北分界线：岩崖已奇绝 冰雪竟雕皱",
+    "level": 5,
+    "address": "宝鸡市眉县汤峪镇法汤路1号",
+    "longitude": "107.908222",
+    "latitude": "34.147428",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#7D7774",
+    "centralColour": "#3F3534",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/太白山1-20201028153503.jpg",
+      "https://eshopfile.zhiyousx.com/太白山2-20201028153510.jpg"
+    ],
+    "introduction": "<p>　　太白山(Mountain Taibai)，国家AAAAA级旅游景区、国家森林公园、国家水利风景区、全国体育旅游十大景区、&ldquo;美丽中国&rdquo;十佳度假区、中国最具吸引力十大旅游目的地、中国最美生态旅游目的地、中国登山摇篮。太白山国家森林公园位于秦岭主峰太白山北麓的陕西省宝鸡市眉县境内，公园面积2949公顷，森林覆盖率94.3%。公园以森林景观为主体，苍山奇峰为骨架，清溪碧潭为脉络，文物古迹点缀其间，自然景观与人文景观浑然一体，是中国西部不可多得的自然风光旅游区，被誉为中国西部的一颗绿色明珠。包括10个景区，180多个景点。公园海拔高度从620米到3511米，是中国海拔最高的国家森林公园。</p>",
+    "introductionText": "　　太白山(Mountain Taibai)，国家AAAAA级旅游景区、国家森林公园、国家水利风景区、全国体育旅游十大景区、“美丽中国”十佳度假区、中国最具吸引力十大旅游目的地、中国最美生态旅游目的地、中国登山摇篮。太白山国家森林公园位于秦岭主峰太白山北麓的陕西省宝鸡市眉县境内，公园面积2949公顷，森林覆盖率94.3%。公园以森林景观为主体，苍山奇峰为骨架，清溪碧潭为脉络，文物古迹点缀其间，自然景观与人文景观浑然一体，是中国西部不可多得的自然风光旅游区，被誉为中国西部的一颗绿色明珠。包括10个景区，180多个景点。公园海拔高度从620米到3511米，是中国海拔最高的国家森林公园。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "51",
+        "name": "拓展游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026415628289",
+        "contentId": "1418152026403045378",
+        "name": "陕西5A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米(含)以下",
+        "discount": "免票"
+      },
+      {
+        "peopleType": "军人",
+        "limit": "持军官证、消防员证、士兵证、学员证、武警警官证的现役军人(含军校学员)，持有离休退休军官证的军队离休退休干部和退休士官",
+        "discount": "免票"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭残疾人证",
+        "discount": "免票"
+      },
+      {
+        "peopleType": "其他专职人员",
+        "limit": "持有记者证、导游证、旅行社经理资格证、戒牒、道士证等的人员",
+        "discount": "免票"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "65周岁(含)以上持老年证或身份证",
+        "discount": "免票"
+      }
+    ],
+    "officialWebsite": [
+      "http://www.tbpark.com/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "经区电话",
+        "telephone": "0917-5711048"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "1831177713389592577",
+        "outId": "1320579064720941178",
+        "type": 1,
+        "advertName": "攻略",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021072617123362658.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p>你要问我</p>\n<p>夏天的太白山到底有多美？</p>\n<p>一言一句很难描述，</p>\n<p>这里，绿意盎然</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072617280075941.jpg\" /></p>\n<p>太白山将地球上数千公里范围内才有的植被带，均匀的分布在海拔620米至3771米之间，四个植被带色调清晰，因海拔差异而不同，呈阶梯状分布，放眼望去，绿色的海浪铺天盖地，延绵千里。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072617280809396.jpg\" /></p>\n<p>太白山低山区峡谷悠长，中山区山势陡峭，高山区平坦而辽阔，这里有高大粗壮形如伞塔的原始森林，有通往天际绿油油的高山草甸，有万亩杜鹃园，有天宫盆景园，有凤凰松煜煜展翅，有蛇松古怪精灵&middot;&middot;&middot;&middot;&middot;&middot;</p>\n<p>纯净的汤峪河水，原始的森林植被，湛蓝的天空。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072617281504437.jpg\" /></p>\n<p>每到五月至九月间，鲜花遍地，一片碧绿里融合混杂着五颜六色的花朵，这里的一切呈现出纯粹明净的色彩。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072617282419033.jpg\" /></p>\n<p>太白山气候独特，海拔每升高一米温度降低0.4度，夏日炎炎里平均气温只有25摄氏度，有&ldquo;太白积雪六月天&rdquo;的奇观，是不可多得的避署胜地。</p>\n<p>这里，蓝得惊人</p>\n<p>高山明珠</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072617283248655.jpg\" /></p>\n<p>透彻的湖水倒影着纯蓝的天空，这就是太白山巅六颗璀璨夺目的圣湖。</p>\n<p>大爷海微波荡漾，湖面如蓝色丝绸打了褶皱。</p>\n<p>湖面倒映着蓝天白云，一切既真亦幻。</p>\n<p>太白山高山圣湖之奇有四点，其一是久旱不涸，久雨不溢，甚至水位多年不升不降；其二，天池水没有河流注入，也没有河道泄出，一泓深潭却洁净无比；其三，六个天池如项链上的蓝宝石有序分布，每个呈椭圆形或圆形，其四，太白山天池好似与地心相连、深不可测。</p>\n<p>从空中俯瞰，犹如通透碧玉，镶嵌在太白山的脖颈上。</p>\n<p>袅袅薄雾缭绕山头，白云傍山悠悠升腾，夕阳洒下金色，湖水荡漾，蓝色的湖面让人心旷神怡。</p>\n<p>这里，夜色迷人</p>\n<p>如果你认为太白山只有白天好玩就错了，夜晚的太白山苍穹浩渺，梦幻瑰丽，天空特别的近，仿佛一伸手，就可以摘下繁星满天中的一颗。</p>\n<p>数着星星， 拥着太白山水入梦 ，梦醒时身披一件晨曦撒下的霓裳，风清云淡， 有你做伴， 时光正好，岁月不老&hellip;&hellip;</p>\n<p>夏日太白山</p>\n<p>白天是绿意控和蔚蓝控，夜晚则是繁星闪烁</p>\n<p>只一眼，就沉醉</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1831177713364426753",
+        "resourcesId": "1321356168621481986",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/太白山2-20201028153944.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2024-09-04 11:49:23",
+        "updateTime": "2024-09-04 11:49:23",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1831177713368621057",
+        "resourcesId": "1321356168621481986",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/太白山3-20201028154013.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2024-09-04 11:49:23",
+        "updateTime": "2024-09-04 11:49:23",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1831177713368621058",
+        "resourcesId": "1321356168621481986",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/太白山1-20201028154021.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2024-09-04 11:49:23",
+        "updateTime": "2024-09-04 11:49:23",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1831177713372815362",
+        "resourcesId": "1321356168621481986",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/太白山7-20201028154030.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2024-09-04 11:49:23",
+        "updateTime": "2024-09-04 11:49:23",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1692113814122344449",
+      "rankingId": null,
+      "indexInRanking": 4,
+      "rankingName": "宝鸡自然风光排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": "",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,462 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941149",
+    "scenicName": "柞水溶洞地质公园",
+    "tag": "自然环境灵秀典雅，景点多而集中",
+    "level": -1,
+    "cityId": "1320664941605466114",
+    "cityName": "商洛",
+    "address": "商洛市柞水县南石瓮镇",
+    "longitude": "109.1729000000",
+    "latitude": "33.5723430000",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 67,
+    "topColour": "#626EEF",
+    "centralColour": "#443BEF",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/1-20201028152510.jpg",
+      "https://eshopfile.zhiyousx.com/2-20201028152515.jpg",
+      "https://eshopfile.zhiyousx.com/3-20201028152518.jpg",
+      "https://eshopfile.zhiyousx.com/4-20201028152521.jpg"
+    ],
+    "introduction": "<p>&nbsp; &nbsp; 陕西柞水溶洞国家地质公园位于秦岭南麓的柞水县，横跨下梁、石瓮两镇，距省会西安76km，距柞水县城6公里。是以溶洞、峡谷、瀑布、古生物化石等地质遗迹景观为主体，辅以丰富的生态景观和人文景观，集科学和美学价值于一体的大型综合性地质公园。柞水溶洞国家地质公园总面积63km2，是中国西北内陆罕见的最大最集中的溶洞峰丛群。对于研究中秦岭地质发展史具有重要的科学意义，在中国北方岩溶地貌研究中亦具有特殊的科学地位和价值，在国内岩溶地质遗迹中独树一帜。公园的中、上泥盆系岩相剖面则揭示了中秦岭泥盆纪构造发展的历史和古地理环境变迁，是国内重要的地层剖面类地质遗迹。柞水岩溶地质遗迹体现的不仅是景观之美，更具有科学之美，是我们认识和研究新近纪以来秦岭地质发展的天然实验室和历史教科书，是向广大民众普及地质科学知识，树立辩证唯物观的科普基地。典型的卡斯特地貌结构、洞府桃园的地质遗迹以及西北唯一的徽派建筑民居群和独特的自然景观被地质学家称为&ldquo;秦岭明珠，地质奇观&rdquo;。</p>",
+    "introductionText": "    陕西柞水溶洞国家地质公园位于秦岭南麓的柞水县，横跨下梁、石瓮两镇，距省会西安76km，距柞水县城6公里。是以溶洞、峡谷、瀑布、古生物化石等地质遗迹景观为主体，辅以丰富的生态景观和人文景观，集科学和美学价值于一体的大型综合性地质公园。柞水溶洞国家地质公园总面积63km2，是中国西北内陆罕见的最大最集中的溶洞峰丛群。对于研究中秦岭地质发展史具有重要的科学意义，在中国北方岩溶地貌研究中亦具有特殊的科学地位和价值，在国内岩溶地质遗迹中独树一帜。公园的中、上泥盆系岩相剖面则揭示了中秦岭泥盆纪构造发展的历史和古地理环境变迁，是国内重要的地层剖面类地质遗迹。柞水岩溶地质遗迹体现的不仅是景观之美，更具有科学之美，是我们认识和研究新近纪以来秦岭地质发展的天然实验室和历史教科书，是向广大民众普及地质科学知识，树立辩证唯物观的科普基地。典型的卡斯特地貌结构、洞府桃园的地质遗迹以及西北唯一的徽派建筑民居群和独特的自然景观被地质学家称为“秦岭明珠，地质奇观”。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "68",
+        "name": "旅游小镇",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "51",
+        "name": "拓展游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "淡季",
+        "openTimeContent": "12月1日-次年2月28日周一至周日全天:09:00-17:00最晚入园: 16:30"
+      },
+      {
+        "openTimeTitle": "旺季",
+        "openTimeContent": "3月1日-11月30日周一至周日全天:08:30-17:00最晚入园:16:30"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "身高12米(含)以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "18周岁(含)以下或身高1.2米(不含)以上任身份证或户口本",
+        "discount": "半票"
+      },
+      {
+        "peopleType": "老年人",
+        "limit": "65周岁(含)以上凭老年证或身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "老年人",
+        "limit": "60周岁(含)-65周岁(不含)凭老年证或身份证",
+        "discount": "半票"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "全日制大中小学生凭学生证",
+        "discount": "半票"
+      },
+      {
+        "peopleType": "记者",
+        "limit": "记者证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "导游",
+        "limit": "导游证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "残疾证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "现役军人",
+        "limit": "军官证",
+        "discount": "免费"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "10",
+        "name": "商店",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (19).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "11",
+        "name": "餐厅",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (22).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "54",
+        "name": "手机充电",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016402390363.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "预订提示",
+        "additionalExplainContent": "疫情防控期间，为了保护好您的健康与安全，请您一定要做好自我防护，建议减少外出，避免去人群密集的公共场所，进入景区佩戴口罩<br/>同时，请您配合景区做好入园体温检测以及信息登记工作。由此给您带来不便敬请谅解"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<div class=\"para\" data-pid=\"62\">柞水溶洞国家地质公园（天佛洞）旅游专线</div>\n<div class=\"para\" data-pid=\"62\">早七点到晚七点，每一个半小时一班上车不受往返，门票限制。</div>\n<div class=\"para\" data-pid=\"63\">柞水乘车地点：柞水溶洞国家地质公园天佛洞广场。</div>\n<div class=\"para\" data-pid=\"64\">西安乘车地点：西安火车站环建委旅游汽车站（东广场城墙内）</div>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<div class=\"para\" data-pid=\"60\">如果从西安出发，由绕城高速曲江立交进入包茂高速---西柞段至柞水出入口，收费55元。西安至柞水县城全长约65km，1小时可到达。途中经过大小隧道17个，最长的为有&ldquo;世界第一座最长的双洞高速公路隧道&rdquo;、&ldquo;亚洲第一公路隧道&rdquo;、&ldquo;中国第一长隧&rdquo;美誉的&ldquo;秦岭终南山公路隧道&rdquo;。隧道中限速70km/小时，禁止随意停车。</div>\n<div class=\"para\" data-pid=\"61\">&nbsp;</div>"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "咨询电话",
+        "telephone": "0914-4329208"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "柞水溶洞景区",
+        "wxSubscription": "qldtfd"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1726452776684883970",
+        "resourcesId": "1321353552998981634",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/4-20201028153008.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2023-11-20 12:09:52",
+        "updateTime": "2023-11-20 12:09:52",
+        "createBy": "1290154746467225602",
+        "updateBy": "1290154746467225602",
+        "isDeleted": 0
+      },
+      {
+        "id": "1726452776693272578",
+        "resourcesId": "1321353552998981634",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2-20201028153355.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2023-11-20 12:09:52",
+        "updateTime": "2023-11-20 12:09:52",
+        "createBy": "1290154746467225602",
+        "updateBy": "1290154746467225602",
+        "isDeleted": 0
+      },
+      {
+        "id": "1726452776701661185",
+        "resourcesId": "1321353552998981634",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/3-20201028153405.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2023-11-20 12:09:52",
+        "updateTime": "2023-11-20 12:09:52",
+        "createBy": "1290154746467225602",
+        "updateBy": "1290154746467225602",
+        "isDeleted": 0
+      },
+      {
+        "id": "1726452776710049793",
+        "resourcesId": "1321353552998981634",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072215460425452.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2023-11-20 12:09:52",
+        "updateTime": "2023-11-20 12:09:52",
+        "createBy": "1290154746467225602",
+        "updateBy": "1290154746467225602",
+        "isDeleted": 0
+      },
+      {
+        "id": "1726452776718438402",
+        "resourcesId": "1321353552998981634",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072215462658855.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2023-11-20 12:09:52",
+        "updateTime": "2023-11-20 12:09:52",
+        "createBy": "1290154746467225602",
+        "updateBy": "1290154746467225602",
+        "isDeleted": 0
+      },
+      {
+        "id": "1726452776726827010",
+        "resourcesId": "1321353552998981634",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072215463747180.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2023-11-20 12:09:52",
+        "updateTime": "2023-11-20 12:09:52",
+        "createBy": "1290154746467225602",
+        "updateBy": "1290154746467225602",
+        "isDeleted": 0
+      },
+      {
+        "id": "1726452776735215618",
+        "resourcesId": "1321353552998981634",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072215464946521.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2023-11-20 12:09:52",
+        "updateTime": "2023-11-20 12:09:52",
+        "createBy": "1290154746467225602",
+        "updateBy": "1290154746467225602",
+        "isDeleted": 0
+      },
+      {
+        "id": "1726452776743604225",
+        "resourcesId": "1321353552998981634",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072215470709419.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2023-11-20 12:09:52",
+        "updateTime": "2023-11-20 12:09:52",
+        "createBy": "1290154746467225602",
+        "updateBy": "1290154746467225602",
+        "isDeleted": 0
+      },
+      {
+        "id": "1726452776751992834",
+        "resourcesId": "1321353552998981634",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072215472136904.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": null,
+        "createTime": "2023-11-20 12:09:52",
+        "updateTime": "2023-11-20 12:09:52",
+        "createBy": "1290154746467225602",
+        "updateBy": "1290154746467225602",
+        "isDeleted": 0
+      },
+      {
+        "id": "1726452776760381441",
+        "resourcesId": "1321353552998981634",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072215473250611.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": null,
+        "createTime": "2023-11-20 12:09:52",
+        "updateTime": "2023-11-20 12:09:52",
+        "createBy": "1290154746467225602",
+        "updateBy": "1290154746467225602",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455809122913067009",
+      "rankingId": null,
+      "indexInRanking": 1,
+      "rankingName": "商洛自驾游景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

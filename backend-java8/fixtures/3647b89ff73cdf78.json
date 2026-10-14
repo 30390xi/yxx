@@ -1,0 +1,219 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064188264598",
+    "scenicName": "太子坪景区",
+    "tag": "独具特色的景区标志性景观",
+    "level": 3,
+    "address": "商洛市商南县金丝峡镇太子坪社区",
+    "longitude": "110.580578",
+    "latitude": "33.400527",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#5A7D1D",
+    "centralColour": "#364E0C",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/1-20201028192922.jpg",
+      "https://eshopfile.zhiyousx.com/6-20201028192927.jpg"
+    ],
+    "introduction": "<p>　　太子坪景区是由镶嵌在金丝峡旅游专线上多个特色村落融汇而成，总面积16平方公里，距离G40沪陕高速金丝峡出口7公里，距离金丝峡核心景区9公里，是一个集休闲度假、民宿体验、民俗展示、田园风光于一体新型景区。景区内多以半山民居院落，散落林地为主，太吉河南北穿境而过、形成河堤、坡岸等生态基底，将&ldquo;山、水、田、园、路、房&rdquo;六位一体深度融汇，使各沿线村落在空间上联通，在业态上互补，在文化上传承，在景观上延续;整个景区由&ldquo;丰&rdquo;吉之村太子坪,&ldquo;康&rdquo;吉之村王家坡、&ldquo;运&rdquo;吉之村龙凤湾、&ldquo;福&rdquo;吉之村卧龙谷四大核心景点组成。</p>",
+    "introductionText": "　　太子坪景区是由镶嵌在金丝峡旅游专线上多个特色村落融汇而成，总面积16平方公里，距离G40沪陕高速金丝峡出口7公里，距离金丝峡核心景区9公里，是一个集休闲度假、民宿体验、民俗展示、田园风光于一体新型景区。景区内多以半山民居院落，散落林地为主，太吉河南北穿境而过、形成河堤、坡岸等生态基底，将“山、水、田、园、路、房”六位一体深度融汇，使各沿线村落在空间上联通，在业态上互补，在文化上传承，在景观上延续;整个景区由“丰”吉之村太子坪,“康”吉之村王家坡、“运”吉之村龙凤湾、“福”吉之村卧龙谷四大核心景点组成。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [],
+    "noticeMsg": "",
+    "discountVoList": null,
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0914-6563666"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1689832715086147586",
+        "resourcesId": "1321413911613038593",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2-20201028192944.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2023-08-11 10:54:49",
+        "updateTime": "2023-08-11 10:54:49",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1689832715094536194",
+        "resourcesId": "1321413911613038593",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/3-20201028192950.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2023-08-11 10:54:49",
+        "updateTime": "2023-08-11 10:54:49",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1689832715102924802",
+        "resourcesId": "1321413911613038593",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/4-20201028192954.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2023-08-11 10:54:49",
+        "updateTime": "2023-08-11 10:54:49",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1689832715115507713",
+        "resourcesId": "1321413911613038593",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/5-20201028192959.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2023-08-11 10:54:49",
+        "updateTime": "2023-08-11 10:54:49",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": null,
+      "rankingId": null,
+      "indexInRanking": null,
+      "rankingName": null,
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,126 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1849009536403165186",
+    "contentId": "1849009536377999362",
+    "rankingName": "沣裕口人气美食",
+    "rankingClass": "2",
+    "rankingType": "3",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/172975485490032594.jpg",
+    "rankingDescribe": "逃离城市的西安地道老字号风味",
+    "rankingTotalUserData": "人喜爱",
+    "rankingInclude": "个目的地",
+    "rankingPersonalInfo": "我去过的目的地",
+    "rankingSharePictureUrl": "",
+    "bottomColour": "#E06A2A",
+    "tagUrl": null,
+    "travelMapFlag": null,
+    "type": "7",
+    "rankingItemList": [
+      {
+        "originId": "1848973673610792962",
+        "originType": "3",
+        "originName": "昌民米皮老店",
+        "originSubtitleName": "滦镇家喻户晓米皮店",
+        "originUrl": "https://eshopfile.zhiyousx.com/2024102314240537163.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/172966623536279570.jpg",
+          "https://eshopfile.zhiyousx.com/172966623558557684.jpg",
+          "https://eshopfile.zhiyousx.com/172966623582066687.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1848983183882719233",
+        "originType": "3",
+        "originName": "建基泡馍",
+        "originSubtitleName": "环山路上的人气泡馍店",
+        "originUrl": "https://eshopfile.zhiyousx.com/2024102315425995365.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/172966936862211329.jpg",
+          "https://eshopfile.zhiyousx.com/172966936888094835.jpg",
+          "https://eshopfile.zhiyousx.com/172966936918662355.jpg",
+          "https://eshopfile.zhiyousx.com/172966936948912699.jpg",
+          "https://eshopfile.zhiyousx.com/172966936969969158.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1849004797510733826",
+        "originType": "3",
+        "originName": "那家土灶(总店)",
+        "originSubtitleName": "地道铁锅炖",
+        "originUrl": "https://eshopfile.zhiyousx.com/2024102316155904988.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/172967141719823892.jpg",
+          "https://eshopfile.zhiyousx.com/172967141743830421.jpg",
+          "https://eshopfile.zhiyousx.com/172967141765629729.jpg",
+          "https://eshopfile.zhiyousx.com/172967141788301241.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1849008954338627586",
+        "originType": "3",
+        "originName": "山阳姑娘黑擀面皮",
+        "originSubtitleName": "特色黑擀面皮",
+        "originUrl": "https://eshopfile.zhiyousx.com/2024102316404457390.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/172967283803504951.jpg",
+          "https://eshopfile.zhiyousx.com/172967283827376268.jpg",
+          "https://eshopfile.zhiyousx.com/172967283848799884.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1849015710747987969",
+        "originType": "3",
+        "originName": "开席咧上面",
+        "originSubtitleName": "乡党臊子面，一口到家",
+        "originUrl": "https://eshopfile.zhiyousx.com/2024102317064174921.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/172967444687367546.jpg",
+          "https://eshopfile.zhiyousx.com/172967444712516900.jpg",
+          "https://eshopfile.zhiyousx.com/172967444735299550.jpg",
+          "https://eshopfile.zhiyousx.com/172967444757745797.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "5",
+    "favoriteSum": null,
+    "personalInfoValue": "0/5"
+  },
+  "msg": "成功",
+  "success": true
+}

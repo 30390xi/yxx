@@ -1,0 +1,191 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941119",
+    "scenicName": "通天河国家森林公园",
+    "tag": "蕴藏着玄奘取经留下的遗迹、传说和神话故事",
+    "level": 4,
+    "address": "宝鸡市凤县唐藏镇辛家山",
+    "longitude": "106.6127150000",
+    "latitude": "34.1778890000",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#C49869",
+    "centralColour": "#C49869",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/1-20201029164738.jpg",
+      "https://eshopfile.zhiyousx.com/2-20201029164741.jpg"
+    ],
+    "introduction": "<p>　　通天河国家森林公园位于陕西省宝鸡市西南部，秦岭南麓凤县境内，距宝鸡市90公里，距凤县县城41公里，距宝汉公路31公里。公园面积5235公顷。地势西北高、东南低，最高海拔2738.7米，最低海拔1580米，森林覆盖率达98.6%，拥有广阔的自然森林植被景观。公园有西河庙、高山石林、莲花山三大景区，50多个景点。公园内森林植物1800多种，野生动物280多种，七八月平均气温22.7℃。因公园所在地唐藏镇相传是唐僧师徒取经经过此地，境内的庙儿蜿蜒向西直达秦岭梁顶为&ldquo;通经西天&rdquo;之意，故公园由此得名。</p>",
+    "introductionText": "　　通天河国家森林公园位于陕西省宝鸡市西南部，秦岭南麓凤县境内，距宝鸡市90公里，距凤县县城41公里，距宝汉公路31公里。公园面积5235公顷。地势西北高、东南低，最高海拔2738.7米，最低海拔1580米，森林覆盖率达98.6%，拥有广阔的自然森林植被景观。公园有西河庙、高山石林、莲花山三大景区，50多个景点。公园内森林植物1800多种，野生动物280多种，七八月平均气温22.7℃。因公园所在地唐藏镇相传是唐僧师徒取经经过此地，境内的庙儿蜿蜒向西直达秦岭梁顶为“通经西天”之意，故公园由此得名。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "51",
+        "name": "拓展游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": null,
+    "officialWebsite": [
+      "http://www.tthly.com/index.php?ie=0-1-1"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "官方电话",
+        "telephone": "0917-4761888"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1435073202014498818",
+        "resourcesId": "1321735576070938626",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/3-20201029164748.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2021-09-07 10:51:28",
+        "updateTime": "2021-09-07 10:51:28",
+        "createBy": "1344113100973973505",
+        "updateBy": "1344113100973973505",
+        "isDeleted": 0
+      },
+      {
+        "id": "1435073202014498819",
+        "resourcesId": "1321735576070938626",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/4-20201029164753.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2021-09-07 10:51:28",
+        "updateTime": "2021-09-07 10:51:28",
+        "createBy": "1344113100973973505",
+        "updateBy": "1344113100973973505",
+        "isDeleted": 0
+      },
+      {
+        "id": "1435073202014498820",
+        "resourcesId": "1321735576070938626",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/1-20201029164759.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2021-09-07 10:51:28",
+        "updateTime": "2021-09-07 10:51:28",
+        "createBy": "1344113100973973505",
+        "updateBy": "1344113100973973505",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": null,
+      "rankingId": null,
+      "indexInRanking": null,
+      "rankingName": null,
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -17,8 +17,8 @@
                             </block>
                             <view bindtap="__e" class="detail data-v-72ec494b" data-event-opts="{{[ [ 'tap',[ ['showMore'] ] ] ]}}">
                                 <view class="look data-v-72ec494b">查看详情</view>
-                                <image class="data-v-72ec494b" src="https://eshopfile.zhiyousx.com/170960897814194743.png" style="width:24rpx;height:24rpx;" wx:if="{{showDetail}}"></image>
-                                <image class="data-v-72ec494b" src="https://eshopfile.zhiyousx.com/170911466956745555.png" style="width:24rpx;height:24rpx;" wx:else></image>
+                                <image class="data-v-72ec494b" src="/static/captured/4240b37b99676c82.png" style="width:24rpx;height:24rpx;" wx:if="{{showDetail}}"></image>
+                                <image class="data-v-72ec494b" src="/static/captured/121565252414ca66.png" style="width:24rpx;height:24rpx;" wx:else></image>
                             </view>
                         </view>
                         <view class="right data-v-72ec494b">
@@ -49,11 +49,11 @@
                             <view class="ceng5 data-v-72ec494b" wx:if="{{couponDetail.couponStates==2}}">抢光了</view>
                             <view class="ceng4 data-v-72ec494b" wx:if="{{couponDetail.couponStates==3}}">已领取</view>
                         </view>
-                        <image class="stamp data-v-72ec494b" src="https://eshopfile.zhiyousx.com/170917825995622404.png" wx:if="{{couponDetail.couponStates==3}}"></image>
+                        <image class="stamp data-v-72ec494b" src="/static/captured/dd054da3144967a2.png" wx:if="{{couponDetail.couponStates==3}}"></image>
                     </view>
                     <view class="{{['introduce','data-v-72ec494b',showDetail?'extend':'']}}">
                         <view class="data-v-72ec494b">
-                            <image class="data-v-72ec494b" src="https://eshopfile.zhiyousx.com/170917719529144229.png" style="width:20rpx;height:20rpx;"></image>
+                            <image class="data-v-72ec494b" src="/static/captured/dbd8fafda7f971bd.png" style="width:20rpx;height:20rpx;"></image>
                         </view>
                         <view class="data-v-72ec494b">
                             <view class="wenzi data-v-72ec494b">{{couponDetail.useExplain}}</view>
@@ -127,7 +127,7 @@
                 </view>
             </view>
             <view class="empty data-v-72ec494b" wx:if="{{loadMore=='nomore'&&num==0}}">
-                <empty-state bind:__l="__l" class="data-v-72ec494b" imgUrl="https://eshopfile.zhiyousx.com/noOrder@2x.png" text="暂无产品" vueId="38eda742-5"></empty-state>
+                <empty-state bind:__l="__l" class="data-v-72ec494b" imgUrl="/static/captured/8967f3ec41c22eab.png" text="暂无产品" vueId="38eda742-5"></empty-state>
             </view>
             <view class="loadMore data-v-72ec494b" wx:else>
                 <u-loadmore bgColor="#f7f7f7" bind:__l="__l" class="data-v-72ec494b" color="#ccc" iconColor="#ccc" status="{{loadMore}}" vueId="38eda742-6"></u-loadmore>

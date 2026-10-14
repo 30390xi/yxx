@@ -1,0 +1,195 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064641249287",
+    "scenicName": "午子山风景名胜区",
+    "tag": "观光旅游、宗教朝拜的圣地",
+    "level": 4,
+    "address": "汉中市西乡县城东南12公里的堰口古镇",
+    "longitude": "107.846524",
+    "latitude": "32.950352",
+    "openingStatus": 1,
+    "capacity": 8000,
+    "topColour": "#4EAE6B",
+    "centralColour": "#3C7B5C",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2026040216384830804.jpg"
+    ],
+    "introduction": "<p>午子山景区位于汉中市西乡县城东南12公里的省级重点镇堰口镇，距十天高速公路午子山出入口1公里，是省级重点文物保护单位，国家AAAA级旅游景区，省级风景名胜区，素有&ldquo;汉南胜景&rdquo;&ldquo;陕南小华山&rdquo;之称。午子山景区胜迹众多，奇峰秀水，景色独特，自然景观与人文景观融为一体，自然景观以&ldquo;三峰峭立、二水环绕&rdquo;的午子山为主体，包括午子山、大峡河、后山茶园、田园风光和堰口古镇等景区，面积约25平方公里；人文景观午子观由底观、腰观、顶观三大古建筑群组合而成；&ldquo;午子朝霞&rdquo;&ldquo;圣水灵潮&rdquo;&ldquo;龙洞飞泉&rdquo;冠居西乡八景之首，是您观光旅游的圣地。景区现有世界珍稀树种白皮松2500余亩，白皮松四季常青，苍郁挺拔，耐人观赏，更为名山添秀增色。</p>",
+    "introductionText": "午子山景区位于汉中市西乡县城东南12公里的省级重点镇堰口镇，距十天高速公路午子山出入口1公里，是省级重点文物保护单位，国家AAAA级旅游景区，省级风景名胜区，素有“汉南胜景”“陕南小华山”之称。午子山景区胜迹众多，奇峰秀水，景色独特，自然景观与人文景观融为一体，自然景观以“三峰峭立、二水环绕”的午子山为主体，包括午子山、大峡河、后山茶园、田园风光和堰口古镇等景区，面积约25平方公里；人文景观午子观由底观、腰观、顶观三大古建筑群组合而成；“午子朝霞”“圣水灵潮”“龙洞飞泉”冠居西乡八景之首，是您观光旅游的圣地。景区现有世界珍稀树种白皮松2500余亩，白皮松四季常青，苍郁挺拔，耐人观赏，更为名山添秀增色。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": null,
+    "officialWebsite": null,
+    "telephoneVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2039623843149578241",
+        "resourcesId": "1322089158779625474",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/b3db8935-18cf-49ca-b653-b25181ece63f-20201030161209.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-04-02 16:39:53",
+        "updateTime": "2026-04-02 16:39:53",
+        "createBy": "2021189462693314562",
+        "updateBy": "2021189462693314562",
+        "isDeleted": 0
+      },
+      {
+        "id": "2039623843153772546",
+        "resourcesId": "1322089158779625474",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/a13a9ab1-dafa-4cb8-a848-91a62a5bdc53-20201030161216.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-04-02 16:39:53",
+        "updateTime": "2026-04-02 16:39:53",
+        "createBy": "2021189462693314562",
+        "updateBy": "2021189462693314562",
+        "isDeleted": 0
+      },
+      {
+        "id": "2039623843153772547",
+        "resourcesId": "1322089158779625474",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/366a4a8a-890d-48dd-bae0-c0052475e614-20201030161222.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-04-02 16:39:53",
+        "updateTime": "2026-04-02 16:39:53",
+        "createBy": "2021189462693314562",
+        "updateBy": "2021189462693314562",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": null,
+      "rankingId": null,
+      "indexInRanking": null,
+      "rankingName": null,
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

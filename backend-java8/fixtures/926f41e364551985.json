@@ -1,0 +1,71 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "2082014793571688449",
+      "resourcesId": "1321356267661582338",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/d0d8aad3-dbbe-492a-878e-7df2bae83387-20201028154034.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2026-07-28 16:06:23",
+      "updateTime": "2026-07-28 16:06:23",
+      "createBy": "1635171719176675330",
+      "updateBy": "1635171719176675330",
+      "isDeleted": 0
+    },
+    {
+      "id": "2082014793575882754",
+      "resourcesId": "1321356267661582338",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/e0216f6d-b526-4f3e-b7ae-aad11ea16bb1-20201028154046.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 2,
+      "describe": null,
+      "createTime": "2026-07-28 16:06:23",
+      "updateTime": "2026-07-28 16:06:23",
+      "createBy": "1635171719176675330",
+      "updateBy": "1635171719176675330",
+      "isDeleted": 0
+    },
+    {
+      "id": "2082014793575882755",
+      "resourcesId": "1321356267661582338",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/6973537e-681b-4cca-84fc-e2c6f7395c28-20201028154041.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 3,
+      "describe": null,
+      "createTime": "2026-07-28 16:06:23",
+      "updateTime": "2026-07-28 16:06:23",
+      "createBy": "1635171719176675330",
+      "updateBy": "1635171719176675330",
+      "isDeleted": 0
+    },
+    {
+      "id": "2082014793580077058",
+      "resourcesId": "1321356267661582338",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/ba18a7bf-0738-4af5-abe6-6547c12abdf6-20201028154056.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 4,
+      "describe": null,
+      "createTime": "2026-07-28 16:06:23",
+      "updateTime": "2026-07-28 16:06:23",
+      "createBy": "1635171719176675330",
+      "updateBy": "1635171719176675330",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

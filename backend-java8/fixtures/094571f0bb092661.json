@@ -1,0 +1,39 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "2102235659322851329",
+      "resourcesId": "1321333812930830338",
+      "title": "兵马俑是如何制作出来的？",
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2022072611551574527.mp4",
+      "coverImage": "https://eshopfile.zhiyousx.com/165880770512743708.png",
+      "videoId": null,
+      "resourcesType": 2,
+      "sequence": 1,
+      "describe": "《中国考古大会》告诉你兵马俑是如何制作出来的~",
+      "createTime": "2026-09-22 11:16:53",
+      "updateTime": "2026-09-22 11:16:53",
+      "createBy": "2084886097632034818",
+      "updateBy": "2084886097632034818",
+      "isDeleted": 0
+    },
+    {
+      "id": "2102235659327045633",
+      "resourcesId": "1321333812930830338",
+      "title": "兵马俑宣传片",
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072316474944222.mp4",
+      "coverImage": "https://eshopfile.zhiyousx.com/162703012297965013.jpg",
+      "videoId": null,
+      "resourcesType": 2,
+      "sequence": 2,
+      "describe": null,
+      "createTime": "2026-09-22 11:16:53",
+      "updateTime": "2026-09-22 11:16:53",
+      "createBy": "2084886097632034818",
+      "updateBy": "2084886097632034818",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

@@ -6,13 +6,13 @@
         <view class="information data-v-5bf8cba4">
             <view class="left data-v-5bf8cba4">
                 <view bindtap="__e" class="Photo data-v-5bf8cba4" data-event-opts="{{[ [ 'tap',[ [ 'information',['$event'] ] ] ] ]}}">
-                    <image class="data-v-5bf8cba4" src="{{userInfo.picUrl?userInfo.picUrl:'https://eshopfile.zhiyousx.com/2021120914511172601.png'}}" wx:if="{{userInfo}}"></image>
-                    <image class="data-v-5bf8cba4" src="https://eshopfile.zhiyousx.com/2021120914511172601.png" wx:else></image>
+                    <image class="data-v-5bf8cba4" src="{{userInfo.picUrl?userInfo.picUrl:'/static/captured/f2e1c84b8f3d4bdd.png'}}" wx:if="{{userInfo}}"></image>
+                    <image class="data-v-5bf8cba4" src="/static/captured/f2e1c84b8f3d4bdd.png" wx:else></image>
                 </view>
                 <view class="nickName data-v-5bf8cba4">
                     <block wx:if="{{userInfo}}">
                         <view class="n data-v-5bf8cba4">{{''+(userInfo.nickName?userInfo.nickName:'')+''}}<view bindtap="__e" class="goodshare data-v-5bf8cba4" data-event-opts="{{[ [ 'tap',[ [ 'goWealth',['$event'] ] ] ] ]}}" wx:if="{{userInfo.isFenxiao}}">
-                                <image class="data-v-5bf8cba4" mode="heightFix" src="https://eshopfile.zhiyousx.com/2021111810193639516.png"></image>旅行达人</view>
+                                <image class="data-v-5bf8cba4" mode="heightFix" src="/static/captured/13f7b77e3eb822ac.png"></image>旅行达人</view>
                         </view>
                         <view class="data-v-5bf8cba4">{{$root.f0}}</view>
                     </block>
@@ -78,34 +78,34 @@
         <view class="details data-v-5bf8cba4">
             <view bindtap="__e" class="contents data-v-5bf8cba4" data-event-opts="{{[ [ 'tap',[ [ 'goMyorder',[1] ] ] ] ]}}">
                 <view class="iconbox data-v-5bf8cba4">
-                    <image class="data-v-5bf8cba4" src="https://eshopfile.zhiyousx.com/2021111817111705800.png"></image>
+                    <image class="data-v-5bf8cba4" src="/static/captured/b793a2abd6807066.png"></image>
                     <u-badge bgColor="#ff4643" bind:__l="__l" class="data-v-5bf8cba4" count="{{orderNum.waitPay}}" offset="{{[-10,-10]}}" vueId="bae1c640-1" wx:if="{{orderNum}}"></u-badge>
                 </view>
                 <text class="data-v-5bf8cba4">待付款</text>
             </view>
             <view bindtap="__e" class="contents data-v-5bf8cba4" data-event-opts="{{[ [ 'tap',[ [ 'goMyorder',[2] ] ] ] ]}}">
                 <view class="iconbox data-v-5bf8cba4">
-                    <image class="data-v-5bf8cba4" src="https://eshopfile.zhiyousx.com/2021111817113322154.png"></image>
+                    <image class="data-v-5bf8cba4" src="/static/captured/046f586bf3d512f2.png"></image>
                     <u-badge bgColor="#ff4643" bind:__l="__l" class="data-v-5bf8cba4" count="{{orderNum.waitDelivered}}" offset="{{[-10,-10]}}" vueId="bae1c640-2" wx:if="{{orderNum}}"></u-badge>
                 </view>
                 <text class="data-v-5bf8cba4">待发货</text>
             </view>
             <view bindtap="__e" class="contents data-v-5bf8cba4" data-event-opts="{{[ [ 'tap',[ [ 'goMyorder',[3] ] ] ] ]}}">
                 <view class="iconbox data-v-5bf8cba4">
-                    <image class="data-v-5bf8cba4" src="https://eshopfile.zhiyousx.com/2021111817115635468.png"></image>
+                    <image class="data-v-5bf8cba4" src="/static/captured/2c88bb7a9997158e.png"></image>
                     <u-badge bgColor="#ff4643" bind:__l="__l" class="data-v-5bf8cba4" count="{{orderNum.pendingReceipt}}" offset="{{[-10,-10]}}" vueId="bae1c640-3" wx:if="{{orderNum}}"></u-badge>
                 </view>
                 <text class="data-v-5bf8cba4">待收货</text>
             </view>
             <view bindtap="__e" class="contents data-v-5bf8cba4" data-event-opts="{{[ [ 'tap',[ [ 'goAfterSales',['$event'] ] ] ] ]}}">
                 <view class="iconbox data-v-5bf8cba4">
-                    <image class="data-v-5bf8cba4" src="https://eshopfile.zhiyousx.com/2021111817122324138.png"></image>
+                    <image class="data-v-5bf8cba4" src="/static/captured/32427a7e7541ff1b.png"></image>
                 </view>
                 <text class="data-v-5bf8cba4">退换/售后</text>
             </view>
             <view bindtap="__e" class="contents data-v-5bf8cba4" data-event-opts="{{[ [ 'tap',[ [ 'goMyorder',[0] ] ] ] ]}}">
                 <view class="iconbox data-v-5bf8cba4">
-                    <image class="data-v-5bf8cba4" src="https://eshopfile.zhiyousx.com/2021111817104193057.png"></image>
+                    <image class="data-v-5bf8cba4" src="/static/captured/36c37ffc6d75b7f8.png"></image>
                 </view>
                 <text class="data-v-5bf8cba4">我的订单</text>
             </view>
@@ -114,7 +114,7 @@
     <view class="list data-v-5bf8cba4" style="{{openAppConfig.paramValue==1?'margin-bottom:110rpx;':''}}">
         <view bindtap="__e" class="contents data-v-5bf8cba4" data-event-opts="{{[ [ 'tap',[ [ 'talent',['$event'] ] ] ] ]}}" wx:if="{{(!userInfo||!userInfo.isFenxiao)&&openFenxiaoConfig}}">
             <view class="conItem data-v-5bf8cba4">
-                <image class="data-v-5bf8cba4" src="https://eshopfile.zhiyousx.com/170065378457808945.png"></image>
+                <image class="data-v-5bf8cba4" src="/static/captured/84d6790c202f8afd.png"></image>
                 <view class="news data-v-5bf8cba4">成为旅行达人</view>
             </view>
             <view class="iconbox data-v-5bf8cba4">
@@ -123,7 +123,7 @@
         </view>
         <view bindtap="__e" class="contents data-v-5bf8cba4" data-event-opts="{{[ [ 'tap',[ [ 'collection',['$event'] ] ] ] ]}}">
             <view class="conItem data-v-5bf8cba4">
-                <image class="data-v-5bf8cba4" src="https://eshopfile.zhiyousx.com/2023120417452973207.png"></image>
+                <image class="data-v-5bf8cba4" src="/static/captured/c32b081cc54bfa40.png"></image>
                 <view class="news data-v-5bf8cba4">我的收藏</view>
             </view>
             <view class="iconbox data-v-5bf8cba4">
@@ -132,7 +132,7 @@
         </view>
         <view bindtap="__e" class="contents data-v-5bf8cba4" data-event-opts="{{[ [ 'tap',[ [ 'passenger',['$event'] ] ] ] ]}}">
             <view class="conItem data-v-5bf8cba4">
-                <image class="data-v-5bf8cba4" src="https://eshopfile.zhiyousx.com/170065376301138571.png"></image>
+                <image class="data-v-5bf8cba4" src="/static/captured/bdc93ebdb6b1bf13.png"></image>
                 <view class="news data-v-5bf8cba4">常用旅客</view>
             </view>
             <view class="iconbox data-v-5bf8cba4">
@@ -141,7 +141,7 @@
         </view>
         <view bindtap="__e" class="contents data-v-5bf8cba4" data-event-opts="{{[ [ 'tap',[ [ 'news',['$event'] ] ] ] ]}}">
             <view class="conItem data-v-5bf8cba4">
-                <image class="data-v-5bf8cba4" src="https://eshopfile.zhiyousx.com/170065380405498216.png"></image>
+                <image class="data-v-5bf8cba4" src="/static/captured/af110685e91ea1a4.png"></image>
                 <view class="news data-v-5bf8cba4">消息中心</view>
             </view>
             <view class="iconbox data-v-5bf8cba4">
@@ -151,7 +151,7 @@
         </view>
         <view bindtap="__e" class="contents data-v-5bf8cba4" data-event-opts="{{[ [ 'tap',[ [ 'security',['$event'] ] ] ] ]}}">
             <view class="conItem data-v-5bf8cba4">
-                <image class="data-v-5bf8cba4" src="https://eshopfile.zhiyousx.com/170065372343017335.png"></image>
+                <image class="data-v-5bf8cba4" src="/static/captured/0bb28f5f2ce7ebc0.png"></image>
                 <view class="news data-v-5bf8cba4">账户安全</view>
             </view>
             <view class="iconbox data-v-5bf8cba4">
@@ -160,7 +160,7 @@
         </view>
         <view bindtap="__e" class="contents data-v-5bf8cba4" data-event-opts="{{[ [ 'tap',[ [ 'feedback',['$event'] ] ] ] ]}}">
             <view class="conItem data-v-5bf8cba4">
-                <image class="data-v-5bf8cba4" src="https://eshopfile.zhiyousx.com/170065384377493595.png"></image>
+                <image class="data-v-5bf8cba4" src="/static/captured/1852fefeff6852fa.png"></image>
                 <view class="news data-v-5bf8cba4">问题反馈</view>
             </view>
             <view class="iconbox data-v-5bf8cba4">
@@ -169,7 +169,7 @@
         </view>
         <view bindtap="__e" class="contents data-v-5bf8cba4" data-event-opts="{{[ [ 'tap',[ [ 'about',['$event'] ] ] ] ]}}">
             <view class="conItem data-v-5bf8cba4">
-                <image class="data-v-5bf8cba4" src="https://eshopfile.zhiyousx.com/170065334814754280.png"></image>
+                <image class="data-v-5bf8cba4" src="/static/captured/a6892967f8c9eb16.png"></image>
                 <view class="news data-v-5bf8cba4">关于我们</view>
             </view>
             <view class="iconbox data-v-5bf8cba4">
@@ -181,7 +181,6 @@
         <text class="data-v-5bf8cba4">{{openAppConfig.paramName||'打开游陕西APP，海量门票优惠购'}}</text>
         <button appParameter="wechat" binderror="__e" class="data-v-5bf8cba4" data-event-opts="{{[ [ 'error',[ [ 'launchAppError',['$event'] ] ] ] ]}}" openType="launchApp">立即前往</button>
     </view>
-    <tab-bar bind:__l="__l" class="data-v-5bf8cba4" vueId="bae1c640-11"></tab-bar>
     <view class="wrapper data-v-5bf8cba4" style="position:fixed;z-index:9999;" wx:if="{{showPoster}}">
         <view bindtap="__e" class="bg data-v-5bf8cba4" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}"></view>
         <canvas canvasId="firstCanvas" class="data-v-5bf8cba4" style="position:relative;height:1140rpx;width:640rpx;top:50%;margin-top:-570rpx;margin-left:55rpx;backgroundColor:#FFFFFF;z-index:10;"></canvas>

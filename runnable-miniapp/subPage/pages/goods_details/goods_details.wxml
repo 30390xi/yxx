@@ -10,7 +10,7 @@
             <u-swiper bind:__l="__l" bind:click="__e" borderRadius="0" class="data-v-286ae0e6" data-event-opts="{{[ [ '^click',[ ['swiperBtn'] ] ] ]}}" height="740" indicatorActiveColor="#FF3709" indicatorColor="rgba(0,0,0,0.5)" indicatorPos="bottomRight" interval="5000" list="{{commodityInfo.itemPicUrls}}" vueId="5c501ca8-2"></u-swiper>
         </view>
         <view class="ms-box data-v-286ae0e6" wx:if="{{ticketDetailObj.seckillActivity==0}}">
-            <image class="ms-img data-v-286ae0e6" src="https://eshopfile.zhiyousx.com/2021080909304743729.png"></image>
+            <image class="ms-img data-v-286ae0e6" src="/static/captured/8908de1733812edd.png"></image>
             <view class="left data-v-286ae0e6">
                 <view class="data-v-286ae0e6">{{'￥'+ticketDetailObj.seckillPrice}}</view>
                 <view class="data-v-286ae0e6">{{'￥'+ticketDetailObj.retailPrice}}</view>
@@ -25,7 +25,7 @@
                 <text class="data-v-286ae0e6">{{'￥'+($root.g0>0?combinations[selectedIndex].price:'')+(commodityInfo.priceType===1?'起':'')}}</text>
                 <text class="data-v-286ae0e6">{{'￥'+commodityInfo.marketPrice}}</text>
             </view>
-            <image bindtap="__e" class="data-v-286ae0e6" data-event-opts="{{[ [ 'tap',[ [ 'favBtn',['$event'] ] ] ] ]}}" src="{{commodityInfo.favorite===1?'https://eshopfile.zhiyousx.com/170065302018477577.png':'/static/images/collectno.png'}}" style="width:41rpx;height:39rpx;" wx:if="{{iconShow}}"></image>
+            <image bindtap="__e" class="data-v-286ae0e6" data-event-opts="{{[ [ 'tap',[ [ 'favBtn',['$event'] ] ] ] ]}}" src="{{commodityInfo.favorite===1?'/static/captured/1ccd9aacfd5d0828.png':'/static/images/collectno.png'}}" style="width:41rpx;height:39rpx;" wx:if="{{iconShow}}"></image>
         </view>
         <view class="fxBtn data-v-286ae0e6">
             <view class="commission u-skeleton-rect data-v-286ae0e6" wx:if="{{userInfo&&userInfo.isFenxiao&&commodityInfo.maxReward>0}}">
@@ -39,7 +39,7 @@
                 <text class="subTit data-v-286ae0e6" wx:if="{{commodityInfo.itemSubTitle}}">{{commodityInfo.itemSubTitle}}</text>
                 <text class="ys data-v-286ae0e6">{{'已售：'+$root.f0}}</text>
             </view>
-            <image bindtap="__e" class="fav-img data-v-286ae0e6" data-event-opts="{{[ [ 'tap',[ [ 'favBtn',['$event'] ] ] ] ]}}" src="{{commodityInfo.favorite===1?'https://eshopfile.zhiyousx.com/170065302018477577.png':'/static/images/collectno.png'}}" style="width:41rpx;height:39rpx;" wx:if="{{ticketDetailObj.seckillActivity==0&&iconShow}}"></image>
+            <image bindtap="__e" class="fav-img data-v-286ae0e6" data-event-opts="{{[ [ 'tap',[ [ 'favBtn',['$event'] ] ] ] ]}}" src="{{commodityInfo.favorite===1?'/static/captured/1ccd9aacfd5d0828.png':'/static/images/collectno.png'}}" style="width:41rpx;height:39rpx;" wx:if="{{ticketDetailObj.seckillActivity==0&&iconShow}}"></image>
         </view>
         <view class="intro-box data-v-286ae0e6" wx:if="{{$root.g1>0}}">
             <view bindtap="__e" class="title-box data-v-286ae0e6" data-event-opts="{{[ [ 'tap',[ [ 'showYh',['$event'] ] ] ] ]}}" style="margin-bottom:0;">

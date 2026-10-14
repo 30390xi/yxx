@@ -1,0 +1,246 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1446304998966173698",
+    "scenicName": "杨凌树木园",
+    "tag": "家门口的植物公园",
+    "level": -1,
+    "cityId": "1321278535707701249",
+    "cityName": "杨凌",
+    "address": "杨陵示范区神农路",
+    "longitude": "108.08587",
+    "latitude": "34.26209",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 9999,
+    "topColour": "#019674",
+    "centralColour": "#00785D",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021100810364932277.jpg"
+    ],
+    "introduction": "<p>　　杨凌区树木园是一个集娱乐、休闲、景观、科普为一体的植物主题公园，园内植物品种多达400种，数目总量52000多株，乔木2000多种，灌木50000多种。园内建有瞭望塔、人工湖及各种园林小品，人工湖还具有喷雾、高喷和涌泉等功能。带上家人去园区游览一番，不仅可以欣赏周围美丽的景观，同时可以增长知识，一举两得。杨凌树木园位于杨凌常青路与神农路十字西北角。杨凌树木园分为景观篇和植物篇，园内建有瞭望塔、人工湖及各种园林小品，人工湖还具有雾喷、高喷和涌泉等功能。园内共栽植乔木134种、灌木84种、花卉71种，配设大小景石100多块。</p>\n<p>&nbsp;</p>",
+    "introductionText": "　　杨凌区树木园是一个集娱乐、休闲、景观、科普为一体的植物主题公园，园内植物品种多达400种，数目总量52000多株，乔木2000多种，灌木50000多种。园内建有瞭望塔、人工湖及各种园林小品，人工湖还具有喷雾、高喷和涌泉等功能。带上家人去园区游览一番，不仅可以欣赏周围美丽的景观，同时可以增长知识，一举两得。杨凌树木园位于杨凌常青路与神农路十字西北角。杨凌树木园分为景观篇和植物篇，园内建有瞭望塔、人工湖及各种园林小品，人工湖还具有雾喷、高喷和涌泉等功能。园内共栽植乔木134种、灌木84种、花卉71种，配设大小景石100多块。\n",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "16",
+        "name": "城市公园",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": null,
+    "discountVoList": null,
+    "facilitiesServicesVoList": null,
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": null,
+    "wxSubscriptionVoList": null,
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": "",
+    "contentResourcesDtoList": [
+      {
+        "id": "1580840574427803650",
+        "resourcesId": "1446304998957785090",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021100810404560873.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2022-10-14 16:38:58",
+        "updateTime": "2022-10-14 16:38:58",
+        "createBy": "1293433954543640578",
+        "updateBy": "1293433954543640578",
+        "isDeleted": 0
+      },
+      {
+        "id": "1580840574431997954",
+        "resourcesId": "1446304998957785090",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021100810405332113.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2022-10-14 16:38:58",
+        "updateTime": "2022-10-14 16:38:58",
+        "createBy": "1293433954543640578",
+        "updateBy": "1293433954543640578",
+        "isDeleted": 0
+      },
+      {
+        "id": "1580840574436192258",
+        "resourcesId": "1446304998957785090",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021100810410211642.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2022-10-14 16:38:58",
+        "updateTime": "2022-10-14 16:38:58",
+        "createBy": "1293433954543640578",
+        "updateBy": "1293433954543640578",
+        "isDeleted": 0
+      },
+      {
+        "id": "1580840574440386561",
+        "resourcesId": "1446304998957785090",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021100810410955321.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2022-10-14 16:38:58",
+        "updateTime": "2022-10-14 16:38:58",
+        "createBy": "1293433954543640578",
+        "updateBy": "1293433954543640578",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455813465879977985",
+      "rankingId": null,
+      "indexInRanking": 5,
+      "rankingName": "杨凌必玩景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": null,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": null,
+    "hotelArrivalDepartureTime": null,
+    "hotelChildrenBed": null,
+    "hotelPet": null,
+    "hotelBreakfast": null,
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

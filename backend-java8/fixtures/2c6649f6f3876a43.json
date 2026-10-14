@@ -1,0 +1,226 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1455067250871607298",
+    "contentId": "1455067243938422786",
+    "rankingName": "咸阳美食人气榜",
+    "rankingClass": "2",
+    "rankingType": "2",
+    "rankingMainPictureUrl": "https://res.zhiyousx.com/ysx/pro/2021/11/01/163575003240920361.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": null,
+    "rankingInclude": "个美食",
+    "rankingPersonalInfo": "我吃过的美食",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#F6A700",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1451074661403074561",
+        "originType": "2",
+        "originName": "咸阳汇通面",
+        "originSubtitleName": "面条筋道，香辣带劲",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/21/163479807169229650.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163479809685277608.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163479810759256889.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163479812443161066.jpg"
+        ],
+        "sort": "0",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "3",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451068377895280642",
+        "originType": "2",
+        "originName": "乾县豆腐脑",
+        "originSubtitleName": "红白相间，味浓酸辣",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/21/163479653293864071.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163479661250423507.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163479662256935591.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163479662980149898.jpg"
+        ],
+        "sort": "1",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "3",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1450360197129183233",
+        "originType": "2",
+        "originName": "甑糕",
+        "originSubtitleName": "枣香浓郁，软糯香甜",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/19/163462742952573678.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/19/163462753714331137.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/19/163462754203937800.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/19/163462755330414592.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/19/163462759814382817.jpg"
+        ],
+        "sort": "2",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "7",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451122233714941954",
+        "originType": "2",
+        "originName": "驴蹄子面",
+        "originSubtitleName": "形似驴蹄子的特色面条",
+        "originUrl": "https://eshopfile.zhiyousx.com/165900037968239588.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480937922962422.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480938448549829.jpg",
+          "https://eshopfile.zhiyousx.com/165900039632386563.jpg",
+          "https://eshopfile.zhiyousx.com/165900039805295508.jpg",
+          "https://eshopfile.zhiyousx.com/165900039751363826.jpg",
+          "https://eshopfile.zhiyousx.com/165900039679726633.jpg",
+          "https://eshopfile.zhiyousx.com/165900039855037688.jpg",
+          "https://eshopfile.zhiyousx.com/165900039898819289.jpg",
+          "https://eshopfile.zhiyousx.com/165900039947228994.jpg"
+        ],
+        "sort": "3",
+        "favoriteValue": "87.5",
+        "isBookable": null,
+        "favoriteSum": "14",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451102900267786242",
+        "originType": "2",
+        "originName": "永寿安宫桥大麻花",
+        "originSubtitleName": "酥、油、香、脆",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480473020276811.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480478812676354.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480479942432397.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480483373744217.jpg"
+        ],
+        "sort": "4",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "1",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451089880279949314",
+        "originType": "2",
+        "originName": "武功旗花面",
+        "originSubtitleName": "薄筋光，酸旺香",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480104812514019.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480142527652067.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480145394506254.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480175085013626.jpg"
+        ],
+        "sort": "5",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "1",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1450718600653447169",
+        "originType": "2",
+        "originName": "锅盔",
+        "originSubtitleName": "陕西八大怪之烙馍像锅盖",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/20/163471290970804554.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/20/163471318224742957.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/20/163471318928270073.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/20/163471320140121688.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/20/163471321944945183.jpg"
+        ],
+        "sort": "6",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "7",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1450723077724839937",
+        "originType": "2",
+        "originName": "荞面凉粉",
+        "originSubtitleName": "物买价廉的“土凉粉”",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/20/163471414958951234.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/20/163471424713777209.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/20/163471425562290891.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/20/163471426915914388.jpg"
+        ],
+        "sort": "7",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451037251294208002",
+        "originType": "2",
+        "originName": "三原蓼花糖",
+        "originSubtitleName": "松、甜、酥、脆、香",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478911857165201.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478918696136533.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478919363287190.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478919865785510.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478920606258182.jpg"
+        ],
+        "sort": "8",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "1",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451079266828558338",
+        "originType": "2",
+        "originName": "礼泉烙面",
+        "originSubtitleName": "世界上最早的方便面",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/21/163479913599956233.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163479919096828860.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163479920180651936.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163479921104792139.jpg"
+        ],
+        "sort": "9",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "1",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "15",
+    "favoriteSum": "45",
+    "personalInfoValue": "0/15"
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,244 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941093",
+    "scenicName": "袁家村关中印象体验地",
+    "tag": "陕西的丽江，吃货的天堂",
+    "level": 4,
+    "address": "咸阳市礼泉县烟霞镇袁家村",
+    "longitude": "108.538738",
+    "latitude": "34.59044",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#B16930",
+    "centralColour": "#6C360B",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021081717131284929.jpg"
+    ],
+    "introduction": "<p>　　陕西咸阳礼泉县烟霞镇袁家村距西安约1.5小时路程，人们称之为&ldquo;关中印象体验地&rdquo;。走进袁家村，依次看老牛拉磨到了原生态的关中农家生活画卷。恍惚有种时空倒错感，好像回到50年前一般。袁家村位于陕西关中平原腹地，距村子一公里便是唐太宗昭陵，周边还有关中地区帝王诸陵中数量最多、保存最完整的石雕石刻群唐肃宗建陵石刻。袁家村主要分为两个区，一个是关中民俗，另一个则是农家乐，被称为&ldquo;关中印象体验地&rdquo;。走进古朴典雅的小巷，两边店铺林立，作坊鳞次栉比。仿古的油坊、豆腐坊、面坊、茶坊、醋坊等，应有尽有。踩着青石板，欣赏颇具关中风味的明清式建筑，看着布坊中的老人细心的织布，面坊中的工人认真的推着石磨，别有一番风味。</p>",
+    "introductionText": "　　陕西咸阳礼泉县烟霞镇袁家村距西安约1.5小时路程，人们称之为“关中印象体验地”。走进袁家村，依次看老牛拉磨到了原生态的关中农家生活画卷。恍惚有种时空倒错感，好像回到50年前一般。袁家村位于陕西关中平原腹地，距村子一公里便是唐太宗昭陵，周边还有关中地区帝王诸陵中数量最多、保存最完整的石雕石刻群唐肃宗建陵石刻。袁家村主要分为两个区，一个是关中民俗，另一个则是农家乐，被称为“关中印象体验地”。走进古朴典雅的小巷，两边店铺林立，作坊鳞次栉比。仿古的油坊、豆腐坊、面坊、茶坊、醋坊等，应有尽有。踩着青石板，欣赏颇具关中风味的明清式建筑，看着布坊中的老人细心的织布，面坊中的工人认真的推着石磨，别有一番风味。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "22",
+        "name": "美食街区",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "64",
+        "name": "古村古镇",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "全体市民",
+        "limit": "无",
+        "discount": "免费"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "029-35767888"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1696434655224025089",
+        "resourcesId": "1321281715388592129",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021081717180212066.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2023-08-29 16:08:34",
+        "updateTime": "2023-08-29 16:08:34",
+        "createBy": "1348803872545611778",
+        "updateBy": "1348803872545611778",
+        "isDeleted": 0
+      },
+      {
+        "id": "1696434655224025090",
+        "resourcesId": "1321281715388592129",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021081717114495738.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2023-08-29 16:08:34",
+        "updateTime": "2023-08-29 16:08:34",
+        "createBy": "1348803872545611778",
+        "updateBy": "1348803872545611778",
+        "isDeleted": 0
+      },
+      {
+        "id": "1696434655228219393",
+        "resourcesId": "1321281715388592129",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021081717115406293.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2023-08-29 16:08:34",
+        "updateTime": "2023-08-29 16:08:34",
+        "createBy": "1348803872545611778",
+        "updateBy": "1348803872545611778",
+        "isDeleted": 0
+      },
+      {
+        "id": "1696434655228219394",
+        "resourcesId": "1321281715388592129",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021081717120396697.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2023-08-29 16:08:34",
+        "updateTime": "2023-08-29 16:08:34",
+        "createBy": "1348803872545611778",
+        "updateBy": "1348803872545611778",
+        "isDeleted": 0
+      },
+      {
+        "id": "1696434655232413697",
+        "resourcesId": "1321281715388592129",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021081717181523070.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2023-08-29 16:08:34",
+        "updateTime": "2023-08-29 16:08:34",
+        "createBy": "1348803872545611778",
+        "updateBy": "1348803872545611778",
+        "isDeleted": 0
+      },
+      {
+        "id": "1696434655232413698",
+        "resourcesId": "1321281715388592129",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021081717182656483.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2023-08-29 16:08:34",
+        "updateTime": "2023-08-29 16:08:34",
+        "createBy": "1348803872545611778",
+        "updateBy": "1348803872545611778",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455060076934045697",
+      "rankingId": null,
+      "indexInRanking": 3,
+      "rankingName": "咸阳亲子游景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": "",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

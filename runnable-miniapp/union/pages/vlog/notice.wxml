@@ -1,8 +1,8 @@
 <view class="container data-v-3c7fad96" style="{{'padding-top:'+navBarHeight+';'}}">
     <uni-navbar bind:__l="__l" class="data-v-3c7fad96" title="vlog" type="transparentFixed" vueId="3f249536-1"></uni-navbar>
     <view class="loadingBox data-v-3c7fad96">
-        <image class="cust-bg data-v-3c7fad96" src="https://eshopfile.zhiyousx.com/176913615138339744.png"></image>
-        <image class="cust-img data-v-3c7fad96" src="https://eshopfile.zhiyousx.com/176887779185712785.png"></image>
+        <image class="cust-bg data-v-3c7fad96" src="/static/captured/6b7eab8fc9199d04.png"></image>
+        <image class="cust-img data-v-3c7fad96" src="/static/captured/6178afa76ae873d4.png"></image>
         <view class="loading-content data-v-3c7fad96">
             <view class="flower-loading data-v-3c7fad96" wx:if="{{!isHasError}}">
                 <view class="petal data-v-3c7fad96"></view>

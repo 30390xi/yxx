@@ -1,0 +1,26 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1701537022760120322",
+    "contentId": "1701537018679062530",
+    "rankingName": "铜川博物馆人气榜",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/169451286337948145.png",
+    "rankingDescribe": null,
+    "rankingTotalUserData": "人去过",
+    "rankingInclude": "个目的地",
+    "rankingPersonalInfo": "我去过的目的地",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#C26804",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": null,
+    "sumCount": "6",
+    "favoriteSum": null,
+    "personalInfoValue": null
+  },
+  "msg": "成功",
+  "success": true
+}

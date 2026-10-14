@@ -1,0 +1,1044 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941183",
+    "scenicName": "秦始皇帝陵博物院(兵马俑)",
+    "tag": "秦始皇帝陵博物院 世界第八大奇迹",
+    "level": 5,
+    "cityId": "1320620100725026817",
+    "cityName": "西安",
+    "address": "西安市临潼区秦陵北路",
+    "longitude": "109.28054",
+    "latitude": "34.384731",
+    "openingStatus": 1,
+    "capacity": 65000,
+    "sequence": 1,
+    "topColour": "#CBA461",
+    "centralColour": "#A16E39",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2025060919451590141.jpg",
+      "https://eshopfile.zhiyousx.com/2022070200232910534.png",
+      "https://eshopfile.zhiyousx.com/2021072316274545182.jpg"
+    ],
+    "introduction": "<p style=\"text-align: justify;\">　　秦始皇帝陵博物院是以秦始皇兵马俑博物馆为基础，以秦始皇陵遗址公园为依托的一座大型遗址博物院。同时，秦始皇帝陵博物院也是以秦始皇陵及其背景环境为主体，基于考古遗址本体及其环境的保护与展示，融合了教育、科研、游览、休闲等多项功能的公共文化空间。秦始皇陵布局缜密、规模宏富，具有重大的历史、科学和艺术价值。目前在秦始皇陵陵区已发现各类陪葬坑、陪葬墓等600余处。1961年，秦始皇帝陵被国务院公布为第一批全国重点文物保护单位。1987年，联合国教科文组织将秦始皇帝陵（含兵马俑坑）列入&ldquo;世界人类历史文化遗产清单&rdquo;。</p>",
+    "introductionText": "　　秦始皇帝陵博物院是以秦始皇兵马俑博物馆为基础，以秦始皇陵遗址公园为依托的一座大型遗址博物院。同时，秦始皇帝陵博物院也是以秦始皇陵及其背景环境为主体，基于考古遗址本体及其环境的保护与展示，融合了教育、科研、游览、休闲等多项功能的公共文化空间。秦始皇陵布局缜密、规模宏富，具有重大的历史、科学和艺术价值。目前在秦始皇陵陵区已发现各类陪葬坑、陪葬墓等600余处。1961年，秦始皇帝陵被国务院公布为第一批全国重点文物保护单位。1987年，联合国教科文组织将秦始皇帝陵（含兵马俑坑）列入“世界人类历史文化遗产清单”。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "21",
+        "name": "地标打卡",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026415628289",
+        "contentId": "1418152026403045378",
+        "name": "陕西5A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026386268161",
+        "contentId": "1418152026377879553",
+        "name": "世界遗产名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026327547906",
+        "contentId": "1418152026310770690",
+        "name": "国家一级博物馆",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1608375821117603841",
+        "contentId": "1608375821109215234",
+        "name": "国家考古遗址公园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/167230146627310473.png"
+      }
+    ],
+    "noticeMsg": "<section data-mpa-powered-by=\"yiban.io\" data-nest-level=\"2\">\n<section style=\"text-align: center; line-height: 1.75em;\" data-nest-level=\"3\">\n<section class=\"\" style=\"letter-spacing: 1px; line-height: 1.75; box-sizing: border-box; font-style: normal; font-weight: 400; text-align: justify; font-size: 16px; color: #3e3e3e;\" data-pm-slice=\"0 0 []\">\n<section style=\"text-align: center; box-sizing: border-box;\">\n<section style=\"letter-spacing: 1px; line-height: 1.75; box-sizing: border-box; font-style: normal; font-weight: 400; text-align: justify; font-size: 16px; color: #3e3e3e;\" data-pm-slice=\"0 0 []\">\n<section class=\"\" style=\"text-align: center; box-sizing: border-box;\">\n<section class=\"\" style=\"letter-spacing: 1px; line-height: 1.75; box-sizing: border-box; font-style: normal; font-weight: 400; text-align: justify; font-size: 16px; color: #3e3e3e;\" data-pm-slice=\"0 0 []\">\n<section class=\"\" style=\"text-align: center; box-sizing: border-box;\">\n<p style=\"margin: 0px; padding: 0px; box-sizing: border-box;\"><strong style=\"color: #0173a4; caret-color: red;\">秦始皇帝陵博物院发布</strong></p>\n<p style=\"margin: 0px; padding: 0px; box-sizing: border-box;\"><span style=\"color: #0173a4; box-sizing: border-box;\"><strong style=\"box-sizing: border-box;\">2026年&ldquo;中秋&rdquo;&ldquo;国庆&rdquo;假期开放公告</strong></span></p>\n</section>\n<section class=\"\" style=\"text-align: left; justify-content: flex-start; display: flex; flex-flow: row; margin: 10px 0px; width: 100%; align-self: flex-start; border-style: solid; border-width: 1px; border-color: rgba(39, 106, 246, 0.5); padding: 5px; max-width: 100% !important; box-sizing: border-box;\">\n<section style=\"justify-content: flex-start; display: flex; flex-flow: row; width: 100%; max-width: 100% !important; box-sizing: border-box;\">\n<section class=\"\" style=\"display: inline-block; width: 100%; vertical-align: top; align-self: flex-start; flex: 0 0 auto; background-color: rgba(39, 106, 246, 0.07); padding: 18px; max-width: 100% !important; box-sizing: border-box;\">\n<section class=\"\" style=\"text-align: justify; box-sizing: border-box;\">\n<p style=\"text-indent: 0em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">尊敬的观众朋友们：</p>\n<p style=\"text-indent: 2.125em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">2026年&ldquo;中秋&rdquo;&ldquo;国庆&rdquo;假期将至，为了进一步提升博物院接待服务能力，更好地满足观众参观游览需求，我院结合&ldquo;中秋&rdquo;&ldquo;国庆&rdquo;假期间隔3天等因素，现对2026年&ldquo;中秋&rdquo;&ldquo;国庆&rdquo;假期开放服务公告如下：</p>\n</section>\n<section class=\"\" style=\"justify-content: flex-start; display: flex; flex-flow: row; margin: 10px 0px -3px; box-sizing: border-box;\">\n<section style=\"display: inline-block; vertical-align: top; width: auto; align-self: stretch; flex: 0 0 auto; background-image: linear-gradient(90deg, #3061cf 0%, #d4a5ce 100%); min-width: 5%; max-width: 100%; height: auto; padding: 0px 11px; box-sizing: border-box;\" data-ignore-dm=\"text-bg-gradient\">\n<section style=\"text-align: center; margin: 2px 0px -2px; box-sizing: border-box;\">\n<section style=\"color: #ffffff; box-sizing: border-box;\">\n<p style=\"margin: 0px; padding: 0px; box-sizing: border-box;\"><strong style=\"box-sizing: border-box;\"><span data-ignore-dm=\"low-contrast\">预约时间</span></strong></p>\n</section>\n</section>\n</section>\n<section style=\"display: inline-block; vertical-align: top; width: auto; align-self: stretch; flex: 0 0 auto; min-width: 5%; max-width: 100%; height: auto; line-height: 0.1; box-sizing: border-box;\">\n<section style=\"margin: 0px; box-sizing: border-box;\">\n<section class=\"\" style=\"display: inline-block; width: 0px; height: 0px; vertical-align: top; overflow: hidden; border-style: solid; border-width: 0px 12px 29px 0px; border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) #d0a3ce; margin: 0px; box-sizing: border-box;\" data-ignore-width=\"\">\n<section style=\"text-align: justify; box-sizing: border-box;\">\n<p style=\"white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">&nbsp;</p>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section style=\"margin: 0.5em 0px; box-sizing: border-box;\">\n<section class=\"\" style=\"background-image: linear-gradient(90deg, #3061cf 0%, #d4a5ce 100%); height: 1px; box-sizing: border-box;\" data-ignore-dm=\"text-bg-gradient\"></section>\n</section>\n<section class=\"\" style=\"text-align: justify; box-sizing: border-box;\">\n<p style=\"text-indent: 2.125em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">&nbsp;</p>\n<p style=\"text-indent: 2.125em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">2026年<span style=\"color: #0173a4; box-sizing: border-box;\"><strong style=\"box-sizing: border-box;\">9月21日00:00</strong></span></p>\n<p style=\"text-indent: 2.125em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\"><span style=\"text-indent: 2.125em; box-sizing: border-box;\">开放预约&ldquo;中秋&rdquo;&ldquo;国庆&rdquo;假期门票</span></p>\n</section>\n<section class=\"\" style=\"text-align: center; margin-top: 10px; margin-bottom: 10px; line-height: 0; box-sizing: border-box;\">\n<section class=\"\" style=\"max-width: 100%; vertical-align: middle; display: inline-block; line-height: 0; width: 100%; box-sizing: border-box;\"></section>\n</section>\n<section class=\"\" style=\"justify-content: flex-start; display: flex; flex-flow: row; margin: 10px 0px -3px; box-sizing: border-box;\">\n<section class=\"\" style=\"display: inline-block; vertical-align: top; width: auto; align-self: stretch; flex: 0 0 auto; background-image: linear-gradient(90deg, #3061cf 0%, #d4a5ce 100%); min-width: 5%; max-width: 100%; height: auto; padding: 0px 11px; box-sizing: border-box;\" data-ignore-dm=\"text-bg-gradient\">\n<section style=\"text-align: center; margin: 2px 0px -2px; box-sizing: border-box;\">\n<section class=\"\" style=\"color: #ffffff; box-sizing: border-box;\">\n<p style=\"margin: 0px; padding: 0px; box-sizing: border-box;\"><strong style=\"box-sizing: border-box;\"><span data-ignore-dm=\"low-contrast\">开放时间及最大承载量</span></strong></p>\n</section>\n</section>\n</section>\n<section style=\"display: inline-block; vertical-align: top; width: auto; align-self: stretch; flex: 0 0 auto; min-width: 5%; max-width: 100%; height: auto; line-height: 0.1; box-sizing: border-box;\">\n<section class=\"\" style=\"margin: 0px; box-sizing: border-box;\">\n<section style=\"display: inline-block; width: 0px; height: 0px; vertical-align: top; overflow: hidden; border-style: solid; border-width: 0px 12px 29px 0px; border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) #d0a3ce; margin: 0px; box-sizing: border-box;\" data-ignore-width=\"\">\n<section style=\"text-align: justify; box-sizing: border-box;\">\n<p style=\"white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">&nbsp;</p>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section style=\"margin: 0.5em 0px; box-sizing: border-box;\">\n<section style=\"background-image: linear-gradient(90deg, #3061cf 0%, #d4a5ce 100%); height: 1px; box-sizing: border-box;\" data-ignore-dm=\"text-bg-gradient\"></section>\n</section>\n<section class=\"\" style=\"text-align: justify; box-sizing: border-box;\">\n<p style=\"white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">&nbsp;</p>\n<p style=\"text-indent: 2.125em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\"><span style=\"color: #0173a4; box-sizing: border-box;\"><strong style=\"box-sizing: border-box;\">&ldquo;中秋&rdquo;至&ldquo;国庆&rdquo;前（9月25日至30日）</strong></span>博物院开放时间增加60分钟，每日观众最大承载量从65000人增加到75000人。&zwj;&zwj;&zwj;</p>\n<p style=\"text-indent: 2.125em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">开放时间为8:00至19:30<span style=\"text-indent: 2.125em; box-sizing: border-box;\">（停止检票时间为17:30）</span></p>\n<p style=\"text-indent: 2.125em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\"><span style=\"color: #0173a4; box-sizing: border-box;\"><strong style=\"box-sizing: border-box;\">&ldquo;国庆&rdquo;（10月1日至7日）</strong></span>博物院开放时间增加120分钟，每日观众最大承载量从65000人增加到80000人。&zwj;&zwj;&zwj;</p>\n<p style=\"text-indent: 2.125em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">开放时间为7:30至20:00<span style=\"text-indent: 2.125em; box-sizing: border-box;\">（停止检票时间为18:00）</span></p>\n<p style=\"white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">&nbsp;</p>\n</section>\n<section class=\"\" style=\"justify-content: flex-start; display: flex; flex-flow: row; margin: 10px 0px -3px; box-sizing: border-box;\">\n<section class=\"\" style=\"display: inline-block; vertical-align: top; width: auto; align-self: stretch; flex: 0 0 auto; background-image: linear-gradient(90deg, #3061cf 0%, #d4a5ce 100%); min-width: 5%; max-width: 100%; height: auto; padding: 0px 11px; box-sizing: border-box;\" data-ignore-dm=\"text-bg-gradient\">\n<section style=\"text-align: center; margin: 2px 0px -2px; box-sizing: border-box;\">\n<section style=\"color: #ffffff; box-sizing: border-box;\">\n<p style=\"margin: 0px; padding: 0px; box-sizing: border-box;\"><strong style=\"box-sizing: border-box;\"><span data-ignore-dm=\"low-contrast\">温馨提示</span></strong></p>\n</section>\n</section>\n</section>\n<section style=\"display: inline-block; vertical-align: top; width: auto; align-self: stretch; flex: 0 0 auto; min-width: 5%; max-width: 100%; height: auto; line-height: 0.1; box-sizing: border-box;\">\n<section class=\"\" style=\"margin: 0px; box-sizing: border-box;\">\n<section class=\"\" style=\"display: inline-block; width: 0px; height: 0px; vertical-align: top; overflow: hidden; border-style: solid; border-width: 0px 12px 29px 0px; border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) #d0a3ce; margin: 0px; box-sizing: border-box;\" data-ignore-width=\"\">\n<section style=\"text-align: justify; box-sizing: border-box;\">\n<p style=\"white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">&nbsp;</p>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section style=\"margin: 0.5em 0px; box-sizing: border-box;\">\n<section style=\"background-image: linear-gradient(90deg, #3061cf 0%, #d4a5ce 100%); height: 1px; box-sizing: border-box;\" data-ignore-dm=\"text-bg-gradient\"></section>\n</section>\n<section class=\"\" style=\"text-align: justify; box-sizing: border-box;\">\n<p style=\"white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">&nbsp;</p>\n<p style=\"text-indent: 2.125em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">（一）博物院实行实名制、人证票合一检票入园，所有优惠票/免票证件（军人证、消防证、残疾证、学生证、老年证等）仅限本人使用，人证票不符，博物院将暂扣证件，请务必携带本人有效证件原件，切勿转借他人，感谢配合。</p>\n<p style=\"text-indent: 2.125em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">（二）请行程临时有变化的观众，尽量在参观日前一天18:00前办理参观日的退票，以提高门票使用效率。</p>\n<p style=\"text-indent: 2.125em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">（三）节假日期间，每个有效身份信息只能成功预约一次门票，严禁任何形式的抢购、代购、刷票等违规手段。</p>\n<p style=\"text-indent: 2.125em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">（四）观众须持本人有效身份证件检票，持他人身份证件属违法行为，博物院将联合多部门在假日期间开展专项治理。</p>\n<p style=\"text-indent: 2.125em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">（五）博物院从未授权任何第三方平台、渠道、公司销售博物院参观门票。请观众务必在官方网站、微信公众号预约门票。</p>\n</section>\n<section class=\"\" style=\"text-align: justify; box-sizing: border-box;\">\n<p style=\"text-indent: 2.125em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">&nbsp;</p>\n<p style=\"white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box; text-indent: 1.875em; text-align: right;\" align=\"right\"><span style=\"font-size: 14px;\">来源：秦始皇帝陵博物院</span></p>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section style=\"text-align: center; box-sizing: border-box;\">\n<section style=\"letter-spacing: 1px; line-height: 1.75; box-sizing: border-box; font-style: normal; font-weight: 400; text-align: justify; font-size: 16px; color: #3e3e3e;\" data-pm-slice=\"0 0 []\">\n<section data-pm-slice=\"0 0 []\">\n<section data-pm-slice=\"0 0 []\">\n<section style=\"max-width: 100%; box-sizing: border-box !important; overflow-wrap: break-word !important;\" data-role=\"outer\" data-nest-level=\"10\">\n<section style=\"max-width: 100%; box-sizing: border-box !important; overflow-wrap: break-word !important;\" data-nest-level=\"12\">\n<section style=\"letter-spacing: 1px; line-height: 1.75; box-sizing: border-box; font-style: normal; font-weight: 400; text-align: justify; font-size: 16px; color: #3e3e3e;\" data-pm-slice=\"0 0 []\">\n<section style=\"text-align: center; margin-top: 10px; margin-bottom: 10px; line-height: 0; box-sizing: border-box;\">\n<section class=\"\" style=\"max-width: 100%; vertical-align: middle; display: inline-block; line-height: 0; width: auto; box-sizing: border-box;\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: middle; width: 578px; height: 4px; box-sizing: border-box;\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_gif/H8KGIy6mrnmnvjp8ZlYn7ibYV3Yicdtgv8B44AHweuexW4hJ7rCnJhniariaqHn03mcmCCagKunUKaiae4DSg2OibqVgNZXUVxmslDdg4K5uBEtzA/640?wx_fmt=gif&amp;from=appmsg\" data-type=\"gif\" data-croporisrc=\"https://mmbiz.qpic.cn/sz_mmbiz_gif/H8KGIy6mrnmnvjp8ZlYn7ibYV3Yicdtgv8B44AHweuexW4hJ7rCnJhniariaqHn03mcmCCagKunUKaiae4DSg2OibqVgNZXUVxmslDdg4K5uBEtzA/0?wx_fmt=gif&amp;from=appmsg\" data-cropselx1=\"0\" data-cropselx2=\"578\" data-cropsely1=\"0\" data-cropsely2=\"4\" data-imgfileid=\"503624478\" data-aistatus=\"1\" data-ratio=\"0.01\" data-w=\"300\" /></section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "旺季（3月16日-11月15日）",
+        "openTimeContent": "8:30-17:00"
+      },
+      {
+        "openTimeTitle": "淡季（11月16日-次年3月15日）",
+        "openTimeContent": "8:30-16:30"
+      },
+      {
+        "openTimeTitle": "建议游玩时间",
+        "openTimeContent": "秦始皇帝陵博物院由秦始皇兵马俑博物馆、秦始皇帝陵遗址公园（丽山园）组成，两处参观均需约1.5小时，请根据停止检票时间合理安排您的参观行程。"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "16岁及以下未成年人由家长携同",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "65岁及以上持身份证或老年证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "军人",
+        "limit": "现役军人（含武警、消防），革命伤残军人持军人证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "人民警察",
+        "limit": "凭《人民警察证》",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "持残疾人证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "全日制大学本科及以下学历学生凭有效学生证及身份证",
+        "discount": "半价"
+      },
+      {
+        "peopleType": "退役军人",
+        "limit": "凭《中华人民共和国退役军人优待证》",
+        "discount": "半价"
+      },
+      {
+        "peopleType": "二级以上重度残疾人",
+        "limit": "免一名陪同人员",
+        "discount": "免费"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "6",
+        "name": "免费wifi",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (11).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "61",
+        "name": "讲解员",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016440410223.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "11",
+        "name": "餐厅",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (22).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "54",
+        "name": "手机充电",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016402390363.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "59",
+        "name": "园内交通",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016420452783.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "60",
+        "name": "行李寄存",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016430812186.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "9",
+        "name": "轮椅租赁",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (16).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "7",
+        "name": "婴儿车租赁",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (12).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "56",
+        "name": "讲解器租赁",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016433125149.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "58",
+        "name": "母婴室",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016412800311.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "免费摆渡车",
+        "additionalExplainContent": "区间：往返兵马俑博物馆至秦始皇陵<br/>位置：沿出口至东门秦始皇雕像前方"
+      },
+      {
+        "additionalExplainTitle": "门票优惠政策说明",
+        "additionalExplainContent": "符合门票优惠条件的游客须提前在官方票务网站预约"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>西安火车站乘坐游5（306）路、914路、915路至秦始皇帝陵博物院下车即可</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": "<p>乘坐地铁9号线至华清池站下车，搭乘至达兵马俑的临潼线路公交车；<br />乘坐地铁9号线至终点秦陵西站，乘坐专门接驳车直达。</p>"
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<p>沿秦陵北路至秦陵博物院停车场</p>"
+      }
+    ],
+    "officialWebsite": [
+      "http://www.bmy.com.cn/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "投诉、求助",
+        "telephone": "029-81399174"
+      },
+      {
+        "telephoneTitle": "票务咨询",
+        "telephone": "029-81399127"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "服务号",
+        "wxSubscriptionName": "秦始皇帝陵博物院",
+        "wxSubscription": "bmy1979"
+      }
+    ],
+    "sinaWeiboVoList": [
+      {
+        "sinaWeibo": "秦始皇帝陵博物院",
+        "sinaWeiboUrl": "https://weibo.com/u/7409196757"
+      }
+    ],
+    "tiktokVoList": null,
+    "topBannerList": [
+      {
+        "id": "2102235659431903233",
+        "outId": "1320579064720941183",
+        "type": 1,
+        "advertName": "兵马俑攻略",
+        "advertPic": "https://eshopfile.zhiyousx.com/2024070717272759749.png",
+        "jumpType": 1,
+        "jumpUrl": "https://mp.weixin.qq.com/s/f8_WM4aUr_wOIzjPIDBkpQ",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "",
+        "contentType": null,
+        "bannerPosition": 0
+      }
+    ],
+    "bannerList": [
+      {
+        "id": "2102235659436097538",
+        "outId": "1320579064720941183",
+        "type": 1,
+        "advertName": "如何参观一个博物馆",
+        "advertPic": "https://eshopfile.zhiyousx.com/2022070510001754277.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/165698680881807724.jpg\" /></p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/165692734254029017.jpg\" /></p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/165692737371924112.jpg\" /></p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/165692738586708624.jpg\" /></p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/165692739833291187.jpg\" /></p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/165692740716086813.jpg\" /></p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/165692741571781389.jpg\" /></p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/165692742338313224.jpg\" /></p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/165692743128108276.jpg\" /></p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/165692743925984682.jpg\" /></p>",
+        "contentType": null,
+        "bannerPosition": 1
+      },
+      {
+        "id": "2102235659440291842",
+        "outId": "1320579064720941183",
+        "type": 1,
+        "advertName": "关于秦始皇兵马俑的45个秘密 你知道几个",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021072317195237553.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p style=\"text-align: center;\"><strong><span style=\"font-size: 24px;\">【问道兵马俑】</span></strong></p>\n<p style=\"text-align: center;\"><span style=\"font-size: 24px;\">关于秦始皇陵兵马俑的</span><strong><span style=\"font-size: 24px;\"><span style=\"color: #993300;\">45个秘密</span></span></strong></p>\n<p style=\"text-align: center;\"><strong><span style=\"font-size: 24px;\"><span style=\"color: #993300;\">&nbsp;</span></span></strong><span style=\"font-size: 24px;\">你知道几个？</span></p>\n<p>&nbsp;</p>\n<p>1. <strong>秦始皇陵兵马俑是怎么发现的？</strong></p>\n<p>　　张卫星研究馆员：一般认为<span style=\"color: #993300;\"><strong>始于1974年临潼西杨村农民打井</strong></span>。但考古发掘表明，此前历史时期曾有许多次机会，人们以不同的形式遇到过兵马俑的碎片。有考古专家将这些陶片拼接成陶俑并且认识到这是为秦始皇陵陪葬的军队，才是真正意义上的发现兵马俑。</p>\n<p>&nbsp;</p>\n<p>2. <strong>秦始皇陵兵马俑陪葬坑距今有多少年历史了？</strong></p>\n<p>　　张卫星研究馆员：兵马俑陪葬坑建设的时间段为始皇统一六国（公元前221年）到他被埋葬在陵墓（公元前210年），所以<span style=\"color: #993300;\"><strong>距今有2229到2240年了</strong></span>。</p>\n<p>&nbsp;</p>\n<p>3. <strong>秦始皇陵和兵马俑为什么建在临潼？</strong></p>\n<p>　　张卫星研究馆员：兵马俑坑只是从属于秦始皇陵的众多陪葬坑中的一组。秦始皇陵选址骊山与始皇的祖辈埋葬于骊山西麓有关，但骊山西麓地区剩余的空间不足以设置如此大规模的陵墓，而将始皇陵建设在骊山北麓<span style=\"color: #993300;\"><strong>既靠近他祖辈的陵墓，也符合礼制</strong></span>；此外，骊山北麓也是传统的山水形胜之地。秦始皇陵（封土地宫）保护很好与该区域局部特别是地宫区域的<span style=\"color: #993300;\"><strong>地理条件较好</strong></span>有很大的关系，地宫的位置刚好处于山前冲积扇群形成的鱼脊形地带，再加上建设时期的一些防护措施的保障，使得秦始皇陵（地宫）得到很好的保护。</p>\n<p>&nbsp;</p>\n<p>4. <strong>当地人说现在的秦始皇墓冢是假的，真陵墓在骊山里，是这样吗？</strong></p>\n<p>　　张卫星研究馆员：这个传说早在明代文人都穆的游记中就有提及。现秦始皇陵墓冢并不是独立的存在，而是与其内部的台体建筑、墓道、墓室相连的整体结构；还与陵园的墙垣、门观、道路、陪葬坑、陪葬墓、陵寝建筑等构成了具有紧密关联性的陵墓复合体。反观，<span style=\"color: #993300;\"><strong>将陵墓设置于骊山不符合历史上同时期的陵墓建设传统，当时工程技术水平也难实现</strong></span>。</p>\n<p>&nbsp;</p>\n<p>5. <strong>据说秦始皇墓冢九顷十八亩，秦始皇墓冢到底有多大？</strong></p>\n<p>　　张卫星研究馆员：民间虽传说秦始皇墓占地九顷十八亩，但不知其出处。秦始皇陵是一个整体概念，其核心是墓冢，但是不局限于墓冢。另外古代量制前后变化较大，即便采用最小的换算关系，九顷十八亩折算下来，也约合30多万平方米。仅从目前的发现看，始皇陵在秦代时期墓冢约470米见方，合22万平方米；<span style=\"color: #993300;\"><strong>现存的墓冢为350米见方，为12.25万平方米</strong></span>。更大范围的内城墙垣围合的区域近80万平方米，而外城墙垣围起来的陵园区域则为213万平方米。</p>\n<p>&nbsp;</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072317050755718.jpg\" /></p>\n<p>&nbsp;</p>\n<p>6. <strong>秦陵巨大的封土取自何处？</strong></p>\n<p>　　张卫星研究馆员：秦始皇陵巨大的封土的来源，后期的文献（北魏郦道元《水经注》）提到由于取土修陵形成了鱼池。通过观察秦始皇陵的封土，既有纯净的夯筑的细黄土结构，也有夹杂砂石较多的粗夯土结构，二者明显来自不同的区域。<span style=\"color: #993300;\"><strong>比较纯净的黄土应该来自陵园周边区域的黄土层，也不排除来自鱼池区域；而夹杂砂石较多的粗夯层从提高工作效率的角度看，应该来自陵园南侧的山前地带</strong></span>。</p>\n<p>&nbsp;</p>\n<p>7. <strong>秦始皇陵是否被焚烧、盗掘过？</strong></p>\n<p>　　张卫星研究馆员：文献有秦始皇陵被焚烧和盗掘的记载。目前的考古发现表明，整个秦始皇陵实际上是一场大火焚烧后的火场遗存，包括兵马俑坑在内的大量陪葬坑、地面建筑等都有明显的过火痕迹，同时也有人为破坏迹象。但是目前的考古发现，<span style=\"color: #993300;\"><strong>没有证据表明秦始皇陵的主墓室有被焚烧和盗掘</strong></span>。</p>\n<p>&nbsp;</p>\n<p>8. <strong>以后会不会对秦始皇陵采取主动保护性的考古发掘？</strong></p>\n<p>　　夏寅研究馆员：上世纪八十年代末开始，国家文物局就以文件和会议等形式多次强调了严格控制主动性考古发掘项目的审批和管理，明确了<span style=\"color: #993300;\"><strong>对于帝王陵寝不主动发掘</strong></span>的基本思想。目前针对各类遗址和墓葬的发掘保护均开展了专项和专门的研究，无论是从最初发掘之前的各类无损勘测研究,还是发掘后文物的现场保护与提取，以及文物出土后各类材质类型文物的保护和修复等，可以说在各个方面都开展了专门的研究。</p>\n<p>&nbsp;</p>\n<p>9. <strong>听说参与修建秦始皇陵墓的人都被活埋了？</strong></p>\n<p>　　朱学文研究馆员：《史记&middot;秦始皇本纪》记载：&ldquo;葬既已下，或言工匠为机，藏皆知之，藏重即泄。大事毕，已藏，闭中羡，下外羡门，尽闭工匠藏者，无复出者&rdquo;。意思是：秦始皇帝下葬完毕，有人说是工匠制造了机械，墓中所藏宝物他们都知道，宝物多而贵重，这就难免会泄露出去。隆重的丧礼完毕，宝物都已藏好，就封闭了墓道的中间一道门，<span style=\"color: #993300;\"><strong>又把墓地最外面的一道门放下来，工匠们全部被封闭在里边，没有一个再出来的</strong></span>。另外，考古发掘，在秦始皇陵附近发现3处修陵人员的墓地。</p>\n<p>&nbsp;</p>\n<p>10. <strong>秦始皇陵墓内部的结构是什么样的？真的有日月星辰、江河湖海吗？</strong></p>\n<p>　　张卫星研究馆员：《史记》描述：&ldquo;宫观百官奇器珍怪徙臧满之。令匠作机弩矢，有所穿近者辄射之。以水银为百川江河大海，机相灌输，上具天文，下具地理。以人鱼膏为独，度不灭者久之。&rdquo;这是关于秦始皇陵的记载中最为详尽的部分，也是后世文献中发挥最多的部分。后来的文献对这些记载多有变通和增加、演绎。<span style=\"color: #993300;\"><strong>目前学者公认秦始皇陵墓内结构实际上是一个宇宙模型</strong></span>，这也是始皇陵最吸引人的地方。</p>\n<p>&nbsp;</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072317062001020.jpg\" /></p>\n<p>&nbsp;</p>\n<p>11. <strong>兵马俑挖掘工作进行到何种程度？</strong></p>\n<p>　　武丽娜副研究馆员：目前有三个坑对外展出。其中一号坑占地面积约14260平方米，已发掘其三分之一，陶俑的准确数字还不清楚，根据已发掘部分的排列密度推算，总计有陶俑陶马6000余件，目前已出土陶俑、陶马2000余件，战车20余辆。二号坑占地面积2000余平方米，是多兵种曲形阵，由相对独立的战车阵、弩兵阵、骑兵阵及车步骑混编方阵组成。<span style=\"color: #993300;\"><strong>目前已发掘其中的五分之一</strong></span>。这两个坑如果全部发掘完，估计还需要百年，甚至更长的时间。三号坑已全部发掘完。四号坑存在较大争议，最新勘探数据表明，可能不存在。</p>\n<p>&nbsp;</p>\n<p>12. <strong>兵马俑为什么这么长时间还保存完好？</strong></p>\n<p>　　马生涛副研究馆员：兵马俑是用陶泥以模塑结合的形式塑造出来，焙烧温度在950℃-1050℃之间，<span style=\"color: #993300;\"><strong>烧成温度较高，胎质较厚（2-6cm），质地坚硬</strong></span>，所以这些破碎的陶片经过保护修复后，复原后展示给大家欣赏。</p>\n<p>&nbsp;</p>\n<p>13. <strong>兵马俑是用哪里的土烧制的，窑口在哪里？</strong></p>\n<p>　　武丽娜副研究馆员：<span style=\"color: #993300;\"><strong>在距离兵马俑约几百米的下和村南面发现了陶窑</strong></span>。兵马俑体量大、不易搬运，不会在太远的地方烧制，目前已在其周边发现十余处陶俑，但数量还有些少，估计将来会有更多的陶窑发现。</p>\n<p>&nbsp;</p>\n<p>14. <strong>兵马俑是在地下烧的，还是烧好埋的？</strong></p>\n<p>　　武丽娜副研究馆员：我们在一号坑前百余米处发现了打碎的陶俑，也在填土中发现了兵马俑，说明<span style=\"color: #993300;\"><strong>兵马俑都是在坑外烧制好，再放到预先设置好的俑坑内的具体位置</strong></span>。</p>\n<p>&nbsp;</p>\n<p>15. <strong>已发现的兵马俑有多少尊？</strong></p>\n<p>　　武丽娜副研究馆员：<span style=\"color: #993300;\"><strong>一号坑</strong></span>已发现陶俑陶马<span style=\"color: #993300;\"><strong>6000余件</strong></span>，目前已出土陶俑、陶马2000余件。<span style=\"color: #993300;\"><strong>二号坑</strong></span>已发现陶俑陶马<span style=\"color: #993300;\"><strong>1000余件</strong></span>，目前已出土陶俑、陶马500余件。<span style=\"color: #993300;\"><strong>三号坑</strong></span>已出土铠甲武士俑<span style=\"color: #993300;\"><strong>64件</strong></span>，驷马战车1辆。</p>\n<p>&nbsp;</p>\n<p>16. <strong>兵马俑有哪些种类？</strong></p>\n<p>　　朱学文研究馆员：俑坑出土的陶俑可分为<span style=\"color: #993300;\"><strong>步兵俑、骑兵俑和车兵俑</strong></span>。其中步兵俑可分为<span style=\"color: #993300;\"><strong>军吏俑与一般步兵俑</strong></span>两大类。军吏俑又可分为<span style=\"color: #993300;\"><strong>高级军吏俑（俗称将军俑）、中级军吏俑和下级军吏俑</strong></span>；一般步兵俑又有<span style=\"color: #993300;\"><strong>轻装步兵俑和重装步兵俑</strong></span>的区别。</p>\n<p>&nbsp;</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072317073702138.jpg\" /></p>\n<p>&nbsp;</p>\n<p>17. <strong>兵马俑单个有多重，最重的多重？</strong></p>\n<p>　　马生涛副研究馆员：兵马俑的类型较多，形体差异较大。<span style=\"color: #993300;\"><strong>单个陶俑的平均重量在180kg左右</strong></span>，最重的是陶马，超过300kg，陶俑中最重的是高级铠甲军吏俑（俗称将军俑）250kg左右，最轻的是跪射俑约100kg。</p>\n<p>&nbsp;</p>\n<p>18. <strong>估算下单个兵马俑价值多少？</strong></p>\n<p>　　武丽娜副研究馆员：<span style=\"color: #993300;\"><strong>兵马俑是无价之宝</strong></span>，联合国教科文组织在1987年就把其列入世界文化遗产名录。在这个意义上，它是全人类共享的珍贵文化遗产，具有丰富的历史、科学、艺术价值。</p>\n<p>&nbsp;</p>\n<p>19. <strong>兵马俑怕不怕火灾、水灾？会不会发霉？</strong></p>\n<p>　　夏寅研究馆员：<span style=\"color: #993300;\"><strong>文物保护是一个涉及各个方面的系统</strong></span>，无论从文物所处的展柜、遗址大厅等小环境，还是到馆区以及整个保护区域乃至周边区域的大环境，都是需要考量和控制的保存研究范围。</p>\n<p>&nbsp;</p>\n<p>20. <strong>发掘至今兵马俑有没有被盗过？</strong></p>\n<p>　　朱学文研究馆员：<span style=\"color: #993300;\"><strong>上世纪八十年代，曾出现过秦俑头失窃的现象</strong></span>，经公安与文物等部门的通力合作，<span style=\"color: #993300;\"><strong>失窃文物已追回</strong></span>。为有效打击猖獗的文物犯罪活动，当时的犯罪嫌疑人被依法判处死刑。</p>\n<p>&nbsp;</p>\n<p>21. <strong>现在展出的铜车马是原件还是复制品？</strong></p>\n<p>　　朱学文研究馆员：秦兵马俑坑估计共有战车140余乘。<span style=\"color: #993300;\"><strong>目前在秦始皇帝陵博物院展出的一号铜车马是原件</strong></span>，二号铜车马因研究需要，正进行三维数字采集工作，暂时陈列原大复制品。秦代将士身着铠甲的真实材质为皮质。</p>\n<p>&nbsp;</p>\n<p>22. <strong>和同时代的西方士兵相比，兵马俑战斗力咋样？</strong></p>\n<p>　　蒋文孝研究馆员、付健馆员：<strong><span style=\"color: #993300;\">相比之下各有优劣</span></strong>。简单来说，有以下几个方面不同。一、<span style=\"color: #993300;\"><strong>作战目的不同</strong></span>。秦人以杀伤敌人、消灭有生力量为目的，西方则多以击溃为目的。二、<span style=\"color: #993300;\"><strong>组合方式不同</strong></span>。秦人以军阵组合为主，包括步兵、骑兵、车兵、射兵多种兵力，组合起来作战。西方多采用车轮战，消耗对方战斗力。三、<span style=\"color: #993300;\"><strong>作战方式不同</strong></span>。秦人以弓弩等远射兵器进行远距离战斗，以长矛、长铍、戟、剑等武器展开近战。西方多以盾牌、长矛等武器进行近战。</p>\n<p>&nbsp;</p>\n<p>23. <strong>秦始皇兵马俑坑有没有出土秦昭襄王时期造的兵器或者其他文物？</strong></p>\n<p>　　朱学文研究馆员：秦兵马俑坑出土兵器的时代主要依据兵器上的铭文和兵器的形制来判断，根据俑坑出土兵器的研究表明，秦兵马俑坑出土兵器的<span style=\"color: #993300;\"><strong>年代属于秦王嬴政时期（秦国）和秦统一后（秦代）两个时段</strong></span>，未发现秦昭襄王时期的兵器和其他文物。</p>\n<p style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: center;\"><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072317084560799.jpg\" /></p>\n<p>&nbsp;</p>\n<p>24. <strong>近年参观了好几次兵马俑，没有发现俑目有双眼皮的。想知道到底有没有双眼皮的，如果没有是什么原因？</strong></p>\n<p>　　武丽娜副研究馆员：<span style=\"color: #993300;\"><strong>兵马俑有发现双眼皮的陶俑</strong></span>，一号坑T1K17号俑就是例证，只是目前数量极少，估计将来可能会有更多的发现。</p>\n<p>&nbsp;</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072317104642277.jpg\" /></p>\n<p>&nbsp;</p>\n<p>25. <strong>兵马俑胡须有啥特点？兵马俑&ldquo;将军肚&rdquo;是咋回事？</strong></p>\n<p>　　马生涛副研究馆员：兵马俑<span style=\"color: #993300;\"><strong>胡须</strong></span>的特点是：1.<span style=\"color: #993300;\"><strong>制作手法多</strong></span>：有的是粘接泥片加以刻削；有的采用减地浮雕手法；有的堆贴泥块制成；有的直接在唇上刻画出胡形。2.<span style=\"color: #993300;\"><strong>种类多</strong></span>：以八字胡为主、又细分为两角上翘、下垂、胡角微微向外飘洒、短小的矢叶状、短小平直状等不同形状，同时有络腮胡、唇下一撮小须、乳头状髭须等胡须类型。3.<span style=\"color: #993300;\"><strong>组合多</strong></span>：上述胡形又进行组合，生动表现出秦俑的年龄、个性和习尚的不同。兵马俑表现的是秦国军人的形象，秦人受军功爵位制的影响，勇于公战，奋勇杀敌。越是作战勇猛、杀敌多的，爵位等级越高，所以秦俑在形象塑造上，高级军吏俑（俗称将军俑）的形象高大威猛，一般武士体型较小，这与他们取得的战绩有一定的关系。秦俑不论级别高低，都有一定程度的鼓腹，被大家称为&ldquo;将军肚&rdquo;，这里的鼓腹不是大腹便便，丝毫不影响战斗力。鼓腹可能反映出秦人的饮食习惯，秦军在战前和战后都要大量饮酒，酒为粟米酒，<span style=\"color: #993300;\"><strong>鼓腹大概与长期喝酒有直接关系</strong></span>。</p>\n<p>&nbsp;</p>\n<p>26. <strong>听说兵马俑身上都有字，是这样吗？</strong></p>\n<p>　　朱学文研究馆员：自1974年以来在秦始皇陵园的东侧，先后发现了一、二、三号兵马俑陪葬坑。三个坑内共有陶俑、陶马近8000件。工作人员在发掘和修复的过程中，<span style=\"color: #993300;\"><strong>在一些陶俑、陶马身上发现戳印或刻画的文字。</strong></span>陶俑身上的文字多位于腋下、衣下摆的底部、短裤上及俑的颈部等隐蔽处，也有的位于胸、臂、腹部。陶马身上的文字有的位于臀部、有的在颈部、腹部、尾部等。印文为字迹较规整的小篆体；刻文字迹草率、字径大小不一，多为隶书，兼有小篆。<span style=\"color: #993300;\"><strong>这些文字有表示地名的，也有表示人名的。</strong></span></p>\n<p>&nbsp;</p>\n<p>27. <strong>兵马俑和现代中国人有多像？有没有《寻秦记》里的项少龙俑？职务最高的兵马俑是哪个？</strong></p>\n<p>　　蒋文孝研究馆员、付健馆员：秦人是个尚武的民族，在频繁的战争中提倡勇于公战，有功者显荣，无功者即使出身宗室贵族，也不得上进。在这种环境下，加上民族固有的习俗，就形成<span style=\"color: #993300;\"><strong>秦人的审美观</strong></span>，反映在兵马俑雕塑艺术上，<span style=\"color: #993300;\"><strong>孔武多力，英勇善战，成为人们追求的心灵和体魄美的理想形象</strong></span>，这在秦俑的雕塑上表现得比较清楚。而<span style=\"color: #993300;\"><strong>现代的中国人</strong></span>历经了2000多年，是多民族融合以后形成的，<span style=\"color: #993300;\"><strong>与兵马俑有一些差距</strong></span>的。兵马俑中和《寻秦记》里的项少龙相似的陶俑应该有，但仅是外表。职务最高的是军吏俑中的高级军吏，他们身材魁梧，膀阔腰圆，昂首挺胸，气度非凡，加上特有的服饰、甲衣和冠，一看就是个手握雄兵、指挥若定的将军。</p>\n<p>&nbsp;</p>\n<p>28、 <strong>兵马俑里边有女性吗？如果没有，今后会不会发现？</strong></p>\n<p>　　朱学文研究馆员：从《史记&middot;秦始皇本纪》，湖北云梦睡虎地秦简等文献与考古资料来看，秦代都是男子服兵役。从秦兵马俑坑考古发掘情况看，俑坑已出土的各类陶俑均代表青壮年男子的形象，未发现女性陶俑。目前，从俑坑出土陶俑的排列规律看，<span style=\"color: #993300;\"><strong>秦兵马俑坑今后发现女性陶俑的可能性不大</strong></span>。</p>\n<p>&nbsp;</p>\n<p>29. <strong>兵马俑里面有没有炊事员？如果有，是什么样子的？</strong></p>\n<p>　　武丽娜副研究馆员：<span style=\"color: #993300;\"><strong>目前</strong><strong>未发现特殊身份的陶俑</strong></span>，都是装束较统一的铠甲武士俑、战袍武士俑和少量的将军俑、军吏俑等。即使是今天的炊事班战士，仅凭其冠和军服也不能确认其具体职责。</p>\n<p>&nbsp;</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072317112532932.jpg\" /></p>\n<p>&nbsp;</p>\n<p>30. <strong>秦始皇帝陵的陪葬坑除了兵马俑坑，还有哪些？</strong></p>\n<p>　　朱学文研究馆员：古人认为，人死后灵魂不灭，死者的灵魂在幽冥的阴间和生前一样有衣食住行以及各种娱乐之需。因此，人死后要备棺椁、办衣衾，置鼎簋尊壶酒食之具和钟鼓编磬之属，另外还要陪葬车马等，诸养生之具无不齐备。随着厚葬之风的盛行，陪葬之物在墓穴内容纳不下，则移之于墓外，于是陪葬坑的建制应运而生。到秦始皇时代，陪葬坑数量之多，规模之大远远超载前代。据初步统计，<span style=\"color: #993300;\"><strong>目前在秦始皇陵区已发现各种陪葬坑180余座。除秦兵马俑陪葬坑外，比较重要的有铜车马坑、珍禽异兽坑、马厩坑、百戏俑坑、文吏俑坑、石铠甲坑、青铜水禽坑等。</strong></span></p>\n<p>&nbsp;</p>\n<p>31. <strong>听说秦始皇帝陵陪葬坑出土的铜车马、铜铠甲、铜水禽等都要建专题博物馆？什么时候大家可以去参观？</strong></p>\n<p>　　朱学文研究馆员：秦始皇帝陵博物院正在按照秦始皇帝陵文化景区发展规划实施改造提升工程。其中，<span style=\"color: #993300;\"><strong>秦始皇帝陵铜车马博物馆将于2019年4月开工建设，计划2020年正式对外开放。按照发展规划，将陆续建设铠甲坑博物馆（暂定名）和青铜水禽博物馆（暂定名），这两座博物馆计划在2030年之前正式对外开放。</strong></span></p>\n<p>&nbsp;</p>\n<p>32. <strong>兵马俑博物馆40年来的门票价格变化能否介绍一下？听说最早的门票只有五分钱？</strong></p>\n<p>　　何宏研究馆员：随着国民经济的不断发展、博物馆的不断扩大，由最初的一号坑门票、一三号坑联票、铜车马馆单独售票，到整个博物馆实行一票制以及淡旺季价格，经历了多种门票管理方式和门票价格多次调整。经上级有关部门批准，内宾门票从1979年开馆最初的0.1元、0.2元、0.3元、0.5元到1元、5元、10元、15元、20元、35元不等，外宾门票从3元、6元、8元、12元、16元、20元、24元、30元、50元、60元、80元不等，铜车马专馆内外宾门票也曾有0.2元、0.5元、1元、2元、5元、7元、10元、15元等不同时期。1998年后，内外宾门票并轨，执行过淡旺季65元、90元、110元、120元、150元等不同价格。<span style=\"color: #993300;\"><strong>2018年9月28日起，门票统一为120元</strong></span>。</p>\n<p>&nbsp;</p>\n<p>33. <strong>兵马俑是什么时候获评世界遗产的？</strong></p>\n<p>　　何宏研究馆员：根据联合国教科文组织1972年11月16日在巴黎通过的《保护世界文化和自然遗产公约》中的定义，世界遗产分为文化遗产、自然遗产两部分，中国于1985年12月12日成为缔约国。<span style=\"color: #993300;\"><strong>秦始皇陵及兵马俑坑于1987年12月11日列入世界文化遗产名录</strong></span>，编号为304。</p>\n<p>&nbsp;</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072317123251608.jpg\" /></p>\n<p>&nbsp;</p>\n<p>34. <strong>兵马俑是彩色的还是灰色的，为啥变成了灰色？秦代士兵穿的是黑色战袍吗？</strong></p>\n<p>　　夏寅研究馆员：2000多年前兵马俑在放入俑坑之时，都是施以彩绘的。但为什么大家站在一号坑前看到的军阵是灰色的陶质颜色？<span style=\"color: #993300;\"><strong>因为经过了两千多年的埋藏过程，经历了水淹、火烧、地下埋藏等不利因素，大部分彩绘在出土前就已经脱落或者损失殆尽了。</strong></span>尽管如此，仍然有少量残留的彩绘，以及由于埋藏保存状况良好而保留下面积较大的彩绘的情况，使我们能够有机会开展有效的彩绘保护处理工作。应该说，兵马俑的彩绘一定程度上是反映了秦代士兵的战袍服饰和色彩的。</p>\n<p>&nbsp;</p>\n<p>35. <strong>兵马俑发掘后，对俑体的色彩采取了哪些保护措施？技术达到了什么样的水平？如果现在再发掘兵马俑的话，还能不能保证其是彩色的？</strong></p>\n<p>　　夏寅研究馆员：秦代工匠在烧制后的陶质兵马俑之上，涂施以生漆层，然后将矿物颜料涂刷其上。由于生漆底层对含水量的变化非常敏感，会在失水过程中剧烈变形，而地下埋藏的环境是较为潮湿的，一旦出土暴露在外界干燥环境下，生漆层极易连带着整个彩绘层发生起翘和脱落现象。所以，稳定生漆层是保护的关键。目前采取的一种有效保护措施为：<span style=\"color: #993300;\"><strong>发掘后通过物理补水，另外使用化学试剂（聚乙二醇）保湿，并配合使用乳液类加固剂加固和保护彩绘。</strong></span>目前采取的彩绘保护技术是当前最佳的技术处理方法，该技术获得了国家科技进步二等奖，并且在全国范围内得到推广应用。</p>\n<p>&nbsp;</p>\n<p>36. <strong>绿面俑是不是只有一个，这个俑是干什么的？</strong></p>\n<p>　　朱学文研究馆员：目前在秦兵马俑坑发现的绿面俑<span style=\"color: #993300;\"><strong>仅此一件</strong></span>。该俑位于秦兵马俑二号坑弩兵单元第十八过洞的中部，是一件跪射俑，属于弩兵兵种。</p>\n<p>&nbsp;</p>\n<p>37. <strong>从历史意义和艺术角度来看，兵马俑哪个价值更大一些？兵马俑在制作的过程中是有模型还是根据真实人物而制？</strong></p>\n<p>　　蒋文孝研究馆员：兵马俑的历史意义和艺术价值，是一个问题的两个方面，<span style=\"color: #993300;\"><strong>不存在谁大谁小的问题，都很重要。</strong></span>兵马俑在制作的过程中是否有真实人物作为依据，这个史书没有记载。但我们可以肯定的一点是，<span style=\"color: #993300;\"><strong>制作过程应该是有模型的</strong></span>，模型应该是秦国那些勇猛善战的将士。当然，他们在追求逼真的前提下，也融入了作者的情感和主观的审美观念，加以典型化，才最终创造出这一群完美的艺术形象。</p>\n<p>&nbsp;</p>\n<p>38. <strong>为什么在秦代会突然出现那么精美的人马雕塑？技术从何而来？</strong></p>\n<p>　　蒋文孝研究馆员：这一问题的核心在于，<span style=\"color: #993300;\"><strong>兵马俑制作技术是源于自身还是来源于西方？</strong></span>关于这一问题，在学界还有争论，但老一辈的考古学家和历史学家普遍认为，<span style=\"color: #993300;\"><strong>兵马俑是土生土长的雕塑</strong></span>，它继承了中国雕塑固有的艺术风格和技巧，并有所创新和发展，它是在继承前代雕塑艺术传统的基础上发展起来的，具有中国特有的民族风格、民族特质的雕塑艺术。从它的文化渊源来看，既有秦国固有的文化因素，又包含其他各民族的文化因素。而<span style=\"color: #993300;\"><strong>来源于西方的说法，目前证据尚不充分</strong></span>。</p>\n<p>&nbsp;</p>\n<p>39. <strong>以兵马俑为题材的影视作品有多少，著名的都有哪些？</strong></p>\n<p>　　何宏研究馆员：以秦俑为题材的文学作品如诗歌、影视、绘画、报告文学、小说、散文等为数众多。与兵马俑相关的影视作品从上世纪90年代开始就已出现，有电影、电视、纪录片、动漫等多种形式，以适合不同年龄段观众的需求。人们熟知的有<span style=\"color: #993300;\"><strong>《秦俑》、《古今大战秦俑情》、《兵马俑》、《复活的军团》、《神话》、《大秦帝国》、《秦始皇》、《木乃伊3》</strong></span>等等。</p>\n<p>&nbsp;</p>\n<p>40. <strong>现在这种旅游开发对兵马俑的发掘和保护有没有压力？</strong></p>\n<p>　　夏寅研究馆员：<span style=\"color: #993300;\"><strong>随着旅游业的蓬勃发展，的确给兵马俑的发掘和保护带来了较大的压力</strong></span>，产生了诸如文物保存和展示环境变化等方面的问题。事实上，秦陵博物院采取了诸如改善博物馆内部和周边环境，以及观众限流等措施来缓解这方面的压力。但是，文物保护内容广博，涉及的问题非常复杂；不<span style=\"color: #993300;\"><strong>仅只是依靠文物保护修复人员，还需要全社会的理解和支持</strong></span>，才能妥善保护好文物。</p>\n<p>&nbsp;</p>\n<p>41. <strong>秦始皇帝陵博物院工作人员怎么看待网红&ldquo;兵马俑主题酒店&rdquo;和变脸兵马俑？</strong></p>\n<p>　　何宏研究馆员：随着西安国际化大都市的建设，以兵马俑作为西安城市品牌形象，与人们生产、生活息息相关的各类产品、用品不断出现，以兵马俑为素材的旅游纪念品和文创产品大量产生。这说明<span style=\"color: #993300;\"><strong>古代优秀历史文化对现代文明的影响力在不断增加，在与现代文明的融合中具有鲜活的生命力</strong></span>。跨界与融合是我们所处时代的热点，<span style=\"color: #993300;\"><strong>但跨界的尺度、分寸，不同行业融合的结合点是相关行业人士需要认真思考的问题。</strong></span>否则，强硬跨界和由此产生的不和谐视觉，将会引发众多非议。</p>\n<p>&nbsp;</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072317143681719.jpg\" /></p>\n<p>&nbsp;</p>\n<p>42. <strong>秦始皇帝陵博物院开馆后接待过多少名人？</strong></p>\n<p>　　何宏研究馆员：从1974年3月兵马俑发现，叶剑英、邓小平、胡耀邦、李先念、李鹏、江泽民、朱镕基、李瑞环、胡锦涛、乔石、王岐山、贾庆林等中央领导前来视察。观众看到的金色大字&ldquo;秦始皇兵马俑博物馆&rdquo;就是第一位来视察的全国人大常委会委员长叶剑英题写的。美国总统里根、克林顿，英国女王伊丽莎白二世，俄罗斯总统普京，印度总理莫迪，法国总统马克龙等众多国际政要纷纷专访秦俑博物馆，美国前国务卿基辛格40年内5次参观兵马俑。<span style=\"color: #993300;\"><strong>截止2018年12月底，秦陵博物院共接待党和国家领导人193位，外国元首、政府首脑223位，各国议长、副议长、副总统、副总理、部长、社会名流等3000余位。</strong></span></p>\n<p>&nbsp;</p>\n<p>43. <strong>把兵马俑称为&ldquo;世界第八大奇迹&rdquo;的是谁？</strong></p>\n<p>　　何宏研究馆员：1978年9月23日，<span style=\"color: #993300;\"><strong>法国前总理、时任巴黎市长的希拉克先生</strong></span>面对刚发掘出一角的秦俑军阵，发出了由衷的赞叹：&ldquo;世界上有了七大奇迹，秦俑的发现，可以说是八大奇迹了。不看金字塔不算真正到过埃及，不看秦俑不算真正到过中国。&rdquo;从此，&ldquo;世界第八大奇迹&rdquo;的称誉不胫而走，成为秦兵马俑的代名词。1991年11月5日，<span style=\"color: #993300;\"><strong>希拉克先生</strong></span>第二次踏访秦俑馆，他说：&ldquo;这次参观兵马俑，再次证实了世界文化遗产第八大奇迹，通过它悠久的历史文化及实力，完全可以与世界文明古都雅典、罗马、拜占庭相媲美。&rdquo;</p>\n<p>&nbsp;</p>\n<p>44. <strong>全世界参观过兵马俑的人目前已达到多少？兵马俑都到过哪些国家展览过？</strong></p>\n<p>　　马生涛副研究馆员：全世界参观过兵马俑的人目前<span style=\"color: #993300;\"><strong>已超过1亿人次</strong></span>，兵马俑目前<span style=\"color: #993300;\"><strong>已出访过41个国家和地区</strong></span>，遍及亚洲、美洲、欧洲、非洲、大洋洲的主要国家。</p>\n<p>&nbsp;</p>\n<p>45. <strong>兵马俑外展是如何包装的？外展安全如何保障？</strong></p>\n<p>　　马生涛副研究馆员：兵马俑参加外展时由藏品管理部专业的文物包装人员进行包装，<span style=\"color: #993300;\"><strong>先将陶俑捆扎固定在垫有缓冲材料的&ldquo;L&rdquo;型背板上，再将背板放入专用实木外箱里，将背板与木箱固定连接。</strong></span>运输过程中，兵马俑是躺着进行运输的。对于外展安全，我们前期会对展出场地进行实地考察，<span style=\"color: #993300;\"><strong>要求借展方提供安全保障方案、提供适合文物展出的温湿度、照明等环境的控制方案，并要求借展方严格执行。</strong></span>工作期间，我们会派出专业的包装人员全程负责文物的布、撤展包装工作，确保文物安全。</p>\n<p>&nbsp;</p>\n<p style=\"text-align: right;\">（本文来源：华商报）</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2102235659322851329",
+        "resourcesId": "1321333812930830338",
+        "title": "兵马俑是如何制作出来的？",
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2022072611551574527.mp4",
+        "coverImage": "https://eshopfile.zhiyousx.com/165880770512743708.png",
+        "videoId": null,
+        "resourcesType": 2,
+        "sequence": 1,
+        "describe": "《中国考古大会》告诉你兵马俑是如何制作出来的~",
+        "createTime": "2026-09-22 11:16:53",
+        "updateTime": "2026-09-22 11:16:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102235659327045633",
+        "resourcesId": "1321333812930830338",
+        "title": "兵马俑宣传片",
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072316474944222.mp4",
+        "coverImage": "https://eshopfile.zhiyousx.com/162703012297965013.jpg",
+        "videoId": null,
+        "resourcesType": 2,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-09-22 11:16:53",
+        "updateTime": "2026-09-22 11:16:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102235659327045634",
+        "resourcesId": "1321333812930830338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165669284968447200.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": "",
+        "createTime": "2026-09-22 11:16:53",
+        "updateTime": "2026-09-22 11:16:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102235659331239938",
+        "resourcesId": "1321333812930830338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072316411714448.jpeg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-09-22 11:16:53",
+        "updateTime": "2026-09-22 11:16:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102235659335434241",
+        "resourcesId": "1321333812930830338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165669284810067468.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": "",
+        "createTime": "2026-09-22 11:16:53",
+        "updateTime": "2026-09-22 11:16:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102235659335434242",
+        "resourcesId": "1321333812930830338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072316412657667.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2026-09-22 11:16:53",
+        "updateTime": "2026-09-22 11:16:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102235659339628546",
+        "resourcesId": "1321333812930830338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072316413639082.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2026-09-22 11:16:53",
+        "updateTime": "2026-09-22 11:16:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102235659339628547",
+        "resourcesId": "1321333812930830338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/35-20201028141043.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2026-09-22 11:16:53",
+        "updateTime": "2026-09-22 11:16:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102235659343822850",
+        "resourcesId": "1321333812930830338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072316414735613.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": null,
+        "createTime": "2026-09-22 11:16:53",
+        "updateTime": "2026-09-22 11:16:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102235659348017154",
+        "resourcesId": "1321333812930830338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072316430534489.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": null,
+        "createTime": "2026-09-22 11:16:53",
+        "updateTime": "2026-09-22 11:16:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102235659348017155",
+        "resourcesId": "1321333812930830338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072316415662946.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 11,
+        "describe": null,
+        "createTime": "2026-09-22 11:16:53",
+        "updateTime": "2026-09-22 11:16:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102235659352211457",
+        "resourcesId": "1321333812930830338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072316420597438.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 12,
+        "describe": null,
+        "createTime": "2026-09-22 11:16:53",
+        "updateTime": "2026-09-22 11:16:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102235659352211458",
+        "resourcesId": "1321333812930830338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072316434377415.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 13,
+        "describe": null,
+        "createTime": "2026-09-22 11:16:53",
+        "updateTime": "2026-09-22 11:16:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102235659356405761",
+        "resourcesId": "1321333812930830338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072316432913950.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 14,
+        "describe": null,
+        "createTime": "2026-09-22 11:16:53",
+        "updateTime": "2026-09-22 11:16:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102235659360600066",
+        "resourcesId": "1321333812930830338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072316435312095.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 15,
+        "describe": null,
+        "createTime": "2026-09-22 11:16:53",
+        "updateTime": "2026-09-22 11:16:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102235659360600067",
+        "resourcesId": "1321333812930830338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072316421493823.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 16,
+        "describe": null,
+        "createTime": "2026-09-22 11:16:53",
+        "updateTime": "2026-09-22 11:16:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102235659364794369",
+        "resourcesId": "1321333812930830338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165669285020606702.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 17,
+        "describe": "",
+        "createTime": "2026-09-22 11:16:53",
+        "updateTime": "2026-09-22 11:16:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102235659364794370",
+        "resourcesId": "1321333812930830338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165669284865396994.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 18,
+        "describe": "",
+        "createTime": "2026-09-22 11:16:53",
+        "updateTime": "2026-09-22 11:16:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102235659368988674",
+        "resourcesId": "1321333812930830338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165669284913184486.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 19,
+        "describe": "",
+        "createTime": "2026-09-22 11:16:53",
+        "updateTime": "2026-09-22 11:16:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102235659373182977",
+        "resourcesId": "1321333812930830338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072316423055496.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 20,
+        "describe": null,
+        "createTime": "2026-09-22 11:16:53",
+        "updateTime": "2026-09-22 11:16:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102235659373182978",
+        "resourcesId": "1321333812930830338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072316424343964.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 21,
+        "describe": null,
+        "createTime": "2026-09-22 11:16:53",
+        "updateTime": "2026-09-22 11:16:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102235659377377281",
+        "resourcesId": "1321333812930830338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072316425272379.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 22,
+        "describe": null,
+        "createTime": "2026-09-22 11:16:53",
+        "updateTime": "2026-09-22 11:16:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102235659377377282",
+        "resourcesId": "1321333812930830338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/34-20201028141056.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 23,
+        "describe": null,
+        "createTime": "2026-09-22 11:16:53",
+        "updateTime": "2026-09-22 11:16:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102235659381571586",
+        "resourcesId": "1321333812930830338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072316431719387.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 24,
+        "describe": null,
+        "createTime": "2026-09-22 11:16:53",
+        "updateTime": "2026-09-22 11:16:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102235659385765890",
+        "resourcesId": "1321333812930830338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/36-20201028141037.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 25,
+        "describe": null,
+        "createTime": "2026-09-22 11:16:53",
+        "updateTime": "2026-09-22 11:16:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102235659385765891",
+        "resourcesId": "1321333812930830338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/37-20201028141049.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 26,
+        "describe": null,
+        "createTime": "2026-09-22 11:16:53",
+        "updateTime": "2026-09-22 11:16:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102235659389960193",
+        "resourcesId": "1321333812930830338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072316564996651.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 27,
+        "describe": null,
+        "createTime": "2026-09-22 11:16:53",
+        "updateTime": "2026-09-22 11:16:53",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1439119981701840898",
+      "rankingId": null,
+      "indexInRanking": 1,
+      "rankingName": "陕西人气博物馆排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1551836855409541121",
+        "rankingId": "1551836856105795586",
+        "indexInRanking": null,
+        "rankingName": "外地游客西安必逛榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1658303499793903618",
+        "rankingId": "1658303501412904962",
+        "indexInRanking": null,
+        "rankingName": "历史文化类博物馆人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1538830830115508226",
+        "rankingId": "1538830831147307010",
+        "indexInRanking": null,
+        "rankingName": "西安必游人气排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1680835374538088449",
+        "rankingId": "1680835375632801794",
+        "indexInRanking": null,
+        "rankingName": "陕西省热搜50强博物馆排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1676883692355641345",
+        "rankingId": "1676883693114810370",
+        "indexInRanking": null,
+        "rankingName": "西安热门景区人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "2102235659402543106",
+        "scenicSpotId": "1320579064720941183",
+        "contentModuleName": "参观推荐",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1543853683793760257",
+            "type": 5,
+            "title": "铜车马",
+            "subtitle": "东方“青铜之冠”",
+            "coverImage": "https://eshopfile.zhiyousx.com/165691824252892588.jpg",
+            "likeRatio": 68.4,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1543864092140326913",
+            "type": 5,
+            "title": "跪射俑",
+            "subtitle": "目前已发掘最为精致的兵俑",
+            "coverImage": "https://eshopfile.zhiyousx.com/165692054585368050.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1543871661180489730",
+            "type": 5,
+            "title": "将军俑",
+            "subtitle": "数量稀少的秦高级军吏俑",
+            "coverImage": "https://eshopfile.zhiyousx.com/165692265940944786.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1543868036975513602",
+            "type": 5,
+            "title": "立射俑",
+            "subtitle": "大秦弩兵方阵的主力",
+            "coverImage": "https://eshopfile.zhiyousx.com/165692128162131693.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1543860375617048578",
+            "type": 5,
+            "title": "骑兵鞍马俑",
+            "subtitle": "重现大秦帝国的骑兵军团",
+            "coverImage": "https://eshopfile.zhiyousx.com/165691990489804669.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1435066471880437762",
+            "type": 5,
+            "title": "御手俑",
+            "subtitle": "大秦战车兵团的车夫",
+            "coverImage": "https://eshopfile.zhiyousx.com/165692604814471939.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1435069352394207233",
+            "type": 5,
+            "title": "武士俑",
+            "subtitle": "秦帝国的步兵战士",
+            "coverImage": "https://eshopfile.zhiyousx.com/165692405167764458.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1543888225208406018",
+            "type": 5,
+            "title": "军阵",
+            "subtitle": "一部立体的秦代“兵书”",
+            "coverImage": "https://eshopfile.zhiyousx.com/165692660880059264.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": "2026年“中秋”“国庆”假期开放公告",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

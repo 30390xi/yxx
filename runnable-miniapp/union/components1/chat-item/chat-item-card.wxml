@@ -8,7 +8,7 @@
                             <view class="content" wx:if="{{item.content}}">{{item.content}}</view>
                             <view bindtap="__e" class="strategy-content" data-event-opts="{{[ [ 'tap',[ [ 'cardDetails',['$event'] ] ] ] ]}}" wx:else>
                                 <view class="{{['message',isHistory?'reverse':'']}}">
-                                    <image catchtap="__e" class="delete" data-event-opts="{{[ [ 'tap',[ [ 'delCard',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/175195946636604672.png" wx:if="{{isHistory}}"></image>
+                                    <image catchtap="__e" class="delete" data-event-opts="{{[ [ 'tap',[ [ 'delCard',['$event'] ] ] ] ]}}" src="/static/captured/824300443bf0c97f.png" wx:if="{{isHistory}}"></image>
                                     <text wx:if="{{item.message}}">{{item.message}}</text>
                                 </view>
                                 <view class="remind">您的专属行程已经生成，点击下方卡片查看吧</view>

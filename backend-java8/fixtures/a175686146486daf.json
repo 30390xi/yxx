@@ -1,0 +1,347 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941092",
+    "scenicName": "张裕长歌酒庄",
+    "tag": "浪漫意大利 梦幻酒城堡",
+    "level": 4,
+    "address": "西安市西咸新区秦汉新城渭城街办",
+    "longitude": "108.789554",
+    "latitude": "34.399218",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#E69844",
+    "centralColour": "#CF6839",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021080217370421348.jpg"
+    ],
+    "introduction": "<p>　　陕西张裕长歌酒庄是集葡萄种植、葡萄酒生产、观光旅游、葡萄酒销售、餐饮、会议、娱乐等多功能于一体的综合性葡萄酒主题庄园，由百年张裕与意大利著名酿酒世家&mdash;瑞那家族合作建成，酒庄占地1100余亩。瑞那城堡包含的旅游项目有：意大利托斯卡纳风格建筑、百亩鲜食葡萄采摘园、15000平米地下大酒窖、世界级葡萄酒科技展览馆、爱神雕塑广场、汉白玉love主题墙、趣味儿童乐园、4D巨幕影院、张裕故事、酿造传奇、红酒秘密、酒窖迷宫、艺术长廊、梦幻葡萄酒大学、DIY葡萄酒生产线、黑暗乘骑、葡萄酒商业街等等。多个项目完美呈现都市田园文化、葡萄酒品鉴文化与百年张裕企业文化，共同形成酒庄的鲜明主题&mdash;为游客开启一段难忘的&ldquo;浪漫意大利 梦幻酒城堡&ldquo;之旅。</p>",
+    "introductionText": "　　陕西张裕长歌酒庄是集葡萄种植、葡萄酒生产、观光旅游、葡萄酒销售、餐饮、会议、娱乐等多功能于一体的综合性葡萄酒主题庄园，由百年张裕与意大利著名酿酒世家—瑞那家族合作建成，酒庄占地1100余亩。瑞那城堡包含的旅游项目有：意大利托斯卡纳风格建筑、百亩鲜食葡萄采摘园、15000平米地下大酒窖、世界级葡萄酒科技展览馆、爱神雕塑广场、汉白玉love主题墙、趣味儿童乐园、4D巨幕影院、张裕故事、酿造传奇、红酒秘密、酒窖迷宫、艺术长廊、梦幻葡萄酒大学、DIY葡萄酒生产线、黑暗乘骑、葡萄酒商业街等等。多个项目完美呈现都市田园文化、葡萄酒品鉴文化与百年张裕企业文化，共同形成酒庄的鲜明主题—为游客开启一段难忘的“浪漫意大利 梦幻酒城堡“之旅。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "65",
+        "name": "工业旅游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "21",
+        "name": "地标打卡",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.3米（不含）以下儿童或6周岁以下儿童（凭有效证件）",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "65周岁（不含）以上凭老人证或者身份证老年人",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭残疾证残疾人",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "军人",
+        "limit": "军人凭军官证和保障卡的现役军人",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.3米（不含）-1.5米（含）儿童",
+        "discount": "半价"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "60周岁（不含）-65周岁（含）凭老人证或身份证老年人",
+        "discount": "半价"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "凭学生证全日制大中小学生（不含成人教育，研究生）",
+        "discount": "半价"
+      }
+    ],
+    "officialWebsite": [
+      "http://www.changyu.com.cn/explore/bdjzdetails109.html"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "官方电话",
+        "telephone": "4000292296"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "2090692653408772098",
+        "outId": "1320579064720941092",
+        "type": 1,
+        "advertName": "游玩攻略 ",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021072817441119374.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<section><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072817463406226.jpg\" /></section>\n<section>2013年，百年张裕从东海之滨来到关中腹地，就致力于在这片土地酿造具有中国风土的好葡萄酒。陕西张裕瑞那城堡酒庄所在的渭北旱塬产区海拔600-700米，年平均日照数＞2195.2小时，全年无霜期&asymp;213天，年降水量&asymp;425.8毫米，光照充足、降水适宜、昼夜温差大、土层深厚、富含矿物质，先天条件颇为优良。再加上酒庄特有的小罐发酵及换桶酿造技术，将手工粒选的葡萄分罐发酵，确保优质原料合理配比，提升葡萄酒风味的复杂性和协调性。</section>\n<section><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072817464260820.jpg\" /></section>\n<p>优越的产区风土、精湛的酿造技艺，使得酒庄出品的葡萄酒屡次斩获世界大奖，登上国际宴会舞台并被多位知名人士收藏。今年5月，瑞那城堡西拉干红新品系列刚刚上市，就获得德国柏林葡萄酒大赛金奖，还成为第五届丝绸之路国际博览会的官方指定用酒登上欢迎晚宴，可谓&ldquo;中国风土 世界品质&rdquo;的完美呈现。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072817555335879.jpg\" /></p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2090692653375217666",
+        "resourcesId": "1321345378795413506",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/timg (5)-20201028145717.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-08-21 14:49:06",
+        "updateTime": "2026-08-21 14:49:06",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2090692653375217667",
+        "resourcesId": "1321345378795413506",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/timg (7)-20201028145728.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-08-21 14:49:06",
+        "updateTime": "2026-08-21 14:49:06",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2090692653379411970",
+        "resourcesId": "1321345378795413506",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/timg (6)-20201028145737.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-08-21 14:49:06",
+        "updateTime": "2026-08-21 14:49:06",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2090692653383606273",
+        "resourcesId": "1321345378795413506",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072817560426135.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-08-21 14:49:06",
+        "updateTime": "2026-08-21 14:49:06",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2090692653383606274",
+        "resourcesId": "1321345378795413506",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072817561223854.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2026-08-21 14:49:06",
+        "updateTime": "2026-08-21 14:49:06",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2090692653387800577",
+        "resourcesId": "1321345378795413506",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072817562183288.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2026-08-21 14:49:06",
+        "updateTime": "2026-08-21 14:49:06",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2090692653387800578",
+        "resourcesId": "1321345378795413506",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072817562866307.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2026-08-21 14:49:06",
+        "updateTime": "2026-08-21 14:49:06",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455060076934045697",
+      "rankingId": null,
+      "indexInRanking": 1,
+      "rankingName": "咸阳亲子游景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1439148110155694082",
+        "rankingId": "1439148116019331074",
+        "indexInRanking": null,
+        "rankingName": "西安亲子游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": null,
+    "noticeTitel": "",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

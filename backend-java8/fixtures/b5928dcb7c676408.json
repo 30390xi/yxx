@@ -1,0 +1,216 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064666415131",
+    "scenicName": "郑国渠旅游风景区",
+    "tag": "世界灌溉工程遗产",
+    "level": 4,
+    "address": "咸阳市泾阳县王桥镇岳家坡村",
+    "longitude": "108.6047740000",
+    "latitude": "34.6468500000",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#D94D2A",
+    "centralColour": "#B03018",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2022102410463103457.jpg",
+      "https://eshopfile.zhiyousx.com/479ac34a-57fa-473c-94a9-5243c6f6d578-20201028160130.jpg"
+    ],
+    "introduction": "<p>　　&ldquo;世界灌溉工程遗产&rdquo;郑国渠位于陕西省的关中平原中部。始建于公元前246年，是中国最早的大型无坝引水灌溉工程，为秦国的强盛和统一六国奠定了经济基础，有&ldquo;天下第一渠&rdquo;之美誉，【史记】这样记载郑国渠建成后的关中；收皆亩一锺，于是关中为沃野，无凶年。郑国渠成就了关中&ldquo;天府之国&rdquo;的美誉，才有了后世&ldquo;得关中者，得天下&rdquo;之说。郑国渠不仅是中国历史进程中有深远影响的灌溉工程，也因其得天独厚的峡谷自然风光和深厚的文化底蕴，成为当之无愧的世界级旅游胜地。郑国渠旅游风景区处仲山深处，泾河在此冲出群山，流向关中大地，被称为泾河龙口。仲山因汉高祖兄仲所居，而得名，最高峰钻天岭海拔1599米；仲山峰峦叠嶂、雄伟险峻、谷幽峡奇；连绵的山势，奇特的山峰，神奇的壶穴崖壁和水蚀崖壁令人叹为观止。泾河自古以水势汹涌且含泥量为全国之最而著称，有&ldquo;泾水一石，其泥数斗&rdquo;一说，唐代诗人杜甫写到&ldquo;旅泊穷清渭，长吟忘浊泾&rdquo;泾渭分明由此可见。泾河独特的水文造就了景区最精华的奇石景观，玉玺石、龟仙石、龙鳞石、箭羽石等怪石林立；孔雀湾、龙女峰、鳄鱼潭等形态奇特，蔚为壮观。柳毅传书、魏征梦斩泾河龙王的神话故事演绎了千年，源远流长。</p>\n<p>&nbsp;</p>",
+    "introductionText": "　　“世界灌溉工程遗产”郑国渠位于陕西省的关中平原中部。始建于公元前246年，是中国最早的大型无坝引水灌溉工程，为秦国的强盛和统一六国奠定了经济基础，有“天下第一渠”之美誉，【史记】这样记载郑国渠建成后的关中；收皆亩一锺，于是关中为沃野，无凶年。郑国渠成就了关中“天府之国”的美誉，才有了后世“得关中者，得天下”之说。郑国渠不仅是中国历史进程中有深远影响的灌溉工程，也因其得天独厚的峡谷自然风光和深厚的文化底蕴，成为当之无愧的世界级旅游胜地。郑国渠旅游风景区处仲山深处，泾河在此冲出群山，流向关中大地，被称为泾河龙口。仲山因汉高祖兄仲所居，而得名，最高峰钻天岭海拔1599米；仲山峰峦叠嶂、雄伟险峻、谷幽峡奇；连绵的山势，奇特的山峰，神奇的壶穴崖壁和水蚀崖壁令人叹为观止。泾河自古以水势汹涌且含泥量为全国之最而著称，有“泾水一石，其泥数斗”一说，唐代诗人杜甫写到“旅泊穷清渭，长吟忘浊泾”泾渭分明由此可见。泾河独特的水文造就了景区最精华的奇石景观，玉玺石、龟仙石、龙鳞石、箭羽石等怪石林立；孔雀湾、龙女峰、鳄鱼潭等形态奇特，蔚为壮观。柳毅传书、魏征梦斩泾河龙王的神话故事演绎了千年，源远流长。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "老人",
+        "limit": "年龄65周岁以上凭老年证或身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米(不含)以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭残疾证及身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "军人",
+        "limit": "现役军人(含离退休干部)凭军官证(离退休证)、士官证、士兵证、警官证及居民身份证；退役军人凭退役证、专业证及居民身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米(含)-1.5米(不含)儿童",
+        "discount": "优惠"
+      },
+      {
+        "peopleType": "未成年人",
+        "limit": "6周岁(不含)-18周岁(不含)凭身份证",
+        "discount": "优惠"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "全日制大中小学生，凭学生证及身份证",
+        "discount": "优惠"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1615184367113084930",
+        "resourcesId": "1321361766444457985",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/d2046ec7-8a89-4b3a-97d4-739bfcede80b-20201028160138.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2023-01-17 11:08:56",
+        "updateTime": "2023-01-17 11:08:56",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1615184367113084931",
+        "resourcesId": "1321361766444457985",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/u=1521967570,4120898829&fm=26&gp=0-20201028160147.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2023-01-17 11:08:56",
+        "updateTime": "2023-01-17 11:08:56",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455060076934045697",
+      "rankingId": null,
+      "indexInRanking": 4,
+      "rankingName": "咸阳亲子游景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

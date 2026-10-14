@@ -1,18 +1,18 @@
 <view class="{{['loginBox','data-v-06b823d9',jumpObj.pathType==2?'dp':'',jumpObj.pathType==3?'smq':'']}}">
     <uni-navbar bgColor="#ffffff" bind:__l="__l" class="data-v-06b823d9" home="{{true}}" title="手机号登录" type="transparent" vueId="35a7246c-1"></uni-navbar>
     <view class="chansi data-v-06b823d9" wx:if="{{jumpObj.pathType==1}}">
-        <image class="data-v-06b823d9" src="https://eshopfile.zhiyousx.com/2022110110525948264.png"></image>
+        <image class="data-v-06b823d9" src="/static/captured/44339495202d9302.png"></image>
     </view>
     <block wx:else>
         <view class="dp-logo data-v-06b823d9" wx:if="{{jumpObj.pathType==2}}">
-            <image class="data-v-06b823d9" src="https://eshopfile.zhiyousx.com/2024081517030136282.png"></image>
+            <image class="data-v-06b823d9" src="/static/captured/384e0a98a489fb9f.png"></image>
         </view>
         <block wx:else>
             <view class="smq-logo data-v-06b823d9" wx:if="{{jumpObj.pathType==3}}">
-                <image class="data-v-06b823d9" src="https://eshopfile.zhiyousx.com/2024082716112414614.png"></image>
+                <image class="data-v-06b823d9" src="/static/captured/48e3dd7066afcba2.png"></image>
             </view>
             <view class="logo data-v-06b823d9" wx:else>
-                <image class="data-v-06b823d9" src="https://eshopfile.zhiyousx.com/2021080909282156489.jpg"></image>
+                <image class="data-v-06b823d9" src="/static/captured/e46b7ac3399c3ea5.jpg"></image>
             </view>
         </block>
     </block>

@@ -1,0 +1,387 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941170",
+    "scenicName": "西安世博园",
+    "tag": "天人长安，创意自然",
+    "level": 4,
+    "cityId": "1320620100725026817",
+    "cityName": "西安",
+    "address": "西安市未央区浐灞生态区世博大道1号",
+    "longitude": "109.060939",
+    "latitude": "34.322762",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 43,
+    "topColour": "#628217",
+    "centralColour": "#698723",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/22-1-20201029164807.jpg",
+      "https://eshopfile.zhiyousx.com/23-1-20201029164813.jpg"
+    ],
+    "introduction": "<p>&nbsp; &nbsp; &nbsp; 西安世博园位于国家级西安浐灞生态区，是2011西安世界园艺博览会会址。景区总面积418公顷，其中水域面积188公顷，汇集了国内外百余个国家和地区各具特色的园林园艺精品、人文经典建筑和文化艺术珍品，体现了&ldquo;天人合一、创意自然&rdquo;的主题，是国家4A级旅游景区。景区的经典建筑有长安塔、珍宝馆、自然馆、萌宠馆，均由国内外顶级大师设计，集文化艺术珍品展示、珍稀动植物观赏为一体，向游客收费开放；主题园艺景点有长安花谷、世界庭院、国际展园、国内展园、大师园等；此外，还有欧式风格小镇、东南亚风情街等异域风情体验区。景区除了为游客提供大水大绿的优质生态景观资源、独具品位的文化艺术珍品、以及珍稀动植物观赏外，还策划开发了丰富多彩的休闲度假项目和文化演艺活动，随着西部地区最大的婚庆产业集群&mdash;&mdash;世园婚庆文旅小镇等一批大型项目纷纷落户，使世博园成为广大市民及游客理想的旅游休闲度假目的地。</p>",
+    "introductionText": "      西安世博园位于国家级西安浐灞生态区，是2011西安世界园艺博览会会址。景区总面积418公顷，其中水域面积188公顷，汇集了国内外百余个国家和地区各具特色的园林园艺精品、人文经典建筑和文化艺术珍品，体现了“天人合一、创意自然”的主题，是国家4A级旅游景区。景区的经典建筑有长安塔、珍宝馆、自然馆、萌宠馆，均由国内外顶级大师设计，集文化艺术珍品展示、珍稀动植物观赏为一体，向游客收费开放；主题园艺景点有长安花谷、世界庭院、国际展园、国内展园、大师园等；此外，还有欧式风格小镇、东南亚风情街等异域风情体验区。景区除了为游客提供大水大绿的优质生态景观资源、独具品位的文化艺术珍品、以及珍稀动植物观赏外，还策划开发了丰富多彩的休闲度假项目和文化演艺活动，随着西部地区最大的婚庆产业集群——世园婚庆文旅小镇等一批大型项目纷纷落户，使世博园成为广大市民及游客理想的旅游休闲度假目的地。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "67",
+        "name": "文化产业园区",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "16",
+        "name": "城市公园",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "21",
+        "name": "地标打卡",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "51",
+        "name": "拓展游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全年",
+        "openTimeContent": "西安世博园实行24小时免费开放"
+      },
+      {
+        "openTimeTitle": "展馆免费开放时间",
+        "openTimeContent": "09：30-17：30（17：00停止入馆）"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "全体市民",
+        "limit": "无",
+        "discount": "免费"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "6",
+        "name": "免费wifi",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (11).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "60",
+        "name": "行李寄存",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016430812186.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "55",
+        "name": "雨具租赁",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016423554250.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "56",
+        "name": "讲解器租赁",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016433125149.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "7",
+        "name": "婴儿车租赁",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (12).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "9",
+        "name": "轮椅租赁",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (16).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "世博大道停车场",
+        "additionalExplainContent": "世博园德宝门出入口北侧"
+      },
+      {
+        "additionalExplainTitle": "罗曼街区地下停车场",
+        "additionalExplainContent": "世博园德宝门出入口南侧"
+      },
+      {
+        "additionalExplainTitle": "后勤出入口停车场",
+        "additionalExplainContent": "灞河东路后勤出入口东北侧"
+      },
+      {
+        "additionalExplainTitle": "锦绣门停车场",
+        "additionalExplainContent": "世博园锦绣门"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>47路（世博园锦绣门、世博园广运门（读书村北）、世博园得宝门，首班6:00末班22:00)<br data-filtered=\"filtered\" /><br data-filtered=\"filtered\" />233路(世博园得宝门、世博园广运门（读书村北）、世博园锦绣门，首班6:30末班20:00)<br data-filtered=\"filtered\" /><br data-filtered=\"filtered\" />262路(世博园得宝门、世博园广运门（读书村北）、世博园锦绣门，首班6:30末班19:30)<br data-filtered=\"filtered\" /><br data-filtered=\"filtered\" />301路(世园村，首班6:10末班19:30)<br data-filtered=\"filtered\" /><br data-filtered=\"filtered\" />195路((世博园得宝门、世博园广运门（读书村北）、世博园锦绣门，首班6:00末班20:00)<br data-filtered=\"filtered\" /><br data-filtered=\"filtered\" />932路(世博园得宝门、世博园广运门（读书村北）、世博园锦绣门，首班6:10末班19:30)<br data-filtered=\"filtered\" /><br data-filtered=\"filtered\" />浐灞1号线(世博园得宝门、世博园锦绣门，首班7:00末班20:00)<br data-filtered=\"filtered\" /><br data-filtered=\"filtered\" /><br /></p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": "<p>西安地铁三号线到达香湖湾站A口（首班6:00末班23:00）</p>"
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": [
+      "http://www.expo2011.cn/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "官方电话",
+        "telephone": "4009699358"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "服务号",
+        "wxSubscriptionName": "西安世博园",
+        "wxSubscription": "Xian_Expo_Park"
+      }
+    ],
+    "sinaWeiboVoList": [
+      {
+        "sinaWeibo": "西安世博园",
+        "sinaWeiboUrl": "https://weibo.com/expo2011xa?is_all=1"
+      }
+    ],
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1960237381770084353",
+        "resourcesId": "1321735642672291842",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/24-1-20201029164819.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2025-08-26 15:06:25",
+        "updateTime": "2025-08-26 15:06:25",
+        "createBy": "1951096714057809922",
+        "updateBy": "1951096714057809922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1960237381774278657",
+        "resourcesId": "1321735642672291842",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/26-1-20201029164826.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2025-08-26 15:06:25",
+        "updateTime": "2025-08-26 15:06:25",
+        "createBy": "1951096714057809922",
+        "updateBy": "1951096714057809922",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1436259164358709249",
+      "rankingId": null,
+      "indexInRanking": 5,
+      "rankingName": "西安城市公园人气榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1574974899180212226",
+        "rankingId": "1574974902443380737",
+        "indexInRanking": null,
+        "rankingName": "陕西免费景区人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1439148110155694082",
+        "rankingId": "1439148116019331074",
+        "indexInRanking": null,
+        "rankingName": "西安亲子游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1519231101082578945",
+        "rankingId": "1519231101330042882",
+        "indexInRanking": null,
+        "rankingName": "西安宝藏露营地排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1507176407057350658",
+        "rankingId": "1507176408005263362",
+        "indexInRanking": null,
+        "rankingName": "赏花踏青好去处",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": null,
+    "noticeTitel": "",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": null,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

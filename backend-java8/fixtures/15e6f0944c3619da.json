@@ -1,0 +1,639 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1405942496655065090",
+    "scenicName": "西安欢乐谷·玛雅海滩水公园",
+    "tag": "不同的城市 同样的欢乐",
+    "level": -1,
+    "cityId": "1320620100725026817",
+    "cityName": "西安",
+    "address": "西安市西咸新区沣东新城欢乐谷",
+    "longitude": "108.740486",
+    "latitude": "34.241439",
+    "openingStatus": 1,
+    "capacity": 48000,
+    "sequence": 35,
+    "topColour": "#3DA3D6",
+    "centralColour": "#008BC9",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021061901301003435.png"
+    ],
+    "introduction": "<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;西安欢乐谷&middot;玛雅海滩是一座全智能化水公园。全园智慧化购物、线上预约排队、智慧储物等功能一应俱全；第三更衣室，更关爱每个家人的需要。玛雅海滩拥有家庭游玩戏水项目，让一家人都玩得嗨；园区设计上充分考虑西安气候特点和地域特色，提供覆盖超大面积遮阳雾森系统，让游客在亲水、戏水、乐水中体验舒适贴心的乐园水互动。</p>",
+    "introductionText": "      西安欢乐谷·玛雅海滩是一座全智能化水公园。全园智慧化购物、线上预约排队、智慧储物等功能一应俱全；第三更衣室，更关爱每个家人的需要。玛雅海滩拥有家庭游玩戏水项目，让一家人都玩得嗨；园区设计上充分考虑西安气候特点和地域特色，提供覆盖超大面积遮阳雾森系统，让游客在亲水、戏水、乐水中体验舒适贴心的乐园水互动。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "13",
+        "name": "游乐场",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "15",
+        "name": "高空景观",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "19",
+        "name": "水上玩乐",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "6月28日-8月31日",
+        "openTimeContent": "景区营业时间：10:30-22:00（21:00停止入园）"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米（含）以下",
+        "discount": "免票"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米（不含）-1.5米（含）",
+        "discount": "100元门票"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "65周岁（含）以上长者",
+        "discount": "100元门票"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "11",
+        "name": "餐厅",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (22).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "10",
+        "name": "商店",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (19).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "54",
+        "name": "手机充电",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016402390363.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "58",
+        "name": "母婴室",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016412800311.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "60",
+        "name": "行李寄存",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016430812186.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "8",
+        "name": "宠物禁止入园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (13).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "购票须知",
+        "additionalExplainContent": "1.园区大型项目均有身高及体重限制，身高1.5米以上，体重180斤以下，具体以现场项目提示牌为准；<br/>2.为了您的安全及体验感，入园游玩时，请勿穿带扣泳衣；<br/>3.患有高血压、心脏病的游客，请如实告知工作人员，根据自身情况选择性游玩。"
+      },
+      {
+        "additionalExplainTitle": "停车场",
+        "additionalExplainContent": "园区停车场"
+      },
+      {
+        "additionalExplainTitle": "游客服务中心",
+        "additionalExplainContent": "提供游乐设施、娱乐活动等咨询服务。协助处理游客在乐园遇到的问题，也提供失物查询服务。"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>乘坐1124路-沣泾大道南段站，步行1.3公里到达</p>\n<p>乘坐1127路-沣泾大道南段站，步行1.3公里到达</p>\n<p>乘坐862路-沣泾大道南段站，步行1.3公里到达</p>\n<p>乘坐823路-沣东沣河生态景区南门站，步行2.2公里到达</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": "<p>地铁5号线（欢乐谷站），步行1.5公里到达</p>"
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": [
+      "https://xa.happyvalley.cn/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "咨询电话",
+        "telephone": "029-89501777"
+      },
+      {
+        "telephoneTitle": "投诉电话",
+        "telephone": "029-86380715"
+      },
+      {
+        "telephoneTitle": "紧急救援电话",
+        "telephone": "029-86380702"
+      },
+      {
+        "telephoneTitle": "疾控电话",
+        "telephone": "029-85908081"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "服务号",
+        "wxSubscriptionName": "西安欢乐谷Happyvalley",
+        "wxSubscription": "gh_e419c1df551a"
+      }
+    ],
+    "sinaWeiboVoList": [
+      {
+        "sinaWeibo": "西安欢乐谷PLUS",
+        "sinaWeiboUrl": "https://weibo.com/u/7492409824"
+      }
+    ],
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": "游乐项目",
+    "contentResourcesDtoList": [
+      {
+        "id": "1825357471881428994",
+        "resourcesId": "1405947049387507713",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/168437361528756321.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": "",
+        "createTime": "2024-08-19 10:21:49",
+        "updateTime": "2024-08-19 10:21:49",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1825357471885623298",
+        "resourcesId": "1405947049387507713",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/168437361569893063.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": "",
+        "createTime": "2024-08-19 10:21:49",
+        "updateTime": "2024-08-19 10:21:49",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1825357471885623299",
+        "resourcesId": "1405947049387507713",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/168437472971955297.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": "",
+        "createTime": "2024-08-19 10:21:49",
+        "updateTime": "2024-08-19 10:21:49",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1825357471889817602",
+        "resourcesId": "1405947049387507713",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061901554455065.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2024-08-19 10:21:49",
+        "updateTime": "2024-08-19 10:21:49",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1825357471889817603",
+        "resourcesId": "1405947049387507713",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061901555763348.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2024-08-19 10:21:49",
+        "updateTime": "2024-08-19 10:21:49",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1825357471894011906",
+        "resourcesId": "1405947049387507713",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061901561381542.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2024-08-19 10:21:49",
+        "updateTime": "2024-08-19 10:21:49",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1825357471894011907",
+        "resourcesId": "1405947049387507713",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061901563227106.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2024-08-19 10:21:49",
+        "updateTime": "2024-08-19 10:21:49",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1825357471898206210",
+        "resourcesId": "1405947049387507713",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061901564570034.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2024-08-19 10:21:49",
+        "updateTime": "2024-08-19 10:21:49",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1825357471898206211",
+        "resourcesId": "1405947049387507713",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061901570212584.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": null,
+        "createTime": "2024-08-19 10:21:49",
+        "updateTime": "2024-08-19 10:21:49",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1825357471902400514",
+        "resourcesId": "1405947049387507713",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062111232087871.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": null,
+        "createTime": "2024-08-19 10:21:49",
+        "updateTime": "2024-08-19 10:21:49",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1528917153061888002",
+      "rankingId": null,
+      "indexInRanking": 1,
+      "rankingName": "陕西人气水乐园排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1439148110155694082",
+        "rankingId": "1439148116019331074",
+        "indexInRanking": null,
+        "rankingName": "西安亲子游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "1825357471914983426",
+        "scenicSpotId": "1405942496655065090",
+        "contentModuleName": "刺激路线",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1407266686024826882",
+            "type": 5,
+            "title": "超级大喇叭/旋风大浪板",
+            "subtitle": "玛雅海滩人气王牌",
+            "coverImage": "https://eshopfile.zhiyousx.com/168724902204661214.png",
+            "likeRatio": 92.9,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1407265009808982017",
+            "type": 5,
+            "title": "青蛇/蓝蟒/紫蛟/赤龙",
+            "subtitle": "亚洲首条并排蛇形滑道",
+            "coverImage": "https://eshopfile.zhiyousx.com/168725035915682927.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1407528297729929217",
+            "type": 5,
+            "title": "急速坠落/惊叫水环/龙卷风",
+            "subtitle": "最适合勇敢者挑战的地标",
+            "coverImage": "https://eshopfile.zhiyousx.com/168725007831422389.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1407266310093553665",
+            "type": 5,
+            "title": "激流过山车",
+            "subtitle": "现实版水上速度与激情",
+            "coverImage": "https://eshopfile.zhiyousx.com/168725020678615600.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1407525364363735042",
+            "type": 5,
+            "title": "炮弹飞人",
+            "subtitle": "跌坠滑道 精彩无限",
+            "coverImage": "https://eshopfile.zhiyousx.com/168724905463123682.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1406866738674417666",
+            "type": 5,
+            "title": "缤纷穿梭",
+            "subtitle": "国内首台多媒体滑道",
+            "coverImage": "https://eshopfile.zhiyousx.com/168725016865463877.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1406862129121738753",
+            "type": 5,
+            "title": "炫彩竞速",
+            "subtitle": "双人竞速炫彩滑道",
+            "coverImage": "https://eshopfile.zhiyousx.com/168724914448465242.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      },
+      {
+        "id": "1825357471931760642",
+        "scenicSpotId": "1405942496655065090",
+        "contentModuleName": "平缓路线",
+        "contentModuleSubName": null,
+        "sort": 2,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1406869553077567490",
+            "type": 5,
+            "title": "转碗碗/飞碟碟",
+            "subtitle": "招牌“大喇叭”和“大浪板”的温和版",
+            "coverImage": "https://eshopfile.zhiyousx.com/168724923305370602.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1406870486381510657",
+            "type": 5,
+            "title": "彩虹滑道",
+            "subtitle": "玩滑滑梯 就要玩彩虹色的",
+            "coverImage": "https://eshopfile.zhiyousx.com/168724951444847578.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1407244802562473986",
+            "type": 5,
+            "title": "玛雅海滩",
+            "subtitle": "西北最大的造浪池",
+            "coverImage": "https://eshopfile.zhiyousx.com/168725001059070315.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1406825203585007618",
+            "type": 5,
+            "title": "亚马逊漂流",
+            "subtitle": "懒人漂流的正确打开方式",
+            "coverImage": "https://eshopfile.zhiyousx.com/168725004099291218.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1407526082898341889",
+            "type": 5,
+            "title": "欢乐水寨",
+            "subtitle": "轻松遛娃好去处",
+            "coverImage": "https://eshopfile.zhiyousx.com/168725010986565824.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1407529781410443265",
+            "type": 5,
+            "title": "合家欢滑道/玛雅水工厂",
+            "subtitle": "亲子互动乐享区",
+            "coverImage": "https://eshopfile.zhiyousx.com/168725013965313433.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": "",
+    "ticketAreaNoticeName": "游客须知",
+    "ticketAreaNotice": "<p><img style=\"width: 100%;\" src=\"https://eshopfile.zhiyousx.com/2023051723491621675.jpg\" /></p>",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

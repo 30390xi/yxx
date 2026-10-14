@@ -1,0 +1,12 @@
+{
+  "code": 1,
+  "data": {
+    "evaluationId": "1942872640739409921",
+    "score": 74.41,
+    "scoreWonder": 78.59,
+    "scoreFacility": 66.89,
+    "scoreOperation": 78.04
+  },
+  "msg": "成功",
+  "success": true
+}

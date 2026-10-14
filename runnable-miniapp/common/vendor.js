@@ -53,6 +53,10 @@ var capturedApi = require("./captured-api-routes.js");
                   mask: !0
                 }), getApp().globalData.httpList = r;
                 var localUrl = capturedApi.resolve(a, i, o, s);
+                var sysParamLocal = i === "base/app/v1/sysParam/getSysParamForApp" && o && Array.isArray(o.keyList) &&
+                  ((o.keyList.length === 1 && o.keyList[0] === "XIAOQI_MENU") ||
+                   (o.keyList.length === 4 && ["GRAY_THEME_FLAG", "WX_VERSION", "HOME_PANDA_IS_SHOW", "XIAOQI_VERSION"].every(function(key) { return o.keyList.indexOf(key) !== -1; })));
+                var localOnly = localUrl && (i.indexOf("ai/") === 0 || sysParamLocal);
                 var requestOptions = {
                   url: localUrl || s + i,
                   header: {
@@ -64,8 +68,9 @@ var capturedApi = require("./captured-api-routes.js");
                     "share-member-id": t.getStorageSync("shareMemberId_header") || ""
                   },
                   method: a,
-                  data: localUrl ? undefined : o,
+                  data: localUrl && String(a).toUpperCase() === "GET" ? undefined : o,
                   success: function(r) {
+                    if (localOnly && r.statusCode !== 200) { u && t.hideLoading(); f(r); return; }
                     if (localUrl && r.statusCode !== 200) {
                       localUrl = null;
                       requestOptions.url = s + i;
@@ -80,7 +85,7 @@ var capturedApi = require("./captured-api-routes.js");
                           url: "/pages/wxLogin/wxLogin"
                         })
                       }), 200)
-                    }))) : !n.includes(i) && (r.data.msg.includes("火爆") || r.data.msg.includes("频繁")) && v < 12 ? (v++, setTimeout((function() {
+                    }))) : !n.includes(i) && (String(r.data && r.data.msg || "").includes("火爆") || String(r.data && r.data.msg || "").includes("频繁")) && v < 12 ? (v++, setTimeout((function() {
                       e(a, i, o, u, s, c, f, v)
                     }), 5e3)) : c(r.data) : 401 == r.statusCode ? 99998 === r.data.code ? c(r.data) : l.default.dispatch("LoginOut").then((function() {
                       setTimeout((function(e) {
@@ -93,6 +98,7 @@ var capturedApi = require("./captured-api-routes.js");
                     }), 5e3) : f(r)
                   },
                   fail: function(e) {
+                    if (localOnly) { u && t.hideLoading(); f(e); return; }
                     if (localUrl) {
                       localUrl = null;
                       requestOptions.url = s + i;
@@ -103,7 +109,7 @@ var capturedApi = require("./captured-api-routes.js");
                     -1 == e.errMsg.indexOf("abort") && t.showToast({
                       title: "网络走丢了，请刷新重试",
                       icon: "none"
-                    }), f(e), t.hideLoading()
+                    }), f(e), u && t.hideLoading()
                   }
                 };
                 r[i] = t.request(requestOptions)
@@ -13422,12 +13428,10 @@ var capturedApi = require("./captured-api-routes.js");
           },
           getSysConfigure: function() {
             var e = ["GRAY_THEME_FLAG", "WX_VERSION", "HOME_PANDA_IS_SHOW", "XIAOQI_VERSION"];
-            return new Promise((function(t, a) {
-              r.default.dataRequestNoLoading("post", "base/app/v1/sysParam/getSysParamForApp", {
-                keyList: e
-              }).then((function(e) {
-                1 == e.code ? t(e.data) : t("")
-              }))
+            return r.default.dataRequestNoLoading("post", "base/app/v1/sysParam/getSysParamForApp", {
+              keyList: e
+            }).then((function(e) {
+              return 1 == e.code ? e.data : {}
             }))
           },
           add: function(e, t) {

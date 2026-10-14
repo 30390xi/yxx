@@ -1,0 +1,347 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1517435888135614465",
+    "scenicName": "陕甘边革命根据地纪念馆",
+    "tag": "再现创建革命根据地的艰难历程",
+    "level": -1,
+    "cityId": "1320650338641162241",
+    "cityName": "铜川",
+    "address": "铜川市耀州区照金镇中心小学西北",
+    "longitude": "108.640208",
+    "latitude": "35.057129",
+    "openingStatus": 1,
+    "capacity": 1000,
+    "sequence": 64,
+    "topColour": "#BA5B57",
+    "centralColour": "#9B443D",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2022042217311354228.jpg"
+    ],
+    "introduction": "<p>　　陕甘边革命根据地照金纪念馆馆内展厅分为两层。一层为序厅、主展厅，用翔实的历史资料、图片、文物和各种现代展陈技术，展现了创建革命根据地的艰难历程；二层为革命英雄纪念展区及主题油画展区，开设了刘志丹、谢子长、习仲勋等百余位老一辈无产阶级革命家的专题展区，15幅油画以重大的革命事件为主题，用艺术的手法展现了历史场景。</p>",
+    "introductionText": "　　陕甘边革命根据地照金纪念馆馆内展厅分为两层。一层为序厅、主展厅，用翔实的历史资料、图片、文物和各种现代展陈技术，展现了创建革命根据地的艰难历程；二层为革命英雄纪念展区及主题油画展区，开设了刘志丹、谢子长、习仲勋等百余位老一辈无产阶级革命家的专题展区，15幅油画以重大的革命事件为主题，用艺术的手法展现了历史场景。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "18",
+        "name": "红色旅游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026327547906",
+        "contentId": "1418152026310770690",
+        "name": "国家一级博物馆",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1559361626942615553",
+        "contentId": "1559361626913255425",
+        "name": "铜川红色旅游经典景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "周二至周日",
+        "openTimeContent": "09:00-16:30，16:30停止入场"
+      },
+      {
+        "openTimeTitle": "周一",
+        "openTimeContent": "固定闭馆 (法定节假日除外)"
+      }
+    ],
+    "discountVoList": null,
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "6",
+        "name": "免费wifi",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (11).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "11",
+        "name": "餐厅",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (22).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "10",
+        "name": "商店",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (19).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "景区内部直通车",
+        "additionalExplainContent": "照金-薛家寨<br/>运营时间：9:00-16:00<br/>双向对开，发车间隔30分钟<br/>照金镇乘车点：游客服务中心<br/>薛家寨乘车点：停车场"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>西安--照金</p>\n<p>1.西安城北客运站&rarr;照金 下午14:30发车</p>\n<p>2.西安咸阳机场&rarr;西安高铁北站&rarr;照金&nbsp;</p>\n<p>乘机场大巴先到城北客运站 下午14:30发车</p>\n<p>3.西安火车站&rarr;照金</p>\n<p>乘39路公交车先到城北客运站 下午14:40发车</p>\n<p>&nbsp;</p>\n<p>铜川--照金</p>\n<p>旅游公交1路</p>\n<p>(市政府西门--铜旬高速--照金)</p>\n<p>运营时间暂定为铜川新区：8:00--16:00</p>\n<p>间隔30分钟，照金返回末班：17:30</p>\n<p>&nbsp;</p>\n<p>延安--照金</p>\n<p>发车地点：延安汽车南站</p>\n<p>发车时间：6:45、7:20、8:40、9:15</p>\n<p>乘车路线：先到铜川，转乘旅游公交1路到照金</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<p>1.西安绕城高速（G3001）&rarr; 延西高速（G65W）&rarr;&nbsp; 经过关庄枢纽立交（不下高速）&rarr;&nbsp; 菏宝高速（G3511）&rarr; 照金镇。</p>\n<p>2.西安绕城高速（G3001）&rarr;&nbsp;延西高速（G65W）&rarr;&nbsp; 铜川南（马额 坡头）（下高速）&rarr; 照金红色旅游专线 &rarr; 照金镇。</p>"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "",
+        "telephone": "0919-6188333"
+      }
+    ],
+    "wxSubscriptionVoList": null,
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1827998869650735106",
+        "resourcesId": "1517435888123031555",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165061985067185919.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": "",
+        "createTime": "2024-08-26 17:17:47",
+        "updateTime": "2024-08-26 17:17:47",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1827998869650735107",
+        "resourcesId": "1517435888123031555",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165061985091100253.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": "",
+        "createTime": "2024-08-26 17:17:47",
+        "updateTime": "2024-08-26 17:17:47",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1827998869654929410",
+        "resourcesId": "1517435888123031555",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165061985079154366.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": "",
+        "createTime": "2024-08-26 17:17:47",
+        "updateTime": "2024-08-26 17:17:47",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1827998869654929411",
+        "resourcesId": "1517435888123031555",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165061985085160160.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": "",
+        "createTime": "2024-08-26 17:17:47",
+        "updateTime": "2024-08-26 17:17:47",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1827998869659123713",
+        "resourcesId": "1517435888123031555",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165061985097233218.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": "",
+        "createTime": "2024-08-26 17:17:47",
+        "updateTime": "2024-08-26 17:17:47",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1827998869663318017",
+        "resourcesId": "1517435888123031555",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165061985073159838.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": "",
+        "createTime": "2024-08-26 17:17:47",
+        "updateTime": "2024-08-26 17:17:47",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": null,
+      "rankingId": null,
+      "indexInRanking": null,
+      "rankingName": null,
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": "",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,479 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941097",
+    "scenicName": "汉武帝茂陵博物馆",
+    "tag": "感受汉武大帝的雄韬武略",
+    "level": 4,
+    "cityId": "1320661981349588993",
+    "cityName": "咸阳",
+    "address": "咸阳市兴平市西吴镇道常村",
+    "longitude": "108.586448",
+    "latitude": "34.338518",
+    "openingStatus": 1,
+    "capacity": 8000,
+    "sequence": 49,
+    "topColour": "#AB6667",
+    "centralColour": "#4C2E33",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/f5fbb452-3fcd-4997-a108-0509623cf608-20201028144505.jpg"
+    ],
+    "introduction": "<p>　　汉武雄风看茂陵。茂陵博物馆位于陕西省咸阳与兴平之间的五陵塬上，是一座以汉武帝茂陵、霍去病墓及大型石刻群而蜚声海内外的西汉断代史博物馆。现有文物陈列室2座，汉武帝故事造像艺术展一座，石刻廊房6座，馆藏文物中14件被定为国宝。汉茂陵是西汉武帝刘彻的陵墓，是汉代帝王陵墓中规模最大、修造时间最长、陪葬品最丰富的一座，因陵体高大宏伟，形似方锥而被称为&ldquo;中国的金字塔&rdquo;。</p>",
+    "introductionText": "　　汉武雄风看茂陵。茂陵博物馆位于陕西省咸阳与兴平之间的五陵塬上，是一座以汉武帝茂陵、霍去病墓及大型石刻群而蜚声海内外的西汉断代史博物馆。现有文物陈列室2座，汉武帝故事造像艺术展一座，石刻廊房6座，馆藏文物中14件被定为国宝。汉茂陵是西汉武帝刘彻的陵墓，是汉代帝王陵墓中规模最大、修造时间最长、陪葬品最丰富的一座，因陵体高大宏伟，形似方锥而被称为“中国的金字塔”。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026524680194",
+        "contentId": "1418152026516291586",
+        "name": "国家二级博物馆",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1450028527872122881",
+        "contentId": "1450028527859539970",
+        "name": "陕西省文化遗址公园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全年周一到周日",
+        "openTimeContent": "8:00-18:00，17:30停止入场"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "老人",
+        "limit": "年满65岁（含）以上的，凭身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭残疾人证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "现役军人",
+        "limit": "持军官证、文职干部证或士兵证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "凭学生证",
+        "discount": "半价"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "11",
+        "name": "餐厅",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (22).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "10",
+        "name": "商店",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (19).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "6",
+        "name": "免费wifi",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (11).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "建议游玩时间",
+        "additionalExplainContent": "1-3小时"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>城西客运站乘坐去兴平方向不上高速路的长途公交到符家桥，后乘坐11路公交车到茂陵博物馆大门</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": [
+      "http://www.maoling.com/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "029-38456140"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "官方公众号",
+        "wxSubscriptionName": "汉武帝茂陵",
+        "wxSubscription": "maolingmuseum"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": "馆藏文物",
+    "contentResourcesDtoList": [
+      {
+        "id": "2082011958895771650",
+        "resourcesId": "1321342215254204418",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/timg (2)-20201028144340.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-07-28 15:55:07",
+        "updateTime": "2026-07-28 15:55:07",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011958899965953",
+        "resourcesId": "1321342215254204418",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021090214361800187.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-07-28 15:55:07",
+        "updateTime": "2026-07-28 15:55:07",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011958899965954",
+        "resourcesId": "1321342215254204418",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021090214280637218.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-07-28 15:55:07",
+        "updateTime": "2026-07-28 15:55:07",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011958904160257",
+        "resourcesId": "1321342215254204418",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/timg (3)-20201028144349.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-07-28 15:55:07",
+        "updateTime": "2026-07-28 15:55:07",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011958908354561",
+        "resourcesId": "1321342215254204418",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/timg (1)-20201028144358.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2026-07-28 15:55:07",
+        "updateTime": "2026-07-28 15:55:07",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011958908354562",
+        "resourcesId": "1321342215254204418",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021090214282936781.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2026-07-28 15:55:07",
+        "updateTime": "2026-07-28 15:55:07",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1439119981701840898",
+      "rankingId": null,
+      "indexInRanking": 18,
+      "rankingName": "陕西人气博物馆排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1658303499793903618",
+        "rankingId": "1658303501412904962",
+        "indexInRanking": null,
+        "rankingName": "历史文化类博物馆人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1680835374538088449",
+        "rankingId": "1680835375632801794",
+        "indexInRanking": null,
+        "rankingName": "陕西省热搜50强博物馆排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1455060076934045697",
+        "rankingId": "1455060077806460930",
+        "indexInRanking": null,
+        "rankingName": "咸阳亲子游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "2082011958920937473",
+        "scenicSpotId": "1320579064720941097",
+        "contentModuleName": "馆藏文物",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1433283396913704961",
+            "type": 5,
+            "title": "兽面四神玉铺首\t",
+            "subtitle": "感受古朴大气的西汉美学",
+            "coverImage": "https://eshopfile.zhiyousx.com/163106989803108884.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1433281732123144194",
+            "type": 5,
+            "title": "西汉鎏金马",
+            "subtitle": "大汉帝国时代精神的缩影",
+            "coverImage": "https://eshopfile.zhiyousx.com/163055585017230902.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1433285283830411265",
+            "type": 5,
+            "title": "西汉马踏匈奴",
+            "subtitle": "名将霍去病的纪念碑",
+            "coverImage": "https://eshopfile.zhiyousx.com/163055679814120498.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1433284441798717441",
+            "type": 5,
+            "title": "错金银铜犀牛尊",
+            "subtitle": "雄健刚毅的古代盛酒器",
+            "coverImage": "https://eshopfile.zhiyousx.com/163056345849975829.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1433313082339340290",
+            "type": 5,
+            "title": "鎏金银铜漆耳杯",
+            "subtitle": "西汉工艺美术史的珍贵资料",
+            "coverImage": "https://eshopfile.zhiyousx.com/163056342147869047.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1926936352907657218",
+            "type": 5,
+            "title": "茂陵石雕",
+            "subtitle": "",
+            "coverImage": "https://eshopfile.zhiyousx.com/174825233610693911.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

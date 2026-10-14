@@ -15,9 +15,9 @@
                             </view>
                             <image class="data-v-9a017d72" mode="aspectFill" src="{{item.$orig.homeImage}}" style="border-radius:8px;" wx:if="{{item.$orig.status==2}}"></image>
                             <view class="video-box-icon data-v-9a017d72" wx:if="{{item.$orig.status==2}}">
-                                <image catchtap="__e" class="data-v-9a017d72" data-event-opts="{{[ [ 'tap',[ [ 'download',['$0'],[ [ ['dateList','',index] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/176913475319370473.png" style="width:40rpx;height:40rpx;margin-right:10rpx;"></image>
+                                <image catchtap="__e" class="data-v-9a017d72" data-event-opts="{{[ [ 'tap',[ [ 'download',['$0'],[ [ ['dateList','',index] ] ] ] ] ] ]}}" src="/static/captured/ef959d1868547e19.png" style="width:40rpx;height:40rpx;margin-right:10rpx;"></image>
                             </view>
-                            <image bindtap="__e" class="icon data-v-9a017d72" data-event-opts="{{[ [ 'tap',[ [ 'handlePlay',['$0'],[ [ ['dateList','',index] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/176913464226725136.png" wx:if="{{item.$orig.videoUrl&&item.$orig.status==2}}"></image>
+                            <image bindtap="__e" class="icon data-v-9a017d72" data-event-opts="{{[ [ 'tap',[ [ 'handlePlay',['$0'],[ [ ['dateList','',index] ] ] ] ] ] ]}}" src="/static/captured/4d91067b06b26184.png" wx:if="{{item.$orig.videoUrl&&item.$orig.status==2}}"></image>
                         </view>
                     </view>
                 </view>
@@ -37,7 +37,7 @@
             </view>
         </view>
         <view class="no-data data-v-9a017d72" wx:else>
-            <image class="data-v-9a017d72" src="https://eshopfile.zhiyousx.com/175559437543504270.png"></image>
+            <image class="data-v-9a017d72" src="/static/captured/4710ec1a5d7524ed.png"></image>
             <text class="data-v-9a017d72">{{$root.m5}}</text>
         </view>
     </scroll-view>
@@ -48,7 +48,7 @@
     </u-popup>
     <u-popup bind:__l="__l" bind:input="__e" borderRadius="{{20}}" class="popup-full-width data-v-9a017d72" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','downSuccess','$event',[] ] ] ] ] ]}}" height="20%" mode="center" value="{{downSuccess}}" vueId="93457946-4" vueSlots="{{['default']}}" width="60%" wx:if="{{downSuccess}}">
         <view class="down-content data-v-9a017d72">
-            <image class="success-icon data-v-9a017d72" src="https://eshopfile.zhiyousx.com/176913679707171045.png" style="width:300rpx;height:170rpx;object-fit:cover;"></image>
+            <image class="success-icon data-v-9a017d72" src="/static/captured/9613a5a777cdf791.png" style="width:300rpx;height:170rpx;object-fit:cover;"></image>
             <view class="title data-v-9a017d72">{{$root.m6}}</view>
         </view>
     </u-popup>

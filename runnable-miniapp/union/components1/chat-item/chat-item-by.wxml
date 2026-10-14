@@ -2,7 +2,7 @@
     <view class="{{[true?'chat-container':'',item.type==1?'chat-location-me':'']}}">
         <view class="chat-content-container">
             <view class="chat-text-container-super" style="{{'justify-content:'+(item.type==1?'flex-end':'flex-start')+';'+'padding-left:'+(item.type==1?'0rpx':'20rpx')+';'+'padding-right:'+(item.type==1?'20rpx':'0rpx')+';'}}" wx:if="{{!item.historyLine&&!item.nomoreLine}}">
-                <image alt class="{{['icon-user',item.type==1?'good goods':'bad bads']}}" src="{{item.type!=1?'https://eshopfile.zhiyousx.com/176967868627653802.png':userInfo.picUrl?userInfo.picUrl:'https://eshopfile.zhiyousx.com/2021120914511172601.png'}}"></image>
+                <image alt class="{{['icon-user',item.type==1?'good goods':'bad bads']}}" src="{{item.type!=1?'/static/captured/0f906b7231ebde55.png':userInfo.picUrl?userInfo.picUrl:'/static/captured/f2e1c84b8f3d4bdd.png'}}"></image>
                 <view class="{{[true?'chat-text-container':'',item.type==1?'chat-text-container-me':'',item.type!=1?'chat-text-container-no':'']}}">
                     <view class="bubble">
                         <view class="{{[true?'chat-text':'']}}">
@@ -17,10 +17,10 @@
                                 </view>
                             </view>
                             <view bindtap="__e" class="travelBtn" data-event-opts="{{[ [ 'tap',[ [ 'resetTravel',['$event'] ] ] ] ]}}" wx:if="{{item.redirectContent}}">
-                                <image class="ai" src="https://eshopfile.zhiyousx.com/175153136103574217.png"></image>{{''+$root.m1+''}}<image class="icon" src="https://eshopfile.zhiyousx.com/175153148262435174.png"></image>
+                                <image class="ai" src="/static/captured/3634eece59ace1cf.png"></image>{{''+$root.m1+''}}<image class="icon" src="/static/captured/f513113c34db57d3.png"></image>
                             </view>
                             <view bindtap="__e" class="travelBtn" data-event-opts="{{[ [ 'tap',[ [ 'changePlan',['$event'] ] ] ] ]}}" wx:if="{{item.changeAnswer}}">
-                                <image class="ai" src="https://eshopfile.zhiyousx.com/175153136103574217.png"></image>{{''+$root.m2+''}}<image class="icon" src="https://eshopfile.zhiyousx.com/175153148262435174.png"></image>
+                                <image class="ai" src="/static/captured/3634eece59ace1cf.png"></image>{{''+$root.m2+''}}<image class="icon" src="/static/captured/f513113c34db57d3.png"></image>
                             </view>
                             <view style="width:100%;margin-top:30rpx;" wx:if="{{$root.g0}}">
                                 <scroll-view class="card-item" scrollX="true">
@@ -57,7 +57,7 @@
                                     <view class="toilet-item-left">
                                         <image class="toilet-item-left-img" lazyLoad="false" mode="aspectFill" src="{{el.$orig.photos}}" wx:if="{{el.$orig.photos}}"></image>
                                         <view class="toilet-item-left-default _div" wx:else>
-                                            <image lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/175464211103781816.png"></image>
+                                            <image lazyLoad="false" mode="aspectFill" src="/static/captured/7ad5fa704abec819.png"></image>
                                         </view>
                                         <view class="toilet-item-left-title">
                                             <view class="name singleLineText">{{el.$orig.name}}</view>
@@ -68,9 +68,9 @@
                                         <view class="toilet-item-right-guide">
                                             <view class="txt">{{el.m5}}</view>
                                             <view class="distance">
-                                                <image class="distance-icon" src="https://eshopfile.zhiyousx.com/175517483307507834.png"></image>{{''+el.$orig.distance+'m'}}</view>
+                                                <image class="distance-icon" src="/static/captured/aff36b13ce0daa77.png"></image>{{''+el.$orig.distance+'m'}}</view>
                                         </view>
-                                        <image class="toilet-item-right-icon" src="https://eshopfile.zhiyousx.com/175464314045201536.png"></image>
+                                        <image class="toilet-item-right-icon" src="/static/captured/520973b7559abcba.png"></image>
                                     </view>
                                 </view>
                             </view>
@@ -85,23 +85,23 @@
             </view>
             <view class="comment" wx:if="{{item.type!=1&&item.end&&(item.isTerminate||item.isComplete)}}">
                 <view bindtap="__e" class="good _div" data-event-opts="{{[ [ 'tap',[ [ 'goodComment',['$event'] ] ] ] ]}}" wx:if="{{!likeSave}}">
-                    <image src="https://eshopfile.zhiyousx.com/176967847653132500.png" wx:if="{{!like}}"></image>
-                    <image src="https://eshopfile.zhiyousx.com/176967848760530080.png" wx:else></image>
+                    <image src="/static/captured/7d7a285ead9b1876.png" wx:if="{{!like}}"></image>
+                    <image src="/static/captured/650d76e0080682a6.png" wx:else></image>
                 </view>
                 <view bindtap="__e" class="bad _div" data-event-opts="{{[ [ 'tap',[ [ 'badComment',['$event'] ] ] ] ]}}">
-                    <image src="https://eshopfile.zhiyousx.com/176967849891766855.png" wx:if="{{!collection}}"></image>
-                    <image src="https://eshopfile.zhiyousx.com/176967850954243937.png" wx:else></image>
+                    <image src="/static/captured/8fef9db793a1d40b.png" wx:if="{{!collection}}"></image>
+                    <image src="/static/captured/f7390f8db94a2278.png" wx:else></image>
                 </view>
             </view>
             <view bindtap="__e" class="comment" data-event-opts="{{[ [ 'tap',[ [ 'isRetryFun',['$0'],['item'] ] ] ] ]}}" wx:if="{{item.isRetry}}">
                 <view class="good">
-                    <image alt src="https://eshopfile.zhiyousx.com/177025924979479635.png"></image>
+                    <image alt src="/static/captured/20e48a78eb2119ca.png"></image>
                 </view>
             </view>
             <view class="chat-text-expand" wx:if="{{$root.g6}}">
                 <view class="guide">
                     <view class="left">
-                        <image class="headImg" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/176999759107083295.png"></image>{{''+$root.m7+''}}</view>
+                        <image class="headImg" lazyLoad="false" mode="aspectFill" src="/static/captured/92c6001b142bc1ca.png"></image>{{''+$root.m7+''}}</view>
                 </view>
                 <view class="questionBox" wx:if="{{$root.g7}}">
                     <view bindtap="__e" class="item" data-event-opts="{{[ [ 'tap',[ [ 'askAgain',['$0'],[ [ ['item.divergenceProblem','',index] ] ] ] ] ] ]}}" style="{{'margin-bottom:'+(index!=it.g8-1?'20rpx':'0')+';'}}" wx:for="{{$root.l6}}" wx:for-item="it" wx:key="index">

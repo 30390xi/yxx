@@ -1,0 +1,23 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "2082011419619024897",
+      "resourcesId": "1321362651706843138",
+      "title": "红碱淖风景区",
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082510182787502.mp4",
+      "coverImage": "https://eshopfile.zhiyousx.com/162985790284213095.jpg",
+      "videoId": null,
+      "resourcesType": 2,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2026-07-28 15:52:58",
+      "updateTime": "2026-07-28 15:52:58",
+      "createBy": "1635171719176675330",
+      "updateBy": "1635171719176675330",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

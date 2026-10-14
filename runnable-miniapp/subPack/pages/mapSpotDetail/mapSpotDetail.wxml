@@ -23,8 +23,8 @@
             </view>
             <slider activeColor="#35ABAD" backgroundColor="#ADC6D8" bindchange="__e" bindchanging="__e" blockSize="16" class="audio-slider data-v-7bb9408c" data-event-opts="{{[ [ 'changing',[ [ 'e0',['$event'] ] ] ],[ 'change',[ [ 'e1',['$event'] ] ] ] ]}}" max="{{duration}}" value="{{current}}"></slider>
         </view>
-        <image alt bindtap="__e" class="audio-but _img data-v-7bb9408c" data-event-opts="{{[ [ 'tap',[ ['play'] ] ] ]}}" hidden="{{!paused}}" src="https://eshopfile.zhiyousx.com/2023031610511320054.png"></image>
-        <image alt bindtap="__e" class="audio-but _img data-v-7bb9408c" data-event-opts="{{[ [ 'tap',[ [ 'e2',['$event'] ] ] ] ]}}" hidden="{{!!paused}}" src="https://eshopfile.zhiyousx.com/2023031610514447151.png"></image>
+        <image alt bindtap="__e" class="audio-but _img data-v-7bb9408c" data-event-opts="{{[ [ 'tap',[ ['play'] ] ] ]}}" hidden="{{!paused}}" src="/static/captured/513407d4d6f3bca9.png"></image>
+        <image alt bindtap="__e" class="audio-but _img data-v-7bb9408c" data-event-opts="{{[ [ 'tap',[ [ 'e2',['$event'] ] ] ] ]}}" hidden="{{!!paused}}" src="/static/captured/889876816bd27ddf.png"></image>
     </view>
     <view class="content data-v-7bb9408c">
         <u-parse bind:__l="__l" class="data-v-7bb9408c vue-ref" data-ref="article" html="{{langData.introduction}}" lazyLoad="{{true}}" style="text-align:justify;" tagStyle="{{parseStyle}}" vueId="4c6a84b6-2" vueSlots="{{['default']}}">
@@ -33,10 +33,10 @@
     </view>
     <view class="foot-box data-v-7bb9408c">
         <button class="data-v-7bb9408c" openType="share">
-            <image alt class="share _img data-v-7bb9408c" src="https://eshopfile.zhiyousx.com/2023031610300944943.png"></image>{{''+(langType=='zn'?'分享':'Share')+''}}</button>
+            <image alt class="share _img data-v-7bb9408c" src="/static/captured/6f091d9dd54cbd9e.png"></image>{{''+(langType=='zn'?'分享':'Share')+''}}</button>
         <button bindtap="__e" class="data-v-7bb9408c" data-event-opts="{{[ [ 'tap',[ [ 'jumpLocation',['$event'] ] ] ] ]}}">
-            <image alt class="jump _img data-v-7bb9408c" src="https://eshopfile.zhiyousx.com/2023031610293382013.png"></image>{{''+(langType=='zn'?'去这里':'Go')+''}}</button>
+            <image alt class="jump _img data-v-7bb9408c" src="/static/captured/4a9234c5242a109b.png"></image>{{''+(langType=='zn'?'去这里':'Go')+''}}</button>
     </view>
     <view bindtap="__e" class="banckMap data-v-7bb9408c" data-event-opts="{{[ [ 'tap',[ [ 'toGuide',['$event'] ] ] ] ]}}" wx:if="{{showGuideBut}}">
-        <image mode class="data-v-7bb9408c" src="https://eshopfile.zhiyousx.com/2023031610322750615.png"></image>{{''+(langType=='zn'?'导览':'Guide')+''}}</view>
+        <image mode class="data-v-7bb9408c" src="/static/captured/3f7a30dffb7d02b0.png"></image>{{''+(langType=='zn'?'导览':'Guide')+''}}</view>
 </view>

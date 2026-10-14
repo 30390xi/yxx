@@ -1,0 +1,124 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1455067250871607298",
+    "contentId": "1455067243938422786",
+    "rankingName": "咸阳美食人气榜",
+    "rankingClass": "2",
+    "rankingType": "2",
+    "rankingMainPictureUrl": "https://res.zhiyousx.com/ysx/pro/2021/11/01/163575003240920361.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": null,
+    "rankingInclude": "个美食",
+    "rankingPersonalInfo": "我吃过的美食",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#F6A700",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1451096759739621378",
+        "originType": "2",
+        "originName": "泾阳穰饸",
+        "originSubtitleName": "火腿肠的祖先",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480325533210467.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480329815601273.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480335436003472.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480336248411113.jpg"
+        ],
+        "sort": "10",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451040071510663170",
+        "originType": "2",
+        "originName": "泡泡油糕",
+        "originSubtitleName": "色泽乳白，薄如蝉翼",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478980405266962.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478985394206416.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478986569153134.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478987437411323.jpg"
+        ],
+        "sort": "11",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "3",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451072752957005826",
+        "originType": "2",
+        "originName": "彬县御面",
+        "originSubtitleName": "筋光柔软的宫中贡品",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/21/163479759439966879.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163479765018428971.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163479765710608878.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163479766667009507.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163479767251312614.jpg"
+        ],
+        "sort": "12",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "1",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451105525272944642",
+        "originType": "2",
+        "originName": "三原金线油塔",
+        "originSubtitleName": "提起似金线，放下像松塔",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480535628159478.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480540683871752.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480541432559002.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480543108144307.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480548690668837.jpg"
+        ],
+        "sort": "13",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "1",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1452568185680175106",
+        "originType": "2",
+        "originName": "浆水面",
+        "originSubtitleName": "酸而不烈，酸中寓香",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/25/163515415295206213.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/25/163515420457706343.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/25/163515420886372787.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/25/163515421380641251.jpg"
+        ],
+        "sort": "14",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "2",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "15",
+    "favoriteSum": "45",
+    "personalInfoValue": "0/15"
+  },
+  "msg": "成功",
+  "success": true
+}

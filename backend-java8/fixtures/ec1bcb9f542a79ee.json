@@ -1,0 +1,208 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941091",
+    "scenicName": "马嵬驿民俗文化体验园",
+    "tag": "蝉鬓不随銮驾去，至今空感往来人",
+    "level": 4,
+    "address": "咸阳市兴平市马嵬镇李家坡村南",
+    "longitude": "108.3878620000",
+    "latitude": "34.3287100000",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#925B0D",
+    "centralColour": "#925B0D",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/timg (1)-20201028103720.jpg"
+    ],
+    "introduction": "<p>　　马嵬驿民俗文化体验园简称&ldquo;马嵬驿&rdquo;，是古丝绸之路西出长安第一个驿站。马嵬驿民俗文化体验园位于陕西兴平马嵬镇李家坡村南,地理位置优越、交通便利，距西安市60公里。由陕西兴平黄山宫民俗文化休闲观光有限公司投资1.6亿元开发建设，景区占地233亩。合理利用了自然的台塬地势、沟壑地形、李家坡村民废弃的窑洞院落，以黄山宫道教文化为底蕴，以杨贵妃与唐明皇凄美爱情故事为依托，是一个集古驿站文化展示、文化交流、原生态餐饮、民俗文化体验、休闲娱乐、生态观光、环境保护于一体的新概念体验园。于2012年9月28日正式动工建设，2013年10月1日开园。开园至今，单日最高接待游客量达28万人次，年接待人流量在600万人次左右。2015年荣获国家AAAA级旅游景区。</p>",
+    "introductionText": "　　马嵬驿民俗文化体验园简称“马嵬驿”，是古丝绸之路西出长安第一个驿站。马嵬驿民俗文化体验园位于陕西兴平马嵬镇李家坡村南,地理位置优越、交通便利，距西安市60公里。由陕西兴平黄山宫民俗文化休闲观光有限公司投资1.6亿元开发建设，景区占地233亩。合理利用了自然的台塬地势、沟壑地形、李家坡村民废弃的窑洞院落，以黄山宫道教文化为底蕴，以杨贵妃与唐明皇凄美爱情故事为依托，是一个集古驿站文化展示、文化交流、原生态餐饮、民俗文化体验、休闲娱乐、生态观光、环境保护于一体的新概念体验园。于2012年9月28日正式动工建设，2013年10月1日开园。开园至今，单日最高接待游客量达28万人次，年接待人流量在600万人次左右。2015年荣获国家AAAA级旅游景区。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "64",
+        "name": "古村古镇",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "68",
+        "name": "旅游小镇",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "22",
+        "name": "美食街区",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": null,
+    "officialWebsite": [
+      "http://www.tangmaweiyi.com/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "官方电话",
+        "telephone": "029-38240666"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1435492326670708738",
+        "resourcesId": "1321280021971906561",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/timg (2)-20201028103727.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2021-09-08 14:36:55",
+        "updateTime": "2021-09-08 14:36:55",
+        "createBy": "1344113100973973505",
+        "updateBy": "1344113100973973505",
+        "isDeleted": 0
+      },
+      {
+        "id": "1435492326674903042",
+        "resourcesId": "1321280021971906561",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/timg-20201028103734.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2021-09-08 14:36:55",
+        "updateTime": "2021-09-08 14:36:55",
+        "createBy": "1344113100973973505",
+        "updateBy": "1344113100973973505",
+        "isDeleted": 0
+      },
+      {
+        "id": "1435492326674903043",
+        "resourcesId": "1321280021971906561",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/u=3198183851,2107968671&fm=26&gp=0-20201028103747.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2021-09-08 14:36:55",
+        "updateTime": "2021-09-08 14:36:55",
+        "createBy": "1344113100973973505",
+        "updateBy": "1344113100973973505",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1574974899180212226",
+      "rankingId": null,
+      "indexInRanking": 20,
+      "rankingName": "陕西免费景区人气榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1455060076934045697",
+        "rankingId": "1455060077806460930",
+        "indexInRanking": null,
+        "rankingName": "咸阳亲子游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

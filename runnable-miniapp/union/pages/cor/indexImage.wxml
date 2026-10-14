@@ -2,7 +2,7 @@
     <uni-navbar bind:__l="__l" class="data-v-0e6c0b12" style="z-index:99;" type="transparentFixed" vueId="1ab10c1b-1"></uni-navbar>
     <view class="pop-class data-v-0e6c0b12">
         <camera class="pop-class-camera data-v-0e6c0b12" devicePosition="back" flash="off" mode="normal" style="height:100vh;" wx:if="{{!showImage}}">
-            <cover-image mode class="cover-image data-v-0e6c0b12" src="https://eshopfile.zhiyousx.com/173943158128240662.png"></cover-image>
+            <cover-image mode class="cover-image data-v-0e6c0b12" src="/static/captured/0891ee6c0ed0c026.png"></cover-image>
         </camera>
         <image class="data-v-0e6c0b12" mode="aspectFit" src="{{showImage}}" style="height:100vh;width:100%;" wx:else></image>
         <view class="pop-class-mask data-v-0e6c0b12" wx:if="{{!showImage}}"></view>
@@ -13,10 +13,10 @@
         <view class="wrap data-v-0e6c0b12">
             <view bindtap="__e" class="back data-v-0e6c0b12" data-event-opts="{{[ [ 'tap',[ [ 'close',['$event'] ] ] ] ]}}">取消</view>
             <view bindtap="__e" class="data-v-0e6c0b12" data-event-opts="{{[ [ 'tap',[ [ 'checkCameraPermissionAndTakePhoto',['$event'] ] ] ] ]}}">
-                <image class="w131-h131 data-v-0e6c0b12" src="https://eshopfile.zhiyousx.com/173943394286707019.png"></image>
+                <image class="w131-h131 data-v-0e6c0b12" src="/static/captured/541e9369fe0c70b0.png"></image>
             </view>
             <view bindtap="__e" class="data-v-0e6c0b12" data-event-opts="{{[ [ 'tap',[ [ 'chooseImage',['$event'] ] ] ] ]}}">
-                <image mode class="image-size data-v-0e6c0b12" src="https://eshopfile.zhiyousx.com/173942091731716228.png"></image>
+                <image mode class="image-size data-v-0e6c0b12" src="/static/captured/08c0a5f2b7348e18.png"></image>
             </view>
         </view>
     </view>

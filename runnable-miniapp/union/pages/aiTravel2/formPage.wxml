@@ -22,11 +22,11 @@
                 <picker bindchange="__e" class="form-select data-v-1ea1bfe2" data-event-opts="{{[ [ 'change',[ [ 'bindPickerChange',['$event'] ] ] ] ]}}" range="{{cityColumns[0]}}" value="{{cityIndex}}">
                     <view class="form-select-content data-v-1ea1bfe2">
                         <view class="select-left-content data-v-1ea1bfe2">
-                            <image mode class="select-left-icon data-v-1ea1bfe2" src="https://eshopfile.zhiyousx.com/175669111355825506.png"></image>
+                            <image mode class="select-left-icon data-v-1ea1bfe2" src="/static/captured/16144a5686844f74.png"></image>
                             <text class="select-text data-v-1ea1bfe2" wx:if="{{formData.city}}">{{formData.city}}</text>
                             <text class="select-text placeholder data-v-1ea1bfe2" wx:else>请选择出行城市</text>
                         </view>
-                        <image mode class="select-right-icon data-v-1ea1bfe2" src="https://eshopfile.zhiyousx.com/175669115668179740.png"></image>
+                        <image mode class="select-right-icon data-v-1ea1bfe2" src="/static/captured/25dde347b0686bf0.png"></image>
                     </view>
                 </picker>
             </view>
@@ -40,11 +40,11 @@
                 <view bindtap="__e" class="form-select data-v-1ea1bfe2" data-event-opts="{{[ [ 'tap',[ [ 'openDatePicker',['$event'] ] ] ] ]}}">
                     <view class="form-select-content data-v-1ea1bfe2">
                         <view class="select-left-content data-v-1ea1bfe2">
-                            <image mode class="select-left-icon data-v-1ea1bfe2" src="https://eshopfile.zhiyousx.com/175669417313273268.png"></image>
+                            <image mode class="select-left-icon data-v-1ea1bfe2" src="/static/captured/7574b7bf7daa2674.png"></image>
                             <text class="select-text data-v-1ea1bfe2" wx:if="{{formData.beginTime&&formData.endTime}}">{{formData.beginTime+' 至 '+formData.endTime}}</text>
                             <text class="select-text placeholder data-v-1ea1bfe2" wx:else>请选择出行日期</text>
                         </view>
-                        <image mode class="select-right-icon data-v-1ea1bfe2" src="https://eshopfile.zhiyousx.com/175669115668179740.png"></image>
+                        <image mode class="select-right-icon data-v-1ea1bfe2" src="/static/captured/25dde347b0686bf0.png"></image>
                     </view>
                 </view>
             </view>
@@ -55,11 +55,11 @@
                 <view bindtap="__e" class="form-select data-v-1ea1bfe2" data-event-opts="{{[ [ 'tap',[ [ 'openTravelersPopup',['$event'] ] ] ] ]}}">
                     <view class="form-select-content data-v-1ea1bfe2">
                         <view class="select-left-content data-v-1ea1bfe2">
-                            <image mode class="select-left-icon data-v-1ea1bfe2" src="https://eshopfile.zhiyousx.com/175669413781862938.png"></image>
+                            <image mode class="select-left-icon data-v-1ea1bfe2" src="/static/captured/0f4d3753d81ec9f3.png"></image>
                             <text class="select-text data-v-1ea1bfe2" wx:if="{{$root.m0}}">{{''+($root.m1?formData.adult+'位成人 ':'')+($root.m2?formData.children+'位儿童 ':'')+($root.m3?formData.older+'位老人':'')+''}}</text>
                             <text class="select-text placeholder data-v-1ea1bfe2" wx:else>请至少选择一名旅游人次</text>
                         </view>
-                        <image mode class="select-right-icon data-v-1ea1bfe2" src="https://eshopfile.zhiyousx.com/175669496442746609.png"></image>
+                        <image mode class="select-right-icon data-v-1ea1bfe2" src="/static/captured/334d4ded5cef888c.png"></image>
                     </view>
                 </view>
             </view>

@@ -1,0 +1,584 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941171",
+    "scenicName": "大明宫国家遗址公园",
+    "tag": "千宫之宫、丝绸之路的东方圣殿",
+    "level": 5,
+    "address": "西安市新城区自强东路585号",
+    "longitude": "108.963611",
+    "latitude": "34.292633",
+    "openingStatus": 1,
+    "capacity": 130000,
+    "topColour": "#E06A2A",
+    "centralColour": "#C5432E",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021072318203365110.jpg",
+      "https://eshopfile.zhiyousx.com/2024020709381375601.jpg",
+      "https://eshopfile.zhiyousx.com/2023101815390618011.jpg"
+    ],
+    "introduction": "<p>　　有&ldquo;千宫之宫&rdquo;美誉的唐大明宫是盛唐时期最富盛名的宫殿群。唐朝21位皇帝中有17位在此处理朝政，大明宫也由此成为公元7&mdash;9世纪世界闻名的巅峰。盛唐文化与现代时尚在这里完美结合、相映生辉。恢弘大气的含元殿、如梦如幻的太液池等，令人穿梭于古今之间，享受绝无仅有的休闲体验。畅游大明宫，在历史的浩瀚博大中挥洒出神采，悠远而大气，绿色而时尚！</p>",
+    "introductionText": "　　有“千宫之宫”美誉的唐大明宫是盛唐时期最富盛名的宫殿群。唐朝21位皇帝中有17位在此处理朝政，大明宫也由此成为公元7—9世纪世界闻名的巅峰。盛唐文化与现代时尚在这里完美结合、相映生辉。恢弘大气的含元殿、如梦如幻的太液池等，令人穿梭于古今之间，享受绝无仅有的休闲体验。畅游大明宫，在历史的浩瀚博大中挥洒出神采，悠远而大气，绿色而时尚！",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "21",
+        "name": "地标打卡",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026386268161",
+        "contentId": "1418152026377879553",
+        "name": "世界遗产名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026415628289",
+        "contentId": "1418152026403045378",
+        "name": "陕西5A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1608375821117603841",
+        "contentId": "1608375821109215234",
+        "name": "国家考古遗址公园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/167230146627310473.png"
+      }
+    ],
+    "noticeMsg": "<p>3.8日大明宫灯会女士30元！</p>",
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "6周岁（含）以下或身高1.2米（含）以下；6周岁以下，1.2米以上凭本人户口本或出生证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "65周岁（含）以上凭本人身份证（或敬老优待证）",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭残疾证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "军人",
+        "limit": "现役军人（含军队离退休干部）、军队院校学员、革命伤残军人及警察，凭军官证（离退休证）、文职干部证、士官证、士兵证、学员证、军残证及警官证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "6周岁（不含）-18周岁（含）未成年人、全日制大学本科及以下学历凭身份证或学生证",
+        "discount": "半价"
+      },
+      {
+        "peopleType": "港澳台青少年",
+        "limit": "持《港澳居民来往内地通行证》、《台湾居民来往大陆通行证》或学生证",
+        "discount": "半价"
+      }
+    ],
+    "officialWebsite": [
+      "https://www.dmgpark.com/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "咨询电话",
+        "telephone": "029-82200808"
+      },
+      {
+        "telephoneTitle": "导游预约电话",
+        "telephone": "029-81618202"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "2082011068700884994",
+        "outId": "1320579064720941171",
+        "type": 1,
+        "advertName": "大明宫的璀璨印记一起领略",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021072318430972127.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p style=\"text-align: center;\">每个朝代<br />都有自己的故事<br />关于唐朝<br />一砖是故事，一瓦是历史<br />千宫之殿琉璃瓦<br />万邦来朝始御道<br />丹凤门前 挥鞭马蹄远<br />阊阖九天 外使朝含元<br />太液池边 把酒邀明月<br />都在讲述千年大明宫的辉煌壮丽<br />展现大明宫独特的历史文化魅力</p>\n<p style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: center;\">说到古代王朝历史，最先映入脑海的恐怕是那个幅员千里、文化繁荣、万邦臣服的大唐盛世，而唐朝也为中国历史留下了华丽的篇章！让我们追随历史脚步，看看历史上的唐朝！</p>\n<p style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: center;\">大唐盛世</p>\n<p style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: left;\">盛唐时期的中国，国富民强，通过由国都长安直抵地中海沿岸的陆上丝绸之路，将辉煌灿烂的中华文明传播四海，成就了中国古代文化的鼎盛时期，形成了八方来仪，万邦来朝的盛世时代。</p>\n<p style=\"text-align: center;\"><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072318345164970.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072318345150554.jpg\" /></p>\n<p style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: left;\">大明宫，一座史上最大规模的皇家宫殿，几乎承载了整个大唐的雄浑与气魄。大明宫国家遗址公园里有很多雕塑景观凝固了唐朝一千多年的的历史。每一个都有着自己的故事。</p>\n<p style=\"text-align: left;\"><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072318353028663.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072318353030730.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072318353049499.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072318353078694.jpg\" /></p>\n<p style=\"text-align: left;\">&nbsp;</p>\n<p style=\"text-align: center;\">文官、武官上朝</p>\n<p style=\"text-align: left;\"><br />大明宫南面开有五座宫门，丹凤正门为皇帝进出专用门道，文武百官上朝则各有通道。武官上朝由建福门进入，而文官则走望仙门。白居易诗中描绘的&ldquo;双阙龙相对，千宫雁一行&rdquo;，就形容这十分壮观的场面。</p>\n<p style=\"text-align: left;\"><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072318360918677.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072318360962143.jpg\" /></p>\n<p style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: center;\">朝堂赐宴</p>\n<p style=\"text-align: left;\"><br />位于含元殿东朝堂前。朝班退后，群臣在朝堂两廊下进食，又称&ldquo;廊下食&rdquo;。</p>\n<p style=\"text-align: left;\"><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072318365318698.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072318365326075.jpg\" /></p>\n<p style=\"text-align: left;\">&nbsp;</p>\n<p style=\"text-align: center;\">新三彩空间</p>\n<p>新三彩空间雕塑位于右银台门内。右银台门是大明宫西宫墙的宫门，由此西行，可抵被称为&ldquo;西域&rdquo;的中亚、西亚而到达地中海地区，所走路线，就是我们所熟知的&ldquo;丝绸之路&rdquo;。</p>\n<p style=\"text-align: center;\"><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072318372636390.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072318372670319.jpg\" /></p>\n<p style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: center;\">马球</p>\n<p style=\"text-align: left;\">马球又称为&ldquo;击鞠&rdquo;&ldquo;击球&rdquo;或&ldquo;打球&rdquo;，是从波斯或者吐蕃传入的体育游戏，唐代马球是社会各阶层人人爱好的一项运动，可以说是&ldquo;奔跑中的高尔夫&rdquo;。达官贵人甚至皇帝不仅乐此不疲、到处兴建专门的马球场，而且还传到大明宫内，在宫女中也流行开来。</p>\n<p style=\"text-align: left;\"><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072318380731178.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072318380704210.jpg\" /></p>\n<p style=\"text-align: left;\">&nbsp;</p>\n<p style=\"text-align: center;\">大唐诗书</p>\n<p style=\"text-align: left;\">&nbsp;</p>\n<p style=\"text-align: left;\">大唐诗书位于太液池西池南岸。这组雕塑将精选的唐代诗、书雕刻在墙上，墙体的形状和色彩表现形式都有变化，形成诗峡，展现了绚丽多彩大唐文化。</p>\n<p style=\"text-align: left;\"><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072318385044567.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072318385013787.jpg\" /></p>\n<p style=\"text-align: left;\">&nbsp;</p>\n<p style=\"text-align: center;\">霓裳羽衣</p>\n<p>霓裳羽衣位于梨园。相传李隆基曾梦游月宫，听到天上仙乐奏曲，身穿霓裳羽衣仙子翩翩起舞，李隆基醒来之后，把梦中的乐曲记录下来，让爱妃杨玉环设计舞蹈，命乐工排练，创作了一部适合宫廷演奏的宫中大曲&mdash;&mdash;《霓裳羽衣曲》，是中国古代最具代表性、艺术成就最高的歌舞大曲。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072318392147926.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072318392127894.jpg\" /></p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\">新簪花仕女图</p>\n<p>生活在皇宫里的女人，她们到底有什么生活娱乐呢？新簪花仕女图采用彩雕的手法，用艳丽的色彩将唐宫仕女的生活状态生动形象的还原出来，让我们能更真切的感受到盛唐大明宫后宫生活。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072318395851572.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072318395849169.jpg\" /></p>\n<p>&nbsp;</p>\n<p>对话古今，历经1400年的岁月，从千年历史遗迹到国家级遗址公园，从丝路文化高地到古城文旅名片，今日的大明宫国家遗址公园，以规模宏大、气势雄伟、殿宇基址保存最为完好的宫殿遗址，传承着中华民族的文化基因，保存着鲜活的民族记忆，被誉为千宫之宫、丝绸之路的东方圣殿。</p>\n<p><img class=\"wscnph\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://eshopfile.zhiyousx.com/2021072318402253412.jpg\" /></p>\n<p>&nbsp;</p>\n<p>（本文来源：大明宫国家遗址公园）</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2082011068633776130",
+        "resourcesId": "1321734385362558978",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/169761492862810077.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": "",
+        "createTime": "2026-07-28 15:51:35",
+        "updateTime": "2026-07-28 15:51:35",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011068637970434",
+        "resourcesId": "1321734385362558978",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/169761492909001073.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": "",
+        "createTime": "2026-07-28 15:51:35",
+        "updateTime": "2026-07-28 15:51:35",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011068637970435",
+        "resourcesId": "1321734385362558978",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/169761492940412490.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": "",
+        "createTime": "2026-07-28 15:51:35",
+        "updateTime": "2026-07-28 15:51:35",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011068642164738",
+        "resourcesId": "1321734385362558978",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072318260036261.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-07-28 15:51:35",
+        "updateTime": "2026-07-28 15:51:35",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011068646359041",
+        "resourcesId": "1321734385362558978",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/169761492970952235.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": "",
+        "createTime": "2026-07-28 15:51:35",
+        "updateTime": "2026-07-28 15:51:35",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011068646359042",
+        "resourcesId": "1321734385362558978",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072318252959039.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2026-07-28 15:51:35",
+        "updateTime": "2026-07-28 15:51:35",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011068650553345",
+        "resourcesId": "1321734385362558978",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072318253934429.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2026-07-28 15:51:35",
+        "updateTime": "2026-07-28 15:51:35",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011068650553346",
+        "resourcesId": "1321734385362558978",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072318254898101.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2026-07-28 15:51:35",
+        "updateTime": "2026-07-28 15:51:35",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011068654747650",
+        "resourcesId": "1321734385362558978",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072318261861404.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": null,
+        "createTime": "2026-07-28 15:51:35",
+        "updateTime": "2026-07-28 15:51:35",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011068658941953",
+        "resourcesId": "1321734385362558978",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072318260950108.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": null,
+        "createTime": "2026-07-28 15:51:35",
+        "updateTime": "2026-07-28 15:51:35",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011068658941954",
+        "resourcesId": "1321734385362558978",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072318264258568.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 11,
+        "describe": null,
+        "createTime": "2026-07-28 15:51:35",
+        "updateTime": "2026-07-28 15:51:35",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011068663136258",
+        "resourcesId": "1321734385362558978",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072318263100145.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 12,
+        "describe": null,
+        "createTime": "2026-07-28 15:51:35",
+        "updateTime": "2026-07-28 15:51:35",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011068663136259",
+        "resourcesId": "1321734385362558978",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072318265242605.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 13,
+        "describe": null,
+        "createTime": "2026-07-28 15:51:35",
+        "updateTime": "2026-07-28 15:51:35",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011068667330562",
+        "resourcesId": "1321734385362558978",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072318270717349.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 14,
+        "describe": null,
+        "createTime": "2026-07-28 15:51:35",
+        "updateTime": "2026-07-28 15:51:35",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011068671524866",
+        "resourcesId": "1321734385362558978",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072318271875957.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 15,
+        "describe": null,
+        "createTime": "2026-07-28 15:51:35",
+        "updateTime": "2026-07-28 15:51:35",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011068671524867",
+        "resourcesId": "1321734385362558978",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072318274020182.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 16,
+        "describe": null,
+        "createTime": "2026-07-28 15:51:35",
+        "updateTime": "2026-07-28 15:51:35",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011068675719169",
+        "resourcesId": "1321734385362558978",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072318275118442.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 17,
+        "describe": null,
+        "createTime": "2026-07-28 15:51:35",
+        "updateTime": "2026-07-28 15:51:35",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011068675719170",
+        "resourcesId": "1321734385362558978",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072318280325255.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 18,
+        "describe": null,
+        "createTime": "2026-07-28 15:51:35",
+        "updateTime": "2026-07-28 15:51:35",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011068679913474",
+        "resourcesId": "1321734385362558978",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072318282047235.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 19,
+        "describe": null,
+        "createTime": "2026-07-28 15:51:35",
+        "updateTime": "2026-07-28 15:51:35",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011068679913475",
+        "resourcesId": "1321734385362558978",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072318283036424.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 20,
+        "describe": null,
+        "createTime": "2026-07-28 15:51:35",
+        "updateTime": "2026-07-28 15:51:35",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1676883692355641345",
+      "rankingId": null,
+      "indexInRanking": 10,
+      "rankingName": "西安热门景区人气榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1439148110155694082",
+        "rankingId": "1439148116019331074",
+        "indexInRanking": null,
+        "rankingName": "西安亲子游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1818221757267132417",
+        "rankingId": "1818221762493235202",
+        "indexInRanking": null,
+        "rankingName": "西安汉服拍摄地人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1680835374538088449",
+        "rankingId": "1680835375632801794",
+        "indexInRanking": null,
+        "rankingName": "陕西省热搜50强博物馆排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": null,
+    "noticeTitel": "最新公告",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

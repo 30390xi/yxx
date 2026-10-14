@@ -1,0 +1,26 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1949644220425752577",
+    "contentId": "1949644220379615234",
+    "rankingName": "汉服协会推荐体验店",
+    "rankingClass": "0",
+    "rankingType": "5",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/175366629147899566.jpg",
+    "rankingDescribe": "",
+    "rankingTotalUserData": "人喜爱",
+    "rankingInclude": "个目的地",
+    "rankingPersonalInfo": "我去过的目的地",
+    "rankingSharePictureUrl": "",
+    "bottomColour": "#712727",
+    "tagUrl": null,
+    "travelMapFlag": null,
+    "type": "7",
+    "rankingItemList": null,
+    "sumCount": "10",
+    "favoriteSum": null,
+    "personalInfoValue": null
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -36,12 +36,12 @@
             </view>
             <view class="line data-v-5a96b9c2">为您节省<text class="data-v-5a96b9c2">{{'¥ '+item.price}}</text>
             </view>
-            <image class="data-v-5a96b9c2" src="https://eshopfile.zhiyousx.com/2023011114064095097.png" wx:if="{{item.useState==1}}"></image>
-            <image class="data-v-5a96b9c2" src="https://eshopfile.zhiyousx.com/2023010910000900378.png" wx:if="{{item.useState==2}}"></image>
-            <image class="data-v-5a96b9c2" src="https://eshopfile.zhiyousx.com/2023010910005976066.png" wx:if="{{item.useState==3}}"></image>
-            <image class="data-v-5a96b9c2" src="https://eshopfile.zhiyousx.com/2023010910013637801.png" wx:if="{{item.useState==4}}"></image>
-            <image class="data-v-5a96b9c2" src="https://eshopfile.zhiyousx.com/2023011114083993049.png" wx:if="{{item.useState==5}}"></image>
-            <image class="data-v-5a96b9c2" src="https://eshopfile.zhiyousx.com/2023010910015464618.png" wx:if="{{item.useState==6}}"></image>
+            <image class="data-v-5a96b9c2" src="/static/captured/913e248cfcbfc347.png" wx:if="{{item.useState==1}}"></image>
+            <image class="data-v-5a96b9c2" src="/static/captured/6259da4a7a46ce49.png" wx:if="{{item.useState==2}}"></image>
+            <image class="data-v-5a96b9c2" src="/static/captured/da41118cf9ad49b6.png" wx:if="{{item.useState==3}}"></image>
+            <image class="data-v-5a96b9c2" src="/static/captured/d1fb05da759eec00.png" wx:if="{{item.useState==4}}"></image>
+            <image class="data-v-5a96b9c2" src="/static/captured/b792cb473539997b.png" wx:if="{{item.useState==5}}"></image>
+            <image class="data-v-5a96b9c2" src="/static/captured/8c42e55a341f86d1.png" wx:if="{{item.useState==6}}"></image>
         </view>
     </view>
     <view class="footer allcenter data-v-5a96b9c2" wx:if="{{source==2}}">

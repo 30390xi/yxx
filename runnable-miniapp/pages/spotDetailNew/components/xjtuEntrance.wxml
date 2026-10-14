@@ -2,7 +2,7 @@
     <view class="title data-v-49e0ee14">交你玩测评</view>
     <view class="eva-enter-l data-v-49e0ee14">
         <view class="eva-enter-l-b data-v-49e0ee14">
-            <image class="icon data-v-49e0ee14" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173260310299130164.png"></image>
+            <image class="icon data-v-49e0ee14" lazyLoad="false" mode="aspectFill" src="/static/captured/77c193a33644fd4a.png"></image>
             <view class="line _div data-v-49e0ee14"></view>
             <view class="scoreBox data-v-49e0ee14">
                 <view class="score data-v-49e0ee14">{{baseInfo.score||baseInfo.score===0?$root.g0:''}}</view>

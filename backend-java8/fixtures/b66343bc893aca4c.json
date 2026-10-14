@@ -1,0 +1,269 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1437347880124870657",
+    "scenicName": "渭南市博物馆",
+    "tag": "刚毅硬朗的渭南",
+    "level": 4,
+    "address": "渭南市临渭区乐天大街",
+    "longitude": "109.469346",
+    "latitude": "34.514508",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#C5C6C1",
+    "centralColour": "#989A90",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021091317274324387.png"
+    ],
+    "introduction": "<p>　　渭南博物馆位于渭南城区乐天大街中段，由主体工程、下沉式广场、绿地系统三个区域构成。主体工程高三层，分别由藏品库区、陈列区、技术及办公用房、游客服务设施等部分组成。项目以\"绿色、生态、人文\"为基调，以承载历史、反映现实文化、昭示未来为思路，突出华山、黄河人文特色，彰显文物大市资源优势，将建成集收藏、保护、展示、研究、办公、社会教育、对外宣传、休闲于一体的城市标志性建筑。</p>",
+    "introductionText": "　　渭南博物馆位于渭南城区乐天大街中段，由主体工程、下沉式广场、绿地系统三个区域构成。主体工程高三层，分别由藏品库区、陈列区、技术及办公用房、游客服务设施等部分组成。项目以\"绿色、生态、人文\"为基调，以承载历史、反映现实文化、昭示未来为思路，突出华山、黄河人文特色，彰显文物大市资源优势，将建成集收藏、保护、展示、研究、办公、社会教育、对外宣传、休闲于一体的城市标志性建筑。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026524680194",
+        "contentId": "1418152026516291586",
+        "name": "国家二级博物馆",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "全员",
+        "limit": "无",
+        "discount": "免费"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "http://www.wnsbwg.com/",
+        "telephone": ""
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": "",
+    "contentResourcesDtoList": [
+      {
+        "id": "1635550755437961218",
+        "resourcesId": "1437347880108093442",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091317272222683.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2023-03-14 15:57:41",
+        "updateTime": "2023-03-14 15:57:41",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1635550755446349826",
+        "resourcesId": "1437347880108093442",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091317270632765.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2023-03-14 15:57:41",
+        "updateTime": "2023-03-14 15:57:41",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1635550755458932737",
+        "resourcesId": "1437347880108093442",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091317271504905.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2023-03-14 15:57:41",
+        "updateTime": "2023-03-14 15:57:41",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1635550755471515650",
+        "resourcesId": "1437347880108093442",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091317272904492.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2023-03-14 15:57:41",
+        "updateTime": "2023-03-14 15:57:41",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1635550755479904258",
+        "resourcesId": "1437347880108093442",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091317270051953.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2023-03-14 15:57:41",
+        "updateTime": "2023-03-14 15:57:41",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1439119981701840898",
+      "rankingId": null,
+      "indexInRanking": 36,
+      "rankingName": "陕西人气博物馆排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1658303499793903618",
+        "rankingId": "1658303501412904962",
+        "indexInRanking": null,
+        "rankingName": "历史文化类博物馆人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1680835374538088449",
+        "rankingId": "1680835375632801794",
+        "indexInRanking": null,
+        "rankingName": "陕西省热搜50强博物馆排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1455112666791124994",
+        "rankingId": "1455112668192022530",
+        "indexInRanking": null,
+        "rankingName": "渭南自驾游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

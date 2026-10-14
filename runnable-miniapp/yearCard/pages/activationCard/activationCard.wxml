@@ -32,7 +32,7 @@
     </view>
     <view class="activation-card-footer">
         <view class="radio-text">
-            <image bindtap="__e" class="circle-image" data-event-opts="{{[ [ 'tap',[ [ 'e1',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/2023110915401580825.png" wx:if="{{checked}}"></image>
+            <image bindtap="__e" class="circle-image" data-event-opts="{{[ [ 'tap',[ [ 'e1',['$event'] ] ] ] ]}}" src="/static/captured/03d30c17c96ab931.png" wx:if="{{checked}}"></image>
             <view bindtap="__e" class="circle" data-event-opts="{{[ [ 'tap',[ [ 'e2',['$event'] ] ] ] ]}}" wx:else></view>我已阅读并同意<text bindtap="__e" data-event-opts="{{[ [ 'tap',[ [ 'openPopup',['$event'] ] ] ] ]}}">《游陕西旅游年卡人像采集服务协议》</text>
         </view>
         <view bindtap="__e" class="{{['red-btn',!checked&&'disabled']}}" data-event-opts="{{[ [ 'tap',[ [ 'submit',['$event'] ] ] ] ]}}">确认</view>

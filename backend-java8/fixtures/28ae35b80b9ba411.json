@@ -1,0 +1,23 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "2089256585446744066",
+      "resourcesId": "1480440186272747522",
+      "title": "长安唐村",
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2022011015400157306.mp4",
+      "coverImage": "https://res.zhiyousx.com/ysx/pro/2022/01/10/164180043532980058.jpg",
+      "videoId": null,
+      "resourcesType": 2,
+      "sequence": 7,
+      "describe": "",
+      "createTime": "2026-08-17 15:42:41",
+      "updateTime": "2026-08-17 15:42:41",
+      "createBy": "1635171719176675330",
+      "updateBy": "1635171719176675330",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

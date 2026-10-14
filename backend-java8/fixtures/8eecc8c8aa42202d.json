@@ -1,0 +1,252 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064641249307",
+    "scenicName": "蜀河古镇景区",
+    "tag": "汉江小都会",
+    "level": 4,
+    "cityId": "1320664694422548481",
+    "cityName": "安康",
+    "address": "安康市旬阳市蜀河镇",
+    "longitude": "109.7101820000",
+    "latitude": "32.9417280000",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 407,
+    "topColour": "#00924F",
+    "centralColour": "#007841",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/蜀河古镇-20201030152251.jpg"
+    ],
+    "introduction": "<p>　　蜀河古镇位于旬阳市太极山城以东53公里处，北倚巍巍秦岭，南傍依依巴山。挟汉江而携蜀河，东与仙河镇、冷水镇接壤，南与白河市毗邻，西与棕溪镇、关口镇交界；北与双河镇相接。蜀河为古蜀国所在地，汉时置县，中兴于明代，繁华于清朝中末，续写的是汉江黄金水道上的传奇，因其所处地域优势，便是鄂、陕、川三地物流交汇的重要中转集散之地，物流的畅通，带来文化的交融，各地商贾纷至沓来，修建会馆，成为各地乡党们拉帮结派、倾听乡音的场所。著名的有黄帮黄州馆、陕帮三义庙、回帮清真寺、江西帮万寿宫、武帮武昌馆、船帮杨泗庙，还有本地帮的火神庙等，更有诸多井形的巷道编织着这里居民的幸福生活，于是古蜀河便逐渐发展成为汉江上游的商业重镇，有&ldquo;小汉口&rdquo;、&ldquo;汉江小都会&rdquo;的美誉。</p>",
+    "introductionText": "　　蜀河古镇位于旬阳市太极山城以东53公里处，北倚巍巍秦岭，南傍依依巴山。挟汉江而携蜀河，东与仙河镇、冷水镇接壤，南与白河市毗邻，西与棕溪镇、关口镇交界；北与双河镇相接。蜀河为古蜀国所在地，汉时置县，中兴于明代，繁华于清朝中末，续写的是汉江黄金水道上的传奇，因其所处地域优势，便是鄂、陕、川三地物流交汇的重要中转集散之地，物流的畅通，带来文化的交融，各地商贾纷至沓来，修建会馆，成为各地乡党们拉帮结派、倾听乡音的场所。著名的有黄帮黄州馆、陕帮三义庙、回帮清真寺、江西帮万寿宫、武帮武昌馆、船帮杨泗庙，还有本地帮的火神庙等，更有诸多井形的巷道编织着这里居民的幸福生活，于是古蜀河便逐渐发展成为汉江上游的商业重镇，有“小汉口”、“汉江小都会”的美誉。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "64",
+        "name": "古村古镇",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "68",
+        "name": "旅游小镇",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全年开放",
+        "openTimeContent": "全天开放"
+      }
+    ],
+    "discountVoList": null,
+    "facilitiesServicesVoList": null,
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": null,
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "蜀河古镇旅游景区",
+        "wxSubscription": "gh_aa53d3d323db"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1454068056337784834",
+        "resourcesId": "1322076789361893378",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092210485176688.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2021-10-29 20:50:14",
+        "updateTime": "2021-10-29 20:50:14",
+        "createBy": "1293433954543640578",
+        "updateBy": "1293433954543640578",
+        "isDeleted": 0
+      },
+      {
+        "id": "1454068056337784835",
+        "resourcesId": "1322076789361893378",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092210485765295.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2021-10-29 20:50:14",
+        "updateTime": "2021-10-29 20:50:14",
+        "createBy": "1293433954543640578",
+        "updateBy": "1293433954543640578",
+        "isDeleted": 0
+      },
+      {
+        "id": "1454068056341979138",
+        "resourcesId": "1322076789361893378",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/蜀河古镇2-20201030152309.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2021-10-29 20:50:14",
+        "updateTime": "2021-10-29 20:50:14",
+        "createBy": "1293433954543640578",
+        "updateBy": "1293433954543640578",
+        "isDeleted": 0
+      },
+      {
+        "id": "1454068056341979139",
+        "resourcesId": "1322076789361893378",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/蜀河古镇1-20201030152302.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2021-10-29 20:50:14",
+        "updateTime": "2021-10-29 20:50:14",
+        "createBy": "1293433954543640578",
+        "updateBy": "1293433954543640578",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455799129627271170",
+      "rankingId": null,
+      "indexInRanking": 11,
+      "rankingName": "安康必逛景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": null,
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "scenicInfoTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": 0,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": null,
+    "hotelArrivalDepartureTime": null,
+    "hotelChildrenBed": null,
+    "hotelPet": null,
+    "hotelBreakfast": null,
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

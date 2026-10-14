@@ -16,7 +16,11 @@
             </view>
         </view>
     </view>
-    <panda-view bind:__l="__l" class="data-v-33339561 vue-ref" data-ref="pandaRef" isHasPopup="{{isHasPopup}}" isHide="{{isHide}}" isShowPanda="{{isShowPanda}}" version="{{xiaoqiVersion}}" vueId="8dd740cc-2" wx:if="{{showPandaSys&&!isIntoHide}}"></panda-view>
+    <panda-view bind:__l="__l" class="data-v-33339561 vue-ref" data-ref="pandaRef" isHasPopup="{{isHasPopup}}" isHide="{{isHide}}" isShowPanda="{{isShowPanda}}" version="{{2}}" vueId="8dd740cc-2" wx:if="{{!isIntoHide}}"></panda-view>
+    <navigator url="/union/pages/aiNew/index?type=1" style="position:fixed;right:12rpx;bottom:950rpx;z-index:9999;width:550rpx;height:160rpx;">
+        <view style="position:absolute;left:0;top:38rpx;width:410rpx;min-height:72rpx;line-height:72rpx;text-align:center;background:linear-gradient(180deg,#fff8eb,#f5c88f);border-radius:48rpx;color:#2d251d;font-size:24rpx;box-shadow:0 5rpx 15rpx #0002;">你好，我是小七，你的AI旅行助手</view>
+        <image src="/static/captured/59d73845d9798bf4.png" mode="aspectFit" style="position:absolute;right:0;top:0;width:170rpx;height:170rpx;"></image>
+    </navigator>
     <view class="{{['container','data-v-33339561',configrights==1?'grayFilter':'']}}">
         <view class="header u-skeleton-fillet data-v-33339561">
             <u-swiper bind:__l="__l" bind:click="__e" borderRadius="0" class="data-v-33339561" data-event-opts="{{[ [ '^click',[ ['swiperTopClick'] ] ] ]}}" height="560" indicatorPos="indexBottom" interval="5000" list="{{swiperList}}" name="advertPicUrl" vueId="8dd740cc-3"></u-swiper>
@@ -123,7 +127,7 @@
                     <view class="card data-v-33339561" wx:if="{{$root.g6==1}}">
                         <view class="card-bg data-v-33339561"></view>
                         <view class="card-info data-v-33339561">
-                            <image class="card-image data-v-33339561" mode="aspectFill" src="https://eshopfile.zhiyousx.com/167316384967509305.png"></image>
+                            <image class="card-image data-v-33339561" mode="aspectFill" src="/static/captured/5319db0b736d3d71.png"></image>
                             <view class="card-t1 data-v-33339561">更多权益</view>
                             <view class="card-sub data-v-33339561">敬请期待</view>
                             <view class="card-btn dis data-v-33339561">持续更新</view>
@@ -197,17 +201,16 @@
             </view>
             <view bindtouchend="__e" bindtouchstart="__e" class="waterfall data-v-33339561" data-event-opts="{{[ [ 'touchstart',[ [ 'wtouchStart',['$event'] ] ] ],[ 'touchend',[ [ 'wtouchEnd',['$event'] ] ] ] ]}}" wx:if="{{showIndex}}">
                 <view class="data-v-33339561">
-                    <u-waterfall addTime="10" bannerList="{{waterFallBanner}}" bg="{{HOME_HOT_PRODUCT_BACK_IMG}}" bind:__l="__l" bind:click="__e" bind:input="__e" bind:wclick="__e" class="data-v-33339561 vue-ref" data-event-opts="{{[ [ '^wclick',[ ['wclick'] ] ],[ '^click',[ ['jumpWater'] ] ],[ '^input',[ [ '__set_model',[ '','waterfallList','$event',[] ] ] ] ] ]}}" data-ref="uWaterfall" data-vue-generic="scoped" recommendList="{{nearBySopt}}" value="{{waterfallList}}" vueId="8dd740cc-5" vueSlots="{{['right','left']}}" waterType="{{waterNavList[waterfallActiveIndex]['type']}}"></u-waterfall>
+                    <u-waterfall addTime="10" bannerList="{{waterFallBanner}}" bg="{{HOME_HOT_PRODUCT_BACK_IMG}}" bind:__l="__l" bind:click="__e" bind:input="__e" bind:wclick="__e" class="data-v-33339561 vue-ref" data-event-opts="{{[ [ '^wclick',[ ['wclick'] ] ],[ '^click',[ ['jumpWater'] ] ],[ '^input',[ [ '__set_model',[ '','waterfallList','$event',[] ] ] ] ] ]}}" data-ref="uWaterfall" data-vue-generic="scoped" generic:scoped-slots-left="index-u-waterfall-left" generic:scoped-slots-right="index-u-waterfall-right" recommendList="{{nearBySopt}}" value="{{waterfallList}}" vueId="8dd740cc-5" vueSlots="{{['right','left']}}" waterType="{{waterNavList[waterfallActiveIndex]['type']}}"></u-waterfall>
                 </view>
             </view>
         </view>
     </view>
-    <tab-bar bind:__l="__l" class="data-v-33339561" grayFilter="{{configrights}}" vueId="8dd740cc-6" wx:if="{{showIndex}}"></tab-bar>
     <u-skeleton animation="{{true}}" bind:__l="__l" class="data-v-33339561" loading="{{loadingStatus}}" vueId="8dd740cc-7"></u-skeleton>
     <view bindtap="__e" class="{{['indexPopop','data-v-33339561',configrights==1?'grayFilter':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" wx:if="{{showPopup}}">
         <view class="follow-box data-v-33339561" style="{{'margin-top:'+menuButton.bottom+5+'px'+';'+'margin-right:'+5+'px'+';'}}">
-            <image catchtap="__e" class="follow data-v-33339561" data-event-opts="{{[ [ 'tap',[ [ '',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/guide/follow.png"></image>
-            <image class="follow-close data-v-33339561" src="https://eshopfile.zhiyousx.com/guide/follow-close.png"></image>
+            <image catchtap="__e" class="follow data-v-33339561" data-event-opts="{{[ [ 'tap',[ [ '',['$event'] ] ] ] ]}}" src="/static/captured/ec775c983d7f6963.png"></image>
+            <image class="follow-close data-v-33339561" src="/static/captured/38a25d55cab8844a.png"></image>
         </view>
     </view>
     <view class="guide-box data-v-33339561" style="{{'top:'+menuButton.top-7+'px'+';'+'right:'+menuButton.width+15+'px'+';'}}" wx:if="{{showGuide}}">
@@ -223,15 +226,15 @@
         </view>
     </u-popup>
     <u-popup bind:__l="__l" bind:input="__e" class="data-v-33339561 vue-ref" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showGiftBag','$event',[] ] ] ] ] ]}}" data-ref="giftPopup" maskCloseAble="{{true}}" mode="center" value="{{showGiftBag}}" vueId="8dd740cc-9" vueSlots="{{['default']}}">
-        <view class="{{['giftBag','data-v-33339561',configrights==1?'grayFilter':'']}}">
+        <view class="{{['giftBag','data-v-33339561',configrights==1?'grayFilter':'']}}" wx:if="{{giftBagData&&giftBagData.giftBagCouponList&&giftBagData.giftBagCouponList.length}}">
             <image class="giftBag-img data-v-33339561" mode="widthFix" src="{{giftBagData.image}}"></image>
             <view class="gift-mid data-v-33339561">
                 <view class="gift-title data-v-33339561">{{''+giftBagData.desc+''}}</view>
                 <scroll-view class="card-box data-v-33339561" scrollY="{{true}}" style="{{'height:'+(gbCl>3?'604rpx':gbCl==1?'250rpx':gbCl*151+'rpx')+';'}}">
                     <view class="{{['data-v-33339561',gbCl==1?'candItem1':'',gbCl>1?'candItem':'']}}" wx:for="{{$root.l2}}" wx:for-index="i" wx:for-item="it">
-                        <image mode class="it-img1 data-v-33339561" src="https://eshopfile.zhiyousx.com/166384545957301610.png" wx:if="{{gbCl>1&&i==0}}"></image>
-                        <image mode class="it-img2 data-v-33339561" src="https://eshopfile.zhiyousx.com/166384386610789834.png" wx:if="{{gbCl>1&&i>0&&i<gbCl-1}}"></image>
-                        <image mode class="it-img3 data-v-33339561" src="https://eshopfile.zhiyousx.com/166384545957301610.png" wx:if="{{gbCl>1&&gbCl-i==1}}"></image>
+                        <image mode class="it-img1 data-v-33339561" src="/static/captured/f2e7f03034cfff25.png" wx:if="{{gbCl>1&&i==0}}"></image>
+                        <image mode class="it-img2 data-v-33339561" src="/static/captured/ce87d44f6357412a.png" wx:if="{{gbCl>1&&i>0&&i<gbCl-1}}"></image>
+                        <image mode class="it-img3 data-v-33339561" src="/static/captured/f2e7f03034cfff25.png" wx:if="{{gbCl>1&&gbCl-i==1}}"></image>
                         <view class="item-card-box data-v-33339561">
                             <view class="left data-v-33339561">
                                 <image class="data-v-33339561" mode="aspectFill" src="{{it.$orig.couponImage}}"></image>

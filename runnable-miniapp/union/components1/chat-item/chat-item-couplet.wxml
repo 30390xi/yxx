@@ -26,12 +26,12 @@
                             <view class="chat-text-expand" wx:if="{{$root.g0}}">
                                 <view class="guide">
                                     <view class="left">
-                                        <image class="headImg" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173510683638304664.png"></image>你可以试着问我<image class="finger" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173373501152490600.png"></image>：</view>
+                                        <image class="headImg" lazyLoad="false" mode="aspectFill" src="/static/captured/e64f9f302e33e7d8.png"></image>你可以试着问我<image class="finger" lazyLoad="false" mode="aspectFill" src="/static/captured/a7451ec7684e2e09.png"></image>：</view>
                                 </view>
                                 <view class="questionBox" wx:if="{{$root.g1}}">
                                     <view bindtap="__e" class="item" data-event-opts="{{[ [ 'tap',[ [ 'askAgain',['$0'],[ [ ['item.divergenceProblem','',index] ] ] ] ] ] ]}}" style="{{'margin-bottom:'+(index!=it.g2-1?'20rpx':'0')+';'}}" wx:for="{{$root.l0}}" wx:for-item="it" wx:key="index">
                                         <text class="text-desc">{{it.$orig}}</text>
-                                        <image lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173373722521006570.png"></image>
+                                        <image lazyLoad="false" mode="aspectFill" src="/static/captured/23f95327bbd56874.png"></image>
                                     </view>
                                 </view>
                             </view>

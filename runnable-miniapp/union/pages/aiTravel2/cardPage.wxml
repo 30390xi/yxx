@@ -31,7 +31,7 @@
                 <view bindtap="__e" class="line1-right data-v-56c04c3e" data-event-opts="{{[ [ 'tap',[ [ 'showInvitePopup',['$event'] ] ] ] ]}}" wx:if="{{$root.g3}}">
                     <view class="avatar-group data-v-56c04c3e">
                         <image class="avatar-img data-v-56c04c3e" src="{{item.avatarUrl}}" style="{{'z-index:'+3-index+';'}}" wx:for="{{$root.l0}}" wx:key="index"></image>
-                        <image class="avatar-img data-v-56c04c3e" src="https://eshopfile.zhiyousx.com/175749781153832280.png"></image>
+                        <image class="avatar-img data-v-56c04c3e" src="/static/captured/f13026d0dbfa287a.png"></image>
                     </view>
                 </view>
             </view>
@@ -54,7 +54,7 @@
                             <view class="left data-v-56c04c3e">
                                 <text class="data-v-56c04c3e">{{obj.m0}}</text>
                             </view>
-                            <image class="right-img data-v-56c04c3e" src="https://eshopfile.zhiyousx.com/175678052598670074.png"></image>
+                            <image class="right-img data-v-56c04c3e" src="/static/captured/36f8dda50cfd4a0a.png"></image>
                         </view>
                     </view>
                 </view>
@@ -66,26 +66,26 @@
                         <view class="day-content data-v-56c04c3e" wx:if="{{obj.g6}}">
                             <view class="cardBox data-v-56c04c3e" wx:for="{{obj.l2}}" wx:for-index="__i0__" wx:for-item="it" wx:key="id">
                                 <view bindtap="__e" class="cardBox-top data-v-56c04c3e" data-event-opts="{{[ [ 'tap',[ [ 'goSpot',['$0'],[ [ ['dataList','',index],['aiPlanCards','id',it.$orig.id,'scenicId'] ] ] ] ] ] ]}}">
-                                    <view class="card-left data-v-56c04c3e" style="{{'background:'+'url('+(it.$orig.pictureUrl[0]?it.$orig.pictureUrl[0]:'https://eshopfile.zhiyousx.com/175695850936006689.png')+') no-repeat center center / cover'+';'}}"></view>
+                                    <view class="card-left data-v-56c04c3e" style="{{'background:'+'url('+(it.$orig.pictureUrl[0]?it.$orig.pictureUrl[0]:'/static/captured/160e4f1ca51b1767.png')+') no-repeat center center / cover'+';'}}"></view>
                                     <view class="card-right data-v-56c04c3e">
                                         <view class="card-right-title data-v-56c04c3e">{{''+it.$orig.name+''}}<image class="data-v-56c04c3e" src="{{it.m1}}"></image>
                                         </view>
                                         <view class="card-right-time data-v-56c04c3e" wx:if="{{it.$orig.timeSlot}}">
-                                            <image class="data-v-56c04c3e" src="https://eshopfile.zhiyousx.com/175680025446541259.png"></image>{{''+it.$orig.timeSlot+''}}</view>
+                                            <image class="data-v-56c04c3e" src="/static/captured/f5c87f507d057d36.png"></image>{{''+it.$orig.timeSlot+''}}</view>
                                         <view class="card-right-detail data-v-56c04c3e" wx:if="{{it.$orig.reason||it.$orig.price}}">
                                             <view class="content data-v-56c04c3e">
-                                                <image class="data-v-56c04c3e" src="https://eshopfile.zhiyousx.com/175680058086856766.png"></image>
+                                                <image class="data-v-56c04c3e" src="/static/captured/36daf95b6483aa5b.png"></image>
                                                 <text class="data-v-56c04c3e">{{'人均:'+it.$orig.price+'元'+('，'+it.$orig.reason||'')}}</text>
                                             </view>
                                         </view>
                                     </view>
-                                    <image class="goIcon data-v-56c04c3e" src="https://eshopfile.zhiyousx.com/175678052598670074.png" wx:if="{{it.$orig.scenicId}}"></image>
+                                    <image class="goIcon data-v-56c04c3e" src="/static/captured/36f8dda50cfd4a0a.png" wx:if="{{it.$orig.scenicId}}"></image>
                                 </view>
                                 <view bindtap="__e" class="couponbox data-v-56c04c3e" data-event-opts="{{[ [ 'tap',[ ['goCoupon'] ] ] ]}}" wx:if="{{it.$orig.coupon}}">
                                     <view class="coupon-text data-v-56c04c3e">{{'已补贴'+it.$orig.coupon+'元'}}</view>
                                     <view class="coupon-btn data-v-56c04c3e">立即预订</view>
                                 </view>
-                                <image class="couponIcon data-v-56c04c3e" src="https://eshopfile.zhiyousx.com/175835069876974683.png" wx:if="{{it.$orig.coupon}}"></image>
+                                <image class="couponIcon data-v-56c04c3e" src="/static/captured/57bc69c8c741698c.png" wx:if="{{it.$orig.coupon}}"></image>
                             </view>
                         </view>
                     </view>
@@ -125,7 +125,7 @@
             </view>
             <view class="invite-footer data-v-56c04c3e">
                 <view class="msg data-v-56c04c3e">
-                    <image class="msg-icon data-v-56c04c3e" src="https://eshopfile.zhiyousx.com/175747243556313621.png"></image>
+                    <image class="msg-icon data-v-56c04c3e" src="/static/captured/ca4f88ca67366481.png"></image>
                     <view class="msg-text data-v-56c04c3e">最后保存的版本会直接覆盖之前的所有编辑内容，且无法恢复之前的版本。</view>
                 </view>
                 <button bindtap="__e" class="share-btn data-v-56c04c3e" data-event-opts="{{[ [ 'tap',[ [ 'shareToChat',['$event'] ] ] ] ]}}" hoverClass="none" hoverStayTime="0" openType="share">分享至聊天</button>
@@ -135,7 +135,7 @@
     <uni-popup bind:__l="__l" bind:change="__e" class="data-v-56c04c3e vue-ref" data-event-opts="{{[ [ '^change',[ ['handleChange'] ] ] ]}}" data-ref="feedbackDrawer" type="bottom" vueId="6f14160f-7" vueSlots="{{['default']}}">
         <view class="drawer-content data-v-56c04c3e" style="{{'padding-bottom:'+(keyboardHeight?keyboardHeight+'px':'')+';'}}">
             <view class="data-v-56c04c3e">
-                <view class="drawer-title data-v-56c04c3e">本次攻略推荐的内容对您有帮助吗?<image bindtap="__e" class="btn data-v-56c04c3e" data-event-opts="{{[ [ 'tap',[ [ 'submitComment',['$event'] ] ] ] ]}}" src="{{star>0?'https://eshopfile.zhiyousx.com/175758343779519665.png':'https://eshopfile.zhiyousx.com/175254389842185569.png'}}"></image>
+                <view class="drawer-title data-v-56c04c3e">本次攻略推荐的内容对您有帮助吗?<image bindtap="__e" class="btn data-v-56c04c3e" data-event-opts="{{[ [ 'tap',[ [ 'submitComment',['$event'] ] ] ] ]}}" src="{{star>0?'/static/captured/1284269365e67931.png':'/static/captured/f4bc21a3e34c6b2b.png'}}"></image>
                 </view>
                 <view class="star-row data-v-56c04c3e">
                     <u-rate activeColor="#D988FF" allowHalf="false" bind:__l="__l" bind:change="__e" class="data-v-56c04c3e vue-ref" count="{{5}}" data-event-opts="{{[ [ '^change',[ ['changeStar'] ] ] ]}}" data-ref="rate" gutter="40" inactiveColor="#D9D9D9" size="60" vueId="{{'6f14160f-8'+','+'6f14160f-7'}}" wx:if="{{showRate}}"></u-rate>
@@ -150,8 +150,8 @@
     </uni-popup>
     <uni-popup bind:__l="__l" class="data-v-56c04c3e vue-ref" data-ref="giftEnterPopup" maskClick="{{false}}" type="center" vueId="6f14160f-9" vueSlots="{{['default']}}">
         <view class="share-popup data-v-56c04c3e">
-            <image bindtap="__e" class="gift-enter-image data-v-56c04c3e" data-event-opts="{{[ [ 'tap',[ [ 'goGiftEnter',['$event'] ] ] ] ]}}" mode="widthFix" src="https://eshopfile.zhiyousx.com/175827608830675583.png"></image>
-            <image bindtap="__e" class="gift-close-image data-v-56c04c3e" data-event-opts="{{[ [ 'tap',[ [ 'closeGiftEnter',['$event'] ] ] ] ]}}" mode="widthFix" src="https://eshopfile.zhiyousx.com/175827584521593665.png"></image>
+            <image bindtap="__e" class="gift-enter-image data-v-56c04c3e" data-event-opts="{{[ [ 'tap',[ [ 'goGiftEnter',['$event'] ] ] ] ]}}" mode="widthFix" src="/static/captured/4913eb00f159703c.png"></image>
+            <image bindtap="__e" class="gift-close-image data-v-56c04c3e" data-event-opts="{{[ [ 'tap',[ [ 'closeGiftEnter',['$event'] ] ] ] ]}}" mode="widthFix" src="/static/captured/f2274ff443dedfe5.png"></image>
         </view>
     </uni-popup>
 </view>

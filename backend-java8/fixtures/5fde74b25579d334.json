@@ -1,0 +1,575 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941109",
+    "scenicName": "枣园革命旧址",
+    "tag": "这里见证了中国革命新高潮的到来",
+    "level": 5,
+    "cityId": "1320663521644818433",
+    "cityName": "延安",
+    "address": "延安市宝塔区城西北8公里处枣园路",
+    "longitude": "109.421624",
+    "latitude": "36.627887",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 59,
+    "topColour": "#B74D27",
+    "centralColour": "#9A2716",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021062316360311713.png"
+    ],
+    "introduction": "<p>　　枣园革命旧址是中共中央书记处1943年10月至1947年3月所在地。1943年10月，中央书记处成员由杨家岭先后移住这里，继续领导了全党的整风运动和解放区的大生产运动，筹备了中国共产党第七次全国代表大会，实现了抗日民族战争向全国解放战争的历史转折，为粉碎国民党发动的&ldquo;全面内战&rdquo;作了充分准备。</p>\n<p>　　枣园又名延园，院内树木葱郁，绿草如茵，&ldquo;幸福渠&rdquo;横穿园林而过。园林中央坐落着中央书记处礼堂，依山分布着5座独立的院落，分别是毛泽东、朱德、周恩来、刘少奇、任弼时、张闻天、彭德怀等中央领导的旧居。后沟西山下是毛泽东发表《为人民服务》的讲话台和中央社会部旧址。往西三公里处是中央军委三局旧址、展览馆及中央军委三局烈士陵园1953年，枣园革命旧址开始修复，1959年正式对外开放。1961年3月4日，国务院公布为第一批全国重点文物保护单位。1996年被中宣部命名为全国百个爱国主义教育示范基地之一。</p>",
+    "introductionText": "　　枣园革命旧址是中共中央书记处1943年10月至1947年3月所在地。1943年10月，中央书记处成员由杨家岭先后移住这里，继续领导了全党的整风运动和解放区的大生产运动，筹备了中国共产党第七次全国代表大会，实现了抗日民族战争向全国解放战争的历史转折，为粉碎国民党发动的“全面内战”作了充分准备。　　枣园又名延园，院内树木葱郁，绿草如茵，“幸福渠”横穿园林而过。园林中央坐落着中央书记处礼堂，依山分布着5座独立的院落，分别是毛泽东、朱德、周恩来、刘少奇、任弼时、张闻天、彭德怀等中央领导的旧居。后沟西山下是毛泽东发表《为人民服务》的讲话台和中央社会部旧址。往西三公里处是中央军委三局旧址、展览馆及中央军委三局烈士陵园1953年，枣园革命旧址开始修复，1959年正式对外开放。1961年3月4日，国务院公布为第一批全国重点文物保护单位。1996年被中宣部命名为全国百个爱国主义教育示范基地之一。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "18",
+        "name": "红色旅游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "51",
+        "name": "拓展游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026415628289",
+        "contentId": "1418152026403045378",
+        "name": "陕西5A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026361102337",
+        "contentId": "1418152026344325122",
+        "name": "全国红色旅游经典景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "开放时间",
+        "openTimeContent": "全年：8:00-17:30"
+      },
+      {
+        "openTimeTitle": "免费参观",
+        "openTimeContent": "延安枣园旧址凭有效身份证件即可免费参观。"
+      }
+    ],
+    "discountVoList": null,
+    "facilitiesServicesVoList": [
+      {
+        "id": "7",
+        "name": "婴儿车租赁",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (12).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "9",
+        "name": "轮椅租赁",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (16).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "8",
+        "name": "宠物禁止入园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (13).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "56",
+        "name": "讲解器租赁",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016433125149.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "61",
+        "name": "讲解员",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016440410223.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "停车场",
+        "additionalExplainContent": "景区附近停车场，10元/次"
+      },
+      {
+        "additionalExplainTitle": "婴儿车、轮椅租赁",
+        "additionalExplainContent": "游客服务中心提供婴儿车、轮椅租赁服务。"
+      },
+      {
+        "additionalExplainTitle": "语音讲解",
+        "additionalExplainContent": "【延安枣园旧址】微信公众号-智游枣园-全景导览菜单中包含免费语音简介。"
+      },
+      {
+        "additionalExplainTitle": "现场讲解",
+        "additionalExplainContent": "讲解员现场讲解收费参考：30人以下120元/次，30人以上，每多1人加5元。"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p><strong>枣园旧址站</strong></p>\n<p>K13路、K16路、K209路、8路、教育专线</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": [
+      "http://www.360vrpano.com/index.php/Project/viewProject/id/35192.html?from=singlemessage"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "联系电话",
+        "telephone": "0911-2852223"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "服务号",
+        "wxSubscriptionName": "延安枣园旧址",
+        "wxSubscription": "yazyjz"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "2082014645694103553",
+        "outId": "1320579064720941109",
+        "type": 1,
+        "advertName": "枣园旧址 | 云览枣园革命旧址",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021062413572932322.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p style=\"text-align: center;\"><br /><strong>枣园革命旧址</strong></p>\n<p>　　枣园革命旧址是中共中央书记处1943年10月至1947年3月所在地。1943年10月，中央书记处成员由杨家岭先后移住这里，继续领导了全党的整风运动和解放区的大生产运动，筹备了中国共产党第七次全国代表大会，实现了抗日民族战争向全国解放战争的历史转折，为粉碎国民党发动的&ldquo;全面内战&rdquo;作了充分准备。</p>\n<p style=\"text-align: center;\"><strong><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062417525375952.png\" /></strong></p>\n<p style=\"text-align: center;\"><strong>枣园</strong></p>\n<p style=\"text-align: left;\">　　枣园又名延园，院内树木葱郁，绿草如茵，&ldquo;幸福渠&rdquo;横穿园林而过。园林中央坐落着中央书记处礼堂，依山分布着5座独立的院落，分别是毛泽东、朱德、周恩来、刘少奇、任弼时、张闻天、彭德怀等中央领导的旧居。后沟西山下是毛泽东发表《为人民服务》的讲话台和中央社会部旧址。往西三公里处是中央军委三局旧址、展览馆及中央军委三局烈士陵园1953年，枣园革命旧址开始修复，1959年正式对外开放。1961年3月4日，国务院公布为第一批全国重点文物保护单位。1996年被中宣部命名为全国百个爱国主义教育示范基地之一。</p>\n<p style=\"text-align: center;\"><strong><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062417512269920.jpg\" /></strong></p>\n<p style=\"text-align: center;\"><strong>五大书记铜像</strong></p>\n<p>　　五大书记铜像落成于2006年1月13日，为庆祝党中央和毛泽东进驻延安城69周年，铜像由北京军事博物馆程永贤主持设计，按照与真人1:1.2倍的比例设计而成，比真人略显高大一些。铜像高2.2米、宽4.5米、重约3吨。五位书记的姿势都是昂首挺胸、阔步向前，寓意着中国革命由延安走向胜利。</p>\n<p style=\"text-align: center;\"><strong><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062417530529937.png\" /></strong></p>\n<p style=\"text-align: center;\"><strong>书记处礼堂</strong></p>\n<p>　　小礼堂是中共中央书记处的会议室，也是俱乐部，毛泽东去重庆谈判的决定就是在这里作出的。抗日战争胜利后，国内形势和阶级关系发生了急剧的变化，蒋介石为了争取时间、部署内战，便打出&ldquo;和谈&rdquo;的幌子，于1945年8月14日、20日和23日，三次发出电报，邀请毛泽东去重庆谈判。蒋介石邀请毛泽东去重庆谈判的决定，很快在延安传开了，同志们非常担心毛泽东同志的安全，有的说：&ldquo;这是蒋介石摆的&lsquo;鸿门宴&rsquo;，没安好心。&rdquo;有的说：&ldquo;蒋介石要是有和平诚意就交到延安来谈。&rdquo;有的还派代表到中央办公厅去请求，不要让毛主席去重庆。在那些日子里，毛泽东多次召集书记处的同志在这里开会，研究和谈方针。毛泽东指出：&ldquo;为了尽可能争取和平，揭露美蒋阴谋，团结和教育广大人民，我们应该去。如果我们不去，就恰好中了他们的诡计，他们正希望我们不去，借此说我们拒绝和平，将内战的责任强加在我们身上。&rdquo;8月25日，中共中央发出了《对目前局势的宣言》，提出了和平、民主、团结的口号。并决定派毛泽东、周恩来、王若飞为中共代表团赴重庆谈判。8月28日，毛泽东一行在国民党代表张治中先生及美驻华大使赫尔利陪同下，离开延安，抵达重庆。毛泽东同志抵达重庆，完全出乎蒋介石的意料，使其在政治上陷于被动，国共双方经过艰辛的谈判，于10月10日签订了《双十协定》。</p>\n<p style=\"text-align: center;\"><strong><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062417544871265.png\" /></strong></p>\n<p style=\"text-align: center;\"><strong>机要局</strong></p>\n<p>　　1935年10月，中央红军长征到达陕北，1937年1月，中央机要科随中央进驻延安，邓颖超、陈琮英、刘英、李金德先后担任科长，1942年4月4日，为加强和统一领导机要工作，中央决定成立机要管理委员会，康生、叶剑英、王首道、李质忠担任委员，同时，组建中央机要局，康生兼任局长，李质忠任副局长，下辖中央机要科、军委机要科、情报机要科。1943年3月，为贯彻精兵简政的政策，中央决定取消中央机要局、军委机要科、情报机要科、合并于中央机要科，李质忠任科长，1944年10月改称中央机要处，中央机要机构的主要职责是保障党中央和中央军委与各抗日战场和地下党组织之间的密码通信联系，机密、及时、准确地传发党中央和中央军委的指令及作战部署。1947年3月国民党军队对陕甘宁边区发动重点进攻，中央机要处随中央机关转移至晋西北，部分机要人员随中央转战陕北。1948年4月，中央机要处随中央进驻河北省平山县西柏坡。</p>\n<p style=\"text-align: center;\"><strong><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062417545731008.png\" /></strong></p>\n<p style=\"text-align: center;\"><strong>幸福渠</strong></p>\n<p>　　1940年4月29日，有边区建设厅工程师丁仲文设计，群众集资与政府资助修筑的裴庄渠简称并正式放水。渠长6公里，可灌溉枣园周围五个村庄1400亩地。大生产运动中，枣园乡群众响应党中央&ldquo;自己动手，兴修水利，发展生产&rdquo;的号召，资源成立了水利合作社，集资修渠。修渠过程中，中央机关和附近的部队、学校的工作人员都参加了劳动。水渠修成后，使靠天吃饭的旱地变成了水浇地，庄稼连年丰收，给群众带来了幸福的生活。因此，群众称它为幸福渠。</p>\n<p style=\"text-align: center;\"><strong><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062417545756595.png\" /></strong></p>\n<p style=\"text-align: center;\"><strong>作战室</strong></p>\n<p>　　1943年，中共中央书记处和毛泽东迁往枣园办公后中央军委作战部第一局派出精干参谋在枣园开设作战值班室，负责人为王政柱。枣园作战室积极收集日军和国民党情报，分析军事斗争形势，研究战局发展态势，编辑作战指令，全力为中共中央和中央军委了解全国战况、制定战略部署提供依据，为抗日战争和解放战争的胜利作出重要贡献。1947年3月，国民党向陕甘宁边区发动了重点进攻，中共中央和中央军委主动撤离延安，枣园作战室也完成其历史使命，工作人员遵照军委决定，分别随中央前委、工委、后委等转战陕北，执行新的任务。</p>\n<p style=\"text-align: center;\"><strong><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062417545776060.png\" /></strong></p>\n<p style=\"text-align: center;\"><strong>行政办公室</strong></p>\n<p>　　中央办公厅行政处成立于1943年3月，处长邓洁。1945年9月，中央决定设立行政委员会，行政委员会委员有邓洁、曾三、李质忠、许子祯、唐彬、赖祖烈。主任先后为邓洁、曾三。下设枣园办公室，主任师哲，行政处处长邓洁，秘书处处长曾三。主要负责中央书记日常行政事务，完成书记处书记委托事宜。1947年3月，国民党向陕甘宁边区发动重点进攻，行政处跟随党中央撤离延安，转战陕北。1948年3月，前往华北。</p>\n<p style=\"text-align: center;\"><strong><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062417545787732.png\" /></strong></p>\n<p style=\"text-align: center;\"><strong>任弼时旧居</strong></p>\n<p>　　1937年3月16日，任弼时到达延安，洛川会议后，任八路军总政治部主任，出师华北。1938年3月回国后，参加书记处工作，兼任中央秘书长，筹备&ldquo;七大&rdquo;，负责陕甘宁边区与晋西北的工作。1943年3月政治局会议后，进入中共核心领导集体，为中央机关正规化建设和边区经济的发展做出了突出的贡献<br />1947年3月12日，任弼时由这里撤离延安，转战陕北，担任中央直属纵队司令。</p>\n<p><strong><img class=\"wscnph\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://eshopfile.zhiyousx.com/2021062417574270299.jpg\" /></strong></p>\n<p style=\"text-align: center;\"><strong><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062417574268373.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062417574201298.jpg\" /></strong></p>\n<p style=\"text-align: center;\"><strong>周恩来旧居</strong></p>\n<p>　　1944年12月，周恩来由杨家岭迁到这里。为商谈废除一党专政，成立联合政府等问题，曾九次奔波于延安和国统区之间。抗日战争胜利后，和王若飞陪同毛泽东赴重庆谈判，经43天的艰苦斗争，国共双方签订了《双十协定》。1946年11月，由于国民党召开伪国大，一手关闭了谈判的大门，周恩来率中共代表团由南京撤回延安。<br />1947年3月13日，移住王家坪。18日，同毛泽东一起撤离延安，转战陕北。</p>\n<p><strong><img class=\"wscnph\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://eshopfile.zhiyousx.com/2021062417560165550.jpg\" /></strong></p>\n<p style=\"text-align: center;\"><strong><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062417560111459.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062417560183030.jpg\" /></strong></p>\n<p style=\"text-align: center;\"><strong>张闻天旧居</strong></p>\n<p>　　党中央进驻延安后，张闻天曾先后在凤凰山麓、兰家坪、杨家岭居住。曾任中共中央书记处书记、中宣部部长、干部教育部部长、马列学院院长等职。延安整风运动中，他带领调查团赴陕北绥米地区和晋西北农村进行社会调查，写了一批很有价值的报告。再次居住期间，主要从事理论与政策研究工作，著有《中国葛宁纪事》等书。<br />1945年10月20日，由此去东北工作。</p>\n<p style=\"text-align: center;\"><strong><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062417564212431.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062417564273280.jpg\" /></strong></p>\n<p style=\"text-align: center;\"><strong><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062417564212200.jpg\" /></strong></p>\n<p style=\"text-align: center;\"><strong>毛泽东旧居</strong></p>\n<p>　　1943年10月，毛泽东由杨家岭迁到这里。在此，继续领导了延安整风运动和大生产运动，主持召开了党的六届七中全会和第七次全国代表大会，被选为中央委员会主席，写了《学习和时局》、《论联合政府》、《抗日战争胜利后的时局和我们的方针》等著作。抗战胜利后，为争取和平的民主，避免内战，亲赴重庆同蒋介石谈判，坚持原则的坚定性和策略的灵活性，为实现又一次历史转折争得了主动权。<br />1945年12月，移住王家坪。</p>\n<p><strong><img class=\"wscnph\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://eshopfile.zhiyousx.com/2021062417570384873.jpg\" /></strong></p>\n<p style=\"text-align: center;\"><strong><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062417570309875.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062417570387672.jpg\" /></strong></p>\n<p style=\"text-align: center;\"><strong>朱德旧居</strong></p>\n<p>　　1945年8月，朱德由王家坪迁到这里。在抗日斗争向国内解放战争转变的历史关头，他肩负中央军委副主席、解放军总司令的重任，协助毛泽东处理军机大事，签发了《命令冈村宁次投降》等指示、命令。1947年元旦，发表《一九四七年十大任务》的广播词。院中有一石刻棋盘，工作之余常与工作人员对弈。年届六旬不觉老，被人们誉为&ldquo;青年领袖&rdquo;。<br />1947年3月12日，由此撤离延安。枣林沟会议后任中央工委副书记，前往华北地区。</p>\n<p><strong><img class=\"wscnph\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://eshopfile.zhiyousx.com/2021062417585915073.jpg\" /></strong></p>\n<p style=\"text-align: center;\"><strong><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062417585824661.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062417585981991.jpg\" /></strong></p>\n<p style=\"text-align: center;\"><strong>刘少奇旧居</strong></p>\n<p>　　1943年1月，刘少奇由杨家岭迁到这里。他协助毛泽东领导整风运动，参加了党的六届七中全会，为主席团成员。在&ldquo;七大&rdquo;，作了《关于修改党章的报告》，对中国化的马克思主义&mdash;&mdash;毛泽东思想作了系统的阐述。毛泽东赴重庆谈判期间，他主持中央工作，根据时局变化，提出了&ldquo;向北发展，向南防御&rdquo;的战略方针，为建立巩固的东北根据地，发挥了重大作用。<br />1947年3月12日，撤离延安。枣林沟会议后，任中央工作委员会书记，前往华北地区。</p>\n<p style=\"text-align: center;\"><strong><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062417593658031.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062417593601312.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062417593613474.jpg\" /></strong></p>\n<p style=\"text-align: center;\"><strong>彭德怀旧居</strong></p>\n<p>　　彭德怀是1943年9月从前线回到延安，10月由杨家岭移住枣园。彭德怀再次居住期间，积极协助毛泽东、朱德等执惠华北战场，并根据中共中央的战略方针，代表中央军委起草了许多重要电文。1945年6月，在中共七大会上，被选举为中共中央军委副主席兼总参谋长。在蒋介石发动全面内战后，彭德怀与中央军委制定了保卫延安的战略部署，挫败了国民党突袭延安的阴谋，为粉粹国民党军队对陕甘宁边区的重点进攻做了大量的准备工作。1947年3月2日，彭德怀为方便与毛泽东、朱德等研究部署党中央西北战争的作战方针，从枣园移住王家坪。</p>\n<p><strong><img class=\"wscnph\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://eshopfile.zhiyousx.com/2021062418000866972.jpg\" /></strong></p>\n<p style=\"text-align: center;\"><strong><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062418000872856.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062418000847256.jpg\" /></strong></p>\n<p style=\"text-align: center;\"><strong>王稼祥旧居</strong></p>\n<p>　　从一九四三年春季到一九四四年春季，王稼祥同志在此居住。王稼祥同志从中共六届六中全会后，即担任中共中央军委副主席、军委总政治部主任，中央华北华中工作委员会主任。王稼祥协助毛泽东主持中央军委日常工作。一九四一年夏，王稼祥由王家坪前往杨家岭。在整风运动期间，王稼祥先后主持起草了《一九四一年十一月七日中央军委关于抗日根据地军事建设的指示》、《一九四二年中共中央关于对待原四方面军干部态度问题之指示》、《一九四二年九月一日，中共中央关于统一抗日根据地党的领导及调整各组织间关系的决定》等重要文件，为增强全党全军的团结、加强人民军队的建设发挥了重要的作用。<br />　　由于王稼祥超负荷工作，到一九四三年二月，他的带伤性肠胃病发作，加重到了不能再带病工作的地步。三月十一日，中共中央书记处会议听取了中共中央副秘书长李富春关于医生对王稼祥、陈云会诊情形的通报后做出决定，王稼祥、陈云因病休息三个月。随后，王稼祥由杨家岭迁往枣园。王稼祥夫人朱仲丽的工作也由杨嘉玲医务所调到枣园医务所监管照料王稼祥的治疗休养。王稼祥在休养期间仍坚持阅读文件、电报和报刊。<br />　　六月下旬的一天下午，毛泽东来到王稼祥住处对他说：&ldquo;党诞生二十二年的日子快到了，请你写篇纪念党的生日的文章。&rdquo;王家祥询问应该从哪些方面写。毛泽东说：&ldquo;二十二年来的历史你都知道，就从总结经验，再针对目前党内思想上存在的一些问题写吧。&rdquo;此后约一周内忙着翻阅书刊查找资料、思考问题不顾病体，几乎每晚都要工作。到翌日凌晨两三点钟。<br />七月五日文章写成，七月八日，延安解放日报头版刊载王稼祥的这篇文章《中国共产党与中国民族解放的道路纪念中国共产党二十二周年与抗战六周年》，文章第一次提出了毛泽东思想的科学概念。指出中国民族解放整个过程中，过去、现在和未来的正确道路，就是毛泽东同志的思想，就是毛泽东同志在其著作中与实践中所指出的道路，毛泽东思想就是中国的马克思列宁主义，中国的布尔什维主义中国的共产主义。中国共产党从诞生以后，便积极的参加了中国民族解放斗争二十二年如一日。其中参加了一九二五至一九二七年大革命，苏维埃运动，与最近六年来的抗日战争，中国共产党便在这些反帝反封建的斗争中壮大起来，毛泽东思想也是在三大革命斗争中生长起来、成熟起来的。中国共产主义毛泽东思想不仅在和中国民族解放的斗争中生长起来，并且是在和共产党内部错误思想的斗争中成熟起来的。中国共产主义、毛泽东思想便是马克思列宁主义与中国革命运动实际经验相结合的结果。这篇文章成为中国共产党历史的一篇重要文献，后来编入王稼祥选集。<br />　　一九四四年春，王稼祥由枣园前往王家坪继续治疗与休养。</p>\n<p><img class=\"wscnph\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://eshopfile.zhiyousx.com/2021062418003703568.jpg\" /></p>\n<p><img class=\"wscnph\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://eshopfile.zhiyousx.com/2021062418003696986.jpg\" /><img class=\"wscnph\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://eshopfile.zhiyousx.com/2021062418003787605.jpg\" /></p>\n<p style=\"text-align: center;\">来源：枣园旧址</p>\n<p style=\"text-align: center;\">部分图片来源自网络</p>\n<p style=\"text-align: center;\">版权归原作者所有</p>\n<p style=\"text-align: center;\">若有侵权请联系删除</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": "旧址景点",
+    "contentResourcesDtoList": [
+      {
+        "id": "2082014645631188994",
+        "resourcesId": "1322070336664264706",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062317522462965.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-07-28 16:05:48",
+        "updateTime": "2026-07-28 16:05:48",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014645635383298",
+        "resourcesId": "1322070336664264706",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062317532482040.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-07-28 16:05:48",
+        "updateTime": "2026-07-28 16:05:48",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014645635383299",
+        "resourcesId": "1322070336664264706",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062317525225059.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-07-28 16:05:48",
+        "updateTime": "2026-07-28 16:05:48",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014645639577601",
+        "resourcesId": "1322070336664264706",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062317523836328.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-07-28 16:05:48",
+        "updateTime": "2026-07-28 16:05:48",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014645639577602",
+        "resourcesId": "1322070336664264706",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062317524640463.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2026-07-28 16:05:48",
+        "updateTime": "2026-07-28 16:05:48",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014645643771906",
+        "resourcesId": "1322070336664264706",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062317523195287.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2026-07-28 16:05:48",
+        "updateTime": "2026-07-28 16:05:48",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014645647966209",
+        "resourcesId": "1322070336664264706",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062317533406765.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2026-07-28 16:05:48",
+        "updateTime": "2026-07-28 16:05:48",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014645647966210",
+        "resourcesId": "1322070336664264706",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062317525924255.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2026-07-28 16:05:48",
+        "updateTime": "2026-07-28 16:05:48",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014645652160514",
+        "resourcesId": "1322070336664264706",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/017c6346-8096-4cb3-8c3f-457210e1e0d9-20201030145823.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": null,
+        "createTime": "2026-07-28 16:05:48",
+        "updateTime": "2026-07-28 16:05:48",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014645656354817",
+        "resourcesId": "1322070336664264706",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2a5ce0b4-f55b-4a9c-ab80-be37962a3ce5-20201030145817.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": null,
+        "createTime": "2026-07-28 16:05:48",
+        "updateTime": "2026-07-28 16:05:48",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1574974899180212226",
+      "rankingId": null,
+      "indexInRanking": 12,
+      "rankingName": "陕西免费景区人气榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1455724365810343938",
+        "rankingId": "1455724367274156033",
+        "indexInRanking": null,
+        "rankingName": "延安必逛景点人气排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "2082014645668937730",
+        "scenicSpotId": "1320579064720941109",
+        "contentModuleName": "旧址景点",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1407608492046462978",
+            "type": 5,
+            "title": "五大书记铜像",
+            "subtitle": "党中央和毛主席进驻延安城69周年的纪念",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062315542178542.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1407622013916327938",
+            "type": 5,
+            "title": "书记处礼堂",
+            "subtitle": "毛主席在这里决定：去重庆！",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062316481920864.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1407622745793015810",
+            "type": 5,
+            "title": "机要局",
+            "subtitle": "中共中央机要机构诞生的地方",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062316530669019.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1407623373437054978",
+            "type": 5,
+            "title": "幸福渠",
+            "subtitle": "给群众带来幸福的水渠",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062316534192509.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1407624768756166658",
+            "type": 5,
+            "title": "作战室",
+            "subtitle": "这里为战争的胜利作出了重要贡献",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062418161076082.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1407625282814259201",
+            "type": 5,
+            "title": "行政办公室",
+            "subtitle": "穿过蓝色木门踏寻红色历史",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062317020401048.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1407633339552149505",
+            "type": 5,
+            "title": "居住区",
+            "subtitle": "毛主席、周总理住过的窑洞",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062317351236539.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

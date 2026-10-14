@@ -1,0 +1,23 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "2033803979330289666",
+      "resourcesId": "1321739593387892737",
+      "title": "川陕革命根据地纪念馆",
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062114580824631.mp4",
+      "coverImage": "https://eshopfile.zhiyousx.com/2021062114574960768.jpg",
+      "videoId": null,
+      "resourcesType": 2,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2026-03-17 15:13:49",
+      "updateTime": "2026-03-17 15:13:49",
+      "createBy": "2014584865157611522",
+      "updateBy": "2014584865157611522",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

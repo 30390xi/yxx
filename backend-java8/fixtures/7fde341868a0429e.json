@@ -1,0 +1,320 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064687386649",
+    "scenicName": "云集生态园",
+    "tag": "名副其实的天然“大氧吧”",
+    "level": 4,
+    "address": "咸阳市永寿县甘井镇",
+    "longitude": "108.0163370000",
+    "latitude": "34.7762560000",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#247CB1",
+    "centralColour": "#0D4A6F",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021081616573890830.jpg"
+    ],
+    "introduction": "<p>　　永寿云集生态园以现代农业产业化为主导，以乡村休闲度假旅游为展翼，是一处新型农业生态园区。距西安市110公里，距永寿县城20公里，交通方便、地理位置优越。园内森林茂密，植被丰富，拥有充足的富氧资源，拥有充足的富氧资源，是名副其实的天然\"大氧吧\"。云集生态园自2011年建园以来，先后投入巨资兴建了一大批现代农业设施，确定了以柿子优种选育及深加工为主的现代农业产业链发展方向。充分利用\"自然与艺术结合、传统与现代结合、黄土与生态结合、文化与科技结合\"的艺术手法，采用园林手法布景，展示黄土高原上的自然景观、风土民俗、书院文化、现代农业与瓜果蔬菜，最终建成集吃、住、游、娱、摘、购为一体，多元化的休闲观光、旅游胜地。</p>\n<p>&nbsp;</p>",
+    "introductionText": "　　永寿云集生态园以现代农业产业化为主导，以乡村休闲度假旅游为展翼，是一处新型农业生态园区。距西安市110公里，距永寿县城20公里，交通方便、地理位置优越。园内森林茂密，植被丰富，拥有充足的富氧资源，拥有充足的富氧资源，是名副其实的天然\"大氧吧\"。云集生态园自2011年建园以来，先后投入巨资兴建了一大批现代农业设施，确定了以柿子优种选育及深加工为主的现代农业产业链发展方向。充分利用\"自然与艺术结合、传统与现代结合、黄土与生态结合、文化与科技结合\"的艺术手法，采用园林手法布景，展示黄土高原上的自然景观、风土民俗、书院文化、现代农业与瓜果蔬菜，最终建成集吃、住、游、娱、摘、购为一体，多元化的休闲观光、旅游胜地。\n",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "51",
+        "name": "拓展游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": null,
+    "discountVoList": [
+      {
+        "peopleType": "老年人",
+        "limit": "65周岁（含）以上凭老年证或身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米（含）以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭残疾证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "现役军人",
+        "limit": "凭军官证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "陕西公安民警",
+        "limit": "凭陕西公安警证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "导游",
+        "limit": "凭导游证",
+        "discount": "5.0折"
+      },
+      {
+        "peopleType": "市民",
+        "limit": "永寿县居民凭身份证",
+        "discount": "5.0折"
+      },
+      {
+        "peopleType": "全日制大中小学生",
+        "limit": "凭学生证",
+        "discount": "5.0折"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "029-37860600"
+      },
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "029-37860601"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1427193709962833921",
+        "resourcesId": "1427122690065543169",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021081612130108051.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2021-08-16 17:01:11",
+        "updateTime": "2021-08-16 17:01:11",
+        "createBy": "1427085429085155330",
+        "updateBy": "1427085429085155330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1427193709962833922",
+        "resourcesId": "1427122690065543169",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021081612110936330.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2021-08-16 17:01:11",
+        "updateTime": "2021-08-16 17:01:11",
+        "createBy": "1427085429085155330",
+        "updateBy": "1427085429085155330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1427193709967028226",
+        "resourcesId": "1427122690065543169",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021081612102978650.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2021-08-16 17:01:11",
+        "updateTime": "2021-08-16 17:01:11",
+        "createBy": "1427085429085155330",
+        "updateBy": "1427085429085155330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1427193709967028227",
+        "resourcesId": "1427122690065543169",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021081612141683668.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2021-08-16 17:01:11",
+        "updateTime": "2021-08-16 17:01:11",
+        "createBy": "1427085429085155330",
+        "updateBy": "1427085429085155330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1427193709971222529",
+        "resourcesId": "1427122690065543169",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021081614165423769.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2021-08-16 17:01:11",
+        "updateTime": "2021-08-16 17:01:11",
+        "createBy": "1427085429085155330",
+        "updateBy": "1427085429085155330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1427193709971222530",
+        "resourcesId": "1427122690065543169",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021081614170591745.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2021-08-16 17:01:11",
+        "updateTime": "2021-08-16 17:01:11",
+        "createBy": "1427085429085155330",
+        "updateBy": "1427085429085155330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1427193709975416834",
+        "resourcesId": "1427122690065543169",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021081614171721122.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2021-08-16 17:01:11",
+        "updateTime": "2021-08-16 17:01:11",
+        "createBy": "1427085429085155330",
+        "updateBy": "1427085429085155330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1427193709975416835",
+        "resourcesId": "1427122690065543169",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021081614173142620.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2021-08-16 17:01:11",
+        "updateTime": "2021-08-16 17:01:11",
+        "createBy": "1427085429085155330",
+        "updateBy": "1427085429085155330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1427193709979611138",
+        "resourcesId": "1427122690065543169",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021081614174995134.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": null,
+        "createTime": "2021-08-16 17:01:11",
+        "updateTime": "2021-08-16 17:01:11",
+        "createBy": "1427085429085155330",
+        "updateBy": "1427085429085155330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455060076934045697",
+      "rankingId": null,
+      "indexInRanking": 11,
+      "rankingName": "咸阳亲子游景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

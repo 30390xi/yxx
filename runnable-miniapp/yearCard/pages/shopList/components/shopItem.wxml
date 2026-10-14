@@ -11,7 +11,7 @@
             <view class="tips data-v-e5641d3c" wx:if="{{info.scenicDesc}}">{{info.scenicDesc||''}}</view>
         </view>
         <view class="footer data-v-e5641d3c">
-            <view bindtap="__e" class="tag tag-img data-v-e5641d3c" data-event-opts="{{[ [ 'tap',[ [ 'openInstruction',['$event'] ] ] ] ]}}" wx:if="{{info.useDesc}}">使用须知<image class="data-v-e5641d3c" src="https://eshopfile.zhiyousx.com/2023102614083173967.png"></image>
+            <view bindtap="__e" class="tag tag-img data-v-e5641d3c" data-event-opts="{{[ [ 'tap',[ [ 'openInstruction',['$event'] ] ] ] ]}}" wx:if="{{info.useDesc}}">使用须知<image class="data-v-e5641d3c" src="/static/captured/89c4bac08bebdaed.png"></image>
             </view>
             <view class="garden-box data-v-e5641d3c" wx:if="{{info.needCreateOrder===1}}">
                 <view class="garden-box-left data-v-e5641d3c">
@@ -47,13 +47,13 @@
                         </block>
                     </block>
                 </view>
-                <image class="garden-box-center data-v-e5641d3c" src="{{info.useTimesLimit===1&&info.totalTimes===info.appointmentNum-info.refundNum||info.saleStatus===0?'https://eshopfile.zhiyousx.com/2023111414332394613.png':'https://eshopfile.zhiyousx.com/2023102810394679388.png'}}"></image>
+                <image class="garden-box-center data-v-e5641d3c" src="{{info.useTimesLimit===1&&info.totalTimes===info.appointmentNum-info.refundNum||info.saleStatus===0?'/static/captured/8b3d88ff49356b3c.png':'/static/captured/1fb7afb0befa577c.png'}}"></image>
                 <view bindtap="__e" class="{{['data-v-e5641d3c','garden-box-right',info.useTimesLimit===1&&info.totalTimes===info.appointmentNum-info.refundNum||info.saleStatus===0?'disabled':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'jumpReservation',['$event'] ] ] ] ]}}">
                     <view class="content data-v-e5641d3c">
                         <view class="data-v-e5641d3c">预约</view>
                         <view class="data-v-e5641d3c">入园</view>
                     </view>
-                    <image class="data-v-e5641d3c" src="https://eshopfile.zhiyousx.com/2023102811112062702.png"></image>
+                    <image class="data-v-e5641d3c" src="/static/captured/5cb579c438abd717.png"></image>
                 </view>
             </view>
             <view bindtap="__e" class="garden-box data-v-e5641d3c" data-event-opts="{{[ [ 'tap',[ [ 'jumpEntry',['$event'] ] ] ] ]}}" wx:else>
@@ -61,8 +61,8 @@
                     <view class="garden-box-left data-v-e5641d3c">
                         <view class="text-origin font-24 data-v-e5641d3c">未使用</view>
                     </view>
-                    <image class="garden-box-center data-v-e5641d3c" src="https://eshopfile.zhiyousx.com/2023102810394679388.png"></image>
-                    <view class="garden-box-right p-right-10 data-v-e5641d3c">{{'免'+info.totalTimes+'次'}}<image class="data-v-e5641d3c" src="https://eshopfile.zhiyousx.com/2023102811112062702.png"></image>
+                    <image class="garden-box-center data-v-e5641d3c" src="/static/captured/1fb7afb0befa577c.png"></image>
+                    <view class="garden-box-right p-right-10 data-v-e5641d3c">{{'免'+info.totalTimes+'次'}}<image class="data-v-e5641d3c" src="/static/captured/5cb579c438abd717.png"></image>
                     </view>
                 </block>
                 <block wx:else>
@@ -71,8 +71,8 @@
                             <view class="data-v-e5641d3c">余<text class="data-v-e5641d3c">{{info.totalTimes-info.appointmentNum+info.refundNum}}</text>次</view>
                             <view class="data-v-e5641d3c">{{'已约'+info.appointmentNum-info.refundNum+'次'}}</view>
                         </view>
-                        <image class="garden-box-center data-v-e5641d3c" src="https://eshopfile.zhiyousx.com/2023102810394679388.png"></image>
-                        <view class="garden-box-right data-v-e5641d3c">{{'免'+info.totalTimes+'次'}}<image class="data-v-e5641d3c" src="https://eshopfile.zhiyousx.com/2023102811112062702.png"></image>
+                        <image class="garden-box-center data-v-e5641d3c" src="/static/captured/1fb7afb0befa577c.png"></image>
+                        <view class="garden-box-right data-v-e5641d3c">{{'免'+info.totalTimes+'次'}}<image class="data-v-e5641d3c" src="/static/captured/5cb579c438abd717.png"></image>
                         </view>
                     </block>
                     <block wx:else>
@@ -80,8 +80,8 @@
                             <view class="garden-box-left data-v-e5641d3c">
                                 <view class="font-24 data-v-e5641d3c">已用完</view>
                             </view>
-                            <image class="garden-box-center data-v-e5641d3c" src="https://eshopfile.zhiyousx.com/2023111414332394613.png"></image>
-                            <view class="garden-box-right p-right-10 disabled data-v-e5641d3c">{{'免'+info.totalTimes+'次'}}<image class="data-v-e5641d3c" src="https://eshopfile.zhiyousx.com/2023102811112062702.png"></image>
+                            <image class="garden-box-center data-v-e5641d3c" src="/static/captured/8b3d88ff49356b3c.png"></image>
+                            <view class="garden-box-right p-right-10 disabled data-v-e5641d3c">{{'免'+info.totalTimes+'次'}}<image class="data-v-e5641d3c" src="/static/captured/5cb579c438abd717.png"></image>
                             </view>
                         </block>
                         <block wx:else>
@@ -89,16 +89,16 @@
                                 <view class="garden-box-left data-v-e5641d3c">
                                     <view class="text-origin font-24 data-v-e5641d3c">未使用</view>
                                 </view>
-                                <image class="garden-box-center data-v-e5641d3c" src="https://eshopfile.zhiyousx.com/2023102810394679388.png"></image>
-                                <view class="garden-box-right p-right-10 data-v-e5641d3c">不限次<image class="data-v-e5641d3c" src="https://eshopfile.zhiyousx.com/2023102811112062702.png"></image>
+                                <image class="garden-box-center data-v-e5641d3c" src="/static/captured/1fb7afb0befa577c.png"></image>
+                                <view class="garden-box-right p-right-10 data-v-e5641d3c">不限次<image class="data-v-e5641d3c" src="/static/captured/5cb579c438abd717.png"></image>
                                 </view>
                             </block>
                             <block wx:else>
                                 <view class="garden-box-left data-v-e5641d3c">
                                     <view class="data-v-e5641d3c">{{'已约'+info.appointmentNum-info.refundNum+'次'}}</view>
                                 </view>
-                                <image class="garden-box-center data-v-e5641d3c" src="https://eshopfile.zhiyousx.com/2023102810394679388.png"></image>
-                                <view class="garden-box-right p-right-10 data-v-e5641d3c">不限次<image class="data-v-e5641d3c" src="https://eshopfile.zhiyousx.com/2023102811112062702.png"></image>
+                                <image class="garden-box-center data-v-e5641d3c" src="/static/captured/1fb7afb0befa577c.png"></image>
+                                <view class="garden-box-right p-right-10 data-v-e5641d3c">不限次<image class="data-v-e5641d3c" src="/static/captured/5cb579c438abd717.png"></image>
                                 </view>
                             </block>
                         </block>

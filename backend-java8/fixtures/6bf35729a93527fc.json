@@ -1,0 +1,55 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "1434789020663132161",
+      "resourcesId": "1321731144776179714",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/ed734ecc-e304-4828-9f24-4616f67bc6a5-20201029163022.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2021-09-06 16:02:14",
+      "updateTime": "2021-09-06 16:02:14",
+      "createBy": "1344113100973973505",
+      "updateBy": "1344113100973973505",
+      "isDeleted": 0
+    },
+    {
+      "id": "1434789020663132162",
+      "resourcesId": "1321731144776179714",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/8b271256-7bc9-4f0b-9044-83de22ed32b6-20201029163028.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 2,
+      "describe": null,
+      "createTime": "2021-09-06 16:02:14",
+      "updateTime": "2021-09-06 16:02:14",
+      "createBy": "1344113100973973505",
+      "updateBy": "1344113100973973505",
+      "isDeleted": 0
+    },
+    {
+      "id": "1434789020663132163",
+      "resourcesId": "1321731144776179714",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/247bee1a-8efb-4112-9d7e-3cb57138e4ae-20201029163033.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 3,
+      "describe": null,
+      "createTime": "2021-09-06 16:02:14",
+      "updateTime": "2021-09-06 16:02:14",
+      "createBy": "1344113100973973505",
+      "updateBy": "1344113100973973505",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

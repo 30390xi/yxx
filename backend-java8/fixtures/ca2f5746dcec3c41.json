@@ -1,0 +1,479 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064188264497",
+    "scenicName": "乐华恒业欢乐世界",
+    "tag": "充满激情、动感和时尚的欢乐国度",
+    "level": 4,
+    "address": "西安市西咸新区泾河新城沣泾大道东段1号",
+    "longitude": "108.9237430000",
+    "latitude": "34.4809550000",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#793B6E",
+    "centralColour": "#5F5095",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021062314152264650.jpg",
+      "https://eshopfile.zhiyousx.com/301-20201028173554.jpg",
+      "https://eshopfile.zhiyousx.com/311-20201028173559.jpg",
+      "https://eshopfile.zhiyousx.com/391-20201028173608.jpg"
+    ],
+    "introduction": "<p>　　生活不止眼前的波澜不惊，偶尔也需要惊心动魄。作为国内首个过山车主题公园，乐华欢乐世界拥有各种不同类型的过山车和多项刺激的游乐项目，及亚洲最长、速度最快的&ldquo;闪电&rdquo;过山车，在冲上云霄的瞬间，吓跑三千烦恼丝！激情澎湃后，多种互动游戏更能使你感到心灵的升华。假日闲暇，和小伙伴一起进入这个冒险者的乐园，接受挑战，寻回自我。</p>",
+    "introductionText": "　　生活不止眼前的波澜不惊，偶尔也需要惊心动魄。作为国内首个过山车主题公园，乐华欢乐世界拥有各种不同类型的过山车和多项刺激的游乐项目，及亚洲最长、速度最快的“闪电”过山车，在冲上云霄的瞬间，吓跑三千烦恼丝！激情澎湃后，多种互动游戏更能使你感到心灵的升华。假日闲暇，和小伙伴一起进入这个冒险者的乐园，接受挑战，寻回自我。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "13",
+        "name": "游乐场",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "15",
+        "name": "高空景观",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "<section style=\"max-width: 100%; box-sizing: border-box;\" data-pm-slice=\"0 0 []\">\n<section style=\"padding: 0px; max-width: 100%; box-sizing: border-box; overflow-wrap: break-word; -webkit-tap-highlight-color: transparent; outline: 0px; color: #3e3e3e; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: 0.544px; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: 'PingFang SC', system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif;\">\n<section style=\"padding: 0px; max-width: 100%; box-sizing: border-box; overflow-wrap: break-word; -webkit-tap-highlight-color: transparent; outline: 0px; color: #3e3e3e; text-align: left;\">\n<section style=\"max-width: 100%; margin: 10px 0px; box-sizing: border-box;\">\n<section style=\"padding: 0px; max-width: 100%; box-sizing: border-box; overflow-wrap: break-word; -webkit-tap-highlight-color: transparent; outline: 0px; text-align: center; flex-flow: row;\">\n<section style=\"flex-direction: row; box-sizing: border-box;\">\n<section style=\"display: flex; justify-content: center; flex-direction: row; max-width: 100%; box-sizing: border-box;\">\n<section style=\"max-width: 100%; display: inline-block; width: 677px; flex: 0 0 auto; align-self: flex-start; margin: 0px; vertical-align: top; box-sizing: border-box;\">\n<section style=\"max-width: 100%; width: 100%; box-sizing: border-box;\"></section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section class=\"_135editor\" data-tools=\"135编辑器\" data-id=\"149427\" data-color=\"#e36c09\">\n<section style=\"margin: 10px auto;\">\n<section style=\"background-color: #fbc293; padding: 5px; line-height: 2em; box-sizing: border-box;\">\n<section style=\"background-color: #ffffff; padding: 10px 0; box-sizing: border-box;\">\n<section style=\"font-size: 16px; color: #333333; text-align: center; letter-spacing: 1.5px;\">\n<p style=\"max-inline-size: 100%; margin: 0px 16px; padding: 0px; clear: both; min-height: 1em; cursor: text; color: #333333; font-size: 16px; letter-spacing: 2px; caret-color: #ff0000; text-decoration-thickness: initial; line-height: 2em; box-sizing: border-box !important; overflow-wrap: break-word !important; text-align: justify; font-family: 宋体;\" align=\"justify\"><strong data-brushtype=\"text\"><span style=\"font-weight: 400; color: #3f3f3f; text-shadow: none; letter-spacing: 2px; font-size: 16px; font-family: PingFangSC-Light;\"><img style=\"vertical-align: baseline;\" draggable=\"false\" /></span></strong></p>\n<p style=\"max-inline-size: 100%; margin: 0px 16px; padding: 0px; clear: both; min-height: 1em; cursor: text; color: #333333; font-size: 16px; letter-spacing: 2px; caret-color: #ff0000; text-decoration-thickness: initial; line-height: 2em; box-sizing: border-box !important; overflow-wrap: break-word !important; text-align: justify; font-family: 宋体;\" align=\"justify\"><strong data-brushtype=\"text\">&nbsp;</strong></p>\n<p style=\"max-inline-size: 100%; margin: 0px 16px; padding: 0px; clear: both; min-height: 1em; cursor: text; color: #333333; font-size: 16px; letter-spacing: 2px; caret-color: #ff0000; text-decoration-thickness: initial; line-height: 2em; box-sizing: border-box !important; overflow-wrap: break-word !important; text-align: justify; font-family: 宋体;\" align=\"justify\"><strong data-brushtype=\"text\"><span style=\"font-weight: 400; color: #3f3f3f; text-shadow: none; letter-spacing: 2px; font-size: 16px; font-family: PingFangSC-Light;\">亲爱的游客们：</span></strong></p>\n<p style=\"max-inline-size: 100%; margin: 0px 16px; padding: 0px; clear: both; min-height: 1em; cursor: text; color: #333333; font-size: 16px; letter-spacing: 2px; caret-color: #ff0000; text-decoration-thickness: initial; box-sizing: border-box !important; overflow-wrap: break-word !important; text-align: justify; font-family: 宋体;\" align=\"justify\"><strong data-brushtype=\"text\">&nbsp;</strong></p>\n<p style=\"max-inline-size: 100%; margin: 0px 16px; padding: 0px; clear: both; min-height: 1em; cursor: text; color: #333333; font-size: 16px; letter-spacing: 2px; caret-color: #ff0000; text-decoration-thickness: initial; line-height: 2em; box-sizing: border-box !important; overflow-wrap: break-word !important; text-align: justify; font-family: 宋体;\" align=\"justify\"><strong data-brushtype=\"text\"><span style=\"font-weight: 400; color: #3f3f3f; text-shadow: none; letter-spacing: 2px; font-size: 16px; font-family: PingFangSC-Light;\">为了给您带来更加精彩纷呈的游玩体验，全面提升服务品质。</span><span style=\"color: #e36c09;\"><strong style=\"letter-spacing: 2px; font-size: 16px;\"><span style=\"text-shadow: none; letter-spacing: 2px; font-size: 16px; font-family: PingFangSC-Light;\">乐华恒业欢乐世界于2025年11月17日至12月23日，进行一场特别的&ldquo;冬日小憩&rdquo;。</span></strong></span><span style=\"color: #3f3f3f; font-weight: 400; font-family: PingFangSC-Light;\">在此期间，园区将暂停对外开放，进行一系列的维护与升级工作。</span></strong></p>\n<p style=\"max-inline-size: 100%; margin: 0px 16px; padding: 0px; clear: both; min-height: 1em; cursor: text; color: #333333; font-size: 16px; letter-spacing: 2px; caret-color: #ff0000; text-decoration-thickness: initial; line-height: 2em; box-sizing: border-box !important; overflow-wrap: break-word !important; text-align: justify; font-family: 宋体;\" align=\"justify\">&nbsp;</p>\n<p style=\"max-inline-size: 100%; margin: 0px 16px; padding: 0px; clear: both; min-height: 1em; cursor: text; color: #333333; font-size: 16px; letter-spacing: 2px; caret-color: #ff0000; text-decoration-thickness: initial; line-height: 2em; box-sizing: border-box !important; overflow-wrap: break-word !important; text-align: justify; font-family: 宋体;\" align=\"justify\"><span style=\"font-weight: 400; color: #3f3f3f; text-shadow: none; letter-spacing: 2px; font-size: 16px; font-family: PingFangSC-Light;\">我们将于12</span><span style=\"font-weight: 400; color: #3f3f3f; text-shadow: none; letter-spacing: 2px; font-size: 16px; font-family: PingFangSC-Light;\">月24日（周三）开启盛大的双旦狂欢之旅。届时，整个园区将被装扮成梦幻般的冰雪世界，等待与您共享一场前所未有的冬日盛宴。</span></p>\n<p style=\"max-inline-size: 100%; margin: 0px 16px; padding: 0px; clear: both; min-height: 1em; cursor: text; color: #333333; font-size: 16px; letter-spacing: 2px; caret-color: #ff0000; text-decoration-thickness: initial; line-height: 2em; box-sizing: border-box !important; overflow-wrap: break-word !important; text-align: justify; font-family: 宋体;\" align=\"justify\">&nbsp;</p>\n<p style=\"max-inline-size: 100%; margin: 0px 16px; padding: 0px; clear: both; min-height: 1em; cursor: text; color: #333333; font-size: 16px; letter-spacing: 2px; caret-color: #ff0000; text-decoration-thickness: initial; line-height: 2em; box-sizing: border-box !important; overflow-wrap: break-word !important; text-align: justify; font-family: 宋体;\" align=\"justify\"><span style=\"font-weight: 400; color: #3f3f3f; text-shadow: none; letter-spacing: 2px; font-size: 16px; font-family: PingFangSC-Light;\">如有任何疑问或帮助，欢迎随时拨打游客服务中心热线：</span><span style=\"color: #3f3f3f; font-weight: 400; font-family: PingFangSC-Light;\">029-36398888。</span></p>\n<p style=\"max-inline-size: 100%; margin: 0px 16px; padding: 0px; clear: both; min-height: 1em; cursor: text; color: #333333; font-size: 16px; letter-spacing: 2px; caret-color: #ff0000; text-decoration-thickness: initial; line-height: 2em; box-sizing: border-box !important; overflow-wrap: break-word !important; text-align: justify; font-family: 宋体;\" align=\"justify\">&nbsp;</p>\n<p style=\"max-inline-size: 100%; margin: 0px 16px; padding: 0px; clear: both; min-height: 1em; cursor: text; color: #333333; font-size: 16px; letter-spacing: 2px; caret-color: #ff0000; text-decoration-thickness: initial; line-height: 2em; box-sizing: border-box !important; overflow-wrap: break-word !important; text-align: justify; font-family: 宋体;\" align=\"justify\"><span style=\"font-weight: 400; color: #3f3f3f; text-shadow: none; letter-spacing: 2px; font-size: 16px; font-family: PingFangSC-Light;\">在此，衷心感谢您一直以来的理解与支持。每次的等待，只为更好的相遇。让我们共同期待，再次相聚在乐华，共创美好回忆。</span></p>\n<p style=\"max-inline-size: 100%; margin: 0px 16px; padding: 0px; clear: both; min-height: 1em; cursor: text; color: #333333; font-size: 16px; letter-spacing: 2px; caret-color: #ff0000; text-decoration-thickness: initial; line-height: 2em; box-sizing: border-box !important; overflow-wrap: break-word !important; text-align: justify; font-family: 宋体;\" align=\"justify\">&nbsp;</p>\n<p style=\"max-inline-size: 100%; margin: 0px 16px; padding: 0px; clear: both; min-height: 1em; cursor: text; color: #333333; font-size: 16px; letter-spacing: 2px; caret-color: #ff0000; text-decoration-thickness: initial; line-height: 2em; box-sizing: border-box !important; overflow-wrap: break-word !important; text-align: right; font-family: 宋体;\" align=\"right\"><span style=\"font-weight: 400; color: #3f3f3f; text-shadow: none; letter-spacing: 2px; font-size: 16px; font-family: PingFangSC-Light;\">来源：乐华恒业欢乐世界</span></p>\n</section>\n</section>\n</section>\n</section>\n</section>\n<p>&nbsp;</p>",
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米以下（含1.2米）的儿童，须有全价票的成人陪同方可入园，入园时需主动接收公园身高牌测量。一名持全价票的游客仅限携带一名免票人士入园",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "1.2（不含1.2米）-1.5米（含1.5米），需一名成人陪同方可入园",
+        "discount": "购儿童票"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "65周岁以上老人免票，须有全价票的成人陪同方可入园，入园时需提供老年证,身份证。一名持全价票的游客仅限携带一名免票人士入园",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "55周岁（含55）-65周岁（不含65），需一名成人陪同方可入园",
+        "discount": "购老人票"
+      }
+    ],
+    "officialWebsite": [
+      "http://www.lewaholiday.com"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "客服电话",
+        "telephone": "029-36398888"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": "特色设施",
+    "contentResourcesDtoList": [
+      {
+        "id": "2089250862257012737",
+        "resourcesId": "1321385439125594114",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/321-20201028173615.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-08-17 15:19:56",
+        "updateTime": "2026-08-17 15:19:56",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2089250862261207041",
+        "resourcesId": "1321385439125594114",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/341-20201028173624.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-08-17 15:19:56",
+        "updateTime": "2026-08-17 15:19:56",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2089250862261207042",
+        "resourcesId": "1321385439125594114",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/361-20201028173630.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-08-17 15:19:56",
+        "updateTime": "2026-08-17 15:19:56",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2089250862265401345",
+        "resourcesId": "1321385439125594114",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/371-20201028173636.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-08-17 15:19:56",
+        "updateTime": "2026-08-17 15:19:56",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2089250862269595649",
+        "resourcesId": "1321385439125594114",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/378-20201028173644.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2026-08-17 15:19:56",
+        "updateTime": "2026-08-17 15:19:56",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455060076934045697",
+      "rankingId": null,
+      "indexInRanking": 2,
+      "rankingName": "咸阳亲子游景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": [
+      {
+        "id": "2089250862282178562",
+        "scenicSpotId": "1320579064188264497",
+        "contentModuleName": "特色设施",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1407897728788246530",
+            "type": 5,
+            "title": "闪电",
+            "subtitle": "亚洲速度最快的过山车",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062411184696273.png",
+            "likeRatio": 84.6,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1410071711549853697",
+            "type": 5,
+            "title": "龙之脊",
+            "subtitle": "双脚腾空的过山车",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021063011004585173.jpg",
+            "likeRatio": 81.8,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1410118148782395393",
+            "type": 5,
+            "title": "摩托骑士",
+            "subtitle": "摩托与过山车的完美结合",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021063014085639778.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1410121785000693762",
+            "type": 5,
+            "title": "白马过山车",
+            "subtitle": "老少皆宜的家庭过山车",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021063014232444706.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1410132261990404098",
+            "type": 5,
+            "title": "采矿先锋",
+            "subtitle": "一场奇妙的矿山冒险之旅",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021063015034886510.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1410139245342986242",
+            "type": 5,
+            "title": "小飞象",
+            "subtitle": "可以自己操控的旋转飞机",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021063015262606695.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1410141119739695105",
+            "type": 5,
+            "title": "彩虹伞",
+            "subtitle": "来这里看乐华全景",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021063015401415413.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1410146050647363585",
+            "type": 5,
+            "title": "飞舟冲浪",
+            "subtitle": "一起掀起巨浪吧！",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021063015563517957.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1410147559283986434",
+            "type": 5,
+            "title": "疯狂马戏团",
+            "subtitle": "翻江倒海、头晕目眩",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021063016033129236.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1410507617687592962",
+            "type": 5,
+            "title": "梦幻转马",
+            "subtitle": "充满少女心的童梦世界",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021070115355252919.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1410509011706470402",
+            "type": 5,
+            "title": "旋转的士高",
+            "subtitle": "在空中跳舞吧！",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021070116003266858.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1410509769717866498",
+            "type": 5,
+            "title": "激情碰碰碰",
+            "subtitle": "在碰撞中寻找快乐",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021070116030760183.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1410528153218080770",
+            "type": 5,
+            "title": "快乐飞侠",
+            "subtitle": "一起来荡巨型秋千",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021070117134502854.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1410842471193141250",
+            "type": 5,
+            "title": "天地双雄",
+            "subtitle": "极速降落的失重体验",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021070212054788558.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1410859926573572097",
+            "type": 5,
+            "title": "音乐快车",
+            "subtitle": "开往快乐星球的动感小船",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021070214582759536.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1410868081151991810",
+            "type": 5,
+            "title": "海盗船",
+            "subtitle": "在惊涛骇浪间穿梭",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021070215485520414.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1410872059449335810",
+            "type": 5,
+            "title": "欢乐毛毛虫",
+            "subtitle": "小朋友们快来一起旅行",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021070215562675796.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1410872795365138434",
+            "type": 5,
+            "title": "大战美人鱼",
+            "subtitle": "快来参加水枪大战",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021070216060374935.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1410878129219592194",
+            "type": 5,
+            "title": "逍遥水母",
+            "subtitle": "和水母来一场水中漫步",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021070216254465714.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1410879373820583937",
+            "type": 5,
+            "title": "蜜蜂萌动队",
+            "subtitle": "两只小蜜蜂呀，飞在花丛中",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021070216300873035.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1410884807252008961",
+            "type": 5,
+            "title": "跳跳蛙",
+            "subtitle": "和小青蛙来一场弹跳之旅",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021070216523991266.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": "闭园公告！12月24日不见不散！",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

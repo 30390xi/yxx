@@ -1,0 +1,460 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064188264496",
+    "scenicName": "延安1938",
+    "tag": "老城延安，红色记忆",
+    "level": -1,
+    "cityId": "1320663521644818433",
+    "cityName": "延安",
+    "address": "延安市宝塔区城西北8公里处枣园路",
+    "longitude": "109.422581",
+    "latitude": "36.625346",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 213,
+    "topColour": "#E8714E",
+    "centralColour": "#D85038",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2023042809573744018.jpg"
+    ],
+    "introduction": "<p>　　老城延安，红色记忆。延安1938通过对老延安城建筑细节和文化内涵的捕捉，运用时尚创意和高新技术全新表达，给人们一个活生生的&ldquo;老延安&rdquo;。在这里，大型红色主题演出红秀《延安 延安》生动再现中共中央在延安十三年的峥嵘岁月，4D巨幕《阿良的长征》全面展示红军长征艰辛历程，延安1938街区场景化复原老延安城景观风貌，文投国际影城让红色电影&ldquo;映&rdquo;入人心。延安1938让红色文化穿越时空，熠熠生辉!</p>",
+    "introductionText": "　　老城延安，红色记忆。延安1938通过对老延安城建筑细节和文化内涵的捕捉，运用时尚创意和高新技术全新表达，给人们一个活生生的“老延安”。在这里，大型红色主题演出红秀《延安 延安》生动再现中共中央在延安十三年的峥嵘岁月，4D巨幕《阿良的长征》全面展示红军长征艰辛历程，延安1938街区场景化复原老延安城景观风貌，文投国际影城让红色电影“映”入人心。延安1938让红色文化穿越时空，熠熠生辉!",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "22",
+        "name": "美食街区",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "18",
+        "name": "红色旅游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "21",
+        "name": "地标打卡",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "51",
+        "name": "拓展游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "69",
+        "name": "商务旅",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1419544677090156546",
+        "contentId": "1419544677060796418",
+        "name": "陕文投集团景区",
+        "tagUrl": "https://eshopfile.zhiyousx.com/162728079399429661.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": null,
+    "discountVoList": null,
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "181",
+        "name": "洗手间",
+        "tagUrl": "https://eshopfile.zhiyousx.com/166599287416981092.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "11",
+        "name": "餐厅",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (22).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "10",
+        "name": "商店",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (19).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "6",
+        "name": "免费wifi",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (11).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>出延安站，可乘坐K13路公交车至枣园旧址下车即可。</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<p>驾车到延安市宝塔区延安1938即可。地图定位&ldquo;延安1938&rdquo;可查看详细路线</p>"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "咨询电话",
+        "telephone": "0916-7661888"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "服务号",
+        "wxSubscriptionName": "延安1938",
+        "wxSubscription": "yanwentou"
+      },
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "红动延安",
+        "wxSubscription": "gh_2f9a5683487f"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": [
+      {
+        "toktokName": "延安文投",
+        "toktokNo": "yananwentou"
+      },
+      {
+        "toktokName": "延安1938街区",
+        "toktokNo": "yanan1938."
+      }
+    ],
+    "topBannerList": [
+      {
+        "id": "2089255769172271105",
+        "outId": "1320579064188264496",
+        "type": 1,
+        "advertName": "拍照打卡",
+        "advertPic": "https://eshopfile.zhiyousx.com/2023092610383430794.jpg",
+        "jumpType": 3,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "gh_bad90fd49650",
+        "newAppId": "wxf2cca76ae0520e33",
+        "appUrl": "/subPack/pages/photoWall/photoWall?photoWallId=1706284236581515266",
+        "richText": "",
+        "contentType": null,
+        "bannerPosition": 0
+      }
+    ],
+    "bannerList": [],
+    "contentModuleName": "特色看点",
+    "contentResourcesDtoList": [
+      {
+        "id": "2089255769130328066",
+        "resourcesId": "1322011730283618306",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/168264738696616727.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": "",
+        "createTime": "2026-08-17 15:39:26",
+        "updateTime": "2026-08-17 15:39:26",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2089255769134522370",
+        "resourcesId": "1322011730283618306",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/168264738743141044.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": "",
+        "createTime": "2026-08-17 15:39:26",
+        "updateTime": "2026-08-17 15:39:26",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2089255769134522371",
+        "resourcesId": "1322011730283618306",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/168264738792396823.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": "",
+        "createTime": "2026-08-17 15:39:26",
+        "updateTime": "2026-08-17 15:39:26",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2089255769138716674",
+        "resourcesId": "1322011730283618306",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021042517274811991.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-08-17 15:39:26",
+        "updateTime": "2026-08-17 15:39:26",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2089255769138716675",
+        "resourcesId": "1322011730283618306",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021042517275755268.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2026-08-17 15:39:26",
+        "updateTime": "2026-08-17 15:39:26",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2089255769142910978",
+        "resourcesId": "1322011730283618306",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021042517280721084.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2026-08-17 15:39:26",
+        "updateTime": "2026-08-17 15:39:26",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455724365810343938",
+      "rankingId": null,
+      "indexInRanking": 7,
+      "rankingName": "延安必逛景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": [
+      {
+        "id": "2089255769155493890",
+        "scenicSpotId": "1320579064188264496",
+        "contentModuleName": "特色看点",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1320579064188264478",
+            "type": 6,
+            "title": "延安1938街区",
+            "subtitle": "沉浸式红色文化体验街区",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021072218012961312.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1320579064188264534",
+            "type": 6,
+            "title": "红秀《延安 延安》",
+            "subtitle": "在爱与信仰中读懂中国",
+            "coverImage": "https://eshopfile.zhiyousx.com/2022041112170410909.jpeg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1320579064188264474",
+            "type": 6,
+            "title": "4D巨幕《阿良的长征》",
+            "subtitle": "震撼演绎长征之路",
+            "coverImage": "https://eshopfile.zhiyousx.com/2023042810563747639.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 1,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

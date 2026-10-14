@@ -1,0 +1,297 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064595112001",
+    "scenicName": "渭华起义纪念馆",
+    "tag": "树立了党领导西北人民革命斗争史上一座丰碑",
+    "level": 4,
+    "address": "渭南市华州区高塘镇",
+    "longitude": "109.6730810000",
+    "latitude": "34.4037580000",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#B10508",
+    "centralColour": "#662624",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021062310482575238.jpg"
+    ],
+    "introduction": "<div class=\"para\" data-pid=\"1\">\n<div class=\"para\" data-pid=\"1\">　　渭华起义是西北地区成立最早、规模最大、影响最广的早期农村革命根据地，在全国革命斗争史上也发挥有重大意义。1928年5月，在中共陕西省委领导下，渭华起义爆发,在斗争中建立了革命武装--陕东赤卫队。这次起义虽然失败了，但起义军民无比英勇的战斗精神，给了中国人民以新的鼓舞。起义的许多领导人和保留下来的武装力量，继续为中国革命事业而顽强战斗，成为中国人民解放军的重要组成部分和革命火种。如今的渭华起义纪念馆，还是陕西省委命名的爱国主义教育基地，成为广大人民群众缅怀先烈，进行革命传统和爱国主义教育的理想场所。渭华起义纪念馆由渭华起义指挥部旧址、陈列大厅、中心广场、渭华起义烈士纪念碑及渭华起义旧址&mdash;&mdash;高塘会馆、三教堂、药王庙、郭家庄小庙四个党性教育示范基地现场教学点组成。是陕西东部最大的集革命传统教育、爱国主义教育和旅游观光于一体的红色旅游胜地。</div>\n<div class=\"para\" data-pid=\"2\">　　2016年12月，渭华起义纪念馆被列入全国红色旅游经典景区名录。<sup class=\"sup--normal\" data-sup=\"1\" data-ctrmap=\":1,\">&nbsp;</sup></div>\n<div class=\"para\" data-pid=\"3\">　　2019年12月14日被陕西省旅游资源开发管理评价委员会确定为国家4A级旅游景区。<sup class=\"sup--normal\" data-sup=\"2\" data-ctrmap=\":2,\">&nbsp;</sup></div>\n</div>",
+    "introductionText": "　　渭华起义是西北地区成立最早、规模最大、影响最广的早期农村革命根据地，在全国革命斗争史上也发挥有重大意义。1928年5月，在中共陕西省委领导下，渭华起义爆发,在斗争中建立了革命武装--陕东赤卫队。这次起义虽然失败了，但起义军民无比英勇的战斗精神，给了中国人民以新的鼓舞。起义的许多领导人和保留下来的武装力量，继续为中国革命事业而顽强战斗，成为中国人民解放军的重要组成部分和革命火种。如今的渭华起义纪念馆，还是陕西省委命名的爱国主义教育基地，成为广大人民群众缅怀先烈，进行革命传统和爱国主义教育的理想场所。渭华起义纪念馆由渭华起义指挥部旧址、陈列大厅、中心广场、渭华起义烈士纪念碑及渭华起义旧址——高塘会馆、三教堂、药王庙、郭家庄小庙四个党性教育示范基地现场教学点组成。是陕西东部最大的集革命传统教育、爱国主义教育和旅游观光于一体的红色旅游胜地。\n　　2016年12月，渭华起义纪念馆被列入全国红色旅游经典景区名录。 \n　　2019年12月14日被陕西省旅游资源开发管理评价委员会确定为国家4A级旅游景区。 ",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "18",
+        "name": "红色旅游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026361102337",
+        "contentId": "1418152026344325122",
+        "name": "全国红色旅游经典景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026461765634",
+        "contentId": "1418152026449182722",
+        "name": "全国爱国主义教育示范基地",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": null,
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "联系电话",
+        "telephone": "0913-4914201"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "1518162548619259905",
+        "outId": "1320579064595112001",
+        "type": 1,
+        "advertName": "渭华起义雕像",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021062311260113692.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p>　　1928年5月，在中共陕西省委领导下，渭华起义爆发。在斗争中建立了革命武装--陕东赤卫队。国民革命军新编第三旅（许权中旅）根据陕西省委指示，在唐澍、刘志丹等人的率领下，易帜赴义，挥师渭华，挺进高塘，成立了西北工农革命军。工农武装相结合，先后建立了48个区、村苏维埃政府。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062311272291553.jpg\" /></p>\n<p>　　红色革命风暴席卷渭华大地，地方反动政权土崩瓦解，迅速形成了以渭南塔山、华州区高塘县为中心，方圆约200平方公里的红色武装割据区域。面对蓬勃高涨的革命浪潮，国民党反动当局调集重兵镇压，起义军民同仇敌忾，与反动派进行了艰苦卓绝的斗争，终因寡不敌众等原因而失败。渭华起义是大革命失败后中共陕西省委领导的，工农群众与军队相结合，在全国有重大影响的重要起义之一。它沉重打击了敌人，锻炼了陕西的党组织和人民，为以后建立西北革命根据地积累了斗争经验，培养了干部。</p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\">来源：网络综合整理</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": "主要看点",
+    "contentResourcesDtoList": [
+      {
+        "id": "1518162548594094081",
+        "resourcesId": "1407548517316079618",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062311563988450.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2022-04-24 17:38:52",
+        "updateTime": "2022-04-24 17:38:52",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518162548598288385",
+        "resourcesId": "1407548517316079618",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062311575937271.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2022-04-24 17:38:52",
+        "updateTime": "2022-04-24 17:38:52",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518162548598288386",
+        "resourcesId": "1407548517316079618",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062311521079914.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2022-04-24 17:38:52",
+        "updateTime": "2022-04-24 17:38:52",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518162548598288387",
+        "resourcesId": "1407548517316079618",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062311531311340.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2022-04-24 17:38:52",
+        "updateTime": "2022-04-24 17:38:52",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518162548602482690",
+        "resourcesId": "1407548517316079618",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062311551799750.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2022-04-24 17:38:52",
+        "updateTime": "2022-04-24 17:38:52",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1566623053130653698",
+      "rankingId": null,
+      "indexInRanking": 17,
+      "rankingName": "渭南亲子游景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1455112666791124994",
+        "rankingId": "1455112668192022530",
+        "indexInRanking": null,
+        "rankingName": "渭南自驾游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "1518162548606676994",
+        "scenicSpotId": "1320579064595112001",
+        "contentModuleName": "主要看点",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1407591504007966722",
+            "type": 5,
+            "title": "渭华起义指挥部旧址",
+            "subtitle": "镶嵌在渭华大地上的特殊标语",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062314425373638.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1407588232559898625",
+            "type": 5,
+            "title": "渭华起义现代化陈列展厅",
+            "subtitle": "以实物场景再现英雄们的伟大事迹",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062314213338951.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1407595375182786562",
+            "type": 5,
+            "title": "渭华起义烈士纪念塔",
+            "subtitle": "渭华起义烈士永垂不朽",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062314561122574.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -8,8 +8,8 @@
             <view class="t2 data-v-2d77f3ed" wx:if="{{cardInfo.useState==0}}">确认兑换后该券不得转赠，只可在当前账号使用</view>
             <view class="card-box-popup data-v-2d77f3ed" wx:if="{{cardInfo.useState==0}}">
                 <view class="card-item-popup data-v-2d77f3ed" style="{{'height:'+(cardInfo.useTimeSlot==2?'255rpx':'200rpx')+';'}}">
-                    <image mode class="card-image data-v-2d77f3ed" src="https://eshopfile.zhiyousx.com/2023111315420708034.png" style="{{'height:'+(cardInfo.useTimeSlot==2?'280rpx':'200rpx')+';'}}" wx:if="{{cardInfo.useState==0}}"></image>
-                    <image mode class="card-image data-v-2d77f3ed" src="https://eshopfile.zhiyousx.com/2023111315433122810.png" style="{{'height:'+(cardInfo.useTimeSlot==2?'280rpx':'200rpx')+';'}}" wx:else></image>
+                    <image mode class="card-image data-v-2d77f3ed" src="/static/captured/e76694df77f7a4d6.png" style="{{'height:'+(cardInfo.useTimeSlot==2?'280rpx':'200rpx')+';'}}" wx:if="{{cardInfo.useState==0}}"></image>
+                    <image mode class="card-image data-v-2d77f3ed" src="/static/captured/1d4fa6b6b34f92e3.png" style="{{'height:'+(cardInfo.useTimeSlot==2?'280rpx':'200rpx')+';'}}" wx:else></image>
                     <view class="coupon-l data-v-2d77f3ed" style="{{'top:'+(cardInfo.useTimeSlot==2?'40rpx':'17rpx')+';'}}">
                         <view class="{{['amount','data-v-2d77f3ed',cardInfo.useState!=0?'unable':'']}}">
                             <view class="{{['amountNum','data-v-2d77f3ed',cardInfo.useState!=0?'unable':'']}}" wx:if="{{cardInfo.type==2||cardInfo.type==1}}">￥<text class="{{['data-v-2d77f3ed',cardInfo.useState!=0?'unable':'']}}" style="font-size:42rpx;color:#FF5411;">{{cardInfo.quota}}</text>

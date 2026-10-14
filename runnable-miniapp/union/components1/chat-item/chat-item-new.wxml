@@ -16,10 +16,10 @@
                                 </view>
                             </view>
                             <view bindtap="__e" class="travelBtn" data-event-opts="{{[ [ 'tap',[ [ 'resetTravel',['$event'] ] ] ] ]}}" wx:if="{{item.redirectContent}}">
-                                <image class="ai" src="https://eshopfile.zhiyousx.com/175153136103574217.png"></image>旅行搭子<image class="icon" src="https://eshopfile.zhiyousx.com/175153148262435174.png"></image>
+                                <image class="ai" src="/static/captured/3634eece59ace1cf.png"></image>旅行搭子<image class="icon" src="/static/captured/f513113c34db57d3.png"></image>
                             </view>
                             <view bindtap="__e" class="travelBtn" data-event-opts="{{[ [ 'tap',[ [ 'changePlan',['$event'] ] ] ] ]}}" wx:if="{{item.changeAnswer}}">
-                                <image class="ai" src="https://eshopfile.zhiyousx.com/175153136103574217.png"></image>重新规划<image class="icon" src="https://eshopfile.zhiyousx.com/175153148262435174.png"></image>
+                                <image class="ai" src="/static/captured/3634eece59ace1cf.png"></image>重新规划<image class="icon" src="/static/captured/f513113c34db57d3.png"></image>
                             </view>
                             <view style="width:100%;margin-top:30rpx;" wx:if="{{$root.g0}}">
                                 <scroll-view class="card-item" scrollX="true">
@@ -50,12 +50,12 @@
                             <view class="chat-text-expand" wx:if="{{$root.g5}}">
                                 <view class="guide">
                                     <view class="left">
-                                        <image class="headImg" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173510683638304664.png"></image>你可以试着问我<image class="finger" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173373501152490600.png"></image>：</view>
+                                        <image class="headImg" lazyLoad="false" mode="aspectFill" src="/static/captured/e64f9f302e33e7d8.png"></image>你可以试着问我<image class="finger" lazyLoad="false" mode="aspectFill" src="/static/captured/a7451ec7684e2e09.png"></image>：</view>
                                 </view>
                                 <view class="questionBox" wx:if="{{$root.g6}}">
                                     <view bindtap="__e" class="item" data-event-opts="{{[ [ 'tap',[ [ 'askAgain',['$0'],[ [ ['item.divergenceProblem','',index] ] ] ] ] ] ]}}" style="{{'margin-bottom:'+(index!=it.g7-1?'20rpx':'0')+';'}}" wx:for="{{$root.l4}}" wx:for-item="it" wx:key="index">
                                         <text class="text-desc">{{it.$orig}}</text>
-                                        <image lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173373722521006570.png"></image>
+                                        <image lazyLoad="false" mode="aspectFill" src="/static/captured/23f95327bbd56874.png"></image>
                                     </view>
                                 </view>
                             </view>
@@ -69,7 +69,7 @@
                                     <view class="toilet-item-left">
                                         <image class="toilet-item-left-img" lazyLoad="false" mode="aspectFill" src="{{el.photos}}" wx:if="{{el.photos}}"></image>
                                         <view class="toilet-item-left-default _div" wx:else>
-                                            <image lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/175464211103781816.png"></image>
+                                            <image lazyLoad="false" mode="aspectFill" src="/static/captured/7ad5fa704abec819.png"></image>
                                         </view>
                                         <view class="toilet-item-left-title">
                                             <view class="name singleLineText">{{el.name}}</view>
@@ -80,9 +80,9 @@
                                         <view class="toilet-item-right-guide">
                                             <view class="txt">去这里</view>
                                             <view class="distance">
-                                                <image class="distance-icon" src="https://eshopfile.zhiyousx.com/175517483307507834.png"></image>{{''+el.distance+'m'}}</view>
+                                                <image class="distance-icon" src="/static/captured/aff36b13ce0daa77.png"></image>{{''+el.distance+'m'}}</view>
                                         </view>
-                                        <image class="toilet-item-right-icon" src="https://eshopfile.zhiyousx.com/175464314045201536.png"></image>
+                                        <image class="toilet-item-right-icon" src="/static/captured/520973b7559abcba.png"></image>
                                     </view>
                                 </view>
                             </view>
@@ -103,12 +103,12 @@
             </view>
             <view class="comment" wx:if="{{showComment&&item.type==0&&pushingProgress}}">
                 <view bindtap="__e" class="{{['good','_div',commentType==0?'hasLine':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'goodComment',['$event'] ] ] ] ]}}" wx:if="{{commentType==0||commentType==1}}">
-                    <image src="https://eshopfile.zhiyousx.com/175515269460548588.png" wx:if="{{commentType==0}}"></image>
-                    <image src="https://eshopfile.zhiyousx.com/175515273206550307.png" wx:if="{{commentType==1}}"></image>
+                    <image src="/static/captured/dd35cfa512e45473.png" wx:if="{{commentType==0}}"></image>
+                    <image src="/static/captured/48c6a3fd25797aa1.png" wx:if="{{commentType==1}}"></image>
                 </view>
                 <view bindtap="__e" class="bad _div" data-event-opts="{{[ [ 'tap',[ [ 'badComment',['$event'] ] ] ] ]}}" wx:if="{{commentType==0||commentType==2}}">
-                    <image src="https://eshopfile.zhiyousx.com/175515274421108382.png" wx:if="{{commentType==0}}"></image>
-                    <image src="https://eshopfile.zhiyousx.com/175515275472076030.png" wx:if="{{commentType==2}}"></image>
+                    <image src="/static/captured/eefecbf4b7b9124a.png" wx:if="{{commentType==0}}"></image>
+                    <image src="/static/captured/e3fe2da95f200a50.png" wx:if="{{commentType==2}}"></image>
                 </view>
             </view>
             <view class="btns" wx:if="{{item.officialGuide&&item.officialGuideType==2&&item.type==0}}">

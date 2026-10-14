@@ -1,0 +1,23 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "1719904581073702914",
+      "resourcesId": "1321366268245467138",
+      "title": "关山草原景区",
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2021083015074283194.mp4",
+      "coverImage": "https://eshopfile.zhiyousx.com/163030725815605143.jpg",
+      "videoId": "1432238668013219842",
+      "resourcesType": 2,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2023-11-02 10:29:41",
+      "updateTime": "2023-11-02 10:29:41",
+      "createBy": "1376477871874289666",
+      "updateBy": "1376477871874289666",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

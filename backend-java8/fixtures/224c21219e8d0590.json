@@ -1,0 +1,708 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1430798023268610049",
+    "scenicName": "宝鸡青铜器博物院",
+    "tag": "中国最大的青铜器博物馆",
+    "level": -1,
+    "cityId": "1320659384068780033",
+    "cityName": "宝鸡",
+    "address": "宝鸡市渭滨区滨河大道中华石鼓园内",
+    "longitude": "107.19518",
+    "latitude": "34.347384",
+    "openingStatus": 1,
+    "capacity": 3000,
+    "sequence": 29,
+    "topColour": "#CB8A65",
+    "centralColour": "#B3734E",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021082710115203560.png"
+    ],
+    "introduction": "<p>　　地处&ldquo;炎帝故里、青铜器之乡，佛骨圣地、社火之乡&rdquo;的陕西省宝鸡市拥有中国最大且是唯一的青铜器博物馆，&ldquo;平台五鼎&rdquo;的独特造型，气势雄伟，成为&ldquo;青铜器之乡&rdquo;的永久标志。宝鸡青铜器博物院原为宝鸡历史文物陈列室，始建于1956年，全院由青铜之乡、周礼之邦、帝国之路、智慧之光等部分组成。馆藏有何尊、折觥、厉王胡簋、墙盘、秦公镈、卫鼎等一千多件青铜器。</p>\n<div id=\"baikecard\" data-sub=\"#6664423-6878251-0\">\n<div class=\"intro_button\">&nbsp;</div>\n</div>\n<div id=\"starVideo\" class=\"starVideo starVideo1\">&nbsp;</div>",
+    "introductionText": "　　地处“炎帝故里、青铜器之乡，佛骨圣地、社火之乡”的陕西省宝鸡市拥有中国最大且是唯一的青铜器博物馆，“平台五鼎”的独特造型，气势雄伟，成为“青铜器之乡”的永久标志。宝鸡青铜器博物院原为宝鸡历史文物陈列室，始建于1956年，全院由青铜之乡、周礼之邦、帝国之路、智慧之光等部分组成。馆藏有何尊、折觥、厉王胡簋、墙盘、秦公镈、卫鼎等一千多件青铜器。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "69",
+        "name": "商务旅",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026327547906",
+        "contentId": "1418152026310770690",
+        "name": "国家一级博物馆",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026591789057",
+        "contentId": "1418152026583400449",
+        "name": "全国科普教育基地",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全年",
+        "openTimeContent": "（周二至周日）<br/>9：00-17:00（16:30停止入场）"
+      },
+      {
+        "openTimeTitle": "全年",
+        "openTimeContent": "周一闭馆（节假日除外）"
+      },
+      {
+        "openTimeTitle": "免费开放实行“免费不免票”",
+        "openTimeContent": "游客可关注微信公众号“宝鸡青铜器博物院”，按照提示操作，进行门票预约。"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "全员",
+        "limit": "无",
+        "discount": "免费"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "7",
+        "name": "婴儿车租赁",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (12).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "55",
+        "name": "雨具租赁",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016423554250.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "9",
+        "name": "轮椅租赁",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (16).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "60",
+        "name": "行李寄存",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016430812186.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "10",
+        "name": "商店",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (19).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "56",
+        "name": "讲解器租赁",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016433125149.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "54",
+        "name": "手机充电",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016402390363.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "8",
+        "name": "宠物禁止入园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (13).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "停车场",
+        "additionalExplainContent": "参考价格：免费<br/>地址：博物馆西侧<br/>库位：300"
+      },
+      {
+        "additionalExplainTitle": "景区地图",
+        "additionalExplainContent": "博物馆大厅咨询台提供宣传册页，可以免费获取，了解陈列展览的基本情况。"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p><strong>61路-郭家崖站</strong></p>\n<p>步行1.6公里到达</p>\n<p><strong>10路-中华石鼓园站</strong></p>\n<p>步行778米到达</p>\n<p><strong>20路-中华石鼓园站</strong></p>\n<p>步行118米到达</p>\n<p><strong>71路-中华石鼓园站</strong></p>\n<p>步行778米到达</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": [
+      "http://www.bjqtm.com/dwgk/gyby/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0917-2769017"
+      },
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0917-2769016"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "服务号",
+        "wxSubscriptionName": "宝鸡青铜器博物院",
+        "wxSubscription": "bjqtqbwy"
+      }
+    ],
+    "sinaWeiboVoList": [
+      {
+        "sinaWeibo": "宝鸡青铜器博物院",
+        "sinaWeiboUrl": "https://weibo.com/u/3574890771"
+      }
+    ],
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "2064621929908854785",
+        "outId": "1430798023268610049",
+        "type": 1,
+        "advertName": "来看最早的“中国”",
+        "advertPic": "https://eshopfile.zhiyousx.com/2026061016120533815.png",
+        "jumpType": 1,
+        "jumpUrl": "https://mp.weixin.qq.com/s/UmYfKPm6TBCsnRB7yeGmug",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p><img class=\"wscnph\" src=\"https://res.zhiyousx.com/ysx/pro/2021/09/26/163262803793984536.jpg\" /> <img class=\"wscnph\" src=\"https://res.zhiyousx.com/ysx/pro/2021/09/26/163262804477070623.jpg\" /> <img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/165692724575699316.jpg\" /> <img class=\"wscnph\" src=\"https://res.zhiyousx.com/ysx/pro/2021/09/26/163262805837339368.jpg\" /> <img class=\"wscnph\" src=\"https://res.zhiyousx.com/ysx/pro/2021/09/26/163262806446630114.jpg\" /> <img class=\"wscnph\" src=\"https://res.zhiyousx.com/ysx/pro/2021/09/26/163262807164545883.jpg\" /> <img class=\"wscnph\" src=\"https://res.zhiyousx.com/ysx/pro/2021/09/26/163262807747367892.jpg\" /> <img class=\"wscnph\" src=\"https://res.zhiyousx.com/ysx/pro/2021/09/26/163262808340913769.jpg\" /> <img class=\"wscnph\" src=\"https://res.zhiyousx.com/ysx/pro/2021/09/26/163262808960890595.jpg\" /> <img class=\"wscnph\" src=\"https://res.zhiyousx.com/ysx/pro/2021/09/26/163262809945823513.jpg\" /></p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": "馆内珍藏",
+    "contentResourcesDtoList": [
+      {
+        "id": "2064621929824968705",
+        "resourcesId": "1431111926716411906",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082712293583528.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-06-10 16:13:21",
+        "updateTime": "2026-06-10 16:13:21",
+        "createBy": "2047232991458557954",
+        "updateBy": "2047232991458557954",
+        "isDeleted": 0
+      },
+      {
+        "id": "2064621929829163009",
+        "resourcesId": "1431111926716411906",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082712294407403.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-06-10 16:13:21",
+        "updateTime": "2026-06-10 16:13:21",
+        "createBy": "2047232991458557954",
+        "updateBy": "2047232991458557954",
+        "isDeleted": 0
+      },
+      {
+        "id": "2064621929829163010",
+        "resourcesId": "1431111926716411906",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082712295236978.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-06-10 16:13:21",
+        "updateTime": "2026-06-10 16:13:21",
+        "createBy": "2047232991458557954",
+        "updateBy": "2047232991458557954",
+        "isDeleted": 0
+      },
+      {
+        "id": "2064621929833357314",
+        "resourcesId": "1431111926716411906",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082712295907124.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-06-10 16:13:21",
+        "updateTime": "2026-06-10 16:13:21",
+        "createBy": "2047232991458557954",
+        "updateBy": "2047232991458557954",
+        "isDeleted": 0
+      },
+      {
+        "id": "2064621929837551617",
+        "resourcesId": "1431111926716411906",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082712301545585.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2026-06-10 16:13:21",
+        "updateTime": "2026-06-10 16:13:21",
+        "createBy": "2047232991458557954",
+        "updateBy": "2047232991458557954",
+        "isDeleted": 0
+      },
+      {
+        "id": "2064621929837551618",
+        "resourcesId": "1431111926716411906",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082712302433158.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2026-06-10 16:13:21",
+        "updateTime": "2026-06-10 16:13:21",
+        "createBy": "2047232991458557954",
+        "updateBy": "2047232991458557954",
+        "isDeleted": 0
+      },
+      {
+        "id": "2064621929841745921",
+        "resourcesId": "1431111926716411906",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082712303326038.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2026-06-10 16:13:21",
+        "updateTime": "2026-06-10 16:13:21",
+        "createBy": "2047232991458557954",
+        "updateBy": "2047232991458557954",
+        "isDeleted": 0
+      },
+      {
+        "id": "2064621929841745922",
+        "resourcesId": "1431111926716411906",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082712304007702.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2026-06-10 16:13:21",
+        "updateTime": "2026-06-10 16:13:21",
+        "createBy": "2047232991458557954",
+        "updateBy": "2047232991458557954",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1439119981701840898",
+      "rankingId": null,
+      "indexInRanking": 13,
+      "rankingName": "陕西人气博物馆排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1574974899180212226",
+        "rankingId": "1574974902443380737",
+        "indexInRanking": null,
+        "rankingName": "陕西免费景区人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1658303499793903618",
+        "rankingId": "1658303501412904962",
+        "indexInRanking": null,
+        "rankingName": "历史文化类博物馆人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1680835374538088449",
+        "rankingId": "1680835375632801794",
+        "indexInRanking": null,
+        "rankingName": "陕西省热搜50强博物馆排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "2064621929854328834",
+        "scenicSpotId": "1430798023268610049",
+        "contentModuleName": "馆内珍藏",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1430821284329140226",
+            "type": 5,
+            "title": "何尊",
+            "subtitle": "记录重大史诗的盛酒器",
+            "coverImage": "https://eshopfile.zhiyousx.com/162996888203021402.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1430804008196485121",
+            "type": 5,
+            "title": "逨盉",
+            "subtitle": "造型别致的“酒瓶”",
+            "coverImage": "https://eshopfile.zhiyousx.com/162996539550172351.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1430814924468236290",
+            "type": 5,
+            "title": "秦公钟",
+            "subtitle": "秦史重要记录者",
+            "coverImage": "https://eshopfile.zhiyousx.com/162996760294560785.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1430817761730342913",
+            "type": 5,
+            "title": "西周伯方鼎",
+            "subtitle": "饕餮纹的代言人",
+            "coverImage": "https://eshopfile.zhiyousx.com/162996823110963569.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1431073069308424193",
+            "type": 5,
+            "title": "回首玉鹿",
+            "subtitle": "灵动的头饰",
+            "coverImage": "https://eshopfile.zhiyousx.com/163002903217664255.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1431084060591108098",
+            "type": 5,
+            "title": "唐双鸾衔绶葵缘镜",
+            "subtitle": "矿物颜料的出现",
+            "coverImage": "https://eshopfile.zhiyousx.com/163003159680434689.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1431090432917483522",
+            "type": 5,
+            "title": "唐飞天花鸟菱缘镜",
+            "subtitle": "穿越镜面，寻找古代的时尚",
+            "coverImage": "https://eshopfile.zhiyousx.com/163003276167302612.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1431095331478679554",
+            "type": 5,
+            "title": "仰韶文化陶房",
+            "subtitle": "难得的新石器时代实物资料",
+            "coverImage": "https://eshopfile.zhiyousx.com/163003427594634088.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1431101944532938754",
+            "type": 5,
+            "title": "龟形壶",
+            "subtitle": "龟形水壶",
+            "coverImage": "https://eshopfile.zhiyousx.com/163003508331599174.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1431106081756655617",
+            "type": 5,
+            "title": "龙形佩",
+            "subtitle": "西周早中期玉器典型风格",
+            "coverImage": "https://eshopfile.zhiyousx.com/163003697694850523.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1432988869934034945",
+            "type": 5,
+            "title": "云纹编钟",
+            "subtitle": "最古老的编钟",
+            "coverImage": "https://eshopfile.zhiyousx.com/163048595624380076.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1434819353131462658",
+            "type": 5,
+            "title": "人头銎内钺",
+            "subtitle": "奇特的西周钺",
+            "coverImage": "https://eshopfile.zhiyousx.com/163092235357935829.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1435055800514097154",
+            "type": 5,
+            "title": "乳钉直棱纹四耳簋",
+            "subtitle": null,
+            "coverImage": "https://eshopfile.zhiyousx.com/163097767163525180.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1446758623710552066",
+            "type": 5,
+            "title": "折觥",
+            "subtitle": "古代青铜器铸造的“巅峰之作”",
+            "coverImage": "https://res.zhiyousx.com/ysx/pro/2021/10/09/163376885218016307.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1446753159023173634",
+            "type": 5,
+            "title": "单五父壶",
+            "subtitle": "纹饰缛丽，铸工精湛",
+            "coverImage": "https://res.zhiyousx.com/ysx/pro/2021/10/09/163376754576450162.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1446749670435987457",
+            "type": 5,
+            "title": "逨鼎",
+            "subtitle": "王权的象征",
+            "coverImage": "https://res.zhiyousx.com/ysx/pro/2021/10/09/163376690241203760.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1446746699828568065",
+            "type": 5,
+            "title": "逨盘",
+            "subtitle": "中国第一盘",
+            "coverImage": "https://res.zhiyousx.com/ysx/pro/2021/10/09/163376589855624624.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1435427594119000066",
+            "type": 5,
+            "title": "墙盘",
+            "subtitle": "底部铭文堪比一部“史书”",
+            "coverImage": "https://eshopfile.zhiyousx.com/163106722725980419.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1926906300901548034",
+            "type": 5,
+            "title": "西周害夫簋",
+            "subtitle": "",
+            "coverImage": "https://eshopfile.zhiyousx.com/174824503066901337.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

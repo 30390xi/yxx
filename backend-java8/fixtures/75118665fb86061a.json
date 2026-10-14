@@ -1,0 +1,68 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1696782315588046849",
+    "contentId": "1696782313893548033",
+    "rankingName": "曲江人气景区排行榜",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/169344533889749077.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": "人去过",
+    "rankingInclude": "个目的地",
+    "rankingPersonalInfo": "我去过的目的地",
+    "rankingSharePictureUrl": "https://eshopfile.zhiyousx.com/169337904552654273.jpg",
+    "bottomColour": "#0187CC",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1320579064595111973",
+        "originType": "1",
+        "originName": "杜邑遗址公园",
+        "originSubtitleName": "南望终南名山如屏，北眺京师宫观似锦",
+        "originUrl": "https://eshopfile.zhiyousx.com/2022031814375405587.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2022/03/18/164758564868715829.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2022/03/18/164758564872390812.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2022/03/18/164758564874137450.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2022/03/18/164758564877645732.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2022/03/18/164758564887657660.jpg"
+        ],
+        "sort": "10",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1438422634378416130",
+        "originType": "1",
+        "originName": "中国唐苑",
+        "originSubtitleName": "盆景艺术的大观园",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021091616400459732.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021091616363552243.jpg",
+          "https://eshopfile.zhiyousx.com/2021091616364504211.jpg",
+          "https://eshopfile.zhiyousx.com/2021091616365623668.jpg",
+          "https://eshopfile.zhiyousx.com/2021091616395473408.jpg"
+        ],
+        "sort": "11",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "12",
+    "favoriteSum": null,
+    "personalInfoValue": "0/12"
+  },
+  "msg": "成功",
+  "success": true
+}

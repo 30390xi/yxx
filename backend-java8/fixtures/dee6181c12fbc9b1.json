@@ -1,0 +1,94 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1418152026436599809",
+    "contentId": "1418152026428211201",
+    "rankingName": "国家工业遗产",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/162702296531080763.jpg",
+    "rankingDescribe": "　　工业遗产是工业文化的重要载体，见证了我国工业发展的历史进程。国家工业遗产名单由国家工业和信息化部评审认定，自2017年起每年年底公示一次。截至2022年，陕西已有9处工业遗产入选。",
+    "rankingTotalUserData": "人去过",
+    "rankingInclude": "个目的地",
+    "rankingPersonalInfo": "我去过的目的地",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#946404",
+    "tagUrl": null,
+    "travelMapFlag": null,
+    "type": "7",
+    "rankingItemList": [
+      {
+        "originId": "1326771496516968450",
+        "originType": "1",
+        "originName": "长乐塬抗战工业遗址公园",
+        "originSubtitleName": "中国抗战时期最伟大的奇迹之一",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021060914543119953.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021061117320347339.jpg",
+          "https://eshopfile.zhiyousx.com/2021060914470514362.jpg",
+          "https://eshopfile.zhiyousx.com/2021060914471601135.jpg",
+          "https://eshopfile.zhiyousx.com/2021060914463927785.jpg",
+          "https://eshopfile.zhiyousx.com/2021060914493797614.jpg",
+          "https://eshopfile.zhiyousx.com/2021060914501028100.png",
+          "https://eshopfile.zhiyousx.com/2021060915023688072.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1449943945256640513",
+        "originType": "1",
+        "originName": "王石凹煤矿工业遗址公园",
+        "originSubtitleName": "一山一世界 一石一行云",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021101811385126100.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021101811421167915.jpg",
+          "https://eshopfile.zhiyousx.com/2021101811421780872.jpg",
+          "https://eshopfile.zhiyousx.com/2021101811422100734.jpg",
+          "https://eshopfile.zhiyousx.com/165838679480640730.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1452832111697338369",
+        "originType": "1",
+        "originName": "西安电影制片厂・西影电影博物馆",
+        "originSubtitleName": "穿越百年影史长河，奇妙光影之旅",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021102616440060098.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021102610581710224.jpg",
+          "https://eshopfile.zhiyousx.com/2021102610582483415.jpg",
+          "https://eshopfile.zhiyousx.com/2021102610583516133.jpg",
+          "https://eshopfile.zhiyousx.com/2021102610584399150.png",
+          "https://eshopfile.zhiyousx.com/2021102617125880030.jpg",
+          "https://eshopfile.zhiyousx.com/2021102617130879188.jpg",
+          "https://eshopfile.zhiyousx.com/2021102617131553520.jpg",
+          "https://eshopfile.zhiyousx.com/2021102617132273738.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": true,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "3",
+    "favoriteSum": null,
+    "personalInfoValue": "0/3"
+  },
+  "msg": "成功",
+  "success": true
+}

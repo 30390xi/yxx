@@ -6,8 +6,8 @@
                 <swiper bindanimationfinish="__e" bindchange="__e" class="swiper data-v-1c550159" current="{{index_}}" data-event-opts="{{[ [ 'change',[ [ 'changefun',['$event'] ] ] ],[ 'animationfinish',[ [ 'animationfinishfun',['$event'] ] ] ] ]}}" vertical="{{true}}">
                     <swiper-item class="data-v-1c550159" wx:for="{{videoList}}" wx:key="index">
                         <view catchtap="__e" class="swiper-item data-v-1c550159" data-event-opts="{{[ [ 'tap',[ [ 'playPause',[index] ] ] ] ]}}">
-                            <image class="btn play data-v-1c550159" src="https://eshopfile.zhiyousx.com/2021083111362225433.png" wx:if="{{!isPlay}}"></image>
-                            <image class="btn pause data-v-1c550159" src="https://eshopfile.zhiyousx.com/2021083111373735978.png" wx:if="{{isPlay&&firstclick}}"></image>
+                            <image class="btn play data-v-1c550159" src="/static/captured/14a2a1bc62341f39.png" wx:if="{{!isPlay}}"></image>
+                            <image class="btn pause data-v-1c550159" src="/static/captured/34f9ca90da4f7c66.png" wx:if="{{isPlay&&firstclick}}"></image>
                             <video bindfullscreenchange="__e" bindtimeupdate="__e" class="video data-v-1c550159" controls="{{fullScreen}}" customCache="{{false}}" data-event-opts="{{[ [ 'fullscreenchange',[ [ 'fullscreenchange',['$event'] ] ] ],[ 'timeupdate',[ [ 'videoUpdate',['$event'] ] ] ] ]}}" duration="{{item.duration}}" enableProgressGesture="{{true}}" id="{{'id'+index}}" loop="true" showCenterPlayBtn="{{false}}" src="{{item.vlogUrl}}"></video>
                         </view>
                     </swiper-item>
@@ -32,7 +32,7 @@
                         <image class="bg data-v-1c550159" mode="aspectFill" src="{{item.coverImage}}"></image>
                         <view class="linearbg data-v-1c550159"></view>
                         <view class="info data-v-1c550159">
-                            <image class="icon data-v-1c550159" src="https://eshopfile.zhiyousx.com/2021083112125659006.png"></image>
+                            <image class="icon data-v-1c550159" src="/static/captured/7e60a79310dab1dd.png"></image>
                             <view class="text singleLineText data-v-1c550159">{{item.title}}</view>
                         </view>
                     </view>

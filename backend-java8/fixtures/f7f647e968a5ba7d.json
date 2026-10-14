@@ -1,0 +1,225 @@
+{
+  "code": 1,
+  "data": {
+    "id": "2071800730496192514",
+    "contentId": "2071800730487803905",
+    "rankingName": "大众点评西安2026必吃榜餐厅",
+    "rankingClass": "2",
+    "rankingType": "3",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/178279074451681087.jpg",
+    "rankingDescribe": "",
+    "rankingTotalUserData": "人喜爱",
+    "rankingInclude": "个目的地",
+    "rankingPersonalInfo": "我去过的目的地",
+    "rankingSharePictureUrl": "",
+    "bottomColour": "#FC673D",
+    "tagUrl": null,
+    "travelMapFlag": null,
+    "type": "7",
+    "rankingItemList": [
+      {
+        "originId": "1815292751081349121",
+        "originType": "3",
+        "originName": "澄城崇斌水盆羊肉（临潼店）",
+        "originSubtitleName": "大众点评2026西安必吃榜上榜餐厅",
+        "originUrl": "https://eshopfile.zhiyousx.com/2024080710211344883.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/172301303144060001.jpg",
+          "https://eshopfile.zhiyousx.com/172301303173371272.jpg",
+          "https://eshopfile.zhiyousx.com/172301303202328989.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1935521141370048513",
+        "originType": "3",
+        "originName": "同福龙虾（高新店）",
+        "originSubtitleName": "精品小龙虾餐厅",
+        "originUrl": "https://eshopfile.zhiyousx.com/2025073116523755732.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/175029917028820020.jpg",
+          "https://eshopfile.zhiyousx.com/175029917064375922.jpg",
+          "https://eshopfile.zhiyousx.com/175029917159676813.jpg",
+          "https://eshopfile.zhiyousx.com/175029917095773097.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "2061745319741358081",
+        "originType": "3",
+        "originName": "acquolina·阿果里呐意大利比萨店",
+        "originSubtitleName": "意大利披萨",
+        "originUrl": "https://eshopfile.zhiyousx.com/2026070214421988885.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/178039334685905586.jpg",
+          "https://eshopfile.zhiyousx.com/178039334720700972.jpg",
+          "https://eshopfile.zhiyousx.com/178039334760971908.jpg",
+          "https://eshopfile.zhiyousx.com/178039334803605702.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "2065279053310382082",
+        "originType": "3",
+        "originName": "Giacomo's手风琴西餐厅",
+        "originSubtitleName": "特色西餐厅",
+        "originUrl": "https://eshopfile.zhiyousx.com/2026070214410252769.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/178123586721379269.jpg",
+          "https://eshopfile.zhiyousx.com/178123586761721286.jpg",
+          "https://eshopfile.zhiyousx.com/178123586795192310.jpg",
+          "https://eshopfile.zhiyousx.com/178123586832249037.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "2059936694584606721",
+        "originType": "3",
+        "originName": "大秦御鼎雪花牛肉养生火锅金桥国际广场店",
+        "originSubtitleName": "牛羊肉火锅",
+        "originUrl": "https://eshopfile.zhiyousx.com/2026070214401895440.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/177996214119456400.jpg",
+          "https://eshopfile.zhiyousx.com/177996214084202560.jpg",
+          "https://eshopfile.zhiyousx.com/177996214417828742.jpg",
+          "https://eshopfile.zhiyousx.com/177996214159283641.jpg",
+          "https://eshopfile.zhiyousx.com/177996214453077302.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "2066822366857449474",
+        "originType": "3",
+        "originName": "德發興茶冰廳（高新店）",
+        "originSubtitleName": "地道港味，复古好出片",
+        "originUrl": "https://eshopfile.zhiyousx.com/2026070214395851261.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/178160378147653072.jpg",
+          "https://eshopfile.zhiyousx.com/178160378185708068.jpg",
+          "https://eshopfile.zhiyousx.com/178160378216589793.png"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1935960517858217985",
+        "originType": "3",
+        "originName": "陈聚德炒牛肉（临潼直营店）",
+        "originSubtitleName": "关中风味炒牛肉",
+        "originUrl": "https://eshopfile.zhiyousx.com/2026070214393821825.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/175040391546729167.jpg",
+          "https://eshopfile.zhiyousx.com/175040391622935327.jpg",
+          "https://eshopfile.zhiyousx.com/175040391498882917.jpg",
+          "https://eshopfile.zhiyousx.com/175040391590354694.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "2059930103642718210",
+        "originType": "3",
+        "originName": "番食园鲜食火锅（高新店）",
+        "originSubtitleName": "浓郁番茄火锅",
+        "originUrl": "https://eshopfile.zhiyousx.com/2026070214391463484.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/177996056356402584.jpg",
+          "https://eshopfile.zhiyousx.com/177996056315717390.jpg",
+          "https://eshopfile.zhiyousx.com/177996056397620481.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "2061740958799548418",
+        "originType": "3",
+        "originName": "鸽子侯·臻宴（大都荟店）",
+        "originSubtitleName": "特色创意菜",
+        "originUrl": "https://eshopfile.zhiyousx.com/2026070214385563312.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/178039228747025132.jpg",
+          "https://eshopfile.zhiyousx.com/178039228780187622.jpg",
+          "https://eshopfile.zhiyousx.com/178039228813651915.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "2067533967805829121",
+        "originType": "3",
+        "originName": "谷香园蓝田小吃·特色陕菜",
+        "originSubtitleName": "正宗蓝田特色农家小吃",
+        "originUrl": "https://eshopfile.zhiyousx.com/2026070214383325811.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/178177338789560216.jpg",
+          "https://eshopfile.zhiyousx.com/178177338818633156.jpg",
+          "https://eshopfile.zhiyousx.com/178177338849978705.jpg",
+          "https://eshopfile.zhiyousx.com/178177338880489514.jpg",
+          "https://eshopfile.zhiyousx.com/178177338915449246.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "71",
+    "favoriteSum": null,
+    "personalInfoValue": "0/71"
+  },
+  "msg": "成功",
+  "success": true
+}

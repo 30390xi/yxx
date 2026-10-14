@@ -1,0 +1,221 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1418469483021889538",
+    "contentId": "1418469483009306625",
+    "rankingName": "陕历博人气文物排行榜",
+    "rankingClass": "0",
+    "rankingType": "2",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/162702423813941791.jpg",
+    "rankingDescribe": "",
+    "rankingTotalUserData": null,
+    "rankingInclude": "个文物",
+    "rankingPersonalInfo": "我参观过的文物",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#705E4A",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1412694128663224321",
+        "originType": "2",
+        "originName": "唐三彩骆驼载乐俑",
+        "originSubtitleName": "穿越千年的“巡回乐队”",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021071316553829561.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021071917024425330.jpg",
+          "https://eshopfile.zhiyousx.com/162702724114114111.jpg",
+          "https://eshopfile.zhiyousx.com/162702725590911747.jpg",
+          "https://eshopfile.zhiyousx.com/162702726315851641.jpg",
+          "https://eshopfile.zhiyousx.com/162702727052021773.png"
+        ],
+        "sort": "0",
+        "favoriteValue": "87.1",
+        "isBookable": null,
+        "favoriteSum": "27",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1412694776075018241",
+        "originType": "2",
+        "originName": "皇后玉玺",
+        "originSubtitleName": "一个女人和一个王朝的权力印证",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021071309240855560.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/162702669624101810.jpg",
+          "https://eshopfile.zhiyousx.com/162703249515059596.jpg",
+          "https://eshopfile.zhiyousx.com/162703248691082045.jpg",
+          "https://eshopfile.zhiyousx.com/162703258400646638.jpg"
+        ],
+        "sort": "1",
+        "favoriteValue": "81.5",
+        "isBookable": null,
+        "favoriteSum": "22",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1412696172128133122",
+        "originType": "2",
+        "originName": "宫女图",
+        "originSubtitleName": "翩若惊鸿 婉若游龙",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021071316562174563.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/162702608519882028.jpg",
+          "https://eshopfile.zhiyousx.com/162702609239002267.png",
+          "https://eshopfile.zhiyousx.com/162702610106555855.jpg"
+        ],
+        "sort": "2",
+        "favoriteValue": "81.8",
+        "isBookable": null,
+        "favoriteSum": "9",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1412697029418704898",
+        "originType": "2",
+        "originName": "五祀卫鼎",
+        "originSubtitleName": "纪录中国最早土地制度的青铜史书",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021071309232593791.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/162702854803336485.jpg",
+          "https://eshopfile.zhiyousx.com/162702855489204131.jpg",
+          "https://eshopfile.zhiyousx.com/162702856153880953.jpg"
+        ],
+        "sort": "3",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "2",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1412698355196256258",
+        "originType": "2",
+        "originName": "鎏金银竹节铜熏炉",
+        "originSubtitleName": "一座铜熏炉见证两千年前的爱情",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021071309220882927.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/162703016011735853.jpg",
+          "https://eshopfile.zhiyousx.com/162703016717859963.jpg",
+          "https://eshopfile.zhiyousx.com/162703017587605388.jpg",
+          "https://eshopfile.zhiyousx.com/162703018388785525.jpg"
+        ],
+        "sort": "4",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "3",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1412698848006004738",
+        "originType": "2",
+        "originName": "鎏金舞马衔杯纹银壶",
+        "originSubtitleName": "大唐王朝兴衰的见证",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021071309212886367.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/162702894804739866.jpg",
+          "https://eshopfile.zhiyousx.com/162702896759834741.png",
+          "https://eshopfile.zhiyousx.com/162702897858687363.jpg"
+        ],
+        "sort": "5",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "5",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1412699147307343873",
+        "originType": "2",
+        "originName": "阙楼仪仗图",
+        "originSubtitleName": "最真实的历史图像记忆",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021071309224189171.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/162702984481123435.jpg",
+          "https://eshopfile.zhiyousx.com/162702985364789647.jpg",
+          "https://eshopfile.zhiyousx.com/162702986117616803.jpg",
+          "https://eshopfile.zhiyousx.com/162702986930433451.jpg"
+        ],
+        "sort": "6",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "2",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1412699465277530113",
+        "originType": "2",
+        "originName": "打马球图",
+        "originSubtitleName": "一千年前中国人这样“踢足球”",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021070717054611403.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/162702940877007675.jpg",
+          "https://eshopfile.zhiyousx.com/162702951496536264.png"
+        ],
+        "sort": "7",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "2",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1412699785982402561",
+        "originType": "2",
+        "originName": "狩猎出行图",
+        "originSubtitleName": "大唐贵族的出猎景象",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021071316582317262.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/162702919184314445.png",
+          "https://eshopfile.zhiyousx.com/162702920097438145.png",
+          "https://eshopfile.zhiyousx.com/162702920899022369.jpg"
+        ],
+        "sort": "8",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "3",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1412700693583650818",
+        "originType": "2",
+        "originName": "客使图",
+        "originSubtitleName": "大唐盛世外交的见证",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021071316570362963.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/162702806872886287.jpg",
+          "https://eshopfile.zhiyousx.com/162702807683423692.jpg",
+          "https://eshopfile.zhiyousx.com/162702808256092181.jpg"
+        ],
+        "sort": "9",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "1",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "16",
+    "favoriteSum": "99",
+    "personalInfoValue": "0/16"
+  },
+  "msg": "成功",
+  "success": true
+}

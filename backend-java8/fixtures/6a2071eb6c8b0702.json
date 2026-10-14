@@ -1,0 +1,220 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1455738131121807362",
+    "contentId": "1455738130052259841",
+    "rankingName": "榆林特色小吃人气排行榜",
+    "rankingClass": "2",
+    "rankingType": "2",
+    "rankingMainPictureUrl": "https://res.zhiyousx.com/ysx/pro/2021/11/03/163590996162103590.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": null,
+    "rankingInclude": "个美食",
+    "rankingPersonalInfo": "我吃过的美食",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#F6A700",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1451465527682670593",
+        "originType": "2",
+        "originName": "黄馍馍",
+        "originSubtitleName": "酥酥软软营养高",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489097166946603.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489125878555594.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489126290167349.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489126722078970.jpg"
+        ],
+        "sort": "0",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "1",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451472458648395778",
+        "originType": "2",
+        "originName": "洋芋擦擦",
+        "originSubtitleName": "陕北人的薯条",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489280825231285.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489296176028544.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489296657291036.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489297177435869.jpg"
+        ],
+        "sort": "1",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "3",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1452567019902738433",
+        "originType": "2",
+        "originName": "杂面",
+        "originSubtitleName": "薄如纸，细如丝",
+        "originUrl": "https://eshopfile.zhiyousx.com/2022072717144307739.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/165390380040242269.jpg",
+          "https://eshopfile.zhiyousx.com/165390380083094230.jpg",
+          "https://eshopfile.zhiyousx.com/165390379936532408.jpg",
+          "https://eshopfile.zhiyousx.com/165390379991557446.jpg"
+        ],
+        "sort": "2",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451490318368120833",
+        "originType": "2",
+        "originName": "油馍馍",
+        "originSubtitleName": "金黄似铜钱，甘甜又可口",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489703540749338.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489721776465547.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489722225749422.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489723052305451.jpg"
+        ],
+        "sort": "3",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "3",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451404910531715073",
+        "originType": "2",
+        "originName": "羊杂碎",
+        "originSubtitleName": "陕北人的灵魂汤食",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/22/163487669859512468.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163487685718646089.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163487686164003258.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163487686655472020.jpg"
+        ],
+        "sort": "4",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "1",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451403298367086594",
+        "originType": "2",
+        "originName": "绥德油旋",
+        "originSubtitleName": "以城命名的传统小吃",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/22/163487612706535461.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163487635103411457.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163487635505374746.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163487635869528477.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163487636386938743.jpg"
+        ],
+        "sort": "5",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451390667761655810",
+        "originType": "2",
+        "originName": "剁荞面",
+        "originSubtitleName": "用刀剁的荞麦面",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/22/163487335721982613.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163487346055177488.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163487346489360943.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163487347003700563.jpg"
+        ],
+        "sort": "6",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451475620025344001",
+        "originType": "2",
+        "originName": "碗托",
+        "originSubtitleName": "筋软耐嚼，香醇可口",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489358388187630.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489370867312619.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489371324743153.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489371954766001.jpg"
+        ],
+        "sort": "7",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "3",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451471131738382338",
+        "originType": "2",
+        "originName": "抿节",
+        "originSubtitleName": "陕北必吃面食",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489261291512033.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489264107436915.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489264724230608.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489265145441564.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489265472472244.jpg"
+        ],
+        "sort": "8",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "2",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451469443434553346",
+        "originType": "2",
+        "originName": "小米凉粉",
+        "originSubtitleName": "晶莹剔透，软糯香甜",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489210792082270.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489224037346903.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489224765789324.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489225237432376.jpg"
+        ],
+        "sort": "9",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "14",
+    "favoriteSum": "15",
+    "personalInfoValue": "0/14"
+  },
+  "msg": "成功",
+  "success": true
+}

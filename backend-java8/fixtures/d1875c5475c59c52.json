@@ -1,0 +1,18 @@
+{
+  "code": 1,
+  "data": {
+    "paramKey": "OPEN_APP",
+    "paramName": "打开游陕西APP，海量门票优惠购",
+    "paramValue": "1",
+    "memo": "0-关闭 ，1开启",
+    "isConfigurable": 1,
+    "operatorType": null,
+    "operatorId": "1",
+    "createTime": "2020-12-17 14:32:01",
+    "updateTime": "2020-12-17 12:19:30",
+    "isDeleted": 0,
+    "serviceType": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,229 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064188264595",
+    "scenicName": "金山旅游度假区",
+    "tag": "生态休闲度假胜地",
+    "level": 3,
+    "address": "商洛市丹凤县金山路",
+    "longitude": "110.34299",
+    "latitude": "33.684377",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#7E94A9",
+    "centralColour": "#556C82",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/1-20201028193344.jpg",
+      "https://eshopfile.zhiyousx.com/2-20201028193349.jpg"
+    ],
+    "introduction": "<p>　　金山旅游度假区，位于丹凤县城东金山，北起宁西铁路、312国道，南至丹江，东到资峪河，西临东河，距西安仅两小时车程，半小时可到达商洛市。金山旅游度假区依托金山走势而建，主要包括金山寺、佛光塔、金山书院、金山阁、垂钓园、龙驹山庄、安森曼葡萄酒庄、葡萄采摘观光园等七十多处重要景点，还拥有一个四星级园林度假式综合酒店。金山旅游景区依山傍水，风光秀丽，是周末休息放松的好去处。</p>\n<p>&nbsp;</p>",
+    "introductionText": "　　金山旅游度假区，位于丹凤县城东金山，北起宁西铁路、312国道，南至丹江，东到资峪河，西临东河，距西安仅两小时车程，半小时可到达商洛市。金山旅游度假区依托金山走势而建，主要包括金山寺、佛光塔、金山书院、金山阁、垂钓园、龙驹山庄、安森曼葡萄酒庄、葡萄采摘观光园等七十多处重要景点，还拥有一个四星级园林度假式综合酒店。金山旅游景区依山傍水，风光秀丽，是周末休息放松的好去处。\n",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "63",
+        "name": "宗教文化",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "全员",
+        "limit": "无",
+        "discount": "免费"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "18366250896"
+      },
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0914-3320555"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1689832338995490817",
+        "resourcesId": "1321415041193631745",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/5-20201028193426.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2023-08-11 10:53:19",
+        "updateTime": "2023-08-11 10:53:19",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1689832339008073730",
+        "resourcesId": "1321415041193631745",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021100811090745878.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2023-08-11 10:53:19",
+        "updateTime": "2023-08-11 10:53:19",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1689832339016462338",
+        "resourcesId": "1321415041193631745",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/3-20201028193414.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2023-08-11 10:53:19",
+        "updateTime": "2023-08-11 10:53:19",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1689832339029045250",
+        "resourcesId": "1321415041193631745",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/4-20201028193419.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2023-08-11 10:53:19",
+        "updateTime": "2023-08-11 10:53:19",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": null,
+      "rankingId": null,
+      "indexInRanking": null,
+      "rankingName": null,
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

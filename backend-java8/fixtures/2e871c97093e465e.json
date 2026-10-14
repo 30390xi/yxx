@@ -1,0 +1,439 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1419498459437817857",
+    "scenicName": "汉长安城未央宫国家考古遗址公园",
+    "tag": "总面积相当于6个北京故宫",
+    "level": -1,
+    "cityId": "1320620100725026817",
+    "cityName": "西安",
+    "address": "西安市未央区枣园北路与立信路交叉口东北",
+    "longitude": "108.866323",
+    "latitude": "34.288486",
+    "openingStatus": 1,
+    "capacity": 1000,
+    "sequence": 55,
+    "topColour": "#B6A794",
+    "centralColour": "#918576",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021072611010449582.jpg"
+    ],
+    "introduction": "<p>　　汉长安城未央宫遗址在汉长安城西南部的西安门里，又称西宫。这里曾是西汉时期皇帝朝寝的皇宫，是汉长安城内最重要的宫殿建筑群，是西汉200余年间的政令中心，也是中国古代规模最大的宫殿建筑群之一，其规划和设计思想对后代宫城和都城的建设规划产生了极为深远的影响。未央宫遗址平面近似正方形，总面积约4.84平方公里，约占汉长安城总面积的1/7。是中国统一帝国时期早期西汉帝国的都城宫殿遗址，&ldquo;丝绸之路：长安-天山廊道的路网&rdquo;中的一处遗址点。</p>",
+    "introductionText": "　　汉长安城未央宫遗址在汉长安城西南部的西安门里，又称西宫。这里曾是西汉时期皇帝朝寝的皇宫，是汉长安城内最重要的宫殿建筑群，是西汉200余年间的政令中心，也是中国古代规模最大的宫殿建筑群之一，其规划和设计思想对后代宫城和都城的建设规划产生了极为深远的影响。未央宫遗址平面近似正方形，总面积约4.84平方公里，约占汉长安城总面积的1/7。是中国统一帝国时期早期西汉帝国的都城宫殿遗址，“丝绸之路：长安-天山廊道的路网”中的一处遗址点。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "16",
+        "name": "城市公园",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026386268161",
+        "contentId": "1418152026377879553",
+        "name": "世界遗产名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1608375821117603841",
+        "contentId": "1608375821109215234",
+        "name": "国家考古遗址公园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/167230146627310473.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全天免费开放",
+        "openTimeContent": "建议游玩时间：1-2小时"
+      }
+    ],
+    "discountVoList": null,
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "10",
+        "name": "商店",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (19).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "59",
+        "name": "园内交通",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016420452783.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>乘坐234路、331路公交至周河湾村站下车即可；</p>\n<p>乘坐9路、217路、501路、504路至邓家村站下，沿大兴西路向西500米可达</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": "<p>1号线皂河站下，打车或者骑共享单车约4km</p>"
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "咨询电话",
+        "telephone": "029-84112322"
+      },
+      {
+        "telephoneTitle": "咨询电话",
+        "telephone": "029-88696531"
+      }
+    ],
+    "wxSubscriptionVoList": null,
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [
+      {
+        "id": "2089248099896786946",
+        "outId": "1419498459437817857",
+        "type": 1,
+        "advertName": "游览指南",
+        "advertPic": "https://eshopfile.zhiyousx.com/2026012014583642592.jpg",
+        "jumpType": 1,
+        "jumpUrl": "https://mp.weixin.qq.com/s/kV-m2NdGPCEh5_P2dAWjuA",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "",
+        "contentType": null,
+        "bannerPosition": 0
+      }
+    ],
+    "bannerList": [],
+    "contentModuleName": "",
+    "contentResourcesDtoList": [
+      {
+        "id": "2089248099859038210",
+        "resourcesId": "1419498459421040642",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072611204690682.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-08-17 15:08:58",
+        "updateTime": "2026-08-17 15:08:58",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2089248099859038211",
+        "resourcesId": "1419498459421040642",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072611205773207.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-08-17 15:08:58",
+        "updateTime": "2026-08-17 15:08:58",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2089248099863232513",
+        "resourcesId": "1419498459421040642",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072611222381991.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-08-17 15:08:58",
+        "updateTime": "2026-08-17 15:08:58",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2089248099867426818",
+        "resourcesId": "1419498459421040642",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072611211077573.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-08-17 15:08:58",
+        "updateTime": "2026-08-17 15:08:58",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2089248099867426819",
+        "resourcesId": "1419498459421040642",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072611211892801.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2026-08-17 15:08:58",
+        "updateTime": "2026-08-17 15:08:58",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2089248099871621122",
+        "resourcesId": "1419498459421040642",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072611212850242.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2026-08-17 15:08:58",
+        "updateTime": "2026-08-17 15:08:58",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2089248099871621123",
+        "resourcesId": "1419498459421040642",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072611213713812.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2026-08-17 15:08:58",
+        "updateTime": "2026-08-17 15:08:58",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2089248099875815425",
+        "resourcesId": "1419498459421040642",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072611214879823.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2026-08-17 15:08:58",
+        "updateTime": "2026-08-17 15:08:58",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2089248099875815426",
+        "resourcesId": "1419498459421040642",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072611220166403.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": null,
+        "createTime": "2026-08-17 15:08:58",
+        "updateTime": "2026-08-17 15:08:58",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2089248099880009730",
+        "resourcesId": "1419498459421040642",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072611221226174.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": null,
+        "createTime": "2026-08-17 15:08:58",
+        "updateTime": "2026-08-17 15:08:58",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1436259164358709249",
+      "rankingId": null,
+      "indexInRanking": 14,
+      "rankingName": "西安城市公园人气榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

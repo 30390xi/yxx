@@ -1,0 +1,399 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064188264464",
+    "scenicName": "秦岭江山景区",
+    "tag": "白石岩史前文化走廊",
+    "level": 4,
+    "cityId": "1320664941605466114",
+    "cityName": "商洛",
+    "address": "商洛市商州区腰市镇",
+    "longitude": "109.9083520000",
+    "latitude": "34.0840310000",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 185,
+    "topColour": "#87C67F",
+    "centralColour": "#6BAA2C",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/3-20201028154751.jpg",
+      "https://eshopfile.zhiyousx.com/4-20201028154800.jpg",
+      "https://eshopfile.zhiyousx.com/2-20201028154805.jpg",
+      "https://eshopfile.zhiyousx.com/6-20201028154809.jpg"
+    ],
+    "introduction": "<p style=\"text-align: justify;\">　　美丽的秦岭江山景区位于秦岭东段南麓的商洛市商州区腰市镇，距离西安市90公里。 巍峨的秦岭连接着商於，在这古道的西端才有了灞河，丹江和洛水。我们的江山景区就位于秦岭腹地商洛市的丹江上游发源地。这里在远古时代本身就是动植物的天堂和乐园，同时它还是我国中部地区天然的交通要道和交汇点，也是黄河文明与长江文明的融合点，更是上古时代南北动物迁徙的大通道。都说秦岭最美是商洛，在这商山与洛水间到底隐藏着什么样的传奇，到底还有多少令人着迷的风光，就像白居易所说：&ldquo;我有商州君未见，清泉白石在胸间！&rdquo;来商州您不得不看的就是江山！</p>",
+    "introductionText": "　　美丽的秦岭江山景区位于秦岭东段南麓的商洛市商州区腰市镇，距离西安市90公里。 巍峨的秦岭连接着商於，在这古道的西端才有了灞河，丹江和洛水。我们的江山景区就位于秦岭腹地商洛市的丹江上游发源地。这里在远古时代本身就是动植物的天堂和乐园，同时它还是我国中部地区天然的交通要道和交汇点，也是黄河文明与长江文明的融合点，更是上古时代南北动物迁徙的大通道。都说秦岭最美是商洛，在这商山与洛水间到底隐藏着什么样的传奇，到底还有多少令人着迷的风光，就像白居易所说：“我有商州君未见，清泉白石在胸间！”来商州您不得不看的就是江山！",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "51",
+        "name": "拓展游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "<p>活动内容：3月6日-3月31日所有游客享受免门票优惠政策</p>",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全年周一至周五",
+        "openTimeContent": "08:30-18:00，最晚入园16:00"
+      },
+      {
+        "openTimeTitle": "全年周末",
+        "openTimeContent": "08:30-18:00，最晚入园16:30"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "老人",
+        "limit": "65周岁(含以上凭老年证和身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "身高12米(不含)以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "军人",
+        "limit": "现役军人（含军队离退休干部）凭本人有效军官证（离退休证）、士兵证、士官证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米(含)以上及12周发(含)以下凭身份证或户口本",
+        "discount": "优惠"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "全日制大中小学生凭学生证",
+        "discount": "优惠"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "11",
+        "name": "餐厅",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (22).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "10",
+        "name": "商店",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (19).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "54",
+        "name": "手机充电",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016402390363.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "预订提示",
+        "additionalExplainContent": "疫情防控期间，为了保护好您的健康与安全，请您一定要做好自我防护，建议减少外出，避免去人群密集的公共场所，进入景区佩戴口罩。同时，请您配合景区做好入园体温检测以及信息登记工作。由此给您带来不便敬请谅解"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>景区距祥云县高铁站约17公里，乘昆明至大理方向的高铁，在祥云高铁站下车，在祥云县城南客运站乘坐到云南驿景区的城乡小巴，俗称&ldquo;小青蛙&rdquo;（票价：8元/位）</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": "<p>景区至云南驿高铁站约7公里，可乘昆明至大理方向的高铁，在云南驿高铁站下车，因现未开通小巴车，建议乘坐网约车，例如&ldquo;滴滴&rdquo;。</p>"
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<p>昆明方向：昆明-下庄收费站-320国道-云南驿景区</p>\n<p>大理方向：大理-祥云（或板桥）收费站-320国道-云南驿景区</p>"
+      }
+    ],
+    "officialWebsite": [
+      "http://web.qljsjq.com/wxshop/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "咨询电话",
+        "telephone": "0914-3233333"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "秦岭江山景区",
+        "wxSubscription": "SZQJSJQ"
+      }
+    ],
+    "sinaWeiboVoList": [
+      {
+        "sinaWeibo": "秦岭江山景区",
+        "sinaWeiboUrl": "https://m.weibo.cn/u/3788347741?uid=3788347741&t=0&luicode=10000011&lfid=100103type%3D1%26q%3D%E7%A7%A6%E5%B2%AD%E6%B1%9F%E5%B1%B1%E6%99%AF%E5%8C%BA"
+      }
+    ],
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1763447082159149057",
+        "resourcesId": "1321358343787536386",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2-20201028154847.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2024-03-01 14:12:02",
+        "updateTime": "2024-03-01 14:12:02",
+        "createBy": "1290154746467225602",
+        "updateBy": "1290154746467225602",
+        "isDeleted": 0
+      },
+      {
+        "id": "1763447082163343361",
+        "resourcesId": "1321358343787536386",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/8-20201028154856.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2024-03-01 14:12:02",
+        "updateTime": "2024-03-01 14:12:02",
+        "createBy": "1290154746467225602",
+        "updateBy": "1290154746467225602",
+        "isDeleted": 0
+      },
+      {
+        "id": "1763447082163343362",
+        "resourcesId": "1321358343787536386",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/9-20201028154903.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2024-03-01 14:12:02",
+        "updateTime": "2024-03-01 14:12:02",
+        "createBy": "1290154746467225602",
+        "updateBy": "1290154746467225602",
+        "isDeleted": 0
+      },
+      {
+        "id": "1763447082167537665",
+        "resourcesId": "1321358343787536386",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/5-20201028154910.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2024-03-01 14:12:02",
+        "updateTime": "2024-03-01 14:12:02",
+        "createBy": "1290154746467225602",
+        "updateBy": "1290154746467225602",
+        "isDeleted": 0
+      },
+      {
+        "id": "1763447082167537666",
+        "resourcesId": "1321358343787536386",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072214384776638.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2024-03-01 14:12:02",
+        "updateTime": "2024-03-01 14:12:02",
+        "createBy": "1290154746467225602",
+        "updateBy": "1290154746467225602",
+        "isDeleted": 0
+      },
+      {
+        "id": "1763447082167537667",
+        "resourcesId": "1321358343787536386",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072214390024663.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2024-03-01 14:12:02",
+        "updateTime": "2024-03-01 14:12:02",
+        "createBy": "1290154746467225602",
+        "updateBy": "1290154746467225602",
+        "isDeleted": 0
+      },
+      {
+        "id": "1763447082171731970",
+        "resourcesId": "1321358343787536386",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072214395658172.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2024-03-01 14:12:02",
+        "updateTime": "2024-03-01 14:12:02",
+        "createBy": "1290154746467225602",
+        "updateBy": "1290154746467225602",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455809122913067009",
+      "rankingId": null,
+      "indexInRanking": 2,
+      "rankingName": "商洛自驾游景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": "优惠政策来啦",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

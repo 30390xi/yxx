@@ -1,0 +1,103 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1455738131121807362",
+    "contentId": "1455738130052259841",
+    "rankingName": "榆林特色小吃人气排行榜",
+    "rankingClass": "2",
+    "rankingType": "2",
+    "rankingMainPictureUrl": "https://res.zhiyousx.com/ysx/pro/2021/11/03/163590996162103590.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": null,
+    "rankingInclude": "个美食",
+    "rankingPersonalInfo": "我吃过的美食",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#F6A700",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1451467913557975041",
+        "originType": "2",
+        "originName": "炸豆奶",
+        "originSubtitleName": "外焦里嫩，色泽金黄",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489162357125953.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489187918254447.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489188325612522.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489188773170383.jpg"
+        ],
+        "sort": "10",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451400918074400770",
+        "originType": "2",
+        "originName": "摊黄",
+        "originSubtitleName": "陕北的华夫饼",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/22/163487588052094043.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163487590565100196.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163487590942115019.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163487591490428222.jpg"
+        ],
+        "sort": "11",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451397119846916098",
+        "originType": "2",
+        "originName": "子洲果馅",
+        "originSubtitleName": "外酥里糯色金黄",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/22/163487368236485951.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163487499118380693.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163487499553512449.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163487500033249561.jpg"
+        ],
+        "sort": "12",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "2",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451388202987298817",
+        "originType": "2",
+        "originName": "圪凸",
+        "originSubtitleName": "陕北的麻食",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/22/163487243469852134.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163487279317998336.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163487279835116799.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163487280335884080.jpg"
+        ],
+        "sort": "13",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "14",
+    "favoriteSum": "15",
+    "personalInfoValue": "0/14"
+  },
+  "msg": "成功",
+  "success": true
+}

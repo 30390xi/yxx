@@ -1,0 +1,308 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064188264477",
+    "scenicName": "兴汉胜境景区",
+    "tag": "“天上银河、地上汉水”之汉文化胜地",
+    "level": 4,
+    "cityId": "1320664075750125570",
+    "cityName": "汉中",
+    "address": "汉中市汉台区兴汉新区兴汉胜境景区",
+    "longitude": "107.030882",
+    "latitude": "33.112264",
+    "openingStatus": 1,
+    "capacity": 15000,
+    "sequence": 425,
+    "topColour": "#5A7AA9",
+    "centralColour": "#223E6A",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/hwhbwg1-20201029145710.jpg",
+      "https://eshopfile.zhiyousx.com/ba1beefb-d49f-426a-bb17-4ff014e94842-20201029145720.jpg"
+    ],
+    "introduction": "<p>兴汉胜境位于中国汉中兴汉新区，占地1.67平方公里，规模宏大而壮观。景区内主要景点有兴汉城市展览馆、汉文化博物馆、汉乐府三座宏伟的宫殿群落，以及汉源湖、汉人老家街商业街区组成，建成了集汉风景点群、汉风商街群、汉风博物馆群、汉风酒店群、汉风餐饮群、汉风演艺群等于一体的汉文化旅游度假区。</p>",
+    "introductionText": "兴汉胜境位于中国汉中兴汉新区，占地1.67平方公里，规模宏大而壮观。景区内主要景点有兴汉城市展览馆、汉文化博物馆、汉乐府三座宏伟的宫殿群落，以及汉源湖、汉人老家街商业街区组成，建成了集汉风景点群、汉风商街群、汉风博物馆群、汉风酒店群、汉风餐饮群、汉风演艺群等于一体的汉文化旅游度假区。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "16",
+        "name": "城市公园",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "68",
+        "name": "旅游小镇",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "69",
+        "name": "商务旅",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "开放时间",
+        "openTimeContent": "9:00-18:00开放(17:00停止入园)"
+      }
+    ],
+    "discountVoList": null,
+    "facilitiesServicesVoList": null,
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": null,
+    "wxSubscriptionVoList": null,
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": "主要看点",
+    "contentResourcesDtoList": [
+      {
+        "id": "2033371267461152770",
+        "resourcesId": "1321707944927322114",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/xq4-20201029145730.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-03-16 10:34:23",
+        "updateTime": "2026-03-16 10:34:23",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2033371267465347073",
+        "resourcesId": "1321707944927322114",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/5ba11518-3189-49d8-a068-1dd7dfbe67d8-20201029145735.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-03-16 10:34:23",
+        "updateTime": "2026-03-16 10:34:23",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2033371267465347074",
+        "resourcesId": "1321707944927322114",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/52eb217f-2e87-4f03-95e2-8f206f39c876-20201029145746.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-03-16 10:34:23",
+        "updateTime": "2026-03-16 10:34:23",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2033371267469541378",
+        "resourcesId": "1321707944927322114",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/7c480c30-16d3-4c92-b8f5-8aa0d2e3884f-20201029145755.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-03-16 10:34:23",
+        "updateTime": "2026-03-16 10:34:23",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455795982670340097",
+      "rankingId": null,
+      "indexInRanking": 10,
+      "rankingName": "汉中必玩景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": [
+      {
+        "id": "2033371267482124289",
+        "scenicSpotId": "1320579064188264477",
+        "contentModuleName": "主要看点",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1418066735319244802",
+            "type": 6,
+            "title": "《汉颂》",
+            "subtitle": "经典汉文化史诗长歌",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021072310121692685.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1418458838415208449",
+            "type": 6,
+            "title": "《天汉传奇》",
+            "subtitle": "一部汉文化的动人传奇画卷",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021072314163218765.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

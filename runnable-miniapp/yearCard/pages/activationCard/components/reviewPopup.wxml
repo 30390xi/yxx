@@ -1,6 +1,6 @@
 <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="review-popup data-v-5cac3c3b" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showPopup','$event',[] ] ] ] ] ]}}" mode="bottom" value="{{showPopup}}" vueId="e4b449be-1" vueSlots="{{['default']}}">
     <view bindtap="__e" class="close-btn data-v-5cac3c3b" data-event-opts="{{[ [ 'tap',[ [ 'close',['$event'] ] ] ] ]}}">
-        <image class="data-v-5cac3c3b" src="https://eshopfile.zhiyousx.com/2023110114343274215.png"></image>
+        <image class="data-v-5cac3c3b" src="/static/captured/6c74e6d936769833.png"></image>
     </view>
     <view class="title data-v-5cac3c3b">游陕西旅游年卡人像采集服务协议</view>
     <view class="content data-v-5cac3c3b">

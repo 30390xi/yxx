@@ -1,0 +1,71 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "1831177713364426753",
+      "resourcesId": "1321356168621481986",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/太白山2-20201028153944.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2024-09-04 11:49:23",
+      "updateTime": "2024-09-04 11:49:23",
+      "createBy": "1376477871874289666",
+      "updateBy": "1376477871874289666",
+      "isDeleted": 0
+    },
+    {
+      "id": "1831177713368621057",
+      "resourcesId": "1321356168621481986",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/太白山3-20201028154013.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 2,
+      "describe": null,
+      "createTime": "2024-09-04 11:49:23",
+      "updateTime": "2024-09-04 11:49:23",
+      "createBy": "1376477871874289666",
+      "updateBy": "1376477871874289666",
+      "isDeleted": 0
+    },
+    {
+      "id": "1831177713368621058",
+      "resourcesId": "1321356168621481986",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/太白山1-20201028154021.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 3,
+      "describe": null,
+      "createTime": "2024-09-04 11:49:23",
+      "updateTime": "2024-09-04 11:49:23",
+      "createBy": "1376477871874289666",
+      "updateBy": "1376477871874289666",
+      "isDeleted": 0
+    },
+    {
+      "id": "1831177713372815362",
+      "resourcesId": "1321356168621481986",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/太白山7-20201028154030.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 4,
+      "describe": null,
+      "createTime": "2024-09-04 11:49:23",
+      "updateTime": "2024-09-04 11:49:23",
+      "createBy": "1376477871874289666",
+      "updateBy": "1376477871874289666",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

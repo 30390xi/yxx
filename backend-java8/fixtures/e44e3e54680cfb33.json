@@ -1,0 +1,331 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941150",
+    "scenicName": "天竺山国家森林公园",
+    "tag": "地质地貌奇观",
+    "level": 4,
+    "cityId": "1320664941605466114",
+    "cityName": "商洛",
+    "address": "商洛市山阳县天竺山镇",
+    "longitude": "110.0418340000",
+    "latitude": "33.4034830000",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 183,
+    "topColour": "#0B7FB1",
+    "centralColour": "#0B7FB1",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/1-20201028164540.jpg"
+    ],
+    "introduction": "<p>　　天竺山国家森林公园位于陕西省东南部山阳县境内，距县城40公里，总面积42平方公里，主峰海拔2073.98米，以秀美的生态环境和悠久的宗教文化而驰名。天竺山景区有雄伟独特的地质地貌奇观。天然裸露地表石灰岩，经充沛的雨水冲刷和较大的气候差异作用，形成了典型的熔岩地貌，有天竺峰、秀女峰、摘星峰等12奇峰，峰峰奇异；有黑龙洞、朝阳洞、穿心洞等24洞，洞洞深幽；有三里峡、七里峡石峡线天，壁立万仞；有阎王碥、刀背梁奇险无比，风光无限；有两三百万年前形成的冰臼群和第四纪冰川地质奇观&hellip;&hellip;，美不胜收。天竺山是天然的动植物天堂和中药材宝库。园内有华山松、冷杉、高山杜鹃、红豆杉、银杏等珍稀植物200余种，有明显的高山草甸和垂直植物分带景观。有金钱豹、林麝、果子狸、豹猫、金雕等珍奇野生动物40余种，有灵芝、天麻、党参、何首乌、百步还原草、百合、朱苓、黄连等珍稀中草药500余种。登览天竺山，可观日出、云海，观群山逶迤、云海雾瀑、彩虹蜃楼，可听松涛，听古刹钟声、夜月风铃，感悟自然，荡涤心灵。天竺山还以源远流长的宗教文化为人们所称道。天竺山道教传承有1600多年，有古老美丽的传说，有神秘幽静的宫观，有打坐参玄的功课，有盛大庙会的法事，有千年遗留的文物，还有当地民间古朴方言、淳厚民情。山阳天竺山是山水秦岭中一颗璀璨的明珠。</p>",
+    "introductionText": "　　天竺山国家森林公园位于陕西省东南部山阳县境内，距县城40公里，总面积42平方公里，主峰海拔2073.98米，以秀美的生态环境和悠久的宗教文化而驰名。天竺山景区有雄伟独特的地质地貌奇观。天然裸露地表石灰岩，经充沛的雨水冲刷和较大的气候差异作用，形成了典型的熔岩地貌，有天竺峰、秀女峰、摘星峰等12奇峰，峰峰奇异；有黑龙洞、朝阳洞、穿心洞等24洞，洞洞深幽；有三里峡、七里峡石峡线天，壁立万仞；有阎王碥、刀背梁奇险无比，风光无限；有两三百万年前形成的冰臼群和第四纪冰川地质奇观……，美不胜收。天竺山是天然的动植物天堂和中药材宝库。园内有华山松、冷杉、高山杜鹃、红豆杉、银杏等珍稀植物200余种，有明显的高山草甸和垂直植物分带景观。有金钱豹、林麝、果子狸、豹猫、金雕等珍奇野生动物40余种，有灵芝、天麻、党参、何首乌、百步还原草、百合、朱苓、黄连等珍稀中草药500余种。登览天竺山，可观日出、云海，观群山逶迤、云海雾瀑、彩虹蜃楼，可听松涛，听古刹钟声、夜月风铃，感悟自然，荡涤心灵。天竺山还以源远流长的宗教文化为人们所称道。天竺山道教传承有1600多年，有古老美丽的传说，有神秘幽静的宫观，有打坐参玄的功课，有盛大庙会的法事，有千年遗留的文物，还有当地民间古朴方言、淳厚民情。山阳天竺山是山水秦岭中一颗璀璨的明珠。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全年开放",
+        "openTimeContent": "08:00-18:00"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米以下",
+        "discount": "免票"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "65岁（含65周岁）以上老人持身份证",
+        "discount": "免票"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭残疾证",
+        "discount": "免票"
+      },
+      {
+        "peopleType": "军人",
+        "limit": "凭《士兵证》或《军官证》",
+        "discount": "免票"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "特殊说明",
+        "additionalExplainContent": "以上政策仅免大门票<br/>如有其他消费项目，请按规定另行付费"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": [
+      "https://tzsgjslgy.com/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "官方电话",
+        "telephone": "0914-8888882"
+      }
+    ],
+    "wxSubscriptionVoList": null,
+    "sinaWeiboVoList": [
+      {
+        "sinaWeibo": "天竺山国家森林公园",
+        "sinaWeiboUrl": "https://weibo.com/u/5044175578?is_all=1"
+      }
+    ],
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1836314390726631426",
+        "resourcesId": "1321372719630278658",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021090111352825713.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2024-09-18 16:00:42",
+        "updateTime": "2024-09-18 16:00:42",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "1836314390726631427",
+        "resourcesId": "1321372719630278658",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021090111355169082.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2024-09-18 16:00:42",
+        "updateTime": "2024-09-18 16:00:42",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "1836314390730825730",
+        "resourcesId": "1321372719630278658",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021090111354093654.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2024-09-18 16:00:42",
+        "updateTime": "2024-09-18 16:00:42",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "1836314390730825731",
+        "resourcesId": "1321372719630278658",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021090111354610237.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2024-09-18 16:00:42",
+        "updateTime": "2024-09-18 16:00:42",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "1836314390735020033",
+        "resourcesId": "1321372719630278658",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021090111353402159.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2024-09-18 16:00:42",
+        "updateTime": "2024-09-18 16:00:42",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455809122913067009",
+      "rankingId": null,
+      "indexInRanking": 9,
+      "rankingName": "商洛自驾游景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

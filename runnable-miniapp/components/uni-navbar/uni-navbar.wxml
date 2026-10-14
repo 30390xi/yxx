@@ -1,0 +1,4 @@
+<view class="uni-navbar" style="height: 44px; padding-top: {{statusBarHeight || 20}}px;">
+  <navigator class="uni-navbar__back" open-type="navigateBack" delta="1">‹</navigator>
+  <view class="uni-navbar__title">{{navTitle}}</view>
+</view>

@@ -1,0 +1,39 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "1437631031514615809",
+      "resourcesId": "1322063474845835265",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/天书1-20201030142959.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2021-09-14 12:15:22",
+      "updateTime": "2021-09-14 12:15:22",
+      "createBy": "1344113100973973505",
+      "updateBy": "1344113100973973505",
+      "isDeleted": 0
+    },
+    {
+      "id": "1437631031514615810",
+      "resourcesId": "1322063474845835265",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/天书2-20201030143009.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 2,
+      "describe": null,
+      "createTime": "2021-09-14 12:15:22",
+      "updateTime": "2021-09-14 12:15:22",
+      "createBy": "1344113100973973505",
+      "updateBy": "1344113100973973505",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

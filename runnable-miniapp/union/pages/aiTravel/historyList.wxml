@@ -4,7 +4,7 @@
         <view class="loading-text data-v-10bfc8f3">加载中...</view>
     </view>
     <uni-navbar bind:__l="__l" class="data-v-10bfc8f3" type="transparentFixed" vueId="52b92e68-1"></uni-navbar>
-    <image mode class="video_box1 data-v-10bfc8f3" src="https://eshopfile.zhiyousx.com/175021251389353595.jpg" wx:if="{{showImage}}"></image>
+    <image mode class="video_box1 data-v-10bfc8f3" src="/static/captured/39d7fecee884cdb1.jpg" wx:if="{{showImage}}"></image>
     <video class="video_box video_box4 data-v-10bfc8f3" controls="{{false}}" id="myVideo3" loop="{{true}}" muted="{{true}}" src="https://eshopfile.zhiyousx.com/2024121814473092347.mp4" style="{{'opacity:'+opacity+';'+'z-index:'+(typeVideo==3?'10':'1')+';'}}"></video>
     <video autoplay="{{true}}" bindloadedmetadata="__e" class="video_box video_box5 data-v-10bfc8f3" controls="{{false}}" data-event-opts="{{[ [ 'loadedmetadata',[ [ 'loadedmetadata',['$event'] ] ] ] ]}}" id="myVideo4" loop="{{true}}" muted="{{true}}" src="https://eshopfile.zhiyousx.com/2024122710555208245.mp4" style="{{'opacity:'+opacity+';'+'z-index:'+(typeVideo==4?'10':'1')+';'}}"></video>
     <z-paging bind:__l="__l" bind:input="__e" bottomBgColor="#ffffff" class="page-box-image22 data-v-10bfc8f3 vue-ref" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','dataList','$event',[] ] ] ] ] ]}}" data-ref="paging" safeAreaInsetBottom="{{isIos}}" style="position:fixed;z-index:11;" toBottomLoadingMoreEnabled="{{true}}" useChatRecordMode="{{true}}" value="{{dataList}}" vueId="52b92e68-2" vueSlots="{{['default','top','bottom']}}">

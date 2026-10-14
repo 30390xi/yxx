@@ -1,0 +1,235 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1438077237730594818",
+    "scenicName": "蒲城县博物馆",
+    "tag": "蒲城历史的窗口",
+    "level": 3,
+    "address": "渭南市蒲城县新开街1号",
+    "longitude": "109.587903",
+    "latitude": "34.956191",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#727883",
+    "centralColour": "#424852",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021091517480158916.jpg"
+    ],
+    "introduction": "<p>　　蒲城博物馆位于渭南市蒲城县红旗街，1990年在蒲城县文庙基础上建立而成。蒲城文庙创建于唐贞观四年（公元630年），距今已有一千三百余年的历史。博物馆坐北朝南，现存四进院落，是一座规模浩大的古建筑群。主要建筑有六龙壁、棂星门、泮池、戟门、尊经阁、乡贤祠、名宦祠、东西配殿、大成殿、掌酒司、典库司、明伦堂、崇圣祠等。其中的六龙壁建于明万历四十四年（公元1616年），以琉璃花砖精砌而成。壁正面为六龙泳舞图，背面塑六狮舞蹈图，距今将近400年的时间仍保存完好。博物馆分为珍贵匾额室（戟门内）、珍贵文物室（东廊坊内）、历代名人字画室（西廊房内）、雕刻艺术室（东廊房之北）、蒲城碑林（明伦堂内）等展室。现有馆藏文物4697件（组），上起原始社会，下迄明清。主要有碑帖、书法绘画作品、陶瓷、钱币、玉玺、织绣、青铜器、玉石器、竹木牙角、漆器等，其中又以盛唐时期的陶俑较为有名。</p>\n<p>&nbsp;</p>",
+    "introductionText": "　　蒲城博物馆位于渭南市蒲城县红旗街，1990年在蒲城县文庙基础上建立而成。蒲城文庙创建于唐贞观四年（公元630年），距今已有一千三百余年的历史。博物馆坐北朝南，现存四进院落，是一座规模浩大的古建筑群。主要建筑有六龙壁、棂星门、泮池、戟门、尊经阁、乡贤祠、名宦祠、东西配殿、大成殿、掌酒司、典库司、明伦堂、崇圣祠等。其中的六龙壁建于明万历四十四年（公元1616年），以琉璃花砖精砌而成。壁正面为六龙泳舞图，背面塑六狮舞蹈图，距今将近400年的时间仍保存完好。博物馆分为珍贵匾额室（戟门内）、珍贵文物室（东廊坊内）、历代名人字画室（西廊房内）、雕刻艺术室（东廊房之北）、蒲城碑林（明伦堂内）等展室。现有馆藏文物4697件（组），上起原始社会，下迄明清。主要有碑帖、书法绘画作品、陶瓷、钱币、玉玺、织绣、青铜器、玉石器、竹木牙角、漆器等，其中又以盛唐时期的陶俑较为有名。\n",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026545651713",
+        "contentId": "1418152026541457409",
+        "name": "国家三级博物馆",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "全员",
+        "limit": "无",
+        "discount": "免费"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0913-2109182"
+      },
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0913-7215713"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": "",
+    "contentResourcesDtoList": [
+      {
+        "id": "1690922165161668609",
+        "resourcesId": "1438077237718011906",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091517471253867.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2023-08-14 11:03:54",
+        "updateTime": "2023-08-14 11:03:54",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1690922165161668610",
+        "resourcesId": "1438077237718011906",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091517472413224.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2023-08-14 11:03:54",
+        "updateTime": "2023-08-14 11:03:54",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1690922165165862913",
+        "resourcesId": "1438077237718011906",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091517473666870.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2023-08-14 11:03:54",
+        "updateTime": "2023-08-14 11:03:54",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1690922165165862914",
+        "resourcesId": "1438077237718011906",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091517474803004.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2023-08-14 11:03:54",
+        "updateTime": "2023-08-14 11:03:54",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1439119981701840898",
+      "rankingId": null,
+      "indexInRanking": 66,
+      "rankingName": "陕西人气博物馆排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1455112666791124994",
+        "rankingId": "1455112668192022530",
+        "indexInRanking": null,
+        "rankingName": "渭南自驾游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

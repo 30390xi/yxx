@@ -9,7 +9,7 @@
                 <view class="loading-box data-v-0f1a54f8" wx:if="{{el.status==0}}">
                     <view class="loading-warp data-v-0f1a54f8">
                         <view class="loading-top data-v-0f1a54f8"></view>
-                        <image class="loading-bottom data-v-0f1a54f8" src="https://eshopfile.zhiyousx.com/173762708353241951.png"></image>
+                        <image class="loading-bottom data-v-0f1a54f8" src="/static/captured/791a63c7a985cb3c.png"></image>
                     </view>
                 </view>
                 <image bindtap="__e" class="swiperItem data-v-0f1a54f8" data-event-opts="{{[ [ 'tap',[ [ 'playVideo',['$0','$1'],[ [ ['dataList','id',el.id,'videoUrl'] ],[ ['dataList','id',el.id,'imageUrl'] ] ] ] ] ] ]}}" mode="aspectFill" src="{{el.imageUrl}}" wx:else></image>
@@ -28,7 +28,7 @@
         <view bindtap="__e" class="refresh-icon data-v-0f1a54f8" data-event-opts="{{[ [ 'tap',[ [ 'getDataList',['$event'] ] ] ] ]}}" wx:if="{{$root.g1}}"></view>
     </view>
     <view bindtap="__e" class="video-boxs data-v-0f1a54f8" data-event-opts="{{[ [ 'tap',[ [ 'parentMethod',['$event'] ] ] ] ]}}" hidden="{{!showPlay}}">
-        <image mode bindtap="__e" class="close-btn data-v-0f1a54f8" data-event-opts="{{[ [ 'tap',[ [ '',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/173752928421185517.png"></image>
+        <image mode bindtap="__e" class="close-btn data-v-0f1a54f8" data-event-opts="{{[ [ 'tap',[ [ '',['$event'] ] ] ] ]}}" src="/static/captured/937a0e6a5e0bebff.png"></image>
         <view bindtap="__e" class="foot-btn foot-btn1 data-v-0f1a54f8" data-event-opts="{{[ [ 'tap',[ [ 'download',['$event'] ] ] ] ]}}" id="close">下载视频</view>
         <video autoplay="{{true}}" bindtap="__e" class="{{['swiperItemVideo','data-v-0f1a54f8','vue-ref',smallScreen?'video1':'video2']}}" controls="{{true}}" data-event-opts="{{[ [ 'tap',[ [ 'stopPropagation',['$event'] ] ] ] ]}}" data-ref="video" id="videoDome" objectFit="cover" poster="{{option.imageUrl}}" src="{{option.videoUrl}}"></video>
     </view>

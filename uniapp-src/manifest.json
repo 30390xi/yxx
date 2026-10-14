@@ -1,0 +1,31 @@
+{
+  "name": "游陕西",
+  "appid": "__UNI__YOUSHAANXI",
+  "description": "游陕西小程序 (逆向重构 uni-app 源码工程)",
+  "versionName": "1.8.1",
+  "versionCode": "181",
+  "transformPx": false,
+  "app-plus": {
+    "usingComponents": true
+  },
+  "quickapp": {},
+  "mp-weixin": {
+    "appid": "wxf8549078eee81f5f",
+    "setting": {
+      "urlCheck": false,
+      "es6": true,
+      "postcss": true,
+      "minified": true
+    },
+    "usingComponents": true,
+    "permission": {
+      "scope.userLocation": {
+        "desc": "游陕西 申请 获取你的位置信息 你的位置信息将用于场景化推荐"
+      }
+    },
+    "requiredPrivateInfos": [
+      "getLocation"
+    ],
+    "lazyCodeLoading": "requiredComponents"
+  }
+}

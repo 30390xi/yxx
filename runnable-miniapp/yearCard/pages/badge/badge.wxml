@@ -1,7 +1,7 @@
 <view class="badge-page data-v-c2be93b8">
     <custom-nav backFun="{{backFun}}" bind:__l="__l" bind:back="__e" class="data-v-c2be93b8" data-event-opts="{{[ [ '^back',[ ['e0'] ] ] ]}}" muClass="nav-bg" scrollTop="{{scrollTop}}" title="勋章" titleColor="{{scrollTop>50?'#000000':'#FFFFFF'}}" vueId="5398952e-1" vueSlots="{{['content']}}">
         <view bindtap="__e" class="icon data-v-c2be93b8" data-event-opts="{{[ [ 'tap',[ [ 'handleShare',['$event'] ] ] ] ]}}" slot="content" wx:if="{{!showDetail&&isShowShare}}">
-            <image class="data-v-c2be93b8" mode="aspectFit" src="https://eshopfile.zhiyousx.com/2023120414181583702.png" style="{{'filter:'+(scrollTop>50?'invert(1)':'none')+';'}}"></image>
+            <image class="data-v-c2be93b8" mode="aspectFit" src="/static/captured/b6bd79984c62b3f5.png" style="{{'filter:'+(scrollTop>50?'invert(1)':'none')+';'}}"></image>
         </view>
     </custom-nav>
     <user-info bind:__l="__l" class="data-v-c2be93b8" otherInfo="{{otherInfo}}" vueId="5398952e-2"></user-info>

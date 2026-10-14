@@ -1,0 +1,447 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064699969541",
+    "scenicName": "西安鼓楼",
+    "tag": "“文武盛地，声闻于天”",
+    "level": -1,
+    "cityId": "1320620100725026817",
+    "cityName": "西安",
+    "address": "西安市碑林区钟楼西北方向",
+    "longitude": "108.943435",
+    "latitude": "34.260151",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 37,
+    "topColour": "#AB9069",
+    "centralColour": "#96784C",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/261-20201028170837.jpg",
+      "https://eshopfile.zhiyousx.com/221-20201028171515.jpg",
+      "https://eshopfile.zhiyousx.com/231-20201028171536.jpg"
+    ],
+    "introduction": "<p>　　西安鼓楼坐落于北院门街的南端，与钟楼相望，始建于明洪武十三年（公元1380年），比钟楼的建造时间稍早。鼓楼建于高大的长方形台基之上，台基下辟有高和宽均为6米的南北向券洞。楼建于基座的中心，为梁架式木结构楼阁建筑，面阔七间，四周设有回廊。楼分上下二层。第一层楼身上置腰檐和平座，第二层楼为重檐歇山式顶，上覆灰瓦，绿色琉璃瓦剪边。楼的外檐和平座都装饰有青绿彩绘斗拱，使楼的整体显得层次分明，华丽秀美。</p>",
+    "introductionText": "　　西安鼓楼坐落于北院门街的南端，与钟楼相望，始建于明洪武十三年（公元1380年），比钟楼的建造时间稍早。鼓楼建于高大的长方形台基之上，台基下辟有高和宽均为6米的南北向券洞。楼建于基座的中心，为梁架式木结构楼阁建筑，面阔七间，四周设有回廊。楼分上下二层。第一层楼身上置腰檐和平座，第二层楼为重檐歇山式顶，上覆灰瓦，绿色琉璃瓦剪边。楼的外檐和平座都装饰有青绿彩绘斗拱，使楼的整体显得层次分明，华丽秀美。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "23",
+        "name": "灯光夜景",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "21",
+        "name": "地标打卡",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "69",
+        "name": "商务旅",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026545651713",
+        "contentId": "1418152026541457409",
+        "name": "国家三级博物馆",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "<section data-mpa-powered-by=\"yiban.io\">\n<section class=\"\">\n<section class=\"\"></section>\n<section style=\"box-sizing: border-box; font-style: normal; font-weight: 400; text-align: justify; font-size: 16px; color: #3e3e3e;\" data-pm-slice=\"0 0 []\">\n<section class=\"\" style=\"text-align: center; justify-content: center; display: flex; flex-flow: row; margin: 10px 0px; box-sizing: border-box;\">\n<section style=\"display: inline-block; width: auto; vertical-align: top; align-self: flex-start; flex: 0 0 auto; min-width: 5%; max-width: 100%; height: auto; box-sizing: border-box;\">\n<section style=\"justify-content: center; display: flex; flex-flow: row; margin: -1px 0px 3px; box-sizing: border-box;\">\n<section class=\"\" style=\"display: inline-block; width: 23px; vertical-align: top; align-self: flex-start; flex: 0 0 auto; background-color: #ffffff; height: auto; box-sizing: border-box;\">\n<section style=\";box-sizing: border-box; transform: rotateZ(328deg); -webkit-transform: rotateZ(328deg); -moz-transform: rotateZ(328deg); -o-transform: rotateZ(328deg);\">\n<section style=\"margin: 7px 0px 0px; text-align: right; box-sizing: border-box; transform: translate3d(2px, 0px, 0px); -webkit-transform: translate3d(2px, 0px, 0px); -moz-transform: translate3d(2px, 0px, 0px); -o-transform: translate3d(2px, 0px, 0px);\">\n<section style=\"background-color: #d2aa6f; height: 1px; box-sizing: border-box;\"></section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section style=\"box-sizing: border-box; font-style: normal; font-weight: 400; text-align: justify; font-size: 16px; color: #3e3e3e;\" data-pm-slice=\"0 0 []\">\n<section style=\"margin: 10px 0px; box-sizing: border-box;\">\n<section class=\"\" style=\"width: 100%; padding: 15px 10px 25px; border-radius: 1em; margin-bottom: -30px; background-color: #fff8f5; max-width: 100% !important; box-sizing: border-box;\">\n<section class=\"\" style=\"color: #2a2522; line-height: 1.75; letter-spacing: 2px; box-sizing: border-box;\">\n<p style=\"text-indent: 2.25em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\"><span style=\"text-indent: 2.25em; box-sizing: border-box;\">2025年国庆、中秋双节将至，现将西安市钟鼓楼博物馆双节期间开放时间安排如下：</span></p>\n<p style=\"text-indent: 2.25em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">&nbsp;</p>\n<p style=\"text-indent: 2.25em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box;\">我馆每日开放时间为8：30&mdash;21：30（20：00停售套票，21：00停止售票）。</p>\n</section>\n</section>\n<section style=\"height: 30px; border-bottom-width: 5px; border-bottom-style: solid; display: inline-block; vertical-align: top; border-radius: 1em; box-sizing: border-box;\"></section>\n</section>\n</section>\n<p style=\"text-align: right;\" align=\"right\">来源：西安市钟鼓楼博物馆</p>\n</section>\n</section>",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "开放日期",
+        "openTimeContent": "2月12日-10月10日<br/>08:30-21:30(停止售票21:00,最晚入园21:00)；<br/>12月24日-次年2月11日 <br/>08:30-18:00(停止售票17:30,最晚入园17:30)；<br/>鼓乐编钟表演演出时间：09:30、10:15、11:00、11:45、14:00、15:00、16:00、17:00"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "学生",
+        "limit": "6岁（不含6岁）以上-18岁（含18岁）未成年人",
+        "discount": "半价"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "65岁及以上（中国籍），凭居民身份证（或陕西省敬老优待证、西安老年人优待证）",
+        "discount": "免费需预约"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "6岁及以下或身高1.2米（含1.2米）以下，凭居民身份证",
+        "discount": "免费需预约"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭残疾证",
+        "discount": "免费需预约"
+      },
+      {
+        "peopleType": "军人",
+        "limit": "现役军人（含军队离退休干部）、军校学员，凭有效证件；现役军人本人所携的配偶和18岁以下未成年人子女，凭结婚证、户口本等有效证件",
+        "discount": "免费需预约"
+      },
+      {
+        "peopleType": "消防救援人员",
+        "limit": "凭有效证件；消防救援人员本人所携的配偶和18岁以下未成年人子女，凭结婚证、户口本等有效证件",
+        "discount": "免费需预约"
+      },
+      {
+        "peopleType": "烈士遗属等",
+        "limit": "烈士遗属、因公牺牲军人遗属、病故军人遗属，凭本人优待证",
+        "discount": "免费需预约"
+      },
+      {
+        "peopleType": "三秦优才人员",
+        "limit": "持三秦优才卡",
+        "discount": "同行三人免门票"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "61",
+        "name": "讲解员",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016440410223.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "60",
+        "name": "行李寄存",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016430812186.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "56",
+        "name": "讲解器租赁",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016433125149.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "票价说明",
+        "additionalExplainContent": "钟楼票价30元人/次<br/>钟鼓楼套票50元人/次"
+      },
+      {
+        "additionalExplainTitle": "补充说明",
+        "additionalExplainContent": "院士本人需至售票窗口换取免费门票，登楼参观；军人、残疾人需持有效证件换票后登楼参观；65岁以上老人持身份证件无需换票即可登楼。 以上信息仅供参考，具体以景区当天披露为准"
+      },
+      {
+        "additionalExplainTitle": "专职讲解",
+        "additionalExplainContent": "1-5人（含5人），提供一名讲解员、一台发射器、5台以内接收器，讲解费30元。<br/><br/>5-10人（含10人），提供一名讲解员、一台发射器、10台以内接收器，讲解费40元。<br/><br/>10人-20人（含20人），提供一名讲解员、一台发射器、20台以内接收器，讲解费50元。<br/><br/>每批次最多不超过20人，超过时按以上标准重新组织批次。"
+      },
+      {
+        "additionalExplainTitle": "免费讲解",
+        "additionalExplainContent": "我馆向观众提供专职免费讲解和志愿者义务讲解，具体时间见馆内公告。"
+      },
+      {
+        "additionalExplainTitle": "语音导览设备",
+        "additionalExplainContent": "每人每台设备15元<br/>观众使用导览设备需缴纳押金，每台的押金为100元，参观结束后返还。观众请妥善使用和保管，并在参观结束后归还设备，如有遗失和损坏须照价赔偿（具体详见馆内设备价目表）。"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>乘坐4、6、7、8、11、12、15、16、26、29、32、35、36、37、43、45、46、46区间、47、118、201、203、205、208、215、215区间、218、221、222、229、235、251、252、286、300、600、603、604、605、606、608、609、611、612、616、K618、622、通宵2号线、通宵3号线、通宵4号线、世园4号线、游7、游8(610)等公交车钟楼站下车；</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": "<p>乘坐地铁2号线在&ldquo;钟楼&rdquo;站下车；</p>"
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": [
+      "http://www.zglxa.com/index/index.html"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "官方电话",
+        "telephone": "029-87278797"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "西安市钟鼓楼博物馆",
+        "wxSubscription": "xazglbwg"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1970676895961382913",
+        "resourcesId": "1321379044049313794",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/281-20201028170849.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2025-09-24 10:29:20",
+        "updateTime": "2025-09-24 10:29:20",
+        "createBy": "1968127079020560386",
+        "updateBy": "1968127079020560386",
+        "isDeleted": 0
+      },
+      {
+        "id": "1970676895961382914",
+        "resourcesId": "1321379044049313794",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/251-20201028170911.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2025-09-24 10:29:20",
+        "updateTime": "2025-09-24 10:29:20",
+        "createBy": "1968127079020560386",
+        "updateBy": "1968127079020560386",
+        "isDeleted": 0
+      },
+      {
+        "id": "1970676895965577217",
+        "resourcesId": "1321379044049313794",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2111-20201028170958.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2025-09-24 10:29:20",
+        "updateTime": "2025-09-24 10:29:20",
+        "createBy": "1968127079020560386",
+        "updateBy": "1968127079020560386",
+        "isDeleted": 0
+      },
+      {
+        "id": "1970676895965577218",
+        "resourcesId": "1321379044049313794",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/241-20201028171118.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2025-09-24 10:29:20",
+        "updateTime": "2025-09-24 10:29:20",
+        "createBy": "1968127079020560386",
+        "updateBy": "1968127079020560386",
+        "isDeleted": 0
+      },
+      {
+        "id": "1970676895969771521",
+        "resourcesId": "1321379044049313794",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/291-20201028171125.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2025-09-24 10:29:20",
+        "updateTime": "2025-09-24 10:29:20",
+        "createBy": "1968127079020560386",
+        "updateBy": "1968127079020560386",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1551836855409541121",
+      "rankingId": null,
+      "indexInRanking": 7,
+      "rankingName": "外地游客西安必逛榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1439119981701840898",
+        "rankingId": "1439119983840935938",
+        "indexInRanking": null,
+        "rankingName": "陕西人气博物馆排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1680835374538088449",
+        "rankingId": "1680835375632801794",
+        "indexInRanking": null,
+        "rankingName": "陕西省热搜50强博物馆排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": null,
+    "noticeTitel": "西安市钟鼓楼博物馆双节期间开放公告",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,394 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941168",
+    "scenicName": "燕翔洞生态旅游区",
+    "tag": "感受秦巴山水、汉水风情的旅游胜地。",
+    "level": 4,
+    "cityId": "1320664694422548481",
+    "cityName": "安康",
+    "address": "安康市石泉县熨斗镇",
+    "longitude": "108.1607260000",
+    "latitude": "32.8005370000",
+    "openingStatus": 1,
+    "capacity": 10000,
+    "sequence": 311,
+    "topColour": "#957248",
+    "centralColour": "#765733",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/燕翔-20201030122208.jpg"
+    ],
+    "introduction": "<p>　　汉江燕翔洞景区是国家AAAA级旅游景区，全国首评获选最具魅力的自驾游景区，汉江上游以汉江为主题最大的生态旅游区，中国西部最大的喀斯特地貌景观区，国内了解秦、楚交汇大汉文化形成的最佳旅游地，感受秦巴山水、汉水风情的旅游胜地。景区位于石泉县境内，占地80平方公里，北依秦岭，南接巴山。景区依托汉江，将汉江三峡、熨斗古镇、富水河、燕翔洞天、灵雀山及肖家古寨、狮岭风光、长岭峡谷等十几个风光旖逦、生态完美的主题景区，近150个景点珠玉相缀巧妙搭配，凸显出秦巴腹地、汉江两岸特有的原生态美，并与悠久的汉水文化相结合，形成了融山、川、水、岸、洞自然景观及古镇、寺院、宗祠、戏园等人文景观为一体，具有鲜明特色的生态自然景区。</p>",
+    "introductionText": "　　汉江燕翔洞景区是国家AAAA级旅游景区，全国首评获选最具魅力的自驾游景区，汉江上游以汉江为主题最大的生态旅游区，中国西部最大的喀斯特地貌景观区，国内了解秦、楚交汇大汉文化形成的最佳旅游地，感受秦巴山水、汉水风情的旅游胜地。景区位于石泉县境内，占地80平方公里，北依秦岭，南接巴山。景区依托汉江，将汉江三峡、熨斗古镇、富水河、燕翔洞天、灵雀山及肖家古寨、狮岭风光、长岭峡谷等十几个风光旖逦、生态完美的主题景区，近150个景点珠玉相缀巧妙搭配，凸显出秦巴腹地、汉江两岸特有的原生态美，并与悠久的汉水文化相结合，形成了融山、川、水、岸、洞自然景观及古镇、寺院、宗祠、戏园等人文景观为一体，具有鲜明特色的生态自然景区。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全年",
+        "openTimeContent": "景区营业时间8:00-18:00<br/>景区入园时间8:00-17:00（最晚入园时间17:00）"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "6周岁(含)以下或身高1.2米(含)以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "65周岁(含)以上凭老年证或身份证(须有家属陪同)",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "军人",
+        "limit": "现役军人(含军队离退休干部)凭军官证(离退休证)、士官证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭本人残疾证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "未成年人",
+        "limit": "6周岁(不含)至18周岁(含)凭身份证等有效证件",
+        "discount": "半价优惠"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "全日制大学本科及以下学历学生凭学生证",
+        "discount": "半价优惠"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "6",
+        "name": "免费wifi",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (11).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "10",
+        "name": "商店",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (19).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "59",
+        "name": "园内交通",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016420452783.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "汉江燕翔洞景区生态停车场",
+        "additionalExplainContent": "参考价格：5元/小时<br/>地址：安康市石泉县熨斗镇汉江燕翔洞景区生态下方富水河畔<br/>库位：260"
+      },
+      {
+        "additionalExplainTitle": "园内交通",
+        "additionalExplainContent": "竹筏（如需体验需单独付费）"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<p>1、沿西汉高速或西康高速公路，至石泉县后，沿541国道经莲花古渡&mdash;&mdash;后柳古镇&mdash;&mdash;喜河镇&mdash;&mdash;经喜（河）熨（斗）公路，至熨斗镇&mdash;&mdash;燕翔洞景区。<br />2、石泉县城&mdash;&mdash;后柳古镇&mdash;&mdash;中坝峡谷&mdash;&mdash;经后（柳）合（溪）公路，至熨斗镇&mdash;&mdash;燕翔洞景区。</p>"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "联系电话",
+        "telephone": "0915-6320181"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "汉江燕翔洞",
+        "wxSubscription": "yanxiangdong2012"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1980443259861270530",
+        "resourcesId": "1322031308510355458",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/燕翔1-20201030122311.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2025-10-21 09:17:22",
+        "updateTime": "2025-10-21 09:17:22",
+        "createBy": "1771079502224134145",
+        "updateBy": "1771079502224134145",
+        "isDeleted": 0
+      },
+      {
+        "id": "1980443259865464833",
+        "resourcesId": "1322031308510355458",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/燕翔2-20201030122317.JPG",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2025-10-21 09:17:22",
+        "updateTime": "2025-10-21 09:17:22",
+        "createBy": "1771079502224134145",
+        "updateBy": "1771079502224134145",
+        "isDeleted": 0
+      },
+      {
+        "id": "1980443259869659137",
+        "resourcesId": "1322031308510355458",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072217003298231.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2025-10-21 09:17:22",
+        "updateTime": "2025-10-21 09:17:22",
+        "createBy": "1771079502224134145",
+        "updateBy": "1771079502224134145",
+        "isDeleted": 0
+      },
+      {
+        "id": "1980443259869659138",
+        "resourcesId": "1322031308510355458",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072217005636095.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2025-10-21 09:17:22",
+        "updateTime": "2025-10-21 09:17:22",
+        "createBy": "1771079502224134145",
+        "updateBy": "1771079502224134145",
+        "isDeleted": 0
+      },
+      {
+        "id": "1980443259873853441",
+        "resourcesId": "1322031308510355458",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072217010694946.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2025-10-21 09:17:22",
+        "updateTime": "2025-10-21 09:17:22",
+        "createBy": "1771079502224134145",
+        "updateBy": "1771079502224134145",
+        "isDeleted": 0
+      },
+      {
+        "id": "1980443259873853442",
+        "resourcesId": "1322031308510355458",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072217011586994.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2025-10-21 09:17:22",
+        "updateTime": "2025-10-21 09:17:22",
+        "createBy": "1771079502224134145",
+        "updateBy": "1771079502224134145",
+        "isDeleted": 0
+      },
+      {
+        "id": "1980443259878047746",
+        "resourcesId": "1322031308510355458",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072217012337394.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2025-10-21 09:17:22",
+        "updateTime": "2025-10-21 09:17:22",
+        "createBy": "1771079502224134145",
+        "updateBy": "1771079502224134145",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": null,
+      "rankingId": null,
+      "indexInRanking": null,
+      "rankingName": null,
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": "燕翔洞景区临时闭园公告",
+    "ticketAreaNoticeName": "",
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": null,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

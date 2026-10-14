@@ -8,7 +8,7 @@
     <view class="main-box data-v-77b27c39" wx:if="{{list&&list[0]}}">
         <view bindtap="__e" class="user-box data-v-77b27c39" data-event-opts="{{[ [ 'tap',[ [ 'toDetail',['$0'],[ [ ['list','',index,'memberId'] ] ] ] ] ] ]}}" wx:for="{{list}}" wx:key="index">
             <view class="info-box data-v-77b27c39">
-                <image mode class="user-img data-v-77b27c39" src="{{item.picUrl?item.picUrl:'https://eshopfile.zhiyousx.com/2021120611010377794.png'}}"></image>
+                <image mode class="user-img data-v-77b27c39" src="{{item.picUrl?item.picUrl:'/static/captured/8a2baa9a07ce97e1.png'}}"></image>
                 <view class="info data-v-77b27c39">
                     <view class="i1 data-v-77b27c39">{{item.nickName?item.nickName:item.mobilePhone}}</view>
                     <view class="i3 data-v-77b27c39" wx:if="{{item.expertTime}}">{{timeTitle+'：'+item.expertTime}}</view>

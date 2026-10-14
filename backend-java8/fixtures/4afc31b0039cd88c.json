@@ -1,0 +1,23 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "2108440228608409602",
+      "resourcesId": "1322027980443377666",
+      "title": "安康瀛湖宣传片",
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2021042517240701673.mp4",
+      "coverImage": "https://eshopfile.zhiyousx.com/2021042517235890515.jpg",
+      "videoId": null,
+      "resourcesType": 2,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2026-10-09 14:11:38",
+      "updateTime": "2026-10-09 14:11:38",
+      "createBy": "1771079502224134145",
+      "updateBy": "1771079502224134145",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

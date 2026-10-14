@@ -1,0 +1,160 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1432193120279310338",
+    "contentId": "1432193120275116034",
+    "rankingName": "半坡博物馆人气榜",
+    "rankingClass": "0",
+    "rankingType": "2",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/163038117520299127.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": "个文物",
+    "rankingInclude": "个文物",
+    "rankingPersonalInfo": "我参观过的文物",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#705E4A",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1432168976003215362",
+        "originType": "2",
+        "originName": "人面网纹盆",
+        "originSubtitleName": "镇馆之宝",
+        "originUrl": "https://eshopfile.zhiyousx.com/163029031347964751.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/163029051107122742.png",
+          "https://eshopfile.zhiyousx.com/163029043961059936.png",
+          "https://eshopfile.zhiyousx.com/163029065149525761.png"
+        ],
+        "sort": "0",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "1",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1424642358791684097",
+        "originType": "2",
+        "originName": "人面鱼纹盆",
+        "originSubtitleName": "记录千年前神秘的时代",
+        "originUrl": "https://eshopfile.zhiyousx.com/163028687723959455.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/163028812703296212.png",
+          "https://eshopfile.zhiyousx.com/163028814433280521.png",
+          "https://eshopfile.zhiyousx.com/163028813821365301.jpg",
+          "https://eshopfile.zhiyousx.com/163028813261417440.png"
+        ],
+        "sort": "1",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "3",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1432229751065522178",
+        "originType": "2",
+        "originName": "红陶人头壶",
+        "originSubtitleName": "仰韶文化的“活化石”",
+        "originUrl": "https://eshopfile.zhiyousx.com/163030418727909219.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/163030479920912362.png",
+          "https://eshopfile.zhiyousx.com/163030480872126492.png",
+          "https://eshopfile.zhiyousx.com/163030495936697906.png",
+          "https://eshopfile.zhiyousx.com/163030496823902684.png"
+        ],
+        "sort": "2",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "2",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1424643080602042369",
+        "originType": "2",
+        "originName": "小口尖底瓶",
+        "originSubtitleName": "千年酒史最好的见证者",
+        "originUrl": "https://eshopfile.zhiyousx.com/163029097012441228.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/163029182205425361.png",
+          "https://eshopfile.zhiyousx.com/163029183066913843.jpg",
+          "https://eshopfile.zhiyousx.com/163029184339690023.jpg"
+        ],
+        "sort": "3",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "1",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1432181165556609026",
+        "originType": "2",
+        "originName": "鱼纹彩陶盆",
+        "originSubtitleName": "记载千年文明",
+        "originUrl": "https://eshopfile.zhiyousx.com/163029325037454010.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/163029349330771804.png",
+          "https://eshopfile.zhiyousx.com/163029350792025267.png",
+          "https://eshopfile.zhiyousx.com/163037563537727178.png"
+        ],
+        "sort": "4",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "1",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1432184792706822145",
+        "originType": "2",
+        "originName": "翁棺群",
+        "originSubtitleName": "儿童温暖的家",
+        "originUrl": "https://eshopfile.zhiyousx.com/163029443335335307.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/163029412915623419.png",
+          "https://eshopfile.zhiyousx.com/163029419794178357.png"
+        ],
+        "sort": "5",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "1",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1432254065739411457",
+        "originType": "2",
+        "originName": "半地穴式房子遗迹",
+        "originSubtitleName": "六千年前的住所",
+        "originUrl": "https://eshopfile.zhiyousx.com/163031074544961272.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/163037618224927620.png",
+          "https://eshopfile.zhiyousx.com/163037624899088664.png"
+        ],
+        "sort": "6",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "1",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "7",
+    "favoriteSum": "10",
+    "personalInfoValue": "0/7"
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -23,11 +23,18 @@
     "miniprogram": {
       "list": [
         {
+          "name": "pages/spotDetailNew/spotDetailNew",
+          "pathName": "pages/spotDetailNew/spotDetailNew",
+          "query": "spotId=1320579064720941178",
+          "scene": null,
+          "launchMode": "default"
+        },
+        {
           "name": "union/pages/aiCulturalTourism/index",
           "pathName": "union/pages/aiCulturalTourism/index",
           "query": "",
-          "scene": null,
-          "launchMode": "default"
+          "launchMode": "default",
+          "scene": null
         },
         {
           "name": "union/pages/tang/index",

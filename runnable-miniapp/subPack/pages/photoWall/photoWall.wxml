@@ -26,8 +26,8 @@
     </u-popup>
     <u-popup bind:__l="__l" bind:input="__e" class="data-v-60739fa2" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showLottery','$event',[] ] ] ] ] ]}}" mode="center" value="{{showLottery}}" vueId="214efedc-4" vueSlots="{{['default']}}">
         <view class="showLottery data-v-60739fa2">
-            <image bindtap="__e" class="showmsk data-v-60739fa2" data-event-opts="{{[ [ 'tap',[ [ 'toLottery',['$event'] ] ] ] ]}}" mode="widthFix" src="https://eshopfile.zhiyousx.com/2023092615575954239.png"></image>
-            <image bindtap="__e" class="btn data-v-60739fa2" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/2023092616100692105.png"></image>
+            <image bindtap="__e" class="showmsk data-v-60739fa2" data-event-opts="{{[ [ 'tap',[ [ 'toLottery',['$event'] ] ] ] ]}}" mode="widthFix" src="/static/captured/30f5cbb70f159ac9.png"></image>
+            <image bindtap="__e" class="btn data-v-60739fa2" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" src="/static/captured/966774f998ad5201.png"></image>
         </view>
     </u-popup>
 </view>

@@ -1,0 +1,26 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1658367924920602626",
+    "contentId": "1658367923108663298",
+    "rankingName": "大学博物馆人气榜",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/168422067202111126.png",
+    "rankingDescribe": null,
+    "rankingTotalUserData": "人去过",
+    "rankingInclude": "个目的地",
+    "rankingPersonalInfo": "我去过的目的地",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#104408",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": null,
+    "sumCount": "5",
+    "favoriteSum": null,
+    "personalInfoValue": null
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,39 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "1446367397987491841",
+      "resourcesId": "1321385476752695298",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/后稷教稼园3-20201028173637.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2021-10-08 14:50:34",
+      "updateTime": "2021-10-08 14:50:34",
+      "createBy": "1344113100973973505",
+      "updateBy": "1344113100973973505",
+      "isDeleted": 0
+    },
+    {
+      "id": "1446367397991686146",
+      "resourcesId": "1321385476752695298",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/后稷教稼园4-20201028173645.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 2,
+      "describe": null,
+      "createTime": "2021-10-08 14:50:34",
+      "updateTime": "2021-10-08 14:50:34",
+      "createBy": "1344113100973973505",
+      "updateBy": "1344113100973973505",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

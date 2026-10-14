@@ -1,0 +1,23 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "1701537602341629953",
+      "resourcesId": "1321699459158269954",
+      "title": "唐风宋韵——耀州窑",
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2022081615135885272.mp4",
+      "coverImage": "https://eshopfile.zhiyousx.com/166063400580846132.png",
+      "videoId": "1559438379023265793",
+      "resourcesType": 2,
+      "sequence": 1,
+      "describe": "",
+      "createTime": "2023-09-12 18:05:52",
+      "updateTime": "2023-09-12 18:05:52",
+      "createBy": "1376477871874289666",
+      "updateBy": "1376477871874289666",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

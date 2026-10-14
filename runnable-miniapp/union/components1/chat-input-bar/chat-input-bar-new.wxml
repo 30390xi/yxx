@@ -1,18 +1,18 @@
 <view class="chat-input-bar-container data-v-765b9212" style="{{'padding-bottom:'+(isIos?'':'30rpx')+';'}}">
     <view class="chat-input-bar data-v-765b9212">
         <view class="Hold_Talk data-v-765b9212" wx:if="{{showSpeakBtn==2}}">
-            <image bindtap="__e" class="icon_keyboard data-v-765b9212" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/175517487518999567.png"></image>
+            <image bindtap="__e" class="icon_keyboard data-v-765b9212" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" lazyLoad="false" mode="aspectFill" src="/static/captured/943f97694c3a4eb0.png"></image>
             <view bindtouchend="__e" bindtouchstart="__e" class="speakBtn data-v-765b9212" data-event-opts="{{[ [ 'touchstart',[ [ 'keystart',['$event'] ] ] ],[ 'touchend',[ [ 'stopVoice',['$event'] ] ] ] ]}}">按住说话</view>
         </view>
         <view class="Hold_Talk_f data-v-765b9212" wx:if="{{showSpeakBtn==3}}">
-            <image class="icon_keyboard data-v-765b9212" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/175453620164490027.png"></image>
+            <image class="icon_keyboard data-v-765b9212" lazyLoad="false" mode="aspectFill" src="/static/captured/64e33b31f8c84876.png"></image>
         </view>
         <view class="chat-input-container data-v-765b9212" wx:if="{{showSpeakBtn==1}}">
-            <image bindtap="__e" class="icon data-v-765b9212" data-event-opts="{{[ [ 'tap',[ [ 'getSpeak',['$event'] ] ] ] ]}}" mode="aspectFill" src="https://eshopfile.zhiyousx.com/175515730231435269.png"></image>
+            <image bindtap="__e" class="icon data-v-765b9212" data-event-opts="{{[ [ 'tap',[ [ 'getSpeak',['$event'] ] ] ] ]}}" mode="aspectFill" src="/static/captured/9795b329faddc8af.png" wx:if="{{voiceAvailable}}"></image>
             <input adjustPosition="{{false}}" bindconfirm="__e" bindinput="__e" class="chat-input data-v-765b9212" confirmType="send" cursorSpacing="{{50}}" data-event-opts="{{[ [ 'confirm',[ [ 'sendClick',['$event'] ] ] ],[ 'input',[ [ '__set_model',[ '','msg','$event',[] ] ] ] ] ]}}" focus="{{focus}}" placeholder="请输入您的问题" type="text" value="{{msg}}"></input>
         </view>
         <view class="right-btn data-v-765b9212">
-            <image bindtap="__e" class="chat-input-send1 data-v-765b9212" data-event-opts="{{[ [ 'tap',[ [ 'sendClick',['$event'] ] ] ] ]}}" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/175515727358833892.png" wx:if="{{showSpeakBtn==1&&pushingProgress}}"></image>
+            <image bindtap="__e" class="chat-input-send1 data-v-765b9212" data-event-opts="{{[ [ 'tap',[ [ 'sendClick',['$event'] ] ] ] ]}}" lazyLoad="false" mode="aspectFill" src="/static/captured/7909d11b5d99cd33.png" wx:if="{{showSpeakBtn==1&&pushingProgress}}"></image>
         </view>
     </view>
     <view class="prompt data-v-765b9212">内容由AI生成，无法确保真实准确，仅供参考</view>
@@ -26,5 +26,5 @@
         </view>
     </view>
     <view bindtap="__e" class="stopBtn data-v-765b9212" data-event-opts="{{[ [ 'tap',[ [ 'stopSpeak',['$event'] ] ] ] ]}}" wx:if="{{!pushingProgressShow}}">
-        <image class="icon data-v-765b9212" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173406333510840071.png"></image>停止回答</view>
+        <image class="icon data-v-765b9212" lazyLoad="false" mode="aspectFill" src="/static/captured/3813262be30d34c4.png"></image>停止回答</view>
 </view>

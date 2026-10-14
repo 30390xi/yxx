@@ -1,0 +1,98 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1770060462936485890",
+    "contentId": "1770060462919708673",
+    "rankingName": "洋县宝藏美食店铺",
+    "rankingClass": "2",
+    "rankingType": "3",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/171085010595480838.png",
+    "rankingDescribe": "洋县美食比美景低调很多，观赏油菜花之外当然也不能错过了！",
+    "rankingTotalUserData": "人喜爱",
+    "rankingInclude": "个目的地",
+    "rankingPersonalInfo": "我去过的目的地",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#FBAB3C",
+    "tagUrl": null,
+    "travelMapFlag": null,
+    "type": "7",
+    "rankingItemList": [
+      {
+        "originId": "1770052516311658498",
+        "originType": "3",
+        "originName": "天麻土鸡汤",
+        "originSubtitleName": "自家散养的土鸡",
+        "originUrl": "https://eshopfile.zhiyousx.com/2024031919355724741.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/171084837595482619.jpg",
+          "https://eshopfile.zhiyousx.com/171084837560405935.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1770049736083738625",
+        "originType": "3",
+        "originName": "翟家烧饼",
+        "originSubtitleName": "碳水爱好者福音",
+        "originUrl": "https://eshopfile.zhiyousx.com/2024031919241104138.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/171084752329828253.jpg",
+          "https://eshopfile.zhiyousx.com/171084755132685791.jpg",
+          "https://eshopfile.zhiyousx.com/171084752361697200.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1770053840738684930",
+        "originType": "3",
+        "originName": "面皮王",
+        "originSubtitleName": "洋县人从小吃到大的老店",
+        "originUrl": "https://eshopfile.zhiyousx.com/2024031919444295667.png",
+        "originAssistUrlList": [],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1770057706368593922",
+        "originType": "3",
+        "originName": "左家村休闲农庄",
+        "originSubtitleName": "非遗味道",
+        "originUrl": "https://eshopfile.zhiyousx.com/2024031919561758451.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/171084980535788806.jpg",
+          "https://eshopfile.zhiyousx.com/171084980598414939.jpg",
+          "https://eshopfile.zhiyousx.com/171084980692039785.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "4",
+    "favoriteSum": null,
+    "personalInfoValue": "0/4"
+  },
+  "msg": "成功",
+  "success": true
+}

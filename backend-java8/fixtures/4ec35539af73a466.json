@@ -1,0 +1,373 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941112",
+    "scenicName": "青峰峡森林公园",
+    "tag": "真正的天然氧吧",
+    "level": 4,
+    "address": "宝鸡市太白县县城以东12公里处",
+    "longitude": "107.4551700000",
+    "latitude": "34.0457310000",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#EB9256",
+    "centralColour": "#D87532",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2023092216265209576.jpg",
+      "https://eshopfile.zhiyousx.com/2021080416502872861.jpg"
+    ],
+    "introduction": "<p>　　陕西省宝鸡市太白青峰峡森林公园位于太白县桃川镇杜家庄村，东西两侧以五里峡山梁为界，南至秦岭主峰四十里跑马梁，北至褒斜古栈道。距太白县城8公里、宝鸡75公里、西安160公里、汉中170公里，姜眉公路从公园门口经过，总面积4360公顷，森林覆盖率达95%以上。公园境内海拔介于1440&mdash;3400米之间，年平均气温7.6℃，环境优美，风光瑰丽、自然景观具有雄、奇、险、秀、幽的特点，人文传说历史悠久，动植物资源丰富、种类繁多、起源古老，森林植被垂直带谱十分明显，是集森林游憩、生态观光、攀岩探险等为一体的生态旅游休闲避暑胜地。</p>",
+    "introductionText": "　　陕西省宝鸡市太白青峰峡森林公园位于太白县桃川镇杜家庄村，东西两侧以五里峡山梁为界，南至秦岭主峰四十里跑马梁，北至褒斜古栈道。距太白县城8公里、宝鸡75公里、西安160公里、汉中170公里，姜眉公路从公园门口经过，总面积4360公顷，森林覆盖率达95%以上。公园境内海拔介于1440—3400米之间，年平均气温7.6℃，环境优美，风光瑰丽、自然景观具有雄、奇、险、秀、幽的特点，人文传说历史悠久，动植物资源丰富、种类繁多、起源古老，森林植被垂直带谱十分明显，是集森林游憩、生态观光、攀岩探险等为一体的生态旅游休闲避暑胜地。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "51",
+        "name": "拓展游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米(含)以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "老年人",
+        "limit": "65周岁(含)以上凭老年证或身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "老年人",
+        "limit": "60周岁(含)-65周岁(不含)凭老年证或身份证",
+        "discount": "半票"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "残疾证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "现役军人",
+        "limit": "军官证或者士官证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "导游",
+        "limit": "导游证",
+        "discount": "免费"
+      }
+    ],
+    "officialWebsite": [
+      "http://www.tbqfx.com/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区服务电话",
+        "telephone": "0917-4951592"
+      },
+      {
+        "telephoneTitle": "景区驻西安办事处联系电话",
+        "telephone": "029-86619506"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1817416279322742785",
+        "resourcesId": "1321381510497198081",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/000-20201028172103.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2024-07-28 12:26:21",
+        "updateTime": "2024-07-28 12:26:21",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1817416279326937090",
+        "resourcesId": "1321381510497198081",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2-20201028172113.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2024-07-28 12:26:21",
+        "updateTime": "2024-07-28 12:26:21",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1817416279326937091",
+        "resourcesId": "1321381510497198081",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072217015052814.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2024-07-28 12:26:21",
+        "updateTime": "2024-07-28 12:26:21",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1817416279326937092",
+        "resourcesId": "1321381510497198081",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072217015924776.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2024-07-28 12:26:21",
+        "updateTime": "2024-07-28 12:26:21",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1817416279331131394",
+        "resourcesId": "1321381510497198081",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072217020641592.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2024-07-28 12:26:21",
+        "updateTime": "2024-07-28 12:26:21",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1817416279331131395",
+        "resourcesId": "1321381510497198081",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072217021598883.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2024-07-28 12:26:21",
+        "updateTime": "2024-07-28 12:26:21",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1817416279335325697",
+        "resourcesId": "1321381510497198081",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072217022548451.JPG",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2024-07-28 12:26:21",
+        "updateTime": "2024-07-28 12:26:21",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1817416279335325698",
+        "resourcesId": "1321381510497198081",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072217023620402.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2024-07-28 12:26:21",
+        "updateTime": "2024-07-28 12:26:21",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1817416279335325699",
+        "resourcesId": "1321381510497198081",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021080416521617579.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": null,
+        "createTime": "2024-07-28 12:26:21",
+        "updateTime": "2024-07-28 12:26:21",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1692113814122344449",
+      "rankingId": null,
+      "indexInRanking": 1,
+      "rankingName": "宝鸡自然风光排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": [
+      {
+        "id": "1817416279343714306",
+        "scenicSpotId": "1320579064720941112",
+        "contentModuleName": "游玩项目",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1674333000877965314",
+            "type": 5,
+            "title": "青峰峡漂流",
+            "subtitle": "实景版过山车",
+            "coverImage": "https://eshopfile.zhiyousx.com/168802660678105526.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

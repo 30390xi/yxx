@@ -1,0 +1,1697 @@
+{
+  "code": 1,
+  "data": {
+    "records": [
+      {
+        "id": "1452531830711394306",
+        "sort": "13",
+        "type": "8",
+        "rankingName": "陕西人气美食排行榜",
+        "rankingClass": "2",
+        "rankingType": "2",
+        "rankingInclude": "个美食",
+        "rankingDescribe": null,
+        "sumCount": "103",
+        "rankingMainPictureUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/25/163514484006379598.jpg",
+        "bottomColour": "#F6A700",
+        "rankingItemList": [
+          {
+            "originId": "1437598230996176898",
+            "originType": "2",
+            "originName": "肉夹馍",
+            "originSubtitleName": "没吃肉夹馍 白来“馍都”走一遭",
+            "originUrl": "https://eshopfile.zhiyousx.com/163158411634637480.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/163158520437188324.jpg",
+              "https://eshopfile.zhiyousx.com/163158521672785309.jpg",
+              "https://eshopfile.zhiyousx.com/163158524393751795.jpg",
+              "https://eshopfile.zhiyousx.com/163158527328007047.jpg",
+              "https://eshopfile.zhiyousx.com/163158528692611614.jpg",
+              "https://eshopfile.zhiyousx.com/163158532370081042.jpg",
+              "https://eshopfile.zhiyousx.com/163158534034196023.jpg"
+            ],
+            "sort": "0",
+            "favoriteValue": "97.6",
+            "isBookable": null,
+            "favoriteSum": "124",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1437709409177423873",
+            "originType": "2",
+            "originName": "凉皮",
+            "originSubtitleName": "三秦套餐，没凉皮可不行！",
+            "originUrl": "https://eshopfile.zhiyousx.com/163161129589224520.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/163161156493609275.jpg",
+              "https://eshopfile.zhiyousx.com/163161157255841797.jpg",
+              "https://eshopfile.zhiyousx.com/163161157813913857.jpg",
+              "https://eshopfile.zhiyousx.com/163161158432574152.jpg"
+            ],
+            "sort": "1",
+            "favoriteValue": "93.0",
+            "isBookable": null,
+            "favoriteSum": "66",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1451477116892749825",
+            "originType": "2",
+            "originName": "泡馍",
+            "originSubtitleName": "到西安不能不吃泡馍",
+            "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489392127257156.png",
+            "originAssistUrlList": [
+              "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489404454078762.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489405131455207.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489405882461425.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489406638761001.jpg"
+            ],
+            "sort": "2",
+            "favoriteValue": "100.0",
+            "isBookable": null,
+            "favoriteSum": "65",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1423572536850956290",
+            "originType": "2",
+            "originName": "冰峰",
+            "originSubtitleName": "“老板，开瓶冰峰！”",
+            "originUrl": "https://eshopfile.zhiyousx.com/163159957623153600.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/162823807463577941.jpg",
+              "https://eshopfile.zhiyousx.com/162823805376561617.jpg",
+              "https://eshopfile.zhiyousx.com/162823806664877013.jpg",
+              "https://eshopfile.zhiyousx.com/162823810375420977.jpg",
+              "https://eshopfile.zhiyousx.com/162823812035364413.jpg",
+              "https://eshopfile.zhiyousx.com/162823812704690061.jpg",
+              "https://eshopfile.zhiyousx.com/162823814958227280.jpg"
+            ],
+            "sort": "3",
+            "favoriteValue": "81.8",
+            "isBookable": null,
+            "favoriteSum": "9",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1450364790990970882",
+            "originType": "2",
+            "originName": "裤带面",
+            "originSubtitleName": "酸辣鲜香，利湿暖胃。",
+            "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/19/163462872707467851.jpg",
+            "originAssistUrlList": [
+              "https://res.zhiyousx.com/ysx/pro/2021/10/19/163462886236107084.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/19/163462883095568459.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/19/163462884073088122.jpg"
+            ],
+            "sort": "4",
+            "favoriteValue": "87.9",
+            "isBookable": null,
+            "favoriteSum": "29",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1450656683666710529",
+            "originType": "2",
+            "originName": "酸汤水饺",
+            "originSubtitleName": "鲜美酸香，开胃解腻",
+            "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/20/163469842405669167.jpg",
+            "originAssistUrlList": [
+              "https://res.zhiyousx.com/ysx/pro/2021/10/20/163469839580643863.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/20/163469840037677297.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/20/163469840850470385.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/20/163469841549511832.jpg"
+            ],
+            "sort": "5",
+            "favoriteValue": null,
+            "isBookable": null,
+            "favoriteSum": "6",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1450360197129183233",
+            "originType": "2",
+            "originName": "甑糕",
+            "originSubtitleName": "枣香浓郁，软糯香甜",
+            "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/19/163462742952573678.jpg",
+            "originAssistUrlList": [
+              "https://res.zhiyousx.com/ysx/pro/2021/10/19/163462753714331137.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/19/163462754203937800.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/19/163462755330414592.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/19/163462759814382817.jpg"
+            ],
+            "sort": "6",
+            "favoriteValue": null,
+            "isBookable": null,
+            "favoriteSum": "7",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1450394268219744257",
+            "originType": "2",
+            "originName": "水盆羊肉",
+            "originSubtitleName": "肥而不腻，香醇可口",
+            "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/19/163463583272132137.jpg",
+            "originAssistUrlList": [
+              "https://res.zhiyousx.com/ysx/pro/2021/10/19/163463587826407785.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/19/163463588602276890.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/19/163463589848114649.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/19/163463590549042066.jpg"
+            ],
+            "sort": "7",
+            "favoriteValue": null,
+            "isBookable": null,
+            "favoriteSum": "9",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1450667774983544833",
+            "originType": "2",
+            "originName": "岐山臊子面",
+            "originSubtitleName": "面汤红润，臊子鲜香",
+            "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/20/163470099814590198.jpg",
+            "originAssistUrlList": [
+              "https://res.zhiyousx.com/ysx/pro/2021/10/20/163470109237083511.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/20/163470109678241231.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/20/163470110168415988.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/20/163470110698348082.jpg"
+            ],
+            "sort": "8",
+            "favoriteValue": "90.9",
+            "isBookable": null,
+            "favoriteSum": "10",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1450643533810638850",
+            "originType": "2",
+            "originName": "摔碗酒",
+            "originSubtitleName": "来永兴坊必打卡",
+            "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/20/163469529014569352.jpg",
+            "originAssistUrlList": [
+              "https://res.zhiyousx.com/ysx/pro/2021/10/20/163469525403323470.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/20/163469525986233856.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/20/163469526428746059.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/20/163469527286678851.jpg"
+            ],
+            "sort": "9",
+            "favoriteValue": null,
+            "isBookable": null,
+            "favoriteSum": "4",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          }
+        ],
+        "likeSum": null
+      },
+      {
+        "id": "1676884645453201409",
+        "sort": "15",
+        "type": "8",
+        "rankingName": "陕西美食人气排行榜",
+        "rankingClass": "2",
+        "rankingType": "2",
+        "rankingInclude": "个美食",
+        "rankingDescribe": null,
+        "sumCount": "9",
+        "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/168863764245932567.jpg",
+        "bottomColour": "#00924F",
+        "rankingItemList": [
+          {
+            "originId": "1451477116892749825",
+            "originType": "2",
+            "originName": "泡馍",
+            "originSubtitleName": "到西安不能不吃泡馍",
+            "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489392127257156.png",
+            "originAssistUrlList": [
+              "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489404454078762.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489405131455207.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489405882461425.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489406638761001.jpg"
+            ],
+            "sort": "0",
+            "favoriteValue": "100.0",
+            "isBookable": null,
+            "favoriteSum": "65",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1437598230996176898",
+            "originType": "2",
+            "originName": "肉夹馍",
+            "originSubtitleName": "没吃肉夹馍 白来“馍都”走一遭",
+            "originUrl": "https://eshopfile.zhiyousx.com/163158411634637480.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/163158520437188324.jpg",
+              "https://eshopfile.zhiyousx.com/163158521672785309.jpg",
+              "https://eshopfile.zhiyousx.com/163158524393751795.jpg",
+              "https://eshopfile.zhiyousx.com/163158527328007047.jpg",
+              "https://eshopfile.zhiyousx.com/163158528692611614.jpg",
+              "https://eshopfile.zhiyousx.com/163158532370081042.jpg",
+              "https://eshopfile.zhiyousx.com/163158534034196023.jpg"
+            ],
+            "sort": "1",
+            "favoriteValue": "97.6",
+            "isBookable": null,
+            "favoriteSum": "124",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1437709409177423873",
+            "originType": "2",
+            "originName": "凉皮",
+            "originSubtitleName": "三秦套餐，没凉皮可不行！",
+            "originUrl": "https://eshopfile.zhiyousx.com/163161129589224520.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/163161156493609275.jpg",
+              "https://eshopfile.zhiyousx.com/163161157255841797.jpg",
+              "https://eshopfile.zhiyousx.com/163161157813913857.jpg",
+              "https://eshopfile.zhiyousx.com/163161158432574152.jpg"
+            ],
+            "sort": "2",
+            "favoriteValue": "93.0",
+            "isBookable": null,
+            "favoriteSum": "66",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1450364790990970882",
+            "originType": "2",
+            "originName": "裤带面",
+            "originSubtitleName": "酸辣鲜香，利湿暖胃。",
+            "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/19/163462872707467851.jpg",
+            "originAssistUrlList": [
+              "https://res.zhiyousx.com/ysx/pro/2021/10/19/163462886236107084.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/19/163462883095568459.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/19/163462884073088122.jpg"
+            ],
+            "sort": "3",
+            "favoriteValue": "87.9",
+            "isBookable": null,
+            "favoriteSum": "29",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1451040071510663170",
+            "originType": "2",
+            "originName": "泡泡油糕",
+            "originSubtitleName": "色泽乳白，薄如蝉翼",
+            "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478980405266962.jpg",
+            "originAssistUrlList": [
+              "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478985394206416.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478986569153134.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478987437411323.jpg"
+            ],
+            "sort": "4",
+            "favoriteValue": null,
+            "isBookable": null,
+            "favoriteSum": "3",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1552598820507496450",
+            "originType": "2",
+            "originName": "耀州油茶泡馍",
+            "originSubtitleName": "醇香味美 油而不腻",
+            "originUrl": "https://eshopfile.zhiyousx.com/165900337613267178.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/165900336521438361.jpg",
+              "https://eshopfile.zhiyousx.com/165900336575791180.jpg",
+              "https://eshopfile.zhiyousx.com/165900336629232315.jpg",
+              "https://eshopfile.zhiyousx.com/165900336683773762.jpg",
+              "https://eshopfile.zhiyousx.com/165900336727344112.jpg"
+            ],
+            "sort": "5",
+            "favoriteValue": null,
+            "isBookable": null,
+            "favoriteSum": "0",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1450386734721277953",
+            "originType": "2",
+            "originName": "肉丸胡辣汤",
+            "originSubtitleName": "肉丸Q弹，麻辣鲜香",
+            "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/19/163463406681138958.jpg",
+            "originAssistUrlList": [
+              "https://res.zhiyousx.com/ysx/pro/2021/10/19/163463401563893051.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/19/163463402121742469.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/19/163463403056238520.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/19/163463404056022835.jpg"
+            ],
+            "sort": "6",
+            "favoriteValue": null,
+            "isBookable": null,
+            "favoriteSum": "5",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1451075139834748930",
+            "originType": "2",
+            "originName": "八宝肉酱辣子",
+            "originSubtitleName": "\"饭扫光\"、\"馍遭殃\"",
+            "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/21/163479787475692806.png",
+            "originAssistUrlList": [
+              "https://res.zhiyousx.com/ysx/pro/2021/10/21/163479816241789623.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/21/163479822273991065.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/21/163479823071286274.png",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/21/163479823941256035.png"
+            ],
+            "sort": "7",
+            "favoriteValue": null,
+            "isBookable": null,
+            "favoriteSum": "4",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1450394268219744257",
+            "originType": "2",
+            "originName": "水盆羊肉",
+            "originSubtitleName": "肥而不腻，香醇可口",
+            "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/19/163463583272132137.jpg",
+            "originAssistUrlList": [
+              "https://res.zhiyousx.com/ysx/pro/2021/10/19/163463587826407785.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/19/163463588602276890.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/19/163463589848114649.jpg",
+              "https://res.zhiyousx.com/ysx/pro/2021/10/19/163463590549042066.jpg"
+            ],
+            "sort": "8",
+            "favoriteValue": null,
+            "isBookable": null,
+            "favoriteSum": "9",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          }
+        ],
+        "likeSum": null
+      },
+      {
+        "id": "1534113330305048577",
+        "sort": "15",
+        "type": "8",
+        "rankingName": "长安十二时辰美食排行榜",
+        "rankingClass": "2",
+        "rankingType": "2",
+        "rankingInclude": "种美食",
+        "rankingDescribe": "　　长安十二时辰主题街区将唐代风味、关中非遗美食与胡风美食相结合，精选出100余种特色佳味，成为唐朝美食集萃地。来长安十二时辰，带你体验舌尖上的唐朝，品尝到超原真、超齐全的唐风美食。",
+        "sumCount": "18",
+        "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/165459570583511682.jpg",
+        "bottomColour": "#CB9F9F",
+        "rankingItemList": [
+          {
+            "originId": "1530079698132230145",
+            "originType": "2",
+            "originName": "火晶柿子",
+            "originSubtitleName": "正宗火晶一窝蜜",
+            "originUrl": "https://eshopfile.zhiyousx.com/165449643662944217.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/165389886223506461.jpg",
+              "https://eshopfile.zhiyousx.com/165389892627418994.jpg",
+              "https://eshopfile.zhiyousx.com/165448641892380113.jpg",
+              "https://eshopfile.zhiyousx.com/169163993165971121.jpg",
+              "https://eshopfile.zhiyousx.com/165363436935829068.jpg",
+              "https://eshopfile.zhiyousx.com/165363437172052051.jpg",
+              "https://eshopfile.zhiyousx.com/165363436986130914.jpg",
+              "https://eshopfile.zhiyousx.com/165363437111107614.jpg",
+              "https://eshopfile.zhiyousx.com/165363437044869153.jpg",
+              "https://eshopfile.zhiyousx.com/165363437080919313.jpg",
+              "https://eshopfile.zhiyousx.com/169163993124687754.jpg"
+            ],
+            "sort": "0",
+            "favoriteValue": "72.0",
+            "isBookable": null,
+            "favoriteSum": "18",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1531462740080992258",
+            "originType": "2",
+            "originName": "上元油锤",
+            "originSubtitleName": "属于唐朝人的“油炸糕”",
+            "originUrl": "https://eshopfile.zhiyousx.com/165449782105998958.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/165396407368334077.jpg",
+              "https://eshopfile.zhiyousx.com/165450970362218627.jpg",
+              "https://eshopfile.zhiyousx.com/165450970266439346.jpg",
+              "https://eshopfile.zhiyousx.com/165450970312089828.jpg",
+              "https://eshopfile.zhiyousx.com/165448837363552050.jpg",
+              "https://eshopfile.zhiyousx.com/165448837166691691.jpg",
+              "https://eshopfile.zhiyousx.com/165448837217896977.jpg",
+              "https://eshopfile.zhiyousx.com/165396395743071717.jpg",
+              "https://eshopfile.zhiyousx.com/165448837317933451.jpg",
+              "https://eshopfile.zhiyousx.com/165396395784016699.jpg",
+              "https://eshopfile.zhiyousx.com/165397862540742457.jpg",
+              "https://eshopfile.zhiyousx.com/165448837269096573.jpg",
+              "https://eshopfile.zhiyousx.com/165448837407917975.jpg",
+              "https://eshopfile.zhiyousx.com/165448837626452076.jpg"
+            ],
+            "sort": "1",
+            "favoriteValue": "80.0",
+            "isBookable": null,
+            "favoriteSum": "12",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1529350573185146882",
+            "originType": "2",
+            "originName": "西羊肆",
+            "originSubtitleName": "清煮同羊“六月鲜”",
+            "originUrl": "https://eshopfile.zhiyousx.com/165449731043738702.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/165449892234659549.jpg",
+              "https://eshopfile.zhiyousx.com/165450923240010537.jpg",
+              "https://eshopfile.zhiyousx.com/165450923280887409.jpg",
+              "https://eshopfile.zhiyousx.com/165450929113712216.jpg",
+              "https://eshopfile.zhiyousx.com/165450923333940888.jpg",
+              "https://eshopfile.zhiyousx.com/165346054111333520.jpg",
+              "https://eshopfile.zhiyousx.com/165346054161655934.jpg",
+              "https://eshopfile.zhiyousx.com/165346054218211005.jpg",
+              "https://eshopfile.zhiyousx.com/165346054273798816.jpg",
+              "https://eshopfile.zhiyousx.com/165450928982510899.jpg",
+              "https://eshopfile.zhiyousx.com/165450929028445917.jpg",
+              "https://eshopfile.zhiyousx.com/165450929070324980.jpg"
+            ],
+            "sort": "2",
+            "favoriteValue": "81.3",
+            "isBookable": null,
+            "favoriteSum": "13",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1534086453975670786",
+            "originType": "2",
+            "originName": "李必茗铺",
+            "originSubtitleName": "骤雨松风入鼎来 白玉满盏华徘徊",
+            "originUrl": "https://eshopfile.zhiyousx.com/165458845785669064.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/165458959484766975.jpg",
+              "https://eshopfile.zhiyousx.com/165458959360635271.jpg",
+              "https://eshopfile.zhiyousx.com/165458959449235223.jpg",
+              "https://eshopfile.zhiyousx.com/165458959406578168.jpg",
+              "https://eshopfile.zhiyousx.com/165458963973430389.jpg",
+              "https://eshopfile.zhiyousx.com/165458963827295287.jpg",
+              "https://eshopfile.zhiyousx.com/165458963930926561.jpg",
+              "https://eshopfile.zhiyousx.com/165458963894134821.jpg",
+              "https://eshopfile.zhiyousx.com/165458963860865728.jpg",
+              "https://eshopfile.zhiyousx.com/165458964010041790.jpg"
+            ],
+            "sort": "3",
+            "favoriteValue": null,
+            "isBookable": null,
+            "favoriteSum": "8",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1537696511502340098",
+            "originType": "2",
+            "originName": "秦镇皮子",
+            "originSubtitleName": "乾州的锅盔、岐山的面，秦镇的皮子绕长安",
+            "originUrl": "https://eshopfile.zhiyousx.com/175548259900601114.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/175548261725735789.jpg",
+              "https://eshopfile.zhiyousx.com/175548261919077359.jpg",
+              "https://eshopfile.zhiyousx.com/165545040848767583.jpg",
+              "https://eshopfile.zhiyousx.com/165545040908255794.jpg",
+              "https://eshopfile.zhiyousx.com/165545040959859851.jpg",
+              "https://eshopfile.zhiyousx.com/165545041028194345.jpg",
+              "https://eshopfile.zhiyousx.com/165545041067748234.jpg"
+            ],
+            "sort": "4",
+            "favoriteValue": "71.4",
+            "isBookable": null,
+            "favoriteSum": "10",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1537621158607998978",
+            "originType": "2",
+            "originName": "肉饼肆",
+            "originSubtitleName": "唐人专享“肉夹馍”",
+            "originUrl": "https://eshopfile.zhiyousx.com/165543242276803702.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/169171810217477768.jpg",
+              "https://eshopfile.zhiyousx.com/165543237901105225.jpg",
+              "https://eshopfile.zhiyousx.com/165543237940534391.jpg",
+              "https://eshopfile.zhiyousx.com/165543237977886438.jpg",
+              "https://eshopfile.zhiyousx.com/165543238021275815.jpg",
+              "https://eshopfile.zhiyousx.com/165543241012798954.jpg"
+            ],
+            "sort": "5",
+            "favoriteValue": "84.6",
+            "isBookable": null,
+            "favoriteSum": "11",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1537707507163877378",
+            "originType": "2",
+            "originName": "面皮肆",
+            "originSubtitleName": "微辣微咸、白里透红，汉中“四绝”之首",
+            "originUrl": "https://eshopfile.zhiyousx.com/165545284143905812.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/165545298203010053.jpg",
+              "https://eshopfile.zhiyousx.com/165545298239175369.jpg",
+              "https://eshopfile.zhiyousx.com/165545298275656407.jpg",
+              "https://eshopfile.zhiyousx.com/165545298314171183.jpg",
+              "https://eshopfile.zhiyousx.com/165545298355614691.jpg",
+              "https://eshopfile.zhiyousx.com/165545298400557886.jpg"
+            ],
+            "sort": "6",
+            "favoriteValue": null,
+            "isBookable": null,
+            "favoriteSum": "6",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1534104833659068417",
+            "originType": "2",
+            "originName": "庚家粽子",
+            "originSubtitleName": "彩缕碧筠粽 香粳白玉团",
+            "originUrl": "https://eshopfile.zhiyousx.com/165459391832650492.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/165459399082849385.jpg",
+              "https://eshopfile.zhiyousx.com/165459399117949091.jpg",
+              "https://eshopfile.zhiyousx.com/165459399153841372.jpg",
+              "https://eshopfile.zhiyousx.com/165459405167568631.jpg",
+              "https://eshopfile.zhiyousx.com/165459408402540752.jpg",
+              "https://eshopfile.zhiyousx.com/165459408448792178.jpg",
+              "https://eshopfile.zhiyousx.com/165459408486647894.jpg",
+              "https://eshopfile.zhiyousx.com/165459408522354676.jpg",
+              "https://eshopfile.zhiyousx.com/165459408559601808.jpg",
+              "https://eshopfile.zhiyousx.com/165459408600473938.jpg",
+              "https://eshopfile.zhiyousx.com/165459408643058349.jpg"
+            ],
+            "sort": "8",
+            "favoriteValue": "83.3",
+            "isBookable": null,
+            "favoriteSum": "10",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1533996308342235138",
+            "originType": "2",
+            "originName": "萧家馄饨",
+            "originSubtitleName": "包得馄饨味胜常 馅融春韭嚼来香",
+            "originUrl": "https://eshopfile.zhiyousx.com/165456975339650576.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/165456795733395047.jpg",
+              "https://eshopfile.zhiyousx.com/165456795774040016.jpg",
+              "https://eshopfile.zhiyousx.com/165456795821271576.jpg",
+              "https://eshopfile.zhiyousx.com/165456795855470786.jpg",
+              "https://eshopfile.zhiyousx.com/165456801100292650.jpg",
+              "https://eshopfile.zhiyousx.com/165456795681121856.jpg",
+              "https://eshopfile.zhiyousx.com/165456801134929848.jpg"
+            ],
+            "sort": "9",
+            "favoriteValue": "96.0",
+            "isBookable": null,
+            "favoriteSum": "72",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1533714979247464450",
+            "originType": "2",
+            "originName": "煎饼铺子",
+            "originSubtitleName": "饼鏊上的大唐风味",
+            "originUrl": "https://eshopfile.zhiyousx.com/165450093611947475.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/165456127047982060.jpg",
+              "https://eshopfile.zhiyousx.com/165456127092695865.jpg",
+              "https://eshopfile.zhiyousx.com/165450098670347060.jpg",
+              "https://eshopfile.zhiyousx.com/165450098711568293.jpg",
+              "https://eshopfile.zhiyousx.com/165450099158439426.jpg",
+              "https://eshopfile.zhiyousx.com/165450099255581830.jpg",
+              "https://eshopfile.zhiyousx.com/165450099008860660.jpg",
+              "https://eshopfile.zhiyousx.com/165450098754051126.jpg",
+              "https://eshopfile.zhiyousx.com/165450098794216970.jpg",
+              "https://eshopfile.zhiyousx.com/165450098834360964.jpg",
+              "https://eshopfile.zhiyousx.com/165450098875068780.jpg",
+              "https://eshopfile.zhiyousx.com/165450098921157829.jpg",
+              "https://eshopfile.zhiyousx.com/165450098960341297.jpg"
+            ],
+            "sort": "10",
+            "favoriteValue": "84.6",
+            "isBookable": null,
+            "favoriteSum": "11",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          }
+        ],
+        "likeSum": null
+      },
+      {
+        "id": "1820659415944974337",
+        "sort": "19",
+        "type": "7",
+        "rankingName": "大众点评西安2024必吃榜餐厅",
+        "rankingClass": "2",
+        "rankingType": "3",
+        "rankingInclude": "个目的地",
+        "rankingDescribe": "",
+        "sumCount": "55",
+        "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/172299577029847939.jpg",
+        "bottomColour": "#FC673D",
+        "rankingItemList": [
+          {
+            "originId": "1935979852383309826",
+            "originType": "3",
+            "originName": "潮汕李记牛肉火锅（东二环景观路店）",
+            "originSubtitleName": "潮汕风味火锅",
+            "originUrl": "https://eshopfile.zhiyousx.com/2025073116132273319.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/175040853623128303.jpg",
+              "https://eshopfile.zhiyousx.com/175040853563762342.jpg",
+              "https://eshopfile.zhiyousx.com/175040853591634572.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1935536966642618369",
+            "originType": "3",
+            "originName": "醉成都麻辣烫",
+            "originSubtitleName": "川味麻辣烫",
+            "originUrl": "https://eshopfile.zhiyousx.com/2025073117022307819.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/175030294299101407.jpg",
+              "https://eshopfile.zhiyousx.com/175030294327944434.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1935541451322478593",
+            "originType": "3",
+            "originName": "金龙咖喱",
+            "originSubtitleName": "日式咖喱专门店",
+            "originUrl": "https://eshopfile.zhiyousx.com/2025073116390266602.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/175030399214172675.jpg",
+              "https://eshopfile.zhiyousx.com/175030399136552615.jpg",
+              "https://eshopfile.zhiyousx.com/175030399171648974.jpg",
+              "https://eshopfile.zhiyousx.com/175030399248283898.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1703624957567369218",
+            "originType": "3",
+            "originName": "秦豫肉夹馍（骡马市总店）",
+            "originSubtitleName": "特色西安风味",
+            "originUrl": "https://eshopfile.zhiyousx.com/2025073116455897866.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/175221879399273110.jpg",
+              "https://eshopfile.zhiyousx.com/175221879331169447.jpg",
+              "https://eshopfile.zhiyousx.com/175221879371659833.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1934795397564125185",
+            "originType": "3",
+            "originName": "大厨小馆（大雁塔北广场店）",
+            "originSubtitleName": "陕西家常菜",
+            "originUrl": "https://eshopfile.zhiyousx.com/2025073116155815378.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/175012613852773836.jpg",
+              "https://eshopfile.zhiyousx.com/175012613884614794.jpg",
+              "https://eshopfile.zhiyousx.com/175012613918237586.jpg",
+              "https://eshopfile.zhiyousx.com/175012613981950144.jpg",
+              "https://eshopfile.zhiyousx.com/175012613952919004.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1934803366976606210",
+            "originType": "3",
+            "originName": "奔跑吧陕菜·盛世长安（民乐园万达店）",
+            "originSubtitleName": "新派陕菜",
+            "originUrl": "https://eshopfile.zhiyousx.com/2025073115552962605.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/175012804157993011.jpg",
+              "https://eshopfile.zhiyousx.com/175012804202986632.jpg",
+              "https://eshopfile.zhiyousx.com/175012804250164495.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1872578721473286146",
+            "originType": "3",
+            "originName": "福苗小骆驼烧烤(莲湖路店)",
+            "originSubtitleName": "烤串",
+            "originUrl": "https://eshopfile.zhiyousx.com/2025073116192702283.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/175245668665424189.jpg",
+              "https://eshopfile.zhiyousx.com/175245668709298392.jpg",
+              "https://eshopfile.zhiyousx.com/175245668746782732.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1815292751081349121",
+            "originType": "3",
+            "originName": "澄城崇斌水盆羊肉（临潼店）",
+            "originSubtitleName": "大众点评2026西安必吃榜上榜餐厅",
+            "originUrl": "https://eshopfile.zhiyousx.com/2024080710211344883.png",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/172301303144060001.jpg",
+              "https://eshopfile.zhiyousx.com/172301303173371272.jpg",
+              "https://eshopfile.zhiyousx.com/172301303202328989.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1935521141370048513",
+            "originType": "3",
+            "originName": "同福龙虾（高新店）",
+            "originSubtitleName": "精品小龙虾餐厅",
+            "originUrl": "https://eshopfile.zhiyousx.com/2025073116523755732.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/175029917028820020.jpg",
+              "https://eshopfile.zhiyousx.com/175029917064375922.jpg",
+              "https://eshopfile.zhiyousx.com/175029917159676813.jpg",
+              "https://eshopfile.zhiyousx.com/175029917095773097.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1935960517858217985",
+            "originType": "3",
+            "originName": "陈聚德炒牛肉（临潼直营店）",
+            "originSubtitleName": "关中风味炒牛肉",
+            "originUrl": "https://eshopfile.zhiyousx.com/2026070214393821825.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/175040391546729167.jpg",
+              "https://eshopfile.zhiyousx.com/175040391622935327.jpg",
+              "https://eshopfile.zhiyousx.com/175040391498882917.jpg",
+              "https://eshopfile.zhiyousx.com/175040391590354694.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          }
+        ],
+        "likeSum": 0
+      },
+      {
+        "id": "2071800730487803905",
+        "sort": "20",
+        "type": "7",
+        "rankingName": "大众点评西安2026必吃榜餐厅",
+        "rankingClass": "2",
+        "rankingType": "3",
+        "rankingInclude": "个目的地",
+        "rankingDescribe": "",
+        "sumCount": "71",
+        "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/178279074451681087.jpg",
+        "bottomColour": "#FC673D",
+        "rankingItemList": [
+          {
+            "originId": "1723887630783590402",
+            "originType": "3",
+            "originName": "大秦面庄（曲江店）",
+            "originSubtitleName": "十年老店 特色油泼裤带面",
+            "originUrl": "https://eshopfile.zhiyousx.com/2026070214403992654.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/169984365811701086.jpg",
+              "https://eshopfile.zhiyousx.com/169984365847237005.jpg",
+              "https://eshopfile.zhiyousx.com/169984365880519240.jpg",
+              "https://eshopfile.zhiyousx.com/169984365915901322.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "2059904790596341761",
+            "originType": "3",
+            "originName": "小邹川菜烧烤（雁南四路店）",
+            "originSubtitleName": "特色川菜烧烤",
+            "originUrl": "https://eshopfile.zhiyousx.com/2026070214284552764.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/177995453102207667.jpg",
+              "https://eshopfile.zhiyousx.com/177995453140194486.jpg",
+              "https://eshopfile.zhiyousx.com/177995453183447060.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "2069718866465837058",
+            "originType": "3",
+            "originName": "勇利赵家烤肉坊（西影路店）",
+            "originSubtitleName": "本土老字号烤肉",
+            "originUrl": "https://eshopfile.zhiyousx.com/2026070214272770449.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/178280789168367798.jpg",
+              "https://eshopfile.zhiyousx.com/178280789256424122.jpg",
+              "https://eshopfile.zhiyousx.com/178280789215610878.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1935979852383309826",
+            "originType": "3",
+            "originName": "潮汕李记牛肉火锅（东二环景观路店）",
+            "originSubtitleName": "潮汕风味火锅",
+            "originUrl": "https://eshopfile.zhiyousx.com/2025073116132273319.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/175040853623128303.jpg",
+              "https://eshopfile.zhiyousx.com/175040853563762342.jpg",
+              "https://eshopfile.zhiyousx.com/175040853591634572.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1935536966642618369",
+            "originType": "3",
+            "originName": "醉成都麻辣烫",
+            "originSubtitleName": "川味麻辣烫",
+            "originUrl": "https://eshopfile.zhiyousx.com/2025073117022307819.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/175030294299101407.jpg",
+              "https://eshopfile.zhiyousx.com/175030294327944434.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1935541451322478593",
+            "originType": "3",
+            "originName": "金龙咖喱",
+            "originSubtitleName": "日式咖喱专门店",
+            "originUrl": "https://eshopfile.zhiyousx.com/2025073116390266602.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/175030399214172675.jpg",
+              "https://eshopfile.zhiyousx.com/175030399136552615.jpg",
+              "https://eshopfile.zhiyousx.com/175030399171648974.jpg",
+              "https://eshopfile.zhiyousx.com/175030399248283898.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1703624957567369218",
+            "originType": "3",
+            "originName": "秦豫肉夹馍（骡马市总店）",
+            "originSubtitleName": "特色西安风味",
+            "originUrl": "https://eshopfile.zhiyousx.com/2025073116455897866.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/175221879399273110.jpg",
+              "https://eshopfile.zhiyousx.com/175221879331169447.jpg",
+              "https://eshopfile.zhiyousx.com/175221879371659833.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1934795397564125185",
+            "originType": "3",
+            "originName": "大厨小馆（大雁塔北广场店）",
+            "originSubtitleName": "陕西家常菜",
+            "originUrl": "https://eshopfile.zhiyousx.com/2025073116155815378.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/175012613852773836.jpg",
+              "https://eshopfile.zhiyousx.com/175012613884614794.jpg",
+              "https://eshopfile.zhiyousx.com/175012613918237586.jpg",
+              "https://eshopfile.zhiyousx.com/175012613981950144.jpg",
+              "https://eshopfile.zhiyousx.com/175012613952919004.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1934803366976606210",
+            "originType": "3",
+            "originName": "奔跑吧陕菜·盛世长安（民乐园万达店）",
+            "originSubtitleName": "新派陕菜",
+            "originUrl": "https://eshopfile.zhiyousx.com/2025073115552962605.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/175012804157993011.jpg",
+              "https://eshopfile.zhiyousx.com/175012804202986632.jpg",
+              "https://eshopfile.zhiyousx.com/175012804250164495.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1872578721473286146",
+            "originType": "3",
+            "originName": "福苗小骆驼烧烤(莲湖路店)",
+            "originSubtitleName": "烤串",
+            "originUrl": "https://eshopfile.zhiyousx.com/2025073116192702283.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/175245668665424189.jpg",
+              "https://eshopfile.zhiyousx.com/175245668709298392.jpg",
+              "https://eshopfile.zhiyousx.com/175245668746782732.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          }
+        ],
+        "likeSum": 0
+      },
+      {
+        "id": "1942878018147897345",
+        "sort": "20",
+        "type": "7",
+        "rankingName": "大众点评西安2025必吃榜餐厅",
+        "rankingClass": "2",
+        "rankingType": "3",
+        "rankingInclude": "个目的地",
+        "rankingDescribe": "",
+        "sumCount": "68",
+        "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/175205312720478652.jpg",
+        "bottomColour": "#FC673D",
+        "rankingItemList": [
+          {
+            "originId": "1935979852383309826",
+            "originType": "3",
+            "originName": "潮汕李记牛肉火锅（东二环景观路店）",
+            "originSubtitleName": "潮汕风味火锅",
+            "originUrl": "https://eshopfile.zhiyousx.com/2025073116132273319.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/175040853623128303.jpg",
+              "https://eshopfile.zhiyousx.com/175040853563762342.jpg",
+              "https://eshopfile.zhiyousx.com/175040853591634572.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1935536966642618369",
+            "originType": "3",
+            "originName": "醉成都麻辣烫",
+            "originSubtitleName": "川味麻辣烫",
+            "originUrl": "https://eshopfile.zhiyousx.com/2025073117022307819.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/175030294299101407.jpg",
+              "https://eshopfile.zhiyousx.com/175030294327944434.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1935541451322478593",
+            "originType": "3",
+            "originName": "金龙咖喱",
+            "originSubtitleName": "日式咖喱专门店",
+            "originUrl": "https://eshopfile.zhiyousx.com/2025073116390266602.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/175030399214172675.jpg",
+              "https://eshopfile.zhiyousx.com/175030399136552615.jpg",
+              "https://eshopfile.zhiyousx.com/175030399171648974.jpg",
+              "https://eshopfile.zhiyousx.com/175030399248283898.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1703624957567369218",
+            "originType": "3",
+            "originName": "秦豫肉夹馍（骡马市总店）",
+            "originSubtitleName": "特色西安风味",
+            "originUrl": "https://eshopfile.zhiyousx.com/2025073116455897866.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/175221879399273110.jpg",
+              "https://eshopfile.zhiyousx.com/175221879331169447.jpg",
+              "https://eshopfile.zhiyousx.com/175221879371659833.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1934795397564125185",
+            "originType": "3",
+            "originName": "大厨小馆（大雁塔北广场店）",
+            "originSubtitleName": "陕西家常菜",
+            "originUrl": "https://eshopfile.zhiyousx.com/2025073116155815378.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/175012613852773836.jpg",
+              "https://eshopfile.zhiyousx.com/175012613884614794.jpg",
+              "https://eshopfile.zhiyousx.com/175012613918237586.jpg",
+              "https://eshopfile.zhiyousx.com/175012613981950144.jpg",
+              "https://eshopfile.zhiyousx.com/175012613952919004.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1934803366976606210",
+            "originType": "3",
+            "originName": "奔跑吧陕菜·盛世长安（民乐园万达店）",
+            "originSubtitleName": "新派陕菜",
+            "originUrl": "https://eshopfile.zhiyousx.com/2025073115552962605.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/175012804157993011.jpg",
+              "https://eshopfile.zhiyousx.com/175012804202986632.jpg",
+              "https://eshopfile.zhiyousx.com/175012804250164495.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1872578721473286146",
+            "originType": "3",
+            "originName": "福苗小骆驼烧烤(莲湖路店)",
+            "originSubtitleName": "烤串",
+            "originUrl": "https://eshopfile.zhiyousx.com/2025073116192702283.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/175245668665424189.jpg",
+              "https://eshopfile.zhiyousx.com/175245668709298392.jpg",
+              "https://eshopfile.zhiyousx.com/175245668746782732.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1815292751081349121",
+            "originType": "3",
+            "originName": "澄城崇斌水盆羊肉（临潼店）",
+            "originSubtitleName": "大众点评2026西安必吃榜上榜餐厅",
+            "originUrl": "https://eshopfile.zhiyousx.com/2024080710211344883.png",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/172301303144060001.jpg",
+              "https://eshopfile.zhiyousx.com/172301303173371272.jpg",
+              "https://eshopfile.zhiyousx.com/172301303202328989.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1935521141370048513",
+            "originType": "3",
+            "originName": "同福龙虾（高新店）",
+            "originSubtitleName": "精品小龙虾餐厅",
+            "originUrl": "https://eshopfile.zhiyousx.com/2025073116523755732.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/175029917028820020.jpg",
+              "https://eshopfile.zhiyousx.com/175029917064375922.jpg",
+              "https://eshopfile.zhiyousx.com/175029917159676813.jpg",
+              "https://eshopfile.zhiyousx.com/175029917095773097.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1944688266496102402",
+            "originType": "3",
+            "originName": "丼坊· 丼を作る屋（小寨店）",
+            "originSubtitleName": "来小寨必吃的牛丼饭",
+            "originUrl": "https://eshopfile.zhiyousx.com/2025073116395733773.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/175248478272989064.jpg",
+              "https://eshopfile.zhiyousx.com/175248478307537367.jpg",
+              "https://eshopfile.zhiyousx.com/175248478336479515.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          }
+        ],
+        "likeSum": 0
+      },
+      {
+        "id": "1849009536377999362",
+        "sort": "23",
+        "type": "7",
+        "rankingName": "沣裕口人气美食",
+        "rankingClass": "2",
+        "rankingType": "3",
+        "rankingInclude": "个目的地",
+        "rankingDescribe": "逃离城市的西安地道老字号风味",
+        "sumCount": "5",
+        "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/172975485490032594.jpg",
+        "bottomColour": "#E06A2A",
+        "rankingItemList": [
+          {
+            "originId": "1848973673610792962",
+            "originType": "3",
+            "originName": "昌民米皮老店",
+            "originSubtitleName": "滦镇家喻户晓米皮店",
+            "originUrl": "https://eshopfile.zhiyousx.com/2024102314240537163.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/172966623536279570.jpg",
+              "https://eshopfile.zhiyousx.com/172966623558557684.jpg",
+              "https://eshopfile.zhiyousx.com/172966623582066687.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1848983183882719233",
+            "originType": "3",
+            "originName": "建基泡馍",
+            "originSubtitleName": "环山路上的人气泡馍店",
+            "originUrl": "https://eshopfile.zhiyousx.com/2024102315425995365.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/172966936862211329.jpg",
+              "https://eshopfile.zhiyousx.com/172966936888094835.jpg",
+              "https://eshopfile.zhiyousx.com/172966936918662355.jpg",
+              "https://eshopfile.zhiyousx.com/172966936948912699.jpg",
+              "https://eshopfile.zhiyousx.com/172966936969969158.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1849004797510733826",
+            "originType": "3",
+            "originName": "那家土灶(总店)",
+            "originSubtitleName": "地道铁锅炖",
+            "originUrl": "https://eshopfile.zhiyousx.com/2024102316155904988.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/172967141719823892.jpg",
+              "https://eshopfile.zhiyousx.com/172967141743830421.jpg",
+              "https://eshopfile.zhiyousx.com/172967141765629729.jpg",
+              "https://eshopfile.zhiyousx.com/172967141788301241.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1849008954338627586",
+            "originType": "3",
+            "originName": "山阳姑娘黑擀面皮",
+            "originSubtitleName": "特色黑擀面皮",
+            "originUrl": "https://eshopfile.zhiyousx.com/2024102316404457390.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/172967283803504951.jpg",
+              "https://eshopfile.zhiyousx.com/172967283827376268.jpg",
+              "https://eshopfile.zhiyousx.com/172967283848799884.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1849015710747987969",
+            "originType": "3",
+            "originName": "开席咧上面",
+            "originSubtitleName": "乡党臊子面，一口到家",
+            "originUrl": "https://eshopfile.zhiyousx.com/2024102317064174921.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/172967444687367546.jpg",
+              "https://eshopfile.zhiyousx.com/172967444712516900.jpg",
+              "https://eshopfile.zhiyousx.com/172967444735299550.jpg",
+              "https://eshopfile.zhiyousx.com/172967444757745797.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          }
+        ],
+        "likeSum": 0
+      },
+      {
+        "id": "1424564160087244801",
+        "sort": "90",
+        "type": "7",
+        "rankingName": "三秦套餐",
+        "rankingClass": "2",
+        "rankingType": "2",
+        "rankingInclude": "个美食",
+        "rankingDescribe": "凉皮、肉夹馍和冰峰三样陕西美食被冠以“三秦套餐”。吃着凉皮肉夹馍，喝着冰峰汽水，是陕西人的一大享受！",
+        "sumCount": "3",
+        "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/162847272739904072.jpg",
+        "bottomColour": "#AB4646",
+        "rankingItemList": [
+          {
+            "originId": "1437598230996176898",
+            "originType": "2",
+            "originName": "肉夹馍",
+            "originSubtitleName": "没吃肉夹馍 白来“馍都”走一遭",
+            "originUrl": "https://eshopfile.zhiyousx.com/163158411634637480.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/163158520437188324.jpg",
+              "https://eshopfile.zhiyousx.com/163158521672785309.jpg",
+              "https://eshopfile.zhiyousx.com/163158524393751795.jpg",
+              "https://eshopfile.zhiyousx.com/163158527328007047.jpg",
+              "https://eshopfile.zhiyousx.com/163158528692611614.jpg",
+              "https://eshopfile.zhiyousx.com/163158532370081042.jpg",
+              "https://eshopfile.zhiyousx.com/163158534034196023.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": "97.6",
+            "isBookable": null,
+            "favoriteSum": "124",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1437709409177423873",
+            "originType": "2",
+            "originName": "凉皮",
+            "originSubtitleName": "三秦套餐，没凉皮可不行！",
+            "originUrl": "https://eshopfile.zhiyousx.com/163161129589224520.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/163161156493609275.jpg",
+              "https://eshopfile.zhiyousx.com/163161157255841797.jpg",
+              "https://eshopfile.zhiyousx.com/163161157813913857.jpg",
+              "https://eshopfile.zhiyousx.com/163161158432574152.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": "93.0",
+            "isBookable": null,
+            "favoriteSum": "66",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1423572536850956290",
+            "originType": "2",
+            "originName": "冰峰",
+            "originSubtitleName": "“老板，开瓶冰峰！”",
+            "originUrl": "https://eshopfile.zhiyousx.com/163159957623153600.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/162823807463577941.jpg",
+              "https://eshopfile.zhiyousx.com/162823805376561617.jpg",
+              "https://eshopfile.zhiyousx.com/162823806664877013.jpg",
+              "https://eshopfile.zhiyousx.com/162823810375420977.jpg",
+              "https://eshopfile.zhiyousx.com/162823812035364413.jpg",
+              "https://eshopfile.zhiyousx.com/162823812704690061.jpg",
+              "https://eshopfile.zhiyousx.com/162823814958227280.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": "81.8",
+            "isBookable": null,
+            "favoriteSum": "9",
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          }
+        ],
+        "likeSum": 199
+      },
+      {
+        "id": "1770060462919708673",
+        "sort": "99",
+        "type": "7",
+        "rankingName": "洋县宝藏美食店铺",
+        "rankingClass": "2",
+        "rankingType": "3",
+        "rankingInclude": "个目的地",
+        "rankingDescribe": "洋县美食比美景低调很多，观赏油菜花之外当然也不能错过了！",
+        "sumCount": "4",
+        "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/171085010595480838.png",
+        "bottomColour": "#FBAB3C",
+        "rankingItemList": [
+          {
+            "originId": "1770052516311658498",
+            "originType": "3",
+            "originName": "天麻土鸡汤",
+            "originSubtitleName": "自家散养的土鸡",
+            "originUrl": "https://eshopfile.zhiyousx.com/2024031919355724741.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/171084837595482619.jpg",
+              "https://eshopfile.zhiyousx.com/171084837560405935.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1770049736083738625",
+            "originType": "3",
+            "originName": "翟家烧饼",
+            "originSubtitleName": "碳水爱好者福音",
+            "originUrl": "https://eshopfile.zhiyousx.com/2024031919241104138.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/171084752329828253.jpg",
+              "https://eshopfile.zhiyousx.com/171084755132685791.jpg",
+              "https://eshopfile.zhiyousx.com/171084752361697200.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1770053840738684930",
+            "originType": "3",
+            "originName": "面皮王",
+            "originSubtitleName": "洋县人从小吃到大的老店",
+            "originUrl": "https://eshopfile.zhiyousx.com/2024031919444295667.png",
+            "originAssistUrlList": [],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1770057706368593922",
+            "originType": "3",
+            "originName": "左家村休闲农庄",
+            "originSubtitleName": "非遗味道",
+            "originUrl": "https://eshopfile.zhiyousx.com/2024031919561758451.png",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/171084980535788806.jpg",
+              "https://eshopfile.zhiyousx.com/171084980598414939.jpg",
+              "https://eshopfile.zhiyousx.com/171084980692039785.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          }
+        ],
+        "likeSum": 0
+      },
+      {
+        "id": "1770007448808820737",
+        "sort": "99",
+        "type": "7",
+        "rankingName": "汉中必吃特色鱼庄",
+        "rankingClass": "2",
+        "rankingType": "3",
+        "rankingInclude": "个目的地",
+        "rankingDescribe": "在汉中岂有不吃鱼的道理？有一首民歌这样唱道：“上河涨水下河混，河边站满打鱼人。打得大鱼长街卖，打得小鱼下酒喝。”汉中人爱吃鱼，无鱼不成宴，早已成为公认的习俗。汉中以鱼为食材的料理，结合了陕菜的酸爽、川菜的麻辣，闻者垂涎欲滴、尝者叫好不迭。\n",
+        "sumCount": "3",
+        "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/171083760670585092.jpg",
+        "bottomColour": "#FBAB3C",
+        "rankingItemList": [
+          {
+            "originId": "1770005965744869377",
+            "originType": "3",
+            "originName": "三味渔府（西环路店）",
+            "originSubtitleName": "特色鱼火锅",
+            "originUrl": "https://eshopfile.zhiyousx.com/2024031917555899666.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/171083680969592152.jpg",
+              "https://eshopfile.zhiyousx.com/171083680871590445.jpg",
+              "https://eshopfile.zhiyousx.com/171083680815411353.jpg",
+              "https://eshopfile.zhiyousx.com/177287569934858859.png",
+              "https://eshopfile.zhiyousx.com/177287569988999385.png"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1769991591407841281",
+            "originType": "3",
+            "originName": "堰坝鱼庄（总店）",
+            "originSubtitleName": "当地人认可的吃鱼好去处",
+            "originUrl": "https://eshopfile.zhiyousx.com/2024031915364837559.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/171083383070147759.jpg",
+              "https://eshopfile.zhiyousx.com/171083432095329237.jpg",
+              "https://eshopfile.zhiyousx.com/171083433956199065.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          },
+          {
+            "originId": "1769984898900922370",
+            "originType": "3",
+            "originName": "胡氏银河鲜鱼庄（莲湖路店）",
+            "originSubtitleName": "河庄鲜鱼",
+            "originUrl": "https://eshopfile.zhiyousx.com/2024031915094699827.jpg",
+            "originAssistUrlList": [
+              "https://eshopfile.zhiyousx.com/171083269481724271.jpg",
+              "https://eshopfile.zhiyousx.com/171083269519959893.jpg",
+              "https://eshopfile.zhiyousx.com/171083269559865025.jpg"
+            ],
+            "sort": null,
+            "favoriteValue": null,
+            "isBookable": false,
+            "favoriteSum": null,
+            "isFavorite": null,
+            "price": null,
+            "retailPrice": null
+          }
+        ],
+        "likeSum": 0
+      }
+    ],
+    "total": 21,
+    "size": 10,
+    "current": 1,
+    "orders": [],
+    "optimizeCountSql": true,
+    "searchCount": true,
+    "maxLimit": null,
+    "countId": null,
+    "pages": 3
+  },
+  "msg": "成功",
+  "success": true
+}

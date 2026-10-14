@@ -6,7 +6,7 @@
                 <cover-view class="already-visited-container data-v-9826ce1a" markerId="{{index}}" wx:if="{{markers[index].verifyNum>0}}">
                     <cover-view class="{{['custom-callout','already-visited','data-v-9826ce1a',item.scenicId==selectScenicId?'is-choose-big':'is-choose']}}">
                         <cover-view class="i-block already-visited-left data-v-9826ce1a">
-                            <cover-image class="already-visited-left-image data-v-9826ce1a" src="https://eshopfile.zhiyousx.com/2023112717491104306.png"></cover-image>
+                            <cover-image class="already-visited-left-image data-v-9826ce1a" src="/static/captured/653680a7f8ba2884.png"></cover-image>
                         </cover-view>
                         <cover-view class="i-block already-visited-right data-v-9826ce1a">
                             <cover-view class="name data-v-9826ce1a">{{''+(markers[index].scenicName||'')}}</cover-view>

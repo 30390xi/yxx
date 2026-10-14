@@ -1,0 +1,71 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "1559011829152886785",
+      "resourcesId": "1321643460422557697",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/8-20201029162714.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2022-08-15 10:59:19",
+      "updateTime": "2022-08-15 10:59:19",
+      "createBy": "1511977558009303041",
+      "updateBy": "1511977558009303041",
+      "isDeleted": 0
+    },
+    {
+      "id": "1559011829157081089",
+      "resourcesId": "1321643460422557697",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/caihong3-20201029104207.JPG",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 2,
+      "describe": null,
+      "createTime": "2022-08-15 10:59:19",
+      "updateTime": "2022-08-15 10:59:19",
+      "createBy": "1511977558009303041",
+      "updateBy": "1511977558009303041",
+      "isDeleted": 0
+    },
+    {
+      "id": "1559011829157081090",
+      "resourcesId": "1321643460422557697",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/4G2A1060-20201029162657.JPG",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 3,
+      "describe": null,
+      "createTime": "2022-08-15 10:59:19",
+      "updateTime": "2022-08-15 10:59:19",
+      "createBy": "1511977558009303041",
+      "updateBy": "1511977558009303041",
+      "isDeleted": 0
+    },
+    {
+      "id": "1559011829161275393",
+      "resourcesId": "1321643460422557697",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/4G2A1111-20201029162705.JPG",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 4,
+      "describe": null,
+      "createTime": "2022-08-15 10:59:19",
+      "updateTime": "2022-08-15 10:59:19",
+      "createBy": "1511977558009303041",
+      "updateBy": "1511977558009303041",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

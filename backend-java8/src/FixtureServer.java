@@ -19,9 +19,11 @@ public class FixtureServer {
     private final Path root;
     private final Map<String, Path> routes = new HashMap<>();
     private final Map<String, Path> ids = new HashMap<>();
+    private final AiChatService aiChat;
 
-    private FixtureServer(Path root) throws IOException {
+    private FixtureServer(Path root) throws Exception {
         this.root = root;
+        this.aiChat = new AiChatService(root);
         for (String line : Files.readAllLines(root.resolve("fixtures/index.tsv"), StandardCharsets.UTF_8)) {
             String[] columns = line.split("\\t", -1);
             if (columns.length != 5) throw new IOException("Invalid fixture index");
@@ -72,6 +74,7 @@ public class FixtureServer {
         String method = ex.getRequestMethod();
         try {
             if (method.equals("OPTIONS")) { send(ex, 204, "text/plain", new byte[0]); return; }
+            if (aiChat.handle(ex)) return;
             if (path.equals("/admin") || path.equals("/admin/")) {
                 send(ex, 200, "text/html", Files.readAllBytes(root.resolve("admin.html")));
                 return;

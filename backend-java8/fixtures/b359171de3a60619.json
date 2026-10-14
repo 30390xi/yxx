@@ -1,0 +1,528 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1326771496516968450",
+    "scenicName": "长乐塬抗战工业遗址公园",
+    "tag": "中国抗战时期最伟大的奇迹之一",
+    "level": 4,
+    "cityId": "1320659384068780033",
+    "cityName": "宝鸡",
+    "address": "宝鸡市金台区宝十路北50米",
+    "longitude": "107.21621",
+    "latitude": "34.375932",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 239,
+    "topColour": "#B29D97",
+    "centralColour": "#392619",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021060914543119953.jpg",
+      "https://eshopfile.zhiyousx.com/2021061117302427910.jpg",
+      "https://eshopfile.zhiyousx.com/2021061116512694068.jpg",
+      "https://eshopfile.zhiyousx.com/2021060914441737254.png",
+      "https://eshopfile.zhiyousx.com/2021060914452711986.jpg"
+    ],
+    "introduction": "<p>　　长乐塬抗战工业遗址是国内现存最完整的抗战工业遗产，长乐塬申新纱厂在抗战期间闻名海内外,支撑了整个西北战区的棉纱供应，也是宝鸡现代工业的发源地，是全国重点文物保护单位和爱国主义教育基地。长乐塬抗战工业遗址以&ldquo;千年智造梦、一部工业史&rdquo;为时光坐标，构建工合之光、工创天地、长乐家园&ldquo;三个组团&rdquo;。区域内现存抗战时期全国最大的窑洞工厂、申新纱厂办公楼、乐农别墅、薄壳车间等四处历史遗迹。</p>",
+    "introductionText": "　　长乐塬抗战工业遗址是国内现存最完整的抗战工业遗产，长乐塬申新纱厂在抗战期间闻名海内外,支撑了整个西北战区的棉纱供应，也是宝鸡现代工业的发源地，是全国重点文物保护单位和爱国主义教育基地。长乐塬抗战工业遗址以“千年智造梦、一部工业史”为时光坐标，构建工合之光、工创天地、长乐家园“三个组团”。区域内现存抗战时期全国最大的窑洞工厂、申新纱厂办公楼、乐农别墅、薄壳车间等四处历史遗迹。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "16",
+        "name": "城市公园",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "65",
+        "name": "工业旅游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "18",
+        "name": "红色旅游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "51",
+        "name": "拓展游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026436599809",
+        "contentId": "1418152026428211201",
+        "name": "国家工业遗产",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1450028527872122881",
+        "contentId": "1450028527859539970",
+        "name": "陕西省文化遗址公园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "<p>营业时间9:00-17:30（最晚入园时间17:00）（周一闭园，法定节假日正常营业）</p>",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "免费开放区域",
+        "openTimeContent": "申新发电厂、警卫楼、园区广场、钟楼"
+      },
+      {
+        "openTimeTitle": "收费区域",
+        "openTimeContent": "窑洞车间、薄壳车间、福新申新大楼"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "老年人",
+        "limit": "65周岁(不含)以上凭老年证或身份证需购票成人陪同",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米(含)以下的儿童(建议有一名成人陪同)",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "现役军人",
+        "limit": "凭军官证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭残疾证(建议有一名成人陪同)",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "其他免票人群",
+        "limit": "18岁（不含）以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "全日制大学本科及以下学历凭本人学生证",
+        "discount": "半价"
+      },
+      {
+        "peopleType": "医护",
+        "limit": "疫情期间,医护人员凭医师证、护士证",
+        "discount": "8折"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "56",
+        "name": "讲解器租赁",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016433125149.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "61",
+        "name": "讲解员",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016440410223.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "讲解费",
+        "additionalExplainContent": "1-20人收取100元讲解费<br/>21-40人收取200元讲解费<br/>41-60人收取300元讲解费<br/>"
+      },
+      {
+        "additionalExplainTitle": "定点讲解耳机",
+        "additionalExplainContent": "10元/个，每个收取50元押金"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "预约电话",
+        "telephone": "0917-3679869"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "长乐塬",
+        "wxSubscription": "CLY2621621"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "1770279210935095297",
+        "outId": "1326771496516968450",
+        "type": 1,
+        "advertName": "申新福新大楼",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021061717461153746.jpg",
+        "jumpType": 4,
+        "jumpUrl": "https://new.qq.com/omn/20210612/20210612A051MJ00.html",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p>　　抗日战争爆发后，中国无数工厂在炮火中或毁于一旦，或无法继续生产。然而在宝鸡，却诞生了一处使用面积达4800多平方米、总长度达3.5华里的24孔窑洞车间，在日军空袭下继续产出一卷又一卷棉纱供应前线。这，就是民族企业荣氏申新纱厂内迁陕西宝鸡后的新厂。</p>\n<p>　　如今，往昔的申新窑洞车间已被改造为&ldquo;长乐塬抗战工业遗址&rdquo;其中一处遗址。近日，长乐塬抗战工业遗址管委会办公室主任王敏在由中央统战部组织的&ldquo;百年路&middot;同心筑&rdquo;主题采访中，与媒体一同回顾了这段民族企业内迁的惊心历史。</p>\n<p style=\"text-align: center;\"><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061617384791939.jpg\" /><br /><em>6月10日游客在陕西宝鸡长乐塬抗战工业遗址窑洞车间内参观。</em></p>\n<p>　　申新窑洞的历史，要追溯到创办于1921年的申新纺织公司汉口第四纺织厂。该厂是中国著名的民族企业家荣德生、荣宗敬荣氏兄弟家族产业的重要组成部分，总经理李国伟是荣德生的长婿。1938年前后，在日军袭击下，上海、武汉等地许多民族工业不得不开始向内地迁徙、以图自救，史称&ldquo;迁厂运动&rdquo;。申新第四纺织厂的迁徙，也在这一洪流之中。</p>\n<p style=\"text-align: center;\"><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061617395619174.jpg\" /><br /><em>6月10日在陕西宝鸡拍摄的长乐塬抗战工业遗址窑洞车间的平面图。</em></p>\n<p>　　当时，申新纱厂向何处去，其实有不同的选项。纱厂还处在暂时的战时繁荣中，而内迁路途遥远，战乱之中难免蒙受损失。因此，一种意见是将工厂&ldquo;出租&rdquo;给外国商人，以求庇护。但李国伟坚决执行了迁厂决定。</p>\n<p style=\"text-align: center;\"><img class=\"wscnph\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://eshopfile.zhiyousx.com/2021061617403332023.jpg\" /><br /><em>6月10日游客在陕西宝鸡长乐塬抗战工业遗址窑洞车间内参观。</em></p>\n<p>　<br />　　据说，拆卸机器准备运输的过程，就是在敌机空袭下进行的。工人见敌机来，躲一躲，然后继续拆，拆完马上扛走。一些工人就在拆卸之中被炸死。内迁水路上，运货船只也曾遭日本飞机轰炸，有幸最终有2万纱锭、400台织布机和一套发电机组成功迁到宝鸡。而损失的数量，与此相当。</p>\n<p style=\"text-align: center;\"><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061617410498610.jpg\" /><br /><em>6月10日在陕西宝鸡拍摄的长乐塬抗战工业遗址窑洞车间展出的捻线机。</em></p>\n<p><br />　　彼时的宝鸡，几乎没有近代工业，机件物资、建筑材料、动力资源等都很匮乏。在宝鸡重新建厂，困难不亚于荣氏兄弟最初的白手创业。<br />　　结合当地地理条件，纱厂决定将车间建在地下窑洞中，以躲避轰炸。在李国伟的主持下，来自南方的申新工人开始挖掘窑洞。一有轰炸，工人和厂领导共同抵御；敌机一走，全厂上下一齐扑火、抢救物资。</p>\n<p style=\"text-align: center;\"><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061617414719583.jpg\" /><br /><em>6月10日在陕西宝鸡拍摄的长乐塬抗战工业遗址外景。</em>　</p>\n<p><br />　　&ldquo;环视西北半壁，纱厂寥寥无几，无论前方将士，无论后方民众，均有赖吾等接济。所以我们应快速完成建厂任务，努力增加生产。&rdquo;据王敏说，李国伟曾这样动员纱厂工人：&ldquo;在这紧急时刻，多增加一分生产就是多增加一分国力。&rdquo;<br />　　经历数次轰炸，这座迷宫般的地下工厂悄然完工。1939年，申新纱厂的纱锭重新开动起来。源源不断的棉纱、布匹生产出来，又被做成军装、军毯向前线输送。</p>\n<p style=\"text-align: center;\"><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061617422850931.jpg\" /><br /><em>6月10日在陕西宝鸡拍摄的长乐塬抗战工业遗址窑洞车间展出的机器设备。</em>　</p>\n<p>　　今日若来此地参观，仍可从一排排纵横相连、狭长清凉的窑洞中，想见当年机器排布、工人紧张做工的场面。站在窑洞的通风口下，仿佛能感受当年工人从地底探望天空的希望。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061617435398111.jpg\" /><br />　　在以申新纱厂为代表的内迁企业带动下，1941年，宝鸡从一个没有近代工业的农业小县城发展成一个拥有200多家企业的工业城市，形成了以荣氏申新公司为代表的&ldquo;秦宝十里铺工业区&rdquo;。茅盾当时见此繁荣景象，写下《&ldquo;战时景气&rdquo;的宠儿&mdash;&mdash;宝鸡》。</p>\n<p><img class=\"wscnph\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://eshopfile.zhiyousx.com/2021061617442339096.jpg\" /><br />　　王敏谈道，在长乐塬抗战工业遗址建设过程中，李国伟的孙子曾来此参观。他谈起自己的奶奶、李国伟的妻子荣慕蕴说，奶奶是荣家的大小姐，荣家在租界有住宅。但战乱之中，荣慕蕴却选择来到宝鸡这样一个农业县城，在这里待了6年，坚持抗战救国。<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class=\"wscnph\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://eshopfile.zhiyousx.com/2021061617445451211.jpg\" /></p>\n<p>　　&ldquo;正所谓企业营销无国界，企业家有祖国。我想，这个窑洞车间，就是最能体现他们家国情怀、实业救国的地方之一。&rdquo;王敏说。</p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\">来源：网络综合整理</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      },
+      {
+        "id": "1770279210935095298",
+        "outId": "1326771496516968450",
+        "type": 1,
+        "advertName": "福新申新大楼2",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021061717462521295.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p>　　近日，长乐塬又多了一个&ldquo;牌子&rdquo;！长乐塬抗战工业遗址被共青团陕西省委命名为&ldquo;陕西青少年教育基地&rdquo;，成为弘扬爱国主义精神、开展青少年教育活动的重要阵地。</p>\n<p><img class=\"wscnph\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://eshopfile.zhiyousx.com/2021061617212680605.jpg\" /></p>\n<p>　　自长乐塬开园以来，各地青少年来到长乐塬开展活动，学习历史，感悟初心，增强爱国主义情怀。几年间，长乐塬充分发挥着教育功能，体现着以爱国主义为核心的民族精神，反映着中华民族悠久灿烂的历史文化。</p>\n<p><img class=\"wscnph\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://eshopfile.zhiyousx.com/2021061617222830458.jpg\" /><br /><img class=\"wscnph\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://eshopfile.zhiyousx.com/2021061617230678486.jpg\" /></p>\n<p>　　历史因铭记而永恒，精神因传承而不灭。青少年教育基地是对青少年进行爱国主义、集体主义、社会主义教育，帮助青少年树立正确的世界观、人生观、价值观的重要平台。长乐塬抗战工业遗址将进一步发挥不同类别青少年教育基地的重要作用，为新时代陕西追赶超越作贡献。</p>\n<p><img class=\"wscnph\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://eshopfile.zhiyousx.com/2021061617233661683.jpg\" /></p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\">来源：网络综合整理</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": "主要看点",
+    "contentResourcesDtoList": [
+      {
+        "id": "1770279210893152257",
+        "resourcesId": "1326773966433542146",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061117320347339.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2024-03-20 10:40:28",
+        "updateTime": "2024-03-20 10:40:28",
+        "createBy": "1290154746467225602",
+        "updateBy": "1290154746467225602",
+        "isDeleted": 0
+      },
+      {
+        "id": "1770279210897346562",
+        "resourcesId": "1326773966433542146",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021060914470514362.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2024-03-20 10:40:28",
+        "updateTime": "2024-03-20 10:40:28",
+        "createBy": "1290154746467225602",
+        "updateBy": "1290154746467225602",
+        "isDeleted": 0
+      },
+      {
+        "id": "1770279210901540866",
+        "resourcesId": "1326773966433542146",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021060914471601135.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2024-03-20 10:40:28",
+        "updateTime": "2024-03-20 10:40:28",
+        "createBy": "1290154746467225602",
+        "updateBy": "1290154746467225602",
+        "isDeleted": 0
+      },
+      {
+        "id": "1770279210901540867",
+        "resourcesId": "1326773966433542146",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021060914463927785.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2024-03-20 10:40:28",
+        "updateTime": "2024-03-20 10:40:28",
+        "createBy": "1290154746467225602",
+        "updateBy": "1290154746467225602",
+        "isDeleted": 0
+      },
+      {
+        "id": "1770279210905735170",
+        "resourcesId": "1326773966433542146",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021060914493797614.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2024-03-20 10:40:28",
+        "updateTime": "2024-03-20 10:40:28",
+        "createBy": "1290154746467225602",
+        "updateBy": "1290154746467225602",
+        "isDeleted": 0
+      },
+      {
+        "id": "1770279210905735171",
+        "resourcesId": "1326773966433542146",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021060914501028100.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2024-03-20 10:40:28",
+        "updateTime": "2024-03-20 10:40:28",
+        "createBy": "1290154746467225602",
+        "updateBy": "1290154746467225602",
+        "isDeleted": 0
+      },
+      {
+        "id": "1770279210909929474",
+        "resourcesId": "1326773966433542146",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021060915023688072.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2024-03-20 10:40:28",
+        "updateTime": "2024-03-20 10:40:28",
+        "createBy": "1290154746467225602",
+        "updateBy": "1290154746467225602",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": null,
+      "rankingId": null,
+      "indexInRanking": null,
+      "rankingName": null,
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": [
+      {
+        "id": "1770279210918318082",
+        "scenicSpotId": "1326771496516968450",
+        "contentModuleName": "主要看点",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1405051302936854530",
+            "type": 5,
+            "title": "窑洞车间",
+            "subtitle": "中国抗战中最伟大的奇迹",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021061614315542345.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1405053093971771393",
+            "type": 5,
+            "title": "福新申新大楼",
+            "subtitle": "我国著名建筑设计师王秉忱设计1942年修建",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021061614392842050.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1443497630884712450",
+            "type": 6,
+            "title": "保卫长乐塬",
+            "subtitle": "爱国主义沉浸式剧场",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021093016374844153.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": "营业时间",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

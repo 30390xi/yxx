@@ -1,0 +1,143 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1658367924920602626",
+    "contentId": "1658367923108663298",
+    "rankingName": "大学博物馆人气榜",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/168422067202111126.png",
+    "rankingDescribe": null,
+    "rankingTotalUserData": "人去过",
+    "rankingInclude": "个目的地",
+    "rankingPersonalInfo": "我去过的目的地",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#104408",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1320579064720941142",
+        "originType": "1",
+        "originName": "西北农林科技大学博览园",
+        "originSubtitleName": "集教学、科研、科普于一体的重要学科基地",
+        "originUrl": "https://eshopfile.zhiyousx.com/2-20201028155530.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/4-20201028160150.jpg",
+          "https://eshopfile.zhiyousx.com/5-20201028160219.png",
+          "https://eshopfile.zhiyousx.com/6-20201028160252.png",
+          "https://eshopfile.zhiyousx.com/2021072317252269687.png",
+          "https://eshopfile.zhiyousx.com/2021072317253991217.png",
+          "https://eshopfile.zhiyousx.com/2021072317260292009.png",
+          "https://eshopfile.zhiyousx.com/2021072317263818640.png",
+          "https://eshopfile.zhiyousx.com/2021072317272598977.png",
+          "https://eshopfile.zhiyousx.com/2021072317273648123.png"
+        ],
+        "sort": "0",
+        "favoriteValue": null,
+        "isBookable": true,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1452848901835988994",
+        "originType": "1",
+        "originName": "西北大学博物馆",
+        "originSubtitleName": "名校里的综合型博物馆",
+        "originUrl": "https://eshopfile.zhiyousx.com/2022040816165526117.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/164940568626388493.jpg",
+          "https://eshopfile.zhiyousx.com/164940568632108784.jpg",
+          "https://eshopfile.zhiyousx.com/164940568654829767.jpg",
+          "https://eshopfile.zhiyousx.com/164940568643618367.jpg",
+          "https://eshopfile.zhiyousx.com/164940568649261344.jpg",
+          "https://eshopfile.zhiyousx.com/164939664934373892.jpg",
+          "https://eshopfile.zhiyousx.com/164939664928481736.jpg",
+          "https://eshopfile.zhiyousx.com/164940568624470273.jpg",
+          "https://eshopfile.zhiyousx.com/164940599354820850.jpg",
+          "https://eshopfile.zhiyousx.com/164940620316214123.jpg"
+        ],
+        "sort": "1",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1658377678665519105",
+        "originType": "1",
+        "originName": "交大西迁博物馆",
+        "originSubtitleName": "探索科学家精神",
+        "originUrl": "https://eshopfile.zhiyousx.com/2026031711355914934.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2026031611335547621.jpg",
+          "https://eshopfile.zhiyousx.com/2026031611341032378.png",
+          "https://eshopfile.zhiyousx.com/177363207503416508.png"
+        ],
+        "sort": "2",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1512315328435179521",
+        "originType": "1",
+        "originName": "长安大学公路交通博物馆",
+        "originSubtitleName": "公路交通体系的专业展馆",
+        "originUrl": "https://eshopfile.zhiyousx.com/2022040814153676439.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/164939897118446025.jpg",
+          "https://eshopfile.zhiyousx.com/164939897075615465.jpg",
+          "https://eshopfile.zhiyousx.com/164939897112585765.jpg",
+          "https://eshopfile.zhiyousx.com/164939897088240829.jpg",
+          "https://eshopfile.zhiyousx.com/164939897094397351.jpg",
+          "https://eshopfile.zhiyousx.com/164939897100672848.jpg",
+          "https://eshopfile.zhiyousx.com/164939897106627186.jpg",
+          "https://eshopfile.zhiyousx.com/164939897082356532.jpg"
+        ],
+        "sort": "3",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1512258357220724737",
+        "originType": "1",
+        "originName": "国际口腔医学博物馆",
+        "originSubtitleName": "专精口腔医学领域的博物馆",
+        "originUrl": "https://eshopfile.zhiyousx.com/2022040810294230328.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/164938540860987262.jpg",
+          "https://eshopfile.zhiyousx.com/164938540851545080.jpg",
+          "https://eshopfile.zhiyousx.com/164938540854798272.jpg",
+          "https://eshopfile.zhiyousx.com/164938540862970900.jpg",
+          "https://eshopfile.zhiyousx.com/164938540869529666.jpg",
+          "https://eshopfile.zhiyousx.com/164938540875615209.jpg"
+        ],
+        "sort": "4",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "5",
+    "favoriteSum": null,
+    "personalInfoValue": "0/5"
+  },
+  "msg": "成功",
+  "success": true
+}

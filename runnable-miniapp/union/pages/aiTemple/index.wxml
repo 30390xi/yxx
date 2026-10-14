@@ -1,16 +1,16 @@
 <view class="{{['page-box','data-v-7fc23477',showHide?'page-box-image1':'page-box-image2']}}">
     <view bindtap="__e" class="data-v-7fc23477" data-event-opts="{{[ [ 'tap',[ [ 'showFun',['$event'] ] ] ] ]}}" style="position:fixed;height:140rpx;width:100%;z-index:111;" wx:if="{{!showHide}}"></view>
     <uni-navbar bind:__l="__l" class="data-v-7fc23477" type="transparentFixed" vueId="3a8df2d5-1"></uni-navbar>
-    <image class="video_box1 data-v-7fc23477" hidden="{{!showHide}}" mode="aspectFill" src="https://eshopfile.zhiyousx.com/176049930295641964.png"></image>
-    <image class="video_box1 data-v-7fc23477" hidden="{{!!showHide}}" mode="aspectFill" src="https://eshopfile.zhiyousx.com/176049935099597141.png"></image>
+    <image class="video_box1 data-v-7fc23477" hidden="{{!showHide}}" mode="aspectFill" src="/static/captured/2c239f266f63fb8e.png"></image>
+    <image class="video_box1 data-v-7fc23477" hidden="{{!!showHide}}" mode="aspectFill" src="/static/captured/f8f361deca626f5c.png"></image>
     <z-paging bind:__l="__l" bind:hidedKeyboard="__e" bind:input="__e" bind:keyboardHeightChange="__e" bottomBgColor="{{resres>0?'#FFFFFF':'transparent'}}" class="data-v-7fc23477 vue-ref" data-event-opts="{{[ [ '^hidedKeyboard',[ ['hidedKeyboard'] ] ],[ '^keyboardHeightChange',[ ['keyboardHeightChange'] ] ],[ '^input',[ [ '__set_model',[ '','dataList','$event',[] ] ] ] ] ]}}" data-ref="paging" safeAreaInsetBottom="{{isIos}}" style="position:fixed;z-index:11;" toBottomLoadingMoreEnabled="{{true}}" useChatRecordMode="{{true}}" value="{{dataList}}" vueId="3a8df2d5-2" vueSlots="{{['default','top','bottom']}}">
         <view slot="top">
             <view bindtap="__e" class="data-v-7fc23477" data-event-opts="{{[ [ 'tap',[ [ 'showFun',['$event'] ] ] ] ]}}" style="height:300rpx;width:100%;" wx:if="{{!showHide}}"></view>
             <view class="content-box data-v-7fc23477" wx:if="{{showHide}}">
                 <view class="greet-box data-v-7fc23477">
-                    <image class="data-v-7fc23477" src="https://eshopfile.zhiyousx.com/176050088167418353.png"></image>
+                    <image class="data-v-7fc23477" src="/static/captured/7f4a92a1d6626c57.png"></image>
                     <text class="data-v-7fc23477">心有千惑，此有一应</text>
-                    <image class="data-v-7fc23477" src="https://eshopfile.zhiyousx.com/176050089724368608.png"></image>
+                    <image class="data-v-7fc23477" src="/static/captured/6643130c10dd5568.png"></image>
                 </view>
                 <view class="default-box data-v-7fc23477" style="{{'height:'+(smallScreen?'400rpx':'')+';'+'overflow:'+(smallScreen?'auto':'')+';'}}">
                     <view class="default-l data-v-7fc23477" style="{{'min-height:'+(smallScreen?'500rpx':'')+';'}}" wx:for="{{tripList}}" wx:for-index="__i0__" wx:for-item="m" wx:key="id">

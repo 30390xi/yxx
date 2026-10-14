@@ -31,7 +31,7 @@
                             <text class="singleLineText data-v-20020d03">{{selectedScenic.cityName+(selectedScenic.address?'/'+selectedScenic.address:'')}}</text>
                         </view>
                         <view class="flex col-center data-v-20020d03" wx:if="{{selectedScenic.distance>0}}">
-                            <image mode class="ad data-v-20020d03" src="https://eshopfile.zhiyousx.com/2024052411165183914.png"></image>
+                            <image mode class="ad data-v-20020d03" src="/static/captured/6a11b73b9fafa48d.png"></image>
                             <text class="data-v-20020d03">{{selectedScenic.distance+'km'}}</text>
                         </view>
                     </view>

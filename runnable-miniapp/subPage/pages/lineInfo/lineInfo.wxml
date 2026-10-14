@@ -14,7 +14,7 @@
     <view bindtap="__e" class="albumEnter allcenter data-v-5a494278"
       data-event-opts="{{[ [ 'tap',[ [ 'down',['$event'] ] ] ] ]}}" style="{{'height:'+paddingTop+'rpx'+';'}}"
       wx:if="{{!isPhotoAll}}">
-      <image class="data-v-5a494278" mode="aspectFill" src="https://eshopfile.zhiyousx.com/2025111017313127761.png"
+      <image class="data-v-5a494278" mode="aspectFill" src="/static/captured/77c7e9f273f8894b.png"
         wx:if="{{detailObj.video}}"></image>
     </view>
     <view class="line_bj data-v-5a494278"
@@ -171,12 +171,12 @@
                 <view bindtap="__e" class="line_view data-v-5a494278"
                   data-event-opts="{{[ [ 'tap',[ [ 'goTrip',['$0','$1'],[ [ ['detailObj.lineJourneyList','',index,'day'] ],[ ['detailObj.lineJourneyList','',index],['spotList','',num,'idy'] ] ] ] ] ] ]}}"
                   wx:if="{{time.$orig.journeyDestinationType==9&&time.$orig.idy}}">查看路线<image
-                    class="goView data-v-5a494278" src="https://eshopfile.zhiyousx.com/169267534972027149.png"></image>
+                    class="goView data-v-5a494278" src="/static/captured/33914fd15c8bbe7b.png"></image>
                 </view>
                 <view bindtap="__e" class="line_view line-guide data-v-5a494278"
                   data-event-opts="{{[ [ 'tap',[ [ 'toGuide',['$0'],[ [ ['detailObj.lineJourneyList','',index],['spotList','',num] ] ] ] ] ] ]}}"
                   wx:if="{{time.$orig.journeyDestinationType==8&&time.$orig.latitude&&time.$orig.longitude&&time.$orig.journeyDetailSubhead}}">
-                  去这里<image class="goView data-v-5a494278" src="https://eshopfile.zhiyousx.com/2026030310211590777.png">
+                  去这里<image class="goView data-v-5a494278" src="/static/captured/8f03bdc8fb7e7622.png">
                   </image>
                 </view>
                 <view class="spot_card data-v-5a494278"
@@ -247,7 +247,7 @@
                     data-event-opts="{{[ [ 'tap',[ [ 'pageTo',['/pages/ranking/ranking?id='+time.$orig.lineDestinationVO.destinationId] ] ] ] ]}}">
                     <view class="_p data-v-5a494278">{{time.$orig.rankingCopyWritering}}</view>
                     <label class="goView _span data-v-5a494278">
-                      <image class="data-v-5a494278" src="https://eshopfile.zhiyousx.com/169267534972027149.png">
+                      <image class="data-v-5a494278" src="/static/captured/33914fd15c8bbe7b.png">
                       </image>
                     </label>
                   </view>
@@ -260,7 +260,7 @@
                 <view class="spot_remark spot_tips data-v-5a494278"
                   wx:if="{{time.$orig.tips&&time.$orig.journeyDestinationType!==8}}">
                   <view class="tips data-v-5a494278">
-                    <image class="data-v-5a494278" src="https://eshopfile.zhiyousx.com/169266846673784501.png"></image>
+                    <image class="data-v-5a494278" src="/static/captured/37c36c3337d564c9.png"></image>
                   </view>
                   <text class="data-v-5a494278">{{time.$orig.tips}}</text>
                 </view>

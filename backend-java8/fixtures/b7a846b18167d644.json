@@ -1,0 +1,334 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064712552457",
+    "scenicName": "红碱淖景区 ",
+    "tag": "中国最大的沙漠淡水湖",
+    "level": 4,
+    "cityId": "1320664225474195458",
+    "cityName": "榆林",
+    "address": "神木市尔林兔镇贾家梁村",
+    "longitude": "109.9491190000",
+    "latitude": "39.0927510000",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 393,
+    "topColour": "#725B78",
+    "centralColour": "#4E3A54",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2-20201028160237.jpg"
+    ],
+    "introduction": "<p>红碱淖景区位于陕西省神木县境内，处于黄土高原与内蒙古高原过渡地带、毛乌素沙漠与鄂尔多斯盆地交汇处，海拔高度1100米，大陆性季风气候。湖面41.8平方公里，大致呈三角形状，沿岸有七条季节性河流注入，平均水深8.2米，最深水位12米。红碱淖是全国最大的沙漠淡水湖，具有独特的自然景观。1995年被陕西省人民政府评定为省级风景名胜区，现已被国家评为&ldquo;AAAA&rdquo;级景区，是陕西省十大自然风景名胜区和十大诚信单位，年接待游客25万人次。</p>",
+    "introductionText": "红碱淖景区位于陕西省神木县境内，处于黄土高原与内蒙古高原过渡地带、毛乌素沙漠与鄂尔多斯盆地交汇处，海拔高度1100米，大陆性季风气候。湖面41.8平方公里，大致呈三角形状，沿岸有七条季节性河流注入，平均水深8.2米，最深水位12米。红碱淖是全国最大的沙漠淡水湖，具有独特的自然景观。1995年被陕西省人民政府评定为省级风景名胜区，现已被国家评为“AAAA”级景区，是陕西省十大自然风景名胜区和十大诚信单位，年接待游客25万人次。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "19",
+        "name": "水上玩乐",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "21",
+        "name": "地标打卡",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "51",
+        "name": "拓展游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "05月01日-10月31日",
+        "openTimeContent": "06:30-20:30<br/>"
+      },
+      {
+        "openTimeTitle": "11月01日-次年04月30日",
+        "openTimeContent": "10:00-17:30"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "老人",
+        "limit": "年龄60周岁(含)以上凭老年证或身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米(不含)以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "军人",
+        "limit": "持军官证、消防员证、士兵证、学员证、武警警官证的现役军人(含军校学员)，持有离休退休军官证的军队离休退休干部和退休士官",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭残疾人证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "记者",
+        "limit": "凭记者证",
+        "discount": "免费"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "票价",
+        "additionalExplainContent": "30元/人"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": [
+      "http://www.hjnly.com/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "官方电话",
+        "telephone": "0912-8482009"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "陕西红碱淖风景区",
+        "wxSubscription": "gh_1c2387d667ef"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2082011419619024897",
+        "resourcesId": "1321362651706843138",
+        "title": "红碱淖风景区",
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082510182787502.mp4",
+        "coverImage": "https://eshopfile.zhiyousx.com/162985790284213095.jpg",
+        "videoId": null,
+        "resourcesType": 2,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-07-28 15:52:58",
+        "updateTime": "2026-07-28 15:52:58",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011419623219201",
+        "resourcesId": "1321362651706843138",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2-20201028160558.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-07-28 15:52:58",
+        "updateTime": "2026-07-28 15:52:58",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011419627413506",
+        "resourcesId": "1321362651706843138",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/1-20201028160525.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-07-28 15:52:58",
+        "updateTime": "2026-07-28 15:52:58",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011419627413507",
+        "resourcesId": "1321362651706843138",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/33-20201028160615.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-07-28 15:52:58",
+        "updateTime": "2026-07-28 15:52:58",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455743348567547905",
+      "rankingId": null,
+      "indexInRanking": 15,
+      "rankingName": " 榆林必逛景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

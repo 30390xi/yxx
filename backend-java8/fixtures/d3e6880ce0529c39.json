@@ -1,0 +1,26 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1443515504743464962",
+    "contentId": "1443515502939914241",
+    "rankingName": "陕西沉浸剧场人气榜",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://res.zhiyousx.com/ysx/pro/2021/09/30/163299581947236151.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": null,
+    "rankingInclude": "个沉浸剧场",
+    "rankingPersonalInfo": "我去过的沉浸剧场",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#621711",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": null,
+    "sumCount": "3",
+    "favoriteSum": null,
+    "personalInfoValue": null
+  },
+  "msg": "成功",
+  "success": true
+}

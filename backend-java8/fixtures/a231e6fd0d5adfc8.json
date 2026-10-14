@@ -1,0 +1,439 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941080",
+    "scenicName": "汉中市博物馆",
+    "tag": "登望江楼，欣赏摩崖石刻",
+    "level": -1,
+    "cityId": "1320664075750125570",
+    "cityName": "汉中",
+    "address": "汉中市汉台区汉台路东大街26号",
+    "longitude": "107.033527",
+    "latitude": "33.069475",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 133,
+    "topColour": "#6F7B7A",
+    "centralColour": "#525B5E",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021090111322696886.jpg"
+    ],
+    "introduction": "<p>　　古汉台位于汉中市中心，楚汉相争时期筑建，面积约8000平方米。由三级台地构成，台高7米。 刘邦驻汉中发迹而定鼎。故将国号定为汉。他驻过的高台就被后人尊称为古汉台。宋代的张少愚有&ldquo;留此一坯土，犹是汉家基&rdquo;的诗句，其中的&ldquo;一坯土&rdquo;，就是指残存的高台。清代的陈毓彩有诗云&ldquo;赤帝龙兴事已陈，层台巩固尚如新。当日宫廷湮没迹，此时郡国有仁人。&rdquo;&nbsp;</p>",
+    "introductionText": "　　古汉台位于汉中市中心，楚汉相争时期筑建，面积约8000平方米。由三级台地构成，台高7米。 刘邦驻汉中发迹而定鼎。故将国号定为汉。他驻过的高台就被后人尊称为古汉台。宋代的张少愚有“留此一坯土，犹是汉家基”的诗句，其中的“一坯土”，就是指残存的高台。清代的陈毓彩有诗云“赤帝龙兴事已陈，层台巩固尚如新。当日宫廷湮没迹，此时郡国有仁人。” ",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026327547906",
+        "contentId": "1418152026310770690",
+        "name": "国家一级博物馆",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "淡季（12月1日-2月28日）",
+        "openTimeContent": "9:00-17:00(16:30停止发票）"
+      },
+      {
+        "openTimeTitle": "旺季（3月1日-11月30日）",
+        "openTimeContent": "8:30-17:30(17:00停止发票）"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "全员",
+        "limit": "无",
+        "discount": "免费"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "56",
+        "name": "讲解器租赁",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016433125149.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "61",
+        "name": "讲解员",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016440410223.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "6",
+        "name": "免费wifi",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (11).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "景区讲解",
+        "additionalExplainContent": "讲解接待：每批次50元"
+      },
+      {
+        "additionalExplainTitle": "讲解器租赁",
+        "additionalExplainContent": "语音导览每次20元（如需接收器另加2元）"
+      },
+      {
+        "additionalExplainTitle": "卫生间",
+        "additionalExplainContent": "馆区建有三星级厕所，供游客免费使用"
+      },
+      {
+        "additionalExplainTitle": "本馆信息",
+        "additionalExplainContent": "在馆门口设有触摸屏，供游客查阅本馆信息"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>22路-古汉台站</p>\n<p>步行241米到达</p>\n<p>16路-汉台区政府站</p>\n<p>步行385米到达</p>\n<p>9路-古汉台站</p>\n<p>步行242米到达</p>\n<p>3路-祥瑞巷站</p>\n<p>步行942米到达</p>\n<p>13路-北街口站</p>\n<p>步行738米到达</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0916-8152188"
+      },
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0916-8152179"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "服务号",
+        "wxSubscriptionName": "汉中市博物馆",
+        "wxSubscription": "hzsbwgwx"
+      }
+    ],
+    "sinaWeiboVoList": [
+      {
+        "sinaWeibo": "中国汉中市博物馆",
+        "sinaWeiboUrl": "https://weibo.com/u/3092152217"
+      }
+    ],
+    "tiktokVoList": null,
+    "topBannerList": [
+      {
+        "id": "2056225815453564930",
+        "outId": "1320579064720941080",
+        "type": 1,
+        "advertName": "一秒穿越大汉 汉中市博物馆宝藏漫游教程",
+        "advertPic": "https://eshopfile.zhiyousx.com/2026051812095169765.png",
+        "jumpType": 1,
+        "jumpUrl": "https://mp.weixin.qq.com/s/2NcrKoaF2YJLxJes8l6Bew",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "",
+        "contentType": null,
+        "bannerPosition": 0
+      }
+    ],
+    "bannerList": [],
+    "contentModuleName": "馆藏珍品",
+    "contentResourcesDtoList": [
+      {
+        "id": "2056225815420010498",
+        "resourcesId": "1321378618642030593",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091310195853181.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-05-18 12:10:11",
+        "updateTime": "2026-05-18 12:10:11",
+        "createBy": "2047232991458557954",
+        "updateBy": "2047232991458557954",
+        "isDeleted": 0
+      },
+      {
+        "id": "2056225815424204802",
+        "resourcesId": "1321378618642030593",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091310292002774.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-05-18 12:10:11",
+        "updateTime": "2026-05-18 12:10:11",
+        "createBy": "2047232991458557954",
+        "updateBy": "2047232991458557954",
+        "isDeleted": 0
+      },
+      {
+        "id": "2056225815424204803",
+        "resourcesId": "1321378618642030593",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091310201653232.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-05-18 12:10:11",
+        "updateTime": "2026-05-18 12:10:11",
+        "createBy": "2047232991458557954",
+        "updateBy": "2047232991458557954",
+        "isDeleted": 0
+      },
+      {
+        "id": "2056225815428399106",
+        "resourcesId": "1321378618642030593",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091310274101708.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-05-18 12:10:11",
+        "updateTime": "2026-05-18 12:10:11",
+        "createBy": "2047232991458557954",
+        "updateBy": "2047232991458557954",
+        "isDeleted": 0
+      },
+      {
+        "id": "2056225815428399107",
+        "resourcesId": "1321378618642030593",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091310200751083.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2026-05-18 12:10:11",
+        "updateTime": "2026-05-18 12:10:11",
+        "createBy": "2047232991458557954",
+        "updateBy": "2047232991458557954",
+        "isDeleted": 0
+      },
+      {
+        "id": "2056225815432593409",
+        "resourcesId": "1321378618642030593",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091310275061612.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2026-05-18 12:10:11",
+        "updateTime": "2026-05-18 12:10:11",
+        "createBy": "2047232991458557954",
+        "updateBy": "2047232991458557954",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1439119981701840898",
+      "rankingId": null,
+      "indexInRanking": 35,
+      "rankingName": "陕西人气博物馆排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1680835374538088449",
+        "rankingId": "1680835375632801794",
+        "indexInRanking": null,
+        "rankingName": "陕西省热搜50强博物馆排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1455795982670340097",
+        "rankingId": "1455795983626641410",
+        "indexInRanking": null,
+        "rankingName": "汉中必玩景点人气排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "2056225815445176322",
+        "scenicSpotId": "1320579064720941080",
+        "contentModuleName": "馆藏珍品",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1435084218995683329",
+            "type": 5,
+            "title": "云栈图卷",
+            "subtitle": "汉中城府之间的道路画卷",
+            "coverImage": "https://eshopfile.zhiyousx.com/163098535583456984.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

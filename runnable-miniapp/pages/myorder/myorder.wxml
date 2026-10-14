@@ -16,7 +16,7 @@
                     <text class="data-v-6a4384f0" wx:else>门票</text>
                 </view>
                 <view class="mcName data-v-6a4384f0" wx:else>
-                    <image class="data-v-6a4384f0" src="https://eshopfile.zhiyousx.com/169899172198688653.png"></image>
+                    <image class="data-v-6a4384f0" src="/static/captured/6fd89254c599edeb.png"></image>
                     <text class="data-v-6a4384f0">线路</text>
                 </view>
                 <block wx:if="{{item.$orig.itemType==0}}">
@@ -92,7 +92,7 @@
         </view>
     </view>
     <view class="empty data-v-6a4384f0" wx:if="{{$root.g0}}">
-        <empty-state bind:__l="__l" class="data-v-6a4384f0" imgUrl="https://eshopfile.zhiyousx.com/noOrder@2x.png" text="暂无订单" vueId="0a95c18c-4"></empty-state>
+        <empty-state bind:__l="__l" class="data-v-6a4384f0" imgUrl="/static/captured/8967f3ec41c22eab.png" text="暂无订单" vueId="0a95c18c-4"></empty-state>
     </view>
     <view class="loadMore data-v-6a4384f0">
         <u-loadmore bgColor="#f7f7f7" bind:__l="__l" class="data-v-6a4384f0" color="#ccc" data-custom-hidden="{{!$root.g1}}" iconColor="#ccc" status="{{loadMore}}" vueId="0a95c18c-5"></u-loadmore>

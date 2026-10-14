@@ -16,10 +16,10 @@
                                 </view>
                             </view>
                             <view bindtap="__e" class="travelBtn" data-event-opts="{{[ [ 'tap',[ [ 'resetTravel',['$event'] ] ] ] ]}}" wx:if="{{item.redirectContent}}">
-                                <image class="ai" src="https://eshopfile.zhiyousx.com/175153136103574217.png"></image>旅行搭子<image class="icon" src="https://eshopfile.zhiyousx.com/175153148262435174.png"></image>
+                                <image class="ai" src="/static/captured/3634eece59ace1cf.png"></image>旅行搭子<image class="icon" src="/static/captured/f513113c34db57d3.png"></image>
                             </view>
                             <view bindtap="__e" class="travelBtn" data-event-opts="{{[ [ 'tap',[ [ 'changePlan',['$event'] ] ] ] ]}}" wx:if="{{item.changeAnswer}}">
-                                <image class="ai" src="https://eshopfile.zhiyousx.com/175153136103574217.png"></image>重新规划<image class="icon" src="https://eshopfile.zhiyousx.com/175153148262435174.png"></image>
+                                <image class="ai" src="/static/captured/3634eece59ace1cf.png"></image>重新规划<image class="icon" src="/static/captured/f513113c34db57d3.png"></image>
                             </view>
                             <view class="strategy-title" wx:if="{{item.strategy}}">快来查看详细攻略吧</view>
                             <view style="width:100%;margin-top:30rpx;" wx:if="{{$root.g0}}">
@@ -58,7 +58,7 @@
                                         <text class="item" wx:for="{{item.strategyContent.data}}" wx:for-item="it" wx:key="index">{{it+' '}}</text>
                                     </view>
                                 </scroll-view>
-                                <view catchtap="__e" class="foldBtn" data-event-opts="{{[ [ 'tap',[ [ 'foldTags',['$event'] ] ] ] ]}}" wx:if="{{showExpandBtn}}">{{(tagsExpanded?'收起':'展开更多')+''}}<image class="{{[tagsExpanded?'reverse':'']}}" src="https://eshopfile.zhiyousx.com/175198118438032080.png"></image>
+                                <view catchtap="__e" class="foldBtn" data-event-opts="{{[ [ 'tap',[ [ 'foldTags',['$event'] ] ] ] ]}}" wx:if="{{showExpandBtn}}">{{(tagsExpanded?'收起':'展开更多')+''}}<image class="{{[tagsExpanded?'reverse':'']}}" src="/static/captured/4fd6a02fc6091dc5.png"></image>
                                 </view>
                             </view>
                             <view class="strategy-content-skeleton" wx:if="{{item.cardLoading}}">

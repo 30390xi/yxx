@@ -1,0 +1,157 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1455805091226427394",
+    "contentId": "1455805090781831169",
+    "rankingName": "商洛美食人气排行榜",
+    "rankingClass": "2",
+    "rankingType": "2",
+    "rankingMainPictureUrl": "https://res.zhiyousx.com/ysx/pro/2021/11/03/163592594897414386.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": null,
+    "rankingInclude": "个美食",
+    "rankingPersonalInfo": "我吃过的美食",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#D98D39",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1452467378414690306",
+        "originType": "2",
+        "originName": "柞水洋芋糍粑",
+        "originSubtitleName": "舒气和胃，百吃不腻",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/25/163512969232301612.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/25/163513012831028534.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/25/163513013353521435.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/25/163513017832132940.jpg"
+        ],
+        "sort": "0",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "3",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1452462470378561537",
+        "originType": "2",
+        "originName": "商芝肉",
+        "originSubtitleName": "\"中国菜\"之陕西十大经典名菜",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/25/163512853230431631.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/25/163512899644150496.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/25/163512900133509566.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/25/163512900686900797.jpg"
+        ],
+        "sort": "1",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1452476862176436226",
+        "originType": "2",
+        "originName": "北瓜揽饭",
+        "originSubtitleName": "香甜糯柔",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/25/163513222666869393.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/25/163513243215071235.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/25/163513243691836953.jpg"
+        ],
+        "sort": "2",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "1",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1452470874434183170",
+        "originType": "2",
+        "originName": "封猪头",
+        "originSubtitleName": "团圆席上的\"头菜",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/25/163513047695334679.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/25/163513069506419766.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/25/163513070050838254.jpg"
+        ],
+        "sort": "3",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1452456563930308609",
+        "originType": "2",
+        "originName": "糊汤面",
+        "originSubtitleName": "冬天最好的陪伴",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/25/163512755322030108.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/25/163512758769773674.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/25/163512759412197081.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/25/163512760023739563.jpg"
+        ],
+        "sort": "4",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1452483380191961089",
+        "originType": "2",
+        "originName": "商州柿饸炒面",
+        "originSubtitleName": "香甜美味，吃法简便",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/25/163513276836709884.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/25/163513353573540093.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/25/163513354444396725.jpg"
+        ],
+        "sort": "5",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1452449257867976705",
+        "originType": "2",
+        "originName": "橡子凉粉",
+        "originSubtitleName": "嚼劲十足的健康美食",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/25/163512578444534768.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/25/163512582341458679.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/25/163512583704046002.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/25/163512584394499463.jpg"
+        ],
+        "sort": "6",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "1",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "7",
+    "favoriteSum": "5",
+    "personalInfoValue": "0/7"
+  },
+  "msg": "成功",
+  "success": true
+}

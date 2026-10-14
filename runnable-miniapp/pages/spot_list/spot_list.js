@@ -26,13 +26,15 @@
                 arrSpot: [],
                 current: 0,
                 pageNum: 1,
-                loading: !1
+                loading: !1,
+                hasMore: !0
               }
             },
             onLoad: function() {
               this._cityId = "", this.getClassify()
             },
             onShow: function() {
+              setTimeout(function() { var pages = getCurrentPages(), page = pages[pages.length - 1], bar = page && page.getTabBar && page.getTabBar(); if (page && page.route === "pages/spot_list/spot_list" && bar) bar.setData({ selected: 1 }); }, 100);
               this.$bus.$emit("tabPlay", 1)
             },
             methods: {
@@ -56,7 +58,7 @@
                         }
                         return a.abrupt("return");
                       case 2:
-                        n.current = t, n._cityId = n.tabbar[n.current].id, n.arrSpot = [], n.pageNum = 1, n.getSpotList();
+                        n.current = t, n._cityId = n.tabbar[n.current].id, n.arrSpot = [], n.pageNum = 1, n.hasMore = !0, n.loading = !1, n.getSpotList();
                       case 7:
                       case "end":
                         return a.stop()
@@ -65,18 +67,20 @@
                 })))()
               },
               getSpotList: function() {
-                var n = this;
-                t.showLoading(), this.$uniApi.dataRequestNoLoading("GET", "base/app/v1/scenicSpot", {
-                  cityId: this._cityId,
-                  current: this.pageNum,
+                var n = this, cityId = this._cityId, page = this.pageNum;
+                this.loading = !0, t.showLoading(), this.$uniApi.dataRequestNoLoading("GET", "base/app/v1/scenicSpot", {
+                  cityId: cityId,
+                  current: page,
                   size: 10
                 }).then((function(a) {
-                  t.hideLoading(), a.data.scenicSpotVoList && a.data.scenicSpotVoList[0] ? n.arrSpot = n.arrSpot.concat(a.data.scenicSpotVoList) : t.showToast({
-                    title: "没有更多咯~",
-                    icon: "none"
-                  }), n.loading = !1
+                  if (cityId !== n._cityId || page !== n.pageNum) return;
+                  var data = a && a.data || {}, list = data.scenicSpotVoList || [];
+                  t.hideLoading();
+                  if (Array.isArray(list) && list.length) n.arrSpot = n.arrSpot.concat(list);
+                  n.hasMore = n.arrSpot.length < Number(data.total || 0) && list.length > 0;
+                  n.loading = !1
                 })).catch((function(a) {
-                  n.loading = !1, t.hideLoading()
+                  if (cityId === n._cityId && page === n.pageNum) n.pageNum = Math.max(1, page - 1), n.loading = !1, t.hideLoading()
                 }))
               },
               jumpSpotDetail: function(t) {
@@ -85,7 +89,7 @@
                 })
               },
               scrollToBottom: function() {
-                this.loading || (this.loading = !0, this.pageNum++, this.getSpotList())
+                this.loading || !this.hasMore || (this.pageNum++, this.getSpotList())
               },
               jumpCity: function(t) {
                 this.$navigateTo({

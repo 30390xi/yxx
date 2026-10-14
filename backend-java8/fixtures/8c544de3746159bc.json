@@ -1,0 +1,202 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1534113331093577729",
+    "contentId": "1534113330305048577",
+    "rankingName": "长安十二时辰美食排行榜",
+    "rankingClass": "2",
+    "rankingType": "2",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/165459570583511682.jpg",
+    "rankingDescribe": "　　长安十二时辰主题街区将唐代风味、关中非遗美食与胡风美食相结合，精选出100余种特色佳味，成为唐朝美食集萃地。来长安十二时辰，带你体验舌尖上的唐朝，品尝到超原真、超齐全的唐风美食。",
+    "rankingTotalUserData": "人品尝",
+    "rankingInclude": "种美食",
+    "rankingPersonalInfo": "我品尝过的美食",
+    "rankingSharePictureUrl": "https://eshopfile.zhiyousx.com/165459608412283412.jpg",
+    "bottomColour": "#CB9F9F",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1533721537780113410",
+        "originType": "2",
+        "originName": "黄金鸡",
+        "originSubtitleName": "外皮金黄、肉质鲜嫩，号称“长安第一味”",
+        "originUrl": "https://eshopfile.zhiyousx.com/165450266418574467.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/165450252405374652.jpg",
+          "https://eshopfile.zhiyousx.com/165450252291087001.jpg",
+          "https://eshopfile.zhiyousx.com/165450251994178773.jpg",
+          "https://eshopfile.zhiyousx.com/165450414556456149.jpg",
+          "https://eshopfile.zhiyousx.com/165450252224645457.jpg",
+          "https://eshopfile.zhiyousx.com/165450252172598674.jpg",
+          "https://eshopfile.zhiyousx.com/165450252099337004.jpg",
+          "https://eshopfile.zhiyousx.com/165450252051054315.jpg",
+          "https://eshopfile.zhiyousx.com/165450261889504350.jpg"
+        ],
+        "sort": "13",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "4",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1533980053236703234",
+        "originType": "2",
+        "originName": "酥肉铺",
+        "originSubtitleName": "始于殷商 盛于大唐",
+        "originUrl": "https://eshopfile.zhiyousx.com/165456434940441026.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/169171795091044202.jpg",
+          "https://eshopfile.zhiyousx.com/165456423507066174.jpg",
+          "https://eshopfile.zhiyousx.com/165456423247488314.jpg",
+          "https://eshopfile.zhiyousx.com/165456423341597946.jpg",
+          "https://eshopfile.zhiyousx.com/165456423200558074.jpg",
+          "https://eshopfile.zhiyousx.com/165456423393777761.jpg",
+          "https://eshopfile.zhiyousx.com/165456423445506967.jpg"
+        ],
+        "sort": "14",
+        "favoriteValue": "81.8",
+        "isBookable": null,
+        "favoriteSum": "9",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1537652159010852866",
+        "originType": "2",
+        "originName": "粉汤记",
+        "originSubtitleName": "鲜嫩光滑入口香",
+        "originUrl": "https://eshopfile.zhiyousx.com/165543996301638511.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/165543978409081432.jpg",
+          "https://eshopfile.zhiyousx.com/165543978446710943.jpg",
+          "https://eshopfile.zhiyousx.com/165543978485456437.jpg",
+          "https://eshopfile.zhiyousx.com/165543978522867911.jpg",
+          "https://eshopfile.zhiyousx.com/165543978564840627.jpg"
+        ],
+        "sort": "15",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "6",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1538707231576707073",
+        "originType": "2",
+        "originName": "茱萸饼肆",
+        "originSubtitleName": "名为饼，实为大唐“裤带面”",
+        "originUrl": "https://eshopfile.zhiyousx.com/165569157471194210.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/165569135904184225.jpg",
+          "https://eshopfile.zhiyousx.com/165569135999583089.jpg",
+          "https://eshopfile.zhiyousx.com/165569214270321666.jpg",
+          "https://eshopfile.zhiyousx.com/165569214331102854.jpg",
+          "https://eshopfile.zhiyousx.com/165569135860170389.jpg",
+          "https://eshopfile.zhiyousx.com/165569135952679044.jpg",
+          "https://eshopfile.zhiyousx.com/165569136040742073.jpg",
+          "https://eshopfile.zhiyousx.com/165569136096988575.jpg"
+        ],
+        "sort": "16",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "3",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1537718324773789697",
+        "originType": "2",
+        "originName": "醪糟铺",
+        "originSubtitleName": "气味醇香、甘甜质绵，唐人又一消暑饮品",
+        "originUrl": "https://eshopfile.zhiyousx.com/165545543767827544.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/165545557668525526.jpg",
+          "https://eshopfile.zhiyousx.com/165545557747988863.jpg",
+          "https://eshopfile.zhiyousx.com/165545557809215244.jpg",
+          "https://eshopfile.zhiyousx.com/165545557868561377.jpg",
+          "https://eshopfile.zhiyousx.com/165545557975635421.jpg"
+        ],
+        "sort": "20",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "7",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1533725463573569538",
+        "originType": "2",
+        "originName": "糕肆",
+        "originSubtitleName": "唐人舌尖上的消暑糕饼",
+        "originUrl": "https://eshopfile.zhiyousx.com/165450351368788584.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/165456320426335634.jpg",
+          "https://eshopfile.zhiyousx.com/165456320469882289.jpg",
+          "https://eshopfile.zhiyousx.com/165456320519229555.jpg",
+          "https://eshopfile.zhiyousx.com/165456320559495517.jpg",
+          "https://eshopfile.zhiyousx.com/165450360153896767.jpg",
+          "https://eshopfile.zhiyousx.com/165450359987049883.jpg"
+        ],
+        "sort": "21",
+        "favoriteValue": "92.9",
+        "isBookable": null,
+        "favoriteSum": "26",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1534025022555119618",
+        "originType": "2",
+        "originName": "梨水铺",
+        "originSubtitleName": "一饮千年 赏大唐之繁华",
+        "originUrl": "https://eshopfile.zhiyousx.com/165457472775861090.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/169171850354323886.jpg",
+          "https://eshopfile.zhiyousx.com/165457498939762237.jpg",
+          "https://eshopfile.zhiyousx.com/165457498988858091.jpg",
+          "https://eshopfile.zhiyousx.com/165457499031606568.jpg"
+        ],
+        "sort": "22",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "4",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1537687441420603393",
+        "originType": "2",
+        "originName": "鲜果蓏",
+        "originSubtitleName": "芳香四溢氤氲飘洒的大唐果宴",
+        "originUrl": "https://eshopfile.zhiyousx.com/175548806554413152.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/175548805139376384.jpg",
+          "https://eshopfile.zhiyousx.com/175548849624393231.jpg",
+          "https://eshopfile.zhiyousx.com/175548849806567153.jpg"
+        ],
+        "sort": "23",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "5",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "18",
+    "favoriteSum": "235",
+    "personalInfoValue": "0/18"
+  },
+  "msg": "成功",
+  "success": true
+}

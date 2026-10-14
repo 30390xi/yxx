@@ -13,10 +13,10 @@
                 <view bindtap="__e" class="btnBox data-v-6defd9f1" data-event-opts="{{[ [ 'tap',[ ['goAiTravel'] ] ] ]}}">
                     <view class="welcome data-v-6defd9f1">欢迎来到陕西</view>
                     <view class="welcomeText data-v-6defd9f1">hello，我是小七，您的专属AI旅行助手~</view>
-                    <view class="btn data-v-6defd9f1">AI定制攻略<image class="data-v-6defd9f1" src="https://eshopfile.zhiyousx.com/175496335940198661.png"></image>
+                    <view class="btn data-v-6defd9f1">AI定制攻略<image class="data-v-6defd9f1" src="/static/captured/39d941adcb5feb40.png"></image>
                     </view>
                 </view>
-                <image class="data-v-6defd9f1" src="https://eshopfile.zhiyousx.com/175496153844154546.png" wx:if="{{showImage}}"></image>
+                <image class="data-v-6defd9f1" src="/static/captured/a58b0f1afa0ee305.png" wx:if="{{showImage}}"></image>
                 <video bindended="__e" bindloadedmetadata="__e" bindpause="__e" class="video_box data-v-6defd9f1" controls="{{false}}" data-event-opts="{{[ [ 'ended',[ [ 'ended',['$event'] ] ] ],[ 'pause',[ [ 'pauseFun',['$event'] ] ] ],[ 'loadedmetadata',[ [ 'loadedmetadata',['$event'] ] ] ] ]}}" enableProgressGesture="{{false}}" id="myVideo1" initialTime="{{0}}" muted="{{true}}" objectFit="cover" src="https://eshopfile.zhiyousx.com/2025081209100788639.mp4" style="{{'opacity:'+opacity+';'+'z-index:'+10+';'+'background-color:'+'transparent'+';'+'transform:'+'translate3d(0,0,0)'+';'}}"></video>
                 <view class="bottomMask data-v-6defd9f1"></view>
             </view>
@@ -33,11 +33,11 @@
                             </view>
                         </view>
                         <view class="clock data-v-6defd9f1">
-                            <image class="data-v-6defd9f1" src="https://eshopfile.zhiyousx.com/175672522805774296.png"></image>
+                            <image class="data-v-6defd9f1" src="/static/captured/b71bfe5e360b2dbd.png"></image>
                             <text class="data-v-6defd9f1">{{topData.message}}</text>
                         </view>
                         <view class="goBtn data-v-6defd9f1">
-                            <image class="data-v-6defd9f1" src="https://eshopfile.zhiyousx.com/175672557849516358.png"></image>
+                            <image class="data-v-6defd9f1" src="/static/captured/7cf9a716689bf526.png"></image>
                         </view>
                     </view>
                     <image class="content-right data-v-6defd9f1" src="{{topData.homeImage}}"></image>
@@ -61,19 +61,19 @@
                 <view class="title data-v-6defd9f1">配套服务</view>
                 <view class="tag-scroll data-v-6defd9f1">
                     <view bindtap="__e" class="tag-item data-v-6defd9f1" data-event-opts="{{[ [ 'tap',[ ['getToilet'] ] ] ]}}">
-                        <image class="tag-item-icon data-v-6defd9f1" src="https://eshopfile.zhiyousx.com/176950768079780499.png"></image>
+                        <image class="tag-item-icon data-v-6defd9f1" src="/static/captured/a70304adb3b12a29.png"></image>
                         <view class="tag-item-text data-v-6defd9f1">卫生间</view>
                     </view>
                     <view bindtap="__e" class="tag-item data-v-6defd9f1" data-event-opts="{{[ [ 'tap',[ ['getTest'] ] ] ]}}">
-                        <image class="tag-item-icon data-v-6defd9f1" src="https://eshopfile.zhiyousx.com/176950768764287525.png"></image>
+                        <image class="tag-item-icon data-v-6defd9f1" src="/static/captured/21765d2cb84c9219.png"></image>
                         <view class="tag-item-text data-v-6defd9f1">景区测评</view>
                     </view>
                     <view bindtap="__e" class="tag-item data-v-6defd9f1" data-event-opts="{{[ [ 'tap',[ ['getWeather'] ] ] ]}}">
-                        <image class="tag-item-icon data-v-6defd9f1" src="https://eshopfile.zhiyousx.com/176950769515398390.png"></image>
+                        <image class="tag-item-icon data-v-6defd9f1" src="/static/captured/8c7d345426005c87.png"></image>
                         <view class="tag-item-text data-v-6defd9f1">入境游</view>
                     </view>
                     <view bindtap="__e" class="tag-item data-v-6defd9f1" data-event-opts="{{[ [ 'tap',[ ['getPhone'] ] ] ]}}">
-                        <image class="tag-item-icon data-v-6defd9f1" src="https://eshopfile.zhiyousx.com/176950770291859068.png"></image>
+                        <image class="tag-item-icon data-v-6defd9f1" src="/static/captured/2705d47e6e99c938.png"></image>
                         <view class="tag-item-text data-v-6defd9f1">附近景点</view>
                     </view>
                 </view>
@@ -83,7 +83,7 @@
                     <view class="title data-v-6defd9f1">小七送十一福利啦！</view>
                     <view class="content data-v-6defd9f1">百元优惠券等你来</view>
                 </view>
-                <image class="l-right data-v-6defd9f1" src="https://eshopfile.zhiyousx.com/175550099700853223.png"></image>
+                <image class="l-right data-v-6defd9f1" src="/static/captured/fe6d3cf38eeaea2b.png"></image>
             </view>
         </view>
         <view class="history-box data-v-6defd9f1" style="{{'transform:'+'scaleY(-1)'+';'}}" wx:if="{{hasHistory}}">

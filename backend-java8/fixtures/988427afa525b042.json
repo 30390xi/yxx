@@ -1,0 +1,143 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1455089868953722881",
+    "contentId": "1455089868366520321",
+    "rankingName": "铜川美食人气排行榜",
+    "rankingClass": "2",
+    "rankingType": "2",
+    "rankingMainPictureUrl": "https://res.zhiyousx.com/ysx/pro/2021/11/01/163575542659543848.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": "11",
+    "rankingInclude": "个美食",
+    "rankingPersonalInfo": "我吃过的美食",
+    "rankingSharePictureUrl": "https://eshopfile.zhiyousx.com/165908494331226838.jpg",
+    "bottomColour": "#D98D39",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1552866389483204609",
+        "originType": "2",
+        "originName": "耀州蒸碗",
+        "originSubtitleName": "油而不腻 齿留余香",
+        "originUrl": "https://eshopfile.zhiyousx.com/165906677239534610.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/165906689275777987.jpg",
+          "https://eshopfile.zhiyousx.com/165906689338009946.jpg",
+          "https://eshopfile.zhiyousx.com/165906689388923996.jpg",
+          "https://eshopfile.zhiyousx.com/165906689451165475.jpg",
+          "https://eshopfile.zhiyousx.com/165906689494370675.jpg",
+          "https://eshopfile.zhiyousx.com/165906689547699704.jpg",
+          "https://eshopfile.zhiyousx.com/165906689593674894.jpg",
+          "https://eshopfile.zhiyousx.com/165906689644688048.jpg",
+          "https://eshopfile.zhiyousx.com/165906689692034864.jpg",
+          "https://eshopfile.zhiyousx.com/165906689745869779.jpg"
+        ],
+        "sort": "10",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1552913996070924290",
+        "originType": "2",
+        "originName": "洋芋溜溜",
+        "originSubtitleName": "滑而不腻 嚼劲十足",
+        "originUrl": "https://eshopfile.zhiyousx.com/165907823300078232.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/165907847256470335.jpg",
+          "https://eshopfile.zhiyousx.com/165907847354148629.jpg",
+          "https://eshopfile.zhiyousx.com/165907847407139011.jpg",
+          "https://eshopfile.zhiyousx.com/165907847449559896.jpg"
+        ],
+        "sort": "11",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1552846370330308610",
+        "originType": "2",
+        "originName": "宜君老豆腐",
+        "originSubtitleName": "古法工艺 鲜嫩可口",
+        "originUrl": "https://eshopfile.zhiyousx.com/165906192789069000.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/165906238211738071.jpg",
+          "https://eshopfile.zhiyousx.com/165906238260402257.jpg",
+          "https://eshopfile.zhiyousx.com/165906238310028239.jpg",
+          "https://eshopfile.zhiyousx.com/165906238358003003.jpg",
+          "https://eshopfile.zhiyousx.com/165906238410452325.jpg",
+          "https://eshopfile.zhiyousx.com/165906238459699241.jpg",
+          "https://eshopfile.zhiyousx.com/165906238508009107.jpg"
+        ],
+        "sort": "12",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451124341986041858",
+        "originType": "2",
+        "originName": "耀州雪花糖",
+        "originSubtitleName": "甜食中的活化石",
+        "originUrl": "https://eshopfile.zhiyousx.com/165899812181822496.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480988797109386.jpg",
+          "https://eshopfile.zhiyousx.com/165899836107009424.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480987528029539.jpg",
+          "https://eshopfile.zhiyousx.com/165899836026560282.jpg",
+          "https://eshopfile.zhiyousx.com/165899836067788028.jpg",
+          "https://eshopfile.zhiyousx.com/165899836147193819.jpg",
+          "https://eshopfile.zhiyousx.com/165899836193940753.jpg",
+          "https://eshopfile.zhiyousx.com/165899836235332559.jpg",
+          "https://eshopfile.zhiyousx.com/165899836280212783.jpg",
+          "https://eshopfile.zhiyousx.com/165899836324864777.jpg"
+        ],
+        "sort": "13",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "1",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1552932936763453441",
+        "originType": "2",
+        "originName": "乒乓干馍",
+        "originSubtitleName": "干酥荃香 耐嚼味长",
+        "originUrl": "https://eshopfile.zhiyousx.com/165908291403349682.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/165908302171189640.jpg",
+          "https://eshopfile.zhiyousx.com/165908302229208024.jpg",
+          "https://eshopfile.zhiyousx.com/165908302275523925.jpg",
+          "https://eshopfile.zhiyousx.com/165908302322899492.jpg",
+          "https://eshopfile.zhiyousx.com/165908302366566145.jpg"
+        ],
+        "sort": "14",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "15",
+    "favoriteSum": "19",
+    "personalInfoValue": "0/15"
+  },
+  "msg": "成功",
+  "success": true
+}

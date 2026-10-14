@@ -12,7 +12,7 @@
             <view class="today data-v-5803b873" wx:if="{{todayDate.aiPlanCardLink.city&&todayDate.aiPlanCardLink.day}}">
                 <view class="today-title data-v-5803b873">
                     <text class="data-v-5803b873">{{todayDate.aiPlanCardLink.city+todayDate.days+'日游'}}</text>
-                    <image class="data-v-5803b873" src="https://eshopfile.zhiyousx.com/175150610606931857.png"></image>
+                    <image class="data-v-5803b873" src="/static/captured/8879db236a73687c.png"></image>
                 </view>
             </view>
             <view class="days data-v-5803b873" wx:if="{{todayDate.days>1}}">
@@ -21,7 +21,7 @@
                     <text class="line2 data-v-5803b873">{{i+1}}</text>
                 </view>
             </view>
-            <image class="boundary data-v-5803b873" src="https://eshopfile.zhiyousx.com/175150963348819019.png"></image>
+            <image class="boundary data-v-5803b873" src="/static/captured/b2b47a2c808ef101.png"></image>
         </view>
         <scroll-view bindscroll="__e" bindscrolltolower="__e" bindtouchend="__e" bindtouchstart="__e" class="scroll-content data-v-5803b873" data-event-opts="{{[ [ 'touchstart',[ [ 'touchStart',['$event'] ] ] ],[ 'touchend',[ [ 'touchEnd',['$event'] ] ] ],[ 'scroll',[ [ 'handleScroll',['$event'] ] ] ],[ 'scrolltolower',[ [ 'scrolltolower',['$event'] ] ] ] ]}}" scrollTop="{{insideScrollTop}}" scrollY="{{true}}" style="{{'height:'+'calc('+'80vh - '+headerHeight+'px)'+';'}}">
             <view class="data-v-5803b873" id="contentBox">
@@ -51,7 +51,7 @@
                                     <view class="card-box data-v-5803b873">
                                         <view class="line-2 data-v-5803b873">
                                             <view bindtap="__e" class="spotName data-v-5803b873" data-event-opts="{{[ [ 'tap',[ [ 'focusOnSpot',['$0'],[ [ ['todayDate.aiPlanCards','',index] ] ] ] ] ] ]}}">
-                                                <image class="data-v-5803b873" src="https://eshopfile.zhiyousx.com/175014114971066274.png"></image>
+                                                <image class="data-v-5803b873" src="/static/captured/e7c9afe465d5bc3c.png"></image>
                                                 <text class="data-v-5803b873">{{it.$orig.name}}</text>
                                             </view>
                                             <view class="price data-v-5803b873">{{''+(it.$orig.price==0?'免费':'人均￥'+it.$orig.price)+''}}</view>
@@ -79,7 +79,7 @@
                 <view class="localtionSay data-v-5803b873" wx:if="{{localContent}}">
                     <view class="title data-v-5803b873">
                         <text class="data-v-5803b873">本地人说</text>
-                        <image class="data-v-5803b873" src="https://eshopfile.zhiyousx.com/175150610606931857.png"></image>
+                        <image class="data-v-5803b873" src="/static/captured/8879db236a73687c.png"></image>
                     </view>
                     <view class="content data-v-5803b873">
                         <view class="data-v-5803b873" space="nbsp" userSelect="true">
@@ -94,7 +94,7 @@
     <uni-popup bind:__l="__l" bind:change="__e" class="data-v-5803b873 vue-ref" data-event-opts="{{[ [ '^change',[ ['handleChange'] ] ] ]}}" data-ref="feedbackDrawer" type="bottom" vueId="3c22b89d-3" vueSlots="{{['default']}}">
         <view class="drawer-content data-v-5803b873" style="{{'padding-bottom:'+(keyboardHeight?keyboardHeight+'px':'')+';'}}">
             <view class="data-v-5803b873">
-                <view class="drawer-title data-v-5803b873">本次攻略推荐的内容对您有帮助吗?<image bindtap="__e" class="btn data-v-5803b873" data-event-opts="{{[ [ 'tap',[ [ 'submitComment',['$event'] ] ] ] ]}}" src="{{star>0?'https://eshopfile.zhiyousx.com/175249491203594900.png':'https://eshopfile.zhiyousx.com/175254389842185569.png'}}"></image>
+                <view class="drawer-title data-v-5803b873">本次攻略推荐的内容对您有帮助吗?<image bindtap="__e" class="btn data-v-5803b873" data-event-opts="{{[ [ 'tap',[ [ 'submitComment',['$event'] ] ] ] ]}}" src="{{star>0?'/static/captured/5f2cb91594684e9b.png':'/static/captured/f4bc21a3e34c6b2b.png'}}"></image>
                 </view>
                 <view class="star-row data-v-5803b873">
                     <u-rate activeColor="#F7AE02" allowHalf="false" bind:__l="__l" bind:change="__e" class="data-v-5803b873 vue-ref" count="{{5}}" data-event-opts="{{[ [ '^change',[ ['changeStar'] ] ] ]}}" data-ref="rate" gutter="40" inactiveColor="#D9D9D9" size="60" vueId="{{'3c22b89d-4'+','+'3c22b89d-3'}}" wx:if="{{showRate}}"></u-rate>

@@ -12,7 +12,7 @@
                                     <view class="pot"></view>
                                 </view>
                             </view>
-                            <view bindtap="__e" class="travelBtn" data-event-opts="{{[ [ 'tap',[ [ 'gotoPage',['$0'],['item.btnUrl'] ] ] ] ]}}" wx:if="{{item.showBtn}}">立即前往<image class="icon" src="https://eshopfile.zhiyousx.com/175153148262435174.png"></image>
+                            <view bindtap="__e" class="travelBtn" data-event-opts="{{[ [ 'tap',[ [ 'gotoPage',['$0'],['item.btnUrl'] ] ] ] ]}}" wx:if="{{item.showBtn}}">立即前往<image class="icon" src="/static/captured/f513113c34db57d3.png"></image>
                             </view>
                             <view style="width:100%;margin-top:30rpx;" wx:if="{{$root.g0}}">
                                 <view class="spot_card" style="background:rgba(255,255,255,.6);" wx:for="{{$root.l1}}" wx:for-item="el" wx:key="index">

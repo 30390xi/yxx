@@ -2,15 +2,15 @@
     <uni-navbar bind:__l="__l" class="data-v-d80ab7cc" homePath="{{$root.m0}}" title="{{$root.f0}}" type="fixed" vueId="a95b6934-1"></uni-navbar>
     <view class="order-detail data-v-d80ab7cc">
         <view class="{{['orderS','data-v-d80ab7cc',detailInfo.scenicType==1?'cs':'']}}" style="{{'margin-bottom:'+bottomHeight+';'}}">
-            <image class="steimg data-v-d80ab7cc" src="https://eshopfile.zhiyousx.com/static/images/orderimg/dzf1.png" wx:if="{{detailInfo.orderStatus==1&&detailInfo.scenicType!=1}}"></image>
-            <image class="steimg data-v-d80ab7cc" src="https://eshopfile.zhiyousx.com/static/images/orderimg/dcp2.png" wx:if="{{detailInfo.orderStatus==2&&detailInfo.scenicType!=1}}"></image>
-            <image class="steimg data-v-d80ab7cc" src="https://eshopfile.zhiyousx.com/static/images/orderimg/ycp3.png" wx:if="{{detailInfo.orderStatus==3&&detailInfo.scenicType!=1}}"></image>
-            <image class="steimg data-v-d80ab7cc" src="https://eshopfile.zhiyousx.com/static/images/orderimg/dawc5.png" wx:if="{{detailInfo.orderStatus==5&&detailInfo.scenicType!=1}}"></image>
-            <image class="steimg data-v-d80ab7cc" src="https://eshopfile.zhiyousx.com/static/images/orderimg/tkz8.png" wx:if="{{detailInfo.orderStatus==8&&detailInfo.scenicType!=1}}"></image>
-            <image class="steimg data-v-d80ab7cc" src="https://eshopfile.zhiyousx.com/static/images/orderimg/bftk9.png" wx:if="{{detailInfo.orderStatus==9&&detailInfo.scenicType!=1}}"></image>
-            <image class="steimg data-v-d80ab7cc" src="https://eshopfile.zhiyousx.com/static/images/orderimg/tkwc10.png" wx:if="{{detailInfo.orderStatus==10&&detailInfo.scenicType!=1}}"></image>
-            <image class="steimg data-v-d80ab7cc" src="https://eshopfile.zhiyousx.com/static/images/orderimg/cpsb11.png" wx:if="{{detailInfo.orderStatus==11&&detailInfo.scenicType!=1}}"></image>
-            <image class="steimg data-v-d80ab7cc" src="https://eshopfile.zhiyousx.com/static/images/orderimg/ddgb12.png" wx:if="{{detailInfo.orderStatus==12&&detailInfo.scenicType!=1}}"></image>
+            <image class="steimg data-v-d80ab7cc" src="/static/captured/bcfd7bce6463e936.png" wx:if="{{detailInfo.orderStatus==1&&detailInfo.scenicType!=1}}"></image>
+            <image class="steimg data-v-d80ab7cc" src="/static/captured/77fc6997053a9917.png" wx:if="{{detailInfo.orderStatus==2&&detailInfo.scenicType!=1}}"></image>
+            <image class="steimg data-v-d80ab7cc" src="/static/captured/12febd182f97bafa.png" wx:if="{{detailInfo.orderStatus==3&&detailInfo.scenicType!=1}}"></image>
+            <image class="steimg data-v-d80ab7cc" src="/static/captured/ac859da9a114c148.png" wx:if="{{detailInfo.orderStatus==5&&detailInfo.scenicType!=1}}"></image>
+            <image class="steimg data-v-d80ab7cc" src="/static/captured/8f6c4868238add7d.png" wx:if="{{detailInfo.orderStatus==8&&detailInfo.scenicType!=1}}"></image>
+            <image class="steimg data-v-d80ab7cc" src="/static/captured/d751bb19dff69f01.png" wx:if="{{detailInfo.orderStatus==9&&detailInfo.scenicType!=1}}"></image>
+            <image class="steimg data-v-d80ab7cc" src="/static/captured/cdaaf6c10a80452c.png" wx:if="{{detailInfo.orderStatus==10&&detailInfo.scenicType!=1}}"></image>
+            <image class="steimg data-v-d80ab7cc" src="/static/captured/7dca4bc7fcb98656.png" wx:if="{{detailInfo.orderStatus==11&&detailInfo.scenicType!=1}}"></image>
+            <image class="steimg data-v-d80ab7cc" src="/static/captured/e8647886a7ce3d2f.png" wx:if="{{detailInfo.orderStatus==12&&detailInfo.scenicType!=1}}"></image>
             <text class="stateTit data-v-d80ab7cc">
                 <text class="data-v-d80ab7cc">{{$root.m1+''}}</text>
                 <text class="data-v-d80ab7cc" wx:if="{{detailInfo.scenicType!=1&&(detailInfo.orderStatus==3||detailInfo.orderStatus==8||detailInfo.orderStatus==9||detailInfo.orderStatus==13)}}">
@@ -129,7 +129,7 @@
         <block wx:if="{{detailInfo.scenicType!=1}}">
             <view class="codeBox-title rfzc data-v-d80ab7cc" wx:if="{{$root.g2}}">退改政策<view class="rf-tag data-v-d80ab7cc">{{''+detailInfo.refundTag+''}}</view>
                 <view bindtap="__e" class="icon-rf data-v-d80ab7cc" data-event-opts="{{[ [ 'tap',[ [ 'showRf',['$event'] ] ] ] ]}}">
-                    <image mode class="{{['img','data-v-d80ab7cc',showMore==1?'show':'']}}" src="https://eshopfile.zhiyousx.com/2023071717371008331.png"></image>
+                    <image mode class="{{['img','data-v-d80ab7cc',showMore==1?'show':'']}}" src="/static/captured/5efda279328d57ba.png"></image>
                 </view>
             </view>
             <view class="{{['table','data-v-d80ab7cc',$root.g4==0?'borderNone':'']}}" wx:if="{{$root.g3}}">
@@ -190,7 +190,7 @@
         <view class="data-v-d80ab7cc" wx:if="{{detailInfo.subscribeId&&detailInfo.subscribeType==1}}">
             <view class="hotel-title data-v-d80ab7cc">
                 <view class="data-v-d80ab7cc">雪柜信息</view>
-                <view bindtap="__e" class="yuyue data-v-d80ab7cc" data-event-opts="{{[ [ 'tap',[ [ 'toSnowOrder',['$event'] ] ] ] ]}}">查看预约订单<image mode class="img data-v-d80ab7cc" src="https://eshopfile.zhiyousx.com/images/snow/snowGear09.png"></image>
+                <view bindtap="__e" class="yuyue data-v-d80ab7cc" data-event-opts="{{[ [ 'tap',[ [ 'toSnowOrder',['$event'] ] ] ] ]}}">查看预约订单<image mode class="img data-v-d80ab7cc" src="/static/captured/8035399d53ca7a4a.png"></image>
                 </view>
             </view>
             <view class="hotel-table data-v-d80ab7cc">
@@ -263,14 +263,14 @@
                 <view class="sub-item phone data-v-d80ab7cc" wx:if="{{item.telephone&&index==0}}">
                     <text class="title data-v-d80ab7cc">手机号码:</text>
                     <text class="value data-v-d80ab7cc">{{item.telephone}}</text>
-                    <image bindtap="__e" class="data-v-d80ab7cc" data-event-opts="{{[ [ 'tap',[ [ 'queryPhone',['$0'],[ [ ['detailInfo.visitorInfoVos','',index] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/168492134271144514.png" wx:if="{{!item.isClosePhone}}"></image>
-                    <image bindtap="__e" class="data-v-d80ab7cc" data-event-opts="{{[ [ 'tap',[ [ 'closePhone',['$0'],[ [ ['detailInfo.visitorInfoVos','',index] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/168492259404793104.png" wx:if="{{item.isClosePhone}}"></image>
+                    <image bindtap="__e" class="data-v-d80ab7cc" data-event-opts="{{[ [ 'tap',[ [ 'queryPhone',['$0'],[ [ ['detailInfo.visitorInfoVos','',index] ] ] ] ] ] ]}}" src="/static/captured/522f50b3281db509.png" wx:if="{{!item.isClosePhone}}"></image>
+                    <image bindtap="__e" class="data-v-d80ab7cc" data-event-opts="{{[ [ 'tap',[ [ 'closePhone',['$0'],[ [ ['detailInfo.visitorInfoVos','',index] ] ] ] ] ] ]}}" src="/static/captured/6989ca664d2f4eeb.png" wx:if="{{item.isClosePhone}}"></image>
                 </view>
                 <view class="sub-item id-num data-v-d80ab7cc" wx:if="{{item.idCard}}">
                     <text class="title data-v-d80ab7cc">证件号码:</text>
                     <text class="value data-v-d80ab7cc">{{item.idCard}}</text>
-                    <image bindtap="__e" class="data-v-d80ab7cc" data-event-opts="{{[ [ 'tap',[ [ 'queryIdCard',['$0'],[ [ ['detailInfo.visitorInfoVos','',index] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/168492134271144514.png" wx:if="{{!item.isCloseId}}"></image>
-                    <image bindtap="__e" class="data-v-d80ab7cc" data-event-opts="{{[ [ 'tap',[ [ 'closeIdCard',['$0'],[ [ ['detailInfo.visitorInfoVos','',index] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/168492259404793104.png" wx:if="{{item.isCloseId}}"></image>
+                    <image bindtap="__e" class="data-v-d80ab7cc" data-event-opts="{{[ [ 'tap',[ [ 'queryIdCard',['$0'],[ [ ['detailInfo.visitorInfoVos','',index] ] ] ] ] ] ]}}" src="/static/captured/522f50b3281db509.png" wx:if="{{!item.isCloseId}}"></image>
+                    <image bindtap="__e" class="data-v-d80ab7cc" data-event-opts="{{[ [ 'tap',[ [ 'closeIdCard',['$0'],[ [ ['detailInfo.visitorInfoVos','',index] ] ] ] ] ] ]}}" src="/static/captured/6989ca664d2f4eeb.png" wx:if="{{item.isCloseId}}"></image>
                 </view>
             </view>
         </view>
@@ -305,7 +305,7 @@
                         <view class="value data-v-d80ab7cc">{{item.policyNo}}</view>
                         <view class="baodan data-v-d80ab7cc">
                             <view class="dian data-v-d80ab7cc">电子保单</view>
-                            <image class="img data-v-d80ab7cc" src="https://eshopfile.zhiyousx.com/170704610033552078.png"></image>
+                            <image class="img data-v-d80ab7cc" src="/static/captured/515336d0673cabe2.png"></image>
                         </view>
                     </view>
                 </view>
@@ -319,8 +319,8 @@
                     <text class="title data-v-d80ab7cc">手机号:</text>
                     <view class="guarantee data-v-d80ab7cc">
                         <view class="value data-v-d80ab7cc">{{item.insurancePersonMobile}}</view>
-                        <image bindtap="__e" class="data-v-d80ab7cc" data-event-opts="{{[ [ 'tap',[ [ 'queryTel',['$0'],[ [ ['insuranceInformation','',index] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/168492134271144514.png" style="width:40rpx;height:40rpx;margin-left:15rpx;" wx:if="{{!item.isCloseTel}}"></image>
-                        <image bindtap="__e" class="data-v-d80ab7cc" data-event-opts="{{[ [ 'tap',[ [ 'closeTel',['$0'],[ [ ['insuranceInformation','',index] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/168492259404793104.png" style="width:40rpx;height:40rpx;margin-left:15rpx;" wx:if="{{item.isCloseTel}}"></image>
+                        <image bindtap="__e" class="data-v-d80ab7cc" data-event-opts="{{[ [ 'tap',[ [ 'queryTel',['$0'],[ [ ['insuranceInformation','',index] ] ] ] ] ] ]}}" src="/static/captured/522f50b3281db509.png" style="width:40rpx;height:40rpx;margin-left:15rpx;" wx:if="{{!item.isCloseTel}}"></image>
+                        <image bindtap="__e" class="data-v-d80ab7cc" data-event-opts="{{[ [ 'tap',[ [ 'closeTel',['$0'],[ [ ['insuranceInformation','',index] ] ] ] ] ] ]}}" src="/static/captured/6989ca664d2f4eeb.png" style="width:40rpx;height:40rpx;margin-left:15rpx;" wx:if="{{item.isCloseTel}}"></image>
                     </view>
                 </view>
             </view>
@@ -358,7 +358,7 @@
         <view class="surrender-box data-v-d80ab7cc">
             <view class="title-style data-v-d80ab7cc">
                 <view class="name data-v-d80ab7cc">申请退保</view>
-                <image bindtap="__e" class="data-v-d80ab7cc" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/169345070139905990.png" style="width:40rpx;height:40rpx;"></image>
+                <image bindtap="__e" class="data-v-d80ab7cc" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" src="/static/captured/6bf5cf8e7436d9c2.png" style="width:40rpx;height:40rpx;"></image>
             </view>
             <view class="content data-v-d80ab7cc">
                 <view class="item data-v-d80ab7cc">
@@ -402,7 +402,7 @@
     </u-popup>
     <view bindtap="__e" class="gifBag-box data-v-d80ab7cc" data-event-opts="{{[ [ 'tap',[ [ 'showGiftBagPop',['$event'] ] ] ] ]}}" wx:if="{{showBag}}">
         <view class="icon-box data-v-d80ab7cc">
-            <image mode class="data-v-d80ab7cc" src="https://eshopfile.zhiyousx.com/166357520039468414.png"></image>
+            <image mode class="data-v-d80ab7cc" src="/static/captured/15af4a514258dfd9.png"></image>
             <view class="t data-v-d80ab7cc">领福利</view>
         </view>
     </view>
@@ -413,9 +413,9 @@
                 <view class="gift-title data-v-d80ab7cc">{{''+giftBagData.desc+''}}</view>
                 <scroll-view class="card-box data-v-d80ab7cc" scrollY="{{true}}" style="{{'height:'+(gbCl>3?'604rpx':gbCl==1?'250rpx':gbCl*151+'rpx')+';'}}">
                     <view class="{{['data-v-d80ab7cc',gbCl==1?'candItem1':'',gbCl>1?'candItem':'']}}" wx:for="{{$root.l1}}" wx:for-index="i" wx:for-item="it">
-                        <image mode class="it-img1 data-v-d80ab7cc" src="https://eshopfile.zhiyousx.com/166384545957301610.png" wx:if="{{gbCl>1&&i==0}}"></image>
-                        <image mode class="it-img2 data-v-d80ab7cc" src="https://eshopfile.zhiyousx.com/166384386610789834.png" wx:if="{{gbCl>1&&i>0&&i<gbCl-1}}"></image>
-                        <image mode class="it-img3 data-v-d80ab7cc" src="https://eshopfile.zhiyousx.com/166384545957301610.png" wx:if="{{gbCl>1&&gbCl-i==1}}"></image>
+                        <image mode class="it-img1 data-v-d80ab7cc" src="/static/captured/f2e7f03034cfff25.png" wx:if="{{gbCl>1&&i==0}}"></image>
+                        <image mode class="it-img2 data-v-d80ab7cc" src="/static/captured/ce87d44f6357412a.png" wx:if="{{gbCl>1&&i>0&&i<gbCl-1}}"></image>
+                        <image mode class="it-img3 data-v-d80ab7cc" src="/static/captured/f2e7f03034cfff25.png" wx:if="{{gbCl>1&&gbCl-i==1}}"></image>
                         <view class="item-card-box data-v-d80ab7cc">
                             <view class="left data-v-d80ab7cc">
                                 <image class="data-v-d80ab7cc" mode="aspectFill" src="{{it.$orig.couponImage}}"></image>

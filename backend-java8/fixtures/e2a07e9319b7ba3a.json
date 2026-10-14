@@ -1,0 +1,387 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064188264653",
+    "scenicName": "梁带村芮国遗址博物馆",
+    "tag": "古芮寻微，故国韶光",
+    "level": 4,
+    "cityId": "1320663137836642305",
+    "cityName": "渭南",
+    "address": "渭南市韩城市梁带村",
+    "longitude": "110.5029500000",
+    "latitude": "35.5180740000",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 253,
+    "topColour": "#225A73",
+    "centralColour": "#175570",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021082711000078311.jpg"
+    ],
+    "introduction": "<p>　　梁带村遗址发现于2004年10月,位于韩城市区东北7公里的西庄镇梁带村村北，是我国两周之际古芮国遗址，是陕西继秦兵马俑、汉阳陵之后又一重大考古发现，占地976.78亩，分墓葬区和遗址区两个部分，共发现两周墓葬1300座、车马坑64座，经对七座大墓及百余座中小型墓的抢救性发掘，共出土金、玉、铜器等各类文物2万余件（组），仅珍贵文物就有3千余件（组），其中国内首次重大发现的文物70多件（组）。2005年被评为全国十大考古新发现之一，2006年被公布为全国重点文物保护单位。</p>",
+    "introductionText": "　　梁带村遗址发现于2004年10月,位于韩城市区东北7公里的西庄镇梁带村村北，是我国两周之际古芮国遗址，是陕西继秦兵马俑、汉阳陵之后又一重大考古发现，占地976.78亩，分墓葬区和遗址区两个部分，共发现两周墓葬1300座、车马坑64座，经对七座大墓及百余座中小型墓的抢救性发掘，共出土金、玉、铜器等各类文物2万余件（组），仅珍贵文物就有3千余件（组），其中国内首次重大发现的文物70多件（组）。2005年被评为全国十大考古新发现之一，2006年被公布为全国重点文物保护单位。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026524680194",
+        "contentId": "1418152026516291586",
+        "name": "国家二级博物馆",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1450028527872122881",
+        "contentId": "1450028527859539970",
+        "name": "陕西省文化遗址公园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全年开放",
+        "openTimeContent": "夏季08:30-18:00<br/>冬季09:00-17:30"
+      }
+    ],
+    "discountVoList": null,
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "61",
+        "name": "讲解员",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016440410223.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": [
+      "http://www.ldcyzmuseum.com/website/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "官方电话",
+        "telephone": "0913-5358582"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "梁带村芮国遗址博物馆",
+        "wxSubscription": "ldcrgyz"
+      }
+    ],
+    "sinaWeiboVoList": [
+      {
+        "sinaWeibo": "梁带村芮国遗址博物馆",
+        "sinaWeiboUrl": "https://weibo.com/p/1001066481991928/photos?from=page_100106&mod=TAB#place"
+      }
+    ],
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1921815050563682306",
+        "resourcesId": "1431094241894969348",
+        "title": "梁带村芮国遗址博物馆",
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082711225868866.mp4",
+        "coverImage": "https://eshopfile.zhiyousx.com/163003457438957102.jpg",
+        "videoId": null,
+        "resourcesType": 2,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2025-05-12 14:29:48",
+        "updateTime": "2025-05-12 14:29:48",
+        "createBy": "1909084661067874306",
+        "updateBy": "1909084661067874306",
+        "isDeleted": 0
+      },
+      {
+        "id": "1921815050563682307",
+        "resourcesId": "1431094241894969348",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082711195771949.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2025-05-12 14:29:48",
+        "updateTime": "2025-05-12 14:29:48",
+        "createBy": "1909084661067874306",
+        "updateBy": "1909084661067874306",
+        "isDeleted": 0
+      },
+      {
+        "id": "1921815050567876609",
+        "resourcesId": "1431094241894969348",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082711200339785.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2025-05-12 14:29:48",
+        "updateTime": "2025-05-12 14:29:48",
+        "createBy": "1909084661067874306",
+        "updateBy": "1909084661067874306",
+        "isDeleted": 0
+      },
+      {
+        "id": "1921815050567876610",
+        "resourcesId": "1431094241894969348",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082711200954435.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2025-05-12 14:29:48",
+        "updateTime": "2025-05-12 14:29:48",
+        "createBy": "1909084661067874306",
+        "updateBy": "1909084661067874306",
+        "isDeleted": 0
+      },
+      {
+        "id": "1921815050572070914",
+        "resourcesId": "1431094241894969348",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082711201405488.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2025-05-12 14:29:48",
+        "updateTime": "2025-05-12 14:29:48",
+        "createBy": "1909084661067874306",
+        "updateBy": "1909084661067874306",
+        "isDeleted": 0
+      },
+      {
+        "id": "1921815050572070915",
+        "resourcesId": "1431094241894969348",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082711202099611.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2025-05-12 14:29:48",
+        "updateTime": "2025-05-12 14:29:48",
+        "createBy": "1909084661067874306",
+        "updateBy": "1909084661067874306",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1439119981701840898",
+      "rankingId": null,
+      "indexInRanking": 82,
+      "rankingName": "陕西人气博物馆排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1606179274804039681",
+        "rankingId": "1606179277471617025",
+        "indexInRanking": null,
+        "rankingName": "韩城必游人气排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1680835374538088449",
+        "rankingId": "1680835375632801794",
+        "indexInRanking": null,
+        "rankingName": "陕西省热搜50强博物馆排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1566623053130653698",
+        "rankingId": "1566623054191812609",
+        "indexInRanking": null,
+        "rankingName": "渭南亲子游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1455112666791124994",
+        "rankingId": "1455112668192022530",
+        "indexInRanking": null,
+        "rankingName": "渭南自驾游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": null,
+    "noticeTitel": "临时闭园通知",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,93 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1670719385876795393",
+    "contentId": "1670719384018718721",
+    "rankingName": "玛雅海滩水公园人气榜",
+    "rankingClass": "1",
+    "rankingType": "2",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/168723009581750082.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": "人喜爱",
+    "rankingInclude": "个目的地",
+    "rankingPersonalInfo": "我去过的目的地",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#3DA3D6",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1407528297729929217",
+        "originType": "2",
+        "originName": "急速坠落/惊叫水环/龙卷风",
+        "originSubtitleName": "最适合勇敢者挑战的地标",
+        "originUrl": "https://eshopfile.zhiyousx.com/168725007831422389.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/165641024699665513.jpg",
+          "https://eshopfile.zhiyousx.com/165641024762156171.jpg",
+          "https://eshopfile.zhiyousx.com/165641024815541196.jpg",
+          "https://eshopfile.zhiyousx.com/165641024869008802.jpg",
+          "https://eshopfile.zhiyousx.com/165641024933607313.jpg",
+          "https://eshopfile.zhiyousx.com/165641024989672453.jpg",
+          "https://eshopfile.zhiyousx.com/165641025040752125.jpg"
+        ],
+        "sort": "10",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1407526082898341889",
+        "originType": "2",
+        "originName": "欢乐水寨",
+        "originSubtitleName": "轻松遛娃好去处",
+        "originUrl": "https://eshopfile.zhiyousx.com/168725010986565824.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/165640471187363786.jpg",
+          "https://eshopfile.zhiyousx.com/165640471239113528.jpg",
+          "https://eshopfile.zhiyousx.com/165640471308766370.jpg",
+          "https://eshopfile.zhiyousx.com/165640476154842001.jpg",
+          "https://eshopfile.zhiyousx.com/165647271093139266.jpg",
+          "https://eshopfile.zhiyousx.com/165640476198488360.jpg"
+        ],
+        "sort": "11",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1407529781410443265",
+        "originType": "2",
+        "originName": "合家欢滑道/玛雅水工厂",
+        "originSubtitleName": "亲子互动乐享区",
+        "originUrl": "https://eshopfile.zhiyousx.com/168725013965313433.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/165647406925838147.jpg",
+          "https://eshopfile.zhiyousx.com/165647406963579774.jpg",
+          "https://eshopfile.zhiyousx.com/165647407003501345.jpg",
+          "https://eshopfile.zhiyousx.com/165647407043476831.jpg",
+          "https://eshopfile.zhiyousx.com/165647407083359126.jpg"
+        ],
+        "sort": "12",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "13",
+    "favoriteSum": "20",
+    "personalInfoValue": "0/13"
+  },
+  "msg": "成功",
+  "success": true
+}

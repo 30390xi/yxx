@@ -1,0 +1,271 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064188264450",
+    "scenicName": "照金薛家寨星空微度假营地",
+    "tag": "环境优美 亲近自然慢生活",
+    "level": -1,
+    "cityId": "1320650338641162241",
+    "cityName": "铜川",
+    "address": "铜川市耀州区照金镇薛家寨",
+    "longitude": "108.646181",
+    "latitude": "35.061045",
+    "openingStatus": 1,
+    "capacity": 100,
+    "sequence": 999,
+    "topColour": "#4EAE6B",
+    "centralColour": "#3C7B5C",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2023070809281499903.jpg",
+      "https://eshopfile.zhiyousx.com/2023070809272763678.jpg",
+      "https://eshopfile.zhiyousx.com/2023070809280520389.jpg"
+    ],
+    "introduction": "<p>　　满足小型团建、家庭聚会、亲子休闲度假等游客需求。露营星空下，在夜晚的星空下拥抱向往的诗与远万。在这里还可以进行亲子烧烤、游玩薛家寨景区，让旅客尽享照金\"休闲＋娱乐\"的假日温馨好时光。</p>",
+    "introductionText": "　　满足小型团建、家庭聚会、亲子休闲度假等游客需求。露营星空下，在夜晚的星空下拥抱向往的诗与远万。在这里还可以进行亲子烧烤、游玩薛家寨景区，让旅客尽享照金\"休闲＋娱乐\"的假日温馨好时光。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "175",
+        "name": "户外营地",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "51",
+        "name": "拓展游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [],
+    "noticeMsg": "<p>下单后务必联系营地，<strong><span style=\"color: #ff0000;\">预约留房成功后使用</span></strong>，预约电话：<strong><span style=\"color: #ff0000;\">0919-816555</span></strong> ，凭本人身份证原件在营地办理入住</p>",
+    "noticeMsgText": null,
+    "openTimeVoList": null,
+    "discountVoList": null,
+    "facilitiesServicesVoList": null,
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "营地配套服务",
+        "additionalExplainContent": "免费提供烧烤炉（食材、木炭可现场购买或自带）"
+      },
+      {
+        "additionalExplainTitle": "车内设施概况",
+        "additionalExplainContent": "每辆房车均配备有空调、淋浴、 电视、小冰箱、微波炉、咖啡机、榨汁机、WIFI、沙发休息区。"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<p>铜川市中心驾车距离38.9公里（约45分钟）</p>\n<p>距离照金国际滑雪场，步行距离249米（约4分钟）</p>\n<p>距离陕甘边照金革命根据地旧址，步行距离249米（约4分钟）</p>"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "",
+        "telephone": "0919-8165555"
+      }
+    ],
+    "wxSubscriptionVoList": null,
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1905535417505611777",
+        "resourcesId": "1321636246282592258",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/f927202b7fed988a0ca8842409623e6-20201029101239.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2025-03-28 16:20:21",
+        "updateTime": "2025-03-28 16:20:21",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "1905535417509806081",
+        "resourcesId": "1321636246282592258",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/b9b6bd52dcc8cbb772c755330bd3969_副本-20201029120515.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2025-03-28 16:20:21",
+        "updateTime": "2025-03-28 16:20:21",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "1905535417509806082",
+        "resourcesId": "1321636246282592258",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/f5dcf653c592db0a187bbd52859202b_副本-20201029120524.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2025-03-28 16:20:21",
+        "updateTime": "2025-03-28 16:20:21",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "1905535417514000386",
+        "resourcesId": "1321636246282592258",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/9_副本-20201029120533.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2025-03-28 16:20:21",
+        "updateTime": "2025-03-28 16:20:21",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": null,
+      "rankingId": null,
+      "indexInRanking": null,
+      "rankingName": null,
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": "重要提示",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -17,14 +17,14 @@
             <view class="txt info singleLineText data-v-ce1fdd1a">{{detailObj.sumCount+detailObj.rankingInclude+' '+(detailObj.rankingType==2?'丨 '+detailObj.favoriteSum+(detailObj.rankingTotalUserData||'人喜爱'):'')}}</view>
         </view>
         <view class="txt passed singleLineText data-v-ce1fdd1a" wx:if="{{isLogin&&detailObj.rankingType==2}}">
-            <image class="data-v-ce1fdd1a" src="https://eshopfile.zhiyousx.com/2021070214201624192.png"></image>
+            <image class="data-v-ce1fdd1a" src="/static/captured/941453affe812b3f.png"></image>
             <text class="data-v-ce1fdd1a">{{detailObj.rankingPersonalInfo+' '+detailObj.personalInfoValue}}</text>
         </view>
     </view>
     <view class="desc data-v-ce1fdd1a" wx:if="{{hasDesc}}">
         <text class="data-v-ce1fdd1a">{{detailObj.rankingDescribe}}</text>
-        <image class="top data-v-ce1fdd1a" src="https://eshopfile.zhiyousx.com/2021070217421187774.png"></image>
-        <image class="bottom data-v-ce1fdd1a" src="https://eshopfile.zhiyousx.com/2021070217423746945.png"></image>
+        <image class="top data-v-ce1fdd1a" src="/static/captured/651f6302eafb3a2a.png"></image>
+        <image class="bottom data-v-ce1fdd1a" src="/static/captured/87a3daf48e7c361a.png"></image>
     </view>
     <view class="spotinfo data-v-ce1fdd1a" id="spotinfo">
         <spot-list bind:__l="__l" class="data-v-ce1fdd1a vue-ref" data-ref="spotList" datas="{{detailObj.rankingItemList}}" rankingType="{{detailObj.rankingType}}" type="{{detailObj.type}}" vueId="1b4e3e12-2"></spot-list>

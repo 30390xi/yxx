@@ -1,0 +1,210 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941113",
+    "scenicName": "黄陵国家森林公园",
+    "tag": "一山胜景 岂能辜负",
+    "level": 4,
+    "address": "延安市黄陵县黄店复线与327国道交叉口",
+    "longitude": "108.919155",
+    "latitude": "35.545716",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#4EAE6B",
+    "centralColour": "#3C7B5C",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/3aff6721-f5f2-4bdb-bf80-c0065f6aaa2a-20201028111823.jpg"
+    ],
+    "introduction": "<p>　　陕西黄陵国家森林公园位于黄陵县城西南部40公里的桥山林区，沮河（古称姬水）上游，年平均温度9.4℃。公园境内森林茂密葱郁、环境清雅宜人，地貌奇特典型，气候湿润；以黄帝文化为主脉的人文景观资源源远流长，令世人瞩目。百药沟被称为黄土高原上的&ldquo;药谷&rdquo;，中草药资源丰富，相传是黄帝播种百谷草木的地方，谷内有中草药200余种，据说药王孙思邈经常在此采集草药，扶救苍生。谷内的&ldquo;降龙峡&rdquo;传说是轩辕黄帝出生的地方。&ldquo;万卷书&rdquo;又称&ldquo;内经石&rdquo;，是当年黄帝与岐伯谈医论道编写落书的地方。十里松廊、蝴蝶谷等自然景观奇特诡异，神奇壮观。&ldquo;秦直道&rdquo;从公园西部穿境而过，历经2000多年的风雨，部分路面仍保存完好。在景区南谷有千年古刹、紫峨寺遗址，其大雄宝殿中轴线正好在&ldquo;本初子午线&rdquo;上，属于皇家寺院。寺内有开凿于北魏年间的石窟，其佛像造型逼真，唐代&ldquo;朝阳公主&rdquo;曾来此降香。临近紫峨寺的孟家台、杨家庄、水担坪、烧锅院等北宋杨家屯兵练军遗址与公园景区相互依托、交相辉映。到公园游玩，既可欣赏自然风光，观赏珍稀动植物，又可领略古代劳动人民的伟大创举，尽情饱览沿途文物古迹。</p>",
+    "introductionText": "　　陕西黄陵国家森林公园位于黄陵县城西南部40公里的桥山林区，沮河（古称姬水）上游，年平均温度9.4℃。公园境内森林茂密葱郁、环境清雅宜人，地貌奇特典型，气候湿润；以黄帝文化为主脉的人文景观资源源远流长，令世人瞩目。百药沟被称为黄土高原上的“药谷”，中草药资源丰富，相传是黄帝播种百谷草木的地方，谷内有中草药200余种，据说药王孙思邈经常在此采集草药，扶救苍生。谷内的“降龙峡”传说是轩辕黄帝出生的地方。“万卷书”又称“内经石”，是当年黄帝与岐伯谈医论道编写落书的地方。十里松廊、蝴蝶谷等自然景观奇特诡异，神奇壮观。“秦直道”从公园西部穿境而过，历经2000多年的风雨，部分路面仍保存完好。在景区南谷有千年古刹、紫峨寺遗址，其大雄宝殿中轴线正好在“本初子午线”上，属于皇家寺院。寺内有开凿于北魏年间的石窟，其佛像造型逼真，唐代“朝阳公主”曾来此降香。临近紫峨寺的孟家台、杨家庄、水担坪、烧锅院等北宋杨家屯兵练军遗址与公园景区相互依托、交相辉映。到公园游玩，既可欣赏自然风光，观赏珍稀动植物，又可领略古代劳动人民的伟大创举，尽情饱览沿途文物古迹。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "老人",
+        "limit": "65周岁(含)以上凭老年证或身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.3米(含)以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭残疾证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "导游",
+        "limit": "凭导游证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "僧人居士",
+        "limit": "凭本人有效皈依证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "全日制大中小学生(不含成人教育研究生)，凭学生证",
+        "discount": "优惠"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1777953766067888130",
+        "resourcesId": "1321290301095325697",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/a367436b-15ec-4bb0-a439-00d130ad4437-20201028111841.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2024-04-10 14:56:25",
+        "updateTime": "2024-04-10 14:56:25",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "1777953766072082433",
+        "resourcesId": "1321290301095325697",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/cdc6f8f5-0b79-40c1-9368-cb3f0bb64987-20201028111847.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2024-04-10 14:56:25",
+        "updateTime": "2024-04-10 14:56:25",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455724365810343938",
+      "rankingId": null,
+      "indexInRanking": 6,
+      "rankingName": "延安必逛景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

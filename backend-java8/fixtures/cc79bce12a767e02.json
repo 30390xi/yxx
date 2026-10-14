@@ -1,0 +1,214 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064188264693",
+    "scenicName": "延安新闻纪念馆",
+    "tag": "新中国新闻出版事业的摇篮",
+    "level": -1,
+    "address": "延安市宝塔区清凉山南麓",
+    "longitude": "109.491067",
+    "latitude": "36.599588",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#E7CEA3",
+    "centralColour": "#C2A97E",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021091511111522179.jpg"
+    ],
+    "introduction": "<p>　　延安新闻纪念馆位于延安精神城区清凉山南麓，是由中宣部、广电总局、新华社、人民日报社、新闻出版署等部门(单位)共同筹资修建而成，是全国唯一的新闻事业专题纪念馆，展馆总建筑面积3000平方米，其中陈列面积1580平方米。馆的外型呈窑洞形，意寓着党的新闻事业是从延安的土窑洞里创建和发展起来的。陈列共分五个单元，分别在四个展厅进行展出。共展出文物180余件，珍贵历史照片、文献、的各类图表资料400余幅，陈列大量运用场景复原、景像合成等到展示，并配合以声、光、电等现代化高科技展示手段，生动地再现了延安时期新中国新闻出版事业的发展历程和辉煌业绩，成为进行爱国主义、革命传统和延安精神三大教育的生动课堂。</p>",
+    "introductionText": "　　延安新闻纪念馆位于延安精神城区清凉山南麓，是由中宣部、广电总局、新华社、人民日报社、新闻出版署等部门(单位)共同筹资修建而成，是全国唯一的新闻事业专题纪念馆，展馆总建筑面积3000平方米，其中陈列面积1580平方米。馆的外型呈窑洞形，意寓着党的新闻事业是从延安的土窑洞里创建和发展起来的。陈列共分五个单元，分别在四个展厅进行展出。共展出文物180余件，珍贵历史照片、文献、的各类图表资料400余幅，陈列大量运用场景复原、景像合成等到展示，并配合以声、光、电等现代化高科技展示手段，生动地再现了延安时期新中国新闻出版事业的发展历程和辉煌业绩，成为进行爱国主义、革命传统和延安精神三大教育的生动课堂。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026545651713",
+        "contentId": "1418152026541457409",
+        "name": "国家三级博物馆",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "全员",
+        "limit": "无",
+        "discount": "免费"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0911-2212236"
+      },
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0911-2112236"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1455008166742958082",
+        "resourcesId": "1437977393875767297",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091511103916200.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2021-11-01 11:05:54",
+        "updateTime": "2021-11-01 11:05:54",
+        "createBy": "1427085429085155330",
+        "updateBy": "1427085429085155330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1455008166742958083",
+        "resourcesId": "1437977393875767297",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091511104545370.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2021-11-01 11:05:54",
+        "updateTime": "2021-11-01 11:05:54",
+        "createBy": "1427085429085155330",
+        "updateBy": "1427085429085155330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1455008166747152386",
+        "resourcesId": "1437977393875767297",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091511105713521.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2021-11-01 11:05:54",
+        "updateTime": "2021-11-01 11:05:54",
+        "createBy": "1427085429085155330",
+        "updateBy": "1427085429085155330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1455008166747152387",
+        "resourcesId": "1437977393875767297",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091511110696229.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2021-11-01 11:05:54",
+        "updateTime": "2021-11-01 11:05:54",
+        "createBy": "1427085429085155330",
+        "updateBy": "1427085429085155330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1439119981701840898",
+      "rankingId": null,
+      "indexInRanking": 37,
+      "rankingName": "陕西人气博物馆排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1455724365810343938",
+        "rankingId": "1455724367274156033",
+        "indexInRanking": null,
+        "rankingName": "延安必逛景点人气排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

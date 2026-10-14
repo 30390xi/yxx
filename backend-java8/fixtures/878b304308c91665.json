@@ -1,0 +1,262 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1440504585029500930",
+    "scenicName": "龙门钢铁景区",
+    "tag": "体验钢铁工业魅力",
+    "level": 4,
+    "cityId": "1320663137836642305",
+    "cityName": "渭南",
+    "address": "渭南市韩城市龙兴大道(龙钢小区南侧)",
+    "longitude": "110.571203",
+    "latitude": "35.614073",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 341,
+    "topColour": "#716E69",
+    "centralColour": "#4D4747",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021092210021936591.jpg"
+    ],
+    "introduction": "<p>　　以&ldquo;一馆两中心三景点&rdquo;为核心的龙门钢铁景区旅游区，一馆&mdash;&mdash;龙钢展览馆，两中心&mdash;&mdash;质检中心、生产指挥控制中心环保智慧大厅，三景点&mdash;&mdash;炼铁五号高炉、炼钢新区、轧钢精品板带，并配套完善了游客接待中心、旅游卫生间、生态停车场、生产现场参观通道等。其中，龙钢展览馆以&ldquo;钢铁&rdquo;为主题，以企业六十年发展史为主线，是一座集文化历史、生产工艺流程、产品展示、科技体验为一体的现代化工业展馆。游客可以走进钢花飞溅的炼铁高炉车间、绿色现代精品板带生产车间、质检中心亲身感受龙钢独特的企业文化和品牌历史，在旅游中充分了解钢铁的生产过程，体验平时所无法触及的钢铁工业魅力。</p>",
+    "introductionText": "　　以“一馆两中心三景点”为核心的龙门钢铁景区旅游区，一馆——龙钢展览馆，两中心——质检中心、生产指挥控制中心环保智慧大厅，三景点——炼铁五号高炉、炼钢新区、轧钢精品板带，并配套完善了游客接待中心、旅游卫生间、生态停车场、生产现场参观通道等。其中，龙钢展览馆以“钢铁”为主题，以企业六十年发展史为主线，是一座集文化历史、生产工艺流程、产品展示、科技体验为一体的现代化工业展馆。游客可以走进钢花飞溅的炼铁高炉车间、绿色现代精品板带生产车间、质检中心亲身感受龙钢独特的企业文化和品牌历史，在旅游中充分了解钢铁的生产过程，体验平时所无法触及的钢铁工业魅力。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "65",
+        "name": "工业旅游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全年开放",
+        "openTimeContent": "全天开放"
+      }
+    ],
+    "discountVoList": null,
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": null,
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "龙门钢铁景区",
+        "wxSubscription": "gh_b7e2db0f28a9"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": "",
+    "contentResourcesDtoList": [
+      {
+        "id": "1440504585004335108",
+        "resourcesId": "1440504585004335107",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092210272309719.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2021-09-22 10:33:51",
+        "updateTime": "2021-09-22 10:33:51",
+        "createBy": "1344113100973973505",
+        "updateBy": "1344113100973973505",
+        "isDeleted": 0
+      },
+      {
+        "id": "1440504585008529409",
+        "resourcesId": "1440504585004335107",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092210272941234.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2021-09-22 10:33:51",
+        "updateTime": "2021-09-22 10:33:51",
+        "createBy": "1344113100973973505",
+        "updateBy": "1344113100973973505",
+        "isDeleted": 0
+      },
+      {
+        "id": "1440504585012723714",
+        "resourcesId": "1440504585004335107",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092210280223687.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2021-09-22 10:33:51",
+        "updateTime": "2021-09-22 10:33:51",
+        "createBy": "1344113100973973505",
+        "updateBy": "1344113100973973505",
+        "isDeleted": 0
+      },
+      {
+        "id": "1440504585012723715",
+        "resourcesId": "1440504585004335107",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092210280747852.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2021-09-22 10:33:51",
+        "updateTime": "2021-09-22 10:33:51",
+        "createBy": "1344113100973973505",
+        "updateBy": "1344113100973973505",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1566623053130653698",
+      "rankingId": null,
+      "indexInRanking": 18,
+      "rankingName": "渭南亲子游景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1455112666791124994",
+        "rankingId": "1455112668192022530",
+        "indexInRanking": null,
+        "rankingName": "渭南自驾游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": null,
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "scenicInfoTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": 0,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": null,
+    "hotelArrivalDepartureTime": null,
+    "hotelChildrenBed": null,
+    "hotelPet": null,
+    "hotelBreakfast": null,
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

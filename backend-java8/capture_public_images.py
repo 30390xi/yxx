@@ -24,7 +24,7 @@ def urls_in(value):
             yield from urls_in(child)
 
 
-def capture(url):
+def capture(url, timeout=20, max_bytes=MAX_BYTES):
     parsed = urllib.parse.urlparse(url)
     if parsed.hostname != "eshopfile.zhiyousx.com":
         return None
@@ -36,12 +36,12 @@ def capture(url):
     if not destination.exists():
         safe_url = urllib.parse.urlunparse(parsed._replace(path=urllib.parse.quote(parsed.path, safe="/")))
         request = urllib.request.Request(safe_url, headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(request, timeout=20) as response:
+        with urllib.request.urlopen(request, timeout=timeout) as response:
             content_type = response.headers.get("Content-Type", "")
             if not content_type.startswith("image/"):
                 raise ValueError("Unexpected MIME type for {}: {}".format(url, content_type))
-            data = response.read(MAX_BYTES + 1)
-            if len(data) > MAX_BYTES:
+            data = response.read(max_bytes + 1)
+            if len(data) > max_bytes:
                 raise ValueError("Image too large: " + url)
             destination.write_bytes(data)
     return url, "/static/captured/" + name, destination.stat().st_size

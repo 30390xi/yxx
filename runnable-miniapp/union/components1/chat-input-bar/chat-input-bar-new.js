@@ -38,7 +38,11 @@ require("../../common/vendor.js"), (global.webpackJsonp = global.webpackJsonp ||
         Object.defineProperty(t, "__esModule", {
           value: !0
         }), t.default = void 0;
-        var o = requirePlugin("WechatSI").getRecordRecognitionManager(),
+        var voiceAvailable = !0,
+          o = (function() {
+            try { return requirePlugin("WechatSI").getRecordRecognitionManager() }
+            catch (_) { voiceAvailable = !1; return { start: function() {}, stop: function() {} } }
+          })(),
           i = {
             name: "chat-input-bar",
             props: {
@@ -87,6 +91,7 @@ require("../../common/vendor.js"), (global.webpackJsonp = global.webpackJsonp ||
             data: function() {
               return {
                 msg: "",
+                voiceAvailable: voiceAvailable,
                 focus: !1,
                 emojiType: "",
                 showSpeakBtn: 1,

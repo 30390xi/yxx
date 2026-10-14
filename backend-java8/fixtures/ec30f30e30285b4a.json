@@ -1,0 +1,104 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1455715343619170306",
+    "contentId": "1455715342633508866",
+    "rankingName": "延安美食人气排行榜",
+    "rankingClass": "2",
+    "rankingType": "2",
+    "rankingMainPictureUrl": "https://res.zhiyousx.com/ysx/pro/2021/11/03/163590454152247942.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": null,
+    "rankingInclude": "个美食",
+    "rankingPersonalInfo": "我吃过的美食",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#D98D39",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1451490318368120833",
+        "originType": "2",
+        "originName": "油馍馍",
+        "originSubtitleName": "金黄似铜钱，甘甜又可口",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489703540749338.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489721776465547.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489722225749422.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489723052305451.jpg"
+        ],
+        "sort": "0",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "3",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451488922801545217",
+        "originType": "2",
+        "originName": "子长煎饼",
+        "originSubtitleName": "酸辣味浓，久食不厌",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489673157388664.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489688683561274.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489689021273319.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489689386943028.jpg"
+        ],
+        "sort": "1",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "4",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451471131738382338",
+        "originType": "2",
+        "originName": "抿节",
+        "originSubtitleName": "陕北必吃面食",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489261291512033.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489264107436915.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489264724230608.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489265145441564.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489265472472244.jpg"
+        ],
+        "sort": "2",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "2",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451475620025344001",
+        "originType": "2",
+        "originName": "碗托",
+        "originSubtitleName": "筋软耐嚼，香醇可口",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489358388187630.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489370867312619.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489371324743153.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489371954766001.jpg"
+        ],
+        "sort": "3",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "3",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "4",
+    "favoriteSum": "12",
+    "personalInfoValue": "0/4"
+  },
+  "msg": "成功",
+  "success": true
+}

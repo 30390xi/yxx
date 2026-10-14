@@ -33,13 +33,13 @@
         </view>
         <view class="{{['row2','u-skeleton-fillet','data-v-fdb4cb92',!peopleNumObj.activeColor?'opacity0':'']}}" id="midinfo">
             <view bindtap="__e" class="notice singleLineText data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'opennotice',['$event'] ] ] ] ]}}" wx:if="{{detailObj.noticeTitel&&detailObj.noticeMsg}}">
-                <image class="data-v-fdb4cb92" mode="aspect" src="https://eshopfile.zhiyousx.com/2022031709565822039.png"></image>
+                <image class="data-v-fdb4cb92" mode="aspect" src="/static/captured/45a31c8610ffa550.png"></image>
                 <view class="singleLineText data-v-fdb4cb92">{{detailObj.noticeTitel}}</view>
                 <u-icon bind:__l="__l" class="data-v-fdb4cb92" color="#E03E1E" name="arrow-right" size="28" vueId="ff18a438-4"></u-icon>
             </view>
             <view class="t data-v-fdb4cb92" wx:if="{{detailObj.scenicType!=1&&detailObj.type==1}}">
                 <view class="l data-v-fdb4cb92">
-                    <image class="data-v-fdb4cb92" mode="widthFix" src="{{closeIcon||'https://eshopfile.zhiyousx.com/2021090716325517019.png'}}" style="width:104%;" wx:if="{{detailObj.openingStatus==0}}"></image>
+                    <image class="data-v-fdb4cb92" mode="widthFix" src="{{closeIcon||'/static/captured/b0e9922323b88a96.png'}}" style="width:104%;" wx:if="{{detailObj.openingStatus==0}}"></image>
                     <view class="loop-pie data-v-fdb4cb92" wx:else>
                         <view class="loop-pie-line loop-pie-r data-v-fdb4cb92">
                             <view class="loop-pie-c loop-pie-rm data-v-fdb4cb92" id="loop-rc" style="{{'-webkit-transform:'+'rotate('+(rotateRight||0)+'deg)'+';'+'border-bottom-color:'+peopleNumObj.activeColor+';'+'border-right-color:'+peopleNumObj.activeColor+';'}}"></view>
@@ -109,35 +109,35 @@
             </view>
             <view class="b data-v-fdb4cb92">
                 <view bindtap="__e" class="{{['line','data-v-fdb4cb92',detailObj.scenicType!=1?'bordertop':'']}}" data-event-opts="{{[ [ 'tap',[ ['jumpSpotIntro'] ] ] ]}}" wx:if="{{detailObj.type==1}}">
-                    <image class="icon data-v-fdb4cb92" src="{{detailObj.openTimeIcon||'https://eshopfile.zhiyousx.com/2021061516504034012.png'}}"></image>
+                    <image class="icon data-v-fdb4cb92" src="{{detailObj.openTimeIcon||'/static/captured/81a4ecd544d3fab4.png'}}"></image>
                     <view class="text singleLineText data-v-fdb4cb92">{{''+(detailObj.openTimeTitle||'开放时间')}}<text class="data-v-fdb4cb92">｜</text>
                         <block wx:if="{{detailObj.scenicType!=1}}">{{detailObj.reservationNoticeTitle||'优惠政策'}}<text class="data-v-fdb4cb92">｜</text>
                         </block>{{(detailObj.visitNoticeTitle||'游玩须知')+''}}</view>
                     <image class="jt data-v-fdb4cb92" src="../../static/images/jt.png"></image>
                 </view>
                 <view bindtap="__e" class="{{['line','hotelStyle','data-v-fdb4cb92',detailObj.scenicType!=1?'bordertop':'']}}" data-event-opts="{{[ [ 'tap',[ ['jumpHotelIntro'] ] ] ]}}" wx:if="{{detailObj.type==2}}">
-                    <image class="icon data-v-fdb4cb92" src="{{detailObj.openTimeIcon||'https://eshopfile.zhiyousx.com/169157356251588574.png'}}"></image>
+                    <image class="icon data-v-fdb4cb92" src="{{detailObj.openTimeIcon||'/static/captured/991ced2e5d217bb8.png'}}"></image>
                     <view class="text singleLineText data-v-fdb4cb92">{{''+(detailObj.facilitiesServicesTitle||'设施服务')}}<text class="data-v-fdb4cb92">｜</text>
                         <block wx:if="{{detailObj.scenicType!=1}}">{{detailObj.specialRecommendationTitle||'特色推荐'}}<text class="data-v-fdb4cb92">｜</text>
                         </block>{{(detailObj.trafficGuideTitle||'交通指南')+''}}</view>
                     <image class="jt data-v-fdb4cb92" src="../../static/images/jt.png"></image>
                 </view>
                 <view bindtap="__e" class="{{['line','hotelStyle','data-v-fdb4cb92',detailObj.scenicType!=1?'bordertop':'']}}" data-event-opts="{{[ [ 'tap',[ ['jumpHotelIntro'] ] ] ]}}" wx:if="{{detailObj.type==3}}">
-                    <image class="icon data-v-fdb4cb92" src="{{detailObj.openTimeIcon||'https://eshopfile.zhiyousx.com/169157358342351003.png'}}"></image>
+                    <image class="icon data-v-fdb4cb92" src="{{detailObj.openTimeIcon||'/static/captured/3ae890ffbfeee6fd.png'}}"></image>
                     <view class="text singleLineText data-v-fdb4cb92">{{''+(detailObj.facilitiesServicesTitle||'设施服务')}}<text class="data-v-fdb4cb92">｜</text>
                         <block wx:if="{{detailObj.scenicType!=1}}">{{detailObj.hotelPolicyTitle||'入住政策'}}<text class="data-v-fdb4cb92">｜</text>
                         </block>{{(detailObj.trafficGuideTitle||'交通指南')+''}}</view>
                     <image class="jt data-v-fdb4cb92" src="../../static/images/jt.png"></image>
                 </view>
                 <view bindtap="__e" class="{{['line','hotelStyle','data-v-fdb4cb92',detailObj.scenicType!=1?'bordertop':'']}}" data-event-opts="{{[ [ 'tap',[ ['jumpHotelIntro'] ] ] ]}}" wx:if="{{detailObj.type==4}}">
-                    <image class="icon data-v-fdb4cb92" src="{{detailObj.openTimeIcon||'https://eshopfile.zhiyousx.com/169157447415155789.png'}}"></image>
+                    <image class="icon data-v-fdb4cb92" src="{{detailObj.openTimeIcon||'/static/captured/e5b00330284a2948.png'}}"></image>
                     <view class="text singleLineText data-v-fdb4cb92">{{''+(detailObj.storeInfoTitle||'门店信息')}}<text class="data-v-fdb4cb92">｜</text>
                         <block wx:if="{{detailObj.scenicType!=1}}">{{detailObj.facilitiesServicesTitle||'设施服务'}}<text class="data-v-fdb4cb92">｜</text>
                         </block>{{(detailObj.trafficGuideTitle||'交通指南')+''}}</view>
                     <image class="jt data-v-fdb4cb92" src="../../static/images/jt.png"></image>
                 </view>
                 <view bindtap="__e" class="{{['line','bordertop','data-v-fdb4cb92',detailObj.type!=1?'hotelStyle':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'openMap',['$event'] ] ] ] ]}}">
-                    <image class="icon data-v-fdb4cb92" src="{{detailObj.positionIcon||'https://eshopfile.zhiyousx.com/2021061516513797848.png'}}"></image>
+                    <image class="icon data-v-fdb4cb92" src="{{detailObj.positionIcon||'/static/captured/82c2a95a1803c239.png'}}"></image>
                     <view class="text singleLineText data-v-fdb4cb92">{{detailObj.address}}</view>
                     <image class="jt data-v-fdb4cb92" src="../../static/images/jt.png"></image>
                 </view>
@@ -186,13 +186,13 @@
                 <view class="r data-v-fdb4cb92">
                     <view bindtap="__e" class="tag data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'toRanking',['$0'],[ [ ['detailObj.tagIncludeVoList','id',item.id,'contentId'] ] ] ] ] ] ]}}" wx:for="{{detailObj.tagIncludeVoList}}" wx:for-index="__i4__" wx:key="id">
                         <view class="inner data-v-fdb4cb92" style="padding-left:18rpx;">
-                            <image mode class="icon data-v-fdb4cb92" src="{{item.tagUrl?item.tagUrl:'https://eshopfile.zhiyousx.com/2021061517491399963.png'}}"></image>
+                            <image mode class="icon data-v-fdb4cb92" src="{{item.tagUrl?item.tagUrl:'/static/captured/4c2d84e11162ecb9.png'}}"></image>
                             <view class="name data-v-fdb4cb92">{{item.name}}</view>
                         </view>
                     </view>
                     <view bindtap="__e" class="tag data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'toRanking',['$0'],[ [ ['detailObj.originRankingList','contentId',item.contentId,'contentId'] ] ] ] ] ] ]}}" wx:for="{{detailObj.originRankingList}}" wx:for-index="__i5__" wx:key="contentId">
                         <view class="inner data-v-fdb4cb92" style="padding-left:18rpx;">
-                            <image mode class="icon data-v-fdb4cb92" src="{{item.tagUrl?item.tagUrl:'https://eshopfile.zhiyousx.com/2021072117045189271.png'}}"></image>
+                            <image mode class="icon data-v-fdb4cb92" src="{{item.tagUrl?item.tagUrl:'/static/captured/86704a47f07b2acb.png'}}"></image>
                             <view class="name data-v-fdb4cb92">{{item.rankingName}}</view>
                         </view>
                     </view>
@@ -220,7 +220,7 @@
                 <view class="l u-skeleton-fillet data-v-fdb4cb92">{{item.$orig.contentModuleName}}</view>
                 <view bindtap="__e" class="r u-skeleton-fillet data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'jumpSpotContentList',['$0'],[ [ ['detailObj.scenicSpotRelationList','',__i6__] ] ] ] ] ] ]}}" wx:if="{{item.g4>3}}">
                     <view class="data-v-fdb4cb92">{{'全部 '+item.g5}}</view>
-                    <image mode class="data-v-fdb4cb92" src="https://eshopfile.zhiyousx.com/spotDetailNew/jiantou.png"></image>
+                    <image mode class="data-v-fdb4cb92" src="/static/captured/f8266152b9c30922.png"></image>
                 </view>
             </view>
             <view class="item-box data-v-fdb4cb92">
@@ -235,21 +235,21 @@
                 <view class="l data-v-fdb4cb92">{{showVideo?'视频/图片':'图片'}}</view>
                 <view class="r data-v-fdb4cb92">
                     <view class="data-v-fdb4cb92">{{'全部 '+$root.g6}}</view>
-                    <image mode class="data-v-fdb4cb92" src="https://eshopfile.zhiyousx.com/spotDetailNew/jiantou.png"></image>
+                    <image mode class="data-v-fdb4cb92" src="/static/captured/f8266152b9c30922.png"></image>
                 </view>
             </view>
             <scroll-view class="item-box data-v-fdb4cb92" scrollX="true" style="height:248rpx;">
                 <view bindtap="__e" class="item data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'openMedia',[index] ] ] ] ]}}" wx:if="{{item.m1}}" wx:for="{{$root.l1}}">
                     <image class="img data-v-fdb4cb92" mode="aspectFill" src="{{item.$orig.resourcesType==2?item.$orig.coverImage:item.$orig.resourcesUrl}}"></image>
                     <view class="mask data-v-fdb4cb92" wx:if="{{item.$orig.resourcesType==2}}">
-                        <image mode class="icon data-v-fdb4cb92" src="https://eshopfile.zhiyousx.com/spotDetailNew/bofang2.png"></image>
+                        <image mode class="icon data-v-fdb4cb92" src="/static/captured/92b600b4dbb76811.png"></image>
                     </view>
                 </view>
             </scroll-view>
         </view>
     </view>
     <view bindtouchend="__e" bindtouchstart="__e" class="ticket-box fixed data-v-fdb4cb92" data-event-opts="{{[ [ 'touchstart',[ [ 'touchStart',['$event'] ] ] ],[ 'touchend',[ [ 'touchEnd',['$event'] ] ] ] ]}}" style="{{'height:'+windowHeight-headerH+'px'+';'+'bottom:'+(isShowTicket?0:-windowHeight+headerH+$root.g7+'px')+';'}}" wx:if="{{(showTicketList||showUnion)&&showFixTicket}}">
-        <image class="fixedLinear data-v-fdb4cb92" src="https://eshopfile.zhiyousx.com/2021090818342456522.png" wx:if="{{!isShowTicket}}"></image>
+        <image class="fixedLinear data-v-fdb4cb92" src="/static/captured/2d2b3be460f973b3.png" wx:if="{{!isShowTicket}}"></image>
         <view bindtouchstart="__e" class="ticketMask data-v-fdb4cb92" data-event-opts="{{[ [ 'touchstart',[ [ 'showTicketMask',[1] ] ] ] ]}}" wx:if="{{!isShowTicket}}"></view>
         <view catchtap="__e" class="line1 data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'showTicketMask',['$event'] ] ] ] ]}}">
             <view class="data-v-fdb4cb92"></view>
@@ -274,7 +274,7 @@
             </view>
             <view catchtap="__e" class="r data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'jumpSpotIntro',['ydzc'] ] ] ] ]}}" wx:if="{{detailObj.discountVoList[0]&&isShowTicket}}">
                 <view class="data-v-fdb4cb92">{{detailObj.reservationNoticeTitle||'优待政策'}}</view>
-                <image mode class="data-v-fdb4cb92" src="https://eshopfile.zhiyousx.com/spotDetailNew/jiantoured.png"></image>
+                <image mode class="data-v-fdb4cb92" src="/static/captured/95a97c9d83d5bf4a.png"></image>
             </view>
         </view>
         <swiper bindchange="__e" class="swiper data-v-fdb4cb92" current="{{tabIndex}}" data-event-opts="{{[ [ 'change',[ [ 'changeSwiper',['$event'] ] ] ] ]}}" style="{{'width:'+'100%'+';'+'height:'+swiperH+'px'+';'}}">
@@ -306,7 +306,7 @@
             <view class="l data-v-fdb4cb92">{{''+(detailObj.ticketTitle||'门票预订')+''}}</view>
             <view catchtap="__e" class="r data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'jumpSpotIntro',['ydzc'] ] ] ] ]}}" wx:if="{{detailObj.discountVoList[0]}}">
                 <view class="data-v-fdb4cb92">{{detailObj.reservationNoticeTitle||'优待政策'}}</view>
-                <image mode class="data-v-fdb4cb92" src="https://eshopfile.zhiyousx.com/spotDetailNew/jiantoured.png"></image>
+                <image mode class="data-v-fdb4cb92" src="/static/captured/95a97c9d83d5bf4a.png"></image>
             </view>
         </view>
         <swiper bindchange="__e" class="swiper data-v-fdb4cb92" current="{{tabIndex}}" data-event-opts="{{[ [ 'change',[ [ 'changeSwiper',['$event'] ] ] ] ]}}" style="{{'width:'+'100%'+';'+'height:'+swiperH+'px'+';'}}">
@@ -422,16 +422,16 @@
             <view class="title data-v-fdb4cb92">分享到</view>
             <view class="icon-box data-v-fdb4cb92" wx:if="{{$root.g9}}">
                 <view class="item data-v-fdb4cb92">
-                    <image mode class="icon data-v-fdb4cb92" src="https://eshopfile.zhiyousx.com/2022090510365178497.png"></image>
+                    <image mode class="icon data-v-fdb4cb92" src="/static/captured/09beb456e6c9cf66.png"></image>
                     <view class="t data-v-fdb4cb92">微信好友</view>
                     <button class="sharebtn data-v-fdb4cb92" data-aaa="111" openType="share"></button>
                 </view>
                 <view bindtap="__e" class="item data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'e2',['$event'] ] ] ] ]}}" wx:if="{{$root.g10}}">
-                    <image mode class="icon data-v-fdb4cb92" src="https://eshopfile.zhiyousx.com/2022090510374178970.png"></image>
+                    <image mode class="icon data-v-fdb4cb92" src="/static/captured/47c174eba1561d42.png"></image>
                     <view class="t data-v-fdb4cb92">小程序码</view>
                 </view>
                 <view bindtap="__e" class="item data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'e3',['$event'] ] ] ] ]}}" wx:if="{{$root.g11}}">
-                    <image mode class="icon data-v-fdb4cb92" src="https://eshopfile.zhiyousx.com/2022090510375744214.png"></image>
+                    <image mode class="icon data-v-fdb4cb92" src="/static/captured/25c23b41b665e00b.png"></image>
                     <view class="t data-v-fdb4cb92">海报</view>
                 </view>
             </view>
@@ -455,14 +455,14 @@
             <view class="title data-v-fdb4cb92">商家电话</view>
             <view bindtap="__e" class="phone-row data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'call',['$0'],[ [ ['unionEquityCard.phoneList','',__i7__] ] ] ] ] ] ]}}" wx:if="{{$root.g12}}" wx:for="{{unionEquityCard.phoneList}}" wx:for-index="__i7__" wx:for-item="it">
                 <view class="left data-v-fdb4cb92">{{''+it+''}}</view>
-                <image mode class="data-v-fdb4cb92" src="https://eshopfile.zhiyousx.com/spotIntroNew/dianhua.png" style="width:32rpx;height:32rpx;"></image>
+                <image mode class="data-v-fdb4cb92" src="/static/captured/9653e7f23b8aa244.png" style="width:32rpx;height:32rpx;"></image>
             </view>
             <view bindtap="__e" class="close-b data-v-fdb4cb92" data-event-opts="{{[ [ 'tap',[ [ 'e7',['$event'] ] ] ] ]}}">取消</view>
         </view>
     </u-popup>
     <l-painter bind:__l="__l" bind:success="__e" class="data-v-fdb4cb92" customStyle="position: fixed; left: 200%" data-event-opts="{{[ [ '^success',[ ['e8'] ] ] ]}}" isCanvasToTempFilePath="{{true}}" vueId="ff18a438-32" vueSlots="{{['default']}}" wx:if="{{qrCode&&ticketpostObj&&ticketpostObj.sharePosterUrl}}">
         <l-painter-image bind:__l="__l" class="data-v-fdb4cb92" css="object-fit: fill;width:750rpx;" src="{{ticketpostObj.sharePosterUrl}}" vueId="{{'ff18a438-33'+','+'ff18a438-32'}}"></l-painter-image>
-        <l-painter-image bind:__l="__l" class="data-v-fdb4cb92" css="object-fit: fill;width:750rpx;" src="https://eshopfile.zhiyousx.com/2022090511375406833.png" vueId="{{'ff18a438-34'+','+'ff18a438-32'}}"></l-painter-image>
+        <l-painter-image bind:__l="__l" class="data-v-fdb4cb92" css="object-fit: fill;width:750rpx;" src="/static/captured/f04b984cd6cc46be.png" vueId="{{'ff18a438-34'+','+'ff18a438-32'}}"></l-painter-image>
         <l-painter-image bind:__l="__l" class="data-v-fdb4cb92" css="object-fit: fill;width:155rpx;height:155rpx;position:absolute;bottom:13rpx;right:46rpx" src="{{qrCode}}" vueId="{{'ff18a438-35'+','+'ff18a438-32'}}"></l-painter-image>
     </l-painter>
     <s-painter bind:__l="__l" bind:success="__e" board="{{posterData}}" class="data-v-fdb4cb92" data-event-opts="{{[ [ '^success',[ ['e9'] ] ] ]}}" isRenderImage="{{true}}" style="display:none;" vueId="ff18a438-36" wx:if="{{isAndroid}}"></s-painter>

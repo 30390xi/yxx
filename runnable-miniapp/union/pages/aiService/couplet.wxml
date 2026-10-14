@@ -1,9 +1,9 @@
 <view class="page-box page-box-image2 data-v-1bd2ee50">
     <uni-navbar bind:__l="__l" class="data-v-1bd2ee50" type="transparentFixed" vueId="3c4e8efd-1"></uni-navbar>
-    <image class="video_box1 data-v-1bd2ee50" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173647694935403302.png"></image>
-    <image mode class="fireworks1 data-v-1bd2ee50" src="https://eshopfile.zhiyousx.com/173650265898469613.png"></image>
-    <image mode class="fireworks2 data-v-1bd2ee50" src="https://eshopfile.zhiyousx.com/173650482751437807.png"></image>
-    <image mode class="fireworks3 data-v-1bd2ee50" src="https://eshopfile.zhiyousx.com/173650483980311452.png"></image>
+    <image class="video_box1 data-v-1bd2ee50" mode="aspectFill" src="/static/captured/36849ab10b1a28fe.png"></image>
+    <image mode class="fireworks1 data-v-1bd2ee50" src="/static/captured/9bedbec22d0cda82.png"></image>
+    <image mode class="fireworks2 data-v-1bd2ee50" src="/static/captured/bd8dab05bc1ff7ac.png"></image>
+    <image mode class="fireworks3 data-v-1bd2ee50" src="/static/captured/23ad26a26325789b.png"></image>
     <z-paging bind:__l="__l" bind:input="__e" bind:keyboardHeightChange="__e" bottomBgColor="linear-gradient( 180deg, rgba(255,255,255,0) 0%, #FFD899 100%)" class="data-v-1bd2ee50 vue-ref" data-event-opts="{{[ [ '^keyboardHeightChange',[ ['keyboardHeightChange'] ] ],[ '^input',[ [ '__set_model',[ '','dataList','$event',[] ] ] ] ] ]}}" data-ref="paging" safeAreaInsetBottom="{{isIos}}" style="position:fixed;z-index:11;" toBottomLoadingMoreEnabled="{{true}}" useChatRecordMode="{{true}}" value="{{dataList}}" vueId="3c4e8efd-2" vueSlots="{{['default','top','bottom']}}">
         <view class="data-v-1bd2ee50" slot="top" style="height:300rpx;width:100%;"></view>
         <chat-input-bar bg="{{true}}" bind:__l="__l" bind:clearData="__e" bind:clearDataStop="__e" bind:send="__e" bind:stopSpeak="__e" class="data-v-1bd2ee50 vue-ref" data-event-opts="{{[ [ '^stopSpeak',[ ['stopSpeak'] ] ],[ '^clearData',[ ['clearData'] ] ],[ '^clearDataStop',[ ['clearDataStop'] ] ],[ '^send',[ ['doSend'] ] ] ]}}" data-ref="inputBar" detail="{{spotDetail}}" isIos="{{isIos}}" pushingProgress="{{pushingProgress}}" pushingProgressShow="{{pushingProgressShow}}" showHide="{{showHide}}" slot="bottom" vueId="{{'3c4e8efd-3'+','+'3c4e8efd-2'}}"></chat-input-bar>

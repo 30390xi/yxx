@@ -1,0 +1,71 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "1454068056337784834",
+      "resourcesId": "1322076789361893378",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092210485176688.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2021-10-29 20:50:14",
+      "updateTime": "2021-10-29 20:50:14",
+      "createBy": "1293433954543640578",
+      "updateBy": "1293433954543640578",
+      "isDeleted": 0
+    },
+    {
+      "id": "1454068056337784835",
+      "resourcesId": "1322076789361893378",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092210485765295.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 2,
+      "describe": null,
+      "createTime": "2021-10-29 20:50:14",
+      "updateTime": "2021-10-29 20:50:14",
+      "createBy": "1293433954543640578",
+      "updateBy": "1293433954543640578",
+      "isDeleted": 0
+    },
+    {
+      "id": "1454068056341979138",
+      "resourcesId": "1322076789361893378",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/蜀河古镇2-20201030152309.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 3,
+      "describe": null,
+      "createTime": "2021-10-29 20:50:14",
+      "updateTime": "2021-10-29 20:50:14",
+      "createBy": "1293433954543640578",
+      "updateBy": "1293433954543640578",
+      "isDeleted": 0
+    },
+    {
+      "id": "1454068056341979139",
+      "resourcesId": "1322076789361893378",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/蜀河古镇1-20201030152302.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 4,
+      "describe": null,
+      "createTime": "2021-10-29 20:50:14",
+      "updateTime": "2021-10-29 20:50:14",
+      "createBy": "1293433954543640578",
+      "updateBy": "1293433954543640578",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

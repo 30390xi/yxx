@@ -1,0 +1,570 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941096",
+    "scenicName": "汉景帝阳陵博物院",
+    "tag": "西汉景帝刘启的陵墓",
+    "level": 4,
+    "cityId": "1320620100725026817",
+    "cityName": "西安",
+    "address": "咸阳市渭城区正阳镇机场路东",
+    "longitude": "108.9547230000",
+    "latitude": "34.4483090000",
+    "openingStatus": 1,
+    "capacity": 2000,
+    "sequence": 45,
+    "topColour": "#DD9F0C",
+    "centralColour": "#D88211",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2022102410490153030.jpg",
+      "https://eshopfile.zhiyousx.com/2021082517495715799.png"
+    ],
+    "introduction": "<p>　　汉阳陵博物馆位于陕西省西安市北郊的渭河之畔，是全国重点文物保护单位。它依托西汉景帝与王皇后同茔异穴合葬的阳陵陵园而建，是一座巧妙融合现代科技与古代文明、历史文化与园林景观于一体的大型文化旅游景区，是中国占地面积最大的博物馆。汉阳陵主要由帝陵陵园、后陵陵园、南区从葬坑、北区从葬坑、礼制建筑、陪葬墓园、刑徒墓地以及阳陵邑等部分组成。帝陵陵园为方形，坐西向东，封土四周被81条呈放射状的陪葬坑簇拥着；陵园东阙门外的神道长达900米，与宽达110米的司马道相接，向东直通5公里之外的阳陵邑，司马道南北两侧整齐排列着王侯将相和文武百官的10000余座陪葬墓。陵区内200多座陪葬坑中出土的武士俑披坚执鋭、严阵以待；仕女俑宽衣博带、美目流盼；动物俑累千成万、生动异常。其丰富的随葬品是中国封建帝王&ldquo;事死如事生&rdquo;丧葬观念的真实体现。汉阳陵是迄今发现保存最为完整的汉代帝陵陵园，因而成为人们了解、研究汉代帝王陵寝制度以及汉代历史文化的重要实物资料。</p>",
+    "introductionText": "　　汉阳陵博物馆位于陕西省西安市北郊的渭河之畔，是全国重点文物保护单位。它依托西汉景帝与王皇后同茔异穴合葬的阳陵陵园而建，是一座巧妙融合现代科技与古代文明、历史文化与园林景观于一体的大型文化旅游景区，是中国占地面积最大的博物馆。汉阳陵主要由帝陵陵园、后陵陵园、南区从葬坑、北区从葬坑、礼制建筑、陪葬墓园、刑徒墓地以及阳陵邑等部分组成。帝陵陵园为方形，坐西向东，封土四周被81条呈放射状的陪葬坑簇拥着；陵园东阙门外的神道长达900米，与宽达110米的司马道相接，向东直通5公里之外的阳陵邑，司马道南北两侧整齐排列着王侯将相和文武百官的10000余座陪葬墓。陵区内200多座陪葬坑中出土的武士俑披坚执鋭、严阵以待；仕女俑宽衣博带、美目流盼；动物俑累千成万、生动异常。其丰富的随葬品是中国封建帝王“事死如事生”丧葬观念的真实体现。汉阳陵是迄今发现保存最为完整的汉代帝陵陵园，因而成为人们了解、研究汉代帝王陵寝制度以及汉代历史文化的重要实物资料。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026327547906",
+        "contentId": "1418152026310770690",
+        "name": "国家一级博物馆",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026591789057",
+        "contentId": "1418152026583400449",
+        "name": "全国科普教育基地",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1608375821117603841",
+        "contentId": "1608375821109215234",
+        "name": "国家考古遗址公园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/167230146627310473.png"
+      }
+    ],
+    "noticeMsg": "<section class=\"\" style=\"background-color: #fff4e1; margin-bottom: unset;\" data-pm-slice=\"0 0 []\">\n<section class=\"\" style=\"overflow: hidden; background-color: #fcf0dc; margin-bottom: unset;\" data-support=\"96编辑器\">\n<section style=\"margin-bottom: unset;\">\n<section class=\"\" style=\"overflow: hidden; background-color: #fff4e1; display: flex; justify-content: center; align-items: center; color: #de8577; font-size: 33px; line-height: 1; margin: 25px 0px unset 0px;\"><strong style=\"caret-color: red;\"><span style=\"color: #7b0600; font-size: 18px; letter-spacing: 2px; caret-color: red;\">延时开放公告</span></strong></section>\n</section>\n</section>\n<section style=\"overflow: hidden; background-color: #fcf0dc; margin-bottom: unset;\" data-tpl-id=\"25463\">\n<section style=\"margin-bottom: unset;\">\n<section class=\"\" style=\"margin-bottom: unset;\">\n<section style=\"margin-bottom: unset;\" data-tpl-id=\"22190\">\n<section class=\"\" style=\"overflow: hidden; background-color: #fff4e1; margin-bottom: unset;\">\n<section style=\"margin-bottom: unset;\">\n<section class=\"\" style=\"margin: 15px 0 15px;\">\n<section class=\"\" style=\"margin-bottom: unset;\">\n<section class=\"\" style=\"color: #790000; font-size: 15px; margin: 13px;\">\n<p style=\"-webkit-tap-highlight-color: transparent; text-align: left;\" align=\"left\"><span style=\"color: #000000; font-size: 14px; letter-spacing: 0.034em;\"><span style=\"font-size: 15px;\"><strong>亲爱的游客朋友们：</strong></span></span></p>\n<p style=\"-webkit-tap-highlight-color: transparent; text-align: left;\" align=\"left\"><span style=\"font-size: 14px; -webkit-tap-highlight-color: transparent; color: #000000;\">2026年中秋、国庆假期将至，为更好满足广大观众假日期间精神文化需求，进一步提升博物院接待服务能力，汉景帝阳陵博物院将实行延时开放，具体时间安排如下：</span></p>\n<p style=\"-webkit-tap-highlight-color: transparent; text-align: left;\" align=\"left\"><span style=\"font-size: 14px; -webkit-tap-highlight-color: transparent; color: #000000;\"><strong>一、延时公告</strong></span></p>\n<p style=\"-webkit-tap-highlight-color: transparent; text-align: left;\" align=\"left\"><span style=\"-webkit-tap-highlight-color: transparent; font-size: 14px; color: #000000;\">&nbsp;1. 此次双节延时惠民开放时间为：2026年9月25日至9月27日；10月1日至7日，共10天。</span></p>\n<p style=\"-webkit-tap-highlight-color: transparent; text-align: left;\" align=\"left\"><span style=\"-webkit-tap-highlight-color: transparent; color: #000000;\"><span style=\"font-size: 14px; color: #000000;\">&nbsp;2.&nbsp;</span><span style=\"-webkit-tap-highlight-color: #00000000; font-size: 14px;\">博物院开放时间增加90分钟。即：08:30开始检票，</span><span style=\"-webkit-tap-highlight-color: #00000000; font-size: 14px; color: #ab1942;\"><strong>18:30停止进入（原17:00停止进入）</strong></span><span style=\"-webkit-tap-highlight-color: #00000000; font-size: 14px;\">。</span></span></p>\n<p style=\"-webkit-tap-highlight-color: transparent; text-align: left;\" align=\"left\"><span style=\"font-size: 14px; -webkit-tap-highlight-color: transparent; color: #000000;\"><strong>二、门票价格</strong></span></p>\n<p style=\"-webkit-tap-highlight-color: transparent; text-align: left;\" align=\"left\"><span style=\"font-size: 14px; -webkit-tap-highlight-color: transparent; color: #000000;\">&nbsp;1.成人票：</span></p>\n<p style=\"-webkit-tap-highlight-color: transparent; text-align: left;\" align=\"left\"><span style=\"font-size: 14px; -webkit-tap-highlight-color: transparent; color: #000000;\">&nbsp; &nbsp; &nbsp;旺季 (3月至11月)：70元/人</span></p>\n<p style=\"-webkit-tap-highlight-color: transparent; text-align: left;\" align=\"left\"><span style=\"-webkit-tap-highlight-color: transparent; font-size: 14px; color: #000000;\">&nbsp;2.学生票：</span></p>\n<p style=\"-webkit-tap-highlight-color: transparent; text-align: left;\" align=\"left\"><span style=\"font-size: 14px; -webkit-tap-highlight-color: transparent; color: #000000;\">&nbsp; &nbsp; &nbsp;旺季 (3月至11月)：35元/人</span></p>\n<p style=\"-webkit-tap-highlight-color: transparent; text-align: left;\" align=\"left\"><span style=\"color: #000000;\"><span style=\"-webkit-tap-highlight-color: transparent; font-size: 14px; color: #000000;\">&nbsp;3.&nbsp;</span><span style=\"overflow: hidden; background-color: #fff4e1; text-align: left; -webkit-tap-highlight-color: transparent; font-size: 14px; color: #000000;\">政策性免票按照国家有关规定执行</span></span></p>\n<p style=\"-webkit-tap-highlight-color: transparent; text-align: left;\" align=\"left\"><span style=\"font-size: 14px; -webkit-tap-highlight-color: transparent; color: #000000;\"><strong>三、购票方式</strong></span></p>\n<p style=\"-webkit-tap-highlight-color: transparent; text-align: left;\" align=\"left\"><span style=\"font-size: 14px; -webkit-tap-highlight-color: transparent; color: #000000;\">1. 实名制窗口购票；</span></p>\n<p style=\"-webkit-tap-highlight-color: transparent; text-align: left;\" align=\"left\"><span style=\"font-size: 14px; -webkit-tap-highlight-color: transparent; color: #000000;\">2. 游客可以在&ldquo;汉景帝阳陵博物院&rdquo;和&ldquo;汉阳陵国家考古遗址公园&rdquo;微信公众号，携程、美团等OTA平台进行实名预约购票；</span></p>\n<p style=\"-webkit-tap-highlight-color: transparent; text-align: left;\" align=\"left\"><span style=\"font-size: 14px; -webkit-tap-highlight-color: transparent; color: #000000;\"><span data-pm-slice=\"1 1 [&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;background-color:rgb(255, 244, 225);margin-bottom:unset;&quot;,&quot;data-pm-slice&quot;:&quot;0 0 []&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;data-tpl-id&quot;:&quot;25463&quot;,&quot;style&quot;:&quot;overflow:hidden;background-color:rgb(252, 240, 220);margin-bottom:unset;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;margin-bottom:unset;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;margin-bottom:unset;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;data-tpl-id&quot;:&quot;22190&quot;,&quot;style&quot;:&quot;margin-bottom:unset;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;overflow:hidden;background-color:#fff4e1;margin-bottom:unset;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;margin-bottom:unset;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;margin:15px 0 15px;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;margin-bottom:unset;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;color:#790000;font-size:15px;margin:13px;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;p&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;-webkit-tap-highlight-color:transparent;text-align:left;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;node&quot;,{&quot;tagName&quot;:&quot;span&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;font-size:14px;-webkit-tap-highlight-color:transparent;color:#000000;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;}]\">３. 为增加节日氛围，汉阳陵博物院增设了多个节庆打卡点，欢迎大家前来拍照打卡。</span></span></p>\n<p style=\"-webkit-tap-highlight-color: transparent; text-align: left;\" align=\"left\"><span style=\"font-size: 14px; -webkit-tap-highlight-color: transparent; color: #000000;\"><span data-pm-slice=\"1 1 [&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;background-color:rgb(255, 244, 225);margin-bottom:unset;&quot;,&quot;data-pm-slice&quot;:&quot;0 0 []&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;data-tpl-id&quot;:&quot;25463&quot;,&quot;style&quot;:&quot;overflow:hidden;background-color:rgb(252, 240, 220);margin-bottom:unset;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;margin-bottom:unset;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;margin-bottom:unset;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;data-tpl-id&quot;:&quot;22190&quot;,&quot;style&quot;:&quot;margin-bottom:unset;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;overflow:hidden;background-color:#fff4e1;margin-bottom:unset;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;margin-bottom:unset;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;margin:15px 0 15px;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;margin-bottom:unset;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;color:#790000;font-size:15px;margin:13px;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;p&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;-webkit-tap-highlight-color:transparent;text-align:left;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;node&quot;,{&quot;tagName&quot;:&quot;span&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;font-size:14px;-webkit-tap-highlight-color:transparent;color:#000000;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;}]\">&nbsp;</span></span></p>\n<p style=\"-webkit-tap-highlight-color: transparent; text-align: right;\" align=\"right\"><span style=\"font-size: 14px; -webkit-tap-highlight-color: transparent; color: #000000;\"><span data-pm-slice=\"1 1 [&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;background-color:rgb(255, 244, 225);margin-bottom:unset;&quot;,&quot;data-pm-slice&quot;:&quot;0 0 []&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;data-tpl-id&quot;:&quot;25463&quot;,&quot;style&quot;:&quot;overflow:hidden;background-color:rgb(252, 240, 220);margin-bottom:unset;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;margin-bottom:unset;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;margin-bottom:unset;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;data-tpl-id&quot;:&quot;22190&quot;,&quot;style&quot;:&quot;margin-bottom:unset;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;overflow:hidden;background-color:#fff4e1;margin-bottom:unset;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;margin-bottom:unset;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;margin:15px 0 15px;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;margin-bottom:unset;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;color:#790000;font-size:15px;margin:13px;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;para&quot;,{&quot;tagName&quot;:&quot;p&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;-webkit-tap-highlight-color:transparent;text-align:left;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;,&quot;data-layout-id&quot;:null},&quot;node&quot;,{&quot;tagName&quot;:&quot;span&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;font-size:14px;-webkit-tap-highlight-color:transparent;color:#000000;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;}]\">来源：汉景帝阳陵博物院</span></span></p>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section>\n<p>&nbsp;</p>\n</section>\n<p style=\"display: none;\">&nbsp;</p>\n<section class=\"_135editor\"></section>",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "开放时间",
+        "openTimeContent": "每天8：30-18：30<br/>17：00停止入馆"
+      },
+      {
+        "openTimeTitle": "开放区域",
+        "openTimeContent": "考古陈列馆、帝陵外藏坑保护展示厅（地下馆）、南阙门遗址等开放区域。"
+      },
+      {
+        "openTimeTitle": "预约需知",
+        "openTimeContent": "实行身份证实名制网络预约购票，登陆“汉阳陵国家考古遗址公园微信公众号，点击“门票预约—门票订购—电子门票—立即购买”进行实名购票。游客在进入园区时，需扫描“西安一码通”，显示绿码并经工作人员核验后方可进入。"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "6周岁以下（含6周岁），持本人户口簿或《出生证》及身高1.2米以下儿童",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "65周岁以上老人持老年证及身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "军人",
+        "limit": "持军官证、军残证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "6周岁（不含6周岁）至18周岁（含18周岁）未成年人",
+        "discount": "半价"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "该票种适用于全日制大学本科及以下学历在校学生（需出具有效学生证）",
+        "discount": "半价"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "56",
+        "name": "讲解器租赁",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016433125149.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "10",
+        "name": "商店",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (19).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "11",
+        "name": "餐厅",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (22).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "讲解服务",
+        "additionalExplainContent": "提供语音导览租赁服务，暂不提供人工讲解。"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>1.游4乘车线路&nbsp;</p>\n<p>（发车：8:30、10:20、12:00、13:40、15:20、17:00；返程：9:30、11:10、12:50、14:30、16:10、18:00）</p>\n<p>&nbsp;起点：西安市图书馆；终点：汉阳陵博物馆</p>\n<p>2.咸阳5路公交车</p>\n<p>咸阳火车站&rarr;汉阳陵博物馆</p>\n<p>3.西安市地铁二号线至市图书馆站D出口，转乘游4抵达汉阳陵博物馆</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": "<p><strong>去程：</strong>地铁二号线红会医院（北院区）站&rarr;汉阳陵&nbsp;<strong>发车时间：</strong>10:30，11:30</p>\n<p><strong>返程：</strong>汉阳陵&rarr;地铁二号线红会医院（北院区）站&nbsp;<strong>发车时间：</strong>14:30，16:00</p>\n<p><strong>运营时间：10月21日&mdash;11月30日</strong>（具体日期班次会根据天气情况进行调整，请以&ldquo;西咸公交&rdquo;小程序购票时间为准）</p>\n<section>\n<section>\n<p><strong>乘车地点：</strong>由地铁站红会医院（北院区）D口出站后，在正阳大道尚稷路口公交站（黄马甲门口）乘坐。</p>\n</section>\n</section>"
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<p>1.从西安市区出发，可以沿朱宏路直行至新建的机场专用高速公路。在新建的机场专用高速公路上有&ldquo;汉阳陵&rdquo;标识牌引导，一路可轻松便捷抵达汉阳陵。走新开通的机场专用高速公路到汉阳陵只需缴费5元。</p>\n<p>2.从省外到陕西的游客，可以从西安绕城高速公路&ldquo;朱宏路&rdquo;出口进入新建的机场专用高速公路。在新建的机场专用高速公路上有&ldquo;汉阳陵&rdquo;标识牌引导，一路可轻松便捷抵达汉阳陵。</p>\n<p>3.乘机抵达西安咸阳国际机场的游客，从机场出发沿新建的西安咸阳国际机场专用高速公路，按&ldquo;汉阳陵&rdquo;标识牌的指引便可轻松便捷抵达汉阳陵。</p>"
+      }
+    ],
+    "officialWebsite": [
+      "http://www.hylae.com/index.php"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "联系电话",
+        "telephone": "029-62657530"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "汉阳陵国家考古遗址公园",
+        "wxSubscription": "hylbwy"
+      }
+    ],
+    "sinaWeiboVoList": [
+      {
+        "sinaWeibo": "汉景帝阳陵博物馆",
+        "sinaWeiboUrl": "https://weibo.com/u/5348093967"
+      }
+    ],
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": "精品视窗",
+    "contentResourcesDtoList": [
+      {
+        "id": "2102295664442662913",
+        "resourcesId": "1321276590498557953",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082517530751004.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-09-22 15:15:19",
+        "updateTime": "2026-09-22 15:15:19",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102295664442662914",
+        "resourcesId": "1321276590498557953",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082517532274305.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-09-22 15:15:19",
+        "updateTime": "2026-09-22 15:15:19",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102295664446857218",
+        "resourcesId": "1321276590498557953",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082517535738140.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-09-22 15:15:19",
+        "updateTime": "2026-09-22 15:15:19",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102295664451051521",
+        "resourcesId": "1321276590498557953",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082517531488487.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-09-22 15:15:19",
+        "updateTime": "2026-09-22 15:15:19",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102295664451051522",
+        "resourcesId": "1321276590498557953",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082517525821298.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2026-09-22 15:15:19",
+        "updateTime": "2026-09-22 15:15:19",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102295664455245826",
+        "resourcesId": "1321276590498557953",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082517543351251.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2026-09-22 15:15:19",
+        "updateTime": "2026-09-22 15:15:19",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102295664459440130",
+        "resourcesId": "1321276590498557953",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082517564654454.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2026-09-22 15:15:19",
+        "updateTime": "2026-09-22 15:15:19",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102295664459440131",
+        "resourcesId": "1321276590498557953",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082517572852096.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2026-09-22 15:15:19",
+        "updateTime": "2026-09-22 15:15:19",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1439119981701840898",
+      "rankingId": null,
+      "indexInRanking": 12,
+      "rankingName": "陕西人气博物馆排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1658303499793903618",
+        "rankingId": "1658303501412904962",
+        "indexInRanking": null,
+        "rankingName": "历史文化类博物馆人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1680835374538088449",
+        "rankingId": "1680835375632801794",
+        "indexInRanking": null,
+        "rankingName": "陕西省热搜50强博物馆排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "2102295664472023042",
+        "scenicSpotId": "1320579064720941096",
+        "contentModuleName": "精品视窗",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1419857031434690561",
+            "type": 5,
+            "title": "着衣式武士俑",
+            "subtitle": "西汉阳刚之美",
+            "coverImage": "https://eshopfile.zhiyousx.com/162987717864189634.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1419857406984282113",
+            "type": 5,
+            "title": "铠甲武士俑",
+            "subtitle": "刚强的铠甲战士",
+            "coverImage": "https://eshopfile.zhiyousx.com/162988021193771140.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1419857754230710274",
+            "type": 5,
+            "title": "塑衣式彩绘跽坐侍女俑",
+            "subtitle": "美丽的西汉侍女",
+            "coverImage": "https://eshopfile.zhiyousx.com/162987897897585278.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1419858355526131714",
+            "type": 5,
+            "title": "舞蹈俑",
+            "subtitle": "西汉舞者",
+            "coverImage": "https://eshopfile.zhiyousx.com/162987964686699871.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1419858611156377602",
+            "type": 5,
+            "title": "彩绘陶鸡",
+            "subtitle": "藏在博物馆的鸡",
+            "coverImage": "https://eshopfile.zhiyousx.com/162988111160206323.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1419859609069379586",
+            "type": 5,
+            "title": "“长宜子孙”规矩纹镜",
+            "subtitle": "穿越千年的镜子",
+            "coverImage": "https://eshopfile.zhiyousx.com/162988241409529592.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1419860818027175937",
+            "type": 5,
+            "title": "军武库器",
+            "subtitle": "掌管武库大权",
+            "coverImage": "https://eshopfile.zhiyousx.com/162988347707214056.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1419861294458167298",
+            "type": 5,
+            "title": "车骑将军",
+            "subtitle": "价值不菲的陪葬品",
+            "coverImage": "https://eshopfile.zhiyousx.com/162988277112453658.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1419861684666851329",
+            "type": 5,
+            "title": "“阳陵令印”封泥",
+            "subtitle": "千年印泥",
+            "coverImage": "https://eshopfile.zhiyousx.com/162988369833654256.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1419862038762577921",
+            "type": 5,
+            "title": "“大官令印” 封泥",
+            "subtitle": "主管膳食之印",
+            "coverImage": "https://eshopfile.zhiyousx.com/162988426686448182.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1433001243109863425",
+            "type": 5,
+            "title": "宗正之印",
+            "subtitle": "掌管皇族宗亲事务",
+            "coverImage": "https://eshopfile.zhiyousx.com/163048881633052774.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": "2026年“中秋”“国庆”假期开放公告",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,236 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1455060077806460930",
+    "contentId": "1455060076934045697",
+    "rankingName": "咸阳亲子游景点排行榜",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/166234489948027040.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": "人去过",
+    "rankingInclude": "个景点",
+    "rankingPersonalInfo": "我去过的景点",
+    "rankingSharePictureUrl": "https://eshopfile.zhiyousx.com/166234432942122640.jpg",
+    "bottomColour": "#716699",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1320579064720941092",
+        "originType": "1",
+        "originName": "张裕长歌酒庄",
+        "originSubtitleName": "浪漫意大利 梦幻酒城堡",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021080217370421348.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/timg (5)-20201028145717.jpg",
+          "https://eshopfile.zhiyousx.com/timg (7)-20201028145728.jpg",
+          "https://eshopfile.zhiyousx.com/timg (6)-20201028145737.jpg",
+          "https://eshopfile.zhiyousx.com/2021072817560426135.jpg",
+          "https://eshopfile.zhiyousx.com/2021072817561223854.jpg",
+          "https://eshopfile.zhiyousx.com/2021072817562183288.jpg",
+          "https://eshopfile.zhiyousx.com/2021072817562866307.jpg"
+        ],
+        "sort": "0",
+        "favoriteValue": null,
+        "isBookable": true,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064188264497",
+        "originType": "1",
+        "originName": "乐华恒业欢乐世界",
+        "originSubtitleName": "充满激情、动感和时尚的欢乐国度",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021062314152264650.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/321-20201028173615.jpg",
+          "https://eshopfile.zhiyousx.com/341-20201028173624.jpg",
+          "https://eshopfile.zhiyousx.com/361-20201028173630.jpg",
+          "https://eshopfile.zhiyousx.com/371-20201028173636.jpg",
+          "https://eshopfile.zhiyousx.com/378-20201028173644.jpg"
+        ],
+        "sort": "1",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064720941093",
+        "originType": "1",
+        "originName": "袁家村关中印象体验地",
+        "originSubtitleName": "陕西的丽江，吃货的天堂",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021081717131284929.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021081717180212066.jpg",
+          "https://eshopfile.zhiyousx.com/2021081717114495738.jpg",
+          "https://eshopfile.zhiyousx.com/2021081717115406293.jpg",
+          "https://eshopfile.zhiyousx.com/2021081717120396697.jpg",
+          "https://eshopfile.zhiyousx.com/2021081717181523070.jpg",
+          "https://eshopfile.zhiyousx.com/2021081717182656483.jpg"
+        ],
+        "sort": "2",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064666415131",
+        "originType": "1",
+        "originName": "郑国渠旅游风景区",
+        "originSubtitleName": "世界灌溉工程遗产",
+        "originUrl": "https://eshopfile.zhiyousx.com/2022102410463103457.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/d2046ec7-8a89-4b3a-97d4-739bfcede80b-20201028160138.jpg",
+          "https://eshopfile.zhiyousx.com/u=1521967570,4120898829&fm=26&gp=0-20201028160147.jpg"
+        ],
+        "sort": "3",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064720941091",
+        "originType": "1",
+        "originName": "马嵬驿民俗文化体验园",
+        "originSubtitleName": "蝉鬓不随銮驾去，至今空感往来人",
+        "originUrl": "https://eshopfile.zhiyousx.com/timg (1)-20201028103720.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/timg (2)-20201028103727.jpg",
+          "https://eshopfile.zhiyousx.com/timg-20201028103734.jpg",
+          "https://eshopfile.zhiyousx.com/u=3198183851,2107968671&fm=26&gp=0-20201028103747.jpg"
+        ],
+        "sort": "4",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064720941099",
+        "originType": "1",
+        "originName": "乾陵景区",
+        "originSubtitleName": "一代女皇圣地，千古盛唐乾陵",
+        "originUrl": "https://eshopfile.zhiyousx.com/100o1f000001gp3s825D2_R_1600_10000-20201028094819.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/58b255a8-7ff0-43fd-bc44-1f13bf1219a9-20201028095644.jpg",
+          "https://eshopfile.zhiyousx.com/2021090217023180020.jpg",
+          "https://eshopfile.zhiyousx.com/2021090217024165093.jpg",
+          "https://eshopfile.zhiyousx.com/465f0df9-ceae-4af4-b0a6-874e70b21a71-20201028095659.jpg",
+          "https://eshopfile.zhiyousx.com/ad012a0a-2f6b-4255-99f4-735ac4a8e15e-20201028095709.jpg"
+        ],
+        "sort": "5",
+        "favoriteValue": null,
+        "isBookable": true,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064720941097",
+        "originType": "1",
+        "originName": "汉武帝茂陵博物馆",
+        "originSubtitleName": "感受汉武大帝的雄韬武略",
+        "originUrl": "https://eshopfile.zhiyousx.com/f5fbb452-3fcd-4997-a108-0509623cf608-20201028144505.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/timg (2)-20201028144340.jpg",
+          "https://eshopfile.zhiyousx.com/2021090214361800187.jpg",
+          "https://eshopfile.zhiyousx.com/2021090214280637218.jpg",
+          "https://eshopfile.zhiyousx.com/timg (3)-20201028144349.jpg",
+          "https://eshopfile.zhiyousx.com/timg (1)-20201028144358.jpg",
+          "https://eshopfile.zhiyousx.com/2021090214282936781.jpg"
+        ],
+        "sort": "6",
+        "favoriteValue": null,
+        "isBookable": true,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064595111971",
+        "originType": "1",
+        "originName": "昭陵博物馆",
+        "originSubtitleName": "“昭陵碑林”",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021091311194509523.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021091311135918522.png",
+          "https://eshopfile.zhiyousx.com/2021091311140653777.png",
+          "https://eshopfile.zhiyousx.com/2021091311202217855.png",
+          "https://eshopfile.zhiyousx.com/2021091311203115407.png",
+          "https://eshopfile.zhiyousx.com/2021091311141645513.png",
+          "https://eshopfile.zhiyousx.com/2021091311142494602.png",
+          "https://eshopfile.zhiyousx.com/2021091311143400474.png",
+          "https://eshopfile.zhiyousx.com/2021091311151543521.jpg"
+        ],
+        "sort": "7",
+        "favoriteValue": null,
+        "isBookable": true,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064188264615",
+        "originType": "1",
+        "originName": "咸阳湖景区",
+        "originSubtitleName": "咸阳古渡的历史再现",
+        "originUrl": "https://eshopfile.zhiyousx.com/timg (2)-20201028155745.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021091319484796496.jpg",
+          "https://eshopfile.zhiyousx.com/d04675ee-ffd4-47bb-8af5-406dea05df3b-20201028155754.jpg",
+          "https://eshopfile.zhiyousx.com/timg (1)-20201028155801.jpg",
+          "https://eshopfile.zhiyousx.com/2021091319485997382.jpg",
+          "https://eshopfile.zhiyousx.com/2021091319485324117.jpg"
+        ],
+        "sort": "8",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064699969539",
+        "originType": "1",
+        "originName": "侍郎湖景区",
+        "originSubtitleName": "一幅幅幅绚丽的山水画卷",
+        "originUrl": "https://eshopfile.zhiyousx.com/timg-20201120151406.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/timg-20201120151340.jpg",
+          "https://eshopfile.zhiyousx.com/u=447978180,1009636397&fm=26&gp=0-20201120151352.jpg"
+        ],
+        "sort": "9",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "16",
+    "favoriteSum": null,
+    "personalInfoValue": "0/16"
+  },
+  "msg": "成功",
+  "success": true
+}

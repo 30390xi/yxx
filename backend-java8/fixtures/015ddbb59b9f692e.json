@@ -1,0 +1,239 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941156",
+    "scenicName": "长青华阳景区",
+    "tag": "一山有四季 十里不同天",
+    "level": 4,
+    "address": "汉中市洋县华阳镇",
+    "longitude": "107.532518",
+    "latitude": "33.618079",
+    "openingStatus": 1,
+    "capacity": 8500,
+    "topColour": "#00924F",
+    "centralColour": "#007841",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2026040218202243699.jpg",
+      "https://eshopfile.zhiyousx.com/ddb43661-068e-4dc9-9822-df93bf10594c-20201028154020.jpg",
+      "https://eshopfile.zhiyousx.com/c33483d0-1b50-4a72-8f70-9efce492f806-20201028154025.jpg"
+    ],
+    "introduction": "<p>长青华阳景区是国家AAAA级旅游景区，地处我国南北天然分界线被誉为&ldquo;国家中央公园&rdquo;的秦岭南麓，是世界公认的同纬度地区生态环境最佳区域，是集人文古镇体验、生态休闲度假、&ldquo;秦岭四宝&rdquo;科普游览、&ldquo;龙吟峡&rdquo;自然观光、&ldquo;二十五军&rdquo;红色革命教育为主的综合型旅游目的地。</p>",
+    "introductionText": "长青华阳景区是国家AAAA级旅游景区，地处我国南北天然分界线被誉为“国家中央公园”的秦岭南麓，是世界公认的同纬度地区生态环境最佳区域，是集人文古镇体验、生态休闲度假、“秦岭四宝”科普游览、“龙吟峡”自然观光、“二十五军”红色革命教育为主的综合型旅游目的地。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "老人",
+        "limit": "65周岁(含)以上凭老年证或身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米(不含)以下凭身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "军人",
+        "limit": "持军官证、消防员证、士兵证、学员证、武警警官证的现役军人(含军校学员)，持有离休退休军官证的军队离休退休干部和退休士官",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "60周岁(含)-65周岁(不含)凭身份证",
+        "discount": "优惠"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "全日制大中小学生(不含成人教育研究生)凭学生证",
+        "discount": "优惠"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2082014793571688449",
+        "resourcesId": "1321356267661582338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/d0d8aad3-dbbe-492a-878e-7df2bae83387-20201028154034.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-07-28 16:06:23",
+        "updateTime": "2026-07-28 16:06:23",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014793575882754",
+        "resourcesId": "1321356267661582338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/e0216f6d-b526-4f3e-b7ae-aad11ea16bb1-20201028154046.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-07-28 16:06:23",
+        "updateTime": "2026-07-28 16:06:23",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014793575882755",
+        "resourcesId": "1321356267661582338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/6973537e-681b-4cca-84fc-e2c6f7395c28-20201028154041.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-07-28 16:06:23",
+        "updateTime": "2026-07-28 16:06:23",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014793580077058",
+        "resourcesId": "1321356267661582338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/ba18a7bf-0738-4af5-abe6-6547c12abdf6-20201028154056.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-07-28 16:06:23",
+        "updateTime": "2026-07-28 16:06:23",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455795982670340097",
+      "rankingId": null,
+      "indexInRanking": 11,
+      "rankingName": "汉中必玩景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": null,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

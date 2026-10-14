@@ -23,7 +23,7 @@
                         </view>
                         <view class="item-container data-v-59618206">
                             <view bindtap="__e" class="thumb-box data-v-59618206" data-event-opts="{{[ [ 'tap',[ [ 'goGoodsList',['$0'],[ [ ['tabbar.'+current+'.children','',index],['children','',index1,'catId'] ] ] ] ] ] ]}}" wx:for="{{item.children}}" wx:for-index="index1" wx:for-item="item1" wx:key="index1">
-                                <image class="item-menu-image data-v-59618206" lazyLoad="{{true}}" mode="scaleToFill" src="{{item1.iconPic?item1.iconPic:'https://eshopfile.zhiyousx.com/2023102620364973049.png'}}"></image>
+                                <image class="item-menu-image data-v-59618206" lazyLoad="{{true}}" mode="scaleToFill" src="{{item1.iconPic?item1.iconPic:'/static/captured/284bb268aef2bbea.png'}}"></image>
                                 <view class="item-menu-name data-v-59618206">{{item1.catName}}</view>
                             </view>
                         </view>

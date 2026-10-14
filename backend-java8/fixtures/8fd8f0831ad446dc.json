@@ -1,0 +1,55 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "1478262490277089283",
+      "resourcesId": "1322062776506802178",
+      "title": null,
+      "resourcesUrl": "https://res.zhiyousx.com/ysx/pro/2022/01/04/164128020821045665.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 3,
+      "describe": "",
+      "createTime": "2022-01-04 15:10:17",
+      "updateTime": "2026-01-12 09:58:03",
+      "createBy": "1344113100973973505",
+      "updateBy": "1344113100973973505",
+      "isDeleted": 0
+    },
+    {
+      "id": "1478262490272894978",
+      "resourcesId": "1322062776506802178",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/巴山1-20201030142814.JPG",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2022-01-04 15:10:17",
+      "updateTime": "2022-01-04 15:10:17",
+      "createBy": "1344113100973973505",
+      "updateBy": "1344113100973973505",
+      "isDeleted": 0
+    },
+    {
+      "id": "1478262490277089282",
+      "resourcesId": "1322062776506802178",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/巴山2-20201030142821.JPG",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 2,
+      "describe": null,
+      "createTime": "2022-01-04 15:10:17",
+      "updateTime": "2022-01-04 15:10:17",
+      "createBy": "1344113100973973505",
+      "updateBy": "1344113100973973505",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

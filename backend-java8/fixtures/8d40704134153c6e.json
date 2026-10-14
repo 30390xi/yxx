@@ -1,0 +1,308 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941101",
+    "scenicName": "大水川景区",
+    "tag": "森林层峦叠嶂 草场广阔无垠",
+    "level": 4,
+    "cityId": "1320659384068780033",
+    "cityName": "宝鸡",
+    "address": "宝鸡市陈仓区香泉镇",
+    "longitude": "106.7547990000",
+    "latitude": "34.5435590000",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 233,
+    "topColour": "#26B428",
+    "centralColour": "#298527",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/大水川3-20201028163234.jpg",
+      "https://eshopfile.zhiyousx.com/大水川20-20201028163243.jpg"
+    ],
+    "introduction": "<p>　　大水川海拔1900-2300米，总面积60平方公里。景区地势平坦，水源充足，森林茂密，草场广阔，植被极好，风景如画。林区一年内温差不大，酷暑时山外气温高达三十几度，这里仍然凉风习习，是一处可供游人骑马、射箭、打猎、避暑休闲的好去处。&nbsp;大水川景区是一处原生态的高山草甸，森林层峦叠嶂，草场广阔无垠。大水川曾是古丝绸之路的必经之地，也是多个朝代的皇家马场。</p>",
+    "introductionText": "　　大水川海拔1900-2300米，总面积60平方公里。景区地势平坦，水源充足，森林茂密，草场广阔，植被极好，风景如画。林区一年内温差不大，酷暑时山外气温高达三十几度，这里仍然凉风习习，是一处可供游人骑马、射箭、打猎、避暑休闲的好去处。 大水川景区是一处原生态的高山草甸，森林层峦叠嶂，草场广阔无垠。大水川曾是古丝绸之路的必经之地，也是多个朝代的皇家马场。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "175",
+        "name": "户外营地",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "<p><strong>前往大水川景区游览的</strong></p>\n<p><strong>现役军人、退役军人、</strong><strong>警察、消防员</strong></p>\n<p><strong>凭本人有效证明证件，免景区首道门票</strong></p>\n<p><strong>（景交车及索道不参与优惠、活动不含国家法定节假日）</strong></p>\n<p><strong>2021.7.27~2021.12.31</strong></p>",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "开放时间",
+        "openTimeContent": "8:00~18:30（全年）<br/>17:00停止入园"
+      },
+      {
+        "openTimeTitle": "建议游玩时长",
+        "openTimeContent": "半天~一天"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "1.2米（不含）以下儿童大门票免费，区间车25元",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "1.2（含）~1.5米（含）大门票35元，区间车全价50元",
+        "discount": "半价"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "全日制本科大学生及以下学历学生凭本人学生证",
+        "discount": "半价"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "65周岁以上（含65岁）老人持本人寿星证或身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "60~64岁老人持本人老年证或身份证",
+        "discount": "半价"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "持残疾证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "军人",
+        "limit": "持本人军官证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "记者",
+        "limit": "当年审核的国家新闻总署核发的记者证",
+        "discount": "免费"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "南由古城停车场（收费）",
+        "additionalExplainContent": "地址：游客服务中心门口"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<div>1.陈仓客运汽车站（虢镇西门外转盘）&mdash;&mdash;南由古城停车场</div>\n<div>单程40元/人；</div>\n<div>&nbsp;</div>\n<div>2.大水川景区游客服务中心停车场&mdash;&mdash;大水川景区</div>\n<div>往返交通费50元/人。</div>\n<div>&nbsp;</div>\n<div>&nbsp;</div>\n<div>游客请注意以下细则：</div>\n<div>&nbsp;</div>\n<div>发车时间：</div>\n<div>发车：08:30 （陈仓客运站买票）</div>\n<div>返程：16:00（大水川游客服务中心买票）</div>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<p>连霍高速宝天段（天水方向）&mdash;&mdash;坪头/晁峪下高速&mdash;&mdash;左转沿G310行驶约3公里&mdash;&mdash;过韩家山隧道200米右转进入大水川旅游专线，途径九龙山景区、灵宝峡景区、抵达南由古城，大水川景区。</p>\n<p>宝鸡出发仅需1小时</p>\n<p>西安出发仅需2.5&shy;&shy;～3小时即可到达</p>"
+      }
+    ],
+    "officialWebsite": [
+      "http://dsc.gw.tumao.com/p/sites/13487/welcome"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "电话",
+        "telephone": "400-109-0303"
+      },
+      {
+        "telephoneTitle": "电话",
+        "telephone": "0917-6266266"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "大水川",
+        "wxSubscription": "dashuichuan6666"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1514460160435802113",
+        "resourcesId": "1321369590880821249",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/大水川1-20201028163310.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2022-04-14 12:26:54",
+        "updateTime": "2022-04-14 12:26:54",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1514460160435802114",
+        "resourcesId": "1321369590880821249",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/大水川20-20201028163319.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2022-04-14 12:26:54",
+        "updateTime": "2022-04-14 12:26:54",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1514460160439996418",
+        "resourcesId": "1321369590880821249",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/大水川30-20201028163333.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2022-04-14 12:26:54",
+        "updateTime": "2022-04-14 12:26:54",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1692113814122344449",
+      "rankingId": null,
+      "indexInRanking": 6,
+      "rankingName": "宝鸡自然风光排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": null,
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "scenicInfoTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": 0,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": null,
+    "hotelArrivalDepartureTime": null,
+    "hotelChildrenBed": null,
+    "hotelPet": null,
+    "hotelBreakfast": null,
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,26 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1418476614588592129",
+    "contentId": "1418476614584397826",
+    "rankingName": "西安过山车排行榜",
+    "rankingClass": "0",
+    "rankingType": "2",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/162702614626190137.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": null,
+    "rankingInclude": "个过山车",
+    "rankingPersonalInfo": "我玩过的过山车",
+    "rankingSharePictureUrl": null,
+    "bottomColour": null,
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": null,
+    "sumCount": "5",
+    "favoriteSum": "56",
+    "personalInfoValue": null
+  },
+  "msg": "成功",
+  "success": true
+}

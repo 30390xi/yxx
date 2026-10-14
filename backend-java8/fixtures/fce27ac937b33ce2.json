@@ -1,0 +1,93 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1424564160095633409",
+    "contentId": "1424564160087244801",
+    "rankingName": "三秦套餐",
+    "rankingClass": "2",
+    "rankingType": "2",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/162847272739904072.jpg",
+    "rankingDescribe": "凉皮、肉夹馍和冰峰三样陕西美食被冠以“三秦套餐”。吃着凉皮肉夹馍，喝着冰峰汽水，是陕西人的一大享受！",
+    "rankingTotalUserData": "123",
+    "rankingInclude": "个美食",
+    "rankingPersonalInfo": "我吃过的美食",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#AB4646",
+    "tagUrl": null,
+    "travelMapFlag": null,
+    "type": "7",
+    "rankingItemList": [
+      {
+        "originId": "1437598230996176898",
+        "originType": "2",
+        "originName": "肉夹馍",
+        "originSubtitleName": "没吃肉夹馍 白来“馍都”走一遭",
+        "originUrl": "https://eshopfile.zhiyousx.com/163158411634637480.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/163158520437188324.jpg",
+          "https://eshopfile.zhiyousx.com/163158521672785309.jpg",
+          "https://eshopfile.zhiyousx.com/163158524393751795.jpg",
+          "https://eshopfile.zhiyousx.com/163158527328007047.jpg",
+          "https://eshopfile.zhiyousx.com/163158528692611614.jpg",
+          "https://eshopfile.zhiyousx.com/163158532370081042.jpg",
+          "https://eshopfile.zhiyousx.com/163158534034196023.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": "97.6",
+        "isBookable": null,
+        "favoriteSum": "124",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1437709409177423873",
+        "originType": "2",
+        "originName": "凉皮",
+        "originSubtitleName": "三秦套餐，没凉皮可不行！",
+        "originUrl": "https://eshopfile.zhiyousx.com/163161129589224520.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/163161156493609275.jpg",
+          "https://eshopfile.zhiyousx.com/163161157255841797.jpg",
+          "https://eshopfile.zhiyousx.com/163161157813913857.jpg",
+          "https://eshopfile.zhiyousx.com/163161158432574152.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": "93.0",
+        "isBookable": null,
+        "favoriteSum": "66",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1423572536850956290",
+        "originType": "2",
+        "originName": "冰峰",
+        "originSubtitleName": "“老板，开瓶冰峰！”",
+        "originUrl": "https://eshopfile.zhiyousx.com/163159957623153600.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/162823807463577941.jpg",
+          "https://eshopfile.zhiyousx.com/162823805376561617.jpg",
+          "https://eshopfile.zhiyousx.com/162823806664877013.jpg",
+          "https://eshopfile.zhiyousx.com/162823810375420977.jpg",
+          "https://eshopfile.zhiyousx.com/162823812035364413.jpg",
+          "https://eshopfile.zhiyousx.com/162823812704690061.jpg",
+          "https://eshopfile.zhiyousx.com/162823814958227280.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": "81.8",
+        "isBookable": null,
+        "favoriteSum": "9",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "3",
+    "favoriteSum": "199",
+    "personalInfoValue": "0/3"
+  },
+  "msg": "成功",
+  "success": true
+}

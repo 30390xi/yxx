@@ -1,0 +1,211 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1455795983626641410",
+    "contentId": "1455795982670340097",
+    "rankingName": "汉中必玩景点人气排行榜",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://res.zhiyousx.com/ysx/pro/2021/11/03/163592377673258795.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": null,
+    "rankingInclude": "个景点",
+    "rankingPersonalInfo": "我去过的景点",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#705E4A",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1320579064720941152",
+        "originType": "1",
+        "originName": "五龙洞国家森林公园",
+        "originSubtitleName": "森林中还有天然的溶洞群",
+        "originUrl": "https://eshopfile.zhiyousx.com/2026060317122998614.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/3eaf4e77-6624-4b9d-bd35-dd5726dc1a83-20201028172054.jpg",
+          "https://eshopfile.zhiyousx.com/6c9d6ec5-7123-492d-96c8-2e484eaab85a-20201028172100.jpg",
+          "https://eshopfile.zhiyousx.com/b17a244c-9a53-4dc6-8fa5-0b12194b982e-20201028172108.jpg"
+        ],
+        "sort": "12",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064720941153",
+        "originType": "1",
+        "originName": "石门栈道景区",
+        "originSubtitleName": "中国栈道之乡，西北水利明珠",
+        "originUrl": "https://eshopfile.zhiyousx.com/2026040218260743699.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/b6e4408c-3260-429b-a479-a3c9c5934a0a-20201028175140.jpg",
+          "https://eshopfile.zhiyousx.com/177262357479805297.jpg",
+          "https://eshopfile.zhiyousx.com/177262357830121970.jpg",
+          "https://eshopfile.zhiyousx.com/38f3d92f-7bd1-4482-a9fc-9c3f348c3545-20201028175146.jpg",
+          "https://eshopfile.zhiyousx.com/53f58f1b-fb8f-4482-8513-b33b7fa1e54d-20201028175152.jpg"
+        ],
+        "sort": "14",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064720941154",
+        "originType": "1",
+        "originName": "朱鹮梨园景区",
+        "originSubtitleName": "山水休闲景区，内有朱鹮观赏",
+        "originUrl": "https://eshopfile.zhiyousx.com/2026040219031815146.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/76df8613-ccf8-4d68-b45b-a4520191e0ff-20201029121253.jpg",
+          "https://eshopfile.zhiyousx.com/dea7362b-6571-4efb-af99-502438223948-20201029121258.jpg",
+          "https://eshopfile.zhiyousx.com/5f8fca1a-c7ab-4577-aaca-583faee6a615-20201029121303.jpg"
+        ],
+        "sort": "15",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1418066735319244802",
+        "originType": "1",
+        "originName": "《汉颂》",
+        "originSubtitleName": "经典汉文化史诗长歌",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021072310121692685.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021072309504811194.jpg",
+          "https://eshopfile.zhiyousx.com/2021072309541478794.jpg",
+          "https://eshopfile.zhiyousx.com/2021072309542493919.jpg",
+          "https://eshopfile.zhiyousx.com/2021072309543571793.jpg",
+          "https://eshopfile.zhiyousx.com/2021072309544846720.jpg"
+        ],
+        "sort": "16",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1418458838415208449",
+        "originType": "1",
+        "originName": "《天汉传奇》",
+        "originSubtitleName": "一部汉文化的动人传奇画卷",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021072314163218765.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021072315070010295.jpg",
+          "https://eshopfile.zhiyousx.com/2021072315073288484.jpg"
+        ],
+        "sort": "17",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064641249284",
+        "originType": "1",
+        "originName": "熊猫谷景区",
+        "originSubtitleName": "藏在秦岭中的国宝乐园",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021090210052764618.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/e4db4d88-19db-4640-809c-4a23d9f14db1-20201028113834.jpg",
+          "https://eshopfile.zhiyousx.com/2021090115482994261.jpg",
+          "https://eshopfile.zhiyousx.com/2021090115482080513.jpg",
+          "https://eshopfile.zhiyousx.com/2021090115480901750.jpg",
+          "https://eshopfile.zhiyousx.com/2021090115475344760.jpg",
+          "https://eshopfile.zhiyousx.com/6a2945cb-52e9-4524-bdc3-1db4f6aa7e7f-20201028113823.jpg",
+          "https://eshopfile.zhiyousx.com/e638d04d-fe98-4e1e-9f6b-a967052f6359-20201028114339.jpg"
+        ],
+        "sort": "18",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1407167300481597441",
+        "originType": "1",
+        "originName": "红四方面军陕南战役指挥部旧址",
+        "originSubtitleName": "一场牵制性的大规模战役",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021062209390802081.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021062210330994578.jpg",
+          "https://eshopfile.zhiyousx.com/2021062210331822305.jpg",
+          "https://eshopfile.zhiyousx.com/2021062210332889261.jpg",
+          "https://eshopfile.zhiyousx.com/2021062210334061369.jpg",
+          "https://eshopfile.zhiyousx.com/2021062210334959678.jpg",
+          "https://eshopfile.zhiyousx.com/2021062210335837423.jpg"
+        ],
+        "sort": "19",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1406886063401615362",
+        "originType": "1",
+        "originName": "红二十五军政治部华阳旧址",
+        "originSubtitleName": "在这里确定了红军的去向",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021062115475940662.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021062116174352734.jpg",
+          "https://eshopfile.zhiyousx.com/2021062117531486758.jpg",
+          "https://eshopfile.zhiyousx.com/2021062117542883349.jpg",
+          "https://eshopfile.zhiyousx.com/2021062117554165122.jpg"
+        ],
+        "sort": "20",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1402835093071896577",
+        "originType": "1",
+        "originName": "龙头山景区",
+        "originSubtitleName": "汉中龙头山国际旅游度假区",
+        "originUrl": "https://eshopfile.zhiyousx.com/2026040219060739488.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021061110313038229.jpg",
+          "https://eshopfile.zhiyousx.com/2021061110315786108.jpg",
+          "https://eshopfile.zhiyousx.com/2021061110320778716.jpg",
+          "https://eshopfile.zhiyousx.com/2021061111161987948.jpg",
+          "https://eshopfile.zhiyousx.com/2021061111162974623.jpg"
+        ],
+        "sort": "21",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "19",
+    "favoriteSum": null,
+    "personalInfoValue": "0/19"
+  },
+  "msg": "成功",
+  "success": true
+}

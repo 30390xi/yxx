@@ -10,7 +10,7 @@
                     </view>
                     <view class="collapse-control data-v-2cfa1430">
                         <label class="control-text _span data-v-2cfa1430">{{item.$orig.isCollapsed?item.m1:item.m2}}</label>
-                        <image class="control-icon data-v-2cfa1430" mode="widthFix" src="{{item.$orig.isCollapsed?'https://eshopfile.zhiyousx.com/176960428738785505.png':'https://eshopfile.zhiyousx.com/176960429741503355.png'}}"></image>
+                        <image class="control-icon data-v-2cfa1430" mode="widthFix" src="{{item.$orig.isCollapsed?'/static/captured/ebd506ecf4ebe2d9.png':'/static/captured/0dc54dd22665afe6.png'}}"></image>
                     </view>
                 </view>
                 <view class="feature-description data-v-2cfa1430" hidden="{{!!item.$orig.isCollapsed}}">

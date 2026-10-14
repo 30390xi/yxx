@@ -104,17 +104,17 @@
                                 <view class="info-li data-v-058cf106" wx:if="{{item.teamPeopleNum}}">
                                     <image class="home data-v-058cf106" src="/static/captured/45eaff9dbcf70039.png"></image>{{''+item.teamPeopleNum+''}}</view>
                                 <view class="info-li data-v-058cf106" wx:if="{{item.eat}}">
-                                    <image class="eat data-v-058cf106" src="https://eshopfile.zhiyousx.com/170124242179363816.png"></image>{{''+item.eat+''}}</view>
+                                    <image class="eat data-v-058cf106" src="/static/captured/9b61c5c1ae414c4f.png"></image>{{''+item.eat+''}}</view>
                                 <view class="info-li data-v-058cf106" wx:if="{{item.live}}">
-                                    <image class="home data-v-058cf106" src="https://eshopfile.zhiyousx.com/169500883534838601.png"></image>{{''+item.live+''}}</view>
+                                    <image class="home data-v-058cf106" src="/static/captured/b67baec33559c9de.png"></image>{{''+item.live+''}}</view>
                                 <view class="info-li data-v-058cf106" wx:if="{{item.travel}}">
                                     <image class="eat data-v-058cf106" src="/static/captured/42a1b3c416bd6148.png"></image>{{''+item.travel+''}}</view>
                                 <view class="info-li data-v-058cf106" wx:if="{{item.roving}}">
                                     <image class="home data-v-058cf106" src="/static/captured/f713a2336bb64375.png"></image>{{''+item.roving+''}}</view>
                                 <view class="info-li data-v-058cf106" wx:if="{{item.shopping}}">
-                                    <image class="eat data-v-058cf106" src="https://eshopfile.zhiyousx.com/170124265839608503.png"></image>{{''+item.shopping+''}}</view>
+                                    <image class="eat data-v-058cf106" src="/static/captured/d37f22569bd8cf23.png"></image>{{''+item.shopping+''}}</view>
                                 <view class="info-li data-v-058cf106" wx:if="{{item.joy}}">
-                                    <image class="eat data-v-058cf106" src="https://eshopfile.zhiyousx.com/170124268438769868.png"></image>{{''+item.joy+''}}</view>
+                                    <image class="eat data-v-058cf106" src="/static/captured/12c60abdb3aacb47.png"></image>{{''+item.joy+''}}</view>
                             </view>
                         </view>
                         <view class="solution-price data-v-058cf106">
@@ -164,7 +164,7 @@
                 </view>
                 <view bindtap="__e" class="showmore-wrap data-v-058cf106" data-event-opts="{{[ [ 'tap',[ [ 'toggleRead',['$event'] ] ] ] ]}}" style="{{$root.s0}}">
                     <text class="data-v-058cf106">{{''+(showRead?openText:closeText)+''}}</text>
-                    <image class="{{['img-style','data-v-058cf106',showRead?'roteImg':'']}}" src="https://eshopfile.zhiyousx.com/170496257565021571.png"></image>
+                    <image class="{{['img-style','data-v-058cf106',showRead?'roteImg':'']}}" src="/static/captured/0ced92f08352d8a4.png"></image>
                 </view>
             </view>
             <view class="data-v-058cf106" wx:else>
@@ -234,7 +234,7 @@
                         <view bindtap="__e" class="allHote data-v-058cf106" data-event-opts="{{[ [ 'tap',[ [ 'pageTo',['/pages/ranking/ranking?id='+time.$orig.lineDestinationVO.destinationId] ] ] ] ]}}">
                             <view class="_p data-v-058cf106">{{time.$orig.rankingCopyWritering}}</view>
                             <label class="goView _span data-v-058cf106">
-                                <image class="data-v-058cf106" src="https://eshopfile.zhiyousx.com/169267534972027149.png"></image>
+                                <image class="data-v-058cf106" src="/static/captured/33914fd15c8bbe7b.png"></image>
                             </label>
                         </view>
                     </view>
@@ -243,7 +243,7 @@
                     </view>
                     <view class="spot_remark spot_tips data-v-058cf106" wx:if="{{time.$orig.tips&&time.$orig.journeyDestinationType!==8}}">
                         <view class="tips data-v-058cf106">
-                            <image class="data-v-058cf106" src="https://eshopfile.zhiyousx.com/169266846673784501.png"></image>
+                            <image class="data-v-058cf106" src="/static/captured/37c36c3337d564c9.png"></image>
                         </view>
                         <text class="data-v-058cf106">{{time.$orig.tips}}</text>
                     </view>
@@ -382,8 +382,8 @@
                                 </block>
                                 <view bindtap="__e" class="detail data-v-058cf106" data-event-opts="{{[ [ 'tap',[ [ 'showMore',[index] ] ] ] ]}}">
                                     <view class="look data-v-058cf106">查看详情</view>
-                                    <image class="data-v-058cf106" src="https://eshopfile.zhiyousx.com/170911466956745555.png" style="width:24rpx;height:24rpx;" wx:if="{{tapIndex==index?false:true}}"></image>
-                                    <image class="data-v-058cf106" src="https://eshopfile.zhiyousx.com/170960897814194743.png" style="width:24rpx;height:24rpx;" wx:if="{{tapIndex==index?true:false}}"></image>
+                                    <image class="data-v-058cf106" src="/static/captured/121565252414ca66.png" style="width:24rpx;height:24rpx;" wx:if="{{tapIndex==index?false:true}}"></image>
+                                    <image class="data-v-058cf106" src="/static/captured/4240b37b99676c82.png" style="width:24rpx;height:24rpx;" wx:if="{{tapIndex==index?true:false}}"></image>
                                 </view>
                             </view>
                             <view class="right data-v-058cf106">
@@ -414,11 +414,11 @@
                                 <view class="ceng5 data-v-058cf106" wx:if="{{item.$orig.couponStates==2}}">抢光了</view>
                                 <view bindtap="__e" class="ceng4 data-v-058cf106" data-event-opts="{{[ [ 'tap',[ [ 'available',['$0'],[ [ ['couponList','',index] ] ] ] ] ] ]}}" wx:if="{{item.$orig.couponStates==3}}">可用产品</view>
                             </view>
-                            <image class="stamp data-v-058cf106" src="https://eshopfile.zhiyousx.com/170917825995622404.png" wx:if="{{item.$orig.couponStates==3}}"></image>
+                            <image class="stamp data-v-058cf106" src="/static/captured/dd054da3144967a2.png" wx:if="{{item.$orig.couponStates==3}}"></image>
                         </view>
                         <view class="{{['introduce','data-v-058cf106',index==tapIndex?'extend':'']}}">
                             <view class="data-v-058cf106">
-                                <image class="data-v-058cf106" src="https://eshopfile.zhiyousx.com/170917719529144229.png" style="width:20rpx;height:20rpx;"></image>
+                                <image class="data-v-058cf106" src="/static/captured/dbd8fafda7f971bd.png" style="width:20rpx;height:20rpx;"></image>
                             </view>
                             <view class="data-v-058cf106">
                                 <view class="wenzi data-v-058cf106">{{item.$orig.useExplain}}</view>

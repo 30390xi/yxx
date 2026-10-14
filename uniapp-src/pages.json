@@ -1,0 +1,2564 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": " ",
+        "enablePullDownRefresh": true,
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/ranking/ranking",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#FFFFFF",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/rankList/rankList",
+      "style": {
+        "enablePullDownRefresh": false,
+        "navigationStyle": "custom",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/spotDetailNew/spotDetailNew",
+      "style": {
+        "enablePullDownRefresh": false,
+        "navigationStyle": "custom",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/spotMedia/spotMedia",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#FFFFFF",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/spotContentList/spotContentList",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#FFFFFF",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/spotThirdDetail/spotThirdDetail",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/calendarPage/calendarPage",
+      "style": {
+        "navigationBarTitleText": "选择日期",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/wxLogin/wxLogin",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#FFFFFF",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/spotIntro/spotIntro",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/spot_list/spot_list",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#FFFFFF",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/mine/mine",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/myorder/myorder",
+      "style": {
+        "navigationBarTitleText": "我的订单",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/refundRecord/refundRecord",
+      "style": {
+        "navigationBarTitleText": "退款详情",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/order_details/order_details",
+      "style": {
+        "navigationBarTitleText": "订单详情",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/detailed/detailed",
+      "style": {
+        "navigationBarTitleText": "明细"
+      }
+    },
+    {
+      "path": "pages/security/security",
+      "style": {
+        "navigationBarTitleText": "安全中心",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/setpassword/setpassword",
+      "style": {
+        "navigationBarTitleText": "设置提现密码",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/setpassword1/setpassword1",
+      "style": {
+        "navigationBarTitleText": "设置提现密码",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#000000",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/register/register",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": " ",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/settleaccounts/settleaccounts",
+      "style": {
+        "navigationBarTitleText": "返利入账详情"
+      }
+    },
+    {
+      "path": "pages/ordertracking/ordertracking",
+      "style": {
+        "navigationBarTitleText": "订单跟踪",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/systemnotice/systemnotice",
+      "style": {
+        "navigationBarTitleText": "系统通知",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/webpage/webpage",
+      "style": {
+        "navigationBarTitleText": " ",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/richtext/richtext",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/termsservice/termsservice",
+      "style": {
+        "navigationBarTitleText": "服务条款",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/noticedetails/noticedetails",
+      "style": {
+        "navigationBarTitleText": "通告详情",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/videoList/videoList",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#FFFFFF",
+        "enablePullDownRefresh": false
+      }
+    }
+  ],
+  "subPackages": [
+    {
+      "root": "yearCard",
+      "pages": [
+        {
+          "path": "pages/index/index",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTitleText": "年卡",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/reservation/reservation",
+          "style": {
+            "navigationStyle": "custom",
+            "backgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/myCard/myCard",
+          "style": {
+            "navigationBarTitleText": "卡包",
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/cardRecord/cardRecord",
+          "style": {
+            "navigationBarTitleText": "使用记录",
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/reservationDetail/reservationDetail",
+          "style": {
+            "navigationBarTitleText": "预约详情",
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/exchangeCard/exchangeCard",
+          "style": {
+            "navigationBarTitleText": "兑换绑定",
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/activationCard/activationCard",
+          "style": {
+            "navigationBarTitleText": "激活使用",
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/entryGarden/entryGarden",
+          "style": {
+            "navigationBarTitleText": "入园",
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/shopList/shopList",
+          "style": {
+            "navigationBarTitleText": "年卡商家列表",
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/cardMap/cardMap",
+          "style": {
+            "navigationBarTitleText": "年卡地图",
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/badge/badge",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/nfcVideo/nfcVideo",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/nfcVideo/nfcCase",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/nfcVideo/nfcDetail",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/nfcVideo/jz",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/teamNFC/index",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/teamNFC/album",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false,
+            "renderer": "skyline",
+            "componentFramework": "glass-easel",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/teamNFC/line",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/teamNFC/detail",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false,
+            "renderer": "skyline",
+            "componentFramework": "glass-easel",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/nfcVideo/dnfAlbum",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false,
+            "renderer": "skyline",
+            "componentFramework": "glass-easel",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/nfcVideo/dnfAct",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        }
+      ]
+    },
+    {
+      "root": "subPack",
+      "pages": [
+        {
+          "path": "pages/findpassword/findpassword",
+          "style": {
+            "navigationBarTitleText": "找回密码",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/evaluate/evaluate",
+          "style": {
+            "navigationBarTitleText": "评价"
+          }
+        },
+        {
+          "path": "pages/edition/edition",
+          "style": {
+            "navigationBarTitleText": "版本更新"
+          }
+        },
+        {
+          "path": "pages/news/news",
+          "style": {
+            "navigationBarTitleText": "消息",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/contentList/contentList",
+          "style": {
+            "navigationStyle": "custom",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/zhuanti/zhuanti",
+          "style": {
+            "navigationStyle": "custom",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/collection/collection",
+          "style": {
+            "navigationBarTitleText": "我的收藏",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "pages/article/article",
+          "style": {
+            "navigationStyle": "custom",
+            "backgroundColor": "#FFFFFF",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/aftersales/aftersales",
+          "style": {
+            "navigationBarTitleText": "退换/售后",
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/aftercontent/aftercontent",
+          "style": {
+            "navigationBarTitleText": "提交原因",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/address/address",
+          "style": {
+            "navigationBarTitleText": "收货地址",
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/guide/mapSpotDetail",
+          "style": {
+            "navigationBarTitleText": "详情",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/ticketPay/ticketPay",
+          "style": {
+            "navigationBarTitleText": "确认订单",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/refundApply/refundApply",
+          "style": {
+            "navigationBarTitleText": "申请退款",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "pages/addaddress/addaddress",
+          "style": {
+            "navigationBarTitleText": "收货地址管理",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/guide/mapSpotList",
+          "style": {
+            "navigationBarTitleText": "语音讲解",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/guide/webpage",
+          "style": {
+            "navigationBarTitleText": " ",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/mapSpotDetail/mapSpotDetail",
+          "style": {
+            "navigationBarTitleText": "详情",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/mapSpotList/mapSpotList",
+          "style": {
+            "navigationBarTitleText": "景区介绍",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/guide/ecsList",
+          "style": {
+            "navigationBarTitleText": "语音讲解",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/guide/ecsDetail",
+          "style": {
+            "navigationBarTitleText": "详情",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/protocol/protocol",
+          "style": {
+            "navigationBarTitleText": "隐私协议",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/activity/act0320",
+          "style": {
+            "navigationStyle": "custom",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/activity/bingfeng",
+          "style": {
+            "navigationBarTitleText": "冰峰×游陕西",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/appPay/appPay",
+          "style": {
+            "navigationBarTitleText": "支付",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/appPay/appPayQr",
+          "style": {
+            "navigationBarTitleText": "支付",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/hotelIntro/hotelIntro",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/tripInfo/tripInfo",
+          "style": {
+            "navigationBarTitleText": "行程明细",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/fillInOrder/fillInOrder",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/lineResource/lineResource",
+          "style": {
+            "navigationStyle": "custom",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/groupRegistration/groupRegistration",
+          "style": {
+            "navigationBarTitleText": "组团报名",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/lineProductDetails/lineProductDetails",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/photoWall/photoWall",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/lineList/lineList",
+          "style": {
+            "navigationStyle": "custom",
+            "backgroundColor": "#F5F5F5",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/groupOrder/groupOrder",
+          "style": {
+            "navigationStyle": "custom",
+            "backgroundColor": "#F5F5F5"
+          }
+        },
+        {
+          "path": "pages/groupOrder/collectCoupons",
+          "style": {
+            "navigationBarTitleText": "领券更便宜",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "pages/groupOrder/availableProducts",
+          "style": {
+            "navigationBarTitleText": "可用产品",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "pages/travelAgency/travelAgency",
+          "style": {
+            "navigationStyle": "custom",
+            "backgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/tourGuide/tourGuide",
+          "style": {
+            "navigationStyle": "custom",
+            "backgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/lineOrderDetail/lineOrderDetail",
+          "style": {
+            "navigationBarTitleText": "订单详情",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/lineRefundApply/lineRefundApply",
+          "style": {
+            "navigationBarTitleText": "申请退款",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "pages/live/liveList",
+          "style": {
+            "navigationBarTitleText": "直播",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/live/liveDetail",
+          "style": {
+            "navigationBarTitleText": "直播",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/city/city",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationStyle": "custom"
+          }
+        }
+      ]
+    },
+    {
+      "root": "subPage",
+      "pages": [
+        {
+          "path": "pages/searchpage/searchpage",
+          "style": {
+            "navigationBarTitleText": "搜索",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/affirm_order/affirm_order",
+          "style": {
+            "navigationBarTitleText": "确认订单",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/about/about",
+          "style": {
+            "navigationBarTitleText": "关于商城",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/waterfall/waterfall",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/discountsProductList/discountsProductList",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#000000"
+          }
+        },
+        {
+          "path": "pages/searchOld/searchOld",
+          "style": {
+            "navigationBarTitleText": "搜索"
+          }
+        },
+        {
+          "path": "pages/goodslist/goodslist",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/shopcart/shopcart",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/ticket_detail/ticket_detail",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/commentslist/commentslist",
+          "style": {
+            "navigationBarTitleText": "评论列表",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "pages/orderDetailtick/orderDetailtick",
+          "style": {
+            "navigationBarTitleText": "门票订单详情",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "pages/storeshop/storeshop",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "pages/myDiscounts/myDiscounts",
+          "style": {
+            "navigationBarTitleText": "我的优惠券",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false,
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/spotIntroNew/spotIntroNew",
+          "style": {
+            "navigationStyle": "custom",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/ticketFillOrder/ticketFillOrder",
+          "style": {
+            "navigationBarTitleText": "填写订单",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "pages/packPlaceOrder/packPlaceOrder",
+          "style": {
+            "navigationBarTitleText": "填写订单",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "pages/hotArea/hotArea",
+          "style": {
+            "navigationStyle": "custom",
+            "backgroundColor": "#FFFFFF",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/goods_details/goods_details",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/strategyList/strategyList",
+          "style": {
+            "navigationBarTitleText": " "
+          }
+        },
+        {
+          "path": "pages/changepassword/changepassword",
+          "style": {
+            "navigationBarTitleText": "修改登录密码",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/wealth/wealth",
+          "style": {
+            "navigationBarTitleText": "我的钱包",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/withdrawal/withdrawal",
+          "style": {
+            "navigationBarTitleText": "提现",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/strategy/strategy",
+          "style": {
+            "navigationBarTitleText": " ",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/pictureWall/pictureWall",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/poster/poster",
+          "style": {
+            "navigationBarTitleText": " ",
+            "navigationBarBackgroundColor": "#339A81"
+          }
+        },
+        {
+          "path": "pages/monthposter/monthposter",
+          "style": {
+            "navigationBarTitleText": " ",
+            "navigationBarBackgroundColor": "#339A81"
+          }
+        },
+        {
+          "path": "pages/spotFilter/spotFilter",
+          "style": {
+            "backgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "筛选",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/leaguemember/leaguemember",
+          "style": {
+            "navigationBarTitleText": "合作伙伴",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "pages/classify/classify",
+          "style": {
+            "navigationBarTitleText": "分类"
+          }
+        },
+        {
+          "path": "pages/feedback/feedback",
+          "style": {
+            "navigationBarTitleText": "问题反馈",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/vlog/vlog",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#000000"
+          }
+        },
+        {
+          "path": "pages/snowGear/snowGear",
+          "style": {
+            "navigationBarTitleText": "雪具预约",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/snowOrder/snowOrder",
+          "style": {
+            "navigationBarTitleText": "订单详情",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/talent/talent",
+          "style": {
+            "navigationBarTitleText": "成为旅行达人",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/memberDetail/memberDetail",
+          "style": {
+            "navigationBarTitleText": "团员详情",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/giftCard/giftCard",
+          "style": {
+            "navigationBarTitleText": "礼品卡",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "backgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/bindGiftCard/bindGiftCard",
+          "style": {
+            "navigationBarTitleText": "绑定礼品卡",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/information/information",
+          "style": {
+            "navigationBarTitleText": "我的资料",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/passenger/passenger",
+          "style": {
+            "navigationBarTitleText": "常用游客",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/addPassenger/addPassenger",
+          "style": {
+            "navigationBarTitleText": "新增游客",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/editPassenger/editPassenger",
+          "style": {
+            "navigationBarTitleText": "编辑游客",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/addCoupon/addCoupon",
+          "style": {
+            "navigationBarTitleText": "兑换优惠券",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/twelveWall/twelveWall",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/monthlySelection/monthlySelection",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/middlePage/middlePage",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/mapSpotDetail/mapSpotDetail",
+          "style": {
+            "navigationBarTitleText": "景点详情",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/mapSpotList/mapSpotList",
+          "style": {
+            "navigationBarTitleText": "景区介绍",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/templeWall/templeWall",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/csOrder/csOrder",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/equityCard/equityCard",
+          "style": {
+            "navigationBarTitleText": "权益卡",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/eCAgreement/eCAgreement",
+          "style": {
+            "navigationBarTitleText": "权益卡",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/preview/preview",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/buyCard/buyCard",
+          "style": {
+            "navigationBarTitleText": "权益卡",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/exchange/exchange",
+          "style": {
+            "navigationBarTitleText": "兑换码",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/myeqcard/myeqcard",
+          "style": {
+            "navigationBarTitleText": "权益卡",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/myeqcard/records",
+          "style": {
+            "navigationBarTitleText": "领取记录",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/myeqcard/detail",
+          "style": {
+            "navigationBarTitleText": "权益卡",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/myeqcard/eqdetail",
+          "style": {
+            "navigationBarTitleText": "权益详情",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/lineInfo/lineInfo",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/order_pay/order_pay",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "backgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "订单支付",
+            "enablePullDownRefresh": true
+          }
+        }
+      ]
+    },
+    {
+      "root": "distribution",
+      "pages": [
+        {
+          "path": "pages/index/index",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "合伙人主页",
+            "navigationStyle": "custom",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/taxi/taxi",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": true,
+            "backgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "分销司机"
+          }
+        },
+        {
+          "path": "pages/customizePage/customizePage",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": true,
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/details/ticketDetail",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "分销详情",
+            "navigationStyle": "custom",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/smallShop/index",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "小店主页",
+            "navigationStyle": "custom",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/order_detail/order_detail",
+          "style": {
+            "navigationBarTitleText": "订单详情",
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "pages/microStoreC/microStoreC",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTitleText": "分销小店",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/smallShop/edit",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTitleText": "小店编辑",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/smallShop/channelSetting",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTitleText": "渠道编辑",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/smallShop/setting",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarTitleText": "小店设置",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/search/search",
+          "style": {
+            "navigationBarTitleText": "搜索",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/nfc/cs",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/nfc/shaanxiUnion",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/nfc/shaanxiUnionTeam",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/nfc/shaanxiUnionDetail",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/nfc/ggy",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/nfc/verticalVideo",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/nfc/museum",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/nfc/museumSwiper",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false,
+            "renderer": "skyline",
+            "componentFramework": "glass-easel",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/nfc/museumExplain",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/nfc/museumDetail",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/schoolNfc/index",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/schoolNfc/album",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false,
+            "renderer": "skyline",
+            "componentFramework": "glass-easel",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/schoolNfc/allAlbum",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false,
+            "renderer": "skyline",
+            "componentFramework": "glass-easel",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/schoolNfc/allIndex",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/nfc/bingfeng2026",
+          "style": {
+            "navigationBarTitleText": "骏马迎春 冰峰传韵",
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/nfc/bingfengLottery",
+          "style": {
+            "navigationBarTitleText": "骏马迎春 冰峰传韵",
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/daQin/index",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/daQin/shareEdIt",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/daQin/detail",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/daQin/nfc",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/scgNfc/index",
+          "style": {
+            "navigationBarTitleText": "黄勇同志2025年度工作相册",
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/scgNfc/album",
+          "style": {
+            "navigationBarTitleText": "黄勇同志2025年度工作相册",
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false,
+            "renderer": "skyline",
+            "componentFramework": "glass-easel",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/nfc/dq",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/nfc/cq",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/nfc/cqTicket",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/nfc/cqSwiper",
+          "style": {
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false,
+            "renderer": "skyline",
+            "componentFramework": "glass-easel",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/nfc/cqDetail",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/ych/formPage",
+          "style": {
+            "navigationBarTitleText": " ",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/ych/titlePage",
+          "style": {
+            "navigationBarTitleText": " ",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/ych/loadPage",
+          "style": {
+            "navigationBarTitleText": " ",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/ych/cardPage",
+          "style": {
+            "navigationBarTitleText": " ",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/ych/historyList",
+          "style": {
+            "navigationBarTitleText": " ",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/ych/editPage",
+          "style": {
+            "navigationBarTitleText": " ",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/ych/chat",
+          "style": {
+            "navigationBarTitleText": " ",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/ych/travelFlow",
+          "style": {
+            "navigationBarTitleText": " ",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom",
+            "disableScroll": true
+          }
+        }
+      ]
+    },
+    {
+      "root": "union",
+      "pages": [
+        {
+          "path": "pages/index/index",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "陕西联合会员权益中心",
+            "navigationStyle": "custom",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/ai/index",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FEF3E7",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/ai/historyList",
+          "style": {
+            "navigationBarTitleText": "历史记录",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "pages/ai/strategyGuide",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FEF3E7"
+          }
+        },
+        {
+          "path": "pages/ai/tripInfoLine",
+          "style": {
+            "navigationBarTitleText": "行程明细",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/list/list",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "吃喝玩乐",
+            "navigationStyle": "custom",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/coupon/coupon",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "旅游出行",
+            "navigationStyle": "custom",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/map/map",
+          "style": {
+            "navigationBarTitleText": "权益地图",
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/card/cardDetail",
+          "style": {
+            "navigationBarTitleText": "权益卡详情",
+            "navigationStyle": "custom",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/aiService/index",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FEF3E7",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/aiTemple/index",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FEF3E7",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/aiService/couplet",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FEF3E7",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/aiReplacement/index",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FEF3E7",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/aiReplacement/list",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FEF3E7",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/cor/indexImage",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FEF3E7",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/aiVideo/download",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FEF3E7",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/scenicSpot/list",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "简版景区",
+            "navigationStyle": "custom",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/aiVideo/downloadzt",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FEF3E7",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/aiVideo/loadPage",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "",
+            "navigationBarBackgroundColor": "#FFF",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/aiVideo/historyList",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "",
+            "navigationBarBackgroundColor": "#FFF",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/touristMap/map",
+          "style": {
+            "navigationBarTitleText": "旅游地图",
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/touristMap/list",
+          "style": {
+            "navigationBarTitleText": "旅游地图",
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/aiTravel/index",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FEF3E7",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/aiTravel/cardPage",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FEF3E7",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/aiTravel/historyList",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FEF3E7",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/aiNew/index",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FEF3E7",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/aiTravel2/formPage",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FEF3E7",
+            "disableScroll": false
+          }
+        },
+        {
+          "path": "pages/aiTravel2/titlePage",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FEF3E7",
+            "disableScroll": false
+          }
+        },
+        {
+          "path": "pages/aiTravel2/loadPage",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FFF",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/aiTravel2/historyList",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FEF3E7",
+            "disableScroll": false
+          }
+        },
+        {
+          "path": "pages/aiTravel2/cardPage",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FEF3E7",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/aiTravel2/editPage",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FEF3E7",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/aiGreatWall/index",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FEF3E7",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/tang/index",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FEF3E7",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/menu/index",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FEF3E7",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/vlog/index",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "vlog",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FEF3E7",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/vlog/result",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "vlog",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FEF3E7",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/vlog/record",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "vlog",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FEF3E7",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/vlog/notice",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "vlog",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FEF3E7",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/aiCulturalTourism/index",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FEF3E7",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/smartEscort/index",
+          "style": {
+            "backgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/featureIntroduction/index",
+          "style": {
+            "navigationBarTitleText": " ",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/aiBy/index",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": " ",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/groupList/index",
+          "style": {
+            "navigationBarTitleText": " ",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/groupList/teamInformation",
+          "style": {
+            "navigationBarTitleText": " ",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/groupList/teamList",
+          "style": {
+            "navigationBarTitleText": " ",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/aiBy/collectionList",
+          "style": {
+            "navigationBarTitleText": " ",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/mianxian/index",
+          "style": {
+            "navigationBarTitleText": " ",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/mianxian/aiTravel/chat",
+          "style": {
+            "navigationBarTitleText": " ",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        }
+      ]
+    },
+    {
+      "root": "artShow",
+      "pages": [
+        {
+          "path": "pages/index/index",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "赳赳大秦",
+            "navigationStyle": "custom",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/filter/filter",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "购票",
+            "navigationBarTextStyle": "white",
+            "backgroundColor": "#2F2D29",
+            "backgroundColorContent": "#2F2D29",
+            "navigationBarBackgroundColor": "#2F2D29"
+          }
+        },
+        {
+          "path": "pages/seat/seat1",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "选座",
+            "navigationBarTextStyle": "white",
+            "backgroundColor": "#2F2D29",
+            "backgroundColorContent": "#2F2D29",
+            "navigationBarBackgroundColor": "#2F2D29"
+          }
+        },
+        {
+          "path": "pages/showFillOrder/showFillOrder",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/order/showOrder",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTextStyle": "white",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/orderDetail/orderDetail",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarTextStyle": "white",
+            "navigationBarBackgroundColor": "#000000",
+            "navigationBarTitleText": "订单详情"
+          }
+        },
+        {
+          "path": "pages/order/orderList",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "我的观演票",
+            "navigationBarTextStyle": "white",
+            "backgroundColor": "#2F2D29",
+            "backgroundColorContent": "#2F2D29",
+            "navigationBarBackgroundColor": "#2F2D29"
+          }
+        },
+        {
+          "path": "pages/ticketFillOrder/ticketFillOrder",
+          "style": {
+            "navigationBarTitleText": "填写订单",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "pages/ticketPay/ticketPay",
+          "style": {
+            "navigationBarTitleText": "确认订单",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/index/saleSubscribe",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "预约",
+            "navigationStyle": "custom",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/registrationList/registrationList",
+          "style": {
+            "navigationBarTitleText": "报名记录",
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "pages/volunteerCheck/volunteerCheck",
+          "style": {
+            "navigationBarTitleText": "查看资料",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/volunteerDetail/volunteerDetail",
+          "style": {
+            "navigationBarTitleText": "查看资料",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/volunteerInfo/volunteerInfo",
+          "style": {
+            "navigationBarTitleText": "个人资料",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/volunteer/list",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "义工招募",
+            "navigationStyle": "custom",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/volunteer/registration",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "提交报名",
+            "navigationBarBackgroundColor": "#FEF3E7"
+          }
+        },
+        {
+          "path": "pages/volunteer/success",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "提交成功",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FEF3E7"
+          }
+        },
+        {
+          "path": "pages/volunteer/config",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FEF3E7"
+          }
+        },
+        {
+          "path": "pages/xjtu/index",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "交大排行榜",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/wall/AIChat/index",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "pages/wall/index",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "城墙AI",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/wall/wallPay",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "城墙支付",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/addCoupon/addCoupon",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#2F2D29",
+            "navigationBarTitleText": "大秦定制领券页面",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/distribution/distribution",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#2F2D29",
+            "navigationBarTitleText": "大秦滴滴分销页面",
+            "navigationStyle": "custom"
+          }
+        }
+      ]
+    },
+    {
+      "root": "xr",
+      "pages": [
+        {
+          "path": "pages/bf/index",
+          "style": {
+            "navigationBarTitleText": "爱上西安 冰峰之橙",
+            "navigationStyle": "custom",
+            "disableScroll": true
+          }
+        }
+      ]
+    },
+    {
+      "root": "chat",
+      "pages": [
+        {
+          "path": "pages/video/video",
+          "style": {}
+        },
+        {
+          "path": "pages/dialog/dialog",
+          "style": {}
+        },
+        {
+          "path": "pages/logs/logs",
+          "style": {}
+        }
+      ]
+    },
+    {
+      "root": "escortPage",
+      "pages": [
+        {
+          "path": "pages/groupList/teamInformation",
+          "style": {}
+        }
+      ]
+    },
+    {
+      "root": "smqc",
+      "pages": [
+        {
+          "path": "pages/index/index",
+          "style": {
+            "navigationBarTitleText": " ",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/lease/index",
+          "style": {
+            "navigationBarTitleText": " ",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/lease/placeOrder",
+          "style": {
+            "navigationBarTitleText": " ",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/lease/orderList",
+          "style": {
+            "navigationBarTitleText": " ",
+            "enablePullDownRefresh": true,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/myorder/myorder",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTextStyle": "white",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/smqcRefundApply/refundApply",
+          "style": {
+            "navigationBarTitleText": "申请退款",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "pages/smqcAffirm_order/affirm_order",
+          "style": {
+            "navigationBarTitleText": "确认订单",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/smqcStoreshop/storeshop",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "pages/smqcGoods_details/goods_details",
+          "style": {
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/smqcSearchOld/searchOld",
+          "style": {
+            "navigationBarTitleText": "搜索"
+          }
+        },
+        {
+          "path": "pages/smqcSpotDetailNew/purchaseTickets",
+          "style": {
+            "navigationBarTitleText": "门票预订",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/smqcSpotDetailNew/spotDetailNew",
+          "style": {
+            "enablePullDownRefresh": false,
+            "navigationBarTextStyle": "white",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pages/smqcAftercontent/aftercontent",
+          "style": {
+            "navigationBarTitleText": "提交原因",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/complaintFeedback/complaintFeedback",
+          "style": {
+            "navigationBarTitleText": "投诉反馈",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/smqcfeedback/feedback",
+          "style": {
+            "navigationBarTitleText": "问题反馈",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/smqcCollection/collection",
+          "style": {
+            "navigationBarTitleText": "我的收藏",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "pages/myorder/myorderList",
+          "style": {
+            "navigationBarTitleText": "我的订单",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "pages/smqcAftersales/aftersales",
+          "style": {
+            "navigationBarTitleText": "退换/售后",
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/smqcMyDiscounts/myDiscounts",
+          "style": {
+            "navigationBarTitleText": "我的优惠券",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false,
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/smqcPassenger/passenger",
+          "style": {
+            "navigationBarTitleText": "常用游客",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/smqcShopcart/shopcart",
+          "style": {
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": true,
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/smqcTicketFillOrder/ticketFillOrder",
+          "style": {
+            "navigationBarTitleText": "填写订单",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "pages/smqcOrder_pay/order_pay",
+          "style": {
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "backgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "订单支付",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "pages/smqcPackPlaceOrder/packPlaceOrder",
+          "style": {
+            "navigationBarTitleText": "填写订单",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "pages/smqcCalendarPage/calendarPage",
+          "style": {
+            "navigationBarTitleText": "选择日期",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/smqcOrderDetailtick/orderDetailtick",
+          "style": {
+            "navigationBarTitleText": "门票订单详情",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "pages/smqcTicketPay/ticketPay",
+          "style": {
+            "navigationBarTitleText": "确认订单",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/smqcfeedback/complaintFeedback",
+          "style": {
+            "navigationBarTitleText": "投诉反馈",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/smqcfeedback/feedbackView",
+          "style": {
+            "navigationBarTitleText": "",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/spot_listY/guide",
+          "style": {
+            "navigationStyle": "custom",
+            "backgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/smqcAddPassenger/addPassenger",
+          "style": {
+            "navigationBarTitleText": "新增游客",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/smqcEditPassenger/editPassenger",
+          "style": {
+            "navigationBarTitleText": "编辑游客",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/smqcSpotFilter/spotFilter",
+          "style": {
+            "backgroundColor": "#FFFFFF",
+            "navigationBarTitleText": "列表",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/smqcSpotContentList/spotContentList",
+          "style": {
+            "navigationStyle": "custom",
+            "backgroundColor": "#FFFFFF",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/smqcSpotThirdDetail/spotThirdDetail",
+          "style": {
+            "navigationStyle": "custom",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "pages/smqcOrder_details/order_details",
+          "style": {
+            "navigationBarTitleText": "订单详情",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": true
+          }
+        }
+      ]
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "游陕西",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#FFFFFF",
+    "selectedColor": "#FFFFFF",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": ""
+      },
+      {
+        "pagePath": "pages/spot_list/spot_list",
+        "text": ""
+      },
+      {
+        "pagePath": "pages/rankList/rankList",
+        "text": ""
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": ""
+      }
+    ]
+  }
+}

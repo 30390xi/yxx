@@ -1,0 +1,387 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941098",
+    "scenicName": "富平陶艺村",
+    "tag": "闻名天下的圣瓷官窑",
+    "level": 4,
+    "cityId": "1320663137836642305",
+    "cityName": "渭南",
+    "address": "渭南市富平县乔山路1号",
+    "longitude": "109.178432",
+    "latitude": "34.769205",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 119,
+    "topColour": "#C7834B",
+    "centralColour": "#AB6D3B",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/11-20201028143100.jpg",
+      "https://eshopfile.zhiyousx.com/2021092709591928284.png"
+    ],
+    "introduction": "<p>　　富平陶艺村是国内首家以陶艺为主题，集生态观光、休闲度假、餐饮住宿、参观购物为一体的陶文化交流中心，是国内首家国际陶协（1AC）会员单位. 富平陶艺村自1999年以来，加大生态环境建设，建山川秀美工程，投资兴建了800亩，世纪果林苑，种植适应地方生长的各优新果树20大类300余种，园内现已绿树成阴四季有花四季有果，空气清新、景色宜人，园中别墅设施齐全。 园区内建设的富乐国际陶艺博物馆群，现已建成2万平方米的十多个国家、地区馆及国际陶艺文献中心，展出来自50多个国家的600位陶世家的万余件/套，文献艺馆现收藏有来自20多个国家的50多种2000余这些作品各具特色，代表了各个民族的世术风格，特别是这些国外陶世家进驻陶艺家后将西方文化同东方文化相融合，创作出精品之作，使每个参观的人都会从中感受到了不同区域文化碰撞融合产生的新风格的艺术作品，给国内游客提供了一个了解和欣赏国外外文化艺术的窗口，给人以高品位的艺术享受。</p>",
+    "introductionText": "　　富平陶艺村是国内首家以陶艺为主题，集生态观光、休闲度假、餐饮住宿、参观购物为一体的陶文化交流中心，是国内首家国际陶协（1AC）会员单位. 富平陶艺村自1999年以来，加大生态环境建设，建山川秀美工程，投资兴建了800亩，世纪果林苑，种植适应地方生长的各优新果树20大类300余种，园内现已绿树成阴四季有花四季有果，空气清新、景色宜人，园中别墅设施齐全。 园区内建设的富乐国际陶艺博物馆群，现已建成2万平方米的十多个国家、地区馆及国际陶艺文献中心，展出来自50多个国家的600位陶世家的万余件/套，文献艺馆现收藏有来自20多个国家的50多种2000余这些作品各具特色，代表了各个民族的世术风格，特别是这些国外陶世家进驻陶艺家后将西方文化同东方文化相融合，创作出精品之作，使每个参观的人都会从中感受到了不同区域文化碰撞融合产生的新风格的艺术作品，给国内游客提供了一个了解和欣赏国外外文化艺术的窗口，给人以高品位的艺术享受。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "65",
+        "name": "工业旅游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "冬令",
+        "openTimeContent": "周一至周日，全天开放<br/>9：00-17:00，17:00停止入场"
+      },
+      {
+        "openTimeTitle": "夏令",
+        "openTimeContent": "周一至周日，全天开放<br/>9:00-18:00,18:00停止入场"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "身高1米（不含）以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.1（含）-1.4（不含）米之间",
+        "discount": "45元/人"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "60岁（含）-70岁（不含）的 老人",
+        "discount": "45元/人"
+      },
+      {
+        "peopleType": "军残人士",
+        "limit": "凭相关有效证件购票",
+        "discount": "45元/人（内宾票）"
+      },
+      {
+        "peopleType": "现役军人",
+        "limit": "凭相关有效证件购票 ",
+        "discount": "45元/人（内宾票）"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "11",
+        "name": "餐厅",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (22).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "6",
+        "name": "免费wifi",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (11).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "10",
+        "name": "商店",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (19).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "富平陶艺村停车场",
+        "additionalExplainContent": "参考价格：免费<br/>地址：景区内与景区门口<br/>库位：2000"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>富平1路-怀德公园站</p>\n<p>步行466米到达</p>\n<p>富平5路-迤山村站</p>\n<p>步行680米到达</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<p>西安上绕城高速，走西禹高速，沿阎良方向，到富平出口下高速，沿路标达到陶艺村，车程75公里左右，行车时间一小时。</p>"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0913-8228200"
+      },
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0913-8228193"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "服务号",
+        "wxSubscriptionName": "富平陶艺村",
+        "wxSubscription": "fupingtaoyicun"
+      }
+    ],
+    "sinaWeiboVoList": [
+      {
+        "sinaWeibo": "陕西富平陶艺村",
+        "sinaWeiboUrl": "https://weibo.com/u/2513175622"
+      }
+    ],
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1566623852846014465",
+        "resourcesId": "1321339000047558658",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092710182786481.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2022-09-05 11:06:47",
+        "updateTime": "2022-09-05 11:06:47",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1566623852854403074",
+        "resourcesId": "1321339000047558658",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092710191490940.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2022-09-05 11:06:47",
+        "updateTime": "2022-09-05 11:06:47",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1566623852866985985",
+        "resourcesId": "1321339000047558658",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092710181954757.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2022-09-05 11:06:47",
+        "updateTime": "2022-09-05 11:06:47",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1566623852887957506",
+        "resourcesId": "1321339000047558658",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/14-20201028143126.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2022-09-05 11:06:47",
+        "updateTime": "2022-09-05 11:06:47",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1566623852913123329",
+        "resourcesId": "1321339000047558658",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/15-20201028143132.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2022-09-05 11:06:47",
+        "updateTime": "2022-09-05 11:06:47",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1566623852921511937",
+        "resourcesId": "1321339000047558658",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092710183577722.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2022-09-05 11:06:47",
+        "updateTime": "2022-09-05 11:06:47",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1566623852934094850",
+        "resourcesId": "1321339000047558658",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/13-20201028143118.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2022-09-05 11:06:47",
+        "updateTime": "2022-09-05 11:06:47",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1566623053130653698",
+      "rankingId": null,
+      "indexInRanking": 4,
+      "rankingName": "渭南亲子游景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1455112666791124994",
+        "rankingId": "1455112668192022530",
+        "indexInRanking": null,
+        "rankingName": "渭南自驾游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": null,
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "scenicInfoTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": 0,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": null,
+    "hotelArrivalDepartureTime": null,
+    "hotelChildrenBed": null,
+    "hotelPet": null,
+    "hotelBreakfast": null,
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

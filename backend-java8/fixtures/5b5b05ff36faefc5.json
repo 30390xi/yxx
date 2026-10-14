@@ -1,0 +1,225 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1455813466618175490",
+    "contentId": "1455813465879977985",
+    "rankingName": "杨凌必玩景点人气排行榜",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://res.zhiyousx.com/ysx/pro/2021/11/03/163592794578295402.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": "人",
+    "rankingInclude": "个景点",
+    "rankingPersonalInfo": "我去过的景点",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#00924F",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1320579064720941142",
+        "originType": "1",
+        "originName": "西北农林科技大学博览园",
+        "originSubtitleName": "集教学、科研、科普于一体的重要学科基地",
+        "originUrl": "https://eshopfile.zhiyousx.com/2-20201028155530.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/4-20201028160150.jpg",
+          "https://eshopfile.zhiyousx.com/5-20201028160219.png",
+          "https://eshopfile.zhiyousx.com/6-20201028160252.png",
+          "https://eshopfile.zhiyousx.com/2021072317252269687.png",
+          "https://eshopfile.zhiyousx.com/2021072317253991217.png",
+          "https://eshopfile.zhiyousx.com/2021072317260292009.png",
+          "https://eshopfile.zhiyousx.com/2021072317263818640.png",
+          "https://eshopfile.zhiyousx.com/2021072317272598977.png",
+          "https://eshopfile.zhiyousx.com/2021072317273648123.png"
+        ],
+        "sort": "0",
+        "favoriteValue": null,
+        "isBookable": true,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1432889031485665282",
+        "originType": "1",
+        "originName": "杨凌现代农业创新园",
+        "originSubtitleName": "陕西省首家农业4A级旅游景区",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021090110014764942.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021090110174368278.jpg",
+          "https://eshopfile.zhiyousx.com/2021090110175024870.jpg",
+          "https://eshopfile.zhiyousx.com/2021090110175697192.jpg"
+        ],
+        "sort": "1",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1446403347555819522",
+        "originType": "1",
+        "originName": "杨凌水上体育运动中心",
+        "originSubtitleName": "水上运动看这里",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021100817124814808.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/167409594789572258.jpg",
+          "https://eshopfile.zhiyousx.com/167409594822328816.jpg",
+          "https://eshopfile.zhiyousx.com/167409594854016587.jpg"
+        ],
+        "sort": "2",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064188264621",
+        "originType": "1",
+        "originName": "教稼园",
+        "originSubtitleName": "这里的人们仍追忆着这位上古先贤",
+        "originUrl": "https://eshopfile.zhiyousx.com/后稷教稼园1-20201028173617.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/后稷教稼园3-20201028173637.jpg",
+          "https://eshopfile.zhiyousx.com/后稷教稼园4-20201028173645.jpg"
+        ],
+        "sort": "3",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1446304998966173698",
+        "originType": "1",
+        "originName": "杨凌树木园",
+        "originSubtitleName": "家门口的植物公园",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021100810364932277.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021100810404560873.jpg",
+          "https://eshopfile.zhiyousx.com/2021100810405332113.jpg",
+          "https://eshopfile.zhiyousx.com/2021100810410211642.jpg",
+          "https://eshopfile.zhiyousx.com/2021100810410955321.jpg"
+        ],
+        "sort": "4",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1443474986600808450",
+        "originType": "1",
+        "originName": "王上村",
+        "originSubtitleName": "因隋文帝泰陵坐落于此而闻名",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021093015153192178.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021093015165203092.jpg",
+          "https://eshopfile.zhiyousx.com/2021093015165979713.jpg",
+          "https://eshopfile.zhiyousx.com/2021093015170339797.jpg"
+        ],
+        "sort": "5",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1443412134867288066",
+        "originType": "1",
+        "originName": "崔西沟生态民俗村",
+        "originSubtitleName": "玉米搅团口口香、浆水鱼鱼吃个够",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021093011010545861.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021093011064630138.jpg",
+          "https://eshopfile.zhiyousx.com/2021093011065262634.jpg",
+          "https://eshopfile.zhiyousx.com/2021093011065758845.jpg",
+          "https://eshopfile.zhiyousx.com/2021093011070189434.jpg"
+        ],
+        "sort": "6",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1443408135669727234",
+        "originType": "1",
+        "originName": "杨凌渭河生态公园",
+        "originSubtitleName": "以水为主题的湿地生态公园",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021093010301186403.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021093010511479385.jpg",
+          "https://eshopfile.zhiyousx.com/2021093010511979873.jpg",
+          "https://eshopfile.zhiyousx.com/2021093010512438480.jpg"
+        ],
+        "sort": "7",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064188264623",
+        "originType": "1",
+        "originName": "杨凌天成家庭农场",
+        "originSubtitleName": "东北风情的家庭休闲农场",
+        "originUrl": "https://eshopfile.zhiyousx.com/杨凌天成家庭农场1-20201029105515.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/杨凌天成家庭农场2-20201029105526.jpg",
+          "https://eshopfile.zhiyousx.com/杨凌天成家庭农场3-20201029105534.jpg",
+          "https://eshopfile.zhiyousx.com/杨凌天成家庭农场4-20201029105543.jpg"
+        ],
+        "sort": "8",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064188264624",
+        "originType": "1",
+        "originName": "尚特梅斯庄园",
+        "originSubtitleName": "集养殖、种植、休闲为一体的欧式别墅",
+        "originUrl": "https://eshopfile.zhiyousx.com/尚特梅斯1-20201028171359.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021092710302085974.jpg",
+          "https://eshopfile.zhiyousx.com/2021092710302612760.jpg",
+          "https://eshopfile.zhiyousx.com/尚特梅斯4-20201028171455.jpg",
+          "https://eshopfile.zhiyousx.com/尚特梅斯3-20201028171445.png"
+        ],
+        "sort": "9",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "11",
+    "favoriteSum": null,
+    "personalInfoValue": "0/11"
+  },
+  "msg": "成功",
+  "success": true
+}

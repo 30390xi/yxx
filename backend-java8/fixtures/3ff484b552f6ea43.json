@@ -1,0 +1,340 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064188264599",
+    "scenicName": "丹江漂流景区",
+    "tag": "西北第一漂",
+    "level": 4,
+    "cityId": "1320664941605466114",
+    "cityName": "商洛",
+    "address": "商洛市丹凤县江滨北路西段",
+    "longitude": "110.32437",
+    "latitude": "33.69152",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 171,
+    "topColour": "#659D05",
+    "centralColour": "#659D05",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2023061517363067088.jpg"
+    ],
+    "introduction": "<p>　　西北第一漂&mdash;&mdash;丹江漂流，位于秦岭南麓的丹凤县，距离西安市146公里，这里山高水阔，景色秀丽，自然保护完整，文化文物景点众多，是理想的休闲观光旅游胜地，丹江漂流全长8公里，从明代著名旅行家徐霞客登舟处的船帮会馆到月日滩龙头山风景度假区，一路山环水绕，两岸农田小舍，是一条生态漂流线路。</p>",
+    "introductionText": "　　西北第一漂——丹江漂流，位于秦岭南麓的丹凤县，距离西安市146公里，这里山高水阔，景色秀丽，自然保护完整，文化文物景点众多，是理想的休闲观光旅游胜地，丹江漂流全长8公里，从明代著名旅行家徐霞客登舟处的船帮会馆到月日滩龙头山风景度假区，一路山环水绕，两岸农田小舍，是一条生态漂流线路。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "19",
+        "name": "水上玩乐",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "51",
+        "name": "拓展游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全年",
+        "openTimeContent": "08:00-18:00"
+      }
+    ],
+    "discountVoList": null,
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "59",
+        "name": "园内交通",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016420452783.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "温馨提示",
+        "additionalExplainContent": "1、丹江漂流门市票：128元/位<br/>2、取票地点：景区游客接待中心<br/>3、预订门票包含保险、护漂员、救生衣、淋浴。<br/>4、景区内的水枪、水瓢、草鞋、雨衣、小交通等需另外收费。<br/>5、漂流为水上户外项目，受天气等不可抗力因素影响较大，建议您出行前查看当地天气预报。"
+      },
+      {
+        "additionalExplainTitle": "补充说明",
+        "additionalExplainContent": "针对学生证、军官证、记者证、士兵证，伤残军人优待证、老年证、教师证等人群，入园门票根据景点政策执行，需至景区咨询。"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>陕西省客运站（西安火车站对面）、城东客运站或城南客运站乘西安至丹凤客运大巴到丹凤县，出租车或公交均可到达丹江漂流景区</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": [
+      "http://www.danjiangpiaoliu.com/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "官方电话",
+        "telephone": "0914-3389087"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "丹凤丹江漂流",
+        "wxSubscription": "djpl-0914-3389087"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1669281403151376385",
+        "resourcesId": "1321402522693558273",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/168682181832286475.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": "",
+        "createTime": "2023-06-15 17:51:14",
+        "updateTime": "2023-06-15 17:51:14",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1669281403163959297",
+        "resourcesId": "1321402522693558273",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/168682181874188747.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": "",
+        "createTime": "2023-06-15 17:51:14",
+        "updateTime": "2023-06-15 17:51:14",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1669281403176542209",
+        "resourcesId": "1321402522693558273",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021090111042366758.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2023-06-15 17:51:14",
+        "updateTime": "2023-06-15 17:51:14",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1669281403189125122",
+        "resourcesId": "1321402522693558273",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021090111041719776.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2023-06-15 17:51:14",
+        "updateTime": "2023-06-15 17:51:14",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1669281403201708034",
+        "resourcesId": "1321402522693558273",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/1-20201028184439.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2023-06-15 17:51:14",
+        "updateTime": "2023-06-15 17:51:14",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1669281403214290945",
+        "resourcesId": "1321402522693558273",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/4-20201028184444.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2023-06-15 17:51:14",
+        "updateTime": "2023-06-15 17:51:14",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": null,
+      "rankingId": null,
+      "indexInRanking": null,
+      "rankingName": null,
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": null,
+    "hotelArrivalDepartureTime": null,
+    "hotelChildrenBed": null,
+    "hotelPet": null,
+    "hotelBreakfast": null,
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

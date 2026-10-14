@@ -17,9 +17,11 @@
           var t = this,
             n = (t.$createElement, t._self._c, t.spotList[0] ? t.__map(t.spotList, (function(n, e) {
               return {
+                key: String(n.id || e),
                 $orig: t.__get_orig(n),
-                l0: n.rankingItemList ? t.__map(n.rankingItemList, (function(e, i) {
+                l0: n.rankingItemList ? t.__map(n.rankingItemList.slice(0, 3), (function(e, i) {
                   return {
+                    key: String(e.originId || i) + ":" + i,
                     $orig: t.__get_orig(e),
                     g0: i < 3 && (8 == n.type || 7 == n.type) && 2 == n.rankingType && e.favoriteValue ? Number(e.favoriteValue).toFixed(2) : null
                   }
@@ -80,6 +82,7 @@
               spotList: [],
               coverImage: "",
               loading: !1,
+              hasMore: !0,
               fixednavTop: 0,
               fixNavTop: 90,
               unit: 0,
@@ -91,6 +94,7 @@
             }
           },
           onShow: function() {
+            setTimeout(function() { var pages = getCurrentPages(), page = pages[pages.length - 1], bar = page && page.getTabBar && page.getTabBar(); if (page && page.route === "pages/rankList/rankList" && bar) bar.setData({ selected: 2 }); }, 100);
             this.$bus.$emit("tabPlay", 2)
           },
           onLoad: function(n) {
@@ -108,19 +112,24 @@
             this.scrollTop = t.scrollTop, this.fixedstyle = t.scrollTop + this.fixNavTop > this.navtop2 ? "position:fixed;left:40rpx;top:".concat(this.fixNavTop, "px") : "", this.navFixed = !!this.fixedstyle
           },
           onReachBottom: function() {
-            this.current += 1, this.getRankList()
+            this.loading || !this.hasMore || (this.current += 1, this.getRankList())
           },
           methods: {
             encode: function(t) {
               return encodeURIComponent(t)
             },
             changeType: function(n, e) {
-              this.loading || (t.showLoading(), this.loading = !0, this.navType = n, this.activeIndex = e, this.spotList = [], this.current = 1, this.getRankList(!0))
+              this.loading || e === this.activeIndex || (t.showLoading(), this.loading = !0, this.navType = n, this.activeIndex = e, this.spotList = [], this.current = 1, this.hasMore = !0, this.getRankList(!0))
             },
             getRankList: function(n) {
-              var e = this;
-              this.$uniApi.dataRequestYesLoading("post", "base/app/v1/contentRanking/selectRankingPage?current=".concat(e.current, "&size=").concat(e.size, "&rankingClass=").concat(e.navType), "", "加载中...").then((function(i) {
-                i.data.records[0] && (e.spotList = e.spotList.concat(i.data.records)), t.hideLoading(), e.loading = !1, !i.data.records[0] && e.current > 1 && t.showToast({
+              var e = this, page = this.current, rankingClass = this.navType;
+              this.loading = !0;
+              this.$uniApi.dataRequestYesLoading("post", "base/app/v1/contentRanking/selectRankingPage?current=".concat(page, "&size=").concat(e.size, "&rankingClass=").concat(rankingClass), "", "加载中...").then((function(i) {
+                if (page !== e.current || rankingClass !== e.navType) return;
+                var data = i && i.data || {}, records = Array.isArray(data.records) ? data.records : [];
+                records.length && (e.spotList = e.spotList.concat(records));
+                e.hasMore = records.length > 0 && e.spotList.length < Number(data.total || 0);
+                t.hideLoading(), e.loading = !1, !records.length && page > 1 && t.showToast({
                   title: "没有更多咯~",
                   icon: "none"
                 }), n && e.scrollTop + e.fixNavTop > e.navtop2 && t.pageScrollTo({
@@ -128,7 +137,7 @@
                   scrollTop: e.navtop2 - e.fixNavTop - 3
                 })
               })).catch((function(n) {
-                t.hideLoading(), e.loading = !1, t.showToast({
+                page > 1 && (e.current = page - 1), t.hideLoading(), e.loading = !1, t.showToast({
                   title: "error",
                   icon: "none"
                 })

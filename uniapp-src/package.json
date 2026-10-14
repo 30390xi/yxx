@@ -1,0 +1,22 @@
+{
+  "name": "youshaanxi-uniapp",
+  "version": "1.8.1",
+  "description": "游陕西小程序 uni-app 逆向还原源码工程",
+  "scripts": {
+    "serve": "npm run dev:mp-weixin",
+    "build": "npm run build:mp-weixin",
+    "dev:mp-weixin": "cross-env NODE_ENV=development UNI_PLATFORM=mp-weixin vue-cli-service uni-build --watch",
+    "build:mp-weixin": "cross-env NODE_ENV=production UNI_PLATFORM=mp-weixin vue-cli-service uni-build"
+  },
+  "dependencies": {
+    "vue": "^2.6.14",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@dcloudio/uni-cli-shared": "^2.0.2-3081220230817001",
+    "@dcloudio/vue-cli-plugin-uni": "^2.0.2-3081220230817001",
+    "cross-env": "^7.0.3",
+    "sass": "^1.69.5",
+    "sass-loader": "^10.4.1"
+  }
+}

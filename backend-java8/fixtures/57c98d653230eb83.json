@@ -1,0 +1,699 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941173",
+    "scenicName": "西安博物院(小雁塔)",
+    "tag": "关中八景“雁塔晨钟”",
+    "level": 4,
+    "address": "西安市碑林区友谊西路72号",
+    "longitude": "108.941867",
+    "latitude": "34.238521",
+    "openingStatus": 1,
+    "capacity": 1000,
+    "topColour": "#809961",
+    "centralColour": "#53763E",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2024032716471670816.jpg",
+      "https://eshopfile.zhiyousx.com/2021082514524417312.jpg"
+    ],
+    "introduction": "<p>　　西安博物院以著名唐代建筑、全国重点文物保护单位小雁塔为中心，按文物鉴赏、旅游观光、综合服务三大功能区设计，形成集博物馆、名胜古迹、城市公园为一体的历史文化休闲场所。小雁塔，位于唐长安城安仁坊荐福寺内，始建于唐景龙年间，与大雁塔同为唐长安城保留至今的重要标志。小雁塔和荐福寺钟楼内的古钟合称为&ldquo;关中八景&rdquo;之一的&ldquo;雁塔晨钟&rdquo;，是国家AAAA级旅游景区。小雁塔是中国早期方形密檐式砖塔的典型作品，原有15层，现存13层，高43.4米，塔形秀丽，是唐代佛教建筑艺术遗产，佛教传入中原地区并融入汉族文化的标志性建筑。</p>",
+    "introductionText": "　　西安博物院以著名唐代建筑、全国重点文物保护单位小雁塔为中心，按文物鉴赏、旅游观光、综合服务三大功能区设计，形成集博物馆、名胜古迹、城市公园为一体的历史文化休闲场所。小雁塔，位于唐长安城安仁坊荐福寺内，始建于唐景龙年间，与大雁塔同为唐长安城保留至今的重要标志。小雁塔和荐福寺钟楼内的古钟合称为“关中八景”之一的“雁塔晨钟”，是国家AAAA级旅游景区。小雁塔是中国早期方形密檐式砖塔的典型作品，原有15层，现存13层，高43.4米，塔形秀丽，是唐代佛教建筑艺术遗产，佛教传入中原地区并融入汉族文化的标志性建筑。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "21",
+        "name": "地标打卡",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "63",
+        "name": "宗教文化",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "69",
+        "name": "商务旅",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026386268161",
+        "contentId": "1418152026377879553",
+        "name": "世界遗产名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026327547906",
+        "contentId": "1418152026310770690",
+        "name": "国家一级博物馆",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "<p>亲爱的观众朋友：</p>\n<p>　　&ldquo;中秋、国庆&rdquo;假期将至，为满足广大观众参观需求，西安博物院将实行延时开放，具体时间安排如下：</p>\n<p>　　2026年10月1日至10月7日，每日延时开放3小时，开放时间为7:30&mdash;20:00（19:00停止检票），参观预约数量增至18000人次/日（原15000人次/日）。延时开放期间，晨练活动和公务接待暂停，敬请谅解！</p>\n<p>　　为确保更好的参观体验，观众和旅行团队可选择延长时段，错峰出行。西安博物院停车位有限，建议您选择地铁、公交等方式绿色出行。</p>\n<p>　　期待与您共赏历史瑰宝，感谢您对西安博物院的关注和支持！</p>\n<p>&nbsp;</p>\n<p style=\"padding-left: 30px; text-align: right;\">西安博物院</p>\n<p style=\"padding-left: 30px; text-align: right;\">2026年9月20日</p>",
+    "discountVoList": null,
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区电话",
+        "telephone": "029-87803591"
+      }
+    ],
+    "topBannerList": [
+      {
+        "id": "2102293205469028353",
+        "outId": "1320579064720941173",
+        "type": 1,
+        "advertName": "西安博物院攻略",
+        "advertPic": "https://eshopfile.zhiyousx.com/2024070717242737466.png",
+        "jumpType": 1,
+        "jumpUrl": "https://mp.weixin.qq.com/s/d9I2kG1LeX7W4z3ZVfhVog",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "",
+        "contentType": null,
+        "bannerPosition": 0
+      }
+    ],
+    "bannerList": [
+      {
+        "id": "2102293205473222658",
+        "outId": "1320579064720941173",
+        "type": 1,
+        "advertName": "游玩攻略",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021072216121205716.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p>西安博物院，集国家一级博物馆、全国重点文物保护单位、世界遗产小雁塔为一体的综合性博物馆，以展示珍贵文物，唐代千年古塔、雁塔晨钟、园林景观而闻名。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072216165977047.jpg\" /></p>\n<p>西安博物院占地245亩，内容丰富，由文物展馆区、小雁塔、荐福寺遗址为三大核心，呈现历史名胜、园林游览等主题。自2007年正式开放以来，十余年间热度高涨，深受全国人民的喜爱。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072216170742418.jpg\" /></p>\n<p>博物院内藏品众多，馆内形成了以基本陈列&ldquo;古都西安&rdquo;为主，专题陈列&ldquo;宝相庄严&mdash;&mdash;长安佛教造像艺术专题陈列&rdquo;&ldquo;天地之灵&mdash;&mdash;院藏古代玉器精品陈列&rdquo;为辅，譬如西周永盂、唐代三彩胡人腾空马、汉代&middot;龙纹空心砖，每一件都具有极高的研究与观赏价值。而这些陈列在馆的文物，也将承载着时间的流转，愈发珍贵，熠熠生辉。</p>\n<p>文物展馆，是西安博物院主体建筑，整体外观遵循&ldquo;天圆地方&rdquo;，突出体现中国传统文化思想。展馆内收藏各个历史时期的文物111914件，包括青铜器、玉器、金银器、瓷器、石雕、碑刻、印章、陶器、三彩器、书画、经册、碑帖、珍善本书及杂器等，其中三级以上珍贵文物11020件。院藏古籍10万余册（8千多部），其中有37部入选国家珍贵古籍名录，运用数字幻影演示、DMS数字虚拟演示等技术，提供更具场景感的游览体验。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072216171610820.jpg\" /></p>\n<p>与大雁塔的雄伟相比，小雁塔更精致，更具韵味。小雁塔始建于公元707年，是唐高宗李治死后百日，皇家族戚为他祈福而建，唐代高僧义净法师曾在这里译经著说。在开放过程中，小雁塔园内不断充实民俗、景观，打造了人工湖、绿化园林，让此景焕发新的活力与生机。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072216191029739.jpg\" /></p>\n<p>荐福寺，是唐代著名皇家寺院、重要的佛经翻译场所。现存荐福寺古建筑为明清两代重修，寺院有丝路明珠小雁塔、荐福寺历代重新修缮碑石刻及明清石刻拴马桩等，中国著名的&ldquo;关中八景&rdquo;之一&mdash;&mdash;雁塔晨钟，正出自荐福寺。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072216192633924.jpg\" /></p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": "馆藏珍品",
+    "contentResourcesDtoList": [
+      {
+        "id": "2102293205380947970",
+        "resourcesId": "1418129292549709826",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165943424080244898.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": "",
+        "createTime": "2026-09-22 15:05:33",
+        "updateTime": "2026-09-22 15:05:33",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102293205380947971",
+        "resourcesId": "1418129292549709826",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165943424129718728.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": "",
+        "createTime": "2026-09-22 15:05:33",
+        "updateTime": "2026-09-22 15:05:33",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102293205385142273",
+        "resourcesId": "1418129292549709826",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165943424168883098.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": "",
+        "createTime": "2026-09-22 15:05:33",
+        "updateTime": "2026-09-22 15:05:33",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102293205385142274",
+        "resourcesId": "1418129292549709826",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165943424209528526.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": "",
+        "createTime": "2026-09-22 15:05:33",
+        "updateTime": "2026-09-22 15:05:33",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102293205389336577",
+        "resourcesId": "1418129292549709826",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165943424251159566.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": "",
+        "createTime": "2026-09-22 15:05:33",
+        "updateTime": "2026-09-22 15:05:33",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102293205393530882",
+        "resourcesId": "1418129292549709826",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165943424291465563.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": "",
+        "createTime": "2026-09-22 15:05:33",
+        "updateTime": "2026-09-22 15:05:33",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102293205393530883",
+        "resourcesId": "1418129292549709826",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082515221214536.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2026-09-22 15:05:33",
+        "updateTime": "2026-09-22 15:05:33",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102293205397725185",
+        "resourcesId": "1418129292549709826",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082515223219803.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2026-09-22 15:05:33",
+        "updateTime": "2026-09-22 15:05:33",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102293205397725186",
+        "resourcesId": "1418129292549709826",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082515224683089.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": null,
+        "createTime": "2026-09-22 15:05:33",
+        "updateTime": "2026-09-22 15:05:33",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102293205401919489",
+        "resourcesId": "1418129292549709826",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082515232093275.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": null,
+        "createTime": "2026-09-22 15:05:33",
+        "updateTime": "2026-09-22 15:05:33",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102293205401919490",
+        "resourcesId": "1418129292549709826",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082515233182455.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 11,
+        "describe": null,
+        "createTime": "2026-09-22 15:05:33",
+        "updateTime": "2026-09-22 15:05:33",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102293205406113794",
+        "resourcesId": "1418129292549709826",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082515233853422.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 12,
+        "describe": null,
+        "createTime": "2026-09-22 15:05:33",
+        "updateTime": "2026-09-22 15:05:33",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102293205410308097",
+        "resourcesId": "1418129292549709826",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082515240404650.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 13,
+        "describe": null,
+        "createTime": "2026-09-22 15:05:33",
+        "updateTime": "2026-09-22 15:05:33",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102293205410308098",
+        "resourcesId": "1418129292549709826",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082515241535373.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 14,
+        "describe": null,
+        "createTime": "2026-09-22 15:05:33",
+        "updateTime": "2026-09-22 15:05:33",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102293205414502402",
+        "resourcesId": "1418129292549709826",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082515243142301.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 15,
+        "describe": null,
+        "createTime": "2026-09-22 15:05:33",
+        "updateTime": "2026-09-22 15:05:33",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1439119981701840898",
+      "rankingId": null,
+      "indexInRanking": 4,
+      "rankingName": "陕西人气博物馆排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1574974899180212226",
+        "rankingId": "1574974902443380737",
+        "indexInRanking": null,
+        "rankingName": "陕西免费景区人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1551836855409541121",
+        "rankingId": "1551836856105795586",
+        "indexInRanking": null,
+        "rankingName": "外地游客西安必逛榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1658303499793903618",
+        "rankingId": "1658303501412904962",
+        "indexInRanking": null,
+        "rankingName": "历史文化类博物馆人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1507176407057350658",
+        "rankingId": "1507176408005263362",
+        "indexInRanking": null,
+        "rankingName": "赏花踏青好去处",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1818221757267132417",
+        "rankingId": "1818221762493235202",
+        "indexInRanking": null,
+        "rankingName": "西安汉服拍摄地人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1538830830115508226",
+        "rankingId": "1538830831147307010",
+        "indexInRanking": null,
+        "rankingName": "西安必游人气排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1680835374538088449",
+        "rankingId": "1680835375632801794",
+        "indexInRanking": null,
+        "rankingName": "陕西省热搜50强博物馆排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1676883692355641345",
+        "rankingId": "1676883693114810370",
+        "indexInRanking": null,
+        "rankingName": "西安热门景区人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "2102293205427085314",
+        "scenicSpotId": "1320579064720941173",
+        "contentModuleName": "馆藏珍品",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1429658262491475969",
+            "type": 5,
+            "title": "董钦造鎏金弥陀佛像",
+            "subtitle": "北齐遗风，中华佛文化变迁的见证",
+            "coverImage": "https://eshopfile.zhiyousx.com/162976909941473764.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1429649881416445954",
+            "type": 5,
+            "title": "三彩腾空马",
+            "subtitle": "“大唐长安的追梦人”",
+            "coverImage": "https://eshopfile.zhiyousx.com/162977100744059168.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1429633943551979521",
+            "type": 5,
+            "title": "玉高足杯",
+            "subtitle": " 秦代宫廷御用玉杯",
+            "coverImage": "https://eshopfile.zhiyousx.com/162977231081820434.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1429720688503140354",
+            "type": 5,
+            "title": "鎏金走龙",
+            "subtitle": "盛唐时代的艺术之美",
+            "coverImage": "https://eshopfile.zhiyousx.com/162977412892884710.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1429735324023631873",
+            "type": 5,
+            "title": "陶白虎纹瓦当",
+            "subtitle": "主管西方的神灵",
+            "coverImage": "https://eshopfile.zhiyousx.com/162977561770575761.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1429694117721518081",
+            "type": 5,
+            "title": "鎏金鹰形杖首",
+            "subtitle": "皇宫贵族权利和尊严的象征",
+            "coverImage": "https://eshopfile.zhiyousx.com/162977474427361758.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1430063661694693377",
+            "type": 5,
+            "title": "错金银勾连云纹铜钫",
+            "subtitle": "重见天日的百年酒器",
+            "coverImage": "https://eshopfile.zhiyousx.com/162978911927883764.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1430074981835976706",
+            "type": 5,
+            "title": "史君墓石椁",
+            "subtitle": "穿越千年的粟特人夫妻",
+            "coverImage": "https://eshopfile.zhiyousx.com/162979067433939806.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1430102882228744193",
+            "type": 5,
+            "title": "鎏金翼兽纹带五足铜炉台",
+            "subtitle": "唐代皇室用它礼佛",
+            "coverImage": "https://eshopfile.zhiyousx.com/162979623851115837.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1430081222767390721",
+            "type": 5,
+            "title": "卫簋",
+            "subtitle": "盛载西周的记忆",
+            "coverImage": "https://eshopfile.zhiyousx.com/162979221592223034.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1430362225704546306",
+            "type": 5,
+            "title": "八瓣仕女狩猎银杯",
+            "subtitle": "一个杯子闪烁大唐盛世的光辉",
+            "coverImage": "https://eshopfile.zhiyousx.com/162985960359276794.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1430350834289455106",
+            "type": 5,
+            "title": "白瓷马蹬壶",
+            "subtitle": "马背上的杯子",
+            "coverImage": "https://eshopfile.zhiyousx.com/162985707438782021.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1430380040650076161",
+            "type": 5,
+            "title": "折枝团花纹银渣斗",
+            "subtitle": "盛了半个盛唐的渣斗",
+            "coverImage": "https://eshopfile.zhiyousx.com/162986303892256892.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1434804420134154242",
+            "type": 5,
+            "title": "香炉纹盾形镜",
+            "subtitle": "宋代铜镜",
+            "coverImage": "https://eshopfile.zhiyousx.com/163091884434141198.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": "2026年“中秋”“国庆”假期开放公告",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

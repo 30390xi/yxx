@@ -1,0 +1,243 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1436259167240196097",
+    "contentId": "1436259164358709249",
+    "rankingName": "西安城市公园人气榜",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/163126858114887919.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": "人去过",
+    "rankingInclude": "个城市公园",
+    "rankingPersonalInfo": "我去过的城市公园",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#6984A1",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1524935934943391746",
+        "originType": "1",
+        "originName": "天坛遗址公园",
+        "originSubtitleName": "天圆地方，庄严神圣",
+        "originUrl": "https://eshopfile.zhiyousx.com/2022051310134620432.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/165240789514002383.jpg",
+          "https://eshopfile.zhiyousx.com/165240789257005838.jpg",
+          "https://eshopfile.zhiyousx.com/165240789292204164.jpg",
+          "https://eshopfile.zhiyousx.com/165240789323307082.jpg",
+          "https://eshopfile.zhiyousx.com/165240789361635343.jpg",
+          "https://eshopfile.zhiyousx.com/165240789478423698.jpg",
+          "https://eshopfile.zhiyousx.com/165240789391276236.jpg",
+          "https://eshopfile.zhiyousx.com/165240789420100347.jpg",
+          "https://eshopfile.zhiyousx.com/165240789450728749.jpg"
+        ],
+        "sort": "10",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1436250046726148098",
+        "originType": "1",
+        "originName": "长安公园",
+        "originSubtitleName": "长安区规模最大公园",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021091016391939050.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021091016412240698.jpg",
+          "https://eshopfile.zhiyousx.com/2021091016413499211.jpg",
+          "https://eshopfile.zhiyousx.com/2021091016413961930.jpg",
+          "https://eshopfile.zhiyousx.com/2021091016414437690.jpg"
+        ],
+        "sort": "11",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064188264518",
+        "originType": "1",
+        "originName": "莲湖公园",
+        "originSubtitleName": "王府花园“莲花池”",
+        "originUrl": "https://eshopfile.zhiyousx.com/2025071816234532882.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021091014224011514.jpg",
+          "https://eshopfile.zhiyousx.com/2021091014224621771.jpg",
+          "https://eshopfile.zhiyousx.com/2021091014225277702.jpg"
+        ],
+        "sort": "12",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1419498459437817857",
+        "originType": "1",
+        "originName": "汉长安城未央宫国家考古遗址公园",
+        "originSubtitleName": "总面积相当于6个北京故宫",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021072611010449582.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021072611204690682.jpg",
+          "https://eshopfile.zhiyousx.com/2021072611205773207.jpg",
+          "https://eshopfile.zhiyousx.com/2021072611222381991.jpg",
+          "https://eshopfile.zhiyousx.com/2021072611211077573.jpg",
+          "https://eshopfile.zhiyousx.com/2021072611211892801.jpg",
+          "https://eshopfile.zhiyousx.com/2021072611212850242.jpg",
+          "https://eshopfile.zhiyousx.com/2021072611213713812.jpg",
+          "https://eshopfile.zhiyousx.com/2021072611214879823.jpg",
+          "https://eshopfile.zhiyousx.com/2021072611220166403.jpg",
+          "https://eshopfile.zhiyousx.com/2021072611221226174.jpg"
+        ],
+        "sort": "13",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1436141158429425666",
+        "originType": "1",
+        "originName": "丰庆公园",
+        "originSubtitleName": "西安西郊老机场旧址",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021091009331424320.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021091009544079125.png",
+          "https://eshopfile.zhiyousx.com/2021091009544813296.png",
+          "https://eshopfile.zhiyousx.com/2021091009574701878.png",
+          "https://eshopfile.zhiyousx.com/2021091009575706876.png",
+          "https://eshopfile.zhiyousx.com/2021091009580440969.png",
+          "https://eshopfile.zhiyousx.com/2021091009581213597.png"
+        ],
+        "sort": "14",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064590917636",
+        "originType": "1",
+        "originName": "革命公园",
+        "originSubtitleName": "不应该忘记的历史",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021091012285532317.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021091014073534152.png",
+          "https://eshopfile.zhiyousx.com/2021091014074413663.png",
+          "https://eshopfile.zhiyousx.com/2021091014080230104.png",
+          "https://eshopfile.zhiyousx.com/2021091014081341026.png",
+          "https://eshopfile.zhiyousx.com/2021091014082023016.jpg",
+          "https://eshopfile.zhiyousx.com/2021091014082916068.png"
+        ],
+        "sort": "15",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1436179803253334017",
+        "originType": "1",
+        "originName": "长乐公园",
+        "originSubtitleName": "西安鲜有的原生态绿地",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021091012130911626.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021091012071260233.jpg",
+          "https://eshopfile.zhiyousx.com/2021091012072782571.jpg",
+          "https://eshopfile.zhiyousx.com/2021091012074344956.png",
+          "https://eshopfile.zhiyousx.com/2021091012075462301.jpg",
+          "https://eshopfile.zhiyousx.com/2021091012080542655.png",
+          "https://eshopfile.zhiyousx.com/2021091012081813995.png"
+        ],
+        "sort": "16",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1436163893973024770",
+        "originType": "1",
+        "originName": "西安城市运动公园",
+        "originSubtitleName": "未央区的遛弯好去处",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021091010500138996.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021091011050423972.jpg",
+          "https://eshopfile.zhiyousx.com/2021091011051248032.jpg",
+          "https://eshopfile.zhiyousx.com/2021091011051952222.jpg",
+          "https://eshopfile.zhiyousx.com/2021091011052537722.jpg"
+        ],
+        "sort": "17",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1436229955154345986",
+        "originType": "1",
+        "originName": "雁鸣湖休闲公园",
+        "originSubtitleName": "浐河边的休闲公园",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021091015104023876.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021091015245408822.png",
+          "https://eshopfile.zhiyousx.com/2021091015250425067.png",
+          "https://eshopfile.zhiyousx.com/2021091015243461087.jpg",
+          "https://eshopfile.zhiyousx.com/2021091015251658713.png"
+        ],
+        "sort": "18",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064188264632",
+        "originType": "1",
+        "originName": "曲江寒窑遗址公园",
+        "originSubtitleName": "爱情主题公园",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021091015490890122.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021091016021257593.jpg",
+          "https://eshopfile.zhiyousx.com/2021091016021894931.jpg",
+          "https://eshopfile.zhiyousx.com/2021091016022339669.jpg",
+          "https://eshopfile.zhiyousx.com/2021091016022843809.jpg"
+        ],
+        "sort": "19",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "34",
+    "favoriteSum": null,
+    "personalInfoValue": "0/34"
+  },
+  "msg": "成功",
+  "success": true
+}

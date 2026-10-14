@@ -1,0 +1,318 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941115",
+    "scenicName": "红河谷森林公园",
+    "tag": "天下美景一谷收",
+    "level": 4,
+    "address": "宝鸡市眉县营头镇",
+    "longitude": "107.7542310000",
+    "latitude": "34.1115940000",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#476C4C",
+    "centralColour": "#39573D",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021080111265221936.jpg"
+    ],
+    "introduction": "<p>　　位于秦岭主峰太白山北麓，地处眉县营头镇境内，是省级水利风景区。公园具有秦岭北麓典型的地貌特征，以&ldquo;幽、奇、峻、秀&rdquo;的自然景观和历史悠久的人文景观名冠三秦。园内山势险峻，石峡深邃，碧潭飞瀑，幽谷含秀；红河丹崖，巍峨高耸，绝壁千仞；双洞水帘，古朴悠远，神秘莫测；神龟宝蛋，上古神物，惟妙惟肖；盘龙湾，深林涉水，曲径通幽；有斗母瀑布、凌云栈道、石海万象等主要景观和80 余处景点。园内综合度假区餐饮、住宿、娱乐等设施配套齐全，自古有&ldquo;中国大秦岭休闲旅游第一谷&rdquo;之美誉。红河谷森林公园植被丰富，垂直分布带谱明显，动植物种类繁多，国家级珍稀保护物种30 多种，被誉为&ldquo;动植物基因库&rdquo;，是科学考察和研究的理想基地。</p>",
+    "introductionText": "　　位于秦岭主峰太白山北麓，地处眉县营头镇境内，是省级水利风景区。公园具有秦岭北麓典型的地貌特征，以“幽、奇、峻、秀”的自然景观和历史悠久的人文景观名冠三秦。园内山势险峻，石峡深邃，碧潭飞瀑，幽谷含秀；红河丹崖，巍峨高耸，绝壁千仞；双洞水帘，古朴悠远，神秘莫测；神龟宝蛋，上古神物，惟妙惟肖；盘龙湾，深林涉水，曲径通幽；有斗母瀑布、凌云栈道、石海万象等主要景观和80 余处景点。园内综合度假区餐饮、住宿、娱乐等设施配套齐全，自古有“中国大秦岭休闲旅游第一谷”之美誉。红河谷森林公园植被丰富，垂直分布带谱明显，动植物种类繁多，国家级珍稀保护物种30 多种，被誉为“动植物基因库”，是科学考察和研究的理想基地。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "51",
+        "name": "拓展游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "8岁（不含）以下持有效证件（户口本），身高1.2m（不含）以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2m（含）-1.4m（不含）",
+        "discount": "半价"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "65岁（不含）以上持有效寿星证、敬老优待证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "70岁（不含）以上持本人身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "全日制大中小学生凭有效学生证（不含成人教育、研究生）",
+        "discount": "半价"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "持本人有效残疾证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "军残人士",
+        "limit": "持本人有效军残证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "军人",
+        "limit": "持军官证、士兵证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "文职干部",
+        "limit": "持文职干部证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "军事院校学员",
+        "limit": "持军事院校学员证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "武警部队警官",
+        "limit": "持武警部队警官证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "旅行社经理",
+        "limit": "持有旅行社经理资格证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "导游",
+        "limit": "持导游证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "记者",
+        "limit": "持记者证（新闻总署颁发）",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "摄影家协会会员",
+        "limit": "国家、省、市、县摄影家协会会员持本人会员证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "旅游治安检查工作人员",
+        "limit": "持有《旅游治安检查证》（陕西省、宝鸡市签发）的工作人员",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "部队离退休干部",
+        "limit": "60岁（不含）以上持有效证件的部队离退休干部",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "佛教、道教人士",
+        "limit": "对佛教持有戒牒、道教道士证的人员",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "眉县户籍",
+        "limit": "眉县户籍持有眉县公安局核发的本人有效身份证。（仅周内半价）",
+        "discount": "半价"
+      }
+    ],
+    "officialWebsite": [
+      "http://www.honghegu.cn"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "官方400",
+        "telephone": "400-678-0578"
+      },
+      {
+        "telephoneTitle": "官方电话",
+        "telephone": "0917-5790019"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1633765016027029505",
+        "resourcesId": "1321719031236157441",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2-20201029154203.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2023-03-09 17:41:48",
+        "updateTime": "2023-03-09 17:41:48",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1633765016039612417",
+        "resourcesId": "1321719031236157441",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/5-20201029154209.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2023-03-09 17:41:48",
+        "updateTime": "2023-03-09 17:41:48",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1633765016048001025",
+        "resourcesId": "1321719031236157441",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/6-20201029154217.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2023-03-09 17:41:48",
+        "updateTime": "2023-03-09 17:41:48",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1633765016060583938",
+        "resourcesId": "1321719031236157441",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/1-20201029154223.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2023-03-09 17:41:48",
+        "updateTime": "2023-03-09 17:41:48",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1692113814122344449",
+      "rankingId": null,
+      "indexInRanking": 7,
+      "rankingName": "宝鸡自然风光排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

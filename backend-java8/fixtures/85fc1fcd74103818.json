@@ -1,0 +1,663 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064188264532",
+    "scenicName": "古城三庙景区",
+    "tag": "韩城市博物馆在古城三庙内",
+    "level": -1,
+    "cityId": "1320663137836642305",
+    "cityName": "渭南",
+    "address": "渭南市韩城市东环路",
+    "longitude": "110.441315",
+    "latitude": "35.461159",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 175,
+    "topColour": "#D2AD92",
+    "centralColour": "#A58366",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021042516355285214.jpg",
+      "https://eshopfile.zhiyousx.com/2021042219143324237.jpg"
+    ],
+    "introduction": "<p>　　韩城是史圣司马迁的故里，韩城古城是全国六个保护比较好的明清古城之一。围绕&ldquo;史记文化&rdquo;，建设开发了韩城首家文化主题中式园林酒店&ldquo;文渊阁美丽豪酒店&rdquo;，融入&ldquo;隐贤驿&rdquo;、&ldquo;三舍公馆&rdquo;、&ldquo;先生的院子&rdquo;等特色民宿和&ldquo;优凡艺术馆&rdquo;等特色业态。街区建设走出了古城保护与旅游发展相融合的新路，被国际旅游投资协会授予&ldquo;中国最佳历史文化旅游项目金奖&rdquo;。</p>\n<p>&nbsp;</p>",
+    "introductionText": "　　韩城是史圣司马迁的故里，韩城古城是全国六个保护比较好的明清古城之一。围绕“史记文化”，建设开发了韩城首家文化主题中式园林酒店“文渊阁美丽豪酒店”，融入“隐贤驿”、“三舍公馆”、“先生的院子”等特色民宿和“优凡艺术馆”等特色业态。街区建设走出了古城保护与旅游发展相融合的新路，被国际旅游投资协会授予“中国最佳历史文化旅游项目金奖”。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "64",
+        "name": "古村古镇",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "68",
+        "name": "旅游小镇",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1419544677090156546",
+        "contentId": "1419544677060796418",
+        "name": "陕文投集团景区",
+        "tagUrl": "https://eshopfile.zhiyousx.com/162728079399429661.png"
+      },
+      {
+        "id": "1813858480160460801",
+        "contentId": "1813858480143683585",
+        "name": "陕文投集团人气景区",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "夏季",
+        "openTimeContent": "5月1日-10月31日  周一至周五  8:00-18:00  最晚售票时间17:30<br/>5月1日-10月31日 周六至周日   8:00-18:30  最晚售票时间18:00"
+      },
+      {
+        "openTimeTitle": "冬季",
+        "openTimeContent": "11月1日-次年4月30日 周一至周五   8:00-17:30  最晚售票时间17:00<br/>11月1日-次年4月30日 周六至周日    8:00-18:00  最晚售票时间17:30"
+      },
+      {
+        "openTimeTitle": "春节",
+        "openTimeContent": "2月15日-2月23日 营业时间：8:00-18:30,最晚入园时间18:00"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "6周岁（含）以下或身高1.2米（含）以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "中老年人",
+        "limit": "60周岁（含）-65周岁（不含），凭本人中国居民身份证",
+        "discount": "半价"
+      },
+      {
+        "peopleType": "老年人",
+        "limit": "65周岁（含）以上，凭本人中国居民身份证(或陕西省敬老优待证)",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭有效残疾证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "现役军人",
+        "limit": "中国现役军人(含军队离退休干部)、军队院校学员、退伍老红军战士、残疾军人、烈士遗属、因公牺牲军人遗属、病故军人遗属凭有效证件",
+        "discount": "免费"
+      },
+      {
+        "peopleType": " 现役军人家属",
+        "limit": "本人所携的配偶和18岁以下未成年子女，游览参观实行政府定价管理的景区，凭结婚证、户口本等有效证件",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "退役军人",
+        "limit": "持本人退伍证等有效证件，可携配偶、子女",
+        "discount": "半价"
+      },
+      {
+        "peopleType": "韩城籍退役军人",
+        "limit": "持优待证及身份证，可携配偶、子女",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "导游",
+        "limit": "凭本人身份证及导游证在售票窗口换票",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "6周岁（不含）-18周岁（含）未成年人、全日制大学本科及以下学历学生凭有效学生证",
+        "discount": "半价"
+      },
+      {
+        "peopleType": "警察",
+        "limit": "凭警官证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "医护人员、文博工作者、消防人员",
+        "limit": "凭本人身份证及有效资格证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "韩城市民",
+        "limit": "持本人韩城市身份证",
+        "discount": "优惠"
+      },
+      {
+        "peopleType": "记者",
+        "limit": "凭国家新闻出版总署颁发的记者证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "二级以上重度残疾人需要陪护的",
+        "limit": "1名陪同人员",
+        "discount": "免费"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "10",
+        "name": "商店",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (19).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "11",
+        "name": "餐厅",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (22).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "59",
+        "name": "园内交通",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016420452783.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "8",
+        "name": "宠物禁止入园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (13).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "各景区公交线路",
+        "additionalExplainContent": "1、大禹庙—司马迁祠线：大禹庙→黄河大街→古城三庙→南关→苏村→陈村→西少梁村→文史公园→司马迁祠<br/>2、市区—普照寺线：汽车客运总站→乔南路→招商区→新民村→解家村→党家村→普照寺→昝村<br/>3、市区—党家村线：火车站→普照路→潭马村→新农村→寺庄→党家村"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>长途客运：乘坐&ldquo;西安-韩城&rdquo;&ldquo;临汾-韩城&rdquo;&ldquo;西安纺织城客运站-韩城渭运司&rdquo;三种列车线路之一，到达韩城后转乘到韩城古城的汽车即可，约三小时到达。</p>\n<p>动车：乘坐&ldquo;复兴号&rdquo;动车，约两小时到达。</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<p>西安出发走G30连霍高速，根据导航指示即可前往，约三至四小时到达。</p>"
+      }
+    ],
+    "officialWebsite": [
+      "http://www.shanwentou.com.cn/industry_show/3525.html"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "古城三庙",
+        "telephone": "0913-5198228"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "陕文投韩城景区公司",
+        "wxSubscription": "fengzhuisimajingqu"
+      }
+    ],
+    "sinaWeiboVoList": [
+      {
+        "sinaWeibo": "陕文投韩城公司",
+        "sinaWeiboUrl": null
+      }
+    ],
+    "tiktokVoList": null,
+    "topBannerList": [
+      {
+        "id": "2060960723587227650",
+        "outId": "1320579064188264532",
+        "type": 1,
+        "advertName": "拍照打卡",
+        "advertPic": "https://eshopfile.zhiyousx.com/2023092610374368512.jpg",
+        "jumpType": 3,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "gh_bad90fd49650",
+        "newAppId": "wxf2cca76ae0520e33",
+        "appUrl": "/subPack/pages/photoWall/photoWall?photoWallId=1706277741764681729",
+        "richText": "",
+        "contentType": null,
+        "bannerPosition": 0
+      }
+    ],
+    "bannerList": [],
+    "contentModuleName": "必玩推荐",
+    "contentResourcesDtoList": [
+      {
+        "id": "2060960723528507393",
+        "resourcesId": "1386236919712657410",
+        "title": "韩城风景片",
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021042517153389684.mp4",
+        "coverImage": "https://eshopfile.zhiyousx.com/2021042517204911870.jpg",
+        "videoId": null,
+        "resourcesType": 2,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-05-31 13:45:01",
+        "updateTime": "2026-05-31 13:45:01",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2060960723532701697",
+        "resourcesId": "1386236919712657410",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021042516205818800.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-05-31 13:45:01",
+        "updateTime": "2026-05-31 13:45:01",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2060960723532701698",
+        "resourcesId": "1386236919712657410",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021042516301481330.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-05-31 13:45:01",
+        "updateTime": "2026-05-31 13:45:01",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2060960723536896001",
+        "resourcesId": "1386236919712657410",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021042516304993775.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-05-31 13:45:01",
+        "updateTime": "2026-05-31 13:45:01",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2060960723536896002",
+        "resourcesId": "1386236919712657410",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021042516330431299.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2026-05-31 13:45:01",
+        "updateTime": "2026-05-31 13:45:01",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2060960723541090306",
+        "resourcesId": "1386236919712657410",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072117575982052.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2026-05-31 13:45:01",
+        "updateTime": "2026-05-31 13:45:01",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2060960723541090307",
+        "resourcesId": "1386236919712657410",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072117583226776.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2026-05-31 13:45:01",
+        "updateTime": "2026-05-31 13:45:01",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2060960723545284610",
+        "resourcesId": "1386236919712657410",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072117585274285.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2026-05-31 13:45:01",
+        "updateTime": "2026-05-31 13:45:01",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1606179274804039681",
+      "rankingId": null,
+      "indexInRanking": 1,
+      "rankingName": "韩城必游人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1566623053130653698",
+        "rankingId": "1566623054191812609",
+        "indexInRanking": null,
+        "rankingName": "渭南亲子游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1455112666791124994",
+        "rankingId": "1455112668192022530",
+        "indexInRanking": null,
+        "rankingName": "渭南自驾游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "2060960723557867521",
+        "scenicSpotId": "1320579064188264532",
+        "contentModuleName": "韩城三庙",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1783754485991682050",
+            "type": 5,
+            "title": "韩城文庙",
+            "subtitle": "祭祀孔子及其弟子的场所",
+            "coverImage": "https://eshopfile.zhiyousx.com/171411506384452747.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1783757206564057090",
+            "type": 5,
+            "title": "城隍庙",
+            "subtitle": "全国重点文物保护单位",
+            "coverImage": "https://eshopfile.zhiyousx.com/171411541904058574.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1783757819364442114",
+            "type": 5,
+            "title": "东营庙",
+            "subtitle": "古代古城东区城防军营之所",
+            "coverImage": "https://eshopfile.zhiyousx.com/171411592680349484.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      },
+      {
+        "id": "2060960723570450434",
+        "scenicSpotId": "1320579064188264532",
+        "contentModuleName": "绝美民宿 悠然安闲",
+        "contentModuleSubName": null,
+        "sort": 2,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1512351031135162369",
+            "type": 5,
+            "title": "三舍公馆",
+            "subtitle": "青砖灰瓦 与你相醉",
+            "coverImage": "https://eshopfile.zhiyousx.com/164940661314041916.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1512355151350976514",
+            "type": 5,
+            "title": "隐·居",
+            "subtitle": "高端私享民居艺术客栈",
+            "coverImage": "https://eshopfile.zhiyousx.com/164940838114748573.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1512363114019016706",
+            "type": 5,
+            "title": "先生的院子",
+            "subtitle": "保存较完整的四合院群落",
+            "coverImage": "https://eshopfile.zhiyousx.com/164941014773511329.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1512367906367852546",
+            "type": 5,
+            "title": "隐贤驿",
+            "subtitle": "邀清风明月 隐大贤于市",
+            "coverImage": "https://eshopfile.zhiyousx.com/164941117082477772.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1738096559923023874",
+            "type": 5,
+            "title": "韩城文渊阁                                             ",
+            "subtitle": "别具一格的园林景观",
+            "coverImage": "https://eshopfile.zhiyousx.com/170322916969545401.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": "",
+    "ticketAreaNoticeName": "",
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 1,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": "门票预约",
+    "ticketDesc": "",
+    "salesNumDesc": "",
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

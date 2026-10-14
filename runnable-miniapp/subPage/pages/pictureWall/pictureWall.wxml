@@ -1,12 +1,12 @@
 <view class="pictureWall data-v-8e170b98">
     <uni-navbar bgColor="#339A81" bind:__l="__l" class="data-v-8e170b98" type="fixed" vueId="e9d04464-1"></uni-navbar>
     <view class="container data-v-8e170b98">
-        <image class="headimg data-v-8e170b98" src="https://eshopfile.zhiyousx.com/2022032811053297093.png"></image>
+        <image class="headimg data-v-8e170b98" src="/static/captured/f1c3a72e3d8a8bc2.png"></image>
         <view bindtap="__e" class="buy flex data-v-8e170b98" data-event-opts="{{[ [ 'tap',[ [ 'toSpot',['$event'] ] ] ] ]}}">了<view class="_br data-v-8e170b98"></view>解<view class="_br data-v-8e170b98"></view>更<view class="_br data-v-8e170b98"></view>多</view>
         <view class="wall data-v-8e170b98">
             <view class="{{['uploadBox','flex','data-v-8e170b98',imgurl?'reUpload':'']}}">
                 <view class="flex data-v-8e170b98">
-                    <image class="data-v-8e170b98" src="https://eshopfile.zhiyousx.com/2022032910330161250.png"></image>
+                    <image class="data-v-8e170b98" src="/static/captured/361d1d6bd6e0aa90.png"></image>
                     <view bindtap="__e" class="uptext data-v-8e170b98" data-event-opts="{{[ [ 'tap',[ [ 'clk',[0] ] ] ] ]}}" wx:if="{{!imgurl}}">上传<view class="_br data-v-8e170b98"></view>照片</view>
                     <view bindtap="__e" class="uptext data-v-8e170b98" data-event-opts="{{[ [ 'tap',[ [ 'clk',[0] ] ] ] ]}}" wx:else>继续<view class="_br data-v-8e170b98"></view>上传</view>
                 </view>
@@ -41,7 +41,7 @@
             <view class="totalinfo data-v-8e170b98" wx:if="{{uploadnum&&uploadnum>0&&!imgurl}}">{{'共有'+uploadnum+'人已上传'}}</view>
         </view>
         <view class="recommend section flex data-v-8e170b98">
-            <image class="titleimg data-v-8e170b98" mode="widthFix" src="https://eshopfile.zhiyousx.com/2022032814460018228.png"></image>
+            <image class="titleimg data-v-8e170b98" mode="widthFix" src="/static/captured/5349a6943112c117.png"></image>
             <view class="monthdata data-v-8e170b98">
                 <view bindtap="__e" class="item data-v-8e170b98" data-event-opts="{{[ [ 'tap',[ [ 'viewmore',['$0'],[ [ ['monthlist','',index] ] ] ] ] ] ]}}" wx:for="{{$root.l0}}">
                     <image class="mImg data-v-8e170b98" src="{{item.m0}}"></image>
@@ -56,7 +56,7 @@
             </view>
         </view>
         <view class="rule section flex data-v-8e170b98">
-            <image class="titleimg data-v-8e170b98" mode="widthFix" src="https://eshopfile.zhiyousx.com/2022032817330713928.png"></image>
+            <image class="titleimg data-v-8e170b98" mode="widthFix" src="/static/captured/ad6fc0a9463228d7.png"></image>
             <view class="content data-v-8e170b98">
                 <view class="data-v-8e170b98">1、上传图片照片请包含人像，以更能体现动物园的动物、景色为宜；</view>
                 <view class="data-v-8e170b98">2、每月评选3位月度之星，可以获得动物园的精美文创，工作人员将与你联系；</view>
@@ -67,8 +67,8 @@
             </view>
         </view>
         <view class="logo flex data-v-8e170b98">
-            <image class="data-v-8e170b98" mode="heightFix" src="https://eshopfile.zhiyousx.com/2022040110194010653.png" style="margin-right:20rpx;"></image>
-            <image class="data-v-8e170b98" mode="heightFix" src="https://eshopfile.zhiyousx.com/2022033110024287367.png"></image>
+            <image class="data-v-8e170b98" mode="heightFix" src="/static/captured/161dd8bcb46e35df.png" style="margin-right:20rpx;"></image>
+            <image class="data-v-8e170b98" mode="heightFix" src="/static/captured/8571cdd66750644e.png"></image>
         </view>
     </view>
     <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-8e170b98" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showNotice','$event',[] ] ] ] ] ]}}" mode="center" value="{{showNotice}}" vueId="e9d04464-3" vueSlots="{{['default']}}">

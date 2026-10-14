@@ -1,0 +1,49 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1428270128935579649",
+    "contentId": "1428270128931385345",
+    "rankingName": "曲江海洋极地公园人气榜",
+    "rankingClass": "0",
+    "rankingType": "2",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/162936094299820157.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": "人喜欢",
+    "rankingInclude": "种动物",
+    "rankingPersonalInfo": "我喜欢的动物",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#3DA3D6",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1428287536672911362",
+        "originType": "2",
+        "originName": "极地馆-海狮",
+        "originSubtitleName": "表演明星",
+        "originUrl": "https://eshopfile.zhiyousx.com/162936549653076808.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/162936500367280283.png",
+          "https://eshopfile.zhiyousx.com/162944354564926507.png",
+          "https://eshopfile.zhiyousx.com/162944339253180791.png",
+          "https://eshopfile.zhiyousx.com/162936502221899982.png",
+          "https://eshopfile.zhiyousx.com/162936522226544820.png",
+          "https://eshopfile.zhiyousx.com/162936505466263330.png"
+        ],
+        "sort": "10",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "3",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "11",
+    "favoriteSum": "57",
+    "personalInfoValue": "0/11"
+  },
+  "msg": "成功",
+  "success": true
+}

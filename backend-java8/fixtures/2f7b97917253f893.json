@@ -1,0 +1,323 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941080",
+    "scenicName": "汉中市博物馆",
+    "tag": "登望江楼，欣赏摩崖石刻",
+    "level": -1,
+    "address": "汉中市汉台区汉台路东大街26号",
+    "longitude": "107.033527",
+    "latitude": "33.069475",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#6F7B7A",
+    "centralColour": "#525B5E",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021090111322696886.jpg"
+    ],
+    "introduction": "<p>　　古汉台位于汉中市中心，楚汉相争时期筑建，面积约8000平方米。由三级台地构成，台高7米。 刘邦驻汉中发迹而定鼎。故将国号定为汉。他驻过的高台就被后人尊称为古汉台。宋代的张少愚有&ldquo;留此一坯土，犹是汉家基&rdquo;的诗句，其中的&ldquo;一坯土&rdquo;，就是指残存的高台。清代的陈毓彩有诗云&ldquo;赤帝龙兴事已陈，层台巩固尚如新。当日宫廷湮没迹，此时郡国有仁人。&rdquo;&nbsp;</p>",
+    "introductionText": "　　古汉台位于汉中市中心，楚汉相争时期筑建，面积约8000平方米。由三级台地构成，台高7米。 刘邦驻汉中发迹而定鼎。故将国号定为汉。他驻过的高台就被后人尊称为古汉台。宋代的张少愚有“留此一坯土，犹是汉家基”的诗句，其中的“一坯土”，就是指残存的高台。清代的陈毓彩有诗云“赤帝龙兴事已陈，层台巩固尚如新。当日宫廷湮没迹，此时郡国有仁人。” ",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026327547906",
+        "contentId": "1418152026310770690",
+        "name": "国家一级博物馆",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "全员",
+        "limit": "无",
+        "discount": "免费"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0916-8152188"
+      },
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0916-8152179"
+      }
+    ],
+    "topBannerList": [
+      {
+        "id": "2056225815453564930",
+        "outId": "1320579064720941080",
+        "type": 1,
+        "advertName": "一秒穿越大汉 汉中市博物馆宝藏漫游教程",
+        "advertPic": "https://eshopfile.zhiyousx.com/2026051812095169765.png",
+        "jumpType": 1,
+        "jumpUrl": "https://mp.weixin.qq.com/s/2NcrKoaF2YJLxJes8l6Bew",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "",
+        "contentType": null,
+        "bannerPosition": 0
+      }
+    ],
+    "bannerList": [],
+    "contentModuleName": "馆藏珍品",
+    "contentResourcesDtoList": [
+      {
+        "id": "2056225815420010498",
+        "resourcesId": "1321378618642030593",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091310195853181.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-05-18 12:10:11",
+        "updateTime": "2026-05-18 12:10:11",
+        "createBy": "2047232991458557954",
+        "updateBy": "2047232991458557954",
+        "isDeleted": 0
+      },
+      {
+        "id": "2056225815424204802",
+        "resourcesId": "1321378618642030593",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091310292002774.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-05-18 12:10:11",
+        "updateTime": "2026-05-18 12:10:11",
+        "createBy": "2047232991458557954",
+        "updateBy": "2047232991458557954",
+        "isDeleted": 0
+      },
+      {
+        "id": "2056225815424204803",
+        "resourcesId": "1321378618642030593",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091310201653232.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-05-18 12:10:11",
+        "updateTime": "2026-05-18 12:10:11",
+        "createBy": "2047232991458557954",
+        "updateBy": "2047232991458557954",
+        "isDeleted": 0
+      },
+      {
+        "id": "2056225815428399106",
+        "resourcesId": "1321378618642030593",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091310274101708.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-05-18 12:10:11",
+        "updateTime": "2026-05-18 12:10:11",
+        "createBy": "2047232991458557954",
+        "updateBy": "2047232991458557954",
+        "isDeleted": 0
+      },
+      {
+        "id": "2056225815428399107",
+        "resourcesId": "1321378618642030593",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091310200751083.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2026-05-18 12:10:11",
+        "updateTime": "2026-05-18 12:10:11",
+        "createBy": "2047232991458557954",
+        "updateBy": "2047232991458557954",
+        "isDeleted": 0
+      },
+      {
+        "id": "2056225815432593409",
+        "resourcesId": "1321378618642030593",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091310275061612.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2026-05-18 12:10:11",
+        "updateTime": "2026-05-18 12:10:11",
+        "createBy": "2047232991458557954",
+        "updateBy": "2047232991458557954",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1439119981701840898",
+      "rankingId": null,
+      "indexInRanking": 35,
+      "rankingName": "陕西人气博物馆排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1680835374538088449",
+        "rankingId": "1680835375632801794",
+        "indexInRanking": null,
+        "rankingName": "陕西省热搜50强博物馆排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1455795982670340097",
+        "rankingId": "1455795983626641410",
+        "indexInRanking": null,
+        "rankingName": "汉中必玩景点人气排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "2056225815445176322",
+        "scenicSpotId": "1320579064720941080",
+        "contentModuleName": "馆藏珍品",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1435084218995683329",
+            "type": 5,
+            "title": "云栈图卷",
+            "subtitle": "汉中城府之间的道路画卷",
+            "coverImage": "https://eshopfile.zhiyousx.com/163098535583456984.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

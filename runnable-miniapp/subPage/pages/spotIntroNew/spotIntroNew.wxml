@@ -79,7 +79,7 @@
                     </u-table>
                 </view>
                 <view class="open-time-info data-v-3508333f">
-                    <image mode class="data-v-3508333f" src="https://eshopfile.zhiyousx.com/2022090115065996863.png"></image>以上信息仅供参考，具体以当日实际公示信息为准</view>
+                    <image mode class="data-v-3508333f" src="/static/captured/a6c4dfa6840d7864.png"></image>以上信息仅供参考，具体以当日实际公示信息为准</view>
             </view>
             <view class="row row2 data-v-3508333f" id="mdxx" wx:if="{{detailObj.storeVoList&&detailObj.storeVoList[0]}}">
                 <view class="title-box data-v-3508333f">{{detailObj.storeInfoTitle||'门店信息'}}</view>
@@ -100,7 +100,7 @@
                     </u-table>
                 </view>
                 <view class="open-time-info data-v-3508333f">
-                    <image mode class="data-v-3508333f" src="https://eshopfile.zhiyousx.com/2022090115065996863.png"></image>以上信息仅供参考，具体以当日实际公示信息为准</view>
+                    <image mode class="data-v-3508333f" src="/static/captured/a6c4dfa6840d7864.png"></image>以上信息仅供参考，具体以当日实际公示信息为准</view>
             </view>
             <view class="row row2 data-v-3508333f" id="ydzc" style="{{detailObj.discountVoList&&detailObj.discountVoList[0]?'':'height:2rpx;visibility: hidden;margin-bottom:0;'}}">
                 <view class="title-box data-v-3508333f">{{detailObj.reservationNoticeTitle||'优待政策'}}</view>
@@ -157,7 +157,7 @@
                     </u-table>
                 </view>
                 <view class="open-time-info data-v-3508333f">
-                    <image mode class="data-v-3508333f" src="https://eshopfile.zhiyousx.com/2022090115065996863.png"></image>以上信息仅供参考，具体以当日实际公示信息为准</view>
+                    <image mode class="data-v-3508333f" src="/static/captured/a6c4dfa6840d7864.png"></image>以上信息仅供参考，具体以当日实际公示信息为准</view>
             </view>
             <view class="row row4 data-v-3508333f" id="jtzn" wx:if="{{hasTraffic}}">
                 <view class="title-box data-v-3508333f">{{detailObj.trafficGuideTitle||'交通指南'}}</view>
@@ -206,7 +206,7 @@
                                         <view class="l multilineText2 data-v-3508333f">{{item.telephoneTitle}}</view>
                                         <view bindtap="__e" class="r data-v-3508333f" data-event-opts="{{[ [ 'tap',[ [ 'call',['$0'],[ [ ['detailObj.telephoneVoList','',__i9__,'telephone'] ] ] ] ] ] ]}}">
                                             <view class="data-v-3508333f">{{item.telephone||''}}</view>
-                                            <image mode class="data-v-3508333f" src="https://eshopfile.zhiyousx.com/spotIntroNew/dianhua.png"></image>
+                                            <image mode class="data-v-3508333f" src="/static/captured/9653e7f23b8aa244.png"></image>
                                         </view>
                                     </view>
                                 </view>
@@ -231,7 +231,7 @@
                         </view>
                         <view class="item data-v-3508333f" wx:if="{{detailObj.tiktokVoList&&detailObj.tiktokVoList[0]}}">
                             <view class="l data-v-3508333f">
-                                <image mode class="data-v-3508333f" src="https://eshopfile.zhiyousx.com/2022100909491063450.png"></image>
+                                <image mode class="data-v-3508333f" src="/static/captured/987f4595c69f6270.png"></image>
                             </view>
                             <view class="r data-v-3508333f">
                                 <view class="t data-v-3508333f">抖音</view>

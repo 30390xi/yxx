@@ -1,6 +1,6 @@
 <view bindtap="__e" class="warter right data-v-33339561" data-event-opts="{{[ [ 'tap',[ [ 'jumpNavigateTo',['$event'] ] ] ] ]}}" data-it="{{item}}" wx:if="{{item.show}}" wx:for="{{rightList}}" wx:key="index">
     <view class="imageBox data-v-33339561">
-        <image class="vlog data-v-33339561" src="https://eshopfile.zhiyousx.com/2021091814411453211.png" wx:if="{{item.type==9}}"></image>
+        <image class="vlog data-v-33339561" src="/static/captured/e6f76c610b955b4b.png" wx:if="{{item.type==9}}"></image>
         <view class="rankname singleLineText data-v-33339561" wx:if="{{item.type==7||item.type==8}}">{{item.type==7?'官方收录':'游陕西排行榜'}}</view>
         <view class="rank data-v-33339561" wx:if="{{item.type==7||item.type==8}}">
             <view class="name singleLineText data-v-33339561">{{item.title}}</view>

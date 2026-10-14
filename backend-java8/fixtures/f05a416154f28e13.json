@@ -1,0 +1,23 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "2089256486767353858",
+      "resourcesId": "1465930625440575489",
+      "title": "麻黄梁黄土地质公园",
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2021120114281926572.mp4",
+      "coverImage": "https://res.zhiyousx.com/ysx/pro/2021/12/01/163834021031762926.jpg",
+      "videoId": null,
+      "resourcesType": 2,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2026-08-17 15:42:17",
+      "updateTime": "2026-08-17 15:42:17",
+      "createBy": "1635171719176675330",
+      "updateBy": "1635171719176675330",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

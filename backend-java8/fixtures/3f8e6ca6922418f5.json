@@ -1,0 +1,333 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064188264603",
+    "scenicName": "宜君旱作梯田景区",
+    "tag": "春艳夏翠 秋金冬银",
+    "level": 3,
+    "address": "铜川市宜君县哭泉乡旱作梯田景区",
+    "longitude": "109.086465",
+    "latitude": "35.2895",
+    "openingStatus": 1,
+    "capacity": 30000,
+    "topColour": "#4EAE6B",
+    "centralColour": "#3C7B5C",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/be2b7431-aaa9-4a1a-ae7f-d5d8b3012236-20201029152253.jpg",
+      "https://eshopfile.zhiyousx.com/b4494ce8-e97a-4c31-a9ca-d1294c5a6e74-20201029152248.jpg"
+    ],
+    "introduction": "<p>　　宜君县哭泉乡旱作梯田一年四季变幻多端、风情万种，呈现出&ldquo;春艳&rdquo;、&ldquo;夏翠&rdquo;、&ldquo;秋金&rdquo;、&ldquo;冬银&rdquo;的独特景致。春天，山花烂漫，弯弯曲曲的地膜撩人心魄；夏日，苍翠欲滴，山峰间腾起的云雾胜似人间仙境；而最迷人的景色，属于秋冬相交的季节，玉米一片金黄，是百姓收获幸福的时刻，灿灿的玉米从山脚铺至山顶，甜蜜的日子与忙碌的收获交相呼应，一切幸福溢于言表，原生态的山水风光与镶嵌期间的红顶瓦房更是勾勒出一幅恬静、悠哉、壮观、绚丽的天然画卷。</p>",
+    "introductionText": "　　宜君县哭泉乡旱作梯田一年四季变幻多端、风情万种，呈现出“春艳”、“夏翠”、“秋金”、“冬银”的独特景致。春天，山花烂漫，弯弯曲曲的地膜撩人心魄；夏日，苍翠欲滴，山峰间腾起的云雾胜似人间仙境；而最迷人的景色，属于秋冬相交的季节，玉米一片金黄，是百姓收获幸福的时刻，灿灿的玉米从山脚铺至山顶，甜蜜的日子与忙碌的收获交相呼应，一切幸福溢于言表，原生态的山水风光与镶嵌期间的红顶瓦房更是勾勒出一幅恬静、悠哉、壮观、绚丽的天然画卷。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "64",
+        "name": "古村古镇",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [],
+    "noticeMsg": "",
+    "discountVoList": null,
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "官方电话",
+        "telephone": "0919-5283959"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1640207501385957378",
+        "resourcesId": "1321714237448675329",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/167989089830985018.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": "",
+        "createTime": "2023-03-27 12:21:56",
+        "updateTime": "2023-03-27 12:21:56",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1640207501398540290",
+        "resourcesId": "1321714237448675329",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/167989089791773920.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": "",
+        "createTime": "2023-03-27 12:21:56",
+        "updateTime": "2023-03-27 12:21:56",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1640207501411123201",
+        "resourcesId": "1321714237448675329",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166004036898389455.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": "",
+        "createTime": "2023-03-27 12:21:56",
+        "updateTime": "2023-03-27 12:21:56",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1640207501423706113",
+        "resourcesId": "1321714237448675329",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166004036839867776.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": "",
+        "createTime": "2023-03-27 12:21:56",
+        "updateTime": "2023-03-27 12:21:56",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1640207501436289026",
+        "resourcesId": "1321714237448675329",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/b3176d92-84aa-4eae-ab76-5a3e799f457a-20201029152306.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2023-03-27 12:21:56",
+        "updateTime": "2023-03-27 12:21:56",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1640207501448871937",
+        "resourcesId": "1321714237448675329",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/91e0942e-7ccf-437a-a1a7-84096ae84fb2-20201029152313.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2023-03-27 12:21:56",
+        "updateTime": "2023-03-27 12:21:56",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1640207501457260545",
+        "resourcesId": "1321714237448675329",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166004037028206068.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": "",
+        "createTime": "2023-03-27 12:21:56",
+        "updateTime": "2023-03-27 12:21:56",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1640207501469843458",
+        "resourcesId": "1321714237448675329",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166004037109108469.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": "",
+        "createTime": "2023-03-27 12:21:56",
+        "updateTime": "2023-03-27 12:21:56",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1640207501482426369",
+        "resourcesId": "1321714237448675329",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166004036961550846.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": "",
+        "createTime": "2023-03-27 12:21:56",
+        "updateTime": "2023-03-27 12:21:56",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1640207501495009282",
+        "resourcesId": "1321714237448675329",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/3f6533d9-e835-42e3-aff1-ce5137917229-20201029152322.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": null,
+        "createTime": "2023-03-27 12:21:56",
+        "updateTime": "2023-03-27 12:21:56",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455081861037531138",
+      "rankingId": null,
+      "indexInRanking": 13,
+      "rankingName": "铜川必游景区人气榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1559032346152939522",
+        "rankingId": "1559032347344121858",
+        "indexInRanking": null,
+        "rankingName": "铜川亲子游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

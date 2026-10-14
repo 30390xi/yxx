@@ -1,0 +1,26 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1705978458737922050",
+    "contentId": "1705978458721144834",
+    "rankingName": "西安必看人气演艺",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/175265594695416236.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": "人喜爱",
+    "rankingInclude": "个目的地",
+    "rankingPersonalInfo": "我去过的目的地",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#982808",
+    "tagUrl": null,
+    "travelMapFlag": null,
+    "type": "7",
+    "rankingItemList": null,
+    "sumCount": "10",
+    "favoriteSum": null,
+    "personalInfoValue": null
+  },
+  "msg": "成功",
+  "success": true
+}

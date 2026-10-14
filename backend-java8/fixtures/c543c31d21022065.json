@@ -1,0 +1,71 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "2033371267461152770",
+      "resourcesId": "1321707944927322114",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/xq4-20201029145730.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2026-03-16 10:34:23",
+      "updateTime": "2026-03-16 10:34:23",
+      "createBy": "2014584865157611522",
+      "updateBy": "2014584865157611522",
+      "isDeleted": 0
+    },
+    {
+      "id": "2033371267465347073",
+      "resourcesId": "1321707944927322114",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/5ba11518-3189-49d8-a068-1dd7dfbe67d8-20201029145735.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 2,
+      "describe": null,
+      "createTime": "2026-03-16 10:34:23",
+      "updateTime": "2026-03-16 10:34:23",
+      "createBy": "2014584865157611522",
+      "updateBy": "2014584865157611522",
+      "isDeleted": 0
+    },
+    {
+      "id": "2033371267465347074",
+      "resourcesId": "1321707944927322114",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/52eb217f-2e87-4f03-95e2-8f206f39c876-20201029145746.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 3,
+      "describe": null,
+      "createTime": "2026-03-16 10:34:23",
+      "updateTime": "2026-03-16 10:34:23",
+      "createBy": "2014584865157611522",
+      "updateBy": "2014584865157611522",
+      "isDeleted": 0
+    },
+    {
+      "id": "2033371267469541378",
+      "resourcesId": "1321707944927322114",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/7c480c30-16d3-4c92-b8f5-8aa0d2e3884f-20201029145755.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 4,
+      "describe": null,
+      "createTime": "2026-03-16 10:34:23",
+      "updateTime": "2026-03-16 10:34:23",
+      "createBy": "2014584865157611522",
+      "updateBy": "2014584865157611522",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

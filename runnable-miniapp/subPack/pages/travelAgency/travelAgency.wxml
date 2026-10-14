@@ -16,7 +16,7 @@
                 </view>
                 <view bindtap="__e" class="brief data-v-69e1cd28" data-event-opts="{{[ [ 'tap',[ [ 'openModal',[1] ] ] ] ]}}" wx:if="{{detailObj.firmName}}">
                     <view class="text singleLineText _p data-v-69e1cd28">{{detailObj.firmName}}</view>
-                    <image class="brief-icon data-v-69e1cd28" src="https://eshopfile.zhiyousx.com/169682424773950642.png"></image>
+                    <image class="brief-icon data-v-69e1cd28" src="/static/captured/70bb536d68209d48.png"></image>
                 </view>
             </view>
         </view>
@@ -100,7 +100,7 @@
             </view>
         </view>
         <view class="empty data-v-69e1cd28" wx:if="{{$root.g3}}">
-            <empty-state bind:__l="__l" class="data-v-69e1cd28" imgUrl="https://eshopfile.zhiyousx.com/noOrder@2x.png" text="暂无产品" vueId="f2cbed94-2"></empty-state>
+            <empty-state bind:__l="__l" class="data-v-69e1cd28" imgUrl="/static/captured/8967f3ec41c22eab.png" text="暂无产品" vueId="f2cbed94-2"></empty-state>
         </view>
         <view class="loadMore data-v-69e1cd28" wx:else>
             <u-loadmore bgColor="#f7f7f7" bind:__l="__l" class="data-v-69e1cd28" color="#ccc" iconColor="#ccc" status="{{loadMore}}" vueId="f2cbed94-3"></u-loadmore>
@@ -125,7 +125,7 @@
             </view>
         </view>
         <view class="empty data-v-69e1cd28" wx:if="{{$root.g4}}">
-            <empty-state bind:__l="__l" class="data-v-69e1cd28" imgUrl="https://eshopfile.zhiyousx.com/noOrder@2x.png" text="暂无内容" vueId="f2cbed94-5"></empty-state>
+            <empty-state bind:__l="__l" class="data-v-69e1cd28" imgUrl="/static/captured/8967f3ec41c22eab.png" text="暂无内容" vueId="f2cbed94-5"></empty-state>
         </view>
         <view class="loadMore data-v-69e1cd28" wx:else>
             <u-loadmore bgColor="#f7f7f7" bind:__l="__l" class="data-v-69e1cd28" color="#ccc" iconColor="#ccc" status="{{loadMore}}" vueId="f2cbed94-6"></u-loadmore>
@@ -139,7 +139,7 @@
                     <view class="title data-v-69e1cd28">
                         <text class="data-v-69e1cd28">商家简介</text>
                         <view bindtap="__e" class="expend-box data-v-69e1cd28" data-event-opts="{{[ [ 'tap',[ [ 'expandChange',['showIntro'] ] ] ] ]}}">
-                            <image mode class="data-v-69e1cd28" src="{{companyInfoShow.showIntro?'https://eshopfile.zhiyousx.com/171522512717616029.png':'https://eshopfile.zhiyousx.com/171522508191478664.png'}}"></image>
+                            <image mode class="data-v-69e1cd28" src="{{companyInfoShow.showIntro?'/static/captured/bedbb271b2757297.png':'/static/captured/c3fe21e418f1e20e.png'}}"></image>
                         </view>
                     </view>
                     <text class="intro data-v-69e1cd28" wx:if="{{companyInfoShow.showIntro}}">{{detailObj.intro}}</text>
@@ -148,7 +148,7 @@
                     <view class="title data-v-69e1cd28">
                         <text class="data-v-69e1cd28">经营许可证</text>
                         <view bindtap="__e" class="expend-box data-v-69e1cd28" data-event-opts="{{[ [ 'tap',[ [ 'expandChange',['showCertificate'] ] ] ] ]}}">
-                            <image mode class="data-v-69e1cd28" src="{{companyInfoShow.showCertificate?'https://eshopfile.zhiyousx.com/171522512717616029.png':'https://eshopfile.zhiyousx.com/171522508191478664.png'}}"></image>
+                            <image mode class="data-v-69e1cd28" src="{{companyInfoShow.showCertificate?'/static/captured/bedbb271b2757297.png':'/static/captured/c3fe21e418f1e20e.png'}}"></image>
                         </view>
                     </view>
                     <image class="data-v-69e1cd28" mode="aspectFill" src="{{detailObj.certificateImageBusinessPermission}}" wx:if="{{companyInfoShow.showCertificate}}"></image>
@@ -157,7 +157,7 @@
                     <view class="title data-v-69e1cd28">
                         <text class="data-v-69e1cd28">营业执照</text>
                         <view bindtap="__e" class="expend-box data-v-69e1cd28" data-event-opts="{{[ [ 'tap',[ [ 'expandChange',['showPermission'] ] ] ] ]}}">
-                            <image mode class="data-v-69e1cd28" src="{{companyInfoShow.showPermission?'https://eshopfile.zhiyousx.com/171522512717616029.png':'https://eshopfile.zhiyousx.com/171522508191478664.png'}}"></image>
+                            <image mode class="data-v-69e1cd28" src="{{companyInfoShow.showPermission?'/static/captured/bedbb271b2757297.png':'/static/captured/c3fe21e418f1e20e.png'}}"></image>
                         </view>
                     </view>
                     <image class="data-v-69e1cd28" mode="aspectFill" src="{{detailObj.certificateImageBusiness}}" wx:if="{{companyInfoShow.showPermission}}"></image>
@@ -166,7 +166,7 @@
                     <view class="title data-v-69e1cd28">
                         <text class="data-v-69e1cd28">其他证件</text>
                         <view bindtap="__e" class="expend-box data-v-69e1cd28" data-event-opts="{{[ [ 'tap',[ [ 'expandChange',['showOther'] ] ] ] ]}}">
-                            <image mode class="data-v-69e1cd28" src="{{companyInfoShow.showOther?'https://eshopfile.zhiyousx.com/171522512717616029.png':'https://eshopfile.zhiyousx.com/171522508191478664.png'}}"></image>
+                            <image mode class="data-v-69e1cd28" src="{{companyInfoShow.showOther?'/static/captured/bedbb271b2757297.png':'/static/captured/c3fe21e418f1e20e.png'}}"></image>
                         </view>
                     </view>
                     <block wx:if="{{companyInfoShow.showOther}}">
@@ -178,7 +178,7 @@
                         <view class="title data-v-69e1cd28">
                             <text class="data-v-69e1cd28">{{item.tagName}}</text>
                             <view bindtap="__e" class="expend-box data-v-69e1cd28" data-event-opts="{{[ [ 'tap',[ [ 'expandChange',['tag','$0'],[ [ ['detailObj.tagList','',index] ] ] ] ] ] ]}}">
-                                <image mode class="data-v-69e1cd28" src="{{item.isShow?'https://eshopfile.zhiyousx.com/171522512717616029.png':'https://eshopfile.zhiyousx.com/171522508191478664.png'}}"></image>
+                                <image mode class="data-v-69e1cd28" src="{{item.isShow?'/static/captured/bedbb271b2757297.png':'/static/captured/c3fe21e418f1e20e.png'}}"></image>
                             </view>
                         </view>
                         <u-parse bind:__l="__l" class="data-v-69e1cd28" html="{{item.tagDesc}}" vueId="{{'f2cbed94-8-'+index+','+'f2cbed94-7'}}" wx:if="{{item.isShow}}"></u-parse>
@@ -198,18 +198,18 @@
         <view class="selectBox data-v-69e1cd28">
             <view bindtap="__e" class="selectItem data-v-69e1cd28" data-event-opts="{{[ [ 'tap',[ [ 'call',['$0'],['detailObj.customerServicePhone'] ] ] ] ]}}" wx:if="{{detailObj.customerServicePhone}}">
                 <view class="left data-v-69e1cd28">
-                    <image mode class="data-v-69e1cd28" src="https://eshopfile.zhiyousx.com/171530565065695119.png"></image>
+                    <image mode class="data-v-69e1cd28" src="/static/captured/e919a10754625dc7.png"></image>
                     <text class="title data-v-69e1cd28">客服电话</text>
                 </view>
                 <view class="right data-v-69e1cd28">{{detailObj.customerServicePhone}}</view>
             </view>
             <view bindtap="__e" class="selectItem data-v-69e1cd28" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" wx:if="{{detailObj.customerServiceImage}}">
                 <view class="left data-v-69e1cd28">
-                    <image mode class="data-v-69e1cd28" src=" https://eshopfile.zhiyousx.com/171523926111536931.png"></image>
+                    <image mode class="data-v-69e1cd28" src=" /static/captured/78a54dadea4f0c74.png"></image>
                     <text class="title data-v-69e1cd28">客服微信</text>
                 </view>
                 <view class="right data-v-69e1cd28">
-                    <image mode class="data-v-69e1cd28" src="https://eshopfile.zhiyousx.com/171530576397585851.png"></image>
+                    <image mode class="data-v-69e1cd28" src="/static/captured/0be2688c9c414c2b.png"></image>
                 </view>
             </view>
             <view bindtap="__e" class="close data-v-69e1cd28" data-event-opts="{{[ [ 'tap',[ [ 'e1',['$event'] ] ] ] ]}}">取消</view>

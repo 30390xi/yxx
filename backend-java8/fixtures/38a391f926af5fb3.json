@@ -1,0 +1,527 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064188264604",
+    "scenicName": "金锁关石林",
+    "tag": "千岩万壑不辞劳 远看方知出处高",
+    "level": 4,
+    "cityId": "1320650338641162241",
+    "cityName": "铜川",
+    "address": "铜川市印台区金锁关镇何家坊村",
+    "longitude": "109.002998",
+    "latitude": "35.239563",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 223,
+    "topColour": "#907351",
+    "centralColour": "#5F462E",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/4670ad4098284025b8aa6dd3ec59a458-20201029122153.jpg",
+      "https://eshopfile.zhiyousx.com/80939fcf633942b6bb6d0c1970761ed1-20201029122204.jpg"
+    ],
+    "introduction": "<p>　　金锁关石林景区位于关中北部第一关&ldquo;雄关天堑&rdquo;金锁关西北，为渭北罕见的天然石崩奇观，是以砂岩地貌为主题的自然风景区：经地质造山运动、海底抬升后形成的陆地，在经历雨水冲刷溶解、切割和风化后，逐渐才形成了以石柱、石峰、石壁为景的地貌。石林壁峰之间，翠蔓挂石、金竹挺立、山花香溢、灵禽和鸣，一派大自然和谐景象。目前已初步形成了集石林观光、乡村体验、太阳花摄影、民宿餐饮为一体的休闲度假旅游景区。</p>",
+    "introductionText": "　　金锁关石林景区位于关中北部第一关“雄关天堑”金锁关西北，为渭北罕见的天然石崩奇观，是以砂岩地貌为主题的自然风景区：经地质造山运动、海底抬升后形成的陆地，在经历雨水冲刷溶解、切割和风化后，逐渐才形成了以石柱、石峰、石壁为景的地貌。石林壁峰之间，翠蔓挂石、金竹挺立、山花香溢、灵禽和鸣，一派大自然和谐景象。目前已初步形成了集石林观光、乡村体验、太阳花摄影、民宿餐饮为一体的休闲度假旅游景区。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "15",
+        "name": "高空景观",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "51",
+        "name": "拓展游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "1月1日至12月31日",
+        "openTimeContent": "全天09:00-18:00，18:00停止入场"
+      }
+    ],
+    "discountVoList": null,
+    "facilitiesServicesVoList": null,
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<p>【西安出发】</p>\n<p>西安-包茂高速-铜川北出口-石林景区（总计约1.3小时）</p>\n<p>【延安出发】</p>\n<p>延安/黄陵-包茂高速(G65)-金锁关出口-石林景区(总计约2.0小时)</p>\n<p>【渭南出发】</p>\n<p>渭南-阎良-铜川-金锁关镇-何家坊村-石林景区(总计约1.5小时)</p>\n<p>【宝鸡出发】</p>\n<p>宝鸡-临兴高速-包茂高速-铜川北出口-石林景区(约1.5小时)</p>"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "",
+        "telephone": "0919-7886335"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "金锁关石林景区",
+        "wxSubscription": "gh_152e2ee55ba4"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2082011680519815169",
+        "resourcesId": "1321668738721013762",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/167989082282563254.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": "",
+        "createTime": "2026-07-28 15:54:01",
+        "updateTime": "2026-07-28 15:54:01",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011680524009473",
+        "resourcesId": "1321668738721013762",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/167989082330824749.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": "",
+        "createTime": "2026-07-28 15:54:01",
+        "updateTime": "2026-07-28 15:54:01",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011680524009474",
+        "resourcesId": "1321668738721013762",
+        "title": "金锁关石林宣传片",
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2022081615385133850.mp4",
+        "coverImage": "https://eshopfile.zhiyousx.com/166063551025730535.png",
+        "videoId": null,
+        "resourcesType": 2,
+        "sequence": 3,
+        "describe": "",
+        "createTime": "2026-07-28 15:54:01",
+        "updateTime": "2026-07-28 15:54:01",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011680528203778",
+        "resourcesId": "1321668738721013762",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166002630195449684.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": "",
+        "createTime": "2026-07-28 15:54:01",
+        "updateTime": "2026-07-28 15:54:01",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011680528203779",
+        "resourcesId": "1321668738721013762",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166002630244381166.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": "",
+        "createTime": "2026-07-28 15:54:01",
+        "updateTime": "2026-07-28 15:54:01",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011680532398081",
+        "resourcesId": "1321668738721013762",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166002630300468533.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": "",
+        "createTime": "2026-07-28 15:54:01",
+        "updateTime": "2026-07-28 15:54:01",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011680536592385",
+        "resourcesId": "1321668738721013762",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166002630342878379.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": "",
+        "createTime": "2026-07-28 15:54:01",
+        "updateTime": "2026-07-28 15:54:01",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011680536592386",
+        "resourcesId": "1321668738721013762",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166002630411412023.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": "",
+        "createTime": "2026-07-28 15:54:01",
+        "updateTime": "2026-07-28 15:54:01",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011680540786689",
+        "resourcesId": "1321668738721013762",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166002630516467813.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": "",
+        "createTime": "2026-07-28 15:54:01",
+        "updateTime": "2026-07-28 15:54:01",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011680540786690",
+        "resourcesId": "1321668738721013762",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166002630464299131.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": "",
+        "createTime": "2026-07-28 15:54:01",
+        "updateTime": "2026-07-28 15:54:01",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011680544980994",
+        "resourcesId": "1321668738721013762",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/af124519f5f54d36b079659e3ebefa58-20201029122217.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 11,
+        "describe": null,
+        "createTime": "2026-07-28 15:54:01",
+        "updateTime": "2026-07-28 15:54:01",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011680549175298",
+        "resourcesId": "1321668738721013762",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166002630560705082.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 12,
+        "describe": "",
+        "createTime": "2026-07-28 15:54:01",
+        "updateTime": "2026-07-28 15:54:01",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011680549175299",
+        "resourcesId": "1321668738721013762",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/c514955a7af947ff879327e5803215f0-20201029122225.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 13,
+        "describe": null,
+        "createTime": "2026-07-28 15:54:01",
+        "updateTime": "2026-07-28 15:54:01",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011680553369601",
+        "resourcesId": "1321668738721013762",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/167989082377905311.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 14,
+        "describe": "",
+        "createTime": "2026-07-28 15:54:01",
+        "updateTime": "2026-07-28 15:54:01",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455081861037531138",
+      "rankingId": null,
+      "indexInRanking": 2,
+      "rankingName": "铜川必游景区人气榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1559032346152939522",
+        "rankingId": "1559032347344121858",
+        "indexInRanking": null,
+        "rankingName": "铜川亲子游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "2082011680565952513",
+        "scenicSpotId": "1320579064188264604",
+        "contentModuleName": "打卡必玩",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1556895202923917313",
+            "type": 5,
+            "title": "天空之翼",
+            "subtitle": "西北首座7D玻璃悬廊",
+            "coverImage": "https://eshopfile.zhiyousx.com/166002756485669440.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1556904559690526721",
+            "type": 5,
+            "title": "玻璃吊桥",
+            "subtitle": "西北第一座长玻璃吊桥",
+            "coverImage": "https://eshopfile.zhiyousx.com/166002980498774298.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1556909592490471426",
+            "type": 5,
+            "title": "高空秋千/悬崖秋千",
+            "subtitle": "瞬间体验激素俯冲的刺激",
+            "coverImage": "https://eshopfile.zhiyousx.com/166003112382753515.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1556901200732549122",
+            "type": 5,
+            "title": "镂空玻璃桥",
+            "subtitle": "70米高空单板玻璃桥",
+            "coverImage": "https://eshopfile.zhiyousx.com/166002896033722841.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1556913123075174402",
+            "type": 5,
+            "title": "高空单车",
+            "subtitle": "单程最长的高空自行车体验",
+            "coverImage": "https://eshopfile.zhiyousx.com/166003181822079911.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -237,7 +237,9 @@ require("../../@babel/runtime/helpers/Arrayincludes"), (global.webpackJsonp = gl
             var n = this;
             this.$util.getSysConfigure().then((function(t) {
               var e = !0;
-              t.WX_VERSION && t.WX_VERSION.paramValue == getApp().globalData.version && (e = !1), i.showPandaSys = +t.HOME_PANDA_IS_SHOW.paramValue, i.xiaoqiVersion = +t.XIAOQI_VERSION.paramValue, e || (i.showPandaSys = !1), i.showVideo = e, getApp().globalData.showvideo = e, t.GRAY_THEME_FLAG && t.GRAY_THEME_FLAG.paramValue && (i.configrights = JSON.parse(t.GRAY_THEME_FLAG.paramValue))
+              t = t || {}, t.WX_VERSION && t.WX_VERSION.paramValue == getApp().globalData.version && (e = !1), i.showPandaSys = t.HOME_PANDA_IS_SHOW ? +t.HOME_PANDA_IS_SHOW.paramValue : 1, i.xiaoqiVersion = t.XIAOQI_VERSION ? +t.XIAOQI_VERSION.paramValue : 2, e || (i.showPandaSys = !1), i.showVideo = e, getApp().globalData.showvideo = e, t.GRAY_THEME_FLAG && t.GRAY_THEME_FLAG.paramValue && (i.configrights = JSON.parse(t.GRAY_THEME_FLAG.paramValue))
+            })).catch((function() {
+              i.showPandaSys = 1, i.xiaoqiVersion = 2, i.showVideo = !0, getApp().globalData.showvideo = !0
             })), this.getConfig(), this.getBannerList([9, 13, 14, 12, 16, 17]), this.getRanking(), this.getHotPlay(), setTimeout((function() {
               n.getRecommendData(), n.getWaterFall(n.waterNavList[n.waterfallActiveIndex].type), n.getDomInfo().then((function(t) {
                 n.midNavTop = t[0].top
@@ -260,6 +262,7 @@ require("../../@babel/runtime/helpers/Arrayincludes"), (global.webpackJsonp = gl
             t.removeStorageSync("isShowTips")
           },
           onShow: function() {
+            setTimeout(function() { var pages = getCurrentPages(), page = pages[pages.length - 1], bar = page && page.getTabBar && page.getTabBar(); if (page && page.route === "pages/index/index" && bar) bar.setData({ selected: 0 }); }, 100);
             this.isIntoHide = !1, this.isHide = !1, t.getStorageSync("showGuide") || (this.showGuide = !0), this.getBannerList([9, 13, 12, 14, 16, 17]), this.getItemHotRecommend(), this.getEquityCardList(), this.getLineList(), this.getCulturalInnovation(), this.getPopUpAdvert(), this.getLocation()
           },
           onShareAppMessage: function() {
@@ -550,7 +553,7 @@ require("../../@babel/runtime/helpers/Arrayincludes"), (global.webpackJsonp = gl
               this.$uniApi.getRequestNoLoading("GET", "base/app/v1/contentApp/queryWaterfallFlowList?contentType=".concat(100 == e ? "" : e, "&current=").concat(n.current, "&size=").concat(n.size)).then((function(t) {
                 n.setWatterFall(t, i, a)
               })).catch((function(e) {
-                t.hideLoading(), n.getWaterFallState = !1
+                n.getWaterFallState = !1
               }))
             },
             setWatterFall: function(e, i, a) {
@@ -627,6 +630,10 @@ require("../../@babel/runtime/helpers/Arrayincludes"), (global.webpackJsonp = gl
             },
             getnearBySpot: function(t, e) {
               var i = this;
+              if (!t || !e) {
+                this.nearBySopt = [];
+                return;
+              }
               this.$uniApi.dataRequestNoLoading("GET", "base/app/v1/scenicSpot/getAroundScenicSpot", {
                 lnt: t || "",
                 lat: e || ""

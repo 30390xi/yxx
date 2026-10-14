@@ -1,0 +1,18 @@
+{
+  "code": 1,
+  "data": {
+    "paramKey": "APPLY_FENXIAO_ON_OFF",
+    "paramName": "申请成为达人入口开关配置",
+    "paramValue": "0",
+    "memo": "申请成为达人入口开关配置0关闭，1打开",
+    "isConfigurable": 1,
+    "operatorType": null,
+    "operatorId": null,
+    "createTime": null,
+    "updateTime": null,
+    "isDeleted": 0,
+    "serviceType": 0
+  },
+  "msg": "成功",
+  "success": true
+}

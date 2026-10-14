@@ -1,0 +1,39 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "2082012075843051522",
+      "resourcesId": "1322065032903942145",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/南宫山1-20201030143644.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2026-07-28 15:55:35",
+      "updateTime": "2026-07-28 15:55:35",
+      "createBy": "1635171719176675330",
+      "updateBy": "1635171719176675330",
+      "isDeleted": 0
+    },
+    {
+      "id": "2082012075843051523",
+      "resourcesId": "1322065032903942145",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/南宫山2-20201030143701.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 2,
+      "describe": null,
+      "createTime": "2026-07-28 15:55:35",
+      "updateTime": "2026-07-28 15:55:35",
+      "createBy": "1635171719176675330",
+      "updateBy": "1635171719176675330",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

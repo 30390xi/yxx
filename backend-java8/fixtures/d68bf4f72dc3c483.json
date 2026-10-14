@@ -1,0 +1,39 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "1635568423951949826",
+      "resourcesId": "1322034571708227586",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/雁山瀑布1-20201030123003.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2023-03-14 17:07:54",
+      "updateTime": "2023-03-14 17:07:54",
+      "createBy": "1635171719176675330",
+      "updateBy": "1635171719176675330",
+      "isDeleted": 0
+    },
+    {
+      "id": "1635568423964532737",
+      "resourcesId": "1322034571708227586",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/雁山瀑布2-20201030123010.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 2,
+      "describe": null,
+      "createTime": "2023-03-14 17:07:54",
+      "updateTime": "2023-03-14 17:07:54",
+      "createBy": "1635171719176675330",
+      "updateBy": "1635171719176675330",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

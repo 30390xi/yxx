@@ -1,0 +1,367 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064595112020",
+    "scenicName": "天台国家森林公园",
+    "tag": "汉中朝圣旅游之胜地",
+    "level": 3,
+    "address": "汉中市汉台区武乡镇石灵路",
+    "longitude": "107.054479",
+    "latitude": "33.253508",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#87B778",
+    "centralColour": "#5D8073",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/667d6e95-bcb5-41d5-8682-e6f5c43b2f97-20201028121128.jpg"
+    ],
+    "introduction": "<p>　　汉中天台国家森林公园北依巍峨秦岭、南俯汉中盆地，是全国距离中心城区最近的国家级森林公园。园内自然风光优美、人文历史厚重、宗教文化浓厚，集&ldquo;奇、险、古、幽、秀&rdquo;于一体，是自然景观与人文景观俱佳的城郊型森林公园。公园面积3929公顷，辖天台山、哑姑山、太白、石堰四大景区112处景点。核心景区天台山巍峨锦绣，山顶平坦如台，故曰天台，是陕南著名的道教圣地；除此之外，哑姑山秀美多姿，石堰景区奇石飞瀑，太白景区万亩松涛，都会给人留下不同的美好记忆。公园地处南北气候分界线，年平均气温10.1℃，冬无严寒、夏无酷暑；森林覆盖率92.3%，空气清新、降水充沛。公园内森林植被繁茂，生态环境优美，野生动、植物种类繁多，是一个以森林景观为主体、道教文化为特色，集生态观光、休闲度假、祈福朝圣于一体的大型综合性风景名胜区。</p>",
+    "introductionText": "　　汉中天台国家森林公园北依巍峨秦岭、南俯汉中盆地，是全国距离中心城区最近的国家级森林公园。园内自然风光优美、人文历史厚重、宗教文化浓厚，集“奇、险、古、幽、秀”于一体，是自然景观与人文景观俱佳的城郊型森林公园。公园面积3929公顷，辖天台山、哑姑山、太白、石堰四大景区112处景点。核心景区天台山巍峨锦绣，山顶平坦如台，故曰天台，是陕南著名的道教圣地；除此之外，哑姑山秀美多姿，石堰景区奇石飞瀑，太白景区万亩松涛，都会给人留下不同的美好记忆。公园地处南北气候分界线，年平均气温10.1℃，冬无严寒、夏无酷暑；森林覆盖率92.3%，空气清新、降水充沛。公园内森林植被繁茂，生态环境优美，野生动、植物种类繁多，是一个以森林景观为主体、道教文化为特色，集生态观光、休闲度假、祈福朝圣于一体的大型综合性风景名胜区。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "63",
+        "name": "宗教文化",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "老人",
+        "limit": "65周岁(含)以上老人凭老年证或身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.1米(含)以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭残疾证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "军人",
+        "limit": "现役军人凭军官证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "导游",
+        "limit": "跟团导游凭导游证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "消防队员",
+        "limit": "在执行公务时",
+        "discount": "免费"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2032744332167086082",
+        "resourcesId": "1321303673660551169",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/35c8f17d-0c76-4768-844c-f3eb1d2cb7d5-20201028121151.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-03-14 17:03:10",
+        "updateTime": "2026-03-14 17:03:10",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2032744332171280386",
+        "resourcesId": "1321303673660551169",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166122170974814773.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": "",
+        "createTime": "2026-03-14 17:03:10",
+        "updateTime": "2026-03-14 17:03:10",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2032744332175474690",
+        "resourcesId": "1321303673660551169",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166122171141928601.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": "",
+        "createTime": "2026-03-14 17:03:10",
+        "updateTime": "2026-03-14 17:03:10",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2032744332175474691",
+        "resourcesId": "1321303673660551169",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/a652d8b8-3a7e-48ee-911b-c59ee2175e41-20201028121156.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-03-14 17:03:10",
+        "updateTime": "2026-03-14 17:03:10",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2032744332179668994",
+        "resourcesId": "1321303673660551169",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166122171228600774.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": "",
+        "createTime": "2026-03-14 17:03:10",
+        "updateTime": "2026-03-14 17:03:10",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2032744332183863297",
+        "resourcesId": "1321303673660551169",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/316b40a8-4617-4e10-982d-385edd79be89-20201028121142.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2026-03-14 17:03:10",
+        "updateTime": "2026-03-14 17:03:10",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2032744332188057601",
+        "resourcesId": "1321303673660551169",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166122171469632043.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": "",
+        "createTime": "2026-03-14 17:03:10",
+        "updateTime": "2026-03-14 17:03:10",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2032744332188057602",
+        "resourcesId": "1321303673660551169",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166122171281236147.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": "",
+        "createTime": "2026-03-14 17:03:10",
+        "updateTime": "2026-03-14 17:03:10",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2032744332192251906",
+        "resourcesId": "1321303673660551169",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166122171352061295.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": "",
+        "createTime": "2026-03-14 17:03:10",
+        "updateTime": "2026-03-14 17:03:10",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2032744332192251907",
+        "resourcesId": "1321303673660551169",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166122171407243799.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": "",
+        "createTime": "2026-03-14 17:03:10",
+        "updateTime": "2026-03-14 17:03:10",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": null,
+      "rankingId": null,
+      "indexInRanking": null,
+      "rankingName": null,
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": "",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

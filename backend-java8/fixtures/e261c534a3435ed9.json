@@ -1,0 +1,23 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "1968594795449475073",
+      "resourcesId": "1405466542488961025",
+      "title": "西安事变视频",
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061811125442540.mp4",
+      "coverImage": "https://eshopfile.zhiyousx.com/2021061811143744072.jpg",
+      "videoId": null,
+      "resourcesType": 2,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2025-09-18 16:35:48",
+      "updateTime": "2025-09-18 16:35:48",
+      "createBy": "1951096714057809922",
+      "updateBy": "1951096714057809922",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,297 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064699969539",
+    "scenicName": "侍郎湖景区",
+    "tag": "一幅幅幅绚丽的山水画卷",
+    "level": 4,
+    "cityId": "1320661981349588993",
+    "cityName": "咸阳",
+    "address": "咸阳市彬州市底店乡牛北村",
+    "longitude": "107.9403452610",
+    "latitude": "34.9020894630",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 395,
+    "topColour": "#71B524",
+    "centralColour": "#71B524",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/timg-20201120151406.jpg"
+    ],
+    "introduction": "<p>　　侍郎湖位于彬县县城南40公里处的底店镇牛北村，是由于山体滑坡形成的天然聚湫。湖面面积370亩，平均水深13米，最深处可达18米，总库容约166万立方米，是陕西最大的天然淡水湖，有&ldquo;高原明珠&rdquo;之美誉。这里可谓&ldquo;一泓碧水，四面青山，环境优雅，风光迷人&rdquo;，是垂钓避暑、休闲、娱乐的胜地，是生态旅游的好地方。侍郎湖的动人之处不但在于它的美景，还因为它有两个不可思议的神奇之处：一是侍郎胡&ldquo;涝不升，旱不降&rdquo;，无论雨水充沛还是干旱少雨都不会影响我们侍郎湖的水位，二是&ldquo;夏秋无落叶&rdquo;，侍郎湖四面环山，树叶茂密，可是湖面终年干净、无落叶，如同碧玉般镶嵌在山谷间，美丽而神秘，这就是我们侍郎胡的两大神奇之处。</p>",
+    "introductionText": "　　侍郎湖位于彬县县城南40公里处的底店镇牛北村，是由于山体滑坡形成的天然聚湫。湖面面积370亩，平均水深13米，最深处可达18米，总库容约166万立方米，是陕西最大的天然淡水湖，有“高原明珠”之美誉。这里可谓“一泓碧水，四面青山，环境优雅，风光迷人”，是垂钓避暑、休闲、娱乐的胜地，是生态旅游的好地方。侍郎湖的动人之处不但在于它的美景，还因为它有两个不可思议的神奇之处：一是侍郎胡“涝不升，旱不降”，无论雨水充沛还是干旱少雨都不会影响我们侍郎湖的水位，二是“夏秋无落叶”，侍郎湖四面环山，树叶茂密，可是湖面终年干净、无落叶，如同碧玉般镶嵌在山谷间，美丽而神秘，这就是我们侍郎胡的两大神奇之处。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "19",
+        "name": "水上玩乐",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全年开放",
+        "openTimeContent": "09:00-18:00"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "1.2米以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "敬老优待证(65岁以上)",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "残疾证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "军人",
+        "limit": "现役军官证 (含保障卡)军残证、士兵证",
+        "discount": "免费"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": null,
+        "parentId": null,
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "10",
+        "name": "商店",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (19).png",
+        "tagType": null,
+        "parentId": null,
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "11",
+        "name": "餐厅",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (22).png",
+        "tagType": null,
+        "parentId": null,
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "门票",
+        "additionalExplainContent": "25元人(不包含:往返摆渡费和停车费<br/>35元人(含景区门票、往返摆渡车费)<br/>优惠票:10元/人(持彬县身份证)"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": [
+      "http://www.shilanghu.com/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "官方电话",
+        "telephone": "029-34769999"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "彬州市侍郎湖景区",
+        "wxSubscription": "gh_3d712082b1e5"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1435528339593998337",
+        "resourcesId": "1329684447422947329",
+        "title": "侍郎湖景区",
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021090816591175219.mp4",
+        "coverImage": "https://eshopfile.zhiyousx.com/163109154431481685.jpg",
+        "videoId": "1435528209612517377",
+        "resourcesType": 2,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2021-09-08 17:00:01",
+        "updateTime": "2021-09-08 17:00:01",
+        "createBy": "1344113100973973505",
+        "updateBy": "1344113100973973505",
+        "isDeleted": 0
+      },
+      {
+        "id": "1435528339602386946",
+        "resourcesId": "1329684447422947329",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/timg-20201120151340.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2021-09-08 17:00:01",
+        "updateTime": "2021-09-08 17:00:01",
+        "createBy": "1344113100973973505",
+        "updateBy": "1344113100973973505",
+        "isDeleted": 0
+      },
+      {
+        "id": "1435528339602386947",
+        "resourcesId": "1329684447422947329",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/u=447978180,1009636397&fm=26&gp=0-20201120151352.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2021-09-08 17:00:01",
+        "updateTime": "2021-09-08 17:00:01",
+        "createBy": "1344113100973973505",
+        "updateBy": "1344113100973973505",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455060076934045697",
+      "rankingId": null,
+      "indexInRanking": 10,
+      "rankingName": "咸阳亲子游景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": null,
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "scenicInfoTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": 0,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": null,
+    "hotelArrivalDepartureTime": null,
+    "hotelChildrenBed": null,
+    "hotelPet": null,
+    "hotelBreakfast": null,
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

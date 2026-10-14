@@ -1,6 +1,6 @@
 <view class="affirm-order u-skeleton data-v-29f6412e">
     <view bindtap="__e" class="personal u-skeleton-rect data-v-29f6412e" data-event-opts="{{[ [ 'tap',[ [ 'goAddress',['$event'] ] ] ] ]}}">
-        <image class="data-v-29f6412e" src="https://eshopfile.zhiyousx.com/170065402412127991.png"></image>
+        <image class="data-v-29f6412e" src="/static/captured/af8640258dd39f42.png"></image>
         <block wx:if="{{orderData}}">
             <view class="userInfor data-v-29f6412e" wx:if="{{orderData.memberAddr}}">
                 <view class="userName data-v-29f6412e">
@@ -102,7 +102,7 @@
                         <image mode class="card-image data-v-29f6412e" src="{{item.$orig.cardPicUrl}}" wx:if="{{item.$orig.cardPicUrl}}"></image>
                         <view class="card-data data-v-29f6412e">
                             <view class="{{['card-head','data-v-29f6412e',!item.$orig.cardPicUrl?'cardHeadbg':'']}}">
-                                <image mode class="card-logo data-v-29f6412e" src="https://eshopfile.zhiyousx.com/giftCard/logo.png" wx:if="{{!item.$orig.cardPicUrl}}"></image>
+                                <image mode class="card-logo data-v-29f6412e" src="/static/captured/eaacd82191b6173c.png" wx:if="{{!item.$orig.cardPicUrl}}"></image>
                                 <view class="card-info data-v-29f6412e">
                                     <view class="card-name data-v-29f6412e">{{''+item.$orig.name+''}}</view>
                                     <view class="card-value data-v-29f6412e">{{'面值：'+item.$orig.quota+'元'}}</view>
@@ -114,8 +114,8 @@
                                     <text class="label data-v-29f6412e">余额</text>
                                     <text class="value data-v-29f6412e">{{'￥'+item.$orig.balance}}</text>
                                 </view>
-                                <image mode bindtap="__e" class="card-change data-v-29f6412e" data-event-opts="{{[ [ 'tap',[ [ 'changeGiftCard',['$0',index],[ [ ['giftCardArr','',index] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/giftCard/cardYes.png" wx:if="{{item.g2}}"></image>
-                                <image mode bindtap="__e" class="card-change data-v-29f6412e" data-event-opts="{{[ [ 'tap',[ [ 'changeGiftCard',['$0',index],[ [ ['giftCardArr','',index] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/giftCard/cardNo.png" wx:else></image>
+                                <image mode bindtap="__e" class="card-change data-v-29f6412e" data-event-opts="{{[ [ 'tap',[ [ 'changeGiftCard',['$0',index],[ [ ['giftCardArr','',index] ] ] ] ] ] ]}}" src="/static/captured/9846fdf13c4bff4c.png" wx:if="{{item.g2}}"></image>
+                                <image mode bindtap="__e" class="card-change data-v-29f6412e" data-event-opts="{{[ [ 'tap',[ [ 'changeGiftCard',['$0',index],[ [ ['giftCardArr','',index] ] ] ] ] ] ]}}" src="/static/captured/ba2c60386d750587.png" wx:else></image>
                             </view>
                         </view>
                     </view>

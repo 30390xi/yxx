@@ -1,0 +1,243 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941153",
+    "scenicName": "石门栈道景区",
+    "tag": "中国栈道之乡，西北水利明珠",
+    "level": 4,
+    "address": "汉中市汉台区河东店镇",
+    "longitude": "106.961962",
+    "latitude": "33.222439",
+    "openingStatus": 1,
+    "capacity": 11000,
+    "topColour": "#0187CC",
+    "centralColour": "#0070AA",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2026040218260743699.jpg",
+      "https://eshopfile.zhiyousx.com/bf6fc91d-96de-4969-bcd9-e420849b8497-20201028175129.jpg"
+    ],
+    "introduction": "<p>石门栈道景区是国家水利部公布的第二批国家级水利风景区和国家AAAA级旅游景区，位于秦岭南麓汉中市汉台区河东店镇。景区总面积68.75平方公里，是以古栈道文化为核心、融古褒国文化、水文化及两汉三国文化为一体的人文景区，也是全国唯一以栈道为主题的旅游目的地。</p>",
+    "introductionText": "石门栈道景区是国家水利部公布的第二批国家级水利风景区和国家AAAA级旅游景区，位于秦岭南麓汉中市汉台区河东店镇。景区总面积68.75平方公里，是以古栈道文化为核心、融古褒国文化、水文化及两汉三国文化为一体的人文景区，也是全国唯一以栈道为主题的旅游目的地。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "51",
+        "name": "拓展游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": null,
+    "officialWebsite": null,
+    "telephoneVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2039650601343778818",
+        "resourcesId": "1321389217803427842",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/b6e4408c-3260-429b-a479-a3c9c5934a0a-20201028175140.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-04-02 18:26:12",
+        "updateTime": "2026-04-02 18:26:12",
+        "createBy": "2021189462693314562",
+        "updateBy": "2021189462693314562",
+        "isDeleted": 0
+      },
+      {
+        "id": "2039650601343778819",
+        "resourcesId": "1321389217803427842",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/177262357479805297.jpg",
+        "coverImage": "",
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": "",
+        "createTime": "2026-04-02 18:26:12",
+        "updateTime": "2026-04-02 18:26:12",
+        "createBy": "2021189462693314562",
+        "updateBy": "2021189462693314562",
+        "isDeleted": 0
+      },
+      {
+        "id": "2039650601347973122",
+        "resourcesId": "1321389217803427842",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/177262357830121970.jpg",
+        "coverImage": "",
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": "",
+        "createTime": "2026-04-02 18:26:12",
+        "updateTime": "2026-04-02 18:26:12",
+        "createBy": "2021189462693314562",
+        "updateBy": "2021189462693314562",
+        "isDeleted": 0
+      },
+      {
+        "id": "2039650601352167425",
+        "resourcesId": "1321389217803427842",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/38f3d92f-7bd1-4482-a9fc-9c3f348c3545-20201028175146.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-04-02 18:26:12",
+        "updateTime": "2026-04-02 18:26:12",
+        "createBy": "2021189462693314562",
+        "updateBy": "2021189462693314562",
+        "isDeleted": 0
+      },
+      {
+        "id": "2039650601352167426",
+        "resourcesId": "1321389217803427842",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/53f58f1b-fb8f-4482-8513-b33b7fa1e54d-20201028175152.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2026-04-02 18:26:12",
+        "updateTime": "2026-04-02 18:26:12",
+        "createBy": "2021189462693314562",
+        "updateBy": "2021189462693314562",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455795982670340097",
+      "rankingId": null,
+      "indexInRanking": 15,
+      "rankingName": "汉中必玩景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

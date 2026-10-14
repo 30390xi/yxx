@@ -1,0 +1,272 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064595111947",
+    "scenicName": "延安瓦窑堡会议旧址",
+    "tag": "确立抗日民族统一战线",
+    "level": -1,
+    "cityId": "1320663521644818433",
+    "cityName": "延安",
+    "address": "延安市子长市中山街151号",
+    "longitude": "109.670502",
+    "latitude": "37.135565",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 115,
+    "topColour": "#BF5646",
+    "centralColour": "#8E1212",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021062211445082416.jpg"
+    ],
+    "introduction": "<p>　　瓦窑堡革命旧址位于子长县城，曾是中共陕甘晋省委和陕北省苏维埃政府所在地。旧址主要包括瓦窑堡会议会址、西北革命军事委员会旧址、中国人民抗日红军大学旧址、毛泽东旧居（2处）、张闻天旧居、周恩来旧居。旧址以丰富的历史内涵和人文景观引起社会各界关注，成为进行爱国主义教育，革命传统教育，延安精神教育的重要载体和延安红色旅游业的经典景区。1988年瓦窑堡革命旧址被国务院公布为第三批全国重点文物保护单位，1996年被确定为陕西省爱国主义教育基地，1997年6月被国务院命名为国家级爱国主义教育基地。2004年被确定为全国红色旅游陕甘宁区经典景区，2009年被列入全国博物馆免费开放示范单位。现在是国防大学和延安干部学院教学基地。主要业务是负责保护管理全县田野文物,利用革命旧址进行爱国主义和革命传统教育，负责旅游接待参观等工作。</p>",
+    "introductionText": "　　瓦窑堡革命旧址位于子长县城，曾是中共陕甘晋省委和陕北省苏维埃政府所在地。旧址主要包括瓦窑堡会议会址、西北革命军事委员会旧址、中国人民抗日红军大学旧址、毛泽东旧居（2处）、张闻天旧居、周恩来旧居。旧址以丰富的历史内涵和人文景观引起社会各界关注，成为进行爱国主义教育，革命传统教育，延安精神教育的重要载体和延安红色旅游业的经典景区。1988年瓦窑堡革命旧址被国务院公布为第三批全国重点文物保护单位，1996年被确定为陕西省爱国主义教育基地，1997年6月被国务院命名为国家级爱国主义教育基地。2004年被确定为全国红色旅游陕甘宁区经典景区，2009年被列入全国博物馆免费开放示范单位。现在是国防大学和延安干部学院教学基地。主要业务是负责保护管理全县田野文物,利用革命旧址进行爱国主义和革命传统教育，负责旅游接待参观等工作。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "18",
+        "name": "红色旅游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026361102337",
+        "contentId": "1418152026344325122",
+        "name": "全国红色旅游经典景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026461765634",
+        "contentId": "1418152026449182722",
+        "name": "全国爱国主义教育示范基地",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全天开放",
+        "openTimeContent": "周一至周日<br/>08:00-17:00"
+      }
+    ],
+    "discountVoList": null,
+    "facilitiesServicesVoList": [
+      {
+        "id": "61",
+        "name": "讲解员",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016440410223.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "客服电话",
+        "telephone": "0911-7120771"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "瓦窑堡旧址纪念馆",
+        "wxSubscription": "wybgmjz"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "1518160897602793473",
+        "outId": "1320579064595111947",
+        "type": 1,
+        "advertName": "历史背景",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021062211565464735.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p style=\"text-align: center;\"><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062211082965740.jpg\" /></p>\n<p style=\"text-align: left;\">　　&ldquo;九一八&rdquo;事变后，1935年夏，日本帝国主义以吞并华北五省为直接目的，加紧侵略华北，中国人民掀起了抗日民主运动新高潮。这时，中国共产党面临着从土地革命战争向民族革命战争转变的新形势。1935年12月25日，党中央在陕北瓦窑堡召开了中央政治局会议。会议通过《中央关于军事战略问题的决议》、《关于目前政治形势与党的任务决议》等决议案。27日，毛泽东根据会议精神，在党的活动分子会议上作了《论反对日本帝国主义的策略》的报告。会议关于政治形势的决议和毛泽东的报告，圆满地解决了党的政治路线问题。</p>\n<p style=\"text-align: left;\">　　《关于目前政治形势与党的任务决议》指出，党的策略路线，是在发动、团聚与组织全中国全民族一切革命力量去反对当前主要的敌人：日本帝国主义与卖国贼头子蒋介石，并且提出&ldquo;关门主义是党内的主要危险&rdquo;。为了适应广泛的抗日统一战线的要求，决议规定将&ldquo;工农共和国&rdquo; 改为&ldquo;人民共和国&rdquo;，同时改变不适应抗日要求的部分政策。</p>\n<p style=\"text-align: left;\">　　毛泽东在他的报告中，对于民族资产阶级的两面性和利用地主买办营垒内部矛盾的可能性问题，作了精辟的分析。他指出：&ldquo;国民党营垒中，在民族危机到了严重关头的时候，是要发生分裂的。&rdquo;总之，&ldquo;把这个阶级关系问题总起来说，就是：在日本帝国主义打进中国本部来了这一个基本的变化上面，变化了中国各阶级之间的相互关系，扩大了民族革命营垒的势力，减弱了民族反革命营垒的势力。&rdquo;因此，党的基本策略任务，就是要建立广泛的民族革命统一战线，&ldquo;组织千千万万的民众，调动浩浩荡荡的革命军，是今天的革命向反革命进攻的需要。&rdquo;</p>\n<p style=\"text-align: center;\"><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062211095903665.jpg\" /></p>\n<p style=\"text-align: left;\">　　瓦窑堡会议是一次极为重要的会议，是遵义会议的继续和发展。会议提出了抗日民族统一战线的政策，既着重批判了&ldquo;左&rdquo;倾教条主义在政治策略上的错误，也警戒全党汲取大革命中无产阶级放弃领导权而导致革命失败的教训，从而使党在新的历史时期将要到来时掌握了政治上的主动权。这有力地表明，中国共产党在总结革命中的成功和失败的经验和教训的基础上，已经成熟起来，能够从中国的实际情况出发，创造性地进行工作。</p>\n<p style=\"text-align: left;\">&nbsp;</p>\n<p style=\"text-align: center;\">来源：人民网</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1518160897586016258",
+        "resourcesId": "1407179316223033346",
+        "title": "瓦窑堡革命旧址",
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062211254236223.mp4",
+        "coverImage": "https://eshopfile.zhiyousx.com/2021062211253072849.jpg",
+        "videoId": "1407178130631704577",
+        "resourcesType": 2,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2022-04-24 17:32:18",
+        "updateTime": "2022-04-24 17:32:18",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518160897590210561",
+        "resourcesId": "1407179316223033346",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062211305775251.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2022-04-24 17:32:18",
+        "updateTime": "2022-04-24 17:32:18",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518160897590210562",
+        "resourcesId": "1407179316223033346",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062211280708206.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2022-04-24 17:32:18",
+        "updateTime": "2022-04-24 17:32:18",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455724365810343938",
+      "rankingId": null,
+      "indexInRanking": 16,
+      "rankingName": "延安必逛景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": null,
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "scenicInfoTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": 0,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": null,
+    "hotelArrivalDepartureTime": null,
+    "hotelChildrenBed": null,
+    "hotelPet": null,
+    "hotelBreakfast": null,
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

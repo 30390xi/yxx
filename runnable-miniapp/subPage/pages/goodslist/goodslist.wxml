@@ -24,7 +24,7 @@
                 <view class="itemSubTitle singleLineText data-v-d5e135d6" wx:if="{{item.$orig.itemSubTitle}}">{{item.$orig.itemSubTitle}}</view>
                 <view class="yh-box data-v-d5e135d6">
                     <block wx:if="{{index<2}}" wx:for="{{item.$orig.huoDongArr}}" wx:for-item="huoDongObj">
-                        <image class="miao-sha data-v-d5e135d6" src="https://eshopfile.zhiyousx.com/2021091318044528261.png" wx:if="{{huoDongObj.type=='秒杀'}}"></image>
+                        <image class="miao-sha data-v-d5e135d6" src="/static/captured/e8330379255b4136.png" wx:if="{{huoDongObj.type=='秒杀'}}"></image>
                         <text class="itemRuter data-v-d5e135d6" wx:if="{{huoDongObj.type=='优惠券'}}">
                             <block wx:if="{{item.$orig.couponFullAmount==0}}">{{'领券减'+item.$orig.couponAmount}}</block>
                             <block wx:else>{{'满'+item.$orig.couponFullAmount+'减'+item.$orig.couponAmount}}</block>
@@ -53,7 +53,7 @@
                 <view class="itemSubTitle singleLineText data-v-d5e135d6" wx:if="{{item.$orig.itemSubTitle}}">{{item.$orig.itemSubTitle}}</view>
                 <view class="yh-box data-v-d5e135d6">
                     <block wx:if="{{index<2}}" wx:for="{{item.$orig.huoDongArr}}" wx:for-item="huoDongObj">
-                        <image class="miao-sha data-v-d5e135d6" src="https://eshopfile.zhiyousx.com/2021091318044528261.png" wx:if="{{huoDongObj.type=='秒杀'}}"></image>
+                        <image class="miao-sha data-v-d5e135d6" src="/static/captured/e8330379255b4136.png" wx:if="{{huoDongObj.type=='秒杀'}}"></image>
                         <text class="itemRuter data-v-d5e135d6" wx:if="{{huoDongObj.type=='优惠券'}}">
                             <block wx:if="{{item.$orig.couponFullAmount==0}}">{{'领券减'+item.$orig.couponAmount}}</block>
                             <block wx:else>{{'满'+item.$orig.couponFullAmount+'减'+item.$orig.couponAmount}}</block>

@@ -1,0 +1,324 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941059",
+    "scenicName": "清凉山新闻出版部门旧址",
+    "tag": "新中国新闻出版事业的摇篮",
+    "level": 3,
+    "cityId": "1320663521644818433",
+    "cityName": "延安",
+    "address": "延安市宝塔区北滨路与大东门街附近",
+    "longitude": "109.49096",
+    "latitude": "36.604781",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 157,
+    "topColour": "#8AA0D2",
+    "centralColour": "#4267B8",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021062212173745018.jpg"
+    ],
+    "introduction": "<p style=\"text-align: justify; text-indent: 2em;\">　　解放战争时期,这里曾是中央印刷厂、中央出版发行部、中共新华通讯总社、新华广播电台、解放日报社、边区群众报社、新华书店等所在地，是新闻事业的发祥地和摇篮。清凉山新闻出版部门旧址在延安市区东北部，与凤凰山、宝塔山隔延河鼎立。抗日战争时期，新华通讯社总社、延安新华广播电台、解放日报社、中央印刷厂等新闻出版部门都曾设此。新华总社在山之东坡，两排相对的石窑洞分别为新华社和解放日报社编辑部旧址。中央印刷厂在南面山腰万佛洞周围，印刷车间在万佛洞1号洞。2016年12月，清凉山新闻出版部门旧址被列入全国红色旅游经典景区名录。</p>",
+    "introductionText": "　　解放战争时期,这里曾是中央印刷厂、中央出版发行部、中共新华通讯总社、新华广播电台、解放日报社、边区群众报社、新华书店等所在地，是新闻事业的发祥地和摇篮。清凉山新闻出版部门旧址在延安市区东北部，与凤凰山、宝塔山隔延河鼎立。抗日战争时期，新华通讯社总社、延安新华广播电台、解放日报社、中央印刷厂等新闻出版部门都曾设此。新华总社在山之东坡，两排相对的石窑洞分别为新华社和解放日报社编辑部旧址。中央印刷厂在南面山腰万佛洞周围，印刷车间在万佛洞1号洞。2016年12月，清凉山新闻出版部门旧址被列入全国红色旅游经典景区名录。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "18",
+        "name": "红色旅游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026361102337",
+        "contentId": "1418152026344325122",
+        "name": "全国红色旅游经典景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": null,
+    "discountVoList": null,
+    "facilitiesServicesVoList": null,
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "客服电话",
+        "telephone": "0911-2112600"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "延安新闻纪念馆",
+        "wxSubscription": "yaxwjng"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "1518162169764556801",
+        "outId": "1320579064720941059",
+        "type": 1,
+        "advertName": "中国第一个新闻出版专业纪念馆",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021062214365525109.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p>　　清凉山新闻出版部门旧址建在清凉山东侧山麓的《解放日报》社旧址大门，门额上石刻&ldquo;解放日报&rdquo;4个大字， 是毛泽东的手迹。在清凉山下延惠溪的旁边，矗立一座牌坊，牌坊两边刻有：&ldquo;二水绕座晨望嘉岭塔边烟，八景环山夜对凤凰楼上月。&rdquo;横额是：&ldquo;清凉第一&rdquo;。牌坊的石崖上有几个石窟，党中央到延安后，1937年4月24日，新华书店就诞生在这里。&nbsp;<br />　　延安清凉山新闻出版革命纪念馆，是我国第一个新闻出版专业纪念馆。它地处延安城东海拔1050米的清凉山上，隔延河与嘉岭山上的宝塔相望。1986年10月24日建成开馆。&nbsp;<img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062214301855186.jpg\" />　　清凉山新闻出版纪念馆的展室面积有440多平方米。建筑形式采用了具有民族特色的坡屋顶，并运用了园林建筑的一些手法，使之因山就势，体型玲珑小巧，高低错落有致。室外设有古朴的外廊，配以轻巧的悬挑平台。整个建筑既与旧址环境协调一致，又可满足陈列的实际需要。&nbsp;<br />　　在1937&mdash;1947年期间，清凉山是中共中央领导的新闻出版机关的所在地。纪念馆陈列的400多幅历史照片和300多件珍贵文物，再现了当年中央党报委员会、《解放》周刊、新华通讯社、《新中华报》、《解放日报》、《边区群众报》、延安新华广播电台、中央出版发行部和中央印刷厂等单 位，艰苦创业，开拓前进，为民族解放事业胜利努力奋斗的光辉历史。&nbsp;<br />　　由新华社、人民日报社、中央人民广播电台等单位共同筹资，中共延安市委、延安市人民政府从2002年7月起，在清凉山南麓新建延安清凉山新闻出版纪念馆。该馆在2003年将正式对外展出。</p>\n<p style=\"text-align: center;\"><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062214335523855.jpg\" /></p>\n<p style=\"text-align: center;\"><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062214315719462.jpg\" /></p>\n<p style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: center;\">来源：红色行红色旅游网</p>\n<h4>&nbsp;</h4>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": "景区看点",
+    "contentResourcesDtoList": [
+      {
+        "id": "1518162169735196674",
+        "resourcesId": "1321305846486183938",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062212250494553.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2022-04-24 17:37:22",
+        "updateTime": "2022-04-24 17:37:22",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518162169739390978",
+        "resourcesId": "1321305846486183938",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062212230993837.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2022-04-24 17:37:22",
+        "updateTime": "2022-04-24 17:37:22",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518162169739390979",
+        "resourcesId": "1321305846486183938",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/5302f3a9-e10d-4c2a-8194-64cb90953ca5-20201028122026.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2022-04-24 17:37:22",
+        "updateTime": "2022-04-24 17:37:22",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518162169739390980",
+        "resourcesId": "1321305846486183938",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/0104t120006uon9o9D0F9_R_1600_10000-20201028122018.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2022-04-24 17:37:22",
+        "updateTime": "2022-04-24 17:37:22",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518162169743585281",
+        "resourcesId": "1321305846486183938",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062214182615923.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2022-04-24 17:37:22",
+        "updateTime": "2022-04-24 17:37:22",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455724365810343938",
+      "rankingId": null,
+      "indexInRanking": 13,
+      "rankingName": "延安必逛景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": [
+      {
+        "id": "1518162169751973890",
+        "scenicSpotId": "1320579064720941059",
+        "contentModuleName": "景区看点",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1407230253046185986",
+            "type": 5,
+            "title": "万佛洞石窟",
+            "subtitle": "一场“佛系”的旅行",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062214450709495.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1407232959878021121",
+            "type": 5,
+            "title": "新华书店旧址",
+            "subtitle": "毛主席亲笔题名",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062214580316491.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1407242755863756801",
+            "type": 5,
+            "title": "清凉碑林",
+            "subtitle": "老革命家的手迹墨宝",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062215311106054.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": null,
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "scenicInfoTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": 0,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": null,
+    "hotelArrivalDepartureTime": null,
+    "hotelChildrenBed": null,
+    "hotelPet": null,
+    "hotelBreakfast": null,
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,242 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064641249282",
+    "scenicName": "骆家坝景区",
+    "tag": "沿河而建的陕南特色古镇",
+    "level": 4,
+    "cityId": "1320664075750125570",
+    "cityName": "汉中",
+    "address": "汉中市西乡县骆家坝镇骆镇村",
+    "longitude": "107.43038",
+    "latitude": "32.811575",
+    "openingStatus": 1,
+    "capacity": 12000,
+    "sequence": 415,
+    "topColour": "#019674",
+    "centralColour": "#00785D",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2026040216403941948.jpg"
+    ],
+    "introduction": "<p>骆家坝景区位于汉中市西乡县西南部45公里处，距汉中市77公里，总面积1.6万平方千米，地处巴山北麓、米仓山自然保护区缓冲地带，海拔600-1300米的山区，年均温度14.4℃，年均降水量1200-1440mm，深林覆盖率达86%，负氧离子月平均浓度达30000个/立方厘米，汉江水系的第一大支流牧马河贯穿全境，因此骆家坝素有&ldquo;原生态地&rdquo;&ldquo;陕南天然氧吧&rdquo;之称。<br />骆家坝景区历史文化悠久，&ldquo;神仙崖&rdquo;悬棺遗址是迄今发现商州时期川陕最大悬棺墓，明代大巴关巡检司遗址，唐代大阉寺、清朝康熙三圣宫遗址、明清古街、石龙过江、回龙大峡谷、细辛天坑群等。境内有中国工农红军第二十九军军部旧址、中国工农红军第二十九军革命烈士纪念碑、西乡县第一个党支部&mdash;&mdash;阳雀湾党支部、红四方面军钟家沟会议会址（史称红四方面军史上的&ldquo;遵义会议&rdquo;）遗址。这里是您游玩山水风光，感受红色文化最佳去处。</p>",
+    "introductionText": "骆家坝景区位于汉中市西乡县西南部45公里处，距汉中市77公里，总面积1.6万平方千米，地处巴山北麓、米仓山自然保护区缓冲地带，海拔600-1300米的山区，年均温度14.4℃，年均降水量1200-1440mm，深林覆盖率达86%，负氧离子月平均浓度达30000个/立方厘米，汉江水系的第一大支流牧马河贯穿全境，因此骆家坝素有“原生态地”“陕南天然氧吧”之称。\n骆家坝景区历史文化悠久，“神仙崖”悬棺遗址是迄今发现商州时期川陕最大悬棺墓，明代大巴关巡检司遗址，唐代大阉寺、清朝康熙三圣宫遗址、明清古街、石龙过江、回龙大峡谷、细辛天坑群等。境内有中国工农红军第二十九军军部旧址、中国工农红军第二十九军革命烈士纪念碑、西乡县第一个党支部——阳雀湾党支部、红四方面军钟家沟会议会址（史称红四方面军史上的“遵义会议”）遗址。这里是您游玩山水风光，感受红色文化最佳去处。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "64",
+        "name": "古村古镇",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全天开放",
+        "openTimeContent": null
+      }
+    ],
+    "discountVoList": null,
+    "facilitiesServicesVoList": null,
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": null,
+    "wxSubscriptionVoList": null,
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2039624055922425857",
+        "resourcesId": "1321752512733405186",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/542056ab-65aa-4875-91b3-d3f9e5639f35-20201029175516.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-04-02 16:40:43",
+        "updateTime": "2026-04-02 16:40:43",
+        "createBy": "2021189462693314562",
+        "updateBy": "2021189462693314562",
+        "isDeleted": 0
+      },
+      {
+        "id": "2039624055922425858",
+        "resourcesId": "1321752512733405186",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/cede68d6-0842-44ce-8ff7-006fb5c6b530-20201029175523.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-04-02 16:40:43",
+        "updateTime": "2026-04-02 16:40:43",
+        "createBy": "2021189462693314562",
+        "updateBy": "2021189462693314562",
+        "isDeleted": 0
+      },
+      {
+        "id": "2039624055926620162",
+        "resourcesId": "1321752512733405186",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/d37fa137-1898-435d-a619-99ca5c157c7d-20201029175528.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-04-02 16:40:43",
+        "updateTime": "2026-04-02 16:40:43",
+        "createBy": "2021189462693314562",
+        "updateBy": "2021189462693314562",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455795982670340097",
+      "rankingId": null,
+      "indexInRanking": 12,
+      "rankingName": "汉中必玩景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "全天开放",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

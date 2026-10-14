@@ -1,0 +1,26 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1430087797649289218",
+    "contentId": "1430087797645094914",
+    "rankingName": "西安周边滑雪场排行榜",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/162979890688019344.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": "人去过",
+    "rankingInclude": "个滑雪场",
+    "rankingPersonalInfo": "我去过的滑雪场",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#1DA4CD",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": null,
+    "sumCount": "6",
+    "favoriteSum": null,
+    "personalInfoValue": null
+  },
+  "msg": "成功",
+  "success": true
+}

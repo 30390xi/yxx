@@ -13,8 +13,8 @@
             <view class="title bold data-v-32f77074" wx:if="{{shareId}}">{{shareinfo.nickName+' 邀请你成为游陕西旅行达人'}}</view>
             <view class="title bold data-v-32f77074" wx:else>申请开通游陕西旅行达人权限</view>
         </block>
-        <image mode class="icon data-v-32f77074" src="{{shareinfo.picUrl?shareinfo.picUrl:'https://eshopfile.zhiyousx.com/2021120611010377794.png'}}" wx:if="{{shareId&&(!userInfo||!userInfo.isFenxiao)}}"></image>
-        <image mode class="icon data-v-32f77074" src="{{userInfo&&userInfo.picUrl?userInfo.picUrl:'https://eshopfile.zhiyousx.com/2021120611010377794.png'}}" wx:else></image>
+        <image mode class="icon data-v-32f77074" src="{{shareinfo.picUrl?shareinfo.picUrl:'/static/captured/8a2baa9a07ce97e1.png'}}" wx:if="{{shareId&&(!userInfo||!userInfo.isFenxiao)}}"></image>
+        <image mode class="icon data-v-32f77074" src="{{userInfo&&userInfo.picUrl?userInfo.picUrl:'/static/captured/8a2baa9a07ce97e1.png'}}" wx:else></image>
         <view class="name data-v-32f77074" wx:if="{{shareId&&(!userInfo||!userInfo.isFenxiao)}}">{{shareinfo.nickName}}</view>
         <view class="name data-v-32f77074" wx:else>{{userInfo.nickName?userInfo.nickName:''}}</view>
         <view bindtap="__e" class="but data-v-32f77074" data-event-opts="{{[ [ 'tap',[ [ 'toBeTalent',[1] ] ] ] ]}}" wx:if="{{!userInfo}}">登录/注册</view>

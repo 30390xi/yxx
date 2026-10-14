@@ -1,7 +1,7 @@
 <view class="union-box data-v-6bf58366">
     <scroll-view class="data-v-6bf58366" scrollY="{{!disScroll}}" style="{{'overflow-y:'+(!disScroll?'auto':'hidden')+';'+'height:'+scrollFixH+'px'+';'}}">
         <view class="card-box data-v-6bf58366" id="firstUnion">
-            <image class="logo data-v-6bf58366" mode="aspectFill" src="https://eshopfile.zhiyousx.com/2024052716464420613.png"></image>
+            <image class="logo data-v-6bf58366" mode="aspectFill" src="/static/captured/69ed9fb8792d9817.png"></image>
             <view class="base-Info data-v-6bf58366">
                 <view class="row1 data-v-6bf58366">
                     <view class="name data-v-6bf58366">会员权益</view>
@@ -16,7 +16,7 @@
             <view class="use-info data-v-6bf58366" wx:if="{{unionEquityCard.useDesc}}">
                 <view class="name-box data-v-6bf58366">
                     <view class="name data-v-6bf58366">使用须知</view>
-                    <view bindtap="__e" class="r allcenter data-v-6bf58366" data-event-opts="{{[ [ 'tap',[ [ 'showPhone',['$event'] ] ] ] ]}}" wx:if="{{$root.g0}}">商家电话<image class="data-v-6bf58366" mode="aspectFill" src="https://eshopfile.zhiyousx.com/2024052716465123863.png" style="margin-left:8rpx;"></image>
+                    <view bindtap="__e" class="r allcenter data-v-6bf58366" data-event-opts="{{[ [ 'tap',[ [ 'showPhone',['$event'] ] ] ] ]}}" wx:if="{{$root.g0}}">商家电话<image class="data-v-6bf58366" mode="aspectFill" src="/static/captured/5fd9ebafc5d89822.png" style="margin-left:8rpx;"></image>
                     </view>
                 </view>
                 <view class="content data-v-6bf58366">
@@ -32,13 +32,13 @@
             <view class="row-box data-v-6bf58366">
                 <view class="r-it data-v-6bf58366" wx:if="{{index<defNum}}" wx:for="{{unionEquityCard.useRecordList}}" wx:for-item="it">
                     <view class="image-box data-v-6bf58366">
-                        <image mode class="data-v-6bf58366" src="https://eshopfile.zhiyousx.com/2024052809185700309.png"></image>
+                        <image mode class="data-v-6bf58366" src="/static/captured/085380791e6b7d16.png"></image>
                         <view class="div data-v-6bf58366" wx:if="{{index>0}}"></view>
                     </view>
                     <view class="info data-v-6bf58366">{{'您在'+it.useTime+'来过该店'}}</view>
                 </view>
             </view>
-            <view bindtap="__e" class="more data-v-6bf58366" data-event-opts="{{[ [ 'tap',[ [ 'shwoMore',['$event'] ] ] ] ]}}" wx:if="{{$root.g2}}">{{''+(defNum>3?'收起':'查看更多')+''}}<image mode class="{{['data-v-6bf58366',defNum>3?'rotate180':'']}}" src="https://eshopfile.zhiyousx.com/2024052809303445304.png"></image>
+            <view bindtap="__e" class="more data-v-6bf58366" data-event-opts="{{[ [ 'tap',[ [ 'shwoMore',['$event'] ] ] ] ]}}" wx:if="{{$root.g2}}">{{''+(defNum>3?'收起':'查看更多')+''}}<image mode class="{{['data-v-6bf58366',defNum>3?'rotate180':'']}}" src="/static/captured/b36cffd4991af22d.png"></image>
             </view>
         </view>
         <view class="black data-v-6bf58366"></view>

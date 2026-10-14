@@ -1,0 +1,152 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1455060077806460930",
+    "contentId": "1455060076934045697",
+    "rankingName": "咸阳亲子游景点排行榜",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/166234489948027040.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": "人去过",
+    "rankingInclude": "个景点",
+    "rankingPersonalInfo": "我去过的景点",
+    "rankingSharePictureUrl": "https://eshopfile.zhiyousx.com/166234432942122640.jpg",
+    "bottomColour": "#716699",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1320579064687386649",
+        "originType": "1",
+        "originName": "云集生态园",
+        "originSubtitleName": "名副其实的天然“大氧吧”",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021081616573890830.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021081612130108051.jpg",
+          "https://eshopfile.zhiyousx.com/2021081612110936330.jpg",
+          "https://eshopfile.zhiyousx.com/2021081612102978650.jpg",
+          "https://eshopfile.zhiyousx.com/2021081612141683668.jpg",
+          "https://eshopfile.zhiyousx.com/2021081614165423769.jpg",
+          "https://eshopfile.zhiyousx.com/2021081614170591745.jpg",
+          "https://eshopfile.zhiyousx.com/2021081614171721122.jpg",
+          "https://eshopfile.zhiyousx.com/2021081614173142620.jpg",
+          "https://eshopfile.zhiyousx.com/2021081614174995134.jpg"
+        ],
+        "sort": "10",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064595111962",
+        "originType": "1",
+        "originName": "咀头休闲体验地",
+        "originSubtitleName": "田园观光，休闲度假",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021091319373411147.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021092611010663098.jpg",
+          "https://eshopfile.zhiyousx.com/2021092611011283276.jpg"
+        ],
+        "sort": "11",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064720941063",
+        "originType": "1",
+        "originName": "彬县大佛寺石窟",
+        "originSubtitleName": "世界文化遗产",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021072317171319736.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021072317004577582.jpg",
+          "https://eshopfile.zhiyousx.com/2021072317005670844.jpg",
+          "https://eshopfile.zhiyousx.com/timg (1)-20201028152823.jpg",
+          "https://eshopfile.zhiyousx.com/u=36373631,1709142685&fm=26&gp=0-20201028152837.jpg"
+        ],
+        "sort": "12",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064595111970",
+        "originType": "1",
+        "originName": "古豳文化博览园",
+        "originSubtitleName": "功能齐全的文化博览园",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021102912013268095.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021102912020448467.jpg",
+          "https://eshopfile.zhiyousx.com/2021102912021306507.jpg",
+          "https://eshopfile.zhiyousx.com/2021102912022847154.jpg",
+          "https://eshopfile.zhiyousx.com/2021102912024104227.jpg"
+        ],
+        "sort": "13",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064720941094",
+        "originType": "1",
+        "originName": "马栏革命旧址",
+        "originSubtitleName": "陕甘宁边区的南大门",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021062111474394398.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021061815570752124.png",
+          "https://eshopfile.zhiyousx.com/2021061816525625050.jpg",
+          "https://eshopfile.zhiyousx.com/2021061815302046151.png",
+          "https://eshopfile.zhiyousx.com/2021061815315309343.png",
+          "https://eshopfile.zhiyousx.com/2021061816042322890.png"
+        ],
+        "sort": "14",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064595111959",
+        "originType": "1",
+        "originName": "安吴青训班革命旧址",
+        "originSubtitleName": "抗日青年的旗帜、革命青年的熔炉",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021062218131116014.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021062215594083385.jpg",
+          "https://eshopfile.zhiyousx.com/2021062215594981641.jpg",
+          "https://eshopfile.zhiyousx.com/2021062215595881130.jpg",
+          "https://eshopfile.zhiyousx.com/2021062216000835609.jpg",
+          "https://eshopfile.zhiyousx.com/2021062216001698858.jpg"
+        ],
+        "sort": "15",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "16",
+    "favoriteSum": null,
+    "personalInfoValue": "0/16"
+  },
+  "msg": "成功",
+  "success": true
+}

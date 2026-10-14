@@ -47,7 +47,7 @@
             </view>
             <view class="strategylist data-v-4bd4f66c">
                 <view bindtap="__e" class="item data-v-4bd4f66c" data-event-opts="{{[ [ 'tap',[ [ 'toStrategy',['$0'],[ [ ['cityStrategyList','',index] ] ] ] ] ] ]}}" wx:if="{{index<6}}" wx:for="{{$root.l0}}" wx:key="index">
-                    <image class="recommond data-v-4bd4f66c" src="https://eshopfile.zhiyousx.com/2021091011022464343.png" wx:if="{{item.$orig.isRecommend==1}}"></image>
+                    <image class="recommond data-v-4bd4f66c" src="/static/captured/b621a0c31d9b4637.png" wx:if="{{item.$orig.isRecommend==1}}"></image>
                     <image class="spot data-v-4bd4f66c" mode="aspectFill" src="{{item.m0}}"></image>
                     <view class="info data-v-4bd4f66c">
                         <view class="name singleLineText data-v-4bd4f66c">{{item.$orig.title}}</view>

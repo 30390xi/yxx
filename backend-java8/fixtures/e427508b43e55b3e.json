@@ -1,0 +1,214 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1431108307745091586",
+    "contentId": "1431108307745091585",
+    "rankingName": "青铜器博物院人气榜",
+    "rankingClass": "0",
+    "rankingType": "2",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/163004653234985280.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": null,
+    "rankingInclude": "个文物",
+    "rankingPersonalInfo": "我参观过的文物",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#A4A295",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1430821284329140226",
+        "originType": "2",
+        "originName": "何尊",
+        "originSubtitleName": "记录重大史诗的盛酒器",
+        "originUrl": "https://eshopfile.zhiyousx.com/162996888203021402.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/163004447188211778.png",
+          "https://eshopfile.zhiyousx.com/163004449274385058.png",
+          "https://eshopfile.zhiyousx.com/163004448001868284.png",
+          "https://eshopfile.zhiyousx.com/163004422891778296.png",
+          "https://eshopfile.zhiyousx.com/163005076094316114.jpg"
+        ],
+        "sort": "0",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "3",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1430814924468236290",
+        "originType": "2",
+        "originName": "秦公钟",
+        "originSubtitleName": "秦史重要记录者",
+        "originUrl": "https://eshopfile.zhiyousx.com/162996760294560785.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/162996766440210069.png",
+          "https://eshopfile.zhiyousx.com/162996767457651250.png",
+          "https://eshopfile.zhiyousx.com/162996768571986490.png",
+          "https://eshopfile.zhiyousx.com/162996769801840721.png"
+        ],
+        "sort": "1",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "1",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1430804008196485121",
+        "originType": "2",
+        "originName": "逨盉",
+        "originSubtitleName": "造型别致的“酒瓶”",
+        "originUrl": "https://eshopfile.zhiyousx.com/162996539550172351.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/162996708633339164.png",
+          "https://eshopfile.zhiyousx.com/162996707997727531.jpg",
+          "https://eshopfile.zhiyousx.com/163005073287429092.jpg"
+        ],
+        "sort": "2",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1431073069308424193",
+        "originType": "2",
+        "originName": "回首玉鹿",
+        "originSubtitleName": "灵动的头饰",
+        "originUrl": "https://eshopfile.zhiyousx.com/163002903217664255.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/163002930224050736.png"
+        ],
+        "sort": "3",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "1",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1430817761730342913",
+        "originType": "2",
+        "originName": "西周伯方鼎",
+        "originSubtitleName": "饕餮纹的代言人",
+        "originUrl": "https://eshopfile.zhiyousx.com/162996823110963569.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/162996847776205083.png",
+          "https://eshopfile.zhiyousx.com/162996848665266924.png",
+          "https://eshopfile.zhiyousx.com/162996850203831033.png"
+        ],
+        "sort": "4",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1431084060591108098",
+        "originType": "2",
+        "originName": "唐双鸾衔绶葵缘镜",
+        "originSubtitleName": "矿物颜料的出现",
+        "originUrl": "https://eshopfile.zhiyousx.com/163003159680434689.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/163003195011689146.png",
+          "https://eshopfile.zhiyousx.com/163003188781472402.png",
+          "https://eshopfile.zhiyousx.com/163005281289142579.jpg"
+        ],
+        "sort": "5",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1431090432917483522",
+        "originType": "2",
+        "originName": "唐飞天花鸟菱缘镜",
+        "originSubtitleName": "穿越镜面，寻找古代的时尚",
+        "originUrl": "https://eshopfile.zhiyousx.com/163003276167302612.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/163003351381642073.png",
+          "https://eshopfile.zhiyousx.com/163005276596425390.jpg"
+        ],
+        "sort": "6",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1431095331478679554",
+        "originType": "2",
+        "originName": "仰韶文化陶房",
+        "originSubtitleName": "难得的新石器时代实物资料",
+        "originUrl": "https://eshopfile.zhiyousx.com/163003427594634088.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/163003461295353687.jpg"
+        ],
+        "sort": "7",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1431101944532938754",
+        "originType": "2",
+        "originName": "龟形壶",
+        "originSubtitleName": "龟形水壶",
+        "originUrl": "https://eshopfile.zhiyousx.com/163003508331599174.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/163005278912353093.jpg",
+          "https://eshopfile.zhiyousx.com/163003614213611332.png"
+        ],
+        "sort": "8",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1431106081756655617",
+        "originType": "2",
+        "originName": "龙形佩",
+        "originSubtitleName": "西周早中期玉器典型风格",
+        "originUrl": "https://eshopfile.zhiyousx.com/163003697694850523.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/163003711182865696.png",
+          "https://eshopfile.zhiyousx.com/163005082251392149.jpg",
+          "https://eshopfile.zhiyousx.com/163005283319273037.jpg"
+        ],
+        "sort": "9",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "10",
+    "favoriteSum": "5",
+    "personalInfoValue": "0/10"
+  },
+  "msg": "成功",
+  "success": true
+}

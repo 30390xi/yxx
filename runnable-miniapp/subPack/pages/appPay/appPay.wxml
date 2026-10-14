@@ -1,7 +1,7 @@
 <view class="page-box data-v-1bd3db7c">
     <view class="info-box data-v-1bd3db7c">
         <view class="text data-v-1bd3db7c">{{''+payMsg+''}}</view>
-        <image mode class="icon data-v-1bd3db7c" src="https://eshopfile.zhiyousx.com/2023061917344246662.png"></image>
+        <image mode class="icon data-v-1bd3db7c" src="/static/captured/48faee8b28109696.png"></image>
     </view>
     <button bindtap="__e" class="btn data-v-1bd3db7c" data-event-opts="{{[ [ 'tap',[ [ 'exitMiniProgram',['$event'] ] ] ] ]}}" hidden="{{!(payMsg!='支付中...')}}" wx:if="{{channel=='ixa'}}">返回</button>
     <button appParameter="pay_end" binderror="launchAppError" class="btn data-v-1bd3db7c" hidden="{{!(payMsg!='支付中...')}}" openType="launchApp" wx:else>返回游陕西</button>

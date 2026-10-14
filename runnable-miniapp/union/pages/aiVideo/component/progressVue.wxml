@@ -6,5 +6,5 @@
     <view class="fl-warp1 fl-warp3 data-v-59f19bb6" wx:if="{{status==2}}">视频合成中<label class="dian _span data-v-59f19bb6"></label>
     </view>
     <view class="fl-warp1 data-v-59f19bb6" wx:if="{{status==0}}">视频生成失败</view>
-    <image alt catchtap="__e" class="data-v-59f19bb6" data-event-opts="{{[ [ 'tap',[ [ 'openImage',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/174538868522043836.png" wx:if="{{status==3}}"></image>
+    <image alt catchtap="__e" class="data-v-59f19bb6" data-event-opts="{{[ [ 'tap',[ [ 'openImage',['$event'] ] ] ] ]}}" src="/static/captured/f373ae23b2e82520.png" wx:if="{{status==3}}"></image>
 </view>

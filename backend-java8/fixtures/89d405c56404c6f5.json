@@ -1,0 +1,121 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1418476614588592129",
+    "contentId": "1418476614584397826",
+    "rankingName": "西安过山车排行榜",
+    "rankingClass": "0",
+    "rankingType": "2",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/162702614626190137.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": null,
+    "rankingInclude": "个过山车",
+    "rankingPersonalInfo": "我玩过的过山车",
+    "rankingSharePictureUrl": null,
+    "bottomColour": null,
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1407897728788246530",
+        "originType": "2",
+        "originName": "闪电",
+        "originSubtitleName": "亚洲速度最快的过山车",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021062411184696273.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021062609525172257.jpg",
+          "https://eshopfile.zhiyousx.com/2021062609491290718.jpg",
+          "https://eshopfile.zhiyousx.com/2021062609492736234.jpg"
+        ],
+        "sort": "0",
+        "favoriteValue": "84.6",
+        "isBookable": null,
+        "favoriteSum": "33",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1410071711549853697",
+        "originType": "2",
+        "originName": "龙之脊",
+        "originSubtitleName": "双脚腾空的过山车",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021063011004585173.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021063014091902309.jpg",
+          "https://eshopfile.zhiyousx.com/2021063014112581893.jpg",
+          "https://eshopfile.zhiyousx.com/2021063014113106146.jpg"
+        ],
+        "sort": "1",
+        "favoriteValue": "81.8",
+        "isBookable": null,
+        "favoriteSum": "9",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1410118148782395393",
+        "originType": "2",
+        "originName": "摩托骑士",
+        "originSubtitleName": "摩托与过山车的完美结合",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021063014085639778.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021063014074868155.jpg",
+          "https://eshopfile.zhiyousx.com/2021063014075593540.jpg",
+          "https://eshopfile.zhiyousx.com/2021063014080146721.jpg"
+        ],
+        "sort": "2",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "5",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1410121785000693762",
+        "originType": "2",
+        "originName": "白马过山车",
+        "originSubtitleName": "老少皆宜的家庭过山车",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021063014232444706.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021063014215991183.jpg"
+        ],
+        "sort": "3",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "5",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1410132261990404098",
+        "originType": "2",
+        "originName": "采矿先锋",
+        "originSubtitleName": "一场奇妙的矿山冒险之旅",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021063015034886510.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021063015043652743.jpg",
+          "https://eshopfile.zhiyousx.com/2021063015044354297.jpg",
+          "https://eshopfile.zhiyousx.com/2021063015044809892.jpg",
+          "https://eshopfile.zhiyousx.com/2021063015045486606.jpg"
+        ],
+        "sort": "4",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "4",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "5",
+    "favoriteSum": "56",
+    "personalInfoValue": "0/5"
+  },
+  "msg": "成功",
+  "success": true
+}

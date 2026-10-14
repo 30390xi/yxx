@@ -1,0 +1,273 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1443425676685262850",
+    "scenicName": "翠屏山森林公园",
+    "tag": "春到翠屏山",
+    "level": 3,
+    "cityId": "1320664941605466114",
+    "cityName": "商洛",
+    "address": "商洛市山阳县郭山路与城中路交汇处",
+    "longitude": "109.885841",
+    "latitude": "33.519421",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 101,
+    "topColour": "#616980",
+    "centralColour": "#3A4154",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021093011512405179.png"
+    ],
+    "introduction": "<p>　　翠屏山森林公园于山阳县城南部，主要景点有云台观、六合广场、福禄广场、八角亭、梅园、怡心廊等。景区有三大板块，一是道教文化区，山上云台观修建于1710年间左右，迄今已有300多年历史。馆内古建筑，铁瓦飞檐、气势磅礴。</p>",
+    "introductionText": "　　翠屏山森林公园于山阳县城南部，主要景点有云台观、六合广场、福禄广场、八角亭、梅园、怡心廊等。景区有三大板块，一是道教文化区，山上云台观修建于1710年间左右，迄今已有300多年历史。馆内古建筑，铁瓦飞檐、气势磅礴。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全年",
+        "openTimeContent": "周一至周日<br/>9:00-17:00"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "全员",
+        "limit": "无",
+        "discount": "免费 "
+      }
+    ],
+    "facilitiesServicesVoList": null,
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0914-8884525"
+      }
+    ],
+    "wxSubscriptionVoList": null,
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": "",
+    "contentResourcesDtoList": [
+      {
+        "id": "1443427626331979777",
+        "resourcesId": "1443425676672679939",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021093011551377071.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2021-09-30 12:08:58",
+        "updateTime": "2021-09-30 12:08:58",
+        "createBy": "1427085429085155330",
+        "updateBy": "1427085429085155330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1443427626336174081",
+        "resourcesId": "1443425676672679939",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021093011552333410.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2021-09-30 12:08:58",
+        "updateTime": "2021-09-30 12:08:58",
+        "createBy": "1427085429085155330",
+        "updateBy": "1427085429085155330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1443427626340368385",
+        "resourcesId": "1443425676672679939",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021093011552933805.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2021-09-30 12:08:58",
+        "updateTime": "2021-09-30 12:08:58",
+        "createBy": "1427085429085155330",
+        "updateBy": "1427085429085155330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1443427626340368386",
+        "resourcesId": "1443425676672679939",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021093011553883132.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2021-09-30 12:08:58",
+        "updateTime": "2021-09-30 12:08:58",
+        "createBy": "1427085429085155330",
+        "updateBy": "1427085429085155330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1443427626344562689",
+        "resourcesId": "1443425676672679939",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021093011554757994.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2021-09-30 12:08:58",
+        "updateTime": "2021-09-30 12:08:58",
+        "createBy": "1427085429085155330",
+        "updateBy": "1427085429085155330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1443427626344562690",
+        "resourcesId": "1443425676672679939",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021093011555520470.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2021-09-30 12:08:58",
+        "updateTime": "2021-09-30 12:08:58",
+        "createBy": "1427085429085155330",
+        "updateBy": "1427085429085155330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455809122913067009",
+      "rankingId": null,
+      "indexInRanking": 22,
+      "rankingName": "商洛自驾游景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": null,
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "scenicInfoTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": 0,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": null,
+    "hotelArrivalDepartureTime": null,
+    "hotelChildrenBed": null,
+    "hotelPet": null,
+    "hotelBreakfast": null,
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

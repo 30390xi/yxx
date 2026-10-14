@@ -1,0 +1,467 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1402835093071896577",
+    "scenicName": "龙头山景区",
+    "tag": "汉中龙头山国际旅游度假区",
+    "level": 4,
+    "cityId": "1320664075750125570",
+    "cityName": "汉中",
+    "address": "陕西省汉中市南郑区小南海镇 ",
+    "longitude": "107.004927",
+    "latitude": "32.741278",
+    "openingStatus": 1,
+    "capacity": 8000,
+    "sequence": 441,
+    "topColour": "#5986CF",
+    "centralColour": "#175CC6",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2026040219060739488.png",
+      "https://eshopfile.zhiyousx.com/2021061011464901322.jpg"
+    ],
+    "introduction": "<p>龙头山位于汉中市南郑区小南海镇境内，景区规划面积8609.6公顷（森林公园4984.7公顷），地貌属中山山地，系米仓山山系，最高海拔2336米（龙头山主峰），景区内年平均气温7.4℃，最冷月1月平均气温-4.3℃，最热月7月平均气温19℃，资源种类丰富，有8主类，18亚类，38基本类型。云海、日出、奇花、彩林、怪石、冰雪等变幻莫测的独特高山自然景观，茫茫的原始林海，罕见的珍禽异兽等，组成了山奇秀丽、环境优美、风光迷人的高山自然风景区。龙头山奇特的地形及温湿的气候，形成了&ldquo;春赏杜鹃夏避暑，秋观彩林冬滑雪&rdquo;的四季旅游格局，也是秦巴区域最具特色的彩林观赏基地、最具规模的冰雪运动休闲佳地。</p>",
+    "introductionText": "龙头山位于汉中市南郑区小南海镇境内，景区规划面积8609.6公顷（森林公园4984.7公顷），地貌属中山山地，系米仓山山系，最高海拔2336米（龙头山主峰），景区内年平均气温7.4℃，最冷月1月平均气温-4.3℃，最热月7月平均气温19℃，资源种类丰富，有8主类，18亚类，38基本类型。云海、日出、奇花、彩林、怪石、冰雪等变幻莫测的独特高山自然景观，茫茫的原始林海，罕见的珍禽异兽等，组成了山奇秀丽、环境优美、风光迷人的高山自然风景区。龙头山奇特的地形及温湿的气候，形成了“春赏杜鹃夏避暑，秋观彩林冬滑雪”的四季旅游格局，也是秦巴区域最具特色的彩林观赏基地、最具规模的冰雪运动休闲佳地。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全年",
+        "openTimeContent": "8:00-17:30，15:30停止入园"
+      },
+      {
+        "openTimeTitle": "建议游玩时间和时长",
+        "openTimeContent": "四季皆宜，4-6小时"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "6周岁（含6周岁）以下或身高1.2米（含1.2米）以下的儿童免索道票。",
+        "discount": "免费"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "7",
+        "name": "婴儿车租赁",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (12).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "9",
+        "name": "轮椅租赁",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (16).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "10",
+        "name": "商店",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (19).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "11",
+        "name": "餐厅",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (22).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "59",
+        "name": "园内交通",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016420452783.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "55",
+        "name": "雨具租赁",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016423554250.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "停车场",
+        "additionalExplainContent": "参考价格：停车10元一次，过夜加10元<br/>地址：景区游客服务中心对面<br/>库位：300个"
+      },
+      {
+        "additionalExplainTitle": "婴儿车租赁",
+        "additionalExplainContent": "0-3岁儿童可以在游客服务中心租赁童车，婴儿车租赁费用500元/辆（须出示有效身份证件），租赁期间物品损坏赔偿价目具体以景区现场公示价格为准。"
+      },
+      {
+        "additionalExplainTitle": "雨具租赁",
+        "additionalExplainContent": "下雨期间为广大游客提供雨伞租赁，雨伞租赁费用50元/把（须出示有效身份证件），租赁期间物品损坏赔偿价目具体以景区现场公示价格为准。"
+      },
+      {
+        "additionalExplainTitle": "轮椅租赁",
+        "additionalExplainContent": "行动不便的游客可以在游客服务中心租赁轮椅或拐杖，拐杖租赁费用50元/把，轮椅租赁费用500元/辆（须出示有效身份证件），租赁期间物品损坏赔偿价目具体以景区现场公示价格为准。"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": null,
+    "wxSubscriptionVoList": null,
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "2039660659225059329",
+        "outId": "1402835093071896577",
+        "type": 1,
+        "advertName": "虚拟旅游",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021061110172596928.jpg",
+        "jumpType": 1,
+        "jumpUrl": "https://720yun.com/t/95vksw1bddh?scene_id=47176443",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": "特色景点",
+    "contentResourcesDtoList": [
+      {
+        "id": "2039660659178921986",
+        "resourcesId": "1403178239337259009",
+        "title": "家乡有座龙头山",
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061112203576213.mp4",
+        "coverImage": "https://eshopfile.zhiyousx.com/2021061112305807066.jpg",
+        "videoId": null,
+        "resourcesType": 2,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-04-02 19:06:10",
+        "updateTime": "2026-04-02 19:06:10",
+        "createBy": "2021189462693314562",
+        "updateBy": "2021189462693314562",
+        "isDeleted": 0
+      },
+      {
+        "id": "2039660659183116290",
+        "resourcesId": "1403178239337259009",
+        "title": "人间仙境龙头山",
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061115152401903.mp4",
+        "coverImage": "https://eshopfile.zhiyousx.com/2021061115153462185.jpg",
+        "videoId": null,
+        "resourcesType": 2,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-04-02 19:06:10",
+        "updateTime": "2026-04-02 19:06:10",
+        "createBy": "2021189462693314562",
+        "updateBy": "2021189462693314562",
+        "isDeleted": 0
+      },
+      {
+        "id": "2039660659183116291",
+        "resourcesId": "1403178239337259009",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061110313038229.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-04-02 19:06:10",
+        "updateTime": "2026-04-02 19:06:10",
+        "createBy": "2021189462693314562",
+        "updateBy": "2021189462693314562",
+        "isDeleted": 0
+      },
+      {
+        "id": "2039660659187310593",
+        "resourcesId": "1403178239337259009",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061110315786108.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-04-02 19:06:10",
+        "updateTime": "2026-04-02 19:06:10",
+        "createBy": "2021189462693314562",
+        "updateBy": "2021189462693314562",
+        "isDeleted": 0
+      },
+      {
+        "id": "2039660659187310594",
+        "resourcesId": "1403178239337259009",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061110320778716.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2026-04-02 19:06:10",
+        "updateTime": "2026-04-02 19:06:10",
+        "createBy": "2021189462693314562",
+        "updateBy": "2021189462693314562",
+        "isDeleted": 0
+      },
+      {
+        "id": "2039660659191504897",
+        "resourcesId": "1403178239337259009",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061111161987948.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2026-04-02 19:06:10",
+        "updateTime": "2026-04-02 19:06:10",
+        "createBy": "2021189462693314562",
+        "updateBy": "2021189462693314562",
+        "isDeleted": 0
+      },
+      {
+        "id": "2039660659195699201",
+        "resourcesId": "1403178239337259009",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061111162974623.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2026-04-02 19:06:10",
+        "updateTime": "2026-04-02 19:06:10",
+        "createBy": "2021189462693314562",
+        "updateBy": "2021189462693314562",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455795982670340097",
+      "rankingId": null,
+      "indexInRanking": 22,
+      "rankingName": "汉中必玩景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": [
+      {
+        "id": "2039660659208282113",
+        "scenicSpotId": "1402835093071896577",
+        "contentModuleName": "特色景点",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1403234288119332865",
+            "type": 5,
+            "title": "高空索道",
+            "subtitle": "陕南首条脱挂式极限仰角高山观光索道",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021061114125700311.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1403241718769270786",
+            "type": 5,
+            "title": "云梯",
+            "subtitle": "西北第一户外观光扶梯",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021061114421900657.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1403244543846924289",
+            "type": 5,
+            "title": "云海奇观",
+            "subtitle": "缥缈的白云，相互簇拥，随风而动",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021061114545858446.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1403248154496745474",
+            "type": 5,
+            "title": "龙头云栈",
+            "subtitle": "如盘云的游龙，横亘于悬崖峭壁之上",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021061115091737112.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,55 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "2109683013923700737",
+      "itemId": "1329611285104533506",
+      "date": "2026-10-13",
+      "startTime": null,
+      "endTime": null,
+      "surplusStock": -1,
+      "soldCount": 0,
+      "retailPrice": 15.0,
+      "sellPrice": 15.0,
+      "settlementPrice": 15.0,
+      "isDelete": 0,
+      "week": null,
+      "sellOut": 0,
+      "stockStatus": 1
+    },
+    {
+      "id": "2109683013927895041",
+      "itemId": "1329611285104533506",
+      "date": "2026-10-14",
+      "startTime": null,
+      "endTime": null,
+      "surplusStock": -1,
+      "soldCount": 0,
+      "retailPrice": 15.0,
+      "sellPrice": 15.0,
+      "settlementPrice": 15.0,
+      "isDelete": 0,
+      "week": null,
+      "sellOut": 0,
+      "stockStatus": 1
+    },
+    {
+      "id": "2109683013932089346",
+      "itemId": "1329611285104533506",
+      "date": "2026-10-15",
+      "startTime": null,
+      "endTime": null,
+      "surplusStock": -1,
+      "soldCount": 0,
+      "retailPrice": 15.0,
+      "sellPrice": 15.0,
+      "settlementPrice": 15.0,
+      "isDelete": 0,
+      "week": null,
+      "sellOut": 0,
+      "stockStatus": 1
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,216 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064687386639",
+    "scenicName": "丰图义仓",
+    "tag": "慈禧太后曾御封此仓为“天下第一仓”",
+    "level": 4,
+    "address": "渭南市大荔县朝邑粮站大院内",
+    "longitude": "110.119841",
+    "latitude": "34.784812",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#1DA4CD",
+    "centralColour": "#1A90B4",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/36-20201028152214.jpg",
+      "https://eshopfile.zhiyousx.com/38-20201028152208.jpg"
+    ],
+    "introduction": "<p>　　义仓是旧时各地储粮备荒的一种社会习俗。隋唐已有。丰图义仓位于陕西省大荔县城东17公里处朝邑镇南寨子村。1882年（清光绪八年）由东阁大学士闫敬铭倡议修建的民办粮仓，历时四年竣工。慈禧太后曾御封此仓为&ldquo;天下第一仓&rdquo;，并在仓顶赐&ldquo;虎&rdquo;、&ldquo;龙&rdquo;二字。丰图义仓与苏州的&ldquo;丰备义仓&rdquo;并重一时，驰名全国。丰图义仓解放后一直由大荔县朝邑粮站使用。2006年国务院批准为国家重点文物保护单位。岁月流转，沧桑巨变。丰图义仓自1885年竣工至2012年，历经一百多年风风雨雨和战火洗礼的考验，仍然保存完好，雄风长存。并一直储藏着粮食，有意义的发挥了和正在发挥着为民储粮，安定一方的保障作用。对当地的经济建设，社会稳定做出了巨大的贡献。据丰图义仓志记载：&ldquo;回忆辛丑赈济，全活无算，无不归功斯仓&rdquo;。足见该仓不论是在清朝晚期，还是民国时期，都在储存粮食和解决粮食危机，救助灾民于水火方面建树了不可磨灭的功劳。特别是在支援解放战争中发挥了保障军需的重要作用。</p>",
+    "introductionText": "　　义仓是旧时各地储粮备荒的一种社会习俗。隋唐已有。丰图义仓位于陕西省大荔县城东17公里处朝邑镇南寨子村。1882年（清光绪八年）由东阁大学士闫敬铭倡议修建的民办粮仓，历时四年竣工。慈禧太后曾御封此仓为“天下第一仓”，并在仓顶赐“虎”、“龙”二字。丰图义仓与苏州的“丰备义仓”并重一时，驰名全国。丰图义仓解放后一直由大荔县朝邑粮站使用。2006年国务院批准为国家重点文物保护单位。岁月流转，沧桑巨变。丰图义仓自1885年竣工至2012年，历经一百多年风风雨雨和战火洗礼的考验，仍然保存完好，雄风长存。并一直储藏着粮食，有意义的发挥了和正在发挥着为民储粮，安定一方的保障作用。对当地的经济建设，社会稳定做出了巨大的贡献。据丰图义仓志记载：“回忆辛丑赈济，全活无算，无不归功斯仓”。足见该仓不论是在清朝晚期，还是民国时期，都在储存粮食和解决粮食危机，救助灾民于水火方面建树了不可磨灭的功劳。特别是在支援解放战争中发挥了保障军需的重要作用。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "全员",
+        "limit": "无",
+        "discount": "免费"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0913-3412522"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1869637223980392449",
+        "resourcesId": "1321351814816489473",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/37-20201028152258.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2024-12-19 14:53:45",
+        "updateTime": "2024-12-19 14:53:45",
+        "createBy": "1440616180967620609",
+        "updateBy": "1440616180967620609",
+        "isDeleted": 0
+      },
+      {
+        "id": "1869637223984586753",
+        "resourcesId": "1321351814816489473",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/39-20201028152306.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2024-12-19 14:53:45",
+        "updateTime": "2024-12-19 14:53:45",
+        "createBy": "1440616180967620609",
+        "updateBy": "1440616180967620609",
+        "isDeleted": 0
+      },
+      {
+        "id": "1869637223984586754",
+        "resourcesId": "1321351814816489473",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/40-20201028152313.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2024-12-19 14:53:45",
+        "updateTime": "2024-12-19 14:53:45",
+        "createBy": "1440616180967620609",
+        "updateBy": "1440616180967620609",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1566623053130653698",
+      "rankingId": null,
+      "indexInRanking": 16,
+      "rankingName": "渭南亲子游景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1455112666791124994",
+        "rankingId": "1455112668192022530",
+        "indexInRanking": null,
+        "rankingName": "渭南自驾游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

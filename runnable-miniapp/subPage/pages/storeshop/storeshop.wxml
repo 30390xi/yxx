@@ -7,7 +7,7 @@
     </uni-navbar>
     <view class="storeInfo data-v-1f1c0e86">
         <view class="storeLogo u-skeleton-circle data-v-1f1c0e86">
-            <u-lazy-load bind:__l="__l" borderRadius="10" class="data-v-1f1c0e86" height="84" image="{{sellerInfo.logoPicUrl?sellerInfo.logoPicUrl:'https://eshopfile.zhiyousx.com/2023102620364973049.png'}}" imgMode="aspectFill" vueId="5a853eb0-2"></u-lazy-load>
+            <u-lazy-load bind:__l="__l" borderRadius="10" class="data-v-1f1c0e86" height="84" image="{{sellerInfo.logoPicUrl?sellerInfo.logoPicUrl:'/static/captured/284bb268aef2bbea.png'}}" imgMode="aspectFill" vueId="5a853eb0-2"></u-lazy-load>
         </view>
         <text class="u-skeleton-rect data-v-1f1c0e86">{{sellerInfo.sellerName}}</text>
     </view>

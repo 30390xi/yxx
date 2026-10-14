@@ -1,0 +1,437 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941106",
+    "scenicName": "宝塔山",
+    "tag": "几回回梦里回延安，双手搂定宝塔山。",
+    "level": 5,
+    "address": "延安市宝塔区嘉岭路",
+    "longitude": "109.5032010000",
+    "latitude": "36.6001420000",
+    "openingStatus": 1,
+    "capacity": 2000,
+    "topColour": "#958470",
+    "centralColour": "#46351B",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021062218315822808.jpg",
+      "https://eshopfile.zhiyousx.com/2021062218253426027.jpg"
+    ],
+    "introduction": "<p>　　&ldquo;只有登上了宝塔山，才算真正到了延安。&rdquo;宝塔山位于延安市区中心，是革命圣地延安的标志和象征，融历史文物和革命遗址为一脉，集人文景观和自然景观为一体。又名&ldquo;嘉岭山&rdquo;，海拔1135.5米，为周围群山之冠。山上宝塔建于唐代，现为明代建筑，高44米，共九层，平面八角形，楼阁式砖塔。中共中央进驻延安后，这座古塔成为革命圣地的标志和象征，是一座英雄的山、革命的山、胜利的山、成功的山。除全国重点文物保护单位&mdash;&mdash;延安宝塔外，宝塔山上尚有宋代摩崖石刻、明代大铁钟、清代&ldquo;重修嘉岭书院记&rdquo;石碑、范公井等文物古迹，还有日本工农学校旧址、古今名人诗词碑刻等景观。</p>",
+    "introductionText": "　　“只有登上了宝塔山，才算真正到了延安。”宝塔山位于延安市区中心，是革命圣地延安的标志和象征，融历史文物和革命遗址为一脉，集人文景观和自然景观为一体。又名“嘉岭山”，海拔1135.5米，为周围群山之冠。山上宝塔建于唐代，现为明代建筑，高44米，共九层，平面八角形，楼阁式砖塔。中共中央进驻延安后，这座古塔成为革命圣地的标志和象征，是一座英雄的山、革命的山、胜利的山、成功的山。除全国重点文物保护单位——延安宝塔外，宝塔山上尚有宋代摩崖石刻、明代大铁钟、清代“重修嘉岭书院记”石碑、范公井等文物古迹，还有日本工农学校旧址、古今名人诗词碑刻等景观。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "21",
+        "name": "地标打卡",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "18",
+        "name": "红色旅游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026415628289",
+        "contentId": "1418152026403045378",
+        "name": "陕西5A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026361102337",
+        "contentId": "1418152026344325122",
+        "name": "全国红色旅游经典景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "学生",
+        "limit": "1.2米以上",
+        "discount": "半价"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "1.2米及以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "65周岁以上",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "消防救援人员",
+        "limit": "凭本人有效证件",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "对抗一线的医护人员、警察、军人、志愿者等",
+        "limit": "持有效证件或相关证明，将持续实施免费政策至2021年12月31日",
+        "discount": "免费"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "客服电话",
+        "telephone": "0911-2113735"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "2082010868584939522",
+        "outId": "1320579064720941106",
+        "type": 1,
+        "advertName": "宝塔山“灯塔”永亮",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021062215371415469.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p style=\"text-align: center;\"><strong>宝塔山&ldquo;灯塔&rdquo;永亮</strong></p>\n<p>　　宝塔山、清凉山、凤凰山、延河&hellip;&hellip;铭记着中国共产党革命光辉历程的延安，位于陕西北部的黄土高原腹地，是中国共产党和军队的根据地。在漫天的黄土、纵横的沟壑中，党中央艰苦战斗13年，作出了关系中国革命前途命运的一系列重大决策，孕育了光照千秋的延安精神。</p>\n<p>　　这片革命圣地，见证了延安人曾经的贫瘠和不屈，也见证了今天的安定和富足。山川葱茏、百年维新，红色圣地的崭新画卷正徐徐展开。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062215493301168.jpg\" /></p>\n<p><span style=\"color: #ff0000;\">1.窑洞印记越时空</span></p>\n<p>　　陕西省吴起县铁边城镇张湾子村，年近古稀的村民张瑞生至今引以为傲的，是自打记事起便从祖辈嘴里听到的故事：1935年10月，毛泽东带领红军到达陕北后，曾在他家的窑洞里住过一晚，还吃了他父母擀的一碗臊子剁荞面。</p>\n<p>　　长途跋涉后，这只红军队伍并没有在村子里多停留。&ldquo;红军长征分了好几路，到我们村里住的是其中一路。这支红军队伍休整了一晚上，第二天清晨鸡鸣时分，主席就动身走了。&rdquo;老人回忆说。</p>\n<p>　　那时张瑞生的父母不会想到，发生在自家的这个插曲会写进中国革命史。1935年的延安只是陕北黄土高原腹地一座不起眼的小城市，这里的人们也没有想到，脚下繁衍生息的黄土地将会成为中国革命的转折地。</p>\n<p>　　1935年至1948年，中国共产党在延安领导指挥了抗日战争、解放战争，奠定了新中国的基石，谱写了可歌可泣的历史篇章。1937年至1947年，延安是中共中央所在地和陕甘宁边区首府，是中国革命的指导中心和总后方。如今，这里留存着丰富的革命旧址和文物。</p>\n<p>　　延安市文化和旅游局数据显示，目前延安有革命旧址445处，仅延安市区内就有革命旧址168处，延安的42家A级景区中，有19家为红色旅游景区，是全国革命根据地城市中旧址保存规模最大、数量最多、布局最为完整、内容最为丰富的城市。</p>\n<p>　　在延安，无论是一处处革命旧址，还是一口口农家窑洞，都有着讲不完的革命故事。延安城西北8公里处，坐落着一座静谧的园林式建筑，这就是枣园革命旧址。1944年至1947年3月，中共中央书记处在此居住期间，领导全党开展了整风运动和解放区军民开展的大生产运动，筹备了党的&ldquo;七大&rdquo;，领导全国军民取得抗日战争的最后胜利，并领导全国人民为争取民主团结、和平建国，同国民党顽固派进行了针锋相对的斗争。</p>\n<p>　　在枣园，游人们在各处参观、细听讲解后，更愿意在院子里漫步，在石凳上坐一坐。&ldquo;延安有太多的红色记忆，这里的每一处窑洞、一草一木、一桌一椅，都是真实的，本身就凝聚着历史沧桑。&rdquo;枣园革命旧址管理处主任贺冬梅说，&ldquo;在延安，人们是和那段历史在进行超时空的接触，延续一场沉浸式的洗礼。&rdquo;</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062215495793178.jpg\" /></p>\n<p><span style=\"color: #ff0000;\">2.梦里重回宝塔山</span></p>\n<p>　　20世纪三四十年代，一位青年在日记中写过这样一段话：&ldquo;打断骨头连着筋，扒掉皮肉还有心，只要还有一口气，爬也要爬到延安城。&rdquo;1937年10月上海沦陷后，一批上海爱国青年，为了抗日救亡，辗转13个月，艰难跋涉一万多里，历经千辛万苦，终于来到了延安。那时的延安是中国进步青年心中的圣地，宝塔山是引领革命的灯塔。</p>\n<p>　　如今的延安，依旧是全国人民心中的圣地，红色记忆以新的方式在这里延续、创新。许多人数次踏访延安，在这座城中回味初心，寻求&ldquo;精神给养&rdquo;。</p>\n<p>　　&ldquo;几回回梦里回延安，双手搂定宝塔山。&rdquo;正如贺敬之的《回延安》中所写，宝塔山是圣地延安的标志，是延安精神的灵魂象征。昼登宝塔山，绿树环绕、延河静波，太平美景尽收眼底；夜幕降临，宝塔山以音乐灯光秀的方式，描绘延安与陕北的文化特色，呈现长征波澜壮阔的历史画卷。</p>\n<p>　　宝塔山脚下，延安最繁华的街道上，一家红色门脸、金色门头的书店最为引人注目。这里是近年来备受关注的延安红色书店。革命时期礼堂风格、五角星式样的吊灯、红旗式样的书架书台&hellip;&hellip;处处彰显着红色主题。这家中国红色书店由延安市新华书店打造，于2017年4月23日开业。</p>\n<p>　　&ldquo;我们希望书店成为延安的文化地标，把红色书籍传递到每个人手中。许多顾客从外地慕名而来，希望能从延安带走精神食粮。&rdquo;延安市新华书店总经理姚福明说。自开业以来，延安红色书店的销售额不断增长，2020年创出历史新高，达到1500万元。</p>\n<p>　　如今的延安更加呈现国际化的开放姿态。近年来，延安连续推出实景演出《延安保卫战》《黄河大合唱》、舞台剧《延安保育院》《红秀延安》等游客体验类节目。值得一提的是，海外人士占观影人数的比例逐年攀高。</p>\n<p>　　为了让红色文化资源发挥新的更大的作用，延安始终坚持努力打造全国教育培训新高地，不断向全国人民输送&ldquo;精神钙片&rdquo;。通过专题教学、现场教学、体验教学等多种形式，把延安革命历史变成思想教育的鲜活教材，把延安红色景点变成思想教育的生动课堂。延安市42处革命旧址被中国延安干部学院确定为现场教学点，每年承接红色教育培训逾25万人。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062215502124724.jpg\" /></p>\n<p>　　随着红色资源不断挖掘、创新，延安的游客量不断创出新高，游客接待人次从2014年的3145.5万人增加到2019年的7308.26万人。&ldquo;延安将坚持以红色教育为核心，强化红色基因传承效果，以一座城市的名义向波澜壮阔的红色历史致敬。&rdquo;延安市文化和旅游局局长马东坡说。</p>\n<p><span style=\"color: #ff0000;\">3.精神高地再冲锋</span></p>\n<p>　　历史上，由于偏远闭塞、生态环境恶劣，延安曾极端贫困。据《延安地区志》记载，从明初到新中国成立的580余年间，延安共发生干旱、洪涝等灾害200余次。美国记者埃德加&middot;斯诺在《西行漫记》中，曾将陕北描述为&ldquo;我在中国见到的最贫困的地区之一&rdquo;。</p>\n<p>　　新中国成立后，改革开放的春风为延安带来巨大的变化。党的十八大以来，在党中央和全国人民支持下，延安干部群众众志成城、奋力拼搏，以&ldquo;村村过硬、户户过硬&rdquo;的要求，打响脱贫攻坚战。</p>\n<p>　　由于多重因素，到2014年底时，延安仍有3个贫困县，693个贫困村。占全市人口近十分之一的7.62万户、20.52万人生活在贫困线下。白于山区、黄河沿岸，横亘着一个个难啃的硬骨头。</p>\n<p>　　为保证脱贫不落一户、不落一人，延安选派了1784名第一书记、1546个驻村工作队、3.74万名干部驻村入户，精准施策，&ldquo;把贫困户镶嵌在产业链上&rdquo;。</p>\n<p>　　在洛川县，有劳动能力的2836户贫困户中有2604户建起苹果种植园。截至2020年底，延安苹果种植面积已达400.2万亩，成为中国种植苹果面积最大的地市。2018年，苹果种植业产值128.7亿元，果业收入占到延安市农村居民人均可支配收入的50%。</p>\n<p>　　陕北民俗文化也成了安塞区脱贫的名片，剪纸、民歌、腰鼓、农民画和曲艺，让当地上千名贫困群众从文化旅游产业中受益。</p>\n<p>　　今日的延安，村民已习惯互联网电商。很多农民通过互联网把陕北土特产销往全球。在宜川县，电子商务服务网点覆盖了所有贫困村。</p>\n<p>　　独特的红色旅游资源，也为当地人带来新的增收契机。</p>\n<p>　　位于延安城区以东22公里的康坪村，是中国新民主主义青年团第一个农村团支部的诞生地。这里的村民将闲置窑洞打造成民宿，变成&ldquo;乡村致富宝&rdquo;。</p>\n<p>　　&ldquo;延安的红色旅游资源独特，近几年越来越好。许多游客来了就希望能体验陕北的窑洞生活，这一商机能带领村民脱贫致富。&rdquo;延安德耀文化旅游开发有限公司总经理白建国说，在新冠肺炎疫情影响下，2020年公司红色旅游收入仍在100万元以上，未来会有更多村民从中收益。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062215510565720.jpg\" /></p>\n<p>　　作为革命圣地，延安不仅是中国共产党人永远的精神家园，也是人民的美丽幸福新家园。在建党百年的历史新起点上，巍巍宝塔山将继续见证革命圣地荣光再放。</p>\n<p><br />（来源：《半月谈内部版》2021年第4期）</p>\n<p>&nbsp;</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": "推荐看点",
+    "contentResourcesDtoList": [
+      {
+        "id": "2082010868492664834",
+        "resourcesId": "1321304177148997633",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062212135526184.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-07-28 15:50:47",
+        "updateTime": "2026-07-28 15:50:47",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082010868496859138",
+        "resourcesId": "1321304177148997633",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062212133304136.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-07-28 15:50:47",
+        "updateTime": "2026-07-28 15:50:47",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082010868501053441",
+        "resourcesId": "1321304177148997633",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062212141048816.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-07-28 15:50:47",
+        "updateTime": "2026-07-28 15:50:47",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082010868501053442",
+        "resourcesId": "1321304177148997633",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062212134451480.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-07-28 15:50:47",
+        "updateTime": "2026-07-28 15:50:47",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082010868505247746",
+        "resourcesId": "1321304177148997633",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/88f3ca1b-e726-4577-aac6-c85152fea75c-20201028121350.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2026-07-28 15:50:47",
+        "updateTime": "2026-07-28 15:50:47",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082010868509442049",
+        "resourcesId": "1321304177148997633",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062215040941981.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2026-07-28 15:50:47",
+        "updateTime": "2026-07-28 15:50:47",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082010868513636353",
+        "resourcesId": "1321304177148997633",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062215022352437.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2026-07-28 15:50:47",
+        "updateTime": "2026-07-28 15:50:47",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082010868513636354",
+        "resourcesId": "1321304177148997633",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062215070147439.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2026-07-28 15:50:47",
+        "updateTime": "2026-07-28 15:50:47",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082010868534607873",
+        "resourcesId": "1321304177148997633",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062215042531715.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": null,
+        "createTime": "2026-07-28 15:50:47",
+        "updateTime": "2026-07-28 15:50:47",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082010868538802178",
+        "resourcesId": "1321304177148997633",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/f05bff10-d51a-464c-b19f-aebc464c74fb-20201028121355.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": null,
+        "createTime": "2026-07-28 15:50:47",
+        "updateTime": "2026-07-28 15:50:47",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455724365810343938",
+      "rankingId": null,
+      "indexInRanking": 18,
+      "rankingName": "延安必逛景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": [
+      {
+        "id": "2082010868563968002",
+        "scenicSpotId": "1320579064720941106",
+        "contentModuleName": "推荐看点",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1407257859581820929",
+            "type": 5,
+            "title": "延安宝塔",
+            "subtitle": "革命圣地延安的标志与象征",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062218334646124.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1407265816654659586",
+            "type": 5,
+            "title": "摩崖石刻群",
+            "subtitle": "珍贵的石刻艺术",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062217075992810.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1407274743014375425",
+            "type": 5,
+            "title": "明代大铁钟",
+            "subtitle": "抗战时曾做报警之用",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062218065509441.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

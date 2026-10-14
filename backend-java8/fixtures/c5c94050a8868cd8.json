@@ -1,0 +1,337 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1418516106368344065",
+    "scenicName": "张骞墓景区",
+    "tag": "陕西省首批重点文物保护单位",
+    "level": 4,
+    "cityId": "1320664075750125570",
+    "cityName": "汉中",
+    "address": "汉中市城固县博望街道办事处饶家营村",
+    "longitude": "107.296096",
+    "latitude": "33.155827",
+    "openingStatus": 1,
+    "capacity": 5700,
+    "sequence": 155,
+    "topColour": "#3DA3D6",
+    "centralColour": "#008BC9",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2026040219014647127.jpg"
+    ],
+    "introduction": "<p>张骞墓景区位于陕西省汉中市城固县城西2.3公里处的博望街道办事处饶家营村，是依托我国西汉时期著名的外交家、探险家、&ldquo;丝绸之路&rdquo;的开拓者张骞之墓而建的陵园式人文景观。景区内建筑为典型的汉代风格，重檐飞角，气势雄伟。1956年8月，张骞墓就被陕西省人民委员会列为陕西省首批重点文物保护单位。2006年5月，张骞墓被国务院公布为第六批全国重点文物保护单位。2014年6月，张骞墓被正式列入《世界遗产名录》。2021年创建成为国家AAAA级旅游景区。先后被命名为&ldquo;全国民族团结进步教育基地&rdquo;、&ldquo;全国爱国主义教育示范基地&rdquo;、&ldquo;陕西省首批中小学研学教育基地&rdquo;、&ldquo;陕西省科普教育基地&rdquo;等。<br />景区占地面积约145亩，林木荫翳，花草繁茂，随处可憩可游。东区整体以献殿为中轴，对称分布，献殿内置张骞塑像及汉简，东西配殿为展室，利用绘画、照片、拓片、沙盘、视频等手段，全方位多角度的展示了张骞两次出使西域的重大历史事件和张骞不平凡的一生，以及&ldquo;丝绸之路&rdquo;在中西文化交流中的巨大作用。西区为综合展示区，依据城固县文化遗产和馆藏文物特点，设置了汉上名城&mdash;城固、叩古宝山、城固出土青铜器、两汉城固历史文化、西北联大在城固及廉政教育6个主题展，上展文物400余件（套）。</p>",
+    "introductionText": "张骞墓景区位于陕西省汉中市城固县城西2.3公里处的博望街道办事处饶家营村，是依托我国西汉时期著名的外交家、探险家、“丝绸之路”的开拓者张骞之墓而建的陵园式人文景观。景区内建筑为典型的汉代风格，重檐飞角，气势雄伟。1956年8月，张骞墓就被陕西省人民委员会列为陕西省首批重点文物保护单位。2006年5月，张骞墓被国务院公布为第六批全国重点文物保护单位。2014年6月，张骞墓被正式列入《世界遗产名录》。2021年创建成为国家AAAA级旅游景区。先后被命名为“全国民族团结进步教育基地”、“全国爱国主义教育示范基地”、“陕西省首批中小学研学教育基地”、“陕西省科普教育基地”等。\n景区占地面积约145亩，林木荫翳，花草繁茂，随处可憩可游。东区整体以献殿为中轴，对称分布，献殿内置张骞塑像及汉简，东西配殿为展室，利用绘画、照片、拓片、沙盘、视频等手段，全方位多角度的展示了张骞两次出使西域的重大历史事件和张骞不平凡的一生，以及“丝绸之路”在中西文化交流中的巨大作用。西区为综合展示区，依据城固县文化遗产和馆藏文物特点，设置了汉上名城—城固、叩古宝山、城固出土青铜器、两汉城固历史文化、西北联大在城固及廉政教育6个主题展，上展文物400余件（套）。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026386268161",
+        "contentId": "1418152026377879553",
+        "name": "世界遗产名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "开放时间",
+        "openTimeContent": "周一至周日：8：30一17：30"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "现役军人、中小学生集体参观、老年人",
+        "limit": "现役军人、中小学生集体参观、老年人",
+        "discount": "免票"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "61",
+        "name": "讲解员",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016440410223.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<p>导航：城固县博望镇张骞纪念馆</p>"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": null,
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "张骞墓",
+        "wxSubscription": "zqm0138"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "2039659599006662657",
+        "outId": "1418516106368344065",
+        "type": 1,
+        "advertName": "爱国教育基地",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021072318070699803.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p>城固宝藏</p>\n<p>灿若星辰、独树一帜</p>\n<p>张骞墓便是城固最独有的宝藏</p>\n<p>也是著名的世界文化遗产</p>\n<p>是张骞持节不失，初心不改</p>\n<p>不远万里、凿空西域</p>\n<p>开拓丝绸之路</p>\n<p>彰显家国情怀</p>\n<p>谱写历史华章</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072318092140517.jpg\" /></p>\n<p>张骞墓位于陕西省汉中市城固县，墓冢呈覆斗形，南北长19.5米，东西宽16.6米，高4.26米。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072318092984320.jpg\" /></p>\n<p>这座墓的主人就是我国西汉时期著名的外交家、探险家&mdash;&mdash;张骞。公元前138年和公元前119年张骞奉汉武帝之命两出西域，历时18年之久，开辟了一条东起长安、西至古罗马，横贯东西、链接欧亚大陆的陆上交通路线。中国古代的养蚕缫丝法、冶铁技术、凿井术等先进的生产技术通过这条道路西传，西域地区的胡豆、胡麻、胡萝卜、黄瓜、石榴等物种的引进也逐渐发展成为中国农业作物的重要组成部分。张骞开辟的不仅是以丝绸为大宗贸易的广泛商业之路，也是人类文明的&ldquo;对话之路&rdquo;。在丝绸之路的时空坐标中，众多民族彼此亲和，多种宗教交织共存，异质文明不断交流融汇、互鉴共生。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072318093805594.jpg\" /></p>\n<p>2014年，由中国、吉尔吉斯斯坦、哈萨克斯坦三国联合申报的&ldquo;丝绸之路：长安&mdash;&mdash;天山廊道路网&rdquo;项目正式列入《世界遗产名录》，张骞墓位列其中。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072318095825594.jpg\" /></p>\n<p>在经济全球化、世界多极化的今天，张骞墓所承载的张骞精神和以和平合作、开放包容、互鉴共生、互利共赢为核心的丝路精神共同成为了人类文明的宝贵遗产。</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": "",
+    "contentResourcesDtoList": [
+      {
+        "id": "2039659598981496834",
+        "resourcesId": "1418516106338983938",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/177262440373760298.jpg",
+        "coverImage": "",
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": "",
+        "createTime": "2026-04-02 19:01:58",
+        "updateTime": "2026-04-02 19:01:58",
+        "createBy": "2021189462693314562",
+        "updateBy": "2021189462693314562",
+        "isDeleted": 0
+      },
+      {
+        "id": "2039659598981496835",
+        "resourcesId": "1418516106338983938",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072318032527235.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-04-02 19:01:58",
+        "updateTime": "2026-04-02 19:01:58",
+        "createBy": "2021189462693314562",
+        "updateBy": "2021189462693314562",
+        "isDeleted": 0
+      },
+      {
+        "id": "2039659598985691137",
+        "resourcesId": "1418516106338983938",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072318033539403.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-04-02 19:01:58",
+        "updateTime": "2026-04-02 19:01:58",
+        "createBy": "2021189462693314562",
+        "updateBy": "2021189462693314562",
+        "isDeleted": 0
+      },
+      {
+        "id": "2039659598989885441",
+        "resourcesId": "1418516106338983938",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072318034572855.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-04-02 19:01:58",
+        "updateTime": "2026-04-02 19:01:58",
+        "createBy": "2021189462693314562",
+        "updateBy": "2021189462693314562",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": null,
+      "rankingId": null,
+      "indexInRanking": null,
+      "rankingName": null,
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,239 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1446403347555819522",
+    "scenicName": "杨凌水上体育运动中心",
+    "tag": "水上运动看这里",
+    "level": -1,
+    "cityId": "1321278535707701249",
+    "cityName": "杨凌",
+    "address": "杨陵示范区河堤路",
+    "longitude": "108.068101",
+    "latitude": "34.237259",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 9999,
+    "topColour": "#0187CC",
+    "centralColour": "#0070AA",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021100817124814808.jpg"
+    ],
+    "introduction": "<p>　　杨凌水上运动中心，位于杨凌农业高新技术产业示范区南端，是第四届全国城市运动会的主要比赛场馆之一，同时也是陕西省水上运动项目的训练基地，是国内一流的水上运动中心，可承办国际国内赛艇、皮划艇的重大比赛，并成为广大人民群众文化娱乐休闲的好去处，杨凌水上运动中心占地1552亩，水域占地700亩，陆上建筑及开发山地852亩，其水源采用了全国首创的地下水自然补给，所以水质清澈绝无污染、水面宽阔、水质清澈、是水上运动极为理想的比赛场地，并且也是人们休闲、娱乐的良好场所。</p>",
+    "introductionText": "　　杨凌水上运动中心，位于杨凌农业高新技术产业示范区南端，是第四届全国城市运动会的主要比赛场馆之一，同时也是陕西省水上运动项目的训练基地，是国内一流的水上运动中心，可承办国际国内赛艇、皮划艇的重大比赛，并成为广大人民群众文化娱乐休闲的好去处，杨凌水上运动中心占地1552亩，水域占地700亩，陆上建筑及开发山地852亩，其水源采用了全国首创的地下水自然补给，所以水质清澈绝无污染、水面宽阔、水质清澈、是水上运动极为理想的比赛场地，并且也是人们休闲、娱乐的良好场所。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "19",
+        "name": "水上玩乐",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "16",
+        "name": "城市公园",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": null,
+    "discountVoList": null,
+    "facilitiesServicesVoList": null,
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": null,
+    "wxSubscriptionVoList": null,
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": "",
+    "contentResourcesDtoList": [
+      {
+        "id": "1615901659652419587",
+        "resourcesId": "1615901659652419586",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/167409594789572258.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": "",
+        "createTime": "2023-01-19 10:39:12",
+        "updateTime": "2023-01-19 10:39:12",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1615901659665002498",
+        "resourcesId": "1615901659652419586",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/167409594822328816.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": "",
+        "createTime": "2023-01-19 10:39:12",
+        "updateTime": "2023-01-19 10:39:12",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1615901659673391106",
+        "resourcesId": "1615901659652419586",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/167409594854016587.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": "",
+        "createTime": "2023-01-19 10:39:12",
+        "updateTime": "2023-01-19 10:39:12",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455813465879977985",
+      "rankingId": null,
+      "indexInRanking": 3,
+      "rankingName": "杨凌必玩景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": null,
+    "hotelArrivalDepartureTime": null,
+    "hotelChildrenBed": null,
+    "hotelPet": null,
+    "hotelBreakfast": null,
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

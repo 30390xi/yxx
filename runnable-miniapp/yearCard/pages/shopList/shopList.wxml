@@ -1,11 +1,11 @@
 <view class="shop-list data-v-f49d721e">
     <uni-navbar bind:__l="__l" bind:tap="__e" class="data-v-f49d721e" data-event-opts="{{[ [ '^tap',[ ['openPopup'] ] ] ]}}" type="transparentFixed" vueId="94820514-1"></uni-navbar>
     <view class="unreal-header data-v-f49d721e" style="{{'opacity:'+opacity+';'+'padding:'+statusBarHeight+'px 96rpx 24rpx 24rpx'+';'}}">
-        <view class="unreal-header-content nav-card data-v-f49d721e" style="{{'color:'+fontColor+';'}}">{{''+title+''}}<image class="data-v-f49d721e" src="https://eshopfile.zhiyousx.com/2023102716084018229.png"></image>
+        <view class="unreal-header-content nav-card data-v-f49d721e" style="{{'color:'+fontColor+';'}}">{{''+title+''}}<image class="data-v-f49d721e" src="/static/captured/0749191dcd7f3b24.png"></image>
         </view>
     </view>
     <view class="header-bg data-v-f49d721e" style="{{'padding:'+statusBarHeight+'px 30rpx 24rpx 24rpx'+';'}}">
-        <view class="nav-card data-v-f49d721e" style="{{'color:'+fontColor+';'}}">{{''+title+''}}<image class="data-v-f49d721e" src="https://eshopfile.zhiyousx.com/2023102716084018229.png"></image>
+        <view class="nav-card data-v-f49d721e" style="{{'color:'+fontColor+';'}}">{{''+title+''}}<image class="data-v-f49d721e" src="/static/captured/0749191dcd7f3b24.png"></image>
         </view>
         <view class="search-box data-v-f49d721e">
             <view class="search data-v-f49d721e">
@@ -33,7 +33,7 @@
             </view>
         </block>
         <view class="no-page data-v-f49d721e" wx:else>
-            <image class="data-v-f49d721e" src="https://eshopfile.zhiyousx.com/2023110116325879617.png"></image>
+            <image class="data-v-f49d721e" src="/static/captured/f689b63710303e4b.png"></image>
             <view class="data-v-f49d721e">暂无记录</view>
         </view>
     </view>

@@ -1,0 +1,26 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1606179277471617025",
+    "contentId": "1606179274804039681",
+    "rankingName": "韩城必游人气排行榜",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/167177840961742798.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": "人去过",
+    "rankingInclude": "个目的地",
+    "rankingPersonalInfo": "我去过的目的地",
+    "rankingSharePictureUrl": "https://eshopfile.zhiyousx.com/167177653030261908.jpg",
+    "bottomColour": "#3DA3D6",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": null,
+    "sumCount": "6",
+    "favoriteSum": null,
+    "personalInfoValue": null
+  },
+  "msg": "成功",
+  "success": true
+}

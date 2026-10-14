@@ -1,0 +1,491 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941142",
+    "scenicName": "西北农林科技大学博览园",
+    "tag": "集教学、科研、科普于一体的重要学科基地",
+    "level": 4,
+    "cityId": "1321278535707701249",
+    "cityName": "杨凌",
+    "address": "杨凌示范区邰城路3号",
+    "longitude": "108.072853",
+    "latitude": "34.266333",
+    "openingStatus": 1,
+    "capacity": 9995,
+    "sequence": 111,
+    "topColour": "#D98E59",
+    "centralColour": "#DD6F2B",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2-20201028155530.jpg",
+      "https://eshopfile.zhiyousx.com/1-20201028155522.jpg",
+      "https://eshopfile.zhiyousx.com/3-20201028155535.jpg"
+    ],
+    "introduction": "<p>&nbsp; &nbsp; &nbsp;西北农林科技大学博览园位于杨凌国家农业高新技术产业示范区，西宝高速中段，东距西安市82公里，西距宝鸡市86公里，与太白山和法门寺20公里之遥。博览园建设占地200亩，总建筑面积16000多平方米，包括逸夫科技馆动物博物馆和昆虫博物馆，土壤博物馆、植物博物馆、中国农业历史博物馆5个专业博物馆和蝴蝶园、植物分类园、树木园及多种种质资源圃等，是集教学、科研、科普于一体的重要学科基地。博览园是学校在整合科教资源的基础上建立起的博物馆群，全面、系统地宣传农业科技知识和展示了我国农业科技成就，这在我国尚属首例。</p>",
+    "introductionText": "     西北农林科技大学博览园位于杨凌国家农业高新技术产业示范区，西宝高速中段，东距西安市82公里，西距宝鸡市86公里，与太白山和法门寺20公里之遥。博览园建设占地200亩，总建筑面积16000多平方米，包括逸夫科技馆动物博物馆和昆虫博物馆，土壤博物馆、植物博物馆、中国农业历史博物馆5个专业博物馆和蝴蝶园、植物分类园、树木园及多种种质资源圃等，是集教学、科研、科普于一体的重要学科基地。博览园是学校在整合科教资源的基础上建立起的博物馆群，全面、系统地宣传农业科技知识和展示了我国农业科技成就，这在我国尚属首例。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026524680194",
+        "contentId": "1418152026516291586",
+        "name": "国家二级博物馆",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026591789057",
+        "contentId": "1418152026583400449",
+        "name": "全国科普教育基地",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "1月1日-12月31日",
+        "openTimeContent": "9:00-17:00（16:30停止售票）"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米(含)以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "老年人",
+        "limit": "65周岁(不含)以上",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "老年人",
+        "limit": "60周岁(含)-65周岁(含凭身份证 ",
+        "discount": "半票"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "全日制大中小学生(不含成人教育、研究生)凭学生证",
+        "discount": "半票"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "残疾证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "现役军人",
+        "limit": "军官证和保证卡",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "导游",
+        "limit": "导游证和计划单",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "记者",
+        "limit": "记者证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾军人",
+        "limit": "军残证",
+        "discount": "免费"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "10",
+        "name": "商店",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (19).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "预订提示",
+        "additionalExplainContent": "浏览时长需两小时以上，请合理安排浏览时间"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>乘坐杨凌市区公交车，1路，2路，4路，12路可到达。</p>\n<p>&nbsp;</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<p>沿西宝高速杨凌出口下，向西2.5KM米即到</p>"
+      }
+    ],
+    "officialWebsite": [
+      "http:// bly.nwsuaf.edu.cn",
+      "http://www.cnbly.com"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "票务室",
+        "telephone": "029－87080888"
+      },
+      {
+        "telephoneTitle": "办公室",
+        "telephone": "029－87080555"
+      },
+      {
+        "telephoneTitle": "传真",
+        "telephone": "029－87080666  "
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "西北农林科技大学博览园",
+        "wxSubscription": "nongboyuan"
+      }
+    ],
+    "sinaWeiboVoList": [
+      {
+        "sinaWeibo": "西北农林科技大学博览园",
+        "sinaWeiboUrl": "https://weibo.com/u/2205981554?is_all=1"
+      }
+    ],
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2109113980111355905",
+        "resourcesId": "1321361800674172930",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/4-20201028160150.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-10-11 10:48:52",
+        "updateTime": "2026-10-11 10:48:52",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2109113980115550210",
+        "resourcesId": "1321361800674172930",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/5-20201028160219.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-10-11 10:48:52",
+        "updateTime": "2026-10-11 10:48:52",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2109113980119744514",
+        "resourcesId": "1321361800674172930",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/6-20201028160252.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-10-11 10:48:52",
+        "updateTime": "2026-10-11 10:48:52",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2109113980123938818",
+        "resourcesId": "1321361800674172930",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072317252269687.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-10-11 10:48:52",
+        "updateTime": "2026-10-11 10:48:52",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2109113980128133122",
+        "resourcesId": "1321361800674172930",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072317253991217.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2026-10-11 10:48:52",
+        "updateTime": "2026-10-11 10:48:52",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2109113980128133123",
+        "resourcesId": "1321361800674172930",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072317260292009.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2026-10-11 10:48:52",
+        "updateTime": "2026-10-11 10:48:52",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2109113980132327426",
+        "resourcesId": "1321361800674172930",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072317263818640.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2026-10-11 10:48:52",
+        "updateTime": "2026-10-11 10:48:52",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2109113980136521730",
+        "resourcesId": "1321361800674172930",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072317272598977.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2026-10-11 10:48:52",
+        "updateTime": "2026-10-11 10:48:52",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2109113980136521731",
+        "resourcesId": "1321361800674172930",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072317273648123.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": null,
+        "createTime": "2026-10-11 10:48:52",
+        "updateTime": "2026-10-11 10:48:52",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1439119981701840898",
+      "rankingId": null,
+      "indexInRanking": 30,
+      "rankingName": "陕西人气博物馆排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1658367923108663298",
+        "rankingId": "1658367924920602626",
+        "indexInRanking": null,
+        "rankingName": "大学博物馆人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1658367021698224129",
+        "rankingId": "1658367023262699521",
+        "indexInRanking": null,
+        "rankingName": "自然科学类博物馆人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1680835374538088449",
+        "rankingId": "1680835375632801794",
+        "indexInRanking": null,
+        "rankingName": "陕西省热搜50强博物馆排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1455813465879977985",
+        "rankingId": "1455813466618175490",
+        "indexInRanking": null,
+        "rankingName": "杨凌必玩景点人气排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": null,
+    "noticeTitel": "",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,23 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "2102206892217597953",
+      "resourcesId": "1431087019181846529",
+      "title": "司马迁祠景区",
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082710311727387.mp4",
+      "coverImage": "https://eshopfile.zhiyousx.com/163003147257082000.jpg",
+      "videoId": null,
+      "resourcesType": 2,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2026-09-22 09:22:34",
+      "updateTime": "2026-09-22 09:22:34",
+      "createBy": "1580119846380310530",
+      "updateBy": "1580119846380310530",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

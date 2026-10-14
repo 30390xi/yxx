@@ -48,7 +48,7 @@
             <view class="record data-v-37484a26">
                 <view class="name data-v-37484a26">消费记录：</view>
                 <view class="no-record data-v-37484a26" wx:if="{{$root.g0}}">
-                    <image mode class="icon3 data-v-37484a26" src="https://eshopfile.zhiyousx.com/2023111315442061719.png"></image>暂无消费记录</view>
+                    <image mode class="icon3 data-v-37484a26" src="/static/captured/fca9caec9bc64278.png"></image>暂无消费记录</view>
                 <view class="record-box data-v-37484a26" wx:if="{{cardDetail[0]}}">
                     <scroll-view class="data-v-37484a26" scrollY="true" style="height:350rpx;">
                         <view class="record-item data-v-37484a26" wx:for="{{cardDetail}}" wx:key="index">

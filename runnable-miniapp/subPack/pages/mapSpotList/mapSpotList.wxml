@@ -1,7 +1,7 @@
 <view class="page-box data-v-4586f7c4">
     <view class="item-box data-v-4586f7c4" wx:for="{{$root.l1}}" wx:key="index">
         <view class="item-top data-v-4586f7c4">
-            <image alt class="icon _img data-v-4586f7c4" src="https://eshopfile.zhiyousx.com/2023031611075543695.png"></image>{{''+item.$orig.base.name+''}}</view>
+            <image alt class="icon _img data-v-4586f7c4" src="/static/captured/aa59ed7a8a4c98ff.png"></image>{{''+item.$orig.base.name+''}}</view>
         <view class="item-body data-v-4586f7c4" wx:for="{{item.l0}}" wx:for-index="i" wx:for-item="it" wx:key="i">
             <view bindtap="__e" class="item-body-l data-v-4586f7c4" data-event-opts="{{[ [ 'tap',[ [ 'toDetail',['$0'],[ [ ['listData','',index],['scenicSpotMapTagVOList','',i] ] ] ] ] ] ]}}">
                 <image class="spot-img data-v-4586f7c4" mode="aspectFill" src="{{it.g1[0]}}" wx:if="{{it.g0}}"></image>
@@ -14,11 +14,11 @@
             </view>
             <view class="item-body-r data-v-4586f7c4">
                 <view bindtap="__e" class="icon-box data-v-4586f7c4" data-event-opts="{{[ [ 'tap',[ [ 'jumpLocation',['$0'],[ [ ['listData','',index],['scenicSpotMapTagVOList','',i] ] ] ] ] ] ]}}">
-                    <image alt class="icon1 _img data-v-4586f7c4" src="https://eshopfile.zhiyousx.com/2023031611150313119.png"></image>
+                    <image alt class="icon1 _img data-v-4586f7c4" src="/static/captured/67f6b35f969d4e58.png"></image>
                     <view class="icon1-text data-v-4586f7c4">{{''+(langType=='zn'?'去这里':'Go')+''}}</view>
                 </view>
                 <view bindtap="__e" class="icon-box data-v-4586f7c4" data-event-opts="{{[ [ 'tap',[ [ 'toDetail',['$0'],[ [ ['listData','',index],['scenicSpotMapTagVOList','',i] ] ] ] ] ] ]}}">
-                    <image alt class="icon1 _img data-v-4586f7c4" src="https://eshopfile.zhiyousx.com/2023031520024239890.png"></image>
+                    <image alt class="icon1 _img data-v-4586f7c4" src="/static/captured/215636d32871312a.png"></image>
                     <view class="icon1-text data-v-4586f7c4">{{''+(langType=='zn'?'讲解':'Interpreter')+''}}</view>
                 </view>
             </view>

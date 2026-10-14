@@ -16,7 +16,7 @@
     </view>
     <view class="successTip model data-v-7d29c2b4" wx:if="{{successShow}}">
         <view class="success-icon data-v-7d29c2b4">
-            <image class="data-v-7d29c2b4" mode="aspectFill" src="https://eshopfile.zhiyousx.com/170073354191260146.png"></image>
+            <image class="data-v-7d29c2b4" mode="aspectFill" src="/static/captured/44e861bcad450e64.png"></image>
         </view>
         <view class="text data-v-7d29c2b4">提交成功, 系统处理中...</view>
         <view class="remark data-v-7d29c2b4">系统将在30分钟内返回处理结果，若预约失败，将自动为您取消订单，请前往预约详情页查看预约结果</view>
@@ -67,7 +67,7 @@
                     <view class="line data-v-7d29c2b4"></view>
                     <view bindtap="__e" class="right data-v-7d29c2b4" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}">
                         <view class="text data-v-7d29c2b4">更多日期</view>
-                        <image mode class="arrow data-v-7d29c2b4" src="https://eshopfile.zhiyousx.com/169821946405933051.png"></image>
+                        <image mode class="arrow data-v-7d29c2b4" src="/static/captured/b8e891de834221fb.png"></image>
                     </view>
                 </view>
             </view>
@@ -95,8 +95,8 @@
             <view class="people-item data-v-7d29c2b4">
                 <view class="label data-v-7d29c2b4">持卡人</view>
                 <view class="value data-v-7d29c2b4">{{name}}</view>
-                <image bindtap="__e" class="icon data-v-7d29c2b4" data-event-opts="{{[ [ 'tap',[ [ 'getPhone',[1] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/168492134271144514.png" wx:if="{{!isEncryption}}"></image>
-                <image bindtap="__e" class="icon data-v-7d29c2b4" data-event-opts="{{[ [ 'tap',[ [ 'getPhone',[0] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/168492259404793104.png" wx:if="{{isEncryption}}"></image>
+                <image bindtap="__e" class="icon data-v-7d29c2b4" data-event-opts="{{[ [ 'tap',[ [ 'getPhone',[1] ] ] ] ]}}" src="/static/captured/522f50b3281db509.png" wx:if="{{!isEncryption}}"></image>
+                <image bindtap="__e" class="icon data-v-7d29c2b4" data-event-opts="{{[ [ 'tap',[ [ 'getPhone',[0] ] ] ] ]}}" src="/static/captured/6989ca664d2f4eeb.png" wx:if="{{isEncryption}}"></image>
             </view>
             <view class="people-item data-v-7d29c2b4" wx:if="{{cardNum}}">
                 <view class="label data-v-7d29c2b4">身份证</view>

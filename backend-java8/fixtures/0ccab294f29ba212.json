@@ -1,0 +1,233 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1455112668192022530",
+    "contentId": "1455112666791124994",
+    "rankingName": "渭南自驾游景点排行榜",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://res.zhiyousx.com/ysx/pro/2021/11/01/163576083802961257.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": "名游客去过",
+    "rankingInclude": "个景点",
+    "rankingPersonalInfo": "我去过的景点",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#1DA4CD",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1320579064595112001",
+        "originType": "1",
+        "originName": "渭华起义纪念馆",
+        "originSubtitleName": "树立了党领导西北人民革命斗争史上一座丰碑",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021062310482575238.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021062311563988450.jpg",
+          "https://eshopfile.zhiyousx.com/2021062311575937271.jpg",
+          "https://eshopfile.zhiyousx.com/2021062311521079914.jpg",
+          "https://eshopfile.zhiyousx.com/2021062311531311340.jpg",
+          "https://eshopfile.zhiyousx.com/2021062311551799750.jpg"
+        ],
+        "sort": "10",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1406886951906197505",
+        "originType": "1",
+        "originName": "八路军120师誓师纪念馆",
+        "originSubtitleName": "心里是红的，永远是红的",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021062115452333236.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021062115530417282.jpg",
+          "https://eshopfile.zhiyousx.com/2021062115520093764.jpg",
+          "https://eshopfile.zhiyousx.com/2021062115540636106.jpg"
+        ],
+        "sort": "11",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064720941095",
+        "originType": "1",
+        "originName": "洽川风景名胜区",
+        "originSubtitleName": "黄河最美在洽川",
+        "originUrl": "https://eshopfile.zhiyousx.com/16-20201028143801.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/18-20201028143814.jpg",
+          "https://eshopfile.zhiyousx.com/19-20201028143823.jpg",
+          "https://eshopfile.zhiyousx.com/20-20201028143830.jpg"
+        ],
+        "sort": "12",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064720941139",
+        "originType": "1",
+        "originName": "司马迁祠",
+        "originSubtitleName": "亦欲以究天人之际，通古今之变，成一家之言",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021082710324392706.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021082710460619555.jpg",
+          "https://eshopfile.zhiyousx.com/2021082710461437481.jpg",
+          "https://eshopfile.zhiyousx.com/2021082710462165723.jpg",
+          "https://eshopfile.zhiyousx.com/171107921807146945.jpg",
+          "https://eshopfile.zhiyousx.com/171107921872159265.jpg",
+          "https://eshopfile.zhiyousx.com/171107921913846866.jpg",
+          "https://eshopfile.zhiyousx.com/171107921958132001.jpg",
+          "https://eshopfile.zhiyousx.com/171107922001960926.jpg",
+          "https://eshopfile.zhiyousx.com/171107922056734180.jpg",
+          "https://eshopfile.zhiyousx.com/171107922095113848.jpg",
+          "https://eshopfile.zhiyousx.com/171107922139853102.jpg"
+        ],
+        "sort": "13",
+        "favoriteValue": null,
+        "isBookable": true,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1406869123614392321",
+        "originType": "1",
+        "originName": "八路军东渡纪念馆",
+        "originSubtitleName": "奋勇向前的抗日先锋",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021062114532210593.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021062115030171302.jpg",
+          "https://eshopfile.zhiyousx.com/2021062115030876307.jpg"
+        ],
+        "sort": "14",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1377184196476317698",
+        "originType": "1",
+        "originName": "桃花源民俗文化园",
+        "originSubtitleName": "世外桃源在渭南",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021092710285634321.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021092214494730265.jpg",
+          "https://eshopfile.zhiyousx.com/2021092710470260368.png",
+          "https://eshopfile.zhiyousx.com/2021092710465515286.png",
+          "https://eshopfile.zhiyousx.com/2021092710471064827.png",
+          "https://eshopfile.zhiyousx.com/2021092214495815137.jpg",
+          "https://eshopfile.zhiyousx.com/2021092710472113043.png"
+        ],
+        "sort": "15",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1437347880124870657",
+        "originType": "1",
+        "originName": "渭南市博物馆",
+        "originSubtitleName": "刚毅硬朗的渭南",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021091317274324387.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021091317272222683.png",
+          "https://eshopfile.zhiyousx.com/2021091317270632765.png",
+          "https://eshopfile.zhiyousx.com/2021091317271504905.png",
+          "https://eshopfile.zhiyousx.com/2021091317272904492.png",
+          "https://eshopfile.zhiyousx.com/2021091317270051953.png"
+        ],
+        "sort": "16",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064687386639",
+        "originType": "1",
+        "originName": "丰图义仓",
+        "originSubtitleName": "慈禧太后曾御封此仓为“天下第一仓”",
+        "originUrl": "https://eshopfile.zhiyousx.com/36-20201028152214.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/37-20201028152258.jpg",
+          "https://eshopfile.zhiyousx.com/39-20201028152306.jpg",
+          "https://eshopfile.zhiyousx.com/40-20201028152313.jpg"
+        ],
+        "sort": "17",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064188264669",
+        "originType": "1",
+        "originName": "唐睿宗桥陵",
+        "originSubtitleName": "中国最恢宏的十大帝王陵墓",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021092214540399787.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021092215381570780.jpg",
+          "https://eshopfile.zhiyousx.com/2021092215382414683.jpg",
+          "https://eshopfile.zhiyousx.com/2021092215382997300.jpg"
+        ],
+        "sort": "19",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064188264653",
+        "originType": "1",
+        "originName": "梁带村芮国遗址博物馆",
+        "originSubtitleName": "古芮寻微，故国韶光",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021082711000078311.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021082711195771949.jpg",
+          "https://eshopfile.zhiyousx.com/2021082711200339785.jpg",
+          "https://eshopfile.zhiyousx.com/2021082711200954435.jpg",
+          "https://eshopfile.zhiyousx.com/2021082711201405488.jpg",
+          "https://eshopfile.zhiyousx.com/2021082711202099611.jpg"
+        ],
+        "sort": "20",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "42",
+    "favoriteSum": null,
+    "personalInfoValue": "0/42"
+  },
+  "msg": "成功",
+  "success": true
+}

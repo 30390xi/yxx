@@ -1,0 +1,440 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064188264540",
+    "scenicName": "大唐芙蓉园",
+    "tag": "进入中国盛唐文化之旅",
+    "level": 5,
+    "cityId": "1320620100725026817",
+    "cityName": "西安",
+    "address": "西安市雁塔区曲江新区芙蓉西路99号",
+    "longitude": "108.97435",
+    "latitude": "34.21274",
+    "openingStatus": 1,
+    "capacity": 45000,
+    "sequence": 11,
+    "topColour": "#E06A2A",
+    "centralColour": "#C5432E",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2024040611170971691.jpg",
+      "https://eshopfile.zhiyousx.com/2026022810573104272.jpg",
+      "https://eshopfile.zhiyousx.com/2025121918425842291.jpg",
+      "https://eshopfile.zhiyousx.com/2022092218515186966.jpg",
+      "https://eshopfile.zhiyousx.com/2022102410514752259.png"
+    ],
+    "introduction": "<p>&nbsp; &nbsp; 大唐芙蓉园坐落于西安城南的曲江新区，与大雁塔遥遥相望，占地面积为998亩，其中水域面积300亩，绿地面积440亩，建筑面积近 10万平方米。园区建筑由中国工程院院士张锦秋先生担纲总体规划与建筑设计，日本园林大师秋山宽先生承担园林景观设计，是一个全方位展示盛唐风貌的大型文化主题遗址公园。</p>\n<p>&nbsp; &nbsp; 大唐芙蓉园以建成&ldquo;历史之园、精神之园、自然之园、人文之园、艺术之园&rdquo;为目标，特别邀请了中国唐代文学学会的十多位唐史、唐诗、唐画、唐建专家、博士生导师、研究员以及旅游专家组成的专家小组对大唐芙蓉园的历史文化内容进行重新挖掘和整理，对全园景观进行了重新规划与定位，划分出了帝王文化区、女性文化区、诗歌文化区、科举文化区、茶文化区、歌舞文化区、饮食文化区、民俗文化区、外交文化区、佛教文化区、道教文化区、儿童游乐区、大门景观文化区、水秀表演区等十四个景观文化区，全方位再现了大唐盛世的灿烂文明。 园中亭台楼阁、雕廊画栋，包括有紫云楼、仕女馆、陆羽茶社、杏园、彩霞长廊、曲江流饮、丽人行、唐诗峡、茱萸台等景点二十多个，集中展示了唐王朝辉耀四方的精神风貌和璀璨多姿、无以伦比的文化艺术，被称为&ldquo;国人震撼，世界惊奇&rdquo;的旅游胜地。&nbsp;</p>",
+    "introductionText": "    大唐芙蓉园坐落于西安城南的曲江新区，与大雁塔遥遥相望，占地面积为998亩，其中水域面积300亩，绿地面积440亩，建筑面积近 10万平方米。园区建筑由中国工程院院士张锦秋先生担纲总体规划与建筑设计，日本园林大师秋山宽先生承担园林景观设计，是一个全方位展示盛唐风貌的大型文化主题遗址公园。    大唐芙蓉园以建成“历史之园、精神之园、自然之园、人文之园、艺术之园”为目标，特别邀请了中国唐代文学学会的十多位唐史、唐诗、唐画、唐建专家、博士生导师、研究员以及旅游专家组成的专家小组对大唐芙蓉园的历史文化内容进行重新挖掘和整理，对全园景观进行了重新规划与定位，划分出了帝王文化区、女性文化区、诗歌文化区、科举文化区、茶文化区、歌舞文化区、饮食文化区、民俗文化区、外交文化区、佛教文化区、道教文化区、儿童游乐区、大门景观文化区、水秀表演区等十四个景观文化区，全方位再现了大唐盛世的灿烂文明。 园中亭台楼阁、雕廊画栋，包括有紫云楼、仕女馆、陆羽茶社、杏园、彩霞长廊、曲江流饮、丽人行、唐诗峡、茱萸台等景点二十多个，集中展示了唐王朝辉耀四方的精神风貌和璀璨多姿、无以伦比的文化艺术，被称为“国人震撼，世界惊奇”的旅游胜地。 ",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "23",
+        "name": "灯光夜景",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "21",
+        "name": "地标打卡",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "69",
+        "name": "商务旅",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026415628289",
+        "contentId": "1418152026403045378",
+        "name": "陕西5A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "营业时间",
+        "openTimeContent": "常规营业时间9:00-22:00（最晚21:00入园）"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "6周岁(含)或1.2米(含)",
+        "discount": "免票"
+      },
+      {
+        "peopleType": "老年人",
+        "limit": "65岁(含)以上",
+        "discount": "刷二代有效身份证直接入园"
+      },
+      {
+        "peopleType": "人民警察",
+        "limit": "凭借人民警察证",
+        "discount": "免首道门票"
+      },
+      {
+        "peopleType": "退役军人",
+        "limit": "中华人民共和国退役军人优待证",
+        "discount": "首道门票可按不高于最高限价的5折进行优惠"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "二级以上重度残疾人需要陪护的",
+        "discount": "免1名陪同人员首道门票"
+      }
+    ],
+    "facilitiesServicesVoList": null,
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "停车场",
+        "additionalExplainContent": "【大唐芙蓉园停车场】参考价格：4元/小时（小型车辆）、8元/小时（大型车辆）具体以现场为准；<br/>地址：大唐芙蓉园西门北侧的地下车场；<br/>库位：500；<br/>15分钟内免费，超出15分钟不足1小时按1小时计算，超出1小时不足2小时按2小时计算，以此类推；具体以现场为准"
+      },
+      {
+        "additionalExplainTitle": "手机充电",
+        "additionalExplainContent": "大唐芙蓉园提供手机充电服务，游客可在景区西门（御苑门）内右侧租赁共享充电宝。"
+      },
+      {
+        "additionalExplainTitle": "行李寄存",
+        "additionalExplainContent": "营业时间为9:00-22:00（夏季时间5月1日-10月7日）9:00-20:30（冬季时间10月8日-4月30日）当日景区营业时间内凭门票提供免费行李寄存服务；具体以现场为准"
+      },
+      {
+        "additionalExplainTitle": "景区讲解",
+        "additionalExplainContent": "中文讲解收费标准：【1人-10人】200元/小时，与此同时每超出1人加收20元英文讲解收费标准：【1人-10人】400元/小时，与此同时每超出1人加收40元预定讲解员超过15分钟不予预留，每名讲解员限带60人/次；营业时间为9:00-21:30（夏季时间5月1日-10月7日）9:00-20:30（冬季时间10月8日-4月30日）；具体以现场为准"
+      },
+      {
+        "additionalExplainTitle": "景区地图",
+        "additionalExplainContent": "大唐芙蓉园提供电子地图，您可以在景区官网查看并下载。"
+      },
+      {
+        "additionalExplainTitle": "园内交通",
+        "additionalExplainContent": "观光车：西门电瓶车售票处，工作时间9:00-17:30，30元/人/趟（园区内支持随时上下）；具体以现场为准"
+      },
+      {
+        "additionalExplainTitle": "婴儿车租赁",
+        "additionalExplainContent": "游客服务中心内提供1周岁半以下的婴儿车租赁服务押金300元/辆，如有遗失或损坏，押金不予退还；具体以现场为准"
+      },
+      {
+        "additionalExplainTitle": "雨具租赁",
+        "additionalExplainContent": "游客服务中心内在雷雨天气为需要雨伞的游客提供雨伞租赁服务押金50元/把，如有遗失或损坏，押金不予退还；具体以现场为准"
+      },
+      {
+        "additionalExplainTitle": "轮椅租赁",
+        "additionalExplainContent": "游客服务中心内为残障人士或70周岁以上行动不便的老人提供轮椅、拐杖轮椅押金500元/辆，拐杖押金50元/根，如有遗失或损坏，押金不予退还；具体以现场为准"
+      },
+      {
+        "additionalExplainTitle": "卫生间",
+        "additionalExplainContent": "景区售票处及园内设有多处卫生间，均有指示牌提示"
+      },
+      {
+        "additionalExplainTitle": "餐厅",
+        "additionalExplainContent": "大唐芙蓉园区内设有肯德基，麦当劳等快餐厅可供用餐。"
+      },
+      {
+        "additionalExplainTitle": "自动售卖机",
+        "additionalExplainContent": "园区内含多台自助售卖机及无人便利店，均有指示牌指引"
+      },
+      {
+        "additionalExplainTitle": "便利店",
+        "additionalExplainContent": "园区内有多家便利店，所售产品种类多样"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "官方电话",
+        "telephone": "029-85511888"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "大唐芙蓉园",
+        "wxSubscription": "xaqjtangparadise"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": "主要看点",
+    "contentResourcesDtoList": [
+      {
+        "id": "2088282409678733314",
+        "resourcesId": "1321336439982809090",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/43-20201028142124.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-08-14 23:11:39",
+        "updateTime": "2026-08-14 23:11:39",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2088282409682927617",
+        "resourcesId": "1321336439982809090",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/411-20201028142139.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-08-14 23:11:39",
+        "updateTime": "2026-08-14 23:11:39",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1538830830115508226",
+      "rankingId": null,
+      "indexInRanking": 7,
+      "rankingName": "西安必游人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1551836855409541121",
+        "rankingId": "1551836856105795586",
+        "indexInRanking": null,
+        "rankingName": "外地游客西安必逛榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1818221757267132417",
+        "rankingId": "1818221762493235202",
+        "indexInRanking": null,
+        "rankingName": "西安汉服拍摄地人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1676883692355641345",
+        "rankingId": "1676883693114810370",
+        "indexInRanking": null,
+        "rankingName": "西安热门景区人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1696782313893548033",
+        "rankingId": "1696782315588046849",
+        "indexInRanking": null,
+        "rankingName": "曲江人气景区排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "2088282409699704833",
+        "scenicSpotId": "1320579064188264540",
+        "contentModuleName": "主要看点",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1419569505075552257",
+            "type": 6,
+            "title": "《梦回大唐》",
+            "subtitle": "大型超维度情景舞剧",
+            "coverImage": "https://eshopfile.zhiyousx.com/2024021910332174252.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1417768591637372930",
+            "type": 6,
+            "title": "《大唐追梦》",
+            "subtitle": "一场光影秀，闪耀盛唐风",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021072715525284387.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1486917135522344961",
+            "type": 6,
+            "title": "《鼓》",
+            "subtitle": "沉浸式体验唐风余韵",
+            "coverImage": "https://eshopfile.zhiyousx.com/2024030610492406436.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1945682194867343361",
+            "type": 6,
+            "title": "《如梦长安》",
+            "subtitle": "匠心打造的大型主题杂技剧",
+            "coverImage": "https://eshopfile.zhiyousx.com/2025071711104568707.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": "",
+    "ticketAreaNoticeName": "",
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": "",
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

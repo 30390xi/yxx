@@ -1,0 +1,173 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1699346310127939585",
+    "contentId": "1699346310090190850",
+    "rankingName": "西安回民街商圈美食",
+    "rankingClass": "2",
+    "rankingType": "3",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/169399068620476889.jpg",
+    "rankingDescribe": "西安回民街作为古城著名的美食文化街区，拥有浓郁的文化特色及人文风情，更不乏当地人最认可的老字号美食，早已成为西安旅游打卡地首选。",
+    "rankingTotalUserData": "人喜爱",
+    "rankingInclude": "个目的地",
+    "rankingPersonalInfo": "我去过的目的地",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#00924F",
+    "tagUrl": null,
+    "travelMapFlag": null,
+    "type": "7",
+    "rankingItemList": [
+      {
+        "originId": "1697543846684782594",
+        "originType": "3",
+        "originName": "贾永信腊牛羊肉（麻什字店）",
+        "originSubtitleName": "肉质酥松 鲜而不腻",
+        "originUrl": "https://eshopfile.zhiyousx.com/2023090117261432791.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/169399117044971973.jpg",
+          "https://eshopfile.zhiyousx.com/169399117144365546.jpg",
+          "https://eshopfile.zhiyousx.com/169399117079998618.jpg",
+          "https://eshopfile.zhiyousx.com/169399117004367079.jpg",
+          "https://eshopfile.zhiyousx.com/169399117192844521.jpg",
+          "https://eshopfile.zhiyousx.com/169399117229775306.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1698548295741992961",
+        "originType": "3",
+        "originName": "老孙家泡馍（回民街店）",
+        "originSubtitleName": "天下第一碗",
+        "originUrl": "https://eshopfile.zhiyousx.com/2023090412072340747.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/169380030965688955.jpg",
+          "https://eshopfile.zhiyousx.com/169380031039977456.jpg",
+          "https://eshopfile.zhiyousx.com/169380031001036742.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1698952944894603266",
+        "originType": "3",
+        "originName": "东南亚甄糕",
+        "originSubtitleName": "百年传承 传统工艺",
+        "originUrl": "https://eshopfile.zhiyousx.com/2023090514384863265.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/169389691540920196.jpg",
+          "https://eshopfile.zhiyousx.com/169389691585703603.jpg",
+          "https://eshopfile.zhiyousx.com/169390614692975222.jpg",
+          "https://eshopfile.zhiyousx.com/169389691501120755.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1698998248272556033",
+        "originType": "3",
+        "originName": "宏顺祥卤汁凉粉（大皮院店）",
+        "originSubtitleName": "回民街的“黑暗料理”",
+        "originUrl": "https://eshopfile.zhiyousx.com/2023090517545968894.JPG",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/169390771534784444.JPG",
+          "https://eshopfile.zhiyousx.com/169390771577516661.jpg",
+          "https://eshopfile.zhiyousx.com/169390771647477927.JPG",
+          "https://eshopfile.zhiyousx.com/169390771690218595.jpg",
+          "https://eshopfile.zhiyousx.com/169390771614213999.JPG"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1699245180534386690",
+        "originType": "3",
+        "originName": "老米家大雨泡馍（总店）",
+        "originSubtitleName": "西安清真美食三绝",
+        "originUrl": "https://eshopfile.zhiyousx.com/2023090610143578814.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/169396656600816974.jpg",
+          "https://eshopfile.zhiyousx.com/169396656627850159.jpg",
+          "https://eshopfile.zhiyousx.com/169396656666979488.jpg",
+          "https://eshopfile.zhiyousx.com/169396656692215749.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1699323133746212865",
+        "originType": "3",
+        "originName": "老金家蛋菜夹馍",
+        "originSubtitleName": "传统美食 咸香满口 ",
+        "originUrl": "https://eshopfile.zhiyousx.com/2023090615230935296.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/169398500317768827.jpg",
+          "https://eshopfile.zhiyousx.com/169398500191245277.jpg",
+          "https://eshopfile.zhiyousx.com/169398500350160514.jpg",
+          "https://eshopfile.zhiyousx.com/169398500236302042.jpg",
+          "https://eshopfile.zhiyousx.com/169398500272029912.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1699341738223288321",
+        "originType": "3",
+        "originName": "陕拾叁（北院门创始店）",
+        "originSubtitleName": "古都手信首选",
+        "originUrl": "https://eshopfile.zhiyousx.com/2023090616370724746.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/169398905259760652.jpg",
+          "https://eshopfile.zhiyousx.com/169398905303033232.jpg",
+          "https://eshopfile.zhiyousx.com/169398905338167754.jpg",
+          "https://eshopfile.zhiyousx.com/169398905375636436.jpg",
+          "https://eshopfile.zhiyousx.com/169398905408523922.jpg",
+          "https://eshopfile.zhiyousx.com/169398905438008268.jpg",
+          "https://eshopfile.zhiyousx.com/169398905465653533.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "17",
+    "favoriteSum": null,
+    "personalInfoValue": "0/17"
+  },
+  "msg": "成功",
+  "success": true
+}

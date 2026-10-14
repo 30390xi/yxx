@@ -1,0 +1,23 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "1635550611347574786",
+      "resourcesId": "1321650908646629377",
+      "title": "溪山胜境宣传片",
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2022081615083093663.mp4",
+      "coverImage": "https://eshopfile.zhiyousx.com/166063369715181263.png",
+      "videoId": "1559436977802719234",
+      "resourcesType": 2,
+      "sequence": 1,
+      "describe": "丹霞画中游，行旅溪山秀，溪山胜境欢迎您。",
+      "createTime": "2023-03-14 15:57:07",
+      "updateTime": "2023-03-14 15:57:07",
+      "createBy": "1635171719176675330",
+      "updateBy": "1635171719176675330",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

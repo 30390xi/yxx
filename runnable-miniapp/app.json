@@ -405,6 +405,7 @@
     "pages/ranking/ranking",
     "pages/rankList/rankList",
     "pages/spotDetailNew/spotDetailNew",
+    "pages/spotDetail/spotDetail",
     "pages/spotMedia/spotMedia",
     "pages/spotContentList/spotContentList",
     "pages/spotThirdDetail/spotThirdDetail",

@@ -1,0 +1,26 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1692113821395267586",
+    "contentId": "1692113814122344449",
+    "rankingName": "宝鸡自然风光排行榜",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/169226611662560274.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": "人去过",
+    "rankingInclude": "个目的地",
+    "rankingPersonalInfo": "我去过的目的地",
+    "rankingSharePictureUrl": "https://eshopfile.zhiyousx.com/169226628567122297.jpg",
+    "bottomColour": "#4EAE6B",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": null,
+    "sumCount": "8",
+    "favoriteSum": null,
+    "personalInfoValue": null
+  },
+  "msg": "成功",
+  "success": true
+}

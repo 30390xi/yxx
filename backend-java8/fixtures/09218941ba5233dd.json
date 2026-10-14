@@ -1,0 +1,23 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "1518160897586016258",
+      "resourcesId": "1407179316223033346",
+      "title": "瓦窑堡革命旧址",
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062211254236223.mp4",
+      "coverImage": "https://eshopfile.zhiyousx.com/2021062211253072849.jpg",
+      "videoId": "1407178130631704577",
+      "resourcesType": 2,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2022-04-24 17:32:18",
+      "updateTime": "2022-04-24 17:32:18",
+      "createBy": "1511977558009303041",
+      "updateBy": "1511977558009303041",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

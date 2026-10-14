@@ -1,0 +1,149 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1455799130713595906",
+    "contentId": "1455799129627271170",
+    "rankingName": "安康必逛景点人气排行榜",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://res.zhiyousx.com/ysx/pro/2021/11/03/163592452628074727.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": null,
+    "rankingInclude": "个景点",
+    "rankingPersonalInfo": "我去过的景点",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#1DA4CD",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1320579064641249307",
+        "originType": "1",
+        "originName": "蜀河古镇景区",
+        "originSubtitleName": "汉江小都会",
+        "originUrl": "https://eshopfile.zhiyousx.com/蜀河古镇-20201030152251.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021092210485176688.jpg",
+          "https://eshopfile.zhiyousx.com/2021092210485765295.jpg",
+          "https://eshopfile.zhiyousx.com/蜀河古镇2-20201030152309.jpg",
+          "https://eshopfile.zhiyousx.com/蜀河古镇1-20201030152302.jpg"
+        ],
+        "sort": "10",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1437630709526286338",
+        "originType": "1",
+        "originName": "安康历史博物馆",
+        "originSubtitleName": "来安康一定要来这儿看看~",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021091411262215433.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021091411204378917.png",
+          "https://eshopfile.zhiyousx.com/2021091411251488268.png",
+          "https://eshopfile.zhiyousx.com/2021091411252377588.png",
+          "https://eshopfile.zhiyousx.com/2021091411255564456.jpeg"
+        ],
+        "sort": "11",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1437973240298459138",
+        "originType": "1",
+        "originName": "旬阳县博物馆",
+        "originSubtitleName": "来旬阳看文庙",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021091510531081283.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021091510522216151.png",
+          "https://eshopfile.zhiyousx.com/2021091510523369587.png",
+          "https://eshopfile.zhiyousx.com/2021091510524283276.png",
+          "https://eshopfile.zhiyousx.com/2021091510525643646.png"
+        ],
+        "sort": "12",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064720941166",
+        "originType": "1",
+        "originName": "中坝大峡谷景区",
+        "originSubtitleName": "山奇峰险，河沟纵横，鸟儿啁啁，流水潺潺。",
+        "originUrl": "https://eshopfile.zhiyousx.com/中坝-20201030122035.JPG",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/中坝1-20201030122100.JPG",
+          "https://eshopfile.zhiyousx.com/中坝2-20201030122107.JPG"
+        ],
+        "sort": "13",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064641249310",
+        "originType": "1",
+        "originName": "秦巴生态文化公园",
+        "originSubtitleName": "地域风情、民俗文化。",
+        "originUrl": "https://eshopfile.zhiyousx.com/高新生态休闲-20201030145830.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/高新生态休闲1-20201030145846.jpg",
+          "https://eshopfile.zhiyousx.com/高新生态休闲2-20201030145854.jpg"
+        ],
+        "sort": "14",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064641249304",
+        "originType": "1",
+        "originName": "旬阳县红军纪念馆",
+        "originSubtitleName": "红色廉政文化底蕴深厚",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021062916180951375.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/旬阳县红军纪念馆2-20201030151422.jpg",
+          "https://eshopfile.zhiyousx.com/2021062917004279819.png",
+          "https://eshopfile.zhiyousx.com/2021062917020950333.png",
+          "https://eshopfile.zhiyousx.com/2021062917021744727.png",
+          "https://eshopfile.zhiyousx.com/2021062917022426863.png",
+          "https://eshopfile.zhiyousx.com/旬阳县红军纪念馆1-20201030151411.jpg",
+          "https://eshopfile.zhiyousx.com/2021062917023166024.png",
+          "https://eshopfile.zhiyousx.com/2021062917023872629.png",
+          "https://eshopfile.zhiyousx.com/2021062917025161207.png",
+          "https://eshopfile.zhiyousx.com/2021062917025736895.png"
+        ],
+        "sort": "15",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "16",
+    "favoriteSum": null,
+    "personalInfoValue": "0/16"
+  },
+  "msg": "成功",
+  "success": true
+}

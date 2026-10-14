@@ -1,0 +1,44 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1658358809871036418",
+    "contentId": "1658358808965066754",
+    "rankingName": "文化民俗类博物馆人气榜",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/168421849092201115.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": "人去过",
+    "rankingInclude": "个目的地",
+    "rankingPersonalInfo": "我去过的目的地",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#251B4E",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1320579064666415127",
+        "originType": "1",
+        "originName": "周家大院民俗博物馆",
+        "originSubtitleName": "坐落在乡野间的“庄严”建筑",
+        "originUrl": "https://eshopfile.zhiyousx.com/2022012616225425861.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2022/01/26/164318595634096879.JPG"
+        ],
+        "sort": "12",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "11",
+    "favoriteSum": null,
+    "personalInfoValue": "0/11"
+  },
+  "msg": "成功",
+  "success": true
+}

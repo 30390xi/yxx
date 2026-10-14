@@ -1,7 +1,7 @@
 <view class="data-v-5f9d08de">
     <view class="logisticsInfo data-v-5f9d08de">
         <view class="wl-left data-v-5f9d08de">
-            <image alt class="_img data-v-5f9d08de" src="https://eshopfile.zhiyousx.com/170065397014456594.png"></image>
+            <image alt class="_img data-v-5f9d08de" src="/static/captured/887d7ebff89683af.png"></image>
             <view class="text data-v-5f9d08de">
                 <text class="key data-v-5f9d08de">物流公司：</text>
                 <text class="val data-v-5f9d08de">{{logistics.logisticsName}}</text>

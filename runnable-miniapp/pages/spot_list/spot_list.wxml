@@ -14,7 +14,7 @@
                     <view class="cityTag data-v-1bc4667e">{{''+tabbar[current].cityTag+''}}</view>
                 </view>
             </view>
-            <view bindtap="__e" class="item-box data-v-1bc4667e" data-event-opts="{{[ [ 'tap',[ [ 'jumpSpotDetail',['$0'],[ [ ['arrSpot','',index] ] ] ] ] ] ]}}" wx:for="{{arrSpot}}" wx:key="index">
+            <navigator class="item-box data-v-1bc4667e" hover-class="none" url="{{'/pages/spotDetailNew/spotDetailNew?spotId='+item.scenicId}}" wx:for="{{arrSpot}}" wx:key="index">
                 <view class="img-box data-v-1bc4667e">
                     <image class="data-v-1bc4667e" mode="aspectFill" src="{{item.pictureResources[0].resourcesUrl}}"></image>
                 </view>
@@ -22,8 +22,7 @@
                     <view class="ntext singleLineText data-v-1bc4667e">{{item.scenicName}}</view>
                     <text class="data-v-1bc4667e" wx:if="{{item.isBookable}}">订</text>
                 </view>
-            </view>
+            </navigator>
         </scroll-view>
     </view>
-    <tab-bar bind:__l="__l" class="data-v-1bc4667e" vueId="565360c8-2"></tab-bar>
 </view>

@@ -61,7 +61,7 @@
     <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-2ad9723a" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','savePop','$event',[] ] ] ] ] ]}}" mode="center" value="{{savePop}}" vueId="3d932c32-4" vueSlots="{{['default']}}">
         <view class="save-box data-v-2ad9723a">
             <view bindtap="__e" class="btn-close data-v-2ad9723a" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}"></view>
-            <image mode bindtap="__e" class="close-btn data-v-2ad9723a" data-event-opts="{{[ [ 'tap',[ [ 'e1',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/2022122109502468658.png"></image>
+            <image mode bindtap="__e" class="close-btn data-v-2ad9723a" data-event-opts="{{[ [ 'tap',[ [ 'e1',['$event'] ] ] ] ]}}" src="/static/captured/99126c2291cfeca4.png"></image>
             <view class="top-bg data-v-2ad9723a">
                 <view class="tb1 data-v-2ad9723a">{{'购买1张'+showCardInfo.name}}<text class="data-v-2ad9723a">预计可省</text>
                 </view>

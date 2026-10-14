@@ -8,7 +8,7 @@
         </view>
         <view class="code data-v-8a49c06c" wx:if="{{qrCode&&info.status!==3}}">
             <view class="lapse _div data-v-8a49c06c">
-                <image class="data-v-8a49c06c" mode="scaleToFill" src="https://eshopfile.zhiyousx.com/171888583277430923.png"></image>
+                <image class="data-v-8a49c06c" mode="scaleToFill" src="/static/captured/98ac911bdd514e86.png"></image>
                 <text class="data-v-8a49c06c">该权益已失效</text>
             </view>
         </view>
@@ -20,11 +20,11 @@
     <view class="shop data-v-8a49c06c">
         <view class="shop-header data-v-8a49c06c">
             <view class="shop-header-left data-v-8a49c06c">{{'可用商家（'+$root.f0+'家）'}}</view>
-            <view bindtap="__e" class="shop-header-right data-v-8a49c06c" data-event-opts="{{[ [ 'tap',[ ['goShopList'] ] ] ]}}">查看全部<image class="data-v-8a49c06c" src="https://eshopfile.zhiyousx.com/171825167588113676.png"></image>
+            <view bindtap="__e" class="shop-header-right data-v-8a49c06c" data-event-opts="{{[ [ 'tap',[ ['goShopList'] ] ] ]}}">查看全部<image class="data-v-8a49c06c" src="/static/captured/7abfd6192206038e.png"></image>
             </view>
         </view>
         <view bindtap="__e" class="shop-body data-v-8a49c06c" data-event-opts="{{[ [ 'tap',[ [ 'goShopList',[1] ] ] ] ]}}" wx:if="{{info.verifyNum}}">已经去过<text class="data-v-8a49c06c">{{info.verifyNum||'0'}}</text>
-            <image class="data-v-8a49c06c" src="https://eshopfile.zhiyousx.com/2023102614083173967.png"></image>
+            <image class="data-v-8a49c06c" src="/static/captured/89c4bac08bebdaed.png"></image>
         </view>
     </view>
     <view class="owner data-v-8a49c06c" wx:if="{{hasUserInfo}}">
@@ -32,17 +32,17 @@
         <view class="owner-info data-v-8a49c06c">
             <view class="line data-v-8a49c06c" wx:if="{{getInfo.cardholderName}}">
                 <view class="label data-v-8a49c06c">姓名</view>
-                <view class="info data-v-8a49c06c">{{''+getInfo.cardholderName+''}}<image bindtap="__e" class="icon data-v-8a49c06c" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" src="{{!isShowAll?'https://eshopfile.zhiyousx.com/168492134271144514.png':'https://eshopfile.zhiyousx.com/168492259404793104.png'}}"></image>
+                <view class="info data-v-8a49c06c">{{''+getInfo.cardholderName+''}}<image bindtap="__e" class="icon data-v-8a49c06c" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" src="{{!isShowAll?'/static/captured/522f50b3281db509.png':'/static/captured/6989ca664d2f4eeb.png'}}"></image>
                 </view>
             </view>
             <view class="line data-v-8a49c06c" wx:if="{{getInfo.cardholderIdCard}}">
                 <view class="label data-v-8a49c06c">身份证</view>
-                <view class="info data-v-8a49c06c">{{''+getInfo.cardholderIdCard+''}}<image bindtap="__e" class="icon data-v-8a49c06c" data-event-opts="{{[ [ 'tap',[ [ 'e1',['$event'] ] ] ] ]}}" src="{{!isShowAll?'https://eshopfile.zhiyousx.com/168492134271144514.png':'https://eshopfile.zhiyousx.com/168492259404793104.png'}}" wx:if="{{!getInfo.cardholderName}}"></image>
+                <view class="info data-v-8a49c06c">{{''+getInfo.cardholderIdCard+''}}<image bindtap="__e" class="icon data-v-8a49c06c" data-event-opts="{{[ [ 'tap',[ [ 'e1',['$event'] ] ] ] ]}}" src="{{!isShowAll?'/static/captured/522f50b3281db509.png':'/static/captured/6989ca664d2f4eeb.png'}}" wx:if="{{!getInfo.cardholderName}}"></image>
                 </view>
             </view>
             <view class="line data-v-8a49c06c" wx:if="{{getInfo.cardholderMobile}}">
                 <view class="label data-v-8a49c06c">手机号</view>
-                <view class="info data-v-8a49c06c">{{''+getInfo.cardholderMobile+''}}<image bindtap="__e" class="icon data-v-8a49c06c" data-event-opts="{{[ [ 'tap',[ [ 'e2',['$event'] ] ] ] ]}}" src="{{!isShowAll?'https://eshopfile.zhiyousx.com/168492134271144514.png':'https://eshopfile.zhiyousx.com/168492259404793104.png'}}" wx:if="{{!getInfo.cardholderName&&!getInfo.cardholderIdCard}}"></image>
+                <view class="info data-v-8a49c06c">{{''+getInfo.cardholderMobile+''}}<image bindtap="__e" class="icon data-v-8a49c06c" data-event-opts="{{[ [ 'tap',[ [ 'e2',['$event'] ] ] ] ]}}" src="{{!isShowAll?'/static/captured/522f50b3281db509.png':'/static/captured/6989ca664d2f4eeb.png'}}" wx:if="{{!getInfo.cardholderName&&!getInfo.cardholderIdCard}}"></image>
                 </view>
             </view>
         </view>

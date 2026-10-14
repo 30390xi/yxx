@@ -1,0 +1,23 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "2002930242182897666",
+      "resourcesId": "1322007495697522690",
+      "title": "壶口瀑布",
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2021083016550022623.mp4",
+      "coverImage": "https://eshopfile.zhiyousx.com/163031369244057208.jpg",
+      "videoId": null,
+      "resourcesType": 2,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2025-12-22 10:32:37",
+      "updateTime": "2025-12-22 10:32:37",
+      "createBy": "1376477871874289666",
+      "updateBy": "1376477871874289666",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

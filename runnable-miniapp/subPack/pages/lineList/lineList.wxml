@@ -11,7 +11,7 @@
         </view>
         <view class="{{['tb-m','data-v-670ea8a9',scrollTop>0?'tbms':'',showPop?'tbmP':'']}}">
             <view class="tb-mb data-v-670ea8a9">
-                <view bindtap="__e" class="{{['it','data-v-670ea8a9',opt.num>0||popType==opt.type&&showPop||opt.type==1?'actColor':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'showPopType',['$0'],[ [ ['options2','',__i1__] ] ] ] ] ] ]}}" wx:for="{{options2}}" wx:for-index="__i1__" wx:for-item="opt">{{''+opt.name+''}}<image mode class="icon-box data-v-670ea8a9" src="https://eshopfile.zhiyousx.com/2023092010120621955.png" wx:if="{{showPop&&popType==opt.type}}"></image>
+                <view bindtap="__e" class="{{['it','data-v-670ea8a9',opt.num>0||popType==opt.type&&showPop||opt.type==1?'actColor':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'showPopType',['$0'],[ [ ['options2','',__i1__] ] ] ] ] ] ]}}" wx:for="{{options2}}" wx:for-index="__i1__" wx:for-item="opt">{{''+opt.name+''}}<image mode class="icon-box data-v-670ea8a9" src="/static/captured/d00499b4630a7b61.png" wx:if="{{showPop&&popType==opt.type}}"></image>
                     <block wx:else>
                         <view class="select-box data-v-670ea8a9" wx:if="{{opt.num>0}}">
                             <block wx:if="{{opt.type!==1}}">{{opt.num}}</block>
@@ -132,7 +132,7 @@
             </view>
         </view>
         <view class="empty data-v-670ea8a9" wx:if="{{$root.g2}}">
-            <empty-state bind:__l="__l" class="data-v-670ea8a9" imgUrl="https://eshopfile.zhiyousx.com/noOrder@2x.png" text="暂无产品" vueId="e9b4fa54-3"></empty-state>
+            <empty-state bind:__l="__l" class="data-v-670ea8a9" imgUrl="/static/captured/8967f3ec41c22eab.png" text="暂无产品" vueId="e9b4fa54-3"></empty-state>
         </view>
         <view class="loadMore data-v-670ea8a9" wx:else>
             <u-loadmore bgColor="#f7f7f7" bind:__l="__l" class="data-v-670ea8a9" color="#ccc" iconColor="#ccc" status="{{loadMore}}" vueId="e9b4fa54-4"></u-loadmore>

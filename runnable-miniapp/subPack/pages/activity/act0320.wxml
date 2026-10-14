@@ -1,8 +1,8 @@
 <view class="groupAct data-v-74c2bbed">
     <uni-navbar bind:__l="__l" class="data-v-74c2bbed" type="transparentFixed" vueId="664fe4e4-1"></uni-navbar>
     <view class="imgbox data-v-74c2bbed">
-        <image class="top-bg data-v-74c2bbed" mode="widthFix" src="https://eshopfile.zhiyousx.com/2023032218445712781.jpg"></image>
-        <image class="codeBg data-v-74c2bbed" mode="widthFix" src="https://eshopfile.zhiyousx.com/2023032110265421256.jpg"></image>
+        <image class="top-bg data-v-74c2bbed" mode="widthFix" src="/static/captured/55265982e9edd34e.jpg"></image>
+        <image class="codeBg data-v-74c2bbed" mode="widthFix" src="/static/captured/353ffbe96cbeff74.jpg"></image>
         <view class="infobox1 data-v-74c2bbed">
             <view class="content data-v-74c2bbed">
                 <text bindtap="__e" class="rule data-v-74c2bbed" data-event-opts="{{[ [ 'tap',[ [ 'toRule',['$event'] ] ] ] ]}}">规则详情></text>
@@ -18,7 +18,7 @@
                 </view>
                 <view class="input-box data-v-74c2bbed">
                     <view bindtap="__e" class="notice data-v-74c2bbed" data-event-opts="{{[ [ 'tap',[ [ 'openBoard',['$event'] ] ] ] ]}}">
-                        <image class="hand data-v-74c2bbed" mode="widthFix" src="https://eshopfile.zhiyousx.com/2023032218453158101.png"></image>点击输入车牌</view>
+                        <image class="hand data-v-74c2bbed" mode="widthFix" src="/static/captured/d8c91a17fcf9c2b7.png"></image>点击输入车牌</view>
                     <view bindtap="__e" class="confirmbtn data-v-74c2bbed" data-event-opts="{{[ [ 'tap',[ [ 'testCode',['$event'] ] ] ] ]}}">确定</view>
                 </view>
                 <view class="couponbox data-v-74c2bbed">
@@ -32,7 +32,7 @@
             </view>
         </view>
     </view>
-    <image class="codeBg data-v-74c2bbed" mode="widthFix" src="https://eshopfile.zhiyousx.com/2023032118242369087.jpg"></image>
+    <image class="codeBg data-v-74c2bbed" mode="widthFix" src="/static/captured/bce6674a3862bb5e.jpg"></image>
     <view class="swiperFlexBox data-v-74c2bbed">
         <view bindtap="__e" class="swiperBox data-v-74c2bbed" data-event-opts="{{[ [ 'tap',[ [ 'routerTo',['$0'],[ [ ['pictures','',__i1__,'target'] ] ] ] ] ] ]}}" wx:for="{{pictures}}" wx:for-index="__i1__">
             <view bindtap="__e" class="swiper data-v-74c2bbed" data-event-opts="{{[ [ 'tap',[ [ 'routerTo',['$0'],[ [ ['pictures','',__i1__,'target'] ] ] ] ] ] ]}}">
@@ -42,6 +42,6 @@
             <view class="todetail data-v-74c2bbed"></view>
         </view>
     </view>
-    <image class="codeBg data-v-74c2bbed" mode="widthFix" src="https://eshopfile.zhiyousx.com/2023032112164369399.jpg"></image>
+    <image class="codeBg data-v-74c2bbed" mode="widthFix" src="/static/captured/786b9b26c1b4d517.jpg"></image>
     <u-keyboard bind:__l="__l" bind:backspace="__e" bind:change="__e" bind:input="__e" cancelText="收起" class="data-v-74c2bbed vue-ref" data-event-opts="{{[ [ '^backspace',[ ['backspace'] ] ],[ '^change',[ ['valChange'] ] ],[ '^input',[ [ '__set_model',[ '','showCarBoard','$event',[] ] ] ] ] ]}}" data-ref="uKeyboard" mask="{{false}}" mode="car" safeAreaInsetBottom="{{true}}" tips="车牌号" value="{{showCarBoard}}" vueId="664fe4e4-3"></u-keyboard>
 </view>

@@ -1,0 +1,184 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941169",
+    "scenicName": "南宫山景区",
+    "tag": "云中净土，世间桃源",
+    "level": 4,
+    "address": "安康市岚皋县南宫山镇宏大村",
+    "longitude": "109.064999",
+    "latitude": "32.281623",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#00924F",
+    "centralColour": "#007841",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/南宫山-20201030143711.jpg"
+    ],
+    "introduction": "<p>　　南宫山景区位于陕西省岚皋县境内，是国家AAAA级景区、国家级森林公园、国家级地质公园，享有&ldquo;云中净土，世间桃源&rdquo;的美誉。南宫山是陕西拜佛、陕西旅游的绝佳去处，是西部最理想的度假休闲胜地。高僧宏一大师在金顶圆寂百年真身不腐，世人称奇。北宋靖康年间（公元1126年），朝廷在此修建行宫，名曰&ldquo;南宫&rdquo;，遂有&ldquo;南宫山&rdquo;之称。至清代逐渐演变成佛教胜地。</p>",
+    "introductionText": "　　南宫山景区位于陕西省岚皋县境内，是国家AAAA级景区、国家级森林公园、国家级地质公园，享有“云中净土，世间桃源”的美誉。南宫山是陕西拜佛、陕西旅游的绝佳去处，是西部最理想的度假休闲胜地。高僧宏一大师在金顶圆寂百年真身不腐，世人称奇。北宋靖康年间（公元1126年），朝廷在此修建行宫，名曰“南宫”，遂有“南宫山”之称。至清代逐渐演变成佛教胜地。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": null,
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "官方电话",
+        "telephone": "0915-2510007"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2082012075843051522",
+        "resourcesId": "1322065032903942145",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/南宫山1-20201030143644.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-07-28 15:55:35",
+        "updateTime": "2026-07-28 15:55:35",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082012075843051523",
+        "resourcesId": "1322065032903942145",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/南宫山2-20201030143701.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-07-28 15:55:35",
+        "updateTime": "2026-07-28 15:55:35",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455799129627271170",
+      "rankingId": null,
+      "indexInRanking": 6,
+      "rankingName": "安康必逛景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

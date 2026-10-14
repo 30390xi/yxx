@@ -27,9 +27,9 @@
     </view>
     <view class="date data-v-4b81d6b7">
         <view class="date-title data-v-4b81d6b7">
-            <image class="date-icon data-v-4b81d6b7" mode="aspectFill" src="https://eshopfile.zhiyousx.com/169707731351900004.png"></image>
+            <image class="date-icon data-v-4b81d6b7" mode="aspectFill" src="/static/captured/d0cc56dbea42900e.png"></image>
             <view class="text _p data-v-4b81d6b7">他的团期</view>
-            <image class="date-icon data-v-4b81d6b7" mode="aspectFill" src="https://eshopfile.zhiyousx.com/169707714305384722.png"></image>
+            <image class="date-icon data-v-4b81d6b7" mode="aspectFill" src="/static/captured/f4971c1f4e5e7c23.png"></image>
         </view>
         <view class="date-list data-v-4b81d6b7">
             <view bindtap="__e" class="{{['goods-item','data-v-4b81d6b7',!item.$orig.stockStatus||item.$orig.sellOut?'disable':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'goGoodInfo',['$0','$1'],[ [ ['productList','',index,'productId'] ],[ ['productList','',index] ] ] ] ] ] ]}}" wx:for="{{$root.l0}}" wx:key="index">
@@ -51,7 +51,7 @@
                 </view>
             </view>
             <view class="empty data-v-4b81d6b7" wx:if="{{$root.g0}}">
-                <empty-state bind:__l="__l" class="data-v-4b81d6b7" imgUrl="https://eshopfile.zhiyousx.com/noOrder@2x.png" text="暂无产品" vueId="556faa0c-1"></empty-state>
+                <empty-state bind:__l="__l" class="data-v-4b81d6b7" imgUrl="/static/captured/8967f3ec41c22eab.png" text="暂无产品" vueId="556faa0c-1"></empty-state>
             </view>
             <view class="loadMore data-v-4b81d6b7" wx:else>
                 <u-loadmore bgColor="#f7f7f7" bind:__l="__l" class="data-v-4b81d6b7" color="#ccc" iconColor="#ccc" status="{{loadMore}}" vueId="556faa0c-2"></u-loadmore>

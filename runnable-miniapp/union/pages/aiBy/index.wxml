@@ -11,24 +11,24 @@
         <view class="menuBox data-v-0a4b676a" style="transform:scaleY(-1);" wx:if="{{!infos.cityId&&!infos.multiLanguageCityId}}">
             <view class="header-section data-v-0a4b676a">
                 <view class="header-logo data-v-0a4b676a">
-                    <image class="header-icon data-v-0a4b676a" src="https://eshopfile.zhiyousx.com/176958773997727947.gif" wx:if="{{!isPlayIngDefault}}"></image>
-                    <image class="header-icon data-v-0a4b676a" src="https://eshopfile.zhiyousx.com/176958780798329730.gif" wx:if="{{isPlayIngDefault}}"></image>
+                    <image class="header-icon data-v-0a4b676a" src="/static/captured/124e15bf2143f27e.gif" wx:if="{{!isPlayIngDefault}}"></image>
+                    <image class="header-icon data-v-0a4b676a" src="/static/captured/4006c80d728fd19b.gif" wx:if="{{isPlayIngDefault}}"></image>
                 </view>
                 <view class="header-content data-v-0a4b676a">
-                    <view class="header-nav-item1 data-v-0a4b676a">{{$root.m1+''}}<image class="header-nav-icon data-v-0a4b676a" src="https://eshopfile.zhiyousx.com/176958794459960221.png"></image>
+                    <view class="header-nav-item1 data-v-0a4b676a">{{$root.m1+''}}<image class="header-nav-icon data-v-0a4b676a" src="/static/captured/54240c45c97df3dc.png"></image>
                     </view>
                     <view class="header-nav-item2 data-v-0a4b676a">{{$root.m2}}</view>
                 </view>
             </view>
             <view bindtap="__e" class="container-b data-v-0a4b676a" data-event-opts="{{[ [ 'tap',[ [ 'togglePlay',['$event'] ] ] ] ]}}">
                 <view class="item-b item-b1 data-v-0a4b676a" wx:if="{{!isPlayIngDefault}}">
-                    <image alt class="item-icon data-v-0a4b676a" src="https://eshopfile.zhiyousx.com/176966891639156328.png"></image>{{''+$root.m3+''}}</view>
+                    <image alt class="item-icon data-v-0a4b676a" src="/static/captured/fe36381ce83f891e.png"></image>{{''+$root.m3+''}}</view>
                 <view class="item-b item-b2 data-v-0a4b676a" wx:else>
-                    <image alt class="item-icon data-v-0a4b676a" src="https://eshopfile.zhiyousx.com/176966894441482348.png"></image>{{''+$root.m4+''}}</view>
+                    <image alt class="item-icon data-v-0a4b676a" src="/static/captured/abd5dae0d6a0bead.png"></image>{{''+$root.m4+''}}</view>
             </view>
             <view class="you-may-ask data-v-0a4b676a">
                 <view class="ask-title _div data-v-0a4b676a">
-                    <image alt class="ask-icon data-v-0a4b676a" src="https://eshopfile.zhiyousx.com/176967794231477825.png"></image>{{''+$root.m5+''}}</view>
+                    <image alt class="ask-icon data-v-0a4b676a" src="/static/captured/71c871b58739b64e.png"></image>{{''+$root.m5+''}}</view>
                 <view class="ask-item-box _div data-v-0a4b676a">
                     <view bindtap="__e" class="ask-item _div data-v-0a4b676a" data-event-opts="{{[ [ 'tap',[ [ 'askAgainFun',['$0'],[ [ ['askList','',index,'title'] ] ] ] ] ] ]}}" wx:for="{{askList}}" wx:key="index">{{''+item.title+''}}</view>
                 </view>

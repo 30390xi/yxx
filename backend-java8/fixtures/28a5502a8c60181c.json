@@ -1,0 +1,409 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064595111938",
+    "scenicName": "杨家沟革命旧址",
+    "tag": "中国革命从这里走向胜利",
+    "level": -1,
+    "cityId": "1320664225474195458",
+    "cityName": "榆林",
+    "address": "榆林市米脂县杨家沟扶风寨",
+    "longitude": "110.3364980000",
+    "latitude": "37.7641030000",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 203,
+    "topColour": "#97B2D1",
+    "centralColour": "#448ED4",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021062910491817769.jpg"
+    ],
+    "introduction": "<p>　　杨家沟是党中央毛主席转战陕北时期居住时间最长、从事革命活动最多的地方。1947年11月22日，毛泽东、周恩来、任弼时率领代号为&ldquo;亚洲部&rdquo;的中共中央机关和中国人民解放军总部来到杨家沟，亲自领导和指挥了西北战场和全国的解放战争，召开了著名的&ldquo;十二月会议&rdquo;，从事了重要的理论研究工作，领导开展了全国土地改革运动。杨家沟是中共中央转战陕北取得光辉胜利的标志点，是离开陕北走向全国胜利的出发点。此外，杨家沟村还是陕北最大的地主庄园群，其中扶风寨将西方建筑风格和陕北窑洞文化巧妙融汇，珠联璧合，堪称中华民族窑洞建筑之瑰宝，为全国重点文物保护单位、中国历史文化名村、全国爱国主义教育基地。</p>",
+    "introductionText": "　　杨家沟是党中央毛主席转战陕北时期居住时间最长、从事革命活动最多的地方。1947年11月22日，毛泽东、周恩来、任弼时率领代号为“亚洲部”的中共中央机关和中国人民解放军总部来到杨家沟，亲自领导和指挥了西北战场和全国的解放战争，召开了著名的“十二月会议”，从事了重要的理论研究工作，领导开展了全国土地改革运动。杨家沟是中共中央转战陕北取得光辉胜利的标志点，是离开陕北走向全国胜利的出发点。此外，杨家沟村还是陕北最大的地主庄园群，其中扶风寨将西方建筑风格和陕北窑洞文化巧妙融汇，珠联璧合，堪称中华民族窑洞建筑之瑰宝，为全国重点文物保护单位、中国历史文化名村、全国爱国主义教育基地。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "18",
+        "name": "红色旅游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026361102337",
+        "contentId": "1418152026344325122",
+        "name": "全国红色旅游经典景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026461765634",
+        "contentId": "1418152026449182722",
+        "name": "全国爱国主义教育示范基地",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全天免费开放",
+        "openTimeContent": "08:00-17:00,17:00停止入场<br/>建议游览时长约1-2小时"
+      }
+    ],
+    "discountVoList": null,
+    "facilitiesServicesVoList": [
+      {
+        "id": "11",
+        "name": "餐厅",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (22).png",
+        "tagType": null,
+        "parentId": null,
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "6",
+        "name": "免费wifi",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (11).png",
+        "tagType": null,
+        "parentId": null,
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": null,
+        "parentId": null,
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "61",
+        "name": "讲解员",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016440410223.png",
+        "tagType": null,
+        "parentId": null,
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "讲解员服务",
+        "additionalExplainContent": "100人（含100）100元/批"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>在米脂县乘班车在杨家沟下车，可打车或步行爬上半山。</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "咨询电话",
+        "telephone": "0912-6332180"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "榆林杨家沟革命纪念馆",
+        "wxSubscription": "gh_79b5636d416d"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "1418418720702754818",
+        "outId": "1320579064595111938",
+        "type": 1,
+        "advertName": "榆林红色革命教育基地巡礼第1站",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021062911572486309.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: center;\"><strong><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062911590168943.jpg\" /></strong></p>\n<p><span style=\"color: #ff0000;\"><strong>杨家沟革命旧址</strong></span></p>\n<p>　　杨家沟是党中央毛主席转战陕北时期居住时间最长、从事革命活动最多的地方。1947年11月22日，毛泽东、周恩来、任弼时率领代号为&ldquo;亚洲部&rdquo;的中共中央机关和中国人民解放军总部来到杨家沟，亲自领导和指挥了西北战场和全国的解放战争，召开了著名的&ldquo;十二月会议&rdquo;，从事了重要的理论研究工作，领导开展了全国土地改革运动。杨家沟是中共中央转战陕北取得光辉胜利的标志点，是离开陕北走向全国胜利的出发点。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062911580492353.jpg\" /></p>\n<p><span style=\"color: #ff0000;\"><strong>十二月会议</strong></span></p>\n<p>　　1947年12月25日至28日，毛泽东、周恩来、任弼时等领导共同在这里主持召开了具有划时代意义的中共中央工作会议，简称&ldquo;十二月会议&rdquo;，彭德怀、林伯渠、叶剑英、杨尚昆、贺龙、陈毅、陆定一、胡乔木、习仲勋等领导以及晋绥边区的负责同志共20多人参加了会议。会议分两个阶段进行，1947年12月7日至24日为预备会，分政治、军事和土地改革三个小组进行讨论。据说，时任中共中央西北局书记、西北野战军副政委习仲勋根据他在陕北多年的工作经验，在政治、军事、经济，尤其是就土地改革等方面向中央提出了宝贵的建议，受到毛泽东的高度赞扬，并积极采纳。毛泽东在这个会议上作了题目为《目前形势和我们的任务》的重要报告，报告一开始就指出：&ldquo;中国人民的革命战争，现在已经达到了一个转折点，这是一个历史的转折点，这是蒋介石的二十年反革命统治由发展到消灭的转折点，这是一百多年来帝国主义在中国由发展到消灭的转折点。这是一个伟大的事变。&rdquo;报告最后向全党发出了伟大的号召：曙光就在前面，我们应当努力！</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062912024293724.jpg\" /></p>\n<p><span style=\"color: #ff0000;\"><strong>毛主席立规矩</strong></span></p>\n<p>　　1947年12月26日，也就是&ldquo;十二月会议&rdquo;召开的第二天，大家都知道今天是毛主席的生日，有人提议要给主席做寿，同时庆祝一下全国的战争形势已由战略防御转向战略反攻，解放全中国指日可待。毛主席知道后马上制止，对大家说：&ldquo;为了全国的解放事业，前方战士还在流血牺牲，陕北的老百姓为了支援前线，连饭都吃不上，我们却在这里搞祝寿，这不是让我脱离群众吗？就是全国解放了也不要做寿！ 今天我就给大家定一条规矩：凡是共产党人今后永远不做寿。&rdquo;据说当天的两顿饭主席吃的是米饭、素菜。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062912034401025.jpg\" /></p>\n<p><span style=\"color: #ff0000;\"><strong>毛主席的节俭</strong></span></p>\n<p>　　毛主席的节俭，以及对自己和家人的严格要求，在杨家沟传为佳话。当年毛主席来到杨家沟的时候，他的女儿李纳仅有七八岁。由于生活极度简朴，体质虚弱的小李纳走路都有气无力，有一次，中央机关工作人员带着小李纳在沟底看斗地主，回来走在半山坡跌倒在地怎么也站不起来，事后，工作人员就向主席建议,说小李纳的伙食太差，严重营养不良，已经影响到身体的正常发育，让李纳上中央的小灶吃饭。主席听后半晌不语，然后缓缓地说：&ldquo;现在全国都处在非常困难时期，前方战士打仗流血也很难吃上一顿饱饭，广大劳动人民为了支援前线，种的粮食自己都舍不得吃，颗粒不剩的缴了公粮，自己却挖苦菜，吃树皮，还有这么多中央领导的小孩都能挺过来，我毛泽东的女儿就要搞特殊吗？这是坚决不行地！&rdquo;</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062912055943282.jpg\" /></p>\n<p><span style=\"color: #ff0000;\"><strong>杨家沟是个好地方</strong></span>　　</p>\n<p>　　1948年3月21日，毛泽东率领中共中央机关离开了杨家沟。据王淑珍回忆：&ldquo;那天早晨，父亲对我们说，毛主席今天要离开杨家沟，去解放全中国，孩子们都去送主席吧。我们来到扶风寨山下，看到毛主席从扶风寨的石道上一步步走下来，村沟里挤满了送行的人群，主席没有上马，一直和乡亲们步行走到村口，恋恋不舍地和大家握手，临别时深情地说，杨家沟是个好地方！&rdquo;毛主席离开了杨家沟，离开了陕北，经吴堡川口东渡黄河到西柏坡，从此踏上了解放全中国的胜利大道。所以说：杨家沟是中国共产党转战陕北的结束地，是中国革命由防向攻的转折地，是走向全国胜利的出发地，是中国革命的里程碑！</p>\n<p>&nbsp;</p>\n<p>（本文来源/米脂新闻网）</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": "重点推荐",
+    "contentResourcesDtoList": [
+      {
+        "id": "1418418720677588993",
+        "resourcesId": "1409715468125704193",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062910545702212.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2021-07-23 11:52:30",
+        "updateTime": "2021-07-23 11:52:30",
+        "createBy": "1290153639661703170",
+        "updateBy": "1290153639661703170",
+        "isDeleted": 0
+      },
+      {
+        "id": "1418418720681783298",
+        "resourcesId": "1409715468125704193",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062910552965516.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2021-07-23 11:52:30",
+        "updateTime": "2021-07-23 11:52:30",
+        "createBy": "1290153639661703170",
+        "updateBy": "1290153639661703170",
+        "isDeleted": 0
+      },
+      {
+        "id": "1418418720681783299",
+        "resourcesId": "1409715468125704193",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062910580121120.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2021-07-23 11:52:30",
+        "updateTime": "2021-07-23 11:52:30",
+        "createBy": "1290153639661703170",
+        "updateBy": "1290153639661703170",
+        "isDeleted": 0
+      },
+      {
+        "id": "1418418720685977602",
+        "resourcesId": "1409715468125704193",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062910592960092.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2021-07-23 11:52:30",
+        "updateTime": "2021-07-23 11:52:30",
+        "createBy": "1290153639661703170",
+        "updateBy": "1290153639661703170",
+        "isDeleted": 0
+      },
+      {
+        "id": "1418418720685977603",
+        "resourcesId": "1409715468125704193",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062910582476882.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2021-07-23 11:52:30",
+        "updateTime": "2021-07-23 11:52:30",
+        "createBy": "1290153639661703170",
+        "updateBy": "1290153639661703170",
+        "isDeleted": 0
+      },
+      {
+        "id": "1418418720690171906",
+        "resourcesId": "1409715468125704193",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062911001041399.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2021-07-23 11:52:30",
+        "updateTime": "2021-07-23 11:52:30",
+        "createBy": "1290153639661703170",
+        "updateBy": "1290153639661703170",
+        "isDeleted": 0
+      },
+      {
+        "id": "1418418720690171907",
+        "resourcesId": "1409715468125704193",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062911002401987.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2021-07-23 11:52:30",
+        "updateTime": "2021-07-23 11:52:30",
+        "createBy": "1290153639661703170",
+        "updateBy": "1290153639661703170",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455743348567547905",
+      "rankingId": null,
+      "indexInRanking": 7,
+      "rankingName": " 榆林必逛景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": [
+      {
+        "id": "1458481948916785154",
+        "scenicSpotId": "1320579064595111938",
+        "contentModuleName": "重点推荐",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1409722297782210562",
+            "type": 5,
+            "title": "革命家旧居",
+            "subtitle": "中西建筑风格结合典范",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062915152662613.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1409768588805509122",
+            "type": 5,
+            "title": "十二月会议旧址",
+            "subtitle": "中国革命历史转折关头的重要会议",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062915120916891.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1409771042209107969",
+            "type": 5,
+            "title": "毛主席转战陕北纪念馆",
+            "subtitle": "代号“昆仑纵队”",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062915034532734.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": null,
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "scenicInfoTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": 0,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": null,
+    "hotelArrivalDepartureTime": null,
+    "hotelChildrenBed": null,
+    "hotelPet": null,
+    "hotelBreakfast": null,
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,525 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941175",
+    "scenicName": "西安半坡博物馆",
+    "tag": "感受新石器时代的仰韶文化",
+    "level": 4,
+    "address": "西安市灞桥区半坡路155号",
+    "longitude": "109.0576910242",
+    "latitude": "34.2791502451",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#83796E",
+    "centralColour": "#6D6359",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021083011591605974.png"
+    ],
+    "introduction": "<p>&nbsp; &nbsp; &nbsp;西安半坡博物馆，位于陕西省西安市东郊浐河东岸、半坡村北。半坡遗址1953年春被发现，1958年正式对外开放。半坡博物馆是国家一级博物馆、中国第一座史前遗址博物馆、首批全国重点文物保护单位，首批&ldquo;百个爱国主义教育示范基地&rdquo;，&ldquo;西安旅游十大景点&rdquo;之一，&ldquo;中国最值得外国人去的50个地方&rdquo;之一。半坡遗址揭示了距今大约6000多年前的一处典型的新石器时代仰韶文化母系氏族聚落的社会组织、生产生活、经济形态、婚姻状况、风俗习惯、文化艺术等丰富的文化内涵。</p>\n<p>&nbsp;</p>",
+    "introductionText": "     西安半坡博物馆，位于陕西省西安市东郊浐河东岸、半坡村北。半坡遗址1953年春被发现，1958年正式对外开放。半坡博物馆是国家一级博物馆、中国第一座史前遗址博物馆、首批全国重点文物保护单位，首批“百个爱国主义教育示范基地”，“西安旅游十大景点”之一，“中国最值得外国人去的50个地方”之一。半坡遗址揭示了距今大约6000多年前的一处典型的新石器时代仰韶文化母系氏族聚落的社会组织、生产生活、经济形态、婚姻状况、风俗习惯、文化艺术等丰富的文化内涵。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026461765634",
+        "contentId": "1418152026449182722",
+        "name": "全国爱国主义教育示范基地",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026327547906",
+        "contentId": "1418152026310770690",
+        "name": "国家一级博物馆",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "<section>\n<p>尊敬的游客朋友们：</p>\n<p>　　2026年&ldquo;中秋、国庆&rdquo;假期将至，为更好满足公众参观需求，西安半坡博物馆将实行延时开放，具体时间安排如下：</p>\n<p>　　9月25日&mdash;9月27日及10月1日&mdash;10月7日期间，每日延时开放1小时，开放时间为8:00-18:30（18:00停止检票）。</p>\n<p>　　欢迎您踏访这座史前聚落遗址博物馆，感受六千年前文明火种的独特魅力。感谢您对西安半坡博物馆的关注与支持！</p>\n<p>&nbsp;</p>\n<p style=\"text-align: right;\">西安半坡博物馆</p>\n<p style=\"text-align: right;\">2026年9月20日</p>\n</section>",
+    "discountVoList": [
+      {
+        "peopleType": "未成年人",
+        "limit": "未满18周岁的中国公民凭有效身份证件，免费参观(14周岁以下的未成年人入馆参观须有成年人陪护，1名成年人最多可带3名14周岁以下的未成年人)。",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "大、中、小学学生集体参观",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "港澳台等地区青少年",
+        "limit": "凭《港澳居民来往内地通行证》、《台湾居民来往大陆通行证》或学生证等有效身份证",
+        "discount": "享受与内地青少年同等的优惠政策。"
+      },
+      {
+        "peopleType": "现役军人及军队离退休干部",
+        "limit": "军人证、现役证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "残疾者",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "65周岁及以上老年人",
+        "limit": "有效证件",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "现役军人本人所携的配偶及18周岁以下未成年子 女",
+        "limit": "凭结婚证、户口本等有效证件",
+        "discount": "免费"
+      }
+    ],
+    "officialWebsite": [
+      "https://bpmuseum.com/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "投诉电话",
+        "telephone": "029-62815385"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": "馆藏文物",
+    "contentResourcesDtoList": [
+      {
+        "id": "2102292511096111106",
+        "resourcesId": "1424627813608112129",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021083011553718602.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-09-22 15:02:48",
+        "updateTime": "2026-09-22 15:02:48",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102292511100305410",
+        "resourcesId": "1424627813608112129",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021083014591796109.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-09-22 15:02:48",
+        "updateTime": "2026-09-22 15:02:48",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102292511104499714",
+        "resourcesId": "1424627813608112129",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021083011571131251.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-09-22 15:02:48",
+        "updateTime": "2026-09-22 15:02:48",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102292511104499715",
+        "resourcesId": "1424627813608112129",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021083011570177631.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-09-22 15:02:48",
+        "updateTime": "2026-09-22 15:02:48",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102292511108694018",
+        "resourcesId": "1424627813608112129",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021083011555993083.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2026-09-22 15:02:48",
+        "updateTime": "2026-09-22 15:02:48",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102292511112888322",
+        "resourcesId": "1424627813608112129",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021083011561677163.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2026-09-22 15:02:48",
+        "updateTime": "2026-09-22 15:02:48",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102292511117082626",
+        "resourcesId": "1424627813608112129",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021083011555074786.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2026-09-22 15:02:48",
+        "updateTime": "2026-09-22 15:02:48",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102292511117082627",
+        "resourcesId": "1424627813608112129",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021083011563912376.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2026-09-22 15:02:48",
+        "updateTime": "2026-09-22 15:02:48",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102292511121276930",
+        "resourcesId": "1424627813608112129",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021083011565005905.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": null,
+        "createTime": "2026-09-22 15:02:48",
+        "updateTime": "2026-09-22 15:02:48",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102292511121276931",
+        "resourcesId": "1424627813608112129",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021083011562557026.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": null,
+        "createTime": "2026-09-22 15:02:48",
+        "updateTime": "2026-09-22 15:02:48",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102292511125471233",
+        "resourcesId": "1424627813608112129",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021083014593032880.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 11,
+        "describe": null,
+        "createTime": "2026-09-22 15:02:48",
+        "updateTime": "2026-09-22 15:02:48",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102292511129665538",
+        "resourcesId": "1424627813608112129",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021083011560887763.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 12,
+        "describe": null,
+        "createTime": "2026-09-22 15:02:48",
+        "updateTime": "2026-09-22 15:02:48",
+        "createBy": "2084886097632034818",
+        "updateBy": "2084886097632034818",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1439119981701840898",
+      "rankingId": null,
+      "indexInRanking": 7,
+      "rankingName": "陕西人气博物馆排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1658303499793903618",
+        "rankingId": "1658303501412904962",
+        "indexInRanking": null,
+        "rankingName": "历史文化类博物馆人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1680835374538088449",
+        "rankingId": "1680835375632801794",
+        "indexInRanking": null,
+        "rankingName": "陕西省热搜50强博物馆排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1676883692355641345",
+        "rankingId": "1676883693114810370",
+        "indexInRanking": null,
+        "rankingName": "西安热门景区人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "2102292511142248449",
+        "scenicSpotId": "1320579064720941175",
+        "contentModuleName": "馆藏文物",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1432168976003215362",
+            "type": 5,
+            "title": "人面网纹盆",
+            "subtitle": "镇馆之宝",
+            "coverImage": "https://eshopfile.zhiyousx.com/163029031347964751.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1424642358791684097",
+            "type": 5,
+            "title": "人面鱼纹盆",
+            "subtitle": "记录千年前神秘的时代",
+            "coverImage": "https://eshopfile.zhiyousx.com/163028687723959455.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1432229751065522178",
+            "type": 5,
+            "title": "红陶人头壶",
+            "subtitle": "仰韶文化的“活化石”",
+            "coverImage": "https://eshopfile.zhiyousx.com/163030418727909219.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1424643080602042369",
+            "type": 5,
+            "title": "小口尖底瓶",
+            "subtitle": "千年酒史最好的见证者",
+            "coverImage": "https://eshopfile.zhiyousx.com/163029097012441228.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1432181165556609026",
+            "type": 5,
+            "title": "鱼纹彩陶盆",
+            "subtitle": "记载千年文明",
+            "coverImage": "https://eshopfile.zhiyousx.com/163029325037454010.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1432184792706822145",
+            "type": 5,
+            "title": "翁棺群",
+            "subtitle": "儿童温暖的家",
+            "coverImage": "https://eshopfile.zhiyousx.com/163029443335335307.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1432254065739411457",
+            "type": 5,
+            "title": "半地穴式房子遗迹",
+            "subtitle": "六千年前的住所",
+            "coverImage": "https://eshopfile.zhiyousx.com/163031074544961272.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1435440552089858050",
+            "type": 5,
+            "title": "陶塑人头像",
+            "subtitle": "像表情包一样的文物",
+            "coverImage": "https://eshopfile.zhiyousx.com/163107052125355679.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": "2026年“中秋”“国庆”假期开放公告",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -11,7 +11,7 @@
                     </view>
                     <view class="data-v-0ddee56c">
                         <view class="desc-tag data-v-0ddee56c">最多可省</view>
-                        <view bindtap="__e" class="desc data-v-0ddee56c" data-event-opts="{{[ [ 'tap',[ [ 'emitCalculator',['$0'],[ [ ['list','',index] ] ] ] ] ] ]}}">{{item.cost+'元'}}<image class="data-v-0ddee56c" src="https://eshopfile.zhiyousx.com/2023103010294092995.png"></image>
+                        <view bindtap="__e" class="desc data-v-0ddee56c" data-event-opts="{{[ [ 'tap',[ [ 'emitCalculator',['$0'],[ [ ['list','',index] ] ] ] ] ] ]}}">{{item.cost+'元'}}<image class="data-v-0ddee56c" src="/static/captured/2f27e2a18476be98.png"></image>
                         </view>
                     </view>
                 </view>

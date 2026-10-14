@@ -1,17 +1,17 @@
 <view class="photoWall data-v-7506f9fa">
     <uni-navbar bind:__l="__l" class="data-v-7506f9fa" type="transparentFixed" vueId="668f7180-1"></uni-navbar>
     <view class="top-box data-v-7506f9fa">
-        <image mode class="top-bg data-v-7506f9fa" src="https://eshopfile.zhiyousx.com/twelveWall/top-bg.png"></image>
-        <image mode class="user-title data-v-7506f9fa" src="https://eshopfile.zhiyousx.com/twelveWall/user-title.png"></image>
-        <image mode class="title-img data-v-7506f9fa" src="https://eshopfile.zhiyousx.com/twelveWall/title-img.png"></image>
-        <image mode bindtap="__e" class="tip-but1 data-v-7506f9fa" data-event-opts="{{[ [ 'tap',[ [ 'jumpSpot',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/twelveWall/jumpSpot.png"></image>
-        <image mode bindtap="__e" class="tip-but2 data-v-7506f9fa" data-event-opts="{{[ [ 'tap',[ [ 'jumpSelection',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/twelveWall/selected.png"></image>
+        <image mode class="top-bg data-v-7506f9fa" src="/static/captured/2cb7cc5a8e91601a.png"></image>
+        <image mode class="user-title data-v-7506f9fa" src="/static/captured/b6622ec9d9b0464c.png"></image>
+        <image mode class="title-img data-v-7506f9fa" src="/static/captured/9e7123123e3d18d7.png"></image>
+        <image mode bindtap="__e" class="tip-but1 data-v-7506f9fa" data-event-opts="{{[ [ 'tap',[ [ 'jumpSpot',['$event'] ] ] ] ]}}" src="/static/captured/388c5f64ba2cb3b3.png"></image>
+        <image mode bindtap="__e" class="tip-but2 data-v-7506f9fa" data-event-opts="{{[ [ 'tap',[ [ 'jumpSelection',['$event'] ] ] ] ]}}" src="/static/captured/e36f76053b845c12.png"></image>
     </view>
     <view class="imgList-box data-v-7506f9fa">
         <u-waterfall addTime="50" bind:__l="__l" bind:input="__e" class="data-v-7506f9fa vue-ref" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','flowList','$event',[] ] ] ] ] ]}}" data-ref="uWaterfall" data-vue-generic="scoped" value="{{flowList}}" vueId="668f7180-2" vueSlots="{{['right','left']}}"></u-waterfall>
     </view>
-    <image mode class="bottom-box data-v-7506f9fa" src="https://eshopfile.zhiyousx.com/twelveWall/bottom-bg.png"></image>
-    <image mode bindtap="__e" class="uploadImg data-v-7506f9fa" data-event-opts="{{[ [ 'tap',[ [ 'uploadImg',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/twelveWall/uploadImg.png"></image>
+    <image mode class="bottom-box data-v-7506f9fa" src="/static/captured/153f8cff9a9ddf69.png"></image>
+    <image mode bindtap="__e" class="uploadImg data-v-7506f9fa" data-event-opts="{{[ [ 'tap',[ [ 'uploadImg',['$event'] ] ] ] ]}}" src="/static/captured/141f1760f992993b.png"></image>
     <u-popup bind:__l="__l" bind:input="__e" class="data-v-7506f9fa vue-ref" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showNotice','$event',[] ] ] ] ] ]}}" data-ref="uPopup" mode="center" value="{{showNotice}}" vueId="668f7180-3" vueSlots="{{['default']}}">
         <view class="notice-box data-v-7506f9fa">
             <view class="notice-info data-v-7506f9fa">

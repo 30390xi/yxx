@@ -5,7 +5,7 @@
             <view class="group-list-title-section data-v-59bdb526">
                 <view class="group-list-title data-v-59bdb526">
                     <view class="title-text data-v-59bdb526">{{$root.m1}}</view>
-                    <image alt class="group-list-icon data-v-59bdb526" mode="heightFix" src="https://eshopfile.zhiyousx.com/176975522479724647.png"></image>
+                    <image alt class="group-list-icon data-v-59bdb526" mode="heightFix" src="/static/captured/a9c72bf19a49f734.png"></image>
                 </view>
             </view>
             <view class="userList data-v-59bdb526">

@@ -22,12 +22,12 @@
                 </view>
             </view>
         </view>
-        <image class="enterIcon data-v-95fcc798" mode="aspectFill" src="https://eshopfile.zhiyousx.com/175462295999908064.png"></image>
+        <image class="enterIcon data-v-95fcc798" mode="aspectFill" src="/static/captured/9d34d6d888a05be4.png"></image>
     </view>
     <view class="video-list data-v-95fcc798" wx:if="{{$root.g4}}">
         <view class="video-item data-v-95fcc798" wx:for="{{videoList}}" wx:for-index="ind" wx:for-item="el" wx:key="ind">
             <image bindtap="__e" class="video-item-img data-v-95fcc798" data-event-opts="{{[ [ 'tap',[ [ 'gotoVideo',['$0'],[ [ ['videoList','',ind,'vlogUrl'] ] ] ] ] ] ]}}" mode="aspectFill" src="{{el.coverImage}}"></image>
-            <image bindtap="__e" class="video-item-btn data-v-95fcc798" data-event-opts="{{[ [ 'tap',[ [ 'gotoVideo',['$0'],[ [ ['videoList','',ind,'vlogUrl'] ] ] ] ] ] ]}}" mode="aspectFill" src="https://eshopfile.zhiyousx.com/175490833075804316.png"></image>
+            <image bindtap="__e" class="video-item-btn data-v-95fcc798" data-event-opts="{{[ [ 'tap',[ [ 'gotoVideo',['$0'],[ [ ['videoList','',ind,'vlogUrl'] ] ] ] ] ] ]}}" mode="aspectFill" src="/static/captured/085ca16e0bf548dd.png"></image>
         </view>
     </view>
 </view>

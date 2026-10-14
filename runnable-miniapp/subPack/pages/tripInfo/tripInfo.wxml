@@ -13,7 +13,7 @@
                 <label class="val _span data-v-4f3e7208">{{trip.distance}}</label>
             </view>
             <view class="trip_row data-v-4f3e7208">
-                <image class="tripIcon data-v-4f3e7208" src="https://eshopfile.zhiyousx.com/169216975204897973.png"></image>
+                <image class="tripIcon data-v-4f3e7208" src="/static/captured/243d4cd385b92a62.png"></image>
                 <label class="trip_lable _span data-v-4f3e7208">预计</label>
                 <label class="val _span data-v-4f3e7208">{{trip.duration}}</label>
             </view>

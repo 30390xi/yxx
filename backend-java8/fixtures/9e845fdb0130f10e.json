@@ -1,0 +1,157 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1529350009064124417",
+    "contentId": "1529350008590168065",
+    "rankingName": "宝鸡城市公园人气榜",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/165346035989297134.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": "人去过",
+    "rankingInclude": "个目的地",
+    "rankingPersonalInfo": "我去过的目的地",
+    "rankingSharePictureUrl": "https://eshopfile.zhiyousx.com/165346025957304858.jpg",
+    "bottomColour": "#4EAE6B",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1529654108946800641",
+        "originType": "1",
+        "originName": "宝鸡蟠龙文化公园",
+        "originSubtitleName": "山清水秀，风景宜人",
+        "originUrl": "https://eshopfile.zhiyousx.com/2022052610410246444.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/165353289644159782.jpg",
+          "https://eshopfile.zhiyousx.com/165353289681896863.jpg",
+          "https://eshopfile.zhiyousx.com/165353289718712266.jpg",
+          "https://eshopfile.zhiyousx.com/165353289759817397.jpg",
+          "https://eshopfile.zhiyousx.com/165353289798526923.jpg"
+        ],
+        "sort": "10",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1529728717914501121",
+        "originType": "1",
+        "originName": "中华礼乐城",
+        "originSubtitleName": "以周文化为核心元素的主题公园",
+        "originUrl": "https://eshopfile.zhiyousx.com/2022052615352722514.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/165355096290546274.jpg",
+          "https://eshopfile.zhiyousx.com/165355055071885831.jpg",
+          "https://eshopfile.zhiyousx.com/165355055111984981.jpg",
+          "https://eshopfile.zhiyousx.com/165355055160765343.jpg",
+          "https://eshopfile.zhiyousx.com/165355096260299320.jpg",
+          "https://eshopfile.zhiyousx.com/165355096323801791.jpg",
+          "https://eshopfile.zhiyousx.com/165355055025251019.jpg"
+        ],
+        "sort": "11",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1529717868692758529",
+        "originType": "1",
+        "originName": "渭河团结运动公园",
+        "originSubtitleName": "集运动、休闲、娱乐于一体的城市公园",
+        "originUrl": "https://eshopfile.zhiyousx.com/2022052614542091911.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/165354810427184737.jpg",
+          "https://eshopfile.zhiyousx.com/165354810465564810.jpg",
+          "https://eshopfile.zhiyousx.com/165354810544310986.jpg",
+          "https://eshopfile.zhiyousx.com/165354810586038421.jpg"
+        ],
+        "sort": "12",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1529378997400629250",
+        "originType": "1",
+        "originName": "交通安全文化主题公园",
+        "originSubtitleName": "在休闲中接受交通安全知识的洗礼",
+        "originUrl": "https://eshopfile.zhiyousx.com/2022052516243461185.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/165346710183308381.jpg",
+          "https://eshopfile.zhiyousx.com/165346710229123951.jpg",
+          "https://eshopfile.zhiyousx.com/165346710271862763.jpg",
+          "https://eshopfile.zhiyousx.com/165346710312996910.jpg",
+          "https://eshopfile.zhiyousx.com/165346710363974752.jpg",
+          "https://eshopfile.zhiyousx.com/165346710413984780.jpg"
+        ],
+        "sort": "13",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1529759289487384578",
+        "originType": "1",
+        "originName": "宝鸡消防文化主题公园",
+        "originSubtitleName": "省内第一座消防文化主题公园",
+        "originUrl": "https://eshopfile.zhiyousx.com/2022052617370779129.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/165355785353139856.jpg",
+          "https://eshopfile.zhiyousx.com/165355785412874498.jpg",
+          "https://eshopfile.zhiyousx.com/165355785299734412.jpg",
+          "https://eshopfile.zhiyousx.com/165355785260747304.jpg"
+        ],
+        "sort": "14",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1529667581848166401",
+        "originType": "1",
+        "originName": "宝鸡仲裁文化主题公园",
+        "originSubtitleName": "全国首座仲裁主题公园",
+        "originUrl": "https://eshopfile.zhiyousx.com/2022052611274558546.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/165353609469076726.jpg",
+          "https://eshopfile.zhiyousx.com/165353609516611581.jpg",
+          "https://eshopfile.zhiyousx.com/165353609781210157.jpg",
+          "https://eshopfile.zhiyousx.com/165353609555056701.jpg",
+          "https://eshopfile.zhiyousx.com/165353609600977128.jpg",
+          "https://eshopfile.zhiyousx.com/165353609642219151.jpg",
+          "https://eshopfile.zhiyousx.com/165353609694802298.jpg",
+          "https://eshopfile.zhiyousx.com/165353609740077629.jpg"
+        ],
+        "sort": "15",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "16",
+    "favoriteSum": null,
+    "personalInfoValue": "0/16"
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,216 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941095",
+    "scenicName": "洽川风景名胜区",
+    "tag": "黄河最美在洽川",
+    "level": 4,
+    "address": "渭南市合阳县洽川镇",
+    "longitude": "110.341803",
+    "latitude": "35.163724",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#4EAE6B",
+    "centralColour": "#3C7B5C",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/16-20201028143801.jpg",
+      "https://eshopfile.zhiyousx.com/17-20201028143804.jpg"
+    ],
+    "introduction": "<p>　　洽川，地处陕西省合阳县城以东20公里的黄河之滨，秦、晋、豫黄河金三角，面积约176平方公里，是黄河流域最大的河滨温泉湿地。是国家级风景名胜区、国家AAAA级旅游景区、国家水利风景区。先后被授予&ldquo;中国著名文化旅游景区&rdquo;、&ldquo;中国最具潜力十大湿地公园&rdquo;、&ldquo;第20届金旅奖&bull;最美人文旅游目的地&rdquo;、&ldquo;陕西省服务业名牌&rdquo;、 &ldquo;三秦最美的风景区&rdquo;&ldquo;陕西省平安景区&rdquo;、&ldquo;生态山水旅游胜地&rdquo;等称号。</p>",
+    "introductionText": "　　洽川，地处陕西省合阳县城以东20公里的黄河之滨，秦、晋、豫黄河金三角，面积约176平方公里，是黄河流域最大的河滨温泉湿地。是国家级风景名胜区、国家AAAA级旅游景区、国家水利风景区。先后被授予“中国著名文化旅游景区”、“中国最具潜力十大湿地公园”、“第20届金旅奖•最美人文旅游目的地”、“陕西省服务业名牌”、 “三秦最美的风景区”“陕西省平安景区”、“生态山水旅游胜地”等称号。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "全员",
+        "limit": "无",
+        "discount": "免费"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0913-5620067"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1710558901957165057",
+        "resourcesId": "1321340584995348482",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/18-20201028143814.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2023-10-07 15:33:17",
+        "updateTime": "2023-10-07 15:33:17",
+        "createBy": "1290154746467225602",
+        "updateBy": "1290154746467225602",
+        "isDeleted": 0
+      },
+      {
+        "id": "1710558901961359361",
+        "resourcesId": "1321340584995348482",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/19-20201028143823.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2023-10-07 15:33:17",
+        "updateTime": "2023-10-07 15:33:17",
+        "createBy": "1290154746467225602",
+        "updateBy": "1290154746467225602",
+        "isDeleted": 0
+      },
+      {
+        "id": "1710558901961359362",
+        "resourcesId": "1321340584995348482",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/20-20201028143830.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2023-10-07 15:33:17",
+        "updateTime": "2023-10-07 15:33:17",
+        "createBy": "1290154746467225602",
+        "updateBy": "1290154746467225602",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1566623053130653698",
+      "rankingId": null,
+      "indexInRanking": 7,
+      "rankingName": "渭南亲子游景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1455112666791124994",
+        "rankingId": "1455112668192022530",
+        "indexInRanking": null,
+        "rankingName": "渭南自驾游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

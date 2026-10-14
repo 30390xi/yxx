@@ -1,0 +1,39 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "1630768391969165314",
+      "resourcesId": "1322004930930958338",
+      "title": "中华始祖堂宣传片",
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072212225634880.mp4",
+      "coverImage": "https://eshopfile.zhiyousx.com/2021072212254452872.jpg",
+      "videoId": "1418064707180322817",
+      "resourcesType": 2,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2023-03-01 11:14:17",
+      "updateTime": "2023-03-01 11:14:17",
+      "createBy": "1310760026725457922",
+      "updateBy": "1310760026725457922",
+      "isDeleted": 0
+    },
+    {
+      "id": "1630768391981748225",
+      "resourcesId": "1322004930930958338",
+      "title": "中华始祖堂是如何摘得国际大奖",
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2022041117095498025.mp4",
+      "coverImage": "https://eshopfile.zhiyousx.com/164966818155584837.jpg",
+      "videoId": "1513444472292233217",
+      "resourcesType": 2,
+      "sequence": 2,
+      "describe": "",
+      "createTime": "2023-03-01 11:14:17",
+      "updateTime": "2023-03-01 11:14:17",
+      "createBy": "1310760026725457922",
+      "updateBy": "1310760026725457922",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,250 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1437342574892347394",
+    "scenicName": "药王山博物馆（孙思邈纪念馆）",
+    "tag": "现存北朝及隋唐造像碑最多的博物馆",
+    "level": -1,
+    "address": "铜川市耀州区王大道药王山景区内",
+    "longitude": "108.999953",
+    "latitude": "34.908678",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#BB9565",
+    "centralColour": "#9C7A4F",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021091317080873917.png"
+    ],
+    "introduction": "<div id=\"baikecard\" data-sub=\"#4326722-4531298-0\">\n<div id=\"js-card-content\" class=\"card_content\">\n<p>　　药王山博物馆石刻有摩崖造像、题字，石牌坊，历代累朝各种碑石碣刻，石刻各类艺术品等。其存藏各种碑石计三百五十余通，以北魏至唐代百余通造像碑与宋至明清药王类石碑弥足珍贵，尤以北魏造像碑最为精采，其数量多，年代久，品位高，知名海内外，它是我国石刻艺术中一颗璀璨的明珠。药王山博物馆现有藏品1702件(包括石刻303件)、含石器44件，玉器15件，陶器593件，瓷器90件，金属器253件，印章8枚，其它6件，古钱币600余种。此外，博物馆内还展览药王孙思邈的生平事迹、医药著作、学术贡献和传统中医药文化发展历程以及铜川市生物医药产业发展概况等。纪念馆现有展品330件/套，收藏历代中华医药学著作10000余册。</p>\n</div>\n<div class=\"intro_button\">&nbsp;</div>\n</div>\n<div id=\"starVideo\" class=\"starVideo starVideo1\">&nbsp;</div>",
+    "introductionText": "　　药王山博物馆石刻有摩崖造像、题字，石牌坊，历代累朝各种碑石碣刻，石刻各类艺术品等。其存藏各种碑石计三百五十余通，以北魏至唐代百余通造像碑与宋至明清药王类石碑弥足珍贵，尤以北魏造像碑最为精采，其数量多，年代久，品位高，知名海内外，它是我国石刻艺术中一颗璀璨的明珠。药王山博物馆现有藏品1702件(包括石刻303件)、含石器44件，玉器15件，陶器593件，瓷器90件，金属器253件，印章8枚，其它6件，古钱币600余种。此外，博物馆内还展览药王孙思邈的生平事迹、医药著作、学术贡献和传统中医药文化发展历程以及铜川市生物医药产业发展概况等。纪念馆现有展品330件/套，收藏历代中华医药学著作10000余册。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026524680194",
+        "contentId": "1418152026516291586",
+        "name": "国家二级博物馆",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": null,
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0919-6603519"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": "",
+    "contentResourcesDtoList": [
+      {
+        "id": "1922219514937925634",
+        "resourcesId": "1437342574829432835",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091317033362501.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2025-05-13 17:17:00",
+        "updateTime": "2025-05-13 17:17:00",
+        "createBy": "1909084661067874306",
+        "updateBy": "1909084661067874306",
+        "isDeleted": 0
+      },
+      {
+        "id": "1922219514942119938",
+        "resourcesId": "1437342574829432835",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091317034100615.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2025-05-13 17:17:00",
+        "updateTime": "2025-05-13 17:17:00",
+        "createBy": "1909084661067874306",
+        "updateBy": "1909084661067874306",
+        "isDeleted": 0
+      },
+      {
+        "id": "1922219514942119939",
+        "resourcesId": "1437342574829432835",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091317035121469.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2025-05-13 17:17:00",
+        "updateTime": "2025-05-13 17:17:00",
+        "createBy": "1909084661067874306",
+        "updateBy": "1909084661067874306",
+        "isDeleted": 0
+      },
+      {
+        "id": "1922219514946314241",
+        "resourcesId": "1437342574829432835",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091317035971356.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2025-05-13 17:17:00",
+        "updateTime": "2025-05-13 17:17:00",
+        "createBy": "1909084661067874306",
+        "updateBy": "1909084661067874306",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1439119981701840898",
+      "rankingId": null,
+      "indexInRanking": 31,
+      "rankingName": "陕西人气博物馆排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1658303499793903618",
+        "rankingId": "1658303501412904962",
+        "indexInRanking": null,
+        "rankingName": "历史文化类博物馆人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1680835374538088449",
+        "rankingId": "1680835375632801794",
+        "indexInRanking": null,
+        "rankingName": "陕西省热搜50强博物馆排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1701537018679062530",
+        "rankingId": "1701537022760120322",
+        "indexInRanking": null,
+        "rankingName": "铜川博物馆人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

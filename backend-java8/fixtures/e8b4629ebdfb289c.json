@@ -1,0 +1,55 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "2104476238861631489",
+      "resourcesId": "1321637732123172865",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/花溪园2-20201029101900.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2026-09-28 15:40:09",
+      "updateTime": "2026-09-28 15:40:09",
+      "createBy": "1840352154109935617",
+      "updateBy": "1840352154109935617",
+      "isDeleted": 0
+    },
+    {
+      "id": "2104476238865825794",
+      "resourcesId": "1321637732123172865",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/花溪园3-20201029101913.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 2,
+      "describe": null,
+      "createTime": "2026-09-28 15:40:09",
+      "updateTime": "2026-09-28 15:40:09",
+      "createBy": "1840352154109935617",
+      "updateBy": "1840352154109935617",
+      "isDeleted": 0
+    },
+    {
+      "id": "2104476238865825795",
+      "resourcesId": "1321637732123172865",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/花溪园4-20201029101920.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 3,
+      "describe": null,
+      "createTime": "2026-09-28 15:40:09",
+      "updateTime": "2026-09-28 15:40:09",
+      "createBy": "1840352154109935617",
+      "updateBy": "1840352154109935617",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

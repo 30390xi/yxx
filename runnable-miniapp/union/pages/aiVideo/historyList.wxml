@@ -1,7 +1,7 @@
 <view class="historyList data-v-616da972">
     <view class="photo-count data-v-616da972">
         <view class="photo-title data-v-616da972">
-            <image alt class="data-v-616da972" src="https://eshopfile.zhiyousx.com/174530901418030873.png?imageView2/3/w/214/h/85"></image>
+            <image alt class="data-v-616da972" src="/static/captured/518c7737ea4e5f44.png?imageView2/3/w/214/h/85"></image>
         </view>
         <view class="photo-table data-v-616da972">
             <scroll-view bindscrolltolower="__e" class="photo-list data-v-616da972" data-event-opts="{{[ [ 'scrolltolower',[ [ 'scrolltolower',['$event'] ] ] ] ]}}" lowerThreshold="50" scrollY="{{true}}">

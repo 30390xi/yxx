@@ -1,0 +1,286 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941135",
+    "scenicName": "党家村",
+    "tag": "韩城市里的“小韩城”",
+    "level": 4,
+    "address": "韩城市西庄镇党家村景区",
+    "longitude": "110.4818800000",
+    "latitude": "35.5330180000",
+    "openingStatus": 0,
+    "capacity": 9999,
+    "topColour": "#482F29",
+    "centralColour": "#482F29",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021090617564131885.jpg"
+    ],
+    "introduction": "<p>　　党家村位于陕西省韩城市东北方向的西庄镇境内，东临黄河、南绕泌水，西北临塬，是全国重点文物保护单位，中国历史文化名村，陕西省著名旅游风景区。党家村景区地理位置优越，风貌古朴自然，文化气息极为丰富。党家村主要有党、贾两大家族，320户人家，1400 余人，建村距今680多年历史。党家村坐落在东西走向的泌水河谷北侧，所处地段呈葫芦形状，俗称&ldquo;党圪崂&rdquo;。党家村现为国家重点文物保护单位，并入选世界遗产预备名单。党家村民居四合院是韩城民居的典型代表，因此韩城在乾隆年间曾经被称为陕西的&ldquo;小北京&rdquo;而党家村因农商并重经济发达则又被称为&ldquo;小韩城&rdquo;，可见当年之盛况。2001年6月25日经国务院批文，党家村古建筑群被列入国家重点文物保护单位。2003年入选中国历史文化名村（第一批）名单。英国皇家建筑学会查理教授曾说道：&ldquo;东方建筑文化在中国，中国民居建筑文化在韩城&rdquo;。日本建筑学会农村计划委员会委员长工学博士青木正夫撰文：&ldquo;我曾到过欧、亚、美、非四大洲十多个国家，从来没有见过布局如此紧凑，做工如此精细、风貌如此古朴典雅，文化气息如此浓厚历史悠久的保存完好的古代传统居民村寨。党家村是东方人类古代传统居住村寨的活化石。&rdquo;现党家村被陕西省定为&ldquo;历史文化保护村&rdquo;，列入&ldquo;国际传统民居研究项目&rdquo;。成为旅游参观的重地。</p>",
+    "introductionText": "　　党家村位于陕西省韩城市东北方向的西庄镇境内，东临黄河、南绕泌水，西北临塬，是全国重点文物保护单位，中国历史文化名村，陕西省著名旅游风景区。党家村景区地理位置优越，风貌古朴自然，文化气息极为丰富。党家村主要有党、贾两大家族，320户人家，1400 余人，建村距今680多年历史。党家村坐落在东西走向的泌水河谷北侧，所处地段呈葫芦形状，俗称“党圪崂”。党家村现为国家重点文物保护单位，并入选世界遗产预备名单。党家村民居四合院是韩城民居的典型代表，因此韩城在乾隆年间曾经被称为陕西的“小北京”而党家村因农商并重经济发达则又被称为“小韩城”，可见当年之盛况。2001年6月25日经国务院批文，党家村古建筑群被列入国家重点文物保护单位。2003年入选中国历史文化名村（第一批）名单。英国皇家建筑学会查理教授曾说道：“东方建筑文化在中国，中国民居建筑文化在韩城”。日本建筑学会农村计划委员会委员长工学博士青木正夫撰文：“我曾到过欧、亚、美、非四大洲十多个国家，从来没有见过布局如此紧凑，做工如此精细、风貌如此古朴典雅，文化气息如此浓厚历史悠久的保存完好的古代传统居民村寨。党家村是东方人类古代传统居住村寨的活化石。”现党家村被陕西省定为“历史文化保护村”，列入“国际传统民居研究项目”。成为旅游参观的重地。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "68",
+        "name": "旅游小镇",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "64",
+        "name": "古村古镇",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "老年人",
+        "limit": "65周岁（含）以上凭老年证或身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米（含）以下或6周岁（含）以下凭户口本或身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭残疾证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "现役军人",
+        "limit": "凭军官证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "教师",
+        "limit": "凭教师证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "未成年",
+        "limit": "身高1.2米（不含）以上且18周岁（含）以下凭身份证",
+        "discount": "5折"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "凭学生证",
+        "discount": "5折"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0913-5325950"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1803261011647139842",
+        "resourcesId": "1441953158233346050",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092610294304691.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2024-06-19 10:58:22",
+        "updateTime": "2024-06-19 10:58:22",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "1803261011651334145",
+        "resourcesId": "1441953158233346050",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092610294841725.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2024-06-19 10:58:22",
+        "updateTime": "2024-06-19 10:58:22",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "1803261011651334146",
+        "resourcesId": "1441953158233346050",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092610295376633.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2024-06-19 10:58:22",
+        "updateTime": "2024-06-19 10:58:22",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1606179274804039681",
+      "rankingId": null,
+      "indexInRanking": 3,
+      "rankingName": "韩城必游人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1566623053130653698",
+        "rankingId": "1566623054191812609",
+        "indexInRanking": null,
+        "rankingName": "渭南亲子游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1455112666791124994",
+        "rankingId": "1455112668192022530",
+        "indexInRanking": null,
+        "rankingName": "渭南自驾游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": null,
+    "noticeTitel": "",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

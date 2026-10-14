@@ -4,7 +4,7 @@
     </view>
     <view class="data-v-5174d2c0">
         <view class="data-v-5174d2c0" data-label="持卡人" wx:if="{{getInfo.cardholderName}}">
-            <view class="person-name data-v-5174d2c0">{{''+getInfo.cardholderName+''}}<image bindtap="__e" class="icon data-v-5174d2c0" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" src="{{!isShowAll?'https://eshopfile.zhiyousx.com/168492134271144514.png':'https://eshopfile.zhiyousx.com/168492259404793104.png'}}"></image>
+            <view class="person-name data-v-5174d2c0">{{''+getInfo.cardholderName+''}}<image bindtap="__e" class="icon data-v-5174d2c0" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" src="{{!isShowAll?'/static/captured/522f50b3281db509.png':'/static/captured/6989ca664d2f4eeb.png'}}"></image>
             </view>
         </view>
         <view class="data-v-5174d2c0" data-label="身份证">{{getInfo.cardholderIdCard}}</view>

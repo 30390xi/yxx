@@ -15,11 +15,11 @@
                 </view>
                 <view class="item-body-r data-v-2ed38f26">
                     <view bindtap="__e" class="icon-box data-v-2ed38f26" data-event-opts="{{[ [ 'tap',[ [ 'jumpLocation',['$0'],[ [ ['listData','',index],['scenicSpotMapTagVOList','',i] ] ] ] ] ] ]}}">
-                        <image alt class="icon1 _img data-v-2ed38f26" src="https://eshopfile.zhiyousx.com/2023031611150313119.png"></image>
+                        <image alt class="icon1 _img data-v-2ed38f26" src="/static/captured/67f6b35f969d4e58.png"></image>
                         <view class="icon1-text data-v-2ed38f26">{{''+(langType=='zn'?'去这里':'Go')+''}}</view>
                     </view>
                     <view bindtap="__e" class="icon-box data-v-2ed38f26" data-event-opts="{{[ [ 'tap',[ [ 'toDetail',['$0'],[ [ ['listData','',index],['scenicSpotMapTagVOList','',i] ] ] ] ] ] ]}}">
-                        <image alt class="icon1 _img data-v-2ed38f26" src="https://eshopfile.zhiyousx.com/2023031520024239890.png"></image>
+                        <image alt class="icon1 _img data-v-2ed38f26" src="/static/captured/215636d32871312a.png"></image>
                         <view class="icon1-text data-v-2ed38f26">{{''+(langType=='zn'?'讲解':'Interpreter')+''}}</view>
                     </view>
                 </view>

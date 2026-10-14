@@ -68,7 +68,7 @@
                                 <view class="mask data-v-a3819dfe"></view>
                                 <view class="time_item setOf data-v-a3819dfe" wx:for="{{item.l6}}" wx:for-index="num" wx:for-item="time" wx:key="num">
                                     <image class="markIcon data-v-a3819dfe" src="/static/captured/0c997113edfa6a7c.png" wx:if="{{time.$orig.journeyDestinationType==1}}"></image>
-                                    <image class="markIcon data-v-a3819dfe" src="https://eshopfile.zhiyousx.com/169209038492172696.png" wx:if="{{time.$orig.journeyDestinationType==3}}"></image>
+                                    <image class="markIcon data-v-a3819dfe" src="/static/captured/9c14c7fefd810b46.png" wx:if="{{time.$orig.journeyDestinationType==3}}"></image>
                                     <image class="markIcon data-v-a3819dfe" src="/static/captured/748b5d9b0def299c.png" wx:if="{{time.$orig.journeyDestinationType==2}}"></image>
                                     <image class="markIcon data-v-a3819dfe" src="/static/captured/e7bd639e2a122985.png" wx:if="{{time.$orig.journeyDestinationType==4}}"></image>
                                     <view class="time_title data-v-a3819dfe" style="width:470rpx;">
@@ -102,7 +102,7 @@
                                     </view>
                                     <view class="spot_remark spot_tips data-v-a3819dfe" wx:if="{{time.$orig.tips}}">
                                         <view class="tips data-v-a3819dfe">
-                                            <image class="data-v-a3819dfe" src="https://eshopfile.zhiyousx.com/169266846673784501.png"></image>
+                                            <image class="data-v-a3819dfe" src="/static/captured/37c36c3337d564c9.png"></image>
                                         </view>
                                         <text class="data-v-a3819dfe">{{time.$orig.tips}}</text>
                                     </view>

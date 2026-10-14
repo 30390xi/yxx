@@ -68,8 +68,10 @@ require("../@babel/runtime/helpers/Arrayincludes"), (global.webpackJsonp = globa
           },
           onLaunch: function(t) {
             var o, n, r, i, s = this;
-            this.checkNetworkStatus(), this.listenNetworkChange(), e.setStorageSync("channel_header", ""), e.setStorageSync("source_header", ""), e.setStorageSync("shareMemberId_header", ""), e.setStorageSync("scene_mp", t.scene), this.optionsData = t, t.query.userSource && e.setStorageSync("source_header", t.query.userSource), t.query.channel && e.setStorageSync("channel_header", t.query.channel), this.getOpenid().then((function(t) {
+            this.checkNetworkStatus(), this.listenNetworkChange(), e.setStorageSync("channel_header", ""), e.setStorageSync("source_header", ""), e.setStorageSync("shareMemberId_header", ""), e.setStorageSync("scene_mp", t.scene), this.optionsData = t, t.query.userSource && e.setStorageSync("source_header", t.query.userSource), t.query.channel && e.setStorageSync("channel_header", t.query.channel), (e.getAccountInfoSync().miniProgram.appId !== "wxf8549078eee81f5f") && this.getOpenid().then((function(t) {
               e.setStorageSync("unionid", t.unionid), e.setStorageSync("wxopenid", t.openid)
+            })).catch((function() {
+              console.warn("微信会话获取失败，继续游客浏览")
             })), this.$store.commit("SET_SOURCE_PAGE", ""), e.getSystemInfo({
               success: function(t) {
                 s.$store.commit("SET_SYSTEM", t), s.globalData.StatusBar = t.statusBarHeight;

@@ -1,0 +1,70 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1859861425699164162",
+    "contentId": "1859861424008859649",
+    "rankingName": "西安文旅演艺人气榜",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/173226060264360903.jpg",
+    "rankingDescribe": "在西安，看一场沉浸演出吧！",
+    "rankingTotalUserData": "人去过",
+    "rankingInclude": "个目的地",
+    "rankingPersonalInfo": "我去过的目的地",
+    "rankingSharePictureUrl": "",
+    "bottomColour": "#705E4A",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1420326531946823682",
+        "originType": "1",
+        "originName": "《秦俑情》",
+        "originSubtitleName": "穿越千年 观大秦霸业",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021072818021010468.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021072822381516013.jpg",
+          "https://eshopfile.zhiyousx.com/2021072822382409926.jpg",
+          "https://eshopfile.zhiyousx.com/2021072822383455162.jpg",
+          "https://eshopfile.zhiyousx.com/2021072822384588078.jpg",
+          "https://eshopfile.zhiyousx.com/2021072822385591370.jpg",
+          "https://eshopfile.zhiyousx.com/2021072822443540779.jpg"
+        ],
+        "sort": "10",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1859805824111529985",
+        "originType": "1",
+        "originName": "《丝路之声》",
+        "originSubtitleName": "大型原创国风百老汇音乐剧",
+        "originUrl": "https://eshopfile.zhiyousx.com/2024112212160138075.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/173224894301167780.png",
+          "https://eshopfile.zhiyousx.com/173224885664041169.png",
+          "https://eshopfile.zhiyousx.com/173224885546365776.png",
+          "https://eshopfile.zhiyousx.com/173224885595402157.png",
+          "https://eshopfile.zhiyousx.com/173224885839235708.png"
+        ],
+        "sort": "11",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "12",
+    "favoriteSum": null,
+    "personalInfoValue": "0/12"
+  },
+  "msg": "成功",
+  "success": true
+}

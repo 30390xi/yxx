@@ -11,7 +11,7 @@
                             <text class="data-v-7c930716">NO.</text>{{item.cardNo||''}}</view>
                     </view>
                     <view bindtap="__e" class="selected-card-item-right data-v-7c930716" data-event-opts="{{[ [ 'tap',[ [ 'handleClick',['$0'],[ [ ['popupData','',index] ] ] ] ] ] ]}}">
-                        <image class="data-v-7c930716" src="https://eshopfile.zhiyousx.com/2023102815391473645.png" wx:if="{{item.userYearCardId===checkedInfo.userYearCardId}}"></image>
+                        <image class="data-v-7c930716" src="/static/captured/a5ff9ff8822aa62a.png" wx:if="{{item.userYearCardId===checkedInfo.userYearCardId}}"></image>
                         <view class="data-v-7c930716" wx:else></view>
                     </view>
                 </view>

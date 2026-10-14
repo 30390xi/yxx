@@ -2,9 +2,9 @@
     <uni-navbar bind:__l="__l" class="data-v-3ba31784" titleCenter="{{false}}" transparentFixedFontColor="#ffffff" type="transparentFixed" vueId="06cc8f70-1" vueSlots="{{['transparentFixedLeft']}}">
         <view class="data-v-3ba31784" slot="transparentFixedLeft">
             <view bindtap="__e" class="home-btn data-v-3ba31784" data-event-opts="{{[ [ 'tap',[ [ 'pageBack',['$event'] ] ] ] ]}}">
-                <image class="home-icon data-v-3ba31784" src="https://eshopfile.zhiyousx.com/2026012116272257896.png"></image>
+                <image class="home-icon data-v-3ba31784" src="/static/captured/eb6f629f938612bf.png"></image>
             </view>
         </view>
     </uni-navbar>
-    <image class="actImg data-v-3ba31784" mode="widthFix" src="https://eshopfile.zhiyousx.com/2026011516590113392.jpg"></image>
+    <image class="actImg data-v-3ba31784" mode="widthFix" src="/static/captured/7c81796aaf80bdfd.jpg"></image>
 </view>

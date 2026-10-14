@@ -1,0 +1,289 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064188264528",
+    "scenicName": "江塝茗园",
+    "tag": "茶园嫩绿，茶波涌动，美不胜收",
+    "level": -1,
+    "cityId": "1320664075750125570",
+    "cityName": "汉中",
+    "address": "汉中市西乡县西牟路",
+    "longitude": "107.553073",
+    "latitude": "32.849794",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 341,
+    "topColour": "#778E1F",
+    "centralColour": "#384518",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/3394db85-46e5-45d2-a566-18c3b2ee6f82-20201028142407.jpg"
+    ],
+    "introduction": "<p>　　江塝茗园位于汉中市西乡县峡口镇。峡口镇江榜村从上世纪六十年代中期，从西乡县大河镇引进当地群体品种&ldquo;大脚板&rdquo;茶，开始从事茶叶生产，茶园面积以起初的100余亩，发展到现在的3500亩，最为壮观的当属江塝的茶园了。江塝茗园规划15平方公里，现有生态茶园2万余亩，是汉中市首批现代农业示范园区。</p>",
+    "introductionText": "　　江塝茗园位于汉中市西乡县峡口镇。峡口镇江榜村从上世纪六十年代中期，从西乡县大河镇引进当地群体品种“大脚板”茶，开始从事茶叶生产，茶园面积以起初的100余亩，发展到现在的3500亩，最为壮观的当属江塝的茶园了。江塝茗园规划15平方公里，现有生态茶园2万余亩，是汉中市首批现代农业示范园区。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "17",
+        "name": "动植物园",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "1月1日至12月31日",
+        "openTimeContent": "周一至周日 全天开放"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "所有游客",
+        "limit": null,
+        "discount": "免费开放"
+      }
+    ],
+    "facilitiesServicesVoList": null,
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": null,
+    "wxSubscriptionVoList": null,
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2033803082895785986",
+        "resourcesId": "1321337033963364354",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/49f90ac7-6312-486a-b933-be8e711242f6-20201028142424.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-03-17 15:10:15",
+        "updateTime": "2026-03-17 15:10:15",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2033803082895785987",
+        "resourcesId": "1321337033963364354",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166062380640551704.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": "",
+        "createTime": "2026-03-17 15:10:15",
+        "updateTime": "2026-03-17 15:10:15",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2033803082899980290",
+        "resourcesId": "1321337033963364354",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166062380689683320.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": "",
+        "createTime": "2026-03-17 15:10:15",
+        "updateTime": "2026-03-17 15:10:15",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2033803082904174594",
+        "resourcesId": "1321337033963364354",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166062380556872233.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": "",
+        "createTime": "2026-03-17 15:10:15",
+        "updateTime": "2026-03-17 15:10:15",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2033803082904174595",
+        "resourcesId": "1321337033963364354",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/127446cc-b936-446e-9c22-e5ede61bb9c0-20201028142416.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2026-03-17 15:10:15",
+        "updateTime": "2026-03-17 15:10:15",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2033803082908368898",
+        "resourcesId": "1321337033963364354",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/1e4424b6-6c06-47cd-ad4e-a7d30546c59f-20201028142430.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2026-03-17 15:10:15",
+        "updateTime": "2026-03-17 15:10:15",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": null,
+      "rankingId": null,
+      "indexInRanking": null,
+      "rankingName": null,
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": "",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

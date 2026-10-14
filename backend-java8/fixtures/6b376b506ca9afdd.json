@@ -1,0 +1,100 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1418152026633732098",
+    "contentId": "1418152026625343489",
+    "rankingName": "国家国防教育示范基地",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/162702785023121598.jpg",
+    "rankingDescribe": "　　国防教育基地是指对有组织的中小学生免费开放的基地，是全民国防教育日向社会免费开放的有关国防教育的基本阵地。国防教育基地具有教育功能、体验功能、素质拓展功能、学习功能、娱乐功能，是服务、凝聚、教育广大未成年人的活动平台，是促进青少年全面发展的实践课堂，是体验式教育的活动基地。",
+    "rankingTotalUserData": null,
+    "rankingInclude": "个目的地",
+    "rankingPersonalInfo": "我去过的目的地",
+    "rankingSharePictureUrl": null,
+    "bottomColour": null,
+    "tagUrl": null,
+    "travelMapFlag": null,
+    "type": "7",
+    "rankingItemList": [
+      {
+        "originId": "1320579064188264533",
+        "originType": "1",
+        "originName": "照金薛家寨景区",
+        "originSubtitleName": "重峦叠嶂 密林如海 工农红军驻留地",
+        "originUrl": "https://eshopfile.zhiyousx.com/10051g000001h0l8h4D50_C_1600_1200-20201029114129.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/176854987692823797.jpg",
+          "https://eshopfile.zhiyousx.com/176854987762581493.jpg",
+          "https://eshopfile.zhiyousx.com/176854987852201510.jpg",
+          "https://eshopfile.zhiyousx.com/176854987891003246.jpg",
+          "https://eshopfile.zhiyousx.com/176854988031698168.png",
+          "https://eshopfile.zhiyousx.com/176854987932700780.png",
+          "https://eshopfile.zhiyousx.com/176854988123505382.jpg",
+          "https://eshopfile.zhiyousx.com/176854988311850127.png",
+          "https://eshopfile.zhiyousx.com/176854988397311596.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": true,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064687386644",
+        "originType": "1",
+        "originName": "洛川会议纪念馆",
+        "originSubtitleName": "抗战灯塔——洛川会议",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021062412175983206.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021062418033576586.jpg",
+          "https://eshopfile.zhiyousx.com/2021062419171358973.jpg",
+          "https://eshopfile.zhiyousx.com/2021062418035302924.jpg",
+          "https://eshopfile.zhiyousx.com/2021062412154586609.jpg",
+          "https://eshopfile.zhiyousx.com/2021062419164026175.jpg",
+          "https://eshopfile.zhiyousx.com/2021062419175269514.jpg",
+          "https://eshopfile.zhiyousx.com/2021062418032357672.jpg",
+          "https://eshopfile.zhiyousx.com/2021062419165342636.jpg",
+          "https://eshopfile.zhiyousx.com/2021062419185537359.jpg",
+          "https://eshopfile.zhiyousx.com/2021062412153393524.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1409802866733977602",
+        "originType": "1",
+        "originName": "宝天铁路英烈纪念馆",
+        "originSubtitleName": "祖国的东西大动脉真正得以畅通运行",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021062917151170511.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021062918094270060.jpg",
+          "https://eshopfile.zhiyousx.com/2021062918025805164.jpg",
+          "https://eshopfile.zhiyousx.com/2021062918104600742.jpg",
+          "https://eshopfile.zhiyousx.com/2021062918074631615.jpg",
+          "https://eshopfile.zhiyousx.com/2021062918084132977.jpg",
+          "https://eshopfile.zhiyousx.com/2021062919284829523.png"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "3",
+    "favoriteSum": null,
+    "personalInfoValue": "0/3"
+  },
+  "msg": "成功",
+  "success": true
+}

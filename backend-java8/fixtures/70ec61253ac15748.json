@@ -1,0 +1,55 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "1478265347273396226",
+      "resourcesId": "1322064310086950914",
+      "title": null,
+      "resourcesUrl": "https://res.zhiyousx.com/ysx/pro/2022/01/04/164128088488940621.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 1,
+      "describe": "",
+      "createTime": "2022-01-04 15:21:38",
+      "updateTime": "2026-01-12 09:58:03",
+      "createBy": "1344113100973973505",
+      "updateBy": "1344113100973973505",
+      "isDeleted": 0
+    },
+    {
+      "id": "1478265347273396227",
+      "resourcesId": "1322064310086950914",
+      "title": null,
+      "resourcesUrl": "https://res.zhiyousx.com/ysx/pro/2022/01/04/164128088495132747.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 2,
+      "describe": "",
+      "createTime": "2022-01-04 15:21:38",
+      "updateTime": "2026-01-12 09:58:03",
+      "createBy": "1344113100973973505",
+      "updateBy": "1344113100973973505",
+      "isDeleted": 0
+    },
+    {
+      "id": "1478265347277590530",
+      "resourcesId": "1322064310086950914",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/秦岭四季滑雪场2-20201030143307.JPG",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 3,
+      "describe": null,
+      "createTime": "2022-01-04 15:21:38",
+      "updateTime": "2022-01-04 15:21:38",
+      "createBy": "1344113100973973505",
+      "updateBy": "1344113100973973505",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

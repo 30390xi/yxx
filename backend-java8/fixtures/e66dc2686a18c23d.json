@@ -1,0 +1,221 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941111",
+    "scenicName": "黄河乾坤湾景区",
+    "tag": "人文历史悠久，红色文化厚重",
+    "level": 5,
+    "cityId": "1320663521644818433",
+    "cityName": "延安",
+    "address": "延安市延川县土岗乡小程村",
+    "longitude": "110.38873",
+    "latitude": "36.710829",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 117,
+    "topColour": "#00924F",
+    "centralColour": "#007841",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/02d6632b-e5bc-40dd-a9cf-d92c7c74c744-20201030101949.jpg"
+    ],
+    "introduction": "<p>　　景区自然景观奇特，人文历史悠久，红色文化厚重，民风民俗淳朴，&ldquo;品尝延川红枣、体验黄河漂流、观赏乾坤胜景、感受黄土风情&rdquo;已经成为乾坤湾旅游的主题。悠久的历史积淀了景区丰富的人文资源，游历乾坤湾，黄河风光一饱眼福：镶嵌于陕西、山西两省之间的水上之洲&mdash;&mdash;定情岛，见证了万千情侣情定今朝；傲然耸立的女娲峰俯瞰大河两岸，呵护着万千子民；&ldquo;陕北小华山&rdquo;会峰寨静听千年黄河流日夜，见证岁月古今；黄河古栈道是人们探知远古文明的桥梁，清水湾渡口吟唱着千年前的岁月繁华；清水衙门是古代名臣在此为官清廉的写照，也是今日的廉政文化教育基地；沿黄古道上的那段时空的记忆，给人以无尽遐想；历经民族文化融合的千年古窑雕刻着两个民族恩怨相泯时的欢笑；村民自办的&ldquo;碾畔黄河原生态民俗文化博物馆&rdquo;是黄河岸边劳苦大众血泪凝成的史书。秉承古老的黄河文化，乾坤湾景区民俗民风多姿多彩，九曲黄河阵转出福运，陕北狗头枣甜到了心窝，陕北道情唱出岁月峥嵘，延川剪纸剪出喜怒哀乐，陕北说书道出上下古今。</p>",
+    "introductionText": "　　景区自然景观奇特，人文历史悠久，红色文化厚重，民风民俗淳朴，“品尝延川红枣、体验黄河漂流、观赏乾坤胜景、感受黄土风情”已经成为乾坤湾旅游的主题。悠久的历史积淀了景区丰富的人文资源，游历乾坤湾，黄河风光一饱眼福：镶嵌于陕西、山西两省之间的水上之洲——定情岛，见证了万千情侣情定今朝；傲然耸立的女娲峰俯瞰大河两岸，呵护着万千子民；“陕北小华山”会峰寨静听千年黄河流日夜，见证岁月古今；黄河古栈道是人们探知远古文明的桥梁，清水湾渡口吟唱着千年前的岁月繁华；清水衙门是古代名臣在此为官清廉的写照，也是今日的廉政文化教育基地；沿黄古道上的那段时空的记忆，给人以无尽遐想；历经民族文化融合的千年古窑雕刻着两个民族恩怨相泯时的欢笑；村民自办的“碾畔黄河原生态民俗文化博物馆”是黄河岸边劳苦大众血泪凝成的史书。秉承古老的黄河文化，乾坤湾景区民俗民风多姿多彩，九曲黄河阵转出福运，陕北狗头枣甜到了心窝，陕北道情唱出岁月峥嵘，延川剪纸剪出喜怒哀乐，陕北说书道出上下古今。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026415628289",
+        "contentId": "1418152026403045378",
+        "name": "陕西5A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": null,
+    "discountVoList": null,
+    "facilitiesServicesVoList": null,
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": null,
+    "wxSubscriptionVoList": null,
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2082011492620886018",
+        "resourcesId": "1322000298678706177",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/7b7180ab-a7ff-4ded-bafc-a23169810087-20201030101956.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-07-28 15:53:16",
+        "updateTime": "2026-07-28 15:53:16",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011492625080322",
+        "resourcesId": "1322000298678706177",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/255f1686-b835-4a03-ba86-51e8e8805906-20201030102004.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-07-28 15:53:16",
+        "updateTime": "2026-07-28 15:53:16",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455724365810343938",
+      "rankingId": null,
+      "indexInRanking": 14,
+      "rankingName": "延安必逛景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

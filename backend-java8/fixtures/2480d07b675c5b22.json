@@ -1,0 +1,292 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1437630709526286338",
+    "scenicName": "安康历史博物馆",
+    "tag": "来安康一定要来这儿看看~",
+    "level": -1,
+    "cityId": "1320664694422548481",
+    "cityName": "安康",
+    "address": "安康市汉滨区香溪路28号",
+    "longitude": "109.033651",
+    "latitude": "32.680471",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 347,
+    "topColour": "#B73C38",
+    "centralColour": "#8E1814",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021091411262215433.png"
+    ],
+    "introduction": "<p>　　安康历史博物馆是安康市唯一的中型历史类博物馆，集文物收藏、保护、科学研究和陈列展览于一体，隶属安康市文化文物广电局，占地面积7218平方米、总建筑面积4200平方米，成立于1985年。1988年择地新建，采取分期营建，逐步开放的原则，1998年元月主馆建成并对外开放，2005年徐山林捐献藏品\"藏一角\"建成开放，2008年主馆展厅改扩建顺利完成并投入使用。全馆现有职工19人，其中研究员1人、副研究员2人、馆员5人，确立了本馆良好的事业发展格局。1986年出土，内底有铭文93字，记述了西周王朝与东夷、南夷的一次未被历史文献记载的战争，为西周史的研究提供了十分珍贵的新资料。</p>",
+    "introductionText": "　　安康历史博物馆是安康市唯一的中型历史类博物馆，集文物收藏、保护、科学研究和陈列展览于一体，隶属安康市文化文物广电局，占地面积7218平方米、总建筑面积4200平方米，成立于1985年。1988年择地新建，采取分期营建，逐步开放的原则，1998年元月主馆建成并对外开放，2005年徐山林捐献藏品\"藏一角\"建成开放，2008年主馆展厅改扩建顺利完成并投入使用。全馆现有职工19人，其中研究员1人、副研究员2人、馆员5人，确立了本馆良好的事业发展格局。1986年出土，内底有铭文93字，记述了西周王朝与东夷、南夷的一次未被历史文献记载的战争，为西周史的研究提供了十分珍贵的新资料。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全年",
+        "openTimeContent": "周一至周日<br/>全天开放"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "全员",
+        "limit": "无",
+        "discount": "免费"
+      }
+    ],
+    "facilitiesServicesVoList": null,
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>2路、5路、21路-市委站</p>\n<p>步行385米到达</p>\n<p>26路-汉滨区政协（香溪路口站）</p>\n<p>步行321米</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0915-3287945"
+      }
+    ],
+    "wxSubscriptionVoList": null,
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": "",
+    "contentResourcesDtoList": [
+      {
+        "id": "1923190507751792641",
+        "resourcesId": "1437630709517897731",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091411204378917.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2025-05-16 09:35:22",
+        "updateTime": "2025-05-16 09:35:22",
+        "createBy": "1909084661067874306",
+        "updateBy": "1909084661067874306",
+        "isDeleted": 0
+      },
+      {
+        "id": "1923190507755986946",
+        "resourcesId": "1437630709517897731",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091411251488268.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2025-05-16 09:35:22",
+        "updateTime": "2025-05-16 09:35:22",
+        "createBy": "1909084661067874306",
+        "updateBy": "1909084661067874306",
+        "isDeleted": 0
+      },
+      {
+        "id": "1923190507755986947",
+        "resourcesId": "1437630709517897731",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091411252377588.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2025-05-16 09:35:22",
+        "updateTime": "2025-05-16 09:35:22",
+        "createBy": "1909084661067874306",
+        "updateBy": "1909084661067874306",
+        "isDeleted": 0
+      },
+      {
+        "id": "1923190507760181250",
+        "resourcesId": "1437630709517897731",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091411255564456.jpeg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2025-05-16 09:35:22",
+        "updateTime": "2025-05-16 09:35:22",
+        "createBy": "1909084661067874306",
+        "updateBy": "1909084661067874306",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1439119981701840898",
+      "rankingId": null,
+      "indexInRanking": 54,
+      "rankingName": "陕西人气博物馆排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1455799129627271170",
+        "rankingId": "1455799130713595906",
+        "indexInRanking": null,
+        "rankingName": "安康必逛景点人气排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "1923190507772764161",
+        "scenicSpotId": "1437630709526286338",
+        "contentModuleName": null,
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1432599567328718849",
+            "type": 5,
+            "title": "史密簋",
+            "subtitle": "一次战争的见证者",
+            "coverImage": "https://eshopfile.zhiyousx.com/163039301747686966.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,277 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064188264529",
+    "scenicName": "汉阴凤堰古梯田",
+    "tag": "中国农耕文明的“活化石”",
+    "level": 4,
+    "cityId": "1320664694422548481",
+    "cityName": "安康",
+    "address": "安康市汉阴县汉漩路",
+    "longitude": "108.47034",
+    "latitude": "32.789397",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 9999,
+    "topColour": "#7AB751",
+    "centralColour": "#779968",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2025041718313128300.jpg",
+      "https://eshopfile.zhiyousx.com/2025041718385016151.jpg",
+      "https://eshopfile.zhiyousx.com/2025041718320176696.jpg"
+    ],
+    "introduction": "<div class=\"para\" data-pid=\"1\">　　凤堰古梯田为全国重点文物保护单位、国家水利风景区、国家4A旅游景区、国家森林公园、中国最美田园。景区位于汉阴县旋涡镇，属于灌区型水利风景区，连片共1.2万余亩，距今逾250年，景区面积38.78平方公里，是目前秦巴山区考古发现的面积 最大、保存最完整的清代梯田。2010年凤堰古梯田被评为&ldquo;陕西省第三次全国文物普查十大新发现&rdquo;，2013年被省水利厅命名为省级水利风景区，2014年被农业部命名为&ldquo;中国美丽田园&rdquo;，林业部将其纳入凤凰山国家森林公园，现已建成全国首个移民生态博物馆。2020年，<span class=\"ref\" data-ctrid=\"2JcAg3bzVNo\">汉阴县漩涡镇凤堰古梯田被正式认定为国家4A级旅游景区。</span></div>\n<p>&nbsp;</p>",
+    "introductionText": "　　凤堰古梯田为全国重点文物保护单位、国家水利风景区、国家4A旅游景区、国家森林公园、中国最美田园。景区位于汉阴县旋涡镇，属于灌区型水利风景区，连片共1.2万余亩，距今逾250年，景区面积38.78平方公里，是目前秦巴山区考古发现的面积 最大、保存最完整的清代梯田。2010年凤堰古梯田被评为“陕西省第三次全国文物普查十大新发现”，2013年被省水利厅命名为省级水利风景区，2014年被农业部命名为“中国美丽田园”，林业部将其纳入凤凰山国家森林公园，现已建成全国首个移民生态博物馆。2020年，汉阴县漩涡镇凤堰古梯田被正式认定为国家4A级旅游景区。\n",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "68",
+        "name": "旅游小镇",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": null,
+    "discountVoList": null,
+    "facilitiesServicesVoList": null,
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": null,
+    "wxSubscriptionVoList": null,
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2082011351823286273",
+        "resourcesId": "1322073738857177089",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/汉阴凤堰古梯田1-20201030150755.JPG",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-07-28 15:52:42",
+        "updateTime": "2026-07-28 15:52:42",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011351823286274",
+        "resourcesId": "1322073738857177089",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/汉阴凤堰古梯田2-20201030150803.JPG",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-07-28 15:52:42",
+        "updateTime": "2026-07-28 15:52:42",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011351827480577",
+        "resourcesId": "1322073738857177089",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092211031415202.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-07-28 15:52:42",
+        "updateTime": "2026-07-28 15:52:42",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011351831674881",
+        "resourcesId": "1322073738857177089",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092211032038558.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-07-28 15:52:42",
+        "updateTime": "2026-07-28 15:52:42",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011351831674882",
+        "resourcesId": "1322073738857177089",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092211032513639.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2026-07-28 15:52:42",
+        "updateTime": "2026-07-28 15:52:42",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455799129627271170",
+      "rankingId": null,
+      "indexInRanking": 9,
+      "rankingName": "安康必逛景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

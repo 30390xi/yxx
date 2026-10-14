@@ -1,0 +1,210 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064712552465",
+    "scenicName": "红石峡",
+    "tag": "“宋元古刹”",
+    "level": 3,
+    "address": "榆林市榆阳区红石峡村",
+    "longitude": "109.722623",
+    "latitude": "38.336036",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#D98D39",
+    "centralColour": "#B7762E",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2-20201028170646.jpg",
+      "https://eshopfile.zhiyousx.com/1-20201028170640.jpg"
+    ],
+    "introduction": "<p>　　红石峡位于榆林市城北3公里处，距离榆林市区仅5公里。红石峡谷长约350米，峡谷东崖高约11.5米，西崖高13米，东西对峙，峭拔雄伟。峡内榆溪河水穿峡而过直达城西。古代驻守榆林的文人墨客甚至武将都喜好到红石峡题刻以抒发边塞豪情壮志，所以红石峡又是长城书法艺术的一大宝库。从题字的内容，可以看出榆林古时&ldquo;九边重镇&rdquo;的地位。此外，还可以欣赏到宋元时期的石窟艺术。赶上晴天，就可以一睹&ldquo;红山夕照&rdquo;的风采：夕阳之下如同晚霞一般绚丽的红石峡风光。是著名的&ldquo;榆林八景&rdquo;之一。</p>",
+    "introductionText": "　　红石峡位于榆林市城北3公里处，距离榆林市区仅5公里。红石峡谷长约350米，峡谷东崖高约11.5米，西崖高13米，东西对峙，峭拔雄伟。峡内榆溪河水穿峡而过直达城西。古代驻守榆林的文人墨客甚至武将都喜好到红石峡题刻以抒发边塞豪情壮志，所以红石峡又是长城书法艺术的一大宝库。从题字的内容，可以看出榆林古时“九边重镇”的地位。此外，还可以欣赏到宋元时期的石窟艺术。赶上晴天，就可以一睹“红山夕照”的风采：夕阳之下如同晚霞一般绚丽的红石峡风光。是著名的“榆林八景”之一。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1450028527872122881",
+        "contentId": "1450028527859539970",
+        "name": "陕西省文化遗址公园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": null,
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "官方电话",
+        "telephone": "0912-7183768"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2089249201659764738",
+        "resourcesId": "1321378166068240385",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021101810560391385.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-08-17 15:13:20",
+        "updateTime": "2026-08-17 15:13:20",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2089249201663959042",
+        "resourcesId": "1321378166068240385",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/4-20201028170656.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-08-17 15:13:20",
+        "updateTime": "2026-08-17 15:13:20",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2089249201668153346",
+        "resourcesId": "1321378166068240385",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/5-20201028170748.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-08-17 15:13:20",
+        "updateTime": "2026-08-17 15:13:20",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455743348567547905",
+      "rankingId": null,
+      "indexInRanking": 13,
+      "rankingName": " 榆林必逛景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

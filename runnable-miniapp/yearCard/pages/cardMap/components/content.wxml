@@ -1,6 +1,6 @@
 <view class="data-v-9783321a">
     <view class="select-card data-v-9783321a" style="{{'top:'+height+';'}}">
-        <view bindtap="__e" class="title data-v-9783321a" data-event-opts="{{[ [ 'tap',[ [ 'openSelectCard',['$event'] ] ] ] ]}}">{{''+(currentInfo.title||'')+''}}<image class="data-v-9783321a" src="https://eshopfile.zhiyousx.com/2023112411094293620.png"></image>
+        <view bindtap="__e" class="title data-v-9783321a" data-event-opts="{{[ [ 'tap',[ [ 'openSelectCard',['$event'] ] ] ] ]}}">{{''+(currentInfo.title||'')+''}}<image class="data-v-9783321a" src="/static/captured/aa1bd41d93f36b62.png"></image>
         </view>
         <view class="desc data-v-9783321a">您共去过<text class="desc-num data-v-9783321a">{{currentInfo.saveMoneyVO?currentInfo.saveMoneyVO.usedTicketNum:0}}</text>个地点,累计节省<text class="desc-num data-v-9783321a">{{currentInfo.saveMoneyVO?currentInfo.saveMoneyVO.totalMoney:0}}</text>元</view>
     </view>

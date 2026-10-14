@@ -1,0 +1,437 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1437268738368962561",
+    "scenicName": "法门寺博物馆",
+    "tag": "大唐文化放异彩",
+    "level": -1,
+    "cityId": "1320659384068780033",
+    "cityName": "宝鸡",
+    "address": "宝鸡市扶风县法门镇法门寺文化景区",
+    "longitude": "107.903622",
+    "latitude": "34.437565",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 191,
+    "topColour": "#B65E5B",
+    "centralColour": "#90413F",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021091312134146002.png"
+    ],
+    "introduction": "<p>　　法门寺因安置佛祖释迦牟尼指骨舍利，为华夏王朝所拥戴而成为我国古代四大佛教圣地之一。唐代尊奉法门寺佛指舍利为护国真身舍利，曾有八位皇帝每三十年开启一次法门寺地宫，迎舍利于皇宫供养。法门寺博物馆现有文物藏品两千余件。其中国家一级文物71件，国家二级文物37件。博物馆在考古学研究上文物的类型、分期、编年、器物组合方面线络清楚，馆藏文物从造型、纹饰、铭文及用途上反映佛教内容丰富。藏品等级高、质量精、种类齐全，多为唐皇室供奉法门寺文物和佛教文物。</p>",
+    "introductionText": "　　法门寺因安置佛祖释迦牟尼指骨舍利，为华夏王朝所拥戴而成为我国古代四大佛教圣地之一。唐代尊奉法门寺佛指舍利为护国真身舍利，曾有八位皇帝每三十年开启一次法门寺地宫，迎舍利于皇宫供养。法门寺博物馆现有文物藏品两千余件。其中国家一级文物71件，国家二级文物37件。博物馆在考古学研究上文物的类型、分期、编年、器物组合方面线络清楚，馆藏文物从造型、纹饰、铭文及用途上反映佛教内容丰富。藏品等级高、质量精、种类齐全，多为唐皇室供奉法门寺文物和佛教文物。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026327547906",
+        "contentId": "1418152026310770690",
+        "name": "国家一级博物馆",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全年",
+        "openTimeContent": "周一至周日<br/>8:30-17:00,17:00停止入场"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "全员",
+        "limit": "无",
+        "discount": "免费"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "11",
+        "name": "餐厅",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (22).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "6",
+        "name": "免费wifi",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (11).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "10",
+        "name": "商店",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (19).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "59",
+        "name": "园内交通",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016420452783.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>西安城西客运站-法门寺公交车，步行27分钟到达</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0917-5258890"
+      },
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "55258888"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "浏览号",
+        "wxSubscriptionName": "法门寺博物馆",
+        "wxSubscription": "fmsmuseum"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": "馆藏珍宝",
+    "contentResourcesDtoList": [
+      {
+        "id": "1927176096167682050",
+        "resourcesId": "1437268738360573954",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091312070795322.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2025-05-27 09:32:41",
+        "updateTime": "2025-05-27 09:32:41",
+        "createBy": "1909084661067874306",
+        "updateBy": "1909084661067874306",
+        "isDeleted": 0
+      },
+      {
+        "id": "1927176096167682051",
+        "resourcesId": "1437268738360573954",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091312015083544.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2025-05-27 09:32:41",
+        "updateTime": "2025-05-27 09:32:41",
+        "createBy": "1909084661067874306",
+        "updateBy": "1909084661067874306",
+        "isDeleted": 0
+      },
+      {
+        "id": "1927176096171876354",
+        "resourcesId": "1437268738360573954",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091312005873168.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2025-05-27 09:32:41",
+        "updateTime": "2025-05-27 09:32:41",
+        "createBy": "1909084661067874306",
+        "updateBy": "1909084661067874306",
+        "isDeleted": 0
+      },
+      {
+        "id": "1927176096171876355",
+        "resourcesId": "1437268738360573954",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091312010586107.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2025-05-27 09:32:41",
+        "updateTime": "2025-05-27 09:32:41",
+        "createBy": "1909084661067874306",
+        "updateBy": "1909084661067874306",
+        "isDeleted": 0
+      },
+      {
+        "id": "1927176096176070658",
+        "resourcesId": "1437268738360573954",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091312024074375.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2025-05-27 09:32:41",
+        "updateTime": "2025-05-27 09:32:41",
+        "createBy": "1909084661067874306",
+        "updateBy": "1909084661067874306",
+        "isDeleted": 0
+      },
+      {
+        "id": "1927176096176070659",
+        "resourcesId": "1437268738360573954",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091312081168016.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2025-05-27 09:32:41",
+        "updateTime": "2025-05-27 09:32:41",
+        "createBy": "1909084661067874306",
+        "updateBy": "1909084661067874306",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1439119981701840898",
+      "rankingId": null,
+      "indexInRanking": 23,
+      "rankingName": "陕西人气博物馆排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1680835374538088449",
+        "rankingId": "1680835375632801794",
+        "indexInRanking": null,
+        "rankingName": "陕西省热搜50强博物馆排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "1927176096188653570",
+        "scenicSpotId": "1437268738368962561",
+        "contentModuleName": "馆藏珍宝",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1435417039266230273",
+            "type": 5,
+            "title": "盘口细颈淡黄色琉璃瓶",
+            "subtitle": "唐代盘口琉璃瓶",
+            "coverImage": "https://eshopfile.zhiyousx.com/163106465620754097.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1435424024523026433",
+            "type": 5,
+            "title": "紫红罗地蹙金绣袈裟",
+            "subtitle": "唐代丝绸工艺之精华",
+            "coverImage": "https://eshopfile.zhiyousx.com/163106624483581903.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1434700907018301442",
+            "type": 5,
+            "title": "八棱秘色瓷净水瓶",
+            "subtitle": "九秋风露越窑开，夺得千峰翠",
+            "coverImage": "https://eshopfile.zhiyousx.com/163089387702216634.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1435436393185783809",
+            "type": 5,
+            "title": "迎真身银金花双轮十二环银锡杖",
+            "subtitle": "世界锡杖之王",
+            "coverImage": "https://eshopfile.zhiyousx.com/163106946739449866.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1926917320613224449",
+            "type": 5,
+            "title": "铜浮屠",
+            "subtitle": "",
+            "coverImage": "https://eshopfile.zhiyousx.com/174824772747445679.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1926918532569948162",
+            "type": 5,
+            "title": "八重宝函",
+            "subtitle": "",
+            "coverImage": "https://eshopfile.zhiyousx.com/174824807740901724.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

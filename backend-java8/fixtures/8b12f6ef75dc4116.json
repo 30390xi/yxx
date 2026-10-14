@@ -1,0 +1,52 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1658367023262699521",
+    "contentId": "1658367021698224129",
+    "rankingName": "自然科学类博物馆人气榜",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/168422047592115290.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": "人去过",
+    "rankingInclude": "个目的地",
+    "rankingPersonalInfo": "我去过的目的地",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#414628",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1561653917598334977",
+        "originType": "1",
+        "originName": "铜川植物园",
+        "originSubtitleName": "市区里的观景科普植物园",
+        "originUrl": "https://eshopfile.zhiyousx.com/2022082217555264686.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/166116226517926851.jpg",
+          "https://eshopfile.zhiyousx.com/166116226561727282.jpg",
+          "https://eshopfile.zhiyousx.com/166116226615958466.jpg",
+          "https://eshopfile.zhiyousx.com/166116226708076751.jpg",
+          "https://eshopfile.zhiyousx.com/166116226750562588.jpg",
+          "https://eshopfile.zhiyousx.com/166116226799633556.jpg",
+          "https://eshopfile.zhiyousx.com/166116226845669283.jpg",
+          "https://eshopfile.zhiyousx.com/166116226887969897.jpg",
+          "https://eshopfile.zhiyousx.com/166116226932199494.jpg"
+        ],
+        "sort": "10",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "11",
+    "favoriteSum": null,
+    "personalInfoValue": "0/11"
+  },
+  "msg": "成功",
+  "success": true
+}

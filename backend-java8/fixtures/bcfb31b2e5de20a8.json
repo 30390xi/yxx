@@ -1,0 +1,508 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941088",
+    "scenicName": "​照金香山风景名胜区",
+    "tag": "\"红、蓝、白、金、绿\"五彩旅游地",
+    "level": 4,
+    "address": "铜川市耀州区庙湾镇瑶玉村",
+    "longitude": "108.731346",
+    "latitude": "35.086764",
+    "openingStatus": 1,
+    "capacity": 10700,
+    "topColour": "#CD7731",
+    "centralColour": "#C8772B",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/100j1f000001gpr07828E_R_1600_10000-20201029112144.jpg"
+    ],
+    "introduction": "<p>　　照金香山风景名胜区位于耀州区西北部，地跨庙湾、照金、柳林三镇，整个景区总规划面积是312平方公里，核心面积83平方公里，主要景点是红色旅游名镇&ldquo;照金镇&rdquo;，红军大本营&ldquo;薛家寨&rdquo;和千年佛教名山&ldquo;大香山&rdquo;，景区以红色革命游、绿色生态游、佛教文化游为主体，是一个集革命传统教育、宗教文化洗礼、休闲度假怡情为一体的大型综合型景区。这里属温带大陆性半湿润季风气候区、气候温凉，夏无酷暑。自然景观秀丽，森林植被保存完整，动植物资源丰富，各种野生植物661中种，动物140种，昆虫841种，古树名木20余棵，景区森林覆盖率达84%，是开展生态旅游的绝佳之处。</p>",
+    "introductionText": "　　照金香山风景名胜区位于耀州区西北部，地跨庙湾、照金、柳林三镇，整个景区总规划面积是312平方公里，核心面积83平方公里，主要景点是红色旅游名镇“照金镇”，红军大本营“薛家寨”和千年佛教名山“大香山”，景区以红色革命游、绿色生态游、佛教文化游为主体，是一个集革命传统教育、宗教文化洗礼、休闲度假怡情为一体的大型综合型景区。这里属温带大陆性半湿润季风气候区、气候温凉，夏无酷暑。自然景观秀丽，森林植被保存完整，动植物资源丰富，各种野生植物661中种，动物140种，昆虫841种，古树名木20余棵，景区森林覆盖率达84%，是开展生态旅游的绝佳之处。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "18",
+        "name": "红色旅游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "63",
+        "name": "宗教文化",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "51",
+        "name": "拓展游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "69",
+        "name": "商务旅",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米(不含)以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "年龄65周岁(含)以上凭老年证或身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "军人",
+        "limit": "现役军人凭军官证或士兵证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭残疾证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "警察",
+        "limit": "凭警官证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "宗教人士",
+        "limit": "凭皈依证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米(含)-1.4米(不含)",
+        "discount": "半价优惠"
+      },
+      {
+        "peopleType": "教师",
+        "limit": "凭教师资格证",
+        "discount": "半价优惠"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "全日制大中小学生(不含成人教育研究生)凭有效学生证",
+        "discount": "半价优惠"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0919-6581234"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2082014867169140737",
+        "resourcesId": "1321653644414967809",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165968843645776442.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": "",
+        "createTime": "2026-07-28 16:06:40",
+        "updateTime": "2026-07-28 16:06:40",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014867173335041",
+        "resourcesId": "1321653644414967809",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165968843697402425.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": "",
+        "createTime": "2026-07-28 16:06:40",
+        "updateTime": "2026-07-28 16:06:40",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014867177529346",
+        "resourcesId": "1321653644414967809",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165968843746893861.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": "",
+        "createTime": "2026-07-28 16:06:40",
+        "updateTime": "2026-07-28 16:06:40",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014867177529347",
+        "resourcesId": "1321653644414967809",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165968843797865152.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": "",
+        "createTime": "2026-07-28 16:06:40",
+        "updateTime": "2026-07-28 16:06:40",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014867181723650",
+        "resourcesId": "1321653644414967809",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/7446fdea877148eb95657df47deb4d3f-20201029112217.jpeg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2026-07-28 16:06:40",
+        "updateTime": "2026-07-28 16:06:40",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014867181723651",
+        "resourcesId": "1321653644414967809",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/10091900000186ne44F6D_R_1600_10000-20201029112234.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2026-07-28 16:06:40",
+        "updateTime": "2026-07-28 16:06:40",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014867185917953",
+        "resourcesId": "1321653644414967809",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165968843840217420.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": "",
+        "createTime": "2026-07-28 16:06:40",
+        "updateTime": "2026-07-28 16:06:40",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014867185917954",
+        "resourcesId": "1321653644414967809",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165968843894521894.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": "",
+        "createTime": "2026-07-28 16:06:40",
+        "updateTime": "2026-07-28 16:06:40",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014867190112258",
+        "resourcesId": "1321653644414967809",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165968843950904708.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": "",
+        "createTime": "2026-07-28 16:06:40",
+        "updateTime": "2026-07-28 16:06:40",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014867194306562",
+        "resourcesId": "1321653644414967809",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/165968844008078732.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": "",
+        "createTime": "2026-07-28 16:06:40",
+        "updateTime": "2026-07-28 16:06:40",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014867194306563",
+        "resourcesId": "1321653644414967809",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/10081a0000018gssw409F_R_1600_10000-20201029112226.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 11,
+        "describe": null,
+        "createTime": "2026-07-28 16:06:40",
+        "updateTime": "2026-07-28 16:06:40",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1559032346152939522",
+      "rankingId": null,
+      "indexInRanking": 11,
+      "rankingName": "铜川亲子游景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": [
+      {
+        "id": "2082014867211083778",
+        "scenicSpotId": "1320579064720941088",
+        "contentModuleName": "主要景点",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1385186838783799298",
+            "type": 6,
+            "title": "照金红色旅游小镇",
+            "subtitle": "照金精神 砥砺前行",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021061611285030129.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1320579064188264533",
+            "type": 6,
+            "title": "照金薛家寨景区",
+            "subtitle": "重峦叠嶂 密林如海 工农红军驻留地",
+            "coverImage": "https://eshopfile.zhiyousx.com/10051g000001h0l8h4D50_C_1600_1200-20201029114129.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1562291794300608514",
+            "type": 6,
+            "title": "大香山寺",
+            "subtitle": "观世音菩萨唯一肉身道场",
+            "coverImage": "https://eshopfile.zhiyousx.com/2022082414122146911.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1331167361658589186",
+            "type": 6,
+            "title": "照金国际滑雪场",
+            "subtitle": "家附近的高品质滑雪场",
+            "coverImage": "https://eshopfile.zhiyousx.com/f8471a48-ddb4-4252-a507-4edf1f2f0424_看图王(1)-20201124180725-20201203094753.JPG",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1320579064188264527",
+            "type": 6,
+            "title": "照金牧场",
+            "subtitle": "欧式田园风情的度假胜地",
+            "coverImage": "https://eshopfile.zhiyousx.com/muchang1-20201029102251.JPG",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1409846526909452290",
+            "type": 6,
+            "title": "陈家坡会议旧址",
+            "subtitle": "陕甘边革命史上的“遵义会议”",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062920585687697.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

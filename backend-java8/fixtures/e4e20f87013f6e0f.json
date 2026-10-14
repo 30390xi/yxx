@@ -1,0 +1,674 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064699969540",
+    "scenicName": "大慈恩寺(大雁塔)",
+    "tag": "这就是唐僧翻译经文的地方",
+    "level": 5,
+    "cityId": "1320620100725026817",
+    "cityName": "西安",
+    "address": "西安市雁塔区慈恩路1号",
+    "longitude": "108.96408",
+    "latitude": "34.21914",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 5,
+    "topColour": "#858E9F",
+    "centralColour": "#816E81",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021061711283449827.jpg"
+    ],
+    "introduction": "<p style=\"text-align: justify;\">　　曾经这是一座储藏着玄奘取得佛经的宝塔，现在它已是傲然屹立于世的灿烂瑰宝。为了追悼母亲文德皇后，唐高宗李治命人建造了唐朝最华丽的皇家寺院大慈恩寺，并由大唐法师玄奘担任主持，大雁塔便是后来唐玄奘为了贮藏从印度带回的佛像、舍利和佛经等珍宝所修建的宝塔。作为古城西安的重要地标，大雁塔不仅是现存最早、规模最大的唐代四方楼阁式砖塔，也是现今仅存的唐长安城遗迹之一。历经千年的风霜和战火，几经修复仍留至今的大雁塔，无疑是西安乃至世界不可忽视的历史明珠。游至长安，就让大雁塔带你感受古都的魅力。</p>",
+    "introductionText": "　　曾经这是一座储藏着玄奘取得佛经的宝塔，现在它已是傲然屹立于世的灿烂瑰宝。为了追悼母亲文德皇后，唐高宗李治命人建造了唐朝最华丽的皇家寺院大慈恩寺，并由大唐法师玄奘担任主持，大雁塔便是后来唐玄奘为了贮藏从印度带回的佛像、舍利和佛经等珍宝所修建的宝塔。作为古城西安的重要地标，大雁塔不仅是现存最早、规模最大的唐代四方楼阁式砖塔，也是现今仅存的唐长安城遗迹之一。历经千年的风霜和战火，几经修复仍留至今的大雁塔，无疑是西安乃至世界不可忽视的历史明珠。游至长安，就让大雁塔带你感受古都的魅力。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "21",
+        "name": "地标打卡",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "23",
+        "name": "灯光夜景",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026386268161",
+        "contentId": "1418152026377879553",
+        "name": "世界遗产名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026415628289",
+        "contentId": "1418152026403045378",
+        "name": "陕西5A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全年",
+        "openTimeContent": "周一至周日  全天开放<br/>08:30-17:40 （16:40停止入场）"
+      },
+      {
+        "openTimeTitle": "收费景区",
+        "openTimeContent": "大慈恩寺（大雁塔）、登塔需另收费"
+      },
+      {
+        "openTimeTitle": "免费景区",
+        "openTimeContent": "大雁塔北广场、大雁塔南广场、大雁塔东广场、大雁塔西广场、大雁塔音乐喷泉"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "老年人",
+        "limit": "65周岁（含）以上凭老年证或身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米（不含）以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭残疾证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "现役军人",
+        "limit": "凭军官证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "僧侣",
+        "limit": "凭皈依证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "未成年人",
+        "limit": "身高1.2米以下（含）以上且18周岁（含）以下凭身份证",
+        "discount": "五折"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "8",
+        "name": "宠物禁止入园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (13).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "西安曲江大雁塔北广场停车场",
+        "additionalExplainContent": "地址 : 西安市雁塔区慈恩寺内大雁塔脚下"
+      },
+      {
+        "additionalExplainTitle": "西安大悦城地下停车场",
+        "additionalExplainContent": "地址：西安市雁塔区慈恩西路1号"
+      },
+      {
+        "additionalExplainTitle": "西安威斯汀大酒店停车场",
+        "additionalExplainContent": "地址：西安市雁塔区慈恩路66号"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": "<p>地铁大雁塔站-3号线/4号线-C口</p>"
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区电话",
+        "telephone": "13379218670"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "西安曲江大雁塔文化休闲景区",
+        "wxSubscription": "dayantajingqu"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "2059806768914563074",
+        "outId": "1320579064699969540",
+        "type": 1,
+        "advertName": "宝塔倾斜之谜",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021061718060185823.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p style=\"text-align: left;\"><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061613474081726.jpg\" /></p>\n<p style=\"text-align: left;\">　　&nbsp;&ldquo;塔势如涌出，孤高耸天宫。&rdquo;诗人岑参曾在诗中赞叹大雁塔的恢弘气势。大雁塔是今天中国为数不多的几座能够登临的古塔之一，虽然几经损毁，但历经修复，至今依然保持着唐朝建造时的形制。1300多年来，这座佛塔经受过战争、地震和火灾，但却没能逃过&ldquo;十塔九斜&rdquo;的命运。</p>\n<p style=\"text-align: left;\">　　一座傲然屹立了千年的古塔会受到气候变化的影响产生倾斜吗?站在大雁塔前的广场之上，仔细观察不难发现其略有倾斜。其实早在1719年，大雁塔就被发现塔身倾斜，到1985年已倾斜了998毫米。自1985年起，国家测绘地理信息局第一大地测量队每年上半年和下半年对大雁塔进行测量。至1996年发现，古塔向西北方向倾斜达1010.5毫米，也就是1米多。</p>\n<p style=\"text-align: center;\"><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061613503537517.jpg\" /></p>\n<p style=\"text-align: center;\">　　西安市大雁塔保管所副所长刘忠说:&ldquo;导致塔身倾斜地原因非常复杂，包括建造时的误差、地震、降水、周围地质条件的变化，以及长期以来人类活动的影响都在逐步地让大雁塔倾斜。&rdquo;</p>\n<p>　　 &ldquo;在建造过程中，塔的自重也会使其自身产生下陷，可能造成微小的倾斜。&rdquo;刘忠说，在唐朝，建造这座64米高的大雁塔而且没有现代的勘测技术和手段，难免会产生一些测量的误差。由于地面承重的不同，塔体可能会有一定程度的下陷，在下限的过程中，因为地质条件的不同，可能会造成塔身的倾斜。</p>\n<p>　　大雁塔是砖结构的，1300多年来砖体因为自然的风化侵蚀以及砖体表面植被的生长等影响而开裂，导致雨水下渗，影响塔的承重。雨水在下渗的过程中也会夹杂一些对砖体不利的盐类物质，这些附着在砖体表面的物质随着雨水的蒸发而膨胀，影响砖的结构。</p>\n<p>　　刘忠说:&ldquo;大雁塔周边环境地质条件的变化也是影响其倾斜的原因之一。&rdquo;原先在大雁塔周围还存在过一些小的湖泊，但在多种因素的影响下已经干涸。塔基周围水体的减少也会影响其承重。</p>\n<p>　　&ldquo;地震的影响不可忽视。&rdquo;刘忠说，历史上曾经发生过几次大地震，对大雁塔的破坏很大，像关中大地震曾经震裂塔顶，汶川地震导致塔内粉层大块脱落，甚至出现裂缝，这也是导致塔身倾斜的一个原因。</p>\n<p>　　上世纪80年代至90年代，由于城市发展加快，西安城市用水急剧增加，甚至一度出现了用水荒。刘忠表示，由于常年超采地下水，大雁塔周边的地下水位水位大幅度下降，引起地面大范围的不均匀沉降，使得大雁塔的倾斜加快。这一时期也是大雁塔的倾斜速度最快的时期。</p>\n<p>　　大雁塔的倾斜问题也引起了当地政府部门的重视。近年来，西安市政府对大雁塔周边单位的400多口自备井实施封井措施，并加大了地下水回灌力度，将地表水注入地下含水层、以增加地下水储量。据国家测绘地理信息局第一大地测量队的最新测量数据，1997年大雁塔开始停止倾斜，并以每年约1毫米的速度逐渐复位，现在大雁塔基本又回到了1985年的位置，倾斜约998毫米。</p>\n<p>　　我们是否应该采取相应的措施助力大雁塔&ldquo;改斜归正&rdquo;呢?刘忠认为:&ldquo;人对文物的干扰越小，对它的保护就越好。&rdquo;如今，具有1300多年历史的大雁塔整体属于&ldquo;动态平衡&rdquo;状态，只有更好地研究、了解塔内的构造、砖土结构的分布等，才能在未来更好地对它进行保护。</p>\n<p style=\"text-align: center;\">来源：网络综合整理</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      },
+      {
+        "id": "2059806768918757377",
+        "outId": "1320579064699969540",
+        "type": 1,
+        "advertName": "名称的由来",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021061718061798405.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p>　　大雁塔自建成以后，就有&ldquo;雁塔&rdquo;之称。它的得名由来，流传有多种说法。 <br />　　其一，古印度迦蓝佛曾&ldquo;穿石山做塔五层，最下面一层作雁形，谓之雁塔。&rdquo;玄奘最初设计建造的塔就采用了这种形制。 <br />　　其二，按照印度佛教传说， 当初佛教有大乘与小乘两大派，小乘佛教不忌荤腥。有一天，一座小乘寺院的和尚买不到肉做饭。这天正好是菩萨布施日，天空一群大雁飞过，一个和尚仰面望着雁群自言自语：&ldquo;今日僧房无肉吃，大慈大悲的菩萨一定不会忘记今天是什么日子。&rdquo;话音未落，领头的大雁便折翅坠地。于是全寺和尚大惊失色，领悟出这大雁分明是菩萨化现，他们在大雁坠地处建造石塔，从此戒绝荤腥，改信大乘佛教。因此，佛塔又称雁塔。 <br />　　其三，当年玄奘取经途中曾困于沙漠，后来得到大雁领引，才技到水源，得以生还。建造这座佛塔是为报答菩萨化身指点迷津的大雁之恩。 <br />　　其四，它和佛祖释迦牟尼曾化身为鸽救生的佛教故事有关。唐代人习尚雁，通常以雁泛指鸟类，因此得名雁塔。 <br />　　慈恩寺塔建成50多年后，在它的西北又出现荐福寺塔，一大一小，均叫雁塔，于是人们把前者称大雁塔，后者称小雁塔。</p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\">来源：网络综合整理</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": "周边推荐",
+    "contentResourcesDtoList": [
+      {
+        "id": "2059806768843259905",
+        "resourcesId": "1321729436935282690",
+        "title": "大雁塔名场面",
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061714590430268.mp4",
+        "coverImage": "https://eshopfile.zhiyousx.com/2021061714585130763.jpg",
+        "videoId": null,
+        "resourcesType": 2,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-05-28 09:19:37",
+        "updateTime": "2026-05-28 09:19:37",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2059806768847454209",
+        "resourcesId": "1321729436935282690",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061711465366887.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-05-28 09:19:37",
+        "updateTime": "2026-05-28 09:19:37",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2059806768847454210",
+        "resourcesId": "1321729436935282690",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061518351983491.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-05-28 09:19:37",
+        "updateTime": "2026-05-28 09:19:37",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2059806768851648514",
+        "resourcesId": "1321729436935282690",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061611311034278.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-05-28 09:19:37",
+        "updateTime": "2026-05-28 09:19:37",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2059806768855842818",
+        "resourcesId": "1321729436935282690",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061715573314810.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2026-05-28 09:19:37",
+        "updateTime": "2026-05-28 09:19:37",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2059806768855842819",
+        "resourcesId": "1321729436935282690",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061518220357605.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2026-05-28 09:19:37",
+        "updateTime": "2026-05-28 09:19:37",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2059806768860037122",
+        "resourcesId": "1321729436935282690",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061518335775808.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2026-05-28 09:19:37",
+        "updateTime": "2026-05-28 09:19:37",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2059806768860037123",
+        "resourcesId": "1321729436935282690",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061611332619202.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2026-05-28 09:19:37",
+        "updateTime": "2026-05-28 09:19:37",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2059806768864231425",
+        "resourcesId": "1321729436935282690",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021063015113239333.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": null,
+        "createTime": "2026-05-28 09:19:37",
+        "updateTime": "2026-05-28 09:19:37",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2059806768868425729",
+        "resourcesId": "1321729436935282690",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021063015114014878.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": null,
+        "createTime": "2026-05-28 09:19:37",
+        "updateTime": "2026-05-28 09:19:37",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2059806768868425730",
+        "resourcesId": "1321729436935282690",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021063015115071483.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 11,
+        "describe": null,
+        "createTime": "2026-05-28 09:19:37",
+        "updateTime": "2026-05-28 09:19:37",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2059806768872620033",
+        "resourcesId": "1321729436935282690",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021063015115891206.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 12,
+        "describe": null,
+        "createTime": "2026-05-28 09:19:37",
+        "updateTime": "2026-05-28 09:19:37",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2059806768872620034",
+        "resourcesId": "1321729436935282690",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021063015120875984.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 13,
+        "describe": null,
+        "createTime": "2026-05-28 09:19:37",
+        "updateTime": "2026-05-28 09:19:37",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2059806768876814337",
+        "resourcesId": "1321729436935282690",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021063015131591987.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 14,
+        "describe": null,
+        "createTime": "2026-05-28 09:19:37",
+        "updateTime": "2026-05-28 09:19:37",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2059806768881008641",
+        "resourcesId": "1321729436935282690",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021063015132356370.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 15,
+        "describe": null,
+        "createTime": "2026-05-28 09:19:37",
+        "updateTime": "2026-05-28 09:19:37",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2059806768881008642",
+        "resourcesId": "1321729436935282690",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021063015172175107.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 16,
+        "describe": null,
+        "createTime": "2026-05-28 09:19:37",
+        "updateTime": "2026-05-28 09:19:37",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1551836855409541121",
+      "rankingId": null,
+      "indexInRanking": 10,
+      "rankingName": "外地游客西安必逛榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1818221757267132417",
+        "rankingId": "1818221762493235202",
+        "indexInRanking": null,
+        "rankingName": "西安汉服拍摄地人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1538830830115508226",
+        "rankingId": "1538830831147307010",
+        "indexInRanking": null,
+        "rankingName": "西安必游人气排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1676883692355641345",
+        "rankingId": "1676883693114810370",
+        "indexInRanking": null,
+        "rankingName": "西安热门景区人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1696782313893548033",
+        "rankingId": "1696782315588046849",
+        "indexInRanking": null,
+        "rankingName": "曲江人气景区排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "2059806768897785857",
+        "scenicSpotId": "1320579064699969540",
+        "contentModuleName": "周边推荐",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1437675925050347521",
+            "type": 6,
+            "title": "大雁塔北广场",
+            "subtitle": "观赏流光溢彩的音乐喷泉",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021091415074238297.jpeg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1404741765499469825",
+            "type": 5,
+            "title": "大雁塔南广场玄奘铜像",
+            "subtitle": "《西游记》唐僧的原型人物",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021061517485200915.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1405427955131236353",
+            "type": 5,
+            "title": "大雁塔西广场",
+            "subtitle": "行至林间，赏民俗风趣",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021061715120753809.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": "",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

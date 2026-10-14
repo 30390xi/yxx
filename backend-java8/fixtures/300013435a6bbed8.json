@@ -1,0 +1,576 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064188264473",
+    "scenicName": "黄帝陵中华始祖堂",
+    "tag": "国家语言文字推广基地示范单位",
+    "level": 3,
+    "address": "延安市黄陵县黄帝陵景区",
+    "longitude": "109.277714",
+    "latitude": "35.5832",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#D09950",
+    "centralColour": "#A96825",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/32ea42f5-af0a-419d-b861-42bc16ddb406-20201030103806.jpg",
+      "https://eshopfile.zhiyousx.com/2021042623213064617.jpg"
+    ],
+    "introduction": "<p>　　中华始祖堂是中国工程院院士张锦秋大师的精心之作，也是黄帝陵文化园区首个正式开放的单体文化项目，按照&ldquo;黄帝文化&rdquo;和&ldquo;黄陵文化&rdquo;两大版块，重点讲述黄帝传说、黄帝时代、黄帝功绩、黄帝崇拜、黄帝祭祀 以及守陵护陵、颂陵艺术等七大方面内容，展示黄帝传奇一生。</p>",
+    "introductionText": "　　中华始祖堂是中国工程院院士张锦秋大师的精心之作，也是黄帝陵文化园区首个正式开放的单体文化项目，按照“黄帝文化”和“黄陵文化”两大版块，重点讲述黄帝传说、黄帝时代、黄帝功绩、黄帝崇拜、黄帝祭祀 以及守陵护陵、颂陵艺术等七大方面内容，展示黄帝传奇一生。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "51",
+        "name": "拓展游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1419544677090156546",
+        "contentId": "1419544677060796418",
+        "name": "陕文投集团景区",
+        "tagUrl": "https://eshopfile.zhiyousx.com/162728079399429661.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "6周岁（含）或1.2米（含）以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "6周岁（不含）-18周岁（含）未成年人、全日制大学本科及以下学历凭居民身份证或学生证等有效证件",
+        "discount": "半价（旺季32元/人，淡季20元/人））"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "65岁以上凭居民身份证（或陕西省敬老优待证）",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "军人",
+        "limit": "现役军人（含军队离退休干部）凭军官证（离退休证）、士官证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭残疾证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "人民警察",
+        "limit": "凭工作证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "记者",
+        "limit": "凭工作证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "导游",
+        "limit": "凭工作证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "港澳台等入境青少年",
+        "limit": "凭《港澳居民来往内地通行证》、《台湾居民来往大陆通行证》或学生证件",
+        "discount": "半价（旺季32元/人，淡季20元/人））"
+      },
+      {
+        "peopleType": "黄陵县当地居民",
+        "limit": "凭身份证",
+        "discount": "半价（旺季32元/人，淡季20元/人））"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "客服电话",
+        "telephone": "0911-5516555"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "1630768392170491906",
+        "outId": "1320579064188264473",
+        "type": 1,
+        "advertName": "揭秘中华始祖堂",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021072212195490048.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p>　　中华始祖堂为国家AAA级旅游景区，位于陕西省延安市黄陵县，与黄帝陵、轩辕庙共同组成&ldquo;陵、庙、堂&rdquo;三位一体的黄帝陵文化园区地景文化。2019年3月30日，中华始祖堂正式落成开放，这是黄帝陵文化园区首个建成并对外开放的单体文化项目。<br />　　中华始祖堂为地下两层覆土式建筑，总建筑面积22000㎡，展陈面积约7000㎡，是中国工程院院士、中国建筑西北设计研究院总建筑师张锦秋大师的精心之作。建筑造型以5000年前的红山文化&ldquo;玉龙&rdquo;为构思之源，寓意黄帝是龙的化身，中华民族是龙的子孙。<br />　　中华始祖堂是按照&ldquo;黄帝文化&rdquo;和&ldquo;黄陵文化&rdquo;两大板块，重点讲述黄帝传说、黄帝时代、黄帝功绩、黄帝崇拜、黄帝祭祀以及守陵护陵、颂陵艺术等七大方面内容，展示黄帝传奇一生，对炎黄子孙缅怀其丰功伟绩，弘扬中华文明具有重要的意义。<br />　　中华始祖堂结合史书典籍、考古成果以及神话传说等资料，系统讲述了黄帝的故事和黄帝陵的演变发展，运用立体声光影像、群雕、模型、碑刻、创作画等展现手段生动直观地呈现黄帝时代的历史风貌，具有文物陈列、文化展示、教育培训、体验参与、旅游服务等多种功能。<br />　　中华始祖堂为不同年龄段的学生团体设计相应的研学体验课程，以弘扬中华优秀传统文化。同时通过挖掘黄帝时期文化，开发追溯圣祖源脉的文创商品，让游客能够在游览的同时把黄帝文化带回家。</p>\n<p>　　&ldquo;中华开国五千年，神州轩辕自古传。&rdquo;中华文明有着五千多年的悠久历史，而它的开拓者,也是中华民族的奠基人，就是轩辕黄帝。步入中华始祖堂，您将走进&ldquo;人文初祖&rdquo;黄帝的传奇一生。</p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\">序厅 光粒子黄帝像</p>\n<p>&nbsp;</p>\n<p>　　运用立体声光电影像的方式概述黄帝作为人文初祖的传奇一生和伟大创造：治五气、艺五种、编音律、定律历、创文字、养蚕缫丝等，开启了文明肇始的大一统时代。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072212082345672.jpg\" /></p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\">第一展厅 黄帝</p>\n<p>&nbsp;</p>\n<p>　　以黄帝生平为主线，通过历史典籍和神话传说追溯黄帝功绩和黄帝时代。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072212091240778.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072212091247816.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072212091229307.jpg\" /></p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\">第二展厅 初祖</p>\n<p>&nbsp;</p>\n<p>　　通过一系列考古成果和历史文献的互相印证，展现以黄帝为领袖的新石器时代中华民族先祖们的物质文明与精神文明创造。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072212101139106.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072212101128395.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072212101178116.jpg\" /></p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\">第三展厅 飨祀</p>\n<p>&nbsp;</p>\n<p>　　讲述从古至今帝王百姓纪念黄帝的祭祀传统；近代以来黄帝崇拜在民族觉醒过程中发挥的重大作用；1937年清明节国共共祭黄帝陵，毛泽东撰写的《祭黄帝陵文》发出了全民抗战、抵御日寇的号召；新中国成立后掀起了祭祀黄帝、促进民族复兴的热潮。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072212105134532.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072212105125391.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072212105109609.jpg\" /></p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\">第四展厅 祭陵与守陵</p>\n<p>&nbsp;</p>\n<p>　　结合历史文献，塑造庄严的祭典场景，还原祭祀内容；阐述黄帝陵清明节公祭、重阳节民祭的祭典礼仪；从修缮维护、古柏保护、守陵故事等方面讲述黄陵儿女守护黄帝陵的事迹。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072212113238796.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072212113238235.jpg\" /></p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\">第五展厅 颂陵</p>\n<p>&nbsp;</p>\n<p>　　目前展示的是&ldquo;新中国成立70周年黄帝陵保护发展图片展&rdquo;，从中可以了解到新中国成立以来对黄帝陵保护事业的发展进程，体现海内外华夏儿女认祖归宗、爱我中华的心声。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072212121715560.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072212121728994.jpg\" /></p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\">第六展厅 尾厅</p>\n<p>&nbsp;</p>\n<p>　　从全球视野下认识中华文明，展示世界四大古代文明和中国古代四大发明；以史前至明清时代最具代表性的文物呈现中华文明的长河影像；展现全球华人根脉相承、心系祖国、祈福华夏的美好祝愿。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072212125437833.jpg\" /></p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\">五色土展厅</p>\n<p>&nbsp;</p>\n<p>　　中华五色土从中华大地五个与黄帝同时期的遗址采集而来，象征着广博的祖国，代表着包容、吸纳的民族精神，展现了中华文明深沉、博大、持久的精神力量。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072212132807722.jpg\" /></p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\">纪录片《黄帝》</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072212135816809.jpg\" /></p>\n<p>&nbsp;</p>\n<p>　　纪录片由陕文投集团出品，回顾了黄帝生平及其伟大功绩，展现了黄帝作为中华始祖对后世的深远影响。全片时长20分钟。</p>\n<p>&nbsp;</p>\n<p>（本文来源：陕文投黄陵公司）</p>\n<p>&nbsp;</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1630768391969165314",
+        "resourcesId": "1322004930930958338",
+        "title": "中华始祖堂宣传片",
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072212225634880.mp4",
+        "coverImage": "https://eshopfile.zhiyousx.com/2021072212254452872.jpg",
+        "videoId": "1418064707180322817",
+        "resourcesType": 2,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2023-03-01 11:14:17",
+        "updateTime": "2023-03-01 11:14:17",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1630768391981748225",
+        "resourcesId": "1322004930930958338",
+        "title": "中华始祖堂是如何摘得国际大奖",
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2022041117095498025.mp4",
+        "coverImage": "https://eshopfile.zhiyousx.com/164966818155584837.jpg",
+        "videoId": "1513444472292233217",
+        "resourcesType": 2,
+        "sequence": 2,
+        "describe": "",
+        "createTime": "2023-03-01 11:14:17",
+        "updateTime": "2023-03-01 11:14:17",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1630768391994331138",
+        "resourcesId": "1322004930930958338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/41e3ce35-baf5-43b4-b3ad-d81bf4980391-20201030103814.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2023-03-01 11:14:17",
+        "updateTime": "2023-03-01 11:14:17",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1630768392002719746",
+        "resourcesId": "1322004930930958338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021042516055786069.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2023-03-01 11:14:17",
+        "updateTime": "2023-03-01 11:14:17",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1630768392011108353",
+        "resourcesId": "1322004930930958338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021042516061358910.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2023-03-01 11:14:17",
+        "updateTime": "2023-03-01 11:14:17",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1630768392019496961",
+        "resourcesId": "1322004930930958338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021042516062780105.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2023-03-01 11:14:17",
+        "updateTime": "2023-03-01 11:14:17",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1630768392027885569",
+        "resourcesId": "1322004930930958338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/a2c3b501-8c64-4323-bf5e-909f3a22ed02-20201030103819.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2023-03-01 11:14:17",
+        "updateTime": "2023-03-01 11:14:17",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1630768392036274178",
+        "resourcesId": "1322004930930958338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/164966801532045314.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": "",
+        "createTime": "2023-03-01 11:14:17",
+        "updateTime": "2023-03-01 11:14:17",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1630768392044662785",
+        "resourcesId": "1322004930930958338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/164966801533972110.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": "",
+        "createTime": "2023-03-01 11:14:17",
+        "updateTime": "2023-03-01 11:14:17",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1630768392048857089",
+        "resourcesId": "1322004930930958338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/164966801539776899.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": "",
+        "createTime": "2023-03-01 11:14:17",
+        "updateTime": "2023-03-01 11:14:17",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1630768392057245697",
+        "resourcesId": "1322004930930958338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/164966801546764671.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 11,
+        "describe": "",
+        "createTime": "2023-03-01 11:14:17",
+        "updateTime": "2023-03-01 11:14:17",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1630768392065634306",
+        "resourcesId": "1322004930930958338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/164966801552325600.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 12,
+        "describe": "",
+        "createTime": "2023-03-01 11:14:17",
+        "updateTime": "2023-03-01 11:14:17",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1630768392074022914",
+        "resourcesId": "1322004930930958338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/164966801558299599.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 13,
+        "describe": "",
+        "createTime": "2023-03-01 11:14:17",
+        "updateTime": "2023-03-01 11:14:17",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1630768392078217217",
+        "resourcesId": "1322004930930958338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/164966801566157893.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 14,
+        "describe": "",
+        "createTime": "2023-03-01 11:14:17",
+        "updateTime": "2023-03-01 11:14:17",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1630768392086605825",
+        "resourcesId": "1322004930930958338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/164966801572031309.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 15,
+        "describe": "",
+        "createTime": "2023-03-01 11:14:17",
+        "updateTime": "2023-03-01 11:14:17",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1630768392094994434",
+        "resourcesId": "1322004930930958338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/164966801577874019.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 16,
+        "describe": "",
+        "createTime": "2023-03-01 11:14:17",
+        "updateTime": "2023-03-01 11:14:17",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1630768392103383041",
+        "resourcesId": "1322004930930958338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/164966801585485998.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 17,
+        "describe": "",
+        "createTime": "2023-03-01 11:14:17",
+        "updateTime": "2023-03-01 11:14:17",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1630768392111771650",
+        "resourcesId": "1322004930930958338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/164966801587168279.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 18,
+        "describe": "",
+        "createTime": "2023-03-01 11:14:17",
+        "updateTime": "2023-03-01 11:14:17",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1630768392120160257",
+        "resourcesId": "1322004930930958338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/164966801593006534.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 19,
+        "describe": "",
+        "createTime": "2023-03-01 11:14:17",
+        "updateTime": "2023-03-01 11:14:17",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1630768392128548866",
+        "resourcesId": "1322004930930958338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/164966801595918147.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 20,
+        "describe": "",
+        "createTime": "2023-03-01 11:14:17",
+        "updateTime": "2023-03-01 11:14:17",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1630768392136937474",
+        "resourcesId": "1322004930930958338",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/164966801601779524.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 21,
+        "describe": "",
+        "createTime": "2023-03-01 11:14:17",
+        "updateTime": "2023-03-01 11:14:17",
+        "createBy": "1310760026725457922",
+        "updateBy": "1310760026725457922",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1439119981701840898",
+      "rankingId": null,
+      "indexInRanking": 29,
+      "rankingName": "陕西人气博物馆排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1455724365810343938",
+        "rankingId": "1455724367274156033",
+        "indexInRanking": null,
+        "rankingName": "延安必逛景点人气排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

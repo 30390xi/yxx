@@ -31,12 +31,12 @@
                             <view class="count data-v-875c916e">{{'¥'+(items.deductionAmount||0)}}</view>
                         </block>
                         <view class="eqinfo data-v-875c916e" wx:else>查看权益</view>
-                        <image class="data-v-875c916e" src="https://eshopfile.zhiyousx.com/2023011114064095097.png" wx:if="{{items.useState==1}}"></image>
-                        <image class="data-v-875c916e" src="https://eshopfile.zhiyousx.com/2023010910000900378.png" wx:if="{{items.useState==2}}"></image>
-                        <image class="data-v-875c916e" src="https://eshopfile.zhiyousx.com/2023010910005976066.png" wx:if="{{items.useState==3}}"></image>
-                        <image class="data-v-875c916e" src="https://eshopfile.zhiyousx.com/2023010910013637801.png" wx:if="{{items.useState==4}}"></image>
-                        <image class="data-v-875c916e" src="https://eshopfile.zhiyousx.com/2023011114083993049.png" wx:if="{{items.useState==5}}"></image>
-                        <image class="data-v-875c916e" src="https://eshopfile.zhiyousx.com/2023010910015464618.png" wx:if="{{items.useState==6}}"></image>
+                        <image class="data-v-875c916e" src="/static/captured/913e248cfcbfc347.png" wx:if="{{items.useState==1}}"></image>
+                        <image class="data-v-875c916e" src="/static/captured/6259da4a7a46ce49.png" wx:if="{{items.useState==2}}"></image>
+                        <image class="data-v-875c916e" src="/static/captured/da41118cf9ad49b6.png" wx:if="{{items.useState==3}}"></image>
+                        <image class="data-v-875c916e" src="/static/captured/d1fb05da759eec00.png" wx:if="{{items.useState==4}}"></image>
+                        <image class="data-v-875c916e" src="/static/captured/b792cb473539997b.png" wx:if="{{items.useState==5}}"></image>
+                        <image class="data-v-875c916e" src="/static/captured/8c42e55a341f86d1.png" wx:if="{{items.useState==6}}"></image>
                     </view>
                 </view>
             </view>

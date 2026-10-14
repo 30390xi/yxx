@@ -1,0 +1,206 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064188264669",
+    "scenicName": "唐睿宗桥陵",
+    "tag": "中国最恢宏的十大帝王陵墓",
+    "level": 4,
+    "address": "渭南市蒲城县桥陵镇桥陵路安王村",
+    "longitude": "109.473132",
+    "latitude": "34.987795",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#3DA3D6",
+    "centralColour": "#008BC9",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021092214540399787.jpg"
+    ],
+    "introduction": "<p>　　桥陵位于蒲城县城西北15公里的丰山，距西安110公里。建于唐玄宗开元四年（716），是唐睿宗李旦的陵寝，属全国重点文物保护单位，是关中唐十八陵气势最恢宏的陵墓。李旦是唐朝第四代第五个皇帝，高宗李治第八个儿子，武则天的第四个儿子，唐玄宗李隆基的父亲。唐桥陵以山为陵，在山腹开凿地下寝宫，在地面上绕山筑城，四面各开一门，陵园占地面积达8.5平方公里，陵区群山有&ldquo;三山九峰一平台&rdquo;的宏大气势，四门遗址及地面石刻基本完整，尤其是南神道两侧气势磅礴的石刻群，无不彰显着开元盛世的辉煌，并有&ldquo;桥陵石刻甲天下&rdquo;之美誉。唐桥陵是中国封建社会最鼎盛时期的遗存代表，被誉为&ldquo;露天博物馆&rdquo;，被评为&ldquo;中国最恢宏的十大帝王陵墓&rdquo;之一。</p>",
+    "introductionText": "　　桥陵位于蒲城县城西北15公里的丰山，距西安110公里。建于唐玄宗开元四年（716），是唐睿宗李旦的陵寝，属全国重点文物保护单位，是关中唐十八陵气势最恢宏的陵墓。李旦是唐朝第四代第五个皇帝，高宗李治第八个儿子，武则天的第四个儿子，唐玄宗李隆基的父亲。唐桥陵以山为陵，在山腹开凿地下寝宫，在地面上绕山筑城，四面各开一门，陵园占地面积达8.5平方公里，陵区群山有“三山九峰一平台”的宏大气势，四门遗址及地面石刻基本完整，尤其是南神道两侧气势磅礴的石刻群，无不彰显着开元盛世的辉煌，并有“桥陵石刻甲天下”之美誉。唐桥陵是中国封建社会最鼎盛时期的遗存代表，被誉为“露天博物馆”，被评为“中国最恢宏的十大帝王陵墓”之一。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1450028527872122881",
+        "contentId": "1450028527859539970",
+        "name": "陕西省文化遗址公园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": null,
+    "officialWebsite": [
+      "http://www.qlyzgy.com/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0913-7414034"
+      },
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0913-7261806"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1518163016787472386",
+        "resourcesId": "1440581277936861185",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092215381570780.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2022-04-24 17:40:43",
+        "updateTime": "2022-04-24 17:40:43",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518163016787472387",
+        "resourcesId": "1440581277936861185",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092215382414683.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2022-04-24 17:40:43",
+        "updateTime": "2022-04-24 17:40:43",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518163016791666689",
+        "resourcesId": "1440581277936861185",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021092215382997300.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2022-04-24 17:40:43",
+        "updateTime": "2022-04-24 17:40:43",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1566623053130653698",
+      "rankingId": null,
+      "indexInRanking": 11,
+      "rankingName": "渭南亲子游景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1455112666791124994",
+        "rankingId": "1455112668192022530",
+        "indexInRanking": null,
+        "rankingName": "渭南自驾游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

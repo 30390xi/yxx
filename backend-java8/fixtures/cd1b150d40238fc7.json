@@ -1,0 +1,488 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941114",
+    "scenicName": "关山草原景区",
+    "tag": "“小天山”之美誉",
+    "level": 4,
+    "cityId": "1320659384068780033",
+    "cityName": "宝鸡",
+    "address": "宝鸡市陇县天成镇店子村",
+    "longitude": "106.6230870000",
+    "latitude": "34.7067460000",
+    "openingStatus": 0,
+    "capacity": 9999,
+    "sequence": 99,
+    "topColour": "#779F6F",
+    "centralColour": "#60985B",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/关山1-20201028161626.jpg"
+    ],
+    "introduction": "<p>　　关山草原位于宝鸡陇县西南部，是我国西北内陆地区唯一的高山草甸为主体的旅游风景区。景区荟萃山峦、槽谷、森林、草原、河流、天象和气候等自然景观。这里气候湿润，长冬无夏，春秋相连，是消暑度假、旅游观光和摄影创作的绝佳胜地。关山草原地处关山山脉南端，地势南高北低，山地海拔多在2200米左右，主峰海拔2466米。关山地区自古以来就是关中平原的西北门户和屏障，古道横穿，关隘重重，兵家必争，政客巡幸，商贾往来，富有浓烈的边关文化。秦人先祖在此牧马蕃息，含糖骏马在此雄起诞生。秦皇汉武唐宗西巡，商贾邮驿进出往来，霍去病西征匈奴，张骞出使西域，唐玄奘天竺取经，文成公主入藏联姻，古丝路&ldquo;回中道&rdquo;皆由关山通过。山依关而名，名随关而扬天下，&ldquo;关山&rdquo;已成为边疆关口隘道的代名词。关山草原犹如&nbsp;&ldquo;塞内边疆&rdquo;，阳春山花烂漫，盛夏绿浪翻滚，今秋红叶尽染，隆冬白雪皑皑，四时变幻，景色各异。骑马驰骋，意气风发；信马由缰，悠然自得；漫步草地，心胸豁然；席地小憩，神游太极。关山草原的风光美，关山草原的风情更美。景区内居住着回民和汉民，农业文化和游牧文化相濡以沫，边关文化源远流长，那轰轰烈烈的历史边关壮剧，流传千古的历史边关诗篇，悠扬悦耳的鸣笛牧歌，美轮美奂的民族舞蹈，脍炙人口的山珍野味&hellip;&hellip;构成了一幅幅浓郁的风土人情画卷。</p>",
+    "introductionText": "　　关山草原位于宝鸡陇县西南部，是我国西北内陆地区唯一的高山草甸为主体的旅游风景区。景区荟萃山峦、槽谷、森林、草原、河流、天象和气候等自然景观。这里气候湿润，长冬无夏，春秋相连，是消暑度假、旅游观光和摄影创作的绝佳胜地。关山草原地处关山山脉南端，地势南高北低，山地海拔多在2200米左右，主峰海拔2466米。关山地区自古以来就是关中平原的西北门户和屏障，古道横穿，关隘重重，兵家必争，政客巡幸，商贾往来，富有浓烈的边关文化。秦人先祖在此牧马蕃息，含糖骏马在此雄起诞生。秦皇汉武唐宗西巡，商贾邮驿进出往来，霍去病西征匈奴，张骞出使西域，唐玄奘天竺取经，文成公主入藏联姻，古丝路“回中道”皆由关山通过。山依关而名，名随关而扬天下，“关山”已成为边疆关口隘道的代名词。关山草原犹如 “塞内边疆”，阳春山花烂漫，盛夏绿浪翻滚，今秋红叶尽染，隆冬白雪皑皑，四时变幻，景色各异。骑马驰骋，意气风发；信马由缰，悠然自得；漫步草地，心胸豁然；席地小憩，神游太极。关山草原的风光美，关山草原的风情更美。景区内居住着回民和汉民，农业文化和游牧文化相濡以沫，边关文化源远流长，那轰轰烈烈的历史边关壮剧，流传千古的历史边关诗篇，悠扬悦耳的鸣笛牧歌，美轮美奂的民族舞蹈，脍炙人口的山珍野味……构成了一幅幅浓郁的风土人情画卷。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "175",
+        "name": "户外营地",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "<p>游客朋友们：</p>\n<p>关山草原景区决定自2023年11月4日起正式闭园，2024年开园时间另行通知。闭园期间谢绝游客参观游览，请广大游客合理调整出游行程。对您造成的不便敬请谅解，感谢大家对关山草原景区的支持与理解。特此公告！</p>\n<p style=\"text-align: right;\">陕西关山草原旅游发展有限责任公司<br />2023年11月1日</p>",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全年开放",
+        "openTimeContent": "08:00-18:00"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米（含1.2米）以下的儿童",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "老年人",
+        "limit": "65周岁（含65周岁）以上持本人居民身份证或陕西省敬老优待证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "军人",
+        "limit": "现役军人（含军队离退休干部）、军官证（离退休证）、士官证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "持本人有效残疾证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "未成年人及学生",
+        "limit": "6周岁（不含6周岁）-18周岁（含18周岁）的未成年人、全日制大学本科及以下学历学生凭居民身份证或学生证等有效证件",
+        "discount": "半价票"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "6",
+        "name": "免费wifi",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (11).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "54",
+        "name": "手机充电",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016402390363.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "59",
+        "name": "园内交通",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016420452783.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "11",
+        "name": "餐厅",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (22).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "收费标准",
+        "additionalExplainContent": "景区门票价格60元/人。景区摆渡车往返票价为：60元/人·次，每条支线游览观光客运车往返票价为：20元/人·次。景区停车场收费： 小车：5元/辆·次，大车：10元/辆·次，超大型车：15元/辆·次，摩托车：2元/辆·次。"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": [
+      "http://www.gscyjq.com/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "官方电话",
+        "telephone": "0917-4658610"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "关山草原旅游景区",
+        "wxSubscription": "gscy09174589819"
+      }
+    ],
+    "sinaWeiboVoList": [
+      {
+        "sinaWeibo": "关山草原旅游景区",
+        "sinaWeiboUrl": "https://m.weibo.cn/u/3765685851"
+      }
+    ],
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1719904581073702914",
+        "resourcesId": "1321366268245467138",
+        "title": "关山草原景区",
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021083015074283194.mp4",
+        "coverImage": "https://eshopfile.zhiyousx.com/163030725815605143.jpg",
+        "videoId": "1432238668013219842",
+        "resourcesType": 2,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2023-11-02 10:29:41",
+        "updateTime": "2023-11-02 10:29:41",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1719904581082091522",
+        "resourcesId": "1321366268245467138",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/关山4-20201028162022.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2023-11-02 10:29:41",
+        "updateTime": "2023-11-02 10:29:41",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1719904581082091523",
+        "resourcesId": "1321366268245467138",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/关山3-20201028162030.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2023-11-02 10:29:41",
+        "updateTime": "2023-11-02 10:29:41",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1719904581086285826",
+        "resourcesId": "1321366268245467138",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021083015002783471.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2023-11-02 10:29:41",
+        "updateTime": "2023-11-02 10:29:41",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1719904581090480130",
+        "resourcesId": "1321366268245467138",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021083015003928234.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2023-11-02 10:29:41",
+        "updateTime": "2023-11-02 10:29:41",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1719904581090480131",
+        "resourcesId": "1321366268245467138",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021083015004919347.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2023-11-02 10:29:41",
+        "updateTime": "2023-11-02 10:29:41",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1719904581094674434",
+        "resourcesId": "1321366268245467138",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021083015010010880.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2023-11-02 10:29:41",
+        "updateTime": "2023-11-02 10:29:41",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1719904581094674435",
+        "resourcesId": "1321366268245467138",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021083015010760374.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2023-11-02 10:29:41",
+        "updateTime": "2023-11-02 10:29:41",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1719904581098868738",
+        "resourcesId": "1321366268245467138",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021083015011445582.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": null,
+        "createTime": "2023-11-02 10:29:41",
+        "updateTime": "2023-11-02 10:29:41",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1719904581098868739",
+        "resourcesId": "1321366268245467138",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021083015011966954.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": null,
+        "createTime": "2023-11-02 10:29:41",
+        "updateTime": "2023-11-02 10:29:41",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1692113814122344449",
+      "rankingId": null,
+      "indexInRanking": 2,
+      "rankingName": "宝鸡自然风光排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": [
+      {
+        "id": "1719904581111451650",
+        "scenicSpotId": "1320579064720941114",
+        "contentModuleName": "必看演出",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1555837248221097985",
+            "type": 6,
+            "title": "《大秦关山》",
+            "subtitle": "实景再现大秦先祖关山牧马传奇",
+            "coverImage": "https://eshopfile.zhiyousx.com/2022080811034412474.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": "闭园公告",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

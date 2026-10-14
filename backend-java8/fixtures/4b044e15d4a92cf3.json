@@ -1,0 +1,26 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1455715343619170306",
+    "contentId": "1455715342633508866",
+    "rankingName": "延安美食人气排行榜",
+    "rankingClass": "2",
+    "rankingType": "2",
+    "rankingMainPictureUrl": "https://res.zhiyousx.com/ysx/pro/2021/11/03/163590454152247942.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": null,
+    "rankingInclude": "个美食",
+    "rankingPersonalInfo": "我吃过的美食",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#D98D39",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": null,
+    "sumCount": "4",
+    "favoriteSum": "12",
+    "personalInfoValue": null
+  },
+  "msg": "成功",
+  "success": true
+}

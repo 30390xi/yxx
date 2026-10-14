@@ -1,0 +1,324 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1409840200741392386",
+    "scenicName": "凤县革命纪念馆",
+    "tag": "“两当兵变”策源地",
+    "level": 4,
+    "cityId": "1320659384068780033",
+    "cityName": "宝鸡",
+    "address": "宝鸡市凤县凤州镇凤州村",
+    "longitude": "106.620981",
+    "latitude": "33.949399",
+    "openingStatus": 1,
+    "capacity": 1000,
+    "sequence": 255,
+    "topColour": "#70A8F5",
+    "centralColour": "#609EF3",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021062919213048363.jpg"
+    ],
+    "introduction": "<p>　　凤县不仅山水秀美，也有着光荣的革命历史。上世纪30年代，年仅17岁的人习仲勋在这里开展兵运革命活动，给凤县带来了曙光，播下革命的种子。凤县革命纪念馆展现了以习仲勋同志为代表的革命先辈在凤县开展兵运、策划兵变的辉煌历程，再现了红军过境、工合运动、解放凤县等红色往事。</p>",
+    "introductionText": "　　凤县不仅山水秀美，也有着光荣的革命历史。上世纪30年代，年仅17岁的人习仲勋在这里开展兵运革命活动，给凤县带来了曙光，播下革命的种子。凤县革命纪念馆展现了以习仲勋同志为代表的革命先辈在凤县开展兵运、策划兵变的辉煌历程，再现了红军过境、工合运动、解放凤县等红色往事。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "18",
+        "name": "红色旅游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026361102337",
+        "contentId": "1418152026344325122",
+        "name": "全国红色旅游经典景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "免费开放",
+        "openTimeContent": "开放时间:<br/>周二至周日9:00-16:30（16:00后谢绝入馆）"
+      }
+    ],
+    "discountVoList": null,
+    "facilitiesServicesVoList": [
+      {
+        "id": "61",
+        "name": "讲解员",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016440410223.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "8",
+        "name": "宠物禁止入园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (13).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "讲解费用",
+        "additionalExplainContent": "1-20（含20人）100元/次<br/>20-30人  150元/次<br/>30人以上  每增加一人加5元"
+      },
+      {
+        "additionalExplainTitle": "敬献花篮费用",
+        "additionalExplainContent": "标准一：496元<br/>标准二：696元<br/>标准三：896元"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "咨询电话",
+        "telephone": "0917-4717280"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "凤县革命纪念馆",
+        "wxSubscription": "gh_3df6b6c52f1c"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "2030838600832253953",
+        "outId": "1409840200741392386",
+        "type": 1,
+        "advertName": "探寻宝鸡红色记忆",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021062919561213121.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<h2 id=\"activity-name\" class=\"rich_media_title\">【探寻宝鸡红色记忆】</h2>\n<h2 class=\"rich_media_title\">来自凤县革命纪念馆里的红色记忆&mdash;&mdash;&ldquo;两当兵变&rdquo;</h2>\n<p>&nbsp;</p>\n<p>　　位于秦岭深处的凤县革命纪念馆里，有这样一幅珍贵的黑白照片&mdash;&mdash;《义结金兰》。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062919521381271.jpg\" /></p>\n<p>　　拍摄地就在凤县凤州，这张照片也是青年习仲勋在凤县组织策划著名的&ldquo;两当兵变&rdquo;期间留下的珍贵影像。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062919523182548.jpg\" /></p>\n<p>　　1932年，为了进一步开展革命工作、尽快组织起义，习仲勋积极和地方进步人士往来，与刘尚志、阎鸿章、刘书林、张秋臣结拜为&ldquo;金兰&rdquo;兄弟，并将刘尚志家的院子作为秘密集会地点，经常召集地下党员在这里开会，研究革命工作，开展兵运活动。这张纪念照就拍摄于刘尚志老宅的堂屋前。由于刘家是独院，又在国民党县政府和监狱跟前，位置虽然险要却又非常隐秘。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062919524302819.jpg\" /></p>\n<p>　　如今的刘家老宅保存完好。作为&ldquo;两当兵变&rdquo;策源地旧址，2018年，刘家老宅被陕西省人民政府确定为第七批省级文物保护单位。刘尚志的大儿子刘国光，从小就在这座宅子里长大，他经常听父亲说起与习仲勋等共产党人一起开展革命工作的故事。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062919533425575.jpg\" /></p>\n<p>　　屹立在刘家老宅北侧的凤县革命纪念馆，已成为当地红色文化旅游的新亮点。在纪念馆展厅正中央，习仲勋、刘林圃等革命先辈的群像雕塑，将人们带入到那个炮火纷飞的岁月。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062919541888223.jpg\" /></p>\n<p>　　今天，当我们重温&ldquo;两当兵变&rdquo;的革命记忆，历史仿佛又回到那个硝烟弥漫的年代，让我们能够更清楚地看到战争的残酷与和平的美好。89年后的陕甘大地，同属&ldquo;一带一路&rdquo;上的重要区域，已呈现出繁荣发展、生机勃勃的景象。当年的&ldquo;两当兵变&rdquo;为唤醒陕甘人民，鼓舞人民的革命斗志，壮大我党的武装做出了不可磨灭的贡献。如今，这种精神激励着我们在&ldquo;学党史、悟思想、办实事、开新局&rdquo;中，不忘初心，继往开来，奋勇前行。</p>\n<p>（本文转自/广播宝鸡）</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": "重点推荐",
+    "contentResourcesDtoList": [
+      {
+        "id": "2030838600807088130",
+        "resourcesId": "1409840200733003778",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062919335914587.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-03-09 10:50:28",
+        "updateTime": "2026-03-09 10:50:28",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "2030838600807088131",
+        "resourcesId": "1409840200733003778",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062919341002098.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-03-09 10:50:28",
+        "updateTime": "2026-03-09 10:50:28",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "2030838600811282434",
+        "resourcesId": "1409840200733003778",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062919342479322.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-03-09 10:50:28",
+        "updateTime": "2026-03-09 10:50:28",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "2030838600811282435",
+        "resourcesId": "1409840200733003778",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062919343230374.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-03-09 10:50:28",
+        "updateTime": "2026-03-09 10:50:28",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": null,
+      "rankingId": null,
+      "indexInRanking": null,
+      "rankingName": null,
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -2,7 +2,7 @@
     <uni-navbar bind:__l="__l" class="data-v-6af09c60" title="吃喝玩乐" titleCenter="{{false}}" transparentFixedFontColor="{{titleColor}}" type="transparentFixed" vueId="57447680-1"></uni-navbar>
     <custom-nav bind:__l="__l" class="data-v-6af09c60" muClass="nav-bg" scrollTop="{{scrollTop}}" title="吃喝玩乐" vueId="57447680-2"></custom-nav>
     <view class="top-box data-v-6af09c60">
-        <image class="bg-img data-v-6af09c60" mode="aspectFill" src="https://eshopfile.zhiyousx.com/2024062118322195121.png" style="{{'opacity:'+1-scrollTop/scrollTopLimit+';'}}"></image>
+        <image class="bg-img data-v-6af09c60" mode="aspectFill" src="/static/captured/bc26bc9b62d2c8f0.png" style="{{'opacity:'+1-scrollTop/scrollTopLimit+';'}}"></image>
         <view class="{{['search-box','data-v-6af09c60',scrollTop>scrollTopLimit/2?'changeS':'']}}" style="{{'top:'+menuButtonInfo.bottom+8+'px'+';'}}">
             <view class="search data-v-6af09c60">
                 <view class="s-icon data-v-6af09c60"></view>
@@ -21,7 +21,7 @@
         </scroll-view>
         <view class="choose-box data-v-6af09c60">
             <view bindtap="__e" class="{{['cb-it','allcenter','act','data-v-6af09c60',showSortPop||showChoosePop?'popBg':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'showSort',['$event'] ] ] ] ]}}">
-                <image mode class="ad-mark data-v-6af09c60" src="https://eshopfile.zhiyousx.com/2024052411220221820.png" wx:if="{{sort==1}}"></image>{{''+sortName+''}}<view class="mark allcenter data-v-6af09c60">
+                <image mode class="ad-mark data-v-6af09c60" src="/static/captured/46dc1bd134835cb5.png" wx:if="{{sort==1}}"></image>{{''+sortName+''}}<view class="mark allcenter data-v-6af09c60">
                     <u-icon bind:__l="__l" class="data-v-6af09c60" color="#E4214A" name="{{showSortPop?'arrow-up':'arrow-down'}}" size="18" vueId="57447680-3"></u-icon>
                 </view>
             </view>
@@ -69,7 +69,7 @@
                             <text class="singleLineText data-v-6af09c60">{{item.cityName+(item.address?'/'+item.address:'')}}</text>
                         </view>
                         <view class="flex col-center data-v-6af09c60" wx:if="{{item.distance>0}}">
-                            <image mode class="ad data-v-6af09c60" src="https://eshopfile.zhiyousx.com/2024052411165183914.png"></image>
+                            <image mode class="ad data-v-6af09c60" src="/static/captured/6a11b73b9fafa48d.png"></image>
                             <text class="data-v-6af09c60">{{item.distance+'km'}}</text>
                         </view>
                     </view>
@@ -78,6 +78,6 @@
         </view>
     </view>
     <view class="empty-box allcenter data-v-6af09c60" wx:if="{{$root.g0}}">
-        <image mode class="data-v-6af09c60" src="https://eshopfile.zhiyousx.com/2024061417153003821.png"></image>
+        <image mode class="data-v-6af09c60" src="/static/captured/40d593177a674c2d.png"></image>
     </view>
 </view>

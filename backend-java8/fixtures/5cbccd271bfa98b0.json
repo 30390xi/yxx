@@ -1,0 +1,86 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1455023220435558401",
+    "contentId": "1455023219810607106",
+    "rankingName": "宝鸡美食人气排行榜",
+    "rankingClass": "2",
+    "rankingType": "2",
+    "rankingMainPictureUrl": "https://res.zhiyousx.com/ysx/pro/2021/11/01/163573938156484597.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": null,
+    "rankingInclude": "个美食",
+    "rankingPersonalInfo": "我吃过的美食",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#F6A700",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1451022843801247745",
+        "originType": "2",
+        "originName": "凤县干脚棒",
+        "originSubtitleName": "招待女婿的硬菜",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478572633542726.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478574810649423.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478575547866123.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478577507053477.jpg"
+        ],
+        "sort": "10",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1450726588852215810",
+        "originType": "2",
+        "originName": "麟游血条面",
+        "originSubtitleName": "风味独特的重口味“方便面”",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/20/163471507345495490.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/20/163471511025509018.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/20/163471511596498745.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/20/163471512671078350.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/20/163471514032752005.jpg"
+        ],
+        "sort": "11",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451026969201221633",
+        "originType": "2",
+        "originName": "陇县马蹄酥",
+        "originSubtitleName": "乍经面起还留迹，不踏花蹄也自香",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478667654803392.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478673502795767.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478674068526235.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478674590598027.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478675290417575.jpg"
+        ],
+        "sort": "12",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "13",
+    "favoriteSum": "27",
+    "personalInfoValue": "0/13"
+  },
+  "msg": "成功",
+  "success": true
+}

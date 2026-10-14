@@ -1,0 +1,105 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1519231101330042882",
+    "contentId": "1519231101082578945",
+    "rankingName": "西安宝藏露营地排行榜",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/165337724116009644.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": "人去过",
+    "rankingInclude": "个露营地",
+    "rankingPersonalInfo": "我去过的目的地",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#729316",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1436229955154345986",
+        "originType": "1",
+        "originName": "雁鸣湖休闲公园",
+        "originSubtitleName": "浐河边的休闲公园",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021091015104023876.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021091015245408822.png",
+          "https://eshopfile.zhiyousx.com/2021091015250425067.png",
+          "https://eshopfile.zhiyousx.com/2021091015243461087.jpg",
+          "https://eshopfile.zhiyousx.com/2021091015251658713.png"
+        ],
+        "sort": "10",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1436250046726148098",
+        "originType": "1",
+        "originName": "长安公园",
+        "originSubtitleName": "长安区规模最大公园",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021091016391939050.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021091016412240698.jpg",
+          "https://eshopfile.zhiyousx.com/2021091016413499211.jpg",
+          "https://eshopfile.zhiyousx.com/2021091016413961930.jpg",
+          "https://eshopfile.zhiyousx.com/2021091016414437690.jpg"
+        ],
+        "sort": "11",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064720941130",
+        "originType": "1",
+        "originName": "翠华山",
+        "originSubtitleName": "太乙真人修炼地，李世民避暑消夏",
+        "originUrl": "https://eshopfile.zhiyousx.com/88881-20201029154632.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/88891-20201029154644.jpg",
+          "https://eshopfile.zhiyousx.com/88898-1-20201029154651.jpg",
+          "https://eshopfile.zhiyousx.com/88876-1-20201029154707.jpg"
+        ],
+        "sort": "12",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064720941146",
+        "originType": "1",
+        "originName": "楼观台国家森林公园",
+        "originSubtitleName": "天下第一福地",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021081116424393081.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021092611033498017.jpg",
+          "https://eshopfile.zhiyousx.com/2021092611033976968.jpg",
+          "https://eshopfile.zhiyousx.com/2021092611034593258.jpg"
+        ],
+        "sort": "13",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "14",
+    "favoriteSum": null,
+    "personalInfoValue": "0/14"
+  },
+  "msg": "成功",
+  "success": true
+}

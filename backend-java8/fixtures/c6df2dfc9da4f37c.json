@@ -1,0 +1,71 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "1443412134858899459",
+      "resourcesId": "1443412134858899458",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2021093011064630138.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2021-09-30 11:07:24",
+      "updateTime": "2021-09-30 11:07:24",
+      "createBy": "1344113100973973505",
+      "updateBy": "1344113100973973505",
+      "isDeleted": 0
+    },
+    {
+      "id": "1443412134863093761",
+      "resourcesId": "1443412134858899458",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2021093011065262634.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 2,
+      "describe": null,
+      "createTime": "2021-09-30 11:07:24",
+      "updateTime": "2021-09-30 11:07:24",
+      "createBy": "1344113100973973505",
+      "updateBy": "1344113100973973505",
+      "isDeleted": 0
+    },
+    {
+      "id": "1443412134863093762",
+      "resourcesId": "1443412134858899458",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2021093011065758845.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 3,
+      "describe": null,
+      "createTime": "2021-09-30 11:07:24",
+      "updateTime": "2021-09-30 11:07:24",
+      "createBy": "1344113100973973505",
+      "updateBy": "1344113100973973505",
+      "isDeleted": 0
+    },
+    {
+      "id": "1443412134867288066",
+      "resourcesId": "1443412134858899458",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2021093011070189434.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 4,
+      "describe": null,
+      "createTime": "2021-09-30 11:07:24",
+      "updateTime": "2021-09-30 11:07:24",
+      "createBy": "1344113100973973505",
+      "updateBy": "1344113100973973505",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

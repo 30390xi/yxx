@@ -1,0 +1,334 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064188264540",
+    "scenicName": "大唐芙蓉园",
+    "tag": "进入中国盛唐文化之旅",
+    "level": 5,
+    "address": "西安市雁塔区曲江新区芙蓉西路99号",
+    "longitude": "108.97435",
+    "latitude": "34.21274",
+    "openingStatus": 1,
+    "capacity": 45000,
+    "topColour": "#E06A2A",
+    "centralColour": "#C5432E",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2024040611170971691.jpg",
+      "https://eshopfile.zhiyousx.com/2026022810573104272.jpg",
+      "https://eshopfile.zhiyousx.com/2025121918425842291.jpg",
+      "https://eshopfile.zhiyousx.com/2022092218515186966.jpg",
+      "https://eshopfile.zhiyousx.com/2022102410514752259.png"
+    ],
+    "introduction": "<p>&nbsp; &nbsp; 大唐芙蓉园坐落于西安城南的曲江新区，与大雁塔遥遥相望，占地面积为998亩，其中水域面积300亩，绿地面积440亩，建筑面积近 10万平方米。园区建筑由中国工程院院士张锦秋先生担纲总体规划与建筑设计，日本园林大师秋山宽先生承担园林景观设计，是一个全方位展示盛唐风貌的大型文化主题遗址公园。</p>\n<p>&nbsp; &nbsp; 大唐芙蓉园以建成&ldquo;历史之园、精神之园、自然之园、人文之园、艺术之园&rdquo;为目标，特别邀请了中国唐代文学学会的十多位唐史、唐诗、唐画、唐建专家、博士生导师、研究员以及旅游专家组成的专家小组对大唐芙蓉园的历史文化内容进行重新挖掘和整理，对全园景观进行了重新规划与定位，划分出了帝王文化区、女性文化区、诗歌文化区、科举文化区、茶文化区、歌舞文化区、饮食文化区、民俗文化区、外交文化区、佛教文化区、道教文化区、儿童游乐区、大门景观文化区、水秀表演区等十四个景观文化区，全方位再现了大唐盛世的灿烂文明。 园中亭台楼阁、雕廊画栋，包括有紫云楼、仕女馆、陆羽茶社、杏园、彩霞长廊、曲江流饮、丽人行、唐诗峡、茱萸台等景点二十多个，集中展示了唐王朝辉耀四方的精神风貌和璀璨多姿、无以伦比的文化艺术，被称为&ldquo;国人震撼，世界惊奇&rdquo;的旅游胜地。&nbsp;</p>",
+    "introductionText": "    大唐芙蓉园坐落于西安城南的曲江新区，与大雁塔遥遥相望，占地面积为998亩，其中水域面积300亩，绿地面积440亩，建筑面积近 10万平方米。园区建筑由中国工程院院士张锦秋先生担纲总体规划与建筑设计，日本园林大师秋山宽先生承担园林景观设计，是一个全方位展示盛唐风貌的大型文化主题遗址公园。    大唐芙蓉园以建成“历史之园、精神之园、自然之园、人文之园、艺术之园”为目标，特别邀请了中国唐代文学学会的十多位唐史、唐诗、唐画、唐建专家、博士生导师、研究员以及旅游专家组成的专家小组对大唐芙蓉园的历史文化内容进行重新挖掘和整理，对全园景观进行了重新规划与定位，划分出了帝王文化区、女性文化区、诗歌文化区、科举文化区、茶文化区、歌舞文化区、饮食文化区、民俗文化区、外交文化区、佛教文化区、道教文化区、儿童游乐区、大门景观文化区、水秀表演区等十四个景观文化区，全方位再现了大唐盛世的灿烂文明。 园中亭台楼阁、雕廊画栋，包括有紫云楼、仕女馆、陆羽茶社、杏园、彩霞长廊、曲江流饮、丽人行、唐诗峡、茱萸台等景点二十多个，集中展示了唐王朝辉耀四方的精神风貌和璀璨多姿、无以伦比的文化艺术，被称为“国人震撼，世界惊奇”的旅游胜地。 ",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "23",
+        "name": "灯光夜景",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "21",
+        "name": "地标打卡",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "69",
+        "name": "商务旅",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026415628289",
+        "contentId": "1418152026403045378",
+        "name": "陕西5A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "6周岁(含)或1.2米(含)",
+        "discount": "免票"
+      },
+      {
+        "peopleType": "老年人",
+        "limit": "65岁(含)以上",
+        "discount": "刷二代有效身份证直接入园"
+      },
+      {
+        "peopleType": "人民警察",
+        "limit": "凭借人民警察证",
+        "discount": "免首道门票"
+      },
+      {
+        "peopleType": "退役军人",
+        "limit": "中华人民共和国退役军人优待证",
+        "discount": "首道门票可按不高于最高限价的5折进行优惠"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "二级以上重度残疾人需要陪护的",
+        "discount": "免1名陪同人员首道门票"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "官方电话",
+        "telephone": "029-85511888"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": "主要看点",
+    "contentResourcesDtoList": [
+      {
+        "id": "2088282409678733314",
+        "resourcesId": "1321336439982809090",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/43-20201028142124.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-08-14 23:11:39",
+        "updateTime": "2026-08-14 23:11:39",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2088282409682927617",
+        "resourcesId": "1321336439982809090",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/411-20201028142139.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-08-14 23:11:39",
+        "updateTime": "2026-08-14 23:11:39",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1538830830115508226",
+      "rankingId": null,
+      "indexInRanking": 7,
+      "rankingName": "西安必游人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1551836855409541121",
+        "rankingId": "1551836856105795586",
+        "indexInRanking": null,
+        "rankingName": "外地游客西安必逛榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1818221757267132417",
+        "rankingId": "1818221762493235202",
+        "indexInRanking": null,
+        "rankingName": "西安汉服拍摄地人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1676883692355641345",
+        "rankingId": "1676883693114810370",
+        "indexInRanking": null,
+        "rankingName": "西安热门景区人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1696782313893548033",
+        "rankingId": "1696782315588046849",
+        "indexInRanking": null,
+        "rankingName": "曲江人气景区排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "2088282409699704833",
+        "scenicSpotId": "1320579064188264540",
+        "contentModuleName": "主要看点",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1419569505075552257",
+            "type": 6,
+            "title": "《梦回大唐》",
+            "subtitle": "大型超维度情景舞剧",
+            "coverImage": "https://eshopfile.zhiyousx.com/2024021910332174252.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1417768591637372930",
+            "type": 6,
+            "title": "《大唐追梦》",
+            "subtitle": "一场光影秀，闪耀盛唐风",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021072715525284387.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1486917135522344961",
+            "type": 6,
+            "title": "《鼓》",
+            "subtitle": "沉浸式体验唐风余韵",
+            "coverImage": "https://eshopfile.zhiyousx.com/2024030610492406436.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1945682194867343361",
+            "type": 6,
+            "title": "《如梦长安》",
+            "subtitle": "匠心打造的大型主题杂技剧",
+            "coverImage": "https://eshopfile.zhiyousx.com/2025071711104568707.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": "",
+    "ticketAreaNoticeName": "",
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": "",
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

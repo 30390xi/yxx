@@ -44,5 +44,5 @@
         </button>
     </view>
     <view bindtap="__e" class="banckMap data-v-0a1180dc" data-event-opts="{{[ [ 'tap',[ [ 'toGuide',['$event'] ] ] ] ]}}" wx:if="{{showGuideBut}}">
-        <image mode class="data-v-0a1180dc" src="https://eshopfile.zhiyousx.com/2023031610322750615.png"></image>{{''+(langType=='zn'?'导览':'Guide')+''}}</view>
+        <image mode class="data-v-0a1180dc" src="/static/captured/3f7a30dffb7d02b0.png"></image>{{''+(langType=='zn'?'导览':'Guide')+''}}</view>
 </view>

@@ -1,0 +1,375 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064595111944",
+    "scenicName": "中共中央西北局旧址",
+    "tag": "再现为陕甘宁边区做出的重大贡献",
+    "level": 5,
+    "address": "延安市南川花石砭半山腰",
+    "longitude": "109.4922930000",
+    "latitude": "36.5824040000",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#DBCA9F",
+    "centralColour": "#937956",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021062317133300748.jpg"
+    ],
+    "introduction": "<p>　　坐落在延安城区南川花石砭半山腰上，俯瞰南川河，西北局纪念馆在绿树掩映下格外美丽。从山下观看，宽阔整洁的广场、蜿蜒而上的石梯、绿意盎然的树木等协调有致，而在青山绿水间静卧的西北局革命旧址，在庄重中又多了几分灵动。延安时期，西北局设有组织部、宣传部、统战部、城工部、财经委、青委、妇委等部门。高岗、习仲勋先后任书记，马明方任副书记。西北局成立后，在中共中央的直接领导下，负责管理陕甘宁边区（包括伊克昭盟地区）及西北各省的工作。领导西北地区党的组织和边区军民，贯彻执行党的路线、方针、政策，为夺取抗日战争和解放战争的胜利作出巨大贡献。西北局是执行党中央各项方针政策的模范，是实现党的一元化领导的典范，而它领导的陕甘宁边区成为新民主主义的模范实验区，成为新中国的雏形。</p>",
+    "introductionText": "　　坐落在延安城区南川花石砭半山腰上，俯瞰南川河，西北局纪念馆在绿树掩映下格外美丽。从山下观看，宽阔整洁的广场、蜿蜒而上的石梯、绿意盎然的树木等协调有致，而在青山绿水间静卧的西北局革命旧址，在庄重中又多了几分灵动。延安时期，西北局设有组织部、宣传部、统战部、城工部、财经委、青委、妇委等部门。高岗、习仲勋先后任书记，马明方任副书记。西北局成立后，在中共中央的直接领导下，负责管理陕甘宁边区（包括伊克昭盟地区）及西北各省的工作。领导西北地区党的组织和边区军民，贯彻执行党的路线、方针、政策，为夺取抗日战争和解放战争的胜利作出巨大贡献。西北局是执行党中央各项方针政策的模范，是实现党的一元化领导的典范，而它领导的陕甘宁边区成为新民主主义的模范实验区，成为新中国的雏形。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "18",
+        "name": "红色旅游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026415628289",
+        "contentId": "1418152026403045378",
+        "name": "陕西5A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026361102337",
+        "contentId": "1418152026344325122",
+        "name": "全国红色旅游经典景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "<p>中共中央西北局旧址景区对外免费开放参观，需持身份证刷闸机进入景区，无需换取纸质门票。</p>",
+    "discountVoList": [
+      {
+        "peopleType": "全体",
+        "limit": "持有“圣地英才卡”“三秦优才卡”，以及获得过全国五一劳动奖章、国家科技进步奖等国家级奖项的人员",
+        "discount": "提供免费讲解服务"
+      },
+      {
+        "peopleType": "部队官兵",
+        "limit": "8月1日 建军节",
+        "discount": "讲解费半价"
+      },
+      {
+        "peopleType": "医护人员",
+        "limit": "5月12日 国家护士节、8月19日 中国医师节",
+        "discount": "讲解费半价"
+      },
+      {
+        "peopleType": "残障人士",
+        "limit": "五月第三个星期日 全国助残日",
+        "discount": "讲解费半价"
+      },
+      {
+        "peopleType": "18岁以内未成年人",
+        "limit": "6月1日 国际儿童节",
+        "discount": "讲解费半价"
+      },
+      {
+        "peopleType": "60周岁以上老年人",
+        "limit": "农历9月9日 重阳节",
+        "discount": "讲解费半价"
+      }
+    ],
+    "officialWebsite": [
+      "https://www.yaxbj.com/xibei/web/index/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "咨询电话",
+        "telephone": "0911-2118160"
+      },
+      {
+        "telephoneTitle": "预约电话",
+        "telephone": "0911-2118160"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "2082014943661654018",
+        "outId": "1320579064595111944",
+        "type": 1,
+        "advertName": "中共中央西北局革命旧址景区",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021062317314534293.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p>　　中共中央西北局是党中央在西北地区的代表机构，是西北地区党、政、军、群的最高领导机关。1937年春，中共陕甘宁特区党委成立。1940年9月，中共中央政治局决定将边区党委改为中共陕甘宁边区中央局。1941年5月，边区中央局与中央西北工作委员会合并，成立中共中央西北局，机关驻延安。延安时期，西北局设有组织部、宣传部、统战部、城工部、财经委、青委、妇委等部门。高岗、习仲勋先后任书记，马明方任副书记。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062317355115718.jpg\" /></p>\n<p>　　西北局成立后，在中共中央的直接领导下，负责管理陕甘宁边区（包括伊克昭盟地区）及西北各省的工作。领导西北地区党的组织和边区军民，贯彻执行党的路线、方针、政策，为夺取抗日战争和解放战争的胜利做出巨大贡献。西北局是执行党中央各项方针政策的模范，是实现党的一元化领导的典范，它对边区的政治、经济、文化建设作出了重大贡献，使陕甘宁边区成为新民主主义的模范实验区，成为新中国的雏形。1947年3月，国民党军队进犯延安。西北局机关于3月14日随党中央撤离延安，转战陕北。1948年5月返回延安。1949年5月，迁驻西安。</p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\">来源：网络综合整理</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": "主要看点",
+    "contentResourcesDtoList": [
+      {
+        "id": "2082014943607128066",
+        "resourcesId": "1407636693397319681",
+        "title": "中共中央西北局旧址宣传片",
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062409564316246.mp4",
+        "coverImage": "https://eshopfile.zhiyousx.com/2021062410005463560.jpg",
+        "videoId": null,
+        "resourcesType": 2,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-07-28 16:06:59",
+        "updateTime": "2026-07-28 16:06:59",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014943611322370",
+        "resourcesId": "1407636693397319681",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062317395746700.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-07-28 16:06:59",
+        "updateTime": "2026-07-28 16:06:59",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014943615516673",
+        "resourcesId": "1407636693397319681",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062317444306118.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-07-28 16:06:59",
+        "updateTime": "2026-07-28 16:06:59",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014943619710977",
+        "resourcesId": "1407636693397319681",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062317454619111.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-07-28 16:06:59",
+        "updateTime": "2026-07-28 16:06:59",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014943619710978",
+        "resourcesId": "1407636693397319681",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062317473640796.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2026-07-28 16:06:59",
+        "updateTime": "2026-07-28 16:06:59",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082014943623905281",
+        "resourcesId": "1407636693397319681",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062317482950203.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2026-07-28 16:06:59",
+        "updateTime": "2026-07-28 16:06:59",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1574974899180212226",
+      "rankingId": null,
+      "indexInRanking": 14,
+      "rankingName": "陕西免费景区人气榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1455724365810343938",
+        "rankingId": "1455724367274156033",
+        "indexInRanking": null,
+        "rankingName": "延安必逛景点人气排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "2082014943640682498",
+        "scenicSpotId": "1320579064595111944",
+        "contentModuleName": "主要看点",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1407645362272907265",
+            "type": 5,
+            "title": "中共中央西北局旧址",
+            "subtitle": "西北地区党、政、军、群的最高领导机关",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062318210633967.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1407639384009781250",
+            "type": 5,
+            "title": "自然科学院旧址",
+            "subtitle": "中国共产党历史上第一所理工农大学",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062317543147477.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1407641590691835906",
+            "type": 5,
+            "title": "陕甘宁边区政府交际处",
+            "subtitle": "开展上层统一战线及进行情报工作的重要场所",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062318024350756.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1407644170088132609",
+            "type": 5,
+            "title": "中共中央西北局纪念馆",
+            "subtitle": "为延安红色旅游增加了新的内涵",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062318141651322.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,87 @@
+{
+  "code": 1,
+  "data": {
+    "salesNum": 664,
+    "startingPrice": 40.0,
+    "scenicTicketTypeClassList": [
+      {
+        "id": "1873904873732497410",
+        "ticketTypeClassName": "自由行",
+        "ticketTypeClassNameEn": "",
+        "image": null,
+        "itemList": [
+          {
+            "itemId": "1781224807857623042",
+            "itemTitle": "西安西安博物院+小雁塔(荐福寺)半日游【含耳麦 可选9/10/11/14点场次】",
+            "itemTitleEn": null,
+            "itemAbbreviate": null,
+            "itemSubTitle": null,
+            "salesNum": 709,
+            "inventedSalesNum": null,
+            "retailPrice": 68.0,
+            "defaultPicUrl": null,
+            "productType": null,
+            "stockStatus": 1,
+            "sellOut": 0,
+            "sellStatus": null,
+            "startPriceFlag": 0,
+            "skuItemType": null,
+            "isFree": null,
+            "scenicType": null,
+            "groupFlag": null,
+            "jumpFlag": null,
+            "jumpUrl": null,
+            "jumpAppId": null,
+            "jumpType": null,
+            "jumpOriId": null,
+            "hideShareFlag": null,
+            "hideCopyFlag": null,
+            "marketPrice": 40.0,
+            "price": 40.0,
+            "bookingInfoTag": null,
+            "maxReward": 4.0,
+            "shareType": "1",
+            "sharePosterUrl": "",
+            "seckillActivity": null,
+            "seckillPrice": null,
+            "seckillItemId": null,
+            "recommendStyleUrl": null,
+            "recommendStyleUrl1": null,
+            "ticketType": 3,
+            "aggregationItemId": null,
+            "productPic": "https://eshopfile.zhiyousx.com/171351206035121395.jpg",
+            "lineHighlightLabelList": [
+              "资深讲解",
+              "含耳麦"
+            ],
+            "cityList": [
+              "西安"
+            ],
+            "travelMode": 2,
+            "journeyDay": 1,
+            "journeyNight": 0,
+            "fromCityList": [
+              "西安"
+            ],
+            "cashStartPriceFlag": null,
+            "lineTagList": [
+              "可订明日",
+              "无购物",
+              "无自费",
+              "退订无忧"
+            ],
+            "selloutSuggestFlag": null,
+            "targetGroupLimitFlag": null,
+            "targetGroupsRuleDescList": null,
+            "discountedPrice": 40.0,
+            "userCouponId": null,
+            "couponName": null
+          }
+        ]
+      }
+    ],
+    "sellOut": 0
+  },
+  "msg": "成功",
+  "success": true
+}

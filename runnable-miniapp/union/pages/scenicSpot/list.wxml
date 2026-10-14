@@ -4,24 +4,24 @@
         <u-swiper bind:__l="__l" bind:click="__e" borderRadius="0" class="data-v-f0aaf32e" data-event-opts="{{[ [ '^click',[ ['swiperTopClick'] ] ] ]}}" height="478" indicatorPos="none" interval="5000" list="{{swiperList}}" name="imageUrl" vueId="6d8a2c17-2"></u-swiper>
         <view bindtap="__e" class="notice flex-center u-skeleton-fillet data-v-f0aaf32e" data-event-opts="{{[ [ 'tap',[ [ 'openNotice',['$event'] ] ] ] ]}}" wx:if="{{spotDetail.noticeTitel&&spotDetail.noticeMsg}}">
             <view class="notice-left flex-center data-v-f0aaf32e">
-                <image class="data-v-f0aaf32e" mode="aspectFill" src="https://eshopfile.zhiyousx.com/2025052915243054575.png"></image>
+                <image class="data-v-f0aaf32e" mode="aspectFill" src="/static/captured/148619f9f192b777.png"></image>
                 <view class="t singleLineText data-v-f0aaf32e">{{spotDetail.noticeTitel}}</view>
             </view>
-            <image class="data-v-f0aaf32e" mode="aspectFill" src="https://eshopfile.zhiyousx.com/2025052915243415626.png"></image>
+            <image class="data-v-f0aaf32e" mode="aspectFill" src="/static/captured/412f5d962d6c91b1.png"></image>
         </view>
     </view>
     <view class="module-box data-v-f0aaf32e">
         <view bindtap="__e" class="title-box flex-center u-skeleton-fillet data-v-f0aaf32e" data-event-opts="{{[ [ 'tap',[ ['jumpSpot'] ] ] ]}}">
             <view class="title multilineText2 data-v-f0aaf32e">{{''+spotDetail.scenicName+''}}</view>
             <view class="flex-center title-icon data-v-f0aaf32e">
-                <image class="data-v-f0aaf32e" mode="aspectFill" src="https://eshopfile.zhiyousx.com/2025052915243415626.png"></image>
+                <image class="data-v-f0aaf32e" mode="aspectFill" src="/static/captured/412f5d962d6c91b1.png"></image>
             </view>
         </view>
         <view bindtap="__e" class="info-tips flex-center u-skeleton-fillet data-v-f0aaf32e" data-event-opts="{{[ [ 'tap',[ ['jumpSpotIntro'] ] ] ]}}">
             <view class="it-l singleLineText data-v-f0aaf32e">{{''+(spotDetail.openTimeTitle||'开放时间')+''}}<text class="data-v-f0aaf32e">｜</text>
                 <block wx:if="{{spotDetail.scenicType!=1}}">{{''+(spotDetail.reservationNoticeTitle||'优惠政策')+''}}<text class="data-v-f0aaf32e">｜</text>
                 </block>{{''+(spotDetail.visitNoticeTitle||'游玩须知')+''}}</view>
-            <image class="data-v-f0aaf32e" mode="aspectFill" src="https://eshopfile.zhiyousx.com/2025052915243415626.png"></image>
+            <image class="data-v-f0aaf32e" mode="aspectFill" src="/static/captured/412f5d962d6c91b1.png"></image>
         </view>
         <coupon bind:__l="__l" bind:showYh="__e" class="data-v-f0aaf32e" couponArr="{{couponArr}}" data-event-opts="{{[ [ '^showYh',[ ['showYh'] ] ] ]}}" vueId="6d8a2c17-3"></coupon>
     </view>
@@ -114,22 +114,22 @@
     <notice-p bind:__l="__l" class="data-v-f0aaf32e vue-ref" data-ref="noticeP" detailObj="{{spotDetail}}" vueId="6d8a2c17-8"></notice-p>
     <book-info bind:__l="__l" bind:buyFn="__e" bind:ydxzSellOut="__e" bizType="{{bizType}}" bookTipHeight="{{bookTipHeight}}" class="data-v-f0aaf32e vue-ref" data-event-opts="{{[ [ '^ydxzSellOut',[ ['ydxzSellOut'] ] ],[ '^buyFn',[ ['buyFn'] ] ] ]}}" data-ref="bookInfoBox" dialogInfos="{{dialogInfos}}" selectDate="{{selectDate}}" showPcT="{{showPcT}}" vueId="6d8a2c17-9" ydxz="{{ydxz}}"></book-info>
     <view bindtap="__e" class="foot-box flex-center data-v-f0aaf32e" data-event-opts="{{[ [ 'tap',[ [ 'jumpOrder',['$event'] ] ] ] ]}}">
-        <image class="data-v-f0aaf32e" mode="aspectFill" src="https://eshopfile.zhiyousx.com/2025060316014824344.png"></image>我的订单</view>
+        <image class="data-v-f0aaf32e" mode="aspectFill" src="/static/captured/0561c582fb67f0a4.png"></image>我的订单</view>
     <u-popup bind:__l="__l" bind:input="__e" borderRadius="30" class="data-v-f0aaf32e" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','sharePopup','$event',[] ] ] ] ] ]}}" mode="bottom" value="{{sharePopup}}" vueId="6d8a2c17-10" vueSlots="{{['default']}}">
         <view class="share-box data-v-f0aaf32e">
             <view class="title data-v-f0aaf32e">分享到</view>
             <view class="icon-box data-v-f0aaf32e" wx:if="{{$root.g4}}">
                 <view class="item data-v-f0aaf32e">
-                    <image mode class="icon data-v-f0aaf32e" src="https://eshopfile.zhiyousx.com/2022090510365178497.png"></image>
+                    <image mode class="icon data-v-f0aaf32e" src="/static/captured/09beb456e6c9cf66.png"></image>
                     <view class="t data-v-f0aaf32e">微信好友</view>
                     <button class="sharebtn data-v-f0aaf32e" data-aaa="111" openType="share"></button>
                 </view>
                 <view bindtap="__e" class="item data-v-f0aaf32e" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" wx:if="{{$root.g5}}">
-                    <image mode class="icon data-v-f0aaf32e" src="https://eshopfile.zhiyousx.com/2022090510374178970.png"></image>
+                    <image mode class="icon data-v-f0aaf32e" src="/static/captured/47c174eba1561d42.png"></image>
                     <view class="t data-v-f0aaf32e">小程序码</view>
                 </view>
                 <view bindtap="__e" class="item data-v-f0aaf32e" data-event-opts="{{[ [ 'tap',[ [ 'e1',['$event'] ] ] ] ]}}" wx:if="{{$root.g6}}">
-                    <image mode class="icon data-v-f0aaf32e" src="https://eshopfile.zhiyousx.com/2022090510375744214.png"></image>
+                    <image mode class="icon data-v-f0aaf32e" src="/static/captured/25c23b41b665e00b.png"></image>
                     <view class="t data-v-f0aaf32e">海报</view>
                 </view>
             </view>
@@ -150,7 +150,7 @@
     </u-popup>
     <l-painter bind:__l="__l" bind:success="__e" class="data-v-f0aaf32e" customStyle="position: fixed; left: 200%" data-event-opts="{{[ [ '^success',[ ['e5'] ] ] ]}}" isCanvasToTempFilePath="{{true}}" vueId="6d8a2c17-13" vueSlots="{{['default']}}" wx:if="{{qrCode&&ticketpostObj&&ticketpostObj.sharePosterUrl}}">
         <l-painter-image bind:__l="__l" class="data-v-f0aaf32e" css="object-fit: fill;width:750rpx;" src="{{ticketpostObj.sharePosterUrl}}" vueId="{{'6d8a2c17-14'+','+'6d8a2c17-13'}}"></l-painter-image>
-        <l-painter-image bind:__l="__l" class="data-v-f0aaf32e" css="object-fit: fill;width:750rpx;" src="https://eshopfile.zhiyousx.com/2022090511375406833.png" vueId="{{'6d8a2c17-15'+','+'6d8a2c17-13'}}"></l-painter-image>
+        <l-painter-image bind:__l="__l" class="data-v-f0aaf32e" css="object-fit: fill;width:750rpx;" src="/static/captured/f04b984cd6cc46be.png" vueId="{{'6d8a2c17-15'+','+'6d8a2c17-13'}}"></l-painter-image>
         <l-painter-image bind:__l="__l" class="data-v-f0aaf32e" css="object-fit: fill;width:155rpx;height:155rpx;position:absolute;bottom:13rpx;right:46rpx" src="{{qrCode}}" vueId="{{'6d8a2c17-16'+','+'6d8a2c17-13'}}"></l-painter-image>
     </l-painter>
     <l-painter bind:__l="__l" bind:success="__e" class="data-v-f0aaf32e" css="width: 452rpx; height:363rpx;position:fixed;bottom:0;left:0;" customStyle="position: fixed; left: 200%" data-event-opts="{{[ [ '^success',[ ['e6'] ] ] ]}}" isCanvasToTempFilePath="{{true}}" vueId="6d8a2c17-17" vueSlots="{{['default']}}">

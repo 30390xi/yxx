@@ -1,7 +1,7 @@
 <view class="menu data-v-5760e457">
     <view class="shareButtton menubox allcenter data-v-5760e457" style="{{'width:'+menuHeight+'px'+';'+'height:'+menuHeight+'px'+';'+'left:'+menuLeft+'px'+';'+'top:'+menuButton.top+'px'+';'}}">
         <view class="img-box data-v-5760e457">
-            <image catchtap="__e" class="img data-v-5760e457" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" mode="aspectFill" src="https://eshopfile.zhiyousx.com/2024101616592814193.png" style="{{'width:'+menuHeight+'px'+';'+'height:'+menuHeight+'px'+';'}}"></image>
+            <image catchtap="__e" class="img data-v-5760e457" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" mode="aspectFill" src="/static/captured/836128395593f2a0.png" style="{{'width:'+menuHeight+'px'+';'+'height:'+menuHeight+'px'+';'}}"></image>
             <view class="openMenuBox data-v-5760e457" wx:if="{{showMenu}}">
                 <view catchtap="__e" class="item data-v-5760e457" data-event-opts="{{[ [ 'tap',[ [ 'jumpPath',['$0'],[ [ ['menuList','',i] ] ] ] ] ] ]}}" wx:for="{{menuList}}" wx:for-index="i" wx:for-item="menu">
                     <view class="item-path data-v-5760e457">

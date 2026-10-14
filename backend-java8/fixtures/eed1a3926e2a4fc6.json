@@ -1,0 +1,371 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941162",
+    "scenicName": "飞渡峡生态风景区",
+    "tag": "奇树、怪石、飞瀑、深潭、草甸“飞渡五绝”",
+    "level": 4,
+    "cityId": "1320664694422548481",
+    "cityName": "安康",
+    "address": "安康市镇坪县曙坪镇阳安村",
+    "longitude": "109.3109980000",
+    "latitude": "31.8634060000",
+    "openingStatus": 1,
+    "capacity": 10000,
+    "sequence": 315,
+    "topColour": "#139338",
+    "centralColour": "#0F5C05",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/飞渡峡-20201030122731.jpg"
+    ],
+    "introduction": "<p>　　飞渡峡景区位于大巴山北麓、陕西最南端安康市镇坪县曙坪镇境内，距离镇坪县城34公里，距离城口县城78公里。景区与重庆市城口县、陕西省平利县接壤，地理区位独特。景区属北亚热带山地湿润气候区，垂直差异大。高山区和低山区的季度转换相差70天以上，四季分明，气候温和，年平均气温为12.1℃，年平均无霜期250天，具有&ldquo;冬无严寒，夏无酷暑&rdquo;的显著特点。沿着飞渡河蜿蜒前行，便置身于一个绿树、红叶、怪石、飞瀑、深潭组成的山水梦幻之境。近二十公里峡谷间，飞渡河有若魔术师缓缓开启宝盒：谷中潭瀑状若串珠，形态多变；两岸陡峭险峻，崖壁蜿蜒曲折，若一曲跳动的音符。或浅滩清流，潭水濯濯。或山陡水曲之地，水涡重重，波光粼粼。或飞珠溅玉，形成优美壮观之跌水。河谷之中，千壑氤氲，万仞峥嵘，怪石争奇，花草蓊茸。&ldquo;草映晚日红，树绕清泉绿&rdquo;。秦巴山水柔和润泽，一反秦岭山水的生涩，成为陕西最具特色的山水旅游资源。</p>\n<p>　　飞渡旅游资源丰富、旅游要素完整，犹以奇树、怪石、飞瀑、深潭、草甸&ldquo;飞渡五绝&rdquo;享有盛誉。</p>",
+    "introductionText": "　　飞渡峡景区位于大巴山北麓、陕西最南端安康市镇坪县曙坪镇境内，距离镇坪县城34公里，距离城口县城78公里。景区与重庆市城口县、陕西省平利县接壤，地理区位独特。景区属北亚热带山地湿润气候区，垂直差异大。高山区和低山区的季度转换相差70天以上，四季分明，气候温和，年平均气温为12.1℃，年平均无霜期250天，具有“冬无严寒，夏无酷暑”的显著特点。沿着飞渡河蜿蜒前行，便置身于一个绿树、红叶、怪石、飞瀑、深潭组成的山水梦幻之境。近二十公里峡谷间，飞渡河有若魔术师缓缓开启宝盒：谷中潭瀑状若串珠，形态多变；两岸陡峭险峻，崖壁蜿蜒曲折，若一曲跳动的音符。或浅滩清流，潭水濯濯。或山陡水曲之地，水涡重重，波光粼粼。或飞珠溅玉，形成优美壮观之跌水。河谷之中，千壑氤氲，万仞峥嵘，怪石争奇，花草蓊茸。“草映晚日红，树绕清泉绿”。秦巴山水柔和润泽，一反秦岭山水的生涩，成为陕西最具特色的山水旅游资源。　　飞渡旅游资源丰富、旅游要素完整，犹以奇树、怪石、飞瀑、深潭、草甸“飞渡五绝”享有盛誉。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全年",
+        "openTimeContent": "运营时间9:00-17:00<br/>入园时间9:00-16:30"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.1米(含）以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "老年人",
+        "limit": "65周岁（含）以上凭老年证或身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "军残人士",
+        "limit": "凭军残证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "现役军人",
+        "limit": "凭军官证",
+        "discount": "优惠"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭残疾证",
+        "discount": "优惠"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "全日制大中小学生（不含成人教育、研究生凭学生证或学校介绍信）",
+        "discount": "优惠"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "11",
+        "name": "餐厅",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (22).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "10",
+        "name": "商店",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (19).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "6",
+        "name": "免费wifi",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (11).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "飞渡峡停车场",
+        "additionalExplainContent": "参考价格：免费<br/>地址：飞渡峡景区门口（内）"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>1、西安到镇坪：目前没有直达车，西安城南客运站快客到安康，然后安康汔车东站到镇坪（到县城后有景区车接送 联系电话：13909156802）；<br />2、重庆到城口：龙头寺火车站，途经达洲，每日三班。车型：大高二级 （到县城后有景区车接送 联系电话：13908269392，需要提前联系）。</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<p>1、西安&mdash;&mdash;包茂高速&mdash;&mdash;（229公里）安康&mdash;&mdash;安平高速（安康至平利）&mdash;&mdash;（60公里）平利县&mdash;&mdash;平镇二级路&mdash;&mdash;（100公里）镇坪&mdash;&mdash;（35公里）飞渡峡景区&mdash;&mdash;（78公里）城口&mdash;&mdash;（66公里）石塘&mdash;&mdash;包茂高速&mdash;&mdash;（160公里）安康&mdash;&mdash;（229公里）西安；<br />2、重庆&mdash;&mdash;包茂高速&mdash;&mdash;（320公里）万源石塘下道&mdash;&mdash;快速通道（66公里）城口&mdash;&mdash;（78公里）飞渡峡景区&mdash;&mdash;（35公里）镇坪&mdash;&mdash;S207&mdash;&mdash;化龙山（平利天书峡景区）&mdash;&mdash;（108公里）岚皋县（南宫山景区）&mdash;&mdash;（82公里）安康&mdash;&mdash;包茂高速&mdash;&mdash;（450公里）重庆。</p>"
+      }
+    ],
+    "officialWebsite": [
+      "http://www.feiduxia.com/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区服务热线",
+        "telephone": "18009152880"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "陕西飞渡峡景区",
+        "wxSubscription": "fdxhab"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1440994915449389057",
+        "resourcesId": "1322032575521513473",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/飞渡峡1-20201030122804.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2021-09-23 19:02:14",
+        "updateTime": "2021-09-23 19:02:14",
+        "createBy": "1344113100973973505",
+        "updateBy": "1344113100973973505",
+        "isDeleted": 0
+      },
+      {
+        "id": "1440994915449389058",
+        "resourcesId": "1322032575521513473",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/飞渡峡2-20201030122810.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2021-09-23 19:02:14",
+        "updateTime": "2021-09-23 19:02:14",
+        "createBy": "1344113100973973505",
+        "updateBy": "1344113100973973505",
+        "isDeleted": 0
+      },
+      {
+        "id": "1440994915449389059",
+        "resourcesId": "1322032575521513473",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072217352183655.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2021-09-23 19:02:14",
+        "updateTime": "2021-09-23 19:02:14",
+        "createBy": "1344113100973973505",
+        "updateBy": "1344113100973973505",
+        "isDeleted": 0
+      },
+      {
+        "id": "1440994915453583361",
+        "resourcesId": "1322032575521513473",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072217353076292.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2021-09-23 19:02:14",
+        "updateTime": "2021-09-23 19:02:14",
+        "createBy": "1344113100973973505",
+        "updateBy": "1344113100973973505",
+        "isDeleted": 0
+      },
+      {
+        "id": "1440994915453583362",
+        "resourcesId": "1322032575521513473",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072217354700544.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2021-09-23 19:02:14",
+        "updateTime": "2021-09-23 19:02:14",
+        "createBy": "1344113100973973505",
+        "updateBy": "1344113100973973505",
+        "isDeleted": 0
+      },
+      {
+        "id": "1440994915453583363",
+        "resourcesId": "1322032575521513473",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072217355631975.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2021-09-23 19:02:14",
+        "updateTime": "2021-09-23 19:02:14",
+        "createBy": "1344113100973973505",
+        "updateBy": "1344113100973973505",
+        "isDeleted": 0
+      },
+      {
+        "id": "1440994915457777666",
+        "resourcesId": "1322032575521513473",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072217360370041.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2021-09-23 19:02:14",
+        "updateTime": "2021-09-23 19:02:14",
+        "createBy": "1344113100973973505",
+        "updateBy": "1344113100973973505",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455799129627271170",
+      "rankingId": null,
+      "indexInRanking": 1,
+      "rankingName": "安康必逛景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": null,
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "scenicInfoTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": 0,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": null,
+    "hotelArrivalDepartureTime": null,
+    "hotelChildrenBed": null,
+    "hotelPet": null,
+    "hotelBreakfast": null,
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

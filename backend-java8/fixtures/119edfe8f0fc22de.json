@@ -1,0 +1,472 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064687386644",
+    "scenicName": "洛川会议纪念馆",
+    "tag": "抗战灯塔——洛川会议",
+    "level": 3,
+    "cityId": "1320663521644818433",
+    "cityName": "延安",
+    "address": "延安市洛川县永乡乡冯家村",
+    "longitude": "109.5027978412",
+    "latitude": "35.8253483877",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 105,
+    "topColour": "#5E8CBE",
+    "centralColour": "#315E99",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021062412175983206.jpg",
+      "https://eshopfile.zhiyousx.com/2021062411165771337.jpg"
+    ],
+    "introduction": "<p>　　洛川会议是中国共产党从国内战争到抗日战争的历史转折关头召开的一次重要会议。会议制定的各项路线、方针、政策、对中国人民最终打败日本侵略、实现民族独立具有重大历史作用。洛川会议纪念馆自1966年建馆以来，多次修缮，修复开放了会议室、毛泽东旧居、徐向前旧居、警卫队等旧址。纪念馆现为全国重点文物保护单位，全国爱国主义教育示范基地，全国红色旅游重点景区之一。</p>",
+    "introductionText": "　　洛川会议是中国共产党从国内战争到抗日战争的历史转折关头召开的一次重要会议。会议制定的各项路线、方针、政策、对中国人民最终打败日本侵略、实现民族独立具有重大历史作用。洛川会议纪念馆自1966年建馆以来，多次修缮，修复开放了会议室、毛泽东旧居、徐向前旧居、警卫队等旧址。纪念馆现为全国重点文物保护单位，全国爱国主义教育示范基地，全国红色旅游重点景区之一。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "18",
+        "name": "红色旅游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026361102337",
+        "contentId": "1418152026344325122",
+        "name": "全国红色旅游经典景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026461765634",
+        "contentId": "1418152026449182722",
+        "name": "全国爱国主义教育示范基地",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026545651713",
+        "contentId": "1418152026541457409",
+        "name": "国家三级博物馆",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026633732098",
+        "contentId": "1418152026625343489",
+        "name": "国家国防教育示范基地",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全年免费开放",
+        "openTimeContent": "09:00-17:00，16:40停止入场<br/>建议游览时长1-2小时"
+      }
+    ],
+    "discountVoList": null,
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "61",
+        "name": "讲解员",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016440410223.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "10",
+        "name": "商店",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (19).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "讲解服务",
+        "additionalExplainContent": "讲解收费标准:<br/>1-10人，30元/批<br/>11-15人，50元/批<br/>15人以上，80元/批<br/>"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>洛川4路-洛川会议纪念馆站，步行33米到达</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<p>包茂高速洛川出口下，距洛川会议纪念馆约10km</p>"
+      }
+    ],
+    "officialWebsite": [
+      "http://www.lchyjng.com"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "咨询电话",
+        "telephone": "0911-3861545"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "公众号",
+        "wxSubscriptionName": "洛川会议纪念馆",
+        "wxSubscription": "lchyjng"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "1518160611895193602",
+        "outId": "1320579064687386644",
+        "type": 1,
+        "advertName": "抗战灯塔 — 洛川会议",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021062418312493225.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p style=\"text-align: center;\"><strong>抗战灯塔 &mdash; 洛川会议</strong></p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062418322348637.jpg\" /></p>\n<p>&nbsp;</p>\n<p>　　抗日战争爆发后，中国共产党就提出了全民族抗战的人民战争路线。为了动员一切力量实现全面抗战，并具体制定、建立党领导抗战的纲领和政府，从而战胜日本帝国主义。1937年8月22日至25日，中国共产党在陕北洛川冯家村召开了中央政治局扩大会议。张闻天、毛泽东、周恩来、博古、朱德、任弼时、关向应、凯丰、张国焘，以及各方面的负责人彭德怀、刘伯承、贺龙、张浩、林彪、聂荣臻、罗荣桓、张文彬、肖劲光、林伯渠、徐向前、周建屏、傅钟等22人参加了这次中央政治局扩大会议。</p>\n<p>　　在会上，毛泽东代表中共中央政治局作了军事问题和国共两党关系问题的报告。在军事问题上，毛泽东在正确地分析中日战争中敌强我弱的形势和敌人用兵的战略方向之后指出，抗日战争是一场艰苦的持久战。在这种形势下，红军必须从正规战争转向抗日游击战。红军的基本任务是，创造根据地，牵制消灭敌人，配合友军作战（主要是战略配合），保存和扩大红军，争取共产党对民族革命战争的领导权。红军的作战方针是：独立自主的山地游击战争，包括在有利条件下集中兵力消灭敌人兵团，以及向平原发展游击战争。关于国共两党关系问题，毛泽东指出，要坚持统一战线，巩固扩大统一战线；同时要保持共产党在政治上、组织上的独立性，充分吸取1927年革命失败的教训。总之，必须坚持统一战线中的无产阶级领导权。</p>\n<p>　　根据毛泽东的提议，会议通过了著名的《抗日救国十大纲领》。十大纲领的主要内容是：一、打倒日本帝国主义；二、全国军事的总动员；三、全国人民的总动员；四、改革政治机构；五、抗日的外交政策；六、战时的财政经济政策；七、改良人民生活；八、抗日的教育政策；九、肃清汉奸卖国贼亲日派，巩固后方；十、抗日的民族团结。</p>\n<p>　　这次会议还通过中央《关于目前形势与党的任务的决定》。决定指出，抗日战争是一场艰苦的持久战，其胜利的关键在于使其发展成全面的全民族的抗战。共产党员及其领导的民众和武装力量，应该站在斗争的最前线，使自己成为全国抗战的核心。</p>\n<p>　　洛川会议还决定了共产党在全国抗战到来的新阶段中的具体行动方针。首先，把党的工作重心放在战区和敌后，放手发动群众，开展独立自主的游击战，建立敌后抗日根据地。其次，以减租减息作为党在抗日时期解决农民问题的基本政策。最后，在国民党统治区内要广泛地发动群众性的抗日救亡运动，争取全国人民应有的政治经济权利。</p>\n<p>　　洛川会议是中国共产党在抗日战争全面爆发的历史转折关头召开的一次重要会议。这次会议指出了国共两党两条不同的抗战路线的原则区别，确立了我军在敌后放手发动独立自主的游击战争，利用游击战争配合正面战场，开辟敌后战场，建立敌后抗日根据地的战略任务，为实现党对抗日战争的领导权和争取抗日战争的胜利指明了正确道路。</p>\n<p>&nbsp;</p>\n<p>（本文转自/光明网）</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": "重点推荐",
+    "contentResourcesDtoList": [
+      {
+        "id": "1518160611861639169",
+        "resourcesId": "1407915358509117441",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062418033576586.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2022-04-24 17:31:10",
+        "updateTime": "2022-04-24 17:31:10",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518160611861639170",
+        "resourcesId": "1407915358509117441",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062419171358973.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2022-04-24 17:31:10",
+        "updateTime": "2022-04-24 17:31:10",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518160611865833474",
+        "resourcesId": "1407915358509117441",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062418035302924.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2022-04-24 17:31:10",
+        "updateTime": "2022-04-24 17:31:10",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518160611865833475",
+        "resourcesId": "1407915358509117441",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062412154586609.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2022-04-24 17:31:10",
+        "updateTime": "2022-04-24 17:31:10",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518160611865833476",
+        "resourcesId": "1407915358509117441",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062419164026175.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2022-04-24 17:31:10",
+        "updateTime": "2022-04-24 17:31:10",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518160611870027778",
+        "resourcesId": "1407915358509117441",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062419175269514.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2022-04-24 17:31:10",
+        "updateTime": "2022-04-24 17:31:10",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518160611870027779",
+        "resourcesId": "1407915358509117441",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062418032357672.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2022-04-24 17:31:10",
+        "updateTime": "2022-04-24 17:31:10",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518160611870027780",
+        "resourcesId": "1407915358509117441",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062419165342636.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2022-04-24 17:31:10",
+        "updateTime": "2022-04-24 17:31:10",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518160611874222082",
+        "resourcesId": "1407915358509117441",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062419185537359.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": null,
+        "createTime": "2022-04-24 17:31:10",
+        "updateTime": "2022-04-24 17:31:10",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518160611874222083",
+        "resourcesId": "1407915358509117441",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062412153393524.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": null,
+        "createTime": "2022-04-24 17:31:10",
+        "updateTime": "2022-04-24 17:31:10",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1439119981701840898",
+      "rankingId": null,
+      "indexInRanking": 40,
+      "rankingName": "陕西人气博物馆排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1455724365810343938",
+        "rankingId": "1455724367274156033",
+        "indexInRanking": null,
+        "rankingName": "延安必逛景点人气排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "1518160611882610689",
+        "scenicSpotId": "1320579064687386644",
+        "contentModuleName": "重点推荐",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1407941849410220034",
+            "type": 5,
+            "title": "洛川会议史实展",
+            "subtitle": "全面抗战的号角",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062413571745757.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1408015557701185537",
+            "type": 5,
+            "title": "毛泽东旧居",
+            "subtitle": "毛主席在洛川的故居",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062418434000986.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1408020621987721218",
+            "type": 5,
+            "title": "警卫队旧址",
+            "subtitle": "保护领导及首长们的安全",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062419071420876.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": null,
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "scenicInfoTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": 0,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": null,
+    "hotelArrivalDepartureTime": null,
+    "hotelChildrenBed": null,
+    "hotelPet": null,
+    "hotelBreakfast": null,
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

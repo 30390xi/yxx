@@ -1,16 +1,16 @@
 <view class="smart-escort-container data-v-1d24116d">
     <view class="header-section data-v-1d24116d">
         <view class="header-logo data-v-1d24116d">
-            <image class="header-icon data-v-1d24116d" src="https://eshopfile.zhiyousx.com/176958773997727947.gif" wx:if="{{!isPlayIng}}"></image>
-            <image class="header-icon data-v-1d24116d" src="https://eshopfile.zhiyousx.com/176958780798329730.gif" wx:if="{{isPlayIng}}"></image>
+            <image class="header-icon data-v-1d24116d" src="/static/captured/124e15bf2143f27e.gif" wx:if="{{!isPlayIng}}"></image>
+            <image class="header-icon data-v-1d24116d" src="/static/captured/4006c80d728fd19b.gif" wx:if="{{isPlayIng}}"></image>
         </view>
         <view class="header-content data-v-1d24116d">
-            <view class="header-nav-item1 data-v-1d24116d">{{$root.m0+''}}<image class="header-nav-icon data-v-1d24116d" src="https://eshopfile.zhiyousx.com/176958794459960221.png"></image>
+            <view class="header-nav-item1 data-v-1d24116d">{{$root.m0+''}}<image class="header-nav-icon data-v-1d24116d" src="/static/captured/54240c45c97df3dc.png"></image>
             </view>
             <view class="header-nav-item2 data-v-1d24116d">{{$root.m1}}</view>
             <view class="header-nav-item3 data-v-1d24116d">
-                <image bindtap="__e" class="header-nav-open data-v-1d24116d" data-event-opts="{{[ [ 'tap',[ [ 'togglePlay',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/176958800191531963.png" wx:if="{{!isPlayIng}}"></image>
-                <image bindtap="__e" class="header-nav-open1 data-v-1d24116d" data-event-opts="{{[ [ 'tap',[ [ 'togglePlay',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/176959220644704629.png" wx:if="{{isPlayIng}}"></image>
+                <image bindtap="__e" class="header-nav-open data-v-1d24116d" data-event-opts="{{[ [ 'tap',[ [ 'togglePlay',['$event'] ] ] ] ]}}" src="/static/captured/e1c4f41148eb50e8.png" wx:if="{{!isPlayIng}}"></image>
+                <image bindtap="__e" class="header-nav-open1 data-v-1d24116d" data-event-opts="{{[ [ 'tap',[ [ 'togglePlay',['$event'] ] ] ] ]}}" src="/static/captured/47c0feffbacfce81.png" wx:if="{{isPlayIng}}"></image>
                 <text class="data-v-1d24116d">{{currentTime}}</text>
                 <view class="custom-progress data-v-1d24116d">
                     <view class="progress-bg data-v-1d24116d">
@@ -37,7 +37,7 @@
     <view class="tab-container data-v-1d24116d" id="tabContainer" style="{{'top:'+fixednavH+'px'+';'}}">
         <view bindtap="__e" class="{{['tab-item','data-v-1d24116d',item.$orig.icon===activeTab?'active':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'changeTab',['$0'],[ [ ['tab','icon',item.$orig.icon] ] ] ] ] ] ]}}" wx:for="{{$root.l0}}" wx:for-index="__i0__" wx:key="icon">
             <view class="tab-name data-v-1d24116d">{{item.$orig.icon==='1'?item.m7:item.$orig.icon==='2'?item.m8:item.m9}}</view>
-            <image class="tab-icon data-v-1d24116d" src="https://eshopfile.zhiyousx.com/176959338196586089.png" wx:if="{{item.$orig.icon===activeTab}}"></image>
+            <image class="tab-icon data-v-1d24116d" src="/static/captured/8bee5c427023776e.png" wx:if="{{item.$orig.icon===activeTab}}"></image>
         </view>
     </view>
     <view class="main-content data-v-1d24116d">
@@ -49,7 +49,7 @@
                 </view>
             </view>
             <view class="empty data-v-1d24116d" wx:if="{{$root.g0}}">
-                <empty-state bind:__l="__l" class="data-v-1d24116d" imgUrl="https://eshopfile.zhiyousx.com/noMsg@2x.png" text="{{$root.m10}}" vueId="c55e57f2-1"></empty-state>
+                <empty-state bind:__l="__l" class="data-v-1d24116d" imgUrl="/static/captured/e6e10420d40ada39.png" text="{{$root.m10}}" vueId="c55e57f2-1"></empty-state>
             </view>
             <view class="loadMore data-v-1d24116d">
                 <u-loadmore bgColor="#fff" bind:__l="__l" class="data-v-1d24116d" color="#ccc" data-custom-hidden="{{!$root.g1}}" iconColor="#ccc" loadText="{{$root.a0}}" status="{{loadMore}}" vueId="c55e57f2-2"></u-loadmore>
@@ -63,7 +63,7 @@
     <uni-popup bind:__l="__l" class="data-v-1d24116d vue-ref" data-ref="popupRef" vueId="c55e57f2-3" vueSlots="{{['default']}}">
         <view class="popup-content data-v-1d24116d">
             <view class="box data-v-1d24116d">
-                <image class="popup-img data-v-1d24116d" mode="aspectFill" src="https://eshopfile.zhiyousx.com/176965670602878950.png"></image>
+                <image class="popup-img data-v-1d24116d" mode="aspectFill" src="/static/captured/c90b1da7eb3cb4ff.png"></image>
                 <view class="popup-desc data-v-1d24116d">{{$root.m11}}</view>
                 <view class="btn-box data-v-1d24116d">
                     <view bindtap="__e" class="btn data-v-1d24116d" data-event-opts="{{[ [ 'tap',[ [ 'submitPopup',['$event'] ] ] ] ]}}">{{$root.m12}}</view>

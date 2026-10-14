@@ -1103,19 +1103,28 @@
                 s.data.spotId = o._spotId, s.data.selloutSuggestFlag = o.detailObj.selloutSuggestFlag, o.ticketArr = s.data || {};
                 var a = s.data.scenicTicketTypeClassList;
                 1 == a.length ? n.showType = 1 : a.length > 1 && (n.showType = 2), a[0] ? ("onLoad" == i && (o.showTicketIndex = 0), o.showTicketList = !0, n.$forceUpdate(), e || setTimeout((function() {
-                  n.setTicketBoxTop(), o.$refs.ticBox.getTicketClassH().then((function(t) {
-                    var e = 0,
-                      i = t[0].map((function(t, i) {
-                        return e += t.height
-                      }));
-                    o.ticH = i
-                  }))
+                  function measureTicketClass(attempt) {
+                    var ticketBox = o.$refs && o.$refs.ticBox;
+                    if (!ticketBox || !ticketBox.getTicketClassH) {
+                      if (attempt < 10) setTimeout((function() { measureTicketClass(attempt + 1) }), 200);
+                      return
+                    }
+                    n.setTicketBoxTop(), ticketBox.getTicketClassH().then((function(t) {
+                      if (!t || !t[0]) return;
+                      var e = 0,
+                        i = t[0].map((function(t) {
+                          return e += t.height
+                        }));
+                      o.ticH = i
+                    }))
+                  }
+                  measureTicketClass(0)
                 }), 500)) : (o.loadingNum++, o.showTicketList = !1, o.isShowTicket = !1, t.hideLoading());
                 var r = 60,
                   c = o.ticketArr.scenicTicketTypeClassList;
                 c && 1 === c.length && "门票" == c[0].ticketTypeClassName && (r = 0, o.showClassName = !1), 2 == o.showType && (r = 0, o.showClassName = !1), o.swiperH = o.windowHeight - o.headerH - 104 / n.unit;
                 var u = o.detailObj.ticketAreaNoticeName ? 76 : 0;
-                o.noCouponH = o.windowHeight - o.headerH - Math.ceil(o.winWidth / 750 * (90 + u + r)), o.couponH = o.windowHeight - o.headerH - Math.ceil(o.winWidth / 750 * (170 + u + r)), o.scrollFixH = 1 == n.detailObj.noCouponFlag ? o.noCouponH : o.couponH, 1 === n.detailObj.noCouponFlag ? o.loadingNum++ : o.getSpotCoupons(), 1 == o.detailObj.selloutSuggestFlag && 1 == o.ticketArr.sellOut && o.getSelloutSuggest(n._spotId, 1), o.loadingStatus = !1
+                o.noCouponH = o.windowHeight - o.headerH - Math.ceil(o.winWidth / 750 * (90 + u + r)), o.couponH = o.windowHeight - o.headerH - Math.ceil(o.winWidth / 750 * (170 + u + r)), o.scrollFixH = 1 == n.detailObj.noCouponFlag ? o.noCouponH : o.couponH, 1 === n.detailObj.noCouponFlag ? o.loadingNum++ : o.getSpotCoupons(), 1 == o.detailObj.selloutSuggestFlag && 1 == o.ticketArr.sellOut && o.getSelloutSuggest(n._spotId, 1), o.loadingStatus = !1, t.hideLoading()
               })).catch((function(e) {
                 t.hideLoading()
               }))

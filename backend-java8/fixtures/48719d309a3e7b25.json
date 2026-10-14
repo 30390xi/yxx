@@ -1,0 +1,226 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064641249308",
+    "scenicName": "汉江石泉古城景区",
+    "tag": "特色民俗文化、特色餐饮的展示区。",
+    "level": 4,
+    "cityId": "1320664694422548481",
+    "cityName": "安康",
+    "address": "安康市石泉县大北巷石泉县政府南侧",
+    "longitude": "108.24821",
+    "latitude": "33.037061",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 409,
+    "topColour": "#A4A295",
+    "centralColour": "#828074",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/汉江石泉古城-20201030150154.jpg"
+    ],
+    "introduction": "<p>　　汉江石泉古城景区，位于秦巴腹地，座落在汉江烟波湖和莲花湖之滨，曾是石泉政治、经济、文化中心区。古城始建于西魏，复建于明、清，距今已有1600余年历史。景区西起樱花广场，南包括滨江大道、滨江公园、江南栈道、水磨沟湿地公园、东至春潮广场及石泉港、北到政府路和文昌路，占地面积约60公顷，集人文景观与自然景观于一体，2015年1月创建为国家AAA级旅游景区。古城内街区长1000余米，古建主体风貌保存良好，各时代历史变革痕迹清晰。古街内有东西城门、禹王宫、江西会馆、关帝庙、博物馆、古县衙、古戏台、古南门、古巷道、古院落、等。近年来按照&ldquo;传承文脉，修旧如旧&rdquo;的原则，对古城区进行了改造提升，成为一个特色民俗文化、特色餐饮的展示区和旅游商品的集散地，深受游客青睐。</p>",
+    "introductionText": "　　汉江石泉古城景区，位于秦巴腹地，座落在汉江烟波湖和莲花湖之滨，曾是石泉政治、经济、文化中心区。古城始建于西魏，复建于明、清，距今已有1600余年历史。景区西起樱花广场，南包括滨江大道、滨江公园、江南栈道、水磨沟湿地公园、东至春潮广场及石泉港、北到政府路和文昌路，占地面积约60公顷，集人文景观与自然景观于一体，2015年1月创建为国家AAA级旅游景区。古城内街区长1000余米，古建主体风貌保存良好，各时代历史变革痕迹清晰。古街内有东西城门、禹王宫、江西会馆、关帝庙、博物馆、古县衙、古戏台、古南门、古巷道、古院落、等。近年来按照“传承文脉，修旧如旧”的原则，对古城区进行了改造提升，成为一个特色民俗文化、特色餐饮的展示区和旅游商品的集散地，深受游客青睐。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "68",
+        "name": "旅游小镇",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": null,
+    "discountVoList": null,
+    "facilitiesServicesVoList": null,
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "官方电话",
+        "telephone": "0915-6326197"
+      }
+    ],
+    "wxSubscriptionVoList": null,
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2082011148256935937",
+        "resourcesId": "1322071478014074881",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/汉江石泉古城1-20201030150134.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-07-28 15:51:54",
+        "updateTime": "2026-07-28 15:51:54",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082011148269518849",
+        "resourcesId": "1322071478014074881",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/汉江石泉古城2-20201030150142.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-07-28 15:51:54",
+        "updateTime": "2026-07-28 15:51:54",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455799129627271170",
+      "rankingId": null,
+      "indexInRanking": 5,
+      "rankingName": "安康必逛景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

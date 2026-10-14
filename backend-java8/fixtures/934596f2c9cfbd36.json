@@ -1,0 +1,23 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "1418415607602245634",
+      "resourcesId": "1322082082082807809",
+      "title": "激战牛蹄岭",
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062915063030644.mp4",
+      "coverImage": "https://eshopfile.zhiyousx.com/2021062915105376837.png",
+      "videoId": "1409771347860623362",
+      "resourcesType": 2,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2021-07-23 11:40:08",
+      "updateTime": "2021-07-23 11:40:08",
+      "createBy": "1290153639661703170",
+      "updateBy": "1290153639661703170",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

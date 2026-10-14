@@ -1,13 +1,13 @@
 <view class="video-box-c data-v-07dd6b80">
     <uni-navbar bind:__l="__l" class="data-v-07dd6b80" type="transparentFixed" vueId="fedf54ee-1"></uni-navbar>
-    <image alt class="photo-box-image data-v-07dd6b80" src="https://eshopfile.zhiyousx.com/174540058622383938.png?imageView2/3/w/750"></image>
+    <image alt class="photo-box-image data-v-07dd6b80" src="/static/captured/fa632b88e3b98b74.png?imageView2/3/w/750"></image>
     <view class="video-box data-v-07dd6b80">
         <image mode class="photo-box-image3 data-v-07dd6b80" src="{{posterUrl+'?imageView2/3/w/578/h/1027'}}" wx:if="{{posterUrlStatus}}"></image>
         <video bindloadedmetadata="__e" class="photo-box-image1 data-v-07dd6b80" controls="{{true}}" data-event-opts="{{[ [ 'loadedmetadata',[ [ 'loadedmetadata',['$event'] ] ] ] ]}}" enablePlayGesture="{{true}}" id="myVideo1" initialTime="{{0.01}}" objectFit="cover" poster="{{posterUrl}}" showCenterPlayBtn="{{true}}" showFullscreenBtn="{{true}}" src="{{videoUrl}}" wx:if="{{videoUrl}}"></video>
     </view>
     <view class="btns data-v-07dd6b80">
-        <image alt bindtap="__e" class="image-btn data-v-07dd6b80" data-event-opts="{{[ [ 'tap',[ [ 'goPay',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/174537267251629735.png" wx:if="{{longOrShort!=1&&!payStatue&&infosObj.itemPrice!=0}}"></image>
-        <image alt bindtap="__e" class="image-btn data-v-07dd6b80" data-event-opts="{{[ [ 'tap',[ [ 'downloadVideo',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/174540127656532660.png" wx:else></image>
+        <image alt bindtap="__e" class="image-btn data-v-07dd6b80" data-event-opts="{{[ [ 'tap',[ [ 'goPay',['$event'] ] ] ] ]}}" src="/static/captured/8e07e720cb071432.png" wx:if="{{longOrShort!=1&&!payStatue&&infosObj.itemPrice!=0}}"></image>
+        <image alt bindtap="__e" class="image-btn data-v-07dd6b80" data-event-opts="{{[ [ 'tap',[ [ 'downloadVideo',['$event'] ] ] ] ]}}" src="/static/captured/6ed1edee0af493cf.png" wx:else></image>
     </view>
-    <image mode bindtap="__e" class="image-btn1 data-v-07dd6b80" data-event-opts="{{[ [ 'tap',[ [ 'backPage',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/174540082410559197.png"></image>
+    <image mode bindtap="__e" class="image-btn1 data-v-07dd6b80" data-event-opts="{{[ [ 'tap',[ [ 'backPage',['$event'] ] ] ] ]}}" src="/static/captured/cbb53c508965ff03.png"></image>
 </view>

@@ -19,9 +19,9 @@
     </view>
     <view class="equity-box data-v-70632462">
         <view class="tbox data-v-70632462">
-            <image mode class="icon data-v-70632462" src="https://eshopfile.zhiyousx.com/2022122014544389817.png"></image>
+            <image mode class="icon data-v-70632462" src="/static/captured/513e128cbf11abc0.png"></image>
             <view class="t data-v-70632462">甄选权益</view>
-            <image mode class="icon i2 data-v-70632462" src="https://eshopfile.zhiyousx.com/2022122014544389817.png"></image>
+            <image mode class="icon i2 data-v-70632462" src="/static/captured/513e128cbf11abc0.png"></image>
         </view>
         <view class="bbox data-v-70632462">
             <view bindtap="__e" class="item data-v-70632462" data-event-opts="{{[ [ 'tap',[ [ 'toEqDetail',['$0'],[ [ ['cardDetail.detailList','',__i0__,'userEquityCardDetailId'] ] ] ] ] ] ]}}" wx:for="{{cardDetail.detailList}}" wx:for-index="__i0__">
@@ -54,7 +54,7 @@
     <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-70632462" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','savePop','$event',[] ] ] ] ] ]}}" mode="center" value="{{savePop}}" vueId="237b7797-2" vueSlots="{{['default']}}">
         <view class="save-box data-v-70632462">
             <view bindtap="__e" class="btn-close data-v-70632462" data-event-opts="{{[ [ 'tap',[ [ 'e1',['$event'] ] ] ] ]}}"></view>
-            <image mode bindtap="__e" class="close-btn data-v-70632462" data-event-opts="{{[ [ 'tap',[ [ 'e2',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/2022122109502468658.png"></image>
+            <image mode bindtap="__e" class="close-btn data-v-70632462" data-event-opts="{{[ [ 'tap',[ [ 'e2',['$event'] ] ] ] ]}}" src="/static/captured/99126c2291cfeca4.png"></image>
             <view class="top-bg data-v-70632462">
                 <view class="tb1 data-v-70632462">{{''+cardDetail.name}}<text class="data-v-70632462">已为您累计节省</text>
                 </view>

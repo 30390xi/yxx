@@ -33,7 +33,7 @@
             <view class="goodsInfo data-v-21e49a41">
                 <view class="itemTitle multilineText2 data-v-21e49a41">{{item.$orig.itemTitle}}</view>
                 <view class="yh-box data-v-21e49a41">
-                    <image class="seckillIcon data-v-21e49a41" src="https://eshopfile.zhiyousx.com/2021091318044528261.png" wx:if="{{item.$orig.seckillActivity==0}}"></image>
+                    <image class="seckillIcon data-v-21e49a41" src="/static/captured/e8330379255b4136.png" wx:if="{{item.$orig.seckillActivity==0}}"></image>
                     <text class="itemRuter data-v-21e49a41" wx:if="{{item.$orig.cashBackAmount&&item.$orig.cashBackAmount!=0&&userInfo&&userInfo.isFenxiao}}">{{'赚￥'+item.$orig.cashBackAmount}}</text>
                 </view>
                 <view class="numBox data-v-21e49a41">

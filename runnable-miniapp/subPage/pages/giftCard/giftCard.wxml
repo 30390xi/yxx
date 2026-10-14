@@ -34,13 +34,13 @@
                     </view>
                 </view>
             </view>
-            <image mode class="card-state data-v-4a5cfa80" src="https://eshopfile.zhiyousx.com/170065250008116634.png" wx:if="{{item.$orig.status==3}}"></image>
-            <image mode class="card-state data-v-4a5cfa80" src="https://eshopfile.zhiyousx.com/170065251327546322.png" wx:if="{{item.$orig.status==4}}"></image>
-            <image mode class="card-state data-v-4a5cfa80" src="https://eshopfile.zhiyousx.com/170065252675437017.png" wx:if="{{item.$orig.status==6}}"></image>
-            <image mode class="card-state data-v-4a5cfa80" src="https://eshopfile.zhiyousx.com/170065254044085555.png" wx:if="{{item.$orig.status==5}}"></image>
+            <image mode class="card-state data-v-4a5cfa80" src="/static/captured/0567c14654ea044c.png" wx:if="{{item.$orig.status==3}}"></image>
+            <image mode class="card-state data-v-4a5cfa80" src="/static/captured/56b7a3cd774596e8.png" wx:if="{{item.$orig.status==4}}"></image>
+            <image mode class="card-state data-v-4a5cfa80" src="/static/captured/13a3aee2445978e0.png" wx:if="{{item.$orig.status==6}}"></image>
+            <image mode class="card-state data-v-4a5cfa80" src="/static/captured/9b3e9500059eefea.png" wx:if="{{item.$orig.status==5}}"></image>
         </view>
         <view class="no-card data-v-4a5cfa80" wx:if="{{$root.g0}}">
-            <image mode class="no-card-icon data-v-4a5cfa80" src="https://eshopfile.zhiyousx.com/giftCard/noGiftCard.png"></image>{{'您暂无'+(currentTab==1?'不':'')+'可用的礼品卡'}}</view>
+            <image mode class="no-card-icon data-v-4a5cfa80" src="/static/captured/02d2d6a3ed4e6300.png"></image>{{'您暂无'+(currentTab==1?'不':'')+'可用的礼品卡'}}</view>
     </view>
     <view class="footer data-v-4a5cfa80">
         <view bindtap="__e" class="item data-v-4a5cfa80" data-event-opts="{{[ [ 'tap',[ [ 'buyCard',['$event'] ] ] ] ]}}">
@@ -59,7 +59,7 @@
             <view class="record data-v-4a5cfa80">
                 <view class="name data-v-4a5cfa80">消费记录：</view>
                 <view class="no-record data-v-4a5cfa80" wx:if="{{$root.g1}}">
-                    <image mode class="icon3 data-v-4a5cfa80" src="https://eshopfile.zhiyousx.com/2023111315442061719.png"></image>暂无消费记录</view>
+                    <image mode class="icon3 data-v-4a5cfa80" src="/static/captured/fca9caec9bc64278.png"></image>暂无消费记录</view>
                 <view class="record-box data-v-4a5cfa80" wx:if="{{cardDetail[0]}}">
                     <scroll-view class="data-v-4a5cfa80" scrollY="true" style="height:350rpx;">
                         <view class="record-item data-v-4a5cfa80" wx:for="{{cardDetail}}" wx:key="index">

@@ -1,10 +1,10 @@
 <view class="u-wrap data-v-37506677">
     <uni-navbar bind:__l="__l" class="data-v-37506677" type="transparentFixed" vueId="1a1ec5aa-1"></uni-navbar>
     <view class="fixHeader data-v-37506677" id="fixHeader" style="{{'background:'+'rgba(245, 70, 52,'+scrollTop/(navtop2-fixednavTop)+')'+';'+'padding-top:'+searchHeight+2+'px'+';'}}">
-        <image class="rank data-v-37506677" src="https://eshopfile.zhiyousx.com/2022010918475939610.png" style="{{'opacity:'+(scrollTop>navtop2-fixednavTop?1:0)+';'}}"></image>
+        <image class="rank data-v-37506677" src="/static/captured/9eba4e57b033979e.png" style="{{'opacity:'+(scrollTop>navtop2-fixednavTop?1:0)+';'}}"></image>
     </view>
     <view class="headerInfo data-v-37506677">
-        <image class="bgimg data-v-37506677" mode="aspectFill" src="https://eshopfile.zhiyousx.com/2022051812054144670.jpg"></image>
+        <image class="bgimg data-v-37506677" mode="aspectFill" src="/static/captured/74f0e9b8dceb6d50.jpg"></image>
     </view>
     <view class="{{['nav','data-v-37506677',showType==3?'navH':'']}}" id="nav" style="{{'top:'+skHeight+'px'+';'}}">
         <view class="menu default data-v-37506677" id="menu">

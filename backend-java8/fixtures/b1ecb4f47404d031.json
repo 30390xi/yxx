@@ -1,0 +1,11 @@
+{
+  "code": 1,
+  "data": {
+    "salesNum": 44,
+    "startingPrice": null,
+    "scenicTicketTypeClassList": [],
+    "sellOut": 0
+  },
+  "msg": "成功",
+  "success": true
+}

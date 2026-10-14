@@ -2,15 +2,15 @@
     <uni-navbar bind:__l="__l" class="data-v-c117c91e" title=" " type="transparentFixed" vueId="6bbbdc55-1"></uni-navbar>
     <view class="drag-ghost data-v-c117c91e" style="{{dragGhostStyle}}" wx:if="{{(isDragging||isDragReady)&&dragItem}}">
         <view class="drag-ghost-content data-v-c117c91e">
-            <image class="headImg data-v-c117c91e" src="{{dragItem.headImgUrl||'https://eshopfile.zhiyousx.com/175695850936006689.png'}}"></image>
+            <image class="headImg data-v-c117c91e" src="{{dragItem.headImgUrl||'/static/captured/160e4f1ca51b1767.png'}}"></image>
             <view class="line-item-content-item-center data-v-c117c91e">
                 <view class="name data-v-c117c91e">{{dragItem.name}}</view>
                 <view class="detail data-v-c117c91e" wx:if="{{dragItem.tips||dragItem.price||dragItem.tag}}">
-                    <image class="icon data-v-c117c91e" src="https://eshopfile.zhiyousx.com/175680058086856766.png "></image>
+                    <image class="icon data-v-c117c91e" src="/static/captured/36daf95b6483aa5b.png "></image>
                     <text class="data-v-c117c91e">{{(dragItem.price?'人均:'+dragItem.price+'元，':'')+'\n            '+(dragItem.tips||'')}}</text>
                 </view>
             </view>
-            <image class="editIcon data-v-c117c91e" src="https://eshopfile.zhiyousx.com/175697592461606191.png "></image>
+            <image class="editIcon data-v-c117c91e" src="/static/captured/97c0b6456feb87c4.png "></image>
         </view>
     </view>
     <view bindtap="__e" class="addDayBtn data-v-c117c91e" data-event-opts="{{[ [ 'tap',[ [ 'addDay',['$event'] ] ] ] ]}}" wx:if="{{shoFloatBtn}}">+添加行程天数</view>
@@ -31,16 +31,16 @@
                         <view class="swipe-action-wrapper data-v-c117c91e" style="{{'width:'+'100%'+';'+'min-width:'+'100%'+';'}}">
                             <u-swipe-action autoClose="{{true}}" bind:__l="__l" bind:actionClick="__e" bind:click="__e" btnWidth="{{110}}" class="data-v-c117c91e vue-ref-in-for" data-event-opts="{{[ [ '^actionClick',[ ['e0'] ] ],[ '^click',[ ['e1'] ] ] ]}}" data-event-params="{{ {dayIdx:dayIdx,cIndex:cIndex,dayIdx:dayIdx,cIndex:cIndex} }}" data-ref="{{'swipeAction_'+it.id}}" disabled="{{isDragging||isDragReady||hideSwipeActions}}" index="{{it.id}}" name="{{dayIdx+','+cIndex}}" options="{{swipeOptions}}" vueId="{{'6bbbdc55-2-'+dayIdx+'-'+cIndex}}" vueSlots="{{['default']}}">
                                 <view bindlongpress="__e" bindtouchcancel="__e" bindtouchend="__e" bindtouchmove="__e" class="{{['line-item-content-item','data-v-c117c91e',(isDragging||isDragReady)&&dragDayIdx===dayIdx&&dragIndex===cIndex?'drag-hidden':'']}}" data-event-opts="{{[ [ 'longpress',[ [ 'onCardLongPress',[dayIdx,cIndex,'$0','$event'],[ [ ['lineList','',dayIdx],['aiPlanCards','',cIndex] ] ] ] ] ],[ 'touchmove',[ [ 'onCardTouchMove',[dayIdx,cIndex,'$0','$event'],[ [ ['lineList','',dayIdx],['aiPlanCards','',cIndex] ] ] ] ] ],[ 'touchend',[ [ 'onCardTouchEnd',[dayIdx,cIndex,'$0','$event'],[ [ ['lineList','',dayIdx],['aiPlanCards','',cIndex] ] ] ] ] ],[ 'touchcancel',[ [ 'onCardTouchEnd',[dayIdx,cIndex,'$0','$event'],[ [ ['lineList','',dayIdx],['aiPlanCards','',cIndex] ] ] ] ] ] ]}}" id="{{'card-'+dayIdx+'-'+cIndex}}">
-                                    <image class="headImg data-v-c117c91e" src="{{it.headImgUrl||'https://eshopfile.zhiyousx.com/175695850936006689.png'}}"></image>
+                                    <image class="headImg data-v-c117c91e" src="{{it.headImgUrl||'/static/captured/160e4f1ca51b1767.png'}}"></image>
                                     <view class="line-item-content-item-center data-v-c117c91e">
-                                        <view class="name data-v-c117c91e">{{''+it.name+''}}<image class="data-v-c117c91e" src="https://eshopfile.zhiyousx.com/175748670570526060.png" wx:if="{{it.isAdd}}"></image>
+                                        <view class="name data-v-c117c91e">{{''+it.name+''}}<image class="data-v-c117c91e" src="/static/captured/45e298fd378558ca.png" wx:if="{{it.isAdd}}"></image>
                                         </view>
                                         <view class="detail data-v-c117c91e" wx:if="{{it.tips||it.price&&it.price!==0||it.tag}}">
-                                            <image class="icon data-v-c117c91e" src="https://eshopfile.zhiyousx.com/175680058086856766.png "></image>
+                                            <image class="icon data-v-c117c91e" src="/static/captured/36daf95b6483aa5b.png "></image>
                                             <text class="data-v-c117c91e">{{(it.price?'人均:'+it.price+'元，':'')+'\n                        '+(it.tips||'')}}</text>
                                         </view>
                                     </view>
-                                    <image class="editIcon data-v-c117c91e" src="https://eshopfile.zhiyousx.com/175697592461606191.png "></image>
+                                    <image class="editIcon data-v-c117c91e" src="/static/captured/97c0b6456feb87c4.png "></image>
                                 </view>
                             </u-swipe-action>
                         </view>
@@ -62,7 +62,7 @@
             </view>
             <scroll-view bindscrolltolower="__e" class="spot-modal-content data-v-c117c91e" data-event-opts="{{[ [ 'scrolltolower',[ [ 'onSpotScrollToLower',['$event'] ] ] ] ]}}" scrollY="{{true}}">
                 <view class="spot-empty data-v-c117c91e" wx:if="{{$root.g3}}">
-                    <image class="empty-image data-v-c117c91e" src="https://eshopfile.zhiyousx.com/175671244741237616.png"></image>
+                    <image class="empty-image data-v-c117c91e" src="/static/captured/9f36158a7dd8840f.png"></image>
                     <view class="empty-text data-v-c117c91e">暂无相关数据</view>
                 </view>
                 <block wx:else>
@@ -111,7 +111,7 @@
     </view>
     <uni-popup bind:__l="__l" class="data-v-c117c91e vue-ref" data-ref="editTitlePopup" type="center" vueId="6bbbdc55-4" vueSlots="{{['default']}}">
         <view class="budget-popup data-v-c117c91e">
-            <view class="popup-title data-v-c117c91e">请输入您的总预算<image bindtap="__e" class="data-v-c117c91e" data-event-opts="{{[ [ 'tap',[ [ 'closeBudgetPopup',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/175706012529278173.png"></image>
+            <view class="popup-title data-v-c117c91e">请输入您的总预算<image bindtap="__e" class="data-v-c117c91e" data-event-opts="{{[ [ 'tap',[ [ 'closeBudgetPopup',['$event'] ] ] ] ]}}" src="/static/captured/bf2ca942015a5264.png"></image>
             </view>
             <view class="budget-input-section data-v-c117c91e">
                 <view class="budget-input data-v-c117c91e">
@@ -128,7 +128,7 @@
         <view class="avatar-nickname-popup data-v-c117c91e">
             <view class="avatar-section data-v-c117c91e">
                 <button bindchooseavatar="__e" class="avatar-btn data-v-c117c91e" data-event-opts="{{[ [ 'chooseavatar',[ [ 'onChooseAvatar',['$event'] ] ] ] ]}}" hoverClass="none" openType="chooseAvatar">
-                    <image class="avatar-image data-v-c117c91e" src="{{tempAvatar||'https://eshopfile.zhiyousx.com/175747715812480897.png'}}"></image>
+                    <image class="avatar-image data-v-c117c91e" src="{{tempAvatar||'/static/captured/c02377ed1d059922.png'}}"></image>
                 </button>
                 <text class="avatar-tip data-v-c117c91e">点击选择头像</text>
             </view>

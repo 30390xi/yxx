@@ -1,0 +1,71 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "2063886299360845826",
+      "resourcesId": "1331170859779428353",
+      "title": "照金国际滑雪场宣传片",
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2022030711040307045.mp4",
+      "coverImage": "https://res.zhiyousx.com/ysx/pro/2022/03/07/164662223591350996.jpg",
+      "videoId": null,
+      "resourcesType": 2,
+      "sequence": 1,
+      "describe": "",
+      "createTime": "2026-06-08 15:30:13",
+      "updateTime": "2026-06-08 15:30:13",
+      "createBy": "1635171719176675330",
+      "updateBy": "1635171719176675330",
+      "isDeleted": 0
+    },
+    {
+      "id": "2063886299406983170",
+      "resourcesId": "1331170859779428353",
+      "title": "来照金国际滑雪场，尽享速度与激情！",
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091715441457704.mp4",
+      "coverImage": "https://eshopfile.zhiyousx.com/163186484282335939.jpg",
+      "videoId": null,
+      "resourcesType": 2,
+      "sequence": 15,
+      "describe": null,
+      "createTime": "2026-06-08 15:30:13",
+      "updateTime": "2026-06-08 15:30:13",
+      "createBy": "1635171719176675330",
+      "updateBy": "1635171719176675330",
+      "isDeleted": 0
+    },
+    {
+      "id": "2063886299411177474",
+      "resourcesId": "1331170859779428353",
+      "title": "2020照金滑雪场滑雪英雄大会完美举行！",
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091715512248431.mp4",
+      "coverImage": "https://eshopfile.zhiyousx.com/163186579661594207.jpg",
+      "videoId": null,
+      "resourcesType": 2,
+      "sequence": 16,
+      "describe": null,
+      "createTime": "2026-06-08 15:30:13",
+      "updateTime": "2026-06-08 15:30:13",
+      "createBy": "1635171719176675330",
+      "updateBy": "1635171719176675330",
+      "isDeleted": 0
+    },
+    {
+      "id": "2063886299415371777",
+      "resourcesId": "1331170859779428353",
+      "title": "照金国际滑雪场11月26日率先开板！",
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/官宣 ‖ 照金国际滑雪场11月26日率先开板！_2-20201125105453.mp4",
+      "coverImage": "https://eshopfile.zhiyousx.com/微信图片_20201125105559-20201125105608.jpg",
+      "videoId": null,
+      "resourcesType": 2,
+      "sequence": 17,
+      "describe": null,
+      "createTime": "2026-06-08 15:30:13",
+      "updateTime": "2026-06-08 15:30:13",
+      "createBy": "1635171719176675330",
+      "updateBy": "1635171719176675330",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,122 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1455811431080501249",
+    "contentId": "1455811430946283521",
+    "rankingName": "杨凌美食人气排行榜",
+    "rankingClass": "2",
+    "rankingType": "2",
+    "rankingMainPictureUrl": "https://res.zhiyousx.com/ysx/pro/2021/11/03/163592746001412231.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": null,
+    "rankingInclude": "个美食",
+    "rankingPersonalInfo": "我吃过的美食",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#D98D39",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1451484839822761985",
+        "originType": "2",
+        "originName": "旗花面",
+        "originSubtitleName": "\"薄、筋、光;酸、旺、香\"",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489576372670719.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489591288231604.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489591891120089.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489592446987650.jpg"
+        ],
+        "sort": "0",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451488187011571713",
+        "originType": "2",
+        "originName": "菜疙瘩",
+        "originSubtitleName": "烹饪简单，营养丰富",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489651838266676.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489669784062125.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489671251818668.png",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489671957047160.jpg"
+        ],
+        "sort": "1",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "1",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451483365600403458",
+        "originType": "2",
+        "originName": "蘸水面",
+        "originSubtitleName": "面白薄筋光，汤汪蒜辣香",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489532702755429.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489555934621369.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489556545935899.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489557057894868.jpg"
+        ],
+        "sort": "2",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "2",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451486500624539649",
+        "originType": "2",
+        "originName": "醋粉",
+        "originSubtitleName": "陕西西府地区独特的传统特色",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489606155591547.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489630231000631.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489630975140522.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489631450439711.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489632045931720.jpg"
+        ],
+        "sort": "3",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "1",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451489739487059970",
+        "originType": "2",
+        "originName": "海味罐罐茶",
+        "originSubtitleName": "滑润爽口，酥脆香糯",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489686161866861.png",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489708239137670.png",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/22/163489709143650871.png"
+        ],
+        "sort": "4",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "5",
+    "favoriteSum": "4",
+    "personalInfoValue": "0/5"
+  },
+  "msg": "成功",
+  "success": true
+}

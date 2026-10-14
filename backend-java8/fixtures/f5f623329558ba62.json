@@ -1,0 +1,67 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1460178486399365122",
+    "contentId": "1460178484126052354",
+    "rankingName": "陕西滑雪场人气排行榜",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/173613214451521364.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": "人去过",
+    "rankingInclude": "个滑雪场",
+    "rankingPersonalInfo": "我去过的滑雪场",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#3DA3D6",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1320579064188264610",
+        "originType": "1",
+        "originName": "渭南必捷滑雪场",
+        "originSubtitleName": "设施齐全，高档服务的雪场",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021112409591688415.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021112315545730275.jpg",
+          "https://eshopfile.zhiyousx.com/2021112315550437630.jpg",
+          "https://eshopfile.zhiyousx.com/2021112315550916073.jpg"
+        ],
+        "sort": "12",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1597426780359815170",
+        "originType": "1",
+        "originName": "宝鸡必捷滑雪场",
+        "originSubtitleName": "大众型户外滑雪场",
+        "originUrl": "https://eshopfile.zhiyousx.com/2022112911040821721.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/166969118839297113.jpg",
+          "https://eshopfile.zhiyousx.com/166969118874130464.jpg",
+          "https://eshopfile.zhiyousx.com/166969118910978256.jpg",
+          "https://eshopfile.zhiyousx.com/166969135237242797.jpg",
+          "https://eshopfile.zhiyousx.com/166969135273304464.jpg"
+        ],
+        "sort": "13",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "12",
+    "favoriteSum": null,
+    "personalInfoValue": "0/12"
+  },
+  "msg": "成功",
+  "success": true
+}

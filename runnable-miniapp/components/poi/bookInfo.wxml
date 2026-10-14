@@ -107,7 +107,7 @@
                             <view class="col2 data-v-69333700">门票或订单问题</view>
                             <view class="col3 data-v-69333700">4000292296</view>
                             <view class="col4 data-v-69333700">
-                                <image mode bindtap="__e" class="data-v-69333700" data-event-opts="{{[ [ 'tap',[ [ 'call',['4000292296'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/spotIntroNew/dianhua.png"></image>
+                                <image mode bindtap="__e" class="data-v-69333700" data-event-opts="{{[ [ 'tap',[ [ 'call',['4000292296'] ] ] ] ]}}" src="/static/captured/9653e7f23b8aa244.png"></image>
                             </view>
                         </view>
                     </view>
@@ -119,7 +119,7 @@
                             <view class="col2 data-v-69333700" style="opacity:0;">门票或订单问题</view>
                             <view class="col3 data-v-69333700">4001618666</view>
                             <view class="col4 data-v-69333700">
-                                <image mode bindtap="__e" class="data-v-69333700" data-event-opts="{{[ [ 'tap',[ [ 'call',['4001618666'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/spotIntroNew/dianhua.png"></image>
+                                <image mode bindtap="__e" class="data-v-69333700" data-event-opts="{{[ [ 'tap',[ [ 'call',['4001618666'] ] ] ] ]}}" src="/static/captured/9653e7f23b8aa244.png"></image>
                             </view>
                         </view>
                     </view>
@@ -131,7 +131,7 @@
                             <view class="col2 singleLineText data-v-69333700">{{item.telephoneTitle||''}}</view>
                             <view class="col3 singleLineText data-v-69333700">{{item.telephone||''}}</view>
                             <view class="col4 data-v-69333700">
-                                <image mode bindtap="__e" class="data-v-69333700" data-event-opts="{{[ [ 'tap',[ [ 'call',['$0'],[ [ ['telephoneVoList','',__i1__,'telephone'] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/spotIntroNew/dianhua.png"></image>
+                                <image mode bindtap="__e" class="data-v-69333700" data-event-opts="{{[ [ 'tap',[ [ 'call',['$0'],[ [ ['telephoneVoList','',__i1__,'telephone'] ] ] ] ] ] ]}}" src="/static/captured/9653e7f23b8aa244.png"></image>
                             </view>
                         </view>
                     </view>

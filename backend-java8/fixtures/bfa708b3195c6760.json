@@ -1,0 +1,39 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "2039660659178921986",
+      "resourcesId": "1403178239337259009",
+      "title": "家乡有座龙头山",
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061112203576213.mp4",
+      "coverImage": "https://eshopfile.zhiyousx.com/2021061112305807066.jpg",
+      "videoId": null,
+      "resourcesType": 2,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2026-04-02 19:06:10",
+      "updateTime": "2026-04-02 19:06:10",
+      "createBy": "2021189462693314562",
+      "updateBy": "2021189462693314562",
+      "isDeleted": 0
+    },
+    {
+      "id": "2039660659183116290",
+      "resourcesId": "1403178239337259009",
+      "title": "人间仙境龙头山",
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061115152401903.mp4",
+      "coverImage": "https://eshopfile.zhiyousx.com/2021061115153462185.jpg",
+      "videoId": null,
+      "resourcesType": 2,
+      "sequence": 2,
+      "describe": null,
+      "createTime": "2026-04-02 19:06:10",
+      "updateTime": "2026-04-02 19:06:10",
+      "createBy": "2021189462693314562",
+      "updateBy": "2021189462693314562",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

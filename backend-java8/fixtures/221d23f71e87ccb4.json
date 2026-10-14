@@ -1,0 +1,228 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064712552463",
+    "scenicName": "黑龙潭景区",
+    "tag": "   国家AAAA级景区",
+    "level": 4,
+    "cityId": "1320664225474195458",
+    "cityName": "榆林",
+    "address": "榆林市镇川镇红柳滩村",
+    "longitude": "110.1525410000",
+    "latitude": "37.8330500000",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 391,
+    "topColour": "#896837",
+    "centralColour": "#84602B",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/1-20201028172214.jpg"
+    ],
+    "introduction": "<p>&nbsp; &nbsp;&nbsp;国家AAAA级景区黑龙潭位于陕西省榆林市镇川镇红柳滩村东的幽谷中，地处无定河左岸，紧邻210国道、榆绥高速和西包铁路。四周群山围抱，松柏掩映，谷内九潭连环，泉流涌动，是一方奇观天成的风水宝地。</p>\n<p>&nbsp;&nbsp;&nbsp; 黑龙潭始建于明代正德年间，五百多年来传承有序，香火鼎盛，名贯塞上，声威远播。黑龙大王遍洒甘露，广施恩惠，普济苍生和拯救黎民的传闻源远流长，已同广大信众的心理诉求水乳交融；龙王百签测运去厄、释疑解惑、警世劝人与精神慰藉的普世功能深入人心，受到四方百姓的无比信赖和敬仰崇拜。每年，陕、甘、晋、宁、蒙五省区域来朝觐的香客游人超过百万人次，尤其是农历六月十三日庙会期间，数以几十万计的善男信女蜂拥而至。从规模、人气，到效益、影响，堪称陕北之最，成为黄土高原上一道靓丽的风景线。</p>\n<p>&nbsp;&nbsp;&nbsp; 黑龙潭地灵人杰，凭借英才辈出的地脉、文脉和人脉资源，管委会以睿智的眼光，前瞻的视野和过人的胆识，闯出一条民办、民建、民管、民营的发展之路。靠自力更生修复古刹，举办盛会促发展；大手笔挖掘文化积淀，借古开今谱新篇；用庙会所得建校助学，慷慨解囊兴教育；开全国民办园林先河，再造生态大环境；以景区收入服务三农，造福乡梓创和谐。黑龙潭融宗教祭祀，修功积德，文化传承和科考修学于一身，集营造欢乐、观光游憩、生态沐浴与风情体验为一体，既是中外瞩目的道教文化圣地，又属国家级旅游景区，是一座经世致用、祈福养生、陶冶情操、休闲度假，能给所有宾客带来好运的精神家园。热忱欢迎中外宾客和善男信女来大美黑龙潭朝觐、祈福、休闲、度假！</p>",
+    "introductionText": "    国家AAAA级景区黑龙潭位于陕西省榆林市镇川镇红柳滩村东的幽谷中，地处无定河左岸，紧邻210国道、榆绥高速和西包铁路。四周群山围抱，松柏掩映，谷内九潭连环，泉流涌动，是一方奇观天成的风水宝地。    黑龙潭始建于明代正德年间，五百多年来传承有序，香火鼎盛，名贯塞上，声威远播。黑龙大王遍洒甘露，广施恩惠，普济苍生和拯救黎民的传闻源远流长，已同广大信众的心理诉求水乳交融；龙王百签测运去厄、释疑解惑、警世劝人与精神慰藉的普世功能深入人心，受到四方百姓的无比信赖和敬仰崇拜。每年，陕、甘、晋、宁、蒙五省区域来朝觐的香客游人超过百万人次，尤其是农历六月十三日庙会期间，数以几十万计的善男信女蜂拥而至。从规模、人气，到效益、影响，堪称陕北之最，成为黄土高原上一道靓丽的风景线。    黑龙潭地灵人杰，凭借英才辈出的地脉、文脉和人脉资源，管委会以睿智的眼光，前瞻的视野和过人的胆识，闯出一条民办、民建、民管、民营的发展之路。靠自力更生修复古刹，举办盛会促发展；大手笔挖掘文化积淀，借古开今谱新篇；用庙会所得建校助学，慷慨解囊兴教育；开全国民办园林先河，再造生态大环境；以景区收入服务三农，造福乡梓创和谐。黑龙潭融宗教祭祀，修功积德，文化传承和科考修学于一身，集营造欢乐、观光游憩、生态沐浴与风情体验为一体，既是中外瞩目的道教文化圣地，又属国家级旅游景区，是一座经世致用、祈福养生、陶冶情操、休闲度假，能给所有宾客带来好运的精神家园。热忱欢迎中外宾客和善男信女来大美黑龙潭朝觐、祈福、休闲、度假！",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "63",
+        "name": "宗教文化",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全年",
+        "openTimeContent": "全天开放"
+      }
+    ],
+    "discountVoList": null,
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": [
+      "http://www.heilongtan.cn/main.asp"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "官方电话",
+        "telephone": "0912-3461001"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "黑龙潭景区",
+        "wxSubscription": "gh_86cfd7505e3a"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1476443837206368258",
+        "resourcesId": "1321381859937247234",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2-20201028172225.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2021-12-30 14:43:36",
+        "updateTime": "2021-12-30 14:43:36",
+        "createBy": "1293433954543640578",
+        "updateBy": "1293433954543640578",
+        "isDeleted": 0
+      },
+      {
+        "id": "1476443837206368259",
+        "resourcesId": "1321381859937247234",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/4-20201028172235.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2021-12-30 14:43:36",
+        "updateTime": "2021-12-30 14:43:36",
+        "createBy": "1293433954543640578",
+        "updateBy": "1293433954543640578",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455743348567547905",
+      "rankingId": null,
+      "indexInRanking": 5,
+      "rankingName": " 榆林必逛景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": null,
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "scenicInfoTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": 0,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": null,
+    "hotelArrivalDepartureTime": null,
+    "hotelChildrenBed": null,
+    "hotelPet": null,
+    "hotelBreakfast": null,
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

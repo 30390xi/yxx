@@ -1,7 +1,7 @@
 <view class="u-wrap page-box data-v-299e5889" style="{{'overflow:'+(showSortPop||showChoosePop?'hidden':'visible')+';'+'height:'+(showSortPop||showChoosePop?'100vh':'auto')+';'}}">
     <uni-navbar bind:__l="__l" class="data-v-299e5889" title="旅游出行" titleCenter="{{false}}" transparentFixedFontColor="{{titleColor}}" type="transparentFixed" vueId="75b9dd80-1"></uni-navbar>
     <view class="top-box data-v-299e5889">
-        <image class="bg-img data-v-299e5889" mode="aspectFill" src="https://eshopfile.zhiyousx.com/2024062118322195121.png" style="{{'opacity:'+1-scrollTop/scrollTopLimit+';'}}"></image>
+        <image class="bg-img data-v-299e5889" mode="aspectFill" src="/static/captured/bc26bc9b62d2c8f0.png" style="{{'opacity:'+1-scrollTop/scrollTopLimit+';'}}"></image>
         <view class="{{['search-box','data-v-299e5889',scrollTop>scrollTopLimit/2?'changeS':'']}}" style="{{'top:'+menuButtonInfo.bottom+10+'px'+';'}}">
             <text class="data-v-299e5889" wx:if="{{month}}">{{month+'月'}}</text>文旅消费福利·每月1日0点更新</view>
     </view>
@@ -48,6 +48,6 @@
         </view>
     </view>
     <view class="empty-box allcenter data-v-299e5889" wx:if="{{$root.g0}}">
-        <image mode class="data-v-299e5889" src="https://eshopfile.zhiyousx.com/2024061417153003821.png"></image>
+        <image mode class="data-v-299e5889" src="/static/captured/40d593177a674c2d.png"></image>
     </view>
 </view>

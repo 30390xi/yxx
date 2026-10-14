@@ -1,0 +1,39 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "1560472531726168065",
+      "resourcesId": "1322070699366703105",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/高新生态休闲1-20201030145846.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2022-08-19 11:43:38",
+      "updateTime": "2022-08-19 11:43:38",
+      "createBy": "1511977558009303041",
+      "updateBy": "1511977558009303041",
+      "isDeleted": 0
+    },
+    {
+      "id": "1560472531738750978",
+      "resourcesId": "1322070699366703105",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/高新生态休闲2-20201030145854.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 2,
+      "describe": null,
+      "createTime": "2022-08-19 11:43:38",
+      "updateTime": "2022-08-19 11:43:38",
+      "createBy": "1511977558009303041",
+      "updateBy": "1511977558009303041",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

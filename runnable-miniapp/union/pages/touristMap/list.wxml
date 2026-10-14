@@ -19,7 +19,7 @@
             </black>
         </view>
         <view class="empty-box allcenter data-v-82dc4a9c" wx:else>
-            <image mode class="data-v-82dc4a9c" src="https://eshopfile.zhiyousx.com/2024061417153003821.png"></image>
+            <image mode class="data-v-82dc4a9c" src="/static/captured/40d593177a674c2d.png"></image>
         </view>
     </view>
 </view>

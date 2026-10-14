@@ -1,0 +1,26 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1676884646115901441",
+    "contentId": "1676884645453201409",
+    "rankingName": "陕西美食人气排行榜",
+    "rankingClass": "2",
+    "rankingType": "2",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/168863764245932567.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": "人喜爱",
+    "rankingInclude": "个美食",
+    "rankingPersonalInfo": "我喜爱的美食",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#00924F",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": null,
+    "sumCount": "9",
+    "favoriteSum": "305",
+    "personalInfoValue": null
+  },
+  "msg": "成功",
+  "success": true
+}

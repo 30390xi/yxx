@@ -23,8 +23,8 @@
             </view>
             <slider activeColor="#957F66" backgroundColor="#515151" bindchange="__e" bindchanging="__e" blockSize="16" class="audio-slider data-v-3e5bb606" data-event-opts="{{[ [ 'changing',[ [ 'e0',['$event'] ] ] ],[ 'change',[ [ 'e1',['$event'] ] ] ] ]}}" max="{{duration}}" value="{{current}}"></slider>
         </view>
-        <image alt bindtap="__e" class="audio-but _img data-v-3e5bb606" data-event-opts="{{[ [ 'tap',[ ['play'] ] ] ]}}" hidden="{{!paused}}" src="https://eshopfile.zhiyousx.com/templeHeaven/mplay.png"></image>
-        <image alt bindtap="__e" class="audio-but _img data-v-3e5bb606" data-event-opts="{{[ [ 'tap',[ [ 'e2',['$event'] ] ] ] ]}}" hidden="{{!!paused}}" src="https://eshopfile.zhiyousx.com/templeHeaven/pause.png"></image>
+        <image alt bindtap="__e" class="audio-but _img data-v-3e5bb606" data-event-opts="{{[ [ 'tap',[ ['play'] ] ] ]}}" hidden="{{!paused}}" src="/static/captured/9c8bca9ae5a48957.png"></image>
+        <image alt bindtap="__e" class="audio-but _img data-v-3e5bb606" data-event-opts="{{[ [ 'tap',[ [ 'e2',['$event'] ] ] ] ]}}" hidden="{{!!paused}}" src="/static/captured/0cb975316749b223.png"></image>
     </view>
     <view class="content data-v-3e5bb606">
         <u-parse bind:__l="__l" class="data-v-3e5bb606 vue-ref" data-ref="article" html="{{langData.introduction}}" lazyLoad="{{true}}" style="text-align:justify;" tagStyle="{{parseStyle}}" vueId="74378b80-2" vueSlots="{{['default']}}">

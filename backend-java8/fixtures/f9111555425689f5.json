@@ -1,0 +1,388 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064595111955",
+    "scenicName": "西安事变纪念馆",
+    "tag": "中国近代历史上的一次伟大转折",
+    "level": -1,
+    "address": "西安市碑林区建国路69号",
+    "longitude": "108.967646",
+    "latitude": "34.257209",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#C6BCA8",
+    "centralColour": "#9C9286",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021061717150811489.jpg"
+    ],
+    "introduction": "<p>　　西安事变纪念馆是在&ldquo;西安事变&rdquo;重要旧址张学良将军公馆、杨虎城将军止园别墅基础上建立起来的专题性纪念馆，总占地面积9141平方米。1986年12月西安事变五十周年之际建成对外开放。先后被命名为全国首批百个爱国主义教育示范基地、陕西省和西安市青少年爱国主义教育基地、国防教育基地、红领巾实践教育基地和全国百个红色旅游经典景区之一。纪念馆制作了《历史的转折&mdash;&mdash;西安事变史实陈列》、《张学良公馆旧址复原陈列》等五大陈列，并于 2009年12月红色旅游景区建设全部竣工并对游客免费开放。改造后的西安事变纪念馆，在馆区环境、陈列展示和服务接待等方面都有很大提高，已成为西安红色旅游经典景区和全国爱国主义教育重要基地。</p>",
+    "introductionText": "　　西安事变纪念馆是在“西安事变”重要旧址张学良将军公馆、杨虎城将军止园别墅基础上建立起来的专题性纪念馆，总占地面积9141平方米。1986年12月西安事变五十周年之际建成对外开放。先后被命名为全国首批百个爱国主义教育示范基地、陕西省和西安市青少年爱国主义教育基地、国防教育基地、红领巾实践教育基地和全国百个红色旅游经典景区之一。纪念馆制作了《历史的转折——西安事变史实陈列》、《张学良公馆旧址复原陈列》等五大陈列，并于 2009年12月红色旅游景区建设全部竣工并对游客免费开放。改造后的西安事变纪念馆，在馆区环境、陈列展示和服务接待等方面都有很大提高，已成为西安红色旅游经典景区和全国爱国主义教育重要基地。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "18",
+        "name": "红色旅游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026361102337",
+        "contentId": "1418152026344325122",
+        "name": "全国红色旅游经典景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026461765634",
+        "contentId": "1418152026449182722",
+        "name": "全国爱国主义教育示范基地",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026524680194",
+        "contentId": "1418152026516291586",
+        "name": "国家二级博物馆",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": null,
+    "officialWebsite": [
+      " www.xasb.net"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "张学良将军公馆",
+        "telephone": "029-87418247"
+      },
+      {
+        "telephoneTitle": "杨虎城将军止园别墅",
+        "telephone": "029-87333971"
+      },
+      {
+        "telephoneTitle": "投诉电话",
+        "telephone": "029-87418265 "
+      },
+      {
+        "telephoneTitle": "传真",
+        "telephone": "029-87418265"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "1968594795491418113",
+        "outId": "1320579064595111955",
+        "type": 1,
+        "advertName": "西安事变",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021061816533299120.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p>　　西安事变，发生于1936年12月12日，所以又称\"双十二事变\"。1936年12月12日，为挽救民族危亡、劝谏蒋介石改变&ldquo;攘外必先安内&rdquo;的既定国策、停止内战一致抗日，张学良、杨虎城毅然在临潼对蒋介石实行&ldquo;兵谏&rdquo;，扣留来陕督战的蒋介石，发动了震惊中外的&ldquo;西安事变&rdquo;，亦称双十二事变。提出抗日救国八项政治主张，逼蒋介石抗日。1936年12月25日，在中共中央和周恩来等人的努力下，蒋介石接受&ldquo;停止内战、联共抗日&rdquo;等六项主张，为&ldquo;西安事变&rdquo;的和平解决奠定了基础。</p>\n<p style=\"text-align: center;\"><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061810153836585.jpg\" /></p>\n<p style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: left;\"><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061810160109150.jpg\" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;西安事变的和平解决为抗日民族统一战线的建立准备了必要的前提，成为由国内战争走向抗日民族战争的转折点。西安事变刚结束，毛主席就在中共中央政治局会议上说：&ldquo;我们在西安事变中实际地取得了领导地位&rdquo;。</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": "馆内看点",
+    "contentResourcesDtoList": [
+      {
+        "id": "1968594795449475073",
+        "resourcesId": "1405466542488961025",
+        "title": "西安事变视频",
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061811125442540.mp4",
+        "coverImage": "https://eshopfile.zhiyousx.com/2021061811143744072.jpg",
+        "videoId": null,
+        "resourcesType": 2,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2025-09-18 16:35:48",
+        "updateTime": "2025-09-18 16:35:48",
+        "createBy": "1951096714057809922",
+        "updateBy": "1951096714057809922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1968594795449475074",
+        "resourcesId": "1405466542488961025",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061718044826371.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2025-09-18 16:35:48",
+        "updateTime": "2025-09-18 16:35:48",
+        "createBy": "1951096714057809922",
+        "updateBy": "1951096714057809922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1968594795453669377",
+        "resourcesId": "1405466542488961025",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061814343538915.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2025-09-18 16:35:48",
+        "updateTime": "2025-09-18 16:35:48",
+        "createBy": "1951096714057809922",
+        "updateBy": "1951096714057809922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1968594795453669378",
+        "resourcesId": "1405466542488961025",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061718043635423.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2025-09-18 16:35:48",
+        "updateTime": "2025-09-18 16:35:48",
+        "createBy": "1951096714057809922",
+        "updateBy": "1951096714057809922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1968594795457863682",
+        "resourcesId": "1405466542488961025",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061814305709818.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2025-09-18 16:35:48",
+        "updateTime": "2025-09-18 16:35:48",
+        "createBy": "1951096714057809922",
+        "updateBy": "1951096714057809922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1968594795457863683",
+        "resourcesId": "1405466542488961025",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061814340936411.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2025-09-18 16:35:48",
+        "updateTime": "2025-09-18 16:35:48",
+        "createBy": "1951096714057809922",
+        "updateBy": "1951096714057809922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1968594795462057986",
+        "resourcesId": "1405466542488961025",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061814350981938.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2025-09-18 16:35:48",
+        "updateTime": "2025-09-18 16:35:48",
+        "createBy": "1951096714057809922",
+        "updateBy": "1951096714057809922",
+        "isDeleted": 0
+      },
+      {
+        "id": "1968594795462057987",
+        "resourcesId": "1405466542488961025",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061814502950255.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2025-09-18 16:35:48",
+        "updateTime": "2025-09-18 16:35:48",
+        "createBy": "1951096714057809922",
+        "updateBy": "1951096714057809922",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1574974899180212226",
+      "rankingId": null,
+      "indexInRanking": 32,
+      "rankingName": "陕西免费景区人气榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1439119981701840898",
+        "rankingId": "1439119983840935938",
+        "indexInRanking": null,
+        "rankingName": "陕西人气博物馆排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1680835374538088449",
+        "rankingId": "1680835375632801794",
+        "indexInRanking": null,
+        "rankingName": "陕西省热搜50强博物馆排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "1968594795474640898",
+        "scenicSpotId": "1320579064595111955",
+        "contentModuleName": "馆内看点",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1405744789290237954",
+            "type": 5,
+            "title": "张学良公馆",
+            "subtitle": "赤诚爱国无悔情",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021061815251395621.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1405733019125301249",
+            "type": 5,
+            "title": "杨虎城将军故居",
+            "subtitle": "身临其境，忆英雄风采",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021061815300473551.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1405797433853624321",
+            "type": 5,
+            "title": "陈列展览",
+            "subtitle": "再现史实",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021061815514253731.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": "",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

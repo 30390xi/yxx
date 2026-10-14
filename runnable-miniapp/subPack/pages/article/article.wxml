@@ -7,7 +7,7 @@
         <view class="name">{{articleData.title}}</view>
         <view class="auth-box" wx:if="{{articleData.author}}">
             <image mode="aspectFill" src="{{articleData.headImgUrl}}" wx:if="{{articleData.headImgUrl}}"></image>
-            <image mode="aspectFill" src="https://eshopfile.zhiyousx.com/headerImg.png" wx:else></image>
+            <image mode="aspectFill" src="/static/captured/d2cfa0dae7ca51bb.png" wx:else></image>
             <view>{{articleData.author}}</view>
         </view>
         <view class="main-box">

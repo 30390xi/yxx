@@ -9,14 +9,14 @@
                 <view bindtap="__e" class="{{['data-v-6426fc66','box-item',currentCardIndex===index&&'checked']}}" data-event-opts="{{[ [ 'tap',[ [ 'handleClickCard',[index] ] ] ] ]}}" id="{{'item'+index}}" style="{{'background-image:'+'url('+item.image+')'+';'+'background-position:'+'center center'+';'+'background-size:'+'cover'+';'}}" wx:for="{{swiperList}}" wx:key="index">
                     <view class="box-item-title data-v-6426fc66">{{item.title}}</view>
                     <view class="box-item-footer data-v-6426fc66">
-                        <image class="data-v-6426fc66" src="https://eshopfile.zhiyousx.com/2023102709472199404.png"></image>
+                        <image class="data-v-6426fc66" src="/static/captured/f489793c654aba56.png"></image>
                         <text class="font-24 data-v-6426fc66">持卡人</text>
                         <text class="font-26 data-v-6426fc66" wx:if="{{item.cardholderName}}">{{item.cardholderName}}</text>
                     </view>
                 </view>
                 <view bindtap="__e" class="add-item data-v-6426fc66" data-event-opts="{{[ [ 'tap',[ [ 'goHome',['$event'] ] ] ] ]}}">
                     <view class="add-item-content data-v-6426fc66">
-                        <image class="data-v-6426fc66" src="https://eshopfile.zhiyousx.com/2023103020440722066.png"></image>
+                        <image class="data-v-6426fc66" src="/static/captured/9ca85437541a162f.png"></image>
                         <view class="add-item-text data-v-6426fc66">再买一张</view>
                     </view>
                 </view>

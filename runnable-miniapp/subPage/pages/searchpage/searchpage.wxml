@@ -108,10 +108,10 @@
         <view class="box2 data-v-7267d736" wx:if="{{$root.g2>0}}">
             <view bindtap="__e" class="title-box data-v-7267d736" data-event-opts="{{[ [ 'tap',[ [ 'viewMore',['景区'] ] ] ] ]}}">
                 <view class="l data-v-7267d736">
-                    <image mode class="data-v-7267d736" src="https://eshopfile.zhiyousx.com/169147756465107978.png"></image>
+                    <image mode class="data-v-7267d736" src="/static/captured/7704fe9fd1fc83f3.png"></image>
                     <view class="data-v-7267d736">景区</view>
                 </view>
-                <image mode class="r data-v-7267d736" src="https://eshopfile.zhiyousx.com/2022082411212199760.png"></image>
+                <image mode class="r data-v-7267d736" src="/static/captured/e06aef0d0555d56a.png"></image>
             </view>
             <view class="list-box data-v-7267d736">
                 <view bindtap="__e" class="item data-v-7267d736" data-event-opts="{{[ [ 'tap',[ [ 'jumpDetailPage',['景区','$0','联想'],[ [ ['pageHotSpotArr','',index] ] ] ] ] ] ]}}" wx:for="{{pageHotSpotArr}}">
@@ -123,10 +123,10 @@
         <view class="box2 data-v-7267d736" wx:if="{{$root.g3>0}}">
             <view bindtap="__e" class="title-box data-v-7267d736" data-event-opts="{{[ [ 'tap',[ [ 'viewMore',['线路'] ] ] ] ]}}">
                 <view class="l data-v-7267d736">
-                    <image mode class="data-v-7267d736" src="https://eshopfile.zhiyousx.com/172239722803463474.png"></image>
+                    <image mode class="data-v-7267d736" src="/static/captured/8784e522a5735c71.png"></image>
                     <view class="data-v-7267d736">线路</view>
                 </view>
-                <image mode class="r data-v-7267d736" src="https://eshopfile.zhiyousx.com/2022082411212199760.png"></image>
+                <image mode class="r data-v-7267d736" src="/static/captured/e06aef0d0555d56a.png"></image>
             </view>
             <view class="list-box data-v-7267d736">
                 <view bindtap="__e" class="item data-v-7267d736" data-event-opts="{{[ [ 'tap',[ [ 'jumpDetailPage',['线路','$0','联想'],[ [ ['lineProductList','',index] ] ] ] ] ] ]}}" wx:for="{{lineProductList}}" wx:key="index">
@@ -138,10 +138,10 @@
         <view class="box2 data-v-7267d736" wx:if="{{$root.g4>0}}">
             <view bindtap="__e" class="title-box data-v-7267d736" data-event-opts="{{[ [ 'tap',[ [ 'viewMore',['酒店'] ] ] ] ]}}">
                 <view class="l data-v-7267d736">
-                    <image mode class="data-v-7267d736" src="https://eshopfile.zhiyousx.com/169147758739982551.png"></image>
+                    <image mode class="data-v-7267d736" src="/static/captured/f4f5f611f14a1dbd.png"></image>
                     <view class="data-v-7267d736">酒店</view>
                 </view>
-                <image mode class="r data-v-7267d736" src="https://eshopfile.zhiyousx.com/2022082411212199760.png"></image>
+                <image mode class="r data-v-7267d736" src="/static/captured/e06aef0d0555d56a.png"></image>
             </view>
             <view class="list-box data-v-7267d736">
                 <view bindtap="__e" class="item data-v-7267d736" data-event-opts="{{[ [ 'tap',[ [ 'jumpDetailPage',['景区','$0','联想'],[ [ ['hotelHotSpot','',index] ] ] ] ] ] ]}}" wx:for="{{hotelHotSpot}}">
@@ -153,10 +153,10 @@
         <view class="box2 data-v-7267d736" wx:if="{{$root.g5>0}}">
             <view bindtap="__e" class="title-box data-v-7267d736" data-event-opts="{{[ [ 'tap',[ [ 'viewMore',['美食'] ] ] ] ]}}">
                 <view class="l data-v-7267d736">
-                    <image mode class="data-v-7267d736" src="https://eshopfile.zhiyousx.com/169147760604071544.png"></image>
+                    <image mode class="data-v-7267d736" src="/static/captured/781835d490ee7dce.png"></image>
                     <view class="data-v-7267d736">美食</view>
                 </view>
-                <image mode class="r data-v-7267d736" src="https://eshopfile.zhiyousx.com/2022082411212199760.png"></image>
+                <image mode class="r data-v-7267d736" src="/static/captured/e06aef0d0555d56a.png"></image>
             </view>
             <view class="list-box data-v-7267d736">
                 <view bindtap="__e" class="item data-v-7267d736" data-event-opts="{{[ [ 'tap',[ [ 'jumpDetailPage',['美食','$0','联想'],[ [ ['restaurantHotSpot','',index] ] ] ] ] ] ]}}" wx:for="{{restaurantHotSpot}}">
@@ -168,10 +168,10 @@
         <view class="box2 data-v-7267d736" wx:if="{{$root.g6>0}}">
             <view bindtap="__e" class="title-box data-v-7267d736" data-event-opts="{{[ [ 'tap',[ [ 'viewMore',['玩乐'] ] ] ] ]}}">
                 <view class="l data-v-7267d736">
-                    <image mode class="data-v-7267d736" src="https://eshopfile.zhiyousx.com/169147762167728856.png"></image>
+                    <image mode class="data-v-7267d736" src="/static/captured/5dd243e65494a5f5.png"></image>
                     <view class="data-v-7267d736">玩乐</view>
                 </view>
-                <image mode class="r data-v-7267d736" src="https://eshopfile.zhiyousx.com/2022082411212199760.png"></image>
+                <image mode class="r data-v-7267d736" src="/static/captured/e06aef0d0555d56a.png"></image>
             </view>
             <view class="list-box data-v-7267d736">
                 <view bindtap="__e" class="item data-v-7267d736" data-event-opts="{{[ [ 'tap',[ [ 'jumpDetailPage',['玩乐','$0','联想'],[ [ ['entertainmentHotSpot','',index] ] ] ] ] ] ]}}" wx:for="{{entertainmentHotSpot}}">
@@ -183,10 +183,10 @@
         <view class="box2 data-v-7267d736" wx:if="{{$root.g7>0}}">
             <view bindtap="__e" class="title-box data-v-7267d736" data-event-opts="{{[ [ 'tap',[ [ 'viewMore',['商品'] ] ] ] ]}}">
                 <view class="l data-v-7267d736">
-                    <image mode class="data-v-7267d736" src="https://eshopfile.zhiyousx.com/169147763792934192.png"></image>
+                    <image mode class="data-v-7267d736" src="/static/captured/14bcd4ab8a743d51.png"></image>
                     <view class="data-v-7267d736">商品</view>
                 </view>
-                <image mode class="r data-v-7267d736" src="https://eshopfile.zhiyousx.com/2022082411212199760.png"></image>
+                <image mode class="r data-v-7267d736" src="/static/captured/e06aef0d0555d56a.png"></image>
             </view>
             <view class="list-box data-v-7267d736">
                 <view bindtap="__e" class="item data-v-7267d736" data-event-opts="{{[ [ 'tap',[ [ 'jumpDetailPage',['商品','$0','联想'],[ [ ['pageItemArr','',index] ] ] ] ] ] ]}}" wx:for="{{pageItemArr}}">
@@ -198,10 +198,10 @@
         <view class="box2 data-v-7267d736" wx:if="{{$root.g8>0}}">
             <view bindtap="__e" class="title-box data-v-7267d736" data-event-opts="{{[ [ 'tap',[ [ 'viewMore',['店铺'] ] ] ] ]}}">
                 <view class="l data-v-7267d736">
-                    <image mode class="data-v-7267d736" src="https://eshopfile.zhiyousx.com/172230747987402808.png"></image>
+                    <image mode class="data-v-7267d736" src="/static/captured/339e60f29296a666.png"></image>
                     <view class="data-v-7267d736">店铺</view>
                 </view>
-                <image mode class="r data-v-7267d736" src="https://eshopfile.zhiyousx.com/2022082411212199760.png"></image>
+                <image mode class="r data-v-7267d736" src="/static/captured/e06aef0d0555d56a.png"></image>
             </view>
             <view class="list-box data-v-7267d736">
                 <view bindtap="__e" class="item data-v-7267d736" data-event-opts="{{[ [ 'tap',[ [ 'jumpDetailPage',['店铺','$0','联想'],[ [ ['travelAgencyArr','travelAgencyId',item.travelAgencyId] ] ] ] ] ] ]}}" wx:for="{{travelAgencyArr}}" wx:for-index="__i0__" wx:key="travelAgencyId">
@@ -313,7 +313,7 @@
                         <view class="sub-name data-v-7267d736" wx:if="{{pageItemArr[0].itemSubTitle}}">{{pageItemArr[0].itemSubTitle}}</view>
                         <view class="yh-box data-v-7267d736">
                             <block wx:if="{{index<2}}" wx:for="{{pageItemArr[0].huoDongArr}}" wx:for-item="huoDongObj">
-                                <image class="miao-sha data-v-7267d736" src="https://eshopfile.zhiyousx.com/2021091318044528261.png" wx:if="{{huoDongObj.type=='秒杀'}}"></image>
+                                <image class="miao-sha data-v-7267d736" src="/static/captured/e8330379255b4136.png" wx:if="{{huoDongObj.type=='秒杀'}}"></image>
                                 <text class="itemRuter data-v-7267d736" wx:if="{{huoDongObj.type=='优惠券'}}">
                                     <block wx:if="{{pageItemArr[0].couponFullAmount==0}}">{{'领券减'+pageItemArr[0].couponAmount}}</block>
                                     <block wx:else>{{'满'+pageItemArr[0].couponFullAmount+'减'+pageItemArr[0].couponAmount}}</block>
@@ -366,13 +366,13 @@
                 <view class="box2 data-v-7267d736" wx:if="{{$root.g11>0}}">
                     <view bindtap="__e" class="title-box data-v-7267d736" data-event-opts="{{[ [ 'tap',[ [ 'viewMore',['景区'] ] ] ] ]}}">
                         <view class="l data-v-7267d736">
-                            <image mode class="data-v-7267d736" src="https://eshopfile.zhiyousx.com/169147756465107978.png"></image>
+                            <image mode class="data-v-7267d736" src="/static/captured/7704fe9fd1fc83f3.png"></image>
                             <view class="data-v-7267d736">
                                 <block wx:if="{{searchResultType==1}}">热门景区</block>
                                 <block wx:else>景区</block>
                             </view>
                         </view>
-                        <image mode class="r data-v-7267d736" src="https://eshopfile.zhiyousx.com/2022082411212199760.png"></image>
+                        <image mode class="r data-v-7267d736" src="/static/captured/e06aef0d0555d56a.png"></image>
                     </view>
                     <view class="list-box data-v-7267d736">
                         <view bindtap="__e" class="item data-v-7267d736" data-event-opts="{{[ [ 'tap',[ [ 'jumpDetailPage',['景区','$0'],[ [ ['pageHotSpotArr','',index] ] ] ] ] ] ]}}" wx:for="{{pageHotSpotArr}}">
@@ -386,10 +386,10 @@
                 <view class="box2 data-v-7267d736" wx:if="{{$root.g12>0}}">
                     <view bindtap="__e" class="title-box data-v-7267d736" data-event-opts="{{[ [ 'tap',[ [ 'viewMore',['线路'] ] ] ] ]}}">
                         <view class="l data-v-7267d736">
-                            <image mode class="data-v-7267d736" src="https://eshopfile.zhiyousx.com/172239722803463474.png"></image>
+                            <image mode class="data-v-7267d736" src="/static/captured/8784e522a5735c71.png"></image>
                             <view class="data-v-7267d736">线路</view>
                         </view>
-                        <image mode class="r data-v-7267d736" src="https://eshopfile.zhiyousx.com/2022082411212199760.png"></image>
+                        <image mode class="r data-v-7267d736" src="/static/captured/e06aef0d0555d56a.png"></image>
                     </view>
                     <view class="list-box lineList data-v-7267d736">
                         <view bindtap="__e" class="spot data-v-7267d736" data-event-opts="{{[ [ 'tap',[ [ 'jumpDetailPage',['线路','$0'],[ [ ['lineProductList','',index] ] ] ] ] ] ]}}" wx:for="{{$root.l1}}" wx:key="index">
@@ -420,10 +420,10 @@
                 <view class="box2 data-v-7267d736" wx:if="{{$root.g14>0}}">
                     <view bindtap="__e" class="title-box data-v-7267d736" data-event-opts="{{[ [ 'tap',[ [ 'viewMore',['酒店'] ] ] ] ]}}">
                         <view class="l data-v-7267d736">
-                            <image mode class="data-v-7267d736" src="https://eshopfile.zhiyousx.com/169147758739982551.png"></image>
+                            <image mode class="data-v-7267d736" src="/static/captured/f4f5f611f14a1dbd.png"></image>
                             <view class="data-v-7267d736">酒店</view>
                         </view>
-                        <image mode class="r data-v-7267d736" src="https://eshopfile.zhiyousx.com/2022082411212199760.png"></image>
+                        <image mode class="r data-v-7267d736" src="/static/captured/e06aef0d0555d56a.png"></image>
                     </view>
                     <view class="list-box data-v-7267d736">
                         <view bindtap="__e" class="item data-v-7267d736" data-event-opts="{{[ [ 'tap',[ [ 'jumpDetailPage',['酒店','$0'],[ [ ['hotelHotSpot','',index] ] ] ] ] ] ]}}" wx:for="{{hotelHotSpot}}">
@@ -437,10 +437,10 @@
                 <view class="box2 data-v-7267d736" wx:if="{{$root.g15>0}}">
                     <view bindtap="__e" class="title-box data-v-7267d736" data-event-opts="{{[ [ 'tap',[ [ 'viewMore',['美食'] ] ] ] ]}}">
                         <view class="l data-v-7267d736">
-                            <image mode class="data-v-7267d736" src="https://eshopfile.zhiyousx.com/169147760604071544.png"></image>
+                            <image mode class="data-v-7267d736" src="/static/captured/781835d490ee7dce.png"></image>
                             <view class="data-v-7267d736">美食</view>
                         </view>
-                        <image mode class="r data-v-7267d736" src="https://eshopfile.zhiyousx.com/2022082411212199760.png"></image>
+                        <image mode class="r data-v-7267d736" src="/static/captured/e06aef0d0555d56a.png"></image>
                     </view>
                     <view class="list-box data-v-7267d736">
                         <view bindtap="__e" class="item data-v-7267d736" data-event-opts="{{[ [ 'tap',[ [ 'jumpDetailPage',['美食','$0'],[ [ ['restaurantHotSpot','',index] ] ] ] ] ] ]}}" wx:for="{{restaurantHotSpot}}">
@@ -454,10 +454,10 @@
                 <view class="box2 data-v-7267d736" wx:if="{{$root.g16>0}}">
                     <view bindtap="__e" class="title-box data-v-7267d736" data-event-opts="{{[ [ 'tap',[ [ 'viewMore',['玩乐'] ] ] ] ]}}">
                         <view class="l data-v-7267d736">
-                            <image mode class="data-v-7267d736" src="https://eshopfile.zhiyousx.com/169147762167728856.png"></image>
+                            <image mode class="data-v-7267d736" src="/static/captured/5dd243e65494a5f5.png"></image>
                             <view class="data-v-7267d736">玩乐</view>
                         </view>
-                        <image mode class="r data-v-7267d736" src="https://eshopfile.zhiyousx.com/2022082411212199760.png"></image>
+                        <image mode class="r data-v-7267d736" src="/static/captured/e06aef0d0555d56a.png"></image>
                     </view>
                     <view class="list-box data-v-7267d736">
                         <view bindtap="__e" class="item data-v-7267d736" data-event-opts="{{[ [ 'tap',[ [ 'jumpDetailPage',['玩乐','$0'],[ [ ['entertainmentHotSpot','',index] ] ] ] ] ] ]}}" wx:for="{{entertainmentHotSpot}}">
@@ -471,13 +471,13 @@
                 <view class="box2 data-v-7267d736" wx:if="{{$root.g17>0}}">
                     <view bindtap="__e" class="title-box data-v-7267d736" data-event-opts="{{[ [ 'tap',[ [ 'viewMore',['商品'] ] ] ] ]}}">
                         <view class="l data-v-7267d736">
-                            <image mode class="data-v-7267d736" src="https://eshopfile.zhiyousx.com/169147763792934192.png"></image>
+                            <image mode class="data-v-7267d736" src="/static/captured/14bcd4ab8a743d51.png"></image>
                             <view class="data-v-7267d736">
                                 <block wx:if="{{searchResultType==1}}">热销商品</block>
                                 <block wx:else>商品</block>
                             </view>
                         </view>
-                        <image mode class="r data-v-7267d736" src="https://eshopfile.zhiyousx.com/2022082411212199760.png"></image>
+                        <image mode class="r data-v-7267d736" src="/static/captured/e06aef0d0555d56a.png"></image>
                     </view>
                     <view class="list-box data-v-7267d736">
                         <view bindtap="__e" class="item data-v-7267d736" data-event-opts="{{[ [ 'tap',[ [ 'jumpDetailPage',['商品','$0'],[ [ ['pageItemArr','',index] ] ] ] ] ] ]}}" wx:for="{{pageItemArr}}">
@@ -491,10 +491,10 @@
                 <view class="box2 data-v-7267d736" wx:if="{{$root.g18>0}}">
                     <view bindtap="__e" class="title-box data-v-7267d736" data-event-opts="{{[ [ 'tap',[ [ 'viewMore',['店铺'] ] ] ] ]}}">
                         <view class="l data-v-7267d736">
-                            <image mode class="data-v-7267d736" src="https://eshopfile.zhiyousx.com/172230747987402808.png"></image>
+                            <image mode class="data-v-7267d736" src="/static/captured/339e60f29296a666.png"></image>
                             <view class="data-v-7267d736">店铺</view>
                         </view>
-                        <image mode class="r data-v-7267d736" src="https://eshopfile.zhiyousx.com/2022082411212199760.png"></image>
+                        <image mode class="r data-v-7267d736" src="/static/captured/e06aef0d0555d56a.png"></image>
                     </view>
                     <view class="list-box data-v-7267d736">
                         <view bindtap="__e" class="item data-v-7267d736" data-event-opts="{{[ [ 'tap',[ [ 'jumpDetailPage',['店铺','$0'],[ [ ['travelAgencyArr','',index] ] ] ] ] ] ]}}" wx:for="{{travelAgencyArr}}" wx:key="index">
@@ -610,7 +610,7 @@
                         <view class="sub-name data-v-7267d736" wx:if="{{item.itemSubTitle}}">{{item.itemSubTitle}}</view>
                         <view class="yh-box data-v-7267d736">
                             <block wx:if="{{index<2}}" wx:for="{{item.huoDongArr}}" wx:for-item="huoDongObj">
-                                <image class="miao-sha data-v-7267d736" src="https://eshopfile.zhiyousx.com/2021091318044528261.png" wx:if="{{huoDongObj.type=='秒杀'}}"></image>
+                                <image class="miao-sha data-v-7267d736" src="/static/captured/e8330379255b4136.png" wx:if="{{huoDongObj.type=='秒杀'}}"></image>
                                 <text class="itemRuter data-v-7267d736" wx:if="{{huoDongObj.type=='优惠券'}}">
                                     <block wx:if="{{item.couponFullAmount==0}}">{{'领券减'+item.couponAmount}}</block>
                                     <block wx:else>{{'满'+item.couponFullAmount+'减'+item.couponAmount}}</block>

@@ -34,8 +34,8 @@
                     <view class="cou-rbox data-v-679ff233">
                         <view bindtap="__e" class="cou-btn data-v-679ff233" data-event-opts="{{[ [ 'tap',[ [ 'jumpUse',['$0'],[ [ ['orderList','',index] ] ] ] ] ] ]}}">立即使用</view>
                         <view class="data-v-679ff233" style="width:120rpx;text-align:right;">
-                            <image bindtap="__e" class="showbtn data-v-679ff233" data-event-opts="{{[ [ 'tap',[ [ 'showList',['$0'],[ [ ['orderList','',index,'userCouponId'] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/170065269243227630.png" wx:if="{{item.$orig.isShow}}"></image>
-                            <image bindtap="__e" class="hidebtn data-v-679ff233" data-event-opts="{{[ [ 'tap',[ [ 'showList',['$0'],[ [ ['orderList','',index,'userCouponId'] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/170065270890750173.png" wx:else></image>
+                            <image bindtap="__e" class="showbtn data-v-679ff233" data-event-opts="{{[ [ 'tap',[ [ 'showList',['$0'],[ [ ['orderList','',index,'userCouponId'] ] ] ] ] ] ]}}" src="/static/captured/5c0bbe84d6481ff0.png" wx:if="{{item.$orig.isShow}}"></image>
+                            <image bindtap="__e" class="hidebtn data-v-679ff233" data-event-opts="{{[ [ 'tap',[ [ 'showList',['$0'],[ [ ['orderList','',index,'userCouponId'] ] ] ] ] ] ]}}" src="/static/captured/1b21e1ccae4a1a6a.png" wx:else></image>
                         </view>
                     </view>
                 </view>
@@ -66,10 +66,10 @@
                 </view>
                 <view class="cou-r data-v-679ff233" style="padding:0;">
                     <view class="cou-rbox data-v-679ff233" style="padding:0 30rpx 0 0;text-align:right;">
-                        <image class="rbox-img data-v-679ff233" src="https://eshopfile.zhiyousx.com/2023102620395751612.png"></image>
+                        <image class="rbox-img data-v-679ff233" src="/static/captured/ff3636b1e4ddc90c.png"></image>
                         <view class="data-v-679ff233" style="width:120rpx;text-align:right;">
-                            <image bindtap="__e" class="showbtn data-v-679ff233" data-event-opts="{{[ [ 'tap',[ [ 'showList',['$0'],[ [ ['orderList','',index,'userCouponId'] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/170065277001478042.png" style="margin-top:5rpx;" wx:if="{{item.$orig.isShow}}"></image>
-                            <image bindtap="__e" class="hidebtn data-v-679ff233" data-event-opts="{{[ [ 'tap',[ [ 'showList',['$0'],[ [ ['orderList','',index,'userCouponId'] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/170065280012053856.png" style="margin-top:5rpx;" wx:else></image>
+                            <image bindtap="__e" class="showbtn data-v-679ff233" data-event-opts="{{[ [ 'tap',[ [ 'showList',['$0'],[ [ ['orderList','',index,'userCouponId'] ] ] ] ] ] ]}}" src="/static/captured/a3c8c5e2dad250f5.png" style="margin-top:5rpx;" wx:if="{{item.$orig.isShow}}"></image>
+                            <image bindtap="__e" class="hidebtn data-v-679ff233" data-event-opts="{{[ [ 'tap',[ [ 'showList',['$0'],[ [ ['orderList','',index,'userCouponId'] ] ] ] ] ] ]}}" src="/static/captured/1dee16426efe3020.png" style="margin-top:5rpx;" wx:else></image>
                         </view>
                     </view>
                 </view>
@@ -100,10 +100,10 @@
                 </view>
                 <view class="cou-r data-v-679ff233" style="padding:0;text-align:right;">
                     <view class="cou-rbox data-v-679ff233" style="padding:0 30rpx 0 0;">
-                        <image class="rbox-img data-v-679ff233" src="https://eshopfile.zhiyousx.com/2023102620405108419.png"></image>
+                        <image class="rbox-img data-v-679ff233" src="/static/captured/bad5003b2c2e4772.png"></image>
                         <view class="data-v-679ff233" style="width:120rpx;text-align:right;">
-                            <image bindtap="__e" class="showbtn data-v-679ff233" data-event-opts="{{[ [ 'tap',[ [ 'showList',['$0'],[ [ ['orderList','',index,'userCouponId'] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/170065277001478042.png" style="margin-top:5rpx;" wx:if="{{item.$orig.isShow}}"></image>
-                            <image bindtap="__e" class="hidebtn data-v-679ff233" data-event-opts="{{[ [ 'tap',[ [ 'showList',['$0'],[ [ ['orderList','',index,'userCouponId'] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/170065280012053856.png" style="margin-top:5rpx;" wx:else></image>
+                            <image bindtap="__e" class="showbtn data-v-679ff233" data-event-opts="{{[ [ 'tap',[ [ 'showList',['$0'],[ [ ['orderList','',index,'userCouponId'] ] ] ] ] ] ]}}" src="/static/captured/a3c8c5e2dad250f5.png" style="margin-top:5rpx;" wx:if="{{item.$orig.isShow}}"></image>
+                            <image bindtap="__e" class="hidebtn data-v-679ff233" data-event-opts="{{[ [ 'tap',[ [ 'showList',['$0'],[ [ ['orderList','',index,'userCouponId'] ] ] ] ] ] ]}}" src="/static/captured/1dee16426efe3020.png" style="margin-top:5rpx;" wx:else></image>
                         </view>
                     </view>
                 </view>
@@ -113,7 +113,7 @@
             </view>
         </view>
     </view>
-    <empty-state bind:__l="__l" class="data-v-679ff233" imgUrl="https://eshopfile.zhiyousx.com/noCoupon@2x.png" text="暂无优惠券" vueId="4774cbdc-1" wx:if="{{showNull}}"></empty-state>
+    <empty-state bind:__l="__l" class="data-v-679ff233" imgUrl="/static/captured/b5e45e31eb4470d8.png" text="暂无优惠券" vueId="4774cbdc-1" wx:if="{{showNull}}"></empty-state>
     <view bindtap="__e" class="footer data-v-679ff233" data-event-opts="{{[ [ 'tap',[ [ 'bindCoupon',['$event'] ] ] ] ]}}">
         <view class="item data-v-679ff233">
             <image mode class="icon2 data-v-679ff233" src="../../static/images/bindCoupon.png"></image>

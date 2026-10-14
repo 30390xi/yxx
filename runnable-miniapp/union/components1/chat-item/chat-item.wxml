@@ -15,10 +15,10 @@
                                 </view>
                             </view>
                             <view bindtap="__e" class="travelBtn" data-event-opts="{{[ [ 'tap',[ [ 'resetTravel',['$event'] ] ] ] ]}}" wx:if="{{item.redirectContent}}">
-                                <image class="ai" src="https://eshopfile.zhiyousx.com/175153136103574217.png"></image>旅行搭子<image class="icon" src="https://eshopfile.zhiyousx.com/175153148262435174.png"></image>
+                                <image class="ai" src="/static/captured/3634eece59ace1cf.png"></image>旅行搭子<image class="icon" src="/static/captured/f513113c34db57d3.png"></image>
                             </view>
                             <view bindtap="__e" class="travelBtn" data-event-opts="{{[ [ 'tap',[ [ 'changePlan',['$event'] ] ] ] ]}}" wx:if="{{item.changeAnswer}}">
-                                <image class="ai" src="https://eshopfile.zhiyousx.com/175153136103574217.png"></image>重新规划<image class="icon" src="https://eshopfile.zhiyousx.com/175153148262435174.png"></image>
+                                <image class="ai" src="/static/captured/3634eece59ace1cf.png"></image>重新规划<image class="icon" src="/static/captured/f513113c34db57d3.png"></image>
                             </view>
                             <view style="width:100%;margin-top:30rpx;" wx:if="{{$root.g0}}">
                                 <scroll-view class="card-item" scrollX="true">
@@ -49,12 +49,12 @@
                             <view class="chat-text-expand" wx:if="{{$root.g5}}">
                                 <view class="guide">
                                     <view class="left">
-                                        <image class="headImg" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173510683638304664.png"></image>你可以试着问我<image class="finger" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173373501152490600.png"></image>：</view>
+                                        <image class="headImg" lazyLoad="false" mode="aspectFill" src="/static/captured/e64f9f302e33e7d8.png"></image>你可以试着问我<image class="finger" lazyLoad="false" mode="aspectFill" src="/static/captured/a7451ec7684e2e09.png"></image>：</view>
                                 </view>
                                 <view class="questionBox" wx:if="{{$root.g6}}">
                                     <view bindtap="__e" class="item" data-event-opts="{{[ [ 'tap',[ [ 'askAgain',['$0'],[ [ ['item.divergenceProblem','',index] ] ] ] ] ] ]}}" style="{{'margin-bottom:'+(index!=it.g7-1?'20rpx':'0')+';'}}" wx:for="{{$root.l4}}" wx:for-item="it" wx:key="index">
                                         <text class="text-desc">{{it.$orig}}</text>
-                                        <image lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173373722521006570.png"></image>
+                                        <image lazyLoad="false" mode="aspectFill" src="/static/captured/23f95327bbd56874.png"></image>
                                     </view>
                                 </view>
                             </view>

@@ -24,7 +24,7 @@
                         <view class="tourist-item data-v-4a606c6a" wx:for="{{item.l0}}" wx:for-index="p" wx:for-item="o" wx:key="p">
                             <view catchtap="__e" class="closeBox data-v-4a606c6a" data-event-opts="{{[ [ 'tap',[ [ 'delTourist',[p,index,num] ] ] ] ]}}">
                                 <view class="close data-v-4a606c6a">
-                                    <image class="data-v-4a606c6a" src="https://eshopfile.zhiyousx.com/169440568137929061.png"></image>
+                                    <image class="data-v-4a606c6a" src="/static/captured/e45cd435a5d0bf06.png"></image>
                                 </view>
                             </view>
                             <view class="tourist-info data-v-4a606c6a">
@@ -33,11 +33,11 @@
                             </view>
                         </view>
                     </view>
-                    <image mode class="user-edit data-v-4a606c6a" src="https://eshopfile.zhiyousx.com/169415863023853994.png"></image>
+                    <image mode class="user-edit data-v-4a606c6a" src="/static/captured/adbcc7c8acbd7bac.png"></image>
                 </view>
                 <view bindtap="__e" class="tourist data-v-4a606c6a" data-event-opts="{{[ [ 'tap',[ [ 'addTourist',['$0',index,num,'$1','$2'],[ [ ['orderingInfo.spotList','',index],['itemList','',num,'touristNum'] ],[ ['orderingInfo.spotList','',index],['itemList','',num,'isCard'] ],[ ['orderingInfo.spotList','',index],['itemList','',num,'realCardTypeCodes'] ] ] ] ] ] ]}}" wx:if="{{item.g0}}">
                     <view class="addicon data-v-4a606c6a">
-                        <image class="data-v-4a606c6a" mode="aspectFill" src="https://eshopfile.zhiyousx.com/169440546467537896.png"></image>
+                        <image class="data-v-4a606c6a" mode="aspectFill" src="/static/captured/b76cf7bf36429052.png"></image>
                     </view>
                     <view class="remark data-v-4a606c6a" wx:if="{{!item.g1}}">{{'需'+(commonUsedTouristList&&commonUsedTouristList[0]?'选择':'填写')+item.$orig.touristNum+'位游客信息'}}</view>
                     <block wx:else>
@@ -49,7 +49,7 @@
         <view class="tourist-phone order-item data-v-4a606c6a">
             <view class="title data-v-4a606c6a">联系手机</view>
             <view class="row-box data-v-4a606c6a">
-                <image class="img data-v-4a606c6a" src="https://eshopfile.zhiyousx.com/169353341821059000.png"></image>
+                <image class="img data-v-4a606c6a" src="/static/captured/329792fff09ab446.png"></image>
                 <view class="value data-v-4a606c6a">
                     <u-input bind:__l="__l" bind:input="__e" border="{{border}}" class="data-v-4a606c6a" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','touristPhone','$event',[] ] ] ] ] ]}}" placeholder="用于接收确认短信" placeholderStyle="color:#777" type="number" value="{{touristPhone}}" vueId="12e1bff0-2"></u-input>
                 </view>
@@ -76,15 +76,15 @@
                     <view class="model-name data-v-4a606c6a" wx:if="{{!modelType}}">{{''+$root.m2+''}}</view>
                     <view class="model-name data-v-4a606c6a" wx:if="{{modelType==1}}">新增游客</view>
                     <view class="model-name data-v-4a606c6a" wx:if="{{modelType==2}}">编辑游客</view>
-                    <image bindtap="__e" class="close data-v-4a606c6a" data-event-opts="{{[ [ 'tap',[ ['closePassenger'] ] ] ]}}" src="https://eshopfile.zhiyousx.com/169345070139905990.png"></image>
+                    <image bindtap="__e" class="close data-v-4a606c6a" data-event-opts="{{[ [ 'tap',[ ['closePassenger'] ] ] ]}}" src="/static/captured/6bf5cf8e7436d9c2.png"></image>
                 </view>
                 <view bindtap="__e" class="addContacts data-v-4a606c6a" data-event-opts="{{[ [ 'tap',[ [ 'addPassenger',['$event'] ] ] ] ]}}" wx:if="{{!modelType}}">+ 新增联系人</view>
                 <view class="data-v-4a606c6a" wx:if="{{!modelType}}">
                     <scroll-view class="passenger-box-popup data-v-4a606c6a" scrollY="true">
                         <view class="user-box data-v-4a606c6a" wx:for="{{$root.l3}}" wx:key="index">
                             <view bindtap="__e" class="info-box data-v-4a606c6a" data-event-opts="{{[ [ 'tap',[ [ 'changeTourist',['$0',index],[ [ ['commonUsedTouristList','',index] ] ] ] ] ] ]}}">
-                                <image mode class="user-change data-v-4a606c6a" src="https://eshopfile.zhiyousx.com/169345574106635019.png" wx:if="{{item.m3}}"></image>
-                                <image mode class="user-change data-v-4a606c6a" src="https://eshopfile.zhiyousx.com/169345576395787642.png" wx:else></image>
+                                <image mode class="user-change data-v-4a606c6a" src="/static/captured/3947c01b48146351.png" wx:if="{{item.m3}}"></image>
+                                <image mode class="user-change data-v-4a606c6a" src="/static/captured/bee3789d50c080ab.png" wx:else></image>
                                 <view class="{{['user-info','data-v-4a606c6a',!item.g4?'dis':'']}}">
                                     <view class="name data-v-4a606c6a">{{item.$orig.name}}</view>
                                     <view class="u-phone data-v-4a606c6a" wx:if="{{item.$orig.phone}}">
@@ -102,7 +102,7 @@
                                     <view class="tips data-v-4a606c6a" wx:if="{{activeIsCard&&!item.$orig.idCarNo}}">请补充证件信息</view>
                                 </view>
                             </view>
-                            <image mode bindtap="__e" class="user_edit data-v-4a606c6a" data-event-opts="{{[ [ 'tap',[ [ 'editPassenger',['$0',0],[ [ ['commonUsedTouristList','',index] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/169415900438889645.png"></image>
+                            <image mode bindtap="__e" class="user_edit data-v-4a606c6a" data-event-opts="{{[ [ 'tap',[ [ 'editPassenger',['$0',0],[ [ ['commonUsedTouristList','',index] ] ] ] ] ] ]}}" src="/static/captured/37d4cf68722450ef.png"></image>
                         </view>
                     </scroll-view>
                 </view>

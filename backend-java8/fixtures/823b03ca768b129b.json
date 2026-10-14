@@ -1,0 +1,86 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1770007448817209346",
+    "contentId": "1770007448808820737",
+    "rankingName": "汉中必吃特色鱼庄",
+    "rankingClass": "2",
+    "rankingType": "3",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/171083760670585092.jpg",
+    "rankingDescribe": "在汉中岂有不吃鱼的道理？有一首民歌这样唱道：“上河涨水下河混，河边站满打鱼人。打得大鱼长街卖，打得小鱼下酒喝。”汉中人爱吃鱼，无鱼不成宴，早已成为公认的习俗。汉中以鱼为食材的料理，结合了陕菜的酸爽、川菜的麻辣，闻者垂涎欲滴、尝者叫好不迭。\n",
+    "rankingTotalUserData": "人喜爱",
+    "rankingInclude": "个目的地",
+    "rankingPersonalInfo": "我去过的目的地",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#FBAB3C",
+    "tagUrl": null,
+    "travelMapFlag": null,
+    "type": "7",
+    "rankingItemList": [
+      {
+        "originId": "1770005965744869377",
+        "originType": "3",
+        "originName": "三味渔府（西环路店）",
+        "originSubtitleName": "特色鱼火锅",
+        "originUrl": "https://eshopfile.zhiyousx.com/2024031917555899666.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/171083680969592152.jpg",
+          "https://eshopfile.zhiyousx.com/171083680871590445.jpg",
+          "https://eshopfile.zhiyousx.com/171083680815411353.jpg",
+          "https://eshopfile.zhiyousx.com/177287569934858859.png",
+          "https://eshopfile.zhiyousx.com/177287569988999385.png"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1769991591407841281",
+        "originType": "3",
+        "originName": "堰坝鱼庄（总店）",
+        "originSubtitleName": "当地人认可的吃鱼好去处",
+        "originUrl": "https://eshopfile.zhiyousx.com/2024031915364837559.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/171083383070147759.jpg",
+          "https://eshopfile.zhiyousx.com/171083432095329237.jpg",
+          "https://eshopfile.zhiyousx.com/171083433956199065.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1769984898900922370",
+        "originType": "3",
+        "originName": "胡氏银河鲜鱼庄（莲湖路店）",
+        "originSubtitleName": "河庄鲜鱼",
+        "originUrl": "https://eshopfile.zhiyousx.com/2024031915094699827.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/171083269481724271.jpg",
+          "https://eshopfile.zhiyousx.com/171083269519959893.jpg",
+          "https://eshopfile.zhiyousx.com/171083269559865025.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "3",
+    "favoriteSum": null,
+    "personalInfoValue": "0/3"
+  },
+  "msg": "成功",
+  "success": true
+}

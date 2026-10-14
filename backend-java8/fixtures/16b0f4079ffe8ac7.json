@@ -1,0 +1,82 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1429736824007405569",
+    "contentId": "1429736824003211265",
+    "rankingName": "西安博物院人气榜",
+    "rankingClass": "0",
+    "rankingType": "2",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/162994494788626593.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": null,
+    "rankingInclude": "个文物",
+    "rankingPersonalInfo": "我参观过的文物",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#3C1717",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1430362225704546306",
+        "originType": "2",
+        "originName": "八瓣仕女狩猎银杯",
+        "originSubtitleName": "一个杯子闪烁大唐盛世的光辉",
+        "originUrl": "https://eshopfile.zhiyousx.com/162985960359276794.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/162985955692549293.png",
+          "https://eshopfile.zhiyousx.com/162985956483775333.jpg",
+          "https://eshopfile.zhiyousx.com/162985957438891350.png",
+          "https://eshopfile.zhiyousx.com/162985958215046568.png"
+        ],
+        "sort": "10",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1430350834289455106",
+        "originType": "2",
+        "originName": "白瓷马蹬壶",
+        "originSubtitleName": "马背上的杯子",
+        "originUrl": "https://eshopfile.zhiyousx.com/162985707438782021.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/162985718259408845.jpg"
+        ],
+        "sort": "11",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "1",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1430380040650076161",
+        "originType": "2",
+        "originName": "折枝团花纹银渣斗",
+        "originSubtitleName": "盛了半个盛唐的渣斗",
+        "originUrl": "https://eshopfile.zhiyousx.com/162986303892256892.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/162986365929564436.png",
+          "https://eshopfile.zhiyousx.com/163056634209094958.png"
+        ],
+        "sort": "12",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "13",
+    "favoriteSum": "7",
+    "personalInfoValue": "0/13"
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,26 @@
+<template>
+<view class="big">
+    <view class="new">
+        <view class="yuan"></view>
+        <view class="current">当前版本：V9.04</view>
+        <view class="news">已是最新版本</view>
+    </view>
+    <view class="bottombox">冠字号</view>
+</view>
+
+</template>
+
+<script>
+// Reconstructed Vue Component
+const t = uni;
+export default {
+        data: function() {
+          return {}
+        }
+      };
+</script>
+
+<style scoped>
+/* Reconstructed page stylesheet */
+.big{background-color:#fff;height:100vh;width:100%}.bottombox{bottom:0;color:#adadad;font-family:PingFang-SC-Medium;font-size:28rpx;margin:30rpx 0;position:fixed;text-align:center;width:100%}.new{left:0;margin:190rpx auto auto;position:fixed;right:0;text-align:center;width:500rpx}.new .yuan{background-color:#f3f3f3;border-radius:50%;height:140rpx;margin:0 auto 22rpx;width:140rpx}.new .current{color:#adadad;font-family:PingFang-SC-Medium;font-size:26rpx;line-height:26rpx;margin:10rpx 0}.new .news{color:#333;font-family:PingFang-SC-Medium;font-size:24rpx;line-height:24rpx;margin:10rpx 0}
+</style>

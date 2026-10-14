@@ -40,7 +40,7 @@
                 <view class="title-box data-v-19ae887a" wx:if="{{hasSsfw}}">{{detailObj.facilitiesServicesTitle||'设施服务'}}</view>
                 <view class="content-box data-v-19ae887a" wx:if="{{detailObj.hotelFacilitiesServicesSysTagVo.parkingTagList&&detailObj.hotelFacilitiesServicesSysTagVo.parkingTagList[0]||detailObj.hotelAdditionalExplainVo.parkingAdditionalExplainVoList&&detailObj.hotelAdditionalExplainVo.parkingAdditionalExplainVoList[0]}}">
                     <view class="content-title-box data-v-19ae887a">
-                        <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082510313514843.png"></image>停车场</view>
+                        <image mode class="data-v-19ae887a" src="/static/captured/6ca9cddb3f3a9722.png"></image>停车场</view>
                     <view class="icon-box data-v-19ae887a">
                         <view class="item data-v-19ae887a" wx:for="{{detailObj.hotelFacilitiesServicesSysTagVo.parkingTagList}}" wx:for-index="__i1__">
                             <image mode class="data-v-19ae887a" src="{{item.tagUrl}}"></image>
@@ -61,7 +61,7 @@
                 </view>
                 <view class="content-box data-v-19ae887a" wx:if="{{detailObj.hotelFacilitiesServicesSysTagVo.trafficTagList&&detailObj.hotelFacilitiesServicesSysTagVo.trafficTagList[0]||detailObj.hotelAdditionalExplainVo.trafficAdditionalExplainVoList&&detailObj.hotelAdditionalExplainVo.trafficAdditionalExplainVoList[0]}}">
                     <view class="content-title-box data-v-19ae887a">
-                        <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082316535478170.png"></image>交通服务</view>
+                        <image mode class="data-v-19ae887a" src="/static/captured/caab2a3780d62611.png"></image>交通服务</view>
                     <view class="icon-box data-v-19ae887a">
                         <view class="item data-v-19ae887a" wx:for="{{detailObj.hotelFacilitiesServicesSysTagVo.trafficTagList}}" wx:for-index="__i4__">
                             <image mode class="data-v-19ae887a" src="{{item.tagUrl}}"></image>
@@ -82,7 +82,7 @@
                 </view>
                 <view class="content-box data-v-19ae887a" wx:if="{{detailObj.hotelFacilitiesServicesSysTagVo.recreationFacilitiesTagList&&detailObj.hotelFacilitiesServicesSysTagVo.recreationFacilitiesTagList[0]||detailObj.hotelAdditionalExplainVo.recreationFacilitiesAdditionalExplainVoList&&detailObj.hotelAdditionalExplainVo.recreationFacilitiesAdditionalExplainVoList[0]}}">
                     <view class="content-title-box data-v-19ae887a">
-                        <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082316553191179.png"></image>玩乐活动设施</view>
+                        <image mode class="data-v-19ae887a" src="/static/captured/55f66293e2a7a0c3.png"></image>玩乐活动设施</view>
                     <view class="icon-box data-v-19ae887a">
                         <view class="item data-v-19ae887a" wx:for="{{detailObj.hotelFacilitiesServicesSysTagVo.recreationFacilitiesTagList}}" wx:for-index="__i7__">
                             <image mode class="data-v-19ae887a" src="{{item.tagUrl}}"></image>
@@ -103,7 +103,7 @@
                 </view>
                 <view class="content-box data-v-19ae887a" wx:if="{{detailObj.hotelFacilitiesServicesSysTagVo.restaurantTagList&&detailObj.hotelFacilitiesServicesSysTagVo.restaurantTagList[0]||detailObj.hotelAdditionalExplainVo.trafficAdditionalExplainVoList&&detailObj.hotelAdditionalExplainVo.restaurantAdditionalExplainVoList[0]}}">
                     <view class="content-title-box data-v-19ae887a">
-                        <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082317011321205.png"></image>餐饮服务</view>
+                        <image mode class="data-v-19ae887a" src="/static/captured/adb6d5a04e671210.png"></image>餐饮服务</view>
                     <view class="icon-box data-v-19ae887a">
                         <view class="item data-v-19ae887a" wx:for="{{detailObj.hotelFacilitiesServicesSysTagVo.restaurantTagList}}" wx:for-index="__i10__">
                             <image mode class="data-v-19ae887a" src="{{item.tagUrl}}"></image>
@@ -124,7 +124,7 @@
                 </view>
                 <view class="content-box data-v-19ae887a" wx:if="{{detailObj.hotelFacilitiesServicesSysTagVo.childrenTagList&&detailObj.hotelFacilitiesServicesSysTagVo.childrenTagList[0]||detailObj.hotelAdditionalExplainVo.childrenAdditionalExplainVoList&&detailObj.hotelAdditionalExplainVo.childrenAdditionalExplainVoList[0]}}">
                     <view class="content-title-box data-v-19ae887a">
-                        <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082317013169808.png"></image>儿童设施</view>
+                        <image mode class="data-v-19ae887a" src="/static/captured/181c8dabc8fd636a.png"></image>儿童设施</view>
                     <view class="icon-box data-v-19ae887a">
                         <view class="item data-v-19ae887a" wx:for="{{detailObj.hotelFacilitiesServicesSysTagVo.childrenTagList}}" wx:for-index="__i13__">
                             <image mode class="data-v-19ae887a" src="{{item.tagUrl}}"></image>
@@ -145,7 +145,7 @@
                 </view>
                 <view class="content-box data-v-19ae887a" wx:if="{{detailObj.hotelFacilitiesServicesSysTagVo.massageTagList&&detailObj.hotelFacilitiesServicesSysTagVo.massageTagList[0]||detailObj.hotelAdditionalExplainVo.massageAdditionalExplainVoList&&detailObj.hotelAdditionalExplainVo.massageAdditionalExplainVoList[0]}}">
                     <view class="content-title-box data-v-19ae887a">
-                        <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082317021511027.png"></image>康体设施</view>
+                        <image mode class="data-v-19ae887a" src="/static/captured/ee54913216b0fe1a.png"></image>康体设施</view>
                     <view class="icon-box data-v-19ae887a">
                         <view class="item data-v-19ae887a" wx:for="{{detailObj.hotelFacilitiesServicesSysTagVo.massageTagList}}" wx:for-index="__i16__">
                             <image mode class="data-v-19ae887a" src="{{item.tagUrl}}"></image>
@@ -166,7 +166,7 @@
                 </view>
                 <view class="content-box data-v-19ae887a" wx:if="{{detailObj.hotelFacilitiesServicesSysTagVo.receptionTagList&&detailObj.hotelFacilitiesServicesSysTagVo.receptionTagList[0]||detailObj.hotelAdditionalExplainVo.receptionAdditionalExplainVoList&&detailObj.hotelAdditionalExplainVo.receptionAdditionalExplainVoList[0]}}">
                     <view class="content-title-box data-v-19ae887a">
-                        <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082317022947309.png"></image>前台服务</view>
+                        <image mode class="data-v-19ae887a" src="/static/captured/db9e42c8c62181bd.png"></image>前台服务</view>
                     <view class="icon-box data-v-19ae887a">
                         <view class="item data-v-19ae887a" wx:for="{{detailObj.hotelFacilitiesServicesSysTagVo.receptionTagList}}" wx:for-index="__i19__">
                             <image mode class="data-v-19ae887a" src="{{item.tagUrl}}"></image>
@@ -187,7 +187,7 @@
                 </view>
                 <view class="content-box data-v-19ae887a" wx:if="{{detailObj.hotelFacilitiesServicesSysTagVo.cleanTagList&&detailObj.hotelFacilitiesServicesSysTagVo.cleanTagList[0]||detailObj.hotelAdditionalExplainVo.cleanAdditionalExplainVoList&&detailObj.hotelAdditionalExplainVo.cleanAdditionalExplainVoList[0]}}">
                     <view class="content-title-box data-v-19ae887a">
-                        <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082510322805349.png"></image>清洁服务</view>
+                        <image mode class="data-v-19ae887a" src="/static/captured/ab4d2d922487ffd7.png"></image>清洁服务</view>
                     <view class="icon-box data-v-19ae887a">
                         <view class="item data-v-19ae887a" wx:for="{{detailObj.hotelFacilitiesServicesSysTagVo.cleanTagList}}" wx:for-index="__i22__">
                             <image mode class="data-v-19ae887a" src="{{item.tagUrl}}"></image>
@@ -208,7 +208,7 @@
                 </view>
                 <view class="content-box data-v-19ae887a" wx:if="{{detailObj.hotelFacilitiesServicesSysTagVo.businessTagList&&detailObj.hotelFacilitiesServicesSysTagVo.businessTagList[0]||detailObj.hotelAdditionalExplainVo.businessAdditionalExplainVoList&&detailObj.hotelAdditionalExplainVo.businessAdditionalExplainVoList[0]}}">
                     <view class="content-title-box data-v-19ae887a">
-                        <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082510334039578.png"></image>商务服务</view>
+                        <image mode class="data-v-19ae887a" src="/static/captured/c50cdbdbc5dd0126.png"></image>商务服务</view>
                     <view class="icon-box data-v-19ae887a">
                         <view class="item data-v-19ae887a" wx:for="{{detailObj.hotelFacilitiesServicesSysTagVo.businessTagList}}" wx:for-index="__i25__">
                             <image mode class="data-v-19ae887a" src="{{item.tagUrl}}"></image>
@@ -229,7 +229,7 @@
                 </view>
                 <view class="content-box data-v-19ae887a" wx:if="{{detailObj.hotelFacilitiesServicesSysTagVo.publicAreaTagList&&detailObj.hotelFacilitiesServicesSysTagVo.publicAreaTagList[0]||detailObj.hotelAdditionalExplainVo.publicAreaAdditionalExplainVoList&&detailObj.hotelAdditionalExplainVo.publicAreaAdditionalExplainVoList[0]}}">
                     <view class="content-title-box data-v-19ae887a">
-                        <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082317032159442.png"></image>公共区</view>
+                        <image mode class="data-v-19ae887a" src="/static/captured/e58131ef3d8b9130.png"></image>公共区</view>
                     <view class="icon-box data-v-19ae887a">
                         <view class="item data-v-19ae887a" wx:for="{{detailObj.hotelFacilitiesServicesSysTagVo.publicAreaTagList}}" wx:for-index="__i28__">
                             <image mode class="data-v-19ae887a" src="{{item.tagUrl}}"></image>
@@ -250,7 +250,7 @@
                 </view>
                 <view class="content-box data-v-19ae887a" wx:if="{{detailObj.hotelFacilitiesServicesSysTagVo.freeBarrierTagList&&detailObj.hotelFacilitiesServicesSysTagVo.freeBarrierTagList[0]||detailObj.hotelAdditionalExplainVo.freeBarrierAdditionalExplainVoList&&detailObj.hotelAdditionalExplainVo.freeBarrierAdditionalExplainVoList[0]}}">
                     <view class="content-title-box data-v-19ae887a">
-                        <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082317034072932.png"></image>无障碍设施服务</view>
+                        <image mode class="data-v-19ae887a" src="/static/captured/e42bad021ca99c16.png"></image>无障碍设施服务</view>
                     <view class="icon-box data-v-19ae887a">
                         <view class="item data-v-19ae887a" wx:for="{{detailObj.hotelFacilitiesServicesSysTagVo.freeBarrierTagList}}" wx:for-index="__i31__">
                             <image mode class="data-v-19ae887a" src="{{item.tagUrl}}"></image>
@@ -271,7 +271,7 @@
                 </view>
                 <view class="content-box data-v-19ae887a" wx:if="{{detailObj.hotelFacilitiesServicesSysTagVo.securityTagList&&detailObj.hotelFacilitiesServicesSysTagVo.securityTagList[0]||detailObj.hotelAdditionalExplainVo.securityAdditionalExplainVoList&&detailObj.hotelAdditionalExplainVo.securityAdditionalExplainVoList[0]}}">
                     <view class="content-title-box data-v-19ae887a">
-                        <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082317035311231.png"></image>安全措施</view>
+                        <image mode class="data-v-19ae887a" src="/static/captured/db6ce9e2094274e6.png"></image>安全措施</view>
                     <view class="icon-box data-v-19ae887a">
                         <view class="item data-v-19ae887a" wx:for="{{detailObj.hotelFacilitiesServicesSysTagVo.securityTagList}}" wx:for-index="__i34__">
                             <image mode class="data-v-19ae887a" src="{{item.tagUrl}}"></image>
@@ -297,7 +297,7 @@
                     <view class="item-list data-v-19ae887a">
                         <view class="item data-v-19ae887a" wx:if="{{detailObj.hotelArrivalDepartureTime}}">
                             <view class="l icon-r data-v-19ae887a">
-                                <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082317225024529.png"></image>
+                                <image mode class="data-v-19ae887a" src="/static/captured/8c917774eab36ced.png"></image>
                             </view>
                             <view class="r data-v-19ae887a">
                                 <view class="t data-v-19ae887a">入离时间</view>
@@ -308,7 +308,7 @@
                         </view>
                         <view class="item data-v-19ae887a" wx:if="{{detailObj.hotelReceptionPolicy}}">
                             <view class="l icon-r data-v-19ae887a">
-                                <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082317230826523.png"></image>
+                                <image mode class="data-v-19ae887a" src="/static/captured/cc54dda80d490fbd.png"></image>
                             </view>
                             <view class="r data-v-19ae887a">
                                 <view class="t data-v-19ae887a">人群接待政策</view>
@@ -319,7 +319,7 @@
                         </view>
                         <view class="item data-v-19ae887a" wx:if="{{detailObj.hotelChildrenBed}}">
                             <view class="l icon-r data-v-19ae887a">
-                                <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082317231935554.png"></image>
+                                <image mode class="data-v-19ae887a" src="/static/captured/edc22f1d9bd3616f.png"></image>
                             </view>
                             <view class="r data-v-19ae887a">
                                 <view class="t data-v-19ae887a">儿童及加床</view>
@@ -330,7 +330,7 @@
                         </view>
                         <view class="item data-v-19ae887a" wx:if="{{detailObj.hotelPet}}">
                             <view class="l icon-r data-v-19ae887a">
-                                <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082317235969539.png"></image>
+                                <image mode class="data-v-19ae887a" src="/static/captured/de276a09fabe8177.png"></image>
                             </view>
                             <view class="r data-v-19ae887a">
                                 <view class="t data-v-19ae887a">宠物</view>
@@ -341,7 +341,7 @@
                         </view>
                         <view class="item data-v-19ae887a" wx:if="{{detailObj.hotelBreakfast}}">
                             <view class="l icon-r data-v-19ae887a">
-                                <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/2022082317241423190.png"></image>
+                                <image mode class="data-v-19ae887a" src="/static/captured/dd63741bec8f897b.png"></image>
                             </view>
                             <view class="r data-v-19ae887a">
                                 <view class="t data-v-19ae887a">早餐</view>
@@ -400,7 +400,7 @@
                                         <view class="l multilineText2 data-v-19ae887a">{{item.telephoneTitle}}</view>
                                         <view bindtap="__e" class="r data-v-19ae887a" data-event-opts="{{[ [ 'tap',[ [ 'call',['$0'],[ [ ['detailObj.telephoneVoList','',__i44__,'telephone'] ] ] ] ] ] ]}}">
                                             <view class="data-v-19ae887a">{{item.telephone||''}}</view>
-                                            <image mode class="data-v-19ae887a" src="https://eshopfile.zhiyousx.com/spotIntroNew/dianhua.png"></image>
+                                            <image mode class="data-v-19ae887a" src="/static/captured/9653e7f23b8aa244.png"></image>
                                         </view>
                                     </view>
                                 </view>

@@ -1,0 +1,512 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064188264690",
+    "scenicName": "紫柏山国家森林公园景区",
+    "tag": "七十二洞 八十二坦 九十二峰",
+    "level": 4,
+    "cityId": "1320664075750125570",
+    "cityName": "汉中",
+    "address": "汉中市留坝县留侯镇闸口石村宽沟",
+    "longitude": "106.778028",
+    "latitude": "33.71654",
+    "openingStatus": 1,
+    "capacity": 2000,
+    "sequence": 83,
+    "topColour": "#1A7D1B",
+    "centralColour": "#1A7D1B",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021072209545821677.jpg",
+      "https://eshopfile.zhiyousx.com/2021072209543981662.jpg",
+      "https://eshopfile.zhiyousx.com/2021072209544982373.jpg",
+      "https://eshopfile.zhiyousx.com/2021072209550328647.jpg",
+      "https://eshopfile.zhiyousx.com/2021072210303872287.jpg",
+      "https://eshopfile.zhiyousx.com/2021072210305727971.jpg"
+    ],
+    "introduction": "<p>紫柏山国家森林公园地处留坝县西北部，紧邻张良庙，是汉江和嘉陵江的分水岭，古陈仓道穿越景区，总面积4600多公顷，是以紫柏山为主体，包括光华山、铁笼山、玄女洞、古营盘和紫柏山五大景区。悠久的人文历史和神奇的自然景观，赋予紫柏山厚重博大的自然与文化的双重价值。紫柏山山势巍峨，蜿蜒起伏、状似游龙，又名&ldquo;龙如山&rdquo;，有&ldquo;九十二峰、八十二坦、七十二洞&rdquo;之美誉，系陕西省与华山、太白山齐名的三大名山之一，主峰海拔2610米，植被分布受地形、气候和海拔高度的影响，形成比较典型的森林垂直带谱，自下而上依次形成阔叶林带、针阔混交林带、红桦杜鹃林带、冷杉林带、灌木林带和亚高山草甸，特别是亚高山草甸面积达2000公顷以上，大小锅坦天坑星罗棋布、镶嵌期间，绿草茵茵，百花争艳，呈现紫柏草海奇观。复杂多样的喀斯特岩溶地貌和独特的地质构造，经大自然神奇造化形成了诸葛抚琴石、玄女望月石、观音石、玄女洞、紫柏睡佛等自然景观，这里气候凉爽，空气负氧离子丰富，素有天然氧吧之称，这里还有羚牛、毛冠鹿、豹、大鲵等珍稀的动物；西洋参、党参、首乌、鹿寿草等药材资源。</p>",
+    "introductionText": "紫柏山国家森林公园地处留坝县西北部，紧邻张良庙，是汉江和嘉陵江的分水岭，古陈仓道穿越景区，总面积4600多公顷，是以紫柏山为主体，包括光华山、铁笼山、玄女洞、古营盘和紫柏山五大景区。悠久的人文历史和神奇的自然景观，赋予紫柏山厚重博大的自然与文化的双重价值。紫柏山山势巍峨，蜿蜒起伏、状似游龙，又名“龙如山”，有“九十二峰、八十二坦、七十二洞”之美誉，系陕西省与华山、太白山齐名的三大名山之一，主峰海拔2610米，植被分布受地形、气候和海拔高度的影响，形成比较典型的森林垂直带谱，自下而上依次形成阔叶林带、针阔混交林带、红桦杜鹃林带、冷杉林带、灌木林带和亚高山草甸，特别是亚高山草甸面积达2000公顷以上，大小锅坦天坑星罗棋布、镶嵌期间，绿草茵茵，百花争艳，呈现紫柏草海奇观。复杂多样的喀斯特岩溶地貌和独特的地质构造，经大自然神奇造化形成了诸葛抚琴石、玄女望月石、观音石、玄女洞、紫柏睡佛等自然景观，这里气候凉爽，空气负氧离子丰富，素有天然氧吧之称，这里还有羚牛、毛冠鹿、豹、大鲵等珍稀的动物；西洋参、党参、首乌、鹿寿草等药材资源。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "175",
+        "name": "户外营地",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "51",
+        "name": "拓展游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全年",
+        "openTimeContent": "08:00-17：00<br/>最晚入园：16:30<br/>*以上信息仅供参考，具体以景区当日实际公开信息为准"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "身高＜1.4米",
+        "discount": "免费（门票及索道票全免）"
+      },
+      {
+        "peopleType": "老年人",
+        "limit": "年龄>70周岁(凭老人证)",
+        "discount": "免费（免景区大门票）"
+      },
+      {
+        "peopleType": "老年人",
+        "limit": "60周岁≤年龄＜69周岁(持老年证)",
+        "discount": "半价优惠"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "全日制大中小学生(凭学生证)",
+        "discount": "半价优惠"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "10",
+        "name": "商店",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (19).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "11",
+        "name": "餐厅",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (22).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "6",
+        "name": "免费wifi",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (11).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "59",
+        "name": "园内交通",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016420452783.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "石板店接待中心停车场",
+        "additionalExplainContent": "参考价格：免费<br/>地址：汉中市留坝县留侯镇石板店游客接待中心<br/>库位：50"
+      },
+      {
+        "additionalExplainTitle": "宽沟游客接待中心停车场",
+        "additionalExplainContent": "参考价格：免费<br/>地址：汉中市留坝县留侯镇宽沟游客接待中心<br/>库位：150"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p><strong>留坝1路-张良庙站</strong></p>\n<p>步行8.3公里到达</p>\n<p>&nbsp;</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<p>汉中出发 ：汉中市区&mdash;&mdash;沿X301行驶35.1公里，直行进入G316&mdash;&mdash;沿G316行驶9.3公里，过右侧的张良庙约100米后，右前方转弯进入X219&mdash;&mdash; 沿X219行驶7.4公里，过右侧的紫柏山景区，到达终点(在道路右侧)&nbsp;</p>\n<p>西安出发：西安&mdash;&mdash;连霍高速公路&mdash;&mdash;S210&mdash;&mdash;高太路行驶35.0公里&mdash;&mdash;王家坪约110米后&mdash;&mdash;G316&mdash;&mdash;庙台子村&mdash;&mdash;X219&mdash;&mdash;紫柏山</p>\n<p>宝鸡出发：宝鸡&rarr;沿212省道&rarr;凤县&rarr;转316国道&rarr;张良庙&rarr;紫柏山&rarr;留坝县城&rarr;紫柏山</p>"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "联系电话",
+        "telephone": "0916-3921789"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "留坝紫柏山",
+        "wxSubscription": "lbzbs1"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2082015104835182594",
+        "resourcesId": "1321292525619949569",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/fa3f0a83-3bcd-4e92-9f44-d895654f3f09-20201028112719.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-07-28 16:07:37",
+        "updateTime": "2026-07-28 16:07:37",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082015104835182595",
+        "resourcesId": "1321292525619949569",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/b53b2690-b8d9-4e90-807d-275602cec46e-20201028112728.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-07-28 16:07:37",
+        "updateTime": "2026-07-28 16:07:37",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082015104839376898",
+        "resourcesId": "1321292525619949569",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/7388123c-4e19-49c1-90e5-e281a153234d-20201028112735.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-07-28 16:07:37",
+        "updateTime": "2026-07-28 16:07:37",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082015104843571201",
+        "resourcesId": "1321292525619949569",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/164990636180578459.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": "",
+        "createTime": "2026-07-28 16:07:37",
+        "updateTime": "2026-07-28 16:07:37",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082015104843571202",
+        "resourcesId": "1321292525619949569",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/164990636182439221.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": "",
+        "createTime": "2026-07-28 16:07:37",
+        "updateTime": "2026-07-28 16:07:37",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082015104847765506",
+        "resourcesId": "1321292525619949569",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/164990636188334729.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": "",
+        "createTime": "2026-07-28 16:07:37",
+        "updateTime": "2026-07-28 16:07:37",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082015104847765507",
+        "resourcesId": "1321292525619949569",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/164990636200592569.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": "",
+        "createTime": "2026-07-28 16:07:37",
+        "updateTime": "2026-07-28 16:07:37",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082015104851959809",
+        "resourcesId": "1321292525619949569",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/164990636194501000.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": "",
+        "createTime": "2026-07-28 16:07:37",
+        "updateTime": "2026-07-28 16:07:37",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082015104856154113",
+        "resourcesId": "1321292525619949569",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/164990636220514985.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": "",
+        "createTime": "2026-07-28 16:07:37",
+        "updateTime": "2026-07-28 16:07:37",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082015104856154114",
+        "resourcesId": "1321292525619949569",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/164990636206325429.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": "",
+        "createTime": "2026-07-28 16:07:37",
+        "updateTime": "2026-07-28 16:07:37",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082015104860348417",
+        "resourcesId": "1321292525619949569",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/164990636226235858.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 11,
+        "describe": "",
+        "createTime": "2026-07-28 16:07:37",
+        "updateTime": "2026-07-28 16:07:37",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082015104864542721",
+        "resourcesId": "1321292525619949569",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/164990636212172309.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 12,
+        "describe": "",
+        "createTime": "2026-07-28 16:07:37",
+        "updateTime": "2026-07-28 16:07:37",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082015104864542722",
+        "resourcesId": "1321292525619949569",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/164990636218627424.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 13,
+        "describe": "",
+        "createTime": "2026-07-28 16:07:37",
+        "updateTime": "2026-07-28 16:07:37",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455795982670340097",
+      "rankingId": null,
+      "indexInRanking": 3,
+      "rankingName": "汉中必玩景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

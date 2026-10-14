@@ -1,0 +1,94 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1559381051724984321",
+    "contentId": "1559381047325159425",
+    "rankingName": "铜川城市公园人气榜",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/166062011173009171.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": "人去过",
+    "rankingInclude": "个目的地",
+    "rankingPersonalInfo": "我去过的目的地",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#EECD56",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1561630298327363586",
+        "originType": "1",
+        "originName": "铜川市人民公园",
+        "originSubtitleName": "市民休闲、娱乐、锻炼的第一选择",
+        "originUrl": "https://eshopfile.zhiyousx.com/2022082216225384335.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/166115663078246759.jpg",
+          "https://eshopfile.zhiyousx.com/166115663135337670.jpg",
+          "https://eshopfile.zhiyousx.com/166115663210336379.jpg",
+          "https://eshopfile.zhiyousx.com/166115663297399871.jpg",
+          "https://eshopfile.zhiyousx.com/166115663355978318.jpg",
+          "https://eshopfile.zhiyousx.com/166115663434124930.jpg",
+          "https://eshopfile.zhiyousx.com/166115663489443243.jpg",
+          "https://eshopfile.zhiyousx.com/166115663556841463.jpg"
+        ],
+        "sort": "10",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1561910910187712514",
+        "originType": "1",
+        "originName": "重兴公园",
+        "originSubtitleName": "铜川北关居民的休闲乐园",
+        "originUrl": "https://eshopfile.zhiyousx.com/2022082310583466953.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/166122353821058489.jpg",
+          "https://eshopfile.zhiyousx.com/166122354030294584.jpg",
+          "https://eshopfile.zhiyousx.com/166122354151386992.jpg",
+          "https://eshopfile.zhiyousx.com/166122354238311041.jpg",
+          "https://eshopfile.zhiyousx.com/166122354290619778.jpg",
+          "https://eshopfile.zhiyousx.com/166122354084789116.jpg"
+        ],
+        "sort": "11",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1561649102214270978",
+        "originType": "1",
+        "originName": "铜川城市运动公园",
+        "originSubtitleName": "城市中心的休闲健身场所",
+        "originUrl": "https://eshopfile.zhiyousx.com/2022082217372469945.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/166116112852037289.jpg",
+          "https://eshopfile.zhiyousx.com/166116112903299428.jpg",
+          "https://eshopfile.zhiyousx.com/166116112971403567.jpg",
+          "https://eshopfile.zhiyousx.com/166116113021567708.jpg",
+          "https://eshopfile.zhiyousx.com/166116113091294993.jpg"
+        ],
+        "sort": "12",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "13",
+    "favoriteSum": null,
+    "personalInfoValue": "0/13"
+  },
+  "msg": "成功",
+  "success": true
+}

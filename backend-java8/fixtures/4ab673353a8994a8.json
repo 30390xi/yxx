@@ -1,0 +1,39 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "2082011148256935937",
+      "resourcesId": "1322071478014074881",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/汉江石泉古城1-20201030150134.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2026-07-28 15:51:54",
+      "updateTime": "2026-07-28 15:51:54",
+      "createBy": "1635171719176675330",
+      "updateBy": "1635171719176675330",
+      "isDeleted": 0
+    },
+    {
+      "id": "2082011148269518849",
+      "resourcesId": "1322071478014074881",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/汉江石泉古城2-20201030150142.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 2,
+      "describe": null,
+      "createTime": "2026-07-28 15:51:54",
+      "updateTime": "2026-07-28 15:51:54",
+      "createBy": "1635171719176675330",
+      "updateBy": "1635171719176675330",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

@@ -31,8 +31,8 @@
         </view>
     </view>
     <view bindtap="__e" class="auth data-v-743e2840" data-event-opts="{{[ [ 'tap',[ [ 'setCheck',['$event'] ] ] ] ]}}">
-        <image class="checkedNo data-v-743e2840" mode="widthFix" src="https://eshopfile.zhiyousx.com/2026020617533436720.png" wx:if="{{!checked}}"></image>
-        <image class="checkedNo data-v-743e2840" mode="widthFix" src="https://eshopfile.zhiyousx.com/2026020617533186277.png" wx:else></image>
+        <image class="checkedNo data-v-743e2840" mode="widthFix" src="/static/captured/1d3b8c43bd637a0c.png" wx:if="{{!checked}}"></image>
+        <image class="checkedNo data-v-743e2840" mode="widthFix" src="/static/captured/956ed91fa3bbacf8.png" wx:else></image>
         <view class="text data-v-743e2840" style="margin-left:5rpx;">我已阅读并同意授权以上信息用于产品预订及相关信息通知</view>
     </view>
     <view bindtap="__e" class="footer-box data-v-743e2840" data-event-opts="{{[ [ 'tap',[ [ 'queryTouristByIdCardNo',['$event'] ] ] ] ]}}">确认</view>

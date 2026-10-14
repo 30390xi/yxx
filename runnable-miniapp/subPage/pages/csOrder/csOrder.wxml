@@ -36,7 +36,7 @@
         </view>
     </view>
     <view class="empty data-v-406e40d8" wx:if="{{$root.g0}}">
-        <empty-state bind:__l="__l" class="data-v-406e40d8" imgUrl="https://eshopfile.zhiyousx.com/noOrder@2x.png" text="暂无预约" vueId="2a159222-3"></empty-state>
+        <empty-state bind:__l="__l" class="data-v-406e40d8" imgUrl="/static/captured/8967f3ec41c22eab.png" text="暂无预约" vueId="2a159222-3"></empty-state>
     </view>
     <view class="loadMore data-v-406e40d8">
         <u-loadmore bgColor="#f7f7f7" bind:__l="__l" class="data-v-406e40d8" color="#ccc" data-custom-hidden="{{!$root.g1}}" iconColor="#ccc" status="{{loadMore}}" vueId="2a159222-4"></u-loadmore>

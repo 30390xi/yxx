@@ -1,0 +1,523 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941151",
+    "scenicName": "牛背梁国家森林公园",
+    "tag": "一草一花一世界",
+    "level": 4,
+    "cityId": "1320664941605466114",
+    "cityName": "商洛",
+    "address": "商洛市柞水县营盘镇朱家湾村",
+    "longitude": "108.996455",
+    "latitude": "33.823422",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 95,
+    "topColour": "#59BE51",
+    "centralColour": "#279221",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2-20201028153942.jpg",
+      "https://eshopfile.zhiyousx.com/5-20201028153938.jpg",
+      "https://eshopfile.zhiyousx.com/6-20201028153947.jpg"
+    ],
+    "introduction": "<p>　　陕西牛背梁国家森林公园位于秦岭南坡的柞水县营盘镇朱家湾村，海拔1000--2802米，总面积2123公顷，距西安42公里，秦岭长隧穿腹而过，S102省道直达公园门口。茂密的原始森林、清幽的潭溪瀑布、独特的峡谷风光、罕见的石林景观以及秦岭冷杉、杜鹃林带、高山草甸、第四纪冰川遗迹所构成的特有的高山景观，造就了中国少有的景观多样性与独特性汇聚于一体的国家级森林公园。陕西牛背梁国家森林公园总体规划为四大景区三大功能区。四大景区即：羚牛谷山水游憩区、六尺岭峰林景观区、牛背梁高山风光区和铁佛寺宗教文化区；三大功能区即：入口综合服务区、药王坪中医药养生区、清凉谷休闲度假区。目前建成并对外开放的只有羚牛谷山水游憩区、六尺岭峰林景观区、牛背梁高山风光区，和入口综合服务区。</p>",
+    "introductionText": "　　陕西牛背梁国家森林公园位于秦岭南坡的柞水县营盘镇朱家湾村，海拔1000--2802米，总面积2123公顷，距西安42公里，秦岭长隧穿腹而过，S102省道直达公园门口。茂密的原始森林、清幽的潭溪瀑布、独特的峡谷风光、罕见的石林景观以及秦岭冷杉、杜鹃林带、高山草甸、第四纪冰川遗迹所构成的特有的高山景观，造就了中国少有的景观多样性与独特性汇聚于一体的国家级森林公园。陕西牛背梁国家森林公园总体规划为四大景区三大功能区。四大景区即：羚牛谷山水游憩区、六尺岭峰林景观区、牛背梁高山风光区和铁佛寺宗教文化区；三大功能区即：入口综合服务区、药王坪中医药养生区、清凉谷休闲度假区。目前建成并对外开放的只有羚牛谷山水游憩区、六尺岭峰林景观区、牛背梁高山风光区，和入口综合服务区。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "68",
+        "name": "旅游小镇",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "51",
+        "name": "拓展游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "<p>广大的游客朋友们：<br /> <br /> 根据《森林防火条例》相关规定和今年天气实际情况，为确保森林资源和游客安全，经研究决定，陕西牛背梁国家森林公园自2023年11月16日起闭园，闭园期间停止旅游经营活动,明春开园时间预计在3月中旬，具体时间另行通知。由此给您带来的不便，敬请谅解。欢迎大家明年再来！</p>\n<p style=\"text-align: right;\">陕西牛背梁国家森林公园<br />2023年11月13日</p>",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "旺季",
+        "openTimeContent": "3月15日-11月30日周一至周日全天:08:00-18:00最晚入园16:30<br/>景区在每年的11月-次年的3月进入森林防火期，期间停止对外开放，具体时间可以届时致电咨询<br/>以上信息仅供参考，具体以景区当日实际公示信息为准"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "身高12米(含)以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米(不含)-1.5米(含)",
+        "discount": "半票"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "65周岁(含)以上凭老年证或身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "60周岁(含)-65周岁(不含)凭老年证或身份证",
+        "discount": "半票"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "残疾证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "现役军人",
+        "limit": "保障卡和军官证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "学生证",
+        "discount": "半票"
+      },
+      {
+        "peopleType": "导游",
+        "limit": "导游资格证",
+        "discount": "免费"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "11",
+        "name": "餐厅",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (22).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "10",
+        "name": "商店",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (19).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "54",
+        "name": "手机充电",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016402390363.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "预订提示",
+        "additionalExplainContent": "疫情防控期间，为了保护好您的健康与安全，请您一定要做好自我防护，建议减少外出，避免去人群密集的公共场所，进入景区佩戴口罩。同时，请您配合景区做好入园体温检测以及信息登记工作。由此给您带来不便敬请谅解<br/>门票当天有效，出园需入园，需再次购票。景区门票包含:景区大门票。另付费项目:景区内小交通等<br/>为保证取票、入园顺利，预订时请务必填写真实姓名、手机号码等信息"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>在西安城南客运站乘坐柞水方向的班车，早班车为早6：00，每20分钟一趟，票价28元，到柞水县汽车站后，转乘柞水至牛背梁国家森林公园的公交车即可，票价9元。</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<p>（西安方向）从西安上绕城高速，经包茂（西康）高速过秦岭终南山隧道至营盘出口左行5公里即到牛背梁国家森林公园，全程约60公里。</p>"
+      }
+    ],
+    "officialWebsite": [
+      "http://www.nblpark.com/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "咨询电话",
+        "telephone": " 0914-4283666"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "陕西牛背梁森林公园",
+        "wxSubscription": "nblpark"
+      }
+    ],
+    "sinaWeiboVoList": [
+      {
+        "sinaWeibo": "陕西牛背梁森林公园",
+        "sinaWeiboUrl": "https://m.weibo.cn/u/3317686890?uid=3317686890&t=0&luicode=10000011&lfid=100103type%3D1%26q%3D%E9%99%95%E8%A5%BF%E7%89%9B%E8%83%8C%E6%A2%81%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD"
+      }
+    ],
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2082012174618910722",
+        "resourcesId": "1321356273495859201",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/6-20201028154028.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-07-28 15:55:59",
+        "updateTime": "2026-07-28 15:55:59",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082012174618910723",
+        "resourcesId": "1321356273495859201",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/3-20201028154041.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-07-28 15:55:59",
+        "updateTime": "2026-07-28 15:55:59",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082012174623105025",
+        "resourcesId": "1321356273495859201",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/1-20201028154051.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-07-28 15:55:59",
+        "updateTime": "2026-07-28 15:55:59",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082012174623105026",
+        "resourcesId": "1321356273495859201",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072216291538331.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-07-28 15:55:59",
+        "updateTime": "2026-07-28 15:55:59",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082012174627299329",
+        "resourcesId": "1321356273495859201",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072216292478675.jpeg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2026-07-28 15:55:59",
+        "updateTime": "2026-07-28 15:55:59",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082012174627299330",
+        "resourcesId": "1321356273495859201",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072216293308855.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2026-07-28 15:55:59",
+        "updateTime": "2026-07-28 15:55:59",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082012174631493633",
+        "resourcesId": "1321356273495859201",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072216294236787.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2026-07-28 15:55:59",
+        "updateTime": "2026-07-28 15:55:59",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082012174635687937",
+        "resourcesId": "1321356273495859201",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072216295252651.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2026-07-28 15:55:59",
+        "updateTime": "2026-07-28 15:55:59",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082012174635687938",
+        "resourcesId": "1321356273495859201",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072216301217177.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": null,
+        "createTime": "2026-07-28 15:55:59",
+        "updateTime": "2026-07-28 15:55:59",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082012174639882241",
+        "resourcesId": "1321356273495859201",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072216302405339.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": null,
+        "createTime": "2026-07-28 15:55:59",
+        "updateTime": "2026-07-28 15:55:59",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082012174639882242",
+        "resourcesId": "1321356273495859201",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072216305212526.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 11,
+        "describe": null,
+        "createTime": "2026-07-28 15:55:59",
+        "updateTime": "2026-07-28 15:55:59",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082012174644076545",
+        "resourcesId": "1321356273495859201",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072216310498315.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 12,
+        "describe": null,
+        "createTime": "2026-07-28 15:55:59",
+        "updateTime": "2026-07-28 15:55:59",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082012174644076546",
+        "resourcesId": "1321356273495859201",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072216311862862.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 13,
+        "describe": null,
+        "createTime": "2026-07-28 15:55:59",
+        "updateTime": "2026-07-28 15:55:59",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455809122913067009",
+      "rankingId": null,
+      "indexInRanking": 5,
+      "rankingName": "商洛自驾游景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": "闭园公告",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

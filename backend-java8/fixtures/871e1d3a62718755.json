@@ -1,0 +1,214 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941154",
+    "scenicName": "朱鹮梨园景区",
+    "tag": "山水休闲景区，内有朱鹮观赏",
+    "level": 4,
+    "address": "汉中市洋县洋洲街道办",
+    "longitude": "107.572474",
+    "latitude": "33.24806",
+    "openingStatus": 1,
+    "capacity": 20000,
+    "topColour": "#4EAE6B",
+    "centralColour": "#3C7B5C",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2026040219031815146.png",
+      "https://eshopfile.zhiyousx.com/ec4cdbde-f1ce-4965-a7ad-04a914428eaf-20201029121232.jpg"
+    ],
+    "introduction": "<p>朱鹮梨园景区是国家4A级景区，位于洋县县城以北，依托国宝朱鹮保护区和万亩梨园而建，由朱鹮梨园、朱鹮生态园、现代农业观光园组成，占地约387公顷，紧邻傥河，依山傍水，沟壑纵横，绵延起伏，生态绝佳，是融自然生态、人文景观、农业观光、国宝观赏、休闲度假为一体的综合型开放式景区，是洋县对外宣传的靓丽名片，也是洋县独具特色的会客大厅和市民休闲、娱乐、健身的主要场所。</p>",
+    "introductionText": "朱鹮梨园景区是国家4A级景区，位于洋县县城以北，依托国宝朱鹮保护区和万亩梨园而建，由朱鹮梨园、朱鹮生态园、现代农业观光园组成，占地约387公顷，紧邻傥河，依山傍水，沟壑纵横，绵延起伏，生态绝佳，是融自然生态、人文景观、农业观光、国宝观赏、休闲度假为一体的综合型开放式景区，是洋县对外宣传的靓丽名片，也是洋县独具特色的会客大厅和市民休闲、娱乐、健身的主要场所。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "17",
+        "name": "动植物园",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": null,
+    "officialWebsite": null,
+    "telephoneVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2039659950792835073",
+        "resourcesId": "1321666345421791234",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/76df8613-ccf8-4d68-b45b-a4520191e0ff-20201029121253.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-04-02 19:03:21",
+        "updateTime": "2026-04-02 19:03:21",
+        "createBy": "2021189462693314562",
+        "updateBy": "2021189462693314562",
+        "isDeleted": 0
+      },
+      {
+        "id": "2039659950797029377",
+        "resourcesId": "1321666345421791234",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/dea7362b-6571-4efb-af99-502438223948-20201029121258.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-04-02 19:03:21",
+        "updateTime": "2026-04-02 19:03:21",
+        "createBy": "2021189462693314562",
+        "updateBy": "2021189462693314562",
+        "isDeleted": 0
+      },
+      {
+        "id": "2039659950797029378",
+        "resourcesId": "1321666345421791234",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/5f8fca1a-c7ab-4577-aaca-583faee6a615-20201029121303.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-04-02 19:03:21",
+        "updateTime": "2026-04-02 19:03:21",
+        "createBy": "2021189462693314562",
+        "updateBy": "2021189462693314562",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1507176407057350658",
+      "rankingId": null,
+      "indexInRanking": 12,
+      "rankingName": "赏花踏青好去处",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1455795982670340097",
+        "rankingId": "1455795983626641410",
+        "indexInRanking": null,
+        "rankingName": "汉中必玩景点人气排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "全天开放",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": null,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

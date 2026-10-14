@@ -15,14 +15,14 @@
         <card-list bind:__l="__l" bind:handAllData="__e" class="data-v-03cdf3d0 vue-ref" data-event-opts="{{[ [ '^handAllData',[ ['getCalcData'] ] ] ]}}" data-ref="cardList" scrollTop="{{scrollTop}}" vueId="a002c660-3"></card-list>
     </view>
     <view class="content data-v-03cdf3d0" wx:else>
-        <image class="data-v-03cdf3d0" src="https://eshopfile.zhiyousx.com/2023110116325879617.png"></image>
+        <image class="data-v-03cdf3d0" src="/static/captured/f689b63710303e4b.png"></image>
         <view class="data-v-03cdf3d0">暂无年卡</view>
     </view>
     <view class="data-v-03cdf3d0" wx:if="{{$root.g1>0}}">
         <view class="card-footer data-v-03cdf3d0" wx:if="{{currentCardInfo.buyFlag}}">
             <view bindtap="__e" class="{{['data-v-03cdf3d0',currentCardInfo.stockStatus>0?'':'op']}}" data-event-opts="{{[ [ 'tap',[ [ 'showCard',['$event'] ] ] ] ]}}">
                 <view class="label data-v-03cdf3d0">购卡数量</view>
-                <view class="num data-v-03cdf3d0">{{purchaseNum+'张'}}<image class="data-v-03cdf3d0" src="https://eshopfile.zhiyousx.com/2023103015102566506.png"></image>
+                <view class="num data-v-03cdf3d0">{{purchaseNum+'张'}}<image class="data-v-03cdf3d0" src="/static/captured/e230645f33d74251.png"></image>
                 </view>
             </view>
             <view bindtap="__e" class="{{['data-v-03cdf3d0',currentCardInfo.stockStatus>0?'':'op']}}" data-event-opts="{{[ [ 'tap',[ [ 'showCard',['$event'] ] ] ] ]}}">

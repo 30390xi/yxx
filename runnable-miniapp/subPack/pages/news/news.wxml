@@ -2,7 +2,7 @@
     <view bindtap="__e" class="contents data-v-6dda32cd" data-event-opts="{{[ [ 'tap',[ [ 'tosystemnotice',[0] ] ] ] ]}}">
         <view class="left data-v-6dda32cd">
             <view class="imgbox data-v-6dda32cd">
-                <image mode class="data-v-6dda32cd" src="https://eshopfile.zhiyousx.com/icon_message@2x.png"></image>
+                <image mode class="data-v-6dda32cd" src="/static/captured/2691d484c5709b74.png"></image>
                 <u-badge bgColor="#ff463c" bind:__l="__l" class="badge data-v-6dda32cd" count="{{newsCount.msgCount}}" offset="{{[-3,-3]}}" overflowCount="999" type="error" vueId="1e680ab6-1" wx:if="{{newsCount}}"></u-badge>
             </view>
             <view class="text data-v-6dda32cd">
@@ -17,7 +17,7 @@
     <view bindtap="__e" class="contents data-v-6dda32cd" data-event-opts="{{[ [ 'tap',[ [ 'tosystemnotice',[1] ] ] ] ]}}">
         <view class="left data-v-6dda32cd">
             <view class="imgbox data-v-6dda32cd">
-                <image mode class="data-v-6dda32cd" src="https://eshopfile.zhiyousx.com/iocn_logistics@2x.png"></image>
+                <image mode class="data-v-6dda32cd" src="/static/captured/0f1cec299ff89dc0.png"></image>
                 <u-badge bgColor="#ff463c" bind:__l="__l" class="badge data-v-6dda32cd" count="{{newsCount.operateCount}}" offset="{{[-3,-3]}}" overflowCount="999" type="error" vueId="1e680ab6-2" wx:if="{{newsCount}}"></u-badge>
             </view>
             <view class="text data-v-6dda32cd">
@@ -32,7 +32,7 @@
     <view bindtap="__e" class="contents data-v-6dda32cd" data-event-opts="{{[ [ 'tap',[ [ 'tosystemnotice',[2] ] ] ] ]}}">
         <view class="left data-v-6dda32cd">
             <view class="imgbox data-v-6dda32cd">
-                <image mode class="data-v-6dda32cd" src="https://eshopfile.zhiyousx.com/icon_active@2x.png"></image>
+                <image mode class="data-v-6dda32cd" src="/static/captured/d6139ab4d1917808.png"></image>
                 <u-badge bgColor="#ff463c" bind:__l="__l" class="badge data-v-6dda32cd" count="{{newsCount.performanceCount}}" offset="{{[-3,-3]}}" overflowCount="999" type="error" vueId="1e680ab6-3" wx:if="{{newsCount}}"></u-badge>
             </view>
             <view class="text data-v-6dda32cd">

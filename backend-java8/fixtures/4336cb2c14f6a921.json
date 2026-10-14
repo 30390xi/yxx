@@ -1,0 +1,459 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064188264533",
+    "scenicName": "照金薛家寨景区",
+    "tag": "重峦叠嶂 密林如海 工农红军驻留地",
+    "level": 4,
+    "address": "铜川市耀州区照金镇薛家寨",
+    "longitude": "108.66809",
+    "latitude": "35.07948",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#D79362",
+    "centralColour": "#A96534",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/10051g000001h0l8h4D50_C_1600_1200-20201029114129.jpg"
+    ],
+    "introduction": "<p>　　薛家寨革命旧址是薛家寨保卫战的战斗遗址，传说薛刚反唐时曾屯兵于此，因以得名。这里石峰千仞，拔地而起，三面悬崖，人莫能攀，仅西北和土儿梁山岭相联，可直通桥山主脉。寨子灌木丛生，十分隐蔽，登上悬崖吊桥，再过两道石门，有天然石洞5窟，大者能容二、三百人，小者可容数十人。20世纪30年代初刘志丹、谢子长、习仲勋等老一辈无产阶级革命家开辟了以照金为中心的陕甘边革命根据地，1933年春，陕甘边党政军领导机关迁驻薛家寨后，这里就成为照金苏区的政治、经济、军事中心，是红军的后方基地。</p>",
+    "introductionText": "　　薛家寨革命旧址是薛家寨保卫战的战斗遗址，传说薛刚反唐时曾屯兵于此，因以得名。这里石峰千仞，拔地而起，三面悬崖，人莫能攀，仅西北和土儿梁山岭相联，可直通桥山主脉。寨子灌木丛生，十分隐蔽，登上悬崖吊桥，再过两道石门，有天然石洞5窟，大者能容二、三百人，小者可容数十人。20世纪30年代初刘志丹、谢子长、习仲勋等老一辈无产阶级革命家开辟了以照金为中心的陕甘边革命根据地，1933年春，陕甘边党政军领导机关迁驻薛家寨后，这里就成为照金苏区的政治、经济、军事中心，是红军的后方基地。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "18",
+        "name": "红色旅游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "51",
+        "name": "拓展游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1419544677090156546",
+        "contentId": "1419544677060796418",
+        "name": "陕文投集团景区",
+        "tagUrl": "https://eshopfile.zhiyousx.com/162728079399429661.png"
+      },
+      {
+        "id": "1418152026633732098",
+        "contentId": "1418152026625343489",
+        "name": "国家国防教育示范基地",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1559361626942615553",
+        "contentId": "1559361626913255425",
+        "name": "铜川红色旅游经典景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1813858480160460801",
+        "contentId": "1813858480143683585",
+        "name": "陕文投集团人气景区",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米（不含）以下",
+        "discount": "免票"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "65周岁（含）以上凭老年证和身份证",
+        "discount": "免票"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭残疾证",
+        "discount": "免票"
+      },
+      {
+        "peopleType": "军人",
+        "limit": "持军官证、持离休退休军官证的军队离休退休干部和退休士官 ",
+        "discount": "免票"
+      },
+      {
+        "peopleType": "警官",
+        "limit": "持警官证",
+        "discount": "免票"
+      },
+      {
+        "peopleType": "其他专职人员",
+        "limit": "持记者证、导游证（跟团）",
+        "discount": "免票"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "中小学生、全日制大学生凭学生证",
+        "discount": "半价"
+      },
+      {
+        "peopleType": "教师",
+        "limit": "凭教师资格证",
+        "discount": "半价"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区电话",
+        "telephone": "0919-6186668"
+      }
+    ],
+    "topBannerList": [
+      {
+        "id": "2097960833689714689",
+        "outId": "1320579064188264533",
+        "type": 1,
+        "advertName": "拍照打卡",
+        "advertPic": "https://eshopfile.zhiyousx.com/2023092610360135809.jpg",
+        "jumpType": 3,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "gh_bad90fd49650",
+        "newAppId": "wxf2cca76ae0520e33",
+        "appUrl": "/subPack/pages/photoWall/photoWall?photoWallId=1706281222999252993",
+        "richText": "",
+        "contentType": null,
+        "bannerPosition": 0
+      }
+    ],
+    "bannerList": [
+      {
+        "id": "2097960833706491906",
+        "outId": "1320579064188264533",
+        "type": 1,
+        "advertName": "走进革命圣地",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021062919572139108.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p style=\"text-align: center;\"><strong><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062919504440605.jpg\" /></strong></p>\n<p><strong>历史背景</strong></p>\n<p>　　\"薛家寨革命旧址\"位于耀州区照金镇田峪村秀房沟，因唐代末期薛刚曾在这里屯兵练武而得名为薛家寨。薛家寨以雄险著称，海拔1600余米，这里石峰千仞，拔地而起，三面悬崖，人莫能攀，仅西北和土儿梁山岭相联，可直通桥山主脉。寨东为黑田峪，寨西为秀房沟，灌木丛生，十分隐蔽，寨子上有天然石洞4窟:大者能容二、三百人，小者可容数十人。</p>\n<p>　　这里原是当地人朱吉祥和其父敬神修道之处，在最为险要的4号洞里供奉山神泥像，香火不断。红军在照金一带打游击时，朱吉祥的父亲已经去世，他见红军纪律严明，打富济贫，十分感动，便主动参加游击队，并将石洞献给红军作为营地。红军上寨后首先加固了前后哨门，并增筑碉堡，设岗放哨。又从3号洞开始，给洞修了堞墙。同时在党家山、鸡儿架等处建立哨卡，周围并有地雷、滚石垒及战壕、暗道等防御工事。1933年春，陕甘边党政军领导机关迁驻薛家寨后，这里就成为照金苏区的政治、经济、军事中心。当时住在薛家寨的，除边区特委、政府和游击队总指挥部外，尚有苏区修械所、被服厂、仓库、运输队、红军医院等后勤机关。</p>\n<p><strong>薛家寨保卫战</strong></p>\n<div class=\"sonConBox \">\n<div class=\"h2_content\">\n<div class=\"para\" data-pid=\"15\">　　随着照金苏区的创建，红二十六军的不断壮大和陕西苏维埃运动的迅猛发展，国民政府不断派遣正规军，与耀县、旬邑、淳化、宜君民团联合行动，对照金苏区进行&ldquo;围剿&rdquo;。根据地军民奋起抗击，取得一次又一次反&ldquo;围剿&rdquo;斗争的胜利。</div>\n<div class=\"para\" style=\"text-align: center;\" data-pid=\"15\"><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062919554128260.jpg\" /></div>\n<div data-pid=\"16\">　　1933年9月下旬，国民军刘文伯部纠集耀县夏老么、雷天一民团和淳化、旬邑民团，乘红军主力西击旬邑之机，勾结叛徒陈克敏部，兵分几路&ldquo;围剿&rdquo;薛家寨。当时寨上只有边区政治保卫队留守，兵力有限，其他便是一些后勤人员。在敌人强大攻势下，保卫队和后勤人员挺身而出，投入战斗，利用天险巧布地雷阵，并以麻辫手榴弹打得敌人寸步难进。这时李妙斋、张秀山率游击队赶回，立即发起猛攻，敌人死伤甚众，残部狼狈溃退，取得了薛家寨第一次保卫战的胜利。不幸的是，游击队总指挥李妙斋被伏敌击中，英勇牺牲。</div>\n<div data-pid=\"17\">　　10月中旬，国民军又以数千名兵力，配合机枪大炮，向照金根据地发动大规模&ldquo;围剿&rdquo;。他们沿黄陵、宜君、旬邑、淳化边境设置堵截线，由孙友仁部和三原、淳化、耀县民团，分别在坟滩和秀房沟一带安营扎寨。开始向薛家寨发起进攻，几门大炮从土儿梁上轮番发射，均未击中要害。接着以炮火掩护步兵，几次试图登山，也在地雷阵的杀伤下，终未得逞。战斗进行了五、六天，游击队愈战愈勇，山寨岿然不动。国民军见硬攻不行，就改用偷袭战术。15日夜，余人在叛徒陈克敏率领下，从未曾设防的后山石缝间偷偷爬上山寨，突破游击队阵地。在这种危急情况下，根据地党政军领导果断决定&ldquo;保存实力，分路突围&rdquo;：一路由游击队总指挥吴岱峰和政委张秀山率领，向党家山突围；另一路由秦武山、惠子俊、刘约山带领，向黑田峪突围。两路均按事前安排，转移到安全地带。</div>\n<div style=\"text-align: left;\" data-pid=\"17\"><br /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021062919561227424.jpg\" />　　国民军占领薛家寨后，纵兵劫掠，屠杀革命群众，陕甘边革命委员会主席周冬至和委员王满堂、王万亮等先后遇害。</div>\n<div data-pid=\"18\">　　薛家寨失守后，然而，这里的革命烽火并没有熄灭，留下的游击队继续坚持游击战争，狠狠打击盘踞在苏区的反动民团。当年冬季，陕甘边第三路游击队采用里应外合，攻克叛徒陈克敏民团踞巢龙家寨，彻底摧毁了这支反动武装。</div>\n<div data-pid=\"18\">　　1934年秋，红军和游击队主力返回照金，根据地重新恢复。从此，照金人民在党的领导下，一直战斗到全国解放。</div>\n</div>\n</div>\n<div data-pid=\"18\">&nbsp;</div>\n<div data-pid=\"18\">&nbsp;</div>\n<div style=\"text-align: center;\" data-pid=\"18\">来源：网络综合整理</div>\n<div data-pid=\"18\">&nbsp;</div>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2097960833647771650",
+        "resourcesId": "1321658627176816642",
+        "title": "薛家寨宣传片",
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021042517281270041.mp4",
+        "coverImage": "https://eshopfile.zhiyousx.com/2021042517275583590.jpg",
+        "videoId": null,
+        "resourcesType": 2,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-09-10 16:10:15",
+        "updateTime": "2026-09-10 16:10:15",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2097960833647771651",
+        "resourcesId": "1321658627176816642",
+        "title": "薛家寨·溪山冰谷",
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/再回冰晶仙宫｜薛家寨·溪山冰谷即将惊艳亮相！_腾讯新闻-20201228093755.mp4",
+        "coverImage": "https://eshopfile.zhiyousx.com/1000.webp-20201228094009.jpg",
+        "videoId": null,
+        "resourcesType": 2,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-09-10 16:10:15",
+        "updateTime": "2026-09-10 16:10:15",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2097960833651965954",
+        "resourcesId": "1321658627176816642",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/176854987692823797.jpg",
+        "coverImage": "",
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": "",
+        "createTime": "2026-09-10 16:10:15",
+        "updateTime": "2026-09-10 16:10:15",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2097960833651965955",
+        "resourcesId": "1321658627176816642",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/176854987762581493.jpg",
+        "coverImage": "",
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": "",
+        "createTime": "2026-09-10 16:10:15",
+        "updateTime": "2026-09-10 16:10:15",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2097960833656160257",
+        "resourcesId": "1321658627176816642",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/176854987852201510.jpg",
+        "coverImage": "",
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": "",
+        "createTime": "2026-09-10 16:10:15",
+        "updateTime": "2026-09-10 16:10:15",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2097960833656160258",
+        "resourcesId": "1321658627176816642",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/176854987891003246.jpg",
+        "coverImage": "",
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": "",
+        "createTime": "2026-09-10 16:10:15",
+        "updateTime": "2026-09-10 16:10:15",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2097960833660354562",
+        "resourcesId": "1321658627176816642",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/176854988031698168.png",
+        "coverImage": "",
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": "",
+        "createTime": "2026-09-10 16:10:15",
+        "updateTime": "2026-09-10 16:10:15",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2097960833664548865",
+        "resourcesId": "1321658627176816642",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/176854987932700780.png",
+        "coverImage": "",
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": "",
+        "createTime": "2026-09-10 16:10:15",
+        "updateTime": "2026-09-10 16:10:15",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2097960833664548866",
+        "resourcesId": "1321658627176816642",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/176854988123505382.jpg",
+        "coverImage": "",
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": "",
+        "createTime": "2026-09-10 16:10:15",
+        "updateTime": "2026-09-10 16:10:15",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2097960833668743170",
+        "resourcesId": "1321658627176816642",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/176854988311850127.png",
+        "coverImage": "",
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": "",
+        "createTime": "2026-09-10 16:10:15",
+        "updateTime": "2026-09-10 16:10:15",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2097960833668743171",
+        "resourcesId": "1321658627176816642",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/176854988397311596.jpg",
+        "coverImage": "",
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 11,
+        "describe": "",
+        "createTime": "2026-09-10 16:10:15",
+        "updateTime": "2026-09-10 16:10:15",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455081861037531138",
+      "rankingId": null,
+      "indexInRanking": 11,
+      "rankingName": "铜川必游景区人气榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": "九月免票 · 教师与全日制大学生专享",
+    "ticketAreaNotice": "<p>即日起&mdash;2026年9月30日<span class=\"\">薛家寨景区</span>特推出九月惠民免票福利，诚邀广大教师与全日制大学生走进红色薛家寨，重温峥嵘岁月，邂逅秋日山水风光。</p>\n<p>温馨提示：</p>\n<p>教师：持本人&ldquo;教师资格证原件&rdquo;全日制大学生：持本人&ldquo;学生证原件&rdquo;</p>\n<p></p>\n<p>1. 入园须出示本人有效证件原件，证件仅限本人使用，转借无效；</p>\n<p>2. 本次免票仅包含景区首道门票，观光车、其他二消需另行自理；</p>\n<p>3. 请自觉遵守景区游览管理规定，文明出游。</p>",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

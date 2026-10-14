@@ -1,0 +1,26 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1424564160095633409",
+    "contentId": "1424564160087244801",
+    "rankingName": "三秦套餐",
+    "rankingClass": "2",
+    "rankingType": "2",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/162847272739904072.jpg",
+    "rankingDescribe": "凉皮、肉夹馍和冰峰三样陕西美食被冠以“三秦套餐”。吃着凉皮肉夹馍，喝着冰峰汽水，是陕西人的一大享受！",
+    "rankingTotalUserData": "123",
+    "rankingInclude": "个美食",
+    "rankingPersonalInfo": "我吃过的美食",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#AB4646",
+    "tagUrl": null,
+    "travelMapFlag": null,
+    "type": "7",
+    "rankingItemList": null,
+    "sumCount": "3",
+    "favoriteSum": "199",
+    "personalInfoValue": null
+  },
+  "msg": "成功",
+  "success": true
+}

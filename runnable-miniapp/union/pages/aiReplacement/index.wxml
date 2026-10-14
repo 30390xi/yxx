@@ -1,7 +1,7 @@
 <view class="replacement_box data-v-2f6e3365">
     <uni-navbar bind:__l="__l" class="data-v-2f6e3365" type="transparentFixed" vueId="4dd3e33c-1"></uni-navbar>
     <view class="replacement_header data-v-2f6e3365">
-        <image mode bindtap="__e" class="replacement_header-icon data-v-2f6e3365" data-event-opts="{{[ [ 'tap',[ [ 'goList',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/173753619182414398.png"></image>
+        <image mode bindtap="__e" class="replacement_header-icon data-v-2f6e3365" data-event-opts="{{[ [ 'tap',[ [ 'goList',['$event'] ] ] ] ]}}" src="/static/captured/c007c826835d6bc8.png"></image>
     </view>
     <view class="replacement_count-box data-v-2f6e3365">
         <view class="replacement_count-top data-v-2f6e3365"></view>
@@ -15,7 +15,7 @@
             </view>
             <view class="{{['up-photo','data-v-2f6e3365',smallScreen?'up-photo-act':'up-photo-acted']}}" hidden="{{!(typeIndex==2||typeIndex==3)}}">
                 <view class="up-photo-copy data-v-2f6e3365" wx:if="{{!humanImg}}">
-                    <image mode bindtap="__e" class="image data-v-2f6e3365" data-event-opts="{{[ [ 'tap',[ [ 'chooseImage',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/173745921820092720.png"></image>
+                    <image mode bindtap="__e" class="image data-v-2f6e3365" data-event-opts="{{[ [ 'tap',[ [ 'chooseImage',['$event'] ] ] ] ]}}" src="/static/captured/20fb1b88e35b4646.png"></image>
                     <view class="text data-v-2f6e3365">请选择人物面部清晰的上半身照片，避免生成视频效果不佳</view>
                 </view>
                 <image class="{{['data-v-2f6e3365',smallScreen?'image-logo1':'image-logo']}}" mode="aspectFill" src="{{humanImg}}" wx:if="{{humanImg}}"></image>
@@ -36,7 +36,7 @@
     <view class="loading-box data-v-2f6e3365" wx:if="{{showLoading}}">
         <view class="loading-warp data-v-2f6e3365">
             <view class="loading-top data-v-2f6e3365"></view>
-            <image class="loading-bottom data-v-2f6e3365" src="https://eshopfile.zhiyousx.com/173746268882550876.png"></image>
+            <image class="loading-bottom data-v-2f6e3365" src="/static/captured/0ef36e769ce6edde.png"></image>
         </view>
     </view>
 </view>

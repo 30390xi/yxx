@@ -1,0 +1,620 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941139",
+    "scenicName": "司马迁祠",
+    "tag": "亦欲以究天人之际，通古今之变，成一家之言",
+    "level": 4,
+    "cityId": "1320663137836642305",
+    "cityName": "渭南",
+    "address": "渭南市韩城市芝川镇",
+    "longitude": "110.413734",
+    "latitude": "35.374669",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 161,
+    "topColour": "#41703B",
+    "centralColour": "#33622D",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021082710324392706.jpg"
+    ],
+    "introduction": "<p>司马迁祠始建于西晋永嘉四年，距今已有1700余年的历史，是为纪念史学家、文学家、思想家司马迁所修建的祠，也是一处集朝圣祭拜、历史熏陶、休闲观光于一体的旅游胜地。祠墓经历代多次修葺扩建，才形成今天的整体格局。景区保存有九十九级台阶、献殿、司马迁墓等珍贵遗迹，并设有史记大讲堂、千秋太史公、史记纪念馆、风追司马等展馆，每年吸引着五湖四海的游客前来拜谒华夏&ldquo;史圣&rdquo;，感受《史记》的博大精深。</p>",
+    "introductionText": "司马迁祠始建于西晋永嘉四年，距今已有1700余年的历史，是为纪念史学家、文学家、思想家司马迁所修建的祠，也是一处集朝圣祭拜、历史熏陶、休闲观光于一体的旅游胜地。祠墓经历代多次修葺扩建，才形成今天的整体格局。景区保存有九十九级台阶、献殿、司马迁墓等珍贵遗迹，并设有史记大讲堂、千秋太史公、史记纪念馆、风追司马等展馆，每年吸引着五湖四海的游客前来拜谒华夏“史圣”，感受《史记》的博大精深。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1419544677090156546",
+        "contentId": "1419544677060796418",
+        "name": "陕文投集团景区",
+        "tagUrl": "https://eshopfile.zhiyousx.com/162728079399429661.png"
+      },
+      {
+        "id": "1450028527872122881",
+        "contentId": "1450028527859539970",
+        "name": "陕西省文化遗址公园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1813858480160460801",
+        "contentId": "1813858480143683585",
+        "name": "陕文投集团人气景区",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "夏季",
+        "openTimeContent": "5月1日-10月31日  周一至周五  8:00-18:00  最晚售票时间17:30<br/>5月1日-10月31日 周六至周日   8:00-18:30  最晚售票时间18:00"
+      },
+      {
+        "openTimeTitle": "冬季",
+        "openTimeContent": "11月1日-次年4月30日 周一至周五   8:00-17:30  最晚售票时间17:00<br/>11月1日-次年4月30日 周六至周日    8:00-18:00  最晚售票时间17:30"
+      },
+      {
+        "openTimeTitle": "春节",
+        "openTimeContent": "2月15日-2月23日 营业时间：8:00-18:30,最晚入园时间18:00"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "6周岁(含6周岁) 以下或身高1.2米(包含1.2米)以下的儿童",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "中老年人",
+        "limit": "60周岁(含)-65周岁(不含)凭身份证",
+        "discount": "半价"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "65周岁(含65周岁)以上老人,凭本人中国居民身份证(或陕西省敬老优待证)",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭有效残疾证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "现役军人",
+        "limit": "中国现役军人(含军队离退休干部)、军队院校学员、退伍老红军战士、残疾军人、烈士遗属、因公牺牲军人遗属、病故军人遗属，凭有效证件",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "警察",
+        "limit": "凭警官证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "现役军人家属",
+        "limit": "现役军人本人所携的配偶和18岁以下未成年子女,凭结婚证、户口本等有效证件",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "退伍军人",
+        "limit": "持本人退伍证等有效证件享受首道门票免费政策，可携配偶、子女",
+        "discount": "半价"
+      },
+      {
+        "peopleType": "韩城籍退役军人",
+        "limit": "持优待证及身份证,可携配偶、子女",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "消防救援人员",
+        "limit": "消防救援人员(含离退休),凭有效证件",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "导游",
+        "limit": "凭本人身份证及导游证在售票窗口换票",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "6周岁(不含6周岁)至18周岁(含18周岁)未成年人、全日制大学本科及以下学历学生，凭有效学证",
+        "discount": "半价"
+      },
+      {
+        "peopleType": "医护人员、文博工作者、消防人员",
+        "limit": "凭本人身份证及有效资格证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "记者",
+        "limit": "凭国家新闻出版总署颁发的记者证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "二级以上重度残疾人",
+        "limit": "需要陪护的陪同人员1名",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "韩城市民",
+        "limit": "持本人韩城市身份证",
+        "discount": "优惠"
+      },
+      {
+        "peopleType": "三秦优才卡",
+        "limit": "持《三秦优才卡》者可免费入园，且单次可携带3人",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "东秦优才卡",
+        "limit": "持《东秦优才卡》者可免费入园，且单次可携带3人",
+        "discount": "免费"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "8",
+        "name": "宠物禁止入园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (13).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "司马迁祠停车场",
+        "additionalExplainContent": "参考价格：¥10/次；地址：景区门口；库位：600"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "投诉电话",
+        "telephone": "0913-5211000"
+      },
+      {
+        "telephoneTitle": "救援电话",
+        "telephone": "0913-5121166"
+      },
+      {
+        "telephoneTitle": "咨询电话",
+        "telephone": "0913-5418883"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "陕文投韩城景区公司",
+        "wxSubscription": ""
+      },
+      {
+        "wxSubscriptionType": "服务号",
+        "wxSubscriptionName": "韩城司马迁祠",
+        "wxSubscription": null
+      }
+    ],
+    "sinaWeiboVoList": [
+      {
+        "sinaWeibo": "陕文投韩城公司",
+        "sinaWeiboUrl": ""
+      }
+    ],
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2102206892217597953",
+        "resourcesId": "1431087019181846529",
+        "title": "司马迁祠景区",
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082710311727387.mp4",
+        "coverImage": "https://eshopfile.zhiyousx.com/163003147257082000.jpg",
+        "videoId": null,
+        "resourcesType": 2,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-09-22 09:22:34",
+        "updateTime": "2026-09-22 09:22:34",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102206892221792258",
+        "resourcesId": "1431087019181846529",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082710460619555.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-09-22 09:22:34",
+        "updateTime": "2026-09-22 09:22:34",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102206892221792259",
+        "resourcesId": "1431087019181846529",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082710461437481.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-09-22 09:22:34",
+        "updateTime": "2026-09-22 09:22:34",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102206892225986561",
+        "resourcesId": "1431087019181846529",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021082710462165723.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-09-22 09:22:34",
+        "updateTime": "2026-09-22 09:22:34",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102206892225986562",
+        "resourcesId": "1431087019181846529",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/171107921807146945.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": "",
+        "createTime": "2026-09-22 09:22:34",
+        "updateTime": "2026-09-22 09:22:34",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102206892230180865",
+        "resourcesId": "1431087019181846529",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/171107921872159265.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": "",
+        "createTime": "2026-09-22 09:22:34",
+        "updateTime": "2026-09-22 09:22:34",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102206892234375170",
+        "resourcesId": "1431087019181846529",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/171107921913846866.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": "",
+        "createTime": "2026-09-22 09:22:34",
+        "updateTime": "2026-09-22 09:22:34",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102206892234375171",
+        "resourcesId": "1431087019181846529",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/171107921958132001.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": "",
+        "createTime": "2026-09-22 09:22:34",
+        "updateTime": "2026-09-22 09:22:34",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102206892238569473",
+        "resourcesId": "1431087019181846529",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/171107922001960926.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": "",
+        "createTime": "2026-09-22 09:22:34",
+        "updateTime": "2026-09-22 09:22:34",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102206892238569474",
+        "resourcesId": "1431087019181846529",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/171107922056734180.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": "",
+        "createTime": "2026-09-22 09:22:34",
+        "updateTime": "2026-09-22 09:22:34",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102206892242763778",
+        "resourcesId": "1431087019181846529",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/171107922095113848.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 11,
+        "describe": "",
+        "createTime": "2026-09-22 09:22:34",
+        "updateTime": "2026-09-22 09:22:34",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      },
+      {
+        "id": "2102206892242763779",
+        "resourcesId": "1431087019181846529",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/171107922139853102.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 12,
+        "describe": "",
+        "createTime": "2026-09-22 09:22:34",
+        "updateTime": "2026-09-22 09:22:34",
+        "createBy": "1580119846380310530",
+        "updateBy": "1580119846380310530",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1606179274804039681",
+      "rankingId": null,
+      "indexInRanking": 2,
+      "rankingName": "韩城必游人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1439119981701840898",
+        "rankingId": "1439119983840935938",
+        "indexInRanking": null,
+        "rankingName": "陕西人气博物馆排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1566623053130653698",
+        "rankingId": "1566623054191812609",
+        "indexInRanking": null,
+        "rankingName": "渭南亲子游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1455112666791124994",
+        "rankingId": "1455112668192022530",
+        "indexInRanking": null,
+        "rankingName": "渭南自驾游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "2102206892259540994",
+        "scenicSpotId": "1320579064720941139",
+        "contentModuleName": "十二本纪园",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1828619046307946498",
+            "type": 5,
+            "title": "五帝文化园",
+            "subtitle": "",
+            "coverImage": "https://eshopfile.zhiyousx.com/172481166571099745.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1828059436650397698",
+            "type": 5,
+            "title": "夏文化园",
+            "subtitle": "九鼎",
+            "coverImage": "https://eshopfile.zhiyousx.com/172467824116298189.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": "",
+    "ticketAreaNoticeName": "",
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "直通车",
+    "scenicInfoTitle": "",
+    "shareDesc": "[\"司马迁祠欢迎您！\"]",
+    "shareImage": "https://eshopfile.zhiyousx.com/172468599073361322.png",
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": [
+      "司马迁祠欢迎您！"
+    ],
+    "visitNoticeTitle": "",
+    "scenicType": 3,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 0,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": "1",
+    "openScreenImg": "https://eshopfile.zhiyousx.com/2024082715372288871.png",
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

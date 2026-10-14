@@ -1,0 +1,282 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064590917639",
+    "scenicName": "前坡岭战斗遗址",
+    "tag": "彻底打破国民党军围追堵截",
+    "level": -1,
+    "cityId": "1320664941605466114",
+    "cityName": "商洛",
+    "address": "商南县赵川镇东侧",
+    "longitude": "110.7211630000",
+    "latitude": "33.1920160000",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 205,
+    "topColour": "#5E631F",
+    "centralColour": "#2D3E17",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/1-20201028195403.jpg",
+      "https://eshopfile.zhiyousx.com/2-20201028195407.jpg"
+    ],
+    "introduction": "<p>　　前坡岭战斗是中原局、中原军区指挥机关率北路突围部队彻底打破国民党围追堵截，胜利完成突围目标的最后一仗，其胜利标志着北路突围部队取得中原突围战役的全面胜利，实现了伟大的战略转移。景区空间布局包括&ldquo;一带四区两飞地&rdquo;，分别是：滔河生态景观带、入口形象区瞻仰祭奠区、战斗体验区、景观农业区和地委行署、地委党校两处遗址。前坡岭战斗遗址是地方干部群众和广大师生的思想教育基地，也是全国各地爱国人士走访红军长征路的重要驿站，是商南红色旅游景点的重要亮点之一，已入选第二批全国红色旅游经典景区名录。</p>",
+    "introductionText": "　　前坡岭战斗是中原局、中原军区指挥机关率北路突围部队彻底打破国民党围追堵截，胜利完成突围目标的最后一仗，其胜利标志着北路突围部队取得中原突围战役的全面胜利，实现了伟大的战略转移。景区空间布局包括“一带四区两飞地”，分别是：滔河生态景观带、入口形象区瞻仰祭奠区、战斗体验区、景观农业区和地委行署、地委党校两处遗址。前坡岭战斗遗址是地方干部群众和广大师生的思想教育基地，也是全国各地爱国人士走访红军长征路的重要驿站，是商南红色旅游景点的重要亮点之一，已入选第二批全国红色旅游经典景区名录。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "18",
+        "name": "红色旅游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026361102337",
+        "contentId": "1418152026344325122",
+        "name": "全国红色旅游经典景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "<p>免费开放</p>",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "开放时间",
+        "openTimeContent": "08:00-18:00"
+      }
+    ],
+    "discountVoList": null,
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": null,
+        "parentId": null,
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": null,
+    "wxSubscriptionVoList": null,
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "1418415827312472066",
+        "outId": "1320579064590917639",
+        "type": 1,
+        "advertName": "前坡岭战斗遗址",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021062915350149086.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p>　　商南是革命老区，从1927年第一个党组织建立到1949年全境解放，23年间中共党组织在商南的革命斗争活动从未间断。作为当时革命活动最为活跃的区域之一，留下了众多历史遗址，这些地方既是革命先辈浴血奋战的历史见证，又是进行爱国主义教育和革命传统教育的好教材、好场地，同时也是宝贵的红色资源。说起商南的红色历史重要标志，就一定绕不开赵川前坡岭战斗遗址。</p>\n<p><img class=\"wscnph\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://eshopfile.zhiyousx.com/2021062915322142443.jpeg\" /></p>\n<p>　　1946年7月19日，李先念、郑位三、王震等率中共中央中原局、中原军区机关及中原突围北路主力部队，突破敌人重重包围，进抵商南县赵川镇。&ldquo;超前堵击&rdquo;的国民党军整编第三师在赵川设伏，企图将我军堵击在赵川聚而歼之。担任前卫任务的我军十五旅四十五团抢占前坡岭，阻击敌军进攻，与6倍于我之敌激战19小时，打退敌人17次猛攻，取得了战斗的胜利，完成了掩护中原局、中原军区和主力部队安全通过的任务。</p>\n<p>　　赵川前坡岭阻击战的胜利，标志着中原突围北路主力战略转移的胜利完成。前坡岭战斗是中共中央中原局、中原军区指挥机关率中原突围北路主力部队，彻底打破国民党军围追堵截，胜利完成&ldquo;向西第一步陕西&rdquo;突围目标的最后一仗，为执行中共中央中原局关于中原部队&ldquo;应考虑依靠巩部及广大民众在陕南10余县建立根据地&rdquo;的批示创造了条件。</p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\">来源：网络综合整理</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1418415827295694850",
+        "resourcesId": "1321420251060264961",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062915363239793.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2021-07-23 11:41:00",
+        "updateTime": "2021-07-23 11:41:00",
+        "createBy": "1290153639661703170",
+        "updateBy": "1290153639661703170",
+        "isDeleted": 0
+      },
+      {
+        "id": "1418415827295694851",
+        "resourcesId": "1321420251060264961",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062915372849535.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2021-07-23 11:41:00",
+        "updateTime": "2021-07-23 11:41:00",
+        "createBy": "1290153639661703170",
+        "updateBy": "1290153639661703170",
+        "isDeleted": 0
+      },
+      {
+        "id": "1418415827299889153",
+        "resourcesId": "1321420251060264961",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062915392282685.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2021-07-23 11:41:00",
+        "updateTime": "2021-07-23 11:41:00",
+        "createBy": "1290153639661703170",
+        "updateBy": "1290153639661703170",
+        "isDeleted": 0
+      },
+      {
+        "id": "1418415827304083458",
+        "resourcesId": "1321420251060264961",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/3-20201028195451.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2021-07-23 11:41:00",
+        "updateTime": "2021-07-23 11:41:00",
+        "createBy": "1290153639661703170",
+        "updateBy": "1290153639661703170",
+        "isDeleted": 0
+      },
+      {
+        "id": "1418415827304083459",
+        "resourcesId": "1321420251060264961",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/4-20201028195507.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2021-07-23 11:41:00",
+        "updateTime": "2021-07-23 11:41:00",
+        "createBy": "1290153639661703170",
+        "updateBy": "1290153639661703170",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455809122913067009",
+      "rankingId": null,
+      "indexInRanking": 10,
+      "rankingName": "商洛自驾游景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": null,
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "scenicInfoTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": 0,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": null,
+    "hotelArrivalDepartureTime": null,
+    "hotelChildrenBed": null,
+    "hotelPet": null,
+    "hotelBreakfast": null,
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

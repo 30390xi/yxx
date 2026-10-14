@@ -1,0 +1,145 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1455105784844230658",
+    "contentId": "1455105782776438786",
+    "rankingName": "渭南美食人气排行榜",
+    "rankingClass": "2",
+    "rankingType": "2",
+    "rankingMainPictureUrl": "https://res.zhiyousx.com/ysx/pro/2021/11/01/163575922140633598.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": "10",
+    "rankingInclude": "个美食",
+    "rankingPersonalInfo": "我吃过的美食",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#F6A700",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1451096320021372930",
+        "originType": "2",
+        "originName": "合阳踅面",
+        "originSubtitleName": "我国最早的“方便面”",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480287580348452.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480326236755782.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480327062159265.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480327742411654.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480328453159719.jpg"
+        ],
+        "sort": "10",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "1",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451039083605270529",
+        "originType": "2",
+        "originName": "大荔炉齿面",
+        "originSubtitleName": "面条柔韧光润，臊子香辣味浓",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478953115120047.png",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478958744959286.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478964149324318.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478957530190372.png",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478958199611727.png"
+        ],
+        "sort": "11",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451034389126324226",
+        "originType": "2",
+        "originName": "华阴麻食泡",
+        "originSubtitleName": "做工精细，色味俱全",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478783222005251.png",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478850555134258.png",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478851178000406.png",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163478851739004923.png"
+        ],
+        "sort": "12",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "1",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451087350112198657",
+        "originType": "2",
+        "originName": "大荔蜜汁轱辘",
+        "originSubtitleName": "色泽金黄，外脆里嫩",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480064758006456.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480109047112145.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480110461015018.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480113534204293.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480115028851801.jpg"
+        ],
+        "sort": "13",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "0",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1452568185680175106",
+        "originType": "2",
+        "originName": "浆水面",
+        "originSubtitleName": "酸而不烈，酸中寓香",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/25/163515415295206213.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/25/163515420457706343.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/25/163515420886372787.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/25/163515421380641251.jpg"
+        ],
+        "sort": "14",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "2",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1451084668697845762",
+        "originType": "2",
+        "originName": "大荔月牙烧饼",
+        "originSubtitleName": "大荔有一怪，烧饼半个卖",
+        "originUrl": "https://res.zhiyousx.com/ysx/pro/2021/10/21/163479965154128294.jpg",
+        "originAssistUrlList": [
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480024475822004.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480023761280724.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480038065932460.jpg",
+          "https://res.zhiyousx.com/ysx/pro/2021/10/21/163480037270364357.jpg"
+        ],
+        "sort": "15",
+        "favoriteValue": null,
+        "isBookable": null,
+        "favoriteSum": "1",
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "16",
+    "favoriteSum": "101",
+    "personalInfoValue": "0/16"
+  },
+  "msg": "成功",
+  "success": true
+}

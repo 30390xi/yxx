@@ -4,7 +4,7 @@
             <image class="videoPlay data-v-4fc75733" mode="aspectFill" src="{{item.$orig.mainImage}}"></image>
             <view class="video-bg data-v-4fc75733">
                 <view class="hot-box data-v-4fc75733">
-                    <image class="hot-icon data-v-4fc75733" mode="aspectFill" src="https://eshopfile.zhiyousx.com/2024012312210644492.png"></image>
+                    <image class="hot-icon data-v-4fc75733" mode="aspectFill" src="/static/captured/49696dc59143a03a.png"></image>
                     <view class="hot data-v-4fc75733">{{item.f0}}</view>
                 </view>
             </view>

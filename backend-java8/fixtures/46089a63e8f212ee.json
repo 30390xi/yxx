@@ -1,0 +1,479 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941090",
+    "scenicName": "少华山国家森林公园",
+    "tag": "陕西的九寨沟",
+    "level": 4,
+    "cityId": "1320663137836642305",
+    "cityName": "渭南",
+    "address": "渭南市华州区宁山寺附近",
+    "longitude": "109.859333",
+    "latitude": "34.450378",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 170,
+    "topColour": "#7BA277",
+    "centralColour": "#5C7659",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/cb655fd9-85ad-4bb3-bc20-7dfcaf6d4190-20201028122913.jpg",
+      "https://eshopfile.zhiyousx.com/860f847b-d856-42dc-95e0-f2abffdbe388-20201028122917.JPG"
+    ],
+    "introduction": "<p>　　公园位于陕西省华县县城东南5公里处的秦岭北麓，西起少华峰，东至蟠龙山，南依秦岭主脊，北接关中平原，东西宽约10公里，南北纵深35公里，总面积6300公顷。由红崖湖、石门峡、密林谷、潜龙寺、少华峰五大景区组成。区内层峦叠嶂，群峰竞秀，山势峻险，沟谷幽深，河水奔流。有峻秀的山峰，神奇的巨石，跌宕的流水，多姿的瀑布，澄碧的湖潭，茂密的森林，丰富的动植物资源。海拔高度530米&mdash;2491米，森林覆盖率90％，气候宜人，空气中富含负离子，生态环境近似原始，四季风光变幻无穷，充满魅力，人称&ldquo;陕西的九寨沟&rdquo;。</p>",
+    "introductionText": "　　公园位于陕西省华县县城东南5公里处的秦岭北麓，西起少华峰，东至蟠龙山，南依秦岭主脊，北接关中平原，东西宽约10公里，南北纵深35公里，总面积6300公顷。由红崖湖、石门峡、密林谷、潜龙寺、少华峰五大景区组成。区内层峦叠嶂，群峰竞秀，山势峻险，沟谷幽深，河水奔流。有峻秀的山峰，神奇的巨石，跌宕的流水，多姿的瀑布，澄碧的湖潭，茂密的森林，丰富的动植物资源。海拔高度530米—2491米，森林覆盖率90％，气候宜人，空气中富含负离子，生态环境近似原始，四季风光变幻无穷，充满魅力，人称“陕西的九寨沟”。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "50",
+        "name": "康养游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "51",
+        "name": "拓展游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "周内",
+        "openTimeContent": "9：00-18：00，最晚入园时间15：30"
+      },
+      {
+        "openTimeTitle": "周末",
+        "openTimeContent": "8：30-18：00，最晚入园时间15：30"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米(不含)以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "老年人",
+        "limit": "65周岁(含)以上凭老年证或身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "残疾证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "军人",
+        "limit": "现役军人及退役军人凭军官证或者警官证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "全日制大中小学生(不含成人教育、研究生)",
+        "discount": "半票"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "10",
+        "name": "商店",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (19).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "11",
+        "name": "餐厅",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (22).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "54",
+        "name": "手机充电",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016402390363.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "预订提示",
+        "additionalExplainContent": "疫情防控期间，为了保护好您的健康与安全，请您一定要做好自我防护，建议减少外出，避免去人群密集的公共场所，进入景区佩戴口罩<br/>司时，请您配合景区做好入园体温检测以及信息登记工作。由此给您带来不便敬请谅解<br/>另付费项目:景区内观光车、索道等<br/>为保证取票、入园顺利，预订时请务必填写真实姓名、手机号码等信息为了保障安全，您可以现场选择是否需要保险，保险费现场另付本门票不包含索道等自费项目<br/>玻璃栈道需乘坐索道上山方可参观体验，索道运载量有限，详情以景区通知为准<br/>请根据自身条件合理参与高空、高速、水上、潜水、探险等高风险旅游项日，安全快乐出游"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<div class=\"para\" data-pid=\"31\">西安纺织城汽车站每天早上8点有一趟车出发直达少华山，下午5点返程回西安。<sup class=\"sup--normal\" data-sup=\"12\" data-ctrmap=\":12,\">&nbsp;</sup></div>\n<div class=\"para\" data-pid=\"32\">公交大巴：从西安城东客运站 做到渭南大巴直达华县城 转坐 4路公交车就可直达景区售票处。</div>\n<div class=\"para\" data-pid=\"33\">公交大巴：西安纺织城汽车站每天早上8点有一趟车出发直达少华山。</div>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<div class=\"para\" data-pid=\"29\">从西安方向出发的自驾车辆，经连霍高速至华州。少华山出口下，经310国道向东5公里便可到达。</div>\n<div class=\"para\" data-pid=\"30\">从山西方向出发的自驾车辆，经连霍高速至罗敷出口下，经310国道向西11公里便可到达。</div>"
+      }
+    ],
+    "officialWebsite": [
+      "http://www.shaohs.cn/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "咨询电话",
+        "telephone": "0913-4810160"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "陕西少华山国家森林公园",
+        "wxSubscription": "gh_fbc43c669ddd"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2018948730705862657",
+        "resourcesId": "1321308472355368962",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/3d544433-45cc-485a-9c62-ec96e9783bfa-20201028122925.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-02-04 15:24:22",
+        "updateTime": "2026-02-04 15:24:22",
+        "createBy": "2015606890133848066",
+        "updateBy": "2015606890133848066",
+        "isDeleted": 0
+      },
+      {
+        "id": "2018948730710056962",
+        "resourcesId": "1321308472355368962",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/61bfbf3c-9798-4659-943f-aebbd48ee984-20201028122940.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-02-04 15:24:22",
+        "updateTime": "2026-02-04 15:24:22",
+        "createBy": "2015606890133848066",
+        "updateBy": "2015606890133848066",
+        "isDeleted": 0
+      },
+      {
+        "id": "2018948730714251266",
+        "resourcesId": "1321308472355368962",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/f0183a52-8da8-43a1-afc4-ca25cfb8eefc-20201028123057.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-02-04 15:24:22",
+        "updateTime": "2026-02-04 15:24:22",
+        "createBy": "2015606890133848066",
+        "updateBy": "2015606890133848066",
+        "isDeleted": 0
+      },
+      {
+        "id": "2018948730714251267",
+        "resourcesId": "1321308472355368962",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072217240266835.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-02-04 15:24:22",
+        "updateTime": "2026-02-04 15:24:22",
+        "createBy": "2015606890133848066",
+        "updateBy": "2015606890133848066",
+        "isDeleted": 0
+      },
+      {
+        "id": "2018948730718445569",
+        "resourcesId": "1321308472355368962",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072217241004633.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2026-02-04 15:24:22",
+        "updateTime": "2026-02-04 15:24:22",
+        "createBy": "2015606890133848066",
+        "updateBy": "2015606890133848066",
+        "isDeleted": 0
+      },
+      {
+        "id": "2018948730718445570",
+        "resourcesId": "1321308472355368962",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072217242180945.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2026-02-04 15:24:22",
+        "updateTime": "2026-02-04 15:24:22",
+        "createBy": "2015606890133848066",
+        "updateBy": "2015606890133848066",
+        "isDeleted": 0
+      },
+      {
+        "id": "2018948730722639874",
+        "resourcesId": "1321308472355368962",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072217242858793.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2026-02-04 15:24:22",
+        "updateTime": "2026-02-04 15:24:22",
+        "createBy": "2015606890133848066",
+        "updateBy": "2015606890133848066",
+        "isDeleted": 0
+      },
+      {
+        "id": "2018948730726834178",
+        "resourcesId": "1321308472355368962",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072217243796775.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2026-02-04 15:24:22",
+        "updateTime": "2026-02-04 15:24:22",
+        "createBy": "2015606890133848066",
+        "updateBy": "2015606890133848066",
+        "isDeleted": 0
+      },
+      {
+        "id": "2018948730726834179",
+        "resourcesId": "1321308472355368962",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072217244906421.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": null,
+        "createTime": "2026-02-04 15:24:22",
+        "updateTime": "2026-02-04 15:24:22",
+        "createBy": "2015606890133848066",
+        "updateBy": "2015606890133848066",
+        "isDeleted": 0
+      },
+      {
+        "id": "2018948730731028481",
+        "resourcesId": "1321308472355368962",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072217245830895.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": null,
+        "createTime": "2026-02-04 15:24:22",
+        "updateTime": "2026-02-04 15:24:22",
+        "createBy": "2015606890133848066",
+        "updateBy": "2015606890133848066",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455112666791124994",
+      "rankingId": null,
+      "indexInRanking": 4,
+      "rankingName": "渭南自驾游景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1566623053130653698",
+        "rankingId": "1566623054191812609",
+        "indexInRanking": null,
+        "rankingName": "渭南亲子游景点排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "2018948730747805698",
+        "scenicSpotId": "1320579064720941090",
+        "contentModuleName": "衍生景区",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "2018947430503481346",
+            "type": 5,
+            "title": "潜龙寺",
+            "subtitle": "我国历史最悠久的佛教寺院之一",
+            "coverImage": "https://eshopfile.zhiyousx.com/177018925044225631.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": "",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,269 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941180",
+    "scenicName": "二郎山景区",
+    "tag": "省级重点文物保护单位",
+    "level": 4,
+    "cityId": "1320664225474195458",
+    "cityName": "榆林",
+    "address": "神木县城西一公里处",
+    "longitude": "110.5058520000",
+    "latitude": "38.8163210000",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 343,
+    "topColour": "#927A5B",
+    "centralColour": "#866D4D",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/1-20201028172700.jpg",
+      "https://eshopfile.zhiyousx.com/2-20201028172705.jpg"
+    ],
+    "introduction": "<p>二郎庙群建于明正统8年（1443），历代均有修葺。嘉靖年间重修&ldquo;诸神殿顶梁上有&lsquo;大明亮靖二十四年（1545）岁次乙卯五月十七日立&rsquo;字样&rdquo;，距今已有近600年的历史。二郎山呈南北走向，山势蜿蜒，巍峨险峻。在前后1公里的山脊上，因地就势、错落有致地分布着由山脚石窟地藏阁起，至北山顶山神庙止，计有庙群建筑100多座殿、庙、亭、阁，如八仙洞、地藏洞等。整体建筑疏密相间、布局有序，建筑物多为砖木结构，顶部采用歇山、硬山等多种形制，分别覆盖以布瓦，门面檐头油漆彩绘十分考究。庙内彩画以工笔画重油彩画法为主，雕塑石刻题词丰富多彩，均有较高的艺术和历史价值。其间尚留有完整的石刻九龙照壁和石刻卷顶一处，还有壁画2幅、碑石10余通，以及石刻楹联、题字等。这些石刻，都具有较高的艺术性和史料价值。她的魅力在于山势的险、峻、奇与释、儒、道三教合一的宗教景观浑然一体，是省级重点文物保护单位。</p>",
+    "introductionText": "二郎庙群建于明正统8年（1443），历代均有修葺。嘉靖年间重修“诸神殿顶梁上有‘大明亮靖二十四年（1545）岁次乙卯五月十七日立’字样”，距今已有近600年的历史。二郎山呈南北走向，山势蜿蜒，巍峨险峻。在前后1公里的山脊上，因地就势、错落有致地分布着由山脚石窟地藏阁起，至北山顶山神庙止，计有庙群建筑100多座殿、庙、亭、阁，如八仙洞、地藏洞等。整体建筑疏密相间、布局有序，建筑物多为砖木结构，顶部采用歇山、硬山等多种形制，分别覆盖以布瓦，门面檐头油漆彩绘十分考究。庙内彩画以工笔画重油彩画法为主，雕塑石刻题词丰富多彩，均有较高的艺术和历史价值。其间尚留有完整的石刻九龙照壁和石刻卷顶一处，还有壁画2幅、碑石10余通，以及石刻楹联、题字等。这些石刻，都具有较高的艺术性和史料价值。她的魅力在于山势的险、峻、奇与释、儒、道三教合一的宗教景观浑然一体，是省级重点文物保护单位。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "63",
+        "name": "宗教文化",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "51",
+        "name": "拓展游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全年",
+        "openTimeContent": "8:00-17:30<br/>具体以当日实际情况为准"
+      }
+    ],
+    "discountVoList": null,
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": null,
+        "parentId": null,
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "参观要求",
+        "additionalExplainContent": "持身份证即可免费参观"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "官方电话",
+        "telephone": "0912-2251204"
+      }
+    ],
+    "wxSubscriptionVoList": null,
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1430433143936102402",
+        "resourcesId": "1321383230224752641",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/4-20201028172715.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2021-08-25 15:33:32",
+        "updateTime": "2021-08-25 15:33:32",
+        "createBy": "1344113100973973505",
+        "updateBy": "1344113100973973505",
+        "isDeleted": 0
+      },
+      {
+        "id": "1430433143936102403",
+        "resourcesId": "1321383230224752641",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/5-20201028172725.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2021-08-25 15:33:32",
+        "updateTime": "2021-08-25 15:33:32",
+        "createBy": "1344113100973973505",
+        "updateBy": "1344113100973973505",
+        "isDeleted": 0
+      },
+      {
+        "id": "1430433143940296705",
+        "resourcesId": "1321383230224752641",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/6-20201028172734.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2021-08-25 15:33:32",
+        "updateTime": "2021-08-25 15:33:32",
+        "createBy": "1344113100973973505",
+        "updateBy": "1344113100973973505",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455743348567547905",
+      "rankingId": null,
+      "indexInRanking": 14,
+      "rankingName": " 榆林必逛景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": null,
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "scenicInfoTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": 0,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": null,
+    "hotelArrivalDepartureTime": null,
+    "hotelChildrenBed": null,
+    "hotelPet": null,
+    "hotelBreakfast": null,
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

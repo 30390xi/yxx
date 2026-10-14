@@ -1,0 +1,28 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "weather": "晴",
+      "nowTemperature": null,
+      "dayAirTemperature": "21",
+      "nightAirTemperature": "11",
+      "timeType": "f1"
+    },
+    {
+      "weather": "晴",
+      "nowTemperature": null,
+      "dayAirTemperature": "22",
+      "nightAirTemperature": "11",
+      "timeType": "f2"
+    },
+    {
+      "weather": "小雨",
+      "nowTemperature": null,
+      "dayAirTemperature": "20",
+      "nightAirTemperature": "11",
+      "timeType": "f3"
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

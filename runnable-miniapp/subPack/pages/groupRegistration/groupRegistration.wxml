@@ -41,7 +41,7 @@
                 </view>
             </view>
             <view class="empty data-v-69ee07f9" wx:if="{{$root.g1}}">
-                <empty-state bind:__l="__l" class="data-v-69ee07f9" imgUrl="https://eshopfile.zhiyousx.com/noOrder@2x.png" text="暂无产品" vueId="41bc0c64-2"></empty-state>
+                <empty-state bind:__l="__l" class="data-v-69ee07f9" imgUrl="/static/captured/8967f3ec41c22eab.png" text="暂无产品" vueId="41bc0c64-2"></empty-state>
             </view>
             <view class="loadMore data-v-69ee07f9" wx:else>
                 <u-loadmore bgColor="#f7f7f7" bind:__l="__l" class="data-v-69ee07f9" color="#ccc" iconColor="#ccc" status="{{loadMore}}" vueId="41bc0c64-3"></u-loadmore>

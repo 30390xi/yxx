@@ -1,0 +1,39 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "2105469151324798977",
+      "resourcesId": "1321351306697531393",
+      "title": "城墙70周年灯光秀",
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061610505215756.mp4",
+      "coverImage": "https://eshopfile.zhiyousx.com/2021061610511851053.jpg",
+      "videoId": null,
+      "resourcesType": 2,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2026-10-01 09:25:38",
+      "updateTime": "2026-10-01 09:25:38",
+      "createBy": "1689449786648535042",
+      "updateBy": "1689449786648535042",
+      "isDeleted": 0
+    },
+    {
+      "id": "2105469151324798978",
+      "resourcesId": "1321351306697531393",
+      "title": "梦长安—大唐迎宾盛礼",
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061517555546469.mp4",
+      "coverImage": "https://eshopfile.zhiyousx.com/2021061518000950157.jpg",
+      "videoId": null,
+      "resourcesType": 2,
+      "sequence": 2,
+      "describe": null,
+      "createTime": "2026-10-01 09:25:38",
+      "updateTime": "2026-10-01 09:25:38",
+      "createBy": "1689449786648535042",
+      "updateBy": "1689449786648535042",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,26 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1430466376400744450",
+    "contentId": "1430466376396550146",
+    "rankingName": "汉阳陵博物馆人气榜",
+    "rankingClass": "0",
+    "rankingType": "2",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/162994481909123709.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": null,
+    "rankingInclude": "个文物",
+    "rankingPersonalInfo": "我参观过的文物",
+    "rankingSharePictureUrl": null,
+    "bottomColour": null,
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": null,
+    "sumCount": "10",
+    "favoriteSum": "0",
+    "personalInfoValue": null
+  },
+  "msg": "成功",
+  "success": true
+}

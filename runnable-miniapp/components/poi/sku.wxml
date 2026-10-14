@@ -27,7 +27,7 @@
                     <view class="attr-head data-v-679ecbcb">
                         <view class="attr-name singleLineText data-v-679ecbcb">{{''+attr.$orig.attributeKey+''}}<text bindtap="__e" class="attr-name-desc data-v-679ecbcb" data-event-opts="{{[ [ 'tap',[ [ 'getSkuDesc',['$0'],[ [ ['attrs','',index,'attributeDescContent'] ] ] ] ] ] ]}}" wx:if="{{attr.$orig.attributeDesc}}">{{''+attr.$orig.attributeDesc+''}}</text>
                         </view>
-                        <image bindtap="__e" class="data-v-679ecbcb" data-event-opts="{{[ [ 'tap',[ [ 'getSkuDesc',['$0'],[ [ ['attrs','',index,'attributeDescContent'] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/172480687839557894.png" wx:if="{{attr.$orig.attributeDescContent&&attr.$orig.attributeDesc}}"></image>
+                        <image bindtap="__e" class="data-v-679ecbcb" data-event-opts="{{[ [ 'tap',[ [ 'getSkuDesc',['$0'],[ [ ['attrs','',index,'attributeDescContent'] ] ] ] ] ] ]}}" src="/static/captured/10d512e58fdd1952.png" wx:if="{{attr.$orig.attributeDescContent&&attr.$orig.attributeDesc}}"></image>
                     </view>
                     <view class="attr-scoll data-v-679ecbcb">
                         <view bindtap="__e" class="{{['attr-it','data-v-679ecbcb',opt.m0?'active':'',!opt.m1?'disabled':'',!opt.m2?'none':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'handleClick',['$0','$1'],[ [ ['attrs','',index,'attributeKey'] ],[ ['attrs','',index],['attrValList','',i,'name'] ] ] ] ] ] ]}}" wx:for="{{attr.l0}}" wx:for-index="i" wx:for-item="opt" wx:key="i">{{''+opt.$orig.name}}<text class="data-v-679ecbcb" style="color:#FF5411;margin-left:10rpx;font-size:26rpx;">{{opt.$orig.stockStr}}</text>

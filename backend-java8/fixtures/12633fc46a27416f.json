@@ -1,0 +1,454 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064595111953",
+    "scenicName": "川陕革命根据地纪念馆",
+    "tag": "“陕南红了半边天”",
+    "level": 3,
+    "cityId": "1320664075750125570",
+    "cityName": "汉中",
+    "address": "汉中市南郑区黄官镇长岭村红寺湖风景区",
+    "longitude": "106.883114",
+    "latitude": "32.884876",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 113,
+    "topColour": "#C22525",
+    "centralColour": "#85181D",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021062110553121110.jpg"
+    ],
+    "introduction": "<p>　　川陕革命根据地纪念馆位于3A级景区红寺湖，是川陕革命根据在陕南唯一的纪念馆。由中国工程院院士张锦秋领衔设计，由展陈馆、爱国主义教育广场、纪念碑、何挺颖烈士纪念广场共同组成，将主体建筑与红寺湖的自然风光巧妙结合，获全国建筑学会设计大奖。其主要展示了川陕革命根据地陕南苏区革命活动的部分实物和图片，汇集并保护了分散于各地的、濒临泯灭的革命历史文物，反映了川陕苏区革命活动的历史全貌。川陕革命根据地纪念馆现已成为全国百家红色经典旅游景区之一及陕西省三大红色旅游景区之一。是全国爱国主义教育示范基地、陕西省爱国主义教育基地、陕西省党史教育基地。</p>\n<p>&nbsp;</p>",
+    "introductionText": "　　川陕革命根据地纪念馆位于3A级景区红寺湖，是川陕革命根据在陕南唯一的纪念馆。由中国工程院院士张锦秋领衔设计，由展陈馆、爱国主义教育广场、纪念碑、何挺颖烈士纪念广场共同组成，将主体建筑与红寺湖的自然风光巧妙结合，获全国建筑学会设计大奖。其主要展示了川陕革命根据地陕南苏区革命活动的部分实物和图片，汇集并保护了分散于各地的、濒临泯灭的革命历史文物，反映了川陕苏区革命活动的历史全貌。川陕革命根据地纪念馆现已成为全国百家红色经典旅游景区之一及陕西省三大红色旅游景区之一。是全国爱国主义教育示范基地、陕西省爱国主义教育基地、陕西省党史教育基地。\n",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "18",
+        "name": "红色旅游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026361102337",
+        "contentId": "1418152026344325122",
+        "name": "全国红色旅游经典景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026461765634",
+        "contentId": "1418152026449182722",
+        "name": "全国爱国主义教育示范基地",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "免费开放",
+        "openTimeContent": "夏季9:00-17:00（16:30停止入馆）<br/>冬季09:00-16:30（16:00停止入馆）<br/>每周一闭馆（法定节假日和特殊情况正常开放）"
+      }
+    ],
+    "discountVoList": null,
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "61",
+        "name": "讲解员",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016440410223.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "讲解员服务",
+        "additionalExplainContent": "以30人起为一批（不满30按30人计算）讲解费用为100元。"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>汉中汽车站有直达红寺湖景区直达黄官班车</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<p>天汉大道-南郑城区-青树古镇-红寺湖景区</p>"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "咨询电话",
+        "telephone": "0916-5583338"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "官方公众号",
+        "wxSubscriptionName": "川陕纪念馆",
+        "wxSubscription": "ChuanShanjinianguan"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "2033803979384815617",
+        "outId": "1320579064595111953",
+        "type": 1,
+        "advertName": "秦巴山水间的红色往事 ",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021062111563808395.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p style=\"text-align: center;\"><strong>秦巴山水间的红色往事 </strong></p>\n<p style=\"text-align: center;\"><strong>　　　　　　　　　　　　&mdash;&mdash;走进川陕革命根据地纪念馆</strong></p>\n<p style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: left;\">　　中国革命历史是最好的营养剂，英雄是民族最闪亮的坐标。</p>\n<p>　　陕西有着光荣革命历史的红色精神富矿，无数革命志士为了民族独立、人民解放前赴后继，抒写出感天动地的历史篇章。革命先烈抛头颅洒热血，悲壮三秦大地。深厚的红色基因，是我们最宝贵的精神财富。</p>\n<p>　　时光荏苒，沧桑巨变。英雄的足迹并没有随着时间的流逝而湮灭，红色的记忆并没有在历史的深处褪色。</p>\n<p>　　让我们铭记光辉历史，传承红色基因，沿着红色足迹重走信仰之路，挖掘珍贵史料，探访革命旧址，浓墨重彩地讲述英雄故事，传播红色文化，让信仰之火熊熊不息，让红色基因融入血脉，让红色精神激发力量，不忘初心、牢记使命，走好新时代的长征路。</p>\n<p>　　汉中有着光荣的革命传统，拥有着丰富的红色资源，在这秀美灵动的秦巴山水之间，峥嵘岁月里激荡出无数闪亮的星火，承载着众多仁人志士英勇奋斗的光辉足迹。这里曾创建了川陕革命根据地陕南苏区、鄂豫陕革命根据地汉中苏区，更有红四方面军、红二方面军、红二十五军、红二十九军、红七十四师等部队在此转战。</p>\n<p>　　8月25日，记者专程赶往位于汉中市南郑区的川陕革命根据地纪念馆，在缅怀革命先烈、感受红色文化的同时，也让人们深入了解当年那段波澜壮阔的红色历史&hellip;&hellip;</p>\n<p><span style=\"color: #ff0000;\"><strong>&nbsp;</strong></span></p>\n<p style=\"text-align: center;\"><span style=\"color: #000000;\"><strong>坚定的信念 </strong></span></p>\n<p style=\"text-align: center;\"><span style=\"color: #000000;\"><strong>创建川陕革命根据地的红色往事</strong></span></p>\n<p>&nbsp;</p>\n<p>　　川陕革命根据地是第二次国内革命战争时期，中国共产党创建的一个重要根据地。毛泽东同志在第二次全国苏维埃会议上讲话时表示，川陕革命根据地是中华苏维埃共和国的第二个大区域。</p>\n<p>　　&ldquo;川陕革命根据地最盛时的范围包括20多个县政权，约600万人口。它地处川陕两省交界的大巴山和米仓山脉，山势陡峭，林深草茂，交通极为不便。然而，在这极其困难的环境下，川陕革命根据地军民与四川军阀刘湘、田颂尧等国民党反动派进行了艰苦卓绝的斗争，取得了巨大的胜利，在中国革命斗争史上留下了光辉的一页。&rdquo;8月25日，川陕革命根据地纪念馆馆长薛元勋向记者讲述了这段历史。</p>\n<p>　　1932年10月，红四方面军奉命从鄂豫皖根据地向西战略转移。红军在衣着单薄、补给困难的情况下，冒着风雪严寒翻山越岭，于12月5日进入陕西，12月7日抵达城固县小河口镇。12月8日，红四方面军在小河口镇召开部分师级以上干部会议，讨论行动方针。会上，大家得悉四川军阀正在混战，因此决定进军川北，并开始创立川陕革命根据地。目前，这片土地上留存有革命遗址1800处、革命遗迹9000处、珍贵历史文物近2万件，尤其是从汉中通往川北的红色交通线，在传递情报、运送物资和护送干部等方面发挥了重要的作用。</p>\n<p>　　当时的南郑县是川陕革命根据地的重要组成部分。南郑县地下党组织配合红军主力开辟了红色交通线，积极开展土地革命斗争，建立了红江县和赤北县两个县级苏维埃政权组织，境内留下了中共陕南特委代表会旧址、中共陕南军委旧址、碑坝红军石刻标语群、坝溪红江县第五区苏维埃政府旧址，以及陕南战役的奇袭猫儿洞、巧夺蟒蛇滩等战斗遗址。</p>\n<p>　　薛元勋告诉记者：&ldquo;川陕革命根据地纪念馆是全国百家红色经典旅游景区之一，也是川陕革命根据地在陕西唯一的纪念馆。该馆占地69.8亩，由爱国主义教育广场、革命英雄纪念碑、何挺颖烈士纪念广场和主展馆共同组成。其中，主展馆面积4200平方米，分为四个展区，分别展出了川陕革命根据地陕南苏区革命活动的部分实物310件、史料图片158幅、红色书籍3000余册。&rdquo;</p>\n<p>　　该馆的工作人员向记者介绍说：&ldquo;我们的馆内设有电子模拟沙盘、大型电子翻书、触摸屏导游系统、红色革命歌曲试听系统、多功能放映厅等配套服务设施，是一处集自然生态、文物保护、党史研究和爱国主义教育于一体的红色旅游景区。&rdquo;</p>\n<p>　　如今，川陕革命根据地纪念馆已成为弘扬革命精神、开展爱国主义教育的陕南红色旅游中心之一，现已创建成全国爱国主义教育基地和全省党史教育基地、廉政教育示范基地、理想信念教育基地。自2011年3月25日免费开放以来，该馆累计接待观众78万余人次，单日最高观众接待量超过3500人次，在全省乃至全国形成了较高的知名度和影响力。</p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\">&nbsp;<span style=\"color: #000000;\"><strong>执着的追求</strong></span></p>\n<p style=\"text-align: center;\"><span style=\"color: #000000;\"><strong>24岁的何挺颖烈士是南郑人民的骄傲</strong></span></p>\n<p>&nbsp;</p>\n<p>　　何挺颖烈士为中国革命奉献了宝贵的生命，作出了杰出贡献，他是南郑人民的骄傲。</p>\n<p>　　记者和络绎不绝的参观者一起，满怀敬意来到何挺颖烈士纪念广场，参观了何挺颖烈士纪念碑。据了解，1991年4月，当时的南郑县政府在县城东入口处修建了何挺颖烈士纪念广场。广场上的纪念碑由三把枪刺造型的建筑组合在一起，象征着武装捍卫革命政权。碑体正面写着&ldquo;何挺颖烈士纪念碑&rdquo;，背面镶贴着&ldquo;不朽井冈英雄千古人民功臣&rdquo;的字样。纪念碑左侧为不锈钢铸造的何挺颖烈士雕像，他骑骏马、单手高举，英气逼人。整个纪念碑雕塑浓缩着何挺颖烈士的革命斗争生涯，庄严肃穆，让参观者肃然起敬。</p>\n<p>　　跟记者同行的南郑区委党史研究室的工作人员告诉记者：&ldquo;1927年9月，何挺颖在湘赣边界参加了毛泽东同志发动的秋收起义，并跟随毛泽东向井冈山进军。1928年3月上旬，秋收起义的前敌委员会改组为师委，何挺颖担任书记。5月，朱德、陈毅率领南昌起义的部队和湘南暴动的农民武装上井冈山与毛泽东会师，成立了中国工农红军第四军，何挺颖任三十一团党代表。&rdquo;</p>\n<p>　　记者了解到，1928年7月中旬，中共湖南省委代表杜修经强令红军大队向湖南冒进，敌人趁机调集11个团的兵力进犯井冈山。在毛泽东的指挥下，何挺颖带领三十一团用灵活的游击战术，将敌人围困并各个击破，直至全部歼灭。8月，红四军二十九团在湘南失利，毛泽东留何挺颖、朱云卿带领三十一团一营保卫井冈山，亲率三十一团三营迎接二十九团。</p>\n<p>　　当时，敌人突然以一个师的兵力，企图利用红军主力未回之机攻占井冈山。在这紧急关头，何挺颖立即召开连级以上干部会议，号召全体官兵坚守井冈山，并根据毛泽东的指示做了部署。在当地群众的大力支持和积极参与下，红军英勇抗敌，终以不足1个营的兵力打退了敌人的1个师，取得了著名的黄洋界保卫战的胜利。</p>\n<p>　　何挺颖指挥的黄洋界保卫战捷报传来，毛泽东给予了高度的评价，随后他挥毫写下了脍炙人口的《西江月&middot;井冈山》。</p>\n<p>　　何挺颖在毛泽东、朱德领导下，多次带领部队英勇战斗、屡立战功，为建设和保卫井冈山革命根据地作出了重大贡献。然而，1929年1月，何挺颖在江西大庾岭战斗中身负重伤，因环境险恶、医药匮乏、作战频繁，他在一次随军转移的夜行中不幸牺牲，年仅24岁。</p>\n<p>　　2011年1月，何挺颖烈士雕像整体迁建至汉中市川陕革命根据地纪念馆广场北侧，以利于更有效地宣传革命先烈精神，教育广大人民群众。</p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\"><span style=\"color: #000000;\"><strong>创新的实践</strong></span></p>\n<p style=\"text-align: center;\"><span style=\"color: #000000;\"><strong>让后人在红色精神的滋养中成长</strong></span></p>\n<p>&nbsp;</p>\n<p>　　8月26日，记者在川陕革命根据地纪念馆内遇到前来参观学习的汉中职业技术学院党政第二党支部。</p>\n<p>　　&ldquo;这不是我们第一次来了。通过参观馆陈物品，我们了解到川陕革命根据地建立、发展的艰难历程以及川陕革命根据地党的建设工作，追忆了革命先辈创建中华苏维埃共和国第二大区域&mdash;&mdash;川陕革命根据地的艰苦岁月，缅怀为革命捐躯的红军先烈，感悟当年红军的伟大精神，接受严肃的党性教育和作风洗礼。&rdquo;该党支部的党员们向记者纷纷表示。</p>\n<p>　　活动中，党员们在何挺颖烈士雕像前鞠躬默哀，表达对革命先烈的崇敬和哀思。在庄严肃穆的纪念碑前，党员同志们对着党旗郑重宣誓，表达共产党员的坚定信念。</p>\n<p>　　近年来，汉中市深入挖掘红色旅游资源，加大资金投入力度，集中力量建设红二十五军旧址等红色旅游项目，把红色旅游景区打造成开展主题教育的实践课堂。该市以川陕革命根据地纪念馆等爱国主义教育基地为依托，充分运用革命历史文化遗存，开发红色旅游研学项目，推出一批以红色旅游资源为主体的&ldquo;红色旅游小镇&rdquo;&ldquo;红色旅游乡村&rdquo;等品牌。</p>\n<p style=\"text-align: center;\">（本文来源／陕西日报）</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": "馆内看点",
+    "contentResourcesDtoList": [
+      {
+        "id": "2033803979330289666",
+        "resourcesId": "1321739593387892737",
+        "title": "川陕革命根据地纪念馆",
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062114580824631.mp4",
+        "coverImage": "https://eshopfile.zhiyousx.com/2021062114574960768.jpg",
+        "videoId": null,
+        "resourcesType": 2,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-03-17 15:13:49",
+        "updateTime": "2026-03-17 15:13:49",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2033803979334483969",
+        "resourcesId": "1321739593387892737",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062118413391691.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-03-17 15:13:49",
+        "updateTime": "2026-03-17 15:13:49",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2033803979338678274",
+        "resourcesId": "1321739593387892737",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062114490181486.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-03-17 15:13:49",
+        "updateTime": "2026-03-17 15:13:49",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2033803979338678275",
+        "resourcesId": "1321739593387892737",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062115011288413.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-03-17 15:13:49",
+        "updateTime": "2026-03-17 15:13:49",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2033803979342872577",
+        "resourcesId": "1321739593387892737",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062117573341718.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2026-03-17 15:13:49",
+        "updateTime": "2026-03-17 15:13:49",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2033803979342872578",
+        "resourcesId": "1321739593387892737",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062114483102582.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2026-03-17 15:13:49",
+        "updateTime": "2026-03-17 15:13:49",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2033803979347066881",
+        "resourcesId": "1321739593387892737",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062114484802855.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2026-03-17 15:13:49",
+        "updateTime": "2026-03-17 15:13:49",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2033803979347066882",
+        "resourcesId": "1321739593387892737",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/82c85e25-1050-4b50-8d50-32ecbf3c7e25-20201029170404.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2026-03-17 15:13:49",
+        "updateTime": "2026-03-17 15:13:49",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2033803979351261186",
+        "resourcesId": "1321739593387892737",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062117580477704.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": null,
+        "createTime": "2026-03-17 15:13:49",
+        "updateTime": "2026-03-17 15:13:49",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2033803979355455490",
+        "resourcesId": "1321739593387892737",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062118075987846.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": null,
+        "createTime": "2026-03-17 15:13:49",
+        "updateTime": "2026-03-17 15:13:49",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455795982670340097",
+      "rankingId": null,
+      "indexInRanking": 1,
+      "rankingName": "汉中必玩景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": [
+      {
+        "id": "2033803979368038401",
+        "scenicSpotId": "1320579064595111953",
+        "contentModuleName": "馆内看点",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1406866130693275650",
+            "type": 5,
+            "title": "展陈馆",
+            "subtitle": "川陕革命根据地主展馆",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062114142522350.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1406878933319696385",
+            "type": 5,
+            "title": "何挺颖烈士纪念广场",
+            "subtitle": "南郑人民的骄傲",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062118012755545.jpeg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1406923675373944833",
+            "type": 5,
+            "title": "川陕纪念馆纪念碑",
+            "subtitle": "革命英雄永垂不朽",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062118161091800.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

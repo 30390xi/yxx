@@ -1,0 +1,943 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941132",
+    "scenicName": "西安城墙",
+    "tag": "可以穿越的历史，有多少年？",
+    "level": 5,
+    "address": "西安市碑林区长安路街道西安城墙",
+    "longitude": "108.946846",
+    "latitude": "34.250235",
+    "openingStatus": 1,
+    "capacity": 50000,
+    "topColour": "#E06A2A",
+    "centralColour": "#C5432E",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021061714081031680.png",
+      "https://eshopfile.zhiyousx.com/2026033011234032047.jpg",
+      "https://eshopfile.zhiyousx.com/2026020617150361763.jpg",
+      "https://eshopfile.zhiyousx.com/2021082015444295201.jpg"
+    ],
+    "introduction": "<p style=\"text-align: justify;\">　　作为全世界现存规模最大、保存最完整的古代城垣，西安城墙已经成为了来陕西的必看之景。现存城墙已有600年的历史，修建之时有四座城门，分别为长乐门、安远门、永宁门和安定门，取&ldquo;长安永定&rdquo;之意。永宁门即为西安城墙的南门，被誉为&ldquo;中华礼仪之门&rdquo;，也是西安的&ldquo;门面&rdquo;。现在的西安城墙可完整环绕一圈，周长是13.74公里，你知道为什么是这么一个不是整数、也没有含义的数字吗？隋唐长安城内外有3重城墙，长80余里，相当于今天西安城墙的9倍多，后来又发生了什么？想知道更多城墙的历史文化知识，那就亲自到西安城墙景区一探究竟吧！</p>",
+    "introductionText": "　　作为全世界现存规模最大、保存最完整的古代城垣，西安城墙已经成为了来陕西的必看之景。现存城墙已有600年的历史，修建之时有四座城门，分别为长乐门、安远门、永宁门和安定门，取“长安永定”之意。永宁门即为西安城墙的南门，被誉为“中华礼仪之门”，也是西安的“门面”。现在的西安城墙可完整环绕一圈，周长是13.74公里，你知道为什么是这么一个不是整数、也没有含义的数字吗？隋唐长安城内外有3重城墙，长80余里，相当于今天西安城墙的9倍多，后来又发生了什么？想知道更多城墙的历史文化知识，那就亲自到西安城墙景区一探究竟吧！",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "23",
+        "name": "灯光夜景",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "21",
+        "name": "地标打卡",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "69",
+        "name": "商务旅",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026415628289",
+        "contentId": "1418152026403045378",
+        "name": "陕西5A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1450028527872122881",
+        "contentId": "1450028527859539970",
+        "name": "陕西省文化遗址公园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "<p>1.游客可通过线上购买景区门票，入园时请出示有效身份证件，核验景区门票。<br />2.每位免票儿童必须由一位购买全价门票的成人陪同入园，请陪同成人务必携带儿童有效证件，以备现场工作人员核验登记。<br />3.请严格按照所选入园时段入园。<br />4.为保障您的游览安全，禁止携带风筝、横幅、儿童自行车、滑板车、平衡车、无人机、宠物、管制刀具、气球、易燃易爆等物品进入景区。<br />5.根据《中华人民共和国道路交通安全法实施条例》，结合城墙景区墙体实际情况，为确保游客出行安全，景区对12周岁以下、65周岁以上无法租赁自行车。如遇高温预警，为确保游客出行安全，13点至16点30分景区自行车将暂停租赁。<br />6.由于永宁门有1200米的步行区域，长乐门、安定门、安远门、含光门如需骑行一周需在永宁门换骑车辆一次。<br />7.温馨提示：<br />（1）为提升游览体验、维护入园秩序，同时确保多次入园权益，本景区已实行实名制购票及入园核验。您可通过以下任一方式入园：<br />①刷本人有效身份证原件通行。<br />②闸机人脸识别快速入园通行。<br />为确保您能享受多次入园权益，景区优先实行刷脸入园方式。如您选择人脸识别入园，面容信息仅用于当场核验，不会被存储或另作他用。若您不愿使用人脸识别技术进行身份核验，请前往景区游客服务中心或售票处咨询，工作人员将为您开启特殊通道检票。<br />（2）请通过西安城墙官方小程序西安城墙景区或官方授权大型正规文旅服务平台购票，对于通过非官方二手交易平台（闲鱼等），线上社交平台个人，景区周边个人兜售等非正规渠道购买的非正价票所产生的一切风险与损失（如无法入园，假票，个人信息泄露等），均由购票人自行承担。如有任何疑虑，您可随时联系我们的工作人员。如有疑问或需要帮助，可致电400-8313-555或029-87272792，祝您游览愉快。</p>",
+    "discountVoList": [
+      {
+        "peopleType": "【开城仪式】演出票优待政策",
+        "limit": "儿童6周岁(含)以下或身高1.2以下免费",
+        "discount": "免票(不占座)，需成人陪同，1名成人仅限携带1名免票儿童"
+      },
+      {
+        "peopleType": "【开城仪式】儿童演出票优待政策",
+        "limit": "7周岁(含)-18周岁(含)",
+        "discount": "优惠票"
+      },
+      {
+        "peopleType": "【开城仪式】退役军人演出票优待政策",
+        "limit": "持本人优待证",
+        "discount": "优惠票"
+      },
+      {
+        "peopleType": "【开城仪式】学生演出票优待政策",
+        "limit": "7周岁(含)-24周岁(含)，持本人学生证",
+        "discount": "优惠票"
+      },
+      {
+        "peopleType": "【梦长安】优待政策",
+        "limit": "儿童身高1.2以下免费",
+        "discount": "免票(不占座)，需成人陪同，1名成人仅限携带1名免票儿童"
+      },
+      {
+        "peopleType": "老人（普通门票）",
+        "limit": "年满65周岁（含）以上老人",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "儿童（普通门票）",
+        "limit": "6周岁（含）以下儿童",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人（普通门票）",
+        "limit": "凭残疾证（二级及以上重度残疾人需陪护的，可免1名陪同人员）、残疾军人证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "军人（普通门票）",
+        "limit": "现役军人（含武警、军队院校学员等）、军队离退休军官：凭本人有效证件",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "三属（普通门票）",
+        "limit": "三属（烈士、因公牺牲军人、病故军人遗属）：凭本人优待证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "军人家属（普通门票）",
+        "limit": "现役军人配偶、子女：持军人有效证件、军属本人结婚证及户口本、出生证（子女需18周岁（含）以下）",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "军队文职人员（普通门票）",
+        "limit": "凭本人文职人员证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "人民警察（普通门票）",
+        "limit": "凭本人人民警察证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "消防救援人员（普通门票）",
+        "limit": "凭本人消防救援证件",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "未成年人（普通门票）",
+        "limit": "6周岁(不含6周岁)-18周岁(含18周岁)未成年人：持有学生证、居民身份证或户口本的18周岁以内的未成年",
+        "discount": "半票"
+      },
+      {
+        "peopleType": "学生（普通门票）",
+        "limit": "持有全日制大学本科及以下学历的学生证(同时出示居民身份证等辅助证件;不含成人院校)",
+        "discount": "半票"
+      },
+      {
+        "peopleType": "退役军人（普通门票）",
+        "limit": "持本人优待证",
+        "discount": "半票"
+      }
+    ],
+    "officialWebsite": [
+      "https://www.xacitywall.com/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区电话",
+        "telephone": "029-87272792"
+      }
+    ],
+    "topBannerList": [
+      {
+        "id": "2105469151433850882",
+        "outId": "1320579064720941132",
+        "type": 1,
+        "advertName": "城墙新增5处开放门点",
+        "advertPic": "https://eshopfile.zhiyousx.com/2025042914413904947.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 4,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<section class=\"\" style=\"letter-spacing: 2px; font-size: 16px; background-clip: border-box; background-origin: padding-box; background-attachment: scroll; background-repeat: repeat; background-size: contain; background-position: 50% 50%; padding: 0px; box-sizing: border-box; background-image: url('https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L3HiaS3icj9ExPDKoIWx8lm2pl3O9YUFib8EQPdAvYjCicmbcdHRLIm2KJw/640?wx_fmt=png&amp;from=appmsg'); font-family: 宋体;\" data-cacheurl=\"\" data-pm-slice=\"0 0 []\" data-remoteid=\"\" data-role=\"outer\">\n<section data-role=\"paragraph\">\n<section class=\"\" style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" style=\"height: auto !important; vertical-align: baseline; width: 100%; box-sizing: border-box; max-width: 100% !important;\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBXxeCANqjdic4oiclNfouF2vPnUDpBX5eVzZQSPmytNnHS9icFRkIW24UticnYmzsA7qZbmxAM6er5VkQ/640?wx_fmt=png&amp;from=appmsg\" data-imgfileid=\"503805454\" data-s=\"300,640\" data-type=\"png\" data-ratio=\"1.3333333333333333\" data-w=\"1080\" /></section>\n</section>\n<section style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\" data-role=\"paragraph\">\n<p>&nbsp;</p>\n</section>\n<section style=\"text-align: center; line-height: 2em;\" data-role=\"paragraph\">\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><span style=\"line-height: 2em; text-align: center; letter-spacing: 2px; background: url('https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L3HiaS3icj9ExPDKoIWx8lm2pl3O9YUFib8EQPdAvYjCicmbcdHRLIm2KJw/640?wx_fmt=png&amp;from=appmsg') 50% 50% / contain repeat scroll padding-box border-box rgba(0, 0, 0, 0); box-sizing: border-box; color: #98b061; font-size: 16px; text-decoration-thickness: initial; display: inline !important; font-family: PingFangSC-Light;\"><strong>自2025年5月1日起</strong></span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><span style=\"line-height: 2em; text-align: center; letter-spacing: 2px; background: url('https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L3HiaS3icj9ExPDKoIWx8lm2pl3O9YUFib8EQPdAvYjCicmbcdHRLIm2KJw/640?wx_fmt=png&amp;from=appmsg') 50% 50% / contain repeat scroll padding-box border-box rgba(0, 0, 0, 0); box-sizing: border-box; color: #98b061; font-size: 16px; text-decoration-thickness: initial; display: inline !important; font-family: PingFangSC-Light;\"><strong>西安城墙</strong></span><span style=\"text-align: center; letter-spacing: 2px; background: url('https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L3HiaS3icj9ExPDKoIWx8lm2pl3O9YUFib8EQPdAvYjCicmbcdHRLIm2KJw/640?wx_fmt=png&amp;from=appmsg') 50% 50% / contain repeat scroll padding-box border-box rgba(0, 0, 0, 0); box-sizing: border-box; color: #98b061; font-size: 16px; text-decoration-thickness: initial; display: inline !important; font-family: PingFangSC-Light;\"><strong>新增5处开放门点</strong></span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><span style=\"text-align: center; letter-spacing: 2px; background: url('https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L3HiaS3icj9ExPDKoIWx8lm2pl3O9YUFib8EQPdAvYjCicmbcdHRLIm2KJw/640?wx_fmt=png&amp;from=appmsg') 50% 50% / contain repeat scroll padding-box border-box rgba(0, 0, 0, 0); box-sizing: border-box; color: #98b061; font-size: 16px; text-decoration-thickness: initial; display: inline !important; font-family: PingFangSC-Light;\"><strong>环城共计16处开放门点</strong></span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\">从古朴城垣到市井烟火</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\">从历史印记到文艺新貌</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\">跟随这些开放门点</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\">解锁西安城墙新玩法！</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\">&nbsp;</p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><img class=\"rich_pages wxw-img\" style=\"height: auto !important; vertical-align: baseline; width: 100%; box-sizing: border-box; max-width: 100% !important;\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_jpg/KlEfeKPEnBVGwCFib1pSD3tDTBwlicU3xGrjYlt1aXpT4JnvurgKeGPzib3U3I75UpyicP2aVjkhXG4aEccwMiaCkmw/640?wx_fmt=jpeg&amp;from=appmsg\" data-imgfileid=\"503805411\" data-s=\"300,640\" data-type=\"jpeg\" data-ratio=\"0.7453703703703703\" data-w=\"1080\" /></p>\n<section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: baseline; width: 100%; box-sizing: border-box; max-width: 100% !important;\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_jpg/KlEfeKPEnBWWn0K7ZEGC89B6mZAibUxDTdyRZfrfibBFibazm8t9E5V3GLCDmE8JLWmRjn8IicGQ12QWZS7D4GgBVA/640?wx_fmt=jpeg&amp;from=appmsg\" data-imgfileid=\"503805650\" data-s=\"300,640\" data-type=\"jpeg\" data-ratio=\"1.7777777777777777\" data-w=\"1080\" /></section>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\">&nbsp;</p>\n<section class=\"_135editor\" data-tools=\"135编辑器\" data-id=\"90983\" data-pm-slice=\"0 0 []\">\n<section style=\"width: 100%; max-width: 100% !important; box-sizing: border-box;\" data-width=\"100%\">\n<section style=\"display: inline-block; width: 20px; box-sizing: border-box;\">\n<section style=\"width: 0px; height: 20px; border-left: 20px solid transparent; border-right: 20px solid transparent; border-top: 20px solid #fde180; box-sizing: border-box;\">\n<p>&nbsp;</p>\n</section>\n<section style=\"width: 0px; height: 20px; border-left: 20px solid transparent; border-right: 20px solid transparent; border-top: 20px solid #a2c2e0; margin-top: 5px; box-sizing: border-box;\">\n<p>&nbsp;</p>\n</section>\n<section style=\"display: none;\">&nbsp;&nbsp;</section>\n</section>\n</section>\n</section>\n<section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: baseline; width: 100%; box-sizing: border-box; max-width: 100% !important;\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBWkRuP4elaPeModUt8Qu5ibYKT3feE6FRc42MQUcKzr1UwGmUonib5rlPCrjf0P3gCRU0kktwS8XTLA/640?wx_fmt=png&amp;from=appmsg\" data-s=\"300,640\" data-type=\"png\" data-imgfileid=\"503805487\" data-ratio=\"0.3787037037037037\" data-w=\"1080\" /></section>\n<section class=\"_135editor\" style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\" data-tools=\"135编辑器\" data-id=\"158168\">\n<section style=\"margin: 10px auto;\">\n<section style=\"background-color: #fbf5e2; padding: 10px 10px 0px; box-sizing: border-box;\">\n<section style=\"border: 1px solid #74b162; box-sizing: border-box;\">\n<section style=\"width: 100%; max-width: 100% !important; box-sizing: border-box;\" data-width=\"100%\"><img class=\"rich_pages wxw-img\" style=\"width: 100%; display: block; vertical-align: baseline; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_jpg/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1LT90Xz6ZZG0ZEjiaTcv7IHUUgmzdRRRzMtanhqSgDrSBib0AUYV6pfsIw/640?wx_fmt=jpeg&amp;from=appmsg\" data-type=\"jpeg\" data-width=\"100%\" data-imgfileid=\"503805347\" data-ratio=\"0.6666666666666666\" data-w=\"1080\" /></section>\n</section>\n<section style=\"margin: -30px 10px 0px;\">\n<section style=\"width: 100%; max-width: 100% !important; box-sizing: border-box;\" data-width=\"100%\"><img class=\"rich_pages wxw-img\" style=\"width: 100%; display: block; vertical-align: baseline; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_gif/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L8HprO3p9zDXQU4EkLqeMzdKic1ryvJ2E7xaqiccVjRopiamRA1z6iaK79w/640?wx_fmt=gif&amp;from=appmsg\" data-type=\"gif\" data-width=\"100%\" data-imgfileid=\"503805349\" data-ratio=\"0.1788693234476367\" data-w=\"1079\" /></section>\n</section>\n</section>\n<section style=\"margin-top: -1px;\"></section>\n</section>\n</section>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\">&nbsp;</p>\n<p><span style=\"color: #3f3f3f; font-family: PingFangSC-Light;\">来</span><span style=\"background: url('https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L3HiaS3icj9ExPDKoIWx8lm2pl3O9YUFib8EQPdAvYjCicmbcdHRLIm2KJw/640?wx_fmt=png&amp;from=appmsg') 50% 50% / contain repeat scroll padding-box border-box rgba(0, 0, 0, 0); box-sizing: border-box; text-align: center; line-height: 2em; color: #98b061; font-size: 16px; text-decoration-thickness: initial; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\"><strong>和平门</strong></span><span style=\"color: #3f3f3f; font-family: PingFangSC-Light;\">的</span><span style=\"letter-spacing: 2px; font-size: 16px; background: url('https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L3HiaS3icj9ExPDKoIWx8lm2pl3O9YUFib8EQPdAvYjCicmbcdHRLIm2KJw/640?wx_fmt=png&amp;from=appmsg') 50% 50% / contain repeat scroll padding-box border-box rgba(0, 0, 0, 0); box-sizing: border-box; text-align: center; line-height: 2em; font-family: PingFangSC-Light;\">下马陵</span><span style=\"letter-spacing: 2px; font-size: 16px; background: url('https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L3HiaS3icj9ExPDKoIWx8lm2pl3O9YUFib8EQPdAvYjCicmbcdHRLIm2KJw/640?wx_fmt=png&amp;from=appmsg') 50% 50% / contain repeat scroll padding-box border-box rgba(0, 0, 0, 0); box-sizing: border-box; text-align: center; line-height: 2em; font-family: PingFangSC-Light;\">走</span><span style=\"letter-spacing: 2px; font-size: 16px; background-clip: border-box; background-origin: padding-box; background-attachment: scroll; background-repeat: repeat; background-size: contain; background-position: 50% 50%; box-sizing: border-box; background-image: url('https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L3HiaS3icj9ExPDKoIWx8lm2pl3O9YUFib8EQPdAvYjCicmbcdHRLIm2KJw/640?wx_fmt=png&amp;from=appmsg'); text-align: center; color: #3f3f3f; font-family: PingFangSC-Light;\">走</span><span style=\"letter-spacing: 2px; background: url('https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L3HiaS3icj9ExPDKoIWx8lm2pl3O9YUFib8EQPdAvYjCicmbcdHRLIm2KJw/640?wx_fmt=png&amp;from=appmsg') 50% 50% / contain repeat scroll padding-box border-box rgba(0, 0, 0, 0); box-sizing: border-box; color: #98b061; font-size: 16px; text-decoration-thickness: initial; display: inline !important; font-family: PingFangSC-Light;\"><strong><span style=\"color: #98b061; font-size: 16px; text-decoration-thickness: initial; display: inline !important; font-family: PingFangSC-Light;\"><br /></span></strong></span></p>\n<span style=\"color: #3f3f3f; font-family: PingFangSC-Light;\" data-pm-slice=\"1 1 [&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;data-cacheurl&quot;:&quot;&quot;,&quot;data-pm-slice&quot;:&quot;0 0 []&quot;,&quot;data-remoteid&quot;:&quot;&quot;,&quot;data-role&quot;:&quot;outer&quot;,&quot;style&quot;:&quot;letter-spacing:2px;font-size:16px;background-clip:border-box;background-origin:padding-box;background-attachment:scroll;background-repeat:repeat;background-size:contain;background-position:50% 50%;padding:0px;box-sizing:border-box;font-family:宋体;background-image: url(\\&quot;https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L3HiaS3icj9ExPDKoIWx8lm2pl3O9YUFib8EQPdAvYjCicmbcdHRLIm2KJw/640?wx_fmt=png&amp;from=appmsg\\&quot;);&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;data-role&quot;:&quot;paragraph&quot;,&quot;style&quot;:&quot;text-align: center;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;},&quot;para&quot;,{&quot;tagName&quot;:&quot;p&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;line-height: 2em;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;}]\">脚下踏着石板路</span>\n<p><span style=\"color: #3f3f3f; font-family: PingFangSC-Light;\">城下的老槐树见证着岁月流转</span></p>\n<p><span style=\"color: #3f3f3f; font-family: PingFangSC-Light;\">宛如走在&ldquo;时空交错&rdquo;的街巷</span></p>\n<p><span style=\"color: #3f3f3f; font-family: PingFangSC-Light;\">一步一景皆是古城的韵味</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\">&nbsp;</p>\n<section class=\"_135editor\" data-tools=\"135编辑器\" data-id=\"157571\">\n<section style=\"margin: 10px auto; display: flex; flex-direction: column;\">\n<section style=\"display: flex; justify-content: space-between; align-items: center; z-index: 3;\">\n<section style=\"width: 80%; box-sizing: border-box; max-width: 80% !important;\" data-width=\"80%\">\n<section style=\"background-color: #ffffff; padding: 10px 10px 15px; box-shadow: #e3e3e3 2px 2px 5px, #e3e3e3 2px 0px 5px, #e3e3e3 0px 2px 5px, #e3e3e3 -2px 0px 5px, #e3e3e3 0px -2px 5px; box-sizing: border-box; transform: rotate(-3deg); -webkit-transform: rotate(-3deg); -moz-transform: rotate(-3deg); -o-transform: rotate(-3deg);\">\n<section style=\"width: 100%; max-width: 100% !important; box-sizing: border-box;\" data-width=\"100%\"><img class=\"rich_pages wxw-img\" style=\"height: auto !important; vertical-align: baseline; width: 100%; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/mmbiz_jpg/KlEfeKPEnBXkn1wiakydIug0Nh02ucBvTt3Ovu3QEMTiaTa2pjic0oxYbXXNic0SMIkA4oXHJ4sibAye7bickZ0yiaJlg/640?tp=wxpic&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1\" alt=\"图片\" data-ratio=\"0.6666666666666666\" data-w=\"1080\" /></section>\n</section>\n</section>\n<section style=\"width: 20%; box-sizing: border-box; max-width: 20% !important;\" data-width=\"20%\">\n<section style=\"display: flex; flex-direction: column;\">\n<section style=\"width: 40px; margin-left: auto; margin-bottom: -15px; margin-right: auto; z-index: 5; box-sizing: border-box;\"><img class=\"rich_pages wxw-img\" style=\"width: 100%; display: block; vertical-align: baseline; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_gif/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1LLvibYiaKwQUJuwbUr9yE1N1uSVOTicia3vqSzKRcdz0Ffr3B0KNO5ZZ6ibg/640?wx_fmt=gif&amp;from=appmsg\" data-type=\"gif\" data-width=\"100%\" data-imgfileid=\"503805352\" data-ratio=\"1.0043290043290043\" data-w=\"462\" /></section>\n<section style=\"width: 15px; margin: 0px auto; z-index: 1; box-sizing: border-box;\"></section>\n</section>\n</section>\n</section>\n<section style=\"width: 80%; margin-left: auto; display: flex; flex-direction: column; margin-top: -20px; z-index: 0; box-sizing: border-box; max-width: 80% !important;\" data-width=\"80%\">\n<section style=\"background-color: #a7bf49; padding: 10px 10px 15px; z-index: 0; box-sizing: border-box; transform: rotate(3deg); -webkit-transform: rotate(3deg); -moz-transform: rotate(3deg); -o-transform: rotate(3deg);\">\n<section style=\"width: 100%; max-width: 100% !important; box-sizing: border-box;\" data-width=\"100%\"><img class=\"rich_pages wxw-img\" style=\"width: 100%; display: block; vertical-align: baseline; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_jpg/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1LBDq2GN411iae6aflkJazR2hxkempZINkOJPdT0cSHPQLtKXC7ic5o6jg/640?wx_fmt=jpeg&amp;from=appmsg\" data-type=\"jpeg\" data-width=\"100%\" data-imgfileid=\"503805351\" data-ratio=\"0.665911664779162\" data-w=\"883\" /></section>\n</section>\n</section>\n</section>\n</section>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: right; font-family: 宋体;\" align=\"right\"><span style=\"font-size: 12px; color: #a5a5a5; font-family: PingFangSC-Light;\">图/建国门老菜场</span></p>\n<p>&nbsp;</p>\n<p><span style=\"color: #3f3f3f; font-family: PingFangSC-Light;\">向东行至建国门附近的</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><span style=\"letter-spacing: 2px; font-size: 16px; background: url('https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L3HiaS3icj9ExPDKoIWx8lm2pl3O9YUFib8EQPdAvYjCicmbcdHRLIm2KJw/640?wx_fmt=png&amp;from=appmsg') 50% 50% / contain repeat scroll padding-box border-box rgba(0, 0, 0, 0); box-sizing: border-box; text-align: center; line-height: 2em; font-family: PingFangSC-Light;\">老菜场市井文化创意街区</span></p>\n<p><span style=\"color: #3f3f3f; font-family: PingFangSC-Light;\">在嘈杂与鲜活交织的市井画卷里</span></p>\n<p><span style=\"color: #3f3f3f; font-family: PingFangSC-Light;\">触摸城市最本真的温度</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\">&nbsp;</p>\n<section class=\"_135editor\" style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\" data-tools=\"135编辑器\" data-id=\"155367\">\n<section style=\"margin: 10px auto; display: flex; justify-content: space-between;\" data-op=\"division\">\n<section style=\"width: 56%; box-sizing: border-box; max-width: 56% !important;\" data-width=\"56%\">\n<section style=\"width: 140px; margin-left: auto; margin-bottom: -30px; margin-right: -20px; box-sizing: border-box;\"><img class=\"rich_pages wxw-img\" style=\"width: 100%; display: block; vertical-align: baseline; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1Ls47hxd4AAiccGRCTqd2kbsHs7nAVuib9DMJjia3wPXq7EMiabJBDPmdWug/640?wx_fmt=png&amp;from=appmsg\" data-type=\"png\" data-width=\"100%\" data-imgfileid=\"503805350\" data-ratio=\"0.466403162055336\" data-w=\"506\" /></section>\n<section style=\"border: 1px solid #94c54f; border-radius: 10px; padding: 6px; box-sizing: border-box;\">\n<section style=\"width: 100%; border-radius: 10px; overflow: hidden; max-width: 100% !important; box-sizing: border-box;\" data-width=\"100%\"><img class=\"rich_pages wxw-img\" style=\"width: 100%; display: block; vertical-align: baseline; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_jpg/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1LhicjtGibqxq6D7oFdiaibiaosTDqGDkHTo2N9CUuld6DCVYkJuTaTxNyweQ/640?wx_fmt=jpeg&amp;from=appmsg\" data-type=\"jpeg\" data-width=\"100%\" data-imgfileid=\"503805354\" data-ratio=\"1.5\" data-w=\"1080\" /></section>\n</section>\n</section>\n<section style=\"width: 40%; box-sizing: border-box; max-width: 40% !important;\" data-width=\"40%\">\n<section style=\"width: 100%; border-radius: 10px; overflow: hidden; max-width: 100% !important; box-sizing: border-box;\" data-width=\"100%\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: baseline; width: 100%; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_jpg/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1LmibnG1OVfabaRiaoTQMz766PnnLeTol5GOmX5rEibX7yNEQl5HCicjIzxQ/640?wx_fmt=jpeg&amp;from=appmsg\" alt=\"DSC03503.jpg\" data-type=\"jpeg\" data-imgfileid=\"503805359\" data-ratio=\"1.3333333333333333\" data-w=\"1080\" /></section>\n<section style=\"margin-top: 11%; margin-right: 15px;\">\n<section style=\"width: 100%; border-radius: 10px; overflow: hidden; max-width: 100% !important; box-sizing: border-box;\" data-width=\"100%\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: baseline; width: 100%; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_jpg/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1LKKTCwqibLRI19iag01ABzmzxVz3VZfvicTWjp54ktffgeIg8nS3iaXEzqg/640?wx_fmt=jpeg&amp;from=appmsg\" alt=\"DSC03505.jpg\" data-type=\"jpeg\" data-imgfileid=\"503805358\" data-ratio=\"1\" data-w=\"1080\" /></section>\n</section>\n</section>\n</section>\n</section>\n<p>&nbsp;</p>\n<p><span style=\"color: #3f3f3f; font-family: PingFangSC-Light;\">从繁忙中偷得半日闲暇</span></p>\n<p><span style=\"color: #3f3f3f; font-family: PingFangSC-Light;\">既能感受浓浓的艺术氛围</span></p>\n<p><span style=\"color: #3f3f3f; font-family: PingFangSC-Light;\">又能在文艺小店中流连</span></p>\n<p><span style=\"color: #3f3f3f; font-family: PingFangSC-Light;\">让身心在这方天地得到治愈</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\">&nbsp;</p>\n<section style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: baseline; width: 100%; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_jpg/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1LotCicU81a8JBnEHbhylv8IY2MZibtibjUHiaKVo2Pv1icUNVb8zYm5q1MFg/640?wx_fmt=jpeg&amp;from=appmsg\" alt=\"DSC03489.jpg\" data-type=\"jpeg\" data-imgfileid=\"503805357\" data-ratio=\"0.562962962962963\" data-w=\"1080\" /></section>\n<section class=\"_135editor\"></section>\n<section>\n<p>&nbsp;</p>\n</section>\n<section>\n<p>&nbsp;</p>\n</section>\n</section>\n<section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: baseline; width: 100%; box-sizing: border-box; max-width: 100% !important;\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBWkRuP4elaPeModUt8Qu5ibYT2DxM5FoJgj0x7uwpNYVtFwROVVIV1ia00q6jGoytic8KWS47Azo7fnA/640?wx_fmt=png&amp;from=appmsg\" data-s=\"300,640\" data-type=\"png\" data-imgfileid=\"503805488\" data-ratio=\"0.3985032740879326\" data-w=\"1069\" /></section>\n<section class=\"_135editor\" style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\" data-tools=\"135编辑器\" data-id=\"158168\">\n<section style=\"margin: 10px auto;\">\n<section style=\"background-color: #fbf5e2; padding: 10px 10px 0px; box-sizing: border-box;\">\n<section style=\"border: 1px solid #74b162; box-sizing: border-box;\">\n<section style=\"width: 100%; max-width: 100% !important; line-height: 2em; box-sizing: border-box;\" data-width=\"100%\"><img class=\"rich_pages wxw-img\" style=\"width: 100%; display: block; vertical-align: baseline; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_jpg/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1LvooXjrkJe7Nu7jiclA4AY0rFcmia78lGibFfIgFvabicAGHOzJ7WO8icDJw/640?wx_fmt=jpeg&amp;from=appmsg\" data-type=\"jpeg\" data-width=\"100%\" data-imgfileid=\"503805339\" data-ratio=\"0.5611111111111111\" data-w=\"1080\" /></section>\n</section>\n<section style=\"margin: -30px 10px 0px;\">\n<section style=\"width: 100%; max-width: 100% !important; line-height: 2em; box-sizing: border-box;\" data-width=\"100%\"><img class=\"rich_pages wxw-img\" style=\"width: 100%; display: block; vertical-align: baseline; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_gif/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L8HprO3p9zDXQU4EkLqeMzdKic1ryvJ2E7xaqiccVjRopiamRA1z6iaK79w/640?wx_fmt=gif&amp;from=appmsg\" data-type=\"gif\" data-width=\"100%\" data-imgfileid=\"503805344\" data-ratio=\"0.1788693234476367\" data-w=\"1079\" /></section>\n</section>\n</section>\n<section style=\"margin-top: -1px;\"></section>\n</section>\n</section>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\">&nbsp;</p>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: center; line-height: 2em; font-family: 宋体;\" align=\"center\"><span style=\"color: rgba(0, 0, 0, 0.85); font-size: 16px; text-decoration-thickness: initial; display: inline !important; font-family: PingFangSC-Light;\">青灰色的城墙根下</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: center; line-height: 2em; font-family: 宋体;\" align=\"center\"><span style=\"color: rgba(0, 0, 0, 0.85); font-size: 16px; text-decoration-thickness: initial; display: inline !important; font-family: PingFangSC-Light;\">总藏着数不尽的宝藏街巷</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: center; line-height: 2em; font-family: 宋体;\" align=\"center\"><span style=\"color: rgba(0, 0, 0, 0.85); font-size: 16px; text-decoration-thickness: initial; display: inline !important; font-family: PingFangSC-Light;\">而<span style=\"background: url('https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L3HiaS3icj9ExPDKoIWx8lm2pl3O9YUFib8EQPdAvYjCicmbcdHRLIm2KJw/640?wx_fmt=png&amp;from=appmsg') 50% 50% / contain repeat scroll padding-box border-box rgba(0, 0, 0, 0); box-sizing: border-box; text-align: center; line-height: 2em; color: #98b061; font-size: 16px; text-decoration-thickness: initial; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\"><strong>东北城角</strong></span>的</span><span style=\"letter-spacing: 2px; font-size: 16px; background: url('https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L3HiaS3icj9ExPDKoIWx8lm2pl3O9YUFib8EQPdAvYjCicmbcdHRLIm2KJw/640?wx_fmt=png&amp;from=appmsg') 50% 50% / contain repeat scroll padding-box border-box rgba(0, 0, 0, 0); box-sizing: border-box; text-align: center; line-height: 2em; font-family: PingFangSC-Light;\"><strong><span style=\"letter-spacing: 2px; font-size: 16px; background: url('https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L3HiaS3icj9ExPDKoIWx8lm2pl3O9YUFib8EQPdAvYjCicmbcdHRLIm2KJw/640?wx_fmt=png&amp;from=appmsg') 50% 50% / contain repeat scroll padding-box border-box rgba(0, 0, 0, 0); box-sizing: border-box; text-align: center; line-height: 2em; font-family: PingFangSC-Light;\"><span style=\"font-weight: normal;\">皇城坊历史文化街区</span></span></strong></span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: center; line-height: 2em; font-family: 宋体;\" align=\"center\"><span style=\"color: rgba(0, 0, 0, 0.85); font-size: 16px; text-decoration-thickness: initial; display: inline !important; font-family: PingFangSC-Light;\">恰似一幅由岁月执笔的长卷</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\">&nbsp;</p>\n<section style=\"background-color: rgba(0, 0, 0, 0); text-align: center; line-height: 2em; font-family: 宋体;\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: baseline; width: 100%; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_jpg/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1LJ1C1Dr5BzPkGicmfYsFcLIkFzjl0CCzBlmFj8erwqGH2spptzO8BpMg/640?wx_fmt=jpeg&amp;from=appmsg\" alt=\"63b5a0604ae12d6e4166c7ad3f3de6b5.jpg\" data-type=\"jpeg\" data-imgfileid=\"503805342\" data-ratio=\"0.6675925925925926\" data-w=\"1080\" /></section>\n<section style=\"background-color: rgba(0, 0, 0, 0); text-align: center; line-height: 2em; font-family: 宋体;\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: baseline; width: 100%; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L57NViajvrYudHoN0Wiax4eya9BpbtBerLFj7JO2k2PrPcOFIfm4Mb7Bg/640?wx_fmt=png&amp;from=appmsg\" alt=\"8cc13ecf96001edadb0ec0a74056a9eb.png\" data-type=\"png\" data-imgfileid=\"503805341\" data-ratio=\"0.5592417061611374\" data-w=\"633\" /></section>\n<p style=\"background-color: rgba(0, 0, 0, 0); margin: 0px; padding: 0px; box-sizing: border-box; font-family: 宋体;\">&nbsp;</p>\n<p style=\"background-color: rgba(0, 0, 0, 0); margin: 0px; padding: 0px; box-sizing: border-box; text-align: center; line-height: 2em; font-family: 宋体;\" align=\"center\"><span style=\"color: #3f3f3f; font-family: PingFangSC-Light;\">当脚步叩响石板路</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); margin: 0px; padding: 0px; box-sizing: border-box; text-align: center; line-height: 2em; font-family: 宋体;\" align=\"center\"><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; display: inline !important; font-family: PingFangSC-Light;\">仿佛踏入诗人卢照邻笔下</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); margin: 0px; padding: 0px; box-sizing: border-box; text-align: center; line-height: 2em; font-family: 宋体;\" align=\"center\"><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; display: inline !important; font-family: PingFangSC-Light;\">&nbsp;&ldquo;长安大道连狭斜，</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); margin: 0px; padding: 0px; box-sizing: border-box; text-align: center; line-height: 2em; font-family: 宋体;\" align=\"center\"><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; display: inline !important; font-family: PingFangSC-Light;\">青牛白马七香车&rdquo;的瑰丽画卷</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); margin: 0px; padding: 0px; box-sizing: border-box; text-align: center; line-height: 2em; font-family: 宋体;\" align=\"center\"><span style=\"color: #3f3f3f; font-family: PingFangSC-Light;\">以城墙为屏，以长街为幕</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); margin: 0px; padding: 0px; box-sizing: border-box; text-align: center; line-height: 2em; font-family: 宋体;\" align=\"center\"><span style=\"color: #3f3f3f; font-family: PingFangSC-Light;\">古城酝酿文化的澎湃新潮</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); margin: 0px; padding: 0px; box-sizing: border-box; font-family: 宋体;\">&nbsp;</p>\n<section class=\"_135editor\" style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\" data-tools=\"135编辑器\" data-id=\"156719\">\n<section style=\"margin: 10px auto; display: flex; justify-content: center; align-items: flex-end;\">\n<section style=\"width: 70%; box-sizing: border-box; max-width: 70% !important;\" data-width=\"70%\">\n<section style=\"width: 100%; text-align: center; max-width: 100% !important; line-height: 2em; box-sizing: border-box;\" data-width=\"100%\"><img class=\"rich_pages wxw-img\" style=\"width: 100%; display: block; vertical-align: baseline; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_jpg/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L5GHI6FZuKVGdHppdmwNNZIKhNUgndgjibaGahIsVorXQje64mLicew3w/640?wx_fmt=jpeg&amp;from=appmsg\" data-type=\"jpeg\" data-width=\"100%\" data-imgfileid=\"503805340\" data-ratio=\"0.6652267818574514\" data-w=\"926\" /></section>\n<section style=\"width: 75%; margin-top: 13px; text-align: center; line-height: 2em; box-sizing: border-box; max-width: 75% !important;\" data-width=\"75%\"><img class=\"rich_pages wxw-img\" style=\"width: 100%; display: block; vertical-align: baseline; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1LXsYENRVh1tVNBHU4wzm0uaa8gO4D5icCkATIvejstR1qlP0VZjpwc1w/640?wx_fmt=png&amp;from=appmsg\" data-type=\"png\" data-width=\"100%\" data-imgfileid=\"503805343\" data-ratio=\"0.6666666666666666\" data-w=\"1080\" /></section>\n</section>\n<section style=\"width: 55%; margin-left: -30.1%; z-index: 3; box-sizing: border-box; max-width: 55% !important;\" data-width=\"55%\">\n<section style=\"background-color: #ffffff; padding: 6px 0px 6px 6px; box-sizing: border-box;\">\n<section style=\"width: 100%; text-align: center; max-width: 100% !important; line-height: 2em; box-sizing: border-box;\" data-width=\"100%\"><img class=\"rich_pages wxw-img\" style=\"width: 100%; display: block; vertical-align: baseline; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_jpg/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1LsibJy6tIGQmAf7dpqn5icxK4zQVN3AichzBFJUMJsFnPxXOYXz8lwbO0g/640?wx_fmt=jpeg&amp;from=appmsg\" data-type=\"jpeg\" data-width=\"100%\" data-imgfileid=\"503805345\" data-ratio=\"0.6666666666666666\" data-w=\"933\" /></section>\n</section>\n<section style=\"width: 40%; height: 12px; background: linear-gradient(to right, transparent, #f2c777); margin-left: auto; margin-top: 25px; margin-bottom: 25px; box-sizing: border-box; max-width: 40% !important;\" data-width=\"40%\">\n<p>&nbsp;</p>\n</section>\n</section>\n</section>\n</section>\n<p style=\"background-color: rgba(0, 0, 0, 0); margin: 0px; padding: 0px; box-sizing: border-box; font-family: 宋体;\">&nbsp;</p>\n<p style=\"background-color: rgba(0, 0, 0, 0); margin: 0px; padding: 0px; box-sizing: border-box; text-align: center; line-height: 2em; font-family: 宋体;\" align=\"center\"><span style=\"color: rgba(0, 0, 0, 0.85); background-color: rgba(0, 0, 0, 0); caret-color: red; font-family: PingFangSC-Light;\">皇城坊布局巧妙融合古今元素</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); margin: 0px; padding: 0px; box-sizing: border-box; text-align: center; line-height: 2em; font-family: 宋体;\" align=\"center\"><span style=\"color: rgba(0, 0, 0, 0.85); font-size: 16px; text-decoration-thickness: initial; display: inline !important; font-family: PingFangSC-Light;\">既有现代时尚的潮流感</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); margin: 0px; padding: 0px; box-sizing: border-box; text-align: center; line-height: 2em; font-family: 宋体;\" align=\"center\"><span style=\"color: rgba(0, 0, 0, 0.85); font-size: 16px; text-decoration-thickness: initial; display: inline !important; font-family: PingFangSC-Light;\">又不失古典雅致的韵味</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); margin: 0px; padding: 0px; box-sizing: border-box; text-align: center; line-height: 2em; font-family: 宋体;\" align=\"center\"><span style=\"color: rgba(0, 0, 0, 0.85); font-size: 16px; text-decoration-thickness: initial; display: inline !important; font-family: PingFangSC-Light;\">随手定格皆是氛围感大片</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); margin: 0px; padding: 0px; box-sizing: border-box; font-family: 宋体;\">&nbsp;</p>\n<section class=\"\" style=\"background-color: rgba(0, 0, 0, 0); margin: 0px; padding: 0px; box-sizing: border-box; font-family: 宋体;\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: baseline; width: 100%; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_jpg/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1LXyR0aianxiaYrFibOHib6lOLTiayiaXANDIic5ibhtfeb2zjpoyH8tHc4E8NYQ/640?wx_fmt=jpeg&amp;from=appmsg\" alt=\"DSC03541.JPG\" data-type=\"jpeg\" data-imgfileid=\"503805346\" data-ratio=\"0.6657407407407407\" data-w=\"1080\" /></section>\n<section class=\"_135editor\"></section>\n<section style=\"text-align: center; line-height: 2em;\" data-role=\"paragraph\">\n<section class=\"\" style=\"line-height: 2em;\">\n<p>&nbsp;</p>\n</section>\n<section class=\"\" style=\"line-height: 2em;\">\n<p>&nbsp;</p>\n</section>\n</section>\n<section class=\"\" style=\"text-align: center; line-height: 2em;\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: baseline; width: 100%; box-sizing: border-box; max-width: 100% !important;\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBWkRuP4elaPeModUt8Qu5ibYnWJrK0HE4JIgfqibX8hppR7Pq9BsefkngeNnZREOUiaPKuT9hMumG0fw/640?wx_fmt=png&amp;from=appmsg\" data-s=\"300,640\" data-type=\"png\" data-imgfileid=\"503805489\" data-ratio=\"0.4007525870178739\" data-w=\"1063\" /></section>\n<section class=\"_135editor\" style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\" data-role=\"title\" data-tools=\"135编辑器\" data-id=\"158190\">\n<section style=\"margin: 10px auto; display: flex; justify-content: center;\">\n<section style=\"display: flex; flex-direction: column;\">\n<section style=\"display: flex; align-items: center; z-index: 6;\">\n<section style=\"flex-shrink: 0; padding-right: 10px; box-sizing: border-box; height: 0px;\">\n<p>&nbsp;</p>\n</section>\n<section style=\"background-color: #96b061;\">\n<section style=\"display: flex; align-items: center; height: 0px;\">\n<p>&nbsp;</p>\n</section>\n</section>\n</section>\n<section style=\"margin-top: -26px; z-index: 1; width: 90%; height: 0px; box-sizing: border-box; max-width: 90% !important; transform: translateX(-13px); -webkit-transform: translateX(-13px); -moz-transform: translateX(-13px); -o-transform: translateX(-13px);\" data-width=\"90%\">\n<p>&nbsp;</p>\n</section>\n</section>\n</section>\n<section class=\"_135editor\" data-tools=\"135编辑器\" data-id=\"158168\">\n<section style=\"margin: 10px auto;\">\n<section class=\"\" style=\"background-color: #fbf5e2; padding: 10px 10px 0px; box-sizing: border-box;\">\n<section style=\"border: 1px solid #74b162; box-sizing: border-box;\">\n<section class=\"\" style=\"width: 100%; max-width: 100% !important; line-height: 2em; box-sizing: border-box;\" data-width=\"100%\"><img class=\"rich_pages wxw-img\" style=\"width: 100%; display: block; vertical-align: baseline; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_jpg/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1LSHrQopxfyX8ZDlQq6T8qdMcfyor2Zdalflu06IIFDVDfdSJpyzJfAA/640?wx_fmt=jpeg&amp;from=appmsg\" data-type=\"jpeg\" data-width=\"100%\" data-imgfileid=\"503805332\" data-ratio=\"0.6666666666666666\" data-w=\"1080\" /></section>\n</section>\n<section style=\"margin: -30px 10px 0px;\">\n<section class=\"\" style=\"width: 100%; max-width: 100% !important; line-height: 2em; box-sizing: border-box;\" data-width=\"100%\"><img class=\"rich_pages wxw-img\" style=\"width: 100%; display: block; vertical-align: baseline; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_gif/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L8HprO3p9zDXQU4EkLqeMzdKic1ryvJ2E7xaqiccVjRopiamRA1z6iaK79w/640?wx_fmt=gif&amp;from=appmsg\" data-type=\"gif\" data-width=\"100%\" data-imgfileid=\"503805334\" data-ratio=\"0.1788693234476367\" data-w=\"1079\" /></section>\n</section>\n</section>\n<section class=\"\" style=\"margin-top: -1px;\"></section>\n</section>\n</section>\n<p style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\">&nbsp;</p>\n</section>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: center; line-height: 2em; font-family: 宋体;\" align=\"center\"><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\">在<span style=\"background: url('https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L3HiaS3icj9ExPDKoIWx8lm2pl3O9YUFib8EQPdAvYjCicmbcdHRLIm2KJw/640?wx_fmt=png&amp;from=appmsg') 50% 50% / contain repeat scroll padding-box border-box rgba(0, 0, 0, 0); box-sizing: border-box; text-align: center; line-height: 2em; color: #98b061; font-size: 16px; text-decoration-thickness: initial; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\"><strong>尚武门（小北门）</strong></span>附近</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: center; line-height: 2em; font-family: 宋体;\" align=\"center\"><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\">有一处别具特色的铁路主题公园</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: center; line-height: 2em; font-family: 宋体;\" align=\"center\"><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\">它依偎在古老城墙下</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: center; line-height: 2em; font-family: 宋体;\" align=\"center\"><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\">是这座城市独特的文化印记</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\">&nbsp;</p>\n<section class=\"_135editor\" style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\" data-tools=\"135编辑器\" data-id=\"157617\">\n<section style=\"margin: 10px auto; display: flex; flex-direction: column;\">\n<section style=\"display: flex; justify-content: space-between; z-index: 0;\">\n<section style=\"width: 85%; box-sizing: border-box; max-width: 85% !important;\" data-width=\"85%\">\n<section style=\"background-color: #bae0d1; padding: 5px; box-sizing: border-box;\">\n<section style=\"width: 100%; max-width: 100% !important; text-align: center; box-sizing: border-box;\" data-width=\"100%\"><img class=\"rich_pages wxw-img\" style=\"width: 100%; display: block; vertical-align: baseline; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_jpg/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1LoHQjibZn7dgPI6xStEef1ST3P2k0FutdibUl1UUZruOwyZaPopBAqWJw/640?wx_fmt=jpeg&amp;from=appmsg\" data-type=\"jpeg\" data-width=\"100%\" data-imgfileid=\"503805333\" data-ratio=\"0.6666666666666666\" data-w=\"1080\" /></section>\n</section>\n</section>\n<section class=\"\" style=\"width: 15%; box-sizing: border-box; max-width: 15% !important;\" data-width=\"15%\">\n<section style=\"width: 20px; margin: 7px auto 0px; height: 0px; box-sizing: border-box;\">\n<p>&nbsp;</p>\n</section>\n</section>\n</section>\n<section style=\"display: flex; justify-content: space-between; align-items: flex-end; margin-top: -17.1%; z-index: 4;\">\n<section style=\"width: 20%; box-sizing: border-box; max-width: 20% !important;\" data-width=\"20%\">\n<section style=\"font-size: 28px; letter-spacing: 2.5px; color: #ffffff; width: 18px; writing-mode: vertical-lr; text-shadow: #bae0d1 0em 0.036em 0em, #bae0d1 0.036em 0em 0em, #bae0d1 0.036em 0.036em 0em, #bae0d1 -0.036em -0.036em 0em, #bae0d1 0.036em -0.036em 0em, #bae0d1 -0.036em 0.036em 0em, #bae0d1 0em -0.036em 0em, #bae0d1 -0.036em 0em 0em; box-sizing: border-box;\">\n<p>&nbsp;</p>\n</section>\n</section>\n<section style=\"width: 80%; box-sizing: border-box; max-width: 80% !important;\" data-width=\"80%\">\n<section style=\"background-color: #a7c4d4; padding: 4px; box-sizing: border-box;\">\n<section class=\"\" style=\"width: 100%; text-align: center; max-width: 100% !important; line-height: 2em; box-sizing: border-box;\" data-width=\"100%\"><img class=\"rich_pages wxw-img\" style=\"width: 100%; display: block; vertical-align: baseline; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_jpg/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1LOFVEzVhHwQD8SzibsIv6IWclAoOqeF4XCGdgSZcOicDy0dPTeWSDicGdg/640?wx_fmt=jpeg&amp;from=appmsg\" data-type=\"jpeg\" data-width=\"100%\" data-imgfileid=\"503805331\" data-ratio=\"0.6666666666666666\" data-w=\"1080\" /></section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<p style=\"background-color: rgba(0, 0, 0, 0); line-height: 2em; font-family: 宋体;\">&nbsp;</p>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: center; line-height: 2em; font-family: 宋体;\" align=\"center\"><strong><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\"><span style=\"font-weight: normal;\">陇海线铁路主题公园</span></span></strong></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: center; line-height: 2em; font-family: 宋体;\" align=\"center\"><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\">一侧是悠悠古韵的城墙</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: center; line-height: 2em; font-family: 宋体;\" align=\"center\"><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\">一侧是汽笛鸣驶的列车</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: center; line-height: 2em; font-family: 宋体;\" align=\"center\"><span style=\"color: #3f3f3f; font-family: PingFangSC-Light;\">恰好印证了那句歌词</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: center; line-height: 2em; font-family: 宋体;\" align=\"center\"><span style=\"color: #3f3f3f; font-family: PingFangSC-Light;\">&ldquo;西安人的城墙下是西安人的火车&rdquo;</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); line-height: 2em; font-family: 宋体;\">&nbsp;</p>\n<section class=\"_135editor\" style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\" data-tools=\"135编辑器\" data-id=\"146605\">\n<section style=\"margin: 10px auto;\" data-op=\"division\">\n<section class=\"\" style=\"width: 80%; margin-left: auto; margin-bottom: -15.1%; text-align: center; box-sizing: border-box; max-width: 80% !important;\" data-width=\"80%\"><img class=\"rich_pages wxw-img\" style=\"width: 100%; display: block; vertical-align: baseline; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/mmbiz_gif/leHRv1mbB4BqTpTKwlCHibzRdJW3quOEnrW4Ls3rapmZ0wKInKkaG8Kt7n7R1aD6MJMJzxDowpOLsmy6lS9icWoQ/640?wx_fmt=gif\" data-width=\"100%\" data-ratio=\"0.5642857142857143\" data-w=\"280\" /></section>\n<section class=\"\" style=\"display: flex; align-items: center;\">\n<section style=\"width: 57%; display: flex; flex-direction: column; box-sizing: border-box; max-width: 57% !important;\" data-width=\"57%\">\n<section style=\"padding: 10px; background-color: #f2f7ff; box-sizing: border-box;\">\n<section style=\"width: 100%; max-width: 100% !important; box-sizing: border-box;\" data-width=\"100%\"><img class=\"rich_pages wxw-img\" style=\"width: 100%; display: block; vertical-align: baseline; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_jpg/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1LPrLkX0DUzaZr6YOSXSjDwAAP8DJsrv1YoS9kD65jlK7JRLcWuvy7OA/640?wx_fmt=jpeg&amp;from=appmsg\" data-type=\"jpeg\" data-width=\"100%\" data-imgfileid=\"503805337\" data-ratio=\"1.3333333333333333\" data-w=\"900\" /></section>\n</section>\n</section>\n<section style=\"width: 53%; margin-left: -10.1%; z-index: 4; box-sizing: border-box; max-width: 53% !important;\" data-width=\"53%\">\n<section style=\"background-color: #ffffff; padding: 5px; box-sizing: border-box; box-shadow: #a5a5a5 3px 4px 4px 1px, #a5a5a5 0px 0px 2px;\">\n<section class=\"\" style=\"width: 100%; max-width: 100% !important; box-sizing: border-box;\" data-width=\"100%\"><img class=\"rich_pages wxw-img\" style=\"width: 100%; display: block; vertical-align: baseline; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_jpg/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1LKd72CegcvuHwXzHZDD5Vbn8l8EhezshRCOIagiaNs4dll4zmrBjRWdA/640?wx_fmt=jpeg&amp;from=appmsg\" data-type=\"jpeg\" data-width=\"100%\" data-imgfileid=\"503805338\" data-ratio=\"0.6666666666666666\" data-w=\"1080\" /></section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: right; line-height: 2em; font-family: 宋体;\" align=\"right\"><span style=\"font-size: 12px; color: #a5a5a5; font-family: PingFangSC-Light;\">图/西安扑通</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\">&nbsp;</p>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: center; line-height: 2em; font-family: 宋体;\" align=\"center\"><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\">复古的绿皮车厢化身&ldquo;时光胶囊&rdquo;</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: center; line-height: 2em; font-family: 宋体;\" align=\"center\"><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\">在其中可以惬意享受漫时光</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: center; line-height: 2em; font-family: 宋体;\" align=\"center\"><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\">或是在健身步道上慢跑</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: center; line-height: 2em; font-family: 宋体;\" align=\"center\"><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\">听着旁边火车的呼啸声</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: center; line-height: 2em; font-family: 宋体;\" align=\"center\"><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\">闹中取静，感受动静交织的魅力</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\">&nbsp;</p>\n<section class=\"\" style=\"background-color: rgba(0, 0, 0, 0); line-height: 2em; font-family: 宋体;\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: baseline; width: 100%; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_jpg/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L1SQKUibITGSqJmxVDmw2Qn2S83xNuAHd32AIpsH3aDgDVUYryFclUTw/640?wx_fmt=jpeg&amp;from=appmsg\" alt=\"_DSC2456.JPG\" data-type=\"jpeg\" data-imgfileid=\"503805336\" data-ratio=\"0.6666666666666666\" data-w=\"1080\" /></section>\n<section class=\"_135editor\"></section>\n<section class=\"\" style=\"text-align: center; line-height: 2em;\" data-role=\"paragraph\">\n<section class=\"\">\n<p>&nbsp;</p>\n</section>\n<section class=\"\">\n<p>&nbsp;</p>\n</section>\n<section class=\"\" style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: baseline; width: 100%; box-sizing: border-box; max-width: 100% !important;\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBWkRuP4elaPeModUt8Qu5ibYU9pEJAyd4nace5sAib5cYMl7jkUPzhjoQMN5GBHEdJ7tjXSmaoEhb7w/640?wx_fmt=png&amp;from=appmsg\" data-s=\"300,640\" data-type=\"png\" data-imgfileid=\"503805490\" data-ratio=\"0.38425925925925924\" data-w=\"1080\" /></section>\n<section class=\"_135editor\" style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\" data-role=\"title\" data-tools=\"135编辑器\" data-id=\"158190\">\n<section class=\"_135editor\" data-tools=\"135编辑器\" data-id=\"158168\">\n<section style=\"margin: 10px auto;\">\n<section class=\"\" style=\"background-color: #fbf5e2; padding: 10px 10px 0px; box-sizing: border-box;\">\n<section style=\"border: 1px solid #74b162; box-sizing: border-box;\">\n<section class=\"\" style=\"width: 100%; max-width: 100% !important; box-sizing: border-box;\" data-width=\"100%\"><img class=\"rich_pages wxw-img\" style=\"width: 100%; display: block; vertical-align: baseline; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_jpg/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1LVEjGibgNCESuZQNwXn01sUBgLVacn614evpBrUYPoJbLEC6JS7Yiav9Q/640?wx_fmt=jpeg&amp;from=appmsg\" data-type=\"jpeg\" data-width=\"100%\" data-imgfileid=\"503805320\" data-ratio=\"0.6666666666666666\" data-w=\"1080\" /></section>\n</section>\n<section style=\"margin: -30px 10px 0px;\">\n<section class=\"\" style=\"width: 100%; max-width: 100% !important; box-sizing: border-box;\" data-width=\"100%\"><img class=\"rich_pages wxw-img\" style=\"width: 100%; display: block; vertical-align: baseline; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_gif/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L8HprO3p9zDXQU4EkLqeMzdKic1ryvJ2E7xaqiccVjRopiamRA1z6iaK79w/640?wx_fmt=gif&amp;from=appmsg\" data-type=\"gif\" data-width=\"100%\" data-imgfileid=\"503805323\" data-ratio=\"0.1788693234476367\" data-w=\"1079\" /></section>\n</section>\n</section>\n<section class=\"\" style=\"margin-top: -1px;\"></section>\n</section>\n</section>\n</section>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\">&nbsp;</p>\n<p style=\"background-color: rgba(0, 0, 0, 0); line-height: 2em; font-family: 宋体;\"><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\">在西安城墙西侧</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); line-height: 2em; font-family: 宋体;\"><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\">静静伫立</span><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\">着一座</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); line-height: 2em; font-family: 宋体;\"><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\">见证岁月变迁的城门</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); line-height: 2em; font-family: 宋体;\"><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\">为纪念冯玉祥将军</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); line-height: 2em; font-family: 宋体;\"><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\">解西安城之围的历史功绩</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); line-height: 2em; font-family: 宋体;\"><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\"><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\">取名为</span><span style=\"background: url('https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L3HiaS3icj9ExPDKoIWx8lm2pl3O9YUFib8EQPdAvYjCicmbcdHRLIm2KJw/640?wx_fmt=png&amp;from=appmsg') 50% 50% / contain repeat scroll padding-box border-box rgba(0, 0, 0, 0); box-sizing: border-box; text-align: center; line-height: 2em; color: #98b061; font-size: 16px; text-decoration-thickness: initial; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\"><strong>玉祥门</strong></span></span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: center; font-family: 宋体;\" align=\"center\" data-pm-slice=\"0 0 []\">&nbsp;</p>\n<section class=\"\" style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: baseline; width: 100%; box-sizing: border-box; max-width: 100% !important;\" src=\"https://mmbiz.qpic.cn/mmbiz_jpg/KlEfeKPEnBVADwbWeFCPZAlxEcyrLYQpLHra301urBFva686rsrduu32ZtQfne4lbdz9h37gkMJtJAIb5xcmkw/640?wx_fmt=jpeg&amp;tp=wxpic&amp;wxfrom=5&amp;wx_lazy=1\" alt=\"图片\" data-ratio=\"0.562962962962963\" data-w=\"1080\" /></section>\n<p style=\"font-size: 12px; color: #a5a5a5; font-family: PingFangSC-Light;\" data-pm-slice=\"1 1 [&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;data-cacheurl&quot;:&quot;&quot;,&quot;data-pm-slice&quot;:&quot;0 0 []&quot;,&quot;data-remoteid&quot;:&quot;&quot;,&quot;data-role&quot;:&quot;outer&quot;,&quot;style&quot;:&quot;letter-spacing:2px;font-size:16px;background-clip:border-box;background-origin:padding-box;background-attachment:scroll;background-repeat:repeat;background-size:contain;background-position:50% 50%;padding:0px;box-sizing:border-box;font-family:宋体;background-image: url(\\&quot;https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L3HiaS3icj9ExPDKoIWx8lm2pl3O9YUFib8EQPdAvYjCicmbcdHRLIm2KJw/640?wx_fmt=png&amp;from=appmsg\\&quot;);&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;data-role&quot;:&quot;paragraph&quot;,&quot;style&quot;:&quot;text-align: center;line-height: 2em;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;data-role&quot;:&quot;paragraph&quot;,&quot;data-pm-slice&quot;:&quot;0 0 []&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;},&quot;para&quot;,{&quot;tagName&quot;:&quot;section&quot;,&quot;attributes&quot;:{&quot;style&quot;:&quot;background-color: rgba(0, 0, 0, 0);font-family: 宋体;text-align: right;&quot;},&quot;namespaceURI&quot;:&quot;http://www.w3.org/1999/xhtml&quot;}]\">&nbsp;</p>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: center; line-height: 2em;\" align=\"center\"><span style=\"color: rgba(0, 0, 0, 0.85); font-size: 16px; text-decoration-thickness: initial; display: inline !important; font-family: PingFangSC-Light;\">玉祥门俗称&ldquo;小西门&rdquo;</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: center; line-height: 2em;\" align=\"center\"><span style=\"color: rgba(0, 0, 0, 0.85); font-size: 16px; text-decoration-thickness: initial; display: inline !important; font-family: PingFangSC-Light;\">于1928 年开通</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: center; line-height: 2em;\" align=\"center\"><span style=\"color: rgba(0, 0, 0, 0.85); font-size: 16px; text-decoration-thickness: initial; display: inline !important; font-family: PingFangSC-Light;\">是西安四大城门之外较早开辟的城门</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: center; line-height: 2em;\" align=\"center\"><span style=\"color: rgba(0, 0, 0, 0.85); font-size: 16px; text-decoration-thickness: initial; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\">明代此地有西安府最大养老院</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: center; line-height: 2em;\" align=\"center\"><span style=\"color: rgba(0, 0, 0, 0.85); font-size: 16px; text-decoration-thickness: initial; display: inline !important; font-family: PingFangSC-Light;\">明太祖朱元璋曾设三大福利机构</span></p>\n<span style=\"color: rgba(0, 0, 0, 0.85); font-size: 16px; text-decoration-thickness: initial; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\">&ldquo;养济院&rdquo;&ldquo;漏泽园&rdquo;&ldquo;惠民药局&rdquo;</span>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: center; line-height: 2em;\" align=\"center\"><span style=\"color: rgba(0, 0, 0, 0.85); font-size: 16px; text-decoration-thickness: initial; display: inline !important; font-family: PingFangSC-Light;\">从而保障民生</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: center;\" align=\"center\">&nbsp;</p>\n<section class=\"_135editor\" data-tools=\"135编辑器\" data-id=\"157089\" data-pm-slice=\"0 0 []\">\n<section style=\"margin: 10px auto;\" data-op=\"division\">\n<section style=\"display: flex; justify-content: space-between;\">\n<section style=\"width: 90%; box-sizing: border-box; max-width: 90% !important;\" data-width=\"90%\">\n<section style=\"border: 1px solid #fbd964; border-radius: 7px; z-index: 0; box-sizing: border-box;\">\n<section class=\"\" style=\"width: 100%; border-radius: 7px; overflow: hidden; max-width: 100% !important; box-sizing: border-box;\" data-width=\"100%\"><img class=\"rich_pages wxw-img\" style=\"width: 100%; height: 381px; vertical-align: baseline; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_jpg/KlEfeKPEnBXxeCANqjdic4oiclNfouF2vPHonZiaL0ictWx14vIrGKjkNSGicxJd540oCia4HlDq4Gq38qYzhKJ7icicIA/640?wx_fmt=jpeg\" alt=\"图片\" data-croporisrc=\"https://mmbiz.qpic.cn/sz_mmbiz_png/lY2yzQpltTHyn6S5E1YXL8Q9gb8jDsQMRYXTls8rmhYg8EKUPIM0NEg3ibMdiagwOib9TlCapeQGIrEJdKCz29jVg/640?from=appmsg\" data-cropx2=\"1080\" data-cropy1=\"420.41522491349474\" data-cropy2=\"1132.3183391003458\" data-ratio=\"0.6592592592592592\" data-w=\"1080\" /></section>\n</section>\n</section>\n<section style=\"width: 10%; box-sizing: border-box; max-width: 10% !important;\" data-width=\"10%\">\n<section style=\"display: flex; align-items: center; justify-content: center;\">\n<section style=\"margin: 20px 0px 0px;\">\n<section style=\"width: 8px; height: 8px; background-color: #deebc2; border-radius: 100%; margin: 5px 0px; box-sizing: border-box;\">\n<p>&nbsp;</p>\n</section>\n<section style=\"width: 8px; height: 8px; background-color: #fbd964; border-radius: 100%; margin: 5px 0px; box-sizing: border-box;\">\n<p>&nbsp;</p>\n</section>\n<section style=\"width: 8px; height: 8px; background-color: #deebc2; border-radius: 100%; margin: 5px 0px; box-sizing: border-box;\">\n<p>&nbsp;</p>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section style=\"display: flex; align-items: flex-end; justify-content: space-between; margin-top: -16.1%;\">\n<section style=\"width: 51%; box-sizing: border-box; max-width: 51% !important;\" data-width=\"51%\">\n<section style=\"width: 100%; border-radius: 8px; overflow: hidden; max-width: 100% !important; box-sizing: border-box;\" data-width=\"100%\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: baseline; width: 100%; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/mmbiz_jpg/leHRv1mbB4A3Ynjo71NmypK2MWGgib8MiaC8RibpZU8NfhM11J8mOT3L3550T4TJlywEYico390iaM3RIPthXdYibrbg/640?wx_fmt=jpeg&amp;tp=wxpic&amp;wxfrom=5&amp;wx_lazy=1\" alt=\"图片\" data-ratio=\"1\" data-w=\"140\" /></section>\n</section>\n<section style=\"width: 47%; box-sizing: border-box; max-width: 47% !important;\" data-width=\"47%\">\n<section style=\"background-color: #ffffff; border-radius: 8px; padding: 5px; box-sizing: border-box;\">\n<section class=\"\" style=\"width: 100%; border-radius: 8px; overflow: hidden; max-width: 100% !important; box-sizing: border-box;\" data-width=\"100%\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: baseline; width: 100%; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBWkRuP4elaPeModUt8Qu5ibYUFXNVHB5JZXLFqfdtMeCoMiadmdjxcOwHWicQeMHfIceEKCeG7uPW1cA/640?wx_fmt=png&amp;from=appmsg\" alt=\"图片\" data-type=\"png\" data-backw=\"262\" data-backh=\"262\" data-imgfileid=\"503805479\" data-ratio=\"1\" data-w=\"1080\" /></section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: right; font-family: 宋体;\" align=\"right\"><span style=\"font-size: 12px; color: #a5a5a5; font-family: PingFangSC-Light;\">图/西安文旅、西安扑通、西安乱拍</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\">&nbsp;</p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\">门外的环城公园</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\">碧绿的护城河环绕于此</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\">在这里有多种休闲方式任你选择</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\">呼吸着新鲜空气</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><span style=\"font-size: 16px; text-decoration-thickness: initial; color: #3f3f3f; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\">感受这份城市&ldquo;绿洲&rdquo;的鲜活</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\">&nbsp;</p>\n<section data-role=\"paragraph\" data-pm-slice=\"0 0 []\">\n<section class=\"\"><img class=\"rich_pages wxw-img\" style=\"height: auto !important; vertical-align: baseline; width: 100%; box-sizing: border-box; max-width: 100% !important;\" src=\"https://mmbiz.qpic.cn/mmbiz_jpg/KlEfeKPEnBUutWbY4QnRb6qsCGzDtKDFUeopI1TVfcHmZ9BeQfJLQBRh0SOicmDXpxSkpMoqMmStXzKymOgicBvg/640?wx_fmt=jpeg&amp;tp=wxpic&amp;wxfrom=5&amp;wx_lazy=1\" alt=\"图片\" data-ratio=\"0.6666666666666666\" data-w=\"1080\" /></section>\n<section class=\"\" style=\"background-color: rgba(0, 0, 0, 0); text-align: right; font-family: 宋体;\"><span style=\"font-size: 12px; color: #a5a5a5; font-family: PingFangSC-Light;\">图/西安扑通</span></section>\n</section>\n<section class=\"_135editor\"></section>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\">&nbsp;</p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\">&nbsp;</p>\n<section class=\"\" style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" style=\"height: auto !important; vertical-align: baseline; width: 100%; box-sizing: border-box; max-width: 100% !important;\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBXxeCANqjdic4oiclNfouF2vPVxxfyNbj9NpG9lmaicKMaQOErOm8ZjFbR8icbxlvibRuoQAicE78FH7aiaw/640?wx_fmt=png&amp;from=appmsg\" data-s=\"300,640\" data-type=\"png\" data-imgfileid=\"503805459\" data-ratio=\"0.4007525870178739\" data-w=\"1063\" /></section>\n<section class=\"_135editor\" style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\" data-tools=\"135编辑器\" data-id=\"158168\">\n<section style=\"margin: 10px auto;\">\n<section style=\"background-color: #fbf5e2; padding: 10px 10px 0px; box-sizing: border-box;\">\n<section style=\"border: 1px solid #74b162; box-sizing: border-box;\">\n<section class=\"\" style=\"width: 100%; max-width: 100% !important; box-sizing: border-box;\" data-width=\"100%\"><img class=\"rich_pages wxw-img\" style=\"width: 100%; display: block; vertical-align: baseline; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_jpg/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1LuPmlhFvLRjnVsGTTqKhe7vicHcgcTz6hoLsRQKlEFacva9fIC5MYOaQ/640?wx_fmt=jpeg&amp;from=appmsg\" data-type=\"jpeg\" data-width=\"100%\" data-imgfileid=\"503805356\" data-ratio=\"0.6666666666666666\" data-w=\"1080\" /></section>\n</section>\n<section style=\"margin: -30px 10px 0px;\">\n<section class=\"\" style=\"width: 100%; max-width: 100% !important; box-sizing: border-box;\" data-width=\"100%\"><img class=\"rich_pages wxw-img\" style=\"width: 100%; display: block; vertical-align: baseline; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_gif/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L8HprO3p9zDXQU4EkLqeMzdKic1ryvJ2E7xaqiccVjRopiamRA1z6iaK79w/640?wx_fmt=gif&amp;from=appmsg\" data-type=\"gif\" data-width=\"100%\" data-imgfileid=\"503805364\" data-ratio=\"0.1788693234476367\" data-w=\"1079\" /></section>\n</section>\n</section>\n<section class=\"\" style=\"margin-top: -1px;\"></section>\n</section>\n</section>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\">&nbsp;</p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><span style=\"font-family: PingFangSC-Light;\">提到<span style=\"background: url('https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L3HiaS3icj9ExPDKoIWx8lm2pl3O9YUFib8EQPdAvYjCicmbcdHRLIm2KJw/640?wx_fmt=png&amp;from=appmsg') 50% 50% / contain repeat scroll padding-box border-box rgba(0, 0, 0, 0); box-sizing: border-box; text-align: center; line-height: 2em; color: #98b061; font-size: 16px; text-decoration-thickness: initial; letter-spacing: 2px; display: inline !important; font-family: PingFangSC-Light;\"><strong>勿幕门（小南门）</strong></span></span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><span style=\"font-family: PingFangSC-Light;\">大家<span style=\"letter-spacing: 2px; font-size: 16px; background: url('https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L3HiaS3icj9ExPDKoIWx8lm2pl3O9YUFib8EQPdAvYjCicmbcdHRLIm2KJw/640?wx_fmt=png&amp;from=appmsg') 50% 50% / contain repeat scroll padding-box border-box rgba(0, 0, 0, 0); box-sizing: border-box; text-align: center; line-height: 2em; font-family: PingFangSC-Light;\">脑海中立</span>刻浮现出舌尖上的早市</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><span style=\"font-family: PingFangSC-Light;\">然而在这烟火升腾中</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><span style=\"font-family: PingFangSC-Light;\">隐匿着一条city walk绝佳路线</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><span style=\"letter-spacing: 2px; font-size: 16px; background: url('https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L3HiaS3icj9ExPDKoIWx8lm2pl3O9YUFib8EQPdAvYjCicmbcdHRLIm2KJw/640?wx_fmt=png&amp;from=appmsg') 50% 50% / contain repeat scroll padding-box border-box rgba(0, 0, 0, 0); box-sizing: border-box; text-align: center; line-height: 2em; font-family: PingFangSC-Light;\"><span style=\"font-weight: normal;\">&mdash;&mdash;</span></span><strong><span style=\"letter-spacing: 2px; font-size: 16px; background: url('https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L3HiaS3icj9ExPDKoIWx8lm2pl3O9YUFib8EQPdAvYjCicmbcdHRLIm2KJw/640?wx_fmt=png&amp;from=appmsg') 50% 50% / contain repeat scroll padding-box border-box rgba(0, 0, 0, 0); box-sizing: border-box; text-align: center; line-height: 2em; font-family: PingFangSC-Light;\"><span style=\"font-weight: normal;\">太阳庙门街</span></span></strong></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\">&nbsp;</p>\n<section class=\"\" style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: baseline; width: 100%; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_jpg/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1LeV8X44xUBlKndB0Is63mYYmyLlOGeA4zDUdSelIMBC0ibLtDOxkDDFQ/640?wx_fmt=other&amp;from=appmsg\" alt=\"80e8dde672d51f6443b21a7b63dc3ec7.jpg\" data-type=\"other\" data-imgfileid=\"503805362\" data-ratio=\"0.6666666666666666\" data-w=\"1080\" /></section>\n<section class=\"\" style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: baseline; width: 100%; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_jpg/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1LbM3VjDWUGRRZyezLRq1EEF1NtgNCgMmrFco5icofOvsqRALqVgJuGHQ/640?wx_fmt=jpeg&amp;from=appmsg\" alt=\"7281e7f01e61627a422cf02c7215d73b.jpg\" data-type=\"jpeg\" data-imgfileid=\"503805361\" data-ratio=\"0.6657407407407407\" data-w=\"1080\" /></section>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: right; font-family: 宋体;\" align=\"right\"><span style=\"color: #a5a5a5; font-size: 12px; font-family: PingFangSC-Light;\">图/西安文旅、西安扑通</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\">&nbsp;</p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><span style=\"font-size: 16px; white-space: pre-wrap; background-color: #eff0f1; text-decoration-thickness: initial; color: #3f3f3f; display: inline !important; font-family: PingFangSC-Light;\">阳光穿过树叶的缝隙</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><span style=\"font-size: 16px; white-space: pre-wrap; background-color: #eff0f1; text-decoration-thickness: initial; color: #3f3f3f; display: inline !important; font-family: PingFangSC-Light;\">在街道上投出斑驳的光影</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><span style=\"font-size: 16px; white-space: pre-wrap; background-color: #eff0f1; text-decoration-thickness: initial; color: #3f3f3f; display: inline !important; font-family: PingFangSC-Light;\">这条浸润着岁月痕迹的小巷</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><span style=\"font-size: 16px; white-space: pre-wrap; background-color: #eff0f1; text-decoration-thickness: initial; color: #3f3f3f; display: inline !important; font-family: PingFangSC-Light;\">充满着浓浓的生活气息</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\">&nbsp;</p>\n<section class=\"_135editor\" data-tools=\"135编辑器\" data-id=\"153922\">\n<section style=\"margin: 10px auto; display: flex; justify-content: center;\" data-op=\"division\">\n<section style=\"width: 85%; box-sizing: border-box; max-width: 85% !important;\" data-width=\"85%\">\n<section style=\"width: 47%; margin-left: 5%; margin-bottom: 5%; box-sizing: border-box; max-width: 47% !important;\" data-width=\"47%\"><img class=\"rich_pages wxw-img\" style=\"width: 100%; display: block; vertical-align: baseline; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_jpg/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1L1mC4zDNQAE24yxNAibWDJrq3b6k2qLOkoKFj0iaUhLc5icSIMaXgKllHQ/640?wx_fmt=jpeg&amp;from=appmsg\" data-type=\"jpeg\" data-width=\"100%\" data-imgfileid=\"503805360\" data-ratio=\"1\" data-w=\"810\" /></section>\n<section style=\"background-color: #b81100; padding: 5px; box-sizing: border-box;\">\n<section style=\"width: 100%; max-width: 100% !important; box-sizing: border-box;\" data-width=\"100%\"><img class=\"rich_pages wxw-img\" style=\"width: 100%; display: block; vertical-align: baseline; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_png/cKq8abh51ibDGC6JibtQhWiavibyPbiaqfSdCPsh2jZ6VoKaPDu6odzhTlpCImxolBpxv6sTibSKB2NLQ3uyFDgSSPCQ/640?wx_fmt=png\" data-width=\"100%\" data-ratio=\"0.6675925925925926\" data-w=\"1080\" /></section>\n</section>\n</section>\n<section class=\"\" style=\"width: 55%; margin-left: -35.1%; z-index: 4; box-sizing: border-box; max-width: 55% !important;\" data-width=\"55%\">\n<section style=\"background-color: #ffffff; padding: 5px; margin-top: 15%; box-sizing: border-box;\">\n<section style=\"overflow: hidden;\">\n<section style=\"width: 50px; height: 7px; background: linear-gradient(to right, #e9c77e, #f8e5a9); margin-left: auto; margin-top: -5px; margin-bottom: -2px; box-sizing: border-box; transform: rotate(35deg) translate(16px, 2px); -webkit-transform: rotate(35deg) translate(16px, 2px); -moz-transform: rotate(35deg) translate(16px, 2px); -o-transform: rotate(35deg) translate(16px, 2px);\">\n<p>&nbsp;</p>\n</section>\n<section class=\"\" style=\"width: 100%; max-width: 100% !important; box-sizing: border-box;\" data-width=\"100%\"><img class=\"rich_pages wxw-img\" style=\"width: 100%; display: block; vertical-align: baseline; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_jpg/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1LBda7YYiaPoBibErKe3AHtXz37UzWFNasMqQ9dO4OiaJLSSicAylTufSMAw/640?wx_fmt=jpeg&amp;from=appmsg\" data-type=\"jpeg\" data-width=\"100%\" data-imgfileid=\"503805363\" data-ratio=\"1.3333333333333333\" data-w=\"1080\" /></section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<p style=\"background-color: rgba(0, 0, 0, 0); text-align: right; font-family: 宋体;\" align=\"right\"><span style=\"color: #a5a5a5; font-size: 12px; font-family: PingFangSC-Light;\">图/西安文旅、西安XI'AN</span></p>\n<p>&nbsp;</p>\n<p><span style=\"letter-spacing: 2px; font-size: 16px; font-family: PingFangSC-Light;\">在这静谧的氛围中</span></p>\n<p><span style=\"letter-spacing: 2px; font-size: 16px; font-family: PingFangSC-Light;\">优雅的&ldquo;阳台音乐会&rdquo;</span></p>\n<p><span style=\"letter-spacing: 2px; font-size: 16px; font-family: PingFangSC-Light;\">不定期演奏</span></p>\n<p><span style=\"letter-spacing: 2px; font-size: 16px; font-family: PingFangSC-Light;\">当悠扬乐声飘荡时</span></p>\n<p><span style=\"letter-spacing: 2px; font-size: 16px; font-family: PingFangSC-Light;\">过往行人皆不自觉放缓脚步沉浸其中</span></p>\n<p>&nbsp;</p>\n<p><span style=\"letter-spacing: 2px; font-size: 16px; font-family: PingFangSC-Light;\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: baseline; width: 100%; height: auto !important; box-sizing: border-box; max-width: 100% !important;\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_jpg/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1Lb1yRFzLdJCljUfGqJtUADCghpMnn3LuJibETz8UCs3Eib77urWzSDSFw/640?wx_fmt=jpeg&amp;from=appmsg\" alt=\"DSC03542.JPG\" data-type=\"jpeg\" data-imgfileid=\"503805367\" data-ratio=\"0.6657407407407407\" data-w=\"1080\" /></span></p>\n<section class=\"_135editor\"></section>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\">&nbsp;</p>\n<section class=\"_135editor\" data-id=\"158193\" data-tools=\"135编辑器\">\n<section class=\"\"><img class=\"rich_pages wxw-img\" style=\"vertical-align: baseline; width: 70px; height: auto !important; box-sizing: border-box;\" draggable=\"false\" src=\"https://mmbiz.qpic.cn/sz_mmbiz_png/KlEfeKPEnBUI3ib7WoV0tcSDWvZgbxc1LekmeL9dNLibXJk5ODV51qQTHqn5aVpTNq5iahesKEtf6nZZdY7HK9agg/640?wx_fmt=png&amp;from=appmsg\" data-type=\"png\" data-imgfileid=\"503805365\" data-ratio=\"0.6277372262773723\" data-w=\"411\" /></section>\n</section>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\">&nbsp;</p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><span style=\"letter-spacing: 2px; font-size: 16px; font-family: PingFangSC-Light;\">新增的5处开放门点</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><span style=\"letter-spacing: 2px; font-size: 16px; font-family: PingFangSC-Light;\">丰富了大家的游览选择</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><span style=\"letter-spacing: 2px; font-size: 16px; font-family: PingFangSC-Light;\">让城墙的魅力多元化呈现</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><span style=\"letter-spacing: 2px; font-size: 16px; font-family: PingFangSC-Light;\">趁着时光正好</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><span style=\"letter-spacing: 2px; font-size: 16px; font-family: PingFangSC-Light;\">开启一场充满惊喜的城市探索之旅吧！</span></p>\n<p style=\"background-color: rgba(0, 0, 0, 0); font-family: 宋体;\"><span style=\"letter-spacing: 2px; font-size: 16px; font-family: PingFangSC-Light;\">&nbsp;</span></p>\n<section class=\"\" style=\"text-align: center;\"></section>\n</section>\n</section>\n<section style=\"padding: 0px; box-sizing: border-box; background-repeat: repeat; background-size: auto; text-align: center;\" data-role=\"paragraph\">\n<section class=\"\" style=\"height: 0px; opacity: 0; margin: 0px; font-family: 宋体;\">&middot;</section>\n<section style=\"background-position: center top; background-repeat: repeat; background-size: 100%; overflow: hidden; box-sizing: border-box; margin: 0px !important; padding: 0px !important; font-family: 宋体;\" data-copyright=\"135编辑器\">\n<section class=\"_135editor\" style=\"margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; box-sizing: border-box; transform: rotateZ(0deg) scale(1); -webkit-transform: rotateZ(0deg) scale(1); -moz-transform: rotateZ(0deg) scale(1); -o-transform: rotateZ(0deg) scale(1);\" data-copyright=\"135编辑器\" data-id=\"336\" data-name=\"展开里套展开\" data-plugin=\"spreadafterspread\" data-template=\"%7B%22block_id%22%3A1739261375719%2C%22margin%22%3A%7B%22top%22%3A0%2C%22bottom%22%3A0%2C%22left%22%3A0%2C%22right%22%3A0%7D%2C%22padding%22%3A%7B%22top%22%3A0%2C%22bottom%22%3A0%2C%22left%22%3A0%2C%22right%22%3A0%7D%2C%22plugin%22%3A%22spreadafterspread%22%2C%22template%22%3A%7B%22name%22%3A%22%E5%B1%95%E5%BC%80%E9%87%8C%E5%A5%97%E5%B1%95%E5%BC%80%22%2C%22id%22%3A%22336%22%2C%22cate_id%22%3A%222%22%2C%22sub_cate_id%22%3A%22%2C2%2C11%2C25%2C%22%7D%7D\">\n<section style=\"font-size: 0; line-height: 0; margin: 0; padding: 0; text-align: center; box-sizing: border-box; transform: scale(1); -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1);\">\n<section style=\"font-size: 0; line-height: 0; overflow: hidden; user-select: none; -webkit-user-select: none;\">\n<section style=\"margin-top: -4px;\">\n<section style=\"margin-top: 0; overflow: hidden;\">\n<section style=\"height: 0; opacity: 0; margin: 0;\">&middot;</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section class=\"_135editor\" style=\"font-size: 16px; margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; overflow-wrap: break-word !important; font-family: 苹方简细体;\" data-id=\"153498\" data-tools=\"135编辑器\">\n<section class=\"\" style=\"margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; overflow-wrap: break-word !important;\" data-role=\"paragraph\">\n<p style=\"margin: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; -webkit-tap-highlight-color: transparent; outline: 0px; color: #a4a29d; caret-color: rgba(0, 0, 0, 0); font-size: 12px; line-height: 2em; box-sizing: border-box !important; overflow-wrap: break-word !important; text-align: center; font-family: arial;\" align=\"center\">&nbsp;</p>\n<p style=\"margin: 0px; padding: 0px; max-width: 100%; clear: both; min-height: 1em; -webkit-tap-highlight-color: transparent; outline: 0px; color: #a4a29d; caret-color: rgba(0, 0, 0, 0); font-size: 12px; line-height: 2em; box-sizing: border-box !important; overflow-wrap: break-word !important; text-align: center; font-family: arial;\" align=\"center\"><span style=\"margin: 0px; padding: 0px; max-width: 100%; -webkit-tap-highlight-color: transparent; outline: 0px; color: #888888; box-sizing: border-box !important; overflow-wrap: break-word !important; letter-spacing: 2px; font-size: 12px; line-height: 2em; font-family: PingFangSC-Light;\">THE | END</span></p>\n<section class=\"\" style=\"margin: 0px; padding: 0px; max-width: 100%; -webkit-tap-highlight-color: transparent; outline: 0px; background-color: #ffffff; clear: both; min-height: 1em; color: #a4a29d; caret-color: rgba(0, 0, 0, 0); font-size: 12px; line-height: 2em; text-align: center; box-sizing: border-box !important; overflow-wrap: break-word !important; font-family: arial;\"></section>\n</section>\n</section>",
+        "contentType": null,
+        "bannerPosition": 0
+      },
+      {
+        "id": "2105469151446433794",
+        "outId": "1320579064720941132",
+        "type": 1,
+        "advertName": "城墙导览",
+        "advertPic": "https://eshopfile.zhiyousx.com/2026093017441504167.png",
+        "jumpType": 3,
+        "jumpUrl": "https://eshop.zhiyousx.com/dsmall-admin-ui/h5/wallGuide.html",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "wxf2cca76ae0520e33",
+        "newAppId": "wxf2cca76ae0520e33",
+        "appUrl": "/escortPage/pages/aiWebpage/aiWebpage?urlEncode=https%3A%2F%2Feshop.zhiyousx.com%2FcitywallV%2F%23%2F%3FtenantId%3D521664",
+        "richText": "",
+        "contentType": null,
+        "bannerPosition": 0
+      }
+    ],
+    "bannerList": [
+      {
+        "id": "2105469151450628097",
+        "outId": "1320579064720941132",
+        "type": 1,
+        "advertName": "西安城墙到底有多少个门？",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021063018130142247.png",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p style=\"text-align: center;\"><span style=\"color: #ffffff; background-color: #808080;\"><strong>&nbsp; 西安城墙到底有多少个门？</strong></span></p>\n<p>&nbsp;</p>\n<p>　　时间摧残出它们的沧桑：但它们仍雄立一方，如同十八位怒目金刚。它们经历过多少凄凉有风花雪月的繁华也有人走茶凉的悲伤。青苔是时间逝去的痕迹，古老的城门阻拦着敌人让城市固若金汤&hellip;&hellip;</p>\n<p>　　小编就带大家一起领略这十八座城门的魅力~</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061611111239020.jpg\" /></p>\n<p>一、永宁门</p>\n<p>　　永宁门是西安城墙的正南门，建于隋代初，当年它是皇城南面三座城门中偏东的一座，原叫安上门，唐末韩建缩建新城时留作南门，明代改为永宁门。现永宁门为环岛交通，门外有南门广场，门内为南大街，门外接南关正街。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061611311329216.jpg\" /></p>\n<p>　　南门古曰&ldquo;永宁门&rdquo;，是西安城墙城门中资格最老，沿用时间最长的一座，始建于隋初(公元582年)，明代改为&ldquo;永宁门&rdquo;。在中国民间，百姓都认为南方是火神的所在地，为避火灾，炉灶一般不开往南面。南门永宁之意，就是向火神祷告，勿起火灾，永保安宁。为以示诚心，永不开正南门，它是西安城墙个四门中恢复最完整的一座。</p>\n<p>&nbsp;</p>\n<p>二、安定门</p>\n<p>　　安定门俗称西门，本是唐皇城西面中门，唐末韩建缩建新城时被保留下来。明代扩建城墙时位置略向南移，取名安定门，寓意西部边疆安泰康定。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061611231216395.jpg\" /></p>\n<p>　　这座城门原有三重门楼：城楼、箭楼、闸楼。三道城墙，城楼里，箭楼居中，闸楼向外。门楼下均有拱卷式门洞，洞高宽为6米。城楼与箭楼之间有方形瓮城，平时是出入通道，战时是防守要地。现西门箭楼、城楼雄姿犹存。城楼北侧有日本天皇访问西安时所建观望台一座，供游客参观，属国家重点文物保护单位。西门箭楼是我国迄今为止保存最完整的古城堡。现城门内为西大街，门外为西关正街。</p>\n<p>&nbsp;</p>\n<p>三、安远门</p>\n<p>　　安远门俗称北门，明代构筑城墙时建造的北门，正式名称为安远门。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061611233576816.jpg\" /></p>\n<p>　　追溯历史，&ldquo;安远&rdquo;为何而来? &ldquo;安远&rdquo;二字是继承中原汉族朝廷对边远少数民族采取的怀柔安抚政策，希望边远少数民族对朝廷知恩归顺。辛亥革命时，起义军进攻满清，安远门战争激烈，交战中北门城楼被焚毁。1983年整修城墙时，恢复了原来的箭楼。</p>\n<p>&nbsp;</p>\n<p>四、朝阳门</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061611235588237.jpg\" /></p>\n<p>　　朝阳门是东城墙最北一门，开辟于建国后。因为这座城门朝着太阳，是每天第一个见到阳光的城门，故取名朝阳门。城门内为东五路，门外为长乐路。</p>\n<p>&nbsp;</p>\n<p>五、含光门</p>\n<p>　　含光门是唐长安皇城南面的偏西门。唐末韩建缩建新城时，封闭了它的中门洞和西门洞，保留了东门洞，北宋以后全部封闭。1984年整修西安城墙时，发掘出含光门遗址，发现花岗石制作的柱础、刻花的门槛门道。现已把新建券洞城门置于遗址东西两侧，对遗址作框架结构保护，外包城砖，使外观与城墙一致，建成唐皇城墙含光门遗址博物馆可以从城墙上进入。据最新的考古成果显示，含光门是迄今为止所发现最为完好的隋唐长安城遗址。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061611241210591.jpg\" /></p>\n<p>　　其夯土保存达8米以上，三个门道的尺寸清晰，东、西两门道的宽度分别为5.3米，中间门道宽度为5.5米，含光门进深处长度为19.6米。考古发现证明，含光门内两侧都有砌砖，有过梁式门道，门上有门楼。含光门内有上门楼的马道，在门西侧，紧贴城墙。有意思的是，不仅仅发现了实物遗址，考古人员还揭开了含光门昔日&ldquo;行路&rdquo;历史。中门道作为权贵门道，利用率低，所以几乎没有维修过，基本上保留着大唐初期砌门的材料与形制，大气精致;东、西门道多次维修，基本上保留着晚唐时期粗糙的砖砌形制。每个门道砌砖上都抹有白灰墙皮。门道上车辙还在。每个门道中部的石质门槛还存留着。门道过梁和门楼的柱础等都完好保留着。</p>\n<p>&nbsp;</p>\n<p>六、和平门</p>\n<p>　　与西安火车站、大雁塔处于同一南北轴线上的和平门开通于1953年。为了表达饱经战乱的中国人民对世界和平的渴望，取名和平门。现城门内为和平路，城门外为雁塔路。和平门与大雁塔、大差市、火车站、大明宫含元殿在一条轴线上。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061611242343526.jpg\" /></p>\n<p>　　从和平门内向西走一直到文昌门之间的由青石板铺成的顺城巷就是下马陵，准确的说下马陵是一个陵墓。2100多年前，即使汉武帝刘彻经过这里，也要下马步行，因为当朝著名的政治家董仲舒葬于此处。下马陵便因此得名。</p>\n<p>&nbsp;</p>\n<p>七、建国门</p>\n<p>　　开于建国后，门内道路为建国路，门外与环城南路为丁字路口。说到建国门，它的出现觉不是偶然。我们追溯历史，清顺治二年(1646年)的满城，就位于西安城墙内的东北隅。这里因军事需要，满人在城区东南区域南北走向筑墙御敌，遂又形成又一个方城，叫南城，与建国门相连的建国路便被圈入其中。南城曾是汉军驻扎地，作为军事区，屯兵、训练皆在此。这一地域，也在历史风云的变幻中，与军事、战争相伴，也就是这样，为了纪念新中国成立这一伟大历史事件，在建国路上开了门，故此得名。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061611243311047.jpg\" /></p>\n<p>　　今天，门内相对的建国路街道虽然短小，却承载了历史的厚重。无数历史名人都在此居住过，许多重要机构也曾在这里设立。据专家学者考证，唐代名臣长孙无忌就住如今的建国路。民国时期，震惊中国外的西安事变，其重要人物张学良将军的公馆就坐落于此。如今张学良公馆已被国家列为全国重点文物保护单位。</p>\n<p>&nbsp;</p>\n<p>八、解放门</p>\n<p>　　解放门位置原是开于民国时期的中正门，1952年因扩建火车站广场而拆除，成为西安城墙一豁口，2005年重新连接，形成大跨度的桥拱式城门，从而使西安城墙全线贯通。城门内为解放路，城门外为火车站广场。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061611244504256.jpg\" /></p>\n<p>　　在我国，&ldquo;解放&rdquo;一词特指中国革命胜利新中国成立这一事件。是一个特殊时代才有的历史纪念。也诉说着一种中国人民政府政权刚刚建立时期执政者的政治情怀。所以，中国大陆有近20座城市当时的主要商业街都是&ldquo;解放路&rdquo;。而回顾历史，这些中国大陆的&ldquo;解放路&rdquo;又全部非常统一地都是在1949年，新中国成立前后，由各地市人民政府宣布从&ldquo;中正路&rdquo;更名得来。而那些被称为&ldquo;中正&rdquo;的饭店、门、桥，也都统统变更为&ldquo;解放饭店&rdquo;、&ldquo;解放门&rdquo;、&ldquo;解放桥&rdquo;。解放&mdash;已经是政治，是经济，更是文化。1949年6月20日，西安解放。7月12日，西安市政府布告：中正门改名解放门，中正路改名解放路。</p>\n<p>&nbsp;</p>\n<p>九、朱雀门</p>\n<p>　　朱雀门是唐皇城的正南门，因四像中的朱雀代表南方而得名。门下是城市中央的朱雀大街。隋唐时，皇帝常在这里举行庆典活动。贞观三年(629年)玄奘为了求得真经离开长安出凉州，经玉门关沿丝绸之路独自向西而行，途中历尽艰险，最终历时4年、穿越数十国，终于抵达天竺(今印度)那烂陀寺。贞观十九年(645年)玄奘取经归来，返回长安，带回了657部梵文佛经。唐太宗派宰相房玄龄迎接玄奘，迎接仪式就在朱雀门举行。那时建筑宏伟壮观的朱雀门是皇城的正门也就是皇上出入的南门。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061611250478598.jpg\" /></p>\n<p>　　朱雀为中国传统文化中四象之一，上古四大神兽之一。根据五行学说，它是代表南方的神兽，代表的颜色是红色，代表的季节是夏季。可朱雀究竟是什么意思呢?《梦溪笔谈》这样说道：&ldquo;四方取象，苍龙、白虎、朱雀、龟蛇。唯朱雀莫知何物，但鸟谓朱者，羽族赤而翔上，集必附木，此火之象也。谓之长离&hellip;&hellip;或云，鸟即凤也。&rdquo;而西北大学历史系教授张永禄介绍说，朱雀也就是&ldquo;火凤凰&rdquo;，司南方，所以皇城的南大门被称为朱雀门。&ldquo;其实大明宫修建时，将北门命名为玄武门，南门命名为丹凤门，丹凤也是火凤凰的意思，正是对应宫城玄武门以及皇城的朱雀门。&rdquo;</p>\n<p>　　虽然朱雀门的命名充满了上古的神秘意味，但朱雀门却是城墙上一个&ldquo;新生&rdquo;事物。唐长安城朱雀门是皇城的正南门，建于隋初，于唐末长安城改造时被关闭。唐末战乱，时任佑国军节度使的韩建对长安城进行了改建，放弃了宫城和外郭城，只保留了皇城，而出于安全防卫的考虑，封闭了皇城的一些大门，朱雀门也在封闭之列，从此朱雀门再没有被打开过，直到一千多年后的1986年，朱雀门重新开启。朱雀门已成为南城墙上最重要的城门之一。</p>\n<p>&nbsp;</p>\n<p>十、玉祥门</p>\n<p>　　玉祥门，西安西城墙一城门。1926年，军阀刘镇华包围西安城达8个月之久，使西安人民冻饿战死4万多人，直到冯玉祥将军率国民联军击败刘镇华后，西安才得以解围。1928年开通的这座城门，为纪念冯将军的历史功绩，取名玉祥门。玉祥门是西安东、南、西、北四大固有城门之外，较早开凿的城门之一，也是古城西北一重要交通孔道。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061611251527901.jpg\" /></p>\n<p>　　1926年4月，河南军阀刘镇华在吴佩孚、张作霖、阎锡山的支持下，率镇嵩军9万余人进攻陕西，企图消灭退守西北的国民军，开始对西安进行长达8个月的围攻。为解西安之围，中共北方局书记李大钊请于右任赴苏，敦促在苏联考察的冯玉祥将军回国重整旧部，以解西安之围。冯玉祥接受了李大钊提出的&ldquo;进军西北，解西安之围，出兵潼关，策应北伐&rdquo;的意见。同年9月16日，冯玉祥在内蒙古五原誓师后，便率国民联军进军陕西(冯任总司令)。11月27日夜，在国民联军和守城陕军的夹击下，镇嵩军全线溃退，西安城解围。1927年，为纪念冯玉祥将军解西安城之围的历史功绩，将新凿之城门命名为&ldquo;玉祥门&rdquo;。</p>\n<p>&nbsp;</p>\n<p>十一、尚勤门</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061611252629668.jpg\" /></p>\n<p>　　尚勤门北城墙最东一门，开于建国后。与尚德门，尚武门，尚俭门共同表示儒家崇尚的&ldquo;良好品德、习武健身、勤俭节约&rdquo;。尚勤门西侧为尚俭门，现城门内为尚勤路，城门外与环城北路成丁字路口。</p>\n<p>&nbsp;</p>\n<p>十二、尚俭门</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061611253415960.jpg\" /></p>\n<p>　　尚俭门是西安城墙一座城门，位于北城墙解放门与尚勤门之间，开于建国后。与尚德门，尚勤门，尚武门共同表示儒家崇尚的&ldquo;良好品德、习武健身、勤俭节约&rdquo;。现城门内为尚俭路，城门外为火车站东盘道。</p>\n<p>&nbsp;</p>\n<p>十三、尚武门</p>\n<p>　<img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061611254171567.jpg\" /></p>\n<p>　　尚武门是西安城墙一座城门，是北城墙最西一门，开于建国后。与尚德门，尚勤门，尚俭门共同表示儒家崇尚的&ldquo;良好品德、习武健身、勤俭节约&rdquo;。现城门内为西北三路，城门外为工农路。</p>\n<p>&nbsp;</p>\n<p>十四、尚德门</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061611255130064.jpg\" /></p>\n<p>　　尚德门，位于北城墙解放门西，西安火车站西南侧。开于建国后的1986年。与尚武门、尚勤门、尚俭门共同表示儒家崇尚的&ldquo;良好品德、习武健身、勤俭节约&rdquo;。现城门内为尚德路，城门外为火车站西盘道。</p>\n<p>&nbsp;</p>\n<p>十五、文昌门</p>\n<p>　　文昌星是汉族民间信仰中占有重要地位，作为天上星官的名字，汉族民间认为它是专门管理人间读书和文上功名。文昌贵人实际上是食神的临官宫。紫薇斗数认为文昌星属辛金，是南斗星，主科甲功名。乃文魁之首，其特性，主人仪表端正，有文艺细胞，口齿伶俐，眉目分明，相貌俊秀，少年劳碌，中年後渐入佳境。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061611260233020.jpg\" /></p>\n<p>　　文昌，是天上星官的名字，叫文昌星，汉族民间认为它是专门管理人间读书和文上功名的一个天上官员。文昌贵人实际上是食神的临官宫。例如，甲的食神是丙，食神的作用是泄身吐秀，又叫着&ldquo;文星&rdquo;，丙禄居巳，所以甲以巳为文昌。这里的城墙上建有魁星楼，是西安城墙上唯一与军事防御无关的设施。魁星又名&ldquo;奎星&rdquo;、&ldquo;奎宿&rdquo;，位列二十八星宿之一，古代汉族传说是主宰文运兴衰的神，被人们尊称&ldquo;文曲星&rdquo;、&ldquo;文昌星&rdquo;。如果被他的朱笔点中，就能妙笔生花，连中三元，成为状元。所以，古代孔庙、学府里都建有供奉香火的魁星楼。明清时的西安府学和孔庙建在城墙旁边(今碑林博物馆)，魁星楼也顺势建在城墙之上。魁星楼在1986年修复。游客们在这里可以看到嗜酒如命，不修边幅，蓬头虬髯，步履踉跄，腰挂酒葫芦，一手捧斗，一手执笔，似乎半醒半醉的文昌星尊容。魁星楼下这座新辟的城门，自然也就被命名文昌门了。</p>\n<p>&nbsp;</p>\n<p>十六、勿幕门</p>\n<p>　　勿幕门是西安城墙的一座城门，开通于1939年，位于南城墙含光门与朱雀门之间。勿幕门俗称小南门，是民国时期新开辟的城门。为纪念辛亥革命中陕西革命先烈井勿幕先生而修。西安勿幕门为单门洞，门内为四府街，门外为红缨路。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061611261340243.jpg\" /></p>\n<p>　　井勿幕，初名泉，字文渊。生于1888年2月12日。陕西蒲城县三合乡人生于1888年是中国最早的同盟会员之一。井勿幕志向远大1905年8月20日加入了孙中山创建的同盟会。回陕后他奔赴渭北各县宣传同盟会纲领秘密发展了30多名成员成立了同盟会陕西支部。在辛亥革命中他积极奔走以年轻的热血之躯奉献于祖国和人民。从此反清的火种在三秦大地燃起。1918年11月20日井勿幕在归返三原途经兴平县南仁堡被人谋害。他被孙中山誉为&ldquo;西北革命巨柱&rdquo;。</p>\n<p>　　陕西军民为怀念井勿幕的不朽功勋，曾于1946年将他在西安居住过的四府街更名为&ldquo;井上将街&rdquo;，并将该街南端城墙上凿开的一门命名为&ldquo;井上将门&rdquo;。1947年又分别更名为&ldquo;勿幕街&rdquo;和&ldquo;勿幕门&rdquo;。直至今日，这座城门一直以来都被俗称为小南门，反而正式的名字&mdash;&mdash;勿幕门逐渐被遗忘了。</p>\n<p>&nbsp;</p>\n<p>十七、长乐门</p>\n<p>　　长乐门是西安城墙的正东门，开辟于明代，现存城楼、瓮城以及南北两侧六个门洞。沿着西安城墙东侧，长乐门向北为中山门，向南为东南城角。长乐门向东(城外)连接东关正街，向西(城内)连接东大街。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061611263450710.jpg\" /></p>\n<p>　　长乐门开辟于明代，因明国都位于西安的东面，因此将东门命名&ldquo;长乐&rdquo;，带有祈祝大明江山长久欢乐，万年不衰之意。明末李自成起义军由东门攻入西安。李自成看到悬在城门上的&ldquo;长乐门&rdquo;匾额，对身边将士说：&ldquo;若让皇帝长乐，百姓就要长苦了。&rdquo;将士们一听此言，群情激愤。点火烧毁了这座城楼，直到清代又重新建造。</p>\n<p>&nbsp;</p>\n<p>十八、中山门</p>\n<p>　　西安中山门，是在西安城墙东侧的一座城门。于1926年由冯玉祥主持修建，为纪念孙中山先生而命名中山门，群众俗称小东门。附近街道亦泛称中山门。中山门共有南北两座门洞，南侧门洞名为东征门，北侧门洞名为凯旋门。其中北侧凯旋门至今仍保存着中华民国时期的木质城门板，也是西安城墙各城门中，唯一一处保存着门板的城门。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061611273137277.jpg\" /></p>\n<p>　　1927年初，冯玉祥倡议开辟中山门，以纪念国民革命领袖孙中山先生。中山门并列着两个门洞，冯玉祥分别为它们取名&ldquo;东征门&rdquo;和&ldquo;凯旋门&rdquo;。1927年5月1日，冯玉祥率军东征，就从中山门出城。出师之日，冯将军在城头向各界欢送群众讲话，说等北伐胜利，再打开凯旋门欢迎他。但后来时局变化，冯玉祥再未率师回西安。</p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\">本文来源：西安网V微信公众号</p>\n<section data-role=\"outer\" data-darkmode-bgcolor-16197114904999=\"rgb(25, 25, 25)\" data-darkmode-original-bgcolor-16197114904999=\"#fff|rgb(255, 255, 255)\" data-darkmode-color-16197114904999=\"rgb(163, 163, 163)\" data-darkmode-original-color-16197114904999=\"#fff|rgb(62, 62, 62)\">\n<section data-id=\"87691\" data-tools=\"135编辑器\" data-darkmode-bgcolor-16197114904999=\"rgb(25, 25, 25)\" data-darkmode-original-bgcolor-16197114904999=\"#fff|rgb(255, 255, 255)\" data-darkmode-color-16197114904999=\"rgb(163, 163, 163)\" data-darkmode-original-color-16197114904999=\"#fff|rgb(62, 62, 62)\">\n<section data-role=\"outer\" data-darkmode-bgcolor-16197114904999=\"rgb(25, 25, 25)\" data-darkmode-original-bgcolor-16197114904999=\"#fff|rgb(255, 255, 255)\" data-darkmode-color-16197114904999=\"rgb(163, 163, 163)\" data-darkmode-original-color-16197114904999=\"#fff|rgb(62, 62, 62)\">\n<section data-id=\"87691\" data-tools=\"135编辑器\" data-darkmode-bgcolor-16197114904999=\"rgb(25, 25, 25)\" data-darkmode-original-bgcolor-16197114904999=\"#fff|rgb(255, 255, 255)\" data-darkmode-color-16197114904999=\"rgb(163, 163, 163)\" data-darkmode-original-color-16197114904999=\"#fff|rgb(62, 62, 62)\">\n<p style=\"text-align: center;\">部分图文来源于网络</p>\n</section>\n</section>\n</section>\n</section>\n<section data-role=\"outer\" data-darkmode-bgcolor-16197114904999=\"rgb(25, 25, 25)\" data-darkmode-original-bgcolor-16197114904999=\"#fff|rgb(255, 255, 255)\" data-darkmode-color-16197114904999=\"rgb(163, 163, 163)\" data-darkmode-original-color-16197114904999=\"#fff|rgb(62, 62, 62)\">\n<section data-id=\"87691\" data-tools=\"135编辑器\" data-darkmode-bgcolor-16197114904999=\"rgb(25, 25, 25)\" data-darkmode-original-bgcolor-16197114904999=\"#fff|rgb(255, 255, 255)\" data-darkmode-color-16197114904999=\"rgb(163, 163, 163)\" data-darkmode-original-color-16197114904999=\"#fff|rgb(62, 62, 62)\">\n<section data-role=\"outer\" data-darkmode-bgcolor-16197114904999=\"rgb(25, 25, 25)\" data-darkmode-original-bgcolor-16197114904999=\"#fff|rgb(255, 255, 255)\" data-darkmode-color-16197114904999=\"rgb(163, 163, 163)\" data-darkmode-original-color-16197114904999=\"#fff|rgb(62, 62, 62)\">\n<section data-id=\"87691\" data-tools=\"135编辑器\" data-darkmode-bgcolor-16197114904999=\"rgb(25, 25, 25)\" data-darkmode-original-bgcolor-16197114904999=\"#fff|rgb(255, 255, 255)\" data-darkmode-color-16197114904999=\"rgb(163, 163, 163)\" data-darkmode-original-color-16197114904999=\"#fff|rgb(62, 62, 62)\">\n<section data-role=\"outer\" data-darkmode-bgcolor-16197114904999=\"rgb(25, 25, 25)\" data-darkmode-original-bgcolor-16197114904999=\"#fff|rgb(255, 255, 255)\" data-darkmode-color-16197114904999=\"rgb(163, 163, 163)\" data-darkmode-original-color-16197114904999=\"#fff|rgb(62, 62, 62)\">\n<section data-id=\"87691\" data-tools=\"135编辑器\" data-darkmode-bgcolor-16197114904999=\"rgb(25, 25, 25)\" data-darkmode-original-bgcolor-16197114904999=\"#fff|rgb(255, 255, 255)\" data-darkmode-color-16197114904999=\"rgb(163, 163, 163)\" data-darkmode-original-color-16197114904999=\"#fff|rgb(62, 62, 62)\">\n<p style=\"text-align: center;\">版权归原作者所有</p>\n<p style=\"text-align: center;\">若有侵权请联系删除</p>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      },
+      {
+        "id": "2105469151454822401",
+        "outId": "1320579064720941132",
+        "type": 1,
+        "advertName": "重拾记忆中的门神之秦叔宝和尉迟恭！",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021063018252803165.png",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p style=\"text-align: center;\"><strong>重拾记忆中的门神之秦叔宝和尉迟恭！</strong></p>\n<p>&nbsp;</p>\n<p>　　旧时农历新年贴于门上的一种画类。 门神是道教和民间共同信仰的守卫门户的神灵，旧时人们都将其神像贴于门上，用以驱邪辟鬼，卫家宅，保平安，助功利，降吉祥等，是民间最受人们欢迎的保护神之一。道教因袭这种信仰，将门神纳入神系，加以祀奉。 新春伊始，第一件事便是贴门神、对联。而距今最久远的门神，在《山海经》中有所记载。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061618074391476.jpg\" /></p>\n<p>　　《山海经》中记载，在大海中有一座孤岛，岛上有很多桃树，而在岛上有个大桃树，伸出的枝丫蔓延到了东北方向，而针对万鬼出入的门，门旁有两位守护神，一名叫神荼，一名叫郁垒，据说他们面目凶恶，又镇邪的本领，所以黄帝便指示他们镇守鬼门。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061618075966584.jpg\" /></p>\n<p>　　神荼、郁垒二人能够驱邪避凶，所以受到了世人的敬仰，便把二人称作是门神，最早的门神其实不是画，而是用模板雕刻而成的人形，把模板置于门上，更为立体，能够震慑住鬼神，而用于雕刻门神的木板是桃木制成的，那时候人们视神荼与郁垒为门神，据说他们能够驱邪挡煞，来往鬼神不敢亲近，而桃木又被视为驱邪植物，二者相配，力量强大。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061618080801220.jpg\" /></p>\n<p>　　而这个传说，在《搜神记》中有记载，说的是：&ldquo;今俗法，每以腊终除夕，饰桃人，垂韦索，画虎于门，左右置二灯，象虎眠，以驱不祥。&rdquo;所以后来人们便把神荼、郁垒视为门神，把桃枝作为驱邪植物，代代相传，很多人只知有门神这一神灵，却从未听过传说，不知门神是谁。东汉蔡邕《独断》也有记载，汉代民间已有门上贴&ldquo;神荼&rdquo;、&ldquo;郁垒&rdquo;神像。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061618092043165.jpg\" /></p>\n<p style=\"text-align: center;\"><br /><br /></p>\n<p>　　在汉族民间，门画就是年的象征，不贴年画就不算过年。年画已不仅是节日的装饰品，它所具有的文化价值和艺术价值，使它成为反映汉族社会民俗文化生活的百科全书。</p>\n<p style=\"text-align: center;\"><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061618083597609.jpg\" /><br /><span style=\"color: #808080;\">秦叔宝 尉迟恭</span></p>\n<p>　　旧时农历新年，在两扇门上贴一对门神，以祈平安吉祥；同时，也为装饰门板。古代门神画的是&ldquo;神荼&rdquo;&ldquo;郁垒&rdquo;，据《山海经》载称：唐太宗李世民生病时，梦里常听到鬼哭神嚎之声，以至夜不成眠。这时，大将秦叔宝、尉迟恭二人自告奋勇，全身披挂地站立宫门两侧，结果宫中果然平安无事，李世民认为两位大将太辛苦了，心中过意不去，遂命画工将他俩人的威武形象绘之在宫门上，称为&ldquo;门神&rdquo;。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061618085992366.jpg\" /></p>\n<p style=\"text-align: center;\"><span style=\"color: #808080;\">秦叔宝 尉迟恭</span></p>\n<p>　　从此民间就仿效起来，秦叔宝、尉迟恭也就成为&ldquo;门神&rdquo;了。到宋代演变为木板年画。后来，民间争相仿效，几经演变，形成了自己的独特风格，便是现今的年画了。中国现存最早的年画是宋版《随朝窈窕呈倾国之芳容图》。此外，亦有的门画绘戏曲故事、武财神和鸡猫等动物的。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061618102727216.jpg\" /></p>\n<p>　　西安城墙也曾点亮了门神的花灯，它们不仅点亮了整个西安城墙新春灯会，也为前来看灯会的游客带来好的运气！</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061618104291763.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061618104285063.jpg\" /></p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061618034484878.jpg\" /></p>\n<p style=\"text-align: center;\">本文来源：遇见城墙微信公众号</p>\n<p style=\"text-align: center;\">部分图文来源于网络</p>\n<p style=\"text-align: center;\">版权归原作者所有</p>\n<p style=\"text-align: center;\">若有侵权请联系删除</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      },
+      {
+        "id": "2105469151459016705",
+        "outId": "1320579064720941132",
+        "type": 1,
+        "advertName": "西安城墙攻略 金甲武士",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021061612280978290.png",
+        "jumpType": 4,
+        "jumpUrl": "https://mp.weixin.qq.com/s/FBxkv9LZRK2Cr4ZpfrfVMA",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p style=\"text-align: center;\"><strong>西安城墙攻略 | 如何偶遇&ldquo;最帅男团&rdquo; 金甲武士</strong></p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061614363504669.jpg\" /></p>\n<p style=\"text-align: center;\">本文来源：遇见城墙微信公众号</p>\n<section data-role=\"outer\" data-darkmode-bgcolor-16197114904999=\"rgb(25, 25, 25)\" data-darkmode-original-bgcolor-16197114904999=\"#fff|rgb(255, 255, 255)\" data-darkmode-color-16197114904999=\"rgb(163, 163, 163)\" data-darkmode-original-color-16197114904999=\"#fff|rgb(62, 62, 62)\">\n<section data-id=\"87691\" data-tools=\"135编辑器\" data-darkmode-bgcolor-16197114904999=\"rgb(25, 25, 25)\" data-darkmode-original-bgcolor-16197114904999=\"#fff|rgb(255, 255, 255)\" data-darkmode-color-16197114904999=\"rgb(163, 163, 163)\" data-darkmode-original-color-16197114904999=\"#fff|rgb(62, 62, 62)\">\n<section data-role=\"outer\" data-darkmode-bgcolor-16197114904999=\"rgb(25, 25, 25)\" data-darkmode-original-bgcolor-16197114904999=\"#fff|rgb(255, 255, 255)\" data-darkmode-color-16197114904999=\"rgb(163, 163, 163)\" data-darkmode-original-color-16197114904999=\"#fff|rgb(62, 62, 62)\">\n<section data-id=\"87691\" data-tools=\"135编辑器\" data-darkmode-bgcolor-16197114904999=\"rgb(25, 25, 25)\" data-darkmode-original-bgcolor-16197114904999=\"#fff|rgb(255, 255, 255)\" data-darkmode-color-16197114904999=\"rgb(163, 163, 163)\" data-darkmode-original-color-16197114904999=\"#fff|rgb(62, 62, 62)\">\n<p style=\"text-align: center;\">部分图文来源于网络</p>\n</section>\n</section>\n</section>\n</section>\n<section data-role=\"outer\" data-darkmode-bgcolor-16197114904999=\"rgb(25, 25, 25)\" data-darkmode-original-bgcolor-16197114904999=\"#fff|rgb(255, 255, 255)\" data-darkmode-color-16197114904999=\"rgb(163, 163, 163)\" data-darkmode-original-color-16197114904999=\"#fff|rgb(62, 62, 62)\">\n<section data-id=\"87691\" data-tools=\"135编辑器\" data-darkmode-bgcolor-16197114904999=\"rgb(25, 25, 25)\" data-darkmode-original-bgcolor-16197114904999=\"#fff|rgb(255, 255, 255)\" data-darkmode-color-16197114904999=\"rgb(163, 163, 163)\" data-darkmode-original-color-16197114904999=\"#fff|rgb(62, 62, 62)\">\n<section data-role=\"outer\" data-darkmode-bgcolor-16197114904999=\"rgb(25, 25, 25)\" data-darkmode-original-bgcolor-16197114904999=\"#fff|rgb(255, 255, 255)\" data-darkmode-color-16197114904999=\"rgb(163, 163, 163)\" data-darkmode-original-color-16197114904999=\"#fff|rgb(62, 62, 62)\">\n<section data-id=\"87691\" data-tools=\"135编辑器\" data-darkmode-bgcolor-16197114904999=\"rgb(25, 25, 25)\" data-darkmode-original-bgcolor-16197114904999=\"#fff|rgb(255, 255, 255)\" data-darkmode-color-16197114904999=\"rgb(163, 163, 163)\" data-darkmode-original-color-16197114904999=\"#fff|rgb(62, 62, 62)\">\n<section data-role=\"outer\" data-darkmode-bgcolor-16197114904999=\"rgb(25, 25, 25)\" data-darkmode-original-bgcolor-16197114904999=\"#fff|rgb(255, 255, 255)\" data-darkmode-color-16197114904999=\"rgb(163, 163, 163)\" data-darkmode-original-color-16197114904999=\"#fff|rgb(62, 62, 62)\">\n<section data-id=\"87691\" data-tools=\"135编辑器\" data-darkmode-bgcolor-16197114904999=\"rgb(25, 25, 25)\" data-darkmode-original-bgcolor-16197114904999=\"#fff|rgb(255, 255, 255)\" data-darkmode-color-16197114904999=\"rgb(163, 163, 163)\" data-darkmode-original-color-16197114904999=\"#fff|rgb(62, 62, 62)\">\n<p style=\"text-align: center;\">版权归原作者所有</p>\n<p style=\"text-align: center;\">若有侵权请联系删除</p>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<p>&nbsp;</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      },
+      {
+        "id": "2105469151463211009",
+        "outId": "1320579064720941132",
+        "type": 1,
+        "advertName": "赛博朋克风下的西安城墙美景！",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021061616284193614.png",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p style=\"text-align: center;\"><strong>酷！赛博朋克风下的西安城墙美景！</strong></p>\n<p style=\"text-align: center;\">&nbsp;</p>\n<p style=\"text-align: center;\">最近<br />赛博朋克风再一次席卷社交圈<br />独特的风格画面让小伙伴们直呼美呆了<br />为此，城墙宝宝也带来了一组<br />赛博朋克风下的西安城墙美景<br />一起来看看吧！</p>\n<p style=\"text-align: center;\"><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061616043678215.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061616044271330.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061616045831428.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061616045875926.jpg\" /></p>\n<p style=\"text-align: center;\"><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061616061946334.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061616062355709.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061616062759397.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061616063660052.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061616063960648.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061616064368243.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061616064779634.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061616065909787.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061616070455295.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061616070948011.jpg\" /><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061616071456045.jpg\" /></p>\n<p style=\"text-align: center;\">赶快用赛博朋克风下的城墙美图装饰桌面<br />为你的办公生活增添一抹独特的风景<br />闲暇时光<br />别忘记去西安城墙打卡哦</p>\n<p style=\"text-align: center;\"><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061616074733992.jpg\" /></p>\n<p style=\"text-align: center;\">本文来源：遇见城墙微信公众号<br />部分图文来源于网络<br />版权归原作者所有<br />若有侵权请联系删除</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": "城墙必看",
+    "contentResourcesDtoList": [
+      {
+        "id": "2105469151324798977",
+        "resourcesId": "1321351306697531393",
+        "title": "城墙70周年灯光秀",
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061610505215756.mp4",
+        "coverImage": "https://eshopfile.zhiyousx.com/2021061610511851053.jpg",
+        "videoId": null,
+        "resourcesType": 2,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-10-01 09:25:38",
+        "updateTime": "2026-10-01 09:25:38",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2105469151324798978",
+        "resourcesId": "1321351306697531393",
+        "title": "梦长安—大唐迎宾盛礼",
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061517555546469.mp4",
+        "coverImage": "https://eshopfile.zhiyousx.com/2021061518000950157.jpg",
+        "videoId": null,
+        "resourcesType": 2,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-10-01 09:25:38",
+        "updateTime": "2026-10-01 09:25:38",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2105469151328993282",
+        "resourcesId": "1321351306697531393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/173786564735454465.jpg",
+        "coverImage": "",
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": "",
+        "createTime": "2026-10-01 09:25:38",
+        "updateTime": "2026-10-01 09:25:38",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2105469151333187586",
+        "resourcesId": "1321351306697531393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/173786564764973238.jpg",
+        "coverImage": "",
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": "",
+        "createTime": "2026-10-01 09:25:38",
+        "updateTime": "2026-10-01 09:25:38",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2105469151333187587",
+        "resourcesId": "1321351306697531393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/173786564789882395.png",
+        "coverImage": "",
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": "",
+        "createTime": "2026-10-01 09:25:38",
+        "updateTime": "2026-10-01 09:25:38",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2105469151337381890",
+        "resourcesId": "1321351306697531393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/173786564833203048.png",
+        "coverImage": "",
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": "",
+        "createTime": "2026-10-01 09:25:38",
+        "updateTime": "2026-10-01 09:25:38",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2105469151337381891",
+        "resourcesId": "1321351306697531393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061611492115306.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2026-10-01 09:25:38",
+        "updateTime": "2026-10-01 09:25:38",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2105469151341576193",
+        "resourcesId": "1321351306697531393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061611502280623.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2026-10-01 09:25:38",
+        "updateTime": "2026-10-01 09:25:38",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2105469151345770498",
+        "resourcesId": "1321351306697531393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061611493446581.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": null,
+        "createTime": "2026-10-01 09:25:38",
+        "updateTime": "2026-10-01 09:25:38",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2105469151345770499",
+        "resourcesId": "1321351306697531393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061611495323080.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": null,
+        "createTime": "2026-10-01 09:25:38",
+        "updateTime": "2026-10-01 09:25:38",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2105469151349964802",
+        "resourcesId": "1321351306697531393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061611501230834.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 11,
+        "describe": null,
+        "createTime": "2026-10-01 09:25:38",
+        "updateTime": "2026-10-01 09:25:38",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2105469151349964803",
+        "resourcesId": "1321351306697531393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061611502919069.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 12,
+        "describe": null,
+        "createTime": "2026-10-01 09:25:38",
+        "updateTime": "2026-10-01 09:25:38",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2105469151354159106",
+        "resourcesId": "1321351306697531393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021063019141879304.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 13,
+        "describe": null,
+        "createTime": "2026-10-01 09:25:38",
+        "updateTime": "2026-10-01 09:25:38",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2105469151354159107",
+        "resourcesId": "1321351306697531393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061611503721393.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 14,
+        "describe": null,
+        "createTime": "2026-10-01 09:25:38",
+        "updateTime": "2026-10-01 09:25:38",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2105469151358353410",
+        "resourcesId": "1321351306697531393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021063019142491861.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 15,
+        "describe": null,
+        "createTime": "2026-10-01 09:25:38",
+        "updateTime": "2026-10-01 09:25:38",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2105469151362547714",
+        "resourcesId": "1321351306697531393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021063019143187422.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 16,
+        "describe": null,
+        "createTime": "2026-10-01 09:25:38",
+        "updateTime": "2026-10-01 09:25:38",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2105469151362547715",
+        "resourcesId": "1321351306697531393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021063019143854264.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 17,
+        "describe": null,
+        "createTime": "2026-10-01 09:25:38",
+        "updateTime": "2026-10-01 09:25:38",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2105469151366742017",
+        "resourcesId": "1321351306697531393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021063019144940300.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 18,
+        "describe": null,
+        "createTime": "2026-10-01 09:25:38",
+        "updateTime": "2026-10-01 09:25:38",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2105469151366742018",
+        "resourcesId": "1321351306697531393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021063019144464427.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 19,
+        "describe": null,
+        "createTime": "2026-10-01 09:25:38",
+        "updateTime": "2026-10-01 09:25:38",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2105469151370936322",
+        "resourcesId": "1321351306697531393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021063019150118673.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 20,
+        "describe": null,
+        "createTime": "2026-10-01 09:25:38",
+        "updateTime": "2026-10-01 09:25:38",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2105469151375130626",
+        "resourcesId": "1321351306697531393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021063019145527543.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 21,
+        "describe": null,
+        "createTime": "2026-10-01 09:25:38",
+        "updateTime": "2026-10-01 09:25:38",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2105469151375130627",
+        "resourcesId": "1321351306697531393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021063019150714221.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 22,
+        "describe": null,
+        "createTime": "2026-10-01 09:25:38",
+        "updateTime": "2026-10-01 09:25:38",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2105469151379324929",
+        "resourcesId": "1321351306697531393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021063019151200338.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 23,
+        "describe": null,
+        "createTime": "2026-10-01 09:25:38",
+        "updateTime": "2026-10-01 09:25:38",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2105469151379324930",
+        "resourcesId": "1321351306697531393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021063019151828419.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 24,
+        "describe": null,
+        "createTime": "2026-10-01 09:25:38",
+        "updateTime": "2026-10-01 09:25:38",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2105469151383519234",
+        "resourcesId": "1321351306697531393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021063019152513611.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 25,
+        "describe": null,
+        "createTime": "2026-10-01 09:25:38",
+        "updateTime": "2026-10-01 09:25:38",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2105469151387713537",
+        "resourcesId": "1321351306697531393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021063019153791818.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 26,
+        "describe": null,
+        "createTime": "2026-10-01 09:25:38",
+        "updateTime": "2026-10-01 09:25:38",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2105469151387713538",
+        "resourcesId": "1321351306697531393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021063019153135327.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 27,
+        "describe": null,
+        "createTime": "2026-10-01 09:25:38",
+        "updateTime": "2026-10-01 09:25:38",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2105469151391907841",
+        "resourcesId": "1321351306697531393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021063019154371777.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 28,
+        "describe": null,
+        "createTime": "2026-10-01 09:25:38",
+        "updateTime": "2026-10-01 09:25:38",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2105469151391907842",
+        "resourcesId": "1321351306697531393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021063019154972284.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 29,
+        "describe": null,
+        "createTime": "2026-10-01 09:25:38",
+        "updateTime": "2026-10-01 09:25:38",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      },
+      {
+        "id": "2105469151396102146",
+        "resourcesId": "1321351306697531393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021063019155558538.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 30,
+        "describe": null,
+        "createTime": "2026-10-01 09:25:38",
+        "updateTime": "2026-10-01 09:25:38",
+        "createBy": "1689449786648535042",
+        "updateBy": "1689449786648535042",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1538830830115508226",
+      "rankingId": null,
+      "indexInRanking": 2,
+      "rankingName": "西安必游人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1551836855409541121",
+        "rankingId": "1551836856105795586",
+        "indexInRanking": null,
+        "rankingName": "外地游客西安必逛榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1818221757267132417",
+        "rankingId": "1818221762493235202",
+        "indexInRanking": null,
+        "rankingName": "西安汉服拍摄地人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1676883692355641345",
+        "rankingId": "1676883693114810370",
+        "indexInRanking": null,
+        "rankingName": "西安热门景区人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "2105469151408685058",
+        "scenicSpotId": "1320579064720941132",
+        "contentModuleName": "城墙必看",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1419870097312407553",
+            "type": 6,
+            "title": "《梦长安》大唐迎宾盛礼",
+            "subtitle": "千里而来，唯国礼相待",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021072715411186950.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1420224874688856065",
+            "type": 6,
+            "title": "迎宾开城仪式",
+            "subtitle": "中华迎宾第一式",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021072811000626058.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1410190914051215361",
+            "type": 5,
+            "title": "自行车骑行",
+            "subtitle": "看日落，骑车车",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021063018552789801.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1405101411854729217",
+            "type": 5,
+            "title": "西安城楼建筑",
+            "subtitle": "权利地位的象征",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021061617280870483.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1405089339993505793",
+            "type": 5,
+            "title": "中山门银杏叶景观",
+            "subtitle": "新晋“打卡”地",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021061616543193425.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": "",
+    "ticketAreaNoticeName": "",
+    "ticketAreaNotice": "<p>&nbsp;</p>\n<p><img src=\"https://eshopfile.zhiyousx.com/2026100109250086741.jpg\" alt=\"\" width=\"1280\" height=\"7187\" /></p>",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": "",
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

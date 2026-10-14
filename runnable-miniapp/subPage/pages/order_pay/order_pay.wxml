@@ -1,7 +1,7 @@
 <view class="data-v-3a55a765">
     <uni-navbar backState="{{2000}}" bind:__l="__l" class="data-v-3a55a765 vue-ref" data-ref="navBar" home="{{true}}" title="订单支付" type="fixed" vueId="8d4c7620-1"></uni-navbar>
     <view class="pay data-v-3a55a765">
-        <image alt class="icon _img data-v-3a55a765" src="https://eshopfile.zhiyousx.com/image/orderPay/sucess.png"></image>
+        <image alt class="icon _img data-v-3a55a765" src="/static/captured/e4686fab31b64a17.png"></image>
         <view class="payPrice data-v-3a55a765">{{'￥'+$root.f0}}</view>
         <view class="payText data-v-3a55a765">支付成功，等待系统出票</view>
         <view class="sub-payText data-v-3a55a765" wx:if="{{isSpecial!=1}}">系统将在30分钟内返回出票结果</view>
@@ -25,9 +25,9 @@
                 <scroll-view class="card-box data-v-3a55a765" scrollY="{{true}}" style="{{'height:'+(gbCl>3?'604rpx':gbCl==1?'255rpx':gbCl*151+'rpx')+';'}}">
                     <view class="data-v-3a55a765" wx:if="{{giftBagData.orderActivePrize&&giftBagData.orderActivePrize.giftBag}}">
                         <view class="{{['data-v-3a55a765',gbCl==1?'candItem1':'',gbCl>1?'candItem':'']}}" wx:for="{{$root.l0}}" wx:for-index="i" wx:for-item="it">
-                            <image mode class="it-img1 data-v-3a55a765" src="https://eshopfile.zhiyousx.com/166384545957301610.png" wx:if="{{gbCl>1&&i==0}}"></image>
-                            <image mode class="it-img2 data-v-3a55a765" src="https://eshopfile.zhiyousx.com/166384386610789834.png" wx:if="{{gbCl>1&&i>0&&i<gbCl-1}}"></image>
-                            <image mode class="it-img3 data-v-3a55a765" src="https://eshopfile.zhiyousx.com/166384545957301610.png" wx:if="{{gbCl>1&&gbCl-i==1}}"></image>
+                            <image mode class="it-img1 data-v-3a55a765" src="/static/captured/f2e7f03034cfff25.png" wx:if="{{gbCl>1&&i==0}}"></image>
+                            <image mode class="it-img2 data-v-3a55a765" src="/static/captured/ce87d44f6357412a.png" wx:if="{{gbCl>1&&i>0&&i<gbCl-1}}"></image>
+                            <image mode class="it-img3 data-v-3a55a765" src="/static/captured/f2e7f03034cfff25.png" wx:if="{{gbCl>1&&gbCl-i==1}}"></image>
                             <view class="item-card-box data-v-3a55a765">
                                 <view class="left data-v-3a55a765">
                                     <image class="data-v-3a55a765" mode="aspectFill" src="{{it.$orig.couponImage}}"></image>
@@ -50,7 +50,7 @@
                         <view class="data-v-3a55a765" style="height:110rpx;" wx:if="{{gbCl>1}}"></view>
                     </view>
                 </scroll-view>
-                <image mode class="giftBag-bottom-img data-v-3a55a765" src="https://eshopfile.zhiyousx.com/170547277021934819.png"></image>
+                <image mode class="giftBag-bottom-img data-v-3a55a765" src="/static/captured/7a9a606c6a6f0e24.png"></image>
                 <view bindtap="__e" class="giftBag-but data-v-3a55a765" data-event-opts="{{[ [ 'tap',[ [ 'closeGiftPack',['$event'] ] ] ] ]}}">我知道了</view>
                 <view bindtap="__e" class="box-tip data-v-3a55a765" data-event-opts="{{[ [ 'tap',[ [ 'goDiscounts',['$event'] ] ] ] ]}}">可至"我的"-"优惠券"中查看 ></view>
             </view>
@@ -59,14 +59,14 @@
     <view class="{{['red-packets-Box','data-v-3a55a765',animationType>0?'b1':'']}}" hidden="{{!showPacketBox}}" style="{{'background:'+(animationType==0?'rgba(0, 0, 0, 0.7)':'')+';'}}">
         <view bindtap="__e" class="{{['red-box','data-v-3a55a765',animationType==0?'a0':'',animationType==1?'a1':'',animationType>1&&animationType<3?'a2':'',animationType==4?'a4':'']}}" data-event-opts="{{[ [ 'tap',[ ['closeBox'] ] ] ]}}">
             <view class="red-box-imgBox data-v-3a55a765">
-                <image mode class="red-img data-v-3a55a765" src="https://eshopfile.zhiyousx.com/170566204561167235.png" wx:if="{{animationType<3}}"></image>
-                <image mode class="{{['red-top','data-v-3a55a765',animationType==3?'a3':'']}}" src="https://eshopfile.zhiyousx.com/166375879186329370.png"></image>
-                <image mode class="{{['red-bottom','data-v-3a55a765',animationType==3?'a31':'']}}" src="https://eshopfile.zhiyousx.com/170566207043928788.png"></image>
-                <image mode class="{{['red-img1-1','data-v-3a55a765',animationType==3?'a32s':'']}}" src="https://eshopfile.zhiyousx.com/166383758911999357.png"></image>
-                <image mode class="{{['red-img1-2','data-v-3a55a765',animationType==3?'a32m':'']}}" src="https://eshopfile.zhiyousx.com/166383762954099488.png"></image>
-                <image mode class="{{['red-img1-3','data-v-3a55a765',animationType==3?'a32l':'']}}" src="https://eshopfile.zhiyousx.com/166383764742027825.png"></image>
-                <image mode class="{{['red-img2','data-v-3a55a765',animationType==3?'a33':'']}}" src="https://eshopfile.zhiyousx.com/166376006214008240.png"></image>
-                <image mode class="{{['red-img3','data-v-3a55a765',animationType==3?'a34':'']}}" src="https://eshopfile.zhiyousx.com/166376009989063829.png"></image>
+                <image mode class="red-img data-v-3a55a765" src="/static/captured/88d14a81e0b79d2a.png" wx:if="{{animationType<3}}"></image>
+                <image mode class="{{['red-top','data-v-3a55a765',animationType==3?'a3':'']}}" src="/static/captured/5f7a0a8c70d44164.png"></image>
+                <image mode class="{{['red-bottom','data-v-3a55a765',animationType==3?'a31':'']}}" src="/static/captured/8c931001d4234bbd.png"></image>
+                <image mode class="{{['red-img1-1','data-v-3a55a765',animationType==3?'a32s':'']}}" src="/static/captured/1f748c73ba5697f2.png"></image>
+                <image mode class="{{['red-img1-2','data-v-3a55a765',animationType==3?'a32m':'']}}" src="/static/captured/dd8c3e7066a328d4.png"></image>
+                <image mode class="{{['red-img1-3','data-v-3a55a765',animationType==3?'a32l':'']}}" src="/static/captured/77a3dda8be489ec2.png"></image>
+                <image mode class="{{['red-img2','data-v-3a55a765',animationType==3?'a33':'']}}" src="/static/captured/f22ef2a3c0b81cf6.png"></image>
+                <image mode class="{{['red-img3','data-v-3a55a765',animationType==3?'a34':'']}}" src="/static/captured/5c9089f74425fdfc.png"></image>
             </view>
         </view>
     </view>

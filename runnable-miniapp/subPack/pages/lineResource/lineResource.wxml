@@ -1,7 +1,7 @@
 <view class="page-box data-v-344c7ce5">
     <order-nav active="{{1}}" bind:__l="__l" class="data-v-344c7ce5" vueId="787e9c56-1"></order-nav>
-    <view class="top-box data-v-344c7ce5" style="{{'top:'+searchHeight*unit-242+'rpx'+';'}}">
-        <view class="title titleF data-v-344c7ce5" style="{{'top:'+searchHeight*unit-2+'rpx'+';'}}">{{'景区（'+$root.g0+'）'}}</view>
+    <view class="top-box data-v-344c7ce5" style="{{'top:'+(searchHeight*unit-242)+'rpx;'}}">
+        <view class="title titleF data-v-344c7ce5" style="{{'top:'+(searchHeight*unit-2)+'rpx;'}}">{{'景区（'+$root.g0+'）'}}</view>
         <view class="spot-box data-v-344c7ce5">
             <scroll-view class="scroll-box-spot data-v-344c7ce5" scrollX="{{true}}">
                 <block wx:if="{{imageH>0}}">
@@ -39,6 +39,7 @@
                 </view>
             </view>
         </view>
+        <view class="resource-note data-v-344c7ce5" wx:if="{{resourceNote}}">{{resourceNote}}</view>
     </view>
     <view class="product-box data-v-344c7ce5" wx:if="{{spotData[activeIndex]}}">
         <view class="tic-class-box data-v-344c7ce5" wx:for="{{$root.l1}}" wx:key="index">
@@ -49,7 +50,7 @@
                         <view class="ms-box data-v-344c7ce5" style="width:64rpx;" wx:if="{{it.$orig.seckillActivity==0}}"></view>{{''+(it.$orig.itemAbbreviate||it.$orig.itemTitle)+''}}</view>
                     <view bindtap="__e" class="tip-tag data-v-344c7ce5" data-event-opts="{{[ [ 'tap',[ [ 'e1',['$event'] ] ] ] ]}}" wx:if="{{it.$orig.skuCashBackAmount!=null?it.$orig.skuCashBackAmount:it.$orig.cashBackAmount}}">{{'多买减'+it.f0+'元'}}<label class="_span data-v-344c7ce5" wx:if="{{it.$orig.cashStartPriceFlag}}">起</label>
                         <view class="icon-box-t data-v-344c7ce5">
-                            <image mode class="icon data-v-344c7ce5" src="https://eshopfile.zhiyousx.com/169416211261817496.png"></image>
+                            <image mode class="icon data-v-344c7ce5" src="/static/captured/4659fab4c2036900.png"></image>
                         </view>
                     </view>
                     <view class="tic-body data-v-344c7ce5">
@@ -126,7 +127,7 @@
         </view>
         <view bindtap="__e" class="next-btn data-v-344c7ce5" data-event-opts="{{[ [ 'tap',[ ['submit'] ] ] ]}}">下一步</view>
     </view>
-    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-344c7ce5" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showDetail','$event',[] ] ] ] ] ]}}" height="70%" mode="bottom" value="{{showDetail}}" vueId="787e9c56-7" vueSlots="{{['default']}}">
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-344c7ce5" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showDetail','$event',[] ] ] ] ] ]}}" height="70%" mode="bottom" value="{{showDetail}}" vueId="787e9c56-7" vueSlots="{{['default']}}" wx:if="{{showDetail}}">
         <view class="detailBox data-v-344c7ce5">
             <view class="title data-v-344c7ce5">价格明细</view>
             <scroll-view class="content data-v-344c7ce5" scrollY="{{true}}" style="{{'height:'+noticeHeight+'rpx'+';'}}">
@@ -161,7 +162,7 @@
             </scroll-view>
         </view>
     </u-popup>
-    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-344c7ce5" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showTicketSku','$event',[] ] ] ] ] ]}}" height="70%" mode="bottom" value="{{showTicketSku}}" vueId="787e9c56-8" vueSlots="{{['default']}}">
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-344c7ce5" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showTicketSku','$event',[] ] ] ] ] ]}}" height="70%" mode="bottom" value="{{showTicketSku}}" vueId="787e9c56-8" vueSlots="{{['default']}}" wx:if="{{showTicketSku}}">
         <view class="skuBox data-v-344c7ce5">
             <view class="skuTitle data-v-344c7ce5">选择门票</view>
             <view class="skuTitle data-v-344c7ce5" style="margin-top:50rpx;">{{''+skuData.aggregationItemName+''}}</view>
@@ -174,7 +175,7 @@
                     <view class="attr-head data-v-344c7ce5">
                         <view class="attr-name singleLineText data-v-344c7ce5">{{''+attr.$orig.attributeKey+''}}<text bindtap="__e" class="attr-name-desc data-v-344c7ce5" data-event-opts="{{[ [ 'tap',[ [ 'getSkuDesc',['$0'],[ [ ['attrs','',index,'attributeDescContent'] ] ] ] ] ] ]}}" wx:if="{{attr.$orig.attributeDesc}}">{{''+attr.$orig.attributeDesc+''}}</text>
                         </view>
-                        <image bindtap="__e" class="data-v-344c7ce5" data-event-opts="{{[ [ 'tap',[ [ 'getSkuDesc',['$0'],[ [ ['attrs','',index,'attributeDescContent'] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/172480687839557894.png" wx:if="{{attr.$orig.attributeDescContent&&attr.$orig.attributeDesc}}"></image>
+                        <image bindtap="__e" class="data-v-344c7ce5" data-event-opts="{{[ [ 'tap',[ [ 'getSkuDesc',['$0'],[ [ ['attrs','',index,'attributeDescContent'] ] ] ] ] ] ]}}" src="/static/captured/10d512e58fdd1952.png" wx:if="{{attr.$orig.attributeDescContent&&attr.$orig.attributeDesc}}"></image>
                     </view>
                     <view class="attr-scoll data-v-344c7ce5">
                         <view bindtap="__e" class="{{['attr-it','data-v-344c7ce5',opt.m1?'active':'',!opt.m2?'disabled':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'handleClick',['$0','$1'],[ [ ['attrs','',index,'attributeKey'] ],[ ['attrs','',index],['attrList','',i,'name'] ] ] ] ] ] ]}}" wx:for="{{attr.l3}}" wx:for-index="i" wx:for-item="opt" wx:key="i">{{''+opt.$orig.name+''}}<label class="reduce _span data-v-344c7ce5" wx:if="{{opt.$orig.reduceFlag}}">减</label>
@@ -200,7 +201,7 @@
             </view>
         </view>
     </u-popup>
-    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-344c7ce5" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showTimeHour','$event',[] ] ] ] ] ]}}" height="70%" mode="bottom" value="{{showTimeHour}}" vueId="787e9c56-10" vueSlots="{{['default']}}">
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-344c7ce5" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showTimeHour','$event',[] ] ] ] ] ]}}" height="70%" mode="bottom" value="{{showTimeHour}}" vueId="787e9c56-10" vueSlots="{{['default']}}" wx:if="{{showTimeHour}}">
         <view class="hour-box data-v-344c7ce5">
             <view class="title data-v-344c7ce5">选择门票</view>
             <view class="title data-v-344c7ce5" style="margin-top:50rpx;">{{''+itemData.itemTitle+''}}</view>
@@ -225,7 +226,7 @@
             </view>
         </view>
     </u-popup>
-    <u-popup bind:__l="__l" bind:input="__e" borderRadius="32" class="data-v-344c7ce5" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','isShowBookTip','$event',[] ] ] ] ] ]}}" height="70%" mode="bottom" value="{{isShowBookTip}}" vueId="787e9c56-11" vueSlots="{{['default']}}">
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="32" class="data-v-344c7ce5" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','isShowBookTip','$event',[] ] ] ] ] ]}}" height="70%" mode="bottom" value="{{isShowBookTip}}" vueId="787e9c56-11" vueSlots="{{['default']}}" wx:if="{{isShowBookTip}}">
         <view class="ytxz-box data-v-344c7ce5" wx:if="{{ydxz}}">
             <view class="content-box1 data-v-344c7ce5">
                 <view class="title-box data-v-344c7ce5">
@@ -326,7 +327,7 @@
                                 <view class="col2 data-v-344c7ce5">门票或订单问题</view>
                                 <view class="col3 data-v-344c7ce5">4000292296</view>
                                 <view class="col4 data-v-344c7ce5">
-                                    <image mode bindtap="__e" class="data-v-344c7ce5" data-event-opts="{{[ [ 'tap',[ [ 'call',['4000292296'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/spotIntroNew/dianhua.png"></image>
+                                    <image mode bindtap="__e" class="data-v-344c7ce5" data-event-opts="{{[ [ 'tap',[ [ 'call',['4000292296'] ] ] ] ]}}" src="/static/captured/9653e7f23b8aa244.png"></image>
                                 </view>
                             </view>
                         </view>
@@ -338,7 +339,7 @@
                                 <view class="col2 singleLineText data-v-344c7ce5">{{item.telephoneTitle||''}}</view>
                                 <view class="col3 singleLineText data-v-344c7ce5">{{item.telephone||''}}</view>
                                 <view class="col4 data-v-344c7ce5">
-                                    <image mode bindtap="__e" class="data-v-344c7ce5" data-event-opts="{{[ [ 'tap',[ [ 'call',['$0'],[ [ ['ydxz.telephoneVoList','',__i2__,'telephone'] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/spotIntroNew/dianhua.png"></image>
+                                    <image mode bindtap="__e" class="data-v-344c7ce5" data-event-opts="{{[ [ 'tap',[ [ 'call',['$0'],[ [ ['ydxz.telephoneVoList','',__i2__,'telephone'] ] ] ] ] ] ]}}" src="/static/captured/9653e7f23b8aa244.png"></image>
                                 </view>
                             </view>
                         </view>
@@ -348,12 +349,12 @@
             </view>
         </view>
     </u-popup>
-    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-344c7ce5" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showAllTime','$event',[] ] ] ] ] ]}}" mode="center" value="{{showAllTime}}" vueId="787e9c56-16" vueSlots="{{['default']}}">
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-344c7ce5" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showAllTime','$event',[] ] ] ] ] ]}}" mode="center" value="{{showAllTime}}" vueId="787e9c56-16" vueSlots="{{['default']}}" wx:if="{{showAllTime}}">
         <view class="calendar-box data-v-344c7ce5" wx:if="{{$root.g1>0}}">
             <yu-calendar bind:__l="__l" bind:getDataInDay="__e" class="data-v-344c7ce5" data-event-opts="{{[ [ '^getDataInDay',[ ['itemClickFn'] ] ] ]}}" defaultDate="{{selectDateStr}}" priceList="{{dateData}}" vueId="{{'787e9c56-17'+','+'787e9c56-16'}}"></yu-calendar>
         </view>
     </u-popup>
-    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-344c7ce5" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showGroupErr','$event',[] ] ] ] ] ]}}" mode="center" value="{{showGroupErr}}" vueId="787e9c56-18" vueSlots="{{['default']}}">
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-344c7ce5" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showGroupErr','$event',[] ] ] ] ] ]}}" mode="center" value="{{showGroupErr}}" vueId="787e9c56-18" vueSlots="{{['default']}}" wx:if="{{showGroupErr}}">
         <view class="errBox data-v-344c7ce5">
             <view class="name data-v-344c7ce5">温馨提示</view>
             <view class="err-item data-v-344c7ce5">{{'当前日期 “'+$root.g2+'” 库存不足，需清除数量重新选择!'}}</view>
@@ -361,7 +362,7 @@
             <view bindtap="__e" class="but-popup1 data-v-344c7ce5" data-event-opts="{{[ [ 'tap',[ [ 'confirmOrder',['$event'] ] ] ] ]}}">确 定</view>
         </view>
     </u-popup>
-    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-344c7ce5" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showTips','$event',[] ] ] ] ] ]}}" mode="center" value="{{showTips}}" vueId="787e9c56-19" vueSlots="{{['default']}}">
+    <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-344c7ce5" closeable="{{true}}" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','showTips','$event',[] ] ] ] ] ]}}" mode="center" value="{{showTips}}" vueId="787e9c56-19" vueSlots="{{['default']}}" wx:if="{{showTips}}">
         <view class="popup-tips data-v-344c7ce5">
             <view class="data-v-344c7ce5" style="font-weight:bold;text-align:center;width:100%;margin-bottom:20rpx;">什么是多买减？</view>带有“多买减*元”标识的产品，在当前页面一次性购买多个景区的（同一景区购买多张门票不减）门票享立减优惠，具体优惠金额以明细内减少金额为准</view>
     </u-popup>

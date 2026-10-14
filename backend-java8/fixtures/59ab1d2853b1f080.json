@@ -1,0 +1,213 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1437973240298459138",
+    "scenicName": "旬阳县博物馆",
+    "tag": "来旬阳看文庙",
+    "level": -1,
+    "address": "安康市旬阳市人民北路6号",
+    "longitude": "109.381221",
+    "latitude": "32.830092",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#E1BB84",
+    "centralColour": "#B59361",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021091510531081283.png"
+    ],
+    "introduction": "<p>　　旬阳县博物馆位于汉江、旬河交汇处的旬阳老城龚家梁，以修建于明朝 成化八年(公元1473年)的文庙为馆址。馆藏各种文物标本3000余件，其中藏品1500多件，有新石器时期的石器、陶器标本，战国 秦汉及以后各个历史时期的铜、铁、瓷、玉、石、骨器等，尤以战国秦汉时期的文物最为丰富，其数量约占馆藏文物总数的半数以上，反映了封建社会初期汉水中上游旬阳一带经济发展、文化繁荣、军事斗争剧烈的情况。近几年来，石雕佛教造像、木质匾联等石木质藏品数量明显增加。馆内有《战国秦汉文物展》、《新出土文物展》、《石刻艺术展》等陈列展览，较为突出地展示了旬阳地区以中原文化为主，又融合荆楚 、巴蜀 等文化成分而形成的浓郁鲜明的地域文化特色。</p>",
+    "introductionText": "　　旬阳县博物馆位于汉江、旬河交汇处的旬阳老城龚家梁，以修建于明朝 成化八年(公元1473年)的文庙为馆址。馆藏各种文物标本3000余件，其中藏品1500多件，有新石器时期的石器、陶器标本，战国 秦汉及以后各个历史时期的铜、铁、瓷、玉、石、骨器等，尤以战国秦汉时期的文物最为丰富，其数量约占馆藏文物总数的半数以上，反映了封建社会初期汉水中上游旬阳一带经济发展、文化繁荣、军事斗争剧烈的情况。近几年来，石雕佛教造像、木质匾联等石木质藏品数量明显增加。馆内有《战国秦汉文物展》、《新出土文物展》、《石刻艺术展》等陈列展览，较为突出地展示了旬阳地区以中原文化为主，又融合荆楚 、巴蜀 等文化成分而形成的浓郁鲜明的地域文化特色。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026545651713",
+        "contentId": "1418152026541457409",
+        "name": "国家三级博物馆",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": [
+      {
+        "peopleType": "全员",
+        "limit": "无",
+        "discount": "免费"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": "",
+    "contentResourcesDtoList": [
+      {
+        "id": "1437973240285876227",
+        "resourcesId": "1437973240285876226",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091510522216151.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2021-09-15 10:55:11",
+        "updateTime": "2021-09-15 10:55:11",
+        "createBy": "1427085429085155330",
+        "updateBy": "1427085429085155330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1437973240290070529",
+        "resourcesId": "1437973240285876226",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091510523369587.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2021-09-15 10:55:11",
+        "updateTime": "2021-09-15 10:55:11",
+        "createBy": "1427085429085155330",
+        "updateBy": "1427085429085155330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1437973240290070530",
+        "resourcesId": "1437973240285876226",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091510524283276.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2021-09-15 10:55:11",
+        "updateTime": "2021-09-15 10:55:11",
+        "createBy": "1427085429085155330",
+        "updateBy": "1427085429085155330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1437973240294264833",
+        "resourcesId": "1437973240285876226",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091510525643646.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2021-09-15 10:55:11",
+        "updateTime": "2021-09-15 10:55:11",
+        "createBy": "1427085429085155330",
+        "updateBy": "1427085429085155330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1439119981701840898",
+      "rankingId": null,
+      "indexInRanking": 64,
+      "rankingName": "陕西人气博物馆排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1680835374538088449",
+        "rankingId": "1680835375632801794",
+        "indexInRanking": null,
+        "rankingName": "陕西省热搜50强博物馆排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1455799129627271170",
+        "rankingId": "1455799130713595906",
+        "indexInRanking": null,
+        "rankingName": "安康必逛景点人气排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -1,6 +1,6 @@
 <u-modal bind:__l="__l" bind:input="__e" borderRadius="20" class="calc-module data-v-7fa1d08a" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','show','$event',[] ] ] ] ] ]}}" maskCloseAble="{{true}}" showConfirmButton="{{false}}" showTitle="{{false}}" value="{{show}}" vueId="4f2f4ae8-1" vueSlots="{{['default']}}">
     <view class="slot-content data-v-7fa1d08a">
-        <image class="data-v-7fa1d08a" src="https://eshopfile.zhiyousx.com/2023110115432205983.png"></image>
+        <image class="data-v-7fa1d08a" src="/static/captured/82dbdaed9b36a6a8.png"></image>
         <view class="tip-content data-v-7fa1d08a">
             <view class="data-v-7fa1d08a">温馨提示</view>
             <view class="data-v-7fa1d08a">您当前账号暂无可使用年卡</view>

@@ -1,0 +1,496 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941176",
+    "scenicName": "黄帝陵",
+    "tag": "中华始祖黄帝轩辕氏的陵墓",
+    "level": 5,
+    "cityId": "1320663521644818433",
+    "cityName": "延安",
+    "address": "延安市黄陵县城北的桥山颠",
+    "longitude": "109.265229",
+    "latitude": "35.591449",
+    "openingStatus": 1,
+    "capacity": 100000,
+    "sequence": 31,
+    "topColour": "#75A924",
+    "centralColour": "#40782D",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021072618233922534.jpg"
+    ],
+    "introduction": "<p>　　黄帝陵，是中华民族始祖黄帝轩辕氏的陵墓，位于黄陵县城北桥山。1961年，国务院将黄帝陵公布为全国第一批全国重点文物保护单位，号称&ldquo;天下第一陵&rdquo;。黄帝陵墓之前的&ldquo;黄帝陵&rdquo;三个大字为蒋介石所提。黄帝陵古称&ldquo;桥陵&rdquo;，为中国历代帝王和著名人士祭祀黄帝的场所。据记载，最早举行祭祀黄帝始于公元前442年。 陵区景点包括：天下第一陵、轩辕桥、陵墓区、轩辕庙、黄帝手植柏、诚心亭、挂甲柏等。乔山山体浑厚，气势雄伟，山下有沮水环绕。山上有千年古柏，四季常青，郁郁葱葱。整个陵区宏大磅礴。 天下第一陵陵墓封土高3，6米，周长48米，环冢砌以青砖花墙，陵前有明嘉靖十五年碑刻&ldquo;桥山龙驭&rdquo;，意为黄帝&ldquo;驭龙升天&rdquo;之处。在前为一祭亭，歇山顶，飞檐起翘，气宇轩昂。 亭内立有郭沫若手书&ldquo;黄帝陵&rdquo;碑石。陵园区周围设置红墙围护，东南侧面为棂星门，两侧有仿制的汉代石阙。 陵前正南，陵园围墙以外是土筑高台，即&ldquo;汉武仙台&rdquo;。《史记&bull;封禅书》载：&ldquo;汉武帝北巡朔方，勒兵十余万还祭黄帝冢桥山。&rdquo;汉武仙台，即汉武帝祭祀黄帝所筑，台高20余米，现已用块石砌筑并建有登台石阶及云板，护栏等。 黄帝庙前区气势恢宏，面积约10000平方米的入口广场的地面。选用5000块大型河卵石铺砌，象征中华民族的五千年文明史。 黄帝手植柏位于陕西省中部黄陵县轩辕庙院内，高20余米，胸径11米，苍劲挺拔，冠盖蔽空，叶子四季不衰，层层密密，像个巨大的绿伞。相传它为轩辕黄帝亲手所植，距今5000多年，是世界上最古老的柏树。当地有民谚：七搂八揸半，圪里圪垯不上算。谓七人合抱犹不围。</p>",
+    "introductionText": "　　黄帝陵，是中华民族始祖黄帝轩辕氏的陵墓，位于黄陵县城北桥山。1961年，国务院将黄帝陵公布为全国第一批全国重点文物保护单位，号称“天下第一陵”。黄帝陵墓之前的“黄帝陵”三个大字为蒋介石所提。黄帝陵古称“桥陵”，为中国历代帝王和著名人士祭祀黄帝的场所。据记载，最早举行祭祀黄帝始于公元前442年。 陵区景点包括：天下第一陵、轩辕桥、陵墓区、轩辕庙、黄帝手植柏、诚心亭、挂甲柏等。乔山山体浑厚，气势雄伟，山下有沮水环绕。山上有千年古柏，四季常青，郁郁葱葱。整个陵区宏大磅礴。 天下第一陵陵墓封土高3，6米，周长48米，环冢砌以青砖花墙，陵前有明嘉靖十五年碑刻“桥山龙驭”，意为黄帝“驭龙升天”之处。在前为一祭亭，歇山顶，飞檐起翘，气宇轩昂。 亭内立有郭沫若手书“黄帝陵”碑石。陵园区周围设置红墙围护，东南侧面为棂星门，两侧有仿制的汉代石阙。 陵前正南，陵园围墙以外是土筑高台，即“汉武仙台”。《史记•封禅书》载：“汉武帝北巡朔方，勒兵十余万还祭黄帝冢桥山。”汉武仙台，即汉武帝祭祀黄帝所筑，台高20余米，现已用块石砌筑并建有登台石阶及云板，护栏等。 黄帝庙前区气势恢宏，面积约10000平方米的入口广场的地面。选用5000块大型河卵石铺砌，象征中华民族的五千年文明史。 黄帝手植柏位于陕西省中部黄陵县轩辕庙院内，高20余米，胸径11米，苍劲挺拔，冠盖蔽空，叶子四季不衰，层层密密，像个巨大的绿伞。相传它为轩辕黄帝亲手所植，距今5000多年，是世界上最古老的柏树。当地有民谚：七搂八揸半，圪里圪垯不上算。谓七人合抱犹不围。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "21",
+        "name": "地标打卡",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026415628289",
+        "contentId": "1418152026403045378",
+        "name": "陕西5A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "7:30-18:30",
+        "openTimeContent": "旺季：3月1日-11月底<br/>淡季：12月1日-次年2月底"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "儿童",
+        "limit": "6周岁（含）以下或身高1.2米（含）以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "老人",
+        "limit": "65周岁以上老年人（含）凭身份证或陕西省敬老优待证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "军人",
+        "limit": "现役军人（含军队离退休干部）、人民警察凭凭军官证（离退休证）、士官证、警察证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭残疾证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "学生",
+        "limit": "6周岁（不含）至18岁（含）的未成年人、全日制大学本科及以下学历学生凭有效证件",
+        "discount": "半价"
+      },
+      {
+        "peopleType": "港澳台青少年",
+        "limit": "持《港澳居民来往内地通行证》、《台湾居民来往大陆通行证》或学生证件等有效身份证明",
+        "discount": "半价"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "61",
+        "name": "讲解员",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016440410223.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "59",
+        "name": "园内交通",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016420452783.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "10",
+        "name": "商店",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (19).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "11",
+        "name": "餐厅",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (22).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "景区内交通",
+        "additionalExplainContent": "观光车：位于庙区出口西侧，工作时间8:00-17:30，往返20元/人/次"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>大巴车</p>\n<p>西安-黄陵 ：乘车地点：西安城北客运站，票价：53元。<br />延安-黄陵：乘车地点：延安汽车南站，票价：47元。</p>\n<p>&nbsp;</p>\n<p>动车</p>\n<p>西安&mdash;黄陵：D5082(8:13-9:31)/D5086(16:44-18:12)<br />延安&mdash;黄陵：D5083(11:05-11:54)/D5087(19:39-20:28)</p>\n<p>&nbsp;</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<p>西安、延安方向：G6522延西高速&mdash;黄陵出口/G65包茂高速&mdash;黄陵西</p>"
+      }
+    ],
+    "officialWebsite": [
+      "http://huangdi.shaanxi.gov.cn/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "咨询电话",
+        "telephone": "0911-5212742"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "服务号",
+        "wxSubscriptionName": "民族圣地黄帝陵",
+        "wxSubscription": "hdlinfo"
+      }
+    ],
+    "sinaWeiboVoList": [
+      {
+        "sinaWeibo": "黄帝陵-人文初祖民族圣地",
+        "sinaWeiboUrl": "https://weibo.com/u/2282046700?is_all=1"
+      }
+    ],
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "2063892409061867521",
+        "outId": "1320579064720941176",
+        "type": 1,
+        "advertName": "民俗之黄帝陵祭典",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021072618410820968.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p>黄帝陵是中华民族的始祖与轩辕黄帝陵墓，位于陕西省黄陵县的桥山之上。这里除黄帝陵外，还有轩辕庙、祭祀大殿、祭亭、黄帝手植柏等。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072618351327855.jpg\" /></p>\n<p>轩辕黄帝开启了中华文明之先河，被奉为&ldquo;人文初祖&rdquo;。为了纪念和缅怀黄帝，在黄帝&ldquo;驭龙升天&rdquo;之后，先民就有了隆重的祭祀活动。据《绎史》记载：&ldquo;黄帝崩，其臣左彻取衣冠、几仗而店祀之。&rdquo;最早见诸史料的后世帝王祭祀是周威烈王四年（前422年）秦灵公作吴阳上畴，专祭黄帝。汉代以后，祭祀黄帝形成朝廷定例。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072618353932482.jpg\" /></p>\n<p>1911年，孙中山先生就任临时大总统，派专人赴黄陵祭祖。抗日战争时期，国共两党多次共祭黄帝，泽东同志亲自撰写祭文。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072618360015559.jpg\" /></p>\n<p>黄帝陵祭祀活动在长期的实践中形成了一定的规模格式和祀典礼仪，大致可分为公（官）祭、民祭两种形式。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072618362553787.jpg\" /></p>\n<p>现在的清明公祭仪式庄严、肃穆。祭陵现场的布置是：在祭亭上是挂一横额，上书&ldquo;某某年清明公祭轩辕黄帝典礼&rdquo;。一般用农历纪年。祭桌上摆放祭器、香烛、时鲜水果、面花等。祭祀的仪程主要有：奏古乐、跳古舞、献花篮花圈、行三鞠躬礼，由主持人恭读祭文，鸣放鞭炮、绕陵一周、植纪念树等。</p>\n<p><img class=\"wscnph\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://eshopfile.zhiyousx.com/2021072618364805165.jpg\" /></p>\n<p>民间祭祀多在清明节前后和重阳节期间举行。民祭活动除保持了公祭活动的一些内容外，更突出了民间性，增加了鼓乐队、唢呐队、仪仗队、三牲队。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072618371417622.jpg\" /></p>\n<p>改革开放以来，黄帝陵祭祀越来越受到海内外华夏儿女的关注，祭祀规模日渐宏大，祭祀礼仪日渐隆重。祭祀黄帝已成为传承中华文明、凝聚华夏儿女、共谋祖国统一、开创美好生活的一项重大活动。黄帝陵祭典已列入第一批国家级非物质文化遗产名录。</p>\n<p>&nbsp;</p>\n<p>（本文来源：陕西省文化馆）</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2063892409015730178",
+        "resourcesId": "1321284240661590017",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072618255432102.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-06-08 15:54:30",
+        "updateTime": "2026-06-08 15:54:30",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063892409015730179",
+        "resourcesId": "1321284240661590017",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072618260389041.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-06-08 15:54:30",
+        "updateTime": "2026-06-08 15:54:30",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063892409019924481",
+        "resourcesId": "1321284240661590017",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072618261754407.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-06-08 15:54:30",
+        "updateTime": "2026-06-08 15:54:30",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063892409024118786",
+        "resourcesId": "1321284240661590017",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072618271165013.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-06-08 15:54:30",
+        "updateTime": "2026-06-08 15:54:30",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063892409028313089",
+        "resourcesId": "1321284240661590017",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072618262606559.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2026-06-08 15:54:30",
+        "updateTime": "2026-06-08 15:54:30",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063892409028313090",
+        "resourcesId": "1321284240661590017",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072618263757845.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2026-06-08 15:54:30",
+        "updateTime": "2026-06-08 15:54:30",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063892409032507393",
+        "resourcesId": "1321284240661590017",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072618264846407.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2026-06-08 15:54:30",
+        "updateTime": "2026-06-08 15:54:30",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063892409036701697",
+        "resourcesId": "1321284240661590017",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072618270226680.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2026-06-08 15:54:30",
+        "updateTime": "2026-06-08 15:54:30",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063892409036701698",
+        "resourcesId": "1321284240661590017",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072618272350079.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": null,
+        "createTime": "2026-06-08 15:54:30",
+        "updateTime": "2026-06-08 15:54:30",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2063892409040896002",
+        "resourcesId": "1321284240661590017",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072618274982942.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": null,
+        "createTime": "2026-06-08 15:54:30",
+        "updateTime": "2026-06-08 15:54:30",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1658303499793903618",
+      "rankingId": null,
+      "indexInRanking": 5,
+      "rankingName": "历史文化类博物馆人气榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1455724365810343938",
+        "rankingId": "1455724367274156033",
+        "indexInRanking": null,
+        "rankingName": "延安必逛景点人气排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": null,
+    "noticeTitel": "",
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

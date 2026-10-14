@@ -1,0 +1,277 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064188264615",
+    "scenicName": "咸阳湖景区",
+    "tag": "咸阳古渡的历史再现",
+    "level": 4,
+    "cityId": "1320661981349588993",
+    "cityName": "咸阳",
+    "address": "咸阳市秦都区渭阳路6号",
+    "longitude": "108.678928",
+    "latitude": "34.298376",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 255,
+    "topColour": "#1DA4CD",
+    "centralColour": "#1A90B4",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/timg (2)-20201028155745.jpg"
+    ],
+    "introduction": "<p>　　咸阳湖景区位于渭河咸阳城区段，西起咸通路，东至渭河陇海铁路桥，全长4.7公里，宽600-800米，占地约240公顷。咸阳湖工程于2004年10月全面开工建设，2005年7月立坝蓄水，主要由水利防洪工程和生态景观组成：水利防洪工程采用中隔墙的方式将500米宽的渭河主河道一分为二，南侧为泄洪河道，北侧用橡胶坝蓄水形成了面积124公顷的湖面，既调节了城区气候，又改善了市区生态环境，展现了&ldquo;一泓碧水润古城，渭水贯都展新颜&rdquo;的景象。生态景观以渭河为主轴、以古咸阳秦汉历史文化为背景，在两岸建设了宽50-180米的带状绿化景观区，与&ldquo;渭滨公园&rdquo;、&ldquo;古渡公园&rdquo;、&ldquo;统一广场&rdquo;、&ldquo;清渭楼&rdquo;、&ldquo;古渡遗址&rdquo;、&ldquo;渭水晚情&rdquo;、&ldquo;上林晨曦&rdquo;等景点交相辉映，营造了人与自然和谐统一的城市生态景观，展示了古都咸阳厚重的历史文化内涵。</p>",
+    "introductionText": "　　咸阳湖景区位于渭河咸阳城区段，西起咸通路，东至渭河陇海铁路桥，全长4.7公里，宽600-800米，占地约240公顷。咸阳湖工程于2004年10月全面开工建设，2005年7月立坝蓄水，主要由水利防洪工程和生态景观组成：水利防洪工程采用中隔墙的方式将500米宽的渭河主河道一分为二，南侧为泄洪河道，北侧用橡胶坝蓄水形成了面积124公顷的湖面，既调节了城区气候，又改善了市区生态环境，展现了“一泓碧水润古城，渭水贯都展新颜”的景象。生态景观以渭河为主轴、以古咸阳秦汉历史文化为背景，在两岸建设了宽50-180米的带状绿化景观区，与“渭滨公园”、“古渡公园”、“统一广场”、“清渭楼”、“古渡遗址”、“渭水晚情”、“上林晨曦”等景点交相辉映，营造了人与自然和谐统一的城市生态景观，展示了古都咸阳厚重的历史文化内涵。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "19",
+        "name": "水上玩乐",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全年开放",
+        "openTimeContent": "9:00-18:00<br/>17:00停止入场"
+      }
+    ],
+    "discountVoList": null,
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "停车场",
+        "additionalExplainContent": "咸阳湖游乐场停车场<br/>参考价格：以景区实际收费为主<br/>地址：咸阳湖游乐场周边<br/>库位：以景区实际情况为准"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": null,
+    "wxSubscriptionVoList": null,
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "1518161325275000834",
+        "resourcesId": "1321360568366686210",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091319484796496.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2022-04-24 17:34:00",
+        "updateTime": "2022-04-24 17:34:00",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518161325279195138",
+        "resourcesId": "1321360568366686210",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/d04675ee-ffd4-47bb-8af5-406dea05df3b-20201028155754.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2022-04-24 17:34:00",
+        "updateTime": "2022-04-24 17:34:00",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518161325279195139",
+        "resourcesId": "1321360568366686210",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/timg (1)-20201028155801.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2022-04-24 17:34:00",
+        "updateTime": "2022-04-24 17:34:00",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518161325283389441",
+        "resourcesId": "1321360568366686210",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091319485997382.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2022-04-24 17:34:00",
+        "updateTime": "2022-04-24 17:34:00",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518161325283389442",
+        "resourcesId": "1321360568366686210",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021091319485324117.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2022-04-24 17:34:00",
+        "updateTime": "2022-04-24 17:34:00",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455060076934045697",
+      "rankingId": null,
+      "indexInRanking": 9,
+      "rankingName": "咸阳亲子游景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": null,
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "scenicInfoTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": 0,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": null,
+    "hotelArrivalDepartureTime": null,
+    "hotelChildrenBed": null,
+    "hotelPet": null,
+    "hotelBreakfast": null,
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

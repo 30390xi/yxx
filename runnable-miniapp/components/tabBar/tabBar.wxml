@@ -3,5 +3,5 @@
         <image class="icon data-v-696021a1" src="{{currentPath==item.pagePath?item.activePath:item.path}}"></image>
         <view class="{{['text','singleLineText','data-v-696021a1',currentPath==item.pagePath?'active':'']}}">{{item.text}}</view>
     </view>
-    <image bindtap="__e" class="tabBut data-v-696021a1" data-event-opts="{{[ [ 'tap',[ [ 'getOpenid',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/index/tabBut1.gif"></image>
+    <image bindtap="__e" class="tabBut data-v-696021a1" data-event-opts="{{[ [ 'tap',[ [ 'getOpenid',['$event'] ] ] ] ]}}" src="/static/captured/a2157b6bbff2df08.gif"></image>
 </view>

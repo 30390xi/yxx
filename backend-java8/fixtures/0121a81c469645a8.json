@@ -1,0 +1,259 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941063",
+    "scenicName": "彬县大佛寺石窟",
+    "tag": "世界文化遗产",
+    "level": 4,
+    "address": "咸阳市彬县城关镇大佛寺村",
+    "longitude": "108.0034150000",
+    "latitude": "35.0792360000",
+    "openingStatus": 1,
+    "capacity": 999,
+    "topColour": "#BA8A8A",
+    "centralColour": "#896161",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021072317171319736.jpg"
+    ],
+    "introduction": "<p>　　原名&ldquo;应福寺&rdquo;，是唐太宗李世民为他指挥下的彬州&ldquo;浅水塬大战&rdquo;中阵亡将士超度亡魂所建。为国家重点文物保护单位，国家AAA级旅游景区。</p>\n<p>大佛寺石窟依山傍水，在400米长的立体岩面上开凿大小造像1980多尊。窟内20米的大佛坐像为陕西第一大佛，造像雄伟庄严，凝重优美，线条明晰，保护完好，被誉为中国盛唐石窟艺术奇观。大佛寺不仅是战争的纪念建筑，也是大唐盛世的象征，对于研究唐宋历史、战史、佛学史都提供了重要的实物依据。</p>",
+    "introductionText": "　　原名“应福寺”，是唐太宗李世民为他指挥下的彬州“浅水塬大战”中阵亡将士超度亡魂所建。为国家重点文物保护单位，国家AAA级旅游景区。大佛寺石窟依山傍水，在400米长的立体岩面上开凿大小造像1980多尊。窟内20米的大佛坐像为陕西第一大佛，造像雄伟庄严，凝重优美，线条明晰，保护完好，被誉为中国盛唐石窟艺术奇观。大佛寺不仅是战争的纪念建筑，也是大唐盛世的象征，对于研究唐宋历史、战史、佛学史都提供了重要的实物依据。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "63",
+        "name": "宗教文化",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026386268161",
+        "contentId": "1418152026377879553",
+        "name": "世界遗产名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1468151869783175169",
+        "contentId": "1468151869758009346",
+        "name": "陕西新晋4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": null,
+    "officialWebsite": null,
+    "telephoneVoList": null,
+    "topBannerList": [
+      {
+        "id": "2009166968633491457",
+        "outId": "1320579064720941063",
+        "type": 1,
+        "advertName": "彬县游玩攻略",
+        "advertPic": "https://eshopfile.zhiyousx.com/2026010815321653481.jpg",
+        "jumpType": 1,
+        "jumpUrl": "https://mp.weixin.qq.com/s/I9KKPQ_FPhAGLHZiZlpV7w",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "",
+        "contentType": null,
+        "bannerPosition": 0
+      }
+    ],
+    "bannerList": [
+      {
+        "id": "2009166968646074369",
+        "outId": "1320579064720941063",
+        "type": 1,
+        "advertName": "关中第一奇观",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021072317022309395.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p>彬州大佛寺石窟，位于陕西省彬州市城西十公里的312国道旁，建于公元628年，距今已有一千多年的历史，是唐太宗李世民为纪念浅水塬大战中阵亡将士应福所建，故称&ldquo;应福寺&rdquo;。北宋仁宗皇帝为其养母刘太后举国庆寿时，改名&ldquo;庆寿寺&rdquo;。因为佛像高大雄伟，从明景泰年间俗称&ldquo;大佛寺&rdquo;，并沿用至今。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072317071293227.jpg\" /></p>\n<p>大佛寺石窟，南依青翠巍峨的清凉山，北傍蜿蜒东流的泾河水，分为大佛窟、千佛洞、罗汉洞、丈八佛窟和修行窟五部分，是陕西境内规模最大的石窟群，也是现存初唐时期和盛唐时期规模最大、最为精美的石窟群。凿岩为室，雕石成像，错落绵延在400米长的奇峭崖面上，共有大小石窟130多所，造像1980多尊，历代题刻170多幅，称为&ldquo;关中第一奇观&rdquo;。石窟内的石雕、泥塑、彩绘等形态真实反映出西域乃至印度佛教文化的很多特征，对于佛教由丝路北主干道传入中国的历史品鉴有重要佐证作用。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072317105676007.png\" /></p>\n<p>2014年6月22日，在卡塔尔首都多哈召开的第38届联合国教科文组织世界遗产委员会会议上，中国和哈萨克斯坦、吉尔吉斯斯坦联合申报的&ldquo;丝绸之路：长安&mdash;天山廊道路网&rdquo;进入世界文化遗产名录，成为首例跨国合作成功申遗的项目。同时，彬州大佛寺石窟入选世界遗产名录。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072317112505213.png\" /></p>\n<p>彬州大佛寺石窟管理处副主任杨静：&ldquo;公元一世纪的时候，佛教经丝绸之路传入中国。到了七世纪时发展到了繁荣和鼎盛，大佛寺石窟就是这个鼎盛时期的代表作。作为关中地区规模最大、价值最高、佛像体量最大、艺术特征也最为鲜明突出的一所石窟寺，它代表了唐都长安城所特有的艺术面貌。特别是在如今，唐代的佛教寺院、佛教造像大都毁坏无存的情况下，它无疑成为了研究唐代经济地方佛教艺术的一个重要遗存。整个石窟所保留的人文价值的宏远、雕刻技艺的精美以及艺术魅力的蕴含都远远超过了佛教本身的意义。石窟真实的记录了唐代盛世的社会风貌、大国地位以及世界文化的交流。所以说大佛寺石窟不仅仅是历史留给我们的一份艺术财富，更是一份宝贵的文化财富。&rdquo;</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2009166968599937025",
+        "resourcesId": "1321353173682905089",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072317004577582.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-01-08 15:35:08",
+        "updateTime": "2026-01-08 15:35:08",
+        "createBy": "1968127079020560386",
+        "updateBy": "1968127079020560386",
+        "isDeleted": 0
+      },
+      {
+        "id": "2009166968604131329",
+        "resourcesId": "1321353173682905089",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021072317005670844.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-01-08 15:35:08",
+        "updateTime": "2026-01-08 15:35:08",
+        "createBy": "1968127079020560386",
+        "updateBy": "1968127079020560386",
+        "isDeleted": 0
+      },
+      {
+        "id": "2009166968608325633",
+        "resourcesId": "1321353173682905089",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/timg (1)-20201028152823.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-01-08 15:35:08",
+        "updateTime": "2026-01-08 15:35:08",
+        "createBy": "1968127079020560386",
+        "updateBy": "1968127079020560386",
+        "isDeleted": 0
+      },
+      {
+        "id": "2009166968608325634",
+        "resourcesId": "1321353173682905089",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/u=36373631,1709142685&fm=26&gp=0-20201028152837.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-01-08 15:35:08",
+        "updateTime": "2026-01-08 15:35:08",
+        "createBy": "1968127079020560386",
+        "updateBy": "1968127079020560386",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455060076934045697",
+      "rankingId": null,
+      "indexInRanking": 13,
+      "rankingName": "咸阳亲子游景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,383 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941094",
+    "scenicName": "马栏革命旧址",
+    "tag": "陕甘宁边区的南大门",
+    "level": 4,
+    "cityId": "1320661981349588993",
+    "cityName": "咸阳",
+    "address": "旬邑县马栏镇马栏村",
+    "longitude": "108.6249030000",
+    "latitude": "35.2657760000",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 159,
+    "topColour": "#E4CFBE",
+    "centralColour": "#9E746E",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021062111474394398.jpg",
+      "https://eshopfile.zhiyousx.com/2021061814420886737.jpg",
+      "https://eshopfile.zhiyousx.com/2021061815282032572.jpg",
+      "https://eshopfile.zhiyousx.com/2021061815283284134.jpg"
+    ],
+    "introduction": "<p>　　土地革命战争时期，马栏是陕甘边革命根据地的重要组成部分，位于桥山山脉南端。在这块红色的土地上，中国共产党人高举革命大旗，实行工农武装割据，创建了革命政权，苍茫雄浑的马栏山，留下了刘志丹、谢子长、习仲勋等老一辈革命家的足迹。1932年12月，中国工农红军第二十六军在这里成立。1937年4月，关中特区党政军机关迁驻马家堡村。抗日战争和解放战争时期，马栏是陕甘宁边区的南大门；是关中地区政治、经济、军事、文化中心；是仁人志士和军需物资通往延安的主要驿站和红色通道；是培养革命干部的摇篮。1939年10月至1949年4月，马栏是中共关中分委、中共关中地委和陕西省委等机关的所在地，习仲勋、汪锋、李维汉、张仲良、赵伯平、高锦纯、张德生、文年生、王世泰等老一辈无产阶级革命家在这里长期工作和战斗过，习仲勋同志更是在旬邑马栏等地工作战斗长达7年之久，在马栏的革命史上留下了辉煌的一页。陕北公学、鲁迅师范、陕甘宁边区第二师范先后在这里办学，为中国革命培养了数以万计的栋梁之才。</p>",
+    "introductionText": "　　土地革命战争时期，马栏是陕甘边革命根据地的重要组成部分，位于桥山山脉南端。在这块红色的土地上，中国共产党人高举革命大旗，实行工农武装割据，创建了革命政权，苍茫雄浑的马栏山，留下了刘志丹、谢子长、习仲勋等老一辈革命家的足迹。1932年12月，中国工农红军第二十六军在这里成立。1937年4月，关中特区党政军机关迁驻马家堡村。抗日战争和解放战争时期，马栏是陕甘宁边区的南大门；是关中地区政治、经济、军事、文化中心；是仁人志士和军需物资通往延安的主要驿站和红色通道；是培养革命干部的摇篮。1939年10月至1949年4月，马栏是中共关中分委、中共关中地委和陕西省委等机关的所在地，习仲勋、汪锋、李维汉、张仲良、赵伯平、高锦纯、张德生、文年生、王世泰等老一辈无产阶级革命家在这里长期工作和战斗过，习仲勋同志更是在旬邑马栏等地工作战斗长达7年之久，在马栏的革命史上留下了辉煌的一页。陕北公学、鲁迅师范、陕甘宁边区第二师范先后在这里办学，为中国革命培养了数以万计的栋梁之才。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "18",
+        "name": "红色旅游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "51",
+        "name": "拓展游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026361102337",
+        "contentId": "1418152026344325122",
+        "name": "全国红色旅游经典景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026461765634",
+        "contentId": "1418152026449182722",
+        "name": "全国爱国主义教育示范基地",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "开放时间",
+        "openTimeContent": "09:00-17:00,16:30停止入场<br/>免费开放"
+      }
+    ],
+    "discountVoList": null,
+    "facilitiesServicesVoList": [
+      {
+        "id": "6",
+        "name": "免费wifi",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (11).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "10",
+        "name": "商店",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (19).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>乘坐旬邑2路到马栏纪念馆站下</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<p>咸旬高速--旬邑县城---旬马路---马栏</p>"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "电话",
+        "telephone": "029-34422537"
+      }
+    ],
+    "wxSubscriptionVoList": null,
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "1518162478712795137",
+        "outId": "1320579064720941094",
+        "type": 1,
+        "advertName": "七孔桥",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021062112243615185.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p><strong>&nbsp;马栏：陕甘宁边区南大门</strong></p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ldquo;党的利益在第一位&rdquo;，这是1943年毛泽东主席为习仲勋同志的题词。如今这八个大字矗立在马栏革命旧址前，熠熠生辉，令人肃然起敬。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;抗日战争和解放战争时期，马栏是陕甘宁边区南大门，是关中分区政治、经济、军事、文化中心，是仁人志士和军需物资通往延安的主要驿站和红色通道，是培养革命干部的摇篮。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3月17日，乍暖还寒，鲜艳的野桃花已经在马栏山星星点点地开放。记者走进马栏革命旧址，眺望苍茫的马栏山，追寻那段波澜壮阔的峥嵘岁月。</p>\n<p><strong>旬邑起义，燃起渭北革命火焰</strong></p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1927年末，旬邑县发生了大面积、长时间的干旱，导致第二年春荒严重。而此时，国民党统治下的旬邑县政府不但不救济民众，反而横征暴敛，穷苦百姓急切盼望着改变自己的命运。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1928年1月12日，中共陕西省委发出公告，号召&ldquo;农民武装起来，组织农民革命军，发动暴动，打倒豪绅、地主、官吏及一切反动派，反对军阀战争，实行彻底的土地革命，建立工农苏维埃政权。&rdquo;</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在这一背景下，中共旬邑区委根据省委指示，积极发动农民，着手暴动的组织工作。5月6日，中共旬邑特支书记许才升等派人通过鸡毛传帖、击鼓为号的方式，以抗粮&ldquo;交农&rdquo;为口号，举行了起义。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;起义军于5月7日拂晓占领了县城，处决了县长李可宣及恶差数人，打开监狱，释放被关押的党员和群众数百人，并开仓放粮，救济贫苦群众。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5月12日，西北第一个县级苏维埃政权&mdash;&mdash;旬邑县临时苏维埃政府宣告成立。旬邑起义的烈火迅速燃遍全县，影响到了周边县区，引起国民党反动派极大恐慌。国民党反动当局一方面暗中收买奸细来瓦解起义队伍，一方面派人来旬邑做代理县长，并令其率军警民团反攻旬邑县城。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5月30日拂晓，敌军攻入县城，通过收罗叛徒和内奸，来瓦解起义队伍、捕杀起义人员。次日，吕佑乾、许才升、吕凤岐、程永盛等7位起义领导人英勇就义，他们面对屠刀，大义凛然，视死如归。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;旬邑起义虽然最终失败了，但它却燃起渭北革命火焰。它冲破了大革命失败后国民党反动派的白色恐怖，用革命的武装沉重地打击了敌人，撼动了国民党在旬邑县的统治基础，为之后的革命斗争指明了道路、锻炼了人才、积累了经验。</p>\n<p><strong>大生产运动，打破敌人经济封锁</strong></p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ldquo;马栏川，十八弯，穷苦人，望眼穿，盼了今天盼明天，红军来了有吃穿。&rdquo;</p>\n<p>在马栏革命纪念馆展厅，陈列着纺织机、小推车、铁锨等生产工具，这是关中分区大生产运动时期留下的宝贵文物，通过这些文物，我们仿佛看到了革命前辈、分区群众自力更生、发展生产的画面。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1939年冬天至1941年，国民党顽固派不断制造反共摩擦事件，对陕甘宁边区实行军事挑衅和经济封锁，边区财政、经济发生严重困难。为了克服严重的物资困难，坚持抗战到底，关中分区积极响应党中央的号召，发展经济，开展了轰轰烈烈的大生产运动。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关中分区人少面积大，可开垦的荒地较多。于是，关中分区把开垦荒地、增产粮食作为发展经济的一项重要措施，掀起了开荒热潮。到1944年，关中分区军民共开荒36.28万亩，粮食生产大幅提升，部分县一般农户达到了&ldquo;耕二余一&rdquo;。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ldquo;每日天明上山，天黑下山，早饭和中饭都在山上吃，没有休息日。每天三顿饭都吃黄米杠子&hellip;&hellip;经过辛勤劳动，谷子确实长得很好，秋天果然丰收了，并且超额完成了生产任务。&rdquo;曾任中国人民解放军原总后勤部政治部干部部部长的王金印在回忆边区大生产时写道，战士们吃上自己生产的黄灿灿的小米饭，格外高兴。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ldquo;二流子，懒又馋，东逛西逛吃洋烟，吃得腿长脖子细，家里没有二亩地&hellip;&hellip;又没米，又没面，娃娃瞪眼把你看，因此一心要转变。&rdquo;这个广为流传的顺口溜名叫《二流子要转变》，反映了大生产运动期间，关中分区提高群众劳动热情，改造懒汉二流子的情景。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1943年，关中分区广泛开展了学习和争当劳动模范运动。新正县雷庄村的共产党员张清益就是一位著名的劳动英雄，他发动本村群众首办&ldquo;义仓&rdquo;，创办了&ldquo;义仓田&rdquo;，获得了社会好评。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;所谓义仓是集体开荒种地，所收粮食储备起来，灾荒时再以微利借给缺粮群众，带有救济性质。此举得到县委和关中分区的重视和支持，并在关中分区和全边区推广普及，掀起了群众性的开办义仓运动。</p>\n<p><strong>一把插入国民党统治区的利剑</strong></p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;提起马栏，解放军第四军首任军长王世泰说，它像一把利剑插入国民党统治区，直逼其战略重镇西安；像一个红色的摇篮，为中国革命培养和输送了一大批人才。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1940年，关中分区始终燃烧着反摩擦斗争的战火，分区党政军机关从1941年7月开始分步转移到马栏，使这个原本不上百户人家的古镇顿时热闹起来，后来还相继迁来学校，成立八一剧团、红军医院、被服厂、修械厂等。随着马栏成为关中分区政治、经济、军事、文化中心，来往的人及进出的货物很多，街面上一天比一天热闹，店铺、饭馆有70多家，周围共200户居民。关中专署和新正县政府为了便于管理，决定以马栏为中心设立马栏市。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;马栏曾是陕甘宁边区南大门，是陕甘宁边区南部重要的屏障，更是近距离俯视泾渭、剑指西安的前进基地，也是许多革命青年北上延安的重要红色驿站，还是我党我军购运战略物资的必经之路。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ldquo;马栏是哺育我走向革命征途的起点，不管走到天涯海边，还是离开你再久再远，你将永远铭记在我心间。&rdquo;原关中分区警备司令部战士任应斌曾回忆道。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ldquo;我从这里第一次突围，我从这里钻进了硝烟；我从这里走向胜利，我从这里挺进西安。啊！只要一想起马栏，心中总是那样依恋。&rdquo;原关中分区干部，曾任机械工业部武汉材料保护研究所党委书记的杨生在《想马栏》中写道。</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      },
+      {
+        "id": "1518162478716989442",
+        "outId": "1320579064720941094",
+        "type": 1,
+        "advertName": "习仲勋马栏旧居",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021062112245178560.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;土地革命战争时期，马栏是陕甘边革命根据地的重要组成部分，是中工农红军陕甘游击队活动地区之一，1932年中国工农红军第26军在马栏转角成立。1936年，彭德怀、任弼时、邓小平、聂荣臻、杨尚昆等率领主力红军南下时在此开展扩红和地方工作，达八个月之久。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;抗日战争和解放战争时期，马栏是陕甘宁边区的南大门，是圣地延安的前沿哨所，是陕甘宁边区关中分区政治、军事、经济中心，是西安乃至全国各地仁人志士和军用物资通往延安的重要驿站和红色通道。中共陕西省委、关中分区机关驻此约8个春秋。刘志丹、谢子长、习仲勋、汪锋等老一辈革命家和赵伯平、高锦纯、杨伯伦、张德生、孙作宾、吕剑人、张邦英、霍维德、张仲良、张鹏图、王世泰、文年生、陈国栋等革命领导人在这里长期生活和战斗过。中共山西省委、河南省委也曾在马栏办公。著名教育家、民盟西北总支部负责人李敷仁在咸阳遭国民党特务枪击，被地下党营救接到马栏养伤，后到达延安。同时，马栏又是培养革命人才的摇篮，1937年7月后，陕北公学、鲁迅艺术师范、陕甘宁边区第二师范先后在这里办学，为中国革命培养了和输送了大量的人才。&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;近年来，旬邑县坚持把马栏革命旧址红色旅游景区建设作为保护红色旅游资源、加强爱国主义教育、做大做强旅游产业的重要任务，及时组建了&ldquo;马栏革命旧址红色旅游景区建设工作领导小组&rdquo;，成立了马栏革命旧址文物管理所，专门负责革命旧址的文物管理等工作。2005年3月，中宣部、国家发改委、国家旅游局等13个部委联合下发通知，将马栏革命旧址列入了全国100个红色旅游经典景区。对景区进行了修复和建设，馆区建有展览大厅、纪念广场、纪念碑、水上剧场等设施。</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": "主要看点",
+    "contentResourcesDtoList": [
+      {
+        "id": "1518162478687629314",
+        "resourcesId": "1405792007112114177",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061815570752124.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2022-04-24 17:38:35",
+        "updateTime": "2022-04-24 17:38:35",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518162478687629315",
+        "resourcesId": "1405792007112114177",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061816525625050.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2022-04-24 17:38:35",
+        "updateTime": "2022-04-24 17:38:35",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518162478691823617",
+        "resourcesId": "1405792007112114177",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061815302046151.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2022-04-24 17:38:35",
+        "updateTime": "2022-04-24 17:38:35",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518162478691823618",
+        "resourcesId": "1405792007112114177",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061815315309343.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2022-04-24 17:38:35",
+        "updateTime": "2022-04-24 17:38:35",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518162478696017922",
+        "resourcesId": "1405792007112114177",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061816042322890.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2022-04-24 17:38:35",
+        "updateTime": "2022-04-24 17:38:35",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455060076934045697",
+      "rankingId": null,
+      "indexInRanking": 15,
+      "rankingName": "咸阳亲子游景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": [
+      {
+        "id": "1518162478700212225",
+        "scenicSpotId": "1320579064720941094",
+        "contentModuleName": "主要看点",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1405819941734596609",
+            "type": 5,
+            "title": "马栏革命纪念馆",
+            "subtitle": "回顾老一代共产党人不屈的奋斗历程",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021061817015752450.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1406811960040767490",
+            "type": 5,
+            "title": "关中分区大生产遗址",
+            "subtitle": "马栏历史长河中弥足珍贵的革命遗存",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062111221466511.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1406820566656106497",
+            "type": 5,
+            "title": "马栏革命纪念碑",
+            "subtitle": "一座理想信念浇筑的丰碑",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062111305480156.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": null,
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "scenicInfoTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": 0,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": null,
+    "hotelArrivalDepartureTime": null,
+    "hotelChildrenBed": null,
+    "hotelPet": null,
+    "hotelBreakfast": null,
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

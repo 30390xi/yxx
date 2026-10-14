@@ -1,0 +1,255 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1449946008531247105",
+    "scenicName": "石峁遗址文化旅游区",
+    "tag": "中国文明的前夜",
+    "level": 4,
+    "cityId": "1320664225474195458",
+    "cityName": "榆林",
+    "address": "榆林市神木市高家堡镇雷家嫣组48号",
+    "longitude": "110.309993",
+    "latitude": "38.563598",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 249,
+    "topColour": "#1DA4CD",
+    "centralColour": "#1A90B4",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021101811491315613.jpg"
+    ],
+    "introduction": "<div class=\"para\" data-pid=\"1\">　　石峁遗址，是中国已发现的龙山晚期到夏早期时期规模最大的城址，位于陕西省榆林市神木市高家堡镇石峁村的秃尾河北侧山峁上，地处陕北黄土高原北部边缘。2006年定为全国重点文物保护单位。初步判断其文化命名为石峁类型，属新石器时代晚期至夏代早期遗存。石峁遗址是距今约4000年左右，面积约425万平方米。这个曾经的&ldquo;石城&rdquo;寿命超过300年。1976年，西北大学考古系教授戴应新在山西进行考察，从山西民间听到关于神木石峁的一些信息，于是专门到石峁考察，此后先后有来自西安和北京的考古队对其进行了考古发掘。石峁遗址是探寻中华文明起源的窗口，可能是夏早期中国北方的中心。据专家研究有可能是皇帝的都城昆仑城，二里头遗址目前只是假说，也有学者提出，石峁遗址应该是夏代的都城遗址&ldquo;夏都&rdquo;<sup class=\"sup--normal\" data-sup=\"31\" data-ctrmap=\":31,\">&nbsp;</sup>。2019年9月，科技人员通过对陕西石峁遗址的遗存物取样并进行碳14年代测定，初步确定了石峁遗址核心区域&mdash;&mdash;皇城台的建造年代，大约是在公元前2200年-1900年之间</div>",
+    "introductionText": "　　石峁遗址，是中国已发现的龙山晚期到夏早期时期规模最大的城址，位于陕西省榆林市神木市高家堡镇石峁村的秃尾河北侧山峁上，地处陕北黄土高原北部边缘。2006年定为全国重点文物保护单位。初步判断其文化命名为石峁类型，属新石器时代晚期至夏代早期遗存。石峁遗址是距今约4000年左右，面积约425万平方米。这个曾经的“石城”寿命超过300年。1976年，西北大学考古系教授戴应新在山西进行考察，从山西民间听到关于神木石峁的一些信息，于是专门到石峁考察，此后先后有来自西安和北京的考古队对其进行了考古发掘。石峁遗址是探寻中华文明起源的窗口，可能是夏早期中国北方的中心。据专家研究有可能是皇帝的都城昆仑城，二里头遗址目前只是假说，也有学者提出，石峁遗址应该是夏代的都城遗址“夏都” 。2019年9月，科技人员通过对陕西石峁遗址的遗存物取样并进行碳14年代测定，初步确定了石峁遗址核心区域——皇城台的建造年代，大约是在公元前2200年-1900年之间",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1608375821117603841",
+        "contentId": "1608375821109215234",
+        "name": "国家考古遗址公园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/167230146627310473.png"
+      },
+      {
+        "id": "1450028527872122881",
+        "contentId": "1450028527859539970",
+        "name": "陕西省文化遗址公园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": null,
+    "discountVoList": null,
+    "facilitiesServicesVoList": null,
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": null,
+    "wxSubscriptionVoList": null,
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": "",
+    "contentResourcesDtoList": [
+      {
+        "id": "1635550823910629378",
+        "resourcesId": "1450032873863127042",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021101817353929013.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2023-03-14 15:57:58",
+        "updateTime": "2023-03-14 15:57:58",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1635550823910629379",
+        "resourcesId": "1450032873863127042",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021101817354427701.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2023-03-14 15:57:58",
+        "updateTime": "2023-03-14 15:57:58",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "1635550823914823681",
+        "resourcesId": "1450032873863127042",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021101817355000685.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2023-03-14 15:57:58",
+        "updateTime": "2023-03-14 15:57:58",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455743348567547905",
+      "rankingId": null,
+      "indexInRanking": 11,
+      "rankingName": " 榆林必逛景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": null,
+    "hotelArrivalDepartureTime": null,
+    "hotelChildrenBed": null,
+    "hotelPet": null,
+    "hotelBreakfast": null,
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

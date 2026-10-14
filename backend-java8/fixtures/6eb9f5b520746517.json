@@ -1,0 +1,55 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": "1514460160435802113",
+      "resourcesId": "1321369590880821249",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/大水川1-20201028163310.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 1,
+      "describe": null,
+      "createTime": "2022-04-14 12:26:54",
+      "updateTime": "2022-04-14 12:26:54",
+      "createBy": "1511977558009303041",
+      "updateBy": "1511977558009303041",
+      "isDeleted": 0
+    },
+    {
+      "id": "1514460160435802114",
+      "resourcesId": "1321369590880821249",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/大水川20-20201028163319.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 2,
+      "describe": null,
+      "createTime": "2022-04-14 12:26:54",
+      "updateTime": "2022-04-14 12:26:54",
+      "createBy": "1511977558009303041",
+      "updateBy": "1511977558009303041",
+      "isDeleted": 0
+    },
+    {
+      "id": "1514460160439996418",
+      "resourcesId": "1321369590880821249",
+      "title": null,
+      "resourcesUrl": "https://eshopfile.zhiyousx.com/大水川30-20201028163333.jpg",
+      "coverImage": null,
+      "videoId": null,
+      "resourcesType": 1,
+      "sequence": 3,
+      "describe": null,
+      "createTime": "2022-04-14 12:26:54",
+      "updateTime": "2022-04-14 12:26:54",
+      "createBy": "1511977558009303041",
+      "updateBy": "1511977558009303041",
+      "isDeleted": 0
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

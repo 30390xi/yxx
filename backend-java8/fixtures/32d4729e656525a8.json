@@ -1,0 +1,42 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "destinationId": "1320579064720941132",
+      "destinationName": "西安城墙",
+      "mainPicture": "https://eshopfile.zhiyousx.com/2021061714081031680.png"
+    },
+    {
+      "destinationId": "1320579064720941182",
+      "destinationName": "华清宫",
+      "mainPicture": "https://eshopfile.zhiyousx.com/511-20201028143348.jpg"
+    },
+    {
+      "destinationId": "1320579064720941134",
+      "destinationName": "西安碑林博物馆",
+      "mainPicture": "https://eshopfile.zhiyousx.com/3333-1-20201029161416.jpg"
+    },
+    {
+      "destinationId": "1419506149639675905",
+      "destinationName": "《长恨歌》",
+      "mainPicture": "https://eshopfile.zhiyousx.com/2021072716085385820.jpg"
+    },
+    {
+      "destinationId": "1516616676576112642",
+      "destinationName": "长安十二时辰主题街区",
+      "mainPicture": "https://eshopfile.zhiyousx.com/2022042016341704740.jpg"
+    },
+    {
+      "destinationId": "1320579064188264540",
+      "destinationName": "大唐芙蓉园",
+      "mainPicture": "https://eshopfile.zhiyousx.com/2024040611170971691.jpg"
+    },
+    {
+      "destinationId": "1320579064699969542",
+      "destinationName": "西安钟楼",
+      "mainPicture": "https://eshopfile.zhiyousx.com/121-20201028164022.jpg"
+    }
+  ],
+  "msg": "成功",
+  "success": true
+}

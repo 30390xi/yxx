@@ -1,0 +1,305 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941179",
+    "scenicName": "法门文化景区",
+    "tag": "释迦牟尼佛指舍利供奉圣地",
+    "level": 5,
+    "address": "宝鸡市扶风县法门镇",
+    "longitude": "107.9090210000",
+    "latitude": "34.4412280000",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#D3B174",
+    "centralColour": "#734428",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/法门寺00-20201028160207.jpg",
+      "https://eshopfile.zhiyousx.com/法门寺7-20201028160302.jpg"
+    ],
+    "introduction": "<p>　　法门寺（Famen Temple），又名&ldquo;真身宝塔&rdquo;，位于炎帝故里、青铜器之乡&mdash;&mdash;宝鸡市，全国重点文物保护单位 &nbsp;。法门寺始建于东汉末年桓灵年间，距今约有1700多年历史，有&ldquo;关中塔庙始祖&rdquo;之称 &nbsp;，周魏以前称作&ldquo;阿育王寺&rdquo;，隋文帝时改称&ldquo;成实道场&rdquo;，唐高祖时改名&ldquo;法门寺&rdquo;。法门寺被誉为皇家寺庙，因安置释迦牟尼佛指骨舍利而成为举国仰望的佛教圣地。法门寺佛塔被誉为&ldquo;护国真身宝塔&rdquo;。寺庙所在的法门寺文化景区为国家AAAAA级旅游景区。</p>\n<p>法门寺地宫是迄今所见最大的塔下地宫。宝鸡法门寺地宫其出土了释迦牟尼佛指骨舍利、铜浮屠、八重宝函、银花双轮十二环锡杖等佛教至高宝物，法门寺珍宝馆拥有出土于法门寺地宫的两千多件大唐国宝重器，为世界寺庙之最。</p>",
+    "introductionText": "　　法门寺（Famen Temple），又名“真身宝塔”，位于炎帝故里、青铜器之乡——宝鸡市，全国重点文物保护单位  。法门寺始建于东汉末年桓灵年间，距今约有1700多年历史，有“关中塔庙始祖”之称  ，周魏以前称作“阿育王寺”，隋文帝时改称“成实道场”，唐高祖时改名“法门寺”。法门寺被誉为皇家寺庙，因安置释迦牟尼佛指骨舍利而成为举国仰望的佛教圣地。法门寺佛塔被誉为“护国真身宝塔”。寺庙所在的法门寺文化景区为国家AAAAA级旅游景区。法门寺地宫是迄今所见最大的塔下地宫。宝鸡法门寺地宫其出土了释迦牟尼佛指骨舍利、铜浮屠、八重宝函、银花双轮十二环锡杖等佛教至高宝物，法门寺珍宝馆拥有出土于法门寺地宫的两千多件大唐国宝重器，为世界寺庙之最。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "63",
+        "name": "宗教文化",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026415628289",
+        "contentId": "1418152026403045378",
+        "name": "陕西5A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "<p>法门寺支持电子社保卡和实体社保卡入园</p>",
+    "discountVoList": [
+      {
+        "peopleType": "老年人",
+        "limit": "65周岁(含)以上凭老年证或身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "身高1.2米(含)以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭残疾人证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "军人",
+        "limit": "持军官证、消防员证、士兵证、学员证、武警警官证的现役军人，持有离休退休军官证的军队离休退休干部和退休士官",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "1.2米(不含)-1.4米(含)",
+        "discount": "半价优惠 "
+      },
+      {
+        "peopleType": "学生",
+        "limit": "全日制大中小学生(不含成人教育研究生)凭有效学生证",
+        "discount": "半价优惠 "
+      }
+    ],
+    "officialWebsite": [
+      "http://www.famensi.com/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "客堂",
+        "telephone": "0917－5254002"
+      },
+      {
+        "telephoneTitle": "佛学院教务处",
+        "telephone": "0917－5256955"
+      },
+      {
+        "telephoneTitle": "佛协",
+        "telephone": "0917－5254154"
+      }
+    ],
+    "topBannerList": [
+      {
+        "id": "2092136574737776642",
+        "outId": "1320579064720941179",
+        "type": 1,
+        "advertName": "法门寺游览指南",
+        "advertPic": "https://eshopfile.zhiyousx.com/2026012014545279872.jpg",
+        "jumpType": 1,
+        "jumpUrl": "https://mp.weixin.qq.com/s/65cKWw_BbkSjrW976OmXOQ",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "",
+        "contentType": null,
+        "bannerPosition": 0
+      }
+    ],
+    "bannerList": [
+      {
+        "id": "2092136574737776643",
+        "outId": "1320579064720941179",
+        "type": 1,
+        "advertName": "攻略",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021072616242682061.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p>唐咸通十四年（公元873年）三月，长安城开远门外站满了成千上万的市民商贾，还有朝廷的文武官员，大路两边的人群，一直向西延伸，一眼望不到头。人们手里捧着鲜花和果蔬，在路边设置彩棚、香案，人声鼎沸，香烟缭绕。他们在等待什么？</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072616281266714.jpg\" /></p>\n<p>前方传来消息：朝廷派往法门寺迎请佛骨舍利的队伍就要返回长安了。这让人们望眼欲穿。</p>\n<p>&nbsp;</p>\n<p>开远门是唐长安西郭城最北的城门，由这里出城，一路向西，便踏上了绵延万里的&ldquo;丝绸之路&rdquo;大道。</p>\n<p>&nbsp;</p>\n<p>一千多年后的今天，我们在西安市大庆路上的开远门遗址附近，可以看到一组雕刻着张骞率领驼队启程开通&ldquo;丝绸之路&rdquo;的雕塑，古拙浑厚，铿锵峥嵘。</p>\n<p>&nbsp;</p>\n<p>法门寺藏着佛祖舍利</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072616282000709.jpg\" /></p>\n<p>&nbsp;法门寺最早被称为&ldquo;阿育王寺&rdquo;，在唐代是一座皇家寺院。据传在公元前261年，印度的摩揭陀国孔雀王朝第三代国王阿育王经过多次征战，统一了印度半岛的大部分领土。怀着对战争中成千上万亡灵的忏悔，阿育王开始大力弘扬佛教，将印度国内所藏的释迦牟尼舍利子安置于48000个宝匣内，分送到各国的庙宇里供奉。据说，关中法门寺便是藏有释迦牟尼指骨舍利的寺院之一。</p>\n<p>&nbsp;</p>\n<p>到了隋唐时期，佛教在中国境内迅速发展，仅京师长安的周围，佛教寺院便已有好几百座。当年因传说法门寺藏有佛祖舍利子，这座位于岐山之阳的寺院由此成为佛门圣地。原先一座较小的寺院，在唐代被建成为具有&ldquo;环林宫二十四院&rdquo;的大型建筑群，其规模已经远远超过长安城里最大的慈恩寺、西明寺了。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021072616282643279.jpg\" /></p>\n<p>不仅如此，唐代皇室还尊奉法门寺佛祖舍利为&ldquo;护国真身舍利&rdquo;，寺院成为皇室供养、礼拜、祈福的场所，法门寺成为皇家寺院。法门寺僧人最多时达到了5000多人，寺院建筑规模庞大，常年烟雾缭绕，佛法活动日甚一日。</p>\n<p>&nbsp;</p>\n<p>法门寺塔</p>\n<p>&nbsp;</p>\n<p>据说法门寺塔下的地宫三十年一开，朝廷派人请出佛指舍利，开则岁丰人和，风调雨顺。开启塔下地宫，迎送法门寺佛指舍利，是大唐王朝的一项重大庆典。朝廷不惜兴师动众，耗资万金，由唐太宗贞观年间开始，历代皇帝先后七次进行迎送佛骨活动。这才出现了本文开头所描述的那一幕场景。</p>\n<p>&nbsp;</p>\n<p>七迎佛骨</p>\n<p>&nbsp;</p>\n<p>贞观五年（632年），唐太宗恩准岐州刺史张亮首次开启地宫，请出佛骨在当地展示，岐州和京城一代的百姓纷沓而至，每天汇聚塔下者数千人之多，拉开了唐代迎送佛骨的序幕。</p>\n<p>&nbsp;</p>\n<p>显庆四年（659年），唐高宗派人迎请佛骨到京城长安，并且亲自捐钱五千、绢三千余匹。第二年三月，又将佛骨由长安迎请到东都洛阳，武则天捐绢一千匹，最后派智琮、弘静等僧侣数千人将佛骨送还法门寺，这次迎送佛骨先后历时四年。</p>\n<p>&nbsp;</p>\n<p>唐长安四年（704年），女皇武则天崇佛拜佛已经达到痴迷程度。她命凤阁侍郎崔玄障等人前往法门寺，在除夕之夜将佛骨迎到长安崇福寺。一路之上，成千上万善男信女顶礼膜拜；进京之后，更是千官拜庆，万众焚香，震天动地。其间武则天、唐中宗和韦皇后慷慨捐供皇家大量珍品给法门寺。到了景龙二年（708年），唐中宗才下旨送佛骨回地宫。</p>\n<p>&nbsp;</p>\n<p>唐肃宗上元元年（760年），&ldquo;安史之乱&rdquo;的狼烟还未平息，肃宗为了祈求佛祖神灵保佑大唐，第四次迎送佛骨，但此次规模较小。</p>\n<p>&nbsp;</p>\n<p>第五次是唐德宗贞元六年（790年），佛指舍利迎来之后还送到京城的多座寺院展示。一月之后送回法门寺。</p>\n<p>&nbsp;</p>\n<p>唐宪宗元和十四年（819年）正月，唐宪宗命中使杜英奇等人前去第六次迎佛骨，在宫内供三天后，送各大寺院展示供奉。这次发生了著名的韩愈反佛事件。</p>\n<p>&nbsp;</p>\n<p>最后一次是在唐懿宗咸通十四年（873年）。这时，大唐王朝已经岌岌可危，懿宗皇帝不顾大臣的强烈反对，执意祈求于佛祖的荫护。皇室对迎奉佛骨大肆筹备，几百里路上昼夜车马不断，百姓在路边设香案、蔬果。到了京城之后，懿宗皇帝亲自迎接，京城彩棚夹道，鼓乐之声不绝于耳，念佛诵经惊天动地，宫廷内外烛光照明如同白昼。这次迎送佛骨，是历来规模最大的一次。</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": "景区看点",
+    "contentResourcesDtoList": [
+      {
+        "id": "2092136574704222210",
+        "resourcesId": "1321362630794043393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/法门寺1-20201028160541.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-08-25 14:26:44",
+        "updateTime": "2026-08-25 14:26:44",
+        "createBy": "1790219374788558850",
+        "updateBy": "1790219374788558850",
+        "isDeleted": 0
+      },
+      {
+        "id": "2092136574708416514",
+        "resourcesId": "1321362630794043393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/法门寺7-20201028160559.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-08-25 14:26:44",
+        "updateTime": "2026-08-25 14:26:44",
+        "createBy": "1790219374788558850",
+        "updateBy": "1790219374788558850",
+        "isDeleted": 0
+      },
+      {
+        "id": "2092136574712610817",
+        "resourcesId": "1321362630794043393",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/法门寺2-20201028160606.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-08-25 14:26:44",
+        "updateTime": "2026-08-25 14:26:44",
+        "createBy": "1790219374788558850",
+        "updateBy": "1790219374788558850",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": null,
+      "rankingId": null,
+      "indexInRanking": null,
+      "rankingName": null,
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": [
+      {
+        "id": "2092136574725193730",
+        "scenicSpotId": "1320579064720941179",
+        "contentModuleName": "景区看点",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1437268738368962561",
+            "type": 6,
+            "title": "法门寺博物馆",
+            "subtitle": "大唐文化放异彩",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021091312134146002.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

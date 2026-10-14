@@ -53,8 +53,16 @@ require("../../../@babel/runtime/helpers/Arrayincludes"), require("../../common/
           }
           return t
         }
-        var u = n("a6b5"),
-          g = {
+        var u = n("a6b5");
+        function localAiUserId() {
+          var id = t.getStorageSync("wxopenid") || t.getStorageSync("localAiUserId");
+          if (!id) {
+            id = "local-" + Date.now() + "-" + Math.floor(1e9 * Math.random());
+            t.setStorageSync("localAiUserId", id);
+          }
+          return id;
+        }
+        var g = {
             components: {
               zPaging: function() {
                 Promise.all([n.e("common/vendor"), n.e("union/common/vendor"), n.e("union/components1/z-paging/z-paging")]).then(function() {
@@ -75,9 +83,9 @@ require("../../../@babel/runtime/helpers/Arrayincludes"), require("../../common/
             onLoad: function(e) {
               var n = this,
                 i = t.getSystemInfoSync();
-              "android" === i.platform ? this.isIos = !1 : "ios" === i.platform ? this.isIos = !0 : this.isIos = !1, this.createSession(), setTimeout((function() {
+              "android" === i.platform ? this.isIos = !1 : "ios" === i.platform ? this.isIos = !0 : this.isIos = !1, this.createSession().then((function() { return n.getHistory() })).catch((function(e) { console.warn("AI session unavailable", e) })), setTimeout((function() {
                 n.maskShow = !1
-              }), 1e3), this.NavH = t.getMenuButtonBoundingClientRect().bottom, console.log(this.NavH), Promise.all([this.getHistory(), this.getSysConfigure(), this.getTopData()]).then((function() {
+              }), 1e3), this.NavH = t.getMenuButtonBoundingClientRect().bottom, console.log(this.NavH), Promise.all([this.getSysConfigure(), this.getTopData()]).then((function() {
                 console.log(n.topData, "this.topData"), n.$nextTick((function() {
                   n.getElementsHeight()
                 }))
@@ -231,7 +239,7 @@ require("../../../@babel/runtime/helpers/Arrayincludes"), require("../../common/
               getTopData: function() {
                 var e = this;
                 return this.$uniApi.dataRequestNoLoading("GET", "ai/planCard/queryTopRecent", {
-                  openId: t.getStorageSync("wxopenid")
+                  openId: localAiUserId()
                 }).then((function(t) {
                   1 === t.code && (e.topData = t.data || null)
                 })).catch((function() {}))
@@ -250,7 +258,7 @@ require("../../../@babel/runtime/helpers/Arrayincludes"), require("../../common/
               getHistory: function() {
                 var e = this;
                 return this.$uniApi.dataRequestNoLoading("get", "ai/aiEscort/dialogue/record", {
-                  openId: t.getStorageSync("wxopenid"),
+                  openId: localAiUserId(),
                   pageSize: 30,
                   pageOn: 1,
                   sessionId: this.flowId
@@ -333,7 +341,7 @@ require("../../../@babel/runtime/helpers/Arrayincludes"), require("../../common/
                 if ("nomore" == this.loadMore) return this.$refs.paging.completeByNoMore([], !0), this.showTopLoading = !1, !1;
                 var n = this.page;
                 this.$uniApi.dataRequestNoLoading("get", "ai/aiEscort/dialogue/record", {
-                  openId: t.getStorageSync("wxopenid"),
+                  openId: localAiUserId(),
                   pageSize: 30,
                   pageOn: n,
                   sessionId: this.flowId
@@ -431,9 +439,9 @@ require("../../../@babel/runtime/helpers/Arrayincludes"), require("../../common/
               },
               createSession: function() {
                 var e = this;
-                this.$uniApi.dataRequestNoLoading("post", "ai/aiEscort/session/create", {
+                return this.$uniApi.dataRequestNoLoading("post", "ai/aiEscort/session/create", {
                   bussType: 1,
-                  openId: t.getStorageSync("wxopenid"),
+                  openId: localAiUserId(),
                   title: u.format(new Date, "yyyy-MM-dd hh:mm:ss:S")
                 }).then((function(t) {
                   1 === t.code && (e.flowId = t.data)
@@ -500,7 +508,7 @@ require("../../../@babel/runtime/helpers/Arrayincludes"), require("../../common/
                   eventParams: {}
                 });
                 var i = l(l({}, this.commentObj), {}, {
-                  openId: t.getStorageSync("wxopenid")
+                  openId: localAiUserId()
                 });
                 this.$uniApi.dataRequestNoLoading("post", "ai/app/dialogue/delete", i).then((function(t) {
                   n.commentObj = {
@@ -532,7 +540,7 @@ require("../../../@babel/runtime/helpers/Arrayincludes"), require("../../common/
                   eventParams: {}
                 });
                 var i = l(l({}, this.commentObj), {}, {
-                  openId: t.getStorageSync("wxopenid")
+                  openId: localAiUserId()
                 });
                 this.$uniApi.dataRequestNoLoading("post", "ai/app/dialogue/add", i).then((function(t) {
                   n.commentObj = {
@@ -804,7 +812,7 @@ require("../../../@babel/runtime/helpers/Arrayincludes"), require("../../common/
                 var a = {
                     language: 0,
                     question: e,
-                    userId: t.getStorageSync("wxopenid"),
+                    userId: localAiUserId(),
                     sessionId: this.flowId,
                     bussType: 1
                   },
@@ -813,7 +821,7 @@ require("../../../@babel/runtime/helpers/Arrayincludes"), require("../../common/
                 o && s && (a.location = "".concat(o, ",").concat(s)), i.timeNetwork = setTimeout((function() {
                   n.clearAllTimers(), n.clearStarts(), n.$util.showToast("网络异常，请重试！"), n.task && (n.dataList[0].content = "网络走丢了，请稍后重试!", n.task.abort())
                 }), 15e3), this.task = t.request({
-                  url: "".concat(getApp().globalData.requestUrl, "ai/app/escort/ai/chat"),
+                  url: "http://127.0.0.1:8787/ai/app/escort/ai/chat",
                   enableChunked: !0,
                   method: "POST",
                   timeout: 9e5,

@@ -32,7 +32,7 @@
         </view>
     </view>
     <view class="no-page data-v-bad982bc" wx:else>
-        <image class="data-v-bad982bc" src="https://eshopfile.zhiyousx.com/2023110116325879617.png"></image>
+        <image class="data-v-bad982bc" src="/static/captured/f689b63710303e4b.png"></image>
         <view class="data-v-bad982bc">暂无记录</view>
     </view>
     <u-modal bind:__l="__l" bind:confirm="__e" bind:input="__e" class="data-v-bad982bc" content="是否取消预约?" data-event-opts="{{[ [ '^confirm',[ ['cancelReservation'] ] ],[ '^input',[ [ '__set_model',[ '','show','$event',[] ] ] ] ] ]}}" maskCloseAble="{{true}}" showCancelButton="{{true}}" value="{{show}}" vueId="c94eb91a-1"></u-modal>

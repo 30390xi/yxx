@@ -4,7 +4,7 @@
         <view class="feature-content-box data-v-2dfa04dc">
             <view class="create-group-section data-v-2dfa04dc">
                 <view class="create-group-icon-wrapper data-v-2dfa04dc">
-                    <image alt class="create-group-icon data-v-2dfa04dc" src="https://eshopfile.zhiyousx.com/176975521656296497.png"></image>
+                    <image alt class="create-group-icon data-v-2dfa04dc" src="/static/captured/b2e5216fb904a1cc.png"></image>
                     <view class="create-group-icon-bg data-v-2dfa04dc">{{$root.m1}}</view>
                 </view>
                 <view bindtap="__e" class="create-group-text data-v-2dfa04dc" data-event-opts="{{[ [ 'tap',[ [ 'showCreateGroupPopup',['$event'] ] ] ] ]}}">{{$root.m2}}</view>
@@ -13,7 +13,7 @@
             <view class="group-list-title-section data-v-2dfa04dc">
                 <view class="group-list-title data-v-2dfa04dc">
                     <view class="title-text data-v-2dfa04dc">{{$root.m4}}</view>
-                    <image alt class="group-list-icon data-v-2dfa04dc" mode="heightFix" src="https://eshopfile.zhiyousx.com/176975522479724647.png"></image>
+                    <image alt class="group-list-icon data-v-2dfa04dc" mode="heightFix" src="/static/captured/a9c72bf19a49f734.png"></image>
                 </view>
             </view>
             <view class="group-list-container data-v-2dfa04dc">
@@ -39,7 +39,7 @@
     </view>
     <uni-popup backgroundColor="transparent" bind:__l="__l" class="data-v-2dfa04dc vue-ref" data-ref="popupShare" vueId="6efd7e0f-2" vueSlots="{{['default']}}">
         <view class="share-content data-v-2dfa04dc">
-            <image alt class="share-bg data-v-2dfa04dc" mode="widthFix" src="https://eshopfile.zhiyousx.com/176975738558095082.png"></image>
+            <image alt class="share-bg data-v-2dfa04dc" mode="widthFix" src="/static/captured/f055a2c7cfbcb751.png"></image>
             <view class="code data-v-2dfa04dc">
                 <view class="share-content-title data-v-2dfa04dc">
                     <image alt class="share-icon data-v-2dfa04dc" mode="widthFix" src="{{codeUrl}}"></image>
@@ -51,7 +51,7 @@
     <uni-popup bind:__l="__l" class="data-v-2dfa04dc vue-ref" data-ref="popupRemove" vueId="6efd7e0f-3" vueSlots="{{['default']}}">
         <view class="popup-content data-v-2dfa04dc">
             <view class="box data-v-2dfa04dc">
-                <image class="popup-img data-v-2dfa04dc" mode="aspectFill" src="https://eshopfile.zhiyousx.com/176965670602878950.png"></image>
+                <image class="popup-img data-v-2dfa04dc" mode="aspectFill" src="/static/captured/c90b1da7eb3cb4ff.png"></image>
                 <view class="popup-desc data-v-2dfa04dc">{{$root.m9}}</view>
                 <view class="btn-box data-v-2dfa04dc">
                     <view bindtap="__e" class="btn1 data-v-2dfa04dc" data-event-opts="{{[ [ 'tap',[ [ 'closePopup',['$event'] ] ] ] ]}}">{{$root.m10}}</view>
@@ -63,11 +63,11 @@
     <uni-popup bind:__l="__l" class="data-v-2dfa04dc vue-ref" data-ref="popupCreate" vueId="6efd7e0f-4" vueSlots="{{['default']}}">
         <view class="create-content data-v-2dfa04dc">
             <view class="popup-title data-v-2dfa04dc">{{$root.m12}}</view>
-            <image alt bindtap="__e" class="close-icon data-v-2dfa04dc" data-event-opts="{{[ [ 'tap',[ [ 'closeCreateGroupPopup',['$event'] ] ] ] ]}}" mode="heightFix" src="https://eshopfile.zhiyousx.com/176975963918442547.png"></image>
+            <image alt bindtap="__e" class="close-icon data-v-2dfa04dc" data-event-opts="{{[ [ 'tap',[ [ 'closeCreateGroupPopup',['$event'] ] ] ] ]}}" mode="heightFix" src="/static/captured/6adf33665b364320.png"></image>
             <view class="popup-input data-v-2dfa04dc">
                 <input class="uni-input data-v-2dfa04dc" placeholder="{{$root.m13}}" placeholderStyle="{{ {color:'rgba(0, 0, 0, 1)'} }}"></input>
             </view>
-            <view bindtap="__e" class="popup-select data-v-2dfa04dc" data-event-opts="{{[ [ 'tap',[ [ 'showSelectPopup',['$event'] ] ] ] ]}}">{{''+codeName+''}}<image alt class="create-icon data-v-2dfa04dc" src="https://eshopfile.zhiyousx.com/176975955835549173.png"></image>
+            <view bindtap="__e" class="popup-select data-v-2dfa04dc" data-event-opts="{{[ [ 'tap',[ [ 'showSelectPopup',['$event'] ] ] ] ]}}">{{''+codeName+''}}<image alt class="create-icon data-v-2dfa04dc" src="/static/captured/0e56fabdee96ab91.png"></image>
             </view>
             <view class="btn-box data-v-2dfa04dc">
                 <view bindtap="__e" class="btn1 data-v-2dfa04dc" data-event-opts="{{[ [ 'tap',[ [ 'closeCreateGroupPopup',['$event'] ] ] ] ]}}">{{$root.m14}}</view>
@@ -78,7 +78,7 @@
     <uni-popup backgroundColor="transparent" bind:__l="__l" class="data-v-2dfa04dc vue-ref" data-ref="popupSelect" type="bottom" vueId="6efd7e0f-5" vueSlots="{{['default']}}">
         <view class="select-content data-v-2dfa04dc">
             <view class="popup-title data-v-2dfa04dc">{{$root.m16}}</view>
-            <image alt bindtap="__e" class="close-icon data-v-2dfa04dc" data-event-opts="{{[ [ 'tap',[ [ 'closeSelectPopup',['$event'] ] ] ] ]}}" mode="heightFix" src="https://eshopfile.zhiyousx.com/176975963918442547.png"></image>
+            <image alt bindtap="__e" class="close-icon data-v-2dfa04dc" data-event-opts="{{[ [ 'tap',[ [ 'closeSelectPopup',['$event'] ] ] ] ]}}" mode="heightFix" src="/static/captured/6adf33665b364320.png"></image>
             <view class="select-list data-v-2dfa04dc">
                 <view bindtap="__e" class="select-item data-v-2dfa04dc" data-event-opts="{{[ [ 'tap',[ [ 'selectGroup',['$0'],[ [ ['listTeam','',index] ] ] ] ] ] ]}}" wx:for="{{listTeam}}" wx:key="index">{{''+item.name+''}}</view>
             </view>

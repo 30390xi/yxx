@@ -214,7 +214,8 @@ require("../../../@babel/runtime/helpers/Objectentries"), require("../../../@bab
                 itemData: "",
                 selectedHourTime: "",
                 itemSkuArr: [],
-                lineOrderInfo: "",
+                lineOrderInfo: { spotList: [], orderAmount: 0, reduction: 0, allAmount: 0 },
+                resourceNote: "",
                 imageH: 242,
                 scrollTop: 0
               }, (0, a.default)(t, "showAllTime", !1), (0, a.default)(t, "oldData", ""), (0, a.default)(t, "showGroupErr", !1), (0, a.default)(t, "errList", []), (0, a.default)(t, "stagData", ""), (0, a.default)(t, "addType", !1), (0, a.default)(t, "allNum", 0), (0, a.default)(t, "hourHeight", 0), (0, a.default)(t, "showTips", !1), (0, a.default)(t, "noticeHeight", 500), (0, a.default)(t, "searchHeight", 0), (0, a.default)(t, "safeAreaBottom", 0), (0, a.default)(t, "prefeFlag", !1), t
@@ -278,9 +279,15 @@ require("../../../@babel/runtime/helpers/Objectentries"), require("../../../@bab
               getlineScenicInfo: function() {
                 var t = this;
                 this.$uniApi.dataRequestNoLoading("GET", "product/app/v1/line/lineScenicInfo/" + this.lineId).then((function(e) {
-                  1 === e.code && (e.data.forEach((function(t) {
+                  if (1 !== e.code || !Array.isArray(e.data) || !e.data.length) {
+                    t.resourceNote = "线路景区暂不可用";
+                    return;
+                  }
+                  e.data.forEach((function(t) {
                     t.classList = [], t.selectDateStr = "", t.dateData = [], t.ticNum = 0
-                  })), t.spotData = e.data, t.destinationId = e.data[0].destinationId, t.activeIndex = 0, t.getScenicTicketDate())
+                  })), t.spotData = e.data, t.destinationId = e.data[0].destinationId, t.activeIndex = 0, t.getScenicTicketDate()
+                })).catch((function() {
+                  t.resourceNote = "线路景区暂不可用";
                 }))
               },
               getScenicTicketDate: function() {
@@ -288,15 +295,23 @@ require("../../../@babel/runtime/helpers/Objectentries"), require("../../../@bab
                   e = {
                     destinationId: this.destinationId
                   };
+                this.resourceNote = "";
                 this.$uniApi.dataRequestNoLoading("GET", "product/app/v1/line/getScenicTicketDate", e).then((function(e) {
                   if (1 === e.code) {
                     var i = e.data,
                       s = t.selectDateStr;
+                    if (!Array.isArray(i) || !i.length) {
+                      t.dateData = [];
+                      t.resourceNote = "暂无可售日期";
+                      return;
+                    }
                     i.forEach((function(e) {
                       var i = "";
                       0 === e.surplusStock ? (i = "已售罄", e.disabled = !0) : (-1 === e.surplusStock || e.surplusStock > 0) && (i = "可订", s || (s = e.date)), e.dateShort = e.date.slice(5), e.week = t.getWeekOfDate(e.date), e.diy = i
                     })), t.dateData = i, t.selectDateStr = s || i[0].date, t.spotData[t.activeIndex].selectDateStr = s || i[0].date, t.spotData[t.activeIndex].dateData = i, t.getScenicTicket(t.selectDateStr, !0)
-                  }
+                  } else t.resourceNote = "可售日期暂不可用"
+                })).catch((function() {
+                  t.resourceNote = "可售日期暂不可用";
                 }))
               },
               getScenicTicket: function(e, i) {
@@ -310,7 +325,7 @@ require("../../../@babel/runtime/helpers/Objectentries"), require("../../../@bab
                     title: "加载中",
                     mask: !0
                   }), this.$uniApi.dataRequestNoLoading("GET", "product/app/v1/line/getScenicTicketCale", a).then((function(a) {
-                    if (1 === a.code) {
+                    if (1 === a.code && Array.isArray(a.data)) {
                       var n = a.data,
                         c = [],
                         o = [],
@@ -361,8 +376,11 @@ require("../../../@babel/runtime/helpers/Objectentries"), require("../../../@bab
                         spotTicNum: u,
                         scrollType: i
                       }, t.hideLoading(), void(s.showGroupErr = !0);
-                      i && (s.scrollToDate = "date-" + e), s.selectDateStr = e, s.spotData[s.activeIndex].selectDateStr = e, s.spotData[s.activeIndex].classList = n, s.spotData[s.activeIndex].ticNum = u, s.calcPriceAmount(), t.hideLoading()
-                    } else t.hideLoading()
+                      i && (s.scrollToDate = "date-" + e), s.selectDateStr = e, s.spotData[s.activeIndex].selectDateStr = e, s.spotData[s.activeIndex].classList = n, s.spotData[s.activeIndex].ticNum = u, s.resourceNote = "", s.calcPriceAmount(), t.hideLoading()
+                    } else s.resourceNote = "票种暂不可用", t.hideLoading()
+                  })).catch((function() {
+                    s.resourceNote = "票种暂不可用";
+                    t.hideLoading();
                   }))
                 }
               },

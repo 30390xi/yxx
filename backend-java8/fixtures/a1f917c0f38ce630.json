@@ -1,0 +1,26 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1849009536403165186",
+    "contentId": "1849009536377999362",
+    "rankingName": "沣裕口人气美食",
+    "rankingClass": "2",
+    "rankingType": "3",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/172975485490032594.jpg",
+    "rankingDescribe": "逃离城市的西安地道老字号风味",
+    "rankingTotalUserData": "人喜爱",
+    "rankingInclude": "个目的地",
+    "rankingPersonalInfo": "我去过的目的地",
+    "rankingSharePictureUrl": "",
+    "bottomColour": "#E06A2A",
+    "tagUrl": null,
+    "travelMapFlag": null,
+    "type": "7",
+    "rankingItemList": null,
+    "sumCount": "5",
+    "favoriteSum": null,
+    "personalInfoValue": null
+  },
+  "msg": "成功",
+  "success": true
+}

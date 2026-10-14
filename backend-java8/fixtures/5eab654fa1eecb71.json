@@ -1,0 +1,440 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064641249312",
+    "scenicName": "安康博物馆",
+    "tag": "夜宿安康观汉水，日行汉滨看文物",
+    "level": -1,
+    "cityId": "1320664694422548481",
+    "cityName": "安康",
+    "address": "安康市汉滨区江北黄沟鲁家粱梁头",
+    "longitude": "109.007376",
+    "latitude": "32.686582",
+    "openingStatus": 1,
+    "capacity": 150,
+    "sequence": 145,
+    "topColour": "#A1ADB7",
+    "centralColour": "#868C9D",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021083112072799719.png"
+    ],
+    "introduction": "<p>　　安康博物馆位于汉滨区江北黄沟路，前身为安康历史博物馆，成立于1984年，2014年迁入现址，是安康市唯一的一座综合性博物馆，现有馆藏藏品4000余件。博物馆占地总面积43亩，其中建筑面积14825平方米，展陈面积6000余平方米。由中国建筑大师西北建筑设计研究院张锦秋院士领衔的华夏所设计，建筑主体三层，局部六层，体现了\"高台临江、四面通透、秦地楚风\"风格特点，是安康中心城市一江两岸风景线上重要景观建筑。安康博物馆陈列展览由\"三主两辅\"组成，即:\"天赋安康\"、\"脉源安康\"、\"筑梦安康\"三个基本陈列和\"安康三线建设历程展\"和\"馆藏书画精品展\"两个专题展，系统地展示了安康\"特色资源、人文历史、重大事件、辉煌成就、未来规划\"，勾勒出安康过去、现在和未来，真正发挥\"安康文化祠堂\"和\"安康会客厅\"的功用。项目自2012年12月5日奠基，2013年3月开工建设，历经三年建设完成。</p>",
+    "introductionText": "　　安康博物馆位于汉滨区江北黄沟路，前身为安康历史博物馆，成立于1984年，2014年迁入现址，是安康市唯一的一座综合性博物馆，现有馆藏藏品4000余件。博物馆占地总面积43亩，其中建筑面积14825平方米，展陈面积6000余平方米。由中国建筑大师西北建筑设计研究院张锦秋院士领衔的华夏所设计，建筑主体三层，局部六层，体现了\"高台临江、四面通透、秦地楚风\"风格特点，是安康中心城市一江两岸风景线上重要景观建筑。安康博物馆陈列展览由\"三主两辅\"组成，即:\"天赋安康\"、\"脉源安康\"、\"筑梦安康\"三个基本陈列和\"安康三线建设历程展\"和\"馆藏书画精品展\"两个专题展，系统地展示了安康\"特色资源、人文历史、重大事件、辉煌成就、未来规划\"，勾勒出安康过去、现在和未来，真正发挥\"安康文化祠堂\"和\"安康会客厅\"的功用。项目自2012年12月5日奠基，2013年3月开工建设，历经三年建设完成。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026524680194",
+        "contentId": "1418152026516291586",
+        "name": "国家二级博物馆",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "<p>1.团体参观需提前2天预约，每天预约人数不超过150人。</p>\n<p>2.残疾人、60岁以上老年人、现役军人、&ldquo;见义勇为&rdquo;人员等持有效证件可优先领票参观。</p>\n<p>3.酗酒者、衣冠不整者谢绝入馆，严禁携带宠物入馆。携带危险管制物品者禁止入馆。</p>\n<p>4.进馆参观实行免费存包制度，贵重物品请自行妥善保管。</p>\n<p>5.需要使用轮椅、婴儿车的观众可在服务台登记免费借用，参观结束时请自觉归还。</p>\n<p>6.参观车辆在停车场指定位置有序停放，请勿乱停乱放堵塞交通。</p>\n<p>7.展厅内禁止使用闪光灯拍照、饮食、喧哗、嬉闹;请勿从事与参观无关的其它事情；请自觉遵守参观秩序，维护环境卫生，请勿随地吐痰、吸烟和随手乱扔废弃物等不文明行为。</p>\n<p>8.爱护并正确使用公共设施，请勿触摸文物及展品。</p>\n<p>9.如遇各类突发事件，请服从工作人员安排指挥。</p>",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全年",
+        "openTimeContent": "周二至周日<br/>9：00—17：00（16:30停止入馆）"
+      },
+      {
+        "openTimeTitle": "全年",
+        "openTimeContent": "周一闭馆（节假日除外）"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "全员",
+        "limit": "无",
+        "discount": "免费"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "9",
+        "name": "轮椅租赁",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (16).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "60",
+        "name": "行李寄存",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016430812186.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "6",
+        "name": "免费wifi",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (11).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "8",
+        "name": "宠物禁止入园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (13).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "停车场",
+        "additionalExplainContent": "2小时以内免费，超过2小时每小时收费2元"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>18路-城投西津城站</p>\n<p>步行601米到达</p>\n<p>7路-博物馆站</p>\n<p>步行233米到达</p>\n<p>9路-博物馆站</p>\n<p>步行233米到达</p>\n<p>13路-城投西津城站</p>\n<p>步行601米到达</p>\n<p>11路-城投西津城站</p>\n<p>步行600米到达</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<p>安康博物馆位于汉滨区江北三桥头，距市中心、安康高客站、火车站仅十余分钟车程。</p>"
+      }
+    ],
+    "officialWebsite": [
+      "http://www.akbwg.cn/service.php"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0915-3287945"
+      },
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0915-3288031"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "服务号",
+        "wxSubscriptionName": "安康博物馆",
+        "wxSubscription": "AnkangMuseum"
+      }
+    ],
+    "sinaWeiboVoList": [
+      {
+        "sinaWeibo": "-安康博物馆",
+        "sinaWeiboUrl": "https://weibo.com/u/3756050991"
+      }
+    ],
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": "藏品集萃",
+    "contentResourcesDtoList": [
+      {
+        "id": "1518161781585915906",
+        "resourcesId": "1322080707093487617",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021083114230665464.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2022-04-24 17:35:49",
+        "updateTime": "2022-04-24 17:35:49",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518161781590110209",
+        "resourcesId": "1322080707093487617",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021083114232427564.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2022-04-24 17:35:49",
+        "updateTime": "2022-04-24 17:35:49",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518161781590110210",
+        "resourcesId": "1322080707093487617",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021083114233516994.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2022-04-24 17:35:49",
+        "updateTime": "2022-04-24 17:35:49",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518161781590110211",
+        "resourcesId": "1322080707093487617",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021083114235158255.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2022-04-24 17:35:49",
+        "updateTime": "2022-04-24 17:35:49",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518161781594304513",
+        "resourcesId": "1322080707093487617",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021083114245374506.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2022-04-24 17:35:49",
+        "updateTime": "2022-04-24 17:35:49",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518161781594304514",
+        "resourcesId": "1322080707093487617",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021083114240333330.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2022-04-24 17:35:49",
+        "updateTime": "2022-04-24 17:35:49",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518161781598498818",
+        "resourcesId": "1322080707093487617",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021083114241400703.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2022-04-24 17:35:49",
+        "updateTime": "2022-04-24 17:35:49",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518161781598498819",
+        "resourcesId": "1322080707093487617",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021083114244215573.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2022-04-24 17:35:49",
+        "updateTime": "2022-04-24 17:35:49",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1439119981701840898",
+      "rankingId": null,
+      "indexInRanking": 33,
+      "rankingName": "陕西人气博物馆排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1658303499793903618",
+        "rankingId": "1658303501412904962",
+        "indexInRanking": null,
+        "rankingName": "历史文化类博物馆人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1680835374538088449",
+        "rankingId": "1680835375632801794",
+        "indexInRanking": null,
+        "rankingName": "陕西省热搜50强博物馆排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1455799129627271170",
+        "rankingId": "1455799130713595906",
+        "indexInRanking": null,
+        "rankingName": "安康必逛景点人气排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "1518161781606887426",
+        "scenicSpotId": "1320579064641249312",
+        "contentModuleName": "藏品集萃",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1432599567328718849",
+            "type": 5,
+            "title": "史密簋",
+            "subtitle": "一次战争的见证者",
+            "coverImage": "https://eshopfile.zhiyousx.com/163039301747686966.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1432621090953342977",
+            "type": 5,
+            "title": "新罗寺铁钟",
+            "subtitle": "独来人不问，行听暮钟归",
+            "coverImage": "https://eshopfile.zhiyousx.com/163039743809259996.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": null,
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "scenicInfoTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": 0,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": null,
+    "hotelArrivalDepartureTime": null,
+    "hotelChildrenBed": null,
+    "hotelPet": null,
+    "hotelBreakfast": null,
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

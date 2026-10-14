@@ -2,7 +2,7 @@
     <view class="head-box data-v-4b836498">
         <scroll-view class="tab-box data-v-4b836498" scrollLeft="{{scrollToLeft}}" scrollWithAnimation="true" scrollX="{{true}}" throttle="{{false}}">
             <view class="scroll-box data-v-4b836498">
-                <view bindtap="__e" class="{{['item','data-v-4b836498',index==currentTab?'act':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'tabClick',[index] ] ] ] ]}}" id="{{'tab'+index}}" wx:for="{{equityCardList}}" wx:key="index">{{''+item.name+''}}<image mode class="active-img data-v-4b836498" src="https://eshopfile.zhiyousx.com/2022122010132798008.png" wx:if="{{index==currentTab}}"></image>
+                <view bindtap="__e" class="{{['item','data-v-4b836498',index==currentTab?'act':'']}}" data-event-opts="{{[ [ 'tap',[ [ 'tabClick',[index] ] ] ] ]}}" id="{{'tab'+index}}" wx:for="{{equityCardList}}" wx:key="index">{{''+item.name+''}}<image mode class="active-img data-v-4b836498" src="/static/captured/4ef2e432e5791865.png" wx:if="{{index==currentTab}}"></image>
                 </view>
             </view>
         </scroll-view>
@@ -29,9 +29,9 @@
     </view>
     <view class="equity-box data-v-4b836498">
         <view class="tbox data-v-4b836498">
-            <image mode class="icon data-v-4b836498" src="https://eshopfile.zhiyousx.com/2022122014544389817.png"></image>
+            <image mode class="icon data-v-4b836498" src="/static/captured/513e128cbf11abc0.png"></image>
             <view class="t data-v-4b836498">甄选权益</view>
-            <image mode class="icon i2 data-v-4b836498" src="https://eshopfile.zhiyousx.com/2022122014544389817.png"></image>
+            <image mode class="icon i2 data-v-4b836498" src="/static/captured/513e128cbf11abc0.png"></image>
         </view>
         <view class="bbox data-v-4b836498">
             <view bindtap="__e" class="item data-v-4b836498" data-event-opts="{{[ [ 'tap',[ [ 'toEqdetail',['$0'],[ [ ['showCardInfo.detailList','',index] ] ] ] ] ] ]}}" wx:for="{{showCardInfo.detailList}}" wx:key="index">
@@ -53,11 +53,11 @@
     <view class="card-info data-v-4b836498">
         <view bindtap="__e" class="c-it ct1 data-v-4b836498" data-event-opts="{{[ [ 'tap',[ [ 'toAgreenment',['$0'],['showCardInfo.equityCardId'] ] ] ] ]}}">
             <view class="t data-v-4b836498">购买须知</view>
-            <image mode class="data-v-4b836498" src="https://eshopfile.zhiyousx.com/2022122015483147026.png"></image>
+            <image mode class="data-v-4b836498" src="/static/captured/1ff0a1a0a82b630b.png"></image>
         </view>
         <view bindtap="__e" class="c-it ct2 data-v-4b836498" data-event-opts="{{[ [ 'tap',[ [ 'myEquityCard',['$event'] ] ] ] ]}}">
             <view class="t data-v-4b836498">我的卡包</view>
-            <image mode class="data-v-4b836498" src="https://eshopfile.zhiyousx.com/2022122015481627503.png"></image>
+            <image mode class="data-v-4b836498" src="/static/captured/4a762585f08556f5.png"></image>
         </view>
     </view>
     <view class="countDown data-v-4b836498" wx:if="{{showTimeCount}}">距结束<text class="data-v-4b836498">{{days+'天 '+$root.f0+':'+$root.f1+':'+$root.f2}}</text>
@@ -80,7 +80,7 @@
     <u-popup bind:__l="__l" bind:input="__e" borderRadius="20" class="data-v-4b836498" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','savePop','$event',[] ] ] ] ] ]}}" mode="center" value="{{savePop}}" vueId="7007b680-2" vueSlots="{{['default']}}">
         <view class="save-box data-v-4b836498">
             <view bindtap="__e" class="btn-close data-v-4b836498" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}"></view>
-            <image mode bindtap="__e" class="close-btn data-v-4b836498" data-event-opts="{{[ [ 'tap',[ [ 'e1',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/2022122109502468658.png"></image>
+            <image mode bindtap="__e" class="close-btn data-v-4b836498" data-event-opts="{{[ [ 'tap',[ [ 'e1',['$event'] ] ] ] ]}}" src="/static/captured/99126c2291cfeca4.png"></image>
             <view class="top-bg data-v-4b836498">
                 <view class="tb1 data-v-4b836498">{{'购买1张'+showCardInfo.name}}<text class="data-v-4b836498">预计可省</text>
                 </view>

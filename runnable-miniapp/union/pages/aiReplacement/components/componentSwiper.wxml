@@ -3,7 +3,7 @@
         <view bindtap="__e" class="swiperItem" data-event-opts="{{[ [ 'tap',[ [ 'routerTo',['$event'] ] ] ] ]}}" style="{{'transform:'+itemStyle[index].transform+';'+'z-index:'+itemStyle[index].zIndex+';'+'opacity:'+itemStyle[index].opacity+';'}}" wx:for="{{swiperList}}" wx:key="index">
             <view catchtap="__e" class="children" data-event-opts="{{[ [ 'tap',[ ['clickPrevent'] ] ] ]}}" style="{{'width:'+childrenWidth+';'}}">
                 <image class="pic" src="{{item.url}}"></image>
-                <image class="selected" src="https://eshopfile.zhiyousx.com/173751694232641233.png" wx:if="{{index===currentIndex}}"></image>
+                <image class="selected" src="/static/captured/30f000176f6bff67.png" wx:if="{{index===currentIndex}}"></image>
             </view>
         </view>
     </view>

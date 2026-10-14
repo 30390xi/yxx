@@ -2,7 +2,7 @@
     <uni-navbar bind:__l="__l" class="data-v-e37b2420" type="transparentFixed" vueId="8480a138-1"></uni-navbar>
     <view class="top-gradient-mask data-v-e37b2420"></view>
     <view bindtap="__e" class="topBtn data-v-e37b2420" data-event-opts="{{[ [ 'tap',[ [ 'scrollToTop',['$event'] ] ] ] ]}}">
-        <image class="data-v-e37b2420" mode="aspectFit" src="https://eshopfile.zhiyousx.com/176716139551045208.png"></image>
+        <image class="data-v-e37b2420" mode="aspectFit" src="/static/captured/bc1f7c1c8c817260.png"></image>
     </view>
     <z-paging auto="{{false}}" bind:__l="__l" bind:input="__e" bottomBgColor="#00000000" class="data-v-e37b2420 vue-ref" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','dataList','$event',[] ] ] ] ] ]}}" data-ref="paging" lowerThreshold="{{50}}" safeAreaInsetBottom="isIos" scrollable="{{true}}" style="position:fixed;z-index:11;" useChatRecordMode="{{true}}" value="{{dataList}}" vueId="8480a138-2" vueSlots="{{['default','bottom']}}" wx:if="{{!isHide}}">
         <chat-input-bar bg="{{true}}" bind:__l="__l" bind:clearData="__e" bind:clearDataStop="__e" bind:resetTravel="__e" bind:send="__e" bind:showToastPop="__e" bind:stopSpeak="__e" class="chat-input-bar data-v-e37b2420 vue-ref" data-event-opts="{{[ [ '^stopSpeak',[ ['stopSpeak'] ] ],[ '^showToastPop',[ ['showToastPop'] ] ],[ '^resetTravel',[ ['resetTravel'] ] ],[ '^clearData',[ ['clearData'] ] ],[ '^clearDataStop',[ ['clearDataStop'] ] ],[ '^send',[ ['doSend'] ] ] ]}}" data-ref="inputBar" definedQuestion="{{bottomQuestion}}" detail="{{spotDetail}}" isIos="{{isIos}}" lang="{{lang}}" pushingProgress="{{pushingProgress}}" pushingProgressShow="{{pushingProgressShow}}" slot="bottom" spot="tang" vueId="{{'8480a138-3'+','+'8480a138-2'}}"></chat-input-bar>
@@ -18,7 +18,7 @@
                     <view class="speakPop data-v-e37b2420">
                         <view class="title data-v-e37b2420">
                             <text class="data-v-e37b2420">{{lang==='zh'?'哈喽~':'Hello~'}}</text>
-                            <image class="data-v-e37b2420" mode="aspectFit" src="https://eshopfile.zhiyousx.com/176820212671250599.png"></image>
+                            <image class="data-v-e37b2420" mode="aspectFit" src="/static/captured/d86ba815506f1cd2.png"></image>
                         </view>
                         <view class="content data-v-e37b2420">{{''+(lang==='zh'?'我是你的专属芙蓉园灯会智能客服导览助手!':'I am your exclusive Furong Garden Lantern Festival smart customer service guide assistant')+''}}</view>
                     </view>
@@ -29,7 +29,7 @@
             </view>
             <view class="defined-question data-v-e37b2420" wx:if="{{$root.g0}}">
                 <view class="question-title data-v-e37b2420" wx:if="{{$root.g1}}">
-                    <image class="data-v-e37b2420" mode="aspectFill" src="https://eshopfile.zhiyousx.com/176845755256412891.png"></image>
+                    <image class="data-v-e37b2420" mode="aspectFill" src="/static/captured/9a555d3c7cdf7938.png"></image>
                     <text class="data-v-e37b2420">{{lang==='zh'?'猜你想问':'You might want to ask'}}</text>
                 </view>
                 <swiper autoplay="{{true}}" bindchange="__e" circular="{{true}}" class="question-swiper data-v-e37b2420" data-event-opts="{{[ [ 'change',[ [ 'questionChange',['$event'] ] ] ] ]}}" disableTouch="{{true}}" displayMultipleItems="{{1}}" duration="{{800}}" interval="{{4000}}" vertical="{{true}}">
@@ -37,7 +37,7 @@
                         <view class="question-slide data-v-e37b2420">
                             <view bindtap="__e" class="question-item data-v-e37b2420" data-event-opts="{{[ [ 'tap',[ [ 'askAgain',['$0'],[ [ ['questionSlides','',sidx],['','id',item.id,'description'] ] ] ] ] ] ]}}" wx:for="{{slide}}" wx:for-index="__i1__" wx:key="id">
                                 <text class="question-text data-v-e37b2420">{{item.description}}</text>
-                                <image class="data-v-e37b2420" mode="aspectFill" src="https://eshopfile.zhiyousx.com/176714582692142151.png" style="width:14px;height:14px;border-radius:20rpx;"></image>
+                                <image class="data-v-e37b2420" mode="aspectFill" src="/static/captured/82c9463b9ebdd536.png" style="width:14px;height:14px;border-radius:20rpx;"></image>
                             </view>
                         </view>
                     </swiper-item>
@@ -48,9 +48,9 @@
     </z-paging>
     <view bindtap="__e" class="notice-detail-popup data-v-e37b2420" data-event-opts="{{[ [ 'tap',[ [ 'closeNoticeDetail',['$event'] ] ] ] ]}}" wx:if="{{showNoticeDetailPopup}}">
         <view catchtap="__e" class="popup-content data-v-e37b2420" data-event-opts="{{[ [ 'tap',[ [ '',['$event'] ] ] ] ]}}">
-            <image class="popup-img data-v-e37b2420" src="https://eshopfile.zhiyousx.com/176766627375473751.png"></image>
+            <image class="popup-img data-v-e37b2420" src="/static/captured/7ab6aa12d3534ebe.png"></image>
             <view bindtap="__e" class="close-btn data-v-e37b2420" data-event-opts="{{[ [ 'tap',[ [ 'closeNoticeDetail',['$event'] ] ] ] ]}}">
-                <image class="data-v-e37b2420" mode="aspectFill" src="https://eshopfile.zhiyousx.com/176766604288459703.png" style="width:32rpx;height:32rpx;"></image>
+                <image class="data-v-e37b2420" mode="aspectFill" src="/static/captured/07b3f9526c5cb77e.png" style="width:32rpx;height:32rpx;"></image>
             </view>
             <view class="popup-title data-v-e37b2420">{{currentNotice?currentNotice.title:''}}</view>
             <view class="popup-body data-v-e37b2420">

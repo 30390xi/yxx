@@ -1,0 +1,359 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941061",
+    "scenicName": "王家坪革命旧址",
+    "tag": "在这举行了庆祝抗日战争胜利大会",
+    "level": 3,
+    "cityId": "1320663521644818433",
+    "cityName": "延安",
+    "address": "延安市宝塔区王家坪路",
+    "longitude": "109.4871560000",
+    "latitude": "36.6141410000",
+    "openingStatus": 1,
+    "capacity": 999,
+    "sequence": 149,
+    "topColour": "#E3D7C2",
+    "centralColour": "#8E6F46",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021062815580342579.jpg"
+    ],
+    "introduction": "<p><span style=\"color: #2c1d0e; font-family: 宋体; text-indent: 28px; background-color: #ffffff;\">　　王家坪革命旧址位于延安城北，隔延河与城相望，是中央军委和八路军总部1937年1月至1947年3月的所在地。旧址分为南北两院，南院是政治部，北院是司令部。南院有毛泽东、周恩来、王稼祥等中央领导的旧居，院子中央是中央军委礼堂，礼堂修建于1943年。1947年3月18日下午，毛泽东、和周恩来就是从这里撤离延安，踏上转战陕北的征途的。北院分为前院和后院。前院有军委会议室和彭德怀旧居，后院有朱德、叶剑英旧居及军委参谋部和后勤部旧址。</span></p>",
+    "introductionText": "　　王家坪革命旧址位于延安城北，隔延河与城相望，是中央军委和八路军总部1937年1月至1947年3月的所在地。旧址分为南北两院，南院是政治部，北院是司令部。南院有毛泽东、周恩来、王稼祥等中央领导的旧居，院子中央是中央军委礼堂，礼堂修建于1943年。1947年3月18日下午，毛泽东、和周恩来就是从这里撤离延安，踏上转战陕北的征途的。北院分为前院和后院。前院有军委会议室和彭德怀旧居，后院有朱德、叶剑英旧居及军委参谋部和后勤部旧址。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "18",
+        "name": "红色旅游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026361102337",
+        "contentId": "1418152026344325122",
+        "name": "全国红色旅游经典景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026461765634",
+        "contentId": "1418152026449182722",
+        "name": "全国爱国主义教育示范基地",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "<p>免费开放</p>",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "开放时间",
+        "openTimeContent": "8：00-18：00"
+      }
+    ],
+    "discountVoList": null,
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "61",
+        "name": "讲解员",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016440410223.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": null,
+        "additionalExplainContent": "30人以下 80元， 多一个人加5元。"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>1、乘坐K13路到王家坪旧址站下车，步行324米到达。</p>\n<p>2、乘坐教育专线到延安革命纪念馆站下车，步行610米到达。</p>\n<p>3、乘坐602路到延安中学站下车，步行825米到达。</p>\n<p>4、乘坐8路到王家坪旧址站下车，步行317米到达。</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "联系电话",
+        "telephone": "0911-2338592"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "延安王家坪革命旧址",
+        "wxSubscription": "yawangjiaping123"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "1518161895578710017",
+        "outId": "1320579064720941061",
+        "type": 1,
+        "advertName": "王家坪革命旧址",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021063014070284678.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p style=\"text-align: center;\"><strong>​​征集公告</strong></p>\n<p>　　王家坪，一个陕北普普通通的小山村，却有一个在中国革命史上辉煌的名字。从1937年到1947年，这里是中央军委和八路军总部的所在地，中国人民革命军事斗争的指导中心和总后方。一道道电波把作战命令从这里传向前方，一份份捷报把胜利的喜讯从这里传遍世界，平型关大捷、百团大战、日本帝国主义投降等等，有了这一切，中国革命不断从胜利走向胜利，最后赢得了一个崭新的新中国。</p>\n<p><img class=\"wscnph\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://eshopfile.zhiyousx.com/2021062816382507393.jpg\" /></p>\n<p><strong>征集目的</strong></p>\n<p>　　为了更深挖掘王家坪革命旧址故事，宣传红色基因，延安王家坪革命旧址管理处现诚向社会各界公开征集相关历史文物资料，希望各界人士不吝将珍藏的文物资料捐与延安王家坪革命旧址管理处收藏，或提供有关信息。</p>\n<p><img class=\"wscnph\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://eshopfile.zhiyousx.com/2021062816383696615.jpg\" /></p>\n<p>　　在此，我单位承诺：定将文物妥善保管，发挥其价值。</p>\n<p><strong>征集范围</strong></p>\n<p>1、延安时期，中共中央军委和八路军总司令部使用过的物品或与之相关的其他珍贵藏品（包括照片等资料 。</p>\n<p>2、中共中央军委和八路军总司令部军官和战士使用过的珍贵藏品资料。</p>\n<p>3、延安时期华侨联合会相关人员的相关藏品（包括照片、影像等资料）。</p>\n<p>征集方式</p>\n<p>（一）无偿捐赠。对无偿捐赠的文物，经专家鉴定，符合馆藏标准的，作入馆登记并颁发捐赠证书，在陈列时标注捐赠者姓名和捐赠时间。</p>\n<p>（二）收购。对文物所有者愿意出售的具有馆藏价值的文物或资料，经专家鉴定后，以合理价格购买。</p>\n<p>（三）借用与代管。文物所有者自愿将收藏的文物借于旧址展出或交由旧址保管的，根据专家鉴定后，签订借用、代管协议，由旧址进行科学保护、安全保管。</p>\n<p>（四）移交。相关单位认为继续保管确有困难，或移交后能更好地保护和利用的文物、史料，可移交王家坪革命旧址收藏保管。</p>\n<p><strong>征集时间</strong></p>\n<p>　　自公布之日起，长期有效。</p>\n<p><strong>联系方式</strong></p>\n<p>　　联系人：侯媛媛 0911-2338592（办） 15891314111</p>\n<p>　　联系单位：延安王家坪革命旧址管理处</p>\n<p><img class=\"wscnph\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://eshopfile.zhiyousx.com/2021062816385064883.jpg\" /></p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\">来源：网络综合整理</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": "主要看点",
+    "contentResourcesDtoList": [
+      {
+        "id": "1518161895557738498",
+        "resourcesId": "1323112074296188930",
+        "title": "王家坪宣传片",
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062911114621822.mp4",
+        "coverImage": "https://eshopfile.zhiyousx.com/2021062911112853503.jpg",
+        "videoId": "1409712256115118081",
+        "resourcesType": 2,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2022-04-24 17:36:16",
+        "updateTime": "2022-04-24 17:36:16",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518161895561932802",
+        "resourcesId": "1323112074296188930",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/f5ed914e-0aa9-4762-80e6-bf696904ada3-20201102115744.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2022-04-24 17:36:16",
+        "updateTime": "2022-04-24 17:36:16",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518161895561932803",
+        "resourcesId": "1323112074296188930",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/0aa9bd93-c3e2-4a43-b8d9-a42c414a46d4-20201102115752.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2022-04-24 17:36:16",
+        "updateTime": "2022-04-24 17:36:16",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518161895566127106",
+        "resourcesId": "1323112074296188930",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062818133557321.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2022-04-24 17:36:16",
+        "updateTime": "2022-04-24 17:36:16",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518161895566127107",
+        "resourcesId": "1323112074296188930",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062818164461008.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2022-04-24 17:36:16",
+        "updateTime": "2022-04-24 17:36:16",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455724365810343938",
+      "rankingId": null,
+      "indexInRanking": 12,
+      "rankingName": "延安必逛景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": [
+      {
+        "id": "1518161895570321409",
+        "scenicSpotId": "1320579064720941061",
+        "contentModuleName": "主要看点",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1409434967787802625",
+            "type": 5,
+            "title": "军委礼堂",
+            "subtitle": "世界上真正的英雄，是广大的劳动人民。",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062816470253519.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1409448384342888449",
+            "type": 5,
+            "title": "总政治部会议室",
+            "subtitle": "作战不在于一城一地之得失，主要是歼灭敌人有生力量",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062817213284637.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1409708175770357761",
+            "type": 5,
+            "title": "革命家旧居",
+            "subtitle": "在这里领导了抗日战争、整风运动和大生产运动。",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062910290119832.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": null,
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "scenicInfoTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": 0,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": null,
+    "hotelArrivalDepartureTime": null,
+    "hotelChildrenBed": null,
+    "hotelPet": null,
+    "hotelBreakfast": null,
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

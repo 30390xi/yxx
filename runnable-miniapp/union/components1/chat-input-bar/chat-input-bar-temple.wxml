@@ -3,33 +3,33 @@
         <scroll-view class="chat-select-scroll data-v-3281df97" scrollX="{{true}}" scrollY="{{false}}">
             <view bindtap="__e" class="chat-select-item data-v-3281df97" data-event-opts="{{[ [ 'tap',[ [ 'goSpotDetail',['$event'] ] ] ] ]}}">
                 <view class="chat-select-item-content data-v-3281df97">
-                    <image class="data-v-3281df97" src="https://eshopfile.zhiyousx.com/176049513819904403.png"></image>预约入寺</view>
+                    <image class="data-v-3281df97" src="/static/captured/85486f6b379ba34f.png"></image>预约入寺</view>
             </view>
             <view bindtap="__e" class="chat-select-item data-v-3281df97" data-event-opts="{{[ [ 'tap',[ [ 'gotoVolunteer',['$event'] ] ] ] ]}}">
                 <view class="chat-select-item-content data-v-3281df97">
-                    <image class="data-v-3281df97" src="https://eshopfile.zhiyousx.com/176049511861635812.png"></image>义工报名</view>
+                    <image class="data-v-3281df97" src="/static/captured/3ec63e6835a10e69.png"></image>义工报名</view>
             </view>
             <view bindtap="__e" class="chat-select-item data-v-3281df97" data-event-opts="{{[ [ 'tap',[ [ 'goStrategyGuide',['$event'] ] ] ] ]}}">
                 <view class="chat-select-item-content data-v-3281df97">
-                    <image class="data-v-3281df97" src="https://eshopfile.zhiyousx.com/176049515587615270.png"></image>智能导览</view>
+                    <image class="data-v-3281df97" src="/static/captured/f8e619ecf5074fd0.png"></image>智能导览</view>
             </view>
         </scroll-view>
     </view>
     <view class="chat-input-bar data-v-3281df97">
         <view class="Hold_Talk data-v-3281df97" wx:if="{{showSpeakBtn==2}}">
-            <image bindtap="__e" class="icon_keyboard data-v-3281df97" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/176049710754493964.png"></image>
+            <image bindtap="__e" class="icon_keyboard data-v-3281df97" data-event-opts="{{[ [ 'tap',[ [ 'e0',['$event'] ] ] ] ]}}" lazyLoad="false" mode="aspectFill" src="/static/captured/982c253d792fc5fd.png"></image>
             <view bindtouchend="__e" bindtouchstart="__e" class="speakBtn data-v-3281df97" data-event-opts="{{[ [ 'touchstart',[ [ 'keystart',['$event'] ] ] ],[ 'touchend',[ [ 'stopVoice',['$event'] ] ] ] ]}}">按住说话</view>
         </view>
         <view class="Hold_Talk_f data-v-3281df97" wx:if="{{showSpeakBtn==3}}">
-            <image class="icon_keyboard data-v-3281df97" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173397098176315734.png"></image>
+            <image class="icon_keyboard data-v-3281df97" lazyLoad="false" mode="aspectFill" src="/static/captured/924c724b8c7d0757.png"></image>
         </view>
         <view class="chat-input-container data-v-3281df97" wx:if="{{showSpeakBtn==1}}">
-            <image bindtap="__e" class="icon data-v-3281df97" data-event-opts="{{[ [ 'tap',[ [ 'getSpeak',['$event'] ] ] ] ]}}" mode="aspectFill" src="https://eshopfile.zhiyousx.com/176049607236108257.png"></image>
+            <image bindtap="__e" class="icon data-v-3281df97" data-event-opts="{{[ [ 'tap',[ [ 'getSpeak',['$event'] ] ] ] ]}}" mode="aspectFill" src="/static/captured/56bbe2cf9c63e236.png"></image>
             <input adjustPosition="{{false}}" bindconfirm="__e" bindinput="__e" class="chat-input data-v-3281df97" confirmType="send" cursorSpacing="{{50}}" data-event-opts="{{[ [ 'confirm',[ [ 'sendClick',['$event'] ] ] ],[ 'input',[ [ '__set_model',[ '','msg','$event',[] ] ] ] ] ]}}" focus="{{focus}}" placeholder="发送问题" placeholderClass="title_input" type="text" value="{{msg}}"></input>
         </view>
         <view class="right-btn data-v-3281df97">
-            <image bindtap="__e" class="chat-input-send1 data-v-3281df97" data-event-opts="{{[ [ 'tap',[ [ 'sendClick',['$event'] ] ] ] ]}}" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/176049719905749886.png" wx:if="{{showSpeakBtn==1&&pushingProgress}}"></image>
-            <image bindtap="__e" class="chat-input-send data-v-3281df97" data-event-opts="{{[ [ 'tap',[ [ 'setcolse',['$event'] ] ] ] ]}}" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/176049639423192276.png" wx:if="{{!showHide&&(showSpeakBtn==1||showSpeakBtn==2||showSpeakBtn==3)&&delayBtn}}"></image>
+            <image bindtap="__e" class="chat-input-send1 data-v-3281df97" data-event-opts="{{[ [ 'tap',[ [ 'sendClick',['$event'] ] ] ] ]}}" lazyLoad="false" mode="aspectFill" src="/static/captured/afca73b3634bf04f.png" wx:if="{{showSpeakBtn==1&&pushingProgress}}"></image>
+            <image bindtap="__e" class="chat-input-send data-v-3281df97" data-event-opts="{{[ [ 'tap',[ [ 'setcolse',['$event'] ] ] ] ]}}" lazyLoad="false" mode="aspectFill" src="/static/captured/f9c05e9389524397.png" wx:if="{{!showHide&&(showSpeakBtn==1||showSpeakBtn==2||showSpeakBtn==3)&&delayBtn}}"></image>
         </view>
     </view>
     <view class="prompt data-v-3281df97">内容由AI生成，无法确保真实准确，仅供参考</view>
@@ -43,7 +43,7 @@
         </view>
     </view>
     <view bindtap="__e" class="stopBtn data-v-3281df97" data-event-opts="{{[ [ 'tap',[ [ 'stopSpeak',['$event'] ] ] ] ]}}" wx:if="{{!pushingProgressShow}}">
-        <image class="icon data-v-3281df97" lazyLoad="false" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173406333510840071.png"></image>停止回答</view>
+        <image class="icon data-v-3281df97" lazyLoad="false" mode="aspectFill" src="/static/captured/3813262be30d34c4.png"></image>停止回答</view>
     <u-popup bind:__l="__l" bind:input="__e" borderRadius="40" class="popup-code data-v-3281df97" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','show','$event',[] ] ] ] ] ]}}" height="600rpx" mode="bottom" value="{{show}}" vueId="518f124e-1" vueSlots="{{['default']}}">
         <view class="data-v-3281df97" style="text-align:center;display:flex;align-items:center;justify-content:center;height:100%;">
             <image bindlongpress="__e" class="data-v-3281df97" data-event-opts="{{[ [ 'longpress',[ [ 'onLongPress',['$event'] ] ] ] ]}}" lazyLoad="false" showMenuByLongpress="{{true}}" src="{{officialAccount}}" style="width:400rpx;height:458rpx;"></image>

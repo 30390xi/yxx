@@ -2,7 +2,7 @@
     <view class="step-box data-v-6709bfc6">
         <view class="photo-count data-v-6709bfc6">
             <view class="photo-title data-v-6709bfc6">
-                <image alt class="data-v-6709bfc6" mode="widthFix" src="https://eshopfile.zhiyousx.com/174530901418030873.png?imageView2/3/w/300"></image>
+                <image alt class="data-v-6709bfc6" mode="widthFix" src="/static/captured/518c7737ea4e5f44.png?imageView2/3/w/300"></image>
             </view>
             <view class="photo-table data-v-6709bfc6 vue-ref" data-ref="photoTable">
                 <view class="photo-table-content data-v-6709bfc6">
@@ -18,8 +18,8 @@
             <view class="msg data-v-6709bfc6" wx:if="{{minutes==0&&videoStatue!==3&&videoStatue!==0}}">我们正在精心生成您的视频，视频即将生成完成，喝杯茶休息一下，马上就好!</view>
             <view class="msg data-v-6709bfc6" wx:if="{{videoStatue===3}}">视频生成成功，请点击查看</view>
             <view class="btn data-v-6709bfc6">
-                <image alt bindtap="__e" class="subscribe-btn data-v-6709bfc6" data-event-opts="{{[ [ 'tap',[ [ 'requestSubscribe',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/174909293434772225.png" wx:if="{{!isSubscribeMessage&&videoStatue!==3&&videoStatue!==0}}"></image>
-                <image alt bindtap="__e" class="history data-v-6709bfc6" data-event-opts="{{[ [ 'tap',[ [ 'goHistory',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/174909283387148487.png" wx:if="{{options.source!=3}}"></image>
+                <image alt bindtap="__e" class="subscribe-btn data-v-6709bfc6" data-event-opts="{{[ [ 'tap',[ [ 'requestSubscribe',['$event'] ] ] ] ]}}" src="/static/captured/c6a9afb2d349512a.png" wx:if="{{!isSubscribeMessage&&videoStatue!==3&&videoStatue!==0}}"></image>
+                <image alt bindtap="__e" class="history data-v-6709bfc6" data-event-opts="{{[ [ 'tap',[ [ 'goHistory',['$event'] ] ] ] ]}}" src="/static/captured/615bd1e4404c4910.png" wx:if="{{options.source!=3}}"></image>
             </view>
         </view>
     </view>

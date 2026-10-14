@@ -1,0 +1,102 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1443515504743464962",
+    "contentId": "1443515502939914241",
+    "rankingName": "陕西沉浸剧场人气榜",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://res.zhiyousx.com/ysx/pro/2021/09/30/163299581947236151.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": null,
+    "rankingInclude": "个沉浸剧场",
+    "rankingPersonalInfo": "我去过的沉浸剧场",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#621711",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1437326099032866818",
+        "originType": "1",
+        "originName": "簋唐楼沉浸式实景街区",
+        "originSubtitleName": "超大型真人演绎版的线下沙盒RPG游戏",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021091316030039561.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021091315534274988.jpg",
+          "https://eshopfile.zhiyousx.com/2021091315535673599.jpg",
+          "https://eshopfile.zhiyousx.com/2021091315540923224.jpg",
+          "https://eshopfile.zhiyousx.com/2021091315542401988.jpg",
+          "https://eshopfile.zhiyousx.com/2021091315552043097.jpg",
+          "https://eshopfile.zhiyousx.com/2021091315553831026.jpg",
+          "https://eshopfile.zhiyousx.com/2021091315555941699.jpg",
+          "https://eshopfile.zhiyousx.com/2021091315561340953.jpg",
+          "https://eshopfile.zhiyousx.com/2021091315565916792.jpg",
+          "https://eshopfile.zhiyousx.com/2021091315562947626.jpg",
+          "https://eshopfile.zhiyousx.com/2021091315575319914.jpg",
+          "https://eshopfile.zhiyousx.com/2021091315580820138.jpg",
+          "https://eshopfile.zhiyousx.com/2021091315582960642.jpg",
+          "https://eshopfile.zhiyousx.com/2021091315584694728.jpg",
+          "https://eshopfile.zhiyousx.com/2021091315585803943.jpg",
+          "https://eshopfile.zhiyousx.com/2021091315591288626.jpg",
+          "https://eshopfile.zhiyousx.com/2021091315592278689.jpg",
+          "https://eshopfile.zhiyousx.com/2021091315594618846.jpg",
+          "https://eshopfile.zhiyousx.com/2021091315595682324.jpg",
+          "https://eshopfile.zhiyousx.com/2021091316000840673.jpg"
+        ],
+        "sort": "0",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1443509799063961602",
+        "originType": "1",
+        "originName": "风云周原沉浸式实景剧场",
+        "originSubtitleName": "全国首家周文化沉浸式推理游戏剧场",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021093017062554934.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021093017401231824.jpg",
+          "https://eshopfile.zhiyousx.com/2021093017401956160.jpg",
+          "https://eshopfile.zhiyousx.com/2021093017403401440.jpg",
+          "https://eshopfile.zhiyousx.com/2021093017410121303.png"
+        ],
+        "sort": "1",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1443497630884712450",
+        "originType": "1",
+        "originName": "保卫长乐塬",
+        "originSubtitleName": "爱国主义沉浸式剧场",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021093016374844153.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021093016464533733.jpg",
+          "https://eshopfile.zhiyousx.com/2021093016470495832.png",
+          "https://eshopfile.zhiyousx.com/2021093016475969950.jpg"
+        ],
+        "sort": "2",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "3",
+    "favoriteSum": null,
+    "personalInfoValue": "0/3"
+  },
+  "msg": "成功",
+  "success": true
+}

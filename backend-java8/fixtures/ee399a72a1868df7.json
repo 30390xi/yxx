@@ -1,0 +1,75 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1418152026591789057",
+    "contentId": "1418152026583400449",
+    "rankingName": "全国科普教育基地",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/162702367873769358.jpg",
+    "rankingDescribe": "　　由中国科学技术协会在其公布的《2021-2025年全国科普教育基地第一批认定名单》中认定的，用于面向公众普及科学技术知识、倡导科学方法、传播科学思想、弘扬科学精神，开展科普教育活动的科普教育基地。",
+    "rankingTotalUserData": null,
+    "rankingInclude": "个目的地",
+    "rankingPersonalInfo": "我去过的目的地",
+    "rankingSharePictureUrl": "",
+    "bottomColour": "#1257D7",
+    "tagUrl": null,
+    "travelMapFlag": null,
+    "type": "7",
+    "rankingItemList": [
+      {
+        "originId": "1452848901835988994",
+        "originType": "1",
+        "originName": "西北大学博物馆",
+        "originSubtitleName": "名校里的综合型博物馆",
+        "originUrl": "https://eshopfile.zhiyousx.com/2022040816165526117.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/164940568626388493.jpg",
+          "https://eshopfile.zhiyousx.com/164940568632108784.jpg",
+          "https://eshopfile.zhiyousx.com/164940568654829767.jpg",
+          "https://eshopfile.zhiyousx.com/164940568643618367.jpg",
+          "https://eshopfile.zhiyousx.com/164940568649261344.jpg",
+          "https://eshopfile.zhiyousx.com/164939664934373892.jpg",
+          "https://eshopfile.zhiyousx.com/164939664928481736.jpg",
+          "https://eshopfile.zhiyousx.com/164940568624470273.jpg",
+          "https://eshopfile.zhiyousx.com/164940599354820850.jpg",
+          "https://eshopfile.zhiyousx.com/164940620316214123.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1512258357220724737",
+        "originType": "1",
+        "originName": "国际口腔医学博物馆",
+        "originSubtitleName": "专精口腔医学领域的博物馆",
+        "originUrl": "https://eshopfile.zhiyousx.com/2022040810294230328.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/164938540860987262.jpg",
+          "https://eshopfile.zhiyousx.com/164938540851545080.jpg",
+          "https://eshopfile.zhiyousx.com/164938540854798272.jpg",
+          "https://eshopfile.zhiyousx.com/164938540862970900.jpg",
+          "https://eshopfile.zhiyousx.com/164938540869529666.jpg",
+          "https://eshopfile.zhiyousx.com/164938540875615209.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "12",
+    "favoriteSum": null,
+    "personalInfoValue": "0/12"
+  },
+  "msg": "成功",
+  "success": true
+}

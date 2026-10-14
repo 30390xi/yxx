@@ -1,0 +1,589 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1385186838783799298",
+    "scenicName": "照金红色旅游小镇",
+    "tag": "照金精神 砥砺前行",
+    "level": -1,
+    "cityId": "1320650338641162241",
+    "cityName": "铜川",
+    "address": "铜川市耀州区照金镇",
+    "longitude": "108.636383",
+    "latitude": "35.057201",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 65,
+    "topColour": "#C22525",
+    "centralColour": "#85181D",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021061611285030129.jpg"
+    ],
+    "introduction": "<p>　　 &ldquo;照金精神，砥砺前行&rdquo;。 以照金为中心的陕甘边革命根据地是老一辈革命家刘志丹、谢子长、习仲勋等创建的中国北方第一个山区革命根据地，照金由此成为西北革命的摇篮。陕甘边革命根据地是土地革命战争后期全国&ldquo;硕果仅存&rdquo;的红色根据地，是党中央和中央红军长征的&ldquo;落脚点&rdquo;，也是主力红军改编为八路军后奔赴抗日前线的&ldquo;出发点&rdquo;，全国百家红色旅游经典景区之一，全国爱国主义教育示范基地。</p>",
+    "introductionText": "　　 “照金精神，砥砺前行”。 以照金为中心的陕甘边革命根据地是老一辈革命家刘志丹、谢子长、习仲勋等创建的中国北方第一个山区革命根据地，照金由此成为西北革命的摇篮。陕甘边革命根据地是土地革命战争后期全国“硕果仅存”的红色根据地，是党中央和中央红军长征的“落脚点”，也是主力红军改编为八路军后奔赴抗日前线的“出发点”，全国百家红色旅游经典景区之一，全国爱国主义教育示范基地。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "68",
+        "name": "旅游小镇",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "18",
+        "name": "红色旅游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "51",
+        "name": "拓展游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026361102337",
+        "contentId": "1418152026344325122",
+        "name": "全国红色旅游经典景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026461765634",
+        "contentId": "1418152026449182722",
+        "name": "全国爱国主义教育示范基地",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1419544677090156546",
+        "contentId": "1419544677060796418",
+        "name": "陕文投集团景区",
+        "tagUrl": "https://eshopfile.zhiyousx.com/162728079399429661.png"
+      },
+      {
+        "id": "1559361626942615553",
+        "contentId": "1559361626913255425",
+        "name": "铜川红色旅游经典景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全天免费开放",
+        "openTimeContent": "各景点营业时间：08:00-17:00"
+      }
+    ],
+    "discountVoList": null,
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "6",
+        "name": "免费wifi",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (11).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "11",
+        "name": "餐厅",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (22).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "10",
+        "name": "商店",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (19).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "景区内部直通车",
+        "additionalExplainContent": "照金-薛家寨<br/>运营时间：9:00-16:00<br/>双向对开，发车间隔30分钟<br/>照金镇乘车点：游客服务中心<br/>薛家寨乘车点：停车场"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>西安-照金</p>\n<p>1.西安城北客运站&rarr;照金；下午14:30发车<br />2.西安咸阳机场&rarr;西安高铁北站&rarr;照金；乘机场大巴先到城北客运站 下午14:30发车<br />3.西安火车站&rarr;照金；乘39路公交车先到城北客运站 下午14:40发车</p>\n<p>&nbsp;</p>\n<p>铜川--照金<br />旅游公交1路 (市政府西门--铜旬高速--照金)<br />运营时间暂定为铜川新区：8:00--16:00<br />间隔30分钟，照金返回末班：17:30</p>\n<p>&nbsp;</p>\n<p>延安--照金<br />发车地点：延安汽车南站<br />发车时间：6:45、7:20、8:40、9:15<br />乘车路线：先到铜川，转乘旅游公交1路到照金</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<p>1.西安绕城高速（G3001）&rarr; 延西高速（G65W）&rarr;&nbsp; 经过关庄枢纽立交（不下高速）&rarr;&nbsp; 菏宝高速（G3511）&rarr; 照金镇。</p>\n<p>2.西安绕城高速（G3001）&rarr;&nbsp;延西高速（G65W）&rarr;&nbsp; 铜川南（马额 坡头）（下高速）&rarr; 照金红色旅游专线 &rarr; 照金镇。</p>"
+      }
+    ],
+    "officialWebsite": [
+      "http://www.shanwentou.com.cn/industry_show/3530.html"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "客服电话",
+        "telephone": "0919-6927209"
+      },
+      {
+        "telephoneTitle": "照金游客服务中心",
+        "telephone": "0919-8162888"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "今日照金",
+        "wxSubscription": "jinrizhaojin"
+      }
+    ],
+    "sinaWeiboVoList": [
+      {
+        "sinaWeibo": "照金红色旅游名镇",
+        "sinaWeiboUrl": "https://weibo.com/hongsezhaojin?is_all=1"
+      }
+    ],
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "1574349398828847106",
+        "outId": "1385186838783799298",
+        "type": 1,
+        "advertName": "这里为什么要叫1933？",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021061817331680809.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p style=\"text-align: center;\"><strong>陕西铜川：&ldquo;红色基因&rdquo;代际传承</strong></p>\n<p>&nbsp;</p>\n<p><strong>用历史照亮未来，大力弘扬&ldquo;照金精神&rdquo;，是时代的召唤，更是当代照金人义不容辞的责任。</strong></p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015年2月14日，习近平总书记视察照金老区。循着总书记的足迹，全国各地的党员干部群众纷至沓来，瞻仰革命遗迹，接受红色教育。在来来往往的人流中，时常有人指着广场的铜像问：&ldquo;他们是什么人？&rdquo;指着&ldquo;1933&rdquo;广场问：&ldquo;这里为什么叫1933？&rdquo;</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;历史是最好的答案、时代是最新的答卷：照金这片红色的热土在中国革命史上留下了辉煌的篇章，革命先烈的红色基因历经岁月依然代代相传，大力弘扬照金&ldquo;红色基因&rdquo;正是新时代追寻初心、传承初心、践行初心的铜川实践。</p>\n<p><strong>擦亮红色照金的历史印记</strong></p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1933年，刘志丹、谢子长、习仲勋等老一辈革命家在照金创建了西北地区第一个山区革命根据地&mdash;&mdash;陕甘边革命根据地，照金由此成为西北革命的摇篮，为西北革命根据地的发展壮大奠定了坚实基础，成为党中央和中央红军长征的落脚点、八路军奔赴华北抗日前线的出发点，是土地革命战争后期全国硕果仅存的革命根据地。习近平总书记视察照金时指出，要加强对革命根据地历史的研究，总结历史经验，更好发扬革命精神和优良作风。这在广大干部群众中引发了强烈共鸣，挖掘照金革命历史，擦亮照金红色印记成为铜川追寻初心的新使命。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061617193367644.jpg\" /></p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color: #ff0000;\">追寻红色记忆，聆听历史声音。</span>进入照金镇，33米高的陕甘边革命根据地英雄纪念碑庄严肃穆，碑座四面的陕甘边革命根据地建党、建政、建军和军民鱼水情浮雕，讲述着80多年前发生在这片红色土地上的点点滴滴&hellip;&hellip;</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color: #ff0000;\">&nbsp;北梁马灯照前路，革命薪火代代传。</span>为了全面还原照金革命历史，铜川持续开展&ldquo;追忆革命历史，走访革命先辈亲属&rdquo;活动，先后走访了刘志丹、谢子长、周冬至、张邦英、王泰吉、同凤云等50余位革命先辈、历史事件亲历者亲属，形成了大量翔实的走访手记，受捐了一批革命遗物，完善充实了照金史实资料。同时，聘请中央党校等单位的党史专家为特约研究员，邀请延安干部学院、陕西省中共党史学会等省内外专家学者，发掘保护薛家寨、陈家坡等一批革命遗迹，系统整理照金党史资料，真实还原了可歌可泣的照金革命历史。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061617133583420.jpg\" /></p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color: #ff0000;\">&nbsp;探寻烽火岁月，丰富历史内涵。</span>80多年前的硝烟早已散尽，但照金的红色火种从未熄灭，那段厚重的历史在一次次的追溯中历久弥新，特别是近年来，刘志丹女婿张光、谢子长的孙子谢明以及蒋建农、褚银、黄先禄等一大批红军后人和专家学者来到这片热土，寻根溯源，赓续红色血脉。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;从2015年开始，铜川每年举办&ldquo;两点一存&rdquo;专题研讨会，邀请省内外党史专家学者以及革命先辈亲属座谈研讨交流，挖掘陕甘边革命根据地在抗战、长征中的历史贡献，探讨&ldquo;照金精神&rdquo;的时代价值，先后编印3册论文集，收录了《以照金为中心的陕甘边革命根据地对中国革命进程的影响》《论照金精神的内涵及时代价值》等百余篇学术文章，照金党史研究不断取得新进展，照金的历史定位更加精准。正如军事科学院军队政治工作研究院副院长马卫防所说：&ldquo;薛家寨、陈家坡等革命旧址，让&lsquo;南有瑞金，北有照金&rsquo;的说法声名远扬，成为孕育中国革命伟大成功、带给中国革命蓬勃希望的光辉摇篮。&rdquo;</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color: #ff0000;\">&nbsp;&nbsp;不忘来时路，镌刻英雄史。</span>狼牙山五壮士的故事广为人知，照金革命斗争中也有坚守信仰、英勇不屈的跳崖女战士。1933年10月，由于叛徒出卖，敌人攀上薛家寨，红军医院腹背受敌，在危机时刻，女游击队员们不愿被俘，纵身跳崖。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这样的英雄事迹还有很多。2016年，《陕甘边与照金》创刊发行，主要挖掘并刊登以土地革命时期的陕甘边革命史为核心的历史研究成果，每期向党史军史专家、革命先辈亲属约稿，发掘整理史实资料，使照金革命史在更大范围传播和交流。与此同时，还编撰出版了《照金革命史》《铜川革命史话》《照金人物》《照金精神与群众工作》以及《红色照金》画册等系列丛书，拍摄了《陕甘边革命根据地发祥地&mdash;&mdash;照金》系列专题片和《照金星火》党员教育电视片，全面立体地展示照金辉煌革命史。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;老红军潘西顺之子潘权民说：&ldquo;老一辈闹革命的事，就得传下去。这几年市上编了不少书，把照金当年的大事小事都记下来了，好得很！&rdquo;</p>\n<p><strong>焕发&ldquo;照金精神&rdquo;的时代光芒</strong></p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ldquo;一切向前走，都不能忘记走过的路；走得再远、走到再光辉的未来，也不能忘记走过的过去，不能忘记为什么出发。&rdquo;随着照金历史越来越清晰完整地还原再现，照金烽火岁月中形成的坚定信念和优良作风，越来越受到党员干部和社会大众的关注，&ldquo;照金精神&rdquo;这笔宝贵财富成为新时代强骨补钙的精神光源。用历史照亮未来，大力弘扬&ldquo;照金精神&rdquo;，是时代的召唤，更是当代照金人义不容辞的责任。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color: #ff0000;\">&ldquo;馆展+巡展&rdquo;，让&ldquo;照金精神&rdquo;插上时代的翅膀。</span>百闻不如一见。历史需要触摸、需要看见。照金纪念馆讲解员宋建斌感言：&ldquo;在这儿工作的10余年，看到一拨拨来馆参观者的虔诚与仰望，我深深感受到这里是信仰升华的地方；随着一次次巡展带给各地干部群众的震撼与力量，我更加真切地感悟到&lsquo;照金精神&rsquo;闪耀着时代光芒。&rdquo;</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1993年5月，陕西省委决定修建陕甘边照金革命根据地纪念馆。26年来，纪念馆几经变迁发展，尤其是2013年新馆落成，成为全国爱国主义和革命传统教育的前沿，开启了弘扬&ldquo;照金精神&rdquo;的新诗篇。新馆开放6年来，馆内展览真实再现历史、开放接待群众、优化讲解服务，累计接待参观观众525万余人次，日均接待2400余人次，参观人数逐年上升，&ldquo;不来照金纪念馆，枉到铜川转一圈&rdquo;已成为众多游客的共同心声。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;随着红色照金影响力的持续扩大，为满足全国多地群众在家门口了解照金历史的热切期盼，铜川创新开展&ldquo;照金精神&rdquo;全国巡展，在北京、上海、深圳、瑞金、嘉兴等政治经济文化中心、改革开放前沿城市、中国人民解放军成长史上具有代表性的城市及全国红色文化知名城市等举办展览，受邀参加了&ldquo;红色精神走进新时代全国图片巡展&rdquo;和&ldquo;不忘初心牢记使命&mdash;&mdash;中国革命精神联展&rdquo;，全国巡展已走进26座城市，举办37场次，近200万群众观展，宣传了红色照金的光辉革命历史，展示了幸福铜川和照金革命老区的新发展新变化，提升了铜川的知名度和美誉度。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color: #ff0000;\">&nbsp;&nbsp;&ldquo;学习+体验&rdquo;，把&ldquo;照金精神&rdquo;贯通时代前沿。</span>2018年全省区县委副书记专题培训班在照金举办后，许多学员表示，&ldquo;照金精神&rdquo;来源于历史、形成于实践，&ldquo;培训学习+体验教学&rdquo;的模式，把传承&ldquo;照金精神&rdquo;贯通到时代前沿、融入于改革发展，是我们新时代砥砺前行的精神&ldquo;加油站&rdquo;。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061617124675551.jpg\" /></p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;近年来，面对到红色照金开展教育培训的单位日益增多、接受教育的党员干部人数持续攀升的态势，铜川依托照金独特的红色资源优势，突出政治引领，专注党性教育，以照金干部学院为主阵地，打造西北地区党性教育新高地。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;围绕党性教育、党史和革命传统教育、基本国情教育、中华优秀传统文化教育、城市转型发展教育、社会管理教育6大板块，开发了&ldquo;陕甘边照金革命史及其历史贡献&rdquo;&ldquo;从照金精神中汲取全面从严治党的力量&rdquo;等40多个教学专题，编印培训教材10余种，国家行政学院、中国延安干部学院等20余家中、省单位在照金设立教育教学培训基地，具有铜川特色的革命传统和党性教育课程，深受广大学员欢迎。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;依托薛家寨、陈家坡会议旧址、兔儿梁等革命历史遗迹和照金纪念馆，建立&ldquo;照金精神&rdquo;现场教学点，创新研发了体验式教学、实地研学、访谈教学等一批特色教学课程，建成现场教学点15个，发挥郭秀明、李秋莲等铜川传承&ldquo;照金精神&rdquo;先进群体的标杆作用，&ldquo;红色引领、情景体验、拓展拉练、典型示范&rdquo;使广大学员躬行实践，经受红色锤炼，从&ldquo;心&rdquo;开始，打上照金烙印。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6年来，照金干部教育培训基地共承接来自中央机关、国外政党、港澳及其他省市高层次培训300余班次，受训1.8万人次；举办市内培训500余班次、受训3.9万人次。干部教育培训&ldquo;照金效应&rdquo;不断放大，红色基因有效传承，&ldquo;照金精神&rdquo;广为传播。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color: #ff0000;\">&nbsp;&ldquo;干部+群众&rdquo;，用照金精神引领时代新风尚。</span>&ldquo;照金精神&rdquo;是老一辈革命家带领群众闹革命的实践经验。今天，弘扬&ldquo;照金精神&rdquo;，是走实走好群众路线的时代所需、群众所盼。为了让红色文化入脑入心，铜川多平台、多渠道、深层次开展红色主题教育，让&ldquo;照金精神&rdquo;走进干部和群众心田。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;充分发挥照金爱国主义教育基地和青少年教育基地作用，大力开展&ldquo;照金精神&rdquo;进机关进校园等活动，先后走进陕西省委办公厅、省委党校等单位宣讲&ldquo;照金精神&rdquo;和铜川故事；在全市各红军小学组建&ldquo;红孩儿&rdquo;宣讲团，举办&ldquo;红军小学红军娃&rdquo;诵读大赛等活动；举办&ldquo;讲好照金故事传承革命精神&rdquo;红色故事大赛、&ldquo;守初心担使命，践行照金精神&rdquo;主题演讲比赛，实施&ldquo;照金精神书香传承&rdquo;行动，在照金1933广场建成免费开放的红色主题书屋，多措并举整合红色资源，推动了红色文化的广泛传播，营造了传承&ldquo;照金精神&rdquo;的浓厚社会氛围。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;落实习近平总书记&ldquo;发展红色旅游要把准方向，核心是进行红色教育、传承红色基因，让干部群众来到这里能接受红色精神洗礼&rdquo;要求，持续推进&ldquo;大照金&rdquo;红色旅游，打造&ldquo;照金红色小镇发现之旅&rdquo;&ldquo;穿红军服、唱红军歌、走红军路、吃红军餐&rdquo;等红旅品牌，用好&ldquo;全国100个红色旅游经典景区&rdquo;金字招牌，吸引了全国各地游客，以及诸多国际友人慕名前来，2013年至今，照金共接待游客570余万人次，接待团队25万余批次。红色旅游带动和扩大了传播红色文化、讲述照金故事、弘扬&ldquo;照金精神&rdquo;的&ldquo;社会宣传队&rdquo;&ldquo;民间志愿者&rdquo;，使照金历史穿越时空走近群众，形成浓厚的红色文化氛围，筑牢了广大党员干部群众的精神高地。</p>\n<p><strong>释放红色基因的强大能量</strong></p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一代人有一代人的历史使命。忆往昔，八十多年前的烽火岁月，无数革命先烈在这片红色的土地上抛头颅、洒热血，留下了宝贵的精神财富；看今朝，红色基因代代相传，释放着强大的精神力量，引领着老区干部群众初心不改、斗志昂扬，逐梦新时代，创造新生活。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061617121845404.jpg\" /></p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color: #ff0000;\">红色照金，见证奋斗的青春！</span>近年来，在照金精神感召下，无数返乡创业者、坚守故土者、挂职援建者以及社会各界纷纷投身参战老区建设，扛起脱贫攻坚重担，乘借乡村振兴东风，推动老区建设日新月异，让群众的日子越过越红火。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;走进照金镇圣地新苑住宅小区，花红柳绿环境优美，水电气信配套完善，安防保洁物业规范，从一张张笑脸上我们找到了幸福的答案。近年来，当地打破传统思维，坚持&ldquo;全域、生态、主题&rdquo;三大理念，强势推动镇区开发建设，聚力打造红色旅游特色小镇，成功引入照金宾馆、照金国际滑雪场等诸多知名项目加盟，打造旅游商业街区，让照金人气满满，底气十足。通过村民入股等形式成立照金村集团公司，坚持生态农业、景区管理、物业管理、园林绿化等多元化经营，持续加快城镇化进程。&ldquo;土地流转收入+工资收入+商铺租金收入+创业收入+股份收入&rdquo;五条增收链，牢牢锁定老区群众的幸福生活。支部引领、党员示范、全员参与、市场化发展的照金村集体经济发展之路，堪称经典。走进照金村，优质的教育医疗资源、现代的市政管理，令人惊叹不已。小长假游客爆棚，让照金人乐得合不上嘴。夕阳下照金广场休闲小憩的身影，令许多城里人也羡慕不已。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color: #ff0000;\">红色照金，诉说不老的初心！</span>在照金北梁会议旧址，杜天祥老人还在绘声绘色地讲述着革命故事，他这一讲就是十几年，从最初的简单讲述，一步步把照金精神讲活，讲出了历史原貌，讲出了时代价值。他既是管理员、又是保洁员，既要管好家里的庄稼，又要讲好革命故事，身体累、责任大，但年近古稀的他依旧神情矍铄、神采奕奕，始终用自己的坚守，诉说着不老的初心。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在照金老区，讲述革命故事是许多老人的看家本领。当地通过快板、锣鼓、顺口溜、三句半等多种群众喜闻乐见的形式，让照金大地处处都有好故事，人人能讲好故事。草根宣讲也是传唱红色故事，传承红色精神的重要形式，党的十八大以来，老区群众积极行动，将&ldquo;中央一号&rdquo;文件精神、&ldquo;两学一做&rdquo;基本要求、脱贫攻坚政策标准等与革命故事有机融合，以记得住、听得懂的群众语言讲述出来，深受好评。尤其是杜天祥的那句&ldquo;守初心、担使命，找差距、抓落实，十二字要求要牢记&rdquo;，让许多参观学习者倍受教育。老人说：我看到过老红军身上的刀伤，也听潘喜顺老红军讲过战场上的故事，革命先辈纷纷离世，我们必须把这些故事讲下去，把红色照金精神传承下去，这是我们这一代人的责任。</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color: #ff0000;\">&nbsp;红色照金，托起明天的太阳！</span>在照金的大山里，红色故事也同样传唱在上学的乡间小路上，红色基因根植在孩子们的血液里。他们以生在革命老区，长在红色热土而骄傲，谁革命故事讲得多，谁红色歌曲唱得好成为同学们之间的最大&ldquo;攀比&rdquo;。红色印记是照金红军小学和北梁红军小学的最大特点，&ldquo;不忘初心、牢记使命、红色基因、代代相传&rdquo;是红军小学广大师生最大的时代使命。</p>\n<p><img class=\"wscnph\" src=\"https://eshopfile.zhiyousx.com/2021061617231988157.jpg\" /></p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2018年儿童节前夕，习近平总书记给照金北梁红军小学学生回信，勉励他们用实际行动把红色基因一代代传下去，做对国家、对人民、对社会有用的人。牢记嘱托，不负使命，当地积极行动，通过请老革命进校园讲革命故事，印发照金革命故事丛书、红色故事比赛等多种形式，把红色教育作为教育教学的重要组成部分，让孩子们在红色的氛围中熏陶、成长。&ldquo;小小讲解员&rdquo;也是当地传承红色基因的一大特色，在陕甘边照金革命根据地纪念馆，在陈家坡会议旧址，孩子们经常利用节假日时间，为前来参观的各地游客描绘照金烽火，游客纷纷点赞。正如一位游客所说：从他们身上看得到&ldquo;照金精神&rdquo;，从他们身上感受到红色事业后继有人。</p>\n<p>（本文转自/学习强国 ）</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      },
+      {
+        "id": "1574349398833041410",
+        "outId": "1385186838783799298",
+        "type": 1,
+        "advertName": "巍巍照金展红旗",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021061814431394007.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p><img class=\"wscnph\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://eshopfile.zhiyousx.com/2021061814524979242.jpg\" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; △《人民日报》（2021年1月28日 第5版）</p>\n<p style=\"text-align: right;\">&nbsp; &nbsp; &nbsp;&nbsp;</p>\n<p style=\"text-align: center;\">《人民日报》记者/王乐文 原韬雄 高 炳</p>\n<p>&nbsp;</p>\n<p>　　行走在陕西铜川市耀州区的山区，到处是纵横沟壑、石峰千仞，斧劈刀削苍山骨，曾经硝烟远，如今醉游人。吸引人们前来的不只是奇绝的丹霞风光，更是那段激情澎湃的革命岁月。</p>\n<p>　　瑞金在南，照金居北。习近平总书记说：&ldquo;以照金为中心的陕甘边革命根据地，在中国革命史上写下了光辉的一页。&rdquo;</p>\n<p>　　上世纪30年代初，刘志丹、谢子长、习仲勋等老一辈无产阶级革命家将红旗插在了陕西照金的深山之中，创建了以照金为中心的西北地区第一个山区革命根据地&mdash;&mdash;陕甘边革命根据地。山木无言，艰苦卓绝的革命故事穿越历史，熠熠生辉。</p>\n<p><span style=\"color: #ff0000;\">&ldquo;最根本的是要有根据地&rdquo;</span></p>\n<p>　　山间清晨，汽车翻过一道道川沟，抵达照金芋园村，这里便是田发义的家。</p>\n<p>　　79岁的田发义身穿灰棉袄，头戴蓝布帽，精神矍铄。进了屋，围着滋滋响的火炉，老人家打开了话匣子：&ldquo;额大（父亲）开始在芋园闹革命时，还是个十几岁的娃娃。&rdquo;说起父亲田德法，老人家一脸自豪。</p>\n<p>　　芋园，是照金东北的一个偏僻小村落，西上党家山，可通薛家寨。当年，这里是照金最早闹革命的地方之一，骁勇善战的芋园游击队随后上了薛家寨，参与了根据地&ldquo;大本营&rdquo;的建设。</p>\n<p>　　习仲勋第一次见到刘志丹时，刘志丹分析形势：&ldquo;几年来，陕甘地区先后举行过大大小小70多次兵变，都失败了，最根本的原因就是军事运动没有同农民运动结合起来，没有建立起革命根据地&hellip;&hellip;现在最根本的是要有根据地。&rdquo;</p>\n<p>　　为什么选择照金？一是山高林密、便于隐藏，二是百姓困苦、革命热情高涨。在陕甘边革命根据地照金纪念馆，陈列着大小两个粮食斗，讲解员介绍：&ldquo;当地的土豪劣绅压迫百姓，大斗收粮、小斗出粮，广大贫苦群众生活在水深火热之中。&rdquo;</p>\n<p>　　1932年2月20日元宵夜，枪声在照金街头打响，刘志丹和谢子长率领的红军陕甘游击队奇袭当地民团，照金革命的烽火就此点燃。</p>\n<p>　　同年12月，红军陕甘游击队正式改编为中国工农红军第二十六军第二团，这是土地革命战争时期中国共产党在西北地区建立的最早的正规红军。建军之初，几个人分不到一杆枪，连土枪都稀罕，大刀长矛甚至农具都成了红军战士手中的武器。首战焦家坪、火烧香山寺、鏖战庙湾镇&hellip;&hellip;红二团转战照金各处，让当地民众欢欣鼓舞，敌人闻风丧胆。</p>\n<p>　　前线战斗遍地开花，后方群众工作如火如荼。1933年4月，陕甘边革命委员会成立，不少参会代表不识字，就采取投豆得票的办法。在极端艰苦的环境下，革命的种子在照金扎根出苗，当地群众说：&ldquo;人们都愿意跟着共产党走。&rdquo;</p>\n<p><span style=\"color: #ff0000;\">&ldquo;没有老百姓，就没有红军寨&rdquo;</span></p>\n<p>　　在薛家寨一号寨洞的山坡上，许多游客都会在一方墓碑前驻足凭吊，烈士李妙斋长眠于此。</p>\n<p>　　1933年9月，国民党反动派纠集部队围攻薛家寨，陕甘游击队总指挥李妙斋指挥部队奋力反击，在追击逃敌时中了冷枪，与警卫员一起英勇牺牲。</p>\n<p>　　照金镇田峪村村民祁志华说：&ldquo;我爷爷祁振海是红军联络员，把给家里老人准备的两口棺材偷偷拉上山，才把两位烈士安葬。&rdquo;薛家寨失守后，土匪民团把两位烈士的棺木挖了出来，后来，附近村民又秘密将两位烈士重新入殓下葬。</p>\n<p>　　一切为了群众，一切依靠群众。土地革命运动废除了强加于农民的佃租、欠债和苛捐杂税，极大地调动了照金苏区群众的革命积极性。据统计，30多名优秀子弟加入主力红军，百余名热血青年参加地方游击队。</p>\n<p>　　如今，在薛家寨的红军寨洞，依然能够看到堞墙工事，所用黄土都是当年老百姓从很远的地方肩挑背驮而来。照金纪念馆副馆长宋建斌说：&ldquo;那时，男人为红军修工事、运兵粮，女人在寨洞里缝衣服、照顾伤员。没有老百姓，就没有红军寨！&rdquo;</p>\n<p>　　在习仲勋等的努力下，北梁、陈家坡等十几个村建立了健全的党组织和群众组织。照金村村民南民政说：&ldquo;听村里老人讲，红军纪律严明，从不白吃白拿，还经常下山给老百姓干农活。&rdquo;</p>\n<p>　　习仲勋在陕甘游击队总指挥部任政委时，对20多支游击队进行政治、组织上的彻底整治，他的优良作风感染了很多干部群众。</p>\n<p>　　刘志丹说：&ldquo;你做得好，有你这样的作风，咱们就会立于不败之地。&rdquo;时任红二十六军第二团团长的王世泰也高度评价习仲勋的工作：&ldquo;凡熟悉这段历史的同志，都为习仲勋同志扎实的工作作风、任劳任怨的品格、身先士卒的精神所感动。&rdquo;</p>\n<p>　　1933年春夏之际，陕甘边革命委员会在山下亭子沟口建立起集贸市场，&ldquo;招百商而不纳税，不设关卡不盘查&rdquo;，边区后勤干部在集市上坚持公买公卖、群众优先的原则，每天开市先让群众购买，快收摊时才收购所余粮食蔬菜。</p>\n<p><span style=\"color: #ff0000;\">&ldquo;一棵大杨树下，马灯亮了一整夜，陈家坡会议的讨论也进行了一整夜&rdquo;</span></p>\n<p>　　照金纪念馆中，有一件展品引得众人驻足围观，几颗手榴弹由一根粗大的麻绳串起，这便是&ldquo;麻辫手榴弹&rdquo;。</p>\n<p>　　&ldquo;这是照金军民发明的独特武器，它们由收缴来的麻钱铸成，系上麻绳，通过抡甩可以让手榴弹飞得更远。&rdquo;宋建斌介绍。</p>\n<p>　　&ldquo;榆木大炮&rdquo;是刘志丹发明的。为了震慑敌人，他带人砍下山中高大的榆木，做成火炮的形状，用锅灰和桐油漆好，行军时由骡子驮着，外面盖上红布。</p>\n<p>　　红军战士们吃的是只磨不筛的麦子面饼和苞谷糁粥，最好的武器是缴获来的&ldquo;万国造&rdquo;。虽吃不饱穿不暖，武器简陋，却战得豪情万丈、山河震动。</p>\n<p>　　女游击队员同凤云的儿媳翟爱英回忆：&ldquo;婆婆在薛家寨照顾过红军伤员，有时候一件血衣要换好几盆水才能洗干净。&rdquo;</p>\n<p>　　&ldquo;一棵大杨树下，马灯亮了一整夜，陈家坡会议的讨论也进行了一整夜。&rdquo;陈家坡会议旧址讲解员杜天祥介绍。</p>\n<p>　　在陈家坡会议上，一系列问题得到彻底解决，会议制定了各方力量一致行动，广泛开展游击战争，深入开展群众工作的战略方针，为革命指明了方向。</p>\n<p>　　1933年10月，国民党反动派再次重兵围攻薛家寨，据点被敌人攻破后，数名女战士被逼到了石崖断壁上，在打光所有子弹后，纵身跳下悬崖。</p>\n<p>　　同凤云被山腰的树枝挂住幸存了下来。她的儿子高安平回忆起母亲时几度落泪：&ldquo;娘是个刚强的女人，由于摔伤，她的腰直不起来，走路只能侧身挪。但她说，为了革命，值！&rdquo;</p>\n<p>　　照金苏区失陷后，革命的火种并未就此熄灭。刘志丹、习仲勋领导陕甘红军继续在外线作战，将根据地中心转移至南梁，陕甘边革命根据地后与陕北革命根据地合并为西北革命根据地。</p>\n<p>　　1934年，红军重新打回照金，全面恢复和巩固了照金苏区，照金也一度成为抗击国民党反动派的前沿阵地，直至1949年耀县全境解放。</p>\n<p>&nbsp;</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": "周边推荐",
+    "contentResourcesDtoList": [
+      {
+        "id": "1574349398770126850",
+        "resourcesId": "1386235943215771649",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061717335298183.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2022-09-26 18:45:21",
+        "updateTime": "2022-09-26 18:45:21",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1574349398770126851",
+        "resourcesId": "1386235943215771649",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061817410986103.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2022-09-26 18:45:21",
+        "updateTime": "2022-09-26 18:45:21",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1574349398774321154",
+        "resourcesId": "1386235943215771649",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061618330553733.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2022-09-26 18:45:21",
+        "updateTime": "2022-09-26 18:45:21",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1574349398774321155",
+        "resourcesId": "1386235943215771649",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061717332309282.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2022-09-26 18:45:21",
+        "updateTime": "2022-09-26 18:45:21",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1574349398778515457",
+        "resourcesId": "1386235943215771649",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061717345906175.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2022-09-26 18:45:21",
+        "updateTime": "2022-09-26 18:45:21",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1574349398778515458",
+        "resourcesId": "1386235943215771649",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061618340211592.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2022-09-26 18:45:21",
+        "updateTime": "2022-09-26 18:45:21",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1574349398782709762",
+        "resourcesId": "1386235943215771649",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021042516292086948.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2022-09-26 18:45:21",
+        "updateTime": "2022-09-26 18:45:21",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1574349398786904066",
+        "resourcesId": "1386235943215771649",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061614175878990.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2022-09-26 18:45:21",
+        "updateTime": "2022-09-26 18:45:21",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1574349398786904067",
+        "resourcesId": "1386235943215771649",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061817463918594.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": null,
+        "createTime": "2022-09-26 18:45:21",
+        "updateTime": "2022-09-26 18:45:21",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1574349398791098370",
+        "resourcesId": "1386235943215771649",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021061614264999137.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": null,
+        "createTime": "2022-09-26 18:45:21",
+        "updateTime": "2022-09-26 18:45:21",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1574349398795292673",
+        "resourcesId": "1386235943215771649",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021042516281605330.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 11,
+        "describe": null,
+        "createTime": "2022-09-26 18:45:21",
+        "updateTime": "2022-09-26 18:45:21",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1574349398795292674",
+        "resourcesId": "1386235943215771649",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166311838014152124.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 12,
+        "describe": "",
+        "createTime": "2022-09-26 18:45:21",
+        "updateTime": "2022-09-26 18:45:21",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1574349398799486977",
+        "resourcesId": "1386235943215771649",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166311838060532511.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 13,
+        "describe": "",
+        "createTime": "2022-09-26 18:45:21",
+        "updateTime": "2022-09-26 18:45:21",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1574349398799486978",
+        "resourcesId": "1386235943215771649",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/166311838100833932.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 14,
+        "describe": "",
+        "createTime": "2022-09-26 18:45:21",
+        "updateTime": "2022-09-26 18:45:21",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455081861037531138",
+      "rankingId": null,
+      "indexInRanking": 3,
+      "rankingName": "铜川必游景区人气榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": [
+      {
+        "id": "1574349398807875586",
+        "scenicSpotId": "1385186838783799298",
+        "contentModuleName": "周边推荐",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1517435888135614465",
+            "type": 6,
+            "title": "陕甘边革命根据地纪念馆",
+            "subtitle": "再现创建革命根据地的艰难历程",
+            "coverImage": "https://eshopfile.zhiyousx.com/2022042217311354228.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1405054597025775617",
+            "type": 5,
+            "title": "陕甘边革命英雄纪念碑",
+            "subtitle": "革命英雄永垂不朽",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021061614524728304.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1405107630875099138",
+            "type": 5,
+            "title": "照金1933广场",
+            "subtitle": "万人广场 气势恢宏",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021061618123202808.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1522495463683612674",
+            "type": 5,
+            "title": "照金书院",
+            "subtitle": "照金干部教育培训基地",
+            "coverImage": "https://res.zhiyousx.com/ysx//pro/2022/05/06/165182617518304260.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 1,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": null,
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "scenicInfoTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": 0,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": null,
+    "hotelArrivalDepartureTime": null,
+    "hotelChildrenBed": null,
+    "hotelPet": null,
+    "hotelBreakfast": null,
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

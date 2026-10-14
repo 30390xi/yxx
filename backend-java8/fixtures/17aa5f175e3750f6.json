@@ -1,0 +1,204 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1455743349498683393",
+    "contentId": "1455743348567547905",
+    "rankingName": " 榆林必逛景点排行榜",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://res.zhiyousx.com/ysx/pro/2021/11/03/163591122707368800.jpg",
+    "rankingDescribe": null,
+    "rankingTotalUserData": "人去过",
+    "rankingInclude": "个景点",
+    "rankingPersonalInfo": "我去过的景点",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#1DA4CD",
+    "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png",
+    "travelMapFlag": 0,
+    "type": "8",
+    "rankingItemList": [
+      {
+        "originId": "1449946008531247105",
+        "originType": "1",
+        "originName": "石峁遗址文化旅游区",
+        "originSubtitleName": "中国文明的前夜",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021101811491315613.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021101817353929013.jpg",
+          "https://eshopfile.zhiyousx.com/2021101817354427701.jpg",
+          "https://eshopfile.zhiyousx.com/2021101817355000685.jpg"
+        ],
+        "sort": "10",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064712552464",
+        "originType": "1",
+        "originName": "镇北台长城景区",
+        "originSubtitleName": "陕甘宁蒙晋五省交界处",
+        "originUrl": "https://eshopfile.zhiyousx.com/1-20201028173707.JPG",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021072217345789188.jpg",
+          "https://eshopfile.zhiyousx.com/2021072217351996498.jpg",
+          "https://eshopfile.zhiyousx.com/5-20201028173753.jpg",
+          "https://eshopfile.zhiyousx.com/4-20201028173740.jpg",
+          "https://eshopfile.zhiyousx.com/33-20201028173803.JPG"
+        ],
+        "sort": "11",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064712552465",
+        "originType": "1",
+        "originName": "红石峡",
+        "originSubtitleName": "“宋元古刹”",
+        "originUrl": "https://eshopfile.zhiyousx.com/2-20201028170646.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021101810560391385.jpg",
+          "https://eshopfile.zhiyousx.com/4-20201028170656.jpg",
+          "https://eshopfile.zhiyousx.com/5-20201028170748.jpg"
+        ],
+        "sort": "12",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064720941180",
+        "originType": "1",
+        "originName": "二郎山景区",
+        "originSubtitleName": "省级重点文物保护单位",
+        "originUrl": "https://eshopfile.zhiyousx.com/1-20201028172700.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/4-20201028172715.jpg",
+          "https://eshopfile.zhiyousx.com/5-20201028172725.jpg",
+          "https://eshopfile.zhiyousx.com/6-20201028172734.jpg"
+        ],
+        "sort": "13",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064712552457",
+        "originType": "1",
+        "originName": "红碱淖景区 ",
+        "originSubtitleName": "中国最大的沙漠淡水湖",
+        "originUrl": "https://eshopfile.zhiyousx.com/2-20201028160237.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2-20201028160558.jpg",
+          "https://eshopfile.zhiyousx.com/1-20201028160525.jpg",
+          "https://eshopfile.zhiyousx.com/33-20201028160615.jpg"
+        ],
+        "sort": "14",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1429721434791456770",
+        "originType": "1",
+        "originName": "陕北民歌博物馆",
+        "originSubtitleName": "全国唯一的民歌博物馆",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021082316222564290.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021082509552748673.jpg",
+          "https://eshopfile.zhiyousx.com/2021082509553632474.jpg",
+          "https://eshopfile.zhiyousx.com/2021082509554390994.jpg"
+        ],
+        "sort": "15",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064720941172",
+        "originType": "1",
+        "originName": "白云山风景名胜区",
+        "originSubtitleName": "全国重点文物保护单位，国家4A旅游景区",
+        "originUrl": "https://eshopfile.zhiyousx.com/1_副本-20201028162857.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/3_副本-20201028162949.jpg",
+          "https://eshopfile.zhiyousx.com/4_副本-20201028163001.jpg",
+          "https://eshopfile.zhiyousx.com/5_副本-20201028163010.jpg"
+        ],
+        "sort": "16",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1384395803052814338",
+        "originType": "1",
+        "originName": "中能文化创意产业园",
+        "originSubtitleName": "文创赋能城市 艺术改变生活",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021072214532450555.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021042622421991745.jpg",
+          "https://eshopfile.zhiyousx.com/2021042622422796756.jpg",
+          "https://eshopfile.zhiyousx.com/2021042622442890806.jpg",
+          "https://eshopfile.zhiyousx.com/2021072214493981796.jpg",
+          "https://eshopfile.zhiyousx.com/2021072214520585605.jpg",
+          "https://eshopfile.zhiyousx.com/2021072214522587954.jpg"
+        ],
+        "sort": "17",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1409791187631575041",
+        "originType": "1",
+        "originName": "清涧县枣林则沟会议旧址",
+        "originSubtitleName": "传承革命精神",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021062915575373333.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021062916282057064.jpg",
+          "https://eshopfile.zhiyousx.com/2021062916284119670.jpg",
+          "https://eshopfile.zhiyousx.com/2021062916285309408.jpg",
+          "https://eshopfile.zhiyousx.com/2021062916283381930.jpg"
+        ],
+        "sort": "18",
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "19",
+    "favoriteSum": null,
+    "personalInfoValue": "0/19"
+  },
+  "msg": "成功",
+  "success": true
+}

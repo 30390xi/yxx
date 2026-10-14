@@ -1,0 +1,208 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1450007221814435841",
+    "scenicName": "龙岗寺遗址",
+    "tag": "亚洲三大旧石器遗址之一",
+    "level": -1,
+    "address": "汉中市南郑区梁山镇爱国村境内",
+    "longitude": "106.970547",
+    "latitude": "33.066585",
+    "openingStatus": 1,
+    "capacity": 1000,
+    "topColour": "#B07464",
+    "centralColour": "#652E20",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021101815511803495.jpg"
+    ],
+    "introduction": "<p>　　龙岗寺遗址，又称龙岗寺古人类遗址，是汉水流域一处重要的旧石器遗址和新石器时代仰韶文化半坡类型遗址。龙岗寺遗址该遗址文化内涵包括旧石器文化、新石器文化、汉代墓葬群、千年寺院建筑和近现代革命旧址五部分，具有极高的历史、科学、艺术和社会经济价值。 龙岗寺遗址是我国发现的为数不多的超过100万年的旧石器时代遗存，再次证明汉水流域也是中国古代文明的重要发祥地之一。</p>",
+    "introductionText": "　　龙岗寺遗址，又称龙岗寺古人类遗址，是汉水流域一处重要的旧石器遗址和新石器时代仰韶文化半坡类型遗址。龙岗寺遗址该遗址文化内涵包括旧石器文化、新石器文化、汉代墓葬群、千年寺院建筑和近现代革命旧址五部分，具有极高的历史、科学、艺术和社会经济价值。 龙岗寺遗址是我国发现的为数不多的超过100万年的旧石器时代遗存，再次证明汉水流域也是中国古代文明的重要发祥地之一。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1450028527872122881",
+        "contentId": "1450028527859539970",
+        "name": "陕西省文化遗址公园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "discountVoList": null,
+    "officialWebsite": null,
+    "telephoneVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": "",
+    "contentResourcesDtoList": [
+      {
+        "id": "2032746756571267073",
+        "resourcesId": "1450007221806047234",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021101815504410785.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-03-14 17:12:48",
+        "updateTime": "2026-03-14 17:12:48",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2032746756575461378",
+        "resourcesId": "1450007221806047234",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021101815505261397.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-03-14 17:12:48",
+        "updateTime": "2026-03-14 17:12:48",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2032746756575461379",
+        "resourcesId": "1450007221806047234",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021101815505831989.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-03-14 17:12:48",
+        "updateTime": "2026-03-14 17:12:48",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      },
+      {
+        "id": "2032746756579655681",
+        "resourcesId": "1450007221806047234",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021101815510879703.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-03-14 17:12:48",
+        "updateTime": "2026-03-14 17:12:48",
+        "createBy": "2014584865157611522",
+        "updateBy": "2014584865157611522",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455795982670340097",
+      "rankingId": null,
+      "indexInRanking": 9,
+      "rankingName": "汉中必玩景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": null,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

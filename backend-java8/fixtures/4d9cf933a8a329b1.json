@@ -1,0 +1,264 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941169",
+    "scenicName": "南宫山景区",
+    "tag": "云中净土，世间桃源",
+    "level": 4,
+    "cityId": "1320664694422548481",
+    "cityName": "安康",
+    "address": "安康市岚皋县南宫山镇宏大村",
+    "longitude": "109.064999",
+    "latitude": "32.281623",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 383,
+    "topColour": "#00924F",
+    "centralColour": "#007841",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/南宫山-20201030143711.jpg"
+    ],
+    "introduction": "<p>　　南宫山景区位于陕西省岚皋县境内，是国家AAAA级景区、国家级森林公园、国家级地质公园，享有&ldquo;云中净土，世间桃源&rdquo;的美誉。南宫山是陕西拜佛、陕西旅游的绝佳去处，是西部最理想的度假休闲胜地。高僧宏一大师在金顶圆寂百年真身不腐，世人称奇。北宋靖康年间（公元1126年），朝廷在此修建行宫，名曰&ldquo;南宫&rdquo;，遂有&ldquo;南宫山&rdquo;之称。至清代逐渐演变成佛教胜地。</p>",
+    "introductionText": "　　南宫山景区位于陕西省岚皋县境内，是国家AAAA级景区、国家级森林公园、国家级地质公园，享有“云中净土，世间桃源”的美誉。南宫山是陕西拜佛、陕西旅游的绝佳去处，是西部最理想的度假休闲胜地。高僧宏一大师在金顶圆寂百年真身不腐，世人称奇。北宋靖康年间（公元1126年），朝廷在此修建行宫，名曰“南宫”，遂有“南宫山”之称。至清代逐渐演变成佛教胜地。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "2",
+        "name": "自然生态",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全年开放",
+        "openTimeContent": "早6：00—晚10：00"
+      }
+    ],
+    "discountVoList": null,
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "票价",
+        "additionalExplainContent": "旺季(3月1日至11月底)90元/人.次<br/>淡季(12月1日至次年2月底)50元/人.次"
+      },
+      {
+        "additionalExplainTitle": "园内交通",
+        "additionalExplainContent": "景区观光车40元/人.次(往返)"
+      },
+      {
+        "additionalExplainTitle": "停车场",
+        "additionalExplainContent": "停车场收费10元/车.次"
+      },
+      {
+        "additionalExplainTitle": "门票优惠政策",
+        "additionalExplainContent": "1.免门票<br/>对现役军人(含军校学员)、军队离退休干部、烈士家属、记者、导游、残疾人、年满70周岁(含70周岁)以上的老年人、身高1.3米(含1.3米)以下的儿童实行免门票。<br/>2.半票<br/>对身高1.3—1.5米(含1.5米)儿童;在校全日制大、中、小学校学生;年满60周岁(含60周岁)以上，69周岁(含69周岁)以下的老人;持民政部门颁发的《城乡居民最低生活保障金领取证》的人员实行门票半票。<br/>3.特殊优惠措施<br/>本县籍居民凭身份证、驾驶证等有效证件实行半价优惠;本县花里和溢河镇所辖居民凭身份证、驾驶证等有效证件免费入园。"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "官方电话",
+        "telephone": "0915-2510007"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "南宫山景区",
+        "wxSubscription": "ngs517"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": null,
+    "contentResourcesDtoList": [
+      {
+        "id": "2082012075843051522",
+        "resourcesId": "1322065032903942145",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/南宫山1-20201030143644.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-07-28 15:55:35",
+        "updateTime": "2026-07-28 15:55:35",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      },
+      {
+        "id": "2082012075843051523",
+        "resourcesId": "1322065032903942145",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/南宫山2-20201030143701.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-07-28 15:55:35",
+        "updateTime": "2026-07-28 15:55:35",
+        "createBy": "1635171719176675330",
+        "updateBy": "1635171719176675330",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455799129627271170",
+      "rankingId": null,
+      "indexInRanking": 6,
+      "rankingName": "安康必逛景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 1,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -5,7 +5,7 @@
             <u-swiper bind:__l="__l" bind:click="__e" borderRadius="0" class="data-v-16b9c0ec" data-event-opts="{{[ [ '^click',[ ['swiperBtn'] ] ] ]}}" height="740" indicatorActiveColor="#FF3709" indicatorColor="rgba(0,0,0,0.5)" indicatorPos="bottomRight" interval="5000" list="{{commodityInfo.picUrls}}" vueId="c64dbcd4-2"></u-swiper>
         </view>
         <view class="ms-box data-v-16b9c0ec" wx:if="{{commodityInfo.seckillActivity==0}}">
-            <image class="ms-img data-v-16b9c0ec" src="https://eshopfile.zhiyousx.com/2021080909304743729.png"></image>
+            <image class="ms-img data-v-16b9c0ec" src="/static/captured/8908de1733812edd.png"></image>
             <view class="left data-v-16b9c0ec">
                 <view class="data-v-16b9c0ec">{{'￥'+(commodityInfo.seckillPrice||0)}}</view>
                 <view class="data-v-16b9c0ec">{{'￥'+(commodityInfo.retailPrice||0)}}</view>
@@ -24,7 +24,7 @@
                     <text class="del data-v-16b9c0ec" wx:if="{{commodityInfo.seckillActivity!=0&&commodityInfo.retailPrice>commodityInfo.marketPrice}}">{{'￥'+(commodityInfo.retailPrice||0)+''}}</text>
                 </block>
             </view>
-            <image bindtap="__e" class="data-v-16b9c0ec" data-event-opts="{{[ [ 'tap',[ [ 'favBtn',['$event'] ] ] ] ]}}" src="{{commodityInfo.favorite===1?'https://eshopfile.zhiyousx.com/170065302018477577.png':'/static/images/collectno.png'}}" style="width:41rpx;height:39rpx;" wx:if="{{iconShow&&commodityInfo.scenicType!=1}}"></image>
+            <image bindtap="__e" class="data-v-16b9c0ec" data-event-opts="{{[ [ 'tap',[ [ 'favBtn',['$event'] ] ] ] ]}}" src="{{commodityInfo.favorite===1?'/static/captured/1ccd9aacfd5d0828.png':'/static/images/collectno.png'}}" style="width:41rpx;height:39rpx;" wx:if="{{iconShow&&commodityInfo.scenicType!=1}}"></image>
         </view>
         <view class="goodsInfo data-v-16b9c0ec">
             <view class="goodsName u-skeleton-rect data-v-16b9c0ec">{{commodityInfo.itemTitle||''}}</view>
@@ -32,7 +32,7 @@
                 <text class="subTit data-v-16b9c0ec"></text>
                 <text class="ys data-v-16b9c0ec" wx:if="{{commodityInfo.scenicType!=1}}">{{'已'+(commodityInfo.skuItemType==1?'约':'售')+'：'+$root.f0}}</text>
             </view>
-            <image bindtap="__e" class="fav-img data-v-16b9c0ec" data-event-opts="{{[ [ 'tap',[ [ 'favBtn',['$event'] ] ] ] ]}}" src="{{commodityInfo.favorite===1?'https://eshopfile.zhiyousx.com/170065302018477577.png':'/static/images/collectno.png'}}" style="width:41rpx;height:39rpx;" wx:if="{{ticketDetailObj.seckillActivity==0&&iconShow}}"></image>
+            <image bindtap="__e" class="fav-img data-v-16b9c0ec" data-event-opts="{{[ [ 'tap',[ [ 'favBtn',['$event'] ] ] ] ]}}" src="{{commodityInfo.favorite===1?'/static/captured/1ccd9aacfd5d0828.png':'/static/images/collectno.png'}}" style="width:41rpx;height:39rpx;" wx:if="{{ticketDetailObj.seckillActivity==0&&iconShow}}"></image>
         </view>
         <view class="intro-box data-v-16b9c0ec" wx:if="{{$root.g0}}">
             <view bindtap="__e" class="title-box data-v-16b9c0ec" data-event-opts="{{[ [ 'tap',[ [ 'showYh',['$event'] ] ] ] ]}}" style="margin-bottom:0;">
@@ -270,7 +270,7 @@
     </l-painter>
     <l-painter bind:__l="__l" bind:success="__e" class="data-v-16b9c0ec" customStyle="position: fixed; left: 200%" data-event-opts="{{[ [ '^success',[ ['e2'] ] ] ]}}" isCanvasToTempFilePath="{{true}}" vueId="c64dbcd4-20" vueSlots="{{['default']}}" wx:if="{{qrCode&&commodityInfo.sharePosterUrl}}">
         <l-painter-image bind:__l="__l" class="data-v-16b9c0ec" css="object-fit: fill;width:750rpx;" src="{{commodityInfo.sharePosterUrl}}" vueId="{{'c64dbcd4-21'+','+'c64dbcd4-20'}}"></l-painter-image>
-        <l-painter-image bind:__l="__l" class="data-v-16b9c0ec" css="object-fit: fill;width:750rpx;" src="https://eshopfile.zhiyousx.com/2022090511375406833.png" vueId="{{'c64dbcd4-22'+','+'c64dbcd4-20'}}"></l-painter-image>
+        <l-painter-image bind:__l="__l" class="data-v-16b9c0ec" css="object-fit: fill;width:750rpx;" src="/static/captured/f04b984cd6cc46be.png" vueId="{{'c64dbcd4-22'+','+'c64dbcd4-20'}}"></l-painter-image>
         <l-painter-image bind:__l="__l" class="data-v-16b9c0ec" css="object-fit: fill;width:155rpx;height:155rpx;position:absolute;bottom:13rpx;right:46rpx" src="{{qrCode}}" vueId="{{'c64dbcd4-23'+','+'c64dbcd4-20'}}"></l-painter-image>
     </l-painter>
     <u-popup bind:__l="__l" bind:input="__e" borderRadius="30" class="data-v-16b9c0ec" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','sharePopup','$event',[] ] ] ] ] ]}}" mode="bottom" value="{{sharePopup}}" vueId="c64dbcd4-24" vueSlots="{{['default']}}">
@@ -278,16 +278,16 @@
             <view class="title data-v-16b9c0ec">分享到</view>
             <view class="icon-box data-v-16b9c0ec" wx:if="{{$root.g2}}">
                 <view class="item data-v-16b9c0ec">
-                    <image mode class="icon data-v-16b9c0ec" src="https://eshopfile.zhiyousx.com/2022090510365178497.png"></image>
+                    <image mode class="icon data-v-16b9c0ec" src="/static/captured/09beb456e6c9cf66.png"></image>
                     <view class="t data-v-16b9c0ec">微信好友</view>
                     <button class="sharebtn data-v-16b9c0ec" data-aaa="111" openType="share"></button>
                 </view>
                 <view bindtap="__e" class="item data-v-16b9c0ec" data-event-opts="{{[ [ 'tap',[ [ 'e3',['$event'] ] ] ] ]}}" wx:if="{{$root.g3}}">
-                    <image mode class="icon data-v-16b9c0ec" src="https://eshopfile.zhiyousx.com/2022090510374178970.png"></image>
+                    <image mode class="icon data-v-16b9c0ec" src="/static/captured/47c174eba1561d42.png"></image>
                     <view class="t data-v-16b9c0ec">小程序码</view>
                 </view>
                 <view bindtap="__e" class="item data-v-16b9c0ec" data-event-opts="{{[ [ 'tap',[ [ 'e4',['$event'] ] ] ] ]}}" wx:if="{{$root.g4}}">
-                    <image mode class="icon data-v-16b9c0ec" src="https://eshopfile.zhiyousx.com/2022090510375744214.png"></image>
+                    <image mode class="icon data-v-16b9c0ec" src="/static/captured/25c23b41b665e00b.png"></image>
                     <view class="t data-v-16b9c0ec">海报</view>
                 </view>
             </view>

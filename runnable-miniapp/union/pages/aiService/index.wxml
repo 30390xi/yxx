@@ -1,11 +1,11 @@
 <view class="{{['page-box','data-v-6a8589f5',showHide?'page-box-image1':'page-box-image2']}}">
     <view bindtap="__e" class="data-v-6a8589f5" data-event-opts="{{[ [ 'tap',[ [ 'showFun',['$event'] ] ] ] ]}}" style="position:fixed;height:140rpx;width:100%;z-index:111;" wx:if="{{!showHide}}"></view>
     <uni-navbar bind:__l="__l" class="data-v-6a8589f5" type="transparentFixed" vueId="612c7e5f-1"></uni-navbar>
-    <image class="video_box1 data-v-6a8589f5" hidden="{{!showHide}}" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173647213623932206.png"></image>
-    <image class="video_box1 data-v-6a8589f5" hidden="{{!!showHide}}" mode="aspectFill" src="https://eshopfile.zhiyousx.com/173647694935403302.png"></image>
-    <image mode class="fireworks1 data-v-6a8589f5" src="https://eshopfile.zhiyousx.com/173650265898469613.png"></image>
-    <image mode class="fireworks2 data-v-6a8589f5" src="https://eshopfile.zhiyousx.com/173650482751437807.png"></image>
-    <image mode class="fireworks3 data-v-6a8589f5" src="https://eshopfile.zhiyousx.com/173650483980311452.png"></image>
+    <image class="video_box1 data-v-6a8589f5" hidden="{{!showHide}}" mode="aspectFill" src="/static/captured/dc2a64095f96cfa4.png"></image>
+    <image class="video_box1 data-v-6a8589f5" hidden="{{!!showHide}}" mode="aspectFill" src="/static/captured/36849ab10b1a28fe.png"></image>
+    <image mode class="fireworks1 data-v-6a8589f5" src="/static/captured/9bedbec22d0cda82.png"></image>
+    <image mode class="fireworks2 data-v-6a8589f5" src="/static/captured/bd8dab05bc1ff7ac.png"></image>
+    <image mode class="fireworks3 data-v-6a8589f5" src="/static/captured/23ad26a26325789b.png"></image>
     <z-paging bind:__l="__l" bind:hidedKeyboard="__e" bind:input="__e" bind:keyboardHeightChange="__e" bottomBgColor="{{resres>0?'#d62f18':'linear-gradient( 180deg, rgba(255,255,255,0) 0%, #FFD899 100%)'}}" class="data-v-6a8589f5 vue-ref" data-event-opts="{{[ [ '^hidedKeyboard',[ ['hidedKeyboard'] ] ],[ '^keyboardHeightChange',[ ['keyboardHeightChange'] ] ],[ '^input',[ [ '__set_model',[ '','dataList','$event',[] ] ] ] ] ]}}" data-ref="paging" safeAreaInsetBottom="{{isIos}}" style="position:fixed;z-index:11;" toBottomLoadingMoreEnabled="{{true}}" useChatRecordMode="{{true}}" value="{{dataList}}" vueId="612c7e5f-2" vueSlots="{{['default','top','bottom']}}">
         <view slot="top">
             <view bindtap="__e" class="data-v-6a8589f5" data-event-opts="{{[ [ 'tap',[ [ 'showFun',['$event'] ] ] ] ]}}" style="height:300rpx;width:100%;" wx:if="{{!showHide}}"></view>

@@ -1,0 +1,475 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941099",
+    "scenicName": "乾陵景区",
+    "tag": "一代女皇圣地，千古盛唐乾陵",
+    "level": 5,
+    "cityId": "1320661981349588993",
+    "cityName": "咸阳",
+    "address": "咸阳市乾县乾陵神道",
+    "longitude": "108.219323",
+    "latitude": "34.572203",
+    "openingStatus": 1,
+    "capacity": 8000,
+    "sequence": 47,
+    "topColour": "#C8C3BA",
+    "centralColour": "#706B67",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/100o1f000001gp3s825D2_R_1600_10000-20201028094819.jpg"
+    ],
+    "introduction": "<p>　　一对夫妇，两朝皇帝，合葬一室。乾陵是世界上最大的皇家陵园，气势恢宏，盛唐遗风浓郁，它埋葬着唐王朝第三位皇帝唐高宗李治和中国历史上唯一的女皇帝武则天，是世界上唯一的一座一对夫妻两朝皇帝的合葬陵。同时，乾陵又是迄今为止唯一未被盗掘的唐代帝王陵墓。至今，陵园内仍完好的保存着以无字碑为代表的大型石刻100多件，精美绝伦，有&ldquo;露天石雕艺术博物馆&rdquo;的美称。陵园东南方分布有陪葬墓17座，已发掘5座，目前对外开放的有永泰公主李仙惠、章怀太子李贤和懿德太子李重润3座陪葬墓，共出土各类文物4000多件。</p>",
+    "introductionText": "　　一对夫妇，两朝皇帝，合葬一室。乾陵是世界上最大的皇家陵园，气势恢宏，盛唐遗风浓郁，它埋葬着唐王朝第三位皇帝唐高宗李治和中国历史上唯一的女皇帝武则天，是世界上唯一的一座一对夫妻两朝皇帝的合葬陵。同时，乾陵又是迄今为止唯一未被盗掘的唐代帝王陵墓。至今，陵园内仍完好的保存着以无字碑为代表的大型石刻100多件，精美绝伦，有“露天石雕艺术博物馆”的美称。陵园东南方分布有陪葬墓17座，已发掘5座，目前对外开放的有永泰公主李仙惠、章怀太子李贤和懿德太子李重润3座陪葬墓，共出土各类文物4000多件。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026503708673",
+        "contentId": "1418152026491125761",
+        "name": "陕西4A级景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1608375821117603841",
+        "contentId": "1608375821109215234",
+        "name": "国家考古遗址公园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/167230146627310473.png"
+      },
+      {
+        "id": "1450028527872122881",
+        "contentId": "1450028527859539970",
+        "name": "陕西省文化遗址公园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "12月至次年2月",
+        "openTimeContent": "8:00-17:30"
+      },
+      {
+        "openTimeTitle": "3月至11月",
+        "openTimeContent": "8:00-18:30"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "老年人",
+        "limit": "65周岁（含）以上持身份证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "儿童",
+        "limit": "6周岁以下(含6周岁)或身高1.2米以下",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "现役军人（军队离退休干部）",
+        "limit": "凭军官证(离退休证)、士官证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "残疾人",
+        "limit": "凭残疾证",
+        "discount": "免费"
+      },
+      {
+        "peopleType": "记者",
+        "limit": "凭记者证",
+        "discount": "免费"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "10",
+        "name": "商店",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (19).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "11",
+        "name": "餐厅",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (22).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "59",
+        "name": "园内交通",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016420452783.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "6",
+        "name": "免费wifi",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (11).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": null,
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>1、在西安火车站乘坐西安市公交游3可直达乾陵。</p>\n<p>2、乘坐西安西线一日游参观乾陵---法门寺等。</p>\n<p>3、从西安城西客运站乘坐前往乾县的高速大巴。</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<p>1、驶出西安市西三环六村堡收费站</p>\n<p>2、沿绕城高速</p>\n<p>3 、沿机场高速开往西安咸阳国际机场方向，沿G70(西安---长武)高速，乾县或乾陵出口下即可。</p>\n<p>4、从宝鸡法门寺景区沿S209东行40公里到乾县----乾陵</p>\n<p>5、沿关中环线至礼泉县，在礼泉县右转上福银高速至乾陵出口下，直达乾陵。</p>\n<p>6、沿312国道到达乾县境内，乘坐旅游3路公交车可到达乾陵任意一个景点，车票3&mdash;5元；另外可乘坐乾县出租直达乾陵，票价15&mdash;20元。</p>\n<p>7、沿312国道到达乾县境内，直达乾陵。</p>"
+      }
+    ],
+    "officialWebsite": [
+      "https://www.zhongguoqianling.com/"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "旅游咨询",
+        "telephone": "029-35510222"
+      },
+      {
+        "telephoneTitle": "旅游投诉",
+        "telephone": "029-35510561"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "官方微信公众号",
+        "wxSubscriptionName": "乾陵",
+        "wxSubscription": "qianling35510222"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": "景区看点",
+    "contentResourcesDtoList": [
+      {
+        "id": "2089890934584172546",
+        "resourcesId": "1321269761177595905",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/58b255a8-7ff0-43fd-bc44-1f13bf1219a9-20201028095644.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2026-08-19 09:43:21",
+        "updateTime": "2026-08-19 09:43:21",
+        "createBy": "1790219374788558850",
+        "updateBy": "1790219374788558850",
+        "isDeleted": 0
+      },
+      {
+        "id": "2089890934588366850",
+        "resourcesId": "1321269761177595905",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021090217023180020.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2026-08-19 09:43:21",
+        "updateTime": "2026-08-19 09:43:21",
+        "createBy": "1790219374788558850",
+        "updateBy": "1790219374788558850",
+        "isDeleted": 0
+      },
+      {
+        "id": "2089890934588366851",
+        "resourcesId": "1321269761177595905",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021090217024165093.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2026-08-19 09:43:21",
+        "updateTime": "2026-08-19 09:43:21",
+        "createBy": "1790219374788558850",
+        "updateBy": "1790219374788558850",
+        "isDeleted": 0
+      },
+      {
+        "id": "2089890934592561154",
+        "resourcesId": "1321269761177595905",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/465f0df9-ceae-4af4-b0a6-874e70b21a71-20201028095659.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2026-08-19 09:43:21",
+        "updateTime": "2026-08-19 09:43:21",
+        "createBy": "1790219374788558850",
+        "updateBy": "1790219374788558850",
+        "isDeleted": 0
+      },
+      {
+        "id": "2089890934596755457",
+        "resourcesId": "1321269761177595905",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/ad012a0a-2f6b-4255-99f4-735ac4a8e15e-20201028095709.jpg",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2026-08-19 09:43:21",
+        "updateTime": "2026-08-19 09:43:21",
+        "createBy": "1790219374788558850",
+        "updateBy": "1790219374788558850",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455060076934045697",
+      "rankingId": null,
+      "indexInRanking": 6,
+      "rankingName": "咸阳亲子游景点排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": [
+      {
+        "id": "2089890934609338369",
+        "scenicSpotId": "1320579064720941099",
+        "contentModuleName": "景区看点",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1433719458492428290",
+            "type": 6,
+            "title": "唐高宗与武则天乾陵博物馆",
+            "subtitle": "中国陵墓博物馆",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021090316215288844.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1433725634298884097",
+            "type": 5,
+            "title": "无字碑",
+            "subtitle": "一代女皇武则天的千古之谜",
+            "coverImage": "https://eshopfile.zhiyousx.com/163066109539236226.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1433735934205079553",
+            "type": 5,
+            "title": "六十一蕃臣像",
+            "subtitle": "唐朝对外开放和民族大团结的真实写照",
+            "coverImage": "https://eshopfile.zhiyousx.com/163066420500205553.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1434694146655891458",
+            "type": 5,
+            "title": "章怀太子墓",
+            "subtitle": "武则天次子李贤之墓",
+            "coverImage": "https://eshopfile.zhiyousx.com/163089260506511194.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1434697074196197378",
+            "type": 5,
+            "title": "懿德太子墓",
+            "subtitle": "唐中宗李显长子李重润之墓",
+            "coverImage": "https://eshopfile.zhiyousx.com/163089317482804945.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1434699723540901890",
+            "type": 5,
+            "title": "永泰公主墓",
+            "subtitle": "武则天孙女李仙蕙之墓",
+            "coverImage": "https://eshopfile.zhiyousx.com/163089390155224828.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1433729748491677697",
+            "type": 5,
+            "title": "述圣纪碑",
+            "subtitle": "开帝王陵前立功德碑之先例",
+            "coverImage": "https://eshopfile.zhiyousx.com/163066262666095735.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -1,0 +1,618 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064595111945",
+    "scenicName": "南泥湾旧址",
+    "tag": "学习南泥湾精神，学习延安精神",
+    "level": -1,
+    "cityId": "1320663521644818433",
+    "cityName": "延安",
+    "address": "延安市宝塔区南泥湾乡",
+    "longitude": "109.6695290000",
+    "latitude": "36.3285590000",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "sequence": 141,
+    "topColour": "#C22525",
+    "centralColour": "#85181D",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021062812251858690.png"
+    ],
+    "introduction": "<p>　　南泥湾，山峦叠峰，沟壑纵横，林茂草密，风光秀丽。1941年春，八路军三五九旅在王震旅游长率领下，响应党中央《关于在边区及各抗日根据地开展大生产运动的决定》，进驻南泥湾，实行屯垦。短短3年多时间，他们把一个荆棘遍野、荒无人烟的南泥湾，变成了\"处处是庄稼，遍地是牛羊\"的陕北好江南。现为省级重点文物保护单位。现在供游人参观的有毛泽东视察南泥湾时的旧居(阳湾村半山坡)、南泥湾大生产运动展览馆、当年开垦的大片梯田、九龙泉和革命烈士纪念碑等。毛泽东同志当年视察时，看到战士们辛勤劳动的丰硕成果，高兴地对大家说：\"困难并不是不可征服的怪物，大家动手征服它，它就低头了。目前，我们没有外援，假定将来有了外援，我们还是要以自力更生为主\"。1942年，朱德邀谢觉哉、徐特立、吴玉章等老人视察南泥湾时，赋诗赞曰：\"去年初到此，遍地皆荒草。夜无宿营地，破窑亦难找。今辟新市场，洞房满山腰。平川种稼禾，水田栽新稻。农场牛羊肥，马兰造纸俏。屯田仅告成，战士粗温饱。熏风拂面来，有似江南好\"。</p>",
+    "introductionText": "　　南泥湾，山峦叠峰，沟壑纵横，林茂草密，风光秀丽。1941年春，八路军三五九旅在王震旅游长率领下，响应党中央《关于在边区及各抗日根据地开展大生产运动的决定》，进驻南泥湾，实行屯垦。短短3年多时间，他们把一个荆棘遍野、荒无人烟的南泥湾，变成了\"处处是庄稼，遍地是牛羊\"的陕北好江南。现为省级重点文物保护单位。现在供游人参观的有毛泽东视察南泥湾时的旧居(阳湾村半山坡)、南泥湾大生产运动展览馆、当年开垦的大片梯田、九龙泉和革命烈士纪念碑等。毛泽东同志当年视察时，看到战士们辛勤劳动的丰硕成果，高兴地对大家说：\"困难并不是不可征服的怪物，大家动手征服它，它就低头了。目前，我们没有外援，假定将来有了外援，我们还是要以自力更生为主\"。1942年，朱德邀谢觉哉、徐特立、吴玉章等老人视察南泥湾时，赋诗赞曰：\"去年初到此，遍地皆荒草。夜无宿营地，破窑亦难找。今辟新市场，洞房满山腰。平川种稼禾，水田栽新稻。农场牛羊肥，马兰造纸俏。屯田仅告成，战士粗温饱。熏风拂面来，有似江南好\"。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "18",
+        "name": "红色旅游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026361102337",
+        "contentId": "1418152026344325122",
+        "name": "全国红色旅游经典景区名录",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1450028527872122881",
+        "contentId": "1450028527859539970",
+        "name": "陕西省文化遗址公园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "开放区域",
+        "openTimeContent": "开放区域不限制游览时间。"
+      },
+      {
+        "openTimeTitle": "室内游览区域",
+        "openTimeContent": "南泥湾大生产运动展览馆、中央管理局干部休养所旧址等室内区域开放时间为：8:00-17:00。"
+      },
+      {
+        "openTimeTitle": "免费参观、游览",
+        "openTimeContent": "南泥湾风景区为免费景区，凭身份证、学生证等有效证件即可免费领票参观。"
+      }
+    ],
+    "discountVoList": null,
+    "facilitiesServicesVoList": [
+      {
+        "id": "5",
+        "name": "停车场",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (10).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "6",
+        "name": "免费wifi",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (11).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "7",
+        "name": "婴儿车租赁",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (12).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "9",
+        "name": "轮椅租赁",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (16).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "10",
+        "name": "商店",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (19).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "11",
+        "name": "餐厅",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (22).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "12",
+        "name": "吸烟区",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (25).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "55",
+        "name": "雨具租赁",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016423554250.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "58",
+        "name": "母婴室",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016412800311.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "56",
+        "name": "讲解器租赁",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016433125149.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "61",
+        "name": "讲解员",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016440410223.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "停车场",
+        "additionalExplainContent": "南泥湾风景区内共6个停车场，分别在稻香门、游客中心、桃宝峪、南泥湾大生产运动展览馆、南泥湾国家湿地公园、牛羊群草地（西大门），共提供1200个车位。<br/>参考收费：10元/次。"
+      },
+      {
+        "additionalExplainTitle": "游客服务中心",
+        "additionalExplainContent": "南泥湾风景区游客服务中心提供免费WIFI，还有婴儿车、轮椅、雨具租赁服务。"
+      },
+      {
+        "additionalExplainTitle": "母婴室",
+        "additionalExplainContent": "南泥湾风景区内的母婴室坐落在南泥湾大生产运动展览馆附近，详细位置请咨询景区游客服务中心。"
+      },
+      {
+        "additionalExplainTitle": "吸烟区",
+        "additionalExplainContent": "南泥湾风景区面积广阔，不设立独立吸烟区。请游客在开放空间吸烟，请勿乱丢烟头等垃圾。"
+      },
+      {
+        "additionalExplainTitle": "南泥湾大生产展览馆讲解服务",
+        "additionalExplainContent": "关注【南泥湾革命旧址管理处】微信公众号，回复数字4即可收听南泥湾大生产展览馆语音讲解。<br/>南泥湾大生产展览馆同时提供人工讲解服务，参考收费标准：30人以内（含30人80元），30人以上每增加一人加收5元。"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p><strong>南泥湾旅游公交</strong></p>\n<p>自延安市内乘坐南泥湾旅游公交直达。</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": ""
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": "<p>导航至【南泥湾风景区】即可。</p>"
+      }
+    ],
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区联系电话",
+        "telephone": "(0911)299-2186"
+      },
+      {
+        "telephoneTitle": "南泥湾（集团）文化旅游有限公司",
+        "telephone": "(0911)265-8193"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "订阅号",
+        "wxSubscriptionName": "南泥湾革命旧址管理处",
+        "wxSubscription": "nanniwangemingjiuzhi"
+      }
+    ],
+    "sinaWeiboVoList": null,
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [
+      {
+        "id": "1518161649549225985",
+        "outId": "1320579064595111945",
+        "type": 1,
+        "advertName": "南泥湾革命旧址 | “南泥湾精神”",
+        "advertPic": "https://eshopfile.zhiyousx.com/2021062817562761597.jpg",
+        "jumpType": 4,
+        "jumpUrl": "",
+        "interalLinkType": 1,
+        "interalLinkId": "",
+        "oldAppId": "",
+        "newAppId": "",
+        "appUrl": "",
+        "richText": "<p style=\"text-align: center;\"><strong>毛主席视察南泥湾</strong></p>\n<p><br />　　<strong>南泥湾精神是延安精神的重要组成部分</strong>，其自力更生，艰苦奋斗的精神内涵，激励着一代又一代中华儿女战胜困难，夺取胜利。延安时期，八路军三五九旅由王震率领，进驻延安以南的南泥湾，开荒种田，生产自救。三五九旅发扬&ldquo;自力更生，艰苦奋斗&rdquo;的革命精神，没有房，自己动手挖窑洞；没有菜，挖野菜吃；没有工具，就自制锄、铲，他们以惊人的毅力，在荒山野岭种上了庄稼。短短的三年，把荆棘遍野、荒无人烟的南泥湾变成&ldquo;处处是庄稼，遍地是牛羊&rdquo;的陕北好江南。开发前的南泥湾，是一片杂草丛生、豺狼成群、没有人烟的荒野。三五九旅积极响应毛主席&ldquo;自己动手，丰衣足食&rdquo;的号召，披星戴月，开荒种植，养猪烧炭，兴办商业和各类工厂，开展劳动竞赛，不仅逐步做到粮食、经费全部自给，而且在1944年还向边区政府缴纳公粮一万担。王震由于成绩卓著，被评为陕甘宁边区大生产劳动英雄。毛主席对南泥湾垦荒非常重视，还亲自到南泥湾进行了视察。</p>\n<p>　　1939年后，抗日战争进入相持阶段，日军对我根据地反复进行了大规模扫荡，国民党顽固派消极抗战积极反共，调集几十万军队包围陕甘宁边区，实行严密的军事包围和经济封锁，叫嚣着要&ldquo;饿死八路军，困死八路军&rdquo;。当时，边区地广人稀，土地贫瘠，仅有140万群众，要担负起几万干部、战士和学生的吃穿用，实在是一件难事。正如毛主席说的那样&ldquo;我们曾经弄到几乎没有衣穿，没有油吃、没有纸、没有菜、战士没有鞋袜，工作人员在冬天没有被盖&hellip;&hellip;我们的困难真是大极了&rdquo;。我军不但在军事上要对付日、顽两军的夹击，还要对付他们的经济封锁，困难真是到了极点。在这严峻的历史关头，毛主席提出了&ldquo;发展经济、保障供给&rdquo;的方针，动员广大军民开展大生产运动。1940年，朱德总司令根据中共中央关于开展大生产运动的指示精神亲赴南泥湾踏勘调查，决定在此屯垦自给。1941年春，八路军一二0师三五九旅奉命开进南泥湾，披荆斩棘，开荒种地，风餐露宿，在&ldquo;一把镢头、一支枪，生产自给保卫党中央&rdquo;的口号下，迅速掀起了生产热潮，战胜重重困难，积累了大量的物质财富。1942年，生产自给率达到61.55%；1943年，生产自给率达到100%,到1944年，三五九旅共开荒种地26.1万亩，收获粮食3.7万石，养猪5624头，上缴公粮1万石，达到了&ldquo;耕一余一&rdquo;。广大官兵硬是用自己的双手和汗水，短短的三年，把荆棘遍野、荒无人烟的南泥湾变成了陕北好江南。</p>\n<p>　　1943年2月，延安文艺界劳军团和鲁艺秧歌队80多人赴南泥湾劳军，萧三、艾青、田方等致慰问词。贺敬之作词，马可谱曲的歌舞《挑花蓝》唱道：&ldquo;陕北的好江南，鲜花开满山，学习那南泥湾，处处是江南，又战斗来又生产，三五九旅是模范&rdquo;，从此脍炙人口的名歌《南泥湾》诞生，唱遍了大江南北，唱得家喻户晓，都知道陕北有个好江南--南泥湾。</p>\n<p>　　1943年9月16日，毛主席视察了南泥湾，白天，由王震等人陪同，察看庄稼，巡视部队，和战士、老乡交谈，接见劳动英雄。晚上，住在阳湾的一个窑洞里，和旅团干部一起讨论工作。毛主席听了王震的军事工作汇报后说：&ldquo;好啊，你们这个地方还能放几个旅、几个团？你们首先要把兵练好，你们有吃有穿，就站住了脚。&rdquo;</p>\n<p>　　视察的第二天，毛主席在操场上检阅了部队，观看了战士们的刺杀、投弹、越障碍等军事表演。毛主席走进交通沟，察看了新修的作战工事后说：&ldquo;你们生产是模范，我看练兵也是模范。我们的军队，既要能打仗，又要会生产。既是战斗队，又是生产队、工作队。如果做到这一点，我们就会是孟夫子说过的：&lsquo;无敌于天下&rsquo;了。胡宗南还在我们门口，随时准备进犯边区，同志们要一面备战，一面生产。&rdquo;</p>\n<p>　　在参观了三五九旅办的打铁厂、食品加工厂、家属纺织厂后，主席说：&ldquo;你们组织起来了，生产自给，很了不起。这些工厂虽小，但解决了大问题。三五九旅的同志们穿的，用的，都比过去好多了。革命胜利后，要搞合作社，搞集体农庄，妇女都可以参加集体劳动。&rdquo;</p>\n<p>　　三五九旅共开荒种地达到了&ldquo;耕一余一&rdquo;。全体官兵用自己辛勤的汗水，将南泥湾名副其实地建成了陕北的好江南。毛主席高兴地说：&ldquo;困难，并不是不可征服的怪物。大家动手征服它，它就低头了。大家自力更生，吃的，穿的，用的都有了。目前，我们没有外援，假如将来有了外援，也还是要以自力更生为主。我们不能像国民党，他们连棉衣都靠外国人，我们要依靠自己的努力，依靠全体军民的创造力，自力更生，丰衣足食。&rdquo;</p>\n<p>　　南泥湾视察不久，毛主席在不到一年时间里，就写出了几篇指导解放区经济建设的重要论著，再次强调了&ldquo;发展经济，保障供给&rdquo;、&ldquo;自力更生，艰苦奋斗&rdquo;的建设口号。还提出了发展农业生产的基本政策，以及保护和发展工商业、兴办合作社、奖励劳动英雄等政策。大生产运动，为毛泽东经济思想增添了丰富的内容。</p>\n<p>　　当面对困难的经济形势时，毛主席在延安发动了大生产运动：他率先垂范，在杨家岭的办公窑洞前亲手开辟了一片荒地，种上辣椒、西红柿等蔬菜；朱德背着箩筐到处拾粪积肥；周恩来迅速成了纺线能手。同心同德，团结奋斗。大生产运动中，中央领导同志以身作则，带头参加劳动。在三五九旅，上自旅长，下至勤务员和炊事员，一律编入生产小组，同甘共苦，战胜困难。正是靠着这种同心同德、团结奋斗的精神和作风，根据地军民凭着自己的双手，不但摆脱了困难，而且创造了世界上少有的奇迹。三五九旅在南泥湾不到三年，就开荒二十六万亩，除粮食和日用品自给外，还上缴公粮二百五十万斤。这种自己动手、艰苦创业的工作作风被人颂之为&ldquo;南泥湾精神&rdquo;。1944年11月，三五九旅奔赴敌后抗日战场。出发前，毛主席、朱总司令特地检阅了这支英雄的部队。以后，三五九旅转战黄河内外，为中国人民解放事业和建设事业立下了不可磨灭的赫赫功勋。</p>\n<p>　　<strong>&ldquo;南泥湾精神&rdquo;，是我军在困境中奋起、在艰苦中发展的强大精神力量</strong>，是以八路军第三五九旅为代表的抗日军民，在著名的南泥湾大生产运动中创造的。为摆脱困境、战胜敌人的封锁，党中央和毛泽东同志号召边区军民积极开展大生产运动。八路军三五九旅开赴南泥湾屯田垦荒，指战员们艰苦奋战，实行战斗、生产、学习三结合，战胜了重重困难，把一个荒无人烟的南泥湾，变成了到处是庄稼、遍地是牛羊的&ldquo;陕北的好江南&rdquo;，成为全军大生产运动的一面光辉旗帜，也同时创造了宝贵的南泥湾精神。南泥湾精神，概括起来就是：&ldquo;自力更生、艰苦创业，同心同德、团结奋斗&rdquo;。南泥湾精神的宣传推广，极大地激发了抗日军民的生产热情，陕甘宁边区出现了五谷丰登、六畜兴旺、百业繁荣的可喜景象，为中国革命胜利奠定了坚实基础。</p>\n<p>　　<strong>&ldquo;南泥湾精神&rdquo;是我们民族永恒的精神财富和动力</strong>，南泥湾是中国共产党军垦事业的发祥地，是南泥湾精神的诞生地。作为延安精神的重要组成部分的南泥湾精神，不仅创造了一段历史，更为我党、我军的历史增添了光辉的一页。南泥湾、大生产、三五九旅这些概念鼓舞了几代人。尤其毛主席亲自为南泥湾的题词：&ldquo;自己动手&rdquo;，&ldquo;丰衣足食&rdquo;，已成为&ldquo;南泥湾精神&rdquo;的象征。</p>\n<p style=\"text-align: center;\">文章来源：陕西省南泥湾精神研究会</p>\n<p style=\"text-align: center;\">转自：共产党员网＞党建资料</p>\n<p style=\"text-align: center;\">版权归原作者所有</p>\n<p style=\"text-align: center;\">若有侵权请联系删除</p>",
+        "contentType": null,
+        "bannerPosition": 1
+      }
+    ],
+    "contentModuleName": "游览参观",
+    "contentResourcesDtoList": [
+      {
+        "id": "1518161649503088642",
+        "resourcesId": "1409455241690189825",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062818134256866.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2022-04-24 17:35:17",
+        "updateTime": "2022-04-24 17:35:17",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518161649507282946",
+        "resourcesId": "1409455241690189825",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062818135040220.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2022-04-24 17:35:17",
+        "updateTime": "2022-04-24 17:35:17",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518161649507282947",
+        "resourcesId": "1409455241690189825",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062818135663426.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2022-04-24 17:35:17",
+        "updateTime": "2022-04-24 17:35:17",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518161649507282948",
+        "resourcesId": "1409455241690189825",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062818140215154.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2022-04-24 17:35:17",
+        "updateTime": "2022-04-24 17:35:17",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518161649511477249",
+        "resourcesId": "1409455241690189825",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062818140971559.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2022-04-24 17:35:17",
+        "updateTime": "2022-04-24 17:35:17",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518161649511477250",
+        "resourcesId": "1409455241690189825",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062818141711562.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2022-04-24 17:35:17",
+        "updateTime": "2022-04-24 17:35:17",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518161649515671553",
+        "resourcesId": "1409455241690189825",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062818142383868.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 7,
+        "describe": null,
+        "createTime": "2022-04-24 17:35:17",
+        "updateTime": "2022-04-24 17:35:17",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518161649515671554",
+        "resourcesId": "1409455241690189825",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062818143009611.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 8,
+        "describe": null,
+        "createTime": "2022-04-24 17:35:17",
+        "updateTime": "2022-04-24 17:35:17",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518161649515671555",
+        "resourcesId": "1409455241690189825",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062818143934253.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 9,
+        "describe": null,
+        "createTime": "2022-04-24 17:35:17",
+        "updateTime": "2022-04-24 17:35:17",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      },
+      {
+        "id": "1518161649519865858",
+        "resourcesId": "1409455241690189825",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021062818144588962.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 10,
+        "describe": null,
+        "createTime": "2022-04-24 17:35:17",
+        "updateTime": "2022-04-24 17:35:17",
+        "createBy": "1511977558009303041",
+        "updateBy": "1511977558009303041",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455724365810343938",
+      "rankingId": null,
+      "indexInRanking": 19,
+      "rankingName": "延安必逛景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": [
+      {
+        "id": "1518161649524060161",
+        "scenicSpotId": "1320579064595111945",
+        "contentModuleName": "游览参观",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1409420249400446978",
+            "type": 5,
+            "title": "南泥湾大生产运动展览馆",
+            "subtitle": "自己动手，丰衣足食",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062815395106644.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1409421338573115394",
+            "type": 5,
+            "title": "南泥湾国家湿地公园",
+            "subtitle": "名副其实的“陕北好江南”",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062818152287067.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1409409197057085442",
+            "type": 5,
+            "title": "中央管理局干部休养所旧址",
+            "subtitle": "老一辈革命家休养赋诗之地",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062815075000563.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1409411634895622145",
+            "type": 5,
+            "title": "马坊村718团烈士纪念碑",
+            "subtitle": "民族英雄千古",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062815163398536.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1409412932634251266",
+            "type": 5,
+            "title": "九龙泉719团烈士纪念碑",
+            "subtitle": "为人民服务而光荣牺牲，为革命烈士要坚决复仇",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062815220927174.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1409410231712190465",
+            "type": 5,
+            "title": "八路军炮兵学校旧址",
+            "subtitle": "人民炮兵的摇篮",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062815133172339.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1409407103646404610",
+            "type": 5,
+            "title": "毛泽东视察南泥湾旧居",
+            "subtitle": "学习“南泥湾精神”",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062815120019129.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1409415905401737218",
+            "type": 5,
+            "title": "南泥湾梯田",
+            "subtitle": "处处是庄稼，遍地是牛羊",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062815313703999.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1409447368008503297",
+            "type": 5,
+            "title": "党徽广场",
+            "subtitle": "牢记使命，不忘初心",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062817431721747.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1409422368559960066",
+            "type": 5,
+            "title": "稻香门",
+            "subtitle": "丰收与生命之门",
+            "coverImage": "https://eshopfile.zhiyousx.com/2021062816003176232.png",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": null,
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": null,
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": null,
+    "openTimeTitle": null,
+    "reservationNoticeTitle": null,
+    "facilitiesServicesTitle": null,
+    "trafficGuideTitle": null,
+    "scenicInfoTitle": null,
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": 0,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": null,
+    "shareDescList": null,
+    "visitNoticeTitle": null,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": null,
+    "hotelArrivalDepartureTime": null,
+    "hotelChildrenBed": null,
+    "hotelPet": null,
+    "hotelBreakfast": null,
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": null,
+    "hotelPolicyTitle": null,
+    "storeInfoTitle": null,
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

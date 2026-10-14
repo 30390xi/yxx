@@ -2,7 +2,7 @@
     <view bindtap="__e" class="box data-v-25e97a6c" data-event-opts="{{[ [ 'tap',[ [ 'handleClickParent',['$event'] ] ] ] ]}}" style="{{'background:'+'url('+info.image+')'+';'+'background-position:'+'center center'+';'+'background-size:'+'cover'+';'}}">
         <view class="card-header data-v-25e97a6c">
             <view catchtap="__e" class="card-header-left data-v-25e97a6c" data-event-opts="{{[ [ 'tap',[ [ 'goBadge',['$event'] ] ] ] ]}}" wx:if="{{info.status===3}}">
-                <image class="data-v-25e97a6c" src="https://eshopfile.zhiyousx.com/2023102511025902887.png"></image>
+                <image class="data-v-25e97a6c" src="/static/captured/fccbb4d3051f3de1.png"></image>
                 <view class="data-v-25e97a6c" wx:if="{{info.activeMedalNum>0}}">{{info.activeMedalNum+'个勋章'}}</view>
                 <view class="data-v-25e97a6c" wx:else>暂无勋章</view>
             </view>
@@ -41,13 +41,13 @@
     <view class="card-footer data-v-25e97a6c">
         <view class="card-footer-left data-v-25e97a6c" wx:if="{{status===3&&info.saveMoneyVO.usedTicketNum}}">
             <view class="line-view data-v-25e97a6c">
-                <image class="data-v-25e97a6c" src="https://eshopfile.zhiyousx.com/2023102511531888128.png"></image>
+                <image class="data-v-25e97a6c" src="/static/captured/b68968a0887ac343.png"></image>
                 <view class="data-v-25e97a6c">已去过</view>
                 <view class="line-view-num data-v-25e97a6c">{{info.saveMoneyVO.usedTicketNum}}</view>
                 <view class="data-v-25e97a6c">个地点</view>
             </view>
             <view bindtap="__e" class="line-view data-v-25e97a6c" data-event-opts="{{[ [ 'tap',[ [ 'openCalculator',['$event'] ] ] ] ]}}">
-                <image class="data-v-25e97a6c" src="https://eshopfile.zhiyousx.com/2023102511525469667.png"></image>
+                <image class="data-v-25e97a6c" src="/static/captured/546b18ac192b2993.png"></image>
                 <view class="data-v-25e97a6c">为您节省</view>
                 <view class="line-view-num data-v-25e97a6c">{{info.saveMoneyVO.totalMoney}}</view>
                 <view class="data-v-25e97a6c">元</view>

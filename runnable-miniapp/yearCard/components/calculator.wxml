@@ -1,6 +1,6 @@
 <u-modal bind:__l="__l" bind:input="__e" borderRadius="20" class="calc-module data-v-2b806a1e" data-event-opts="{{[ [ '^input',[ [ '__set_model',[ '','show','$event',[] ] ] ] ] ]}}" showConfirmButton="{{false}}" showTitle="{{false}}" value="{{show}}" vueId="7d3b9d42-1" vueSlots="{{['default']}}">
     <view bindtap="__e" class="close-btn data-v-2b806a1e" data-event-opts="{{[ [ 'tap',[ [ 'close',['$event'] ] ] ] ]}}">
-        <image class="data-v-2b806a1e" src="https://eshopfile.zhiyousx.com/2023103014415331027.png"></image>
+        <image class="data-v-2b806a1e" src="/static/captured/4232d38f944978c5.png"></image>
     </view>
     <view class="slot-content data-v-2b806a1e">
         <view class="card-title data-v-2b806a1e">{{''+(status===1?'购买1张':'')+info.title}}</view>
@@ -35,7 +35,7 @@
         <view class="buyBtns data-v-2b806a1e" wx:else>
             <view class="red-btn disabled data-v-2b806a1e">已结束</view>
         </view>
-        <view bindtap="__e" class="exchange data-v-2b806a1e" data-event-opts="{{[ [ 'tap',[ [ 'goExchange',['$event'] ] ] ] ]}}">兑换码兑换<image class="data-v-2b806a1e" src="https://eshopfile.zhiyousx.com/2023103015502384685.png"></image>
+        <view bindtap="__e" class="exchange data-v-2b806a1e" data-event-opts="{{[ [ 'tap',[ [ 'goExchange',['$event'] ] ] ] ]}}">兑换码兑换<image class="data-v-2b806a1e" src="/static/captured/aae64f04ada4e15c.png"></image>
         </view>
     </view>
 </u-modal>

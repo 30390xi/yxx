@@ -27,15 +27,15 @@
         <view class="product-title model-item data-v-300a0028">
             <view class="name _p data-v-300a0028">{{detailInfo.orderItem.itemName}}</view>
             <view class="info-item data-v-300a0028" style="margin-top:30rpx;" wx:if="{{detailInfo.orderItem.lineRelationName}}">
-                <image class="icon data-v-300a0028" src="https://eshopfile.zhiyousx.com/2023091811405282175.png"></image>
+                <image class="icon data-v-300a0028" src="/static/captured/17cc246bdad2f05a.png"></image>
                 <view class="text _p data-v-300a0028">{{detailInfo.orderItem.lineRelationName}}</view>
             </view>
             <view class="info-item data-v-300a0028">
-                <image class="icon data-v-300a0028" src="https://eshopfile.zhiyousx.com/169743772196248318.png"></image>
+                <image class="icon data-v-300a0028" src="/static/captured/be16d639765157fd.png"></image>
                 <view class="text _p data-v-300a0028">{{$root.m2+' '+(detailInfo.fromTime==detailInfo.toTime?detailInfo.fromTime+'当天往返':detailInfo.fromTime+'出发'+detailInfo.toTime+'返回')+''}}</view>
             </view>
             <view class="info-item data-v-300a0028">
-                <image class="icon data-v-300a0028" src="https://eshopfile.zhiyousx.com/169743778503888972.png"></image>
+                <image class="icon data-v-300a0028" src="/static/captured/f8b9638353fb23a9.png"></image>
                 <view class="text _p data-v-300a0028">{{$root.m3}}</view>
             </view>
         </view>
@@ -83,8 +83,8 @@
             </view>
             <view class="num data-v-300a0028">{{item.idCard}}</view>
             <view class="type data-v-300a0028">证件号</view>
-            <image bindtap="__e" class="icon data-v-300a0028" data-event-opts="{{[ [ 'tap',[ [ 'queryIdCard',[0,'$0'],[ [ ['detailInfo.visitorInfoVos','',index] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/168492134271144514.png" wx:if="{{!item.isCloseId}}"></image>
-            <image bindtap="__e" class="icon data-v-300a0028" data-event-opts="{{[ [ 'tap',[ [ 'queryIdCard',[1,'$0'],[ [ ['detailInfo.visitorInfoVos','',index] ] ] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/168492259404793104.png" wx:if="{{item.isCloseId}}"></image>
+            <image bindtap="__e" class="icon data-v-300a0028" data-event-opts="{{[ [ 'tap',[ [ 'queryIdCard',[0,'$0'],[ [ ['detailInfo.visitorInfoVos','',index] ] ] ] ] ] ]}}" src="/static/captured/522f50b3281db509.png" wx:if="{{!item.isCloseId}}"></image>
+            <image bindtap="__e" class="icon data-v-300a0028" data-event-opts="{{[ [ 'tap',[ [ 'queryIdCard',[1,'$0'],[ [ ['detailInfo.visitorInfoVos','',index] ] ] ] ] ] ]}}" src="/static/captured/6989ca664d2f4eeb.png" wx:if="{{item.isCloseId}}"></image>
         </view>
     </view>
     <view class="model predetermine data-v-300a0028">
@@ -92,8 +92,8 @@
         <view class="predetermine-item data-v-300a0028">
             <view class="name _p data-v-300a0028">{{detailInfo.contactPerson}}</view>
             <view class="phone _p data-v-300a0028">{{detailInfo.contactTel}}</view>
-            <image bindtap="__e" class="icon data-v-300a0028" data-event-opts="{{[ [ 'tap',[ [ 'queryPhone',[0,'$0'],['detailInfo'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/168492134271144514.png" wx:if="{{!detailInfo.isClose}}"></image>
-            <image bindtap="__e" class="icon data-v-300a0028" data-event-opts="{{[ [ 'tap',[ [ 'queryPhone',[1,'$0'],['detailInfo'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/168492259404793104.png" wx:if="{{detailInfo.isClose}}"></image>
+            <image bindtap="__e" class="icon data-v-300a0028" data-event-opts="{{[ [ 'tap',[ [ 'queryPhone',[0,'$0'],['detailInfo'] ] ] ] ]}}" src="/static/captured/522f50b3281db509.png" wx:if="{{!detailInfo.isClose}}"></image>
+            <image bindtap="__e" class="icon data-v-300a0028" data-event-opts="{{[ [ 'tap',[ [ 'queryPhone',[1,'$0'],['detailInfo'] ] ] ] ]}}" src="/static/captured/6989ca664d2f4eeb.png" wx:if="{{detailInfo.isClose}}"></image>
         </view>
     </view>
     <view class="model order-info data-v-300a0028" wx:if="{{detailInfo.lineOrderOtherInfoDTOList[0]}}">
@@ -123,7 +123,7 @@
         </view>
         <view class="info-item data-v-300a0028">
             <view class="name _p data-v-300a0028">供应商</view>
-            <view bindtap="__e" class="content _p data-v-300a0028" data-event-opts="{{[ [ 'tap',[ [ 'goTravelAgency',['$0'],['detailInfo.travelAgencyId'] ] ] ] ]}}">{{''+detailInfo.travelAgencyName+''}}<image class="content-icon data-v-300a0028" src="https://eshopfile.zhiyousx.com/169752565139220610.png"></image>
+            <view bindtap="__e" class="content _p data-v-300a0028" data-event-opts="{{[ [ 'tap',[ [ 'goTravelAgency',['$0'],['detailInfo.travelAgencyId'] ] ] ] ]}}">{{''+detailInfo.travelAgencyName+''}}<image class="content-icon data-v-300a0028" src="/static/captured/29a88b382cfee9e6.png"></image>
             </view>
         </view>
     </view>

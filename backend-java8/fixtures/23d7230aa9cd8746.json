@@ -1,0 +1,26 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1770060462936485890",
+    "contentId": "1770060462919708673",
+    "rankingName": "洋县宝藏美食店铺",
+    "rankingClass": "2",
+    "rankingType": "3",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/171085010595480838.png",
+    "rankingDescribe": "洋县美食比美景低调很多，观赏油菜花之外当然也不能错过了！",
+    "rankingTotalUserData": "人喜爱",
+    "rankingInclude": "个目的地",
+    "rankingPersonalInfo": "我去过的目的地",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#FBAB3C",
+    "tagUrl": null,
+    "travelMapFlag": null,
+    "type": "7",
+    "rankingItemList": null,
+    "sumCount": "4",
+    "favoriteSum": null,
+    "personalInfoValue": null
+  },
+  "msg": "成功",
+  "success": true
+}

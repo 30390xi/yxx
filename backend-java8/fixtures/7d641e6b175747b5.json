@@ -1,0 +1,427 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1320579064720941064",
+    "scenicName": "咸阳博物院",
+    "tag": "梦回秦汉",
+    "level": -1,
+    "cityId": "1320661981349588993",
+    "cityName": "咸阳",
+    "address": "咸阳市中山街53号",
+    "longitude": "108.724731",
+    "latitude": "34.33437",
+    "openingStatus": 1,
+    "capacity": 1500,
+    "sequence": 135,
+    "topColour": "#A66C6C",
+    "centralColour": "#7F4545",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021090109371862698.jpg"
+    ],
+    "introduction": "<p>　　咸阳博物院地处咸阳市中山街中段，创建于1962年，馆址系明洪武四年（1371年）所建的文庙，主体建筑由牌楼、前殿、正殿、后殿等组成，保存完整，气势雄伟，第六批全国重点文物保护单位，国家3A级旅游景区。咸阳博物馆馆藏文物2万余件，珍贵文物有：汉代玉马、玉俑头、彩绘指挥俑、鲁王虎符；战国时期错金银鼎、安邑下官锺、龙钮錞于；唐代刻花赤金壶、三彩单峰驼等。辟有8个展厅，五大方面的内容、3800余件文物向观众展示：&ldquo;秦咸阳历史文物陈列&rdquo;博大精深，西汉三千彩绘兵马俑享誉中外，&ldquo;宗教文物陈列&rdquo;种类齐全，&ldquo;碑石陈列&rdquo;雅俗共赏，&ldquo;馆藏玉器玉器精品展&rdquo;珍品荟萃。咸阳博物馆以优美的环境、优尚的陈列和优质的服务，迎接八方宾朋，是咸阳市亮丽的&ldquo;城市名片&rdquo;。</p>",
+    "introductionText": "　　咸阳博物院地处咸阳市中山街中段，创建于1962年，馆址系明洪武四年（1371年）所建的文庙，主体建筑由牌楼、前殿、正殿、后殿等组成，保存完整，气势雄伟，第六批全国重点文物保护单位，国家3A级旅游景区。咸阳博物馆馆藏文物2万余件，珍贵文物有：汉代玉马、玉俑头、彩绘指挥俑、鲁王虎符；战国时期错金银鼎、安邑下官锺、龙钮錞于；唐代刻花赤金壶、三彩单峰驼等。辟有8个展厅，五大方面的内容、3800余件文物向观众展示：“秦咸阳历史文物陈列”博大精深，西汉三千彩绘兵马俑享誉中外，“宗教文物陈列”种类齐全，“碑石陈列”雅俗共赏，“馆藏玉器玉器精品展”珍品荟萃。咸阳博物馆以优美的环境、优尚的陈列和优质的服务，迎接八方宾朋，是咸阳市亮丽的“城市名片”。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "1",
+        "name": "历史人文",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "20",
+        "name": "博物馆",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "70",
+        "name": "研学游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [
+      {
+        "id": "1418152026327547906",
+        "contentId": "1418152026310770690",
+        "name": "国家一级博物馆",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      },
+      {
+        "id": "1418152026478542849",
+        "contentId": "1418152026470154242",
+        "name": "全国重点文物保护单位",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072309393482481.png"
+      }
+    ],
+    "noticeMsg": "<p align=\"justify\">参观须知：</p>\n<p align=\"justify\">1、请参观者凭有效证件在领票窗口领票，或自动取票，当日有效。</p>\n<p align=\"justify\">2、幼儿、高龄及行动不便者参观须有人陪同。</p>\n<p align=\"justify\">3、严禁携带打火机、刀具等危险品进入展区。</p>\n<p align=\"justify\">4、文明参观，请勿大声喧哗、乱涂乱画。</p>\n<p align=\"justify\">5、团体参观可提前预约，需要讲解的观众请办理相关手续。</p>\n<p align=\"justify\">6、为了保证观众参观效果，每天限制接待量1500人次。</p>",
+    "noticeMsgText": null,
+    "openTimeVoList": [
+      {
+        "openTimeTitle": "全年",
+        "openTimeContent": "周二至周日<br/>9:00-17:00,17:00停止入场"
+      },
+      {
+        "openTimeTitle": "全年",
+        "openTimeContent": "周一闭馆<br/>法定节假日除外"
+      }
+    ],
+    "discountVoList": [
+      {
+        "peopleType": "全员",
+        "limit": "无",
+        "discount": "免费"
+      }
+    ],
+    "facilitiesServicesVoList": [
+      {
+        "id": "8",
+        "name": "宠物禁止入园",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (13).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "61",
+        "name": "讲解员",
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021061016440410223.png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "6",
+        "name": "免费wifi",
+        "tagUrl": "https://eshopfile.zhiyousx.com/spotIntroNew/spotIntroNew (11).png",
+        "tagType": "SCENIC_SPORT_FACILITIES_SERVICES_TAG",
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "additionalExplainVoList": [
+      {
+        "additionalExplainTitle": "讲解服务",
+        "additionalExplainContent": "团体讲解可与咸阳博物院宣教部联系，个人讲解可通过院内手机智能讲解“赛导游”系统自助听讲，院内及展厅WIFI全覆盖。"
+      },
+      {
+        "additionalExplainTitle": "讲解预约电话",
+        "additionalExplainContent": "029-33231998<br/>33248941"
+      }
+    ],
+    "trafficGuideVoList": [
+      {
+        "trafficType": 1,
+        "trafficContent": "<p>咸阳郭杜线-咸阳湖管理处站</p>\n<p>步行403米到达</p>\n<p>26路-统一广场站</p>\n<p>步行969米到达</p>\n<p>19路-咸阳湖管理处站</p>\n<p>步行400米到达</p>\n<p>58路-市中心医院站</p>\n<p>步行862米到达</p>"
+      },
+      {
+        "trafficType": 2,
+        "trafficContent": "<p>西安市区可乘西安地铁1号线在后卫寨站下车，转乘56路公交车在博物馆站下车。</p>"
+      },
+      {
+        "trafficType": 3,
+        "trafficContent": ""
+      }
+    ],
+    "officialWebsite": [
+      "http://sxxy.wenming.cn/fx/zt/2018zt/2018xybwg/index.shtml"
+    ],
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "029-33213015"
+      },
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "029-33231998"
+      },
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0910-3213015"
+      }
+    ],
+    "wxSubscriptionVoList": [
+      {
+        "wxSubscriptionType": "服务号",
+        "wxSubscriptionName": "咸阳博物院官微",
+        "wxSubscription": "xybwygw"
+      }
+    ],
+    "sinaWeiboVoList": [
+      {
+        "sinaWeibo": "咸阳博物院",
+        "sinaWeiboUrl": "https://weibo.com/u/5247931157"
+      }
+    ],
+    "tiktokVoList": null,
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": "精品馆藏",
+    "contentResourcesDtoList": [
+      {
+        "id": "1827999188895989761",
+        "resourcesId": "1321348372840603650",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021090111063213083.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2024-08-26 17:19:03",
+        "updateTime": "2024-08-26 17:19:03",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1827999188900184066",
+        "resourcesId": "1321348372840603650",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021090110343210068.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2024-08-26 17:19:03",
+        "updateTime": "2024-08-26 17:19:03",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1827999188904378369",
+        "resourcesId": "1321348372840603650",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021090110344117904.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2024-08-26 17:19:03",
+        "updateTime": "2024-08-26 17:19:03",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1827999188904378370",
+        "resourcesId": "1321348372840603650",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021090110345095489.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2024-08-26 17:19:03",
+        "updateTime": "2024-08-26 17:19:03",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1827999188908572674",
+        "resourcesId": "1321348372840603650",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021090110350136513.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 5,
+        "describe": null,
+        "createTime": "2024-08-26 17:19:03",
+        "updateTime": "2024-08-26 17:19:03",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      },
+      {
+        "id": "1827999188908572675",
+        "resourcesId": "1321348372840603650",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021090110405930537.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 6,
+        "describe": null,
+        "createTime": "2024-08-26 17:19:03",
+        "updateTime": "2024-08-26 17:19:03",
+        "createBy": "1376477871874289666",
+        "updateBy": "1376477871874289666",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1439119981701840898",
+      "rankingId": null,
+      "indexInRanking": 34,
+      "rankingName": "陕西人气博物馆排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [
+      {
+        "contentId": "1658303499793903618",
+        "rankingId": "1658303501412904962",
+        "indexInRanking": null,
+        "rankingName": "历史文化类博物馆人气榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      },
+      {
+        "contentId": "1680835374538088449",
+        "rankingId": "1680835375632801794",
+        "indexInRanking": null,
+        "rankingName": "陕西省热搜50强博物馆排行榜",
+        "rankingType": 1,
+        "tagUrl": "https://eshopfile.zhiyousx.com/2021072310285317169.png"
+      }
+    ],
+    "scenicSpotRelationList": [
+      {
+        "id": "1827999188921155585",
+        "scenicSpotId": "1320579064720941064",
+        "contentModuleName": "精品馆藏",
+        "contentModuleSubName": null,
+        "sort": 1,
+        "scenicSpotRelationContentList": null,
+        "contentInfoVOList": [
+          {
+            "id": "1432902126656401409",
+            "type": 5,
+            "title": "玉仙人奔马",
+            "subtitle": "镇馆之宝",
+            "coverImage": "https://eshopfile.zhiyousx.com/163046517009724917.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1432899162709536769",
+            "type": 5,
+            "title": "唐錾花金执壶",
+            "subtitle": "唐代金壶",
+            "coverImage": "https://eshopfile.zhiyousx.com/163046412129328449.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          },
+          {
+            "id": "1435453135815553025",
+            "type": 5,
+            "title": "玉辟邪",
+            "subtitle": "祥瑞辟邪之物",
+            "coverImage": "https://eshopfile.zhiyousx.com/163107343251162376.jpg",
+            "likeRatio": null,
+            "content": null,
+            "h5Url": null
+          }
+        ]
+      }
+    ],
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "ticketAreaNoticeText": null,
+    "scenicPicFlag": 0,
+    "hiddenFlag": 0,
+    "closeJumpFlag": 0,
+    "visitorNumIcon": "[{},{},{},{},{}]",
+    "visitorNumFlag": 1,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "scenicInfoTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketHiddenFlag": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "ticketAreaTitle": null,
+    "ticketAreaDescribe": null,
+    "ticketAreaBuyNumDescribe": null,
+    "specialRecommendationVoList": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "hotelReceptionPolicy": "",
+    "hotelArrivalDepartureTime": "",
+    "hotelChildrenBed": "",
+    "hotelPet": "",
+    "hotelBreakfast": "",
+    "hotelFacilitiesServicesSysTagVo": null,
+    "hotelAdditionalExplainVo": null,
+    "interestTagList": null,
+    "storeVoList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

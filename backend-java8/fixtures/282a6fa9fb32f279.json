@@ -1,0 +1,209 @@
+{
+  "code": 1,
+  "data": {
+    "scenicId": "1446301516540420097",
+    "scenicName": "木耳小镇",
+    "tag": "木耳也是风景",
+    "level": 3,
+    "address": "商洛市柞水县下梁镇西川现代农业示范园",
+    "longitude": "109.175982",
+    "latitude": "33.710796",
+    "openingStatus": 1,
+    "capacity": 9999,
+    "topColour": "#B0B25D",
+    "centralColour": "#949647",
+    "mainPictureList": [
+      "https://eshopfile.zhiyousx.com/2021100810173180405.png"
+    ],
+    "introduction": "<p>　　秦岭多宝，木耳就是其中之一。为了使木耳成为促进农民脱贫致富的主导产业，形成规模效应，丰富品牌内涵，柞水县倾力在西川打造了木耳小镇，使木耳成为当地最独特的一道风景。小火车、铁轨、木耳、小别墅&hellip;&hellip;众多元素在秦岭山中这个原本默默无闻的小山村的集聚。漫步其中，仿若置身于木耳主题的生态公园。走近木耳种植，村里的地栽木耳面积大，有气势，成了一景。</p>",
+    "introductionText": "　　秦岭多宝，木耳就是其中之一。为了使木耳成为促进农民脱贫致富的主导产业，形成规模效应，丰富品牌内涵，柞水县倾力在西川打造了木耳小镇，使木耳成为当地最独特的一道风景。小火车、铁轨、木耳、小别墅……众多元素在秦岭山中这个原本默默无闻的小山村的集聚。漫步其中，仿若置身于木耳主题的生态公园。走近木耳种植，村里的地栽木耳面积大，有气势，成了一景。",
+    "otherIntroduction": "",
+    "sysTagVoList": [
+      {
+        "id": "68",
+        "name": "旅游小镇",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagPeopleVoList": [
+      {
+        "id": "3",
+        "name": "亲子游",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      },
+      {
+        "id": "52",
+        "name": "夕阳红",
+        "tagUrl": null,
+        "tagType": null,
+        "parentId": "0",
+        "scenicSportTertiaryChildTypeTagList": null,
+        "itemCount": null
+      }
+    ],
+    "tagIncludeVoList": [],
+    "noticeMsg": "",
+    "discountVoList": null,
+    "officialWebsite": null,
+    "telephoneVoList": [
+      {
+        "telephoneTitle": "景区热线",
+        "telephone": "0914-4321207"
+      }
+    ],
+    "topBannerList": [],
+    "bannerList": [],
+    "contentModuleName": "",
+    "contentResourcesDtoList": [
+      {
+        "id": "2003043756304564226",
+        "resourcesId": "1446301516527837187",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021100810280829708.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 1,
+        "describe": null,
+        "createTime": "2025-12-22 18:03:40",
+        "updateTime": "2025-12-22 18:03:40",
+        "createBy": "1440616180967620609",
+        "updateBy": "1440616180967620609",
+        "isDeleted": 0
+      },
+      {
+        "id": "2003043756308758529",
+        "resourcesId": "1446301516527837187",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021100810281841945.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 2,
+        "describe": null,
+        "createTime": "2025-12-22 18:03:40",
+        "updateTime": "2025-12-22 18:03:40",
+        "createBy": "1440616180967620609",
+        "updateBy": "1440616180967620609",
+        "isDeleted": 0
+      },
+      {
+        "id": "2003043756308758530",
+        "resourcesId": "1446301516527837187",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021100810282787122.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 3,
+        "describe": null,
+        "createTime": "2025-12-22 18:03:40",
+        "updateTime": "2025-12-22 18:03:40",
+        "createBy": "1440616180967620609",
+        "updateBy": "1440616180967620609",
+        "isDeleted": 0
+      },
+      {
+        "id": "2003043756312952834",
+        "resourcesId": "1446301516527837187",
+        "title": null,
+        "resourcesUrl": "https://eshopfile.zhiyousx.com/2021100810283658923.png",
+        "coverImage": null,
+        "videoId": null,
+        "resourcesType": 1,
+        "sequence": 4,
+        "describe": null,
+        "createTime": "2025-12-22 18:03:40",
+        "updateTime": "2025-12-22 18:03:40",
+        "createBy": "1440616180967620609",
+        "updateBy": "1440616180967620609",
+        "isDeleted": 0
+      }
+    ],
+    "realTimeNum": null,
+    "originSortInRankingVO": {
+      "contentId": "1455809122913067009",
+      "rankingId": null,
+      "indexInRanking": 25,
+      "rankingName": "商洛自驾游景点人气排行榜",
+      "rankingType": null,
+      "tagUrl": null
+    },
+    "originRankingList": [],
+    "scenicSpotRelationList": null,
+    "noticeTitel": null,
+    "ticketAreaNoticeName": null,
+    "ticketAreaNotice": "",
+    "closeJumpFlag": 0,
+    "openTimeIcon": null,
+    "positionIcon": null,
+    "introductionTitle": "",
+    "openTimeTitle": "",
+    "reservationNoticeTitle": "",
+    "facilitiesServicesTitle": "",
+    "trafficGuideTitle": "",
+    "shareDesc": null,
+    "shareImage": null,
+    "ticketTitle": null,
+    "ticketDesc": null,
+    "salesNumDesc": null,
+    "visitorNumIconList": [
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      },
+      {
+        "icon": null,
+        "level": null
+      }
+    ],
+    "shareDescList": null,
+    "visitNoticeTitle": "",
+    "visitorNumFlag": 1,
+    "scenicType": 0,
+    "type": 1,
+    "perCapitaConsumption": null,
+    "businessHours": null,
+    "businessType": null,
+    "hotelRoomNum": null,
+    "hotelSpecialTagList": null,
+    "interestTagList": null,
+    "specialRecommendationTitle": "",
+    "hotelPolicyTitle": "",
+    "storeInfoTitle": "",
+    "noCouponFlag": 0,
+    "trafficSwitch": 1,
+    "facilitiesSwitch": 1,
+    "locateSwitch": 1,
+    "openScreenFlag": null,
+    "openScreenImg": null,
+    "evaluation": 0,
+    "selloutSuggestTicketType": 1,
+    "selloutSuggestFlag": "0",
+    "popAdvertList": [],
+    "stockOutRegisterFlag": 0,
+    "antiBrushFlag": 0
+  },
+  "msg": "成功",
+  "success": true
+}

@@ -76,9 +76,9 @@
                 <scroll-view class="card-box data-v-71b64d50" scrollY="{{true}}" style="{{'height:'+(gbCl>3?'604rpx':gbCl==1?'255rpx':gbCl*151+'rpx')+';'}}">
                     <view class="data-v-71b64d50">
                         <view class="{{['data-v-71b64d50',gbCl==1?'candItem1':'',gbCl>1?'candItem':'']}}" wx:for="{{$root.l0}}" wx:for-index="i" wx:for-item="it">
-                            <image mode class="it-img1 data-v-71b64d50" src="https://eshopfile.zhiyousx.com/166384545957301610.png" wx:if="{{gbCl>1&&i==0}}"></image>
-                            <image mode class="it-img2 data-v-71b64d50" src="https://eshopfile.zhiyousx.com/166384386610789834.png" wx:if="{{gbCl>1&&i>0&&i<gbCl-1}}"></image>
-                            <image mode class="it-img3 data-v-71b64d50" src="https://eshopfile.zhiyousx.com/166384545957301610.png" wx:if="{{gbCl>1&&gbCl-i==1}}"></image>
+                            <image mode class="it-img1 data-v-71b64d50" src="/static/captured/f2e7f03034cfff25.png" wx:if="{{gbCl>1&&i==0}}"></image>
+                            <image mode class="it-img2 data-v-71b64d50" src="/static/captured/ce87d44f6357412a.png" wx:if="{{gbCl>1&&i>0&&i<gbCl-1}}"></image>
+                            <image mode class="it-img3 data-v-71b64d50" src="/static/captured/f2e7f03034cfff25.png" wx:if="{{gbCl>1&&gbCl-i==1}}"></image>
                             <view class="item-card-box data-v-71b64d50">
                                 <view class="left data-v-71b64d50">
                                     <image class="data-v-71b64d50" mode="aspectFill" src="{{it.$orig.couponImage}}"></image>

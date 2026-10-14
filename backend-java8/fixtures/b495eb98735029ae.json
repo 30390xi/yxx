@@ -1,0 +1,138 @@
+{
+  "code": 1,
+  "data": {
+    "id": "1418152026327547906",
+    "contentId": "1418152026310770690",
+    "rankingName": "国家一级博物馆",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/162702098245789519.jpg",
+    "rankingDescribe": "　　国家文物局根据最新的《博物馆评估暂行标准》，从博物馆综合管理与基础设施、藏品管理与科学研究、陈列展览与社会服务等方面进行评比，将博物馆从高到低依次划分为一级、二级、三级三个等级。截至目前，陕西共15家博物馆入选国家一级博物馆名录。",
+    "rankingTotalUserData": "000",
+    "rankingInclude": "个博物馆",
+    "rankingPersonalInfo": "我去过的博物馆",
+    "rankingSharePictureUrl": null,
+    "bottomColour": "#F6A700",
+    "tagUrl": null,
+    "travelMapFlag": null,
+    "type": "7",
+    "rankingItemList": [
+      {
+        "originId": "1320579064720941117",
+        "originType": "1",
+        "originName": "西安大唐西市博物馆",
+        "originSubtitleName": "盛世之都，西市留痕",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021072710523967523.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021072710591808828.jpg",
+          "https://eshopfile.zhiyousx.com/2021072710241694214.png",
+          "https://eshopfile.zhiyousx.com/2021072710240453161.png",
+          "https://eshopfile.zhiyousx.com/2021072710244093144.png",
+          "https://eshopfile.zhiyousx.com/2021072710580948630.jpg",
+          "https://eshopfile.zhiyousx.com/2021072710234871427.png",
+          "https://eshopfile.zhiyousx.com/2021072710244978868.png",
+          "https://eshopfile.zhiyousx.com/2021072710581925659.jpg",
+          "https://eshopfile.zhiyousx.com/2021072710583088266.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064720941080",
+        "originType": "1",
+        "originName": "汉中市博物馆",
+        "originSubtitleName": "登望江楼，欣赏摩崖石刻",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021090111322696886.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021091310195853181.png",
+          "https://eshopfile.zhiyousx.com/2021091310292002774.png",
+          "https://eshopfile.zhiyousx.com/2021091310201653232.png",
+          "https://eshopfile.zhiyousx.com/2021091310274101708.png",
+          "https://eshopfile.zhiyousx.com/2021091310200751083.png",
+          "https://eshopfile.zhiyousx.com/2021091310275061612.png"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1320579064720941064",
+        "originType": "1",
+        "originName": "咸阳博物院",
+        "originSubtitleName": "梦回秦汉",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021090109371862698.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021090111063213083.png",
+          "https://eshopfile.zhiyousx.com/2021090110343210068.png",
+          "https://eshopfile.zhiyousx.com/2021090110344117904.png",
+          "https://eshopfile.zhiyousx.com/2021090110345095489.png",
+          "https://eshopfile.zhiyousx.com/2021090110350136513.png",
+          "https://eshopfile.zhiyousx.com/2021090110405930537.png"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1437268738368962561",
+        "originType": "1",
+        "originName": "法门寺博物馆",
+        "originSubtitleName": "大唐文化放异彩",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021091312134146002.png",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021091312070795322.png",
+          "https://eshopfile.zhiyousx.com/2021091312015083544.png",
+          "https://eshopfile.zhiyousx.com/2021091312005873168.jpg",
+          "https://eshopfile.zhiyousx.com/2021091312010586107.jpg",
+          "https://eshopfile.zhiyousx.com/2021091312024074375.png",
+          "https://eshopfile.zhiyousx.com/2021091312081168016.png"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      },
+      {
+        "originId": "1433719458492428290",
+        "originType": "1",
+        "originName": "唐高宗与武则天乾陵博物馆",
+        "originSubtitleName": "中国陵墓博物馆",
+        "originUrl": "https://eshopfile.zhiyousx.com/2021090316215288844.jpg",
+        "originAssistUrlList": [
+          "https://eshopfile.zhiyousx.com/2021090609141076605.jpg",
+          "https://eshopfile.zhiyousx.com/2021090609194757763.jpg",
+          "https://eshopfile.zhiyousx.com/2021090609195644265.jpg",
+          "https://eshopfile.zhiyousx.com/2021090609200681623.jpg"
+        ],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "15",
+    "favoriteSum": null,
+    "personalInfoValue": "0/15"
+  },
+  "msg": "成功",
+  "success": true
+}

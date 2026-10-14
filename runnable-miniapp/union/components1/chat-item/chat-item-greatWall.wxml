@@ -25,7 +25,7 @@
                                     <view class="card-item-count">
                                         <view bindtap="__e" class="card-item-box" data-event-opts="{{[ [ 'tap',[ [ 'scenicDetails',['$0'],[ [ ['item.list','id',el.$orig.id] ] ] ] ] ] ]}}" style="{{'margin-right:'+(i<el.g1-1?'20rpx':'0')+';'}}" wx:for="{{$root.l1}}" wx:for-index="i" wx:for-item="el" wx:key="id">
                                             <view class="card-type">景区</view>
-                                            <image class="card-image" lazyLoad="false" mode="aspectFill" src="{{el.$orig.mainPic||'https://eshopfile.zhiyousx.com/176887728961540681.png'}}"></image>
+                                            <image class="card-image" lazyLoad="false" mode="aspectFill" src="{{el.$orig.mainPic||'/static/captured/200e3d1b915af6be.png'}}"></image>
                                             <view class="card-name">{{''+el.$orig.name+''}}</view>
                                             <view class="tag-item-box parent" wx:if="{{el.g2}}">
                                                 <view class="tag-item child" wx:if="{{index<3}}" wx:for="{{el.l0}}" wx:for-item="ele" wx:key="index">{{ele+''}}</view>
@@ -38,13 +38,13 @@
                             <scroll-view class="list-scroll" scrollX="true" style="width:100%;margin-top:30rpx;" wx:if="{{$root.g3}}">
                                 <view class="scrollItem" wx:for="{{item.spotList}}" wx:for-index="i" wx:for-item="el" wx:key="i">
                                     <view class="spotCard">
-                                        <image class="spotImg" lazyLoad="false" mode="aspectFill" src="{{el.picUrl||'https://eshopfile.zhiyousx.com/176887728961540681.png'}}"></image>
+                                        <image class="spotImg" lazyLoad="false" mode="aspectFill" src="{{el.picUrl||'/static/captured/200e3d1b915af6be.png'}}"></image>
                                         <view class="spotInfo">
                                             <view class="spotName singleLineText">{{''+(lang=='zh'?el.chinese.name:el.english.name)+''}}</view>
                                             <view class="spotDescription">{{''+(lang=='zh'?el.chinese.introductionText:el.english.introductionText)+''}}</view>
                                             <view class="bottom">
                                                 <view class="distance">
-                                                    <image src="https://eshopfile.zhiyousx.com/176828424779990785.png"></image>{{''+el.distance+'m'}}</view>
+                                                    <image src="/static/captured/5fa6cec6cd17b2ed.png"></image>{{''+el.distance+'m'}}</view>
                                                 <view bindtap="__e" class="jumpBtn" data-event-opts="{{[ [ 'tap',[ [ 'gotoMap',['$0'],[ [ ['item.spotList','',i] ] ] ] ] ] ]}}">{{''+(lang=='zh'?'去这里':'Jump Here')+''}}</view>
                                             </view>
                                         </view>
@@ -57,13 +57,13 @@
                             <scroll-view class="list-scroll" scrollX="true" style="width:100%;margin-top:30rpx;" wx:if="{{$root.g4}}">
                                 <view class="scrollItem" wx:for="{{item.scenicList}}" wx:for-index="i" wx:for-item="el" wx:key="i">
                                     <view class="spotCard">
-                                        <image class="spotImg" lazyLoad="false" mode="aspectFill" src="{{el.picUrl||'https://eshopfile.zhiyousx.com/176887728961540681.png'}}"></image>
+                                        <image class="spotImg" lazyLoad="false" mode="aspectFill" src="{{el.picUrl||'/static/captured/200e3d1b915af6be.png'}}"></image>
                                         <view class="spotInfo">
                                             <view class="spotName singleLineText">{{''+(lang=='zh'?el.chinese.name:el.english.name)+''}}</view>
                                             <view class="spotDescription">{{''+(lang=='zh'?el.chinese.introductionText:el.english.introductionText)+''}}</view>
                                             <view class="bottom">
                                                 <view class="distance">
-                                                    <image src="https://eshopfile.zhiyousx.com/176828424779990785.png"></image>{{''+el.distance+'m'}}</view>
+                                                    <image src="/static/captured/5fa6cec6cd17b2ed.png"></image>{{''+el.distance+'m'}}</view>
                                                 <view bindtap="__e" class="jumpBtn" data-event-opts="{{[ [ 'tap',[ [ 'gotoMap',['$0'],[ [ ['item.scenicList','',i] ] ] ] ] ] ]}}">{{''+(lang=='zh'?'去这里':'Jump Here')+''}}</view>
                                             </view>
                                         </view>
@@ -73,13 +73,13 @@
                             <scroll-view class="list-scroll" scrollX="true" style="width:100%;margin-top:30rpx;" wx:if="{{$root.g5}}">
                                 <view class="scrollItem" wx:for="{{item.foodList}}" wx:for-index="i" wx:for-item="el" wx:key="i">
                                     <view class="spotCard">
-                                        <image class="spotImg" lazyLoad="false" mode="aspectFill" src="{{el.picUrl||'https://eshopfile.zhiyousx.com/176887728961540681.png'}}"></image>
+                                        <image class="spotImg" lazyLoad="false" mode="aspectFill" src="{{el.picUrl||'/static/captured/200e3d1b915af6be.png'}}"></image>
                                         <view class="spotInfo">
                                             <view class="spotName singleLineText">{{''+(lang=='zh'?el.chinese.name:el.english.name)+''}}</view>
                                             <view class="spotDescription">{{''+(lang=='zh'?el.chinese.introductionText:el.english.introductionText)+''}}</view>
                                             <view class="bottom">
                                                 <view class="distance">
-                                                    <image src="https://eshopfile.zhiyousx.com/176828424779990785.png"></image>{{''+el.distance+'m'}}</view>
+                                                    <image src="/static/captured/5fa6cec6cd17b2ed.png"></image>{{''+el.distance+'m'}}</view>
                                                 <view bindtap="__e" class="jumpBtn" data-event-opts="{{[ [ 'tap',[ [ 'gotoMap',['$0'],[ [ ['item.foodList','',i] ] ] ] ] ] ]}}">{{''+(lang=='zh'?'去这里':'Jump Here')+''}}</view>
                                             </view>
                                         </view>
@@ -89,13 +89,13 @@
                             <scroll-view class="list-scroll" scrollX="true" style="width:100%;margin-top:30rpx;" wx:if="{{$root.g6}}">
                                 <view class="scrollItem" wx:for="{{item.storeList}}" wx:for-index="i" wx:for-item="el" wx:key="i">
                                     <view class="spotCard">
-                                        <image class="spotImg" lazyLoad="false" mode="aspectFill" src="{{el.picUrl||'https://eshopfile.zhiyousx.com/176887728961540681.png'}}"></image>
+                                        <image class="spotImg" lazyLoad="false" mode="aspectFill" src="{{el.picUrl||'/static/captured/200e3d1b915af6be.png'}}"></image>
                                         <view class="spotInfo">
                                             <view class="spotName singleLineText">{{''+(lang=='zh'?el.chinese.name:el.english.name)+''}}</view>
                                             <view class="spotDescription">{{''+(lang=='zh'?el.chinese.introductionText:el.english.introductionText)+''}}</view>
                                             <view class="bottom">
                                                 <view class="distance">
-                                                    <image src="https://eshopfile.zhiyousx.com/176828424779990785.png"></image>{{''+el.distance+'m'}}</view>
+                                                    <image src="/static/captured/5fa6cec6cd17b2ed.png"></image>{{''+el.distance+'m'}}</view>
                                                 <view bindtap="__e" class="jumpBtn" data-event-opts="{{[ [ 'tap',[ [ 'gotoMap',['$0'],[ [ ['item.storeList','',i] ] ] ] ] ] ]}}">{{''+(lang=='zh'?'去这里':'Jump Here')+''}}</view>
                                             </view>
                                         </view>
@@ -116,10 +116,10 @@
                                 <view class="warning-content">{{''+(lang=='zh'?'根据两个小时内的各个登城口的客流数据，建议您从'+item.warningData.entrance+'登城人流较少！':'Based on the passenger flow data within two hours, we recommend that you go to '+item.warningData.entrance+' for a more comfortable experience.')+''}}<view class="warning-card" wx:for="{{$root.l2}}" wx:for-index="i" wx:for-item="el" wx:key="i">
                                         <view class="warning-card-title">{{''+el.$orig.inDoor+''}}</view>
                                         <view class="warning-card-status">
-                                            <image src="https://eshopfile.zhiyousx.com/176827210415148032.png" style="width:26rpx;height:26rpx;margin-right:4rpx;"></image>{{''+(lang=='zh'?'客流状态：':'Flow Statu：')+''}}<image src="https://eshopfile.zhiyousx.com/176853115083756171.png" wx:if="{{el.$orig.status=='舒适'}}"></image>
+                                            <image src="/static/captured/e62b3dacdbe516f6.png" style="width:26rpx;height:26rpx;margin-right:4rpx;"></image>{{''+(lang=='zh'?'客流状态：':'Flow Statu：')+''}}<image src="/static/captured/7a7aec6a291decca.png" wx:if="{{el.$orig.status=='舒适'}}"></image>
                                             <block wx:else>
-                                                <image src="https://eshopfile.zhiyousx.com/176853117961861483.png" wx:if="{{el.$orig.status=='拥挤'}}"></image>
-                                                <image src="https://eshopfile.zhiyousx.com/176853118997634751.png" wx:else></image>
+                                                <image src="/static/captured/dcc4c04ddd55b6aa.png" wx:if="{{el.$orig.status=='拥挤'}}"></image>
+                                                <image src="/static/captured/8f4300fb9c563bd0.png" wx:else></image>
                                             </block>
                                             <text class="{{[el.$orig.status=='舒适'?'green':'',el.$orig.status=='拥挤'?'yellow':'',el.$orig.status=='爆满'?'red':'']}}">{{el.m0}}</text>
                                             <view bindtap="__e" class="jumpBtn" data-event-opts="{{[ [ 'tap',[ [ 'gotoMap',['$0'],[ [ ['item.warningData.pointDataVOList','',i] ] ] ] ] ] ]}}">{{''+(lang=='zh'?'去这里':'Jump')+''}}</view>
@@ -130,7 +130,7 @@
                             <block wx:if="{{item.posture}}">
                                 <view class="posture-txt">{{lang=='zh'?'为您推荐拍照出片指南，简单几步拍得更好看。':'Recommend photo pose guide to make your photo look better.'}}</view>
                                 <view bindtap="__e" class="posture-btn" data-event-opts="{{[ [ 'tap',[ [ 'goPhotoPose',['$event'] ] ] ] ]}}">
-                                    <image src="https://eshopfile.zhiyousx.com/176830222433171455.png"></image>{{''+(lang=='zh'?'拍照姿势':'Photo Pose')+''}}</view>
+                                    <image src="/static/captured/d60209c844a4f352.png"></image>{{''+(lang=='zh'?'拍照姿势':'Photo Pose')+''}}</view>
                             </block>
                         </view>
                     </view>

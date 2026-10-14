@@ -4,7 +4,7 @@
         <view class="form-card-title data-v-29009bda">
             <view class="form-card-title-text data-v-29009bda">{{''+title+''}}</view>
             <view bindtap="__e" class="form-card-title-icon data-v-29009bda" data-event-opts="{{[ [ 'tap',[ [ 'openEditTitle',['$event'] ] ] ] ]}}">
-                <image mode class="data-v-29009bda" src="https://eshopfile.zhiyousx.com/175670894463810613.png"></image>
+                <image mode class="data-v-29009bda" src="/static/captured/c0aa6017b8f52cfb.png"></image>
             </view>
         </view>
         <view class="form-card-content data-v-29009bda">{{''+travelContent+''}}</view>
@@ -12,7 +12,7 @@
     <view bindtap="__e" class="form-btn data-v-29009bda" data-event-opts="{{[ [ 'tap',[ ['goLoadPage'] ] ] ]}}">开启生成攻略</view>
     <uni-popup bind:__l="__l" class="data-v-29009bda vue-ref" data-ref="editTitlePopup" type="center" vueId="23a001c7-2" vueSlots="{{['default']}}">
         <view class="edit-title-popup data-v-29009bda">
-            <view class="popup-title data-v-29009bda">标题编辑<image bindtap="__e" class="data-v-29009bda" data-event-opts="{{[ [ 'tap',[ [ 'closeEditTitle',['$event'] ] ] ] ]}}" src="https://eshopfile.zhiyousx.com/175706012529278173.png"></image>
+            <view class="popup-title data-v-29009bda">标题编辑<image bindtap="__e" class="data-v-29009bda" data-event-opts="{{[ [ 'tap',[ [ 'closeEditTitle',['$event'] ] ] ] ]}}" src="/static/captured/bf2ca942015a5264.png"></image>
             </view>
             <input bindblur="__e" bindinput="__e" class="popup-input data-v-29009bda" data-event-opts="{{[ [ 'input',[ [ '__set_model',[ '','tempTitle','$event',[] ] ],[ 'onTitleInput',['$event'] ] ] ],[ 'blur',[ [ 'onTitleBlur',['$event'] ] ] ] ]}}" maxlength="{{15}}" placeholder="请输入标题" value="{{tempTitle}}"></input>
             <view class="char-count data-v-29009bda">{{$root.g0+'/15'}}</view>

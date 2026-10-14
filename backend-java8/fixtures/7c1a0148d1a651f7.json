@@ -1,0 +1,42 @@
+{
+  "code": 1,
+  "data": {
+    "id": "2008742312194002946",
+    "contentId": "2008742312156254210",
+    "rankingName": "陕西古建禅韵",
+    "rankingClass": "1",
+    "rankingType": "1",
+    "rankingMainPictureUrl": "https://eshopfile.zhiyousx.com/176775645182319110.jpg",
+    "rankingDescribe": "佛塔梵音 探访陕西古建寺庙之美",
+    "rankingTotalUserData": "人喜爱",
+    "rankingInclude": "个目的地",
+    "rankingPersonalInfo": "我去过的目的地",
+    "rankingSharePictureUrl": "",
+    "bottomColour": "#D98D39",
+    "tagUrl": null,
+    "travelMapFlag": null,
+    "type": "7",
+    "rankingItemList": [
+      {
+        "originId": "2005484496217886721",
+        "originType": "1",
+        "originName": "大兴国禅寺",
+        "originSubtitleName": "玄奘法师西行取经的启程之地",
+        "originUrl": "https://eshopfile.zhiyousx.com/2025122911482220386.jpg",
+        "originAssistUrlList": [],
+        "sort": null,
+        "favoriteValue": null,
+        "isBookable": false,
+        "favoriteSum": null,
+        "isFavorite": null,
+        "price": null,
+        "retailPrice": null
+      }
+    ],
+    "sumCount": "11",
+    "favoriteSum": null,
+    "personalInfoValue": "0/11"
+  },
+  "msg": "成功",
+  "success": true
+}
